@@ -1,4 +1,4 @@
-function generator$pathfinder$catfolks() {
+export default function catfolks() {
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['br', 'c', 'cr', 'dr', 'f', 'g', 'gr', 'j', 'k', 'kr', 'm', 'n', 'p', 'pr', 'q', 'qr', 'r', 't', 'z'];
   const nm2 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'y', 'y', 'ou', 'au', 'ei'];

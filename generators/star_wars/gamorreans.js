@@ -1,4 +1,4 @@
-function generator$star_wars$gamorreans() {
+export default function gamorreans() {
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['', '', '', '', '', 'b', 'bl', 'bn', 'br', 'c', 'd', 'dr', 'g', 'gh', 'gl', 'gr', 'grr', 'grt', 'h', 'j', 'k', 'kl', 'kr', 'l', 'm', 'n', 'p', 'r', 'sc', 'sh', 'sl', 'sn', 'sq', 'st', 't', 'th', 'tr', 'v', 'vr', 'w', 'x', 'z'];
   const nm2 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'ea', 'eu', 'au', 'ee', 'oo', 'uu', 'ou', 'ua'];

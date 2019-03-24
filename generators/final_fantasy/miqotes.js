@@ -1,4 +1,4 @@
-function generator$final_fantasy$miqotes() {
+export default function miqotes() {
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['A\'', 'B\'', 'C\'', 'D\'', 'E\'', 'F\'', 'G\'', 'H\'', 'I\'', 'J\'', 'K\'', 'L\'', 'M\'', 'N\'', 'O\'', 'P\'', 'Q\'', 'R\'', 'S\'', 'T\'', 'U\'', 'V\'', 'W\'', 'X\'', 'Y\'', 'Z\''];
   const nm2 = ['b', 'c', 'd', 'f', 'g', 'j', 'k', 'l', 'm', 'n', 'p', 'q', 'r', 's', 't', 'v', 'w', 'x', 'y', 'z'];

@@ -1,4 +1,4 @@
-function generator$towns_and_cities$orcish_citys() {
+export default function orcish_citys() {
   const nm1 = ['', '', '', '', '', 'b', 'br', 'bh', 'ch', 'd', 'dr', 'dh', 'g', 'gr', 'gh', 'k', 'kr', 'kh', 'l', 'm', 'n', 'q', 'r', 'v', 'z', 'vr', 'zr'];
   const nm2 = ['a', 'e', 'i', 'o', 'u', 'a', 'o', 'u'];
   const nm3 = ['b', 'cc', 'd', 'dd', 'gg', 'g', 'r', 'rr', 'z', 'zz', 'b', 'cc', 'd', 'dd', 'gg', 'g', 'r', 'rr', 'z', 'zz', 'br', 'cr', 'dr', 'dg', 'dz', 'dgr', 'dk', 'gr', 'gh', 'gk', 'gz', 'gm', 'gn', 'gv', 'lb', 'lg', 'lgr', 'ldr', 'lbr', 'lk', 'lz', 'mm', 'rg', 'rm', 'rdr', 'rbr', 'rd', 'rk', 'rkr', 'rgr', 'rz', 'shb', 'shn', 'zg', 'zgr', 'zd', 'zr', 'zdr'];

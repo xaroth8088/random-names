@@ -1,4 +1,4 @@
-function generator$pathfinder$kobolds() {
+export default function kobolds() {
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['', '', '', '', '', 'br', 'cr', 'dr', 'd', 'dh', 'g', 'gh', 'gr', 'j', 'k', 'm', 'n', 'q', 'qr', 'r', 'rh', 'v', 'vr', 'vh', 'z'];
   const nm2 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'i', 'o', 'a', 'i', 'o', 'aa', 'ea', 'oo', 'ee'];

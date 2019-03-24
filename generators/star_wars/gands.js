@@ -1,4 +1,4 @@
-function generator$star_wars$gands() {
+export default function gands() {
   const nm1 = ['', '', 'c', 'c\'n', 'd', 'd\'k', 'k', 'l', 'n', 'r\'k', 'r', 's', 's\'z', 't', 't\'r', 'v', 'v\'l', 'z'];
   const nm2 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'y', 'y', 'aa', 'oo', 'uu', 'ee', 'ay', 'ai', 'ey', 'ya', 'yu', 'yi'];
   const nm3 = ['b', 'ck', 'd', 'dn', 'ff', 'fn', 'fl', 'g', 'gn', 'gl', 'k', 'kk', 'kn', 'kl', 'l', 'll', 'ln', 'ls', 'ld', 'nl', 'nf', 'q', 'r', 'rn', 'rl', 's', 'ss', 'sl', 'ssl', 't', 'z', 'zl'];

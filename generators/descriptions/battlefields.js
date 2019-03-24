@@ -1,4 +1,4 @@
-function generator$descriptions$battlefields() {
+export default function battlefields() {
   const nm1 = ['field', 'forest', 'farm field', 'beach', 'village', 'town', 'city'];
   const nm2 = ['bodies', 'blood', 'gore', 'suits', 'weapons', 'shells', 'carnage', 'wounded fighters', 'destruction'];
   const nm3 = ['pink', 'silver', 'brown', 'blue', 'black', 'gray', 'khaki'];

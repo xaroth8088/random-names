@@ -1,4 +1,4 @@
-function generator$miscellaneous$magazines() {
+export default function magazines() {
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm2 = ['Chronicle', 'Daily', 'Digest', 'Focus', 'Gazette', 'Guide', 'Illustrated', 'Journal', 'Life', 'Magazine', 'Monthly', 'Monthly Magazine', 'Report', 'Reports', 'Review', 'Times', 'Today', 'Week', 'Weekly', 'Weekly Magazine', 'Magazine', 'Magazine'];
 

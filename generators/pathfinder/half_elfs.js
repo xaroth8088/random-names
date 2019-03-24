@@ -1,4 +1,4 @@
-function generator$pathfinder$half_elfs() {
+export default function half_elfs() {
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['', '', '', '', '', 'b', 'c', 'd', 'g', 'h', 'j', 'jh', 'k', 'kh', 'kr', 'l', 'm', 'n', 'p', 'q', 'r', 's', 't', 'tr', 'v', 'vr', 'z', 'zr'];
   const nm2 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'y', 'y', 'y', 'ai', 'ae', 'ia', 'ue', 'ie', 'ui'];

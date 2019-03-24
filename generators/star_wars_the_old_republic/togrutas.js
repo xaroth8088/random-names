@@ -1,4 +1,4 @@
-function generator$star_wars_the_old_republic$togrutas() {
+export default function togrutas() {
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm0 = ['', '', '', '', '', '', '', '', '', 'a', 'o', 'u'];
   const nm1 = ['b', 'c', 'd', 'h', 'k', 'm', 'r', 's', 't', 'v', 'z'];

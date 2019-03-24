@@ -1,4 +1,4 @@
-function generator$star_wars$duross() {
+export default function duross() {
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['', '', '', 'c', 'd', 'f', 'g', 'h', 'j', 'l', 'm', 'n', 'r', 's', 'z'];
   const nm2 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'ei', 'aa', 'ai', 'oo'];

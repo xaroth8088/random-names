@@ -1,4 +1,4 @@
-function generator$star_wars$kel_dors() {
+export default function kel_dors() {
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['', '', '', '', '', 'b', 'ch', 'd', 'gn', 'h', 'j', 'k', 'n', 'p', 'pl', 'r', 's', 'sh', 't', 'tr', 'v', 'w', 'x', 'y', 'z'];
   const nm2 = ['a', 'e', 'i', 'o', 'u', 'a', 'o', 'y', 'a', 'e', 'i', 'o', 'u', 'a', 'o', 'y', 'a', 'o', 'a', 'e', 'i', 'o', 'u', 'a', 'o', 'y', 'a', 'e', 'i', 'o', 'u', 'a', 'o', 'y', 'a', 'o', 'ee', 'aa', 'oo', 'ia', 'ea'];

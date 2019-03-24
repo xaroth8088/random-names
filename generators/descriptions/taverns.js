@@ -1,4 +1,4 @@
-function generator$descriptions$taverns() {
+export default function taverns() {
   const type = Math.random();
   let names1 = ['welcoming', 'cozy', 'inviting', 'warm', 'cheerful', 'snug', 'delightful', 'well maintained', 'clean', 'homey', 'folksy', 'pleasant', 'intimate', 'rustic', 'modest', 'humble', 'peaceful', 'beautiful', 'enchanting', 'cheerful'];
   const names2 = ['Bricks', 'Clay', 'Clay bricks', 'Hardwooden planks', 'Large and small stones', 'Large stones', 'Logs', 'Plastered walls', 'Sandstone bricks', 'Small stones', 'Softwood', 'Softwooden planks', 'Stacked boulders', 'Stacked stones', 'Timber'];

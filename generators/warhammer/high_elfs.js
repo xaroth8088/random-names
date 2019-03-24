@@ -1,4 +1,4 @@
-function generator$warhammer$high_elfs() {
+export default function high_elfs() {
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm = ['Bel-', '', '', '', ''];
   const nm1 = ['', '', '', '', '', 'c', 'd', 'f', 'g', 'gh', 'h', 'k', 'm', 's', 'sh', 't', 'th', 'v', 'z'];

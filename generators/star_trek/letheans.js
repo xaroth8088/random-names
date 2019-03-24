@@ -1,4 +1,4 @@
-function generator$star_trek$letheans() {
+export default function letheans() {
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['b', 'c', 'd', 'g', 'j', 'k', 'l', 'm', 'n', 'q', 'r', 's', 't', 'tr', 'v', 'z', '', ''];
   const nm2 = ['oi', 'ao', 'ui', 'ei', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u'];

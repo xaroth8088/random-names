@@ -1,4 +1,4 @@
-function generator$the_witcher$dwarfs() {
+export default function dwarfs() {
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['', '', '', '', '', 'b', 'bl', 'br', 'c', 'cr', 'd', 'dh', 'f', 'fl', 'g', 'gr', 'j', 'k', 'kr', 'l', 'm', 'p', 'r', 'rh', 'shr', 'sk', 'sh', 'th', 't', 'v', 'w', 'x', 'y', 'z', 'zh'];
   const nm2 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'ie', 'au', 'ia', 'ei', 'ou'];

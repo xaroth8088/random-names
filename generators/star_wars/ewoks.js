@@ -1,4 +1,4 @@
-function generator$star_wars$ewoks() {
+export default function ewoks() {
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['', '', 'b', 'ch', 'c', 'd', 'gr', 'g', 'k', 'kr', 'l', 'm', 'n', 'p', 'r', 't', 'tr', 'w'];
   const nm2 = ['a', 'e', 'i', 'a', 'e', 'i', 'a', 'e', 'i', 'a', 'e', 'i', 'ee', 'oo', 'aa', 'y'];

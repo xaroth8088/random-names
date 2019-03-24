@@ -1,4 +1,4 @@
-function generator$pathfinder$sylphs() {
+export default function sylphs() {
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['', '', '', '', '', 'c', 'd', 'f', 'g', 'h', 'j', 'l', 'm', 'n', 's', 'v', 'w', 'z'];
   const nm2 = ['a', 'e', 'i', 'u', 'a', 'e', 'i', 'u', 'a', 'e', 'i', 'u', 'a', 'e', 'i', 'u', 'a', 'e', 'i', 'u', 'aa', 'uu', 'ii'];

@@ -1,4 +1,4 @@
-function generator$wildstar$wildstar_aurins() {
+export default function wildstar_aurins() {
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['', '', '', 'd', 'f', 'g', 'h', 'l', 'm', 'n', 's', 'r', 't', 'v'];
   const nm2 = ['a', 'e', 'i', 'y'];

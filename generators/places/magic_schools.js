@@ -1,4 +1,4 @@
-function generator$places$magic_schools() {
+export default function magic_schools() {
   const names1 = ['a', 'e', 'i', 'o', 'u', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', ''];
   const names2 = ['b', 'd', 'k', 'l', 'm', 'n', 'p', 'r', 's', 't', 'b', 'd', 'f', 'g', 'h', 'k', 'l', 'm', 'n', 'p', 'r', 's', 't', 'v', 'w', 'y', 'z', 'br', 'dr', 'gr', 'kr', 'pr', 'str', 'tr', 'bl', 'cl', 'fl', 'gl', 'kl', 'pl', 'sl'];
   const names3 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'ae', 'ea', 'ou', 'au', 'a', 'e', 'o'];

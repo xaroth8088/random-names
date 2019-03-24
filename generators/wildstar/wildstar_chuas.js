@@ -1,4 +1,4 @@
-function generator$wildstar$wildstar_chuas() {
+export default function wildstar_chuas() {
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['b', 'd', 'f', 'g', 'j', 'm', 'n', 'r', 'sh', 't', 'th', 'v', 'x', 'z'];
   const nm2 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'ao', 'oa', 'ia', 'ee', 'ua'];

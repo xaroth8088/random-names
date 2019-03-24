@@ -1,4 +1,4 @@
-function generator$legend_of_zelda$zoras() {
+export default function zoras() {
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['', '', '', '', '', 'h', 'j', 'k', 'm', 'n', 'p', 't', 'v', 'z'];
   const nm2 = ['a', 'i', 'o', 'e'];

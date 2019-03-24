@@ -1,4 +1,4 @@
-function generator$star_trek$bajorans() {
+export default function bajorans() {
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['b', 'c', 'd', 'f', 'g', 'h', 'j', 'k', 'l', 'm', 'n', 'p', 'r', 's', 't', 'v', 'w', 'y', 'z', 'b', 'c', 'd', 'f', 'g', 'h', 'j', 'k', 'l', 'm', 'n', 'p', 'r', 's', 't', 'v', 'w', 'y', 'z', 'ch', 'sh', 'br', 'pr', 'tr', 'dr', 'kr', 'vr', '', '', '', '', '', '', '', '', '', '', '', '', '', '', ''];
   const nm2 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'aa', 'ee'];

@@ -1,4 +1,4 @@
-function generator$star_wars_the_old_republic$cathars() {
+export default function cathars() {
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['', '', 'a', 'u', 'y', 'i'];
   const nm2 = ['c', 'cr', 'h', 'kh', 'm', 'n', 'r', 's', 't', 'x'];

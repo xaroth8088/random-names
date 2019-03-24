@@ -1,4 +1,4 @@
-function generator$halo$mgalekgolos() {
+export default function mgalekgolos() {
   const nm1 = ['b', 'd', 'f', 'g', 'h', 'k', 'l', 'm', 'n', 'p', 'r', 's', 't', 'w', 'x', 'y', '', '', '', '', '', '', '', '', ''];
   const nm2 = ['a', 'e', 'u', 'i', 'o'];
   const nm3 = ['b', 'd', 'f', 'g', 'h', 'k', 'l', 'm', 'n', 'p', 'r', 's', 't', 'w', 'x', 'y'];

@@ -1,4 +1,4 @@
-function generator$pathfinder$elfs() {
+export default function elfs() {
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['', '', '', '', '', 'c', 'd', 'f', 'g', 'h', 'k', 'kr', 'l', 'm', 'n', 's', 't', 'th', 'v', 'z'];
   const nm2 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'a', 'o', 'o', 'e', 'e', 'ae', 'ia', 'ie', 'ea', 'ei', 'io'];

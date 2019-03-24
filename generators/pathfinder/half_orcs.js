@@ -1,4 +1,4 @@
-function generator$pathfinder$half_orcs() {
+export default function half_orcs() {
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['', '', '', 'b', 'br', 'c', 'cr', 'd', 'dr', 'g', 'gr', 'h', 'hr', 'k', 'm', 'n', 'p', 't', 'th', 'ts', 'z'];
   const nm2 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'a', 'o', 'o', 'aa', 'au', 'oa', 'ia', 'ai', 'uu'];

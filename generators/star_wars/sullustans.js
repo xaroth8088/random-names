@@ -1,4 +1,4 @@
-function generator$star_wars$sullustans() {
+export default function sullustans() {
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['', '', '', '', '', '', 'b', 'bl', 'br', 'c', 'd', 'dl', 'dw', 'f', 'fr', 'g', 'gr', 'h', 'j', 'k', 'kr', 'l', 'm', 'n', 'p', 'q', 'r', 's', 't', 'tr', 'v', 'w', 'x', 'z'];
   const nm2 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'au', 'eo', 'ie', 'uu', 'ea', 'ee', 'ia', 'ao', 'ue', 'ae', 'ay', 'y', 'ii', 'ei', 'iu', 'ui', 'oo', 'ua', 'yu'];

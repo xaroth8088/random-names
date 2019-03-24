@@ -1,4 +1,4 @@
-function generator$miscellaneous$instruments() {
+export default function instruments() {
   const names1 = ['a', 'e', 'i', 'o', 'u', '', '', '', '', '', '', '', '', '', ''];
   const names2 = ['b', 'c', 'd', 'f', 'g', 'h', 'j', 'k', 'l', 'm', 'n', 'p', 'q', 'r', 's', 't', 'v', 'w', 'x', 'y', 'z', 'br', 'cr', 'gr', 'pr', 'tr', 'ch', 'bl', 'cl', 'fl', 'gl', 'kl', 'pl', 'sl', 'vl', 'st', 'str'];
   const names3 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'ia', 'ie', 'io', 'ai', 'ea', 'ei', 'eo'];

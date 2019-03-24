@@ -1,4 +1,4 @@
-function generator$descriptions$weapons() {
+export default function weapons() {
   const nm1 = ['fairly large', 'fairly long', 'fairly short', 'fairly small', 'large', 'long', 'short', 'small', 'very long', 'very short'];
   const nm2 = ['thick', 'thin', 'wide', 'narrow', 'slim', 'broad'];
   const nm3 = ['straight', 'smooth', 'slightly curved', 'warped', 'curved', 'jagged', 'barbed'];

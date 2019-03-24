@@ -1,4 +1,4 @@
-function generator$star_trek$pakleds() {
+export default function pakleds() {
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['B', 'D', 'G', 'H', 'K', 'L', 'N', 'M', 'P', 'R'];
   const nm2 = ['a', 'e', 'o', 'i', 'u'];

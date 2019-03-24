@@ -1,4 +1,4 @@
-function generator$star_wars_the_old_republic$siths() {
+export default function siths() {
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['a', 'i', 'o', 'u', 'â', 'û', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', ''];
   const nm2 = ['ch', 'd', 'dz', 'h', 'j', 'k', 'kr', 'kh', 'm', 'n', 'l', 'q', 'r', 'rh', 's', 'sh', 'sr', 't', 'ts', 'w', 'wr', 'wh', 'y', 'z', 'zh', 'zr', 'ch', 'd', 'h', 'j', 'k', 'm', 'n', 'l', 'q', 'r', 's', 't', 'w', 'y', 'z'];

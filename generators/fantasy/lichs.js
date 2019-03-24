@@ -1,4 +1,4 @@
-function generator$fantasy$lichs() {
+export default function lichs() {
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['', '', '', '', '', 'b', 'bh', 'br', 'bz', 'c', 'ch', 'cr', 'cz', 'd', 'dh', 'dr', 'g', 'gh', 'gr', 'h', 'j', 'k', 'kh', 'kr', 'm', 'mh', 'n', 'nh', 'p', 'pr', 'ps', 'ph', 'q', 'qh', 'qr', 'r', 'rh', 's', 'sc', 'sh', 'sk', 'sq', 'sr', 'st', 'str', 'sz', 't', 'th', 'tr', 'ts', 'tz', 'v', 'vh', 'vr', 'x', 'xh', 'z', 'zh'];
   const nm2 = ['a', 'e', 'i', 'o', 'u', 'a', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'o', 'u', 'y', 'y', 'y', 'au', 'aa', 'ae', 'ai', 'ea', 'ee', 'ia', 'oo', 'ou', 'ua'];

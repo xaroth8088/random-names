@@ -1,4 +1,4 @@
-function generator$military$signalese() {
+export default function signalese() {
   const names = ['Ack', 'Beer', 'Charlie', 'Don', 'Edward', 'Freddie', 'Gee', 'Harry', 'Ink', 'Johnnie', 'King', 'London', 'Emma', 'Nuts', 'Oranges', 'Pip', 'Queen', 'Robert', 'Esses', 'Toc', 'Uncle', 'Vic', 'William', 'Xray', 'Yorker', 'Zebra'];
 
   const r1 = Math.floor(Math.random() * names.length);

@@ -1,4 +1,4 @@
-function generator$star_wars$hutts() {
+export default function hutts() {
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['', '', '', '', '', 'b', 'bl', 'br', 'bw', 'c', 'ch', 'd', 'dr', 'f', 'g', 'gl', 'gr', 'h', 'j', 'k', 'kh', 'kl', 'kr', 'l', 'm', 'n', 'p', 'pl', 'pr', 'q', 'r', 's', 'sh', 'sk', 'sm', 'sp', 'sz', 't', 'tr', 'v', 'w', 'wh', 'y', 'z'];
   const nm2 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'aa', 'uu', 'ee', 'io', 'oo', 'eu', 'ua', 'ai', 'oa', 'oe', 'ae'];

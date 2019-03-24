@@ -1,4 +1,4 @@
-function generator$descriptions$towns() {
+export default function towns() {
   const names1 = ['Based', 'Built', 'Cast', 'Constructed', 'Designed', 'Engineered', 'Erected', 'Established', 'Fabricated', 'Forged', 'Formed', 'Found', 'Located', 'Positioned', 'Raised', 'Rooted', 'Set', 'Settled', 'Situated', 'Stationed'];
   const names2 = ['on the Northern side of', 'on the Southern side of', 'on the Western side of', 'on the Eastern side of', 'on the top of', 'on top of', 'on the peak of', 'on the base of', 'on the bottom of', 'on the right side of', 'on the left side of', 'on the light side of', 'on the dark side of', 'on the highest point of', 'on the lowest point of', 'above', 'behind', 'under', 'inside', 'around', 'beside', 'next to', 'in', 'on the end of'];
   const names3 = [' bluff', ' canal', ' canyon', ' cave', ' cavern', ' cliff', ' covert', ' desert', ' field', ' forest', ' geyser field', ' glacier', ' grotto', ' grove', ' hill', 'n island', ' jungle', ' lake', ' lava stream', ' mound', ' mountain', 'n ocean', ' peninsula', ' river', ' sea', ' stream', ' thicket', ' tundra', ' valley', ' vulcano', ' waterfall', ' wetlands', ' woodlands'];

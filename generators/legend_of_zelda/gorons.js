@@ -1,4 +1,4 @@
-function generator$legend_of_zelda$gorons() {
+export default function gorons() {
   const nm1 = ['B', 'D', 'G', 'K', 'M', 'N', 'R', 'T'];
   const nm2 = ['a', 'e', 'i', 'o', 'u', 'a', 'o'];
   const nm3 = ['b', 'br', 'bl', 'd', 'dr', 'dl', 'g', 'gr', 'gl', 'gg', 'g', 'gr', 'gl', 'gg', 'g', 'gr', 'gl', 'gg', 'g', 'gr', 'gl', 'gg', 'l', 'lg', 'lb', 'ld', 'm', 'mr', 'md', 'mb', 'n', 'nd', 'nl', 'nb', 'ng', 'r', 'rb', 'rg', 'rd', 'rk', 'rm', 'rtr', 't', 'z', 'kb', 'kl', 'km', 'kn', 'kd', 'b', 'd', 'g', 'k', 'l', 'm', 'n', 'r', 't', 'z', 'b', 'd', 'g', 'k', 'l', 'm', 'n', 'r', 't', 'z', 'b', 'd', 'g', 'k', 'l', 'm', 'n', 'r', 't', 'z', 'b', 'd', 'g', 'k', 'l', 'm', 'n', 'r', 't', 'z', 'b', 'd', 'g', 'k', 'l', 'm', 'n', 'r', 't', 'z'];

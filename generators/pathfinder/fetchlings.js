@@ -1,4 +1,4 @@
-function generator$pathfinder$fetchlings() {
+export default function fetchlings() {
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['', '', '', 'br', 'dr', 'gr', 'j', 'm', 'n', 'q', 'qr', 'r', 's', 'tr', 'x', 'y', 'z'];
   const nm2 = ['a', 'e', 'i', 'o', 'u'];

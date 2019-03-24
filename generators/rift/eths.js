@@ -1,4 +1,4 @@
-function generator$rift$eths() {
+export default function eths() {
   const type = Math.random() > 0.5 ? 0 : 1;
   if (type === 1) {
     var names1 = ['Aah', 'Ah', 'Amen', 'Amun', 'Ankh', 'Bek', 'Bith', 'Ebon', 'Hal', 'Hab', 'Hem', 'Hon', 'Is', 'Kam', 'Kar', 'Kan', 'Khep', 'Khuns', 'Mak', 'Mad', 'Manet', 'Meh', 'Mer', 'Mukan', 'Mum', 'Naham', 'Nan', 'Nef', 'Nen', 'Nes', 'Nofr', 'Nub', 'Olab', 'Pen', 'Ran', 'Raz', 'Sam', 'San', 'Sen', 'Shen', 'Shan', 'Tam', 'Ten', 'Tet', 'Therm'];

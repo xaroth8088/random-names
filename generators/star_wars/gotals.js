@@ -1,4 +1,4 @@
-function generator$star_wars$gotals() {
+export default function gotals() {
   const nm1 = ['f', 'gl', 'h', 'j', 'k', 'l', 'm', 'n', 's', 't', 'th', 'v', 'vl', 'z'];
   const nm2 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'au', 'aa', 'uu', 'ee'];
   const nm3 = ['\'h', 'hs', 'h\'sh', 'h\'l', 'hx', 'hk', 'hk\'kh', '\'k', 'k', 'kh', '\'kh', '\'l', 'lt', 'p', 'ph', 'r\'ph', 'r', '\'r', 'r\'l', 'rl', 'sk', 's\'kh', 's\'m', 'sl', 'shn', 'sh\'n', 'sh\'m', 'sz', 'shm', 't', 't\'m', 'tm', 'tn', 'tl', 't\'n', 'xs', 'xz'];

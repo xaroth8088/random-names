@@ -1,4 +1,4 @@
-function generator$wildstar$wildstar_granoks() {
+export default function wildstar_granoks() {
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['br', 'd', 'dr', 'g', 'gr', 'j', 'k', 'kr', 'q', 'r', 't', 'v', 'z'];
   const nm2 = ['a', 'e', 'o', 'u'];

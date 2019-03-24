@@ -1,4 +1,4 @@
-function generator$world_of_warcraft$blood_elf() {
+export default function blood_elf() {
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['Aer', 'Aeri', 'Al', 'Ala', 'Ba', 'Bac', 'Bae', 'Baem', 'Baema', 'Be', 'Bem', 'Bema', 'Bi', 'Bit', 'Ca', 'Cae', 'Caem', 'Cam', 'Dra', 'Drae', 'Du', 'Duy', 'Er', 'Eri', 'Ha', 'Hat', 'He', 'Her', 'In', 'Ine', 'Inet', 'It', 'Je', 'Jen', 'Kee', 'Keel', 'Kre', 'Lo', 'Lor', 'Ma', 'Mat', 'Matha', 'Me', 'Mel', 'No', 'Nor', 'Norae', 'Oni', 'Pa', 'Par', 'Pe', 'Per', 'Qu', 'Qui', 'Ra', 'Rah', 'Sa', 'Sae', 'Saet', 'Sat', 'So', 'Ta', 'Tan', 'Vy', 'Vya', 'We', 'Wel', 'Wele', 'Wi', 'Win', 'Ya', 'Yat', 'Za', 'Zae', 'Zan', 'Ze', 'Zel'];
   const nm2 = ['h', 'ha', 'hae', 'hea', 'l', 'la', 'lae', 'le', 'm', 'ma', 'mae', 'me', 'n', 'na', 'nae', 'ne', 'r', 'ra', 'rae', 're', 't', 'th', '', '', '', '', '', '', '', '', '', '', '', '', ''];

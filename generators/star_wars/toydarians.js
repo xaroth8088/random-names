@@ -1,4 +1,4 @@
-function generator$star_wars$toydarians() {
+export default function toydarians() {
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['', '', '', '', '', 'b', 'br', 'd', 'dr', 'f', 'g', 'gl', 'k', 'l', 'm', 'n', 'p', 'q', 'r', 't', 'v', 'w', 'z', 'zl'];
   const nm2 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'oo', 'ua', 'uu', 'ue', 'ey', 'oy'];

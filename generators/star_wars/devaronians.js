@@ -1,4 +1,4 @@
-function generator$star_wars$devaronians() {
+export default function devaronians() {
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['c', 'cr', 'ch', 'g', 'gr', 'h', 'j', 'k', 'l', 'm', 'n', 'r', 's', 't', 'tr', 'v', 'vr', 'z'];
   const nm2 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'au', 'ue', 'ao', 'ei', 'aa'];

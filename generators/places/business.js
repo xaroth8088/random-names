@@ -1,4 +1,4 @@
-function generator$places$business() {
+export default function business() {
   const nm2 = ['Animal Care Center', 'Animal Haven', 'Animal Sanctuary', 'Animal Shelter', 'Exotic Pets', 'Pet Care Center', 'Pet Haven', 'Pet House', 'Pet Land', 'Pet Market', 'Pet Shop', 'Pet Store', 'Pets'];
   const nm4 = ['Animal Grooming', 'Pet Grooming', 'Grooming', 'Pet Parlor', 'Animal Parlor', 'Pet Salon', 'Animal Salon', 'Grooming Spa', 'Animal Health', 'Animal Care', 'Pet Health', 'Pet Care', 'Boutique', 'Animal Boutique', 'Pet Boutique'];
 

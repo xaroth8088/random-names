@@ -1,4 +1,4 @@
-function generator$fantasy$cavemens() {
+export default function cavemens() {
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['', '', '', 'br', 'bh', 'cr', 'd', 'dr', 'dh', 'fr', 'g', 'gr', 'gn', 'gh', 'j', 'kr', 'kh', 'n', 'r', 't', 'v', 'z'];
   const nm2 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'a', 'a', 'o', 'o', 'o', 'ou', 'oo', 'aa', 'oe', 'ua', 'uu', 'ia'];

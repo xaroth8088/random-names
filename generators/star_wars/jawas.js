@@ -1,4 +1,4 @@
-function generator$star_wars$jawas() {
+export default function jawas() {
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['', '', '', '', '', 'b', 'bl', 'brr', 'ch', 'd', 'h', 'hr', 'j', 'k', 'kl', 'kr', 'kt', 'm', 'mn', 'n', 'nb', 'p', 'pl', 'pr', 'r', 'rk', 'sn', 'sq', 't', 'th', 'tt', 'ts', 'v', 'w', 'wr', 'z'];
   const nm2 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'oe', 'ee', 'ii', 'ee', 'ia', 'ui', 'eo'];

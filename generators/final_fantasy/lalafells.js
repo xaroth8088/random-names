@@ -1,4 +1,4 @@
-function generator$final_fantasy$lalafells() {
+export default function lalafells() {
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['b', 'c', 'd', 'f', 'g', 'h', 'j', 'k', 'l', 'm', 'n', 'p', 'q', 'r', 's', 't', 'w', 'y', 'ch', 'sh'];
   const nm2 = ['a', 'e', 'i', 'o', 'u'];

@@ -1,4 +1,4 @@
-function generator$star_wars$rodians() {
+export default function rodians() {
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['', '', '', '', '', '', '', '', '', '', 'b', 'bl', 'br', 'c', 'ch', 'chr', 'cl', 'cr', 'd', 'dh', 'dr', 'dw', 'f', 'fr', 'g', 'gl', 'gr', 'gw', 'h', 'j', 'k', 'kl', 'kn', 'kr', 'l', 'm', 'n', 'p', 'ph', 'pr', 'prw', 'q', 'r', 's', 'sh', 'sk', 'sl', 'sn', 'sp', 'st', 't', 'th', 'tr', 'ts', 'tw', 'v', 'vl', 'vr', 'w', 'x', 'z'];
   const nm2 = ['a', 'o', 'e', 'i', 'a', 'e', 'i', 'o', 'u', 'a', 'o', 'e', 'i', 'a', 'e', 'i', 'o', 'u', 'a', 'o', 'e', 'i', 'a', 'e', 'i', 'o', 'u', 'a', 'o', 'e', 'i', 'a', 'e', 'i', 'o', 'u', 'a', 'o', 'e', 'i', 'a', 'e', 'i', 'o', 'u', 'a', 'o', 'e', 'i', 'a', 'e', 'i', 'o', 'u', 'ee', 'ee', 'ee', 'ee', 'ee', 'ee', 'ee', 'ee', 'ee', 'ee', 'ee', 'ee', 'ee', 'aa', 'ei', 'oi', 'oo', 'ii', 'iu', 'ae', 'ea', 'ou', 'uu', 'ya', 'ye', 'yi', 'ua', 'ae', 'ay', 'ey', 'ei'];

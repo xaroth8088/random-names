@@ -1,4 +1,4 @@
-function generator$pathfinder$ratfolks() {
+export default function ratfolks() {
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['', '', '', '', '', '', '', 'b', 'br', 'c', 'cr', 'ch', 'd', 'dr', 'dj', 'g', 'gr', 'gn', 'gl', 'j', 'k', 'kr', 'kv', 'kn', 'm', 'n', 'p', 'pr', 'r', 's', 'st', 'sr', 'skr', 'sc', 'scr', 'sk', 't', 'tr', 'v', 'vr', 'z', 'zr'];
   const nm2 = ['a', 'e', 'i', 'o', 'a', 'e', 'i'];

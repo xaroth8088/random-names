@@ -1,4 +1,4 @@
-function generator$destiny$cabals() {
+export default function cabals() {
   const nm1 = ['d', 'dh', 'g', 'gh', 'k', 'kh', 'm', 'n', 'sh', 't', 'th', 'tl', 'v', 'z', 'zh'];
   const nm2 = ['a\'au', 'au\'ua', 'o\'ou', 'u\'u', 'u\'ua', 'u\'uo', 'ua\'au'];
   const nm2b = ['a', 'o', 'u'];

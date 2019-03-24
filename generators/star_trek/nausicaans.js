@@ -1,4 +1,4 @@
-function generator$star_trek$nausicaans() {
+export default function nausicaans() {
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['', '', 'b', 'ch', 'd', 'dg', 'gh', 'g', 'gr', 'h', 'j', 'k', 'kl', 'lh', 'l', 'm', 'n', 'p', 'r', 's', 'sh', 'st', 't', 'th', 'tl', 'tr', 'v', 'x', 'y', 'z'];
   const nm2 = ['ae', 'ee', 'ei', 'ou', 'uu', 'a', 'e', 'i', 'o', 'u'];

@@ -1,4 +1,4 @@
-function generator$star_trek$saurians() {
+export default function saurians() {
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['', 'd', 'g', 'j', 'k', 'kr', 'm', 'n', 'pl', 'r', 'st', 't', 'y', 'z'];
   const nm2 = ['a', 'e', 'i', 'o', 'u'];

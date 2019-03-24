@@ -1,4 +1,4 @@
-function generator$star_wars$gungans() {
+export default function gungans() {
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['', '', '', '', 'b', 'bl', 'br', 'c', 'cr', 'cl', 'd', 'f', 'fl', 'fr', 'g', 'h', 'j', 'k', 'kl', 'kr', 'l', 'm', 'n', 'p', 'r', 's', 'sk', 't', 'w', 'y', 'z'];
   const nm2 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'oo', 'oe', 'ee', 'ie', 'ue', 'ia', 'au'];

@@ -1,4 +1,4 @@
-function generator$game_of_thrones$summer_islanders() {
+export default function summer_islanders() {
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['B', 'Bh', 'D', 'J', 'M', 'S', 'T', 'X', 'Xh', 'Z', 'Zh'];
   const nm2 = ['a', 'o', 'a'];

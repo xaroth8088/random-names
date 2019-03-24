@@ -1,4 +1,4 @@
-function generator$pathfinder$gnomes() {
+export default function gnomes() {
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['', '', '', '', 'b', 'br', 'c', 'ch', 'd', 'dr', 'f', 'g', 'gr', 'h', 'k', 'kr', 'n', 'p', 'q', 'r', 'shm', 't', 'tr', 'v', 'vr', 'z'];
   const nm2 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'ie', 'iu', 'ou', 'ee', 'uo', 'ua'];

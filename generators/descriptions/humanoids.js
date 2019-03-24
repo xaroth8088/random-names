@@ -1,4 +1,4 @@
-function generator$descriptions$humanoids() {
+export default function humanoids() {
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['Two', 'Two', 'Two', 'Three', 'Four', 'Two'];
   const nm2 = ['beady', 'broad', 'bug-eyed', 'clear', 'close-set', 'dead', 'doe-eyed', 'enormous', 'giant', 'glassy', 'glowing', 'heavy', 'hollow', 'hooded', 'large', 'narrow', 'shiny', 'shuttered', 'small', 'sunken', 'thin', 'tiny', 'wide'];

@@ -1,4 +1,4 @@
-function generator$star_wars$korunnais() {
+export default function korunnais() {
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['', '', '', '', 'b', 'br', 'd', 'g', 'gr', 'k', 'l', 'm', 'n', 'pr', 'r', 's', 't', 'th', 'tr', 'v', 'z'];
   const nm2 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'io', 'ii', 'ou'];

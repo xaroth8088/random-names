@@ -1,4 +1,4 @@
-function generator$warhammer$dark_elfs() {
+export default function dark_elfs() {
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['c', 'd', 'g', 'k', 'l', 'm', 'n', 'q', 'r', 't', 'v'];
   const nm2 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'ou', 'au'];

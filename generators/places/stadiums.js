@@ -1,4 +1,4 @@
-function generator$places$stadiums() {
+export default function stadiums() {
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm2 = ['Stadium', 'Bowl', 'Park', 'Arena', 'Centre', 'Ring', 'Field', 'Ground'];
 

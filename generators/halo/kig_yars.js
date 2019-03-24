@@ -1,4 +1,4 @@
-function generator$halo$kig_yars() {
+export default function kig_yars() {
   const nm1 = ['a', 'e', 'i', 'o', 'u'];
   const nm2 = ['b', 'c', 'd', 'g', 'j', 'n', 'k', 'm', 'r', 't', 'th', 'y', 'z', 'zh'];
   const nm3 = ['b', 'c', 'd', 'g', 'k', 'm', 'n', 'p', 'q', 'r', 'th', 'x', 'z'];

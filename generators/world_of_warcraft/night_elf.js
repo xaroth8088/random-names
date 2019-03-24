@@ -1,4 +1,4 @@
-function generator$world_of_warcraft$night_elf() {
+export default function night_elf() {
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['A', 'A\'', 'Al', 'All', 'Aly', 'An', 'Am', 'As', 'Ay', 'Ar', 'Cy', 'Ca', 'E', 'E\'', 'El', 'Ely', 'Em', 'En', 'Er', 'Es', 'Ey', 'F', 'Fa', 'Fy', 'Fil', 'Fel', 'Fyl', 'Ga', 'Gal', 'Ha', 'He', 'Hy', 'I', 'Il', 'Ily', 'Ill', 'Iy', 'Ji', 'Ja', 'K', 'Ka', 'Ke', 'Ky', 'L', 'Lil', 'Lyl', 'Lel', 'La', 'Le', 'Ly', 'M', 'Ma', 'Me', 'My', 'Myt', 'Myth', 'Mor', 'Math', 'Mil', 'Myl', 'Mel', 'N', 'Na', 'Ne', 'Nyl', 'Nil', 'Nel', 'Nyt', 'Nyth', 'Ny', 'Re', 'Ra', 'Ry', 'S', 'Sa', 'Sil', 'Syl', 'Sel', 'Sh', 'Sha', 'She', 'Sy', 'Shyl', 'Th', 'Tha', 'The', 'Thel', 'Thyl', 'Thil', 'Thy', 'U', 'Uy', 'W', 'Wa', 'We', 'Y', 'Y\'', 'Ya', 'Ye', 'Yl', 'Yll'];
   const nm2 = ['al', 'el', 'en', 'an', 'ana', 'ena', 'aena', 'a', 'i', 'ren', 'ran', 'eth', 'ath', 'a', 'e', 'o', 'h', 'ha', 'he', 'ho', 'f', 'fa', 'fe', 'l', 'le', 'la', 'm', 'me', 'ma', 'ne', 'na', 'n', 's', 'sa', 'se', 've', 'va'];

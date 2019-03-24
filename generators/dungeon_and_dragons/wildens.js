@@ -1,4 +1,4 @@
-function generator$dungeon_and_dragons$wildens() {
+export default function wildens() {
   const type = Math.random() > 0.5 ? 0 : 1;
   const namesMaleFf = ['Ban', 'Bar', 'Dal', 'Dam', 'Dun', 'Dur', 'Fas', 'Fin', 'Kan', 'Kin', 'Kor', 'Lan', 'Lim', 'Lon', 'Man', 'Mar', 'Mas', 'Mid', 'Mor', 'Mur', 'Nam', 'Nor', 'Rad', 'Ran', 'Ras', 'Rod', 'San', 'Sin', 'Tor', 'Tum'];
   const namesMaleFl = ['darras', 'darris', 'dommar', 'donnir', 'durrun', 'farran', 'fidden', 'garron', 'kammin', 'karran', 'lammir', 'larrin', 'mannor', 'marden', 'mennar', 'mennor', 'mindin', 'mirron', 'morrin', 'murrin', 'norren', 'norten', 'rammas', 'sammas', 'sannim', 'sarrin', 'sarris', 'sorran', 'tarrin', 'torrin'];

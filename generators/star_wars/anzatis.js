@@ -1,4 +1,4 @@
-function generator$star_wars$anzatis() {
+export default function anzatis() {
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['', '', '', 'b', 'd', 'g', 'h', 'k', 'm', 'n', 'r', 's', 'v', 'z'];
   const nm2 = ['a', 'e', 'i', 'o', 'u'];

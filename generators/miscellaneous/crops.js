@@ -1,4 +1,4 @@
-function generator$miscellaneous$crops() {
+export default function crops() {
   const names1 = ['a', 'e', 'i', 'o', 'u', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', ''];
   const names2 = ['b', 'c', 'd', 'f', 'g', 'h', 'j', 'k', 'l', 'm', 'n', 'p', 'r', 's', 't', 'v', 'w', 'z', 'br', 'cr', 'dr', 'fr', 'gr', 'kr', 'pr', 'str', 'tr', 'bl', 'cl', 'fl', 'gl', 'kl', 'pl', 'sl', 'ch', 'ph', 'sh'];
   const names3 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'ea', 'ao', 'ee', 'oo', 'io', 'eo', 'ou'];

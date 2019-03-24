@@ -1,4 +1,4 @@
-function generator$descriptions$pokemons() {
+export default function pokemons() {
   const bugSkin = ['bioluminescent', 'phosphorescent', 'fluorescent', 'camouflaged', 'dark', 'fluff covered', 'glowing', 'hair covered', 'light', 'patterned', 'thick armored', 'thorny', 'translucent'];
   const bugLegs = ['ridged', 'armored', 'thick, fluffy', 'hair covered', 'thin, long', 'thorn covered', 'camouflaged', 'small', 'powerful'];
   const bugWings = ['angular', 'bioluminescent', 'phosphorescent', 'fluorescent', 'petal-like', 'camouflaged', 'cloak-like', 'dark', 'double paired', 'giant', 'glowing', 'light', 'patterned', 'powerful', 'razor sharp', 'ribbon-like', 'small', 'translucent'];

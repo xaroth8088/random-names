@@ -1,4 +1,4 @@
-function generator$doctor_who$silurians() {
+export default function silurians() {
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['', 'd', 'h', 'k', 'l', 'm', 'r', 't'];
   const nm2 = ['o', 'e', 'a', 'i'];

@@ -1,4 +1,4 @@
-function generator$descriptions$countrys() {
+export default function countrys() {
   const names1 = ['Lessau', 'Ogria', 'Fulor', 'Ostax', 'Quvania', 'Emain', 'Athea', 'Udor', 'Zorus', 'Oxtrad', 'Ashia', 'Bunia', 'Gorus', 'Omen', 'Asharia', 'Osium', 'Covania', 'Toria', 'Cedoria', 'Uskium'];
   const names2 = [' large', ' huge', 'n enormous', ' vast', 'n immense', ' little', ' modest', ' humble', ' small', ' tiny', 'n average-sized'];
   let names3 = parseInt(Math.floor((Math.random() * 15000000 + 1000000)));

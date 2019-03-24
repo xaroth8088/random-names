@@ -1,4 +1,4 @@
-function generator$halo$unggoys() {
+export default function unggoys() {
   const nm1 = ['a', 'i', 'u'];
   const nm2 = ['d', 'f', 'k', 'l', 'm', 's', 'w', 'p', 'y', 'z'];
   const nm3 = ['fl', 'kl', 'sl', 'sm', 'pl', 'zl', 'd', 'f', 'k', 'l', 'm', 's', 'w', 'p', 'y', 'z'];

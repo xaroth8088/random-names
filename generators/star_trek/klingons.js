@@ -1,4 +1,4 @@
-function generator$star_trek$klingons() {
+export default function klingons() {
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['a', 'o', 'u', 'e'];
   const nm2 = ['b', 'd', 'g', 'h', 'j', 'k', 'l', 'm', 'n', 'p', 'r', 's', 't', 'v', 'w', 'y', 'ts', 'th', 'tr', 'st', 'sh', 'gr', 'ch', 'kr', 'kl', 'dr'];

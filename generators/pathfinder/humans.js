@@ -1,4 +1,4 @@
-function generator$pathfinder$humans() {
+export default function humans() {
   const type = Math.random() > 0.5 ? 0 : 1;
   /* Kellid */
   const nm1 = ['b', 'br', 'd', 'dr', 'g', 'k', 'kr', 'p', 'pr', 'q', 'r', 'str', 't', 'tr', 'v'];

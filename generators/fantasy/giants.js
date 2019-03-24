@@ -1,4 +1,4 @@
-function generator$fantasy$giants() {
+export default function giants() {
   const nm1 = ['b', 'c', 'd', 'f', 'g', 'h', 'j', 'k', 'l', 'm', 'n', 'r', 's', 't', 'v', 'w', 'x', 'z', 'a', 'b', 'c', 'd', 'f', 'g', 'h', 'j', 'k', 'l', 'm', 'n', 'r', 's', 't', 'v', 'w', 'x', 'z', 'ar', 'br', 'cr', 'dr', 'fr', 'gr', 'kr', 'sr', 'tr', 'vr', 'wr', 'al', 'bl', 'cl', 'dl', 'fl', 'gl', 'kl', 'sl', 'vl', 'zl', '', '', '', '', ''];
   const nm2 = ['e', 'i', 'u', 'o', 'a'];
   const nm3 = ['b', 'c', 'd', 'f', 'g', 'k', 'l', 'm', 'n', 'r', 's', 't', 'w', 'x', 'z', '', '', '', '', '', '', '', '', ''];

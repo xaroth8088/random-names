@@ -1,4 +1,4 @@
-function generator$star_wars$falleens() {
+export default function falleens() {
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['c', 'cz', 'h', 'j', 'k', 's', 't', 'th', 'tr', 'x', 'xz', 'z'];
   const nm2 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'uu', 'ee'];

@@ -1,4 +1,4 @@
-function generator$descriptions$school_uniforms() {
+export default function school_uniforms() {
   const nm1 = ['straight', 'striped', 'lined', 'finely striped', 'thickly striped', 'plain', 'checkered', 'loose fitting', 'narrow fitting'];
   const nm2 = ['Dacron', 'cotton', 'nylon', 'polycotton', 'polyester', 'cotton', 'nylon'];
   const nm3 = ['down to about their calves and thus reveal', 'down to just above', 'down to just under their knees, clearly revealing', 'down to just above their ankles and reveal', 'all the way down and partially cover', 'down to well below their knees and clearly reveal'];

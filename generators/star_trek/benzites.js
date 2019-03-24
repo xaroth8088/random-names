@@ -1,4 +1,4 @@
-function generator$star_trek$benzites() {
+export default function benzites() {
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['b', 'c', 'd', 'g', 'j', 'k', 'm', 'p', 'q', 'r', 't', 'v', 'z'];
   const nm2 = ['a', 'e', 'u', 'i', 'o'];

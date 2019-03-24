@@ -1,4 +1,4 @@
-function generator$miscellaneous$dinosaurs() {
+export default function dinosaurs() {
   const nm1 = [
     [
       ['Nigri'],

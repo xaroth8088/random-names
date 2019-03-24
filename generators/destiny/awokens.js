@@ -1,4 +1,4 @@
-function generator$destiny$awokens() {
+export default function awokens() {
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['', '', '', '', 'c', 'g', 'j', 'k', 'q', 'r', 'v', 'x', 'z'];
   const nm2 = ['a', 'a', 'u', 'u', 'e', 'i', 'a', 'a', 'u', 'u', 'e', 'i', 'a', 'a', 'u', 'u', 'e', 'i', 'oo', 'ou', 'uu', 'aa'];

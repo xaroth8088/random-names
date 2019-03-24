@@ -1,4 +1,4 @@
-function generator$mass_effect$batarians() {
+export default function batarians() {
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm2 = ['a', 'e', 'u', 'i', 'o', '', '', '', '', '', '', '', '', '', ''];
   const nm3 = ['b', 'br', 'c', 'cr', 'd', 'dh', 'dr', 'f', 'g', 'gr', 'gh', 'k', 'kh', 'kr', 'p', 'pr', 'r', 's'];

@@ -1,4 +1,4 @@
-function generator$pop_culture$starcrafts() {
+export default function starcrafts() {
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['', '', '', '', '', 'd', 'dh', 'f', 'g', 'gh', 'h', 'k', 'kh', 'n', 'm', 't', 'x', 'z'];
   const nm2 = ['a', 'e', 'i', 'o', 'u', 'y', 'a', 'e', 'i', 'o', 'u', 'y', 'a', 'e', 'i', 'o', 'u', 'y', 'a', 'e', 'i', 'o', 'u', 'y', 'a', 'e', 'i', 'o', 'u', 'y', 'io', 'ia'];

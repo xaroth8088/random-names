@@ -1,4 +1,4 @@
-function generator$pathfinder$drows() {
+export default function drows() {
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['', '', '', '', '', 'br', 'bh', 'c', 'dh', 'dr', 'f', 'g', 'gr', 'gh', 'j', 'k', 'kr', 'kh', 'm', 'n', 'ph', 'q', 'r', 's', 't', 'v', 'w', 'x', 'z'];
   const nm2 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'y', 'y', 'y', 'io', 'ae', 'ou', 'ie', 'ui', 'yi', 'ey'];

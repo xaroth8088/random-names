@@ -1,4 +1,4 @@
-function generator$pop_culture$lovecraftians() {
+export default function lovecraftians() {
   const nm1 = ['a', 'e', 'i', 'u', 'o', 'a', 'ai', 'aiu', 'aiue', 'e', 'i', 'ia', 'iau', 'iu', 'o', 'u', 'y', 'ya', 'yi', 'yo'];
   const nm2 = ['bh', 'br', 'c\'th', 'cn', 'ct', 'cth', 'cx', 'd', 'd\'', 'g', 'gh', 'ghr', 'gr', 'h', 'k', 'kh', 'kth', 'mh', 'mh\'', 'ml', 'n', 'ng', 'sh', 't', 'th', 'tr', 'v', 'v\'', 'vh', 'vh\'', 'vr', 'x', 'z', 'z\'', 'zh'];
   const nm3 = ['a', 'e', 'i', 'u', 'o', 'a', 'e', 'i', 'u', 'o', 'ao', 'aio', 'ui', 'aa', 'io', 'ou', 'y'];

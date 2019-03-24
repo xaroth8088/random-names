@@ -1,4 +1,4 @@
-function generator$miscellaneous$afterlifes() {
+export default function afterlifes() {
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['a', 'e', 'i', 'o', 'u', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', ''];
   const nm2 = ['b', 'c', 'd', 'f', 'g', 'h', 'k', 'l', 'm', 'n', 'p', 'r', 's', 't', 'v', 'w', 'y', 'z', 'ch', 'sh', 'ph'];

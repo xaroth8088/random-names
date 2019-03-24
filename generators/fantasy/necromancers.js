@@ -1,4 +1,4 @@
-function generator$fantasy$necromancers() {
+export default function necromancers() {
   const type = Math.random() > 0.5 ? 0 : 1;
   const namesFemale = ['bea', 'betha', 'brix', 'cia', 'cilia', 'dira', 'dita', 'gami', 'ghana', 'grid', 'hilde', 'len', 'lian', 'lya', 'mira', 'mish', 'mona', 'mura', 'ness', 'peste', 'pris', 'reas', 'reda', 'ren', 'ress', 'rina', 'ris', 'roti', 'rotia', 'selm', 'sin', 'tulah', 'vana', 'vash', 'ven', 'verra', 'viah', 'vris', 'xaura', 'zaen'];
   const namesMale = ['brum', 'cular', 'dan', 'dhur', 'dulus', 'dum', 'gan', 'ghor', 'grim', 'kai', 'kar', 'khar', 'kras', 'lak', 'lazar', 'lekai', 'los', 'mien', 'mon', 'pent', 'qir', 'qur', 'rael', 'rius', 'row', 'thik', 'thum', 'tic', 'vok', 'vras', 'xir', 'xius', 'xor', 'zad', 'zar', 'zhar', 'zhul', 'zis', 'zius', 'zor'];

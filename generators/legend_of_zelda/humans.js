@@ -1,4 +1,4 @@
-function generator$legend_of_zelda$humans() {
+export default function humans() {
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['', '', '', '', '', '', 'a', 'e', 'i', 'o', 'u', 'i', 'a', 'e'];
   const nm2 = ['b', 'c', 'd', 'j', 'k', 'l', 'm', 'n', 'r', 't', 'z'];

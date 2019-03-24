@@ -1,4 +1,4 @@
-function generator$military$numeric() {
+export default function numeric() {
   const names = ['Nadazero', 'Unaone', 'Bissotwo', 'Terrathree', 'Kartefour', 'Pantafive', 'Soxisix', 'Setteseven', 'Oktoeight', 'Novenine'];
 
   const r1 = Math.floor(Math.random() * names.length);

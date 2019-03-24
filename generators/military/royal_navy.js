@@ -1,4 +1,4 @@
-function generator$military$royal_navy() {
+export default function royal_navy() {
   const names = ['Apples', 'Butter', 'Charlie', 'Duff', 'Edward', 'Freddy', 'George', 'Harry', 'Ink', 'Johnnie', 'King', 'London', 'Monkey', 'Nuts', 'Orange', 'Pudding', 'Queenie', 'Robert', 'Sugar', 'Tommy', 'Uncle', 'Vinegar', 'Willie', 'Xerxes', 'Yellow', 'Zebra'];
 
   const r1 = Math.floor(Math.random() * names.length);

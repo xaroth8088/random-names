@@ -1,4 +1,4 @@
-function generator$harry_potter$house_elfs() {
+export default function house_elfs() {
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['B', 'C', 'D', 'F', 'G', 'H', 'J', 'K', 'L', 'M', 'N', 'P', 'R', 'S', 'T', 'V', 'W', 'Z'];
   const nm2 = ['oo', 'a', 'o'];

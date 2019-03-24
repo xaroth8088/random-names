@@ -1,4 +1,4 @@
-function generator$legend_of_zelda$anoukis() {
+export default function anoukis() {
   const nm1 = ['', '', '', '', 'b', 'd', 'f', 'g', 'h', 'k', 'l', 'm', 'n', 'p', 'r', 's', 't', 'w', 'y', 'z'];
   const nm2 = ['a', 'u', 'o', 'e'];
   const nm3 = ['u', 'o', 'u', 'o', 'u', 'o', 'oo'];

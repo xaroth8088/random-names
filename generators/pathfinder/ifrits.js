@@ -1,4 +1,4 @@
-function generator$pathfinder$ifrits() {
+export default function ifrits() {
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['', '', '', '', 'b', 'd', 'g', 'j', 'k', 'm', 'n', 'r', 't', 'v', 'z'];
   const nm2 = ['a', 'e', 'i', 'u'];

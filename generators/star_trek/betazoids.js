@@ -1,4 +1,4 @@
-function generator$star_trek$betazoids() {
+export default function betazoids() {
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['a', 'e', 'i', 'o', 'u', '', '', '', '', '', ''];
   const nm2 = ['b', 'c', 'd', 'g', 'k', 'l', 'm', 'n', 'r', 's', 't'];

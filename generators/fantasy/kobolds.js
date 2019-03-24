@@ -1,4 +1,4 @@
-function generator$fantasy$kobolds() {
+export default function kobolds() {
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['', '', '', 'b', 'br', 'cr', 'cl', 'ch', 'chr', 'd', 'dr', 'g', 'gr', 'ghr', 'k', 'kr', 'kh', 'kn', 'q', 'qr', 'qh', 'sh', 'shr', 'sk', 'sn', 'str', 'sz', 'tr', 'v', 'vr', 'x', 'z', 'zr'];
   const nm2 = ['e', 'i', 'u', 'e', 'i', 'u', 'a', 'o', 'e', 'i', 'u', 'e', 'i', 'u', 'a', 'o', 'e', 'i', 'u', 'e', 'i', 'u', 'a', 'o', 'e', 'i', 'u', 'e', 'i', 'u', 'a', 'o', 'aa', 'ai', 'au', 'ei', 'ia', 'ee'];

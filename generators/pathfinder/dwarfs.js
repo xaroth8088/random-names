@@ -1,4 +1,4 @@
-function generator$pathfinder$dwarfs() {
+export default function dwarfs() {
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['', '', '', '', '', 'b', 'br', 'd', 'dr', 'f', 'g', 'gr', 'h', 'j', 'k', 'm', 'r', 'sr', 'st', 'str', 't', 'tr', 'v', 'w', 'z'];
   const nm2 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'o', 'u', 'a', 'o', 'u', 'a', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'o', 'u', 'y', 'y', 'aa', 'ai', 'oo', 'uu', 'io', 'io'];

@@ -1,4 +1,4 @@
-function generator$wildstar$wildstar_cassians() {
+export default function wildstar_cassians() {
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['', '', '', '', 'b', 'c', 'cl', 'd', 'fl', 'g', 'h', 'l', 'm', 'p', 's', 't', 'v'];
   const nm2 = ['a', 'e', 'i', 'o', 'u'];

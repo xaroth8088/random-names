@@ -1,4 +1,4 @@
-function generator$doctor_who$raxacoricofallapatorians() {
+export default function raxacoricofallapatorians() {
   const nm1 = ['B', 'Bl', 'Br', 'D', 'Dr', 'Gr', 'G', 'Gl', 'J', 'K', 'Kr', 'L', 'S', 'Sr', 'Sl', 'Tr', 'Tl'];
   const nm2 = ['a', 'e', 'i', 'o', 'u', 'ee', 'oo', 'aa'];
   const nm3 = ['cra', 'ckt', 'ckto', 'f', 'ft', 'll', 'lm', 'ln', 'm', 'n', 'ne', 'p', 'rm', 'rn', 'rs', 'rst', 'st', 's', 'ss', 'sp', 'x', 'xa'];

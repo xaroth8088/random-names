@@ -1,4 +1,4 @@
-function generator$pathfinder$halflings() {
+export default function halflings() {
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['', '', 'b', 'br', 'd', 'f', 'h', 'j', 'l', 'm', 'n', 'p', 'r', 's', 't', 'tr', 'v', 'vr', 'x'];
   const nm2 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'aa'];

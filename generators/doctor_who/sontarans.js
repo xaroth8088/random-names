@@ -1,4 +1,4 @@
-function generator$doctor_who$sontarans() {
+export default function sontarans() {
   const nm1 = ['B', 'Br', 'D', 'Dr', 'Gr', 'J', 'K', 'Kr', 'L', 'N', 'M', 'S', 'Sk', 'Sn', 'St', 'T', 'Tr', 'V', 'Vr'];
   const nm2 = ['a', 'e', 'i', 'o', 'u', 'y', 'aa', 'ee'];
   const nm3 = ['g', 'gg', 'gt', 'gh', 'k', 'kt', 'kk', 'l', 'll', 'nt', 'nx', 'r', 'rl', 'rr', 'rk', 'rn', 'rg', 'sk'];

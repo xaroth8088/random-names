@@ -1,4 +1,4 @@
-function generator$halo$sangheilis() {
+export default function sangheilis() {
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['b', 'c', 'd', 'f', 'gr', 'j', 'k', 'kh', 'l', 'mr', 'n\'th', 'r', 'rt', 's', 't', 'th', 'v', 'x', 'z', '', ''];
   const nm2 = ['a', 'e', 'i', 'o', 'u', 'y'];

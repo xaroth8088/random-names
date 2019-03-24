@@ -1,4 +1,4 @@
-function generator$descriptions$dragons() {
+export default function dragons() {
   const nm1 = ['Angry', 'Bright', 'Calm', 'Dark', 'Enormous', 'Fierce', 'Gentle', 'Large', 'Narrow', 'Piercing', 'Restless', 'Savage', 'Small', 'Tranquil', 'Wide'];
   const nm2 = ['amber', 'azure', 'blazing', 'cerulean', 'cobalt', 'crimson', 'ebony', 'emerald', 'fiery', 'flaming', 'ivory', 'jade', 'obsidian', 'onyx', 'pearly', 'ruby', 'sapphire', 'scarlet', 'umber', 'viridian'];
   const nm3 = ['deep', 'narrowly', 'buried', 'far', 'rooted', 'well', 'low', 'high', 'sunken', 'lightly', 'thightly', 'graciously', 'concealed', 'delicately', 'elegantly', 'gracefully', 'dreadfully', 'wickedly'];

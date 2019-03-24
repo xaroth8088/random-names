@@ -1,4 +1,4 @@
-function generator$harry_potter$winged_horses() {
+export default function winged_horses() {
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['a', 'ae', 'ea', 'i', 'o', '', '', '', '', '', '', '', '', '', '', '', '', '', ''];
   const nm2 = ['ba', 'bli', 'blo', 'bra', 'bri', 'cae', 'ci', 'cra', 'cro', 'da', 'do', 'dra', 'dro', 'fae', 'fo', 'fra', 'fre', 'glo', 'gra', 'gre', 'gri', 'la', 'lea', 'lia', 'lo', 'ma', 'mae', 'me', 'mea', 'nae', 'nea', 'nei', 'ni', 'phae', 'phri', 'pio', 'po', 'pri', 'ra', 'rae', 'rea', 'ro', 'she', 'sho', 'sli', 'sna', 'tae', 'the', 'tho', 'tri'];

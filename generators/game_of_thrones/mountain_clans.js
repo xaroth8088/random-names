@@ -1,4 +1,4 @@
-function generator$game_of_thrones$mountain_clans() {
+export default function mountain_clans() {
   const type = Math.random() > 0.5 ? 0 : 1;
   const names1 = ['A', 'Agga', 'Ara', 'Ardo', 'Ba', 'Bo', 'Bra', 'Bro', 'Da', 'Do', 'Dra', 'Dro', 'Ga', 'Gro', 'Gru', 'Gu', 'Ho', 'Hra', 'Hro', 'Hu', 'Ja', 'Jara', 'Jo', 'Jora', 'Ka', 'Kra', 'Kri', 'Kru', 'Sha', 'Sra', 'Sru', 'Sta', 'Tho', 'Ti', 'Tra', 'Tro', 'U', 'Uma', 'Ura', 'Uri'];
   const names2 = ['dar', 'dog', 'dor', 'drag', 'gah', 'gga', 'ggan', 'ggor', 'gir', 'gra', 'kha', 'khan', 'khar', 'kkan', 'kor', 'laf', 'lf', 'llag', 'log', 'lor', 'mar', 'mhor', 'mman', 'mor', 'nar', 'nnag', 'nog', 'nthor', 'rak', 'rlag', 'rrag', 'rras', 'tar', 'ther', 'thor', 'ttag', 'vas', 'vor', 'vrak', 'vvar'];

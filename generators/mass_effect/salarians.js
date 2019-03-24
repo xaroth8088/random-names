@@ -1,4 +1,4 @@
-function generator$mass_effect$salarians() {
+export default function salarians() {
   const type = Math.random() > 0.5 ? 0 : 1;
   const names1 = ['b', 'c', 'd', 'f', 'g', 'h', 'j', 'l', 'm', 'n', 'p', 'r', 's', 't', 'v', 'w', 'y', 'z', '', '', '', ''];
   const names2 = ['a', 'e', 'o', 'i', 'u', 'ae'];

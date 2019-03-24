@@ -1,4 +1,4 @@
-function generator$military$itu() {
+export default function itu() {
   const names = ['Amsterdam', 'Baltimore', 'Casablanca', 'Denmark', 'Edison', 'Florida', 'Gallipoli', 'Havana', 'Italia', 'Jerusalem', 'Kilogramme', 'Liverpool', 'Madagascar', 'New York', 'Oslo', 'Paris', 'Quebec', 'Roma', 'Santiago', 'Tripoli', 'Upsala', 'Valencia', 'Washington', 'Xanthippe', 'Yokohama', 'Zurich'];
 
   const r1 = Math.floor(Math.random() * names.length);

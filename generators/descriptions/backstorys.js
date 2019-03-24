@@ -1,4 +1,4 @@
-function generator$descriptions$backstorys() {
+export default function backstorys() {
   const type = Math.random() > 0.5 ? 0 : 1;
   let nm1 = ['He', 'he', 'his', 'him', 'man'];
   let nm2 = ['adventurous', 'affectionate', 'analytical', 'athletic', 'brave', 'calm', 'capable', 'charismatic', 'charming', 'cheerful', 'creative', 'curious', 'daring', 'dedicated', 'dependable', 'determined', 'driven', 'dutiful', 'eager', 'elegant', 'energetic', 'faithful', 'funny', 'generous', 'gentle', 'happy', 'helpful', 'honest', 'hospitable', 'humble', 'humorous', 'innocent', 'intelligent', 'intrepid', 'jovial', 'just', 'light-hearted', 'loyal', 'modest', 'mysterious', 'polite', 'popular', 'proud', 'quick', 'reliable', 'responsible', 'savvy', 'sensitive', 'sincere', 'sweet', 'talkative', 'thoughtful', 'whimsical', 'wise', 'witty'];

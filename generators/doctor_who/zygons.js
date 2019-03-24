@@ -1,4 +1,4 @@
-function generator$doctor_who$zygons() {
+export default function zygons() {
   const nm1 = ['B', 'Br', 'Cr', 'D', 'Dr', 'G', 'Gr', 'K', 'Kr', 'R', 'S', 'Sr', 'Str', 'St', 'T', 'Tr', 'V', 'Vr'];
   const nm2 = ['e', 'a', 'o'];
   const nm3 = ['d', 'g', 'k', 'l', 'm', 'n', 's', 't', 'v', 'w', 'z'];

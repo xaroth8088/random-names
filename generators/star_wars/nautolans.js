@@ -1,4 +1,4 @@
-function generator$star_wars$nautolans() {
+export default function nautolans() {
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['', '', '', '', '', 'b', 'br', 'c', 'd', 'f', 'h', 'j', 'k', 'kh', 'kn', 'l', 'm', 'n', 'p', 'r', 'rh', 'rr', 's', 'sh', 'shr', 't', 'v', 'w', 'y', 'z'];
   const nm2 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'oo', 'ey', 'ei', 'ea', 'ee', 'aa'];

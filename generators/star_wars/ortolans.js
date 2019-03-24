@@ -1,4 +1,4 @@
-function generator$star_wars$ortolans() {
+export default function ortolans() {
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['', '', 'b', 'd', 'h', 'l', 'm', 'n', 'p', 'r', 't', 'v'];
   const nm2 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'o', 'a', 'e', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'o', 'a', 'e', 'ee', 'oo'];

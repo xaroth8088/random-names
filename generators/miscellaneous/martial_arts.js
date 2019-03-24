@@ -1,4 +1,4 @@
-function generator$miscellaneous$martial_arts() {
+export default function martial_arts() {
   const nm1 = ['', 'b', 'd', 'g', 'h', 'l', 'm', 'n', 'ng', 's', 't', 'w'];
   const nm2 = ['a', 'e', 'i', 'o', 'u', 'aa', 'ai', 'oa', 'oe'];
   const nm3 = ['b', 'gw', 'hn', 'hl', 'ht', 'l', 'mb', 'n', 'nt', 'nd', 'ng', 'ngw', 'r', 'rm', 's'];

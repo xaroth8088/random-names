@@ -1,4 +1,4 @@
-function generator$star_trek$tellarites() {
+export default function tellarites() {
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['B', 'Br', 'Ch', 'C', 'Cr', 'D', 'Dv', 'Fr', 'F', 'G', 'Gl', 'Gr', 'H', 'J', 'K', 'Kh', 'L', 'M', 'N', 'Pr', 'R', 'Sh', 'Sk', 'T', 'Th', 'Tr', 'V', 'W', 'X', 'Z', 'Zh'];
   const nm2 = ['aa', 'ao', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'o'];

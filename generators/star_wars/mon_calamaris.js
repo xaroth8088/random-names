@@ -1,4 +1,4 @@
-function generator$star_wars$mon_calamaris() {
+export default function mon_calamaris() {
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['', '', '', '', '', 'b', 'br', 'c', 'ch', 'cr', 'd', 'dr', 'f', 'g', 'gh', 'gr', 'h', 'j', 'jh', 'k', 'kr', 'l', 'm', 'mx', 'n', 'p', 'q', 'r', 's', 'sh', 't', 'tr', 'v', 'vc', 'vr', 'y'];
   const nm2 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'aa', 'oo', 'ee', 'oe', 'io', 'ua', 'ae', 'oa', 'ie', 'ai', 'uu', 'ea'];

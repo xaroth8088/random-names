@@ -1,4 +1,4 @@
-function generator$pathfinder$orcs() {
+export default function orcs() {
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['', '', '', '', '', 'b', 'br', 'c', 'cr', 'dr', 'f', 'gr', 'h', 'kr', 'kz', 'm', 'n', 'pr', 'r', 't', 'tr', 'v', 'vr'];
   const nm2 = ['a', 'e', 'i', 'o', 'u'];

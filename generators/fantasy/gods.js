@@ -1,4 +1,4 @@
-function generator$fantasy$gods() {
+export default function gods() {
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['b', 'c', 'd', 'f', 'g', 'h', 'j', 'k', 'l', 'm', 'n', 'p', 'q', 'r', 's', 't', 'v', 'w', 'x', 'z', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', ''];
   const nm2 = ['a', 'e', 'u', 'i', 'o', 'y'];

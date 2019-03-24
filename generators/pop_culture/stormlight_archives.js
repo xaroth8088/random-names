@@ -1,4 +1,4 @@
-function generator$pop_culture$stormlight_archives() {
+export default function stormlight_archives() {
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['', '', '', 'b', 'bl', 'c', 'd', 'g', 'gr', 'h', 'j', 'k', 'l', 'm', 'n', 'r', 's', 't', 'th', 'v', 'w', 'y'];
   const nm2 = ['a', 'e', 'o', 'a', 'e', 'o', 'a', 'e', 'o', 'a', 'a', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'oa', 'ea', 'ia', 'ai', 'io'];

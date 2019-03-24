@@ -1,4 +1,4 @@
-function generator$pop_culture$one_piece_devil_fruits() {
+export default function one_piece_devil_fruits() {
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = [
     ['Ame', 'Rain'],

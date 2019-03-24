@@ -1,4 +1,4 @@
-function generator$star_wars_the_old_republic$mirialans() {
+export default function mirialans() {
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['i', 'a', 'o', 'e', 'u', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', ''];
   const nm2 = ['b', 'c', 'ch', 'd', 'f', 'fl', 'g', 'h', 'j', 'k', 'l', 'm', 'n', 'p', 'q', 'r', 's', 'sh', 't', 'v', 'v', 'w', 'y', 'z', 'z'];

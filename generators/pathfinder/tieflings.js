@@ -1,4 +1,4 @@
-function generator$pathfinder$tieflings() {
+export default function tieflings() {
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['', '', '', '', '', 'b', 'cr', 'd', 'g', 'h', 'k', 'kr', 'm', 'r', 's', 'sh', 't', 'v', 'y', 'z'];
   const nm2 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'y', 'ia', 'io'];

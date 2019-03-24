@@ -1,4 +1,4 @@
-function generator$pop_culture$avatar_last_airbenders() {
+export default function avatar_last_airbenders() {
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['g', 'h', 'l', 'm', 'n', 'gy', 'p', 'r', 's', 't'];
   const nm2 = ['a', 'e', 'i', 'o'];

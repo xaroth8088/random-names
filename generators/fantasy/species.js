@@ -1,4 +1,4 @@
-function generator$fantasy$species() {
+export default function species() {
   const nm1 = ['a', 'e', 'o', 'i', 'u', 'a', 'e', 'o', 'i', 'u', 'ai', 'ea', 'eo', 'oi', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', ''];
   const nm2 = ['b', 'c', 'd', 'f', 'g', 'h', 'j', 'k', 'l', 'm', 'n', 'p', 'q', 'r', 's', 't', 'v', 'w', 'x', 'ch', 'chr', 'chl', 'z', 'br', 'cr', 'dr', 'fr', 'gr', 'kr', 'pr', 'sr', 'tr', 'str', 'bl', 'cl', 'fl', 'kl', 'pl', 'sl', 'vl', 'ph', 'sh'];
   const nm3 = ['a', 'e', 'o', 'i', 'u', 'a', 'e', 'o', 'i', 'u', 'ai', 'ea', 'eo', 'oi', 'y'];

@@ -1,4 +1,4 @@
-function generator$star_wars$ithorians() {
+export default function ithorians() {
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['', '', '', '', '', 'b', 'br', 'ch', 'cl', 'd', 'dr', 'f', 'g', 'gr', 'h', 'j', 'jh', 'jw', 'k', 'kr', 'l', 'm', 'n', 'p', 'ph', 'pl', 'pw', 'q', 'r', 's', 'sn', 'spr', 'st', 't', 'th', 'tr', 'v', 'vl', 'w', 'wh', 'y', 'z'];
   const nm2 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'aa', 'oo', 'ea', 'ua', 'eo', 'ou', 'ee', 'ao', 'ii', 'aa', 'ui', 'au', 'uu', 'ie'];

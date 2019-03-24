@@ -1,4 +1,4 @@
-function generator$pathfinder$aasimars() {
+export default function aasimars() {
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['', '', '', '', '', 'b', 'c', 'cr', 'd', 'gr', 'k', 'kr', 'l', 'm', 'n', 'p', 's', 't', 'w', 'z'];
   const nm2 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'y', 'ai', 'au', 'ie', 'ia', 'ea'];

@@ -1,4 +1,4 @@
-function generator$wildstar$wildstar_drakens() {
+export default function wildstar_drakens() {
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['', '', '', '', '', 'b', 'd', 'g', 'h', 'j', 'k', 'm', 'n', 'r', 'v', 'z'];
   const nm2 = ['a', 'i', 'o', 'u', 'a', 'i', 'o', 'u', 'a', 'i', 'o', 'u', 'a', 'i', 'o', 'u', 'a', 'i', 'o', 'u', 'a', 'i', 'o', 'u', 'a', 'i', 'o', 'u', 'aa', 'ua', 'ia', 'uu'];

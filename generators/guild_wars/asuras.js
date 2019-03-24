@@ -1,4 +1,4 @@
-function generator$guild_wars$asuras() {
+export default function asuras() {
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'Y', 'Z', 'Bl', 'Br', 'Bj', 'Dl', 'Dr', 'Dk', 'Dn', 'Fl', 'Fr', 'Fj', 'Gr', 'Gl', 'Gn', 'Gh', 'Bh', 'Dh', 'Kr', 'Kl', 'Kh', 'Kj', 'Lh', 'Mh', 'Pr', 'Pl', 'Pj', 'Ph', 'Rh', 'Qh', 'Sl', 'Sr', 'Sh', 'Tr', 'Tw', 'Sw', 'Pw', 'Kw', 'Dw', 'Bw', 'Vr', 'Vl', 'Sn', 'Sm', 'Zn', 'Zm', 'Str'];
   const nm2 = ['a', 'e', 'o', 'i', 'u', 'ea', 'eo', 'ia', 'io', 'ou', 'ua', 'a', 'e', 'o', 'i', 'u'];

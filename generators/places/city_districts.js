@@ -1,4 +1,4 @@
-function generator$places$city_districts() {
+export default function city_districts() {
   const nm1 = ['b', 'c', 'd', 'f', 'g', 'h', 'l', 'm', 'n', 'p', 'r', 's', 't', 'w', 'y', 'b', 'c', 'd', 'f', 'g', 'h', 'j', 'k', 'l', 'm', 'n', 'p', 'q', 'r', 's', 't', 'v', 'w', 'x', 'y', 'z', 'bl', 'br', 'ch', 'cl', 'cr', 'dr', 'fl', 'fr', 'gl', 'gr', 'pl', 'pr', 'sc', 'sh', 'sk', 'sl', 'sm', 'sn', 'sp', 'st', 'sw', 'tr', 'tw', 'wh', 'wr', 'sch', 'scr', 'sph', 'shr', 'spl', 'spr', 'str', 'thr'];
   const nm2 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'ai', 'eo', 'ea', 'ee', 'oo', 'oa', 'ia', 'io'];
   const nm3 = ['br', 'bl', 'c', 'ch', 'cl', 'ct', 'ck', 'cc', 'd', 'dg', 'dw', 'dr', 'dl', 'f', 'g', 'gg', 'gl', 'gw', 'gr', 'h', 'k', 'kr', 'kw', 'l', 'll', 'lb', 'ld', 'lg', 'lm', 'ln', 'lr', 'lw', 'lz', 'm', 'mr', 'ml', 'nw', 'n', 'nn', 'ng', 'nl', 'p', 'ph', 'r', 'rb', 'rc', 'rd', 'rg', 'rl', 'rm', 'rn', 'rr', 'rs', 'rst', 'rt', 'rth', 'rtr', 'rw', 'rv', 's', 'ss', 'sh', 'st', 'sth', 'str', 'sl', 'sw', 't', 'tb', 'tl', 'tg', 'tm', 'tn', 'tw', 'th', 'tt', 'v', 'w', 'wl', 'wn', 'x', 'z'];

@@ -1,4 +1,4 @@
-function generator$game_of_thrones$free_citys() {
+export default function free_citys() {
   const type = Math.random() > 0.5 ? 0 : 1;
   const names1 = ['Adar', 'Aer', 'Ar', 'Ball', 'Bel', 'Brach', 'Daar', 'Don', 'Draq', 'Garr', 'Goran', 'Gyll', 'Har', 'Harl', 'Hor', 'Ill', 'Inn', 'Irr', 'Jaer', 'Jaq', 'Jor', 'Laraz', 'Laz', 'Lys', 'Maerr', 'Mal', 'Mar', 'Nak', 'Nor', 'Nyess', 'Sall', 'Stall', 'Syr', 'Thor', 'Treg', 'Tych', 'Var', 'Varg', 'Vog', 'Vyr'];
   const names2 = ['adhor', 'an', 'ano', 'aphos', 'aquo', 'ar', 'ario', 'aro', 'apho', 'arro', 'ello', 'elos', 'en', 'enhor', 'enno', 'eo', 'eqor', 'ero', 'esso', 'icho', 'idos', 'illos', 'io', 'iphos', 'iros', 'o', 'odos', 'onar', 'onno', 'onos', 'oquo', 'or', 'orno', 'oros', 'os', 'yllo', 'ynno', 'yrio', 'yros', 'ys'];

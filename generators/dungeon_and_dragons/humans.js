@@ -1,4 +1,4 @@
-function generator$dungeon_and_dragons$humans() {
+export default function humans() {
   const type = Math.random() > 0.5 ? 0 : 1;
   /* Calashite */
   const nm1 = ['', '', 'b', 'bh', 'f', 'h', 'j', 'kh', 'm', 'n', 'nh', 'r', 'rh', 's', 'z'];

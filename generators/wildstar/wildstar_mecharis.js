@@ -1,4 +1,4 @@
-function generator$wildstar$wildstar_mecharis() {
+export default function wildstar_mecharis() {
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['', '', '', '', '', 'c', 'd', 'gl', 'h', 'l', 'm', 'p', 'pr', 'r', 's', 't', 'tr', 'v', 'z'];
   const nm2 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'y', 'y', 'io', 'au', 'ei'];

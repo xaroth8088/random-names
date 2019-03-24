@@ -1,4 +1,4 @@
-function generator$star_wars$biths() {
+export default function biths() {
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['d', 'd\'r', 'f', 'f\'t', 'g', 'g\'h', 'h', 'j', 'k', 'ph', 'ph\'t', 'r', 'th'];
   const nm2 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'oo', 'eu', 'ia', 'aa'];

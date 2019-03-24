@@ -1,4 +1,4 @@
-function generator$warhammer$goblins() {
+export default function goblins() {
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['c', 'ch', 'cr', 'g', 'gh', 'gr', 'gn', 'k', 'kr', 'kn', 'r', 'sk', 'sc', 'sm', 'sn', 'st', 'str', 'skr', 't', 'tr', 'z', 'zr'];
   const nm2 = ['a', 'i', 'o', 'a', 'i', 'o', 'a', 'i', 'o', 'e', 'u'];

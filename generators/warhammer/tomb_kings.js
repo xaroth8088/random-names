@@ -1,4 +1,4 @@
-function generator$warhammer$tomb_kings() {
+export default function tomb_kings() {
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['', '', '', '', 'ch', 'f', 'h', 'k', 'kh', 'm', 'n', 'r', 's', 't', 'th'];
   const nm2 = ['a', 'e', 'o', 'a', 'e', 'o', 'a', 'e', 'o', 'a', 'e', 'o', 'i', 'i'];

@@ -1,4 +1,4 @@
-function generator$warhammer$daemons_of_chaos() {
+export default function daemons_of_chaos() {
   const nm1 = ['', '', '', '', 'c', 'ch', 'cr', 'cz', 'g', 'gr', 'k', 'kr', 'kh', 'n', 'q', 'qh', 'qr', 'r', 'rh', 'sc', 'str', 'sk', 't', 'tr', 'v', 'vr', 'z', 'zh'];
   const nm2 = ['a', 'o', 'u', 'a', 'o', 'u', 'i', 'a', 'o', 'u', 'a', 'o', 'u', 'i', 'e', 'e', 'ai'];
   const nm3 = ['\'', '', '', '', '', ''];

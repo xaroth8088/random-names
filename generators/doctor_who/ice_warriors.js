@@ -1,4 +1,4 @@
-function generator$doctor_who$ice_warriors() {
+export default function ice_warriors() {
   const nm1 = ['h', 'gr', 'g', 'gl', 'k', 'kr', 'kl', 'r', 'sk', 'sl', 'ss', 'sr', 'sz', 'v', 'vr', 'xz', 'x', 'xr', 'xzn', 'z'];
   const nm2 = ['a', 'i', 'o', 'e', 'aa', 'a', 'u', 'a', 'y', 'a'];
   const nm3 = ['d', 'dr', 'kss', 'ld', 'm', 'nt', 'r', 'rt', 'rd', 'rn', 'rg', 'sb', 'sr', 'sz', 'szr', 'zr', 'ssb', 'x', 'xl', 'z', 'zd'];

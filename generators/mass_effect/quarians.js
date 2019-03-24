@@ -1,4 +1,4 @@
-function generator$mass_effect$quarians() {
+export default function quarians() {
   const type = Math.random() > 0.5 ? 0 : 1;
   const names2 = ['a', 'e', 'i', 'o', 'u', 'aa', 'ee', 'ae'];
   const names5 = ['C', 'F', 'H', 'G', 'J', 'L', 'M', 'N', 'R', 'S', 'Sh', 'V', 'T', 'W', 'X', 'Y', 'Z'];

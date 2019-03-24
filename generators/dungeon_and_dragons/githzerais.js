@@ -1,4 +1,4 @@
-function generator$dungeon_and_dragons$githzerais() {
+export default function githzerais() {
   const type = Math.random() > 0.5 ? 0 : 1;
   const namesFemF = ['Ad', 'Alm', 'Arw', 'Ash', 'Dah', 'Dhar', 'Dolm', 'Dran', 'Ell', 'Erzh', 'Esz', 'Ezh', 'Grel', 'Halm', 'Han', 'Harn', 'Heln', 'Ihr', 'Iln', 'Imm', 'Iz', 'Kan', 'Kharm', 'Khaz', 'Krez', 'Laz', 'Lez', 'Lhash', 'Magd', 'Marm', 'Nagr', 'Nah', 'Nalm', 'Rasz', 'Rez', 'Sham', 'Sharm', 'Shund', 'Um', 'Uw'];
   const namesFemL = ['a', 'ah', 'aka', 'al', 'arah', 'arin', 'aya', 'ayah', 'eah', 'eka', 'el', 'ela', 'elna', 'elya', 'elzal', 'ena', 'enah', 'era', 'erah', 'eya', 'ihn', 'ila', 'ilzin', 'in', 'ina', 'ira', 'iza', 'mina', 'ya', 'yara'];

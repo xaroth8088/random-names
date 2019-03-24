@@ -1,4 +1,4 @@
-function generator$fantasy$amazons() {
+export default function amazons() {
   const nm1 = ['b', 'bl', 'br', 'c', 'chr', 'cl', 'cr', 'd', 'dr', 'f', 'g', 'gl', 'gr', 'h', 'j', 'k', 'kl', 'kr', 'm', 'n', 'p', 'ph', 'ps', 'pr', 'r', 'rh', 's', 'sm', 'sc', 't', 'th', 'v', 'x', '', '', '', '', '', '', ''];
   const nm2 = ['a', 'e', 'i', 'o', 'u', 'y', 'ou', 'ei', 'oe', 'ao', 'io', 'eo', 'a', 'e', 'i', 'o', 'u'];
   const nm3 = ['c', 'd', 'k', 'l', 'm', 'r', 's', 't', 'x', '', '', '', '', '', '', '', '', '', '', ''];

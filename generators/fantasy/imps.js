@@ -1,4 +1,4 @@
-function generator$fantasy$imps() {
+export default function imps() {
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['', '', '', '', '', '', '', 'b', 'ch', 'cr', 'cy', 'd', 'dr', 'g', 'gn', 'gr', 'j', 'k', 'kr', 'ky', 'l', 'n', 'p', 'q', 'qr', 'r', 'sh', 't', 'tr', 'ty', 'v', 'x', 'y', 'z', 'zr'];
   const nm2 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'ee', 'ia', 'iu', 'ai', 'aa'];

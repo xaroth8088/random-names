@@ -1,4 +1,4 @@
-function generator$dungeon_and_dragons$devas() {
+export default function devas() {
   const type = Math.random() > 0.5 ? 0 : 1;
   const namesFem = ['Abea', 'Adara', 'Asha', 'Chana', 'Danel', 'Darah', 'Davi', 'Elka', 'Eranah', 'Hania', 'Hava', 'Idria', 'Isa', 'Jael', 'Kana', 'Kayah', 'Lihi', 'Mahel', 'Marek', 'Navah', 'Noma', 'Paziah', 'Ravah', 'Riya', 'Sada', 'Shara', 'Tirah'];
   const namesFemF = ['Ab', 'Ad', 'An', 'Ar', 'Ash', 'Chan', 'Dan', 'Dar', 'Dav', 'Din', 'Elk', 'Eran', 'Eys', 'Han', 'Hav', 'Hen', 'Idr', 'Is', 'Jan', 'Jen', 'Kal', 'Kan', 'Kay', 'Len', 'Lih', 'Mah', 'Mar', 'Nal', 'Nav', 'Nom', 'Paz', 'Rav', 'Ren', 'Riy', 'Sad', 'Shar', 'Sir', 'Tar', 'Tel', 'Tir'];

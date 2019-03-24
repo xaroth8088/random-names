@@ -1,4 +1,4 @@
-function generator$world_of_warcraft$goblin() {
+export default function goblin() {
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['Ba', 'Bax', 'Dan', 'Fi', 'Fix', 'Fiz', 'Gi', 'Gix', 'Giz', 'Gri', 'Gree', 'Greex', 'Grex', 'Ja', 'Jax', 'Jaz', 'Jex', 'Ji', 'Jix', 'Ka', 'Kax', 'Kay', 'Kaz', 'Ki', 'Kix', 'Kiz', 'Klee', 'Kleex', 'Kwee', 'Kweex', 'Kwi', 'Kwix', 'Kwy', 'Ma', 'Max', 'Ni', 'Nix', 'No', 'Nox', 'Qi', 'Rez', 'Ri', 'Ril', 'Rix', 'Riz', 'Ro', 'Rox', 'So', 'Sox', 'Vish', 'Wi', 'Wix', 'Wiz', 'Za', 'Zax', 'Ze', 'Zee', 'Zeex', 'Zex', 'Zi', 'Zix', 'Zot'];
   const nm2 = ['b', 'ba', 'be', 'bi', 'd', 'da', 'de', 'di', 'e', 'eb', 'ed', 'eg', 'ek', 'em', 'en', 'eq', 'ev', 'ez', 'g', 'ga', 'ge', 'gi', 'ib', 'id', 'ig', 'ik', 'im', 'in', 'iq', 'iv', 'iz', 'k', 'ka', 'ke', 'ki', 'm', 'ma', 'me', 'mi', 'n', 'na', 'ni', 'q', 'qa', 'qe', 'qi', 'v', 'va', 've', 'vi', 'z', 'za', 'ze', 'zi', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', ''];

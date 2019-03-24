@@ -1,4 +1,4 @@
-function generator$legend_of_zelda$deitys() {
+export default function deitys() {
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['', '', 'b', 'c', 'd', 'j', 'k', 'l', 'm', 'n', 'r', 't', 'v', 'z'];
   const nm2 = ['y', 'a', 'e', 'i', 'o', 'u'];

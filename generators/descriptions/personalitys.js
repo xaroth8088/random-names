@@ -1,4 +1,4 @@
-function generator$descriptions$personalitys() {
+export default function personalitys() {
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['A lot can be said of', 'Many things can be said of', 'There\'s a lot to say about', 'It takes a while to get to know', 'It\'s easy to get to know an open person like', 'A lot can be assumed when you first see', 'There\'s more than meets the eye in the case of', 'Looks can be deceiving when it comes', 'It\'s hard to describe a complex person like', 'Few know the true'];
   const nm2 = ['above else know that', 'if nothing else you should know', 'at the very least', 'two things you\'ll never forget are that', 'the biggest two things to know are that', 'the two traits most people enjoy the most are that', 'perhaps most important is that', 'most know that above all else', 'if there\'s anything you should know it\'s that', 'at the very least you\'ll find out'];

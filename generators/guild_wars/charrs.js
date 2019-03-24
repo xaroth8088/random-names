@@ -1,4 +1,4 @@
-function generator$guild_wars$charrs() {
+export default function charrs() {
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['D', 'R', 'T', 'G', 'K', 'Al', 'As', 'V', 'W'];
   const nm2 = ['a', 'o', 'u', 'i', 'a', 'o', 'u', 'e', 'ar', 'or', 'ur', 'ak', 'ok', 'uk', 'ud', 'ad', 'od', 'y', 'yt', '', ''];

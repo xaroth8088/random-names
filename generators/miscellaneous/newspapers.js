@@ -1,4 +1,4 @@
-function generator$miscellaneous$newspapers() {
+export default function newspapers() {
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm3 = [
     ['The ', 'Bulletin'],

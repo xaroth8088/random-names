@@ -1,4 +1,4 @@
-function generator$descriptions$societys() {
+export default function societys() {
   const names1 = ['nation', 'country', 'union', 'state'];
   const names2 = ['Suya', 'Avaria', 'Estein', 'Ushen', 'Iaburg', 'Uxil', 'Boles', 'Setan', 'Suvania', 'Xeria', 'Costan', 'Uvoswela', 'Atbrines', 'Sabia', 'Ebastana', 'Etrien', 'Uxtrus', 'Ponga', 'Teles', 'Docor', 'Exbreau', 'Alaybraria', 'Embron', 'Ariasken', 'Emuathen'];
   const names3 = ['betrayal', 'bitter struggles', 'bountiful nature', 'bravery', 'comradery', 'craftsmanship', 'cunning', 'darker times', 'dignity', 'distrust', 'endurance', 'faith', 'famines', 'fertile soils', 'friendship', 'hard work', 'honor', 'horrible crimes', 'industrial advancements', 'ingenuity', 'intelligence', 'intense labour', 'kindness', 'leadership', 'love', 'natural resource abundance', 'poorer times', 'prosperous trade', 'rare resources', 'rare soils', 'resourcefulness', 'sacrifices', 'science', 'sins', 'solidarity', 'strong minds', 'trust', 'vigor', 'violent battles', 'virtues', 'vitality', 'war', 'wisdom', 'wit', 'wrongdoings'];

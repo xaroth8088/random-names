@@ -1,4 +1,4 @@
-function generator$star_wars$neimoidians() {
+export default function neimoidians() {
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['', '', '', '', '', 'b', 'bl', 'br', 'c', 'ch', 'd', 'dr', 'f', 'g', 'gr', 'h', 'j', 'k', 'kl', 'kr', 'l', 'm', 'n', 'p', 'pr', 'r', 's', 'sm', 't', 'th', 'v', 'y', 'z'];
   const nm2 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'i', 'u', 'i', 'u', 'u', 'u', 'ai', 'au', 'oo', 'ee', 'ui', 'oa', 'uu'];

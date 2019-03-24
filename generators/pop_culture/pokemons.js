@@ -1,4 +1,4 @@
-function generator$pop_culture$pokemons() {
+export default function pokemons() {
   const type = Math.random() > 0.5 ? 0 : 1;
   const names1 = ['Dra', 'Drago', 'Chame', 'Alba', 'Alli', 'Alliga', 'Ante', 'Arma', 'Barra', 'Ba', 'Bea', 'Bi', 'Buffa', 'Cate', 'Chimpa', 'Coyo', 'Cro', 'Croco', 'Dino', 'Ele', 'Ela', 'Falco', 'Fla', 'Flami', 'Gaze', 'Gira', 'Gori', 'Hippo', 'Hye', 'Jagua', 'Kanga', 'Koa', 'Leo', 'Mana', 'Octo', 'Peli', 'Pigeo', 'Porcu', 'Rhino', 'Sala', 'Salama', 'Scorpi', 'Sha', 'Swa', 'Toa', 'Walla', 'Wolve'];
   const names2 = ['bite', 'buff', 'byss', 'ceon', 'coon', 'cross', 'ctric', 'dily', 'dos', 'drill', 'free', 'lax', 'lite', 'lix', 'loon', 'lord', 'low', 'ly', 'mire', 'mish', 'mite', 'nite', 'nium', 'nub', 'nyte', 'pet', 'phy', 'pip', 'pix', 'plume', 'pod', 'rak', 'reon', 'ron', 'ros', 'saur', 'sion', 'sire', 'slash', 'star', 'tar', 'tic', 'tine', 'tle', 'ton', 'tone', 'tric', 'tuff', 'zar', 'zel'];

@@ -1,4 +1,4 @@
-function generator$halo$san_shyuums() {
+export default function san_shyuums() {
   const nm1 = ['', '', '', '', '', '', '', 'b', 'c', 'd', 'f', 'h', 'k', 'l', 'm', 'n', 'p', 'r', 's', 't', 'v', 'w', 'z'];
   const nm2 = ['o', 'a', 'u'];
   const nm3 = ['b', 'c', 'd', 'g', 'k', 'p', 't', 'rd', 'rb', 'rc', 'rd', 'rg', 'rk', 'rp', 'rt'];

@@ -1,4 +1,4 @@
-function generator$warhammer$skavens() {
+export default function skavens() {
   const nm1 = ['', '', '', '', 'cr', 'chr', 'ch', 'kr', 'khr', 'kh', 'q', 'qh', 'qr', 'qhr', 'sn', 'sk', 'sr', 'str', 'st', 'skr', 'th', 'thr', 'tr', 't', 'v', 'x', 'z', 'zr', 'zh', 'zn'];
   const nm2 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'ie', 'ee', 'uo', 'ue', 'uee', 'ia', 'ua'];
   const nm3 = ['ch', 'cn', 'cr', 'cq', 'cx', 'gz', 'gr', 'gch', 'gq', 'k', 'kh', 'kr', 'kz', 'ktr', 'kn', 'nq', 'nk', 'nkr', 'nqr', 'q', 'qr', 'qz', 'qtr', 'sh', 'shr', 'shq', 'sq', 'sqh', 'sqr', 'sk', 'skr', 't', 'thr', 'tr', 'tz', 'x', 'xr', 'xk', 'xkr', 'xq', 'zq', 'zk', 'zkr'];

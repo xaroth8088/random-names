@@ -1,4 +1,4 @@
-function generator$descriptions$quests() {
+export default function quests() {
   const type = Math.random() > 0.5 ? 0 : 1;
   const tp = type;
   const nm1 = ['You there', 'Excuse me', 'Forgive me', 'Pardon me', 'Please', 'Please excuse me', '\'Scuse me'];

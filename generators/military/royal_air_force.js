@@ -1,4 +1,4 @@
-function generator$military$royal_air_force() {
+export default function royal_air_force() {
   const names = ['Ace', 'Beer', 'Charlie', 'Don', 'Edward', 'Freddie', 'George', 'Harry', 'Ink', 'Johnnie', 'King', 'London', 'Monkey', 'Nuts', 'Orange', 'Pip', 'Queen', 'Robert', 'Sugar', 'Toc', 'Uncle', 'Vic', 'William', 'Xray', 'Yorker', 'Zebra'];
 
   const r1 = Math.floor(Math.random() * names.length);

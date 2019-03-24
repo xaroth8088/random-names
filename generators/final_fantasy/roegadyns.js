@@ -1,4 +1,4 @@
-function generator$final_fantasy$roegadyns() {
+export default function roegadyns() {
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = [
     ['Abar', 'Lone'],

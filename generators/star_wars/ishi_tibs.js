@@ -1,4 +1,4 @@
-function generator$star_wars$ishi_tibs() {
+export default function ishi_tibs() {
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['', '', '', 'c', 'g', 'gr', 'h', 'j', 'k', 'm', 'n', 'q', 'r', 's', 'sh', 't', 'th', 'v', 'w', 'z'];
   const nm2 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'uu', 'ue', 'ia', 'ie', 'ui', 'ua', 'aa', 'ee'];

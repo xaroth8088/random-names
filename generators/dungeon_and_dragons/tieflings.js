@@ -1,4 +1,4 @@
-function generator$dungeon_and_dragons$tieflings() {
+export default function tieflings() {
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['Aet', 'Ak', 'Am', 'Aran', 'And', 'Ar', 'Ark', 'Bar', 'Car', 'Cas', 'Dam', 'Dhar', 'Eb', 'Ek', 'Er', 'Gar', 'Gu', 'Gue', 'Hor', 'Ia', 'Ka', 'Kai', 'Kar', 'Kil', 'Kos', 'Ky', 'Loke', 'Mal', 'Male', 'Mav', 'Me', 'Mor', 'Neph', 'Oz', 'Ral', 'Re', 'Rol', 'Sal', 'Sha', 'Sir', 'Ska', 'The', 'Thy', 'Thyne', 'Ur', 'Uri', 'Val', 'Xar', 'Zar', 'Zer', 'Zher', 'Zor'];
   const nm2 = ['adius', 'akas', 'akos', 'char', 'cis', 'cius', 'dos', 'emon', 'ichar', 'il', 'ilius', 'ira', 'lech', 'lius', 'lyre', 'marir', 'menos', 'meros', 'mir', 'mong', 'mos', 'mus', 'non', 'rai', 'rakas', 'rakir', 'reus', 'rias', 'ris', 'rius', 'ron', 'ros', 'rus', 'rut', 'shoon', 'thor', 'thos', 'thus', 'us', 'venom', 'vir', 'vius', 'xes', 'xik', 'xikas', 'xire', 'xius', 'xus', 'zer', 'zire'];

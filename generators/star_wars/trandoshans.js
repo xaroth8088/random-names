@@ -1,4 +1,4 @@
-function generator$star_wars$trandoshans() {
+export default function trandoshans() {
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['', '', '', '', '', '', '', '', '', '', 'b', 'bh', 'bl', 'br', 'c', 'ch', 'cl', 'cr', 'd', 'dh', 'dr', 'fr', 'g', 'gh', 'gr', 'grr', 'gwh', 'h', 'hr', 'hss', 'j', 'k', 'khr', 'kl', 'kr', 'l', 'm', 'mr', 'n', 'nr', 'nrr', 'p', 'pr', 'q', 'r', 's', 'sh', 'sk', 'sl', 'ss', 'ssk', 'sstr', 'st', 'thr', 't', 'tr', 'tsh', 'tss', 'v', 'vr', 'w', 'x', 'z'];
   const nm2 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'y', 'y', 'y', 'uu', 'ee', 'aa', 'oo', 'ai', 'ui', 'ey'];

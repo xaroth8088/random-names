@@ -1,4 +1,4 @@
-function generator$warhammer$dwarfs() {
+export default function dwarfs() {
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['', '', '', 'br', 'd', 'dr', 'g', 'gr', 'kh', 'kr', 'm', 'n', 'r', 's', 'sr', 'str', 'th', 'tr', 'thr', 'v', 'z'];
   const nm2 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'au', 'ai', 'oa', 'ao'];

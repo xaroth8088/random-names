@@ -1,4 +1,4 @@
-function generator$pathfinder$tengus() {
+export default function tengus() {
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['', '', '', '', '', 'b', 'ch', 'gr', 'j', 'k', 'kr', 'p', 'pr', 'q', 'qr', 'r', 's', 't', 'tr', 'tch', 'x', 'v', 'z'];
   const nm2 = ['a', 'e', 'o', 'u', 'a', 'e', 'o', 'u', 'a', 'e', 'o', 'u', 'a', 'e', 'o', 'u', 'i', 'i', 'a', 'e', 'o', 'u', 'au', 'ai', 'oi', 'ou'];

@@ -1,4 +1,4 @@
-function generator$star_wars_the_old_republic$zabraks() {
+export default function zabraks() {
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['A', 'O', 'E', 'U', 'B', 'Br', 'Bl', 'D', 'Dr', 'G', 'Gr', 'H', 'K', 'Kr', 'Kl', 'M', 'N', 'P', 'Q', 'R', 'S', 'St', 'T', 'V', 'Vr', 'X'];
   const nm2 = ['a', 'o', 'u', 'e'];

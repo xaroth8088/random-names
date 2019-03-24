@@ -1,4 +1,4 @@
-function generator$descriptions$aliens() {
+export default function aliens() {
   const names1 = ['mammal', 'aquatic mammal', 'amphibian', 'reptile', 'fish', 'invertebrate', 'bird', 'mammal'];
   let names2a = ['two arms and ', 'four arms and ', 'six arms and ', 'two arms and ', 'two arms and ', 'four arms and ', 'two arms and '];
   let names2b = ['two legs, ', 'four legs, ', 'six legs, ', 'four legs, ', 'two legs, ', 'two legs, '];

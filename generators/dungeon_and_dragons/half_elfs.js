@@ -1,4 +1,4 @@
-function generator$dungeon_and_dragons$half_elfs() {
+export default function half_elfs() {
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['Al', 'Aro', 'Bar', 'Bel', 'Cor', 'Cra', 'Dav', 'Dor', 'Eir', 'El', 'Fal', 'Fril', 'Gaer', 'Gra', 'Hal', 'Hor', 'Ian', 'Ilo', 'Jam', 'Kev', 'Kri', 'Leo', 'Lor', 'Mar', 'Mei', 'Nil', 'Nor', 'Ori', 'Os', 'Pan', 'Pet', 'Quo', 'Raf', 'Ri', 'Sar', 'Syl', 'Tra', 'Tyr', 'Uan', 'Ul', 'Van', 'Vic', 'Wal', 'Wil', 'Xan', 'Xav', 'Yen', 'Yor', 'Zan', 'Zyl'];
   const nm2 = ['avor', 'ben', 'borin', 'coril', 'craes', 'deyr', 'dithas', 'elor', 'enas', 'faelor', 'faerd', 'finas', 'fyr', 'gotin', 'gretor', 'homin', 'horn', 'kas', 'koris', 'lamir', 'lanann', 'lumin', 'minar', 'morn', 'nan', 'neak', 'neiros', 'orin', 'ovar', 'parin', 'phanis', 'qarim', 'qinor', 'reak', 'ril', 'ros', 'sariph', 'staer', 'torin', 'tumil', 'valor', 'voril', 'warith', 'word', 'xian', 'xiron', 'yeras', 'ynor', 'zaphir', 'zaren'];

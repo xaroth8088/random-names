@@ -1,4 +1,4 @@
-function generator$pathfinder$hobgoblins() {
+export default function hobgoblins() {
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['', '', '', 'b', 'd', 'dr', 'f', 'g', 'gr', 'h', 'k', 'kr', 'm', 'n', 'p', 'pr', 'r', 's', 't', 'z'];
   const nm2 = ['a', 'e', 'i', 'o', 'u'];

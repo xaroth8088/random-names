@@ -1,4 +1,4 @@
-function generator$pathfinder$goblins() {
+export default function goblins() {
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['', '', '', '', 'b', 'ch', 'dr', 'fl', 'g', 'gh', 'j', 'k', 'kr', 'l', 'm', 'n', 'p', 'r', 'v', 'w', 'z'];
   const nm2 = ['a', 'e', 'i', 'o', 'u', 'a', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'o', 'u', 'oo', 'ou', 'oa'];

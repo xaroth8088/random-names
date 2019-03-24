@@ -1,4 +1,4 @@
-function generator$places$planets() {
+export default function planets() {
   const nm1 = ['b', 'c', 'd', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'p', 'q', 'r', 's', 't', 'v', 'w', 'x', 'y', 'z', '', '', '', '', ''];
   const nm2 = ['a', 'e', 'o', 'u'];
   const nm3 = ['br', 'cr', 'dr', 'fr', 'gr', 'pr', 'str', 'tr', 'bl', 'cl', 'fl', 'gl', 'pl', 'sl', 'sc', 'sk', 'sm', 'sn', 'sp', 'st', 'sw', 'ch', 'sh', 'th', 'wh'];

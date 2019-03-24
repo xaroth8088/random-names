@@ -1,4 +1,4 @@
-function generator$fantasy$goblins() {
+export default function goblins() {
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['', '', '', '', '', '', '', 'b', 'c', 'd', 'f', 'g', 'h', 'j', 'k', 'l', 'p', 'r', 't', 'v', 'w', 'x', 'z', 'br', 'bl', 'cr', 'cl', 'ch', 'dr', 'fr', 'gr', 'gl', 'gn', 'kr', 'kl', 'pr', 'pl', 'str', 'st', 'sr', 'sl', 'tr', 'vr', 'wr', 'zr'];
   const nm2 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'y', 'ia', 'io', 'ee', 'aa', 'ui', 'ie', 'ea', 'oi'];

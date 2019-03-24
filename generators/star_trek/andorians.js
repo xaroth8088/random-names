@@ -1,4 +1,4 @@
-function generator$star_trek$andorians() {
+export default function andorians() {
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['a', 'e', 'o', 'i', '', '', '', '', '', '', ''];
   const nm2 = ['k', 'r', 'sh', 'shr', 't', 'th', 's', 'b'];

@@ -1,4 +1,4 @@
-function generator$star_wars$bothans() {
+export default function bothans() {
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['', '', 'b', 'c', 'd', 'g', 'gr', 'h', 'k', 'n', 'r', 'tr', 'v', 'y', 'z'];
   const nm2 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'ae', 'aa', 'ee', 'ai', 'ia'];

@@ -1,4 +1,4 @@
-function generator$diablo$nephalems() {
+export default function nephalems() {
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['', '', '', '', 'b', 'c', 'd', 'g', 'j', 'k', 'l', 'm', 'n', 'ph', 'r', 't', 'v', 'w', 'z'];
   const nm2 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'ia', 'oe', 'io', 'y'];

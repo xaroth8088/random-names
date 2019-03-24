@@ -1,4 +1,4 @@
-function generator$legend_of_zelda$gerudos() {
+export default function gerudos() {
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['B', 'C', 'D', 'G', 'H', 'K', 'M', 'R', 'T'];
   const nm2 = ['a', 'e', 'i', 'o', 'u'];

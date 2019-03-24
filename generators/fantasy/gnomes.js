@@ -1,4 +1,4 @@
-function generator$fantasy$gnomes() {
+export default function gnomes() {
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['b', 'c', 'cl', 'd', 'fr', 'g', 'gn', 'h', 'j', 'kn', 'kl', 'l', 'm', 'n', 'p', 'r', 'sc', 'sl', 'sn', 'sm', 't', 'w', 'z'];
   const nm2 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'y', 'y', 'y', 'oo', 'ee', 'aa', 'ie', 'ai'];

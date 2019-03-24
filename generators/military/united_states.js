@@ -1,4 +1,4 @@
-function generator$military$united_states() {
+export default function united_states() {
   const names = ['Able', 'Baker', 'Charlie', 'Dog', 'Easy', 'Fox', 'George', 'How', 'Item', 'Jig', 'King', 'Love', 'Mike', 'Nan', 'Oboe', 'Peter', 'Queen', 'Roger', 'Sugar', 'Tare', 'Uncle', 'Victor', 'William', 'Xray', 'Yoke', 'Zebra'];
 
   const r1 = Math.floor(Math.random() * names.length);

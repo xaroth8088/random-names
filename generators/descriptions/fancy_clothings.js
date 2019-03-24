@@ -1,4 +1,4 @@
-function generator$descriptions$fancy_clothings() {
+export default function fancy_clothings() {
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['covers her shoulders halfway', 'covers her shoulders entirely', 'covers her shoulders almost fully', 'covers her shoulders only barely with 2 spaghetti straps', 'leaves the top of her shoulders uncovered, but does cover the sides', 'leaves her shoulders mostly uncovered', 'leaves her shoulders uncovered, instead it\'s supported around her neck', 'covers just one of her shoulders, leaves the other uncovered', 'covers only a small portion of her shoulders'];
   const nm2 = ['an elegant', 'a graceful', 'a stylish', 'a delicate', 'a simple', 'a modest', 'a fancy', 'a beautiful', 'a tasteful'];

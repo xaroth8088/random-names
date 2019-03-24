@@ -1,4 +1,4 @@
-function generator$miscellaneous$heists() {
+export default function heists() {
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm2 = ['Heist', 'Sting', 'Robbery', 'Heist', 'Robbery', 'Heist'];
 

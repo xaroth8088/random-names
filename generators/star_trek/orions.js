@@ -1,4 +1,4 @@
-function generator$star_trek$orions() {
+export default function orions() {
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['D', 'G', 'H', 'J', 'L', 'M', 'N', 'Ng', 'R', 'T', 'Th', 'V'];
   const nm2 = ['a', 'i', 'e', 'o', 'a', 'ai', 'ou', 'aa', 'a', 'e', 'i', 'o'];

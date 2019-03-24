@@ -1,4 +1,4 @@
-function generator$warhammer$wood_elfs() {
+export default function wood_elfs() {
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['', '', '', 'c', 'd', 'dh', 'g', 'k', 'kh', 'sc', 'str', 't', 'th', 'tr', 'v', 'z'];
   const nm2 = ['a', 'i', 'o', 'u', 'a', 'i', 'o', 'u', 'a', 'i', 'o', 'u', 'a', 'a', 'o', 'o', 'a', 'o', 'o', 'a', 'io', 'aa', 'ae', 'ia'];

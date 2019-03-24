@@ -1,4 +1,4 @@
-function generator$mass_effect$krogans() {
+export default function krogans() {
   const type = Math.random() > 0.5 ? 0 : 1;
   const names1 = ['B', 'Br', 'C', 'Cr', 'Ch', 'D', 'Dr', 'F', 'G', 'Gr', 'H', 'J', 'K', 'Kh', 'Kr', 'M', 'N', 'P', 'Pr', 'Q', 'Qr', 'R', 'S', 'Sr', 'Str', 'T', 'Tr', 'V', 'Vr', 'W', 'Wr', 'Zr'];
   const names2 = ['a', 'e', 'u', 'i', 'o', 'a', 'u'];

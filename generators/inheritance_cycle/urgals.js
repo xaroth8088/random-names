@@ -1,4 +1,4 @@
-function generator$inheritance_cycle$urgals() {
+export default function urgals() {
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['', '', 'b', 'd', 'g', 'kh', 'k', 'r', 'sk', 'skg', 't', 'y', 'v', 'z'];
   const nm2 = ['a', 'e', 'o', 'u'];

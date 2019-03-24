@@ -1,4 +1,4 @@
-function generator$pathfinder$oreads() {
+export default function oreads() {
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['', '', '', 'b', 'd', 'g', 'j', 'l', 'm', 'n', 'p', 'r', 's', 't', 'v'];
   const nm2 = ['a', 'e', 'i', 'o', 'u', 'a', 'o', 'u', 'y'];

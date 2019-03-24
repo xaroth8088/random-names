@@ -1,4 +1,4 @@
-function generator$star_wars_the_old_republic$chiss() {
+export default function chiss() {
   const nm1 = ['B', 'C', 'D', 'G', 'H', 'J', 'K', 'M', 'N', 'P', 'R', 'S', 'T', 'V', 'W', 'Z'];
   const nm2 = ['a', 'e', 'u', 'i', 'o', 'a', 'e', 'u', 'i', 'o', 'ra', 're', 'ru', 'ri', 'ro', 'la', 'le', 'lu', 'li', 'lo'];
   const nm3 = ['th', 'tth', 'tt', 's', 'ss', 'sh', 'st', 'sd', 'g', 'gh', 'w', 'q', 'qh', 'r', 'rr', 'rs', 'rt', 'rd', 'rg', 'rk', 'rm', 'rn', 'c', 'rc', 'sk', 'z', 'zz', 'm', 'mm', 'n', 'ng'];

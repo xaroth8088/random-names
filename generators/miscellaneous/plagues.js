@@ -1,4 +1,4 @@
-function generator$miscellaneous$plagues() {
+export default function plagues() {
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm2 = ['Affliction', 'Contagion', 'Death', 'Epidemic', 'Infestation', 'Outbreak', 'Pandemic', 'Plague', 'Scourge'];
 

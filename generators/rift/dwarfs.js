@@ -1,4 +1,4 @@
-function generator$rift$dwarfs() {
+export default function dwarfs() {
   const type = Math.random() > 0.5 ? 0 : 1;
   if (type === 1) {
     var names1 = ['Ale', 'Ali', 'A', 'Ba', 'Bari', 'Be', 'Bi', 'Bise', 'Bo', 'Bohu', 'Bori', 'Boza', 'Bra', 'Brani', 'Bre', 'Bro', 'Da', 'Dani', 'Dari', 'De', 'Deni', 'Dobri', 'Do', 'Dobro', 'Dra', 'Draga', 'Draho', 'Du', 'Dusa', 'Eli', 'Ela', 'Go', 'Gora', 'Gro', 'Gra', 'Ida', 'Iva', 'Ja', 'Jani', 'Jale', 'Jase', 'Jele', 'Ka', 'Kali', 'Ke', 'La', 'Le', 'Li', 'Ma', 'Mali', 'Me', 'Meli', 'Mi', 'Mila', 'Mile', 'Miru', 'Mo', 'Mora', 'Ne', 'Neve', 'O', 'Ole', 'Ra', 'Radi', 'Ro', 'Rosi', 'Ru', 'Rumi', 'Se', 'Sta', 'Stani', 'Suda', 'Su', 'Ti', 'Tiha', 'Tu', 'Va', 'Ve', 'Veli', 'Bo', 'Borghi', 'Bry', 'Ei', 'Fre', 'Ge', 'Gri', 'Gro', 'Gu', 'Hei', 'Hi', 'Hu', 'Na', 'Sa', 'Si', 'Ska', 'Sva', 'Ve'];

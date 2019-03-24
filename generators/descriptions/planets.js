@@ -1,4 +1,4 @@
-function generator$descriptions$planets() {
+export default function planets() {
   const type = Math.random() > 0.5 ? 0 : 1;
   const tp = type;
   let planetType = Math.floor((Math.random() * 3) + 1);

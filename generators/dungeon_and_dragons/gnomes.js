@@ -1,4 +1,4 @@
-function generator$dungeon_and_dragons$gnomes() {
+export default function gnomes() {
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['Al', 'Ari', 'Bil', 'Bri', 'Cal', 'Cor', 'Dav', 'Dor', 'Eni', 'Er', 'Far', 'Fel', 'Ga', 'Gra', 'His', 'Hor', 'Ian', 'Ipa', 'Je', 'Jor', 'Kas', 'Kel', 'Lan', 'Lo', 'Man', 'Mer', 'Nes', 'Ni', 'Or', 'Oru', 'Pana', 'Po', 'Qua', 'Quo', 'Ras', 'Ron', 'Sa', 'Sal', 'Sin', 'Tan', 'To', 'Tra', 'Um', 'Uri', 'Val', 'Vor', 'War', 'Wil', 'Wre', 'Xal', 'Xo', 'Ye', 'Yos', 'Zan', 'Zil'];
   const nm2 = ['bar', 'ben', 'bis', 'corin', 'cryn', 'don', 'dri', 'fan', 'fiz', 'gim', 'grim', 'hik', 'him', 'ji', 'jin', 'kas', 'kur', 'len', 'lin', 'min', 'mop', 'morn', 'nan', 'ner', 'ni', 'pip', 'pos', 'rick', 'ros', 'rug', 'ryn', 'ser', 'ston', 'tix', 'tor', 'ver', 'vyn', 'win', 'wor', 'xif', 'xim', 'ybar', 'yur', 'ziver', 'zu'];

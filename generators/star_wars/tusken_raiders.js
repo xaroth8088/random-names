@@ -1,4 +1,4 @@
-function generator$star_wars$tusken_raiders() {
+export default function tusken_raiders() {
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['A\'', 'Ch\'', 'Gr\'', 'H\'', 'K\'', 'Q\'', 'R\'', '', '', '', '', '', '', '', '', '', '', '', '', '', '', ''];
   const nm2 = ['B', 'C', 'Ch', 'D', 'G', 'K', 'Q', 'R', 'S', 'Sh', 'Sl', 'T', 'Th', 'Y', 'V', 'Z'];

@@ -1,4 +1,4 @@
-function generator$star_trek$trills() {
+export default function trills() {
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['', 'b', 'c', 'd', 'g', 'gr', 'h', 'j', 'k', 'm', 'n', 'r', 's', 't', 'v', 'vr', 'y'];
   const nm2 = ['ia', 'aa', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u'];

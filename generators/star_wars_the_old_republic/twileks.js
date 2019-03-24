@@ -1,4 +1,4 @@
-function generator$star_wars_the_old_republic$twileks() {
+export default function twileks() {
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['i', 'a', 'o', 'e', 'u', 'y', 'aa', 'ai', 'ao', 'ae', 'au', 'ia', 'io', 'ie', 'iu', 'oi', 'oa', 'oo', 'oe', 'ou', 'ui', 'ua', 'uu', 'uo', 'ue', 'i', 'a', 'o', 'e', 'u', 'i', 'a', 'o', 'e', 'u', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', ''];
   const nm2 = ['b', 'c', 'cr', 'd', 'f', 'g', 'h', 'j', 'k', 'l', 'm', 'n', 'p', 'r', 's', 'sr', 't', 'v', 'w', 'z'];

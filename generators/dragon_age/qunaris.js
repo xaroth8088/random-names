@@ -1,4 +1,4 @@
-function generator$dragon_age$qunaris() {
+export default function qunaris() {
   const type = Math.random() > 0.5 ? 0 : 1;
   const namesFemale = ['As', 'Bah', 'Bir', 'Birs', 'Can', 'Dem', 'Fad', 'Giz', 'Hat', 'Kar', 'Kard', 'Kub', 'Kubr', 'Kut', 'Mel', 'Naz', 'Nazl', 'Nih', 'Or', 'Ork', 'Oz', 'Ozen', 'Ras', 'San', 'Say', 'Sem', 'Ser', 'Sol', 'Solm', 'Sum', 'Tam', 'Tamg', 'Tur', 'Turn', 'Yas', 'Yasem', 'Yen', 'Yon'];
   const namesFemale2 = ['a', 'aan', 'al', 'am', 'an', 'anem', 'ar', 'asan', 'ay', 'ayar', 'az', 'azik', 'azli', 'e', 'ek', 'elek', 'elen', 'em', 'emin', 'en', 'ena', 'ener', 'enli', 'er', 'era', 'et', 'ice', 'ide', 'ie', 'iha', 'ihan', 'ik', 'in', 'onal', 'ul', 'umer'];

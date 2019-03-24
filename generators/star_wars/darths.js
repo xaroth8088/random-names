@@ -1,4 +1,4 @@
-function generator$star_wars$darths() {
+export default function darths() {
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['', '', '', '', '', '', '', '', '', '', 'b', 'br', 'c', 'ch', 'chr', 'cr', 'd', 'dr', 'f', 'g', 'gl', 'gr', 'h', 'j', 'k', 'kr', 'kh', 'l', 'm', 'mh', 'n', 'pl', 'pr', 'q', 'r', 's', 'sc', 'sk', 'st', 'str', 'sr', 't', 'th', 'tr', 'v', 'w', 'wr', 'x', 'z'];
   const nm2 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'y', 'y', 'y', 'ou', 'ae', 'ea', 'ui', 'ia', 'ue', 'ei', 'uy'];

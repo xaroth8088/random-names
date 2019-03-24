@@ -1,4 +1,4 @@
-function generator$star_wars$shistavanens() {
+export default function shistavanens() {
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['b', 'bl', 'c', 'd', 'g', 'h', 'k', 'l', 'm', 'n', 'phl', 'r', 's', 't', 'v', 'y'];
   const nm2 = ['a', 'e', 'i', 'o', 'u', 'u', 'o', 'a', 'a', 'e', 'i', 'o', 'u', 'u', 'o', 'a', 'oo', 'aa', 'uu'];

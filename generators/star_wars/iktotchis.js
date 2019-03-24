@@ -1,4 +1,4 @@
-function generator$star_wars$iktotchis() {
+export default function iktotchis() {
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['', '', '', 'c', 'd', 'f', 'h', 'k', 'm', 'n', 'r', 's', 't', 'v', 'w', 'z'];
   const nm2 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'ee', 'ae', 'ie', 'ye', 'yi', 'ei'];

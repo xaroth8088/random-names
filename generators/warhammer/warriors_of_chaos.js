@@ -1,4 +1,4 @@
-function generator$warhammer$warriors_of_chaos() {
+export default function warriors_of_chaos() {
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['', '', '', 'b', 'bl', 'br', 'd', 'dr', 'dj', 'f', 'fr', 'g', 'gr', 'gh', 'k', 'kh', 'kr', 'm', 'r', 's', 'sc', 'sr', 'sk', 'sz', 'str', 't', 'tr', 'v', 'w'];
   const nm2 = ['a', 'e', 'i', 'o', 'u', 'y', 'a', 'e', 'i', 'o', 'u', 'y', 'a', 'e', 'i', 'o', 'u', 'y', 'ao', 'au', 'oa', 'ay'];

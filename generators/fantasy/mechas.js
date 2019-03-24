@@ -1,4 +1,4 @@
-function generator$fantasy$mechas() {
+export default function mechas() {
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm2 = ['Angel', 'Armor', 'Armor Suit', 'Battler', 'Buster', 'Colossus', 'Combatant', 'Command Suit', 'Command Unit', 'Decimator', 'Leviathan', 'Dreadnought', 'Drone', 'Engine', 'Fighter', 'Fortress', 'Gear', 'Guardian', 'Gun System', 'Jaeger', 'Juggernaut', 'Machine', 'Master', 'Master Suit', 'Mech', 'Panzer', 'Runner', 'Scouter', 'Sentinel', 'Stalker', 'Strider', 'Suit', 'Transport', 'Trooper', 'Unit', 'Valkyrie', 'Walker', 'Warmech'];
 

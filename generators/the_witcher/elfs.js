@@ -1,4 +1,4 @@
-function generator$the_witcher$elfs() {
+export default function elfs() {
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['', '', '', '', '', 'c', 'ch', 'cr', 'd', 'f', 'g', 'h', 'm', 'r', 's', 't', 'v', 'vr'];
   const nm2 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'ia', 'oi', 'au', 'ai', 'ei', 'ae', 'ea', 'io'];

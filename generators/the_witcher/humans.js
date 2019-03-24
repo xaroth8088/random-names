@@ -1,4 +1,4 @@
-function generator$the_witcher$humans() {
+export default function humans() {
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['', '', '', '', '', 'b', 'br', 'c', 'ch', 'd', 'dr', 'f', 'gr', 'g', 'h', 'k', 'kr', 'l', 'm', 'n', 'r', 's', 'st', 'str', 't', 'th', 'v', 'z'];
   const nm2 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'ui', 'ea', 'ei', 'ie', 'ai', 'ua', 'ei', 'eo', 'ia', 'aa', 'ee'];

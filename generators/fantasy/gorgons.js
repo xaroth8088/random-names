@@ -1,4 +1,4 @@
-function generator$fantasy$gorgons() {
+export default function gorgons() {
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['ch', 'chr', 'd', 'h', 'k', 'm', 'n', 'ph', 'r', 'sth', 'th', 'x', 'v', 'z'];
   const nm2 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'y', 'a', 'e', 'i', 'o', 'u', 'y', 'eia', 'ei', 'eu', 'ae', 'ya', 'ai', 'ia'];

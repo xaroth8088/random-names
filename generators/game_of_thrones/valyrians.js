@@ -1,4 +1,4 @@
-function generator$game_of_thrones$valyrians() {
+export default function valyrians() {
   const type = Math.random() > 0.5 ? 0 : 1;
   const names1 = ['Ae', 'Aega', 'Aera', 'Aery', 'Bae', 'Baese', 'Balae', 'Dae', 'Daema', 'Daera', 'Gae', 'Gahae', 'Galae', 'Garae', 'Jacae', 'Jae', 'Jaehae', 'Jaere', 'Lae', 'Lucae', 'Ma', 'Mae', 'Maeha', 'Malae', 'Mata', 'Rae', 'Ragae', 'Rahae', 'Rhae', 'Tae', 'Taece', 'Tahae', 'Talae', 'Tyrae', 'Va', 'Vae', 'Vahae', 'Vi', 'Vise', 'Yrae'];
   const names2 = ['dar', 'dor', 'gar', 'garon', 'garys', 'gel', 'gon', 'gor', 'lar', 'larr', 'larys', 'lon', 'lor', 'lyx', 'mar', 'marr', 'marys', 'mion', 'mon', 'mond', 'mor', 'morys', 'myx', 'nar', 'narr', 'nor', 'nys', 'nyx', 'raenar', 'rion', 'ron', 'rys', 'var', 'von', 'vor'];

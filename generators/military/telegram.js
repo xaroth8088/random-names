@@ -1,4 +1,4 @@
-function generator$military$telegram() {
+export default function telegram() {
   const names = ['Adam', 'Boston', 'Chicago', 'Denver', 'Edward', 'Frank', 'George', 'Henry', 'Ida', 'John', 'King', 'Lincoln', 'Mary', 'New York', 'Ocean', 'Peter', 'Queen', 'Roger', 'Sugar', 'Thomas', 'Union', 'Victor', 'William', 'Xray', 'Young', 'Zero'];
 
   const r1 = Math.floor(Math.random() * names.length);

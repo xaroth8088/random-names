@@ -1,4 +1,4 @@
-function generator$descriptions$rag_clothings() {
+export default function rag_clothings() {
   const type = Math.random() > 0.5 ? 0 : 1;
   const tp = type;
   const nm1 = ['Her', 'She', 'her', 'she', 'her', 'His', 'He', 'his', 'he', 'him'];

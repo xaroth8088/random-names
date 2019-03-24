@@ -1,4 +1,4 @@
-function generator$descriptions$shotguns() {
+export default function shotguns() {
   const nm1 = ['single barreled', 'double barreled', 'triple barreled', 'quadruple barreled', 'single barreled', 'double barreled'];
   const nm2 = ['a beauty', 'a classic', 'a new design', 'a new model', 'a popular one', 'a prototype', 'a unique piece', 'amazing', 'fairly simple', 'powerful', 'pretty standard', 'quite intimidating', 'stunning', 'very popular', 'very powerful'];
   const nm3 = ['around the world', 'in many countries', 'legally in a few countries', 'illegally in many countries', 'globally', 'in only a few countries', 'across 2 continents', 'across 3 continents', 'in almost every country', 'legally in many countries'];
