@@ -5,7 +5,7 @@ export default function modern_egyptians() {
   const nm3 = ['Abadi', 'Abboud', 'Al Sadat', 'Almasi', 'Amari', 'Antar', 'Antoun', 'Arian', 'Asfour', 'Asghar', 'Asker', 'Assaf', 'Aswad', 'Atiyeh', 'Attia', 'Awad', 'Ba', 'Baba', 'Bahar', 'Basara', 'Bata', 'Baz', 'Bazzi', 'Bishara', 'Bitar', 'Botros', 'Boulos', 'Boutros', 'Cham', 'Dagher', 'Daher', 'Deeb', 'El Sadat', 'Essa', 'Fakhoury', 'Gaber', 'Ganem', 'Ganim', 'Gerges', 'Ghanem', 'Ghannam', 'Guirguis', 'Hadad', 'Haddad', 'Haik', 'Hajjar', 'Hakimi', 'Halabi', 'Hanania', 'Handal', 'Harb', 'Isa', 'Issa', 'Kalb', 'Kanaan', 'Kassab', 'Kassis', 'Kattan', 'Khouri', 'Khoury', 'Kouri', 'Koury', 'Maalouf', 'Maloof', 'Malouf', 'Mansour', 'Maroun', 'Masih', 'Mifsud', 'Mikhail', 'Moghadam', 'Morcos', 'Mubarak', 'Mustafa', 'Nader', 'Nahas', 'Naifeh', 'Najjar', 'Naser', 'Nassar', 'Nazari', 'Quraishi', 'Qureshi', 'Rahal', 'Sabbag', 'Sabbagh', 'Safar', 'Said', 'Salib', 'Saliba', 'Samaha', 'Sarkis', 'Sarraf', 'Sayegh', 'Seif', 'Shadid', 'Shalhoub', 'Shammas', 'Shamon', 'Shamoon', 'Shamoun', 'Sleiman', 'Srour', 'Tahan', 'Tannous', 'Toma', 'Totah', 'Touma', 'Tuma', 'Wasem', 'Zogby'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     rnd2 = Math.floor(Math.random() * nm3.length);
     if (type === 1) {

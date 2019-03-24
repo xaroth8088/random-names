@@ -13,7 +13,7 @@ export default function centaurs() {
     names5 = ['belle', 'bes', 'both', 'cris', 'cith', 'cise', 'dine', 'dim', 'dol', 'flin', 'fone', 'fran', 'grin', 'gone', 'gana', 'hine', 'hoth', 'hante', 'kine', 'kres', 'koe', 'lynn', 'lore', 'less', 'melle', 'mine', 'mare', 'nine', 'nith', 'nys', 'pris', 'plix', 'pione', 'phine', 'phes', 'phe', 'renne', 'rila', 'rone', 'syla', 'sin', 'sane', 'trix', 'tyne', 'toph', 'vina', 'vera', 'vin', 'wyn', 'wane', 'woth', 'zyna', 'zora', 'zith'];
   }
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     if (i < 5) {
       rnd = Math.floor(Math.random() * nm1.length);

@@ -5,7 +5,7 @@ export default function tribes() {
   const names3 = ['Tribe', 'Kin', 'Clan', 'Warriors', 'Children', 'Caste', 'Horde', 'Tribe'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     rnd = Math.floor(Math.random() * names1.length);
     rnd2 = Math.floor(Math.random() * names2.length);

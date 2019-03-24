@@ -19,7 +19,7 @@ export default function klingons() {
   const nm15 = ['bh', 'c', 'ct', 'ck', 'cx', 'ch', 'd', 'dh', 'j', 'g', 'gh', 'h', 'k', 'l', 'lt', 'm', 'n', 'nn', 'ng', 'r', 'rc', 'rr', 'rgh', 'rk', 'rv', 'rn', 'rg', 'sh', 'sht', 's', 'ss', 't', 'th', 'v', 'x', 'z', 'zh'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     if (type === 1) {
       if (i < 4) {

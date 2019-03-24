@@ -7,7 +7,7 @@ function generator$eve_online$minmatars(type) {﻿
   const names6 = ['bet', 'bina', 'bjorg', 'brina', 'da', 'dea', 'dya', 'fa', 'ffia', 'fia', 'ga', 'gey', 'gmar', 'gne', 'gnea', 'gnes', 'gney', 'gny', 'gr', 'grun', 'ha', 'haya', 'hera', 'hi', 'hu', 'hya', 'ka', 'ke', 'kei', 'ki', 'kina', 'ko', 'koro', 'kuku', 'kutu', 'la', 'lan', 'lati', 'lda', 'ldis', 'ldr', 'len', 'lena', 'lga', 'lia', 'liana', 'lin', 'lina', 'lja', 'lka', 'lla', 'lma', 'lny', 'lome', 'lrun', 'lveig', 'ma', 'mana', 'mar', 'mara', 'mey', 'mi', 'na', 'nda', 'ngi', 'nhildr', 'ni', 'nia', 'nika', 'nja', 'nna', 'nny', 'noti', 'nta', 'nti', 'nui', 'ny', 'nya', 'ra', 'rama', 'ran', 'ren', 'rgdis', 'rgey', 'rgit', 'rgitta', 'ri', 'rida', 'rin', 'rina', 'ritas', 'rla', 'rma', 'rmen', 'rna', 'roa', 'roka', 'ros', 'rta', 'rtha', 'rtna', 'sih', 'sina', 'ska', 'sol', 'ssa', 'sta', 'ta', 'tha', 'ti', 'tna', 'to', 'tra', 'trea', 'tri', 'tt', 'tta', 'tu', 'tua', 'va', 'van', 'veca', 'veka', 'vi', 'war', 'wati', 'wi', 'xia', 'xina', 'yja'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     if (type === 1) {
       rnd = Math.floor(Math.random() * names3.length);

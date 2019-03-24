@@ -7,7 +7,7 @@ export default function bandits() {
 
   const names1 = type === 1 ? namesFemale : namesMale;
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     rnd = Math.floor(Math.random() * names1.length);
     if (i < 5) {

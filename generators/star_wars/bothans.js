@@ -14,7 +14,7 @@ export default function bothans() {
   const nm12 = ['', '', '', '', '', 'a', 'e', 'i', 'o', 'u'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     rnd6 = Math.floor(Math.random() * nm8.length);
     rnd7 = Math.floor(Math.random() * nm9.length);

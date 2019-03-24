@@ -7,7 +7,7 @@ export default function titles() {
   const nm6 = ['Birth', 'Bliss', 'Blood', 'Bones', 'Darkness', 'Death', 'Devotion', 'Divinity', 'Dreams', 'Eternity', 'Faith', 'Freedom', 'Genesis', 'Gold', 'Gracy', 'Healing', 'Life', 'Light', 'Mercy', 'Misery', 'Nature', 'Nightmares', 'Peace', 'Pestinence', 'Piety', 'Pure Hearts', 'Purity', 'Rebirth', 'Sanctity', 'Shadow', 'Silence', 'Silver', 'Solitude', 'Spirits', 'Time', 'Virtue', 'Worship', 'the Arcane', 'the Blue', 'the Dead', 'the Earth', 'the East', 'the Flame', 'the Gardens', 'the King', 'the Light', 'the Living', 'the Moon', 'the Night', 'the North', 'the Phoenix', 'the Realm', 'the Red', 'the Sands', 'the Sea', 'the South', 'the Stars', 'the Sun', 'the Undead', 'the Undying', 'the Veil', 'the Voice', 'the Void', 'the West', 'the White', 'the World'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     if (i < 3) {
       rnd = Math.floor(Math.random() * nm1.length);

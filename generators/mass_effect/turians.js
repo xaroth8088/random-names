@@ -11,7 +11,7 @@ export default function turians() {
     var names2 = ['ana', 'bia', 'cia', 'cidia', 'dia', 'ginia', 'ia', 'lea', 'lia', 'lonia', 'mia', 'na', 'naria', 'nea', 'nia', 'pia', 'pilia', 'ponia', 'retia', 'ria', 'sia', 'tana', 'teia', 'tia', 'tilia', 'tina', 'tiria', 'toria', 'vea', 'via'];
   }
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     rnd = Math.floor(Math.random() * names1.length);
     rnd1 = Math.floor(Math.random() * names2.length);

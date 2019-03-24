@@ -7,7 +7,7 @@ export default function cafes() {
 
   const names = [];
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     if (i < 5) {
       rnd0 = Math.floor(Math.random() * names4.length);

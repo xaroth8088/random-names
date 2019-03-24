@@ -9,7 +9,7 @@ export default function gotals() {
   const nm8 = ['c', 'gg', 'gh', 'l', 'm', 'n', 'nth', 'r', 'rn', 'rk', 'ss', 't', 'th', 'x'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     rnd6 = Math.floor(Math.random() * nm5.length);
     rnd7 = Math.floor(Math.random() * nm6.length);

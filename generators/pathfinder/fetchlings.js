@@ -9,7 +9,7 @@ export default function fetchlings() {
   const nm8 = ['', '', '', '', '', '', '', '', '', '', '', '', '', 'h', 'l', 'm', 'n', 's', 'x'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm5.length);

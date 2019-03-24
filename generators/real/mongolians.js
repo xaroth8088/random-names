@@ -3,7 +3,7 @@ function generator$real$mongolians(type) {﻿
   const namesFemale = ['Alagh Yid', 'Alan', 'Alan Ghoa', 'Alaqa', 'Altan', 'Altani', 'Altantsetseg', 'Altun', 'Barghujin', 'Battsetseg', 'Bayarma', 'Bayarmaa', 'Berude', 'Bolormaa', 'Boragchin', 'Borte', 'Borte Jusin', 'Botokhui Targhun', 'Budan', 'Chagur', 'Chakha', 'Chambui', 'Checheyigen', 'Chotan', 'Cirina', 'Cota', 'Cotota', 'Dagasi', 'Dokuz Khatum', 'Dorgene', 'Ebegei', 'Enebish', 'Enkhjargal', 'Enkhtuya', 'Enkhtuyaa', 'Erdenechimeg', 'Erdenetungalag', 'Ergene', 'Etugen Eke', 'Ganzorig', 'Gerelma', 'Ghoa', 'Gorbeljin', 'Gurbesu', 'Hogelun', 'Holuikhan', 'Hongorzul', 'Hujaghur', 'Ibakha', 'Jaliqai', 'Jiguur', 'Khünbish', 'Khadagan', 'Khenbish', 'Khogaghchin', 'Khojin', 'Khongordzol', 'Khorijin', 'Khugurchin', 'Khulan', 'Mönkhtsetseg', 'Maa', 'Maral', 'Medekhgüi', 'Mide', 'Mongoljin', 'Munkhtsetseg', 'Muunokhoi', 'Narangerel', 'Narantsetseg', 'Narantuyaa', 'Narengawa', 'Nergüi', 'Nomolun', 'Odtsetseg', 'Odval', 'Oghul', 'Ogtbish', 'Ogul', 'Ogul Gaimysh', 'Orbei', 'Oyunbileg', 'Oyunchimeg', 'Oyuun', 'Oyuunchimeg', 'Samga', 'Saran', 'Sarangerel', 'Sarantsatsr', 'Sarantsatsral', 'Sarantuya', 'Sayinaral Qayag', 'Sechen', 'Seruuntungalag', 'Silugukhan Qatakhan', 'Silun Gorgelji', 'Sokhatai', 'Solongo', 'Sorghaghtani Beki', 'Sorkhaghtani', 'Sorocan', 'Tegusken', 'Temulun', 'Temulun Abagai', 'Terbish', 'Togene', 'Toragana', 'Tsetsegmaa', 'Turakina', 'Uranchimeg', 'Yesugen', 'Yesui', 'Yesuntei', 'Yisu Qatun', 'Yisugei Qatun'];
 
   const names1 = type === 1 ? namesFemale : namesMale;
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     rnd = Math.floor(Math.random() * names1.length);
     names = names1[rnd];

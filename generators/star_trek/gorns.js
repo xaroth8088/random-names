@@ -4,7 +4,7 @@ export default function gorns() {
   const nm2 = ['bahr', 'bas', 'bet', 'bizs', 'bus', 'cees', 'ch', 'chat', 'chium', 'cus', 'd', 'daar', 'das', 'dous', 'drees', 'g', 'gazs', 'get', 'girb', 'gozin', 'hlik', 'hr', 'hrid', 'hris', 'hs', 'k', 'kah', 'kan', 'kazs', 'kouk', 'l', 'lak', 'lath', 'let', 'leus', 'lis', 'lk', 'llk', 'm', 'mal', 'mar', 'msek', 'mus', 'n', 'nbet', 'nd', 'ndas', 'nzaar', 'r', 'rash', 'rd', 'rith', 'rozs', 'rr', 's', 'sek', 'sh', 'sibus', 'ss', 'szan', 'tar', 'tezs', 'th', 'this', 'ts', 'yah', 'yak', 'yas', 'yin', 'yith', 'z', 'zaar', 'zin', 'zs', 'zzan'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     rnd = Math.floor(Math.random() * nm1.length);
     rnd2 = Math.floor(Math.random() * nm2.length);

@@ -7,7 +7,7 @@ export default function forsaken() {
   const nm5 = ['bane', 'bearer', 'binder', 'biter', 'bringer', 'caller', 'creator', 'defiler', 'demise', 'destroyer', 'end', 'fever', 'flesh', 'ford', 'fury', 'griever', 'harvester', 'hate', 'hater', 'meat', 'menace', 'pest', 'reaper', 'runner', 'sinew', 'slicer', 'spell', 'ton', 'walker', 'weeper', 'well', 'wrencher', 'writhe', 'wyrm', 'glare', 'blood', 'fall', 'song', 'gloom'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     rnd2 = Math.floor(Math.random() * nm3.length);
     rnd3 = Math.floor(Math.random() * nm4.length);

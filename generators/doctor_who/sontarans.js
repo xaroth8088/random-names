@@ -10,7 +10,7 @@ export default function sontarans() {
   const nm9 = ['d', 'g', 'gg', 'gr', 'k', 'kr', 'kk', 'l', 'll', 'ng', 'n', 'nn', 'r', 'rl', 'rr', 'rk', 'rn', 'rg', 'st', 'sk', 'th', 'v'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     rnd = Math.floor(Math.random() * nm1.length);
     rnd7 = Math.floor(Math.random() * nm8.length);

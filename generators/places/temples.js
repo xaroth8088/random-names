@@ -15,7 +15,7 @@ export default function temples() {
   const names12 = ['Altar', 'Basin', 'Beach', 'Boulder', 'Brook', 'Burials', 'Catacombs', 'Cave', 'Cavern', 'Chamber', 'Chapel', 'Church', 'Cliff', 'Coast', 'Column', 'Crag', 'Creek', 'Crypts', 'Crystal', 'Den', 'Enclave', 'Estuary', 'Field', 'Fjord', 'Flowers', 'Forest', 'Fountain', 'Garden', 'Gazebo', 'Geyser', 'Grave', 'Graves', 'Grotto', 'Grove', 'Hill', 'Hot Spring', 'Island', 'Isle', 'Jungle', 'Lagoon', 'Lake', 'Maple', 'Marsh', 'Meadow', 'Menhir', 'Monolith', 'Monument', 'Mosque', 'Mountain', 'Oak', 'Oasis', 'Obelisk', 'Orchard', 'Pagoda', 'Pantheon', 'Pasture', 'Peak', 'Pillar', 'Pillars', 'Pinnacle', 'Pond', 'Pool', 'Pyramid', 'Realm', 'Reef', 'Reliquary', 'Ridge', 'River', 'Rock', 'Rocks', 'Sanctuary', 'Sanctum', 'Shore', 'Shrine', 'Slab', 'Statue', 'Stone', 'Summit', 'Synagogue', 'Temple', 'Terrace', 'Thicket', 'Tomb', 'Topiary', 'Totem', 'Tower', 'Tree', 'Trees', 'Vertex', 'Willow', 'Woods', 'Yew'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     if (i < 3) {
       rnd = Math.floor(Math.random() * names5.length);

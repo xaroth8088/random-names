@@ -4,7 +4,7 @@ export default function vampire_clans() {
   const nm3 = ['Bite Mark', 'Black Knights', 'Blood Bankers', 'Blood Infusion', 'Bloodbound', 'Bloodworth', 'Carpe Noctem', 'Children of the Night', 'Citizens of Darkness', 'Dark Heaven', 'Dark Omen', 'Demonix', 'Denizens of Darkness', 'Diluculum', 'Fighters of the Fang', 'House of the Bat', 'House of the Night', 'House of the Phoenix', 'Insomniacs', 'Lamia', 'Masquerade', 'Mediis Tenebris', 'Midnight Terror', 'Neck Romancers', 'Night Dwellers', 'Night Spawns', 'Night\'s Harmony', 'Nightmare Association', 'Nightshades', 'Nightworth', 'Noctis', 'Nox', 'Purebloods', 'Red Night', 'Sanguine Ligurio', 'Sanguinity', 'Sanguinoso', 'Silver Coven', 'Solar Eclipse', 'Tantibus', 'The Ashes', 'The Brood', 'The Flock', 'The Gauntlet', 'The Mist', 'The Sabbat', 'The Scarlet Kiss', 'The Unaligned', 'The Will', 'Total Eclipse', 'Visio Aeternae', 'Youngbloods'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     if (i < 8) {
       rnd = Math.floor(Math.random() * nm1.length);

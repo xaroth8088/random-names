@@ -11,7 +11,7 @@ export default function wildstar_drakens() {
   const nm9 = ['bane', 'bash', 'basher', 'beam', 'blade', 'blaze', 'blight', 'bow', 'branch', 'brand', 'breaker', 'bringer', 'caller', 'claw', 'crusher', 'cut', 'cutter', 'fall', 'fang', 'fire', 'fist', 'flaw', 'flayer', 'force', 'forge', 'fury', 'gaze', 'gloom', 'glory', 'grip', 'guard', 'hammer', 'hell', 'horn', 'hunter', 'killer', 'lash', 'mane', 'mark', 'maul', 'maw', 'mourn', 'rage', 'reaper', 'reaver', 'ripper', 'roar', 'run', 'runner', 'scream', 'shade', 'shadow', 'shard', 'shot', 'slayer', 'snarl', 'soar', 'spear', 'spire', 'splitter', 'stalker', 'storm', 'strike', 'taker', 'talon', 'thorn', 'ward', 'weaver'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     rnd6 = Math.floor(Math.random() * nm8.length);
     rnd7 = Math.floor(Math.random() * nm9.length);

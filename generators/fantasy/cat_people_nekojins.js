@@ -13,7 +13,7 @@ export default function cat_people_nekojins() {
   const nm11 = ['s', 'ss', 'sh', 'z', 'h', '', '', '', '', '', ''];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     rnd4 = Math.floor(Math.random() * nm4.length);
     rnd5 = Math.floor(Math.random() * nm5.length);

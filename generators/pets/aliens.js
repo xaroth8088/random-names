@@ -10,7 +10,7 @@ export default function aliens() {
   const nm7 = ['', '', '', '', '', '', '', '', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'ae', 'ea', 'ee', 'aa', 'ia', 'ua', 'ue'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     if (type === 1) {
       if (i < 6) {

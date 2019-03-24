@@ -8,7 +8,7 @@ export default function nausicaans() {
   const nm6 = ['', '', '', 'a', 'e', 'i', 'o', 'u'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     if (i < 5) {
       rnd = Math.floor(Math.random() * nm1.length);

@@ -14,7 +14,7 @@ export default function tieflings() {
   const nm12 = ['', '', '', '', '', '', '', '', '', '', 'd', 'ld', 'lt', 'm', 'n', 'nd', 'r', 'rd', 's', 't', 'th'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     rnd8 = Math.floor(Math.random() * nm9.length);
     rnd9 = Math.floor(Math.random() * nm10.length);

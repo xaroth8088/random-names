@@ -4,7 +4,7 @@ export default function pirate_ships() {
   const nm2 = ['Anger', 'Abandoned', 'Scorn', 'Tainted', 'Atlantis', 'Captain', 'Caribbean', 'Corruption', 'Corsair', 'Coward', 'Curse', 'Cutlass', 'Dagger', 'Damnation', 'Damned', 'Death', 'Deciet', 'Delight', 'Delivery', 'Demon', 'Disgrace', 'Doom', 'Doubloon', 'Dragon', 'Eel', 'Executioner', 'Executioners', 'Fall', 'Fear', 'Fortune', 'Galley', 'Ghost', 'Gold', 'Grail', 'Hades', 'Hangman', 'Hind', 'Horror', 'Howl', 'Insanity', 'James', 'Jewel', 'Killer', 'Killers', 'King', 'Knave', 'Lightning', 'Lust', 'Manta', 'Minnow', 'Tide', 'Murderer', 'Murderers', 'Night', 'North', 'Pearl', 'Pillager', 'Pirate', 'Plague', 'Plunder', 'Plunderer', 'Plunderers', 'Princess', 'Privateer', 'Raider', 'Rambler', 'Ranger', 'Return', 'Revenge', 'Saber', 'Scream', 'Sea', 'Seas', 'Marauders', 'Swashbucklers', 'Rovers', 'Sea Rovers', 'Buccaneers', 'Rose', 'Rift', 'Deceit', 'Secret', 'Serpent', 'Servant', 'Servants', 'Seven Seas', 'Shark', 'Slave', 'Squid', 'Storm', 'Strumpet', 'Sun', 'Terror', 'Tortuga', 'Treasure', 'Trinity', 'Valant', 'Wolf'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     rnd = Math.floor(Math.random() * nm1.length);
     rnd2 = Math.floor(Math.random() * nm2.length);

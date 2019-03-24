@@ -10,7 +10,7 @@ export default function mobsters() {
   let names = '';
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm3.length);

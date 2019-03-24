@@ -4,7 +4,7 @@ export default function post_apocalyptic_societys() {
   const names3 = ['Abandoned', 'Aberrations', 'Abnormalities', 'Invincible', 'Abominations', 'Anomalies', 'Armageddons', 'Asylum', 'Babylonians', 'Black Ashes', 'Blessed', 'Chosen Ones', 'Cleansed', 'Cockroaches', 'Dead', 'Defiance', 'Deviants', 'Droplets', 'Enigmas', 'Eternals', 'Evolved', 'Expired', 'Extinct', 'Fallen', 'Flock', 'Forsaken', 'Freaks', 'Giants', 'Gifted', 'Godless', 'Hermits', 'Hidden', 'Homeless', 'Honorbound', 'Honorless', 'Horned Ones', 'Immune', 'Impure', 'Infected', 'Invisible', 'Law', 'Lawless', 'Legion', 'Living', 'Lost Ones', 'Lost Souls', 'Miracles', 'Monsters', 'Mutants', 'Myriad', 'Neo-Human', 'New Friends', 'New Humans', 'New Monsters', 'Newmans', 'Orphans', 'Outcasts', 'Paragons', 'Phantoms', 'Phoenixes', 'Prodigies', 'Pure', 'Purified', 'Rats', 'Reincarnated', 'Resurrected', 'Risen', 'Roaches', 'Salvation', 'Shadows', 'Stalkers', 'Survivors', 'Tails', 'Tormented', 'Vanished', 'Walkers', 'Warheads', 'White Ashes'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     if (i < 5) {
       rnd = Math.floor(Math.random() * names1.length);

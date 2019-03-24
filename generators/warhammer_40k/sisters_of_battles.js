@@ -3,7 +3,7 @@ export default function sisters_of_battles() {
   const nm2 = ['a', 'ael', 'ais', 'ana', 'ane', 'anon', 'ata', 'atea', 'arya', 'ahla', 'e', 'ea', 'edes', 'ella', 'ena', 'enta', 'erina', 'erine', 'es', 'enya', 'i', 'ia', 'iael', 'iah', 'icia', 'ien', 'ima', 'ina', 'ine', 'ira', 'iro', 'isma', 'itta', 'ity', 'iya', 'on', 'one', 'osha', 'oya', 'olis', 'oia', 'onya', 'olla', 'o', 'oris', 'ora', 'ulata', 'uya', 'une', 'uah', 'una'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     rnd = Math.floor(Math.random() * nm1.length);
     rnd2 = Math.floor(Math.random() * nm2.length);

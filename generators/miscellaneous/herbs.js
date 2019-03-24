@@ -9,7 +9,7 @@ export default function herbs() {
   const names7 = ['Angelica', 'Anise', 'Aniseed', 'Avens', 'Barberry', 'Bark', 'Basil', 'Bay Leaf', 'Blossom', 'Borage', 'Caraway', 'Cardamom', 'Cassia', 'Catnip', 'Celery', 'Chervil', 'Chicory', 'Chives', 'Cilantro', 'Cinnamon', 'Clary', 'Clove', 'Coriander', 'Cress', 'Cudweed', 'Culantro', 'Cumin', 'Curry Leaf', 'Dill', 'Dill Seed', 'Fennel', 'Fenugreek', 'Flower', 'Galangal', 'Galingale', 'Garlic', 'Ginger', 'Grains', 'Grass', 'Herb', 'Hyssop', 'Lavender', 'Leaf', 'Leaves', 'Licorice', 'Lovage', 'Mace', 'Mallow', 'Marjoram', 'Mint', 'Moss', 'Mustard', 'Nigella', 'Nutmeg', 'Oregano', 'Paprika', 'Parsley', 'Pepper', 'Peppermint', 'Petal', 'Quassia', 'Root', 'Rosemary', 'Rue', 'Safflower', 'Saffron', 'Sage', 'Salt', 'Sassafras', 'Savory', 'Seed', 'Shiso', 'Sorrel', 'Spearmint', 'Spice', 'Sumac', 'Tarragon', 'Thyme', 'Turmeric', 'Vanilla', 'Bloom', 'Tea Leaf', 'Ivy', 'Weed', 'Creeper', 'Vine'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     if (i < 5) {
       rnd = Math.floor(Math.random() * names1.length);

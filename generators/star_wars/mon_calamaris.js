@@ -14,7 +14,7 @@ export default function mon_calamaris() {
   const nm12 = ['', '', '', '', '', '', '', 'b', 'bb', 'c', 'hb', 'hd', 'k', 'kk', 'l', 'll', 'ls', 'n', 'r', 's', 'sch', 'ss', 'x', 'xx', 'xz'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     rnd7 = Math.floor(Math.random() * nm9.length);
     rnd8 = Math.floor(Math.random() * nm10.length);

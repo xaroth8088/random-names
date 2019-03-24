@@ -9,7 +9,7 @@ export default function vehicles() {
   const names8 = ['plane', 'train', 'truck', 'bus', 'car', 'copter', 'cycle', 'ship', 'mobile', 'craft', 'cart', 'sled', 'craft', 'motive', 'van', 'wheel', 'board'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     if (i < 4) {
       rnd = Math.floor(Math.random() * names1.length);

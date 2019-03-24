@@ -6,7 +6,7 @@ function generator$real$brazilians(type) {﻿
   const names1 = type === 1 ? namesFemale : namesMale;
   const names2 = namesFamily;
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     rnd = Math.floor(Math.random() * names1.length);
     rnd2 = Math.floor(Math.random() * names2.length);

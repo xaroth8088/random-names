@@ -9,7 +9,7 @@ function generator$final_fantasy$au_ras(type) {﻿
   const nm7 = ['Adarkim', 'Angura', 'Arulaq', 'Avagnar', 'Bairon', 'Bayaqud', 'Bolir', 'Borlaaq', 'Buduga', 'Dalamiq', 'Dataq', 'Dazkar', 'Dhoro', 'Dotharl', 'Ejinn', 'Geneq', 'Gesi', 'Gharl', 'Goro', 'Haragin', 'Himaa', 'Horo', 'Hotgo', 'Iriq', 'Jhungid', 'Kagon', 'Kahkol', 'Kha', 'Kharlu', 'Khatayin', 'Malaguld', 'Malqir', 'Mankhad', 'Mierqid', 'Moks', 'Mol', 'Noykin', 'Olkund', 'Orben', 'Oronir', 'Oroq', 'Qalli', 'Qerel', 'Qestir', 'Sagahl', 'Torgud', 'Tumet', 'Ugund', 'Ura', 'Urumet', 'Uyagir'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     if (type === 1) {
       if (i < 5) {

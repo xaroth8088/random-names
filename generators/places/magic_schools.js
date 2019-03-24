@@ -8,7 +8,7 @@ export default function magic_schools() {
   const names7 = ['Academy of Sorcery', 'Academy of Spells', 'Academy of Magics', 'Academy of Witchcraft', 'Academy of Wizardry', 'Academy of the Arcane', 'Institute of Magics', 'Institute of Wizardy', 'Institute of the Arcane', 'School of Magics', 'School of Sorcery', 'School of Witchcraft', 'School of Wizardry', 'School of Wizards', 'School of the Arcane'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     rnd = Math.floor(Math.random() * names1.length);
     rnd2 = Math.floor(Math.random() * names2.length);

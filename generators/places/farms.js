@@ -3,7 +3,7 @@ export default function farms() {
   const names2 = ['Acres', 'Estate', 'Farm', 'Farms', 'Range', 'Farmstead', 'Fields', 'Gardens', 'Grange', 'Lands', 'Meadow', 'Nursery', 'Orchard', 'Pastures', 'Ranch', 'Vineyard'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     rnd0 = Math.floor(Math.random() * names1.length);
     rnd1 = Math.floor(Math.random() * names2.length);

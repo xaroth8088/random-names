@@ -10,7 +10,7 @@ export default function tomb_kings() {
   const nm8 = ['Academic', 'Acclaimed', 'Adept', 'Ambitious', 'Ancient', 'Architect', 'Artist', 'Austere', 'Black', 'Blessed', 'Bright', 'Brilliant', 'Celebrated', 'Chaste', 'Composed', 'Conjurer', 'Content', 'Crimson', 'Cunning', 'Devoted', 'Diligent', 'Earnest', 'Educated', 'Elegant', 'Enchanted', 'Enlightened', 'Euphoric', 'Exalted', 'Flawless', 'Generous', 'Gifted', 'Giving', 'Glorious', 'Graceful', 'Grand', 'Great', 'Hallowed', 'Herald', 'Hierpohant', 'Holy', 'Honorable', 'Honored', 'Humble', 'Idealist', 'Illustrious', 'Immortal', 'Imperishable', 'Incredible', 'Infinite', 'Knowing', 'Learned', 'Light', 'Loyal', 'Magnificent', 'Majestic', 'Marvelous', 'Oracle', 'Paragon', 'Patient', 'Powerful', 'Prestigious', 'Prime', 'Prophet', 'Soothsayer', 'Sophisticated', 'Terrific', 'Treasure', 'Treasured', 'Valiant', 'Visionary', 'Watcher', 'White', 'Zealous'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     rnd = Math.floor(Math.random() * nm8.length);
     nameL = ` the ${nm8[rnd]}`;

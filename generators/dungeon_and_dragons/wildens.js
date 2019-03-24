@@ -8,7 +8,7 @@ export default function wildens() {
   const namesFemL = ['ahai', 'akei', 'alin', 'amai', 'anai', 'annar', 'annas', 'arris', 'arrel', 'arresh', 'artish', 'asha', 'atish', 'elbis', 'embin', 'enna', 'ennash', 'entah', 'eris', 'erla', 'erlis', 'imai', 'imbel', 'imei', 'immesh', 'inah', 'inash', 'inda', 'inna', 'innem', 'irrah', 'ishai', 'issa', 'itas', 'onnes', 'onteh', 'orda', 'oren', 'oris', 'orren'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     if (type === 1) {
       rnd = Math.floor(Math.random() * namesFemF.length);

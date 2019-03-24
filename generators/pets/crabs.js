@@ -4,7 +4,7 @@ export default function crabs() {
   const nm2 = ['Aphrodite', 'Arial', 'Aqua', 'Ariel', 'Atolle', 'Aura', 'Ava', 'Aurora', 'Ava', 'Azure', 'Azura', 'Bashful', 'Bashy', 'Bash', 'Bay', 'Baye', 'Biscuit', 'Bitsy', 'Star', 'Bo', 'Bounce', 'Bouncy', 'Brooke', 'Bubble', 'Bubbles', 'Button', 'Buttons', 'Cake', 'Cami', 'Carapace', 'Checkers', 'Chesty', 'Clawford', 'Snips', 'Snippy', 'Snipsnap', 'Clacks', 'Clacky', 'Clawdia', 'Clawdis', 'Claws', 'Clips', 'Clippy', 'Cobble', 'Coco', 'Coral', 'Cora', 'Cakes', 'Crabine', 'Crabina', 'Crackle', 'Crackles', 'Crash', 'Crunchey', 'Dazzle', 'Dora', 'Sandy', 'Nemo', 'Escape', 'Fuzzball', 'Fuzzy', 'Gill', 'Gilly', 'Grabby', 'Grabbis', 'Gripes', 'Hermine', 'Hermione', 'Hermi', 'Hermilia', 'Hermyse', 'Pinchy', 'Itsy', 'Krabsy', 'MsKraken', 'Lily', 'Lime', 'MrsCrabapple', 'Crabapple', 'Muffin', 'MsPinch', 'MrsKrabs', 'Oasis', 'Oceane', 'Oceana', 'Pinchys', 'Pinchy', 'Pique', 'Pixie', 'Princess', 'Rainbow', 'Sparkle', 'Reefe', 'Ria', 'Ripples', 'Ripple', 'Rogue', 'Shadow', 'Shade', 'Ruby', 'Sally', 'Sandy', 'Sapphire', 'Scratches', 'Biscuit', 'Shelly', 'Shine', 'Snappy', 'Snips', 'Snaps', 'Sparkles', 'Sparkle', 'Spot', 'Dot', 'Dots', 'Surimi', 'Waddles', 'Wobble', 'Wobbles', 'Waddle'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm2.length);

@@ -16,7 +16,7 @@ export default function south_african_towns() {
   const nm10 = ['ba', 'bamba', 'bane', 'bano', 'banyatsi', 'banye', 'beni', 'bu', 'bulu', 'bume', 'bunye', 'buta', 'dambe', 'dane', 'dano', 'di', 'dume', 'gane', 'gano', 'gembu', 'gesa', 'gulu', 'gune', 'ka', 'kani', 'kayane', 'kena', 'kerns', 'ki', 'ko', 'kodvo', 'kulu', 'kume', 'lane', 'lembu', 'lena', 'lo', 'lu', 'lulu', 'lume', 'luno', 'lunye', 'luseni', 'mane', 'me', 'misa', 'munye', 'ne', 'neni', 'ni', 'no', 'nya', 'sa', 'sena', 'seni', 'sisa', 'sume', 'ta', 'teki', 'teni', 'ti', 'tikulu', 'ton', 'tulu', 'tume', 'vane', 'vise', 'vo', 'volane', 'vone', 'vulane', 'vulu', 'ya', 'yale', 'yane', 'yatsi', 'ye', 'yesa', 'yu', 'yulu', 'zane', 'zena', 'zini', 'ziya', 'zon'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     if (i < 2) {
       rnd = Math.floor(Math.random() * nm1.length);

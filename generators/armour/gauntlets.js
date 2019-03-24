@@ -11,7 +11,7 @@ export default function gauntlets() {
     names5 = ['Gauntlets', 'Grips', 'Gloves', 'Handguards', 'Fists', 'Hands', 'Grasps', 'Stranglers', 'Handwraps', 'Touch'];
   }
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     if (i < 2) {
       rnd = Math.floor(Math.random() * names1.length);

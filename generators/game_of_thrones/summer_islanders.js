@@ -13,7 +13,7 @@ export default function summer_islanders() {
   const nm11 = ['', '', '', 'n', 'q', 's'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     rnd2 = Math.floor(Math.random() * nm2.length);
     rnd2b = Math.floor(Math.random() * nm2.length);

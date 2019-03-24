@@ -9,7 +9,7 @@ export default function crops() {
   const names7 = ['Almond', 'Apple', 'Asparagus', 'Banana', 'Barley', 'Basil', 'Beans', 'Beets', 'Broccoli', 'Cabbage', 'Cacao', 'Cane', 'Canola', 'Cardamom', 'Carrot', 'Cassava', 'Cauliflower', 'Celeriac', 'Celery', 'Chayote', 'Cherry', 'Chili', 'Cilantro', 'Clementine', 'Clover', 'Coconut', 'Coffee', 'Collard', 'Corn', 'Cotton', 'Cress', 'Cucumber', 'Date', 'Dill', 'Fennel', 'Fig', 'Flax', 'Garlic', 'Ginger', 'Grape', 'Grass', 'Guava', 'Hemp', 'Henna', 'Hop', 'Jasmine', 'Jute', 'Kale', 'Kohlrabi', 'Lavender', 'Leek', 'Lemon', 'Lettuce', 'Lime', 'Mace', 'Maize', 'Mandarin', 'Mango', 'Melon', 'Mint', 'Mushroom', 'Mustard', 'Nectarine', 'Nutmeg', 'Nuts', 'Oats', 'Okra', 'Olive', 'Onion', 'Papaya', 'Parsley', 'Parsnip', 'Pea', 'Peach', 'Peanut', 'Pear', 'Pecan', 'Pepper', 'Pistachio', 'Plum', 'Pomelo', 'Potato', 'Prune', 'Pumpkin', 'Radish', 'Rice', 'Root', 'Rubber', 'Rye', 'Safflower', 'Scallion', 'Seeds', 'Sesame', 'Soy', 'Spinach', 'Sprouts', 'Squash', 'Sugar', 'Tangerine', 'Tapioca', 'Tea', 'Tomato', 'Turnip', 'Vanilla', 'Wheat', 'Yam', 'Zucchini'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     if (i < 2) {
       rnd = Math.floor(Math.random() * names1.length);

@@ -4,7 +4,7 @@ export default function bridges() {
   const nm3 = ['Bridge', 'Bridge', 'Bridge', 'Bridge', 'Overpass', 'Viaduct', 'Aqueduct', 'Suspension Bridge', 'Footbridge', 'Crossing', 'Bridge', 'Bridge', 'Bridge', 'Bridge', 'Bridge', 'Bridge', 'Bridge', 'Bridge'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     rnd = Math.floor(Math.random() * nm1.length);
     rnd3 = Math.floor(Math.random() * nm3.length);

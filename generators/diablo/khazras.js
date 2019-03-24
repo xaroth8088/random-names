@@ -5,7 +5,7 @@ export default function khazras() {
   const nm4 = ['', '', '', 'ch', 'd', 'g', 'gg', 'k', 'l', 'lm', 'm', 'n', 'nn', 'r', 'rg', 's', 'sh', 't', 'tch', 'th', 'wl'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     rnd = Math.floor(Math.random() * nm1.length);
     rnd2 = Math.floor(Math.random() * nm2.length);

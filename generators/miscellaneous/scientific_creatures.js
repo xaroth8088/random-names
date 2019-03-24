@@ -7,7 +7,7 @@ export default function scientific_creatures() {
   const nm6 = ['acal', 'actyla', 'acu', 'aea', 'aena', 'aeris', 'aeus', 'agrus', 'aica', 'aicus', 'aja', 'al', 'alia', 'alis', 'allus', 'alunga', 'alus', 'ampus', 'an', 'andus', 'ani', 'anicus', 'ans', 'anus', 'apra', 'ardalis', 'aria', 'arias', 'arinia', 'aris', 'arius', 'arum', 'arus', 'as', 'aspis', 'aster', 'ata', 'aticus', 'ator', 'atrae', 'atta', 'atu', 'atum', 'atus', 'aum', 'ayanus', 'ea', 'eatus', 'ectum', 'eensis', 'eiana', 'elia', 'ellus', 'engei', 'ens', 'ensis', 'entalis', 'enteus', 'entris', 'entus', 'eo', 'ephalus', 'er', 'era', 'ereri', 'ereus', 'eri', 'eria', 'ersus', 'erus', 'es', 'etta', 'etti', 'eus', 'iacus', 'iae', 'ianus', 'iaris', 'ias', 'iatum', 'iatus', 'iblis', 'ica', 'iceps', 'iceros', 'icha', 'iculus', 'icus', 'idus', 'iens', 'iensis', 'ier', 'ies', 'igenius', 'ii', 'ilis', 'illa', 'ilus', 'ina', 'inea', 'inii', 'inosa', 'inum', 'inus', 'inx', 'iol', 'iosa', 'is', 'isci', 'iscus', 'isii', 'itimus', 'itis', 'ius', 'izii', 'o', 'ocome', 'odes', 'odi', 'oditus', 'odytes', 'oensis', 'ofa', 'oides', 'oldti', 'oleuca', 'olophus', 'olor', 'on', 'onae', 'one', 'oni', 'onicus', 'onii', 'onyx', 'opus', 'or', 'orius', 'ornis', 'os', 'ostrata', 'ostris', 'osus', 'otata', 'otis', 'oura', 'ouxii', 'ox', 'oyi', 'ozoa', 'ua', 'uco', 'ues', 'uinus', 'ula', 'ularis', 'ulata', 'ules', 'ulosa', 'ulus', 'um', 'undus', 'urnix', 'urong', 'us', 'uta', 'uus', 'yanus', 'yi', 'ynchos', 'ythrus', 'yurus'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     if (i < 5) {
       rnd = Math.floor(Math.random() * nm1.length);

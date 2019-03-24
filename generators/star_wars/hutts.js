@@ -6,7 +6,7 @@ export default function hutts() {
   const nm4 = ['', '', '', '', '', '', '', '', '', 'b', 'c', 'd', 'g', 'gg', 'h', 'hl', 'k', 'l', 'lb', 'll', 'm', 'n', 'nn', 'r', 'rd', 'rg', 'rgg', 'rm', 's', 'sch', 'sh', 'sk', 'ss', 'th', 'x', 'z', 'zz'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     rnd8 = Math.floor(Math.random() * nm1.length);
     rnd9 = Math.floor(Math.random() * nm2.length);

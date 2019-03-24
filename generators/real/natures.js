@@ -5,7 +5,7 @@ export default function natures() {
   const nm3 = ['Almond', 'Angel', 'Aqua', 'Ari', 'Arum', 'Ash', 'Aspen', 'Aster', 'Avis', 'Azure', 'Basil', 'Bay', 'Bayou', 'Bird', 'Blair', 'Blaze', 'Bramble', 'Breeze', 'Briar', 'Brier', 'Brook', 'Brooke', 'Brooks', 'Cayenne', 'Cedar', 'Clay', 'Cloud', 'Clove', 'Coriander', 'Cove', 'Crescent', 'Cricket', 'Cypress', 'Dakota', 'Dale', 'Danica', 'Danika', 'Deer', 'Delta', 'Dew', 'Dewy', 'Dusk', 'Dusty', 'Elm', 'Ember', 'Fen', 'Fennel', 'Fern', 'Gale', 'Gideon', 'Ginger', 'Glen', 'Glenn', 'Haven', 'Ice', 'Indigo', 'Jade', 'Jay', 'Jordan', 'Juniper', 'Kale', 'Lake', 'Lark', 'Laurel', 'Lazuli', 'Leaf', 'Leif', 'Linden', 'Mango', 'Marin', 'Mica', 'Nova', 'Oak', 'Ocean', 'Oleander', 'Orchard', 'Pepper', 'Phoenix', 'Pine', 'Rain', 'Raine', 'Raven', 'Reed', 'Reef', 'Rhine', 'River', 'Roan', 'Robin', 'Rowan', 'Sable', 'Sage', 'Shadow', 'Shale', 'Shell', 'Silver', 'Sky', 'Skyler', 'Snow', 'Sol', 'Sorrel', 'Spruce', 'Star', 'Starling', 'Sterling', 'Storm', 'Stormy', 'Sunny', 'Thyme', 'Vale', 'Winter', 'Wren', 'Yarrow'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm2.length);

@@ -12,7 +12,7 @@ export default function imperials() {
   const nm12 = ['abolis', 'acia', 'ad', 'ades', 'adia', 'aennius', 'agan', 'agia', 'agrius', 'ain', 'al', 'ale', 'alian', 'alius', 'an', 'ana', 'ance', 'and', 'anian', 'anis', 'anius', 'annus', 'anox', 'ant', 'anus', 'ar', 'arel', 'aria', 'arian', 'ario', 'arnian', 'arus', 'aso', 'assius', 'ata', 'atius', 'ectus', 'ecus', 'edius', 'eia', 'eim', 'eius', 'el', 'eld', 'elia', 'elian', 'elius', 'elli', 'ellia', 'ellian', 'elliun', 'ellius', 'ello', 'ellus', 'ely', 'en', 'ena', 'enagus', 'engius', 'enix', 'ennia', 'ennius', 'enshield', 'entanus', 'entia', 'entius', 'enus', 'er', 'eria', 'erius', 'es', 'esius', 'estrake', 'ette', 'eus', 'evelus', 'evius', 'evus', 'ey', 'ia', 'ian', 'iand', 'iant', 'ianus', 'iatius', 'ibonia', 'icci', 'ich', 'icia', 'ician', 'icius', 'ick', 'id', 'idenius', 'idia', 'idicus', 'idius', 'idus', 'iel', 'ienus', 'ifus', 'ilchiotus', 'ildor', 'ilia', 'ilius', 'illin', 'illius', 'im', 'imius', 'imus', 'in', 'ina', 'inia', 'inius', 'innius', 'ino', 'inus', 'io', 'ione', 'iosus', 'iotus', 'ipter', 'irus', 'is', 'issaeia', 'itian', 'iulus', 'ium', 'ius', 'iusus', 'ocius', 'odius', 'ol', 'ollius', 'on', 'one', 'onia', 'onicus', 'onius', 'onus', 'orel', 'ori', 'oria', 'orius', 'orman', 'otepelus', 'otis', 'otus', 'uceius', 'ucia', 'udilius', 'ugrius', 'uius', 'uleius', 'uliulus', 'ullus', 'ulus', 'ulusus', 'umnus', 'unceia', 'unia', 'ureius', 'us', 'useius', 'usiso', 'usius', 'ustiris', 'ustius', 'usus', 'uttian'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     if (1 % 2 === 0) {
       rnd5 = Math.floor(Math.random() * nm9.length);

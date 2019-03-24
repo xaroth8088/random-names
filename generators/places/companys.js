@@ -6,7 +6,7 @@ export default function companys() {
   const names5 = ['aid', 'air', 'bank', 'bar', 'beat', 'bit', 'bite', 'books', 'bridge', 'cast', 'cloud', 'coms', 'dale', 'dew', 'dream', 'ex', 'fly', 'force', 'fruit', 'gate', 'gold', 'head', 'hive', 'house', 'hut', 'king', 'land', 'life', 'light', 'man', 'mart', 'master', 'media', 'mobile', 'nite', 'paw', 'phone', 'point', 'poly', 'rover', 'scape', 'search', 'shack', 'shade', 'shadow', 'shine', 'show', 'space', 'star', 'stone', 'stones', 'sun', 'sys', 'tales', 'techs', 'time', 'tronics', 'tube', 'walk', 'ware', 'wares', 'water', 'way', 'ways', 'well', 'wheels', 'wood', 'works', 'world', 'worth'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     if (i < 3) {
       rnd0 = Math.floor(Math.random() * names1.length);

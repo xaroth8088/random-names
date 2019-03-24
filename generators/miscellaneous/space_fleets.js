@@ -4,7 +4,7 @@ export default function space_fleets() {
   const nm2 = ['Armada', 'Attack Force', 'Corps', 'Defense Force', 'Division', 'Fleet', 'Flotilla', 'Force', 'Military', 'Navy', 'Space Corps', 'Space Force', 'Space Navy', 'Space Service', 'Squadron', 'Star Division', 'Star Forces', 'Vanguard'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     rnd = Math.floor(Math.random() * nm1.length);
     rnd2 = Math.floor(Math.random() * nm2.length);

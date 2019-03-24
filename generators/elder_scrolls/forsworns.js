@@ -12,7 +12,7 @@ export default function forsworns() {
   const nm10 = ['', '', '', '', '', '', '', '', '', '', '', '', '', '', '', 'b', 'br', 'd', 'dr', 'g', 'gr', 'h', 'k', 'm', 'n', 'p', 'pr', 'r', 's', 't', 'tr', 'v', 'w'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     rnd8a = Math.floor(Math.random() * nm10.length);
     rnd8 = Math.floor(Math.random() * nm6.length);

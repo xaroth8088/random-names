@@ -36,7 +36,7 @@ export default function stormlight_archives() {
   const nm34 = ['cl', 'dv', 'dr', 'dh', 'dl', 'gh', 'gl', 'gm', 'gn', 'h', 'hr', 'hl', 'kl', 'kh', 'kn', 'km', 'kv', 'l', 'ln', 'lm', 'ls', 'mn', 'mw', 'mh', 'nw', 'nl', 'nh', 'th', 'thr', 'trh', 'ts', 'tw', 'tm', 'tn', 'vl', 'vn', 'r'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     if (i < 4) {
       rnd = Math.floor(Math.random() * nm9.length);

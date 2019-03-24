@@ -12,7 +12,7 @@ export default function devaronians() {
   const nm10 = ['c', 'ct', 'g', 'hrk', 'hk', 'k', 'kt', 'l', 'n', 'ndt', 'nd', 'nt', 'q', 'r', 'rt', 'rk', 's', 'sk', 'st', 'v', 'w', 'z'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     rnd6 = Math.floor(Math.random() * nm8.length);
     rnd7 = Math.floor(Math.random() * nm2.length);

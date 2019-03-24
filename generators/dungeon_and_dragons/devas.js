@@ -8,7 +8,7 @@ export default function devas() {
   const namesMaleL = ['ab', 'ach', 'ad', 'ahk', 'ahm', 'ahn', 'ahr', 'ak', 'al', 'am', 'an', 'ar', 'as', 'ath', 'eb', 'ech', 'ed', 'ehr', 'ek', 'el', 'em', 'en', 'er', 'es', 'iah', 'ihm', 'ihn', 'im', 'in', 'ir', 'is'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     if (type === 1) {
       if (i < 9) {

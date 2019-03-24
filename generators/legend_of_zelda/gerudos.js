@@ -11,7 +11,7 @@ export default function gerudos() {
   const nm9 = ['a', 'e', 'i', 'o', 'u', '', '', '', ''];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm5.length);

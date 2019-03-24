@@ -9,7 +9,7 @@ export default function nagas() {
   const nm8 = ['', '', '', '', '', '', '', '', '', '', '', 'kh', 'l', 'r', 's', 'sj', 'ss', 'sh', 'sz', 't', 'th', 'x', 'z', 'zs'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     if (i < 5) {
       rnd = Math.floor(Math.random() * nm5.length);

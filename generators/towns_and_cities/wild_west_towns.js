@@ -3,7 +3,7 @@ export default function wild_west_towns() {
   const nm2 = ['alley', 'bank', 'banks', 'bend', 'brook', 'burg', 'butte', 'canyon', 'chapel', 'city', 'creak', 'creek', 'cross', 'edge', 'field', 'flats', 'ford', 'fort', 'gate', 'gulch', 'hallow', 'hill', 'hollow', 'lake', 'landing', 'mesa', 'mountain', 'pass', 'peak', 'stream', 'branch', 'ridge', 'bluff', 'dune', 'downs', 'range', 'summit', 'rise', 'cliff', 'crag', 'scar', 'stand', 'gorge', 'vale', 'gorge', 'glen', 'dale', 'snag', 'tusk', 'howl', 'bellow', 'peaks', 'plains', 'point', 'port', 'post', 'reach', 'ridge', 'river', 'rock', 'roost', 'run', 'spring', 'springs', 'stead', 'stone', 'tooth', 'town', 'trail', 'trails', 'ville', 'water', 'wood', 'worth'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     rnd = Math.floor(Math.random() * nm1.length);
     rnd2 = Math.floor(Math.random() * nm2.length);

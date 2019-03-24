@@ -15,7 +15,7 @@ export default function mandalorians() {
   const nm13 = ['b', 'bb', 'd', 'dd', 'g', 'gg', 'j', 'k', 'kk', 'l', 'll', 'm', 'n', 'nn', 'p', 'r', 'rr', 's', 'ss', 't', 'v', 'b', 'd', 'g', 'j', 'k', 'l', 'm', 'n', 'p', 'r', 's', 't', 'v'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     rnd7 = Math.floor(Math.random() * nm9.length);
     rnd8 = Math.floor(Math.random() * nm10.length);

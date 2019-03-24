@@ -7,7 +7,7 @@ export default function ogres() {
   const nm6 = ['back', 'bane', 'bash', 'basher', 'beard', 'belly', 'belt', 'bender', 'bite', 'biter', 'bone', 'brace', 'branch', 'breaker', 'breath', 'bringer', 'brow', 'buckle', 'buster', 'chaser', 'chew', 'chewer', 'cleaver', 'crush', 'crusher', 'cut', 'cutter', 'dig', 'digger', 'eater', 'eye', 'eyes', 'feet', 'fist', 'foot', 'force', 'gaze', 'gazer', 'grip', 'hammer', 'hand', 'head', 'hunter', 'mark', 'maul', 'maw', 'might', 'munch', 'muncher', 'pelt', 'punch', 'ripper', 'seeker', 'shoulder', 'slayer', 'snarl', 'spine', 'splinter', 'splitter', 'strength', 'stride', 'strider', 'striker', 'teeth', 'tooth', 'watcher'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     rnd = Math.floor(Math.random() * nm1.length);
     rnd2 = Math.floor(Math.random() * nm2.length);

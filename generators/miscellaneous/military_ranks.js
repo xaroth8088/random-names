@@ -5,7 +5,7 @@ export default function military_ranks() {
   const names4 = ['Aid', 'Air', 'Armor', 'Armored Vehicles', 'Beasts', 'Cavalry', 'Covert Operations', 'Deception', 'Defence', 'Demolition', 'Destruction', 'Explosives', 'Fear', 'Fire', 'Flight', 'Hostages', 'Illusions', 'Infantry', 'Information', 'Justice', 'Mages', 'Misinformation', 'Morale', 'Navigation', 'Paladins', 'Penalties', 'Planes', 'Planning', 'Preparation', 'Prisoners', 'Propaganda', 'Protection', 'Public Relations', 'Recruits', 'Rescues', 'Resources', 'Sanctions', 'Ships', 'Siege Weapons', 'Spec-Ops', 'Supplies', 'Support', 'Tanks', 'Terror', 'Traps', 'Warlocks', 'Warlords', 'Water', 'Weapons', 'Witness Protection', 'the Air', 'the Army', 'the Bezerkers', 'the City', 'the Code', 'the Company', 'the Court', 'the Covert', 'the Deck', 'the Fleet', 'the Guard', 'the Guardians', 'the Hounds', 'the Law', 'the Line', 'the Mob', 'the Navy', 'the Order', 'the Reavers', 'the Riders', 'the Siege', 'the Underground', 'the Wall', 'the Watch'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     if (i < 4) {
       rnd0 = Math.floor(Math.random() * names3.length);

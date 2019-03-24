@@ -12,7 +12,7 @@ export default function dark_elfs() {
   const nm10 = ['arm', 'arrow', 'axe', 'bane', 'basher', 'binder', 'blade', 'blaze', 'bleeder', 'blight', 'breaker', 'bringer', 'caller', 'cleaver', 'crusher', 'cutter', 'eye', 'eyes', 'fall', 'fury', 'grip', 'hand', 'heart', 'hunter', 'mantle', 'maul', 'might', 'more', 'reaper', 'reaver', 'rider', 'ripper', 'runner', 'scar', 'seeker', 'shade', 'shadow', 'shard', 'slayer', 'sorrow', 'stalker', 'stride', 'strike', 'striker', 'surge', 'taker'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     rnd = Math.floor(Math.random() * nm9.length);
     rnd2 = Math.floor(Math.random() * nm10.length);

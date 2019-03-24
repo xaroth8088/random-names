@@ -5,7 +5,7 @@ export default function airplanes() {
   const nm4 = ['beast', 'blast', 'blaze', 'blitz', 'bolt', 'bomb', 'brute', 'bullet', 'burst', 'charge', 'charm', 'comet', 'core', 'cry', 'eater', 'edge', 'fire', 'flare', 'flight', 'flow', 'flux', 'force', 'freak', 'fury', 'glider', 'hail', 'heat', 'lance', 'light', 'master', 'nova', 'pulse', 'punch', 'pyre', 'rage', 'raid', 'rise', 'roar', 'rush', 'scream', 'shade', 'spark', 'storm', 'strike', 'thunder', 'tooth', 'urge', 'ward', 'wing', 'wrath'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     if (i < 5) {
       rnd = Math.floor(Math.random() * nm3.length);

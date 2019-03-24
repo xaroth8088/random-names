@@ -10,7 +10,7 @@ export default function korok_kokiris() {
   const nm8 = ['a', 'e', 'i', 'o', 'u', 'ai', 'ae', 'ea', 'ei', 'eo', 'ia', 'io', 'iu', 'ie', 'oa', 'oe', 'oi', 'ou', 'ua', 'ue', 'uo', 'ui'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm6.length);

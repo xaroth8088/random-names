@@ -8,7 +8,7 @@ export default function magical_trees() {
   const nm7 = ['ab', 'ac', 'acca', 'acia', 'alea', 'an', 'ander', 'ant', 'any', 'ar', 'arch', 'ark', 'ava', 'eaf', 'eam', 'eech', 'en', 'er', 'ess', 'et', 'etto', 'ew', 'eye', 'ifer', 'immon', 'ine', 'iper', 'irch', 'ock', 'olia', 'on', 'onet', 'ood', 'ore', 'orn', 'ory', 'ove', 'ow', 'uce', 'um', 'us'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     if (i < 6) {
       rnd = Math.floor(Math.random() * nm1.length);

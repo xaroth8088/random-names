@@ -4,7 +4,7 @@ export default function goblins() {
   const nm2 = ['git', 'gok', 'gor', 'gott', 'gras', 'grat', 'grot', 'guff', 'gus', 'guss', 'kar', 'kit', 'knas', 'knus', 'koff', 'kor', 'kras', 'krat', 'krus', 'kus', 'laff', 'last', 'lig', 'lirg', 'lok', 'lor', 'luff', 'luk', 'lus', 'naff', 'nar', 'nast', 'nok', 'not', 'nott', 'nuff', 'nuk', 'nus', 'raff', 'ragg', 'rak', 'rast', 'rat', 'rig', 'rod'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     rnd = Math.floor(Math.random() * nm1.length);
     rnd2 = Math.floor(Math.random() * nm2.length);

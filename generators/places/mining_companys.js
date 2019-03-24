@@ -4,7 +4,7 @@ export default function mining_companys() {
   const nm2 = ['Mining', 'Mining Companies', 'Mines', 'Mining Group', 'Mineshaft', 'Company', 'Corporation', 'Industries', 'Mining Corporation'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     rnd = Math.floor(Math.random() * nm1.length);
     rnd2 = Math.floor(Math.random() * nm2.length);

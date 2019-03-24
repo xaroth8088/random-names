@@ -24,7 +24,7 @@ export default function tusken_raiders() {
   const nm19 = ['c', 'ct', 'g', 'gg', 'k', 'kt', 'n', 'q', 'qt', 'r', 'rr', 'rk', 'rc', 'rg', 'rq', 'rt', 'rd', 'tt', 't'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     rnd7 = Math.floor(Math.random() * nm16.length);
     rnd8 = Math.floor(Math.random() * nm17.length);

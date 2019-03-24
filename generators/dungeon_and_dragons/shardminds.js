@@ -3,7 +3,7 @@ export default function shardminds() {
   const names2 = ['ba', 'bam', 'bani', 'bu', 'ha', 'hara', 'hu', 'ka', 'ku', 'lazu', 'lua', 'mea', 'nar', 'nara', 'naram', 'naru', 'nashtu', 'ni', 'niri', 'nu', 'nua', 'pana', 'ram', 'ranu', 'rashi', 'raya', 'ri', 'rin', 'runu', 'shara', 'shari', 'shi', 'shti', 'shtu', 'shu', 'sunu', 'ta', 'tana', 'tani', 'tari', 'ti', 'tira', 'tiru', 'tua', 'tum', 'wia', 'ya', 'yara', 'yua', 'zu'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     rnd = Math.floor(Math.random() * names1.length);
     rnd2 = Math.floor(Math.random() * names2.length);

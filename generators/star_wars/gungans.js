@@ -12,7 +12,7 @@ export default function gungans() {
   const nm10 = ['', '', '', '', 'b', 'd', 'f', 'g', 'l', 'ls', 'm', 'mk', 'n', 'nks', 'nt', 'p', 'pps', 'r', 'rm', 'rr', 'rs', 'rt', 's', 'ss', 'th', 'w', 'wn', 'z', 'zz'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     rnd6 = Math.floor(Math.random() * nm8.length);
     rnd7 = Math.floor(Math.random() * nm2.length);

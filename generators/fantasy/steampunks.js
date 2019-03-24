@@ -6,7 +6,7 @@ export default function steampunks() {
 
   const names1 = type === 1 ? namesFemale : namesMale;
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     rnd = Math.floor(Math.random() * names1.length);
     rnd2 = Math.floor(Math.random() * names1.length);

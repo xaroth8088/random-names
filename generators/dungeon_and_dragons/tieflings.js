@@ -7,7 +7,7 @@ export default function tieflings() {
   const nm5 = ['bis', 'borys', 'cria', 'cyra', 'dani', 'doris', 'faris', 'firith', 'goria', 'grea', 'hala', 'hiri', 'karia', 'ki', 'laia', 'lia', 'lies', 'lista', 'lith', 'loth', 'lypsis', 'lyvia', 'maia', 'meia', 'mine', 'narei', 'nirith', 'nise', 'phi', 'pione', 'punith', 'qine', 'rali', 'rissa', 'seis', 'solis', 'spira', 'tari', 'tish', 'uphis', 'vari', 'vine', 'wala', 'wure', 'xibis', 'xori', 'yis', 'yola', 'za', 'zis'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     if (type === 1) {
       if (i < 7) {

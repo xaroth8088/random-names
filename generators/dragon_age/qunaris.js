@@ -5,7 +5,7 @@ export default function qunaris() {
   const namesMale = ['Ak', 'Akin', 'Akor', 'Al', 'Ar', 'Aris', 'Arm', 'Arv', 'As', 'Ask', 'Askh', 'Asl', 'Bas', 'Bast', 'Bur', 'Dur', 'Gun', 'Gund', 'Gur', 'Gurh', 'Jar', 'Jarv', 'Kan', 'Ket', 'Kub', 'Mar', 'Met', 'Naz', 'Ok', 'Okan', 'Or', 'Orn', 'Oz', 'Ozk', 'Sal', 'Sen', 'S', 'St', 'Tam', 'Ten', 'Yag', 'Yagm'];
   const namesFamily = ['aarad', 'aari', 'aas', 'aca', 'ad', 'ak', 'alit', 'amay', 'an', 'anat', 'aner', 'ant', 'arad', 'ari', 'as', 'at', 'ay', 'azim', 'ehan', 'ek', 'en', 'enol', 'er', 'ilay', 'im', 'iner', 'ishok', 'it', 'ogan', 'ojan', 'ok', 'ol', 'oren', 'ri', 'ug', 'ul', 'urak', 'urhan', 'utlu'];
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     if (type === 1) {
       rnd0 = Math.floor(Math.random() * namesFemale.length);

@@ -3,7 +3,7 @@ export default function unsullieds() {
   const names2 = ['Ant', 'Beetle', 'Bug', 'Crawler', 'Creep', 'Creeper', 'Cricket', 'Curse', 'Dog', 'Flea', 'Fly', 'Frog', 'Grub', 'Insect', 'Larva', 'Leech', 'Maggot', 'Mite', 'Mole', 'Mongrel', 'Moth', 'Mouse', 'Mule', 'Mutt', 'Nit', 'Parasite', 'Pest', 'Pig', 'Rabbit', 'Rat', 'Roach', 'Rodent', 'Scrub', 'Shrimp', 'Snail', 'Spider', 'Squirmer', 'Termite', 'Tick', 'Toad', 'Vermin', 'Weasel', 'Weevil', 'Whelp', 'Worm', 'Wriggler', 'Runt', 'Slug', 'Oaf', 'Prawn', 'Louse', 'Skunk'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     rnd = Math.floor(Math.random() * names1.length);
     rnd2 = Math.floor(Math.random() * names2.length);

@@ -15,7 +15,7 @@ export default function elfs() {
   const nm14 = ['', '', '', '', '', '', '', '', '', 'nn', 'n', 'l', 's', 'sh'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm8.length);

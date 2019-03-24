@@ -10,7 +10,7 @@ export default function goblins() {
   const nm8 = ['e', 'i', 'ee', 'ia', 'ea', 'a', 'ai', '', '', '', '', '', '', '', '', '', '', '', '', ''];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     rnd2 = Math.floor(Math.random() * nm2.length);
     rnd2b = Math.floor(Math.random() * nm2.length);

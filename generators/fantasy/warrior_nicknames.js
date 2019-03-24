@@ -6,7 +6,7 @@ export default function warrior_nicknames() {
   const nm4 = ['', '', ' '];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     if (i < 5) {
       rnd = Math.floor(Math.random() * nm1.length);

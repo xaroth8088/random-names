@@ -9,7 +9,7 @@ export default function orks() {
   const names7 = ['acka', 'ackah', 'basha', 'bashah', 'boila', 'boilah', 'braka', 'brakah', 'brakka', 'brakkah', 'breaka', 'breakah', 'busta', 'choppa', 'choppah', 'cleava', 'cleavah', 'clompa', 'clompah', 'cooka', 'cookah', 'cracka', 'crackah', 'crasha', 'crashah', 'crumpa', 'crumpah', 'crusha', 'crushah', 'cutta', 'cuttah', 'dagga', 'daggah', 'fang', 'fist', 'gasha', 'gashah', 'gutta', 'guttah', 'hacka', 'hackah', 'kleava', 'kleavah', 'krak', 'kraka', 'krakah', 'krumpa', 'krumpah', 'krusha', 'krushah', 'rippa', 'rippah', 'shredda', 'shreddah', 'skar', 'skorcha', 'skorchah', 'slasha', 'slashah', 'smasha', 'smashah', 'snagga', 'snaggah', 'snappa', 'snappah', 'spitta', 'spittah', 'splitta', 'splittah', 'stampa', 'stampah', 'stompa', 'stompah', 'trasha', 'trashah', 'wakka', 'wakkah', 'whacka', 'whackah'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     if (i < 5) {
       rnd = Math.floor(Math.random() * names1.length);

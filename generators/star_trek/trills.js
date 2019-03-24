@@ -16,7 +16,7 @@ export default function trills() {
   const nm12 = ['d', 'g', 'hn', 'hl', 'l', 'm', 'n', 'r', 'rs', 's', 'x'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm5.length);

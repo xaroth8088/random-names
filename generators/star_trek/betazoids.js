@@ -21,7 +21,7 @@ export default function betazoids() {
   const nm17 = ['x', 'n', 'r', 'l', 'm', 'k', 'd', 't', '', '', '', '', '', ''];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     if (type === 1) {
       if (i < 5) {

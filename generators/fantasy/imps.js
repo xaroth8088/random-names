@@ -8,7 +8,7 @@ export default function imps() {
   const nm6 = ['c', 'l', 'm', 'n', 'p', 'q', 'r', 't', 'x', 'z'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     rnd2 = Math.floor(Math.random() * nm2.length);
     if (i % 3 === 0) {

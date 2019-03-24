@@ -8,7 +8,7 @@ export default function aztecs() {
   const nm6 = ['cali', 'camina', 'catl', 'cauhtli', 'cayotl', 'chitl', 'coatl', 'coyotl', 'cuintli', 'cuix', 'hua', 'hual', 'huani', 'huatl', 'huitl', 'huix', 'lal', 'laloni', 'lan', 'lel', 'li', 'lihuitl', 'lin', 'liztli', 'loc', 'lxochitl', 'mac', 'mapichtli', 'metl', 'mixtli', 'nolli', 'palli', 'pepe', 'pilli', 'pin', 'popoca', 'qui', 'taca', 'tecol', 'tecuhtli', 'temoc', 'tencatl', 'tia', 'tic', 'tica', 'tla', 'tli', 'tonal', 'tonqui', 'tzin', 'tzotl', 'yacatl', 'yaxi', 'yotli', 'zoc', 'zoh', 'zomoc', 'zuma'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     if (type === 1) {
       if (i < 5) {

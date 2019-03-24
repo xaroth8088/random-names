@@ -5,7 +5,7 @@ export default function daleks() {
 
   const ext = Math.floor(Math.random() * 150);
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     if (ext === 1) {
       names = 'Exterminate! Exterminate! Exterminate!';

@@ -11,7 +11,7 @@ export default function boots() {
     names5 = ['Sprinters', 'Sandals', 'Boots', 'Heels', 'Treads', 'Feet', 'Footguards', 'Footpads', 'Walkers', 'Footsteps'];
   }
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     if (i < 2) {
       rnd0 = Math.floor(Math.random() * names1.length);

@@ -5,7 +5,7 @@ export default function towers() {
   const nm4 = ['Tower', 'Spire', 'Lookout', 'Mast', 'Pillar', 'Obelisk', 'Tower', 'Tower', 'Tower'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     rnd4 = Math.floor(Math.random() * nm4.length);
     if (i < 5) {

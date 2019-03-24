@@ -15,7 +15,7 @@ export default function north_african_towns() {﻿ /* Algeria */
   const nm10 = ['bès', 'ba', 'balia', 'bane', 'barka', 'bel', 'bellat', 'bet', 'beul', 'beur', 'bi', 'bia', 'bib', 'bika', 'bili', 'bira', 'bla', 'boun', 'bous', 'cha', 'dès', 'da', 'dache', 'danin', 'deida', 'denine', 'des', 'deyef', 'dhamen', 'dia', 'dimaou', 'douba', 'doun', 'dour', 'ficha', 'fida', 'four', 'fouz', 'gane', 'gareb', 'gel', 'gou', 'goub', 'goula', 'gueb', 'guia', 'guiba', 'had', 'hal', 'ham', 'hia', 'hil', 'hiri', 'hour', 'ja', 'jaj', 'jar', 'jeb', 'jenane', 'jez', 'jiche', 'kalta', 'kelsa', 'kennah', 'ker', 'kiet', 'kouane', 'kra', 'la', 'laat', 'lah', 'larès', 'lat', 'latia', 'led', 'lem', 'lepte', 'lia', 'liana', 'libia', 'lidia', 'lienne', 'lil', 'liman', 'line', 'liz', 'louch', 'loula', 'lous', 'ma', 'mal', 'mam', 'mane', 'mani', 'maou', 'mata', 'mel', 'men', 'mil', 'mour', 'moura', 'na', 'nada', 'nag', 'nah', 'nan', 'nana', 'nane', 'nassy', 'ne', 'ned', 'niana', 'nin', 'nine', 'nini', 'norat', 'nouba', 'nouch', 'nour', 'rès', 'ra', 'rahil', 'rahmane', 'rallah', 'rarda', 'rat', 'reb', 'ref', 'ret', 'reth', 'ria', 'riana', 'rine', 'rissa', 'rouan', 'rouine', 'rouj', 'roussa', 'sa', 'sana', 'sef', 'sen', 'serine', 'si', 'sja', 'souk', 'stir', 'ta', 'tan', 'tar', 'teur', 'tia', 'tine', 'touia', 'tour', 'yada', 'yef', 'yet', 'zèze', 'za', 'zahra', 'ze', 'zel', 'zerka', 'zerte', 'zid', 'zis', 'zouna'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     if (i < 2) {
       rnd = Math.floor(Math.random() * nm1.length);

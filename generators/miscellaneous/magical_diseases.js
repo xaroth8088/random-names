@@ -3,7 +3,7 @@ export default function magical_diseases() {
   const nm2 = ['Ache', 'Aches', 'Affliction', 'Amnesia', 'Anemia', 'Blight', 'Blindness', 'Blisters', 'Blood', 'Breakdown', 'Burn', 'Chills', 'Cold', 'Cough', 'Cramps', 'Curse', 'Death', 'Decay', 'Delirium', 'Delusion', 'Dementia', 'Disease', 'Disorder', 'Doom', 'Drip', 'Fatigue', 'Fever', 'Flu', 'Gut', 'Haze', 'Infection', 'Insanity', 'Limb', 'Madness', 'Malady', 'Mark', 'Plague', 'Pox', 'Puffs', 'Rage', 'Rash', 'Rot', 'Shakes', 'Sickness', 'Sores', 'Spasm', 'Spasms', 'Syndrome', 'Thirst', 'Vapors', 'Virus', 'Warts'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     rnd = Math.floor(Math.random() * nm1.length);
     rnd2 = Math.floor(Math.random() * nm2.length);

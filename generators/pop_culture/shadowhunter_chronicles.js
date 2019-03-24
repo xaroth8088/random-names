@@ -7,7 +7,7 @@ export default function shadowhunter_chronicles() {
   const nm5 = ['bane', 'beam', 'bloom', 'blossom', 'bluff', 'born', 'bough', 'bow', 'braid', 'branch', 'brand', 'breath', 'breeze', 'brook', 'brow', 'child', 'creek', 'crest', 'cross', 'dale', 'dew', 'down', 'draft', 'dream', 'fall', 'flare', 'flaw', 'fleur', 'flow', 'flower', 'force', 'ford', 'gaze', 'gem', 'glade', 'gleam', 'glide', 'grove', 'guard', 'hallow', 'heart', 'hood', 'keep', 'lace', 'land', 'law', 'less', 'man', 'mark', 'mercy', 'might', 'mill', 'more', 'peace', 'ridge', 'root', 'run', 'scar', 'send', 'shade', 'sky', 'smith', 'soar', 'song', 'spark', 'stern', 'stone', 'stride', 'sun', 'surge', 'sworn', 'thorn', 'tide', 'tower', 'tree', 'vale', 'ward', 'water', 'weather', 'weaver', 'well', 'whirl', 'wind', 'winds', 'wine', 'wing', 'winter', 'wood', 'woods', 'wright'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     rnd2 = Math.floor(Math.random() * nm4.length);
     rnd3 = Math.floor(Math.random() * nm5.length);

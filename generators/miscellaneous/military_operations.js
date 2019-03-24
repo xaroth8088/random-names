@@ -4,7 +4,7 @@ export default function military_operations() {
   const nm3 = ['Angel', 'Anvil', 'Avalanche', 'Axe', 'Blade', 'Buffalo', 'Champion', 'Charger', 'Citadel', 'Cobra', 'Comet', 'Cougar', 'Demon', 'Devil', 'Doom', 'Dragon', 'Dryad', 'Dust', 'Eclipse', 'Eye', 'Eyes', 'Fire', 'Flake', 'Freedom', 'Garden', 'Gardens', 'Gate', 'Ghost', 'Giant', 'Hammer', 'Hand', 'Heart', 'Hearts', 'Jack', 'Jewel', 'Knife', 'Knight', 'Knuckle', 'Lilly', 'Lion', 'Mammoth', 'Maniac', 'Meteor', 'Moon', 'Nightmare', 'Obelisk', 'Paladin', 'Phantom', 'Pool', 'Predator', 'Puma', 'Rain', 'Redemption', 'Rhino', 'Salvation', 'Scorpion', 'Shark', 'Snow', 'Sun', 'Sword', 'Thunder', 'Tornado', 'Truth', 'Vanguard', 'Vengeance', 'Whirlwind'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     if (i < 7) {
       rnd = Math.floor(Math.random() * nm1.length);

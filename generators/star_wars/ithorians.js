@@ -14,7 +14,7 @@ export default function ithorians() {
   const nm12 = ['', '', '', '', '', 'b', 'bb', 'd', 'g', 'hl', 'k', 'l', 'll', 'm', 'n', 'ngs', 'nd', 'nn', 'r', 'rlq', 's', 't', 'th', 'thh', 'ts', 'w'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     rnd7 = Math.floor(Math.random() * nm9.length);
     rnd8 = Math.floor(Math.random() * nm10.length);

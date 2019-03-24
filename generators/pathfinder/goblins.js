@@ -12,7 +12,7 @@ export default function goblins() {
   const nm10 = ['bane', 'bash', 'basher', 'belly', 'bender', 'binder', 'bite', 'biter', 'blazer', 'bleeder', 'blight', 'brace', 'brand', 'breaker', 'breath', 'brew', 'brook', 'brow', 'bumper', 'caller', 'chaser', 'chew', 'chewer', 'chopper', 'cleaver', 'cooker', 'crag', 'crest', 'crusher', 'cut', 'cutter', 'dancer', 'draft', 'dreamer', 'dust', 'eye', 'fall', 'fang', 'flaw', 'flayer', 'force', 'fury', 'gloom', 'grip', 'gripper', 'guard', 'gut', 'hammerer', 'horn', 'hunter', 'jumper', 'killer', 'lasher', 'mark', 'mauler', 'maw', 'more', 'nugget', 'part', 'parts', 'pike', 'punch', 'puncher', 'rage', 'rager', 'reaper', 'reaver', 'rip', 'ripper', 'roar', 'rock', 'scar', 'scream', 'seeker', 'shard', 'shield', 'shooter', 'shot', 'singer', 'slaver', 'slayer', 'snacker', 'snarl', 'snouth', 'spark', 'spear', 'splitter', 'stalk', 'stalker', 'steel', 'stick', 'stomper', 'strike', 'striker', 'surge', 'taker', 'tracker', 'trapper', 'wad', 'walker', 'watcher', 'wound'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     if (type === 2) {
       rnd = Math.floor(Math.random() * nm9.length);

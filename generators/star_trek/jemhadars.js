@@ -12,7 +12,7 @@ export default function jemhadars() {
   const nm9 = ['i', 'a', 'e', 'o', 'u', 'a', '', '', '', '', '', '', '', ''];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     if (i < 5) {
       rnd = Math.floor(Math.random() * nm1.length);

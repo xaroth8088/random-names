@@ -4,7 +4,7 @@ export default function motorcycle_clubs() {
   const nm2 = ['Aces', 'Alloys', 'Ancestors', 'Angels', 'Armada', 'Badgers', 'Bandidos', 'Bandits', 'Barbarians', 'Beanies', 'Beards', 'Bears', 'Bikers', 'Boars', 'Bones', 'Boots', 'Boys', 'Brotherhood', 'Brothers', 'Buzzards', 'Cannibals', 'Cats', 'Chariots', 'Chiefs', 'Clan', 'Cobras', 'Comets', 'Corps', 'Coyotes', 'Crew', 'Crows', 'Cruisers', 'Crusaders', 'Demons', 'Destroyers', 'Devils', 'Diablos', 'Disciples', 'Dogs', 'Dragons', 'Drakes', 'Drifters', 'Eagles', 'Emblems', 'Falcons', 'Fallen', 'Fathers', 'Fiends', 'Foxes', 'Freaks', 'Gargoyles', 'Ghosts', 'Girls', 'Griffins', 'Guardians', 'Heads', 'Hearts', 'Henchmen', 'Heretics', 'Highwaymen', 'Hogs', 'Horsemen', 'Horses', 'Hounds', 'Howlers', 'Hunters', 'Jackals', 'Jesters', 'Jokers', 'Keepers', 'Kings', 'Kingsmen', 'Knights', 'Legion', 'Legionnaires', 'Lions', 'Lords', 'Lovers', 'Machines', 'Marauders', 'Mavericks', 'Misfits', 'Mohawks', 'Mutants', 'Mutineers', 'Order', 'Outlaws', 'Owls', 'Panthers', 'Pirates', 'Pixies', 'Predators', 'Prowlers', 'Pythons', 'Raiders', 'Raptors', 'Rats', 'Reapers', 'Rebels', 'Renegades', 'Roadsters', 'Rockers', 'Rodents', 'Sabers', 'Saddles', 'Saints', 'Samurai', 'Scavengers', 'Scorpions', 'Sentinels', 'Shadows', 'Sidekicks', 'Sisterhood', 'Skulls', 'Slayers', 'Smugglers', 'Soldiers', 'Souls', 'Spades', 'Spiders', 'Spirits', 'Syndicate', 'Tigers', 'Travelers', 'Troopers', 'Vagabonds', 'Veterans', 'Vultures', 'Wanderers', 'Warriors', 'Weasels', 'Werewolves', 'Wheelers', 'Widows', 'Wings', 'Wolves'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     rnd2 = Math.floor(Math.random() * nm2.length);
     if (i < 2) {

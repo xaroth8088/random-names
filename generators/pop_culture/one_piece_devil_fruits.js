@@ -124,7 +124,7 @@ export default function one_piece_devil_fruits() {
   ];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     rnd = Math.floor(Math.random() * nm1.length);
     names = `${nm1[rnd][0]} ${nm1[rnd][0]} no Mi (${nm1[rnd][1]})`;

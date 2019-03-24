@@ -5,7 +5,7 @@ export default function dwarf() {
   const nm4 = ['D', 'F', 'G', 'H', 'K', 'L', 'M', 'N', 'R', 'T', 'Th', 'W', 'Dr', 'Dw', 'Fl', 'Gl', 'Thr', 'D', 'F', 'G', 'H', 'K', 'L', 'M', 'N', 'R', 'T', 'Th', 'W', 'Dr', 'Dw', 'Fl', 'Gl', 'Thr'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     if (i < 5) {
       rnd = Math.floor(Math.random() * nm4.length);

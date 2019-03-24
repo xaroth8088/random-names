@@ -14,7 +14,7 @@ export default function ishi_tibs() {
   const nm12 = ['', '', '', 'c', 'ff', 'l', 'm', 'n', 'ng', 'rr', 'tz', 'w'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     rnd7 = Math.floor(Math.random() * nm9.length);
     rnd8 = Math.floor(Math.random() * nm10.length);

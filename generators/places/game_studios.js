@@ -8,7 +8,7 @@ export default function game_studios() {
   const names7 = ['Games', 'Entertainment', 'Studios', 'Interactive', 'Game Studios', 'Media', 'Productions', 'Arts'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     rnd = Math.floor(Math.random() * names7.length);
     if (i < 3) {

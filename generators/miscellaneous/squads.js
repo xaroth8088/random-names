@@ -7,7 +7,7 @@ export default function squads() {
   const names6 = ['Crew', 'Squad', 'Squadron'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     if (i < 3) {
       rnd = Math.floor(Math.random() * names1.length);

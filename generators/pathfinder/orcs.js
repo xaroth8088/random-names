@@ -14,7 +14,7 @@ export default function orcs() {
   const nm12 = ['d', 'hn', 'hd', 'k', 'l', 'm', 'n', 'r', 's', 'sh', 't', 'th'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     rnd8 = Math.floor(Math.random() * nm9.length);
     rnd9 = Math.floor(Math.random() * nm10.length);

@@ -10,7 +10,7 @@ export default function blood_elf() {
   const nm8 = ['bane', 'binder', 'blade', 'blossom', 'bringer', 'brook', 'down', 'fall', 'feather', 'flame', 'flare', 'forge', 'fury', 'gaze', 'gazer', 'heart', 'light', 'mourn', 'reaver', 'seeker', 'shade', 'shadow', 'shard', 'shield', 'singer', 'sky', 'sorrow', 'spark', 'spear', 'spell', 'sprinter', 'stalker', 'star', 'strider', 'sun', 'sworn', 'vale', 'walker', 'whisper', 'wing', 'wood'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     rnd4 = Math.floor(Math.random() * nm7.length);
     rnd5 = Math.floor(Math.random() * nm8.length);

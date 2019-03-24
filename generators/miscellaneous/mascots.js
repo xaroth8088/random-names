@@ -4,7 +4,7 @@ export default function mascots() {
   const names3 = ['Ace', 'Alfa', 'Alpha', 'Aristocat', 'Arrow', 'Athena', 'Barrel', 'Beaker', 'Big Blue', 'Bingo', 'Black Jack', 'Blaze', 'Blitz', 'Blizzard', 'Blondey', 'Blue', 'Boomboom', 'Boomer', 'Bronco', 'Bruiser', 'Bubbles', 'Bullet', 'Bumble', 'Buster', 'Captain', 'Champ', 'Charger', 'Chompers', 'Claws', 'Clutch', 'Colonel', 'Cosmo', 'Crunch', 'Cruncher', 'Crusader', 'Curly', 'Dazzle', 'Dino', 'Drummer', 'Dunker', 'Electro', 'Enigma', 'Flash', 'Flex', 'Frogger', 'General', 'Ghost', 'Gnarl', 'Gust', 'Hawk', 'Hercules', 'Hooper', 'Hoot', 'Howl', 'Hunter', 'Hurricane', 'Ivy', 'Judge', 'Jumbo', 'Junior', 'King', 'Leprechaun', 'Lightning', 'Loki', 'Lucky', 'Luna', 'Magician', 'Mamba', 'Maverick', 'Mumble', 'Mumbo', 'Muppet', 'Nova', 'Nugget', 'Odin', 'Orbit', 'Paws', 'Peanut', 'Phantom', 'Phoenix', 'Pinch', 'Poison', 'Poseidon', 'Pouncer', 'Predator', 'Prowler', 'Punch', 'Raider', 'Ranger', 'Red', 'Red Rage', 'Roar', 'Roary', 'Rocky', 'Rose', 'Rover', 'Sabretooth', 'Scorch', 'Scrappy', 'Scraps', 'Screech', 'Shadow', 'Siren', 'Skyhawk', 'Slapshot', 'Slide', 'Slider', 'Slingshot', 'Slug', 'Slush', 'Smokey', 'Snoops', 'Spark', 'Sparkle', 'Sparks', 'Spike', 'Spot', 'Stalker', 'Steele', 'Sting', 'Stinger', 'Stitch', 'Stitches', 'Stomper', 'Storm', 'Stripes', 'Sugar', 'Sweeper', 'Techy', 'Thor', 'Tic-Toc', 'Ticker', 'Timber', 'Tiny', 'Titan', 'Tooth', 'Tooths', 'Trash', 'Tresher', 'Tritot', 'Twinkles', 'Venom', 'Viper', 'Void', 'Warhawk', 'Warhog', 'Wildwing', 'Wrathhog', 'Wreckage', 'Wrex'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     if (i < 6) {
       rnd = Math.floor(Math.random() * names1.length);

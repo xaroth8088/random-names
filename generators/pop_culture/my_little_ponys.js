@@ -14,7 +14,7 @@ export default function my_little_ponys() {
     var names3 = ['Ace', 'Armor', 'Arrow', 'Bolt', 'Breeze', 'Bristle', 'Bronco', 'Buster', 'Charge', 'Chaser', 'Colt', 'Comet', 'Crunch', 'Dare', 'Dash', 'Facade', 'Feet', 'Flash', 'Force', 'Gust', 'Haze', 'Hero', 'Hooves', 'Hunter', 'Ice', 'Jester', 'Justice', 'Mane', 'Mark', 'Mask', 'Meadow', 'Metal', 'Moon', 'Mustang', 'Night', 'Prickle', 'Road', 'Rock', 'Shadow', 'Shine', 'Snow', 'Sorbet', 'Spark', 'Specter', 'Spirit', 'Sprint', 'Star', 'Starlight', 'Storm', 'Strikes', 'Sweeper', 'Tail', 'Thunder', 'Twister', 'Venture', 'Victory', 'Vision', 'Whiskers', 'Whistle', 'White', 'Wing'];
   }
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     if (i < 5) {
       rnd0 = Math.floor(Math.random() * names1.length);

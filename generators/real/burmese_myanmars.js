@@ -4,7 +4,7 @@ export default function burmese_myanmars() {
   const nm1 = ['Ag', 'Arkar', 'Aung', 'Bo', 'Hein', 'Htet', 'Htun', 'Htut', 'Kan', 'Kaung', 'Khaing', 'Khant', 'Khine', 'Ko', 'Kyaw', 'Lin', 'Linn', 'Maung', 'Mg', 'Min', 'Myat', 'Myint', 'Myo', 'Naing', 'Nyan', 'Phone', 'Phyo', 'Phyoe', 'Pyae', 'Pyay', 'Sein', 'Soe', 'Thant', 'Thawda', 'Thet', 'Thiha', 'Thu', 'Thura', 'Thurein', 'Thuta', 'Tun', 'U', 'Wai', 'Win', 'Wunna', 'Yarzar', 'Yaza', 'Ye', 'Zarni', 'Zaw', 'Zeya', 'Zeyar', 'Zin'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     if (type === 1) {
       if (i < 4) {

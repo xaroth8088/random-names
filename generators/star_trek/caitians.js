@@ -4,7 +4,7 @@ export default function caitians() {
   const nm2 = ['aal', 'aarra', 'aia', 'aiarr', 'ala', 'all', 'aow', 'ara', 'arash', 'arr', 'ash', 'asha', 'ashar', 'asi', 'au', 'earr', 'eia', 'elar', 'ell', 'elle', 'era', 'erah', 'eras', 'erl', 'erow', 'err', 'esint', 'esirr', 'ess', 'ia', 'iarr', 'ierr', 'iia', 'ill', 'ille', 'ira', 'iras', 'iri', 'irl', 'irr', 'isarr', 'ish', 'isil', 'iss', 'oa', 'oaw', 'oia', 'ol', 'oll', 'ora', 'orash', 'oren', 'ori', 'orish', 'orr', 'orri', 'osin', 'ow', 'uaw', 'ular', 'ulish', 'ull', 'uran', 'urin', 'uris', 'urr', 'urs', 'us', 'usar', 'uul', 'uur', 'uuras', 'uuri'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     rnd = Math.floor(Math.random() * nm1.length);
     rnd2 = Math.floor(Math.random() * nm2.length);

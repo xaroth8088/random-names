@@ -10,7 +10,7 @@ export default function wood_elfs() {
   const nm8 = ['', '', '', '', 'f', 'h', 'l', 'n', 's', 'th'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm5.length);

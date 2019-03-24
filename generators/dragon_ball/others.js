@@ -3,7 +3,7 @@ export default function others() {
   const names2 = ['Aioli', 'Anise', 'Basil', 'Bay', 'Celery', 'Chili', 'Chutney', 'Cilantro', 'Cinnamon', 'Clove', 'Coriander', 'Cream', 'Cumin', 'Dashi', 'Dressing', 'Fennel', 'Guacamole', 'Jasmine', 'Juniper', 'Ketchup', 'Lemon', 'Lime', 'Mace', 'Marmite', 'Mash', 'Mayo', 'Mint', 'Miso', 'Naise', 'Nutmeg', 'Oil', 'Onion', 'Oregano', 'Paprika', 'Parsley', 'Pepper', 'Peppermint', 'Pesto', 'Piccalilli', 'Pickle', 'Ponzu', 'Radish', 'Relish', 'Rice', 'Riyaki', 'Rosemary', 'Safe', 'Saffron', 'Salsa', 'Sambal', 'Sauce', 'Sesame', 'Shichimi', 'Sichuan', 'Soy', 'Syrup', 'Tarragon', 'Tartar', 'Teriya', 'Teriyaki', 'Thyme', 'Turmeric', 'Tzatziki', 'Vanilla', 'Wasabi'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     if (i < 5) {
       rnd = Math.floor(Math.random() * names1.length);

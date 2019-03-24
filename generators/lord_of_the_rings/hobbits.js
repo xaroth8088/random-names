@@ -5,7 +5,7 @@ export default function hobbits() {
   const nm3 = ['Baggins', 'Banks', 'Boffin', 'Bolger', 'Bophin', 'Bracegirdle', 'Brandagamba', 'Brandybuck', 'Brockhouse', 'Brown', 'Brownlock', 'Bunce', 'Burrow', 'Burrowes', 'Burrows', 'Butcher', 'Chubb', 'Clayhanger', 'Cotton', 'Diggle', 'Fairbairn', 'Fallohide', 'Galbasi', 'Galpsi', 'Gamgee', 'Gammidge', 'Gamwich', 'Gardner', 'Gawkroger', 'Goldworthy', 'Goodbody', 'Goodchild', 'Goodenough', 'Goold', 'Greenhand', 'Greenholm', 'Harfoot', 'Hayward', 'Headstrong', 'Hlothran', 'Hogg', 'Hornblower', 'Labingi', 'Lightfoot', 'Longhole', 'Longholes', 'Maggot', 'Marsh', 'Meadows', 'Mugwort', 'Noaks', 'Oldbuck', 'Pott', 'Proudfoot', 'Puddifoot', 'Roper', 'Rumble', 'Sackville', 'Sandheaver', 'Sandyman', 'Smallburrow', 'Stoor', 'Took', 'Townsend', 'Tuk', 'Tunnelly', 'Twofoot', 'Underhill', 'Whitfoot', 'Zaragamba'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm2.length);

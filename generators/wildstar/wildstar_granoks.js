@@ -12,7 +12,7 @@ export default function wildstar_granoks() {
   const nm10 = ['bend', 'blaze', 'blight', 'bough', 'breaker', 'brow', 'burst', 'buster', 'clash', 'crag', 'crest', 'crusher', 'cut', 'down', 'dream', 'fall', 'flake', 'force', 'fury', 'grip', 'guard', 'heart', 'horn', 'hunter', 'keep', 'keeper', 'lash', 'mark', 'master', 'might', 'more', 'prime', 'quake', 'rage', 'reaper', 'rend', 'ridge', 'right', 'roar', 'runner', 'shade', 'shadow', 'shard', 'shatter', 'shout', 'sky', 'sliver', 'smasher', 'snap', 'song', 'sorrow', 'spell', 'spire', 'spirit', 'splinter', 'split', 'splitter', 'storm', 'stride', 'strike', 'thorn', 'track', 'trap', 'valor', 'walker', 'ward', 'watcher'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     rnd6 = Math.floor(Math.random() * nm9.length);
     rnd7 = Math.floor(Math.random() * nm10.length);

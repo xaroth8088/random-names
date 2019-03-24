@@ -7,7 +7,7 @@ export default function metals() {
   const nm6 = ['ium', 'ese', 'alt', 'um', 'ian', 'il', 'ine', 'yx', 'ite'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     if (i < 4) {
       rnd = Math.floor(Math.random() * nm1.length);

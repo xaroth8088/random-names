@@ -7,7 +7,7 @@ export default function minotaurs() {
   const namesSur = ['Agilebody', 'Agilemind', 'Bearfighter', 'Boldmind', 'Boldwarrior', 'Boulderfist', 'Boulderhide', 'Braveheart', 'Brightheart', 'Brightmind', 'Fearlessheart', 'Fistfury', 'Gloryhunter', 'Gloryslash', 'Goblinbane', 'Goblinslayer', 'Greathunter', 'Heavyhide', 'Honorheart', 'Ironheart', 'Ironhorn', 'Ironskin', 'Ironskull', 'Jaggedhorns', 'Keeneye', 'Nimblestep', 'Orcbane', 'Orcslayer', 'Rockhorn', 'Ruggedhide', 'Sharpmind', 'Silentstriker', 'Silentwalker', 'Singlehorn', 'Steadyhand', 'Steelhide', 'Steelhorn', 'Steelskin', 'Steelskull', 'Stonehide', 'Stormhoof', 'Stormroar', 'Stoutheart', 'Strongleader', 'Strongroar', 'Swiftrunner', 'Swiftstriker', 'Swiftwalker', 'Thickhide', 'Thickskin', 'Thunderfist', 'Thunderhoof', 'Thunderroar', 'Toughpelt', 'Truthspeaker', 'Valiantheart', 'Vigileye', 'Wolfheart', 'Wolfrunner', 'Wolfvigor'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     if (type === 1) {
       rnd = Math.floor(Math.random() * namesFemF.length);

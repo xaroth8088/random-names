@@ -295,7 +295,7 @@ export default function roegadyns() {
   const nm7 = ['Air', 'Allium', 'Alyssum', 'Amarath', 'Amazon', 'Anemone', 'Apple', 'Aura', 'Aurora', 'Autumn', 'Bee', 'Bell', 'Berry', 'Bird', 'Bloom', 'Blossom', 'Bunny', 'Bush', 'Butterfly', 'Cherry', 'Chive', 'Clematis', 'Cloud', 'Clover', 'Cosmos', 'Crocus', 'Daffodil', 'Daisy', 'Dandelion', 'Deer', 'Dew', 'Dill', 'Dove', 'Dream', 'Droplet', 'Earth', 'Eclipse', 'Feather', 'Flower', 'Fog', 'Forest', 'Frost', 'Fruit', 'Fuchsia', 'Fur', 'Gilly', 'Ginger', 'Grain', 'Grass', 'Heliconia', 'Hibiscus', 'Holly', 'Horizon', 'Hyacinth', 'Ice', 'Iris', 'Juniper', 'Lavender', 'Leaf', 'Lilac', 'Lily', 'Locust', 'Lotus', 'Magnolia', 'Mantle', 'Maple', 'Marigold', 'Mist', 'Moon', 'Moss', 'Mouse', 'Mushroom', 'Myrtle', 'Narcissus', 'Oleander', 'Orchid', 'Pad', 'Pea', 'Peach', 'Peony', 'Petal', 'Petunia', 'Plume', 'Poinsetta', 'Poppy', 'Rabbit', 'Rain', 'Robin', 'Root', 'Rose', 'Safflower', 'Sage', 'Sapling', 'Sheep', 'Snow', 'Snowflake', 'Sparrow', 'Spring', 'Sprout', 'Star', 'Summer', 'Sun', 'Sunflower', 'Tulip', 'Vapor', 'Vine', 'Willow', 'Winter'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     if (type === 1) {
       if (i < 5) {

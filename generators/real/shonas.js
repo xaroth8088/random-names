@@ -5,7 +5,7 @@ export default function shonas() {
   const nm3 = ['Asante', 'Buckle', 'Bulawayo', 'Carne', 'Chavunduka', 'Chigwedere', 'Chikerema', 'Chikuhwa', 'Chikwava', 'Chimusasa', 'Chimutengwende', 'Chinamano', 'Chinodya', 'Chinotimba', 'Chirau', 'Chiroto', 'Chitepo', 'Chiweshe', 'Chiyangwa', 'Coghlan', 'Croome', 'Dabengwa', 'Dangarembga', 'Dongo', 'Dulini', 'Dumbutshena', 'Eppel', 'Gappah', 'Gezi', 'Godwin', 'Gumbo', 'Gumede', 'Guti', 'Gwisai', 'Hatendi', 'Hunzvi', 'Jokonya', 'Jongwe', 'Kabweza', 'Kombayi', 'Kumbula', 'Kyagumbo', 'Madhuku', 'Magwa', 'Mahachi', 'Majabvi', 'Majange', 'Makwarimba', 'Malianga', 'Mangwende', 'Manyika', 'Marachera', 'Maraire', 'Masiyiwa', 'Masunda', 'Mathema', 'Matombo', 'Matonga', 'Matongo', 'Mawere', 'Mbangwa', 'Mhlanga', 'Midzi', 'Mkondo', 'Mkwananzi', 'Mnangagwa', 'Mnkandla', 'Moffat', 'Mombeshora', 'Moyo', 'Mtawarira', 'Mubako', 'Muchena', 'Muchinguri', 'Mudzuri', 'Mugabe', 'Mujuru', 'Mukonoweshuro', 'Mumbengegwi', 'Mungoshi', 'Mushohwe', 'Mushonga', 'Mutambara', 'Mutasa', 'Mutezo', 'Mutsekwa', 'Muzanenhamo', 'Muzenda', 'Muzorewa', 'Mwaruwari', 'Mwayenga', 'Ncube', 'Ndlovu', 'Nengomasha', 'Nhema', 'Nhiwatiw', 'Nkala', 'Nkomo', 'Nyambuya', 'Nyandoro', 'Olonga', 'Pocock', 'Rugeje', 'Rusere', 'Samkange', 'Shamuyarira', 'Shaw', 'Shumba', 'Sibanda', 'Sithole', 'Takawira', 'Tekere', 'Towungana', 'Tsvangirai', 'Tungamirai', 'Ullyet', 'Vera', 'Zvinavashe'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     rnd2 = Math.floor(Math.random() * nm3.length);
     if (type === 1) {

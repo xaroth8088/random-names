@@ -12,7 +12,7 @@ export default function brands() {
   const nm11 = ['A', 'An', 'Ante', 'Anti', 'As', 'Auto', 'Bi', 'Bin', 'Car', 'Cha', 'Char', 'Com', 'Como', 'Con', 'Contra', 'De', 'Demi', 'Di', 'Dis', 'Du', 'En', 'Ex', 'Extra', 'Gall', 'Hemi', 'Hyper', 'Il', 'Im', 'In', 'Inter', 'Intra', 'Ir', 'Micro', 'Mono', 'Non', 'Omni', 'Out', 'Over', 'Par', 'Post', 'Pre', 'Pro', 'Quin', 'Res', 'Rese', 'Scar', 'Semi', 'Sha', 'Spin', 'Sta', 'Stra', 'Stri', 'Sub', 'Syn', 'Tech', 'Tran', 'Trans', 'Tri', 'Un', 'Uni'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     if (i < 2) {
       rnd1 = Math.floor(Math.random() * nm11.length);

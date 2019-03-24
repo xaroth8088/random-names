@@ -5,7 +5,7 @@ export default function plantations() {
   const nm3 = ['Plantation', 'Plantation House', 'Manor', 'Home', 'Mansion', 'Hall', 'Plantation'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     rnd = Math.floor(Math.random() * nm1.length);
     rnd2 = Math.floor(Math.random() * nm2.length);

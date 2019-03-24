@@ -7,7 +7,7 @@ export default function galaxys() {
   const nm6 = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', ''];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     if (i < 3) {
       rnd = Math.floor(Math.random() * nm1.length);

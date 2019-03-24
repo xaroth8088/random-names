@@ -13,7 +13,7 @@ export default function korunnais() {
   const nm12 = ['', '', '', '', '', '', '', 'l', 'm', 'n', 'r', 's'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     rnd7 = Math.floor(Math.random() * nm9.length);
     rnd8 = Math.floor(Math.random() * nm10.length);

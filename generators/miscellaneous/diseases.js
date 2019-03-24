@@ -3,7 +3,7 @@ export default function diseases() {
   const nm2 = ['Ache', 'Aching', 'Acne', 'Allergy', 'Amnesia', 'Anemia', 'Anthrax', 'Anxiety', 'Arthritis', 'Asthma', 'Baldness', 'Blight', 'Blindness', 'Blisters', 'Body', 'Bones', 'Bronchitis', 'Cancer', 'Cannibalism', 'Chills', 'Chlamydia', 'Cholera', 'Cold', 'Cough', 'Cramps', 'Deafness', 'Death', 'Decay', 'Deficiency', 'Dehydration', 'Delirium', 'Delusion', 'Delusions', 'Depression', 'Diptheria', 'Disease', 'Dysfunctions', 'Ears', 'Ebola', 'Epilepsy', 'Euphoria', 'Eye', 'Eyes', 'Fatigue', 'Feet', 'Fever', 'Finger', 'Flu', 'Foot', 'Gangrene', 'Gonorrhea', 'Hallucinations', 'Hands', 'Head', 'Heart', 'Hepatitis', 'Herpes', 'Illness', 'Infection', 'Infertility', 'Inflammation', 'Influenza', 'Insanity', 'Insomnia', 'Intolerance', 'Irritation', 'Leprosy', 'Lupus', 'Malaria', 'Measles', 'Meningitis', 'Migraine', 'Mouth', 'Mutation', 'Nausea', 'Nose', 'Panic', 'Paralysis', 'Paranoia', 'Parasite', 'Plague', 'Pneumonia', 'Poisoning', 'Pox', 'Rabies', 'Rage', 'Rash', 'Salmonella', 'Scarring', 'Schizophrenia', 'Scurvy', 'Shock', 'Skin', 'Sleep Disorder', 'Sneeze', 'Soreness', 'Sores', 'Spasms', 'Stiffness', 'Stomach', 'Swelling', 'Syndrome', 'Syphilis', 'Tetanus', 'Throat', 'Tongue', 'Tumor', 'Ulcers', 'Vampirism', 'Virus', 'Warts'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     rnd = Math.floor(Math.random() * nm1.length);
     rnd2 = Math.floor(Math.random() * nm2.length);

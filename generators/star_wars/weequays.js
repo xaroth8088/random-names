@@ -15,7 +15,7 @@ export default function weequays() {
   const nm12 = ['', '', '', '', '', '', '', '', 'c', 'd', 'g', 'k', 'lq', 'lk', 'lc', 'mk', 'm', 'mz', 'n', 'nk', 'nd', 'nc', 'nz', 'q', 'r', 'rd', 's', 'sh', 'sk', 'x', 'y'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     rnd7 = Math.floor(Math.random() * nm9.length);
     rnd8 = Math.floor(Math.random() * nm10.length);

@@ -8,7 +8,7 @@ export default function satyr_fauns() {
   const nm6 = ['e', 'i', 'u', 'a', 'o', 'y', 'ia', 'ea', 'ae'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     rnd = Math.floor(Math.random() * nm1.length);
     rnd2 = Math.floor(Math.random() * nm2.length);

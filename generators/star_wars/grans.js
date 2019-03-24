@@ -6,7 +6,7 @@ export default function grans() {
   const nm5 = ['ee', 'aa', 'oe', 'ie', 'ia', 'ea', 'ei'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     rnd6 = Math.floor(Math.random() * nm1.length);
     rnd7 = Math.floor(Math.random() * nm5.length);

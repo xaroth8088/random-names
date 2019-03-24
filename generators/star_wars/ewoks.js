@@ -11,7 +11,7 @@ export default function ewoks() {
   const nm9 = ['c', 'ck', 'k', 'l', 'm', 'n', 'ng', 't'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     rnd6 = Math.floor(Math.random() * nm7.length);
     rnd7 = Math.floor(Math.random() * nm2.length);

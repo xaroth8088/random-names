@@ -9,7 +9,7 @@ export default function lithuanians() {
   const names1 = type === 1 ? namesFemale : namesMale;
   const names2 = namesFamily;
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     if (names1 === namesMale) {
       rnd = Math.floor(Math.random() * names1.length);

@@ -9,7 +9,7 @@ export default function game_soundtracks() {
   const names8 = ['Adventure', 'Alien', 'Aliens', 'Ancestor', 'Animal', 'Answer', 'Autumn', 'Ballad', 'Beach', 'Beast', 'Bird', 'Camp', 'Canyon', 'Castle', 'Cliff', 'Commander', 'Community', 'Cook', 'Dance', 'Desert', 'Dungeon', 'Dwarf', 'Dwarves', 'Elf', 'Elves', 'Emperor', 'Expedition', 'Family', 'Farm', 'Feeling', 'Fields', 'Flower', 'Forest', 'Garden', 'Giant', 'Goblin', 'Goblins', 'Hamlet', 'Harbor', 'House', 'Hunt', 'Island', 'Journey', 'Jungle', 'Kid', 'King', 'Lake', 'Light', 'Lighthouse', 'Lullaby', 'Maestro', 'Maiden', 'Man', 'Master', 'Melody', 'Miracle', 'Mission', 'Mountain', 'Ocean', 'Orc', 'Orcs', 'Pastures', 'People', 'Person', 'Planes', 'Planet', 'Poem', 'Prince', 'Princess', 'Pursuit', 'Pygmy', 'Pyramid', 'Queen', 'Quest', 'Question', 'Reptile', 'River', 'Road', 'School', 'Sea', 'Secret', 'Serpent', 'Ship', 'Shrine', 'Song', 'Spider', 'Spirit', 'Spring', 'Spy', 'Storm', 'Summer', 'Swamp', 'Tavern', 'Temple', 'Territory', 'Tomb', 'Tower', 'Town', 'Tree', 'Tribute', 'Tune', 'Vault', 'Village', 'Volcano', 'Voyage', 'Waterfall', 'Whisper', 'Winter', 'Woman'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     if (i < 3) {
       rnd = Math.floor(Math.random() * names1.length);

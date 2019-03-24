@@ -8,7 +8,7 @@ export default function monsters() {
   const nm7 = ['Alligator', 'Anaconda', 'Ape', 'Bat', 'Bear', 'Beast', 'Bee', 'Behemoth', 'Bison', 'Boar', 'Buffalo', 'Bull', 'Cat', 'Cobra', 'Critter', 'Crocodile', 'Deer', 'Dog', 'Dragon', 'Drake', 'Elephant', 'Fiend', 'Freak', 'Frog', 'Gargoyle', 'Gorilla', 'Hawk', 'Hippo', 'Hog', 'Hound', 'Hyena', 'Jackal', 'Leopard', 'Leviathan', 'Lion', 'Lizard', 'Lynx', 'Monkey', 'Monster', 'Owl', 'Panther', 'Phoenix', 'Pig', 'Rat', 'Rhino', 'Scorpion', 'Serpent', 'Sheep', 'Snake', 'Spider', 'Swine', 'Tiger', 'Vermin', 'Viper', 'Warthog', 'Wolf', 'Yak'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     if (i < 4) {
       rnd = Math.floor(Math.random() * nm3.length);

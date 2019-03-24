@@ -5,7 +5,7 @@ export default function laotians() {
   const nm3 = ['Bokeo', 'Bouphavanh', 'Bouvanaat', 'Champasack', 'Champasak', 'Chanthanane', 'Chanthavong	 ', 'Chanthavong', 'Chanthraphone', 'Cheruene', 'Douangmala', 'Douangvily', 'Genevong', 'Inthisane', 'Kaewdara', 'Keobounphanh', 'Keobunta', 'Keomany', 'Keopraseuth', 'Keothavong', 'Kethavongsa', 'Ketthavong', 'Khamchanh', 'Khamsomphou', 'Khamvongsouk', 'Khanthavong', 'Khotpanya', 'Khouphongsy', 'Kittiphan', 'Kommandam', 'Kouanchao', 'Lengsavad', 'Louangrath	 ', 'Malaythong', 'Manwilaivong', 'Menorath', 'Ornpaeng', 'Oudomphonh', 'Pakdimounivong', 'Phanivong', 'Phankham', 'Phaophanit', 'Phengsavath', 'Phetphommasouk', 'Phommajack', 'Phommasane', 'Phommathep', 'Phomsouvanh', 'Phomvihane', 'Phothisarath', 'Phoumsavanh', 'Phoutthasinh', 'Phrasavath', 'Rattanavongsa', 'Saenbouthalath', 'Saengsavang', 'Saengsouriya', 'Saenthavisouk', 'Savang', 'Sayasone', 'Sayavong', 'Saysamongdy', 'Saysanasy', 'Seeha', 'Sengprachanh', 'Sengtavisouk', 'Siharath ', 'Simnouansai', 'Siphandon', 'Sisoulith', 'Siyavong', 'Somphonpadee', 'Somphousiharath', 'Sonexarth', 'Souksanh', 'Soulignavong', 'Southavilay', 'Souvannaphouma', 'Syrypanha', 'Syvongsa', 'Tayvihane', 'Thammasith', 'Thammavong', 'Thammavong ', 'Thammavongsa', 'Thepsenavong', 'Thiamphasone', 'Thonemany', 'Vatthana', 'Viravongs', 'Vongphachanh', 'Vongphakdy', 'Vongsamphanh', 'Vongsay', 'Vongvichit', 'Vongvilay', 'Vorachith', 'Xiengboree'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     rnd2 = Math.floor(Math.random() * nm3.length);
     if (type === 1) {

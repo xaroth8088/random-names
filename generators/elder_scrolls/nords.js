@@ -13,7 +13,7 @@ export default function nords() {
   const nm11 = ['aeld', 'aen', 'ahr', 'ahrik', 'ald', 'alde', 'alder', 'an', 'ander', 'aner', 'ans', 'ar', 'arde', 'arik', 'arike', 'arke', 'arme', 'arn', 'arne', 'arok', 'ehr', 'eld', 'en', 'enr', 'ens', 'ensve', 'er', 'ervon', 'ifk', 'ik', 'ikver', 'is', 'isor', 'isver', 'orin', 'orke', 'orn', 'orne'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm4.length);

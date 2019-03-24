@@ -10,7 +10,7 @@ export default function robots() {
   const names9 = ['x', 'tron', 'roid', 'ator', 'oid', '', '', '', '', '', '', ''];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     if (i < 4) {
       rnd0 = Math.floor(Math.random() * names1.length);

@@ -4,7 +4,7 @@ export default function marine_mammals() {
   const nm2 = ['Abalone', 'Aeria', 'Aerial', 'Aqua', 'Aquina', 'Ara', 'Arial', 'Ariel', 'Artica', 'Baye', 'Bayou', 'Belle', 'Blue', 'Briny', 'Brooke', 'Bubbles', 'Bullette', 'Cari', 'Cascade', 'Cerulea', 'Comette', 'Cora', 'Coral', 'Coralia', 'Crystal', 'Dandy', 'Delta', 'Dew', 'Dips', 'Dorea', 'Doria', 'Dot', 'Echo', 'Fen', 'Finne', 'Flip', 'Gemma', 'Gloria', 'Grace', 'Hydris', 'Icee', 'Isla', 'Kai', 'Kaia', 'Kelby', 'Kelpe', 'Kura', 'Kyla', 'Laguna', 'Lagune', 'Lana', 'Llyn', 'Lumina', 'Luna', 'Mahi', 'Mai', 'Malibu', 'Mareen', 'Marine', 'Marinelle', 'Marinna', 'Marsha', 'Maryn', 'Maya', 'Melanie', 'Melody', 'Meri', 'Meris', 'Mime', 'Misty', 'Molly', 'Muriel', 'Nahla', 'Nami', 'Nebula', 'Neptuna', 'Nerina', 'Nile', 'Nixie', 'Oceana', 'Oceane', 'Opal', 'Pace', 'Pearl', 'Peirene', 'Pisces', 'Pitch', 'Pure', 'Raine', 'Razzle', 'Rhode', 'Ria', 'Riva', 'River', 'Sandy', 'Sapphire', 'Sealea', 'Shade', 'Shadow', 'Shelby', 'Shelly', 'Siera', 'Sierra', 'Siren', 'Sirena', 'Sirene', 'Snowball', 'Snowflake', 'Snowwhite', 'Sona', 'Sparkle', 'Splash', 'Splashy', 'Sprinkle', 'Sprinkles', 'Squeal', 'Squeek', 'Squiggle', 'Squiggles', 'Star', 'Sundance', 'Tide', 'Tumble', 'Tyde', 'Ula', 'Una', 'Yoka', 'Zippy'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm2.length);

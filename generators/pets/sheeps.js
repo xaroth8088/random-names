@@ -4,7 +4,7 @@ export default function sheeps() {
   const nm2 = ['Agnes', 'Angel', 'Aria', 'Baarbara', 'Beetle', 'Bella', 'Bitsy', 'Blue', 'Bonnie', 'Buffy', 'Bugsie', 'Bumble', 'Bunny', 'Buttercup', 'Button', 'Buttons', 'Candy', 'Capri', 'Chewe', 'Cloude', 'Clover', 'Coco', 'Cosmo', 'Cotton', 'Cream', 'Creme', 'Crystal', 'Cuddle', 'Cuddles', 'Cushion', 'Daahling', 'Daffodil', 'Daisy', 'Darling', 'Dixie', 'Dolly', 'Dora', 'Dottie', 'Ebony', 'Ewey', 'Fern', 'Flower', 'Fluffy', 'Flufkins', 'Flurry', 'Gigi', 'Ginger', 'Gloria', 'Goldilocks', 'Gorgeous', 'Honey', 'Iris', 'Ivory', 'Ivy', 'Jasmin', 'Jazzy', 'Lane', 'Lavender', 'Libby', 'Lilly', 'Linsey', 'Lucy', 'Luna', 'Lyric', 'Maggie', 'Maple', 'Marigold', 'Midge', 'Midnight', 'Minty', 'Misty', 'Molly', 'Momma', 'Muffin', 'Nell', 'Nibble', 'Nova', 'Nutmeg', 'Oreo', 'Pearl', 'Pepper', 'Petunia', 'Pickle', 'Puffle', 'Puffles', 'Raine', 'Raspberry', 'Rosemary', 'Ruth', 'Sage', 'Serenity', 'Shaggy', 'Shelly', 'Sierra', 'Silver', 'Smiley', 'Smooch', 'Smooches', 'Snowflake', 'Snuggle', 'Snuggles', 'Snugs', 'Socks', 'Speckle', 'Speckles', 'Spice', 'Strawberry', 'Sugar', 'Sweetie', 'Sweetpea', 'Teeny', 'Tinkerbell', 'Tiny', 'Tulip', 'Twinkie', 'Twinkle', 'Vanilla', 'Velvet', 'Venus'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm2.length);

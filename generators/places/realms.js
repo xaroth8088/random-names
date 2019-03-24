@@ -9,7 +9,7 @@ export default function realms() {
   const names7 = ['Country', 'Domain', 'Dominion', 'Earth', 'Empire', 'Expanse', 'Fields', 'Forest', 'Isle', 'Isles', 'Lake', 'Land', 'Lands', 'Moon', 'Nation', 'Nexus', 'Ocean', 'Plane', 'Planet', 'Province', 'Reach', 'Realm', 'Realms', 'Region', 'Sanctuary', 'Sanctum', 'Sea', 'Terrain', 'Territories', 'Territory', 'Universe', 'Vale', 'Vales', 'Valley', 'World', 'Yonder'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     if (i < 5) {
       rnd = Math.floor(Math.random() * names1.length);

@@ -7,7 +7,7 @@ export default function hobbit() {
   const nm5 = ['a', 'e', 'o', '', '', '', ''];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm2.length);

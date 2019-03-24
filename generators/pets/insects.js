@@ -4,7 +4,7 @@ export default function insects() {
   const nm2 = ['Aggie', 'Akeeta', 'Alexei', 'Amber', 'Angel', 'Angi', 'Arachne', 'Arack', 'Aragi', 'Arania', 'Ash', 'Athena', 'Aura', 'Aurora', 'Babe', 'Beauty', 'Becky', 'Belle', 'Bitsy', 'Bizzie', 'Blossom', 'Breeze', 'Brizzie', 'Buffy', 'Bugsy', 'Bumble', 'Buttercup', 'Button', 'Buttons', 'Calico', 'Calypso', 'Candy', 'Carmen', 'Celeb', 'Charlotte', 'Charm', 'Cheeky', 'Chica', 'Cinders', 'Clarice', 'Cleo', 'Coco', 'Cookie', 'Coraline', 'Cotton', 'Crawline', 'Creepette', 'Crystal', 'Cuddles', 'Daisy', 'Dawn', 'Delilah', 'Dodger', 'Dot', 'Dotty', 'Ebony', 'Echo', 'Eek', 'Eep', 'Ember', 'Enigma', 'Fancy', 'Fangs', 'Flopsy', 'Fluffy', 'Freckles', 'Fuzzles', 'Gadget', 'Gertrude', 'Giggles', 'Gloria', 'Happy', 'Hugsie', 'Hyve', 'Incy', 'Indi', 'Iris', 'Itsy', 'Ivory', 'Jaffa', 'Jewel', 'Jiggly', 'Jinx', 'Jitters', 'Juicy', 'Jynx', 'Kisses', 'Klaxie', 'Lacy', 'Lady', 'Legs', 'Lucky', 'Lucy', 'Lulu', 'Midnight', 'Missy', 'Mittens', 'Morticia', 'Mothrine', 'Mystique', 'Pandora', 'Paws', 'Pebble', 'Pebbles', 'Phobia', 'Pickle', 'Pickles', 'Poison', 'Princess', 'Psyche', 'Queen', 'Raven', 'Rosebud', 'Rune', 'Scarlet', 'Scruffles', 'Serenity', 'Shade', 'Shelley', 'Shelob', 'Siri', 'Skitters', 'Skittles', 'Skreech', 'Snickers', 'Snuggle', 'Snuggles', 'Socks', 'Spindle', 'Spindles', 'Spindra', 'Squiggles', 'Squiggly', 'Squirmy', 'Stingy', 'Sugar', 'Sunshine', 'Tabitha', 'Tickle', 'Tickles', 'Tilly', 'Tinkerbelle', 'Toots', 'Twilight', 'Twitchy', 'Velvet', 'Venom', 'Violet', 'Waffle', 'Webzie', 'Xena', 'Ziggy'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm2.length);

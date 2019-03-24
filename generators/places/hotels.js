@@ -5,7 +5,7 @@ export default function hotels() {
   const names4 = ['Hotel', 'Resort', 'Resort & Spa', 'Hotel & Spa', 'Hotel', 'Hotel', 'Resort'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     if (i < 6) {
       rnd = Math.floor(Math.random() * names1.length);

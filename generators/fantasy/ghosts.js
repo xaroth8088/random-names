@@ -9,7 +9,7 @@ export default function ghosts() {
   const names7 = ['Angel', 'Apparition', 'Appearance', 'Artist', 'Barber', 'Barkeeper', 'Blacksmith', 'Butcher', 'Camper', 'Child', 'Cleaner', 'Clown', 'Cook', 'Curator', 'Dancer', 'Defender', 'Demon', 'Devil', 'Doctor', 'Eyes', 'Force', 'Gatekeeper', 'Ghost', 'Guard', 'Guardian', 'Guest', 'Hunter', 'Jester', 'Judge', 'Keeper', 'Kid', 'Knight', 'Lover', 'Maniac', 'Mime', 'Monk', 'Musician', 'Necromancer', 'Nightmare', 'Nightwatch', 'Nurse', 'Orphan', 'Patrol', 'Phantom', 'Prisoner', 'Protector', 'Reaper', 'Revenant', 'Rider', 'Screamer', 'Sentinel', 'Sentry', 'Servant', 'Shade', 'Shadow', 'Shepherd', 'Shopkeeper', 'Soldier', 'Soul', 'Specter', 'Squire', 'Stalker', 'Student', 'Teacher', 'Teenager', 'Templar', 'Toddler', 'Torturer', 'Vision', 'Visitor', 'Warden', 'Widow', 'Wizard', 'Woman', 'Wraith', 'Writer'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     if (i < 5) {
       if (type === 1) {

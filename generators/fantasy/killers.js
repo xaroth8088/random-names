@@ -4,7 +4,7 @@ export default function killers() {
   const names3 = ['Alien', 'Alligator', 'Seductress', 'Angel of Death', 'Angelmaker', 'Babyface', 'Baker', 'Bandit', 'Barbarian', 'Barber', 'Basher', 'Beast', 'Behemoth', 'Bigot', 'Biter', 'Bloodhound', 'Bomber', 'Bonekeeper', 'Brute', 'Butcher', 'Butler', 'Buzzard', 'Cannibal', 'Casanova', 'Chef', 'Chopper', 'Claw', 'Cleaver', 'Clobber', 'Clown', 'Cook', 'Copy Cat', 'Creature', 'Degenerate', 'Delirious', 'Demon', 'Dentist', 'Dicer', 'Disfigured', 'Doctor', 'Dog', 'Dummy', 'Executioner', 'Fang', 'Fiend', 'Fist', 'Frankenstein', 'Freak', 'Gambler', 'Ghost', 'Ghoul', 'Glutton', 'Grappler', 'Grave Robber', 'Hacker', 'Hook', 'Hunter', 'Informant', 'Insane', 'Jester', 'Kidnapper', 'Lunatic', 'Mad Dog', 'Man Eater', 'Maniac', 'Medic', 'Mime', 'Mincer', 'Model', 'Monster', 'Mutant', 'Night Stalker', 'Nurse', 'Nutcase', 'Outsider', 'Pale', 'Phantom', 'Pied Piper', 'Poisoner', 'Primitive', 'Professor', 'Psycho', 'Reaper', 'Ripper', 'Savage', 'Scalpel', 'Scar', 'Scientist', 'Scissors', 'Scythe', 'Senior', 'Serpent', 'Servant', 'Shadow', 'Shaver', 'Skeleton', 'Skinner', 'Skull', 'Slasher', 'Slayer', 'Slice and Dicer', 'Slicer', 'Snatcher', 'Sniper', 'Snitch', 'Spectator', 'Spider', 'Stalker', 'Stranger', 'Strangler', 'Stripper', 'Surgeon', 'Terminator', 'Therapist', 'Tourist', 'Tracker', 'Trapper', 'Vampire', 'Vermin', 'Watcher', 'Weasel', 'Weirdo', 'Werewolf', 'Whale', 'Whip', 'Whisper', 'Widow Maker', 'Wolf', 'Zombie'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     if (i < 5) {
       rnd = Math.floor(Math.random() * names1.length);

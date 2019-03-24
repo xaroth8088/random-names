@@ -8,7 +8,7 @@ export default function city_districts() {
   const nm7 = ['', 'Acre', 'Avenue', 'Bazaar', 'Boulevard', 'Center', 'Circle', 'Corner', 'Cross', 'District', 'East', 'Garden', 'Grove', 'Heights', 'Hill', 'Hills', 'Market', 'North', 'Park', 'Place', 'Plaza', 'Point', 'Road', 'Row', 'Side', 'South', 'Square', 'Street', 'Town', 'Vale', 'Valley', 'West', 'Wood', 'Yard'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     rnd6 = Math.floor(Math.random() * nm6.length);
     rnd7 = Math.floor(Math.random() * nm7.length);

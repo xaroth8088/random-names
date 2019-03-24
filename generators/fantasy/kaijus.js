@@ -3,7 +3,7 @@ export default function kaijus() {
   const nm2 = ['bara', 'borg', 'cada', 'coatl', 'da', 'dan', 'dius', 'don', 'dorah', 'dorg', 'doro', 'doru', 'dos', 'dragon', 'dun', 'dus', 'dusa', 'gami', 'gan', 'gar', 'garu', 'gary', 'gas', 'gauros', 'gira', 'go', 'gon', 'gora', 'guar', 'guera', 'guma', 'hara', 'jin', 'ju', 'lak', 'lar', 'laria', 'las', 'lios', 'lon', 'lus', 'majin', 'mera', 'mon', 'mutul', 'nar', 'nula', 'nulon', 'pede', 'pod', 'por', 'ra', 'ragon', 'rah', 'ran', 'randa', 'rappa', 'ras', 'rashi', 'rax', 'ria', 'rigar', 'rola', 'ron', 'ros', 'rugon', 'rus', 'sari', 'saurus', 'sis', 'sos', 'sus', 'talak', 'tax', 'thrax', 'tor', 'tori', 'tra', 'tul', 'vern', 'vore', 'yah', 'zilla'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     rnd = Math.floor(Math.random() * nm1.length);
     rnd2 = Math.floor(Math.random() * nm2.length);

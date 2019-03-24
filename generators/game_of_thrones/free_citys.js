@@ -8,7 +8,7 @@ export default function free_citys() {
   const names6 = ['aan', 'aar', 'aenor', 'ah', 'ahran', 'anar', 'ar', 'aris', 'assar', 'atis', 'el', 'elar', 'elion', 'en', 'enohr', 'erah', 'erion', 'erris', 'in', 'inar', 'ion', 'ios', 'irah', 'iris', 'iros', 'ohr', 'ohrin', 'olis', 'onnis', 'oran', 'oris', 'orlan', 'os', 'oyor', 'yl', 'ymion', 'yr', 'yrion', 'yris', 'ys'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     if (type === 1) {
       rnd = Math.floor(Math.random() * names3.length);

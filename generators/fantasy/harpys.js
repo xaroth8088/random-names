@@ -3,7 +3,7 @@ export default function harpys() {
   const nm2 = ['a', 'aene', 'aeno', 'alin', 'alis', 'alle', 'ane', 'aphe', 'aphine', 'ara', 'arge', 'aria', 'ase', 'asha', 'asis', 'ea', 'eano', 'eanor', 'efis', 'elle', 'ena', 'enne', 'eo', 'ephise', 'era', 'erin', 'eris', 'ete', 'ethe', 'evis', 'ia', 'ial', 'ialle', 'iana', 'iane', 'iara', 'ie', 'ielle', 'iene', 'inis', 'inore', 'iphis', 'iris', 'is', 'ise', 'o', 'oah', 'oe', 'oelle', 'oene', 'oinne', 'ola', 'one', 'onia', 'ophine', 'ophis', 'ora', 'orena', 'oris', 'oya', 'ya', 'yana', 'ylia', 'ylis', 'yne', 'ynea', 'ynne', 'ynore', 'yore', 'yphe', 'yre', 'yrea', 'yris', 'ys', 'yth'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     rnd = Math.floor(Math.random() * nm1.length);
     rnd2 = Math.floor(Math.random() * nm2.length);

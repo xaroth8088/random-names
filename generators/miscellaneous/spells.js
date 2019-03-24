@@ -12,7 +12,7 @@ export default function spells() {
   const names10 = ['Anim', 'Anno', 'Annoy', 'Arach', 'Arachn', 'Arachni', 'Av', 'Avi', 'Ban', 'Bull', 'Can', 'Cand', 'Candel', 'Cani', 'Canin', 'Consi', 'Consil', 'Contag', 'Dem', 'Demo', 'Demon', 'Drac', 'Drag', 'Elem', 'Elemen', 'Element', 'Fel', 'Feli', 'Felin', 'Foc', 'Focu', 'Infec', 'Infect', 'Intim', 'Intimi', 'Intimid', 'Ligh', 'Light', 'Noct', 'Oppon', 'Oppres', 'Padl', 'Padloc', 'Perso', 'Person', 'Pest', 'Rasc', 'Rat', 'Serp', 'Serpen', 'Stri', 'Strix', 'Torch', 'Torm', 'Tormen', 'Tyr', 'Tyran', 'Vesper', 'Vex', 'Vexat', 'Vir', 'Viral', 'Ache', 'Ago', 'Agon', 'Miser'];
   const names11 = ['Absol', 'Angel', 'Celest', 'Colos', 'Complet', 'Cor', 'Corrup', 'Dem', 'Demon', 'Demonic', 'Diab', 'Divin', 'Enorm', 'Ether', 'Gargant', 'Hid', 'Honor', 'Horrend', 'Horrib', 'Horrif', 'Immed', 'Immen', 'Immor', 'Impair', 'Imperf', 'Imperfec', 'Impur', 'Infec', 'Infect', 'Infer', 'Infern', 'Infin', 'Its', 'Juven', 'Limit', 'Malev', 'Minisc', 'Mix', 'Monst', 'Neth', 'Ordin', 'Perf', 'Perfec', 'Phan', 'Phant', 'Pris', 'Prist', 'Pur', 'Ref', 'Refin', 'Repeat', 'Repell', 'Satan', 'Spir', 'Spirit', 'Tain', 'Terrib', 'Thund', 'Total', 'Tremend', 'Vil', 'Virt', 'Virtu', 'Vulg'];
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     if (type === 1) {
       rnd = Math.floor(Math.random() * names8.length);
@@ -48,7 +48,7 @@ export default function spells() {
 }
 
 export default function spellsHp() {
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     rnd[0] = Math.floor(Math.random() * names8.length);
     rnd[1] = Math.floor(Math.random() * names9.length);

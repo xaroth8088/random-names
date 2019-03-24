@@ -15,7 +15,7 @@ export default function legs() {
     var names6 = ['Armament', 'Scales', 'Guard', 'Bastion', 'Steel', 'Defense', 'Bane', 'Bond', 'Boon', 'Call', 'Champion', 'Conqueror', 'Crusader', 'Cry', 'Curator', 'Dawn', 'Fall', 'End', 'Demise', 'Birth', 'Death', 'Edge', 'Blight', 'Burden', 'Blessing', 'Fortune', 'Defender', 'Defiler', 'Deflector', 'Destroyer', 'Emissary', 'Ender', 'Favor', 'Foe', 'Gift', 'Glory', 'Guard', 'Guardian', 'Heirloom', 'Hero', 'Hope', 'Incarnation', 'Keeper', 'Last Hope', 'Last Stand', 'Legacy', 'Memory', 'Might', 'Oath', 'Pact', 'Pledge', 'Promise', 'Protection', 'Protector', 'Reach', 'Shepherd', 'Soul', 'Steward', 'Terror', 'Token', 'Tribute', 'Vengeance', 'Vindicator', 'Visage', 'Voice', 'Ward', 'Warden', 'Whisper', 'Wit', 'Armor', 'Legguards', 'Platelegs', 'Legplates', 'Greaves', 'Skirt', 'Leggings', 'Kilt'];
   }
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     if (i < 2) {
       rnd = Math.floor(Math.random() * names1.length);

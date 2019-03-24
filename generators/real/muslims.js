@@ -6,7 +6,7 @@ export default function muslims() {
   let names = '';
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     rnd2 = Math.floor(Math.random() * nm3.length);
     if (type === 1) {

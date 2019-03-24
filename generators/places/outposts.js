@@ -5,7 +5,7 @@ export default function outposts() {
   const names4 = ['Arid', 'Autumn\'s', 'Azure', 'Barren', 'Black Scar', 'Blood', 'Bone', 'Boulder', 'Burning', 'Canyon', 'Cinder', 'Crossroad', 'Crown', 'Crystal', 'Dawn', 'Dead', 'Death', 'Desolation', 'Dire', 'Doom', 'Dreamer\'s', 'Dusk', 'Dusty', 'Ebon', 'Echo', 'Eclipse', 'Eco-Dome', 'Ember', 'Eternal', 'Falcon', 'Final', 'First', 'Fool\'s Hope', 'Forest', 'Forsaken', 'Forward', 'Fury', 'Garden', 'Gloom', 'Hidden', 'Honor', 'Hunter', 'Iron', 'Lagoon', 'Lake', 'Light\'s', 'Marsh', 'Marshal', 'Mountain', 'Mountain-Foot', 'Night', 'Nightmare', 'Oasis', 'Obsidian', 'Ocean', 'Oracle', 'Phantom', 'Pinnacle', 'Raven', 'Razor', 'River', 'Sandy', 'Scarlet', 'Sea', 'Seabreeze', 'Second', 'Shadow', 'Skeleton', 'Sleeping', 'Solitude', 'Sorrow', 'Spring\'s', 'Starfall', 'Starlight', 'Storm', 'Summer\'s', 'Summit', 'Talon', 'Tempest', 'Terror', 'Third', 'Thunder', 'Thunderstorm', 'Timber', 'Triumph', 'Twilight', 'Twin', 'Valley', 'Valor', 'Vendetta', 'Vengeance', 'Venom', 'Victor', 'Vortex', 'Warden', 'Watcher\'s', 'Wild', 'Wildling', 'Winter\'s', 'Writhing'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     if (i < 5) {
       rnd = Math.floor(Math.random() * names1.length);

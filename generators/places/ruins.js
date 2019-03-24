@@ -4,7 +4,7 @@ export default function ruins() {
   const nm3 = ['Abandoned', 'Abyss', 'Agony', 'Ashen', 'Bare', 'Barren', 'Bleak', 'Blight', 'Bone', 'Broken', 'Burning', 'Chaos', 'Charcoal', 'Coal', 'Cobalt', 'Collapsed', 'Corroded', 'Cracking', 'Crimson', 'Crumbled', 'Crumbling', 'Cursed', 'Damned', 'Dark', 'Dcayed', 'Dead', 'Debris', 'Decaying', 'Deserted', 'Desolated', 'Desolation', 'Despair', 'Destroyed', 'Destruction', 'Dismissed', 'Doom', 'Dread', 'Emptied', 'Empty', 'End', 'Ender', 'Erased', 'Ethereal', 'Exile', 'Exiled', 'Extinct', 'Fallen', 'Fire', 'Foggy', 'Forgotten', 'Forsaken', 'Fragmented', 'Frozen', 'Ghost', 'Gloom', 'Grave', 'Haunted', 'Ice', 'Illusion', 'Infernal', 'Inferno', 'Isolated', 'Isolation', 'Lifeless', 'Lonely', 'Lost', 'Mist', 'Molded', 'Molten', 'Motionless', 'Murky', 'Mythic', 'Nameless', 'Necrotic', 'Neglected', 'Night', 'Nightmare', 'Nullified', 'Obliterated', 'Oblivion', 'Obsidian', 'Onyx', 'Overgrown', 'Perished', 'Petrified', 'Phantom', 'Remnant', 'Residue', 'Rotting', 'Rubble', 'Ruin', 'Ruined', 'Rusted', 'Savage', 'Scorching', 'Scourge', 'Scream', 'Screaming', 'Shadow', 'Shamble', 'Shrub', 'Silent', 'Silver', 'Skeleton', 'Skull', 'Slate', 'Sleeping', 'Sleepy', 'Smoke', 'Solitude', 'Soot', 'Spirit', 'Stone', 'Twilight', 'Uncanny', 'Undone', 'Unknown', 'Vanquished', 'Vibrating', 'Void', 'Waste', 'Wasted', 'Weeping', 'Whisper', 'Whispering', 'Windy', 'Wreckage'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     if (i < 5) {
       rnd = Math.floor(Math.random() * nm1.length);

@@ -6,7 +6,7 @@ export default function business() {
   const nm3 = ['A Fur Affair', 'Bark \'n Bubbles', 'Barker Shop', 'Barking Barber', 'Barks \'n Recreation', 'Beautify the Beast', 'Canine Clips', 'Clip \'n Dip', 'Clip-n-Dales', 'Clippity Doo', 'Comb and Collar', 'Cosmopawliton', 'Cut Above The Rest', 'Cuts for Mutts', 'Dashing Dogs', 'Dazzling Dogs', 'Diamonds in the Ruff', 'Doggy Divine', 'Doggy Do\'s', 'Doggy Style', 'Dogs in Style', 'Fur Styling', 'Furtastic', 'Groomed to Purfection', 'Groomingdales', 'Hair of the Dog', 'Haute Dogs', 'Hot Dogs', 'K9 Couture', 'LaundroMutt', 'Mucky Pups', 'Mutley Makeover', 'Mutley Makeovers', 'Pampered Paws', 'Pampered Pets', 'Paw Spa', 'Paws and Relax', 'Pawsitively Divine', 'Pooch Parlor', 'Posh Paws', 'Posh Pooches', 'Pretty Paws', 'Pride and Groom', 'Pristine Pups', 'Purfect Touch', 'Ruff Cuts', 'Scrubadub Doggie', 'Scruffy to Fluffy', 'Shampooch', 'Shampoodles', 'Shear Critters', 'Top to Tail', 'Tossled Tails', 'Wags to Riches', 'Wash and Wag', 'Yuppy Puppy'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     if (i < 7) {
       rnd = Math.floor(Math.random() * nm1.length);

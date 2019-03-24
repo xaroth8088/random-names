@@ -4,7 +4,7 @@ export default function how_to_train_your_dragons() {
   const nm3 = ['Awe', 'Bait', 'Bead', 'Bellow', 'Bigby', 'Blare', 'Blue', 'Bluster', 'Bolt', 'Bones', 'Boom', 'Boulder', 'Burst', 'Buster', 'Chase', 'Chinook', 'Cobble', 'Cower', 'Crackle', 'Crest', 'Crimson', 'Crisscross', 'Crumb', 'Curly', 'Dart', 'Dash', 'Dire', 'Ditch', 'Dodge', 'Dozer', 'Dread', 'Dribble', 'Drifter', 'Drool', 'Droplet', 'Dusty', 'Echo', 'Eclipse', 'Enigma', 'Fawn', 'Fay', 'Feather', 'Feint', 'Flare', 'Flash', 'Flinch', 'Flo', 'Fluff', 'Flurry', 'Gale', 'Ghast', 'Ghost', 'Glider', 'Glimmer', 'Glint', 'Glum', 'Gnaw', 'Gobbles', 'Goof', 'Gravel', 'Grim', 'Grime', 'Grouch', 'Grumpy', 'Grunt', 'Gust', 'Haze', 'Helix', 'Hogger', 'Honey', 'Hue', 'Itchy', 'Jitters', 'Juke', 'Knot', 'Looper', 'Magma', 'Manes', 'Muds', 'Munchy', 'Muzzle', 'Needle', 'Nibble', 'Night', 'Nimbles', 'Nip', 'Nozzle', 'Paradox', 'Pebble', 'Phanom', 'Pickle', 'Pinch', 'Pitch', 'Plume', 'Plummet', 'Prickle', 'Puds', 'Pugs', 'Quill', 'Rainbow', 'Riddle', 'Rumble', 'Saliva', 'Sally', 'Sapphire', 'Scruffy', 'Scuddle', 'Shade', 'Shadow', 'Shay', 'Shuffle', 'Sidestep', 'Skip', 'Sky', 'Skyler', 'Slobber', 'Slush', 'Smudge', 'Snare', 'Sneak', 'Snookum', 'Snout', 'Snowflake', 'Soot', 'Sparkle', 'Spice', 'Squall', 'Squeak', 'Sting', 'Storm', 'Subs', 'Surge', 'Surly', 'Swifty', 'Tails', 'Thorn', 'Thunder', 'Tickles', 'Tingle', 'Trace', 'Tremble', 'Tumble', 'Twilight', 'Twinkle', 'Twist', 'Twister', 'Typhoon', 'Umbra', 'Veil', 'Whallop', 'Whammy', 'Wiggle', 'Wriggle', 'Zap', 'Zigzag', 'Zip'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     if (i < 5) {
       rnd = Math.floor(Math.random() * nm1.length);

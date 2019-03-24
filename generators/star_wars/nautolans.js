@@ -14,7 +14,7 @@ export default function nautolans() {
   const nm12 = ['', '', '', '', '', '', '', 'c', 'd', 'g', 'k', 'l', 'll', 'm', 'mt', 'n', 'ng', 'nd', 'nt', 'r', 'rk', 'rr', 's', 'ss', 't', 'ts', 'z', 'zz'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     rnd7 = Math.floor(Math.random() * nm9.length);
     rnd8 = Math.floor(Math.random() * nm10.length);

@@ -10,7 +10,7 @@ export default function angels() {
   const nm8 = ['el', 'ael', 'il', 'on', 'uen', 'uel', 'eil', 'iel', 'is', 'ith', 'oelle', 'oenne', 'aelle'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm5.length);

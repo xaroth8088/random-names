@@ -12,7 +12,7 @@ export default function warriors_of_chaos() {
   const nm10 = ['Abandoned', 'Aggressor', 'Anguished', 'Beast', 'Befouled', 'Behemoth', 'Berserker', 'Bewitched', 'Blood Bathed', 'Blood Soaked', 'Bloodied', 'Bloody', 'Bone Crusher', 'Corrupted Mind', 'Corruption Lord', 'Corruptor', 'Crooked Smile', 'Cunning', 'Cunning Mind', 'Curseling', 'Dark Lord', 'Dark Master', 'Dark Night', 'Dead Mind', 'Defiled', 'Dread Lord', 'Eternal', 'Everchosen', 'Explosive', 'Faithless', 'Forsaken', 'Fury', 'Gory', 'Grave Digger', 'Grave Robber', 'Grim Reaper', 'Grotesque', 'Hollow', 'Hound', 'Ill Tempered', 'Impure', 'Insane', 'Irrational', 'Jester', 'Leechlord', 'Lone Wolf', 'Lost Mind', 'Magnificent', 'Mammoth', 'Maneater', 'Manslayer', 'Menace', 'Merciless', 'Mutant', 'Necromancer', 'Nightmare', 'Nomad', 'Parasite', 'Pollutor', 'Rash', 'Roamer', 'Rotten', 'Rotting', 'Sanguine', 'Sanguine Lord', 'Serpent', 'Serpent Tongue', 'Shadow Dweller', 'Sinner', 'Skeptic', 'Skinner', 'Slaughterer', 'Soothsayer', 'Suneater', 'Transient', 'Unstable', 'Vagrant', 'Vengeful', 'Volatile', 'Wanderer', 'Warmonger', 'Wicked', 'Wrathful', 'Wreckage', 'Wretched'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     if (i % 3 === 0) {
       rnd = Math.floor(Math.random() * nm8.length);

@@ -12,7 +12,7 @@ export default function argonians() {
   const nm10 = ['cles', 'des', 'dorus', 'gulus', 'lus', 'mean', 'mus', 'nes', 'sar', 'seus', 'sion', 'ssius', 'tus', 'calees', 'desh', 'dorees', 'goulus', 'lures', 'mareen', 'museeth', 'mesh', 'sareth', 'sesh', 'seene', 'seus', 'tius', 'clesh', 'daresh', 'deseer', 'galus', 'leesh', 'rean', 'marush', 'naresh', 'sareeth', 'teus', 'sifon', 'silus', 'thees'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     if (type === 1) {
       if (i < 6) {

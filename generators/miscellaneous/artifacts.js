@@ -4,7 +4,7 @@ export default function artifacts() {
   const nm3 = ['Amulet', 'Arch', 'Ark', 'Band', 'Book', 'Boots', 'Box', 'Bracelet', 'Canopic Chest', 'Canopic Jar', 'Chest', 'Cloak', 'Crown', 'Cube', 'Cup', 'Cylinder', 'Disc', 'Chalice', 'Goblet', 'Tiara', 'Circlet', 'Grimoire', 'Door', 'Elixir', 'Feather', 'Fleece', 'Fountain', 'Fruit', 'Gauntlet', 'Gem', 'Grail', 'Hand', 'Hide', 'Horn', 'Ichor', 'Inscriptions', 'Instrument', 'Jar', 'Key', 'Lamp', 'Letters', 'Mantle', 'Mask', 'Microlith', 'Mirror', 'Monolith', 'Necklace', 'Pillar', 'Ring', 'Robes', 'Rod', 'Root', 'Runes', 'Sandals', 'Scroll', 'Seal', 'Shard', 'Shield', 'Skull', 'Slab', 'Staff', 'Statue', 'Statuette', 'Stone', 'Sword', 'Symbols', 'Tablet', 'Texts', 'Tome', 'Urn'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     rnd3 = Math.floor(Math.random() * nm3.length);
     if (i < 5) {

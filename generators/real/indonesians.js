@@ -24,7 +24,7 @@ export default function indonesians() {
     jvNm = ['Adi', 'Bambang', 'Budi', 'Budiono', 'Damarwulan', 'Darma', 'Dian', 'Dwi', 'Eko', 'Guntur', 'Kuwat', 'Purnama', 'Purwodarminto', 'Raharjo', 'Slamet', 'Sriwidadi', 'Sudiroprojo', 'Suharto', 'Sukarno', 'Sukarto', 'Suratman', 'Suripto', 'Susilo', 'Sutikno', 'Tirto'];
   }
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     if (i < 2) {
       rnd0 = Math.floor(Math.random() * inNm.length);

@@ -5,7 +5,7 @@ export default function dungeons() {
   const nm4 = ['Arachnid', 'Army', 'Basilisk', 'Bat', 'Bear', 'Cult', 'Desert', 'Dragon', 'Eagle', 'Elf', 'Emperor', 'Forest', 'Giant', 'Goblin', 'Guardian', 'Horsemen', 'Hound', 'Hunter', 'Jungle', 'King', 'Knight', 'Legion', 'Leopard', 'Lion', 'Mage', 'Marsh', 'Monk', 'Morass', 'Mountain', 'Occult', 'Ogre', 'Oracle', 'Orc', 'Paladin', 'Panther', 'Phoenix', 'Priest', 'Queen', 'Raven', 'Scorpion', 'Serpent', 'Soldier', 'Spider', 'Swamp', 'Tiger', 'Warrior', 'Widow', 'Witch', 'Wizard', 'Warlord', 'Wolf'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     rnd2 = Math.floor(Math.random() * nm2.length);
     if (i < 4) {

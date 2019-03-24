@@ -10,7 +10,7 @@ export default function gnome() {
   const nm8 = ['bang', 'blast', 'bonk', 'bus', 'crank', 'dwadle', 'fizz', 'fizzle', 'fuse', 'fuzz', 'gauge', 'gear', 'grinder', 'house', 'kettle', 'master', 'needle', 'nozzle', 'pipe', 'span', 'spanner', 'spark', 'spindle', 'spinner', 'spring', 'sprocket', 'steel', 'strip', 'torque', 'whistle', 'wizzle', 'wrench'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     rnd7 = Math.floor(Math.random() * nm7.length);
     rnd8 = Math.floor(Math.random() * nm8.length);

@@ -24,7 +24,7 @@ export default function martial_arts() {
   const nm20 = [];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     if (i < 2) {
       rnd = Math.floor(Math.random() * nm1.length);

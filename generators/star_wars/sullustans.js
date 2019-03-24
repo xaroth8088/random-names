@@ -14,7 +14,7 @@ export default function sullustans() {
   const nm12 = ['', '', '', '', '', '', '', '', '', '', '', '', '', '', 'b', 'bb', 'bbs', 'bl', 'c', 'cb', 'd', 'h', 'k', 'l', 'll', 'ls', 'm', 'mb', 'mm', 'mp', 'n', 'nb', 'nd', 'nn', 'nr', 'nt', 'p', 'pt', 'r', 'rb', 'rl', 'rr', 'rs', 'rss', 's', 'st', 't', 'th', 'v', 'vv', 'wn', 'z'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     rnd7 = Math.floor(Math.random() * nm9.length);
     rnd8 = Math.floor(Math.random() * nm10.length);

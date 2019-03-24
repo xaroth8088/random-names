@@ -5,7 +5,7 @@ export default function evil_groups() {
   const nm4 = ['Anarchy', 'Ash', 'Battle', 'Blaze', 'Blight', 'Chaos', 'Chrome', 'Chronos', 'Ciphers', 'Clones', 'Crypts', 'Curses', 'Death', 'Demons', 'Devilry', 'Diablo', 'Dire', 'Doom', 'Dragons', 'Dread', 'Echos', 'Elementals', 'Fear', 'Fiends', 'Fire', 'Frost', 'Fury', 'Gargoyles', 'Ghosts', 'Gloom', 'Grim', 'Hallow', 'Hate', 'Hatred', 'Horror', 'Imps', 'Infernos', 'Iron', 'Judgment', 'Justice', 'Karma', 'Liberty', 'Lightning', 'Midnight', 'Mutants', 'Nightmares', 'Obsidian', 'Odium', 'Onyx', 'Phantoms', 'Poison', 'Psychos', 'Pyro', 'Pyromaniacs', 'Salvation', 'Serpents', 'Shadow', 'Shock', 'Silence', 'Sin', 'Sinners', 'Slayers', 'Specters', 'Spite', 'Steel', 'Storm', 'Terror', 'Thunder', 'Thunders', 'Torment', 'Toxin', 'Vengeance', 'Venom', 'Verdicts', 'War', 'Warlords', 'the Arcane', 'the Beast', 'the Behemoth', 'the Cataclysm', 'the Cosmos', 'the Curse', 'the Dead', 'the Devil', 'the Elements', 'the Enigma', 'the Infernal', 'the Inferno', 'the Mutant', 'the Necro', 'the Nether', 'the Nightmare', 'the Phantom', 'the Serpent', 'the Shade', 'the Sinner', 'the Slayer', 'the Specter', 'the Twisted', 'the Undead', 'the Universe', 'the Unknown', 'the Unseen', 'the Virus', 'the Void', 'the Warlord', 'the Wicked'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     if (i < 4) {
       rnd = Math.floor(Math.random() * nm1.length);

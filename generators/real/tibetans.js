@@ -4,7 +4,7 @@ export default function tibetans() {
   const nm2 = ['Aukatsang', 'Bhutia', 'Bongpatsang', 'Chodron', 'Damdul', 'Dhanacktsang', 'Dhompa', 'Dorje', 'Drakpa', 'Drakthonpa', 'Dramuktsang', 'Drupa', 'Geymutsang', 'Gonpo', 'Gorkha', 'Gurung', 'Gyaktsen', 'Gyatso', 'Jigme', 'Jungne', 'Kalingpong', 'Karpo', 'Kyidtodpa', 'Ladakh', 'Lhamo', 'Lingpa', 'Lotsawa', 'Lukhangwa', 'Manriwa', 'Mingyur', 'Mipham', 'Monpa', 'Namdak', 'Nepali', 'Norbu', 'Nyima', 'Nyingpo', 'Pakshi', 'Palsang', 'Pandita', 'Repa', 'Sambhota', 'Sangpo', 'Shakabpa', 'Sherpa', 'Tamang', 'Tangpa', 'Tenzin', 'Thaye', 'Trengwa', 'Trungpa', 'Tsemo', 'Tsogyal', 'Wangpo', 'Yeshy'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     rnd = Math.floor(Math.random() * nm1.length);
     if (i < 5) {

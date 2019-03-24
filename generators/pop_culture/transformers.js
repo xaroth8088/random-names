@@ -4,7 +4,7 @@ export default function transformers() {
   const nm3 = ['Abomination', 'Ace', 'Ares', 'Aries', 'Athena', 'Augment', 'Aurora', 'Barbarian', 'Barrage', 'Beacon', 'Beast', 'Behemoth', 'Blade', 'Blitz', 'Blitzkrieg', 'Blockaide', 'Brute', 'Cascade', 'Claw', 'Coil', 'Comet', 'Compass', 'Core', 'Creature', 'Critter', 'Crossflare', 'Crux', 'Dagger', 'Delirium', 'Ditch', 'Divebomb', 'Dread', 'Dynamite', 'Dynamo', 'Earthquake', 'Eclipse', 'Element', 'Ember', 'Enigma', 'Error', 'Feral', 'Flinch', 'Flow', 'Flutter', 'Flux', 'Freak', 'Fungus', 'Fury', 'Fuse', 'Gadget', 'Gleam', 'Grease', 'Growl', 'Harness', 'Havoc', 'Hazard', 'Hightop', 'Hitch', 'Honeybee', 'Howler', 'Hymn', 'Icicle', 'Inferno', 'Influx', 'Jeopardy', 'Landslide', 'Maniac', 'Melody', 'Mercy', 'Meteoroid', 'Nightlight', 'Oracle', 'Outburst', 'Overboard', 'Overflow', 'Overload', 'Paradox', 'Particle', 'Pest', 'Pillage', 'Posthaste', 'Prodigy', 'Pummel', 'Pursuit', 'Quake', 'Quarrel', 'Rabid', 'Racer', 'Rage', 'Remix', 'Requiem', 'Residue', 'Ricochet', 'Riot', 'Rodent', 'Rubble', 'Rumble', 'Rush', 'Salvo', 'Savage', 'Savvy', 'Scourge', 'Scratch', 'Shamble', 'Shift', 'Sidearm', 'Sideburns', 'Sidelock', 'Sidewire', 'Sky-High', 'Slide', 'Smite', 'Snake', 'Snarl', 'Snowdrift', 'Sprocket', 'Stampede', 'Starblaster', 'Starburst', 'Stormrunner', 'Sunblast', 'Sunburst', 'Switch', 'Talon', 'Tempest', 'Thrust', 'Thunder', 'Torment', 'Torrent', 'Trailfire', 'Trident', 'Turbine', 'Twinkle', 'Typhoon', 'Venture', 'Vermin', 'Vigor', 'Virtue', 'Volley', 'Voltage', 'Wallop', 'Weasel', 'Wheels', 'Whistle', 'Whiz', 'Wrangle', 'Wreckage', 'Zephyr', 'Zodiac'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     if (i < 5) {
       rnd = Math.floor(Math.random() * nm1.length);

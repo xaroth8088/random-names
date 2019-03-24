@@ -5,7 +5,7 @@ export default function armys() {
   const nm4 = ['aell', 'aen', 'aerion', 'ahir', 'ahr', 'akir', 'alim', 'apex', 'aral', 'ard', 'argon', 'arid', 'arix', 'aron', 'arun', 'ate', 'atir', 'avi', 'ax', 'axis', 'earal', 'echos', 'efral', 'elin', 'elior', 'elnach', 'elno', 'elun', 'emir', 'enmir', 'enron', 'eod', 'eodar', 'ephix', 'ercis', 'erix', 'erum', 'examp', 'exor', 'ezran', 'iad', 'iann', 'ichor', 'icor', 'ikra', 'ilam', 'ilius', 'imbar', 'imm', 'inba', 'iphis', 'iprax', 'iqor', 'iris', 'irkus', 'itox', 'iwarn', 'ixior', 'ixor', 'izar', 'obax', 'och', 'odor', 'odum', 'oirik', 'oldar', 'olim', 'olm', 'oluwa', 'om', 'ophrax', 'oqir', 'ored', 'orion', 'ortex', 'ourax', 'outor', 'ouzran', 'oxir', 'ozran', 'uard', 'uern', 'uex', 'uhr', 'ul', 'ulim', 'ulkahr', 'uln', 'ulrik', 'umanir', 'uphis', 'uqiat', 'urad', 'utir', 'utron', 'uweth', 'uxir', 'uxron', 'uyar', 'uzrak'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     if (i < 6) {
       rnd0 = Math.floor(Math.random() * nm1.length);

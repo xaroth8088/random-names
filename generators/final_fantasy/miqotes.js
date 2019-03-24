@@ -13,7 +13,7 @@ export default function miqotes() {
   const nm11 = ['\'a', '\'to', '\'li', '\'sae', '\'ra', '\'ir', '\'wo', '\'ya', '\'zi', '\'tan'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     if (type === 1) {
       if (i < 5) {

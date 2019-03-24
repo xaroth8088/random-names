@@ -8,7 +8,7 @@ export default function species() {
   const check = ['anal', 'anus', 'arse', 'ass', 'balls', 'bastard', 'biatch', 'bitch', 'bollock', 'bollok', 'boner', 'boob', 'bugger', 'bum', 'butt', 'clitoris', 'cock', 'coon', 'crap', 'cunt', 'damn', 'dick', 'dildo', 'dyke', 'fag', 'feck', 'felching', 'fellate', 'fellatio', 'flange', 'fuck', 'gay', 'goddamn', 'homo', 'jackass', 'jerk', 'jizz', 'knobend', 'labia', 'muff', 'nigga', 'nigger', 'penis', 'piss', 'poop', 'prick', 'pube', 'pussy', 'queer', 'scrotum', 'sex', 'shit', 'slut', 'smegma', 'spunk', 'tit', 'tosser', 'turd', 'twat', 'vagina', 'wank', 'whore', 'wtf'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     rnd = Math.floor(Math.random() * nm1.length);
     rnd2 = Math.floor(Math.random() * nm2.length);

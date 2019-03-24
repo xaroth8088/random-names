@@ -4,7 +4,7 @@ export default function pigs() {
   const nm2 = ['Abby', 'Amber', 'Trufflers', 'Badge', 'Beauty', 'Beebee', 'Bell', 'Bella', 'Bertha', 'Betty', 'Blush', 'Brandy', 'Brew', 'Button', 'Buttons', 'Caramel', 'Checkers', 'Chili', 'Chips', 'Coco', 'Cookie', 'Coral', 'Cotton', 'Daisy', 'Dakota', 'Dawn', 'Dee', 'Deedee', 'Dew', 'Dodger', 'Doppler', 'Dot', 'Dots', 'Dottie', 'Dove', 'Duffy', 'Dutchess', 'Frazzle', 'Frizzle', 'Fuchsia', 'Ginger', 'Gorgy', 'Grace', 'Granny', 'Gummy', 'Iggy', 'June', 'Jynx', 'Lily', 'Lola', 'Lulu', 'Maggie', 'Maple', 'Marbles', 'Mello', 'Mellow', 'Missy', 'Mittens', 'Momma', 'Muckie', 'Nibble', 'Nibbles', 'Noodle', 'Noodles', 'Nugget', 'Oinkee', 'Olive', 'Opal', 'Orbit', 'Oreo', 'Paprika', 'Peaches', 'Pepper', 'Pie', 'Pink', 'Pinky', 'Pookie', 'Popcorn', 'Poppy', 'Porkette', 'Princess', 'Prudence', 'Pudge', 'Pudgy', 'Rose', 'Roseate', 'Rosie', 'Rune', 'Salmone', 'Skye', 'Slobs', 'Sludges', 'Slushie', 'Smudge', 'Smudges', 'Snoots', 'Snuffle', 'Spot', 'Stuffles', 'Sugar', 'Thistle', 'Trixie', 'Tulip', 'Twinkie', 'Twinkle', 'Ursula', 'Wiggle', 'Waddle', 'Waddles', 'Wiggles', 'Wobble'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm2.length);

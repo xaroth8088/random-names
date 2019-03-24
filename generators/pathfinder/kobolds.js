@@ -10,7 +10,7 @@ export default function kobolds() {
   const nm8 = ['', '', '', '', '', '', '', '', '', '', '', '', '', '', '', 'h', 'k', 'l', 'n', 'm', 'r', 's'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm5.length);

@@ -18,7 +18,7 @@ export default function cathars() {
   const nm14 = ['', '', '', 'h'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     if (i < 5) {
       rn = Math.floor(Math.random() * nm10.length);

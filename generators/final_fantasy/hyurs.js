@@ -8,7 +8,7 @@ export default function hyurs() {
   const nm6 = ['Anger', 'Armstrong', 'Arrow', 'Bash', 'Basher', 'Battleaxe', 'Battleblade', 'Battlecry', 'Battlefist', 'Battlefury', 'Bearclaw', 'Bearpaw', 'Beast', 'Behemoth', 'Blacke', 'Blizzard', 'Blood', 'Bloodchaser', 'Bloodfury', 'Bloodlust', 'Bloodseeker', 'Boarsblood', 'Brawl', 'Brawn', 'Breaker', 'Bullseye', 'Burne', 'Butcher', 'Cleaver', 'Courage', 'Destroyer', 'Doome', 'Ferocity', 'Fiend', 'Fiery', 'Furor', 'Fury', 'Grande', 'Grandscream', 'Heart', 'Hellfist', 'Hellfury', 'Hornblade', 'Horne', 'Hunter', 'Ironbash', 'Ironfist', 'Ironsmash', 'Jackal', 'Lionheart', 'Lionroar', 'Longblade', 'Might', 'Mighte', 'Mightyblade', 'Nemesis', 'Piercer', 'Savage', 'Shade', 'Shadow', 'Shadowstrike', 'Sharpblade', 'Shatterfist', 'Slayer', 'Smokefist', 'Stalker', 'Stalwart', 'Steelsmash', 'Stonefist', 'Stonemaul', 'Stormcaller', 'Storme', 'Stout', 'Strength', 'Striker', 'Strong', 'Strongarm', 'Strongaxe', 'Strongblade', 'Stronge', 'Strongfist', 'Swiftaxe', 'Swiftspear', 'Swiftstrike', 'Talon', 'Thorne', 'Thunder', 'Torment', 'Trasher', 'Valor', 'Warblade', 'Warcry', 'Warfury', 'Warsong', 'Warsoul', 'Windstorm', 'Wolfe', 'Wolfshead', 'Wolfsheart', 'Wolfshowl', 'Wrath'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     if (type === 1) {
       if (i < 5) {

@@ -7,7 +7,7 @@ export default function chineses() {
   const names2 = type === 1 ? namesFemale : namesMale;
   const names1 = namesFamily;
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     rnd = Math.floor(Math.random() * names1.length);
     rnd1 = Math.floor(Math.random() * names2.length);

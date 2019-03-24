@@ -12,7 +12,7 @@ export default function apocalypse_mutants() {
     var names1 = namesMale;
   }
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     rnd = Math.floor(Math.random() * names1.length);
     names = names1[rnd];

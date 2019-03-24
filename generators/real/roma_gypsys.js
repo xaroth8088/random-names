@@ -5,7 +5,7 @@ export default function roma_gypsys() {
   const namesFemale = ['Aishe', 'Alafair', 'Alafare', 'Alamina', 'Alifair', 'Allifair', 'Araunya', 'Asena', 'Belin', 'Beti', 'Catarina', 'Charani', 'Chavali', 'Chavi', 'Cojini', 'Corauni', 'Damara', 'Dika', 'Donka', 'Dooriya', 'Dorenia', 'Drina', 'Dudee', 'Durril', 'Emanaia', 'Esma', 'Esmeralda', 'Esmerelda', 'Fawnie', 'Femi', 'Fifika', 'Florica', 'Floure', 'Gildi', 'Grauni', 'Inerique', 'Jaelle', 'Jeta', 'Jidovaika', 'Jili', 'Jofranka', 'Kali', 'Kisaiya', 'Kizzy', 'Kostana', 'Lajaria', 'Lala', 'Lalya', 'Lela', 'Lennor', 'Leondra', 'Lillai', 'Lolli', 'Luludja', 'Luminitsa', 'Lyuba', 'Maireni', 'Majaris', 'Mala', 'Malina', 'Maloney', 'Manishie', 'Marousia', 'Masilda', 'Mermeyi', 'Minditsi', 'Mirela', 'Mireli', 'Miri', 'Miselda', 'Monisha', 'Morjiana', 'Mumeli', 'Mumely', 'Nadya', 'Ocan', 'Orchili', 'Orchilo', 'Ostelinda', 'Pabay', 'Pabelin', 'Papin', 'Patia', 'Rawnie', 'Rupa', 'Ruza', 'Sanpurananzi', 'Shimza', 'Shofranka', 'Simza', 'Sinfi', 'Stanka', 'Syeira', 'Talaitha', 'Tasaria', 'Tasarla', 'Tawni', 'Tematea', 'Treju', 'Tshilaba', 'Tsura', 'Tsuritsa', 'Ucho', 'Ujaranza', 'Vadoma', 'Vai', 'Violca', 'Viollca', 'Zujenia'];
 
   const names1 = type === 1 ? namesFemale : namesMale;
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     rnd = Math.floor(Math.random() * names1.length);
     rnd1 = Math.floor(Math.random() * names2.length);

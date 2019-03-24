@@ -4,7 +4,7 @@ export default function pirate_coves() {
   const nm3 = ['Anchors', 'Auras', 'Barnacles', 'Blackbeard', 'Blood', 'Booty', 'Broken Teeth', 'Buccaneers', 'Corsairs', 'Cries', 'Crimson', 'Crocodiles', 'Crosses', 'Crow\'s Nests', 'Danger', 'Davy Jones\'', 'Dead Men', 'Dead Whales', 'Death', 'Debris', 'Demons', 'Destruction', 'Dry Rum', 'Dubloons', 'Executions', 'Freebooters', 'Gold', 'Grog', 'Gunpowder', 'Hazard', 'Hornswaggle', 'Hurricanes', 'Keelhaul', 'Killer Whales', 'Landlubbers', 'Last Words', 'Lost Treasure', 'Macaws', 'Marauders', 'Maroon', 'Mermaids', 'Monkeys', 'Monsters', 'Murder', 'Mutiny', 'Mystery', 'Nemo', 'No Return', 'No Tales', 'Old Salt', 'Parley', 'Parrots', 'Peril', 'Plunder', 'Privateers', 'Quartermasters', 'Rapiers', 'Rum', 'Rumrunners', 'Salty Sands', 'Sanguine', 'Scallywags', 'Scurvy', 'Scuttle', 'Scuttlebutt', 'Seadogs', 'Seaweed', 'Shark Fin', 'Sharks', 'Shipwrecks', 'Shivers', 'Silver', 'Skeletons', 'Skulls', 'Storms', 'Sunken Ships', 'Swashbucklers', 'Thunder', 'Timber', 'Turtles', 'Voices', 'Whispers', 'Wreckages', 'the Black Sand', 'the Black Spot', 'the Black Water', 'the Blood Moon', 'the Cyclone', 'the Dead Kraken', 'the Death Curse', 'the Devil', 'the Full Moon', 'the High Tide', 'the Jolly Roger', 'the Kraken', 'the Low Tide', 'the Monsoon', 'the Moon', 'the Occult', 'the Red Sand', 'the Red Water', 'the Scourge', 'the Sunken Fleet', 'the Tempest', 'the Tortoise', 'the Unknown', 'the Unnamed'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     if (i < 5) {
       rnd = Math.floor(Math.random() * nm1.length);

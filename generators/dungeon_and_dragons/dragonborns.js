@@ -6,7 +6,7 @@ export default function dragonborns() {
   const nm4 = ['birith', 'bis', 'bith', 'coria', 'cys', 'dalynn', 'drish', 'drith', 'faeth', 'fyire', 'gil', 'gissa', 'gwen', 'hime', 'hymm', 'karyn', 'kira', 'larys', 'liann', 'lyassa', 'meila', 'myse', 'norae', 'nys', 'patys', 'pora', 'qorel', 'qwen', 'rann', 'riel', 'rina', 'rinn', 'rish', 'rith', 'saadi', 'shann', 'sira', 'thibra', 'thyra', 'vayla', 'vyre', 'vys', 'wophyl', 'wyn', 'xiris', 'xora', 'yassa', 'yries', 'zita', 'zys'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm3.length);

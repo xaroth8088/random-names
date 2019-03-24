@@ -13,7 +13,7 @@ export default function shistavanens() {
   const nm12 = ['', 'c', 'd', 'ft', 'g', 'k', 'l', 'm', 'n', 'nn', 'p', 'q', 'r', 'rr', 't', 'v', 'vl'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     rnd7 = Math.floor(Math.random() * nm9.length);
     rnd8 = Math.floor(Math.random() * nm10.length);

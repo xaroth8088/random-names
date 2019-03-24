@@ -17,7 +17,7 @@ export default function tellarites() {
   const nm14 = ['ch', 'f', 'g', 'gh', 'gm', 'hg', 'hk', 'k', 'l', 'll', 'llv', 'm', 'n', 'nch', 'nd', 'nn', 'nsh', 'p', 'r', 'rc', 'rg', 'rn', 'rr', 'rs', 'rsh', 'rv', 's', 'sh', 'ss', 'th', 'v', 'w'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     if (type === 1) {
       if (i < 5) {

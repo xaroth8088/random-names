@@ -8,7 +8,7 @@ export default function wheel_of_times() {
   const nm6 = ['aem', 'aera', 'ag', 'agar', 'agin', 'aidhrin', 'aim', 'ain', 'alda', 'alin', 'amon', 'an', 'anche', 'and', 'aneos', 'ar', 'ara', 'arin', 'athor', 'aw', 'ear', 'ed', 'elle', 'enne', 'eos', 'era', 'eran', 'ere', 'eron', 'evron', 'iar', 'iaw', 'iaya', 'ilin', 'in', 'inas', 'ind', 'ineos', 'ira', 'iros', 'odred', 'ogan', 'oihan', 'olin', 'olrin', 'on', 'onche', 'onne', 'or', 'oron', 'yan', 'yl', 'ynar', 'yne', 'yr', 'yrag', 'yran', 'yron', 'yros', 'ys'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm3.length);

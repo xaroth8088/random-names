@@ -10,7 +10,7 @@ function generator$inheritance_cycle$dwarfs(type) {﻿
   const nm8 = ['', '', '', '', '', 'n', 'nn', 's'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm5.length);

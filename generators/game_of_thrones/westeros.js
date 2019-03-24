@@ -12,7 +12,7 @@ export default function westeros() {
     var namesFirst = names2;
   }
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     if (i < 5) {
       rnd = Math.floor(Math.random() * namesFirst.length);

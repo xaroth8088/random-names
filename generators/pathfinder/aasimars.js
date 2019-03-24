@@ -14,7 +14,7 @@ export default function aasimars() {
   const nm12 = ['', '', '', 'l', 'm', 'n', 'r'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     rnd10 = Math.floor(Math.random() * nm9.length);
     rnd11 = Math.floor(Math.random() * nm10.length);

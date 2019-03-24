@@ -3,7 +3,7 @@ export default function fantasy_towns() {
   const nm2 = ['acre', 'band', 'barrow', 'bay', 'bell', 'born', 'borough', 'bourne', 'breach', 'break', 'brook', 'burgh', 'burn', 'bury', 'cairn', 'call', 'chill', 'cliff', 'coast', 'crest', 'cross', 'dale', 'denn', 'drift', 'fair', 'fall', 'falls', 'fell', 'field', 'ford', 'forest', 'fort', 'front', 'frost', 'garde', 'gate', 'glen', 'grasp', 'grave', 'grove', 'guard', 'gulch', 'gulf', 'hall', 'hallow', 'ham', 'hand', 'harbor', 'haven', 'helm', 'hill', 'hold', 'holde', 'hollow', 'horn', 'host', 'keep', 'land', 'light', 'maw', 'meadow', 'mere', 'mire', 'mond', 'moor', 'more', 'mount', 'mouth', 'pass', 'peak', 'point', 'pond', 'port', 'post', 'reach', 'rest', 'rock', 'run', 'scar', 'shade', 'shear', 'shell', 'shield', 'shore', 'shire', 'side', 'spell', 'spire', 'stall', 'wich', 'minster', 'star', 'storm', 'strand', 'summit', 'tide', 'town', 'vale', 'valley', 'vault', 'vein', 'view', 'ville', 'wall', 'wallow', 'ward', 'watch', 'water', 'well', 'wharf', 'wick', 'wind', 'wood', 'yard'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     rnd = Math.floor(Math.random() * nm1.length);
     rnd2 = Math.floor(Math.random() * nm2.length);

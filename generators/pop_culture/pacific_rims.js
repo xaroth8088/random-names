@@ -7,7 +7,7 @@ export default function pacific_rims() {
   const nm5 = ['Ache', 'Aggressor', 'Agitator', 'Assaulter', 'Austerity', 'Battler', 'Beast', 'Brawler', 'Bruiser', 'Brute', 'Bulldozer', 'Bully', 'Calamity', 'Cataclysm', 'Contender', 'Curse', 'Defiler', 'Deserter', 'Disrupter', 'Dissenter', 'Distress', 'Doom', 'Downfall', 'Encroacher', 'Fiend', 'Gloom', 'Grief', 'Grievance', 'Hardship', 'Harrier', 'Hazard', 'Headache', 'Hellion', 'Infringer', 'Injury', 'Insurrector', 'Intimidator', 'Intruder', 'Invader', 'Jeopardy', 'Misery', 'Neglector', 'Objector', 'Opposer', 'Oppressor', 'Peril', 'Radical', 'Raider', 'Rascal', 'Rebel', 'Reckoner', 'Resister', 'Revolter', 'Rigor', 'Rioter', 'Ruffian', 'Ruin', 'Savage', 'Scourge', 'Scrapper', 'Shirker', 'Slugger', 'Sorrow', 'Squalor', 'Stitch', 'Striker', 'Suffering', 'Tanker', 'Torment', 'Tormenter', 'Torture', 'Transgressor', 'Trespasser', 'Tribulation', 'Violator', 'Woe', 'Wreck', 'Wreckage', 'Wrecker'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm1.length);

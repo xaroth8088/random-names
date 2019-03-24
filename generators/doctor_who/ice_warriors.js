@@ -6,7 +6,7 @@ export default function ice_warriors() {
   const nm5 = ['a', '', '', '', '', '', ''];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     if (i < 5) {
       rnd = Math.floor(Math.random() * nm5.length);

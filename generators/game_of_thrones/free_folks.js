@@ -11,7 +11,7 @@ export default function free_folks() {
   const names8 = ['dill', 'dir', 'dol', 'gard', 'geir', 'gir', 'gni', 'gr', 'grim', 'gvar', 'kmar', 'kul', 'laf', 'lner', 'mir', 'mun', 'mund', 'myr', 'narr', 'nir', 'rald', 'rand', 'regg', 'rigg', 'rik', 'rne', 'rnir', 'rolf', 'rrand', 'val'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     if (i < 5) {
       if (type === 1) {

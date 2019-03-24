@@ -6,7 +6,7 @@ export default function asaris() {
   const nm5 = ['ala', 'ana', 'ara', 'ari', 'ava', 'buro', 'ci', 'do', 'dri', 'eri', 'fi', 'ios', 'is', 'ius', 'ix', 'jah', 'jin', 'la', 'las', 'li', 'lis', 'lyt', 'mi', 'na', 'ni', 'nis', 'nus', 'or', 'ora', 'os', 'qua', 'ra', 'ran', 're', 'rev', 'ri', 'ria', 'ris', 'rix', 'ro', 'ros', 'rus', 'san', 'sava', 'se', 'shi', 'si', 'sir', 'sus', 'tari', 'te', 'tis', 'to', 'tora', 'us', 'va', 've', 'vius', 'vo', 'vus', 'yma', 'yne', 'za', 'ze', 'zea', 'zor'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     rnd = Math.floor(Math.random() * nm1.length);
     rnd1 = Math.floor(Math.random() * nm2.length);

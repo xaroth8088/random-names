@@ -4,7 +4,7 @@ export default function remans() {
   const nm2 = ['clado', 'clek', 'crek', 'crix', 'kad', 'karix', 'kir', 'kirud', 'kix', 'krax', 'krikuk', 'kruvek', 'kuk', 'marik', 'mek', 'mix', 'mosik', 'muk', 'narix', 'natek', 'nuk', 'nuvik', 'nux', 'rad', 'rarix', 'rix', 'ruk', 'ruvix', 'sarix', 'sek', 'sik', 'srix', 'stuk', 'tek', 'tix', 'trik', 'tuk', 'turik', 'vek', 'vik', 'vrex', 'vurik', 'vux'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     rnd = Math.floor(Math.random() * nm1.length);
     rnd2 = Math.floor(Math.random() * nm2.length);

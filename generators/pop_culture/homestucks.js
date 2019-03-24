@@ -8,7 +8,7 @@ export default function homestucks() {
   const nm6 = ['h', 'k', 'm', 'n', 'r', 's', 't', 'x', 'z'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     if (i % 2 === 0) {
       rnd = Math.floor(Math.random() * nm0.length);

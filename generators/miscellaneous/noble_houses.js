@@ -11,7 +11,7 @@ export default function noble_houses() {
   const names8 = ['bard', 'beard', 'borne', 'bow', 'breed', 'bride', 'burn', 'colt', 'comb', 'dall', 'end', 'field', 'ford', 'gard', 'guard', 'hall', 'ham', 'head', 'hill', 'kind', 'land', 'ledge', 'less', 'ling', 'low', 'maker', 'man', 'mann', 'mere', 'mond', 'more', 'mour', 'port', 'rich', 'riddle', 'ridge', 'send', 'smith', 'son', 'star', 'stein', 'ster', 'strong', 'tomb', 'ton', 'tree', 'ward', 'water', 'way', 'well', 'win', 'wood'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     if (i < 3) {
       rnd = Math.floor(Math.random() * names1.length);

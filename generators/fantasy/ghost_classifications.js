@@ -4,7 +4,7 @@ export default function ghost_classifications() {
   const nm3 = ['Apparition', 'Appearance', 'Banshee', 'Behemoth', 'Boogieman', 'Daemon', 'Demon', 'Devil', 'Duplicate', 'Entity', 'Ethereal', 'Ghost', 'Glob', 'Haunt', 'Metamorph', 'Mutation', 'Phantasm', 'Phantom', 'Poltergeist', 'Revenant', 'Shade', 'Shadow', 'Shifter', 'Specter', 'Spirit', 'Spook', 'Tempus', 'Vision', 'Visitor', 'Wraith'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     rnd = Math.floor(Math.random() * nm1.length);
     rnd2 = Math.floor(Math.random() * nm2.length);

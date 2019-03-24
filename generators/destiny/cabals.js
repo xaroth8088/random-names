@@ -7,7 +7,7 @@ export default function cabals() {
   const nm5 = ['c', 'd', 'k', 'l', 'lk', 'll', 'm', 'n', 'rc', 'rd', 'rg', 'rk', 'rn'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     rnd = Math.floor(Math.random() * nm1.length);
     if (i < 5) {

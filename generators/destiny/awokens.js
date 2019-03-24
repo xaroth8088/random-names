@@ -14,7 +14,7 @@ export default function awokens() {
   const nm12 = ['hl', 'hn', 'j', 'l', 'm', 'n', 'nj', 's', 'sh', 'v'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     rndA = Math.floor(Math.random() * nm9.length);
     rndB = Math.floor(Math.random() * nm10.length);

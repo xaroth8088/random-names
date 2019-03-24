@@ -3,7 +3,7 @@ export default function lands() {
   const nm2 = ['Badlands', 'Barrens', 'Borderlands', 'Desert', 'Expanse', 'Fields', 'Grasslands', 'Hinterland', 'Prairie', 'Savanna', 'Steppes', 'Tundra', 'Wasteland', 'Wastes', 'Wilderness', 'Wilds', 'Emptyness', 'Frontier', 'Flatlands'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     rnd = Math.floor(Math.random() * nm1.length);
     rnd2 = Math.floor(Math.random() * nm2.length);

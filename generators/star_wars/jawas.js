@@ -12,7 +12,7 @@ export default function jawas() {
   const nm12 = ['', '', '', '', '', 'c', 'd', 'hs', 'k', 'kt', 'kth', 'l', 'm', 'n', 'r', 's', 'y', 'z'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     rnd7 = Math.floor(Math.random() * nm9.length);
     rnd8 = Math.floor(Math.random() * nm2.length);

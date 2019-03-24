@@ -6,7 +6,7 @@ export default function gangs() {
   const nm5 = ['abandoned', 'anarchists', 'anonymous', 'chargers', 'damnation', 'day walkers', 'dead eyes', 'destroyers', 'disciples', 'doom bringers', 'dreamers', 'liberated', 'liberation front', 'empty eyes', 'eternals', 'faceless ones', 'fallen angels', 'forsaken', 'grim reapers', 'hopeless', 'hopeless ones', 'hunters', 'idealists', 'immortals', 'invincibles', 'invisibles', 'kings', 'life takers', 'loners', 'men of limbo', 'men of the night', 'women of limbo', 'women of the night', 'mob', 'nameless', 'night stalkers', 'poison ivies', 'purgatory', 'ravagers', 'risen demons', 'salvation', 'shadows', 'silence', 'silent death', 'silent footsteps', 'soul stealers', 'soulless ones', 'united front', 'unseen', 'untamed', 'voiceless ones', 'void', 'whisperers', 'wild ones', 'wildlings'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     if (i < 4) {
       rnd0 = Math.floor(Math.random() * nm1.length);

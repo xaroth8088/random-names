@@ -16,7 +16,7 @@ export default function halflings() {
   const nm14 = ['arm', 'beam', 'bend', 'blaze', 'bloom', 'blossom', 'bough', 'brace', 'branch', 'brand', 'breath', 'breeze', 'brook', 'brow', 'cloud', 'coin', 'creek', 'crest', 'dew', 'down', 'draft', 'dream', 'fall', 'flaw', 'flow', 'flower', 'force', 'gaze', 'gazer', 'gem', 'glade', 'gleam', 'glide', 'glow', 'grain', 'grip', 'guard', 'hair', 'hand', 'heart', 'helm', 'horn', 'keep', 'leaf', 'less', 'light', 'more', 'orb', 'peak', 'ridge', 'root', 'run', 'shine', 'shot', 'soar', 'song', 'spark', 'stream', 'stride', 'sun', 'surge', 'sword', 'sworn', 'thorn', 'tide', 'track', 'vale', 'valor', 'ward', 'water', 'whirl', 'wing', 'with', 'worth'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     rnd10 = Math.floor(Math.random() * nm9.length);
     rnd11 = Math.floor(Math.random() * nm10.length);

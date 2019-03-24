@@ -9,7 +9,7 @@ export default function fire_lands() {
   const nm8 = ['Badlands', 'Barrens', 'Desert', 'Domain', 'Dominion', 'Expanse', 'Field', 'Fields', 'Land', 'Lands', 'Plains', 'Range', 'Terrain', 'Territory', 'Wastes', 'Wilderness', 'Wilds', 'Fireland', 'Firelands', 'Fire Fields', 'Flamelands', 'Flame Fields', 'Ashlands', 'Ash Fields', 'Emberlands', 'Ember Lands'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     if (i < 5) {
       rnd = Math.floor(Math.random() * nm1.length);

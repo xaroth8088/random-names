@@ -8,7 +8,7 @@ export default function citys() {
   const names7 = ['bert', 'bridge', 'burg', 'burgh', 'burn', 'bury', 'bus', 'by', 'caster', 'cester', 'chester', 'dale', 'dence', 'diff', 'ding', 'don', 'fast', 'field', 'ford', 'gan', 'gas', 'gate', 'gend', 'ginia', 'gow', 'ham', 'hull', 'land', 'las', 'ledo', 'lens', 'ling', 'mery', 'mond', 'mont', 'more', 'mouth', 'nard', 'phia', 'phis', 'polis', 'pool', 'port', 'pus', 'ridge', 'rith', 'ron', 'rora', 'ross', 'rough', 'sa', 'sall', 'sas', 'sea', 'set', 'sey', 'shire', 'son', 'stead', 'stin', 'ta', 'tin', 'tol', 'ton', 'vale', 'ver', 'ville', 'vine', 'ving', 'well', 'wood'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     if (i < 3) {
       rnd0 = Math.floor(Math.random() * names1.length);

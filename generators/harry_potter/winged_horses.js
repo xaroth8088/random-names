@@ -5,7 +5,7 @@ export default function winged_horses() {
   const nm3 = ['ban', 'bian', 'bral', 'can', 'cian', 'ddan', 'dial', 'dian', 'din', 'hal', 'han', 'hian', 'lan', 'lian', 'lin', 'llan', 'man', 'mian', 'min', 'mman', 'nan', 'nial', 'nian', 'nnal', 'nnan', 'phal', 'phian', 'phion', 'ppan', 'ral', 'ran', 'rian', 'rin', 'rran', 'sal', 'san', 'sin', 'ssin', 'stral', 'tan', 'thian', 'tian', 'tin', 'tral', 'xal', 'xan', 'xian', 'xxin'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     rnd = Math.floor(Math.random() * nm1.length);
     rnd2 = Math.floor(Math.random() * nm2.length);

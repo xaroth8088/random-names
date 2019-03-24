@@ -14,7 +14,7 @@ export default function tengus() {
   const nm12 = ['', '', 'ck', 'k', 'l', 'n', 'r', 't'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     rnd8 = Math.floor(Math.random() * nm9.length);
     rnd9 = Math.floor(Math.random() * nm10.length);

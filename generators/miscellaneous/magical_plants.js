@@ -9,7 +9,7 @@ export default function magical_plants() {
   const nm8 = ['ac', 'ade', 'age', 'aire', 'aisy', 'alda', 'amire', 'ane', 'anium', 'anor', 'ard', 'ary', 'asse', 'ax', 'ead', 'eaf', 'ebore', 'edil', 'eed', 'eek', 'eet', 'egon', 'el', 'elas', 'elda', 'ender', 'equin', 'erry', 'ess', 'et', 'etta', 'ettle', 'etty', 'ianna', 'ie', 'ier', 'ies', 'ina', 'ine', 'inque', 'ip', 'iper', 'ire', 'irin', 'iscus', 'ite', 'ium', 'oil', 'ole', 'olla', 'on', 'onna', 'ons', 'oo', 'ood', 'oom', 'oot', 'ore', 'orn', 'ort', 'os', 'osie', 'oss', 'osse', 'otus', 'ove', 'over', 'ow', 'ower', 'uin', 'um', 'us', 'ush'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     if (i < 5) {
       rnd = Math.floor(Math.random() * nm1.length);

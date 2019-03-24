@@ -14,7 +14,7 @@ export default function ortolans() {
   const nm12 = ['', '', '', '', 'd', 'g', 'k', 'l', 'm', 'n', 'q', 'r', 's', 'x'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     rnd7 = Math.floor(Math.random() * nm9.length);
     rnd8 = Math.floor(Math.random() * nm10.length);

@@ -14,7 +14,7 @@ export default function orions() {
   const nm11 = ['hn', 'l', 'll', 'n', 'nn', 's', 'ss', 'sh', 'v'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     if (type === 1) {
       if (i < 5) {

@@ -9,7 +9,7 @@ export default function wildstar_chuas() {
   const nm7 = ['', '', '', '', '', '', '', 'c', 'f', 'h', 'l', 'll', 'm', 'ms', 'n', 'ns', 'nn', 'r', 'rr', 's', 'ss', 'sh', 't', 'th', 'x', 'zz'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     rnd = Math.floor(Math.random() * nm5.length);
     rnd2 = Math.floor(Math.random() * nm6.length);

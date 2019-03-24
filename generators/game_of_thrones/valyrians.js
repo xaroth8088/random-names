@@ -8,7 +8,7 @@ export default function valyrians() {
   const names6 = ['aellis', 'aelor', 'aenor', 'aeris', 'aleos', 'anyon', 'areon', 'daerys', 'eneos', 'ennis', 'eris', 'gaeron', 'garis', 'gyreon', 'iar', 'inarys', 'itheos', 'laeris', 'laeron', 'larys', 'maereon', 'naeros', 'nalys', 'nareon', 'naris', 'raenos', 'ralis', 'reos', 'talor', 'talos', 'taris', 'theon', 'theos', 'tigar', 'yreos'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     if (type === 1) {
       rnd = Math.floor(Math.random() * names3.length);

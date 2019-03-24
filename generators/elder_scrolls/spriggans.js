@@ -5,7 +5,7 @@ export default function spriggans() {
   const names4 = ['bite', 'blood', 'bloom', 'blossom', 'branch', 'breath', 'breeze', 'briar', 'bush', 'claw', 'clove', 'clover', 'crown', 'curl', 'dance', 'dash', 'dew', 'drop', 'dust', 'fang', 'fist', 'flame', 'flash', 'flesh', 'flower', 'fog', 'foot', 'forest', 'fruit', 'gazer', 'glade', 'grace', 'grass', 'grove', 'gust', 'heart', 'herb', 'hollow', 'ivy', 'lash', 'leaf', 'light', 'lily', 'maul', 'meadow', 'mire', 'mist', 'moon', 'muse', 'newt', 'oak', 'petal', 'ripper', 'ripple', 'root', 'rose', 'sage', 'shadow', 'shard', 'shine', 'song', 'spell', 'spirit', 'spray', 'sprite', 'sprout', 'star', 'stem', 'storm', 'strider', 'swirl', 'thistle', 'thorn', 'tree', 'twig', 'twist', 'vine', 'wax', 'web', 'whirl', 'whisper', 'willow', 'wind', 'wish', 'wood', 'woods'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     rnd0 = Math.floor(Math.random() * names1.length);
     rnd1 = Math.floor(Math.random() * names2.length);

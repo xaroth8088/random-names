@@ -6,7 +6,7 @@ export default function deaths() {
   const nm5 = ['', '', '', '', '', '', '', '', '', '', '', '', 'c', 'cs', 'c', 'd', 'd', 'h', 'h', 'k', 'k', 'ks', 'l', 'ls', 'l', 'n', 'n', 'ng', 'nth', 'q', 'q', 'r', 'r', 'rs', 's', 's', 't', 't', 'th', 'v', 'x'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     rnd = Math.floor(Math.random() * nm1.length);
     rnd2 = Math.floor(Math.random() * nm2.length);

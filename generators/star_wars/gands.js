@@ -8,7 +8,7 @@ export default function gands() {
   const nm7 = ['', '', '', '', '', '', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'y', 'aa', 'oo', 'uu', 'ee', 'ay', 'ai', 'ey', 'ya', 'yu', 'yi'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     rnd6 = Math.floor(Math.random() * nm5.length);
     rnd7 = Math.floor(Math.random() * nm2.length);

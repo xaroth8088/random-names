@@ -6,7 +6,7 @@ export default function stars() {
   const nm5 = ['', '', '', '', '', '', '', '', '', '', '', '', '', 'b', 'c', 'd', 'f', 'g', 'h', 'k', 'l', 'm', 'n', 'p', 'r', 's', 't', 'x', 'y', 'b', 'c', 'd', 'f', 'g', 'h', 'k', 'l', 'm', 'n', 'p', 'r', 's', 't', 'x', 'y', 'cs', 'ks', 'ls', 'ms', 'ns', 'ps', 'rs', 'ts', 'ys', 'ct', 'ft', 'kt', 'lt', 'nt', 'ph', 'sh', 'th'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     if (i < 5) {
       rnd = Math.floor(Math.random() * nm1.length);

@@ -35,7 +35,7 @@ export default function newspapers() {
   const nm2 = ['Account', 'Alliance', 'Apex', 'Aurora', 'Beacon', 'Breakfast', 'Bulletin', 'Business', 'Capital', 'Capitol', 'Carpe Diem', 'Chronicle', 'Chronicles', 'Citizen', 'Community', 'Connection', 'Courier', 'Day Break', 'Diem', 'Dispatch', 'Echo', 'Emerald', 'Emporium', 'Enquirer', 'Enterprise', 'Epoch', 'Era', 'Estate', 'Evening', 'Explorer', 'Express', 'Eyewitness', 'Gazette', 'Global', 'Globe', 'Headline', 'Herald', 'Heritage', 'Home', 'Independent', 'Inside', 'Insider', 'Journal', 'Leader', 'Ledger', 'Legacy', 'Liberty', 'Life', 'Local', 'Local Voice', 'Lodestar', 'Look', 'Look Back', 'Mail', 'Metropolitan', 'Morn', 'Morning Star', 'Morning Watch', 'Morningtide', 'Morrow', 'Narrative', 'National', 'Network', 'News', 'Nova', 'Observer', 'Outlook', 'Paragon', 'Patriot', 'Patron', 'Pinnacle', 'Pioneer', 'Prime', 'Record', 'Register', 'Relay', 'Report', 'Reporter', 'Review', 'Sentinel', 'Society', 'Standard', 'Star', 'Sun', 'Telegram', 'Telegraph', 'Time', 'Times', 'Tribune', 'Union', 'Unity', 'Vista', 'Witness', 'World', 'Zenith'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     if (i < 6) {
       rnd = Math.floor(Math.random() * nm1.length);

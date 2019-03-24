@@ -9,7 +9,7 @@ export default function poisons() {
   const nm3 = ['Abra', 'Ache', 'Allure', 'Alpha', 'Appetite', 'Arachnid', 'Ash', 'Asphyx', 'Ataxia', 'Axiom', 'Bane', 'Banshee', 'Basilisk', 'Beta', 'Bilge', 'Billow', 'Bloat', 'Brimstone', 'Burnout', 'Catalyst', 'Chaos', 'Cinder', 'Coax', 'Craze', 'Crucifix', 'Daemon', 'Debris', 'Decoy', 'Desire', 'Dew', 'Djinn', 'Dolor', 'Dupe', 'Eclipse', 'Empathy', 'Entropy', 'Enzyme', 'Fiend', 'Finis', 'Frenzy', 'Garrotte', 'Ghost', 'Goad', 'Greed', 'Grief', 'Gunk', 'Gyre', 'Harrow', 'Heartache', 'Hellion', 'Hound', 'Imp', 'Impetus', 'Impulse', 'Incentive', 'Inferno', 'Itch', 'Jester', 'Jinx', 'Knave', 'Knockout', 'Limbo', 'Malady', 'Manes', 'Mangle', 'Mania', 'Martyr', 'Medusa', 'Mire', 'Misery', 'Muffle', 'Musk', 'Muze', 'Nag', 'Necro', 'Nightmare', 'Pandemonium', 'Pest', 'Phantom', 'Pixie', 'Purgatory', 'Quelch', 'Rapture', 'Relish', 'Residue', 'Revelation', 'Revenant', 'Rogue', 'Rune', 'Scapegoat', 'Scorch', 'Serpent', 'Shush', 'Silence', 'Silt', 'Slag', 'Sludge', 'Smite', 'Smother', 'Smudge', 'Sprite', 'Spur', 'Stitch', 'Stranger', 'Strangle', 'Symbiote', 'Tease', 'Terra', 'Throe', 'Throttle', 'Tickle', 'Toll', 'Torment', 'Tremble', 'Truth', 'Twilight', 'Twinge', 'Vision', 'Voodoo', 'Vortex', 'Wish', 'Wraith', 'Wyvern'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     if (i < 2) {
       rnd = Math.floor(Math.random() * nm1.length);

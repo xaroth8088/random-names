@@ -4,7 +4,7 @@ export default function fantasy_races() {
   const nm2 = ['Angels', 'Beasts', 'Boggart', 'Centaurs', 'Demons', 'Dragonborn', 'Dryads', 'Dwarves', 'Elementals', 'Elves', 'Ents', 'Fairies', 'Faun', 'Fiends', 'Folk', 'Giants', 'Gnolls', 'Gnomes', 'Goblins', 'Golems', 'Goliaths', 'Gorgons', 'Gremlins', 'Hagravens', 'Hags', 'Halflings', 'Harpies', 'Hobbits', 'Hobgoblins', 'Humans', 'Imps', 'Kobolds', 'Lamia', 'Men', 'Merfolk', 'Minotaurs', 'Naga', 'Nymphs', 'Oceanids', 'Ogres', 'Lich', 'Gargoyles', 'Grendels', 'Draugr', 'Kappa', 'Oni', 'Wendigo', 'Drake', 'Dragonborn', 'Ghouls', 'Grell', 'Hydra', 'Trogg', 'Orcs', 'People', 'Satyr', 'Siren', 'Spriggan', 'Sylphs', 'Trolls', 'Undine', 'Valkyrie', 'Vampires', 'Werewolves', 'Women'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     rnd = Math.floor(Math.random() * nm1.length);
     rnd2 = Math.floor(Math.random() * nm2.length);

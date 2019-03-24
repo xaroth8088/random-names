@@ -8,7 +8,7 @@ export default function shapeshifters() {
     var names1 = ['Akin', 'Angel', 'Ape', 'Art (Artificial)', 'Aspect', 'Blend', 'Born', 'Carbon', 'Cipher', 'Clone', 'Copy', 'Counterpart', 'Daydream', 'Design', 'Ditto', 'Doppelganger', 'Dream', 'Dupe', 'Duplicate', 'Dust', 'Echo', 'Effigy', 'Entity', 'Etch', 'Fable', 'Face', 'Feign', 'Fester (Manifester)', 'Figment', 'Flow', 'Flux', 'Form', 'Fuse', 'Ghost', 'Guise', 'Guy (Guise)', 'Husk', 'Hybrid', 'Iden (Identical)', 'Imitation', 'Lance (Equivalence)', 'Light', 'Lou (Illusion/Hallucination)', 'Maestro', 'Mani (Manifest)', 'Match', 'Melion', 'Merge', 'Mick (Mimic)', 'Mime', 'Mingle', 'Mint', 'Mirage', 'Mirror', 'Mix', 'Mold', 'Morpheus (Morph)', 'Nemo', 'Nil', 'Niq (Unique)', 'Nix', 'Oddity', 'Paradox', 'Parallel', 'Parody', 'Parrot', 'Pat (Pattern)', 'Pete (Repeat)', 'Peter (Repeater)', 'Phantom', 'Phase', 'Phony', 'Pseudo', 'Range', 'Rascal', 'Reflection', 'Repeat', 'Replica', 'Ringer', 'Rogue', 'Romulus', 'Ruse', 'Sam (Semblance)', 'Same', 'Scar', 'Scribble', 'Shade', 'Shadow', 'Sham', 'Shape', 'Sim (Simulate)', 'Sketch', 'Skin', 'Snow', 'Specter', 'Sting', 'Stretch', 'Suit', 'Switch', 'Syn (Synthesize)', 'Tailor', 'Trace', 'Tracer', 'Turner', 'Twin', 'Valence (Equivalence)', 'Vice', 'Vice (Improvise)', 'Vista', 'Whisper', 'X (Exchange)', 'Zero', 'Zip', 'Zot'];
   }
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     rnd = Math.floor(Math.random() * names1.length);
     names = names1[rnd];

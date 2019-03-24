@@ -16,7 +16,7 @@ export default function kobolds() {
   const nm14 = ['', '', '', '', '', 'h', 'l', 'm', 'n', 'ng', 'r', 's', 'sz', 'x', 'z'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     rnd = Math.floor(Math.random() * nm9.length);
     rnd2 = Math.floor(Math.random() * nm10.length);

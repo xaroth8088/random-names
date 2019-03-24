@@ -5,7 +5,7 @@ export default function slaves() {
   const nm3 = ['Abnormality', 'Ache', 'Anomaly', 'Ant', 'Barbarian', 'Bastard', 'Beast', 'Beetle', 'Boar', 'Boor', 'Boy', 'Brute', 'Buffoon', 'Bug', 'Bum', 'Corruption', 'Crawler', 'Creep', 'Creeper', 'Cretin', 'Cricket', 'Crud', 'Crude', 'Curse', 'Demon', 'Deviant', 'Dog', 'Dunce', 'Dweller', 'Fiend', 'Flaw', 'Flea', 'Floom', 'Fly', 'Fool', 'Freak', 'Frog', 'Girl', 'Gnat', 'Gnome', 'Goblin', 'Gremlin', 'Halfwit', 'Hybrid', 'Imp', 'Ingrate', 'Insect', 'Kobold', 'Larva', 'Leech', 'Lewd', 'Louse', 'Lowlife', 'Maggot', 'Mistake', 'Mite', 'Mole', 'Mongrel', 'Monster', 'Moth', 'Mouse', 'Mug', 'Mule', 'Mutt', 'Nit', 'Oaf', 'Ogre', 'Parasite', 'Peon', 'Pervert', 'Pest', 'Pig', 'Prawn', 'Rat', 'Roach', 'Rodent', 'Runt', 'Savage', 'Scamp', 'Scrub', 'Scum', 'Shrimp', 'Skunk', 'Sleaze', 'Slime', 'Slug', 'Smut', 'Snail', 'Snake', 'Snot', 'Spider', 'Termite', 'Tick', 'Toad', 'Trash', 'Troll', 'Twerp', 'Vermin', 'Weasel', 'Weevil', 'Whelp', 'Worm'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     if (i < 5) {
       rnd = Math.floor(Math.random() * nm1.length);

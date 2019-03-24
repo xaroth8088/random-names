@@ -8,7 +8,7 @@ export default function bulgarians() {
   const nm6 = ['Pironeva', 'Zhivkova', 'Ivanova', 'Vitanova', 'Adamova', 'Hadjieva', 'Manoleva', 'Dimitrova', 'Zaikova', 'Borisova', 'Boicheva', 'Cherganska', 'Bliznakova', 'Maneva', 'Manevska', 'Balkanska', 'Tsvetanova', 'Buneva', 'Deliivanova', 'Karapetrova', 'Kostova', 'Petrovaa', 'Hadjiivanova', 'Tsvetkova', 'Tincheva', 'Adamova', 'Sotirova', 'Yaneva', 'Glavcheva', 'Ileva', 'Nakova', 'Savova', 'Pramatarova', 'Kochanova', 'Spasova', 'Alexova', 'Alexandrova', 'Todorova', 'Pingova', 'Atanasova', 'Avramova', 'Antonova', 'Bacheva', 'Boteva', 'Bakalova', 'Blagoeva', 'Bacheva', 'Borisova', 'Bukhalova', 'Cristova', 'Dacheva', 'Dimitrova', 'Dobreva', 'Dineva', 'Filipova', 'Ganeva', 'Georgieva', 'Gavrilova', 'Hristova', 'Ivankova', 'Ivanova', 'Ilieva', 'Karavelova', 'Kirilova', 'Kishisheva', 'Kostova', 'Kyneva', 'Lukanova', 'Mihailova', 'Mladenova', 'Nankova', 'Nikolova', 'Petkova', 'Petrova', 'Popova', 'Paskaleva', 'Pencheva', 'Romanova', 'Rysinova', 'Radulova', 'Ruseva', 'Stoeva', 'Strashilova', 'Svetkova', 'Todorova', 'Toncheva', 'Tsankova', 'Taneva', 'Valcheva', 'Veneva', 'Vrancheva', 'Valerieva', 'Valova', 'Vankova', 'Varbanova', 'Vaseva', 'Vasileva', 'Velichkova', 'Velikova', 'Yankova', 'Zheleva', 'Zhelyaskova'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm4.length);

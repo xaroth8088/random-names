@@ -6,7 +6,7 @@ export default function graffiti_tags() {
   const nm5 = ['b', 'c', 'd', 'f', 'g', 'h', 'j', 'k', 'l', 'm', 'n', 'p', 'q', 'r', 's', 't', 'v', 'w', 'x', 'y', 'z', 'b', 'bl', 'c', 'ch', 'ct', 'd', 'dd', 'dr', 'dz', 'f', 'ff', 'fs', 'g', 'gg', 'gh', 'ght', 'gs', 'gz', 'hn', 'j', 'k', 'kk', 'kr', 'ks', 'kt', 'kz', 'lb', 'ld', 'll', 'lr', 'ls', 'lt', 'lz', 'm', 'ml', 'mm', 'mms', 'mn', 'mr', 'ms', 'mz', 'n', 'nd', 'ndr', 'ng', 'nk', 'nr', 'ns', 'nt', 'nz', 'nzy', 'p', 'pd', 'ph', 'pr', 'ps', 'q', 'qq', 'r', 'rb', 'rd', 'rf', 'rk', 'rm', 'rn', 'rs', 'rsh', 'rt', 'rts', 'rtz', 'rz', 's', 'sh', 'sk', 'sp', 'sr', 'ss', 'st', 'str', 't', 'tch', 'th', 'tr', 'ts', 'tt', 'tz', 'v', 'vs', 'vz', 'w', 'x', 'xc', 'xs', 'xx', 'xz', 'y', 'z', 'zl', 'zn', 'zr', 'zz'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     if (i < 5) {
       rnd = Math.floor(Math.random() * nm1.length);

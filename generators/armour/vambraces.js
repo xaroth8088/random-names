@@ -15,7 +15,7 @@ export default function vambraces() {
     names5 = ['Bracers', 'Wristguards', 'Armbands', 'Vambraces', 'Armguards'];
   }
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     if (i < 2) {
       rnd = Math.floor(Math.random() * names1.length);

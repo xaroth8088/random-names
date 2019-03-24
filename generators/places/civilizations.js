@@ -8,7 +8,7 @@ export default function civilizations() {
   const nm7 = ['', '', '', '', '', '', '', '', 'c', 'g', 'h', 'k', 'l', 'll', 'm', 'n', 'nd', 'q', 'r', 's', 'sh', 't', 'th', 'x'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     rnd = Math.floor(Math.random() * nm1.length);
     if (i < 3) {

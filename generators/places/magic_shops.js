@@ -4,7 +4,7 @@ export default function magic_shops() {
   const nm3 = ['Amulet', 'Angel', 'Artifact', 'Banshee', 'Basilisk', 'Beacon', 'Bigfoot', 'Blade', 'Book', 'Boots', 'Branch', 'Bunyip', 'Cauldron', 'Centaur', 'Cerberus', 'Chimera', 'Chupacabra', 'Cloak', 'Cockatrice', 'Codex', 'Crown', 'Cupid', 'Cyclops', 'Demon', 'Dragon', 'Draugr', 'Dryad', 'Dwarf', 'Elemental', 'Elf', 'Ent', 'Fairy', 'Faun', 'Feathered Serpent', 'Focus', 'Gargoyle', 'Gauntlet', 'Genie', 'Ghost', 'Giant', 'Gnome', 'Gorgon (Medussa)', 'Gremlin', 'Griffin', 'Grim Reaper', 'Hag', 'Harpy', 'Hellhound', 'Hippocampus', 'Hippogriff', 'Hobbit', 'Hobgoblin', 'Hourglass', 'Human', 'Hydra', 'Imp', 'Incubus/Succubus', 'Jackalope', 'Key', 'Kobold', 'Kraken', 'Leprechaun', 'Lich', 'Lute', 'Manticore', 'Marker', 'Mermaid', 'Minotaur', 'Mummy', 'Naga', 'Nymph', 'Ogre', 'Orb', 'Pegasus', 'Phoenix', 'Pixie', 'Poltergeist', 'Quill', 'Ring', 'Robe', 'Roc', 'Rune', 'Sandman', 'Sasquatch', 'Satyr', 'Scepter', 'Scroll', 'Seal', 'Shapeshifter', 'Shield', 'Siren', 'Skeleton', 'Skull', 'Sphere', 'Sphinx', 'Spriggan', 'Sprite', 'Staff', 'Stone', 'Sword', 'Talisman', 'Tiara', 'Tome', 'Troll', 'Unicorn', 'Valkyrie', 'Vampire', 'Vial', 'Wand', 'Wendigo', 'Werecat', 'Werewolf', 'White Stag', 'Winged Lion', 'Winged Unicorn', 'Wisp', 'Wolpertinger', 'World Turtle', 'Wraith', 'Wyvern', 'Yeti', 'Zombie'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     if (i < 5) {
       rnd = Math.floor(Math.random() * nm1.length);

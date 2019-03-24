@@ -7,7 +7,7 @@ export default function malaysians() {
 
   tp = type;
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     if (i < 5) {
       if (type === 1) {

@@ -7,7 +7,7 @@ export default function molecules() {
   const nm6 = ['aene', 'an', 'ane', 'ar', 'as', 'ase', 'asy', 'ate', 'eide', 'ein', 'eite', 'el', 'ene', 'er', 'ial', 'id', 'ide', 'iene', 'in', 'ine', 'iol', 'ite', 'ium', 'oate', 'ocin', 'ol', 'ole', 'on', 'one', 'or', 'ose', 'ox', 'oxin', 'uene', 'um', 'ur', 'ycin', 'yde', 'yl', 'yme', 'yn'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     if (i < 4) {
       rnd = Math.floor(Math.random() * nm1.length);

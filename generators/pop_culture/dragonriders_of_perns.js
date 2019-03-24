@@ -17,7 +17,7 @@ export default function dragonriders_of_perns() {
   const nm15 = ['d', 'd', 'l', 'l', 'l', 'l', 'll', 'lm', 'ln', 'ls', 'm', 'm', 'n', 'n', 'nl', 'nr', 'nm', 'r', 'r', 'r', 'rl', 'r', 's', 's', 'yl', 'yr', 'yn'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     rnd2 = Math.floor(Math.random() * nm3.length);
     if (type === 1) {

@@ -7,7 +7,7 @@ export default function continents() {
   const names6 = ['a', 'e', 'i', 'o', 'u'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     if (i < 3) {
       rnd = Math.floor(Math.random() * names1.length);

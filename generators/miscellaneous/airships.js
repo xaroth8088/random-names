@@ -4,7 +4,7 @@ export default function airships() {
   const nm3 = ['Allure', 'Ambassador', 'Ambience', 'Amity', 'Apex', 'Aspect', 'Aura', 'Aurora', 'Baron', 'Baroness', 'Bastion', 'Behemoth', 'Bolt', 'Bounty', 'Buccaneer', 'Bullet', 'Bulwark', 'Cardinal', 'Champion', 'Charity', 'Citadel', 'Clemency', 'Climax', 'Cloud', 'Concord', 'Condor', 'Countess', 'Crown', 'Crusader', 'Crux', 'Dame', 'Dawn', 'Daydream', 'Delight', 'Destiny', 'Dominion', 'Dragonfly', 'Dream', 'Duchess', 'Duke', 'Eagle', 'Eclipse', 'Emissary', 'Endeavor', 'Enigma', 'Enterprise', 'Envoy', 'Falcon', 'Felicity', 'Fortress', 'Fortune', 'Frigate', 'Genesis', 'Grace', 'Gryphon', 'Harmony', 'Heirloom', 'Herald', 'Heritage', 'Homage', 'Honor', 'Horizon', 'Hummingbird', 'Javelin', 'Jewel', 'Joy', 'Justice', 'Lady', 'Legacy', 'Lord', 'Maiden', 'Majesty', 'Marvel', 'Matron', 'Mercy', 'Miracle', 'Mirage', 'Mistress', 'Monarch', 'Monument', 'Muse', 'Needle', 'Nemesis', 'Nightingale', 'Obelisk', 'Odyssey', 'Omen', 'Oracle', 'Parable', 'Paradox', 'Paragon', 'Parapet', 'Pegasus', 'Phantasm', 'Phenomenon', 'Phoenix', 'Pinnacle', 'Pioneer', 'Prestige', 'Princess', 'Prodigy', 'Prophecy', 'Quest', 'Relic', 'Renegade', 'Revenant', 'Riddle', 'Sentinel', 'Sentry', 'Serenity', 'Shade', 'Shadow', 'Shroud', 'Solstice', 'Spectacle', 'Specter', 'Summit', 'Surge', 'Tempest', 'Titan', 'Tribute', 'Triumph', 'Unity', 'Valkyrie', 'Vertex', 'Vestige', 'Vision', 'Voyage', 'Warden', 'Wish', 'Zenith', 'Zodiac'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     if (i < 5) {
       rnd = Math.floor(Math.random() * nm1.length);

@@ -5,7 +5,7 @@ export default function sports() {
   const nm4 = ['Acrobatics', 'Attack', 'Ball', 'Base', 'Boarding', 'Chase', 'Combined', 'Course', 'Cross', 'Cycling', 'Derby', 'Dive', 'Diving', 'Draft', 'Game', 'Gliding', 'Goal', 'Hurl', 'Mix', 'Pitch', 'Play', 'Race', 'Raid', 'Rally', 'Relay', 'Ring', 'Rings', 'Rules', 'Sailing', 'Slam', 'Smash', 'Style', 'Surfing', 'Tag', 'Tour', 'Trial', 'Volley', 'War'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     if (i < 5) {
       rnd = Math.floor(Math.random() * nm1.length);

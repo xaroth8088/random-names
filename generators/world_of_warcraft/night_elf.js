@@ -10,7 +10,7 @@ export default function night_elf() {
   const nm8 = ['arrow', 'blade', 'bloom', 'blower', 'bough', 'bow', 'branch', 'breath', 'breeze', 'caller', 'cloud', 'clouds', 'crest', 'dancer', 'dew', 'eye', 'feather', 'fire', 'flower', 'forest', 'gazer', 'grove', 'heart', 'helm', 'lance', 'leaf', 'light', 'mane', 'might', 'moon', 'oak', 'rage', 'runner', 'scribe', 'seeker', 'shade', 'shadow', 'shot', 'singer', 'sky', 'snow', 'song', 'spear', 'spirit', 'spyre', 'stalker', 'star', 'strike', 'striker', 'swift', 'sword', 'thorn', 'tree', 'walker', 'watcher', 'water', 'weaver', 'whisper', 'wind', 'wing'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     rnd7 = Math.floor(Math.random() * nm7.length);
     rnd8 = Math.floor(Math.random() * nm8.length);

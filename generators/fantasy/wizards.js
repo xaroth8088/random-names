@@ -11,7 +11,7 @@ export default function wizards() {
   const nm9 = ['b', 'bl', 'c', 'cl', 'd', 'f', 'fr', 'fl', 'g', 'gl', 'gn', 'h', 'kl', 'kn', 'm', 'n', 'p', 'pl', 'ph', 'q', 's', 'st', 'sl', 't', 'v', 'vl', 'w', 'z'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     if (type === 1) {
       if (i < 2) {

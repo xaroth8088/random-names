@@ -7,7 +7,7 @@ export default function gorgons() {
   const nm5 = ['aemon', 'aenon', 'aeon', 'aestus', 'aeus', 'agos', 'aios', 'anes', 'anos', 'antos', 'aon', 'arus', 'as', 'ates', 'atos', 'aumas', 'eas', 'eidon', 'er', 'erion', 'erus', 'es', 'etheus', 'etus', 'eus', 'ias', 'ibos', 'ion', 'ios', 'is', 'iton', 'ius', 'o', 'oeis', 'oeus', 'olus', 'on', 'onos', 'or', 'os', 'oteus', 'otos', 'otus', 'ous', 'us', 'yrus', 'ys', 'ytion'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm1.length);

@@ -9,7 +9,7 @@ export default function fruit_vegetables() {
   const names7 = ['Acerola', 'Almond', 'Amaranth', 'Apple', 'Apricot', 'Artichoke', 'Asparagus', 'Avocado', 'Babaco', 'Bacuri', 'Bael', 'Banana', 'Bean', 'Berry', 'Bilimbi', 'Bolwarra', 'Boquila', 'Bramble', 'Breadnut', 'Broccoli', 'Broccolini', 'Cabbage', 'Calamansi', 'Cantaloupe', 'Carambola', 'Carrot', 'Cashew', 'Cauliflower', 'Cawesh', 'Celeriac', 'Celery', 'Celtuce', 'Ceriman', 'Chayote', 'Cherry', 'Chestnut', 'Chicory', 'Chives', 'Choy', 'Citron', 'Clementine', 'Cocona', 'Coconut', 'Courgette', 'Cucumber', 'Currant', 'Date', 'Dill', 'Duku', 'Durian', 'Fig', 'Fruit', 'Ginger', 'Gourd', 'Granadilla', 'Grape', 'Grapefruit', 'Guanabana', 'Guarana', 'Guava', 'Hazelnut', 'Jujube', 'Kabosu', 'Kale', 'Kiwi', 'Korlan', 'Kumquat', 'Laurel', 'Leek', 'Lemon', 'Lentil', 'Lettuce', 'Lillypilly', 'Lime', 'Loquat', 'Lychee', 'Macadamia', 'Mandarin', 'Mango', 'Mangosteen', 'Marang', 'Marula', 'Melon', 'Morinda', 'Mundu', 'Muscadine', 'Nectarine', 'Okra', 'Olive', 'Onion', 'Orange', 'Papaya', 'Paracress', 'Parsnip', 'Pawpaw', 'Pea', 'Peach', 'Pear', 'Pecan', 'Pepper', 'Persimmon', 'Pitaya', 'Plantain', 'Plum', 'Pomegranate', 'Pomelo', 'Pommerac', 'Potato', 'Prune', 'Pulasan', 'Pumpkin', 'Quince', 'Radish', 'Rocket', 'Root', 'Rowan', 'Saguaro', 'Salal', 'Spinach', 'Sprout', 'Squash', 'Tamarind', 'Tangerine', 'Tomatillo', 'Tomato', 'Turnip', 'Walnut', 'Yam', 'Zucchini'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     if (i < 5) {
       rnd = Math.floor(Math.random() * names1.length);

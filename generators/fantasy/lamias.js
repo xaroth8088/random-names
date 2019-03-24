@@ -6,7 +6,7 @@ export default function lamias() {
   const nm4 = ['acia', 'aeia', 'ahria', 'aia', 'ais', 'ali', 'alise', 'allis', 'alphia', 'anea', 'anise', 'anthe', 'anthei', 'aphaura', 'aphine', 'assa', 'assea', 'axaura', 'axise', 'ea', 'easi', 'edice', 'eila', 'eilise', 'eilla', 'eis', 'eisa', 'eithe', 'eleia', 'elia', 'elis', 'elphise', 'elsa', 'enia', 'enis', 'eosis', 'ephia', 'ephila', 'ephine', 'eris', 'ertes', 'ertise', 'eshi', 'esi', 'esis', 'essei', 'ethe', 'ethia', 'ethis', 'etis', 'eusa', 'ia', 'iaphe', 'iasse', 'iax', 'ice', 'iche', 'ilis', 'ine', 'inix', 'ionis', 'iophai', 'iphae', 'iphaeia', 'iphe', 'iphei', 'iphelia', 'iphi', 'iphia', 'iphis', 'iphise', 'iphite', 'iphoia', 'is', 'isa', 'ise', 'isei', 'isha', 'ishae', 'ishia', 'ishis', 'isia', 'issis', 'istae', 'ite', 'ithe', 'ithea', 'ithis', 'ithise', 'ithoe', 'iusei', 'ixa', 'ixera', 'ixia', 'ixie', 'oche', 'oesa', 'ohsa', 'olphi', 'one', 'ophai', 'ophe', 'opheu', 'ophi', 'ophia', 'ophila', 'ophis', 'ophise', 'orise', 'osa', 'ose', 'osi', 'osia', 'osise', 'ossia', 'thise', 'usa', 'usei', 'usi', 'ymes', 'yphe', 'yphise', 'ypise', 'ypso', 'yse', 'yxio', 'yxo'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm3.length);

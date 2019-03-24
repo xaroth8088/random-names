@@ -5,7 +5,7 @@ export default function ents() {
   const nm4 = ['bark', 'beard', 'blade', 'bramble', 'nettle', 'spray', 'bush', 'shell', 'husk', 'claw', 'fang', 'talon', 'paw', 'crown', 'fern', 'copse', 'scrub', 'flesh', 'fury', 'grove', 'covert', 'stand', 'herb', 'leaf', 'growl', 'howl', 'trunk', 'root', 'bellow', 'roar', 'snarl', 'shade', 'shadow', 'flower', 'blossom', 'limb', 'lock', 'spine', 'pad', 'needle', 'stalk', 'splint', 'splinter', 'spur', 'twig', 'stub', 'stump', 'shrub', 'skin', 'thorn', 'tip', 'tooth', 'twig', 'wood', 'burn', 'scar', 'eye', 'brow', 'sprout', 'tendril'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     if (i < 5) {
       rnd = Math.floor(Math.random() * nm1.length);

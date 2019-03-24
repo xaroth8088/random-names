@@ -4,7 +4,7 @@ export default function oasis() {
   const nm3 = ['Afternoons', 'Ancestors', 'Angels', 'Animals', 'Arcane', 'Auras', 'Autumn', 'Ballance', 'Change', 'Clouds', 'Crimson', 'Crossroads', 'Curiosity', 'Daydreams', 'Desire', 'Destiny', 'Discovery', 'Dreams', 'Fall', 'Fortune', 'Gardens', 'Glass', 'Gold', 'Guidance', 'Harmony', 'Hope', 'Ice', 'Infinity', 'Iron', 'Jade', 'Jewels', 'Knowledge', 'Life', 'Light', 'Lights', 'Love', 'Luck', 'Magic', 'Meditation', 'Melodies', 'Memories', 'Metal', 'Music', 'Observation', 'Ornaments', 'Passages', 'Peace', 'Pleasure', 'Pleasures', 'Power', 'Prosperity', 'Purity', 'Rain', 'Rhythms', 'Riddles', 'Roses', 'Sanctity', 'Sanctuaries', 'Sapphire', 'Scents', 'Serenity', 'Serpents', 'Shadows', 'Shrines', 'Silk', 'Silver', 'Smiles', 'Solitude', 'Song', 'Spirits', 'Spring', 'Steam', 'Summer', 'Thought', 'Thoughts', 'Thrills', 'Time', 'Tranquility', 'Treasures', 'Voices', 'Voyages', 'Waves', 'Whispers', 'Wind', 'Winter', 'Wishes', 'Youth', 'the Aurora', 'the Celestial', 'the Clouds', 'the Divine', 'the Garden', 'the Light', 'the Moon', 'the Night', 'the Senses', 'the Sky', 'the Stars', 'the Sun', 'the Temple'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     rnd2 = Math.floor(Math.random() * nm2.length);
     if (i < 5) {

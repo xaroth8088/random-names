@@ -4,7 +4,7 @@ export default function elven_citys() {
   const nm3 = [' Aethel', ' Aiqua', ' Alari', ' Alora', ' Ancalen', ' Anore', ' Asari', ' Dorei', ' Dorthore', ' Edhil', ' Esari', ' Lenora', ' Serin', ' Serine', ' Shaeras', ' Taesi', ' Thalas', ' Thalor', ' Thalore', ' Themar', ' Tirion', ' Unarith', ' Belanore', ' Caelora', ' Nalore', ' Entheas', ' Ennore', ' Elunore', ' Allanar', ' Ortheiad', 'bel', 'belle', 'dell', 'dorei', 'groth', 'hil', 'hona', 'hone', 'kadi', 'lean', 'lenor', 'lenora', 'lian', 'lin', 'lion', 'lon', 'lona', 'lond', 'lone', 'luma', 'lume', 'luna', 'lune', 'mel', 'melle', 'naes', 'nas', 'neas', 'nor', 'nora', 'nore', 'noris', 'qua', 'rion', 'rius', 'sari', 'sera', 'serin', 'serine', 'shara', 'shys', 'taesi', 'talos', 'thaes', 'thalas', 'thas', 'theas', 'themar', 'thyr'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     rnd = Math.floor(Math.random() * nm1.length);
     rnd2 = Math.floor(Math.random() * nm2.length);

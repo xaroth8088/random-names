@@ -10,7 +10,7 @@ export default function warrior_cats() {
   const names8 = ['Back', 'Belly', 'Claw', 'Coat', 'Ear', 'Ears', 'Eye', 'Eyes', 'Feather', 'Fur', 'Leap', 'Nose', 'Patch', 'Pelt', 'Pounce', 'Roar', 'Scar', 'Shadow', 'Snout', 'Song', 'Speck', 'Spot', 'Spots', 'Swoop', 'Tail', 'Talon', 'Whiskers', 'Wing', 'Blossom', 'Branch', 'Breeze', 'Briar', 'Brook', 'Bush', 'Cloud', 'Clouds', 'Creek', 'Dream', 'Fern', 'Fire', 'Flame', 'Flower', 'Gust', 'Lake', 'Leaf', 'Leaves', 'Lightning', 'Mist', 'Moon', 'Night', 'Ocean', 'Petal', 'Puddle', 'Rain', 'River', 'Sea', 'Shade', 'Sky', 'Snow', 'Storm', 'Sun', 'Tree', 'Vine', 'Water', 'Wave', 'Willow', 'Wind'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     if (type === 1) {
       if (i < 2) {

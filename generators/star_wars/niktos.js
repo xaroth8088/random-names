@@ -11,7 +11,7 @@ export default function niktos() {
   const nm12 = ['', '', '', '', '', 'c', 'g', 'k', 'l', 'n', 'nn', 'nk', 'm', 'mk', 'rch', 'rk', 'rg', 'rc', 'rr', 's', 'sh', 'sk', 't', 'th', 'tt', 'x'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     rnd7 = Math.floor(Math.random() * nm9.length);
     rnd8 = Math.floor(Math.random() * nm10.length);

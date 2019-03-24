@@ -22,7 +22,7 @@ export default function hyborians() {
   const nm20 = ['bah', 'biah', 'bira', 'dna', 'fa', 'femi', 'fsha', 'gira', 'hema', 'hra', 'ka', 'khbet', 'khmet', 'kra', 'la', 'lah', 'ma', 'mah', 'nah', 'ne', 'net', 'ni', 'nura', 'phira', 'psut', 'qet', 'ra', 'rah', 'ret', 'rifa', 'rose', 'rtari', 'rte', 'ru', 'rye', 'sa', 'she', 'shida', 'stet', 'this', 'za'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     if (type === 1) {
       if (i < 2) {

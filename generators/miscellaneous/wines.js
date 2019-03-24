@@ -6,7 +6,7 @@ export default function wines() {﻿
   const nm5 = ['', '', '', '', '', '', '', 'Abboccato', 'Acescence', 'Adamado', 'Adega', 'Amabile', 'Annata', 'Bianco', 'Blanc', 'Blanco', 'Branco', 'Cépage', 'Cap Classique', 'Cava', 'Chiaretto', 'Clairet', 'Classic', 'Demi-Sec', 'Doce', 'Dolce', 'Doux', 'Dulce', 'Edes', 'Frizzante', 'Fume', 'Garrafeira', 'Granvas', 'Halbtrocken', 'Invecchiato', 'Liquoroso', 'Mousseux', 'Noir', 'Pétillant', 'Piquant', 'Rich', 'Rosado', 'Rosato', 'Rosso', 'Rouge', 'Süss', 'Sec', 'Secco', 'Száraz', 'Vendemmia', 'Vendimia', 'Viejo', 'd\'Or'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     if (i < 5) {
       rnd = Math.floor(Math.random() * nm1.length);

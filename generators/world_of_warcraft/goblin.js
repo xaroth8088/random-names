@@ -10,7 +10,7 @@ export default function goblin() {
   const nm8 = ['basher', 'blade', 'blast', 'blaster', 'bolt', 'bomb', 'boot', 'bottom', 'bub', 'button', 'buttons', 'cash', 'clamp', 'digger', 'feet', 'fingers', 'flare', 'fuel', 'fuse', 'gear', 'gleam', 'gob', 'grinder', 'grubber', 'hallow', 'hammer', 'head', 'knob', 'mine', 'nose', 'nozzle', 'pinch', 'pocket', 'pot', 'racket', 'rocket', 'screw', 'shatter', 'shiv', 'skimmer', 'snap', 'snipe', 'spark', 'sprocket', 'task', 'tongue', 'tooth', 'tweak', 'twister', 'volt', 'watts', 'well', 'wick', 'wizzle', 'wrench'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     rnd7 = Math.floor(Math.random() * nm7.length);
     rnd8 = Math.floor(Math.random() * nm8.length);

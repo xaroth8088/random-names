@@ -14,7 +14,7 @@ export default function trandoshans() {
   const nm12 = ['', '', '', '', '', '', '', '', '', '', 'c', 'gg', 'gh', 'hk', 'k', 'kt', 'l', 'n', 'r', 'rn', 'rs', 's', 'sss', 'st', 'ssk', 'sch', 'ss', 't', 'tch', 'z'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     rnd7 = Math.floor(Math.random() * nm9.length);
     rnd8 = Math.floor(Math.random() * nm10.length);

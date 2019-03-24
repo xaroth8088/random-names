@@ -5,7 +5,7 @@ export default function estonians() {
   const nm3 = ['Aare', 'Aasmae', 'Aavik', 'Allik', 'Alver', 'Eenpalu', 'Eskola', 'Harma', 'Ilves', 'Jakobson', 'Janes', 'Jogi', 'Kabin', 'Kalda', 'Kaljurand', 'Kallas', 'Kallaste', 'Kangro', 'Kangur', 'Kapp', 'Kask', 'Kass', 'Keskkula', 'Keskula', 'Kirsipuu', 'Kivi', 'Klavan', 'Koiv', 'Korjus', 'Kotka', 'Kross', 'Kukk', 'Kuusik', 'Kuusk', 'Laar', 'Laas', 'Laht', 'Laurits', 'Leok', 'Lepmets', 'Lepp', 'Levandi', 'Lill', 'Lippmaa', 'Lohmus', 'Looke', 'Magi', 'Malk', 'Mand', 'Mannik', 'Mark', 'Masing', 'Meri', 'Mets', 'Mitt', 'Must', 'Nurme', 'Nurmsalu', 'Oja', 'Olesk', 'Opik', 'Orav', 'Paasuke', 'Padar', 'Parn', 'Part', 'Peebo', 'Peetre', 'Pihlak', 'Piip', 'Puhvel', 'Putsep', 'Puusepp', 'Raud', 'Rebane', 'Rootare', 'Rummo', 'Ruutel', 'Ruutli', 'Saar', 'Sepp', 'Sibul', 'Sirel', 'Sisask', 'Sokk', 'Soosaar', 'Tamm', 'Teder', 'Toom', 'Vaher', 'Vaino', 'Valbe', 'Valjas', 'Valk', 'Vesik', 'Viiding', 'Vitsut', 'Vosu'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     rnd2 = Math.floor(Math.random() * nm3.length);
     if (type === 1) {

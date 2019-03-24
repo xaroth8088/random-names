@@ -14,7 +14,7 @@ export default function half_orcs() {
   const nm12 = ['', '', '', '', '', 'ch', 'd', 'k', 'ld', 'lm', 'm', 'n', 'r', 'shky', 'tsky', 'v', 'x', 'z'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     rnd10 = Math.floor(Math.random() * nm9.length);
     rnd11 = Math.floor(Math.random() * nm10.length);

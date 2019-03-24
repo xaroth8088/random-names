@@ -9,7 +9,7 @@ export default function goblins() {
   const nm7 = ['c', 'ch', 'cc', 'g', 'gg', 'gr', 'gtr', 'gn', 'gz', 'k', 'kr', 'kz', 'kt', 'l', 'll', 'lc', 'lk', 'lz', 'lg', 'n', 'nn', 'nr', 'nt', 'nk', 'r', 'rr', 'rl', 'rk', 'rn', 'rm', 't', 'tt', 'th', 'tr', 'tz', 'tzr', 'tsr', 'tg', 'v', 'vr', 'z', 'zr', 'zz', 'zg', 'zk', 'zn'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm5.length);

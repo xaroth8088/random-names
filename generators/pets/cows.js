@@ -4,7 +4,7 @@ export default function cows() {
   const nm2 = ['Abby', 'Amazone', 'Amber', 'Annabelle', 'Apple', 'April', 'Arizone', 'Autumn', 'Babette', 'Babs', 'Baby', 'Barbara', 'Bella', 'Belle', 'Bernice', 'Bertha', 'Bess', 'Bessy', 'Beth', 'Betsy', 'Booboo', 'Brooke', 'Brownie', 'Bubble', 'Bubbles', 'Bumble', 'Bumbles', 'Butter', 'Buttercup', 'Button', 'Buttons', 'Caramel', 'Caramelle', 'Chancey', 'Charme', 'Chloe', 'Cinnamon', 'Clarabell', 'Clover', 'Coco', 'Cookie', 'Corona', 'Creame', 'Creme', 'Cutie', 'Daffodil', 'Daisy', 'Dala', 'Darcy', 'Darla', 'Dear', 'Dew', 'Dolly', 'Dora', 'Doris', 'Dot', 'Dottie', 'Dream', 'Dutchess', 'Eleanor', 'Fancy', 'Flower', 'Fortuna', 'Fortune', 'Freckles', 'Gambles', 'Ginger', 'Grace', 'Gracie', 'Gwen', 'Hazel', 'Honey', 'Isabella', 'Jade', 'Jane', 'Jess', 'July', 'June', 'Lavender', 'Lilly', 'Lily', 'Lilypad', 'Lola', 'Lulu', 'Magnolia', 'Maple', 'Marge', 'Marigold', 'Martha', 'Maude', 'May', 'Midnight', 'Moode', 'Mooffin', 'Moogy', 'Moolissa', 'Moolly', 'Mooly', 'Moomee', 'Moomoo', 'Moomy', 'Moona', 'Moonbeam', 'Moonica', 'Muffin', 'Nemoo', 'Nighte', 'Nora', 'Olive', 'Oreo', 'Patches', 'Patience', 'Pearl', 'Penny', 'Pepper', 'Petunia', 'Pickle', 'Pickles', 'Precious', 'Princess', 'Prudence', 'Pumpkin', 'Queen', 'Queenie', 'Queste', 'Rose', 'Rosie', 'Ruby', 'Satin', 'Savanah', 'Shade', 'Shadow', 'Snow', 'Snowdrop', 'Snowflake', 'Sparkle', 'Spot', 'Spring', 'Sprinkles', 'Sugar', 'Summer', 'Sunbeam', 'Sweetie', 'Valentine', 'Viola', 'Violet', 'Wendy', 'Willow', 'Winter'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm2.length);

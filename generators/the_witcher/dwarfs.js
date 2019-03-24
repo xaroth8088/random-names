@@ -21,7 +21,7 @@ export default function dwarfs() {
   const nm21 = ['', '', '', '', '', 'ck', 'ggs', 'gs', 'l', 'ld', 'ls', 'lt', 'm', 'n', 'r', 'rd', 'rg', 's', 'ss', 'st', 't', 'y', 'ys'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     rnd8 = Math.floor(Math.random() * nm15.length);
     rnd9 = Math.floor(Math.random() * nm16.length);

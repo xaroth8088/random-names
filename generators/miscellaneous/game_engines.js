@@ -4,7 +4,7 @@ export default function game_engines() {
   const nm2 = ['Creative Engine', 'Creator', 'Engine', 'Frameworks', 'Game Engine', 'Physics Engine', 'Studio', 'Tools', 'Toolset', 'Engine', 'Engine'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     rnd = Math.floor(Math.random() * nm1.length);
     rnd2 = Math.floor(Math.random() * nm2.length);

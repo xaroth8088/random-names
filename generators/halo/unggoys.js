@@ -5,7 +5,7 @@ export default function unggoys() {
   const nm4 = ['fl', 'kl', 'sl', 'sm', 'pl', 'zl'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     if (i < 5) {
       rnd = Math.floor(Math.random() * nm2.length);

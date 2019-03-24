@@ -17,7 +17,7 @@ export default function drows() {
   const namesSurFl = ['abar', 'abban', 'ach', 'aeir', 'ael', 'aen', 'aer', 'aerth', 'agh', 'agon', 'al', 'ala', 'ambra', 'ane', 'ar', 'arn', 'arr', 'arran', 'aryd', 'ass', 'ath', 'aulur', 'avar', 'azza', 'ear', 'ein', 'enna', 'esz', 'eztice', 'ifar', 'iir', 'iirn', 'iiryn', 'in', 'inath', 'inn', 'iom', 'ion\'lyr', 'iriy', 'is', 'istyn', 'ith', 'iwin', 'oara', 'oavae', 'ond', 'onrae', 'orel', 'orgh', 'oryn', 'orzza', 'ossz', 'uae', 'uan', 'uil', 'uin', 'une', 'ykur', 'yl', 'ylan', 'ym', 'yn', 'yr', 'yrr', 'yth'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     if (type === 1) {
       if (i < 4) {

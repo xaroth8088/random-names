@@ -7,7 +7,7 @@ export default function lalafells() {
   const nm5 = ['', 'a', 'e', 'i', 'o', 'u'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     if (type === 1) {
       if (i < 5) {

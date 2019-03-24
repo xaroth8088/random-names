@@ -7,7 +7,7 @@ export default function skavens() {
   const nm6 = ['back', 'basher', 'bender', 'binder', 'bleeded', 'blight', 'blood', 'bone', 'born', 'bough', 'breaker', 'breath', 'brow', 'buster', 'chaser', 'chest', 'chewer', 'chin', 'claw', 'cleaver', 'crest', 'crusher', 'cutter', 'digger', 'fang', 'fangs', 'finger', 'fingers', 'fist', 'flayer', 'fury', 'gaze', 'gazer', 'grip', 'hunter', 'jaw', 'lash', 'lasher', 'master', 'maul', 'maw', 'reaper', 'reaver', 'ripper', 'runner', 'sbark', 'scar', 'scream', 'seeker', 'shrieker', 'slayer', 'snout', 'spine', 'spire', 'splitter', 'stalker', 'striker', 'tail', 'taker', 'thorn', 'walker', 'watcher', 'weaver'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     rnd = Math.floor(Math.random() * nm5.length);
     rnd2 = Math.floor(Math.random() * nm6.length);

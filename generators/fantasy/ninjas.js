@@ -5,7 +5,7 @@ export default function ninjas() {
   const names4 = ['bang', 'bash', 'beat', 'blade', 'claw', 'crash', 'eye', 'eyes', 'fall', 'flake', 'flash', 'flow', 'kill', 'lock', 'mark', 'moon', 'saw', 'scar', 'shade', 'shadow', 'shiv', 'shot', 'sign', 'slinger', 'stain', 'stike', 'streak', 'strikes', 'stroke', 'tooth'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     if (i < 5) {
       rnd = Math.floor(Math.random() * names1.length);

@@ -5,7 +5,7 @@ export default function taus() {
   const names4 = ['\'are', '\'ath', '\'ax', '\'bash', '\'bin', '\'bur', '\'dax', '\'dis', '\'dras', '\'elo', '\'en', '\'erk', '\'fa', '\'fel', '\'fin', '\'ga', '\'gos', '\'gri', '\'ha', '\'hin', '\'hos', '\'jash', '\'jin', '\'jor', '\'kir', '\'ko', '\'kran', '\'la', '\'las', '\'len', '\'me', '\'min', '\'mor', '\'na', '\'nera', '\'nesh', '\'or', '\'os', '\'osh', '\'par', '\'pin', '\'pras', '\'ra', '\'rak', '\'rax', '\'sha', '\'shash', '\'som', '\'taga', '\'ter', '\'tin', '\'un', '\'ur', '\'us', '\'vash', '\'vax', '\'vren', '\'wer', '\'werd', '\'wra', '\'xan', '\'xil', '\'xo', '\'yr', 'ah', 'al', 'aln', 'an', 'ara', 'arn', 'ash', 'ax', 'eh', 'el', 'en', 'er', 'erra', 'es', 'esh', 'eth', 'ina', 'ir', 'ira', 'irn', 'irr', 'ish', 'ith', 'ix', 'o', 'oh', 'ol', 'om', 'on', 'or', 'ot', 'oth', 'u', 'ug', 'un', 'ur', 'urn', 'us', 'uth', 'ux'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     rnd = Math.floor(Math.random() * names1.length);
     rnd2 = Math.floor(Math.random() * names2.length);

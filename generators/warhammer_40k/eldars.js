@@ -6,7 +6,7 @@ export default function eldars() {
   const names4 = ['bala', 'benne', 'bera', 'brae', 'bryn', 'daen', 'daer', 'dole', 'dona', 'dra', 'dynn', 'gil', 'gith', 'gren', 'gwen', 'hina', 'hish', 'hynn', 'kae', 'keza', 'kia', 'kra', 'laeth', 'lara', 'leth', 'lira', 'lith', 'lone', 'lya', 'lyth', 'mae', 'mela', 'mena', 'mere', 'mia', 'myn', 'myna', 'nae', 'nel', 'nelle', 'nera', 'nys', 'rana', 'raniel', 'rena', 'ria', 'riel', 'rio', 'ris', 'rith', 'rosa', 'rye', 'ryna', 'rys', 'sa', 'sae', 'sela', 'shae', 'sho', 'sis', 'sya', 'sys', 'tara', 'tela', 'tera', 'thala', 'thanis', 'tiren', 'tyra', 'tys', 'vae', 'vara', 'vela', 'vena', 'vyss'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     if (type === 1) {
       rnd = Math.floor(Math.random() * names3.length);

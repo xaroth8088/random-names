@@ -10,7 +10,7 @@ export default function darths() {
   const nm8 = ['', '', '', '', '', '', '', '', '', '', 'd', 'f', 'h', 'l', 'n', 'ph', 'r', 's', 'sh', 'ss', 'th', 'w', 'x'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm5.length);

@@ -12,7 +12,7 @@ function generator$lord_of_the_rings$maiars(type) {﻿
   const nm10 = ['o', 'e', 'ë', 'ó', '', '', '', ''];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm1.length);

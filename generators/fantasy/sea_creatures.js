@@ -9,7 +9,7 @@ export default function sea_creatures() {
   const nm8 = ['Alliconda', 'Alliganha', 'Alligatopus', 'Clamaconda', 'Clamiranha', 'Clamster', 'Clamtopus', 'Crabaconda', 'Crabemoth', 'Crabiathan', 'Crabiranha', 'Crabshark', 'Crabtopus', 'Dolpheel', 'Dolphemoth', 'Dolphiathan', 'Dolphiconda', 'Dolphigator', 'Dolphipus', 'Dolphiranha', 'Dolphiray', 'Dolphishark', 'Eelaconda', 'Eeligator', 'Eelodile', 'Lobstaconda', 'Lobstagator', 'Lobstemoth', 'Lobsteranha', 'Lobsteray', 'Lobstiathan', 'Lobstodile', 'Lobstopus', 'Lobstorka', 'Lobsturtle', 'Orkagator', 'Orkallion', 'Orkiathan', 'Orktopus', 'Pirahnopus', 'Piranhagator', 'Piranharay', 'Piranhashark', 'Piranheel', 'Piranhemoth', 'Piranhiathan', 'Piranhobster', 'Piranhopus', 'Piranhorka', 'Sealaconda', 'Sealcroc', 'Sealiathan', 'Sealligator', 'Sharkaconda', 'Sharkanha', 'Sharkeel', 'Sharkellion', 'Sharkemoth', 'Sharkfiend', 'Sharkigator', 'Sharkodil', 'Sharkray', 'Sharksnake', 'Sharksquid', 'Sharktopus', 'Sharkworm', 'Snaketopus', 'Squidaconda', 'Squidigator', 'Squidodile', 'Squidshark', 'Squitopus', 'Turtleconda', 'Turtledile', 'Turtleviathan', 'Turtligator', 'Turtlobster', 'Whalaconda', 'Whalecroc', 'Whaletopus', 'Whaliathan'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     if (i < 4) {
       rnd = Math.floor(Math.random() * nm1.length);

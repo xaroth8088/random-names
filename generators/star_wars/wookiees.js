@@ -10,7 +10,7 @@ export default function wookiees() {
   const nm8 = ['', '', '', '', '', '', '', '', '', '', '', '', '', '', '', 'ck', 'gn', 'gnh', 'k', 'kk', 'l', 'll', 'm', 'n', 'nh', 'r', 'rl', 'rr', 'rrl', 's', 'sh', 'shk', 'w'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm5.length);

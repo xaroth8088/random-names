@@ -11,7 +11,7 @@ export default function dwemers() {
     var names2 = ['ban', 'bgar', 'bond', 'brec', 'dac', 'dchu', 'dgir', 'dit', 'drak', 'fgru', 'fk', 'frak', 'fuan', 'ggo', 'gr', 'grac', 'grath', 'grum', 'gvin', 'harn', 'hlac', 'hld', 'hrek', 'hrk', 'lbar', 'lchond', 'lec', 'len', 'lzrak', 'mac', 'mgar', 'min', 'mrond', 'muard', 'nac', 'nbric', 'nch', 'nd', 'ndam', 'nzgar', 'rd', 'ren', 'rhunch', 'rk', 'rlac', 'tchan', 'thas', 'thld', 'thunch', 'thzgar', 'vin', 'vith', 'vlar', 'vnak', 'vraz', 'zbrar', 'zdir', 'zgar', 'znak', 'zzefk'];
   }
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     rnd0 = Math.floor(Math.random() * names1.length);
     rnd1 = Math.floor(Math.random() * names2.length);

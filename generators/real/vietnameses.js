@@ -7,7 +7,7 @@ export default function vietnameses() {
   const nm5 = ['Ai', 'An', 'Anh', 'Be', 'Bian', 'Bich', 'Binh', 'Cam', 'Canh', 'Chau', 'Chi', 'Dao', 'Diep', 'Diu', 'Doan Vien', 'Dong', 'Giang ', 'Ha', 'Hai', 'Han', 'Hang', 'Hanh Phuc', 'Hien', 'Hoa', 'Hong', 'Hong Hanh', 'Hong Yen', 'Hue', 'Hung', 'Huong ', 'Huyen', 'Hyunh', 'Ket Nien', 'Khanh', 'Kieu', 'Kim', 'Kim Cuc', 'Kim-Ly', 'Lam', 'Lan', 'Lang', 'Lanh', 'Le', 'Le ', 'Lien', 'Lieu', 'Linh', 'Loan', 'Mai', 'My', 'Nam Ha', 'Ngoc', 'Ngoc Bich', 'Ngu', 'Ngu ', 'Nguyet', 'Nhu', 'Nhung', 'Nu ', 'Phuong', 'Quy', 'Quyen', 'Sang', 'Suong', 'Tam', 'Tan', 'Tham', 'Thanh', 'Thanh Ha', 'Thao', 'Thi', 'Thi ', 'Thien ', 'Thom', 'Thu', 'Thuy', 'Tien', 'Trinh', 'Truc', 'Tuyen', 'Tuyet', 'Uoc', 'Van', 'Viet', 'Xuan', 'Yen'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     rnd1 = Math.floor(Math.random() * nm1.length);
     if (type === 1) {

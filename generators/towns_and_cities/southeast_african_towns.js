@@ -16,7 +16,7 @@ export default function southeast_african_towns() {
   const nm10 = ['ba', 'busi', 'ce', 'cheke', 'da', 'dale', 'dera', 'dge', 'dini', 'doma', 'du', 'dura', 'ga', 'gani', 'ge', 'go', 'godini', 'gora', 'goyi', 'gura', 'gutu', 'gwi', 'kari', 'ke', 'ket', 'ko', 'kwe', 'le', 'longa', 'ma', 'mani', 'nary', 'ne', 'ni', 'nimani', 'pane', 'panzi', 'pe', 'pinge', 'ra', 'rare', 're', 'redzi', 'rehwa', 'ri', 'riba', 'rice', 'roi', 'rowa', 'ru', 'rundu', 'ry', 'sape', 'shava', 'si', 'siza', 'tare', 'te', 'tenary', 'ti', 'tivi', 'toko', 'ton', 'tu', 'va', 'vane', 'vhu', 'vi', 'vingo', 'wa', 'wayo', 'we', 'wi', 'wiza', 'yati', 'yi', 'yo', 'za', 'zi', 'ziwa', 'zowe', 'zura'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     if (i < 2) {
       rnd = Math.floor(Math.random() * nm1.length);

@@ -5,7 +5,7 @@ export default function jewelrys() {
   const nm2 = ['Ambition', 'Aura', 'Balance', 'Bauble', 'Beauty', 'Belle', 'Blessing', 'Bliss', 'Blossom', 'Bond', 'Breath', 'Bubble', 'Charm', 'Class', 'Clover', 'Core', 'Crescent', 'Crest', 'Cross', 'Crux', 'Desire', 'Devotion', 'Dewdrop', 'Dream', 'Drop', 'Droplet', 'Eye', 'Fan', 'Favor', 'Flame', 'Flower', 'Focus', 'Force', 'Gift', 'Glamour', 'Globe', 'Grace', 'Heart', 'Hope', 'Hum', 'Hymn', 'Image', 'Leaf', 'Life', 'Light', 'Lily', 'Love', 'Lure', 'Mark', 'Memorial', 'Mind', 'Moon', 'Oath', 'Oculus', 'Orb', 'Palm', 'Panther', 'Passion', 'Petal', 'Pledge', 'Poem', 'Prayer', 'Promise', 'Prospect', 'Rainbow', 'Resolve', 'Riddle', 'Rock', 'Root', 'Scale', 'Seal', 'Shield', 'Song', 'Soul', 'Spark', 'Spiral', 'Spirit', 'Star', 'Stone', 'Sun', 'Swan', 'Tear', 'Teardrop', 'Tempest', 'Tribute', 'Trinket', 'Twin', 'Twins', 'Twirl', 'Twist', 'Valor', 'Vigor', 'Vision', 'Voice', 'Vow', 'Whisper', 'Will', 'Wing', 'Wings', 'Wish'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     rnd = Math.floor(Math.random() * nm1.length);
     rnd2 = Math.floor(Math.random() * nm2.length);

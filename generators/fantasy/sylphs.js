@@ -12,7 +12,7 @@ export default function sylphs() {
   const nm10 = ['f', 'ff', 'h', 'l', 'm', 'n', 'ph', 's', 'sh', 'th', 'y'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     rnd2 = Math.floor(Math.random() * nm2.length);
     rnd4 = Math.floor(Math.random() * nm2.length);

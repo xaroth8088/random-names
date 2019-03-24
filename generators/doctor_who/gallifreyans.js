@@ -16,7 +16,7 @@ export default function gallifreyans() {
   const nm13 = ['', '', '', '', '', 'd', 'l', 'll', 'm', 'm', 'n', 'nn', 'r', 's', 'ss', 'sh', 'th'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     if (type === 1) {
       if (i < 4) {

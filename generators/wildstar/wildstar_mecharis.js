@@ -12,7 +12,7 @@ export default function wildstar_mecharis() {
   const nm10 = ['bit', 'byt', 'coil', 'col', 'cue', 'cy', 'frag', 'gine', 'helix', 'hicle', 'jet', 'lap', 'lic', 'lit', 'lix', 'logy', 'loop', 'maton', 'mech', 'mic', 'mics', 'net', 'nic', 'nics', 'niq', 'nis', 'nism', 'nix', 'nogy', 'nox', 'pin', 'ping', 'pute', 'ram', 'rom', 'ron', 'ser', 'sor', 'tec', 'tic', 'tics', 'ton', 'tred', 'tric', 'tron', 'vex', 'vox', 'ware', 'xis', 'zip'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     rnd6 = Math.floor(Math.random() * nm9.length);
     rnd7 = Math.floor(Math.random() * nm10.length);

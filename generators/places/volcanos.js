@@ -11,7 +11,7 @@ export default function volcanos() {
   const names8 = ['Mountain', 'Mountains', 'Summit', 'Peaks', 'Precipice', 'Heights', 'Apex', 'Vertex', 'Pinnacle'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     if (i < 3) {
       rnd = Math.floor(Math.random() * names1.length);

@@ -8,7 +8,7 @@ export default function web_series() {
   const nm6 = ['bane', 'base', 'bash', 'bell', 'bird', 'bite', 'blade', 'blood', 'bones', 'born', 'bot', 'bound', 'bow', 'boy', 'brain', 'cat', 'chase', 'code', 'coil', 'crew', 'crown', 'dash', 'date', 'days', 'derp', 'dream', 'dust', 'faire', 'fall', 'fame', 'fare', 'fire', 'flake', 'flow', 'fury', 'games', 'gift', 'girl', 'guard', 'guild', 'heart', 'hope', 'horde', 'house', 'keeper', 'key', 'kin', 'king', 'kiss', 'land', 'life', 'light', 'list', 'lock', 'loop', 'luck', 'magic', 'mark', 'mind', 'myth', 'night', 'piece', 'plane', 'point', 'pride', 'quake', 'queen', 'quest', 'realm', 'right', 'ring', 'run', 'seal', 'shift', 'shock', 'show', 'side', 'sin', 'slice', 'smile', 'soul', 'star', 'stone', 'strike', 'time', 'ville', 'vision', 'voice', 'ward', 'watch', 'wing', 'wish', 'wisp', 'witch', 'wolf', 'word', 'world', 'worth', 'wrath', 'year'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     if (i < 4) {
       rnd = Math.floor(Math.random() * nm1.length);

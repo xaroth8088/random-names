@@ -6,7 +6,7 @@ export default function half_elfs() {
   const nm4 = ['aerys', 'anys', 'bellis', 'bwynn', 'cerys', 'charis', 'diane', 'dove', 'elor', 'enyphe', 'faen', 'fine', 'galyn', 'gwynn', 'hana', 'hophe', 'kaen', 'kilia', 'lahne', 'lynn', 'mae', 'malis', 'mythe', 'nalore', 'noa', 'nys', 'ona', 'phira', 'pisys', 'qarin', 'qwyn', 'rila', 'rora', 'seris', 'stine', 'sys', 'thana', 'theris', 'tihne', 'trana', 'viel', 'vyre', 'walyn', 'waris', 'xaris', 'xipha', 'yaries', 'yra', 'zenya', 'zira'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm3.length);

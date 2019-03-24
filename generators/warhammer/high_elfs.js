@@ -11,7 +11,7 @@ export default function high_elfs() {
   const nm8 = ['Academic', 'Acclaimed', 'Admired', 'Agile', 'Ancient', 'Angel', 'Angelic', 'Artist', 'Austere', 'Beast', 'Beautiful', 'Blessed', 'Bold', 'Brave', 'Brilliant', 'Celebrated', 'Clever', 'Composed', 'Conqueror', 'Defender', 'Defiant', 'Devoted', 'Diligent', 'Discrete', 'Earnest', 'Educated', 'Elegant', 'Enchanted', 'Enchanting', 'Enforcer', 'Enlightened', 'Exalted', 'Executioner', 'Expert', 'Explorer', 'Fearless', 'Flamboyant', 'Flawless', 'Generous', 'Gentle', 'Gifted', 'Giving', 'Glorious', 'Graceful', 'Grand', 'Great', 'Grim', 'Guardian', 'Honest', 'Honorable', 'Honored', 'Humble', 'Illustrious', 'Immortal', 'Impetuous', 'Incredible', 'Just', 'Learned', 'Light', 'Loremaster', 'Loyal', 'Magnificent', 'Majestic', 'Marvelous', 'Merciful', 'Mighty', 'Oracle', 'Paragon', 'Patient', 'Peacemaker', 'Pious', 'Pleasant', 'Poet', 'Powerful', 'Prime', 'Proud', 'Radiant', 'Sage', 'Seafarer', 'Serene', 'Silent', 'Slayer', 'Specialist', 'Stark', 'Stout', 'Strict', 'Swift', 'Valiant', 'Vengeful', 'Warrior', 'Wild', 'Wise'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     rnd = Math.floor(Math.random() * nm8.length);
     nameL = nm8[rnd];

@@ -11,7 +11,7 @@ export default function krogans() {
     var names4 = ['a', 'e', 'u', 'i', 'o', 'a'];
   }
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     rnd0 = Math.floor(Math.random() * names1.length);
     rnd1 = Math.floor(Math.random() * names2.length);

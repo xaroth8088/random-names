@@ -18,7 +18,7 @@ export default function fursonas() {
   const nm22 = ['', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', 'q', 'x', 'z', 'ph', 'ss', 'sh', '', 's', 'n', 'h', 'l', 'th', 'b', 'bs', 'c', 'cs', 'ck', 'd', 'f', 'g', 'k', 'l', 'ld', 'll', 'lt', 'ln', 'lm', 'ls', 'm', 'n', 'nd', 'p', 'q', 'r', 'rs', 'rd', 'rt', 's', 'st', 'sh', 'z', 'y'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     if (i < 5) {
       if (type === 1) {

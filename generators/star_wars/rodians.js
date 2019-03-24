@@ -14,7 +14,7 @@ export default function rodians() {
   const nm12 = ['', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', 'c', 'ch', 'd', 'ff', 'gg', 'ggs', 'gs', 'h', 'hn', 'hnt', 'ht', 'k', 'l', 'lb', 'll', 'ls', 'm', 'n', 'ng', 'nk', 'nn', 'ntt', 'nx', 'p', 'q', 'r', 'rk', 'rn', 'ro', 'rr', 'rs', 's', 'sh', 't', 'th', 'w', 'x', 'z'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     rnd7 = Math.floor(Math.random() * nm9.length);
     rnd8 = Math.floor(Math.random() * nm10.length);

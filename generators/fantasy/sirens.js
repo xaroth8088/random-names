@@ -5,7 +5,7 @@ export default function sirens() {
   const nm4 = ['bel', 'belle', 'ciane', 'da', 'dah', 'denah', 'dina', 'dine', 'fa', 'fer', 'gana', 'guna', 'gune', 'haneh', 'la', 'lea', 'lee', 'leh', 'lei', 'lena', 'lia', 'lila', 'lin', 'lina', 'lis', 'lise', 'lla', 'lle', 'lody', 'lora', 'lori', 'lura', 'lure', 'ly', 'lyn', 'ma', 'mala', 'mara', 'mare', 'me', 'meda', 'mere', 'mora', 'na', 'nah', 'ne', 'neh', 'nella', 'nelle', 'neva', 'ney', 'nia', 'nna', 'nne', 'noe', 'nora', 'nore', 'ny', 'ra', 'rah', 'rea', 'reida', 'rena', 'rene', 'renna', 'ria', 'rial', 'rian', 'riel', 'rien', 'rin', 'rina', 'rinda', 'rinia', 'ris', 'rissa', 'rith', 'roe', 'ros', 'sana', 'sea', 'shell', 'shi', 'ssa', 'sura', 'ta', 'thea', 'thia', 'tina', 'tune', 'va', 've', 'vere', 'via', 'viane', 'vianna', 'vien', 'wai', 'wen', 'xie'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     if (i < 5) {
       rnd = Math.floor(Math.random() * nm1.length);

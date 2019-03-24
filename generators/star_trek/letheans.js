@@ -6,7 +6,7 @@ export default function letheans() {
   const nm4 = ['b', 'c', 'd', 'f', 'g', 'k', 'm', 'nt', 'n', 'p', 'q', 'r', 'sz', 't', 'v', 'z', '', ''];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     if (i < 5) {
       rnd = Math.floor(Math.random() * nm1.length);

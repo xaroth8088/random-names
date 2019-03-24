@@ -8,7 +8,7 @@ export default function wildstar_mordeshs() {
   const nm6 = ['c', 'ch', 'cz', 'k', 'l', 'll', 'n', 'rz', 's', 'ts', 'tz', 'v', 'w'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     rnd = Math.floor(Math.random() * nm3.length);
     rnd2 = Math.floor(Math.random() * nm4.length);

@@ -7,7 +7,7 @@ export default function beastmens() {
   const nm6 = ['arm', 'bane', 'belly', 'belt', 'braid', 'breath', 'brow', 'chest', 'chin', 'claw', 'coat', 'crest', 'eye', 'eyes', 'fang', 'fangs', 'feet', 'finger', 'fingers', 'fist', 'foot', 'gaze', 'grip', 'gut', 'hair', 'hand', 'hands', 'head', 'heart', 'hide', 'jaw', 'mane', 'manes', 'mantle', 'maw', 'mouth', 'paw', 'pelt', 'ridge', 'scar', 'shoulder', 'shoulders', 'snout', 'spine', 'tail', 'teeth', 'toe', 'toes', 'tongue', 'tooth', 'wound'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     if (i < 6) {
       rnd = Math.floor(Math.random() * nm1.length);

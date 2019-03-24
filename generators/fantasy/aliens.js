@@ -19,7 +19,7 @@ export default function aliens() {
   const nm17 = ['a', 'e', 'i', 'o', 'u', 'y', 'ae', 'ea', 'eo', 'oe', 'ie', 'ue', 'ua', '', '', '', '', '', '', '', '', '', '', '', ''];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     if (i < 4) {
       rnd = Math.floor(Math.random() * nm1.length);

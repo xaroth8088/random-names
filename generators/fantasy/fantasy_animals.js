@@ -12,7 +12,7 @@ export default function fantasy_animals() {
   const nm9 = ['b', 'c', 'd', 'f', 'g', 'k', 'l', 'm', 'n', 'p', 'q', 'r', 's', 't', 'v', 'w', 'x', 'z', 'b', 'c', 'd', 'f', 'g', 'k', 'l', 'm', 'n', 'p', 'q', 'r', 's', 't', 'v', 'w', 'x', 'z', 'br', 'cr', 'dr', 'gr', 'kr', 'pr', 'sr', 'st', 'str', 'bl', 'cl', 'fl', 'gl', 'kl', 'pl', 'sl', 'vl'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     if (i < 2) {
       rnd = Math.floor(Math.random() * nm1.length);

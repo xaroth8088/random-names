@@ -12,7 +12,7 @@ export default function falleens() {
   const nm10 = ['c', 'd', 'j', 'l', 'm', 'n', 'r', 'ss', 't', 'x'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     rnd6 = Math.floor(Math.random() * nm8.length);
     rnd7 = Math.floor(Math.random() * nm2.length);

@@ -12,7 +12,7 @@ export default function daedrics() {
   const nm11 = ['Insomnia', 'Lunacy', 'Luna', 'Mania', 'Phobia', 'Luna', 'Solar', 'Dementia', 'Hysteria', 'Delirium', 'Pedigree', 'Bane', 'Anathema', 'Grace', 'Hope', 'Malison', 'Misery', 'Blight', 'Poison', 'Venom', 'Calamity', 'Malificent', 'Sinister', 'Grim', 'Gloom', 'Dire', 'Malign', 'Malefic', 'Joy', 'Nova', 'Misty', 'Dusk', 'Dawn', 'Twilight', 'Rogue', 'Ominous', 'Vile', 'Nefarious', 'Melancholy', 'Saturnine', 'Solemn', 'Glum', 'Austere', 'Morose', 'Surly', 'Brusque', 'Gruff', 'Demise', 'Necrosis', 'Silence', 'Enigma', 'Virulence', 'Spite', 'Malign', 'Storm', 'Serene', 'Harmony', 'Strife', 'Striker', 'Sloth', 'Drowsy', 'Supine', 'Laggard'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     if (i < 4) {
       rnd = Math.floor(Math.random() * nm1.length);

@@ -7,7 +7,7 @@ export default function constellations() {
   const nm6 = ['Helmet', 'Shield', 'Sword', 'Compass', 'Ship', 'Hammer', 'Chisel', 'Crown', 'Cup', 'Cross', 'River', 'Furnace', 'Bridge', 'Fire', 'Flame', 'Gem', 'Diamond', 'Clock', 'Table', 'Arrow', 'Temple', 'Archer', 'Knight', 'Telescope', 'Pyramid', 'Triangle', 'Robe', 'Scarf', 'Chair', 'Candle', 'Tower', 'House', 'Castle', 'Torch', 'Feather', 'Rod', 'Leaf', 'Tree', 'Flower', 'Petal', 'Droplet', 'Gate', 'Spear', 'Dagger', 'Fountain', 'Horn', 'Tooth', 'Claw', 'Lantern', 'Light', 'Drum', 'Cart', 'Axe', 'Hatchet', 'Pickaxe', 'Eye', 'Mountain', 'River', 'Flute', 'Wheel', 'Altar', 'Skull', 'Throne', 'Flag', 'Boulder', 'Wave', 'Maze', 'Scepter', 'Soldier', 'Spade', 'Wing', 'Couldron', 'Broom', 'Lance', 'Spear', 'Tiara', 'Cannon', 'Cannonball', 'Pistol', 'Rifle', 'Anvil', 'Airplane', 'Wrench', 'Horseshoe', 'Needle', 'Screw', 'Sapling', 'Pipe', 'Hat', 'Chest', 'Hourglass', 'Umbrella', 'Telephone', 'Ring', 'Pencil', 'Brush', 'Cone', 'Scroll', 'Heart', 'Spoon', 'Fork', 'Knife', 'Vase', 'Shell', 'Book'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     if (i < 3) {
       rnd = Math.floor(Math.random() * nm1.length);

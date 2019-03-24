@@ -9,7 +9,7 @@ export default function goliaths() {
   const namesSurL = ['aga', 'ageane', 'akane', 'akanu', 'akume', 'alathi', 'amino', 'amune', 'anathi', 'atake', 'athai', 'athala', 'atho', 'avea', 'avi', 'avone', 'eaku', 'ekali', 'elo', 'iaga', 'iago', 'iala', 'iano', 'igala', 'igane', 'igano', 'igo', 'igone', 'ileana', 'ithino', 'olake', 'ugate', 'ugoni', 'ukane', 'ukate', 'ukena', 'ulane', 'upine', 'utha', 'uthea'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     if (type === 1) {
       rnd = Math.floor(Math.random() * namesFemF.length);

@@ -8,7 +8,7 @@ export default function kelaris() {
     var names2 = ['acus', 'aemon', 'aeon', 'aethon', 'aeus', 'annos', 'antes', 'apius', 'areus', 'arios', 'arius', 'arus', 'asius', 'astos', 'ates', 'atius', 'aus', 'avros', 'eas', 'elous', 'emas', 'emus', 'enios', 'eon', 'eos', 'epios', 'erios', 'eron', 'eros', 'erus', 'es', 'etheus', 'etrios', 'etrius', 'etus', 'eus', 'hates', 'heus', 'hile', 'hos', 'ian', 'icus', 'idas', 'illes', 'illos', 'ion', 'is', 'isius', 'iss', 'issus', 'isthus', 'isto', 'ites', 'iton', 'ius', 'obus', 'ocles', 'olemus', 'olos', 'olus', 'onis', 'orgon', 'orior', 'orus', 'os', 'osios', 'othius', 'ous', 'ycus', 'ymion', 'yros', 'ysius', 'ystheus', 'ysus', 'ytus'];
   }
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     rnd = Math.floor(Math.random() * names1.length);
     rnd2 = Math.floor(Math.random() * names2.length);

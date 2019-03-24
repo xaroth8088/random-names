@@ -3,7 +3,7 @@ export default function plazas() {
   const nm2 = ['Plaza', 'Square'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     rnd = Math.floor(Math.random() * nm1.length);
     rnd2 = Math.floor(Math.random() * nm2.length);

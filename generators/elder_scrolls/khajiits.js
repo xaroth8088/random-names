@@ -12,7 +12,7 @@ export default function khajiits() {
     var names2 = ['aba', 'abhi', 'abi', 'ada', 'adhi', 'ahin', 'ahna', 'ahni', 'ahra', 'aji', 'ajma', 'amla', 'ani', 'ara', 'aranji', 'ari', 'arji', 'arra', 'asa', 'asha', 'ashi', 'asi', 'asma', 'assa', 'assi', 'asuna', 'ava', 'avi', 'azami', 'azda', 'ba', 'bah', 'bhi', 'dahna', 'dahra', 'dasha', 'drashi', 'eena', 'ena', 'feliz', 'hana', 'hasa', 'hashi', 'hba', 'hbah', 'heh', 'herra', 'hi', 'hila', 'hinda', 'hira', 'hiranirr', 'hni', 'hrazad', 'ia', 'idasha', 'ila', 'imba', 'ini', 'inna', 'ira', 'iranirr', 'irra', 'isa', 'isi', 'ivva', 'ja', 'jadhi', 'jarsi', 'ji', 'jirra', 'jjan', 'khtar', 'ki', 'la', 'lajma', 'lani', 'leena', 'mada', 'mara', 'mba', 'mla', 'muzi', 'nabi', 'nara', 'nari', 'ni', 'nita', 'nja', 'njarsi', 'nji', 'nna', 'pi', 'ra', 'raji', 'ranirr', 'ranji', 'rasha', 'rashi', 'rassa', 'ravi', 'raya', 'ri', 'riba', 'rina', 'rivva', 'rji', 'rra', 'rranirr', 'rri', 'rrina', 'sa', 'sari', 'sha', 'shima', 'si', 'sma', 'srin', 'ssa', 'ssi', 'suna', 'therra', 'tima', 'uki', 'ura', 'uzi', 'va', 'vani', 'vari', 'vi', 'ya', 'yla', 'zami', 'zda', 'zhinda', 'zita', 'zura'];
   }
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     if (i < 5) {
       rnd = Math.floor(Math.random() * names1.length);

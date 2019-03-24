@@ -8,7 +8,7 @@ export default function high_elfs() {
     var names2 = ['amh', 'in', 'onn', 'ear', 'ach', 'aire', 'ithir', 'ileas', 'os', 'amcha', 'uan', 'oine', 'ionn', 'alach', 'eart', 'ainn', 'aon', 'easal', 'eall', 'adh', 'air', 'eidigh', 'obhar', 'uil', 'ionan', 'uimin', 'eaglan', 'ang', 'ead', 'eal', 'aidh', 'earn', 'onn', 'anan', 'ainin', 'iarn', 'ainm', 'iachna', 'ias', 'asan', 'uaire', 'erian', 'airian', 'ainn', 'aoilin', 'ios', 'each', 'eamas', 'eanan', 'amh', 'anu', 'ando', 'imon', 'oki', 'eyo', 'unta', 'oda', 'otah', 'osan', 'emin', 'abaoo', 'omemah', 'ahome', 'aneo', 'on', 'otah', 'oton', 'ehew', 'aska', 'enam', 'iye', 'achme', 'opka', 'etu', 'ahton'];
   }
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     rnd = Math.floor(Math.random() * names1.length);
     rnd2 = Math.floor(Math.random() * names2.length);

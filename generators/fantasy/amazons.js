@@ -7,7 +7,7 @@ export default function amazons() {
   const nm6 = ['adia', 'ameia', 'anta', 'asca', 'cabe', 'ce', 'cleia', 'cyone', 'cyra', 'da', 'dae', 'dia', 'dice', 'dora', 'enice', 'esia', 'estra', 'estris', 'gea', 'gone', 'haedra', 'hyia', 'ippe', 'isbe', 'ises', 'leia', 'lene', 'lete', 'liope', 'lipe', 'lyte', 'mache', 'meia', 'nache', 'nara', 'neira', 'nestra', 'nia', 'nippe', 'noe', 'nousa', 'ope', 'padia', 'pedo', 'peia', 'pesia', 'phale', 'pyle', 'pyte', 'rera', 'reto', 'roe', 'scyra', 'ses', 'sippe', 'sose', 'tane', 'thippe', 'thoe', 'thya', 'thye', 'thyia', 'ybe', 'yche', 'yle', 'yme', 'yne', 'yope', 'yrbe', 'ytie'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     if (i < 5) {
       rnd = Math.floor(Math.random() * nm1.length);

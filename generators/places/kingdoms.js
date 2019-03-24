@@ -7,7 +7,7 @@ export default function kingdoms() {
   const names6 = ['Kingdom', 'Empire', 'Dynasty'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     if (i < 5) {
       rnd = Math.floor(Math.random() * names1.length);

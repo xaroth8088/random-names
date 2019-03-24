@@ -9,7 +9,7 @@ export default function military_vehicles() {
   const nm2 = ['Amphibious Vehicle', 'Anti-Tank Vehicle', 'Armored Car', 'Armored Personal Carrier', 'Armored Security Vehicle', 'Armored Utility Vehicle', 'Armored Vehicle', 'Artillery Command Vehicle', 'Artillery Tractor', 'Battle Tank', 'Bridging Vehicle', 'Cargo Carrier', 'Carrier', 'Command Vehicle', 'Cruiser Tank', 'Engineering Vehicle', 'Fire Support Vehicle', 'Heavy Tank', 'Infantry Fighting Vehicle', 'Infantry Tank', 'Launcher', 'Light Tank', 'Maintenance and Recovery Vehicle', 'Medium Tank', 'Mine Clearing Vehicle', 'Personal Carrier', 'Reconnaissance Vehicle', 'Recovery Vehicle', 'Repair Vehicle', 'Self-Propelled Anti-Tank Vehicle', 'Self-Propelled Gun', 'Self-Propelled Mortar', 'Supply Vehicle', 'Tank', 'Tank Destroyer', 'Transport', 'Utility Vehicle'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     rnd3 = Math.floor(Math.random() * nm4.length);
     rnd4 = Math.floor(Math.random() * nm3.length);

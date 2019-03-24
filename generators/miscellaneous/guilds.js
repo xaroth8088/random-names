@@ -7,7 +7,7 @@ export default function guilds() {
   const nm6 = ['Admirals', 'Alliance', 'Ancients', 'Anomalies', 'Apocalypse', 'Ashes', 'Assailant', 'Assassins', 'Assault', 'Berserkers', 'Blow', 'Brigade', 'Brothers', 'Butchers', 'Champions', 'Chaos', 'Criminals', 'Crossfire', 'Crusaders', 'Death', 'Defeat', 'Demons', 'Devils', 'Discipline', 'Domination', 'Dominion', 'Doom', 'Dust', 'Dynasty', 'Embers', 'End', 'Enemy', 'Entities', 'Executors', 'Exiles', 'Exterminators', 'Fall', 'Feast', 'Force', 'Gang', 'Gangsters', 'Genesis', 'Genocide', 'Gods', 'Grave', 'Gunslingers', 'Harvesters', 'Headhunters', 'Helix', 'Honour', 'Hooligans', 'Hunters', 'Illusions', 'Immortals', 'Inferno', 'Intent', 'Jackals', 'Killers', 'Knights', 'Legacy', 'Legion', 'Liquidators', 'Mafia', 'Maggots', 'Moguls', 'Nightmare', 'Noobs', 'Oblivion', 'Occupation', 'Outlaws', 'Paradox', 'Perception', 'Pergatory', 'Plague', 'Power', 'Predation', 'Predators', 'Prestige', 'Primeval', 'Privilege', 'Punished', 'Punks', 'Rage', 'Rebels', 'Regiment', 'Sacrament', 'Saints', 'Serenity', 'Shadow', 'Shadows', 'Sharpshooters', 'Singularity', 'Slayers', 'Soldiers', 'Squad', 'Strategy', 'Supremacy', 'Switchblades', 'Syndicate', 'Synergy', 'Thugs', 'Thunder', 'Titans', 'Tyranny', 'Valor', 'Vanguard', 'Vanguardians', 'Vanguards', 'Vengeance', 'Veterans', 'Vigor', 'Vigorous', 'Vikings', 'Vitality', 'Voltiac', 'Vultures', 'War', 'Warfare', 'Warheads', 'Widowmakers', 'Wolverines', 'Wound', 'Incarnation'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     if (i < 3) {
       rnd = Math.floor(Math.random() * nm5.length);

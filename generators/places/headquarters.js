@@ -4,7 +4,7 @@ export default function headquarters() {
   const nm3 = ['Abyss', 'Aerie', 'Animus', 'Anomaly', 'Anvil', 'Apex', 'Archetype', 'Armada', 'Asteroid', 'Asylum', 'Aurora', 'Bastion', 'Beacon', 'Bulwark', 'Burrow', 'Cardinal', 'Centurion', 'Citadel', 'Clover', 'Compass', 'Crescent', 'Curiosity', 'Dragonclaw', 'Echo', 'Eclipse', 'Elysium', 'Ender', 'Enterprise', 'Epoch', 'Exodus', 'Felicity', 'Garden', 'Glory', 'Hammer', 'Haven', 'Heart', 'Homage', 'Horoscope', 'Jewel', 'Jubilee', 'Juggernaut', 'Lament', 'Lodestar', 'Majesty', 'Marshal', 'Matriarch', 'Matron', 'Memento', 'Minaret', 'Miracle', 'Mirage', 'Monolith', 'Nemesis', 'Nest', 'Nexus', 'Oasis', 'Obelisk', 'Odyssey', 'Omen', 'Onyx', 'Oracle', 'Ornament', 'Outcast', 'Paradox', 'Paragon', 'Patriarch', 'Patron', 'Phenomenon', 'Phoenix', 'Pinnacle', 'Prodigy', 'Pyre', 'Razor', 'Requiem', 'Sanctum', 'Serenity', 'Snowflake', 'Solstice', 'Spectacle', 'Spire', 'Talon', 'Tempest', 'Torch', 'Tribute', 'Triumph', 'Twin', 'Utopia', 'Veil', 'Vendetta', 'Vertex', 'Void', 'Vortex', 'Zenith'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     if (i < 6) {
       rnd = Math.floor(Math.random() * nm1.length);

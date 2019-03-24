@@ -5,7 +5,7 @@ export default function languages() {
   const nm4 = ['abi', 'ada', 'ali', 'an', 'esh', 'ash', 'ani', 'ano', 'arhi', 'ari', 'aric', 'arin', 'asy', 'athi', 'ati', 'ean', 'ekhi', 'eno', 'eesh', 'ese', 'esh', 'ethi', 'eti', 'ian', 'ic', 'ili', 'in', 'ina', 'ish', 'iya', 'oshi', 'oni', 'osa', 'uin', 'un', 'uni', 'uri'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     if (i < 3) {
       rnd = Math.floor(Math.random() * nm1.length);

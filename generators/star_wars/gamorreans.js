@@ -11,7 +11,7 @@ export default function gamorreans() {
   const nm9 = ['b', 'c', 'ck', 'ckt', 'cs', 'cz', 'f', 'ff', 'g', 'gg', 'gh', 'k', 'kk', 'ks', 'l', 'lk', 'm', 'ms', 'n', 'ng', 'nn', 'ns', 'nt', 'r', 'rc', 'rf', 'rg', 'rk', 'rm', 'rn', 'rp', 'rq', 'rr', 'rrp', 'rrt', 'rs', 'rt', 'rth', 's', 'sh', 'ss', 'sz', 't', 'th', 'tt', 'z'];
 
 
-  i = Math.floor(Math.random() * 10);
+  const i = Math.floor(Math.random() * 10);
   {
     rnd6 = Math.floor(Math.random() * nm1.length);
     rnd7 = Math.floor(Math.random() * nm2.length);
