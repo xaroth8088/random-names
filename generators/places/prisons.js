@@ -3,7 +3,6 @@ export default function prisons() {
   const names2 = ['Asylum', 'Correctional Center', 'Correctional Facility', 'Detention Center', 'Holding Center', 'Institute', 'Institution', 'Juvenile Holding Center', 'Low Security Prison', 'Max Security Prison', 'Medium Security Prison', 'Penitentiary', 'Prison', 'Regional Prison', 'Work Camp'];
 
 
-
   {
     rnd = Math.floor(Math.random() * names1.length);
     rnd2 = Math.floor(Math.random() * names2.length);

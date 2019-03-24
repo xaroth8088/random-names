@@ -8,7 +8,6 @@ export default function arthurians() {
   const names6 = ['beth', 'ce', 'd', 'da', 'damor', 'damors', 'de', 'des', 'dine', 'dron', 'dwen', 'fach', 'far', 'fleur', 'flor', 'flour', 'gan', 'gau', 'geus', 'gune', 'gyr', 'kane', 'lat', 'ld', 'lda', 'lde', 'len', 'linda', 'linde', 'lla', 'lle', 'llt', 'loena', 'lon', 'lott', 'loyde', 'lt', 'lte', 'mrei', 'mri', 'mue', 'na', 'nddydd', 'ndole', 'ndrie', 'ndry', 'ne', 'ned', 'nes', 'nesse', 'net', 'nete', 'neve', 'never', 'ngaine', 'ngwain', 'nloie', 'nna', 'nor', 'nors', 'nte', 'nwen', 'rad', 'ramur', 'ramurs', 'rat', 'rawd', 'rd', 're', 'ree', 'rine', 'rne', 'rre', 'rvudd', 'rvydd', 'se', 'ssant', 'th', 'tte', 'vach', 'var', 'ver', 'vere', 'viana', 'vien', 'wse'];
 
 
-
   {
     if (type === 1) {
       rnd = Math.floor(Math.random() * names5.length);

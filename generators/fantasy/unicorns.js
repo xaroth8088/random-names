@@ -5,7 +5,6 @@ export default function unicorns() {
   const nm3 = ['Ainsel', 'Arryn', 'Auris', 'Baine', 'Chant', 'Chanted', 'Chipper', 'Elmas', 'Elwyn', 'Eos', 'Estar', 'Euros', 'Giddy', 'Gil', 'Grace', 'Gwyn', 'Happy', 'Iris', 'Jada', 'Jaden', 'Jolly', 'Kaisa', 'Kimber', 'Majesty', 'Matia', 'Mawu', 'Meara', 'Merry', 'Midnight', 'Mika', 'Milky Way', 'Monterya', 'Moriba', 'Mystery', 'Mystic', 'Nightwind', 'Perky', 'Rainbow', 'Robin', 'Roshan', 'Rune', 'Sable', 'Sapphire', 'Sigil', 'Silly', 'Silvesse', 'Snow', 'Snowflake', 'Solstice', 'Sparkles', 'Starburst', 'Stardust', 'Sterling', 'Sunny', 'Sunshine', 'Tryne', 'Twilight', 'Twinkle', 'Unity', 'Willow', 'Wynn', 'Zane'];
 
 
-
   {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm2.length);

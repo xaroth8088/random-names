@@ -4,7 +4,6 @@ export default function bird_of_preys() {
   const nm2 = ['Acadia', 'Alexis', 'Alibi', 'Amazone', 'Amber', 'Angel', 'Aphrodite', 'Arcane', 'Ares', 'Ash', 'Ashes', 'Astral', 'Athena', 'Aura', 'Aurora', 'Azure', 'Banshee', 'Blaze', 'Blitz', 'Bones', 'Calypso', 'Charity', 'Clemency', 'Cleo', 'Cleopatra', 'Codex', 'Dahlia', 'Dakota', 'Dawn', 'Diva', 'Ebony', 'Echo', 'Eclipse', 'Eve', 'Faith', 'Faye', 'Fire', 'Gidget', 'Ginger', 'Grace', 'Harmony', 'Hazel', 'Helena', 'Hope', 'Huntress', 'Ice', 'Ivory', 'Jade', 'Jewel', 'Jinx', 'Justice', 'Jynx', 'Karma', 'Labyrinth', 'Lady', 'Liberty', 'Love', 'Luna', 'Maiden', 'Maya', 'Medusa', 'Melancholy', 'Mercy', 'Midnight', 'Mischief', 'Mistress', 'Moone', 'Myst', 'Mystique', 'Nighte', 'Nova', 'Nyx', 'Olympia', 'Onyxia', 'Ozone', 'Pandora', 'Patience', 'Phoenix', 'Princess', 'Raine', 'Raven', 'Rebel', 'Ribbon', 'Ripley', 'Robin', 'Rogue', 'Ruby', 'Rune', 'Ruth', 'Sable', 'Sabre', 'Sanguine', 'Scarlett', 'Serenity', 'Shade', 'Shadow', 'Shaye', 'Siren', 'Skye', 'Snow', 'Storm', 'Termina', 'Truce', 'Twilight', 'Tyra', 'Vanity', 'Velvet', 'Victoria', 'Violet', 'Vixen', 'Wilde', 'Willow', 'Winter', 'Xena'];
 
 
-
   {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm2.length);

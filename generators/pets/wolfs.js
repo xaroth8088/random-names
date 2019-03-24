@@ -4,7 +4,6 @@ export default function wolfs() {
   const nm2 = ['Acadia', 'Aiyana', 'Akita', 'Alaska', 'Alexia', 'Alexis', 'Alize', 'Alpine', 'Amber', 'Amethyst', 'Angel', 'Ares', 'Ari', 'Aspen', 'Astral', 'Athena', 'Atilla', 'Aura', 'Aurora', 'Avril', 'Babe', 'Banshee', 'Beauty', 'Blaze', 'Blitz', 'Blitzen', 'Blossom', 'Bo', 'Boone', 'Breeze', 'Charm', 'Chronis', 'Clarity', 'Cleo', 'Codex', 'Coral', 'Crystal', 'Dakota', 'Dash', 'Dawn', 'Delphi', 'Destiny', 'Dharma', 'Diva', 'Dodger', 'Dot', 'Duchess', 'Ebony', 'Echo', 'Eclipse', 'Enigma', 'Faith', 'Fern', 'Gemini', 'Gia', 'Girl', 'Grace', 'Hailey', 'Heather', 'Heaven', 'Helen', 'Hope', 'Ice', 'Indigo', 'Iris', 'Ivory', 'Ivy', 'Jade', 'Jasmine', 'Jewel', 'Jinx', 'June', 'Juno', 'Justice', 'Jynx', 'Karma', 'Kenya', 'Lady', 'Laika', 'Levi', 'Lexis', 'Liberty', 'Lore', 'Lotus', 'Luna', 'Maple', 'Maxima', 'Meadow', 'Mello', 'Melody', 'Mercy', 'Midnight', 'Mona', 'Moone', 'Myst', 'Mysti', 'Mystique', 'Myth', 'Nanook', 'Nova', 'Nymph', 'Nyx', 'Omen', 'Onyxia', 'Opal', 'Oracle', 'Pandora', 'Paws', 'Pearl', 'Pepper', 'Phantom', 'Phoenix', 'Precious', 'Princess', 'Pyro', 'Queen', 'Rags', 'Raine', 'Raven', 'Rogue', 'Sable', 'Saffron', 'Sapphire', 'Satin', 'Scarlet', 'Shade', 'Shadow', 'Silver', 'Snow', 'Snowball', 'Snowflake', 'Solstice', 'Star', 'Twilight', 'Vapor', 'Velvet', 'Violet', 'Vixen', 'Whisper', 'Willow', 'Winter', 'Xena', 'Zelda'];
 
 
-
   {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm2.length);

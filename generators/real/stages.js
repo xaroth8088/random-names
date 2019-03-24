@@ -6,7 +6,6 @@ export default function stages() {
   const nm4 = ['Aaren', 'Addison', 'Aiden', 'Alex', 'Alexis', 'Ali', 'Angel', 'Ash', 'Ashley', 'Ashton', 'Aubrey', 'Avery', 'Bailey', 'Bennie', 'Bev', 'Billie', 'Billy', 'Blair', 'Blake', 'Bret', 'Brett', 'Brice', 'Brook', 'Brynn', 'Caden', 'Cameron', 'Carmen', 'Carol', 'Casey', 'Charlie', 'Chris', 'Clem', 'Cory', 'Dane', 'Danni', 'Danny', 'Denny', 'Drew', 'Eli', 'Elliot', 'Emerson', 'Erin', 'Fran', 'Frankie', 'Franky', 'Gabby', 'Gabe', 'Gail', 'Gale', 'Gene', 'Glen', 'Glenn', 'Haiden', 'Harley', 'Harper', 'Hayden', 'Jackie', 'Jaden', 'Jaime', 'Jamie', 'Jess', 'Jesse', 'Jessie', 'Jo', 'Jody', 'Jordan', 'Jude', 'Justice', 'Kai', 'Kerry', 'Kiran', 'Kit', 'Kris', 'Lane', 'Lee', 'Leigh', 'Lesley', 'Leslie', 'Logan', 'Lynn', 'Maddox', 'Marley', 'Mason', 'Mel', 'Mell', 'Morgan', 'Nicky', 'Noel', 'Phoenix', 'Quinn', 'Ray', 'Raylee', 'Reed', 'Reggie', 'Rene', 'Riley', 'River', 'Robin', 'Rory', 'Rowan', 'Rudy', 'Ryan', 'Sam', 'Sammy', 'Shay', 'Sidney', 'Silver', 'Skye', 'Skylar', 'Skyler', 'Steff', 'Tanner', 'Taylor', 'Terry', 'Tyler', 'Val', 'Vic', 'Will', 'Willy'];
 
 
-
   {
     rnd2 = Math.floor(Math.random() * nm3.length);
     if (type === 1) {

@@ -3,7 +3,6 @@ export default function natural_disasters() {
   const names2 = ['Hurricane', 'Flood', 'Tornado', 'Eruption', 'Avalanche', 'Drought', 'Hail Storm', 'Blizzard', 'Tsunami', 'Wildfire', 'Epidemic', 'Cyclone', 'Heat Wave', 'Solar Flare'];
 
 
-
   {
     rnd = Math.floor(Math.random() * names1.length);
     rnd2 = Math.floor(Math.random() * names2.length);

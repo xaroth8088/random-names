@@ -6,7 +6,6 @@ export default function gnomes() {
   const nm4 = ['bi', 'bys', 'celi', 'ci', 'dira', 'dysa', 'fi', 'fyx', 'gani', 'gyra', 'hana', 'hani', 'kasys', 'kini', 'la', 'li', 'lin', 'lys', 'mila', 'miphi', 'myn', 'myra', 'na', 'niana', 'noa', 'nove', 'phina', 'pine', 'qaryn', 'qys', 'rhana', 'roe', 'sany', 'ssa', 'sys', 'tina', 'tra', 'wyn', 'wyse', 'xi', 'xis', 'yaris', 'yore', 'za', 'zyre'];
 
 
-
   {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm3.length);

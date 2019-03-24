@@ -1,6 +1,4 @@
 export default function west_african_towns() {
-
-
   const nm1 = ['Ari', 'Aribi', 'Ba', 'Banfo', 'Bo', 'Boga', 'Boro', 'Bou', 'Dé', 'Dédou', 'Da', 'Dié', 'Diébou', 'Dia', 'Diapa', 'Dji', 'Do', 'Fa', 'Ga', 'Gaoua', 'Gara', 'Gayé', 'Go', 'Goro', 'Gou', 'Hou', 'Ka', 'Ki', 'Ko', 'Koko', 'Kombi', 'Kongou', 'Kou', 'Koudou', 'Koupé', 'Loro', 'Mé', 'Ma', 'Mogte', 'Nia', 'Nou', 'Oro', 'Oua', 'Ouaga', 'Ouahi', 'Pa', 'Pi', 'Pissi', 'Po', 'Pou', 'Pouy', 'Réo', 'Sé', 'Ségué', 'Sa', 'Sapo', 'Se', 'Si', 'So', 'Sole', 'Ta', 'Te', 'Tenko', 'Ti', 'Tika', 'To', 'Tou', 'Vi', 'Ya', 'Zi', 'Zinia', 'Zo'];
   const nm2 = ['bba', 'binda', 'bo', 'bougou', 'chari', 'da', 'dara', 'do', 'dogo', 'dougou', 'fora', 'ga', 'gan', 'gandé', 'go', 'goloko', 'gou', 'goussi', 'gouya', 'gré', 'gtedo', 'guet', 'ka', 'karé', 'ko', 'kodogo', 'kologo', 'la', 'lasso', 'lenzo', 'lly', 'logo', 'loko', 'lsa', 'ma', 'mo', 'néga', 'nénéga', 'na', 'ndé', 'nda', 'ndi', 'ndou', 'nfora', 'nga', 'ngin', 'ngo', 'ni', 'niaré', 'no', 'péla', 'paga', 'peni', 'poné', 'pouy', 'ré', 'range', 'rcy', 'rdié', 'rgaye', 'rgo', 'ri', 'rma', 'rom', 'romo', 'ssé', 'ssi', 'ssila', 'ssiri', 'sso', 'ssouri', 'tao', 'tchari', 'tenga', 'tié', 'yéri', 'ya', 'ye'];
   /* Ghana */

@@ -5,7 +5,6 @@ export default function koreans() {
   const nm3 = ['Ae', 'Ah', 'An', 'Ch\'a', 'Ch\'ae', 'Ch\'ang', 'Ch\'o', 'Ch\'oe', 'Ch\'on', 'Ch\'u', 'Cha', 'Chang', 'Changgok', 'Che', 'Chegal', 'Chi', 'Chin', 'Cho', 'Chom', 'Chon', 'Chong', 'Chu', 'Chun', 'Chung', 'Chup', 'Chwa', 'Eoh', 'Ha', 'Hae', 'Hak', 'Ham', 'Han', 'Ho', 'Hong', 'Hu', 'Hung', 'Hwa', 'Hwan', 'Hwang', 'Hwangbo', 'Hyon', 'Hyong', 'Im', 'In', 'Ka', 'Kae', 'Kal', 'Kam', 'Kan', 'Kang', 'Kangjon', 'Ki', 'Kil', 'Kim', 'Ko', 'Kok', 'Kong', 'Ku', 'Kuk', 'Kum', 'Kun', 'Kung', 'Kwak', 'Kwok', 'Kwon', 'Kye', 'Kyo', 'Kyon', 'Kyong', 'Ma', 'Mae', 'Maeng', 'Man', 'Mangjol', 'Mi', 'Min', 'Mo', 'Mok', 'Muk', 'Mun', 'Myo', 'Myong', 'Na', 'Nae', 'Nam', 'Namgung', 'Nan', 'Nang', 'No', 'Noe', 'Nu', 'Ogum', 'Oh', 'Ok', 'Om', 'On', 'Ong', 'P\'aeng', 'P\'an', 'P\'i', 'P\'il', 'P\'o', 'P\'ung', 'P\'yo', 'P\'yon', 'P\'yong', 'Pae', 'Paek', 'Pak', 'Pan', 'Pang', 'Pi', 'Pin', 'Ping', 'Pok', 'Pom', 'Pong', 'Pu', 'Pyon', 'Ra', 'Ran', 'Rang', 'Ri', 'Rim', 'Ro', 'Roe', 'Ru', 'Ryang', 'Ryo', 'Ryom', 'Ryon', 'Ryong', 'Ryu', 'Ryuk', 'Sa', 'Sagong', 'Sam', 'Sang', 'Si', 'Sim', 'Sin', 'Sip', 'So', 'Sobong', 'Sok', 'Sol', 'Somun', 'Son', 'Song', 'Sonu', 'Sop', 'Su', 'Sun', 'Sung', 'T\'ae', 'T\'ak', 'T\'an', 'Tae', 'Tam', 'Tan', 'Tang', 'To', 'Tokko', 'Ton', 'Tong', 'Tongbang', 'Tu', 'Uh', 'Um', 'Un', 'Wang', 'Wi', 'Won', 'Wu', 'Ya', 'Yang', 'Ye', 'Yi', 'Yo', 'Yom', 'Yon', 'Yong', 'Yop', 'Yu', 'Yuk', 'Yun'];
 
 
-
   {
     rnd2 = Math.floor(Math.random() * nm3.length);
     if (type === 1) {

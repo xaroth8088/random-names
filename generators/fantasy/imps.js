@@ -1,5 +1,4 @@
 export default function imps() {
-
   const nm1 = ['', '', '', '', '', '', '', 'b', 'ch', 'cr', 'cy', 'd', 'dr', 'g', 'gn', 'gr', 'j', 'k', 'kr', 'ky', 'l', 'n', 'p', 'q', 'qr', 'r', 'sh', 't', 'tr', 'ty', 'v', 'x', 'y', 'z', 'zr'];
   const nm2 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'ee', 'ia', 'iu', 'ai', 'aa'];
   const nm3 = ['bb', 'bh', 'bj', 'bk', 'bl', 'bq', 'br', 'gb', 'gf', 'gh', 'gl', 'gm', 'gn', 'gr', 'kb', 'kh', 'kj', 'kk', 'kl', 'km', 'kn', 'kr', 'lb', 'lj', 'll', 'ln', 'lp', 'lr', 'lt', 'ph', 'pk', 'pn', 'pp', 'pq', 'pr', 'rb', 'rj', 'rk', 'rl', 'rm', 'rn', 'rp', 'rq', 'rr', 'rt', 'zb', 'zl', 'zm', 'zn', 'zp', 'zr', 'zt', 'cb', 'cl', 'cn', 'cq', 'cr', 'ct', 'cx', 'cz', 'dj', 'dr', 'dv', 'dz', 'fn', 'fr', 'nc', 'nd', 'ng', 'nj', 'nl', 'nt', 'qb', 'ql', 'qn', 'qq', 'qr', 'sc', 'sh', 'sk', 'sl', 'sm', 'sn', 'sq', 'sr', 'ss', 'st', 'str', 'sz', 'tc', 'th', 'tj', 'tn', 'xh', 'xn'];

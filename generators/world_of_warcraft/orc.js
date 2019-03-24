@@ -9,7 +9,6 @@ export default function orc() {
   const nm8 = ['axe', 'arm', 'basher', 'binder', 'blade', 'bleeder', 'bringer', 'chewer', 'cleaver', 'crusher', 'eye', 'fang', 'fist', 'fury', 'hammer', 'hand', 'horn', 'lash', 'maul', 'maw', 'rage', 'ripper', 'runner', 'scream', 'seeker', 'slayer', 'snarl', 'song', 'splitter', 'sword', 'taker', 'wolf'];
 
 
-
   {
     rnd2 = Math.floor(Math.random() * nm2.length);
     rnd7 = Math.floor(Math.random() * nm7.length);

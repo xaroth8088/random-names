@@ -5,7 +5,6 @@ export default function shakespeareans() {
   const nm3 = ['Abergavenny', 'Agrippa', 'Aguecheek', 'Andronicus', 'Antony', 'Aufidius', 'Bardolph', 'Bates', 'Belch', 'Berkeley', 'Bigot', 'Blunt', 'Bona', 'Bottom', 'Bourchier', 'Brook', 'Brutus', 'Bullen', 'Cade', 'Campeius', 'Capulet', 'Carlisle', 'Cassio', 'Cassius', 'Catling', 'Cimber', 'Coleville', 'Coriolanus', 'Court', 'Cranmer', 'Cromwell', 'DeBoys', 'Denny', 'Erpingham', 'Erpinham', 'Evans', 'Falstaff', 'Fastolfe', 'Faulconbridge', 'Ferdinand', 'Fitzwalter', 'Flute', 'Ford', 'Glendower', 'Gobbo', 'Gough', 'Gower', 'Grey', 'Guildford', 'Gunner', 'Gurney', 'Hastings', 'Herbert', 'Horner', 'Iden', 'Keepdown', 'Lartius', 'LeBeau', 'LeFer', 'Lena', 'Leonantus', 'Lepidus', 'Ligarius', 'Lovell', 'Lucius', 'Lucy', 'Macbeth', 'Macduff', 'Martext', 'Minola', 'Montague', 'Montgomery', 'Mortimer', 'Mowbray', 'Nightwork', 'Northumberland', 'Oatcake', 'Page', 'Pandulph', 'Percy', 'Poins', 'Pompeius', 'Quince', 'Ratcliffe', 'Rebeck', 'Rivers', 'Rugby', 'Sandys', 'Saye', 'Scroop', 'Seacoal', 'Slender', 'Sly', 'Snout', 'Soundpost', 'Stafford', 'Stanley', 'Starveling', 'Talbot', 'Tearsheet', 'Thump', 'Topas', 'Tyrrell', 'Urswick', 'Vaughan', 'Vaux', 'Velutus', 'Vernon', 'Whitmore', 'Williams', 'Wolsey', 'deArmado', 'la Pucelle'];
 
 
-
   {
     rnd2 = Math.floor(Math.random() * nm3.length);
     if (type === 1) {

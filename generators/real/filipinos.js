@@ -9,7 +9,6 @@ export default function filipinos() {
   names1 = type === 1 ? namesFemale : namesMale;
 
 
-
   {
     rnd = Math.floor(Math.random() * names1.length);
     rnd2 = Math.floor(Math.random() * names1.length);

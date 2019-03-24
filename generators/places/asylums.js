@@ -3,7 +3,6 @@ export default function asylums() {
   const nm2 = ['Asylum', 'Mental Institution', 'Sanatorium', 'Psychiatric Hospital', 'Mental Hospital', 'Psychiatric Institution', 'Mental Asylum'];
 
 
-
   {
     rnd = Math.floor(Math.random() * nm1.length);
     rnd2 = Math.floor(Math.random() * nm2.length);

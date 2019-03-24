@@ -13,7 +13,6 @@ export default function mirialans() {
   const nm10 = ['i', 'a', 'o', 'e', 'u', '', ''];
 
 
-
   {
     rnd = Math.floor(Math.random() * nm1.length);
     rnd3 = Math.floor(Math.random() * nm3.length);

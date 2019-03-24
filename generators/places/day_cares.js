@@ -3,7 +3,6 @@ export default function day_cares() {
   const nm2 = ['Childcare', 'Childcare Center', 'Daycare', 'Daycare Center', 'Kindergarten', 'Nursery School', 'Playgroup', 'Pre-School'];
 
 
-
   {
     rnd = Math.floor(Math.random() * nm1.length);
     rnd2 = Math.floor(Math.random() * nm2.length);

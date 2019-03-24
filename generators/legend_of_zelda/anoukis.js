@@ -4,7 +4,6 @@ export default function anoukis() {
   const nm3 = ['u', 'o', 'u', 'o', 'u', 'o', 'oo'];
 
 
-
   {
     rnd = Math.floor(Math.random() * nm1.length);
     rnd2 = Math.floor(Math.random() * nm2.length);

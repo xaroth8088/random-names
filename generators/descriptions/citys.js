@@ -79,7 +79,7 @@ export default function citys() {
   while (rnd18 === rnd18b) {
     rnd18b = Math.floor(Math.random() * nm18.length);
   }
-  var rnd18c = Math.floor(Math.random() * nm18.length);
+  let rnd18c = Math.floor(Math.random() * nm18.length);
   while (rnd17 === rnd18c || rnd18b === rnd18c) {
     rnd18c = Math.floor(Math.random() * nm18.length);
   }

@@ -45,7 +45,7 @@ export default function traditions() {
   const rnd6 = Math.floor(Math.random() * nm6.length);
   const rnd6b = Math.floor(Math.random() * nm6[rnd6][0].length);
   const rnd6c = Math.floor(Math.random() * nm6[rnd6][1].length);
-  var rnd6d = Math.floor(Math.random() * nm6[rnd6][1].length);
+  const rnd6d = Math.floor(Math.random() * nm6[rnd6][1].length);
   while (rnd6c === rnd6d) {
 
   }

@@ -6,7 +6,6 @@ export default function ethiopians() {
   const names1 = type === 1 ? namesFemale : namesMale;
 
 
-
   {
     rnd = Math.floor(Math.random() * names1.length);
     rnd2 = Math.floor(Math.random() * namesMale.length);

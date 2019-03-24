@@ -4,7 +4,6 @@ export default function political_partys() {
   const nm3 = ['Party', 'League', 'Movement', 'Group', 'Union', 'Coalition', 'Party', 'Party'];
 
 
-
   {
     rnd = Math.floor(Math.random() * nm1.length);
     rnd2 = Math.floor(Math.random() * nm2.length);

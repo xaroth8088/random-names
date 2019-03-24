@@ -3,7 +3,6 @@ export default function orphanages() {
   const nm2 = ['Orphanage', 'Orphan Home', 'Home'];
 
 
-
   {
     rnd = Math.floor(Math.random() * nm1.length);
     rnd2 = Math.floor(Math.random() * nm2.length);

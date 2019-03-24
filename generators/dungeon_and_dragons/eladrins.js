@@ -6,7 +6,6 @@ export default function eladrins() {
   const nm4 = ['bis', 'bynn', 'cahne', 'caryn', 'celle', 'cena', 'diel', 'dys', 'faera', 'fyra', 'glyn', 'grys', 'hanna', 'hyssa', 'kiries', 'kyrath', 'lenae', 'lenna', 'lyn', 'lynna', 'meiv', 'miris', 'mynis', 'nairra', 'neth', 'parys', 'prana', 'qirith', 'qis', 'raste', 'rastra', 'riele', 'rynna', 'sanna', 'shana', 'sys', 'thaea', 'tora', 'trianna', 'vara', 'viryn', 'vyre', 'wena', 'wyse', 'xana', 'xis', 'yana', 'yeira', 'zane', 'zora'];
 
 
-
   {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm3.length);

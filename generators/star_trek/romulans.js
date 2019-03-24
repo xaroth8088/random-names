@@ -14,7 +14,6 @@ export default function romulans() {
   const nm11 = ['', 'a', 'a'];
 
 
-
   {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm7.length);

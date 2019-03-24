@@ -9,7 +9,6 @@ export default function eths() {
   }
 
 
-
   {
     rnd = Math.floor(Math.random() * names1.length);
     rnd2 = Math.floor(Math.random() * names2.length);

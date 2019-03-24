@@ -4,7 +4,6 @@ export default function inns() {
   const nm3 = ['Pub', 'Tavern', 'Inn', 'Bar', '', ''];
 
 
-
   {
     rnd = Math.floor(Math.random() * nm1.length);
     rnd2 = Math.floor(Math.random() * nm2.length);

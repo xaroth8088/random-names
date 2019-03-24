@@ -6,7 +6,6 @@ export default function pegasus() {
   const nm4 = ['cia', 'da', 'dia', 'dite', 'dora', 'la', 'lanie', 'lena', 'leta', 'lia', 'lina', 'lla', 'llia', 'lline', 'lona', 'mara', 'meda', 'mena', 'mia', 'misia', 'mona', 'mone', 'na', 'ndia', 'ndra', 'neta', 'nia', 'nie', 'nne', 'nor', 'nora', 'ntha', 'nthe', 'nthea', 'phelia', 'phine', 'phira', 'phne', 'phone', 'ra', 'rena', 'rene', 'resa', 'rine', 'rise', 'rissa', 'rria', 'sia', 'sima', 'sine', 'ssa', 'tasia', 'teia', 'tha', 'thea', 'thia', 'thy', 'tia', 'tine', 'tria', 'vana', 'xis'];
 
 
-
   {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm3.length);

@@ -5,7 +5,6 @@ export default function maoris() {
   const names3 = ['Akarana', 'Aperahama', 'Arana', 'Arepata', 'Arona', 'Arono', 'Eketone', 'Enoka', 'Hakopa', 'Hamuera', 'Hamutana', 'Hariwana', 'Henare', 'Herangi', 'Herewini', 'Himona', 'Hohepa', 'Karaka', 'Karauna', 'Kawhena', 'Keeti', 'Kerehoma', 'Keretene', 'Kingi', 'Manuera', 'Matene', 'Mete', 'Munu', 'Natana', 'Nepe', 'Nopera', 'Paora', 'Paraone', 'Pekama', 'Petera', 'Pihere', 'Pihopa', 'Pikari', 'Piripi', 'Puhipi', 'Raharuhi', 'Rakena', 'Rara', 'Rata', 'Rehipeti', 'Romana', 'Ropata', 'Taera', 'Tahana', 'Taimana', 'Taimona', 'Tame', 'Tamihana', 'Taneti', 'Tapihana', 'Teira', 'Tereiti', 'Terere', 'Tiki', 'Timoti', 'Tipene', 'Topia', 'Waaka', 'Waata', 'Wati', 'Watihana', 'Wetere', 'Wihone', 'Wikiriwhi', 'Winiata', 'Wirihana', 'Witika'];
 
 
-
   {
     if (type === 1) {
       rnd = Math.floor(Math.random() * names2.length);

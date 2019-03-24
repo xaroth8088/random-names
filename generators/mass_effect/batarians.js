@@ -10,7 +10,6 @@ export default function batarians() {
   const nm9 = ['cor', 'gan', 'gar', 'grom', 'ko', 'kon', 'lem', 'lo', 'm', 'mak', 'mo', 'n', 'nk', 'no', 'po', 'por', 'prak', 'rag', 'rak', 'rek', 'rem', 'rk', 'rlak', 'rn', 'rok', 'ros', 'rvan', 'sk', 'srak', 'svan', 'svin', 'th', 'than', 'thar', 'thor', 'tin', 'to', 'tok', 'tor', 'y'];
 
 
-
   {
     rnd = Math.floor(Math.random() * nm2.length);
     rnd2 = Math.floor(Math.random() * nm3.length);

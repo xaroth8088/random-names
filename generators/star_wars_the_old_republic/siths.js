@@ -16,7 +16,6 @@ export default function siths() {
   const nm14 = ['th', 's', 'sh', 'n', 'm', 'x', 'l', 'wr', 'sy', 'ty', 'tiur', 'tiuth', 'siuth', 'ny', 'nyr', 'lyr', 'rius', '', '', '', '', '', '', '', '', '', '', '', '', ''];
 
 
-
   {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm8.length);

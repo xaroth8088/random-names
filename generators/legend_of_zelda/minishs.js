@@ -5,7 +5,6 @@ export default function minishs() {
   const nm4 = ['ari', 'tari', 'rari'];
 
 
-
   {
     rnd = Math.floor(Math.random() * nm1.length);
     rnd2 = Math.floor(Math.random() * nm2.length);

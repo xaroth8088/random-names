@@ -20,7 +20,6 @@ export default function raxacoricofallapatorians() {
   const nm19 = ['een', 'ene'];
 
 
-
   {
     rnd = Math.floor(Math.random() * nm1.length);
     rnd2 = Math.floor(Math.random() * nm2.length);

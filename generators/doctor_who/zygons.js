@@ -5,7 +5,6 @@ export default function zygons() {
   const nm4 = ['l', 'm', 'n', 'r', 'rm', 'rn', 's', 'st'];
 
 
-
   {
     rnd = Math.floor(Math.random() * nm1.length);
     rnd2 = Math.floor(Math.random() * nm2.length);

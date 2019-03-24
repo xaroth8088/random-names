@@ -4,7 +4,6 @@ export default function dino_rhinos() {
   const nm2 = ['HueJass', 'Bakari', 'BigBoss', 'Boomer', 'BowlingBall', 'Brutus', 'Buba', 'Bubbles', 'Buhrahrum', 'Bulldozer', 'Bummer', 'Charge', 'Charger', 'Dakari', 'Dodge', 'Dunia', 'Duniya', 'Eddie', 'Faustosilva', 'Fizzawick', 'Gelom', 'GnomeSlinger		', 'Gnomepunter', 'Grace', 'Hasani', 'Hummer', 'Humperdink', 'Jimbi', 'Johari', 'Juba', 'Jump', 'Kibibbi', 'Kirushou', 'Kito', 'Kneel', 'LittleOne', 'Lokthar', 'Maret', 'MrLittle', 'Muchi', 'Njord', 'Noosie', 'Nyika', 'Rae', 'Rafael', 'Rafiki', 'Ralph', 'Ralphie', 'Randey', 'Rando', 'Random', 'Randy', 'Ray', 'Raymond', 'Raz', 'Redd', 'Respighi', 'Retro', 'Rex', 'Rhina', 'Rhinester', 'Rhino911', 'Rhinoldinho', 'Rhinoplasty', 'Riddick', 'RiffRaff', 'Rigby', 'Riley', 'Ringo', 'Rizzo', 'Roadblock', 'Robbie', 'Robby', 'Rodeo', 'Rodger', 'Rodney', 'Rolo', 'Roma', 'Romeo', 'Romey', 'Ron', 'Ronan', 'Rondo', 'Ronin', 'Rorschach', 'Rory', 'Rosco', 'Roscoe', 'Rosita', 'Ross', 'Roswell', 'Roudy', 'Rua', 'Ruban', 'Rubit', 'Ruby', 'Ruckus', 'Rudolph', 'Rudy', 'Ruffie', 'Ruffus', 'Ruffy', 'Rufus', 'Ruger', 'Rugrat', 'Runt', 'Rupert', 'Rupurt', 'Rusalka', 'Russell', 'Rusti', 'Rusty', 'Ryan', 'Ryder', 'Ryelle', 'Rythum', 'Sama', 'Samahe', 'Spearmeant', 'Stomper', 'Stompy', 'Thunderstomp', 'TickBird', 'Tiirkar', 'Tiny', 'TinyTim', 'Tubby', 'Ugmak', 'Vlad', 'Wagtail', 'Wooly', 'Zuvan'];
 
 
-
   {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm2.length);

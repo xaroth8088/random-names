@@ -14,7 +14,6 @@ export default function maiars() {
   const nm10 = ['o', 'e', 'ë', 'ó', '', '', '', ''];
 
 
-
   {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm1.length);

@@ -6,7 +6,6 @@ export default function halflings() {
   const nm4 = ['alyn', 'ara', 'brix', 'byn', 'caryn', 'cey', 'da', 'dove', 'drey', 'elle', 'eni', 'fice', 'fira', 'grace', 'gwen', 'haly', 'jen', 'kath', 'kis', 'leigh', 'la', 'lie', 'lile', 'lienne', 'lyse', 'mia', 'mita', 'ne', 'na', 'ni', 'nys', 'ola', 'ora', 'phina', 'prys', 'rana', 'ree', 'ri', 'ris', 'sica', 'sira', 'sys', 'tina', 'trix', 'ula', 'vira', 'vyre', 'wyn', 'wyse', 'yola', 'yra', 'zana', 'zira'];
 
 
-
   {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm3.length);

@@ -4,7 +4,6 @@ export default function babylonians() {
   const nm2 = ['Adeeshuduggaat', 'Ahassunu', 'Ahati-waqrat', 'Ahatsunu', 'Alittum', 'Allatu', 'Amata', 'Anagalmeshshu', 'Anagalshu', 'Anatu', 'Anunit', 'Anunit', 'Arahunaa', 'Aralu', 'Aruru', 'Arwia', 'Ashlultum', 'Atanah-ili', 'Banunu', 'Bau', 'Bau', 'Belatsunat', 'Belessunu', 'Beletsunu', 'Belili', 'Belit', 'Beltis', 'Bibi', 'Bilit taauth', 'Damkina', 'Darice', 'Davcina', 'Davke', 'Ellat-gula', 'Enheduana', 'Erishti-Aya', 'Esther', 'Ettu', 'Gashansunu', 'Gemegishkirihallat', 'Gemekaa', 'Gemeti', 'Gula', 'Gula', 'Humusi', 'Ia', 'Iltani', 'Ishtar', 'Ishtar-gamelat', 'Istar', 'Isthar', 'Kalumtum', 'Kishar', 'Kishar', 'Kissare', 'Ku-Aya', 'Ku-Baba', 'Kullaa', 'Monireh', 'Mot', 'Mummu', 'Munawwirtum', 'Mupallidat-serua', 'Mushezibitu', 'Mushezibti', 'Mylitta', 'Nana', 'Ni', 'Nidintu', 'Nin-marki', 'Ninsunu', 'Omarosa', 'Ri', 'Rubati', 'Rubati', 'Sabitum', 'Sarpanitum', 'Shala', 'Shala', 'Tabni-Ishtar', 'Tashmitum', 'Tauthe', 'Tiamat', 'Tiamat', 'Ubalnu', 'Yadidatum', 'Zakiti', 'Zirat-banit', 'Zirratbanit', 'Zirratbanit'];
 
 
-
   {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm2.length);

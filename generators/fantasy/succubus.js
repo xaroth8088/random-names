@@ -6,7 +6,6 @@ export default function succubus() {
   const nm4 = ['aela', 'aith', 'ana', 'ania', 'anya', 'arah', 'aris', 'aya', 'eli', 'elin', 'era', 'erris', 'esh', 'esha', 'ess', 'eth', 'eva', 'evera', 'iana', 'ielle', 'ienne', 'iesh', 'ieth', 'ira', 'ith', 'ixia', 'ixis', 'lea', 'lenne', 'less', 'lia', 'lienne', 'lisa', 'lith', 'lyn', 'lyss', 'nara', 'nell', 'nessa', 'neth', 'ney', 'nila', 'nixi', 'nore', 'nys', 'ola', 'ona', 'ora', 'oria', 'orin', 'oris', 'oth', 'ova', 'rahne', 'raya', 'reia', 'relle', 'riane', 'rya', 'ryna', 'ryss', 'sea', 'sha', 'sya', 'syss', 'tarish', 'thine', 'tia', 'tila', 'tora', 'tyse', 'via', 'vielle', 'vienne', 'vyn', 'vynia', 'vyra', 'yera', 'yla', 'ynore', 'yra', 'ysh', 'ysha', 'yss', 'yxih'];
 
 
-
   {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm1.length);

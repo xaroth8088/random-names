@@ -22,7 +22,7 @@ export default function staffs() {
   const rnd10 = Math.floor(Math.random() * nm10.length);
   const rnd11 = Math.floor(Math.random() * nm2.length);
   const rnd12 = Math.floor(Math.random() * nm8.length);
-  var rnd13 = Math.floor(Math.random() * nm9.length);
+  const rnd13 = Math.floor(Math.random() * nm9.length);
   while (rnd13 === rnd9) {
 
   }

@@ -23,7 +23,6 @@ export default function martial_arts() {
   const nm19 = ['', '', '', '', '', '', '', '', '', '', '', '', 'k', 'l', 'm', 'n', 'ng', 'r', 's', 't', 'w', 'y'];
 
 
-
   const i = Math.floor(Math.random() * 10);
   {
     if (i < 2) {

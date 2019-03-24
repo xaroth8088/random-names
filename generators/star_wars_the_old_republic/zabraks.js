@@ -10,7 +10,6 @@ export default function zabraks() {
   const nm8 = ['a', 'o', 'u', 'e', 'i', '', '', '', ''];
 
 
-
   {
     rnd2 = Math.floor(Math.random() * nm2.length);
     rnd4 = Math.floor(Math.random() * nm4.length);

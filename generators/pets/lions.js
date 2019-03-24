@@ -4,7 +4,6 @@ export default function lions() {
   const nm2 = ['Aggy', 'Alexi', 'Amber', 'Anger', 'Ashelia', 'Aslana', 'Athena', 'Azure', 'Babe', 'Bambino', 'Beauty', 'Belle', 'Biscuit', 'Blitze', 'Boots', 'Brownie', 'Bubbles', 'Buttercup', 'Cara', 'Cato', 'Chance', 'Cinnamon', 'Clawdia', 'Cloe', 'Coco', 'Cookie', 'Cosmo', 'Cotton', 'Crystal', 'Cupcake', 'Daisy', 'Dash', 'Dawn', 'Delilah', 'Dot', 'Dottie', 'Dutchess', 'Echo', 'Enigma', 'Enya', 'Eve', 'Faith', 'Fawn', 'Flame', 'Giggles', 'Ginny', 'Grace', 'Harley', 'Haze', 'Hazel', 'Hope', 'Huntress', 'Iris', 'Jade', 'Jasmine', 'Jinx', 'June', 'Jynx', 'Kara', 'Karma', 'Kat', 'Kate', 'Kathy', 'Kisses', 'Kitty', 'Lilly', 'Lola', 'Lucy', 'Lullaby', 'Luna', 'Lyla', 'Mae', 'Mango', 'Maya', 'Mello', 'Mila', 'Misty', 'Mocha', 'Muffin', 'Myst', 'Mystique', 'Nala', 'Neko', 'Nemo', 'Nibble', 'Nibbles', 'Nipsey', 'Nora', 'Nugget', 'Nutmeg', 'Oracle', 'Patches', 'Paws', 'Peaches', 'Pebble', 'Pebbles', 'Pepper', 'Phantom', 'Pickles', 'Precious', 'Princess', 'Puff', 'Roxy', 'Ruby', 'Sabrina', 'Sage', 'Sandy', 'Sapphire', 'Scratches', 'Selena', 'Serenity', 'Shade', 'Shadow', 'Shiba', 'Shinx', 'Smooch', 'Smudges', 'Snow', 'Snowball', 'Snowflake', 'Snuggles', 'Song', 'Sphinx', 'Spot', 'Stripes', 'Sugar', 'Summer', 'Sundance', 'Sweetie', 'Tickles', 'Tigress', 'Tiny', 'Toots', 'Trixie', 'Truffles', 'Twilight', 'Twinkle', 'Umbreon', 'Violet', 'Waffles', 'Whiskers', 'Whisper', 'Wiggles', 'Willow', 'Winter'];
 
 
-
   {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm2.length);

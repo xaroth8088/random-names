@@ -15,7 +15,6 @@ export default function ghiscaris() {
   const nm13 = ['', '', '', 'hl', 'k', 'n', 'q', 'r', 'z', 'zn'];
 
 
-
   {
     rnd9 = Math.floor(Math.random() * nm9.length);
     rnd10 = Math.floor(Math.random() * nm10.length);

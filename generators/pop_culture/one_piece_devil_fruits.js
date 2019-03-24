@@ -1,5 +1,4 @@
 export default function one_piece_devil_fruits() {
-
   const nm1 = [
     ['Ame', 'Rain'],
     ['Arashi', 'Storm'],
@@ -122,7 +121,6 @@ export default function one_piece_devil_fruits() {
     ['Yuki', 'Snow'],
     ['Zō', 'Elephant'],
   ];
-
 
 
   {

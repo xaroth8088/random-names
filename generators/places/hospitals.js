@@ -3,7 +3,6 @@ export default function hospitals() {
   const nm2 = ['Clinic', 'Community Hospital', 'General Hospital', 'Hospital', 'Hospital Center', 'Medical Center', 'Medical Clinic'];
 
 
-
   {
     rnd = Math.floor(Math.random() * nm1.length);
     rnd2 = Math.floor(Math.random() * nm2.length);

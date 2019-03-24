@@ -11,7 +11,6 @@ export default function sangheilis() {
   const nm9 = ['', '', 'ee', '', 'ai'];
 
 
-
   {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm6.length);

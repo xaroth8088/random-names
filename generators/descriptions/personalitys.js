@@ -283,7 +283,7 @@ export default function personalitys() {
   } else {
     var rnd1 = Math.floor(Math.random() * nm1.length);
     var rnd2 = Math.floor(Math.random() * nm2.length);
-    var rnd3 = Math.floor(Math.random() * nm3.length);
+    const rnd3 = Math.floor(Math.random() * nm3.length);
     var rnd4 = Math.floor(Math.random() * nm4.length);
     var rnd5 = Math.floor(Math.random() * nm5.length);
     var rnd6 = Math.floor(Math.random() * nm6.length);

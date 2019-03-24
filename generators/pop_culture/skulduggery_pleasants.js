@@ -9,7 +9,6 @@ export default function skulduggery_pleasants() {
   const nm7 = ['', '', 'l', 'n', 's', 'th'];
 
 
-
   {
     if (type === 2) {
       rnd = Math.floor(Math.random() * nm4.length);

@@ -3,7 +3,6 @@ export default function steampunk_citys() {
   const nm2 = ['barrow', 'borough', 'bourne', 'burg', 'burgh', 'burn', 'bury', 'cairn', 'dale', 'denn', 'drift', 'edge', 'fall', 'fell', 'ford', 'fort', 'garde', 'gate', 'glen', 'guard', 'gue', 'haben', 'hagen', 'hallow', 'ham', 'haven', 'helm', 'hold', 'hollow', 'mere', 'mire', 'moor', 'more', 'mourne', 'point', 'port', 'rath', 'stead', 'stein', 'storm', 'sturm', 'thain', 'ton', 'town', 'vale', 'wall', 'wallow', 'ward', 'watch', 'worth'];
 
 
-
   {
     rnd = Math.floor(Math.random() * nm1.length);
     rnd2 = Math.floor(Math.random() * nm2.length);

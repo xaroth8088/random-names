@@ -11,7 +11,6 @@ export default function silurians() {
   const nm9 = ['', '', '', '', '', '', '', 'h', 'c', 'l', 'n', 'm', 's'];
 
 
-
   {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm6.length);

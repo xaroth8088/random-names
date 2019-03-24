@@ -1,5 +1,4 @@
 export default function newspapers() {
-
   const nm3 = [
     ['The ', 'Bulletin'],
     ['The ', 'Chronicle'],

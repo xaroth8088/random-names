@@ -5,7 +5,6 @@ export default function inventions() {
   const nm4 = ['', '', '', 'Kit', 'Network', 'Network', 'Interface', 'Interface', 'Matrix', 'Tool', 'Engine', 'Gizmo', 'Device', 'MachineKit', 'Matrix', 'Tool', 'Engine', 'Apparatus', 'Apparatus', 'Device', 'Machine', 'Doodad', 'Widget', 'Thingymajig', 'Mechanism', 'Doohickey'];
 
 
-
   {
     rnd = Math.floor(Math.random() * nm1.length);
     rnd2 = Math.floor(Math.random() * nm2.length);

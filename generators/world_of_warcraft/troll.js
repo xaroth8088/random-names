@@ -7,7 +7,6 @@ export default function troll() {
   const nm6 = ['\'Anji', '\'Aya', '\'Dur', '\'Enji', '\'Eza', '\'Jen', '\'Jin', '\'Jun', '\'Kelah', '\'Mahi', '\'Tsu', '\'Ujia', '\'Unji', '\'Unna', '\'Zali', '\'Zula', '\'Zuli', 'aca', 'aci', 'ajia', 'ajie', 'ajin', 'ala', 'alae', 'alu', 'amja', 'amor', 'andi', 'ani', 'anja', 'anji', 'any', 'ara', 'ari', 'asha', 'ashi', 'atha', 'aty', 'aya', 'ayo', 'azae', 'azea', 'azi', 'azra', 'di', 'dur', 'eja', 'ejie', 'elea', 'emalu', 'ena', 'enji', 'era', 'esa', 'esha', 'eshia', 'eta', 'eti', 'eza', 'ezzi', 'hena', 'ia', 'iaja', 'ijazi', 'ijo', 'ila', 'ilith', 'ina', 'inda', 'ini', 'ino', 'isa', 'ishi', 'ixia', 'iya', 'izali', 'izi', 'ja', 'jari', 'jin', 'kelah', 'lynn', 'mahi', 'mei', 'ola', 'ona', 'onji', 'onna', 'onoo', 'oti', 'oza', 'ra', 'raa', 'shia', 'siya', 'toa', 'uja', 'ujia', 'ujin', 'ukraa', 'ula', 'ulae', 'ulea', 'uli', 'ulli', 'ullu', 'ulu', 'una', 'unja', 'unjin', 'unna', 'usah', 'usha', 'utie', 'uwei', 'uxia', 'uzzi', 'watha', 'ylin', 'yra', 'zae', 'zali', 'zari', 'zea', 'zula', 'zuli'];
 
 
-
   {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm4.length);

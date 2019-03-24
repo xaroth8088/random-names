@@ -10,7 +10,6 @@ export default function hives() {
   const nm8 = ['', '', '', '', 'h', 'l', 's', 'th'];
 
 
-
   {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm5.length);

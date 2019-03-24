@@ -1,5 +1,4 @@
 export default function hutts() {
-
   const nm1 = ['', '', '', '', '', 'b', 'bl', 'br', 'bw', 'c', 'ch', 'd', 'dr', 'f', 'g', 'gl', 'gr', 'h', 'j', 'k', 'kh', 'kl', 'kr', 'l', 'm', 'n', 'p', 'pl', 'pr', 'q', 'r', 's', 'sh', 'sk', 'sm', 'sp', 'sz', 't', 'tr', 'v', 'w', 'wh', 'y', 'z'];
   const nm2 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'aa', 'uu', 'ee', 'io', 'oo', 'eu', 'ua', 'ai', 'oa', 'oe', 'ae'];
   const nm3 = ['b', 'bb', 'bd', 'bs', 'ch', 'chr', 'd', 'dd', 'ddl', 'ff', 'ffr', 'g', 'gg', 'gh', 'gr', 'j', 'jj', 'k', 'kk', 'l', 'lb', 'ld', 'lg', 'll', 'ln', 'lr', 'lt', 'm', 'mb', 'mdr', 'mr', 'n', 'nd', 'ng', 'ngr', 'nj', 'nn', 'nt', 'nv', 'ny', 'pp', 'q', 'r', 'rb', 'rbl', 'rchr', 'rd', 'rdr', 'rg', 'rgr', 'rk', 'rl', 'rp', 'rph', 'rr', 'rrb', 'rrg', 'rs', 'rt', 'rv', 'rz', 's', 'sh', 'sk', 'skh', 'ss', 'st', 't', 'th', 'tj', 'tt', 'v', 'w', 'wn', 'x', 'yb'];

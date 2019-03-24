@@ -3,7 +3,6 @@ export default function castles() {
   const nm2 = ['Castle', 'Keep', 'Hold', 'Palace', 'Fort', 'Stronghold', 'Citadel', 'Fortress'];
 
 
-
   {
     rnd = Math.floor(Math.random() * nm1.length);
     rnd2 = Math.floor(Math.random() * nm2.length);

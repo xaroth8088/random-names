@@ -5,7 +5,6 @@ export default function orcs() {
   const nm4 = ['c', 'd', 'g', 'k', 'r', 't', 'z'];
 
 
-
   {
     rnd = Math.floor(Math.random() * nm1.length);
     rnd2 = Math.floor(Math.random() * nm2.length);

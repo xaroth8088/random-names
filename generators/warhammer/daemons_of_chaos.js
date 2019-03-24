@@ -9,7 +9,6 @@ export default function daemons_of_chaos() {
   const nm8 = ['the ', '', '', ''];
 
 
-
   {
     rnd = Math.floor(Math.random() * nm1.length);
     rnd2 = Math.floor(Math.random() * nm2.length);

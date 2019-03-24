@@ -8,7 +8,6 @@ export default function half_orcs() {
   const nm6 = ['d', 'da', 'dar', 'dur', 'g', 'gar', 'gh', 'gri', 'gu', 'sh', 'sha', 'shi', 'gum', 'gume', 'gur', 'ki', 'mar', 'mi', 'mira', 'me', 'mur', 'ne', 'ner', 'nir', 'nar', 'nchu', 'ni', 'nur', 'ral', 'rel', 'ri', 'rook', 'ti', 'tah', 'tir', 'tar', 'tur', 'war', 'z', 'zar', 'zara', 'zi', 'zur', 'zura', 'zira'];
 
 
-
   {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm4.length);

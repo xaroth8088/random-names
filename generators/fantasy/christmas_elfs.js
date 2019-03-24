@@ -7,7 +7,6 @@ export default function christmas_elfs() {
   const nm5 = ['ball', 'beard', 'bell', 'bow', 'box', 'cake', 'cane', 'card', 'carol', 'cheer', 'dance', 'dancer', 'dash', 'feast', 'flake', 'foot', 'friend', 'frost', 'fun', 'game', 'gift', 'glitter', 'glove', 'guest', 'hat', 'hope', 'hug', 'icicle', 'ivy', 'joke', 'joy', 'jump', 'kiss', 'laugh', 'light', 'love', 'milk', 'mitten', 'moon', 'myrrh', 'night', 'pie', 'plum', 'scarf', 'sledge', 'sleigh', 'song', 'spirit', 'star', 'toy', 'tree', 'warmth', 'wine', 'wish', 'wrap'];
 
 
-
   {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm3.length);

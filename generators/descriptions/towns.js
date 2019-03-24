@@ -80,16 +80,13 @@ export default function towns() {
   if (random6 == 2) {
     names5 = ['Gorash', 'Ogrinar', 'Tohrall', 'Dranorg', 'Hammerfall', 'Orsanum', 'Wrothguard', 'Garlund', 'Kharn', 'Xarluk'];
     names8 = ['Gnarg', 'Gnarlug', 'Gnorl', 'Gnorth', 'Gnoth', 'Gnurl', 'Golag', 'Golub', 'Gomatug', 'Gomoku', 'Gorgu', 'Gorlag', 'Grikug', 'Grug', 'Grukag', 'Grukk', 'Grung', 'Gruul'];
-
   } else if (random6 == 3) {
     names5 = ['Balagost', 'Moriath', 'Nogrand', 'Frosthold', 'Hammerhold', 'Thar Modan', 'Kaz Modor', 'Uldama', 'Hammerforge', 'Stormforge'];
     names8 = ['Bengahdar', 'Banbrek', 'Drumdus', 'Dulgarn', 'Galirg', 'Kharnur', 'Iromuador', 'Ragorhdrom', 'Urmbrek', 'Theledon'];
-
   } else if (random6 == 4) {
     names5 = ['Eviana', 'Malica', 'Mystohr', 'Arconia', 'Aeria', 'Mithyria', 'Calairith', 'Myracal', 'Fentalia', 'Curacius'];
     names7 = ['Queen', 'King', 'Prince', 'Princess'];
     names8 = ['Azore', 'Coral', 'Cowrie', 'Ebbie', 'Gullie', 'Ionia', 'Ivory', 'Marin', 'Meer', 'Meri', 'Mora', 'Nautila', 'Oceana', 'Pearl', 'Percula', 'Sandy', 'Shelly', 'Starfish', 'Tidal', 'Urchin', 'Wave', 'Whirl', 'Wrassey', 'Aed', 'Aodh', 'Aeden', 'Ash', 'Ashley', 'Blaze', 'Candala', 'Coala', 'Firo', 'Flare'];
-
   } else if (random6 == 5) {
     names5 = ['Zuldazin', 'Zalzabin', 'Jintalman', 'Zulamor', 'Julguroob', 'Atalakar', 'Zandalur', 'Farakazul', 'Guruubash', 'Amano'];
     names8 = ['Ekon', 'Erasto', 'Haijen', 'Hamedi', 'Hokima', 'Jaafan', 'Jabir', 'Jalai', 'Javyn', 'Jijel', 'Juma', 'Jumoke', 'Kaijin', 'Kazko', 'Maalik', 'Makas', 'Malak', 'Nyabingi', 'Rahjin', 'Rakash', 'Rashi', 'Razi'];

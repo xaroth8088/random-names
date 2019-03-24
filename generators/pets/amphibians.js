@@ -4,7 +4,6 @@ export default function amphibians() {
   const nm2 = ['Algee', 'Amazone', 'Amazonia', 'Babe', 'Belchy', 'Blinks', 'Blinky', 'Bloats', 'Bubble', 'Bubbles', 'Buffy', 'Bufonia', 'Cherry', 'Chops', 'Chubbles', 'Chubby', 'Clawdia', 'Cookie', 'Cosmo', 'Cricket', 'Croaks', 'Daphne', 'Dirty', 'Faye', 'Fern', 'Fiddle', 'Flubby', 'Flye', 'Freakey', 'Freckles', 'Frogzilla', 'Fye', 'Fyre', 'Geo', 'Gobbles', 'Gooey', 'Hippity', 'Hipscotch', 'Hoppity', 'Iggy', 'Karma', 'Kirby', 'Kiss', 'Kisses', 'Leaps', 'Leapy', 'Lilo', 'Lily', 'Lilypad', 'Lips', 'Mello', 'Muddy', 'Muds', 'Mystique', 'Noodles', 'Patches', 'Peeps', 'Penelope', 'Pepper', 'Pickle', 'Pickles', 'Princess', 'Puds', 'Pugs', 'Pumpkin', 'Raisin', 'Ribbit', 'Ribbits', 'Sally', 'Shirly', 'Shmoo', 'Shmooches', 'Slimey', 'Slippy', 'Smiley', 'Smooch', 'Snaile', 'Sparkle', 'Sparkles', 'Speckles', 'Spot', 'Spots', 'Squee', 'Squiggy', 'Stitch', 'Stitches', 'Teeny', 'Tiggles', 'Tiny', 'Tootsie', 'Trixie', 'Twiggy', 'Twinkle', 'Waddle', 'Waddles', 'Wiggle', 'Wiggles', 'Wobble', 'Wobbles', 'Xena'];
 
 
-
   {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm2.length);

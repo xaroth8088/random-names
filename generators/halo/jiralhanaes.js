@@ -6,7 +6,6 @@ export default function jiralhanaes() {
   const nm5 = ['us', 'um', 'eus', 'eum', 'ion', 'ius', 'is'];
 
 
-
   {
     rnd = Math.floor(Math.random() * nm1.length);
     rnd2 = Math.floor(Math.random() * nm2.length);

@@ -6,7 +6,6 @@ export default function elfs() {
   const nm4 = ['banise', 'bella', 'caryn', 'cyne', 'di', 'dove', 'fiel', 'fina', 'gella', 'gwyn', 'hana', 'harice', 'jyre', 'kalyn', 'krana', 'lana', 'lee', 'leth', 'lynn', 'moira', 'mys', 'na', 'nala', 'phine', 'phyra', 'qirelle', 'ra', 'ralei', 'rel', 'rie', 'rieth', 'rona', 'rora', 'roris', 'satra', 'stina', 'sys', 'thana', 'thyra', 'tris', 'varis', 'vyre', 'wenys', 'wynn', 'xina', 'xisys', 'ynore', 'yra', 'zana', 'zorwyn'];
 
 
-
   {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm3.length);

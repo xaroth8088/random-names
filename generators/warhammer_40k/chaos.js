@@ -6,7 +6,6 @@ export default function chaos() {
   const names4 = ['\'gah', '\'ginn', '\'khas', '\'lith', '\'lumix', '\'phis', '\'rya', '\'sax', '\'tira', '\'yah', 'bara', 'bess', 'bhox', 'bine', 'bis', 'bise', 'cian', 'darah', 'dash', 'dea', 'dehk', 'dell', 'dex', 'diaz', 'dine', 'dresh', 'dynn', 'faer', 'gaer', 'gash', 'genn', 'gihr', 'gone', 'goye', 'grell', 'grine', 'grinn', 'gwer', 'hirr', 'kei', 'kha', 'kiz', 'lashe', 'leck', 'lek', 'less', 'lix', 'liz', 'mex', 'mine', 'mona', 'mora', 'morta', 'muse', 'naere', 'neon', 'nesh', 'neth', 'neuth', 'nihx', 'nix', 'nosa', 'nu', 'phis', 'pho', 'prix', 'rane', 'raz', 'reah', 'renne', 'reon', 'resh', 'ress', 'rhazi', 'rilith', 'rique', 'riss', 'rith', 'riyes', 'riz', 'rothe', 'roush', 'roze', 'rumine', 'ruse', 'ruxa', 'ryn', 'silix', 'sou', 'sty', 'styxe', 'thall', 'thess', 'thia', 'this', 'tosh', 'triesh', 'trix', 'vie', 'vix', 'xis', 'zara'];
 
 
-
   {
     if (type === 1) {
       rnd = Math.floor(Math.random() * names3.length);

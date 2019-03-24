@@ -5,7 +5,6 @@ export default function vexs() {
   const nm4 = ['m', 'n', 's', 't', 'x'];
 
 
-
   {
     rnd = Math.floor(Math.random() * nm1.length);
     rnd2 = Math.floor(Math.random() * nm2.length);

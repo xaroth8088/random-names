@@ -4,7 +4,6 @@ export default function trolls() {
   const nm2 = ['Gilta', 'Vitchen', 'Tirezi', 'Fefeya', 'Aradya', 'Nepita', 'Damari', 'Meenah', 'Kenaya', 'Vriska', 'Ajia', 'Aketa', 'Altoa', 'Aszea', 'Atae', 'Azra', 'Ecia', 'Ejie', 'Eleja', 'Esha', 'Illa', 'Kea', 'Keja', 'Kina', 'Kiya', 'Kizi', 'Moza', 'Oyana', 'Raca', 'Rasha', 'Seshia', 'Suja', 'Suli', 'Talisa', 'Tasiya', 'Tayo', 'Teja', 'Teza', 'Tezzi', 'Tizali', 'Xia', 'Yaci', 'Yajdna', 'Yashi', 'Yera', 'Yeree', 'Yesha', 'Yishi', 'Zara', 'Zashi', 'Zea', 'Zelea', 'Zesa', 'Zeti', 'Zola', 'Zoti', 'Zujia', 'Zyra', 'Alunja', 'Anji', 'Arany', 'Bajin', 'Baliaja', 'Benni', 'Bie', 'Boonoo', 'Bunjin', 'Csini', 'Feylin', 'Girisha', 'Hailith', 'Ithra', 'Javilla', 'Javinda', 'Jezemalu', 'Jinthaiya', 'Jiranty', 'Jozala', 'Jubukraa', 'Juljin', 'Kanjin', 'Katanja', 'Katzine', 'Khelynn', 'Khijazi', 'Khuwei', 'Kululu', 'Lujin', 'Makali', 'Mandula', 'Meimei', 'Melelea', 'Nelina', 'Prerrahar', 'Pujati', 'Rangi', 'Renjai', 'Renji', 'Ronjaty', 'Saedmara', 'Saonji', 'Segawa', 'Senzala', 'Shadrala', 'Shakawatha', 'Shaktila', 'Shamra', 'Sharimara', 'Shubre', 'Soniya', 'Sonja', 'Suliya', 'Sulynn', 'Titamor', 'Tsaijo', 'Usitutie', 'Valja', 'Vanjin', 'Venmara', 'Vinji', 'Vinjin', 'Vonjai', 'Vujii', 'Vulzala', 'Watu', 'Yuhai', 'Zalma', 'Zalmea', 'Zenma', 'Zhonya', 'Zhoumai', 'Ziataaman', 'Ziataima', 'Ziataja', 'Ziatajie', 'Ziatakraa', 'Zonraja', 'Zulja', 'Zulja', 'Zuljah', 'Zuljin', 'Zulkraa', 'Zulmara', 'Zulraja', 'Zulrea', 'Zulwatha'];
 
 
-
   {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm2.length);
