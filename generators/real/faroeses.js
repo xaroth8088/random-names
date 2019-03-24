@@ -5,7 +5,7 @@ export default function faroeses() {
   const nm3 = ['Ásgeirsdóttir', 'Ólavsson', 'Aagard', 'Anderssen', 'Andreasen', 'Andreassen', 'Arge', 'Arrheboe', 'Bærentsen', 'Bóndi', 'Børresen', 'Barthel', 'Bech', 'Blak', 'Bleken', 'Bogason', 'Boman', 'Brú', 'Brattaberg', 'Brestisson', 'Broberg', 'Bronck', 'Dahl', 'Dam', 'Danielsen', 'Danjalsson', 'Debes', 'Djurhuus', 'Effersøe', 'Eidesgaard', 'Evensen', 'Finsen', 'Ganting', 'Glerfoss', 'Gulbranson', 'Háberg', 'Hátun', 'Høgnesen', 'Højgaard', 'Hammershaimb', 'Hansdóttir', 'Hansen', 'Hanusardóttir', 'Haraldsen', 'Haugaard', 'Heinason', 'Heinesen', 'Helmsdal', 'Hentze', 'Holdremyr', 'Hoydal', 'Isaksen', 'Jákupsson', 'Jógvansson', 'Jóhansen', 'Jónsson', 'Jacobsen', 'Jakobsen', 'Jensen', 'Joensen', 'Johannesen', 'Johannessen', 'Johansen', 'Justinussen', 'Kallsberg', 'Kamban', 'Kampmann', 'Kielberg', 'Kjelnæs', 'Knudsen', 'Krogh', 'Kruse', 'Lützen', 'Lamhauge', 'Landt', 'Lassen', 'Lisberg', 'Long', 'Lyngbye', 'Magnussen', 'Matras', 'Mikines', 'Mikkelsen', 'Mohr', 'Mortensen', 'Nólsoy', 'Nansen', 'Niclasen', 'Nielsen', 'Nolsøe', 'Nysted', 'Olsen', 'Oskarsson', 'Ottarsdóttir', 'Páll', 'Pálsdóttir', 'Patursson', 'Petersen', 'Pløyen', 'Poulsen', 'Rólantsson', 'Rønne', 'Rønning', 'Rasmussen', 'Reginsson', 'Reinert', 'Reistrup', 'Restorff', 'Reyni', 'Rosenmeyer', 'Ryberg', 'Sørensen', 'Schrøter', 'Sigmundsdóttir', 'Sigurðsson', 'Simonsen', 'Skarði', 'Smith', 'Stórá', 'Svabo', 'Tórgarð', 'Taalle', 'Tausen', 'Thomsen', 'Torfasen', 'Vágadal', 'Vatnhamar', 'Viderø', 'Wich', 'Ziska'];
 
 
-  const i = Math.floor(Math.random() * 10);
+
   {
     rnd2 = Math.floor(Math.random() * nm3.length);
     if (type === 1) {

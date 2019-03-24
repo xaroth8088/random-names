@@ -11,7 +11,7 @@ export default function miralukas() {
   const nm8 = ['i', 'a', 'o', 'e', 'u', '', '', ''];
 
 
-  const i = Math.floor(Math.random() * 10);
+
   {
     rnd2 = Math.floor(Math.random() * nm2.length);
     rnd2b = Math.floor(Math.random() * nm2.length);

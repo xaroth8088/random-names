@@ -7,7 +7,7 @@ export default function dwarfs() {
   const names3 = ['A', 'Ae', 'Al', 'Ar', 'Ara', 'Be', 'Ber', 'Bra', 'Bro', 'Ca', 'Cada', 'Car', 'Cari', 'Da', 'Do', 'Du', 'Dur', 'E', 'Eto', 'Fe', 'Fer', 'Fera', 'Fo', 'For', 'Fore', 'Ga', 'Gal', 'Gar', 'Ghe', 'Gher', 'Gla', 'Go', 'Gor', 'Goro', 'Ha', 'Har', 'He', 'Hel', 'Hi', 'Hir', 'I', 'Ka', 'Kana', 'Kla', 'Klar', 'Ko', 'Me', 'Mei', 'Mer', 'O', 'Or', 'Ra', 'Rae', 'Ro', 'Rou', 'Ru', 'Rumo', 'Sa', 'Sae', 'Te', 'Tho', 'Ti', 'To', 'Tor', 'Tu', 'Tur', 'U', 'Ul', 'Va', 'Var', 'Vo', 'We', 'Wey', 'Yo', 'Zy'];
   const names4 = ['ban', 'ca', 'can', 'das', 'dash', 'den', 'dens', 'der', 'dic', 'din', 'dra', 'drat', 'ducan', 'ka', 'lac', 'lar', 'lban', 'lmas', 'lmi', 'lney', 'lon', 'lra', 'lro', 'mas', 'mi', 'mold', 'mot', 'mote', 'munt', 'nak', 'narek', 'ney', 'nka', 'no', 'noch', 'ntop', 'ra', 'ral', 'rald', 'ran', 'rana', 'ras', 'rat', 'rek', 'ren', 'ret', 'ridin', 'rin', 'ro', 'rol', 'row', 'sca', 'sten', 'tack', 'tan', 'ten', 'top', 'ver', 'vis', 'vish', 'vo', 'vonak', 'vorn'];
 
-  const i = Math.floor(Math.random() * 10);
+
   {
     if (type === 1) {
       rnd0 = Math.floor(Math.random() * namesFemale.length);

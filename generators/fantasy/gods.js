@@ -8,7 +8,7 @@ export default function gods() {
   const nm6 = ['Abundance', 'Agriculture', 'Animals', 'Battle', 'Beauty', 'Beer', 'Beginnings', 'Blacksmiths', 'Chaos', 'Children', 'Chivalry', 'Commerce', 'Conquest', 'Dawn', 'Day', 'Death', 'Destiny', 'Destruction', 'Dreams', 'Dusk', 'Duty', 'Earth', 'Education', 'Endings', 'Envy', 'Fall', 'Fame', 'Fertility', 'Finance', 'Fire', 'Forgiveness', 'Fortune', 'Freedom', 'Funerals', 'Good Luck', 'Governance', 'Harvest', 'Hatred', 'Health', 'Home', 'Honesty', 'Honor', 'Hope', 'Hunting', 'Infamy', 'Jealousy', 'Judgement', 'Justice', 'Law', 'Life', 'Life & Death', 'Light', 'Logic', 'Love', 'Loyalty', 'Magic', 'Marriage', 'Medicine', 'Mercy', 'Messages', 'Miracles', 'Misfortune', 'Music', 'Nature', 'Night', 'Night & Day', 'Oracles', 'Order', 'Peace', 'Penance', 'Pleasure', 'Poetry', 'Prosperity', 'Revenge', 'Science', 'Secrecy', 'Shadows', 'Sleep', 'Spring', 'Strength', 'Success', 'Summer', 'Thunder', 'Time', 'Torture', 'Trade', 'Tranquility', 'Tricks', 'Truth', 'Vengeance', 'Victory', 'Virtues', 'War', 'Water', 'Weddings', 'Wind', 'Wine', 'Winter', 'Wisdom', 'Work', 'Youth', 'the Afterlife', 'the Dark', 'the Hearth', 'the Hunt', 'the Insane', 'the Land', 'the Military', 'the Moon', 'the Mountains', 'the Ocean', 'the Ostracized', 'the Rivers', 'the Sea', 'the Sky', 'the Stars', 'the Sun', 'the Underworld'];
 
 
-  const i = Math.floor(Math.random() * 10);
+
   {
     rnd = Math.floor(Math.random() * nm1.length);
     rnd2 = Math.floor(Math.random() * nm2.length);

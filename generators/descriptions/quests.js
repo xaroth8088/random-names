@@ -1,6 +1,5 @@
 export default function quests() {
   const type = Math.random() > 0.5 ? 0 : 1;
-  const tp = type;
   const nm1 = ['You there', 'Excuse me', 'Forgive me', 'Pardon me', 'Please', 'Please excuse me', '\'Scuse me'];
   const nm2 = ['adventurer', 'hero', 'traveler', 'champion'];
   const nm3 = ['Hear me out for a minute', 'Help out a person in need', 'I need a favor of you', 'I need a helping hand', 'I need you to intervene', 'I need you to save us', 'I need your help', 'I\'m glad you\'re here', 'I\'m in need of your assistance', 'I\'m in need of your service', 'I\'m relieved to see you', 'Please, help me out', 'Please, lend me your hand', 'Spare me some of your time', 'Would you lend me your aid', 'You\'re a sight for sore eyes', 'You\'ve come at the right time', 'You\'ve got to help me', 'Your assistance is required', 'Your skills are required'];
@@ -32,9 +31,9 @@ export default function quests() {
   const rnd12 = Math.floor(Math.random() * nm12.length);
   const rnd13 = Math.floor(Math.random() * nm13.length);
   const rnd14 = Math.floor(Math.random() * nm14.length);
-  const rnd15 = Math.floor(Math.random() * nm15.length);
 
-  if (tp === 1) {
+
+  if (type === 1) {
     var name = `${nm1[rnd1]}, ${nm2[rnd2]}. ${nm12[rnd12]}.`;
     var name2 = nm13[rnd13];
     var name4 = nm14[rnd14];
@@ -53,11 +52,11 @@ export default function quests() {
   result += name2;
 
   result += '\n';
-  if (tp != 1) {
+  if (type != 1) {
     result += name3;
     result += '\n';
     result += '\n';
-  } else if (tp === 1) {
+  } else if (type === 1) {
     result += '\n';
   }
   result += name4;

@@ -6,7 +6,7 @@ export default function dwarfs() {
   const nm4 = ['belle', 'bera', 'delle', 'deth', 'dielle', 'dille', 'dish', 'dora', 'dryn', 'dyl', 'giel', 'glia', 'glian', 'gwyn', 'la', 'leen', 'leil', 'len', 'lin', 'linn', 'lyl', 'lyn', 'lynn', 'ma', 'mera', 'mora', 'mura', 'myl', 'myla', 'nan', 'nar', 'nas', 'nera', 'nia', 'nip', 'nis', 'niss', 'nora', 'nura', 'nyl', 'nys', 'nyss', 'ra', 'ras', 'res', 'ri', 'ria', 'rielle', 'rin', 'ris', 'ros', 'ryl', 'ryn', 'sael', 'selle', 'sora', 'syl', 'thel', 'thiel', 'tin', 'tyn', 'va', 'van', 'via', 'vian', 'waen', 'win', 'wyn', 'wynn'];
 
 
-  const i = Math.floor(Math.random() * 10);
+
   {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm3.length);

@@ -8,7 +8,7 @@ export default function draenei() {
   const nm6 = ['aan', 'al', 'all', 'ally', 'araa', 'ca', 'dine', 'ela', 'elle', 'elli', 'era', 'ere', 'ett', 'ette', 'gin', 'guni', 'haa', 'hi', 'hri', 'in', 'ine', 'irah', 'kua', 'la', 'laa', 'laana', 'lae', 'laena', 'lun', 'mae', 'mena', 'mere', 'mis', 'mon', 'nii', 'nora', 'oh', 'ora', 'raa', 'rah', 'ran', 'ret', 'rette', 'ri', 'rii', 'rua', 'sa', 'stra', 'straa', 'taa', 'ti', 'tia', 'tra', 'traa', 'ua', 'un', 'uni', 'zi'];
 
 
-  const i = Math.floor(Math.random() * 10);
+
   {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm4.length);

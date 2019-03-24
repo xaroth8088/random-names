@@ -5,7 +5,7 @@ export default function witchs() {
   const nm3 = ['Aaron', 'Acelin', 'Adam', 'Adar', 'Aeneas', 'Aidan', 'Ailen', 'Aindreas', 'Alaric', 'Alastair', 'Allard', 'Altair', 'Anan', 'Athan', 'Atherton', 'Azriel', 'Balder', 'Ballard', 'Bardo', 'Barrett', 'Beck', 'Bevan', 'Blaize', 'Brady', 'Bram', 'Brenainn', 'Brencis', 'Brody', 'Cade', 'Caedmon', 'Calder', 'Callum', 'Caton', 'Chalfont', 'Chalmers', 'Chay', 'Chilton', 'Conan', 'Conrad', 'Cornelius', 'Cosmo', 'Cullen', 'Cyrus', 'Daegal', 'Dallan', 'Damek', 'Dante', 'Darius', 'Darnell', 'Dashiel', 'David', 'Delano', 'Derek', 'Deron', 'Derrick', 'Derwin', 'Devin', 'Dillon', 'Dilwyn', 'Douglas', 'Draigh', 'Duncan', 'Dylan', 'Earthan', 'Einar', 'Eiran', 'Eldridge', 'Elfed', 'Eliphas', 'Elwin', 'Emlyn', 'Eoin', 'Erik', 'Ewart', 'Finn', 'Fontayne', 'Forrest', 'Freeman', 'Frewin', 'Gabriel', 'Gaian', 'Galahad', 'Galen', 'Gerard', 'Goran', 'Gunnar', 'Heath', 'Innis', 'Jasion', 'Jorah', 'Kadir', 'Kaine', 'Kaspar', 'Kayne', 'Keanu', 'Keene', 'Keith', 'Killian', 'Laramie', 'Laris', 'Lars', 'Lazar', 'Leander', 'Leif', 'Leland', 'Lucian', 'Lucius', 'Luke', 'Maddock', 'Magnus', 'Marc', 'Marden', 'Mark', 'Mars', 'Marsden', 'Merrill', 'Michael', 'Mistral', 'Mortimer', 'Name', 'Niam', 'Nicholas', 'Oberon', 'Orion', 'Osran', 'Panas', 'Paxton', 'Pilan', 'Rainer', 'Regan', 'Rehan', 'Reuben', 'Rodney', 'Rune', 'Saul', 'Seth', 'Sol', 'Tade', 'Tate', 'Thayer', 'Tierney', 'Tiordan', 'Torin', 'Trent', 'Troy', 'Ulrich', 'Vivian', 'Wade', 'Ward', 'Wayde', 'Wolfe', 'Xavier', 'Xenos', 'Zander', 'Zelig', 'Zen', 'Zion', 'Zohar'];
 
 
-  const i = Math.floor(Math.random() * 10);
+
   {
     rnd2 = Math.floor(Math.random() * nm2.length);
     if (type === 1) {

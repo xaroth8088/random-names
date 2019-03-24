@@ -8,7 +8,7 @@ export default function altmers() {
   const nm6 = ['aire', 'al', 'binder', 'ian', 'ire', 'ius', 'lock', 'or', 'orin', 'thar', 'us', 'watch', 'aere', 'ahl', 'kaender', 'aen', 'ihre', 'ious', 'ore', 'onin', 'fhar', 'eus', 'aine', 'ael', 'iath', 'ihle', 'iuth', 'our', 'orinh', 'thaer', 'useus', 'faere', 'an', 'iane', 'ifeth', 'thius', 'oth', 'aerith', 'fhaer', 'osin'];
 
 
-  const i = Math.floor(Math.random() * 10);
+
   {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm3.length);

@@ -8,7 +8,7 @@ export default function bolians() {
   const nm6 = ['d', 'das', 'dd', 'din', 'f', 'far', 'ff', 'fit', 'g', 'gg', 'git', 'gon', 'ha', 'har', 'hino', 'ht', 'l', 'lar', 'lin', 'll', 'mar', 'min', 'mm', 'nar', 'nat', 'nin', 'nn', 'ra', 'ras', 'ro', 'rr', 'sa', 'sin', 'slo', 'ss', 'ta', 'ten', 'tor', 'tt', 'wa', 'was', 'wat'];
 
 
-  const i = Math.floor(Math.random() * 10);
+
   {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm3.length);

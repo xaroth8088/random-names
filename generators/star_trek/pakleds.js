@@ -7,7 +7,7 @@ export default function pakleds() {
   const nm5 = ['b', 'd', 'g', 'k', 'l', 'm', 'p', 'r', 'gg', 'kk', 'll', 'rr'];
 
 
-  const i = Math.floor(Math.random() * 10);
+
   {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm1.length);

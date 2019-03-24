@@ -4,7 +4,7 @@ export default function assyrians() {
   const nm2 = ['Mariam', 'Nardeen', 'Yamima', 'Danila', 'Sadi', 'Abella', 'Achadina', 'Adorina', 'Akhita', 'Anochina', 'Aramina', 'Arbella', 'Ari eil', 'Ashourina', 'Asia', 'Asia', 'Asiah', 'Atourina', 'Aurhai', 'Aurya', 'Awijil', 'Awita', 'Baila', 'Baileet', 'Beerta', 'Bet eil', 'Biblina', 'Brat bail', 'Brat eil', 'Brat youm', 'Damrina', 'Domarina', 'Eilbrat', 'Eilina', 'Emmita', 'Hani\'ata', 'Hano', 'Huda', 'Ishtar', 'Ishtar', 'Khannah', 'Kushi', 'Larsa', 'Lawita', 'Lea', 'Leah', 'Leah', 'Leja', 'Lejka', 'Lelu', 'Lilith', 'Lolita', 'Lwita', 'Madjida', 'Marbita', 'Mardina', 'Marina', 'Marjanita', 'Marnita', 'Martha', 'Milta', 'Muneera', 'Nahida', 'Nahrina', 'Naramsina', 'Nardina', 'Nashiram', 'Nasibin', 'Nineveh', 'Ninorta', 'Ninsina', 'Ninsun', 'Osmet', 'Paldina', 'Panna', 'Pari', 'Ramina', 'Ramsina', 'Rashomta', 'Rdita', 'Sahdina', 'Sawrina', 'Shamiram', 'Shamiran', 'Shamyran', 'Shamreta', 'Shamrina', 'Shamura', 'Sharokina', 'Shimta', 'Shirat', 'Simta', 'Sorme', 'Ur', 'Walita', 'Wardina', 'Wardiya', 'Yaeeta', 'Yata', 'Yayota'];
 
 
-  const i = Math.floor(Math.random() * 10);
+
   {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm2.length);

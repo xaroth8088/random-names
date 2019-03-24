@@ -4,7 +4,7 @@ export default function shifters() {
   const names2 = ['Abyss', 'Almond', 'Amber', 'Amethyst', 'Anemone', 'Aqua', 'Aurora', 'Autumn', 'Birch', 'Bloom', 'Blossom', 'Breeze', 'Briar', 'Brook', 'Canyon', 'Chestnut', 'Cloud', 'Coral', 'Coyote', 'Crest', 'Cricket', 'Crystal', 'Dawn', 'Dew', 'Dewdrop', 'Diamond', 'Elm', 'Ember', 'Emerald', 'Evening', 'Feather', 'Fern', 'Flare', 'Floe', 'Flora', 'Floret', 'Flow', 'Fluff', 'Galaxy', 'Gem', 'Hail', 'Harley', 'Haze', 'Hazel', 'Horizon', 'Ice', 'Indigo', 'Iris', 'Isle', 'Ivy', 'Jade', 'Jasmine', 'Juniper', 'Karma', 'Lake', 'Lavender', 'Leaf', 'Lily', 'Luna', 'Magenta', 'Maple', 'Marigold', 'Meadow', 'Midnight', 'Mist', 'Moon', 'Moss', 'Nebula', 'Nutmeg', 'Ocean', 'Olive', 'Opal', 'Orchid', 'Pearl', 'Petal', 'Pine', 'Pinecone', 'Plume', 'Poison', 'Pyro', 'Quill', 'Rain', 'Raven', 'Rill', 'River', 'Robin', 'Rose', 'Rosemary', 'Ruby', 'Saffron', 'Sage', 'Sapphire', 'Scarlet', 'Shade', 'Silver', 'Sky', 'Snow', 'Snowflake', 'Spring', 'Star', 'Stardust', 'Sugar', 'Summer', 'Sun', 'Sunrise', 'Sunset', 'Sunshine', 'Swill', 'Thistle', 'Tidal', 'Tiger', 'Tinder', 'Topaz', 'Twig', 'Twilight', 'Urchin', 'Vapor', 'Violet', 'Whirl', 'Willow', 'Wind', 'Wing', 'Winter'];
 
 
-  const i = Math.floor(Math.random() * 10);
+
   {
     if (type === 1) {
       rnd2 = Math.floor(Math.random() * names2.length);

@@ -12,7 +12,7 @@ export default function anzatis() {
   const nm10 = ['ct', 'cn', 'cm', 'gr', 'kk', 'kr', 'kt', 'll', 'lg', 'lf', 'ld', 'lr', 'lkk', 'k', 'mm', 'mr', 'md', 'nn', 'nr', 'nd', 'nt', 'nn', 'r', 'rr', 'rt', 'rkk', 'sh', 'st', 'sn', 'sm', 'th', 'sh', 'tt', 'tr', 'zz'];
 
 
-  const i = Math.floor(Math.random() * 10);
+
   {
     rnd6 = Math.floor(Math.random() * nm8.length);
     rnd7 = Math.floor(Math.random() * nm9.length);

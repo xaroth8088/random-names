@@ -3,7 +3,7 @@ export default function weequays() {
   const nm1 = ['', '', '', '', '', 'b', 'br', 'c', 'ch', 'd', 'f', 'g', 'gr', 'gw', 'h', 'j', 'k', 'kr', 'l', 'm', 'n', 'p', 'pl', 'pr', 'q', 's', 'sh', 't', 'tr', 'v', 'w', 'y'];
   const nm2 = ['a', 'e', 'i', 'o', 'u', 'a', 'o', 'u', 'a', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'o', 'u', 'a', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'o', 'u', 'a', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'o', 'u', 'a', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'o', 'u', 'a', 'o', 'u', 'ia', 'ie', 'ea', 'ei', 'ee', 'aa', 'ai'];
   const nm3 = ['-m', '-n', '-h', '-l', '-v', 'b', 'b-r', 'bl', 'b-d', 'b-z', 'd', 'd-r', 'd-z', 'dl', 'ds', 'dd', 'g', 'g-r', 'gg', 'gr', 'gd', 'gl', 'h', 'j', 'k-b', 'k-r', 'kd', 'k-z', 'kn', 'kr', 'kb', 'km', 'l', 'll', 'ln', 'm', 'mb', 'nm-b', 'mr', 'n-d', 'nd', 'nl', 'nn', 'ns', 'r', 'r-z', 'r-b', 'r-g', 'r-d', 'rg', 'rr', 'rs', 'rt', 's-d', 's-b', 's-l', 's-g', 't', 'tt', 'v', 'z'];
-  const nm3b = ['b', 'bl', 'd', 'dl', 'ds', 'dd', 'g', 'gg', 'gr', 'gd', 'gl', 'h', 'j', 'kd', 'kn', 'kr', 'kb', 'km', 'l', 'll', 'ln', 'm', 'mb', 'mr', 'nd', 'nl', 'nn', 'ns', 'r', 'rg', 'rr', 'rs', 'rt', 't', 'tt', 'v', 'z'];
+
   const nm4 = ['', '', '', '', 'bl', 'c', 'g', 'h', 'k', 'kk', 'l', 'm', 'mbl', 'mm', 'n', 'nn', 'r', 'rb', 'rg', 'rk', 'rm', 'rs', 'rt', 's', 'sk', 't', 'ts', 'v', 'wn', 'y', 'z'];
   const nm5 = ['b', 'c', 'f', 'g', 'h', 'k', 'p', 'q', 'r', 's', 't', 'v', 'x', 'z'];
   const nm6 = ['a', 'a', 'e', 'o', 'i', 'u', 'o', 'a', 'a', 'e', 'o', 'i', 'u', 'o', 'a', 'a', 'e', 'o', 'i', 'u', 'o', 'a', 'a', 'e', 'o', 'i', 'u', 'o', 'a', 'a', 'e', 'o', 'i', 'u', 'o', 'a', 'e', 'o', 'i', 'u', 'o', 'a', 'ie', 'ii', 'ee', 'ei'];

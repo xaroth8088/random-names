@@ -1,4 +1,6 @@
-function generator$lord_of_the_rings$elfs(type) {﻿
+export default function elfs() {
+  const type = Math.random() < 0.5 ? 0 : 1;
+
   const nm1 = [
     ['Âr', 'Royal/Noble'],
     ['Êg', 'Thorn'],

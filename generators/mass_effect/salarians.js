@@ -13,7 +13,7 @@ export default function salarians() {
     var names7 = ['a', 'e', 'o', 'i'];
   }
 
-  const i = Math.floor(Math.random() * 10);
+
   {
     rnd0 = Math.floor(Math.random() * names1.length);
     rnd1 = Math.floor(Math.random() * names2.length);

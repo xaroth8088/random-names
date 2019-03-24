@@ -1,4 +1,4 @@
-export default function wines() {﻿
+export default function wines() {
   const nm1 = ['', '', '', '', '', 'b', 'c', 'd', 'f', 'g', 'h', 'j', 'k', 'l', 'm', 'n', 'p', 'q', 'r', 's', 't', 'v', 'w', 'x', 'y', 'z', 'bl', 'br', 'ch', 'cl', 'dh', 'fr', 'fl', 'gh', 'gr', 'sh', 'tr'];
   const nm2 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'ueu', 'ou', 'au', 'ai', 'ue', 'eau', 'au', 'ei', 'ee', 'ia', 'ie', 'io', 'uei', 'oui', 'ieu', 'eo'];
   const nm3 = ['bb', 'bl', 'br', 'c', 'cc', 'cch', 'ch', 'd', 'f', 'g', 'gd', 'gn', 'gr', 'j', 'k', 'l', 'lb', 'lbl', 'ldt', 'll', 'lr', 'ls', 'm', 'mb', 'mbl', 'mbr', 'mch', 'mm', 'mp', 'n', 'nc', 'nch', 'nd', 'ndr', 'ng', 'nh', 'nj', 'nk', 'nn', 'nt', 'nth', 'ntr', 'nv', 'pf', 'pl', 'q', 'r', 'rb', 'rc', 'rch', 'rd', 'rf', 'rg', 'rgr', 'rh', 'rl', 'rm', 'rn', 'rr', 'rs', 'rt', 'rth', 'rtz', 's', 'sb', 'sc', 'sl', 'ss', 'ssl', 'st', 'th', 'tt', 'v', 'vr', 'x', 'z'];

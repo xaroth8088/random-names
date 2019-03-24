@@ -4,7 +4,7 @@ export default function egyptian_towns() {
   const names3 = ['benu', 'besheh', 'bu', 'det', 'djed', 'dju', 'dos', 'fu', 'hdet', 'henet', 'kha', 'khen', 'lzum', 'm', 'ma', 'mar', 'meru', 'mhat', 'mty', 'mu', 'munein', 'n', 'na', 'nein', 'nemhat', 'net', 'nis', 'nu', 'nutjer', 'pata', 'pet', 'pis', 'remu', 'ris', 'rma', 'rmeru', 'rna', 'ru', 'run', 'runa', 's', 'sa', 'sai', 'set', 'sheh', 'sir', 'siris', 'sma', 'souk', 'sut', 'sy', 'ta', 'taten', 'ten', 'tennu', 'this', 'thus', 'tjer', 'tunis', 'ty', 'yut', 'zum', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', ''];
 
 
-  const i = Math.floor(Math.random() * 10);
+
   {
     rnd = Math.floor(Math.random() * names1.length);
     rnd2 = Math.floor(Math.random() * names2.length);

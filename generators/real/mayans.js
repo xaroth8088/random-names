@@ -4,7 +4,7 @@ export default function mayans() {
   const nm2 = ['Ah-Uaynih', 'Ah-Wink-Ir-Masa', 'Akhustal', 'Akna', 'Alaghom-Naom-Tzentel', 'Amoxtili', 'Chachiuitl', 'Chen', 'Chichuaton', 'Chimalmat', 'Chin', 'Chirakan-Ixmucane', 'Citlali', 'Citlamina', 'Colel', 'Colel Cab', 'Coszcatl', 'Cualli', 'Eleuia', 'Ichtaca', 'Ihuicatl', 'Iktan', 'Itotia', 'Itzamatul', 'Itzel', 'Iuitl', 'Ix Kaknab', 'Ixazaluoh', 'Ixazalvoh', 'Ixchel', 'Ixcuiname', 'Ixik', 'Ixtab', 'Ixtel', 'Ixtli', 'Mecatl', 'Meztli', 'Nelli', 'Nenetl', 'Patli', 'Sacniete', 'Sacnite', 'Tecuith', 'Tepin', 'Tlalli', 'Tonalnan', 'Xmucane', 'Xoc', 'Xochitl', 'Xoco', 'Xpiayoc', 'Xquic', 'Xquiq', 'Yatzil', 'Yoltzin', 'Zac-Kuk', 'Zeltzin', 'Zyanya'];
 
 
-  const i = Math.floor(Math.random() * 10);
+
   {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm2.length);

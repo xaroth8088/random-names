@@ -10,7 +10,7 @@ export default function house_elfs() {
   const nm8 = ['k', 'n', 's', 'l', 'm', 'p'];
 
 
-  const i = Math.floor(Math.random() * 10);
+
   {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm1.length);

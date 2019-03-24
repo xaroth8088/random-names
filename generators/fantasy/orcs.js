@@ -4,7 +4,7 @@ export default function orcs() {
   const nm2 = ['Agrob', 'Badbog', 'Bashuk', 'Bogdub', 'Bugdurash', 'Bula', 'Bulak', 'Bulfim', 'Bum', 'Burzob', 'Burub', 'Dura', 'Durgat', 'Durz', 'Gashnakh', 'Ghob', 'Glasha', 'Glob', 'Gluronk', 'Gonk', 'Grat', 'Grazob', 'Gulfim', 'Kharzug', 'Lagakh', 'Lambug', 'Lazgar', 'Mogak', 'Morn', 'Murob', 'Murzush', 'Nargol', 'Rolfish', 'Orbul', 'Ragash', 'Rulfim', 'Shadbak', 'Shagar', 'Shagdub', 'Sharn', 'Sharog', 'Shazgob', 'Shelur', 'Uloth', 'Ulumpha', 'Urzoth', 'Urzul', 'Ushat', 'Ushug', 'Yazgash', 'Batul', 'Borba', 'Bumph', 'Homraz', 'Rogbut', 'Mazoga', 'Mog', 'Mor', 'Oghash', 'Rogmesh', 'Snak', 'Ugak', 'Umog', 'Arob', 'Atub', 'Bagrak', 'Bolar', 'Bor', 'Borgakh', 'Dulug', 'Garakh', 'Ghak', 'Gharol', 'Ghorza', 'Gul', 'Lash', 'Murbol', 'Sharamph', 'Shel', 'Shufharz', 'Ugor', 'Urog', 'Yotul'];
 
 
-  const i = Math.floor(Math.random() * 10);
+
   {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm2.length);

@@ -45,7 +45,7 @@ export default function weapons() {
     }
   }
   if (rnd8 === 0 || rnd8 === 1) {
-    var rnd9 = Math.floor(Math.random() * (2 - 0 + 1)) + 0;
+    var rnd9 = Math.floor(Math.random() * (2 - 0 + 1));
   } else if (rnd8 > 1 && rnd8 < 5) {
     var rnd9 = Math.floor(Math.random() * (5 - 3 + 1)) + 3;
   } else if (rnd8 === 5 || rnd8 === 6) {

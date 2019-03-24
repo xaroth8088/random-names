@@ -5,7 +5,7 @@ export default function orcs() {
   const nm3 = ['b', 'br', 'bd', 'bz', 'd', 'dd', 'dr', 'dz', 'g', 'gh', 'gr', 'gn', 'gz', 'k', 'kk', 'kd', 'kz', 'kn', 'l', 'ld', 'lkz', 'll', 'lz', 'lr', 'lg', 'lk', 'm', 'mg', 'mz', 'mr', 'n', 'ng', 'nr', 'nk', 'r', 'rd', 'rk', 'rn', 'rr', 'rg', 'rz', 'rv', 's', 'sr', 'sk', 'sg', 'sc', 'v', 'vr', 'vk', 'vz', 'z', 'zr', 'zk', 'zn', 'zm', 'zc'];
   const nm4 = ['', '', '', 'ch', 'g', 'hn', 'hk', 'hm', 'hd', 'k', 'kk', 'lk', 'lkk', 'lt', 'ld', 'm', 'n', 'r', 'rd', 'rk', 'rg', 'rn', 'sh', 'sk', 't'];
   const nm5 = ['', '', '', '', '', 'b', 'c', 'ch', 'd', 'g', 'gr', 'f', 'g', 'gr', 'k', 'kr', 'l', 'm', 'n', 'r', 't', 'tr', 'v', 'vr'];
-  const nm6 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'y', 'ya', 'oa', 'ia', 'ua'];
+
   const nm7 = ['b', 'bb', 'bg', 'd', 'dd', 'dg', 'dj', 'dr', 'ff', 'gg', 'gj', 'gd', 'gr', 'gn', 'gm', 'hj', 'hm', 'hn', 'hr', 'k', 'kd', 'kb', 'kr', 'kk', 'l', 'lb', 'lg', 'llg', 'ld', 'lld', 'lk', 'lr', 'llr', 'm', 'mr', 'mj', 'mg', 'mk', 'ng', 'nj', 'n', 'nn', 'nr', 'r', 'rg', 'rj', 'rr', 'rv', 'sgr', 'sg', 'sh', 'sk', 'z', 'zn'];
   const nm8 = ['', '', '', '', '', '', '', '', '', '', 'c', 'd', 'g', 'k', 'm', 'n', 'ng', 's', 'ss', 't'];
   const nm9 = ['', '', '', '', '', 'b', 'br', 'ch', 'cr', 'd', 'dh', 'f', 'g', 'gh', 'gr', 'k', 'kr', 'kh', 'm', 'n', 'r', 't', 'th', 'v', 'vh', 'z'];

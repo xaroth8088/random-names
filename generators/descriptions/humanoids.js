@@ -53,8 +53,7 @@ export default function humanoids() {
   const nm57 = ['short fur', 'coarse skin', 'smooth skin', 'soft skin', 'delicate skin', 'coarse fur', 'thick fur', 'coarse skin', 'smooth skin', 'soft skin', 'delicate skin', 'small scales', 'thick skin', 'thick scales', 'slime', 'slimy scales', 'large scales', 'rock-like scales', 'fluffy fur', 'nasty skin', 'wood-like skin', 'small feathers', 'large feathers', 'feathers', 'oily skin', 'armor-like scales', 'large armor-like scales'];
   const nm59 = ['', '', '', '', '', '', '', '', '', '', '', '', ', from which a long tail sways back and forth', ', from which a short tail sways back and forth', ', from which a broad tail sways back and forth', ', from which a thin tail sways back and forth', ', from which a small tail sways back and forth', ', from which a large tail sways back and forth', ', from which a narrow tail sways back and forth', ', from which a massive tail sways back and forth', ', from which a bony tail sways back and forth', ', from which a spiked tail sways back and forth', ', from which a tentacle-like tail grows', ', from which a coarse tail sways back and forth', ', from which a split tail sways back and forth', ', from which a forked tail sways back and forth', ', from which a bladed tail sways back and forth', ', from which a fanned tail sways back and forth'];
 
-  const tp = type;
-  if (tp === 1) {
+  if (type === 1) {
     var rnd1 = Math.floor(Math.random() * nm1.length);
     var rnd2 = Math.floor(Math.random() * nm2.length);
     var rnd3 = Math.floor(Math.random() * nm3.length);
@@ -83,7 +82,7 @@ export default function humanoids() {
     var rnd24 = Math.floor(Math.random() * nm24.length);
     var rnd25 = Math.floor(Math.random() * nm25.length);
     const rnd55 = Math.floor(Math.random() * nm55.length);
-    const rnd56 = Math.floor(Math.random() * nm56.length);
+
     const rnd57 = Math.floor(Math.random() * nm57.length);
     var rnd28 = Math.floor(Math.random() * nm28.length);
     const rnd59 = Math.floor(Math.random() * nm59.length);
@@ -134,7 +133,7 @@ export default function humanoids() {
 
     var name5 = `Its body is covered in ${nm27[rnd27]} and its shoulders are ${nm28[rnd28]} its pelvis${nm29[rnd29]}.`;
   }
-  result = '';
+  let result = '';
   result += name;
   result += '\n';
   result += name2;

@@ -2,7 +2,7 @@ export default function necromancers() {
   const type = Math.random() > 0.5 ? 0 : 1;
   const namesFemale = ['bea', 'betha', 'brix', 'cia', 'cilia', 'dira', 'dita', 'gami', 'ghana', 'grid', 'hilde', 'len', 'lian', 'lya', 'mira', 'mish', 'mona', 'mura', 'ness', 'peste', 'pris', 'reas', 'reda', 'ren', 'ress', 'rina', 'ris', 'roti', 'rotia', 'selm', 'sin', 'tulah', 'vana', 'vash', 'ven', 'verra', 'viah', 'vris', 'xaura', 'zaen'];
   const namesMale = ['brum', 'cular', 'dan', 'dhur', 'dulus', 'dum', 'gan', 'ghor', 'grim', 'kai', 'kar', 'khar', 'kras', 'lak', 'lazar', 'lekai', 'los', 'mien', 'mon', 'pent', 'qir', 'qur', 'rael', 'rius', 'row', 'thik', 'thum', 'tic', 'vok', 'vras', 'xir', 'xius', 'xor', 'zad', 'zar', 'zhar', 'zhul', 'zis', 'zius', 'zor'];
-  const namesNeutral = ['baem', 'bres', 'brix', 'cix', 'crux', 'dhir', 'dhos', 'drem', 'drex', 'drim', 'ghrin', 'laer', 'leki', 'mek', 'min', 'mirn', 'morn', 'nirn', 'noth', 'nus', 'peth', 'prix', 'qis', 'qrax', 'shis', 'thas', 'thes', 'thir', 'tos', 'war', 'with', 'wix', 'xas', 'xhin', 'xiem', 'xis', 'xith', 'yor', 'zael', 'zis'];
+
   const names1 = ['a', 'e', 'i', 'o', 'u', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', ''];
   const names2 = ['b', 'c', 'd', 'f', 'g', 'h', 'k', 'l', 'm', 'n', 'p', 'r', 's', 't', 'v', 'w', 'x', 'y', 'z', 'br', 'cr', 'dr', 'gr', 'kr', 'pr', 'str', 'vr', 'wr', 'zr', 'st', 'ch', 'chr', 'sh'];
   const names3 = ['a', 'e', 'i', 'o', 'u', 'ae', 'ou', 'au', 'ei', 'io', 'a', 'e', 'i', 'o', 'a', 'e'];
@@ -10,7 +10,7 @@ export default function necromancers() {
 
   const names4 = type === 1 ? namesFemale : namesMale;
 
-  const i = Math.floor(Math.random() * 10);
+
   {
     rnd = Math.floor(Math.random() * names1.length);
     rnd2 = Math.floor(Math.random() * names2.length);

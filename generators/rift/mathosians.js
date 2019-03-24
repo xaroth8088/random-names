@@ -1,4 +1,6 @@
-function generator$rift$mathosians(type) {﻿
+export default function mathosians() {
+  const type = Math.random() < 0.5 ? 0 : 1;
+
   if (type === 1) {
     var names1 = ['Ad', 'Adel', 'Ag', 'Agn', 'Al', 'Am', 'Amal', 'And', 'Ang', 'Bar', 'Bern', 'Birg', 'Brun', 'Car', 'Cec', 'Cel', 'Christ', 'Char', 'Cor', 'Clar', 'Dan', 'Den', 'Dor', 'Ed', 'El', 'Elf', 'Elis', 'Els', 'Em', 'Emil', 'Er', 'Es', 'Est', 'Flor', 'Fel', 'Frid', 'Gabr', 'Gen', 'Gertr', 'Gret', 'Gund', 'Hann', 'Heid', 'Helg', 'Herm', 'Hild', 'Ing', 'Isab', 'Jan', 'Johann', 'Jul', 'Kar', 'Kat', 'Kath', 'Lar', 'Lill', 'Lin', 'Madel', 'Marg', 'Marl', 'Mel', 'Mon', 'Nat', 'Nic', 'Petr', 'Ren', 'Ros', 'Sabr', 'Saman', 'Ser', 'Seraph', 'Sof', 'Soph', 'Sus', 'Ther', 'Urs', 'Val', 'Valer', 'Ver', 'Veron', 'Yv'];
     var names2 = ['a', 'adette', 'alena', 'alie', 'anda', 'andra', 'anie', 'anna', 'anze', 'ara', 'arete', 'arie', 'arina', 'ascha', 'atha', 'auke', 'ea', 'eanor', 'een', 'efine', 'egard', 'ekka', 'ele', 'eli', 'elin', 'eline', 'eliy', 'ella', 'elle', 'elore', 'ena', 'enie', 'esia', 'eth', 'ette', 'eva', 'ia', 'iane', 'ice', 'icia', 'ie', 'iela', 'ienne', 'ies', 'ika', 'ilde', 'ilia', 'ily', 'ina', 'ind', 'ine', 'ion', 'issa', 'istel', 'istin', 'itha', 'ivia', 'izia', 'olin', 'oline', 'onia', 'onora', 'ora', 'ore', 'othea', 'otte', 'ucie', 'udis', 'ula', 'urga', 'usta'];
@@ -8,7 +10,7 @@ function generator$rift$mathosians(type) {﻿
   }
 
 
-  const i = Math.floor(Math.random() * 10);
+
   {
     rnd = Math.floor(Math.random() * names1.length);
     rnd2 = Math.floor(Math.random() * names2.length);

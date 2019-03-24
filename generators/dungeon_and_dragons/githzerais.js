@@ -6,7 +6,7 @@ export default function githzerais() {
   const namesMaleL = ['d', 'dak', 'gh', 'k', 'kahr', 'kar', 'khar', 'kk', 'lag', 'llak', 'mag', 'mak', 'nag', 'rag', 'rak', 'ram', 'rath', 'rek', 'rg', 'rm', 'rth', 'ruk', 'th', 'tig', 'zag', 'zak', 'zar', 'zeg', 'zirg', 'zth'];
 
 
-  const i = Math.floor(Math.random() * 10);
+
   {
     if (type === 1) {
       rnd = Math.floor(Math.random() * namesFemF.length);

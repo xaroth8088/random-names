@@ -8,7 +8,7 @@ export default function orc() {
   const nm6 = ['a', 'ad', 'ag', 'ak', 'akh', 'am', 'amakh', 'amph', 'an', 'ar', 'arn', 'arz', 'ash', 'at', 'b', 'ba', 'bag', 'bak', 'bek', 'bog', 'borgob', 'bu', 'bug', 'buk', 'bul', 'bush', 'd', 'dar', 'dborgob', 'dbu', 'dbuk', 'du', 'dub', 'duk', 'dulg', 'dum', 'dush', 'ek', 'el', 'fim', 'fish', 'g', 'ga', 'gak', 'gakh', 'gamph', 'gan', 'garn', 'garz', 'gash', 'gdu', 'gdub', 'gdulg', 'gdum', 'gham', 'gk', 'gob', 'gog', 'gol', 'grak', 'gramph', 'grump', 'gub', 'gul', 'gum', 'gur', 'gurz', 'h', 'hakh', 'ham', 'hamph', 'harz', 'harzol', 'hash', 'hel', 'hnag', 'hnar', 'hnikh', 'hol', 'hub', 'hug', 'ilslag', 'im', 'imph', 'ish', 'k', 'kh', 'ku', 'kub', 'kul', 'l', 'la', 'lam', 'lar', 'lfim', 'lg', 'lob', 'lor', 'lslag', 'lug', 'lump', 'm', 'ma', 'makh', 'mba', 'mbak', 'mgog', 'mog', 'mph', 'mub', 'n', 'nag', 'nar', 'ndar', 'nikh', 'ob', 'og', 'ok', 'ol', 'olg', 'or', 'orn', 'oth', 'ph', 'pok', 'r', 'ra', 'rag', 'rak', 'ramph', 'rat', 'rba', 'rbag', 'rbush', 'rg', 'rga', 'rgak', 'rgakh', 'rish', 'rku', 'rkub', 'rkul', 'rn', 'rob', 'rol', 'rolg', 'rump', 'rz', 'rzog', 'rzuf', 'sh', 'sharzol', 'shnar', 't', 'th', 'tub', 'tur', 'twog', 'u', 'ub', 'ug', 'uk', 'ul', 'ulg', 'um', 'uma', 'ump', 'ur', 'urn', 'urz', 'ush', 'wog', 'z', 'zag', 'zgub', 'zog', 'zol', 'zor', 'zuf'];
 
 
-  const i = Math.floor(Math.random() * 10);
+
   {
     rnd5 = Math.floor(Math.random() * nm5.length);
     rnd6 = Math.floor(Math.random() * nm6.length);

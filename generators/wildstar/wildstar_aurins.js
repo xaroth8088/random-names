@@ -11,7 +11,7 @@ export default function wildstar_aurins() {
   const nm9 = ['bloom', 'blossom', 'blower', 'branch', 'breath', 'breeze', 'brook', 'cloud', 'clouds', 'dance', 'drift', 'fall', 'flame', 'flock', 'flower', 'gaze', 'gazer', 'grass', 'heart', 'lead', 'leaf', 'mind', 'petal', 'root', 'shade', 'shine', 'sky', 'snow', 'song', 'spirit', 'spyre', 'stalk', 'star', 'strike', 'swift', 'thorn', 'vale', 'walk', 'watch', 'whisper', 'wing'];
 
 
-  const i = Math.floor(Math.random() * 10);
+
   {
     rnd6 = Math.floor(Math.random() * nm8.length);
     rnd7 = Math.floor(Math.random() * nm9.length);

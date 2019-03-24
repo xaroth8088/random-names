@@ -1,5 +1,5 @@
 export default function wildstar_chuas() {
-  const type = Math.random() > 0.5 ? 0 : 1;
+
   const nm1 = ['b', 'd', 'f', 'g', 'j', 'm', 'n', 'r', 'sh', 't', 'th', 'v', 'x', 'z'];
   const nm2 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'ao', 'oa', 'ia', 'ee', 'ua'];
   const nm3 = ['br', 'bn', 'dr', 'dh', 'dg', 'dz', 'fr', 'ff', 'g', 'gn', 'gg', 'gz', 'gh', 'j', 'k', 'kn', 'kv', 'kt', 'kv', 'kz', 'lk', 'lv', 'lg', 'll', 'n', 'nn', 'nk', 'np', 'nt', 'nv', 'm', 'mm', 'mk', 'pp', 'rr', 'rg', 'rsr', 'rs', 'rt', 'rv', 'rk', 'sk', 'ss', 'sz', 'sn', 'sm', 't', 'tt', 'tk', 'v', 'vn'];

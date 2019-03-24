@@ -3,7 +3,7 @@ export default function railways() {
   const nm2 = ['Route', 'Main Line', 'Speed Line', 'Loop Line', 'Branch Line', 'Line', 'Rail Line', 'Tracks', 'Train Line', 'Line', 'Line', 'Line', 'Route', 'Route', 'Route', 'Tracks', 'Tracks', 'Tracks'];
 
 
-  const i = Math.floor(Math.random() * 10);
+
   {
     rnd = Math.floor(Math.random() * nm1.length);
     rnd2 = Math.floor(Math.random() * nm2.length);

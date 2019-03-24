@@ -2,7 +2,7 @@ export default function gnolls() {
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['', '', '', '', '', 'br', 'd', 'dr', 'g', 'gr', 'gh', 'gn', 'k', 'kh', 'kr', 'm', 'r', 'rr', 't', 'th', 'tr', 'thr', 'v', 'x', 'z'];
   const nm2 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'y', 'a', 'e', 'i', 'o', 'u', 'y', 'y', 'y', 'aa', 'ei', 'ia', 'ou', 'ua', 'uo'];
-  const nm3 = ['br', 'g', 'gr', 'gn', 'gl', 'gz', 'gv', 'gg', 'grr', 'ghr', 'hr', 'hg', 'kz', 'kr', 'kn', 'kz', 'kk', 'lg', 'lz', 'lk', 'lr', 'mk', 'mm', 'mr', 'ng', 'nr', 'ngr', 'ndr', 'nk', 'nkr', 'r', 'rr', 'rg', 'rgr', 'rk', 'rkr', 'x', 'xx', 'v', 'vk', 'vg', 'zg', 'zz', 'zr'];
+
   const nm4 = ['r', 'rr', 'rg', 'rrg', 'rk', 'c', 'k', 'kk', 'x', 'kx', 'z', 'zz', 't', 'h', 'n'];
   const nm5 = ['', '', '', '', '', '', 'b', 'd', 'dh', 'dr', 'g', 'gl', 'gr', 'grr', 'gn', 'h', 'hr', 'kh', 'kn', 'l', 'm', 'mr', 'n', 'p', 'r', 'rh', 'rr', 'rrh', 's', 'sh', 'sr', 'sn', 'sz', 't', 'th', 'tr', 'trr', 'ts', 'v', 'z', 'zh'];
   const nm6 = ['a', 'e', 'i', 'o', 'u', 'y', 'a', 'e', 'i', 'o', 'u', 'y', 'a', 'e', 'i', 'o', 'u', 'y', 'a', 'e', 'i', 'o', 'u', 'y', 'a', 'e', 'i', 'o', 'u', 'y', 'aa', 'ae', 'ai', 'ea', 'ei', 'ie', 'ia', 'ui'];

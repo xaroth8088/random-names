@@ -5,7 +5,7 @@ export default function hippies() {
   const nm3 = ['Aden', 'Aestas', 'Alchemy', 'Alma', 'Angel', 'Aries', 'Arwen', 'Ash', 'Belou', 'Blu', 'Breeze', 'Carmel', 'Chance', 'Cloud', 'Cosmic', 'Cypress', 'Cyress', 'Dancer', 'Danna', 'Dawn', 'Daydream', 'Destiny', 'Dream', 'Echo', 'Eclipse', 'Elm', 'Ethereal', 'Fall', 'Fire', 'Flame', 'Flow', 'Free', 'Freedom', 'Gabriel', 'Gemini', 'Genesis', 'Grace', 'Grainne', 'Heart', 'Honest', 'Honor', 'Ideal', 'Infinity', 'Jupiter', 'Karma', 'Lake', 'Laurel', 'Leaf', 'Liberty ', 'Light', 'Lore', 'Love', 'Lyric', 'Maple', 'Marley', 'Mercury', 'Micha', 'Milo', 'Miracle', 'Mist', 'Moon', 'Moonbean', 'Moonlight', 'Moss', 'Mystery', 'Nirvana', 'Nova', 'Ocean', 'Ode', 'Orion', 'Passion', 'Peace', 'Pheonix', 'Phoenix', 'Polaris', 'Promise', 'Psyche', 'Quest', 'Raine', 'Rayne', 'Remi', 'River', 'Sarin', 'Saturn', 'Shine', 'Sierra', 'Silver', 'Sky', 'Skye', 'Skyler', 'Snow', 'Star', 'Sun', 'Sundance', 'Sunny', 'Sunray', 'Sydney', 'Thyme', 'Tranquill', 'True', 'Truth', 'Tuesday', 'Unity', 'Vega', 'Whisper', 'Wind', 'Zen'];
 
 
-  const i = Math.floor(Math.random() * 10);
+
   {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm2.length);

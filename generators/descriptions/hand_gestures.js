@@ -20,7 +20,7 @@ export default function hand_gestures() {
   const rnd7 = Math.floor(Math.random() * nm7.length);
   const rnd8 = Math.floor(Math.random() * nm8.length);
   const rnd9 = Math.floor(Math.random() * nm9.length);
-  const rnd10 = Math.floor(Math.random() * nm10.length);
+
 
   const rnd11 = Math.floor(Math.random() * nm1.length);
   const rnd12 = Math.floor(Math.random() * nm2.length);

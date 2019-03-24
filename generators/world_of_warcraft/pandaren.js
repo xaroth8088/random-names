@@ -6,7 +6,7 @@ export default function pandaren() {
   const nm4 = ['belly', 'bloom', 'breeze', 'brow', 'brush', 'claw', 'drift', 'fall', 'flower', 'foot', 'fur', 'heart', 'hoe', 'kettle', 'light', 'master', 'paw', 'petal', 'runner', 'scroll', 'shadow', 'sky', 'spear', 'step', 'stone', 'strike', 'sword', 'walker'];
 
 
-  const i = Math.floor(Math.random() * 10);
+
   {
     rnd3 = Math.floor(Math.random() * nm3.length);
     rnd4 = Math.floor(Math.random() * nm4.length);

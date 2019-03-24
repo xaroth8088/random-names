@@ -1,6 +1,6 @@
 export default function characters() {
   const type = Math.random() > 0.5 ? 0 : 1;
-  return type === 1 ? generator$descriptions$charactersFemale() : generator$descriptions$charactersMale();
+  return type === 1 ? charactersFemale() : charactersMale();
 }
 
 export default function charactersMale() {

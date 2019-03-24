@@ -6,7 +6,7 @@ export default function taurens() {
   const nm4 = ['bash', 'bend', 'bender', 'binder', 'blade', 'bluff', 'brace', 'breath', 'breeze', 'caller', 'chaser', 'creek', 'cut', 'cutter', 'draft', 'dream', 'dreamer', 'drifter', 'feather', 'forest', 'grain', 'gust', 'hair', 'hide', 'hoof', 'horn', 'jumper', 'mane', 'moon', 'pelt', 'rage', 'rider', 'roar', 'runner', 'scar', 'seeker', 'soar', 'shadow', 'shield', 'shot', 'shout', 'singer', 'snout', 'song', 'spear', 'stalker', 'stream', 'stride', 'strider', 'talon', 'tail', 'tusk', 'tusks', 'totem', 'walker', 'watcher', 'water', 'weaver', 'whisk', 'whisper', 'wind', 'winds', 'wood', 'woods', 'wound'];
 
 
-  const i = Math.floor(Math.random() * 10);
+
   {
     rnd3 = Math.floor(Math.random() * nm3.length);
     rnd4 = Math.floor(Math.random() * nm4.length);

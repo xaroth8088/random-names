@@ -8,7 +8,7 @@ export default function half_elfs() {
   const nm6 = ['balar', 'banise', 'bella', 'beros', 'can', 'caryn', 'ceran', 'cyne', 'dan', 'di', 'dithas', 'dove', 'faren', 'fiel', 'fina', 'fir', 'geiros', 'gella', 'golor', 'gwyn', 'hana', 'harice', 'hice', 'horn', 'jeon', 'jor', 'jyre', 'kalyn', 'kas', 'kian', 'krana', 'lamin', 'lana', 'lar', 'lee', 'len', 'leth', 'lynn', 'maer', 'maris', 'menor', 'moira', 'myar', 'mys', 'na', 'nala', 'nan', 'neiros', 'nelis', 'norin', 'peiros', 'petor', 'phine', 'phyra', 'qen', 'qirelle', 'quinal', 'ra', 'ralei', 'ran', 'rel', 'ren', 'ric', 'rie', 'rieth', 'ris', 'ro', 'rona', 'rora', 'roris', 'salor', 'sandoral', 'satra', 'stina', 'sys', 'thana', 'thyra', 'toris', 'tris', 'tumal', 'valur', 'varis', 'ven', 'vyre', 'warin', 'wenys', 'wraek', 'wynn', 'xalim', 'xidor', 'xina', 'xisys', 'yarus', 'ydark', 'ynore', 'yra', 'zana', 'zeiros', 'zorwyn', 'zumin'];
 
 
-  const i = Math.floor(Math.random() * 10);
+
   {
     rnd3 = Math.floor(Math.random() * nm5.length);
     rnd4 = Math.floor(Math.random() * nm6.length);

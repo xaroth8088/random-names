@@ -4,7 +4,7 @@ export default function gothics() {
   const nm2 = ['Aalissa', 'Adosinda', 'Aleyda', 'Algonda', 'Alisa-Sophie', 'Alwina', 'Amala', 'Amalafrida', 'Amalasontha', 'Amalasuintha', 'Amalasuntha', 'Amalaswinth', 'Amalaswintha', 'Amalberga', 'Amalberta', 'Amalburga', 'Amalda', 'Amalfrida', 'Amalfrieda', 'Amalfriede', 'Amalgard', 'Amalgunda', 'Amalgundis', 'Amalina', 'Amalindis', 'Amalwara', 'Amelie', 'Amelina', 'Anouk', 'Areagne', 'Arika', 'Attala', 'Avagisa', 'Avina', 'Bjarka', 'Brenhilda', 'Brunhilda', 'Brunichild', 'Brunihild', 'Buffy', 'Chlodoswintha', 'Chlotsuintha', 'Dörthe-Julia', 'Elianor', 'Elisaweta', 'Elja', 'Emalia', 'Emelia', 'Ereleuva', 'Erelieva', 'Feenja', 'Fredegonda', 'Gaatha', 'Gailavira', 'Gailesvintha', 'Garsendis', 'Geleswintha', 'Geloyra', 'Gelvira', 'Giso', 'Glismoda', 'Goisvintha', 'Gosvintha', 'Gudeliva', 'Heidrun-Gabriela', 'Helchen', 'Hermangild', 'Hermesind', 'Heva', 'Hilduara', 'Hunila', 'Jeanne-Alice', 'Kaethe', 'Kriemhild', 'Limiteti', 'Lioba', 'Liuva', 'Lorelei', 'Lucienne', 'Malasintha', 'Matasuntha', 'Matasvintha', 'Megan-Laureen', 'Melisanda', 'Melisande', 'Melisenda', 'Melle', 'Melusine', 'Mia-Selina', 'Mira', 'Monia', 'Narin', 'Oonagh', 'Ostrogotho', 'Radegond', 'Radegonda', 'Rasha', 'Rautgundis', 'Richildis', 'Riciberga', 'Seda', 'Sunigilda', 'Sunilda', 'Talida', 'Teja', 'Theodananda', 'Thiudigotho', 'Vadamerca', 'Valdamerca', 'Wilgefortis'];
 
 
-  const i = Math.floor(Math.random() * 10);
+
   {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm2.length);

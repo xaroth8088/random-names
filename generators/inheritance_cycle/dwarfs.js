@@ -1,4 +1,6 @@
-function generator$inheritance_cycle$dwarfs(type) {﻿
+export default function dwarfs() {
+  const type = Math.random() < 0.5 ? 0 : 1;
+
   const nm1 = ['', '', '', '', 'b', 'br', 'bl', 'd', 'dr', 'f', 'fl', 'fr', 'g', 'gr', 'h', 'ht', 'hv', 'k', 'kr', 'kv', 'm', 'n', 'r', 'sk', 'sv', 'th', 'thr', 'v'];
   const nm2 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'au', 'û', 'ó', 'é', 'á', 'î', 'â', 'ei', 'ie', 'eo'];
   const nm3 = ['d', 'dg', 'dr', 'fn', 'g', 'gn', 'gd', 'gm', 'k', 'kr', 'kksv', 'kn', 'km', 'ldh', 'ldhr', 'lm', 'm', 'mm', 'mn', 'nd', 'ndf', 'nn', 'nndr', 'r', 'rd', 'rg', 'rgh', 'rh', 'rm', 'rr', 's', 'st', 'th', 'thg', 'thm', 'v', 'w'];

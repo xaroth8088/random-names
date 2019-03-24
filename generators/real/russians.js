@@ -8,7 +8,7 @@ export default function russians() {
   const nm6 = ['Afanasievna', 'Aleksandrovna', 'Alekseevna', 'Anatolievna', 'Andreevna', 'Antonovna', 'Artemievna', 'Borisovna', 'Danilovna', 'Denisovna', 'Dmitrievna', 'Filippovna', 'Fyodorovna', 'Gennadievna', 'Georgievna', 'Germanovna', 'Grigorievna', 'Igorievna', 'Ilyinishna', 'Innokentievna', 'Ivanovna', 'Kirillovna', 'Konstantinovna', 'Larionovna', 'Leonidovna', 'Makarovna', 'Maximovna', 'Mikhailovna', 'Nikitovna', 'Nikolayevna', 'Olegovna', 'Pavlovna', 'Petrovna', 'Rodionovna', 'Romanovna', 'Rostislavovna', 'Ruslanovna', 'Savelievna', 'Semyonovna', 'Sergeyevna', 'Stanislavovna', 'Stepanovna', 'Svyatoslavovna', 'Tarasovna', 'Tikhonovna', 'Timofeyevna', 'Timurovna', 'Vadimovna', 'Valentinovna', 'Valerianovna', 'Valerievna', 'Vasilievna', 'Victorovna', 'Vitalievna', 'Vladimirovna', 'Vladislavovna', 'Vsevolodovna', 'Vyacheslavovna', 'Yakovna', 'Yanovna', 'Yaroslavovna', 'Yegorovna', 'Yemelyanovna', 'Yermolayevna', 'Yevgenievna', 'Yurievna', 'Zakharovna'];
 
 
-  const i = Math.floor(Math.random() * 10);
+
   {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm4.length);

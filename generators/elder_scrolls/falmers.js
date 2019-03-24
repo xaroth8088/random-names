@@ -11,7 +11,7 @@ export default function falmers() {
     var names2 = ['bor', 'bys', 'dhor', 'danyis', 'faris', 'fiath', 'groth', 'griath', 'hur', 'his', 'karis', 'kir', 'lebor', 'lor', 'mhor', 'mitil', 'naris', 'nyis', 'prith', 'piroth', 're', 'riath', 'rilor', 'ring', 'sur', 'sebir', 'thur', 'til', 'vhur', 'vus', 'with', 'we', 'yaris', 'yor', 'zhor', 'zius'];
   }
 
-  const i = Math.floor(Math.random() * 10);
+
   {
     rnd0 = Math.floor(Math.random() * names1.length);
     rnd1 = Math.floor(Math.random() * names2.length);

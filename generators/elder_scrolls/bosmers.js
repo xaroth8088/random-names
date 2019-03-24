@@ -8,7 +8,7 @@ export default function bosmers() {
   const nm6 = ['blossom', 'branch', 'brook', 'dale', 'grass', 'grove', 'hollow', 'lake', 'lock', 'mire', 'pool', 'rock', 'run', 'scrub', 'shade', 'sky', 'stone', 'thorn', 'vale', 'wind', 'wing', 'wood'];
 
 
-  const i = Math.floor(Math.random() * 10);
+
   {
     rnd3 = Math.floor(Math.random() * nm5.length);
     rnd4 = Math.floor(Math.random() * nm6.length);

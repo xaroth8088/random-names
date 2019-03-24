@@ -5,7 +5,7 @@ export default function elfs() {
   const namesMale = ['Ad', 'Al', 'Ala', 'Ar', 'At', 'Ath', 'Bra', 'Ca', 'Cam', 'Car', 'Cy', 'Cyr', 'Dey', 'El', 'Fe', 'Fel', 'Fen', 'Fey', 'Feyn', 'Ga', 'Gar', 'Ge', 'Get', 'Geth', 'Ha', 'Har', 'Hu', 'Il', 'Ja', 'Jos', 'Jun', 'Le', 'Lem', 'Ne', 'Nel', 'Pa', 'Pai', 'Pi', 'Sa', 'Sam', 'Sar', 'Se', 'Sen', 'So', 'Sor', 'Ta', 'Tae', 'Tam', 'The', 'Thel', 'Thre', 'Va', 'Var', 'Vara', 'Ye', 'Yev', 'Zat', 'Zath', 'Zev'];
   const namesFamily = ['cen', 'dis', 'dor', 'gan', 'hel', 'hon', 'horn', 'lan', 'laros', 'lasan', 'lassan', 'len', 'lhen', 'mael', 'men', 'met', 'nar', 'narel', 'rahel', 'ralan', 'ran', 'rand', 'ras', 'rel', 'ren', 'rian', 'riel', 'rion', 'ris', 'rith', 'ron', 'ros', 'sas', 'thon', 'thorn', 'vel', 'ven', 'vin', 'wen'];
 
-  const i = Math.floor(Math.random() * 10);
+
   {
     if (type === 1) {
       rnd0 = Math.floor(Math.random() * namesFemale.length);

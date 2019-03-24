@@ -1,4 +1,6 @@
-function generator$inheritance_cycle$elfs(type) {﻿
+export default function elfs() {
+  const type = Math.random() < 0.5 ? 0 : 1;
+
   const nm1 = ['', '', '', '', 'b', 'bl', 'c', 'cl', 'd', 'f', 'g', 'gl', 'gn', 'h', 'k', 'l', 'm', 'n', 't', 'th', 'v', 'vr', 'w'];
   const nm2 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'í', 'ö', 'ä', 'äo', 'á', 'ae', 'ia', 'ie', 'io', 'au', 'ae'];
   const nm3 = ['c', 'd', 'dhg', 'dg', 'dr', 'dh', 'f', 'g', 'gh', 'l', 'lm', 'ln', 'ld', 'ldth', 'll', 'lr', 'mn', 'm', 'mh', 'n', 'nd', 'nr', 'nth', 'nw', 'r', 'rd', 'rv', 'rz', 'rth', 's', 'sd', 'th', 'tr', 'v'];

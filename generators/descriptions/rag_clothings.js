@@ -1,6 +1,5 @@
 export default function rag_clothings() {
   const type = Math.random() > 0.5 ? 0 : 1;
-  const tp = type;
   const nm1 = ['Her', 'She', 'her', 'she', 'her', 'His', 'He', 'his', 'he', 'him'];
   let nm2 = ['shirt', 't-shirt'];
   const nm3 = ['merely a dirt stained piece of fabric, hanging from one of', 'barely a piece of clothing at all, the dirt stained fabric hangs onto', 'nothing more than pieces of fabric held barely together, it hangs from', 'a torn, dirt stained shadow of its former self, only barely able to hang from', 'a gross, tattered home to lice and dirt, hanging from one of', 'a dirty, flimsy piece of fabric, held together by a handful of fibers hanging from', 'a dirty, tattered mess of fibers and fabric, only barely able to hang from', 'a ruffled mess of loose fibers, dirt stains and holes, it barely manages to hang from', 'a collection of dirt, lice and who knows what else, it barely manages to hang from', 'nothing more than a collection of dirt, loose pieces of fabric and holes, only barely able to hang from', 'a vile collection of pieces of dirty fabric, grime and muck, it barely manages to hang from', 'nothing more than a crummy old piece of fabric full of holes and stained with dirt, it barely manages to hang from', 'a nasty mess of holes, muck and dirty stains, hanging from one of', 'a foul collection of raggedy pieces of fabric, dirt and holes, barely able to hang from', 'nothing more than dirty pieces of fabric barely held together, hanging from'];
@@ -26,7 +25,7 @@ export default function rag_clothings() {
   let x = 7;
   let y = 8;
   let z = 9;
-  if (tp === 1) {
+  if (type === 1) {
     v = 0;
     w = 1;
     x = 2;

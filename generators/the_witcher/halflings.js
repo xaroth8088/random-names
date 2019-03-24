@@ -6,7 +6,7 @@ export default function halflings() {
   const nm4 = ['bach', 'bairn', 'bald', 'baum', 'beck', 'berg', 'berry', 'bottom', 'brand', 'buck', 'buhr', 'burg', 'burrow', 'der', 'fast', 'fel', 'feld', 'felt', 'foot', 'gard', 'gart', 'gund', 'ham', 'hand', 'hang', 'hard', 'haupt', 'haus', 'heimer', 'hell', 'hill', 'kranz', 'lein', 'lich', 'ling', 'man', 'meier', 'ming', 'mond', 'red', 'ric', 'rich', 'ring', 'roth', 'stein', 'stock', 'thal', 'thorn', 'thran', 'tram', 'veldt', 'ville', 'wald', 'ward', 'wend', 'wich', 'wise', 'wort', 'yegg', 'zel'];
 
 
-  const i = Math.floor(Math.random() * 10);
+
   {
     rnd2 = Math.floor(Math.random() * nm3.length);
     rnd3 = Math.floor(Math.random() * nm4.length);

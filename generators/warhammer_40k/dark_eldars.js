@@ -6,7 +6,7 @@ export default function dark_eldars() {
   const names4 = ['baehra', 'brique', 'bris', 'brynn', 'daque', 'dera', 'deza', 'dhae', 'dove', 'dreos', 'gahne', 'geza', 'gohne', 'grynn', 'gwyss', 'heque', 'hia', 'hira', 'keo', 'keri', 'kryss', 'kysse', 'maque', 'mare', 'mea', 'mehra', 'mirenne', 'mohre', 'myss', 'naehr', 'nahra', 'neque', 'neza', 'nyrr', 'qinn', 'qore', 'rae', 'raesh', 'reah', 'reaq', 'renar', 'renn', 'resse', 'rihque', 'rith', 'riza', 'rizora', 'runae', 'saer', 'sarihs', 'seos', 'seqe', 'seth', 'sher', 'shi', 'sira', 'syrr', 'taena', 'taez', 'tarin', 'teque', 'thara', 'thera', 'tihr', 'tyhs', 'vaesh', 'velle', 'vero', 'vynn', 'zae', 'zaehn', 'zhael', 'zhenne', 'zoh', 'zysh'];
 
 
-  const i = Math.floor(Math.random() * 10);
+
   {
     if (type === 1) {
       rnd = Math.floor(Math.random() * names3.length);

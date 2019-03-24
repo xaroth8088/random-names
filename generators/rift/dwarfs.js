@@ -8,7 +8,7 @@ export default function dwarfs() {
     var names2 = ['ban', 'bomir', 'bor', 'borek', 'brad', 'bren', 'brin', 'bromir', 'cimir', 'dalf', 'dan', 'dar', 'darr', 'dek', 'demir', 'der', 'dik', 'dim', 'dimir', 'dinn', 'domer', 'domir', 'dos', 'dovan', 'dran', 'dzimir', 'gan', 'gdan', 'gisa', 'gnian', 'go', 'gomil', 'gomir', 'gotin', 'goy', 'grun', 'gumil', 'gun', 'gurd', 'gutin', 'gvi', 'hdan', 'himir', 'homir', 'hos', 'hren', 'humer', 'humil', 'humir', 'jan', 'jek', 'jidar', 'lek', 'libor', 'lik', 'limir', 'lin', 'ljan', 'lko', 'lon', 'lorad', 'los', 'lovan', 'lund', 'lundr', 'lyan', 'mard', 'mek', 'mer', 'mil', 'mir', 'narr', 'nat', 'ndri', 'nek', 'nik', 'nimir', 'nko', 'nnarr', 'ran', 'rban', 'rce', 'rek', 'rey', 'reyr', 'rian', 'rik', 'ril', 'rin', 'ris', 'rko', 'rlin', 'romer', 'romir', 'ros', 'rut', 'rvan', 'rvar', 'rwan', 'ser', 'simir', 'stan', 'tek', 'tik', 'tomir', 'van', 'vis', 'vor', 'vril', 'wan', 'zan', 'zdan', 'zen', 'zhil', 'zhin', 'zidar', 'zimir', 'zydar'];
   }
 
-  const i = Math.floor(Math.random() * 10);
+
   {
     rnd = Math.floor(Math.random() * names1.length);
     rnd2 = Math.floor(Math.random() * names2.length);

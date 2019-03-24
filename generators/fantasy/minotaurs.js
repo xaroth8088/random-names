@@ -8,7 +8,7 @@ export default function minotaurs() {
   const nm6 = ['ba', 'ban', 'ben', 'ber', 'beth', 'bin', 'bis', 'bith', 'da', 'del', 'den', 'des', 'dis', 'dith', 'dres', 'dyn', 'fer', 'fra', 'ga', 'gan', 'gen', 'ger', 'ges', 'geth', 'gres', 'ja', 'jas', 'jia', 'jis', 'ka', 'kan', 'kas', 'keas', 'kel', 'ken', 'kha', 'khes', 'kir', 'kohn', 'ma', 'mal', 'mar', 'mara', 'mas', 'mes', 'mian', 'min', 'mir', 'mis', 'mor', 'myas', 'mys', 'na', 'nag', 'nar', 'ned', 'nes', 'neth', 'nig', 'nir', 'nis', 'nith', 'nys', 'pan', 'par', 'pas', 'phas', 'pheran', 'phes', 'phin', 'phis', 'ra', 'rada', 'rah', 'raja', 'ral', 'ran', 'ras', 'rash', 'rasha', 'ren', 'rena', 'res', 'rija', 'rith', 'ryan', 'ryn', 'sal', 'sar', 'sen', 'sien', 'sin', 'sir', 'sis', 'tara', 'taren', 'ten', 'tera', 'tes', 'teus', 'tha', 'tin', 'tish', 'tix', 'tres', 'vas', 'vel', 'ven', 'ver', 'vin', 'vir', 'zan', 'zel', 'zen', 'zeph', 'zera', 'zia', 'zis'];
 
 
-  const i = Math.floor(Math.random() * 10);
+
   {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm3.length);

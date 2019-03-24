@@ -3,7 +3,7 @@ export default function valkyries() {
   const names2 = ['dana', 'dis', 'dmadra', 'dne', 'dr', 'dra', 'drifa', 'dul', 'gabi', 'gin', 'ginleif', 'gjold', 'grdrifa', 'grior', 'grun', 'gul', 'hildr', 'hylde', 'ja', 'la', 'ld', 'ldana', 'ldr', 'leif', 'lmold', 'lna', 'lrun', 'ma', 'madra', 'mold', 'nd', 'ndul', 'ngrior', 'nhildr', 'nhylde', 'nul', 'pul', 'ra', 'rdmadra', 'rifa', 'rior', 'rja', 'ronul', 'run', 'rvif', 'st', 'ta', 'tha', 'va', 'vif'];
 
 
-  const i = Math.floor(Math.random() * 10);
+
   {
     rnd = Math.floor(Math.random() * names1.length);
     rnd2 = Math.floor(Math.random() * names2.length);

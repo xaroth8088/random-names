@@ -3,7 +3,7 @@ export default function underwater_citys() {
   const nm2 = ['cada', 'cadis', 'cia', 'cique', 'cis', 'dor', 'dore', 'gia', 'lean', 'lin', 'lina', 'lis', 'loch', 'lona', 'lor', 'lora', 'lore', 'lune', 'mari', 'mon', 'mond', 'na', 'nas', 'ne', 'nea', 'nia', 'nis', 'noch', 'pis', 'ra', 'rai', 'ran', 'rei', 'rem', 'ren', 'reth', 'rey', 'ri', 'ria', 'ril', 'rin', 'ris', 'rius', 'rus', 'sa', 'tas', 'tesh', 'thas', 'theas', 'this', 'thys', 'tia', 'tin', 'tis', 'ton', 'tria', 'via'];
 
 
-  const i = Math.floor(Math.random() * 10);
+
   {
     rnd = Math.floor(Math.random() * nm1.length);
     rnd2 = Math.floor(Math.random() * nm2.length);

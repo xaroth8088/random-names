@@ -4,7 +4,7 @@ export default function maze_runners() {
   const nm2 = ['Ada', 'Aga', 'Age', 'Aggie', 'Agnes', 'Alex', 'Alexis', 'Alva', 'Ana', 'Anaxi', 'Andie', 'Andrea', 'Angel', 'Anni', 'Ava', 'Avi', 'Babs', 'Barba', 'Barbara', 'Barbs', 'Bea', 'Beatrix', 'Beckie', 'Belle', 'Beth', 'Bethe', 'Binet', 'Birdie', 'Blaise', 'Bri', 'Bria', 'Carla', 'Carol', 'Celsie', 'Charlie', 'Christy', 'Clarence', 'Cori', 'Dana', 'Diana', 'Dorothy', 'Eliza', 'Elizabeth', 'Elli', 'Em', 'Emile', 'Emmy', 'Eva', 'Evangeline', 'Gale', 'Georgie', 'Gertrude', 'Gerty', 'Gibbs', 'Grace', 'Gracy', 'Haley', 'Halley', 'Hally', 'Harriet', 'Illy', 'Inge', 'Irene', 'Iva', 'Jackie', 'Jane', 'Jean', 'Jenny', 'Joce', 'Jocelyn', 'Joyce', 'Kat', 'Kath', 'Katharine', 'Kristi', 'Lace', 'Lea', 'Lela', 'Leona', 'Libby', 'Lina', 'Lisa', 'Lise', 'Louise', 'Love', 'Lucy', 'Lye', 'Lynn', 'Mae', 'Maria', 'Marie', 'Mary', 'May', 'Michel', 'Moli', 'Nea', 'Neila', 'Nikol', 'Nikola', 'Noa', 'Nobs', 'Pascal', 'Paula', 'Pearl', 'Rachel', 'Rene', 'Renee', 'Rita', 'Rosalin', 'Ruth', 'Sally', 'Shelly', 'Sherri', 'Sherry', 'Siggy', 'Simone', 'Sommer', 'Steph', 'Stephanie', 'Thabita', 'Thea', 'Theador', 'Theodore', 'Theresa', 'Torri', 'Trix', 'Trixie', 'Willy', 'Zora'];
 
 
-  const i = Math.floor(Math.random() * 10);
+
   {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm2.length);

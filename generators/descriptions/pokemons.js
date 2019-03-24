@@ -63,7 +63,7 @@ export default function pokemons() {
   const fireEars = ['enormous', 'wing-like', 'flame shaped', 'flappy', 'flabby', 'furnace-like', 'horn-like', 'huge', 'pointy', 'rounded', 'small', 'steaming', 'stumpy', 'tiny', 'big'];
   const fireHorns = ['ridged', 'enormous', 'curved', 'furnace-like', 'stubby', 'huge', 'pointy', 'rounded', 'small', 'steaming', 'stumpy', 'tiny', 'jagged'];
   const flySkin = ['armored', 'bioluminescent', 'phosphorescent', 'fluorescent', 'brightly colored', 'camouflaged', 'light', 'patterned', 'rough', 'smooth', 'soft', 'thorny', 'translucent'];
-  const flyFeathers = ['bright', 'brilliant', 'bristly', 'broad', 'colorful', 'colorless', 'delicate', 'elongated', 'fluffy', 'glowing', 'iridescent', 'ornamental', 'painted', 'pointed', 'ruffled', 'sharp', 'slender', 'thick', 'tipped'];
+
   const flyLegs = ['an extra pair of', 'armored', 'broad', 'clawed', 'decorated', 'delicate', 'fluffy', 'long', 'muscular', 'nimble', 'powerful', 'slim', 'tiny'];
   const flyWings = ['angular', 'angelic', 'armored', 'bioluminescent', 'phosphorescent', 'fluorescent', 'blade-like', 'clawed', 'cloak-like', 'cloud-like', 'enormous', 'fan-like', 'gigantic', 'huge', 'layered', 'patterned', 'rainbow', 'shield-like', 'translucent', 'two pairs of'];
   const flyMouth = ['broad', 'cavernous', 'frowning', 'hidden', 'huge', 'lack of a', 'mischievous', 'pointed', 'seemingly angry', 'seemingly expressionless', 'seemingly invisible', 'small', 'smiling', 'tiny', 'toothed', 'tranquil looking'];
@@ -192,8 +192,8 @@ export default function pokemons() {
   const wtr = ['dark', 'dragon', 'ghost', 'ice', 'poison', 'psychic', 'water'];
   const lnd = ['bug', 'dark', 'electric', 'fairy', 'fighting', 'fire', 'ghost', 'grass', 'ground', 'ice', 'normal', 'poison', 'psychic', 'rock', 'steel'];
   const air = ['bug', 'dark', 'dragon', 'electric', 'fairy', 'fire', 'flying', 'ghost', 'normal', 'poison', 'psychic'];
-  const bug = ['ant', 'bee', 'butterfly', 'caterpillar', 'cockroach', 'dragonfly', 'fly', 'grasshopper', 'hornet', 'locust', 'mosquito', 'termite', 'wasp'];
-  const drg = ['alligator', 'armadillo', 'cobra', 'crocodile', 'dragonfly', 'eel', 'komodo dragon', 'narwhal', 'salamander', 'seahorse', 'snake'];
+
+
   const bugAttk = ['Attack Order', 'Bug Bite', 'Bug Buzz', 'Defend Order', 'Fell Stinger', 'Fury Cutter', 'Heal Order', 'Infestation', 'Leech Life', 'Megahorn', 'Pin Missile', 'Powder', 'Quiver Dance', 'Rage Powder', 'Signal Beam', 'Silver Wind', 'Spider Web', 'Steamroller', 'Sticky Web', 'String Shot', 'Struggle Bug', 'Tail Glow', 'Twineedle', 'U-turn', 'X-Scissor'];
   const darkAttk = ['Assurance', 'Beat Up', 'Bite', 'Crunch', 'Dark Pulse', 'Dark Void', 'Embargo', 'Fake Tears', 'Feint Attack', 'Flatter', 'Fling', 'Foul Play', 'Hone Claws', 'Hyperspace Fury', 'Knock Off', 'Memento', 'Nasty Plot', 'Night Daze', 'Night Slash', 'Parting Shot', 'Payback', 'Punishment', 'Pursuit', 'Quash', 'Snarl', 'Snatch', 'Sucker Punch', 'Switcheroo', 'Taunt', 'Thief', 'Topsy-Turvy', 'Torment'];
   const dragonAttk = ['Draco Meteor', 'Dragon Breath', 'Dragon Claw', 'Dragon Dance', 'Dragon Pulse', 'Dragon Rage', 'Dragon Rush', 'Dragon Tail', 'Dual Chop', 'Outrage', 'Roar of Time', 'Spacial Rend', 'Twister'];

@@ -16,7 +16,7 @@ export default function ghost_towns() {
   const rnd1 = Math.floor(Math.random() * nm1.length);
   const rnd2 = Math.floor(Math.random() * nm2.length);
   const rnd3 = Math.floor(Math.random() * nm3.length);
-  const rnd4 = Math.floor(Math.random() * nm4.length);
+
   const rnd5 = Math.floor(Math.random() * nm5.length);
   const rnd6 = Math.floor(Math.random() * nm6.length);
   const rnd7 = Math.floor(Math.random() * nm7.length);

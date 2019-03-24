@@ -1,5 +1,5 @@
 export default function newspapers() {
-  const type = Math.random() > 0.5 ? 0 : 1;
+
   const nm3 = [
     ['The ', 'Bulletin'],
     ['The ', 'Chronicle'],

@@ -6,7 +6,7 @@ export default function wildstar_humans() {
   const nm4 = ['bane', 'beam', 'bend', 'blade', 'blossom', 'bluff', 'bough', 'bow', 'brace', 'braid', 'branch', 'brand', 'break', 'breeze', 'brook', 'brow', 'crag', 'crest', 'dane', 'dew', 'draft', 'dream', 'dust', 'fall', 'fallow', 'flare', 'flaw', 'flow', 'flower', 'force', 'forge', 'gaze', 'gem', 'glade', 'gleam', 'glide', 'glory', 'glow', 'grove', 'guard', 'gust', 'hand', 'heart', 'helm', 'hide', 'keep', 'lance', 'leaf', 'light', 'mantle', 'mark', 'moon', 'more', 'mourn', 'ridge', 'root', 'shard', 'shine', 'shot', 'song', 'spark', 'spell', 'stride', 'surge', 'sworn', 'thorn', 'tide', 'vale', 'ward', 'wing'];
 
 
-  const i = Math.floor(Math.random() * 10);
+
   {
     rnd3 = Math.floor(Math.random() * nm3.length);
     rnd4 = Math.floor(Math.random() * nm4.length);

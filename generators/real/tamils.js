@@ -5,7 +5,7 @@ export default function tamils() {
   const namesFamily = ['A.', 'B.', 'C.', 'D.', 'E.', 'F.', 'G.', 'H.', 'I.', 'J.', 'K.', 'L.', 'M.', 'N.', 'O.', 'P.', 'R.', 'S.', 'T.', 'U.', 'V.', 'W.', 'Y.', 'Z.'];
 
   names1 = type === 1 ? namesFemale : namesMale;
-  const i = Math.floor(Math.random() * 10);
+
   {
     rnd = Math.floor(Math.random() * names1.length);
     rnd2 = Math.floor(Math.random() * namesFamily.length);

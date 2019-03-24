@@ -10,7 +10,7 @@ export default function dwarf() {
   const nm8 = ['arm', 'axe', 'beard', 'belly', 'blade', 'braid', 'branch', 'brand', 'breaker', 'brew', 'brow', 'crag', 'dust', 'fall', 'fist', 'flayer', 'forge', 'fury', 'gem', 'grip', 'hammer', 'hand', 'helm', 'mane', 'mantle', 'ore', 'pike', 'river', 'roar', 'rock', 'shaper', 'shield', 'shout', 'steel', 'stone', 'toe'];
 
 
-  const i = Math.floor(Math.random() * 10);
+
   {
     rnd4 = Math.floor(Math.random() * nm7.length);
     rnd5 = Math.floor(Math.random() * nm8.length);

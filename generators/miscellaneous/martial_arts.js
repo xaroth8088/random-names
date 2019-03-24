@@ -21,7 +21,7 @@ export default function martial_arts() {
   const nm17 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'oi', 'ae', 'eo', 'ua', 'ai', 'ia', 'ei', 'oo', 'aa', 'ou', 'ee'];
   const nm18 = ['b', 'by', 'chk', 'ch', 'd', 'ddh', 'dh', 'hlw', 'hw', 'j', 'k', 'km', 'kn', 'kw', 'ky', 'l', 'lg', 'll', 'mb', 'md', 'mp', 'n', 'nb', 'nd', 'ng', 'ngd', 'nj', 'nk', 'nsh', 'nt', 'p', 'pk', 'pp', 'r', 'rn', 's', 'sh', 'st', 't', 'th', 'thw', 'tk', 'ts', 'tt', 'y'];
   const nm19 = ['', '', '', '', '', '', '', '', '', '', '', '', 'k', 'l', 'm', 'n', 'ng', 'r', 's', 't', 'w', 'y'];
-  const nm20 = [];
+
 
 
   const i = Math.floor(Math.random() * 10);

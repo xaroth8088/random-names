@@ -5,7 +5,7 @@ export default function algerians() {
   const nm3 = ['Abbas', 'Aboulker', 'Agha', 'Allouache', 'Alloula', 'Amirouche', 'Ammar', 'Amrani', 'Amrouche', 'Arkoun', 'Arkour', 'Aruj', 'Atlan', 'Attali', 'Ayache', 'Aym', 'Azoulay', 'Bacri', 'Beghal', 'Behired', 'Belghoul', 'Belkacem', 'Belloumi', 'Belmokhtar', 'Belounis', 'Benayoun', 'Benboulaid', 'Benbrika', 'Benchabla', 'Bendjedid', 'Benguigui', 'Benida', 'Benita', 'Benlabed', 'Bennabi', 'Bensoussan', 'Benyamina', 'Benzema', 'Bitat', 'Bouali', 'Bouamama', 'Bouchiba', 'Boudiaf', 'Boudjedra', 'Boulala', 'Boulmerka', 'Boumedienne', 'Bouteflika', 'Boutella', 'Brahimi', 'Chabani', 'Chabat', 'Chaou', 'Chouikh', 'Derrida', 'Didouche', 'Dilem', 'Djaballah', 'Djaout', 'Djebar', 'Djermouni', 'Doumaz', 'Ebdelkader', 'Fahas', 'Fanon', 'Fellag', 'Feraoun', 'Fergani', 'Gamouh', 'Guerouabi', 'Habib', 'Hadj', 'Halimi', 'Hamidou', 'Hamina', 'Hamou', 'Hanin', 'Hannachi', 'Hanoune', 'Harbi', 'Harrachi', 'Hasnaoui', 'Hasni', 'Hmida', 'Kateb', 'Kerbouche', 'Kermali', 'Khadra', 'Khalef', 'Khelfaoui', 'Kouiret', 'Ksentini', 'Lakhdar', 'Laroussi', 'Litim', 'Madani', 'Madjer', 'Makhloufi', 'Malek', 'Mami', 'Mammeri', 'Massi', 'Mekhloufi', 'Menouar', 'Messaoudi', 'Mimouni', 'Morceli', 'Mouhandiz', 'Nahnah', 'Nakache', 'Nasri', 'Ouyahia', 'Partyka', 'Rachedi', 'Ramdane', 'Ressam', 'Rimitti', 'Saadi', 'Sadi', 'Sahnoun', 'Salem', 'Salhi', 'Seghir', 'Sidi', 'Skandrani', 'Slimani', 'Solal', 'Taha', 'Tannoudji', 'Tarik', 'Tifour', 'Timsit', 'Wadoud', 'Yacine', 'Youcef', 'Zabana', 'Zakaria', 'Zekkal', 'Zerhouni', 'Zeroual', 'Ziani', 'Zidane'];
 
 
-  const i = Math.floor(Math.random() * 10);
+
   {
     rnd2 = Math.floor(Math.random() * nm3.length);
     if (type === 1) {

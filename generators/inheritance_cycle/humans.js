@@ -1,4 +1,6 @@
-function generator$inheritance_cycle$humans(type) {﻿
+export default function humans() {
+  const type = Math.random() < 0.5 ? 0 : 1;
+
   const nm1 = ['', '', '', '', 'b', 'br', 'c', 'cl', 'cr', 'd', 'dr', 'f', 'fl', 'fr', 'g', 'gr', 'h', 'j', 'k', 'kn', 'kr', 'l', 'm', 'n', 'p', 'q', 'r', 's', 'sl', 'sv', 't', 'th', 'tr', 'v', 'w', 'y'];
   const nm2 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'ie', 'ae', 'oo', 'ai', 'ea', 'aa', 'ei', 'ui', 'uo', 'oa'];
   const nm3 = ['b', 'br', 'ch', 'd', 'db', 'dg', 'dl', 'dr', 'fr', 'ft', 'g', 'gl', 'gm', 'h', 'hw', 'j', 'k', 'l', 'lb', 'lbr', 'lc', 'ld', 'lf', 'lh', 'lk', 'll', 'lm', 'lr', 'lst', 'lt', 'lw', 'm', 'mb', 'mbl', 'mpt', 'n', 'nbr', 'nc', 'nd', 'nds', 'ng', 'ngr', 'ngv', 'ngw', 'nn', 'ns', 'r', 'rc', 'rd', 'rdl', 'rdr', 'rds', 'rgr', 'rk', 'rm', 'rmm', 'rmn', 'rn', 'rr', 'rs', 'rsh', 'rt', 'rth', 'rtl', 'rtr', 'rv', 'rw', 'rz', 's', 'sb', 'sl', 'sth', 'str', 'stv', 't', 'tch', 'th', 'thlb', 'thm', 'v', 'vr', 'w', 'wl', 'yn'];

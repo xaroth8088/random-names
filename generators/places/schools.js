@@ -3,7 +3,7 @@ export default function schools() {
   const names2 = ['Academy', 'College', 'High', 'High School', 'School', 'University', 'Elementary', 'Middle School', 'Institute', 'Charter School', 'School of Fine Arts', 'Secondary School', 'School for Girls', 'School for Boys', 'Conservatory', 'Grammar School', 'Kindergarten', 'Technical School'];
 
 
-  const i = Math.floor(Math.random() * 10);
+
   {
     rnd = Math.floor(Math.random() * names1.length);
     rnd2 = Math.floor(Math.random() * names2.length);

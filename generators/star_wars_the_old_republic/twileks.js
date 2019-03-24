@@ -12,7 +12,7 @@ export default function twileks() {
   const nm10 = ['c', 'f', 'g', 'h', 'l', 'm', 'n', 'p', 'r', 's', 't', 'w', 'y', 'z', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', ''];
 
 
-  const i = Math.floor(Math.random() * 10);
+
   {
     rnd3 = Math.floor(Math.random() * nm3.length);
     rnd4 = Math.floor(Math.random() * nm4.length);

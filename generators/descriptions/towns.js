@@ -1,4 +1,7 @@
 export default function towns() {
+  let random8;
+  let random7;
+  let random5;
   const names1 = ['Based', 'Built', 'Cast', 'Constructed', 'Designed', 'Engineered', 'Erected', 'Established', 'Fabricated', 'Forged', 'Formed', 'Found', 'Located', 'Positioned', 'Raised', 'Rooted', 'Set', 'Settled', 'Situated', 'Stationed'];
   const names2 = ['on the Northern side of', 'on the Southern side of', 'on the Western side of', 'on the Eastern side of', 'on the top of', 'on top of', 'on the peak of', 'on the base of', 'on the bottom of', 'on the right side of', 'on the left side of', 'on the light side of', 'on the dark side of', 'on the highest point of', 'on the lowest point of', 'above', 'behind', 'under', 'inside', 'around', 'beside', 'next to', 'in', 'on the end of'];
   const names3 = [' bluff', ' canal', ' canyon', ' cave', ' cavern', ' cliff', ' covert', ' desert', ' field', ' forest', ' geyser field', ' glacier', ' grotto', ' grove', ' hill', 'n island', ' jungle', ' lake', ' lava stream', ' mound', ' mountain', 'n ocean', ' peninsula', ' river', ' sea', ' stream', ' thicket', ' tundra', ' valley', ' vulcano', ' waterfall', ' wetlands', ' woodlands'];
@@ -78,22 +81,15 @@ export default function towns() {
     names5 = ['Gorash', 'Ogrinar', 'Tohrall', 'Dranorg', 'Hammerfall', 'Orsanum', 'Wrothguard', 'Garlund', 'Kharn', 'Xarluk'];
     names8 = ['Gnarg', 'Gnarlug', 'Gnorl', 'Gnorth', 'Gnoth', 'Gnurl', 'Golag', 'Golub', 'Gomatug', 'Gomoku', 'Gorgu', 'Gorlag', 'Grikug', 'Grug', 'Grukag', 'Grukk', 'Grung', 'Gruul'];
 
-    random5 = parseInt(Math.floor((Math.random() * names5.length)));
-    random8 = parseInt(Math.floor((Math.random() * names8.length)));
   } else if (random6 == 3) {
     names5 = ['Balagost', 'Moriath', 'Nogrand', 'Frosthold', 'Hammerhold', 'Thar Modan', 'Kaz Modor', 'Uldama', 'Hammerforge', 'Stormforge'];
     names8 = ['Bengahdar', 'Banbrek', 'Drumdus', 'Dulgarn', 'Galirg', 'Kharnur', 'Iromuador', 'Ragorhdrom', 'Urmbrek', 'Theledon'];
 
-    random5 = parseInt(Math.floor((Math.random() * names5.length)));
-    random8 = parseInt(Math.floor((Math.random() * names8.length)));
   } else if (random6 == 4) {
     names5 = ['Eviana', 'Malica', 'Mystohr', 'Arconia', 'Aeria', 'Mithyria', 'Calairith', 'Myracal', 'Fentalia', 'Curacius'];
     names7 = ['Queen', 'King', 'Prince', 'Princess'];
     names8 = ['Azore', 'Coral', 'Cowrie', 'Ebbie', 'Gullie', 'Ionia', 'Ivory', 'Marin', 'Meer', 'Meri', 'Mora', 'Nautila', 'Oceana', 'Pearl', 'Percula', 'Sandy', 'Shelly', 'Starfish', 'Tidal', 'Urchin', 'Wave', 'Whirl', 'Wrassey', 'Aed', 'Aodh', 'Aeden', 'Ash', 'Ashley', 'Blaze', 'Candala', 'Coala', 'Firo', 'Flare'];
 
-    random5 = parseInt(Math.floor((Math.random() * names5.length)));
-    random7 = parseInt(Math.floor((Math.random() * names7.length)));
-    random8 = parseInt(Math.floor((Math.random() * names8.length)));
   } else if (random6 == 5) {
     names5 = ['Zuldazin', 'Zalzabin', 'Jintalman', 'Zulamor', 'Julguroob', 'Atalakar', 'Zandalur', 'Farakazul', 'Guruubash', 'Amano'];
     names8 = ['Ekon', 'Erasto', 'Haijen', 'Hamedi', 'Hokima', 'Jaafan', 'Jabir', 'Jalai', 'Javyn', 'Jijel', 'Juma', 'Jumoke', 'Kaijin', 'Kazko', 'Maalik', 'Makas', 'Malak', 'Nyabingi', 'Rahjin', 'Rakash', 'Rashi', 'Razi'];
@@ -108,9 +104,8 @@ export default function towns() {
     names8 = ['Karax', 'Baxeek', 'Soxart', 'Rezikmez', 'Fizink', 'Wimax', 'Jexmelyx', 'Grexmex', 'Tinkbelex', 'Greekeels'];
   } else if (random6 == 20) {
     names7 = ['Captain'];
-  } else {
-    null;
   }
+
   if (random17 > 16) {
     names18 = ['metal shingle', 'galvanised steel', 'rusted', 'decaying', 'blackened', 'gray', 'black wooden', 'dark wooden', 'murky wooden', 'gloomy wooden', 'half rotten'];
     names19 = ['faded granite', 'faded marble', 'worn limestone', 'worn sandstone', 'stone veneer', 'chiseled stone', 'galvanised steel', 'rusted', 'decaying', 'blackened', 'gray', 'black wooden', 'dark wooden', 'murky wooden', 'gloomy wooden', 'half rotten', 'lavastone'];
@@ -118,9 +113,9 @@ export default function towns() {
     names21 = ['bizarre', 'bleak', 'chilling', 'creepy', 'dark', 'desolate', 'dreary', 'dull', 'eerie', 'foreboding', 'frightening', 'ghostly', 'ghoulish', 'gloomy', 'grim', 'grisly', 'gruesome', 'macabre', 'morbid', 'mysterious', 'ominous', 'peculiar', 'repulsive', 'revolting', 'sinister', 'somber', 'spine-chilling', 'supernatural', 'uncanny', 'unearthly'];
   }
 
-  var random5 = parseInt(Math.floor((Math.random() * names5.length)));
-  var random7 = parseInt(Math.floor((Math.random() * names7.length)));
-  var random8 = parseInt(Math.floor((Math.random() * names8.length)));
+  random5 = parseInt(Math.floor((Math.random() * names5.length)));
+  random7 = parseInt(Math.floor((Math.random() * names7.length)));
+  random8 = parseInt(Math.floor((Math.random() * names8.length)));
   const random19 = parseInt(Math.floor((Math.random() * names19.length)));
 
   const name = `${names1[random1]} ${names2[random2]} a ${names3[random3]}, the ${names4[random4]} of ${names5[random5]} is home to ${names6[random6]} lead by ${names7[random7]} ${names8[random8]}.`;

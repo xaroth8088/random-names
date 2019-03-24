@@ -6,7 +6,7 @@ export default function detectives() {
   const nm4 = ['Aaren', 'Addison', 'Aidan', 'Ainsley', 'Alex', 'Angel', 'Arin', 'Ash', 'Ashton', 'Avery', 'Bailey', 'Blair', 'Blake', 'Blythe', 'Brett', 'Brook', 'Cameron', 'Casey', 'Cass', 'Charlie', 'Chris', 'Cory', 'Dakota', 'Danny', 'Daryl', 'Drew', 'Dylan', 'Eli', 'Emerson', 'Gale', 'Harley', 'Harper', 'Hayden', 'Jackie', 'Jaden', 'Jaiden', 'Jamie', 'Jay', 'Jesse', 'Jo', 'Jordan', 'Jules', 'Kasey', 'Kerry', 'Lane', 'Lee', 'Logan', 'Lynn', 'Marley', 'Mell', 'Merle', 'Mo', 'Morgan', 'Nat', 'Quinn', 'Raegan', 'Reese', 'Riley', 'River', 'Robin', 'Rowan', 'Sam', 'Shannon', 'Shawn', 'Skyler', 'Stevie', 'Sydney', 'Tanner', 'Taylor', 'Tristan', 'Tyler', 'Val', 'Vic', 'Wil'];
 
 
-  const i = Math.floor(Math.random() * 10);
+
   {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm2.length);

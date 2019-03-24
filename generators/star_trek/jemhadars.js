@@ -1,5 +1,5 @@
 export default function jemhadars() {
-  const type = Math.random() > 0.5 ? 0 : 1;
+
   const nm1 = ['a', 'i', 'o', '', '', ''];
   const nm2 = ['d', 'g', 'k', 'l', 'm', 'n', 'r', 's', 't', 'v', 'y', 'z'];
   const nm3 = ['a', 'u', 'o', 'i', 'e', 'a'];

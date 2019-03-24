@@ -6,7 +6,7 @@ export default function ferengis() {
   const nm4 = ['ba', 'bel', 'bis', 'bora', 'ca', 'cera', 'cine', 'cis', 'd', 'de', 'del', 'dis', 'ga', 'gel', 'gela', 'gena', 'gis', 'gora', 'k', 'kera', 'kia', 'kis', 'l', 'le', 'lea', 'lera', 'lina', 'll', 'me', 'mera', 'mis', 'miya', 'n', 'ne', 'nia', 'nka', 'nni', 'no', 'pe', 'phi', 'pia', 'pora', 'r', 're', 'res', 'reya', 'ri', 'ris', 'rles', 'rni', 'rona', 'rra', 's', 'se', 'sh', 'sha', 'shi', 'shka', 'si', 'ta', 'the', 'ti', 'tis', 'va', 'vena', 'vil', 'vira', 'xaia', 'xen', 'xera', 'xi', 'zel', 'zenna', 'zera'];
 
 
-  const i = Math.floor(Math.random() * 10);
+
   {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm3.length);

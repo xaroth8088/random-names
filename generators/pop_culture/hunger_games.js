@@ -7,7 +7,7 @@ export default function hunger_games() {
   const nm5 = ['berg', 'berry', 'bloom', 'blossom', 'brand', 'breath', 'breeze', 'brook', 'bush', 'creek', 'drop', 'dust', 'fall', 'feather', 'flake', 'forest', 'forge', 'gaze', 'grove', 'hair', 'heart', 'hill', 'horn', 'leaf', 'lock', 'mark', 'path', 'petal', 'rock', 'root', 'sand', 'scape', 'shire', 'smith', 'snow', 'song', 'star', 'stone', 'thorn', 'tide', 'tree', 'vale', 'ville', 'water', 'way', 'willow', 'wind', 'wing', 'wood', 'worth'];
 
 
-  const i = Math.floor(Math.random() * 10);
+
   {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nmF.length);

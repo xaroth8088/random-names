@@ -1,5 +1,5 @@
 export default function one_piece_devil_fruits() {
-  const type = Math.random() > 0.5 ? 0 : 1;
+
   const nm1 = [
     ['Ame', 'Rain'],
     ['Arashi', 'Storm'],
@@ -124,7 +124,7 @@ export default function one_piece_devil_fruits() {
   ];
 
 
-  const i = Math.floor(Math.random() * 10);
+
   {
     rnd = Math.floor(Math.random() * nm1.length);
     names = `${nm1[rnd][0]} ${nm1[rnd][0]} no Mi (${nm1[rnd][1]})`;

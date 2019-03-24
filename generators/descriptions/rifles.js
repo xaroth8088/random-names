@@ -34,7 +34,7 @@ export default function rifles() {
 
   const rnd1 = Math.floor(Math.random() * nm1.length);
   if (rnd1 < 8) {
-    const rnd1b = ' and ';
+
   }
   const rnd2 = Math.floor(Math.random() * nm2.length);
   const rnd3 = Math.floor(Math.random() * nm3.length);

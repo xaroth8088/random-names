@@ -5,7 +5,7 @@ export default function khmers() {
   const nm3 = ['Aang', 'Aek', 'Ang', 'Aok', 'Ben', 'Bun', 'Chak', 'Chan', 'Chea', 'Chen', 'Chey', 'Chhan', 'Chhay', 'Chhem', 'Chhet', 'Chhim', 'Chhit', 'Chhorn', 'Chhoub', 'Chim', 'Chin', 'Choem', 'Choeun', 'Din', 'Dith', 'Dul', 'Duong', 'Eam', 'Eav', 'Ek', 'Em', 'Heang', 'Ho', 'Hong', 'Hoy', 'Hu', 'Hun', 'Iam', 'Iem', 'Im', 'Iv', 'Jan', 'Jay', 'Jen', 'Jey', 'Jin', 'Keo', 'Khai', 'Khan', 'Khat', 'Khay', 'Khiev', 'Khin', 'Khlot', 'Khoun', 'Khun', 'Kim', 'Kong', 'Lim', 'Long', 'Lorn', 'Loun', 'Ma', 'Mak', 'Mao', 'Mean', 'Meang', 'Meas', 'Meng', 'Mok', 'Mon', 'Moul', 'Mul', 'Muoy', 'Muy', 'Neak', 'Nhek', 'Noung', 'Nourn', 'Nout', 'Ok', 'Om', 'On', 'Ong', 'Or', 'Ou', 'Ouch', 'Ouk', 'Pang', 'Pen', 'Phan', 'Phann', 'Pheng', 'Phon', 'Phy', 'Pok', 'Prak', 'Preap', 'Prum', 'Ros', 'Rous', 'Saluk', 'Sam', 'San', 'Sang', 'Sar', 'Sat', 'Say', 'Seang', 'Sen', 'Seng', 'Sieng', 'Sin', 'So', 'Sok', 'Sok ', 'Som', 'Son', 'Song', 'Sor', 'Sorm', 'Soun', 'Su', 'Suy', 'Tang', 'Tat', 'Tep', 'Thith', 'Thy', 'Toch', 'Touch', 'Tum', 'Ty', 'Uch', 'Um', 'Ung', 'Uy', 'Vang', 'Voeum', 'Yim', 'Yos', 'Yous', 'Yu', 'Yun'];
 
 
-  const i = Math.floor(Math.random() * 10);
+
   {
     rnd = Math.floor(Math.random() * nm3.length);
     if (type === 1) {

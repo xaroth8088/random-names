@@ -1,4 +1,6 @@
-function generator$lord_of_the_rings$maiars(type) {﻿
+export default function maiars() {
+  const type = Math.random() < 0.5 ? 0 : 1;
+
   const nm1 = ['f', 'l', 'm', 'n', 'ph', 's', 'sh', 'w', 'y', 'z', '', ''];
   const nm2 = ['a', 'e', 'o', 'i', 'u', 'ó', 'é', 'ie', 'ui', 'ia', 'ea', 'ae', 'ua'];
   const nm3 = ['l', 'lm', 'ln', 'ls', 'n', 'nn', 'ph', 'r', 's', 'sh', 'ss', 'th'];
@@ -12,7 +14,7 @@ function generator$lord_of_the_rings$maiars(type) {﻿
   const nm10 = ['o', 'e', 'ë', 'ó', '', '', '', ''];
 
 
-  const i = Math.floor(Math.random() * 10);
+
   {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm1.length);

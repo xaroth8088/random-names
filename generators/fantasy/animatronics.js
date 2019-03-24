@@ -174,7 +174,7 @@ export default function animatronics() {
   ];
 
 
-  const i = Math.floor(Math.random() * 10);
+
   {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm2.length);

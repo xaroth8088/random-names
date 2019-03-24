@@ -24,7 +24,7 @@ export default function staffs() {
   const rnd12 = Math.floor(Math.random() * nm8.length);
   var rnd13 = Math.floor(Math.random() * nm9.length);
   while (rnd13 === rnd9) {
-    var rnd13 = Math.floor(Math.random() * nm9.length);
+
   }
 
   const name = `${nm1} centimeters (${nm1b} inches) of ${nm2[rnd2]} ${nm3[rnd3]} form the base of this ${nm4[rnd4]} staff. ${nm5[rnd5]}, which has been ${nm6[rnd6]}.`;

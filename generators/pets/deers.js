@@ -4,7 +4,7 @@ export default function deers() {
   const nm2 = ['Aphra', 'Afra', 'Hymn', 'Ayala', 'Bambi', 'Fawn', 'Fawne', 'Doe', 'Raleigh', 'Hinda', 'Hynd', 'Hynda', 'Hynde', 'Luna', 'Willow', 'Lyric', 'Dash', 'Milo', 'Fern', 'Melrose', 'Ficus', 'Spryte', 'Lucky', 'Dance', 'Ayala', 'Summer', 'Spring', 'Autumn', 'Winter', 'Elain', 'Tabby', 'Tibby', 'Ivory', 'Pearl', 'Snow', 'Snowflake', 'Hazel', 'Bay', 'Umber', 'Amber', 'Cinnamon', 'Coco', 'Tawny', 'Cookie', 'Muffin', 'Beauty', 'Buttercup', 'Freckles', 'Spot', 'Speckle', 'Speckles', 'Grace', 'Ivy', 'Promise', 'Raidrop', 'Serenity', 'Speckles', 'Zoe', 'Dyani', 'Hinda', 'Jane Doe', 'Daisy', 'Dear', 'Pepper', 'Princess', 'Queen', 'Elli', 'Elkee', 'Vixen', 'Dash', 'Silka', 'Boubou', 'Harmony', 'Flower', 'Furball', 'Buttercup', 'Nutmeg', 'Aurora', 'Aura', 'Heiress', 'Liberty', 'Jasmine', 'Ashley', 'Jewel', 'Enigma', 'Toffee', 'Patches', 'Shye', 'Huntress', 'Cotton', 'Luna', 'Breeze', 'Breezy', 'Dashful', 'Whiskers', 'Nighte', 'Brooke', 'Moone', 'Winde', 'Windy', 'Enya', 'Cloude', 'Hope', 'Lace', 'Silk', 'Orchid', 'Lullaby', 'Pebbles', 'River', 'Cupcake', 'Mystique', 'Ginger', 'Destiny'];
 
 
-  const i = Math.floor(Math.random() * 10);
+
   {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm2.length);

@@ -40,9 +40,7 @@ export default function medieval_clothings() {
   const nm38 = ['boots', 'shoes'];
   const nm39 = ['leather', 'hide', 'fur', 'leather', 'leather', 'cloth'];
 
-  const tp = type;
-
-  if (tp === 1) {
+  if (type === 1) {
     const rnd = Math.floor(Math.random() * nm1.length);
     const rnd2 = Math.floor(Math.random() * nm2.length);
     const rnd3 = Math.floor(Math.random() * nm3.length);

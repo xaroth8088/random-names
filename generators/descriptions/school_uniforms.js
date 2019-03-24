@@ -28,7 +28,7 @@ export default function school_uniforms() {
   const rnd2 = Math.floor(Math.random() * nm2.length);
   const rnd3 = Math.floor(Math.random() * nm3.length);
   const rnd3s = Math.floor(Math.random() * nm3s.length);
-  const rnd4 = Math.floor(Math.random() * nm4.length);
+
   const rnd5 = Math.floor(Math.random() * nm5.length);
   const rnd5b = Math.floor(Math.random() * nm5.length);
   const rnd6 = Math.floor(Math.random() * nm6.length);

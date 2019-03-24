@@ -1,5 +1,5 @@
 export default function urgals() {
-  const type = Math.random() > 0.5 ? 0 : 1;
+
   const nm1 = ['', '', 'b', 'd', 'g', 'kh', 'k', 'r', 'sk', 'skg', 't', 'y', 'v', 'z'];
   const nm2 = ['a', 'e', 'o', 'u'];
   const nm3 = ['b', 'br', 'bv', 'bgr', 'bdr', 'd', 'dv', 'dz', 'dzgr', 'dgr', 'gr', 'gn', 'gz', 'hgr', 'hr', 'lk', 'lv', 'r', 'rg', 'rd', 'rb', 'rv', 'rtv', 'rzhv', 'tv', 'tr', 'thb', 'tz', 'zg', 'zb', 'zr', 'ztr', 'zhgr'];

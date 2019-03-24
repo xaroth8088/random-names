@@ -258,7 +258,7 @@ export default function personalitys() {
   if (tp === 1) {
     var rnd1 = Math.floor(Math.random() * nm11.length);
     var rnd2 = Math.floor(Math.random() * nm12.length);
-    var rnd3 = Math.floor(Math.random() * nm13.length);
+
     var rnd4 = Math.floor(Math.random() * nm14.length);
     var rnd5 = Math.floor(Math.random() * nm15.length);
     var rnd6 = Math.floor(Math.random() * nm16.length);
