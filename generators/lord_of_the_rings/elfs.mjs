@@ -6,7 +6,7 @@ export default function elfs() {
   let name2;
   let names1;
   let names2;
-  const type = Math.random() < 0.5 ? 0 : 1;
+  const type = Math.floor(Math.random() * 3.0);
   const nm1 = [
     ['Âr', 'Royal/Noble'],
     ['Êg', 'Thorn'],

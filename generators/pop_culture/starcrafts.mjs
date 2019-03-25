@@ -7,7 +7,7 @@ export default function starcrafts() {
   let rnd5;
   let rnd6;
   let rnd7;
-  const type = Math.random() > 0.5 ? 0 : 1;
+  const type = Math.floor(Math.random() * 3.0);
   const nm1 = ['', '', '', '', '', 'd', 'dh', 'f', 'g', 'gh', 'h', 'k', 'kh', 'n', 'm', 't', 'x', 'z'];
   const nm2 = ['a', 'e', 'i', 'o', 'u', 'y', 'a', 'e', 'i', 'o', 'u', 'y', 'a', 'e', 'i', 'o', 'u', 'y', 'a', 'e', 'i', 'o', 'u', 'y', 'a', 'e', 'i', 'o', 'u', 'y', 'io', 'ia'];
   const nm3 = ['d', 'g', 'm', 'n', 'r', 't', 'd', 'g', 'm', 'n', 'r', 't', 'd', 'g', 'm', 'n', 'r', 't', 'd', 'dr', 'g', 'gd', 'gr', 'ld', 'ldr', 'm', 'n', 'nd', 'ndr', 'r', 'rk', 'rt', 'rx', 'rz', 'ss', 't', 'tr', 'tg', 'xx', 'zr'];
