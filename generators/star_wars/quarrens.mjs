@@ -1,6 +1,5 @@
 export default function quarrens() {
   let rnd;
-
   let rnd2;
   let rnd3;
   let rnd4;
@@ -12,10 +11,7 @@ export default function quarrens() {
   let rnd10;
   let
     rnd11;
-
-
   let names;
-
   const nm1 = ['', '', '', 'b', 'c', 'ch', 'chr', 'd', 'dh', 'f', 'fr', 'g', 'gr', 'j', 'k', 'kr', 'l', 'm', 'n', 'nr', 'p', 'ph', 'pw', 'q', 'r', 's', 'sh', 'sq', 't', 'th', 'tr', 'ts', 'v', 'w', 'wh', 'y', 'z'];
   const nm2 = ['y', 'y', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'au', 'io', 'oe', 'ue', 'ui', 'ua', 'ea'];
   const nm3 = ['b', 'bk', 'ck', 'ct', 'd', 'dk', 'dg', 'dl', 'dm', 'dr', 'g', 'gg', 'gk', 'k', 'kk', 'l', 'lb', 'lg', 'll', 'lm', 'lp', 'lw', 'm', 'mt', 'n', 'ndr', 'nt', 'p', 'pp', 'q', 'r', 'rgl', 'rh', 'rl', 'rr', 'rrh', 'rth', 'rz', 'sq', 'ss', 'ssth', 'st', 'sth', 'w'];
@@ -24,8 +20,6 @@ export default function quarrens() {
   const nm6 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'au', 'ee', 'aa'];
   const nm7 = ['bn', 'br', 'c', 'ck', 'cp', 'cm', 'dk', 'dm', 'g', 'gg', 'hl', 'k', 'kk', 'kr', 'km', 'l', 'lb', 'lp', 'lg', 'lm', 'nm', 'n', 'nn', 'nd', 'nr', 'nt', 'p', 'pp', 'q', 'r', 'rk', 'rr', 'rt', 'rh', 'rz', 's', 'ss', 'st', 'sm', 'sq', 't', 'v', 'w', 'wm'];
   const nm8 = ['', '', '', '', 'd', 'dd', 'ff', 'g', 'k', 'l', 'lg', 'll', 'ls', 'm', 'n', 'nk', 'nx', 'q', 'r', 'rg', 'rn', 'rv', 's', 'sk', 't', 'z'];
-
-
   const i = Math.floor(Math.random() * 10);
   {
     rnd7 = Math.floor(Math.random() * nm5.length);

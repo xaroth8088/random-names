@@ -1,6 +1,5 @@
 export default function lovecraftians() {
   let rnd;
-
   let rnd1;
   let rnd2;
   let rnd3;
@@ -8,10 +7,7 @@ export default function lovecraftians() {
   let rnd5;
   let
     rnd6;
-
-
   let names;
-
   const nm1 = ['a', 'e', 'i', 'u', 'o', 'a', 'ai', 'aiu', 'aiue', 'e', 'i', 'ia', 'iau', 'iu', 'o', 'u', 'y', 'ya', 'yi', 'yo'];
   const nm2 = ['bh', 'br', 'c\'th', 'cn', 'ct', 'cth', 'cx', 'd', 'd\'', 'g', 'gh', 'ghr', 'gr', 'h', 'k', 'kh', 'kth', 'mh', 'mh\'', 'ml', 'n', 'ng', 'sh', 't', 'th', 'tr', 'v', 'v\'', 'vh', 'vh\'', 'vr', 'x', 'z', 'z\'', 'zh'];
   const nm3 = ['a', 'e', 'i', 'u', 'o', 'a', 'e', 'i', 'u', 'o', 'ao', 'aio', 'ui', 'aa', 'io', 'ou', 'y'];
@@ -19,8 +15,6 @@ export default function lovecraftians() {
   const nm5 = ['', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '\'dhr', '\'dr', '\'end', '\'gn', '\'ith', '\'itr', '\'k', '\'kr', '\'l', '\'m', '\'r', '\'th', '\'vh', '\'x', '\'zh'];
   const nm6 = ['a', 'e', 'i', 'u', 'o'];
   const nm7 = ['', '', '', '', '', '', '', '', '', '', 'd', 'g', 'h', 'l', 'lb', 'lbh', 'n', 'r', 'rc', 'rh', 's', 'sh', 'ss', 'st', 'sz', 'th', 'tl', 'x', 'xr', 'xz'];
-
-
   const i = Math.floor(Math.random() * 10);
   {
     if (i < 5) {

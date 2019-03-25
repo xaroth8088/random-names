@@ -1,10 +1,6 @@
 export default function houses() {
-
-
     let rnd8;
     let rnd10;
-
-
     const nm1 = ['magnificent', 'cozy', 'warm and cozy', 'stylish', 'very elegant', 'gorgeous', 'grandiose', 'impressive', 'lavish', 'snug and comfortable', 'intimate and cozy', 'luxurious', 'posh and extravagant', 'nice and traditional', 'old, but wonderful'];
     const nm2 = ['blue stones', 'bricks covered in render', 'brown bricks', 'brown stones', 'burgandy bricks', 'cypress wood', 'fir wood', 'grey bricks', 'grey stones', 'oak wood', 'poplar wood', 'red bricks', 'red pine wood', 'sandstone', 'spruce wood', 'tan bricks', 'tan stones', 'walnut wood', 'wheat colored bricks', 'white bricks', 'white cedar wood', 'white pine wood', 'white stones', 'wood covered in render', 'yellow pine wood'];
     const nm3 = ['blue stone', 'brown brick', 'brown stone', 'burgandy brick', 'cypress wooden', 'fir wooden', 'grey brick', 'grey stone', 'oak wooden', 'poplar wooden', 'red brick', 'red pine wooden', 'sandstone', 'spruce wooden', 'tan brick', 'tan stone', 'marble', 'granite', 'mahogany wooden', 'walnut wood', 'white brick', 'white cedar wooden', 'white pine wooden', 'white stone', 'yellow pine wooden'];
@@ -27,7 +23,6 @@ export default function houses() {
     const nm14 = ['One large chimney pokes out the center of the roof', 'Two large chimneys poke out the center of the roof', 'One large chimney sits at the side of the house', 'Two large chimneys sit at the side of the house', 'Two large chimneys sit at either side of the house', 'There are no chimneys', 'One small chimney pokes out the center of the roof', 'Two small chimneys poke out the center of the roof', 'One small chimney sits at the side of the house', 'Two small chimneys sit at the side of the house', 'Two small chimneys sit at either side of the house'];
     const nm15 = ['Several large windows let in plenty of light to the rooms below the roof', 'Many smaller windows let in plenty of light to the rooms below the roof', 'Several small windows let in just enough light to the rooms below the roof', 'A few large windows let in just enough light to the rooms below the roof', 'A few round, small windows let in enough light to the rooms below the roof', 'Several long, thin windows let in plenty of light to the rooms below the roof', 'Two roof terraces let in plenty of light to the rooms below the roof', 'Large, skylight windows let in plenty of light to the rooms below the roof', 'Rows of small windows let in plenty of light to the rooms below the roof', 'There are no windows on the roof'];
     const nm16 = ['a gorgeous garden with many hidden lights that make the garden come to life at night', 'a gorgeous garden, including hanging grape vines, a pagoda, a pond and many different flowers', 'a gorgeous garden, including various trees, bushes, flowers and a large pond', 'a modest garden, covered mostly in grass, a few flower patches and with a small pond', 'a modest garden, with mostly grass and a few small trees', 'a modest garden, with mostly grass, a few flower patches and a children\'s playground', 'a modest, childsafe garden covered mostly in grass and with a children\'s playground in the center', 'a tranquil garden, with various flowers, a long pond including a small waterfall and various rock formations', 'a well kept garden, with a grass field and flower patches at the edges of the garden', 'a well kept garden. Grass, flower patches and trees have been placed in a stylish way', 'grass, a huge tree in the center and bushes on the borders of the plot', 'paved ground, with a pool at the backside of the house', 'paved ground, with a small pond at one side and various potted plants all around the house', 'paved ground, with an outdoor eating and relaxing space and various potted plants', 'paved ground, with various party spots, like a fancy barbeque and a firepit'];
-
     const nm17 = ['a large', 'a small', 'a modern', 'a huge', 'an average', 'an old-fashioned'];
     const nm18 = ['two bathrooms', 'one large bathroom', 'one small bathroom', 'one average bathroom', 'one modern bathroom', 'two modern bathrooms', 'three bathrooms'];
     const nm19 = ['large', 'cozy', 'small', 'warm', 'huge', 'fairly small', 'comfortable', 'snug', 'generous', 'spacious'];
@@ -36,10 +31,8 @@ export default function houses() {
     const nm22 = ['dining room', 'dining area'];
     const nm23 = ['', '', '', '', '', ', a lounge area', ', a study', ', a library', ', a game room', ', a bar', ', a sun room', ', a playroom', ', a multimedia room', ', an office'];
     const nm24 = ['storage room', 'garage', 'basement'];
-
     let nms8 = '';
     let nms10 = '';
-
     const rnd1 = Math.floor(Math.random() * nm1.length);
     const rnd2 = Math.floor(Math.random() * nm2.length);
     const rnd3 = Math.floor(Math.random() * nm3.length);
@@ -89,18 +82,12 @@ export default function houses() {
     const rnd23 = Math.floor(Math.random() * nm23.length);
     const rnd24 = Math.floor(Math.random() * nm24.length);
     const rnd25 = Math.floor(Math.random() * nm21.length);
-
     const name = `From the outside this house looks ${nm1[rnd1]}, it has been built with ${nm2[rnd2]} and has ${nm3[rnd3]} decorations. ${nm4[rnd4]} windows ${nm5[rnd5]} and have been added to the house ${nm6[rnd6]}.`;
-
     const name2 = `The house is equipped with ${nm17[rnd17]} kitchen and ${nm18[rnd18]}, it also has a ${nm19[rnd19]} living room, ${nm20[rnd20]}, ${nm21[rnd21]} ${nm22[rnd22]}${nm23[rnd23]} and ${nm21[rnd25]} ${nm24[rnd24]}.`;
-
     const name3 = `The building is ${nm7[rnd7]}. ${nms8}.`;
     const name4 = `The second floor is ${nm9[rnd9]}, ${nms10}. This floor ${nm11[rnd11]} the floor below.`;
-
     const name5 = `The roof is ${nm12[rnd12]} and is covered with ${nm13[rnd13]}. ${nm14[rnd14]}. ${nm15[rnd15]}.`;
-
     const name6 = `The house itself is surrounded by ${nm16[rnd16]}.`;
-
     let result = '';
     result += name;
     result += '\n';

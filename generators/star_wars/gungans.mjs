@@ -1,6 +1,5 @@
 export default function gungans() {
   let rnd;
-
   let rnd2;
   let rnd3;
   let rnd4;
@@ -11,10 +10,7 @@ export default function gungans() {
   let
     rnd9;
   let rnd11;
-
-
   let names;
-
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['', '', '', '', 'b', 'bl', 'br', 'c', 'cr', 'cl', 'd', 'f', 'fl', 'fr', 'g', 'h', 'j', 'k', 'kl', 'kr', 'l', 'm', 'n', 'p', 'r', 's', 'sk', 't', 'w', 'y', 'z'];
   const nm2 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'oo', 'oe', 'ee', 'ie', 'ue', 'ia', 'au'];
@@ -26,8 +22,6 @@ export default function gungans() {
   const nm8 = ['b', 'c', 'd', 'f', 'g', 'gr', 'h', 'j', 'k', 'l', 'm', 'n', 'p', 'q', 'r', 's', 'sh', 'sl', 'sq', 't', 'tr', 'w', 'y', 'w', 'z'];
   const nm9 = ['bb', 'bbl', 'bl', 'd', 'db', 'dr', 'dt', 'f', 'ff', 'g', 'gl', 'j', 'kk', 'll', 'lb', 'ld', 'ls', 'm', 'mb', 'mf', 'nd', 'ng', 'p', 'pf', 'r', 'rd', 'rm', 'rp', 'rs', 'rsh', 's', 'ss', 'sb', 'sd', 'sm', 'th', 'tt', 'ttl', 'w', 'z', 'zb'];
   const nm10 = ['', '', '', '', 'b', 'd', 'f', 'g', 'l', 'ls', 'm', 'mk', 'n', 'nks', 'nt', 'p', 'pps', 'r', 'rm', 'rr', 'rs', 'rt', 's', 'ss', 'th', 'w', 'wn', 'z', 'zz'];
-
-
   const i = Math.floor(Math.random() * 10);
   {
     rnd6 = Math.floor(Math.random() * nm8.length);

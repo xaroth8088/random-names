@@ -1,6 +1,5 @@
 export default function kingdoms() {
   let rnd;
-
   let rnd2;
   let rnd3;
   let rnd4;
@@ -8,18 +7,13 @@ export default function kingdoms() {
   let rnd6;
   let
     rnd7;
-
-
   let names;
-
   const names1 = ['ae', 'ea', 'ai', 'au', 'ou', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', ''];
   const names2 = ['ae', 'eo', 'ea', 'ai', 'ui', 'ou', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u'];
   const names3 = ['b', 'c', 'd', 'g', 'h', 'k', 'l', 'm', 'n', 'p', 'q', 'r', 's', 't', 'v', 'w', 'x', 'y', 'z', 'br', 'cr', 'dr', 'gr', 'kr', 'pr', 'tr', 'vr', 'wr', 'st', 'sl', 'ch', 'sh', 'ph', 'kh', 'th'];
   const names4 = ['b', 'c', 'd', 'g', 'k', 'l', 'm', 'n', 'p', 'q', 'r', 's', 't', 'v', 'w', 'x', 'y', 'z', 'b', 'c', 'd', 'g', 'k', 'l', 'm', 'n', 'p', 'q', 'r', 's', 't', 'v', 'w', 'x', 'y', 'z', 'b', 'c', 'd', 'f', 'g', 'k', 'l', 'm', 'n', 'p', 'q', 'r', 's', 't', 'v', 'w', 'x', 'y', 'z', 'bb', 'cc', 'dd', 'ff', 'gg', 'kk', 'll', 'mm', 'nn', 'pp', 'rr', 'ss', 'tt', 'zz', 'br', 'cr', 'dr', 'gr', 'kr', 'pr', 'sr', 'tr', 'zr', 'st', 'sl', 'ch', 'sh', 'ph', 'kh', 'th'];
   const names5 = ['ba', 'bet', 'bia', 'borg', 'burg', 'ca', 'caea', 'can', 'cia', 'curia', 'dal', 'del', 'dia', 'dian', 'do', 'dor', 'dora', 'dour', 'galla', 'gary', 'gia', 'gon', 'han', 'kar', 'kha', 'kya', 'les', 'lia', 'lon', 'lan', 'lum', 'lux', 'lyra', 'mid', 'mor', 'more', 'nad', 'nait', 'nao', 'nate', 'nada', 'neian', 'nem', 'nia', 'nid', 'niel', 'ning', 'ntis', 'nyth', 'pan', 'phate', 'pia', 'pis', 'ra', 'ral', 'rean', 'rene', 'renth', 'ria', 'rian', 'rid', 'rin', 'ris', 'rith', 'rus', 'ryn', 'sal', 'san', 'sea', 'seon', 'sha', 'sian', 'site', 'sta', 'ston', 'teron', 'terra', 'tha', 'thage', 'then', 'thia', 'tia', 'tis', 'tish', 'ton', 'topia', 'tor', 'tus', 'valon', 'varia', 'vell', 'ven', 'via', 'viel', 'wen', 'weth', 'wyth', 'ya', 'zar', 'zia'];
   const names6 = ['Kingdom', 'Empire', 'Dynasty'];
-
-
   const i = Math.floor(Math.random() * 10);
   {
     if (i < 5) {

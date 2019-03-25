@@ -23,7 +23,6 @@ export default function coat_of_arms() {
   const nm23 = ['a delicate', 'a fancy', 'a graceful', 'a large', 'a long', 'a luxurious', 'a majestic', 'a modest', 'a simple', 'a small', 'an elegant', 'an ornate'];
   const nm24 = ['partially wrapped around the supporters', 'reaching from supporter to supporter', 'positioned just below the supporters', 'positioned just below the shield', 'partially covering the bottom of the shield', 'partially covered by the shield', 'wrapped around the sides of the shield', 'hanging above the crest'];
   const nm25 = ['Formed from many, now as one', 'God is great, god is just', 'One nation, one people', 'For the people, for the realm', 'United we stand, united we conquer', 'In unity and freedom', 'Justice, honesty, integrity', 'Pride and honor', 'In service of god', 'Work, love, play', 'Peace, justice, progress', 'Truth prevails', 'God, king, country', 'Peace, equality, unity', 'Friends, family, fatherland', 'Peace, progress, prosperity', 'One struggle, one people, one destiny', 'Reap what you sow', 'Spirits guide us, spirits watch over us', 'Let there be eternal light', 'United we stand, united we stay', 'We will persevere', 'Pride, honor, justice', 'Without god we are nothing', 'Strength, prosperity, perseverance'];
-
   const rnd1 = Math.floor(Math.random() * nm1.length);
   const rnd2 = Math.floor(Math.random() * nm2.length);
   const rnd2b = Math.floor(Math.random() * nm2.length);
@@ -82,14 +81,10 @@ export default function coat_of_arms() {
   const rnd23 = Math.floor(Math.random() * nm23.length);
   const rnd24 = Math.floor(Math.random() * nm24.length);
   const rnd25 = Math.floor(Math.random() * nm25.length);
-
-
   const name = `A ${nm1[rnd1]} shield with ${nm2[rnd2]} ${nm3[rnd3]} top and ${nm2[rnd2b]} ${nm4[rnd4]} bottom is supported by ${rn6}. All of which rests on a ${nm7[rnd7]}.`;
   const name2 = `A ${nm8[rnd8]} crown, or coronet, rests atop the shield, it's a crown of ${nm9[rnd9]}${rn10} and ${nm11[rnd11]} decorate the outer sides.`;
-
   const name3 = `On top of the coronet sits ${nm12[rnd12]} helm, which itself supports the crest, in this case ${nm13[rnd13]} ${nm14[rnd14]}. The coronet and crest are decoratively bound by a roll of fabric, or torse, which carries the main colors used on the shield.`;
   const name4 = `Lastly, tied to the helmet is ${nm15[rnd15]} drapery, or mantling, in the shape of ${nm16[rnd16]} and colored in the main colors, just like the torse.`;
-
   const name5 = `The shield itself has ${nm17[rnd17]} colors which are painted in ${nm18[rnd18]} pattern. ${rn20} as the emblem, or charge, and ${nm23[rnd23]} ribbon, ${nm24[rnd24]}, carries the motto, which reads: "${nm25[rnd25]}.".`;
   let result = '';
   result += name;

@@ -1,11 +1,7 @@
 export default function hyborians() {
   let rnd;
-
   let rnd2;
-
-
   let names;
-
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['Abant', 'Acast', 'Ach', 'Acris', 'Acrision', 'Act', 'Aeg', 'Al', 'Alc', 'Am', 'Amul', 'Andr', 'Andron', 'Ang', 'Ar', 'Arct', 'Arp', 'Ascl', 'Atab', 'Att', 'Auf', 'Aur', 'Bal', 'Ball', 'Bar', 'Barr', 'Bel', 'Bor', 'Cadm', 'Call', 'Carn', 'Cenw', 'Ceph', 'Clad', 'Codr', 'Dam', 'Dard', 'Dec', 'Decual', 'Dex', 'Dexith', 'Dr', 'Edr', 'Elig', 'Emil', 'Ep', 'Er', 'Fabr', 'Favon', 'Flav', 'Gl', 'Glac', 'Gonz', 'Grat', 'Grom', 'Guil', 'Hil', 'Hor', 'Il', 'In', 'Iph', 'Kest', 'Klaud', 'Kost', 'Krel', 'Lar', 'Laud', 'Leon', 'Lib', 'Lor', 'Luc', 'Mar', 'Merc', 'Met', 'Mez', 'Mod', 'Ner', 'Nol', 'Numed', 'Oct', 'Octav', 'Or', 'Pallant', 'Parn', 'Periph', 'Prosp', 'Publ', 'Rig', 'Rin', 'Ruf', 'Sept', 'Serv', 'Sor', 'Sur', 'Th', 'Thesp', 'Tib', 'Troc', 'Tul', 'Val', 'Vict', 'Vil', 'Volm', 'Zet', 'Zor'];
   const nm2 = ['abus', 'accus', 'achus', 'actus', 'aeon', 'aeus', 'ago', 'aime', 'aldo', 'alino', 'alric', 'alus', 'alvio', 'annus', 'anus', 'arion', 'aris', 'as', 'assus', 'astes', 'astus', 'atius', 'avian', 'eades', 'eas', 'el', 'elio', 'elius', 'ello', 'endin', 'entius', 'eo', 'epius', 'er', 'erias', 'erio', 'erius', 'ero', 'erus', 'es', 'estus', 'etes', 'eus', 'iades', 'ian', 'ic', 'icus', 'ides', 'idos', 'idus', 'imer', 'imus', 'inos', 'io', 'ion', 'iones', 'is', 'itheus', 'ius', 'on', 'orin', 'orus', 'os', 'ualion', 'uis', 'ulf', 'ulus', 'us', 'yco'];
@@ -27,8 +23,6 @@ export default function hyborians() {
   const nm18 = ['bak', 'bakar', 'bale', 'dil', 'dru', 'feri', 'fra', 'garu', 'gra', 'har', 'hdeti', 'k', 'kri', 'kuh', 'ldun', 'm', 'ma', 'mah', 'mheb', 'mon', 'msa', 'mu', 'mun', 'n', 'nes', 'nif', 'nkmek', 'noteph', 'nthes', 'phis', 'pis', 'ptah', 'ri', 'ris', 'rmer', 'ru', 'ruti', 's', 'si', 'sphon', 'ssa', 'th', 'thamon', 'thmes', 'za'];
   const nm19 = ['Aki', 'Amu', 'Asta', 'Azi', 'Ba', 'Chio', 'Dali', 'Dende', 'E', 'Echi', 'Ha', 'Hatshe', 'He', 'Ka', 'Kani', 'Ke', 'Kesi', 'Mafua', 'Mandi', 'Meshke', 'Moni', 'Mumi', 'Nabi', 'Nahee', 'Nai', 'Ne', 'Nefe', 'Nu', 'Olu', 'Omo', 'Ra', 'Re', 'Sa', 'Sanu', 'Sha', 'Su', 'Tahi', 'Tau', 'The', 'Thermu', 'Za', 'Zali'];
   const nm20 = ['bah', 'biah', 'bira', 'dna', 'fa', 'femi', 'fsha', 'gira', 'hema', 'hra', 'ka', 'khbet', 'khmet', 'kra', 'la', 'lah', 'ma', 'mah', 'nah', 'ne', 'net', 'ni', 'nura', 'phira', 'psut', 'qet', 'ra', 'rah', 'ret', 'rifa', 'rose', 'rtari', 'rte', 'ru', 'rye', 'sa', 'she', 'shida', 'stet', 'this', 'za'];
-
-
   const i = Math.floor(Math.random() * 10);
   {
     if (type === 1) {

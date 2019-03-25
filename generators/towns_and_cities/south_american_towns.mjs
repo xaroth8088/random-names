@@ -1,9 +1,6 @@
 export default function south_american_towns() {
   let rnd;
-
   let rnd2;
-
-
   let names;
   /* Argentina */
   const nm1 = ['Aña', 'A', 'Adro', 'Agui', 'Al', 'Alba', 'Albar', 'Alde', 'Ari', 'Aris', 'Arro', 'Ave', 'Azu', 'Ba', 'Barra', 'Barran', 'Bue', 'Cór', 'Caña', 'Ca', 'Cale', 'Cam', 'Capi', 'Car', 'Carca', 'Cas', 'Casi', 'Caste', 'Cau', 'Cen', 'Cente', 'Cha', 'Chaca', 'Chaja', 'Chara', 'Chi', 'Chile', 'Chim', 'Chivi', 'Cin', 'Cipo', 'Cole', 'Como', 'Conce', 'Cor', 'Coro', 'Cos', 'Cre', 'Cres', 'Cru', 'Cu', 'Curu', 'Cut', 'Do', 'Dolo', 'Em', 'Emba', 'Embar', 'Es', 'Espe', 'Esqui', 'Fa', 'Fama', 'Fe', 'Fede', 'Fir', 'Fon', 'For', 'Gá', 'Gál', 'Go', 'Gobe', 'Gra', 'Grana', 'Gua', 'Guale', 'Ja', 'Jar', 'Joa', 'Lin', 'Lu', 'Ma', 'Macha', 'Men', 'Mendo', 'Mer', 'Mo', 'Mon', 'Ne', 'Neco', 'Neu', 'Obe', 'Ola', 'Olava', 'Pé', 'Pa', 'Pal', 'Palpa', 'Para', 'Pe', 'Per', 'Perga', 'Pi', 'Pira', 'Plo', 'Po', 'Poci', 'Posa', 'Qui', 'Quiti', 'Ra', 'Re', 'Recon', 'Resi', 'Ro', 'Rosa', 'Ru', 'Rufi', 'Sa', 'Sal', 'Sala', 'San An', 'San Ca', 'San Car', 'San Fe', 'San Fer', 'San Fra', 'San Isi', 'San Ja', 'San Jo', 'San Jor', 'San Ju', 'San Jua', 'San Lo', 'San Lore', 'San Mar', 'San Mi', 'San Ni', 'San Nico', 'San Pe', 'San Ra', 'San Sal', 'San Vi', 'Su', 'Sun', 'Suncha', 'Ta', 'Tan', 'Tar', 'Tarta', 'Te', 'Ter', 'Ti', 'Tre', 'Un', 'Unqui', 'Ve', 'Vei', 'Vein', 'Vena', 'Zá', 'Zára', 'Za', 'Zapa'];
@@ -26,8 +23,6 @@ export default function south_american_towns() {
   /* Uruguay */
   const nm13 = ['Ace', 'Ai', 'Aqua', 'Arti', 'At', 'Atlá', 'Ba', 'Bal', 'Bar', 'Be', 'Bel', 'Bla', 'Blan', 'Ca', 'Cane', 'Car', 'Cardo', 'Carme', 'Cas', 'Casti', 'Casu', 'Ce', 'Cebo', 'Cer', 'Chu', 'Co', 'Colo', 'Cur', 'Del', 'Die', 'Diecio', 'Do', 'Dolo', 'Du', 'Dura', 'Eci', 'Ecil', 'Em', 'Empa', 'Flo', 'Fray', 'Gui', 'Isi', 'Joa', 'La', 'Las', 'Li', 'Ma', 'Mal', 'Maldo', 'Mari', 'Mer', 'Mi', 'Mon', 'Nue', 'Om', 'Pa', 'Pal', 'Pan', 'Pay', 'Paysan', 'Pi', 'Pie', 'Piriá', 'Por', 'Porve', 'Pro', 'Qie', 'Ra', 'Ro', 'Rodrí', 'Rosa', 'Rove', 'Sa', 'San An', 'San Ba', 'San Bau', 'San Ca', 'San Car', 'San Fe', 'San Ja', 'San Jo', 'San Ra', 'Sara', 'Sp', 'Sproa', 'Ta', 'Tacua', 'Tara', 'To', 'Tole', 'Tra', 'Tran', 'Trei', 'Tri', 'Trini', 'Tu', 'Tupa', 'Velá', 'Veláz', 'Vi', 'Vicha'];
   const nm14 = ['búes', 'baé', 'bracho', 'cano', 'cas', 'cedes', 'chón', 'cha', 'cho', 'cio', 'ciocho', 'co', 'da', 'dal', 'dero', 'do', 'dona', 'doro', 'dras', 'fael', 'gas', 'guá', 'guas', 'gues', 'guez', 'jas', 'lén', 'lís', 'la', 'latí', 'ledo', 'lix', 'lo', 'lones', 'lonia', 'lores', 'los', 'món', 'me', 'melo', 'mitas', 'nas', 'nes', 'nia', 'nicó', 'nio', 'nir', 'no', 'palme', 'quín', 'queras', 'quez', 'quillo', 'ras', 'rasco', 'razno', 'rembó', 'rencio', 'res', 'reso', 'resta', 'riano', 'rida', 'rio', 'ro', 'sandú', 'sar', 'sario', 'scala', 'supá', 'tas', 'tasar', 'tes', 'tiago', 'tida', 'tigas', 'tillos', 'tina', 'tista', 'va', 'venir', 'vera', 'vo'];
-
-
   i = Math.floor(Math.random() * 14);
   {
     if (i < 2) {

@@ -21,7 +21,6 @@ export default function dungeons() {
   const nm20 = ['bleak', 'dark', 'dire', 'eerie', 'foggy', 'gloomy', 'grim', 'misty', 'murky', 'overcast', 'shadowy', 'shady', 'sinister', 'somber'];
   const nm21 = ['aged', 'battered', 'busted', 'decayed', 'demolished', 'destroyed', 'deteriorated', 'forgotten', 'frayed', 'long lost', 'pillaged', 'tattered', 'wasted', 'weathered', 'worn', 'worn down'];
   const nm22 = ['absorbed', 'butchered', 'claimed', 'consumed', 'defaced', 'desolated', 'devoured', 'dismantled', 'drained', 'eaten', 'maimed', 'mutilated', 'ravaged', 'ravished', 'spoiled', 'taken', 'wiped out', 'wrecked'];
-
   const rnd1 = Math.floor(Math.random() * nm1.length);
   const rnd2 = Math.floor(Math.random() * nm2.length);
   const rnd3 = Math.floor(Math.random() * nm3.length);
@@ -46,14 +45,10 @@ export default function dungeons() {
   const rnd20 = Math.floor(Math.random() * nm20.length);
   const rnd21 = Math.floor(Math.random() * nm21.length);
   const rnd22 = Math.floor(Math.random() * nm22.length);
-
   const name = `${nm1[rnd1]} ${nm2[rnd2]} in a ${nm20[rnd20]} ${nm3[rnd3]} marks the entrance to this dungeon. Beyond the ${nm2[rnd2]} lies a ${nm4[rnd4]}, ${nm5[rnd5]} room. It's covered in ${nm6[rnd6]}, ${nm6[rnd6a]} and ${nm6[rnd6b]}.`;
   const name2 = `Your torch allows you to see ${nm7[rnd7]}, ${nm21[rnd21]} and ${nm22[rnd22]} by time itself.`;
-
   const name3 = `Further ahead ${nm8[rnd8]}. Its twisted trail leads ${nm9[rnd9]} and soon you enter a ${nm10[rnd10]} area. ${nm11[rnd11]}. What happened in this place?`;
-
   const name4 = `You ${nm12[rnd12]} onwards, deeper into the dungeon's ${nm13[rnd13]}. You pass ${nm14[rnd14]}, ${nm17[rnd17]}. You eventually make it to what is likely the final room. ${nm15[rnd15]} ${nm16[rnd16]} door blocks your path. ${nm18[rnd18]} all over it, somehow untouched by time and the elements. You step closer to inspect it and.. wait.. ${nm19[rnd19]}`;
-
   let result = '';
   result += name;
   result += '\n';

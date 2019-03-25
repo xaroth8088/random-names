@@ -1,11 +1,7 @@
 export default function west_european_towns() {
   let rnd;
-
   let rnd2;
-
-
   let names;
-
   const nm1 = ['Alten', 'Am', 'Ans', 'Bischof', 'Blu', 'Brau', 'Dorn', 'Eben', 'Ebreich', 'Eisen', 'Fürsten', 'Feld', 'Frei', 'Gänsern', 'Göt', 'Geras', 'Gmun', 'Groß', 'Hall', 'Hard', 'Hart', 'Holla', 'Inns', 'Kapfen', 'Kirch', 'Kitz', 'Klagen', 'Kloster', 'Knittel', 'Krneu', 'Kuf', 'Land', 'Len', 'Leon', 'Lusten', 'Möd', 'March', 'Mau', 'Mistel', 'Mitter', 'Neu', 'Neun', 'Poys', 'Rank', 'Saal', 'Salz', 'Schär', 'Siezen', 'Stock', 'Ter', 'Trais', 'Tro', 'Vólker', 'Vöckla', 'Völk', 'Vil', 'Waid', 'Wals', 'Wolf', 'Wolfs', 'Zelt'];
   const nm2 = ['bühel', 'bach', 'ben', 'berg', 'birge', 'birn', 'bruck', 'brunn', 'deck', 'denz', 'ding', 'dorf', 'ein', 'feld', 'felden', 'furt', 'haus', 'hausen', 'heim', 'hofen', 'kirch', 'kirchen', 'kreis', 'lach', 'ling', 'markt', 'nau', 'nitz', 'rau', 'schlag', 'see', 'sill', 'stadt', 'statt', 'stein', 'tal', 'ten', 'tetten', 'trenk', 'weg', 'weil', 'zell', 'zing', 'zis'];
   /* Belgium */
@@ -26,8 +22,6 @@ export default function west_european_towns() {
   /* Switzerland */
   const nm13 = ['Aar', 'Adlish', 'Affol', 'All', 'Alt', 'Amris', 'Appen', 'Ar', 'As', 'Bellin', 'Bero', 'Bia', 'Birs', 'Bischof', 'Brem', 'Burg', 'Con', 'Crog', 'Cud', 'Düben', 'Delé', 'Diessen', 'Eg', 'Ein', 'Er', 'Frauen', 'Frei', 'Freien', 'Fri', 'Gor', 'Grand', 'Her', 'Hutt', 'Ill', 'Küs', 'Kaiser', 'Kling', 'Kreuz', 'Langen', 'Lau', 'Laufen', 'Lenz', 'Lies', 'Mün', 'München', 'Maien', 'Men', 'Mor', 'Neu', 'Neun', 'Oft', 'Op', 'Oster', 'Porren', 'Rappers', 'Regens', 'Rei', 'Rhei', 'Rhein', 'Richters', 'Romain', 'Ror', 'Schaff', 'Sem', 'Spreiten', 'Steck', 'Steffis', 'Sur', 'Thal', 'Unter', 'Ver', 'Wädens', 'Walden', 'Walen', 'Werden', 'Wiedlis', 'Winter', 'Zolli', 'Zur'];
   const nm14 = ['bach', 'berg', 'bon', 'born', 'bourg', 'burg', 'châtel', 'cona', 'cote', 'cour', 'dola', 'don', 'dorf', 'dris', 'drisio', 'feld', 'felden', 'gans', 'garten', 'gen', 'ges', 'hausen', 'hofen', 'hurn', 'kirch', 'kkon', 'kon', 'lach', 'lingen', 'môtier', 'münster', 'mance', 'mont', 'mundigen', 'nach', 'nacht', 'nau', 'neck', 'neuve', 'nier', 'pach', 'pen', 'refin', 'ring', 'ringen', 'rus', 'sau', 'schwil', 'see', 'seen', 'sellen', 'siedeln', 'singen', 'soix', 'son', 'stätten', 'stadt', 'stal', 'steig', 'stein', 'stuhl', 'swil', 'tal', 'tern', 'thal', 'wil', 'zach', 'zell', 'zona'];
-
-
   i = Math.floor(Math.random() * 14);
   {
     if (i < 2) {

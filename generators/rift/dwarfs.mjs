@@ -1,11 +1,7 @@
 export default function dwarfs() {
   let rnd;
-
   let rnd2;
-
-
   let names;
-
   const type = Math.random() > 0.5 ? 0 : 1;
   if (type === 1) {
     var names1 = ['Ale', 'Ali', 'A', 'Ba', 'Bari', 'Be', 'Bi', 'Bise', 'Bo', 'Bohu', 'Bori', 'Boza', 'Bra', 'Brani', 'Bre', 'Bro', 'Da', 'Dani', 'Dari', 'De', 'Deni', 'Dobri', 'Do', 'Dobro', 'Dra', 'Draga', 'Draho', 'Du', 'Dusa', 'Eli', 'Ela', 'Go', 'Gora', 'Gro', 'Gra', 'Ida', 'Iva', 'Ja', 'Jani', 'Jale', 'Jase', 'Jele', 'Ka', 'Kali', 'Ke', 'La', 'Le', 'Li', 'Ma', 'Mali', 'Me', 'Meli', 'Mi', 'Mila', 'Mile', 'Miru', 'Mo', 'Mora', 'Ne', 'Neve', 'O', 'Ole', 'Ra', 'Radi', 'Ro', 'Rosi', 'Ru', 'Rumi', 'Se', 'Sta', 'Stani', 'Suda', 'Su', 'Ti', 'Tiha', 'Tu', 'Va', 'Ve', 'Veli', 'Bo', 'Borghi', 'Bry', 'Ei', 'Fre', 'Ge', 'Gri', 'Gro', 'Gu', 'Hei', 'Hi', 'Hu', 'Na', 'Sa', 'Si', 'Ska', 'Sva', 'Ve'];
@@ -14,8 +10,6 @@ export default function dwarfs() {
     var names1 = ['Ba', 'Be', 'Bi', 'Bla', 'Bo', 'Bogo', 'Bohu', 'Boji', 'Bozhi', 'Bozi', 'Bra', 'Bre', 'Bu', 'Budi', 'Buri', 'Ca', 'Casi', 'Da', 'Dali', 'De', 'Di', 'Do', 'Dobro', 'Dra', 'Fre', 'Ga', 'Go', 'Gode', 'Gra', 'Gro', 'Gu', 'Ja', 'Jaro', 'Ka', 'Kazi', 'Kra', 'Krasi', 'Kre', 'Kresi', 'Lo', 'Lu', 'Lubo', 'Ludo', 'Ma', 'Mi', 'Milo', 'Mo', 'Nja', 'Njo', 'O', 'Ode', 'Odi', 'Ogni', 'Orva', 'Pa', 'Pre', 'Pro', 'Ra', 'Radi', 'Rado', 'Si', 'Sta', 'Stani', 'Straa', 'Tho', 'Ty', 'Va', 'Ve', 'Veli', 'Vi', 'Volu', 'Za', 'Ze', 'Zeli', 'Zi', 'Zito'];
     var names2 = ['ban', 'bomir', 'bor', 'borek', 'brad', 'bren', 'brin', 'bromir', 'cimir', 'dalf', 'dan', 'dar', 'darr', 'dek', 'demir', 'der', 'dik', 'dim', 'dimir', 'dinn', 'domer', 'domir', 'dos', 'dovan', 'dran', 'dzimir', 'gan', 'gdan', 'gisa', 'gnian', 'go', 'gomil', 'gomir', 'gotin', 'goy', 'grun', 'gumil', 'gun', 'gurd', 'gutin', 'gvi', 'hdan', 'himir', 'homir', 'hos', 'hren', 'humer', 'humil', 'humir', 'jan', 'jek', 'jidar', 'lek', 'libor', 'lik', 'limir', 'lin', 'ljan', 'lko', 'lon', 'lorad', 'los', 'lovan', 'lund', 'lundr', 'lyan', 'mard', 'mek', 'mer', 'mil', 'mir', 'narr', 'nat', 'ndri', 'nek', 'nik', 'nimir', 'nko', 'nnarr', 'ran', 'rban', 'rce', 'rek', 'rey', 'reyr', 'rian', 'rik', 'ril', 'rin', 'ris', 'rko', 'rlin', 'romer', 'romir', 'ros', 'rut', 'rvan', 'rvar', 'rwan', 'ser', 'simir', 'stan', 'tek', 'tik', 'tomir', 'van', 'vis', 'vor', 'vril', 'wan', 'zan', 'zdan', 'zen', 'zhil', 'zhin', 'zidar', 'zimir', 'zydar'];
   }
-
-
   {
     rnd = Math.floor(Math.random() * names1.length);
     rnd2 = Math.floor(Math.random() * names2.length);

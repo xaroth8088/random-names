@@ -2,10 +2,7 @@ export default function south_asian_towns() {
   let rnd0;
   let
     rnd1;
-
-
   let names;
-
   const names1 = ['Ab', 'Abed', 'Abre', 'Adi', 'Adram', 'Baba', 'Bad', 'Badur', 'Bago', 'Ba', 'Bal', 'Cah', 'Car', 'Cha', 'Chan', 'Dan', 'Danla', 'Da', 'Das', 'Do', 'Elya', 'Esh', 'Fa', 'Farma', 'Ganja', 'Gan', 'Gaw', 'Ghero', 'Ghu', 'Ha', 'Hey', 'Il', 'Jad', 'Jal', 'Jaw', 'Kah', 'Kal', 'Ka', 'Keli', 'Kora', 'Kulu', 'Lon', 'Ma', 'Mah', 'Muri', 'Nas', 'Naw', 'Nu', 'Om', 'Ota', 'Pala', 'Par', 'Quba', 'Qanda', 'Rakh', 'Rur', 'Sab', 'Sew', 'Shey', 'Takh'];
   const names2 = ['bahar', 'bar', 'botara', 'burgha', 'chaman', 'chaq', 'daha', 'dana', 'deh', 'dura', 'durzar', 'gan', 'gazi', 'ghez', 'ghisi', 'gorak', 'gozar', 'hari', 'jabad', 'jur', 'kata', 'khak', 'kharak', 'khel', 'khin', 'khlah', 'kul', 'kusta', 'laran', 'latabad', 'lur', 'mandan', 'mandi', 'mard', 'mazar', 'nadeh', 'najar', 'naqla', 'patan', 'qachi', 'qolak', 'qoli', 'rabad', 'ramzai', 'ran', 'rangi', 'raseh', 'ratan', 'rawan', 'rejan', 'rozar', 'ryd', 'sabad', 'sang', 'sarak', 'shan', 'suran', 'tabad', 'taken', 'tara'];
   const names3 = ['Ath', 'Ayu', 'Bat', 'Batta', 'Bhal', 'Bure', 'Cha', 'Chak', 'Chish', 'Dar', 'Dipal', 'Hafi', 'Jam', 'Kala', 'Kash', 'Kha', 'Khair', 'Khu', 'Khui', 'Khuz', 'Kula', 'Lar', 'Las', 'Latam', 'Man', 'Mas', 'Min', 'Miran', 'Mul', 'Nagar', 'Naro', 'Nush', 'Pas', 'Qaim', 'Qam', 'Raz', 'Risal', 'Sak', 'San', 'Shakar', 'Shar', 'Shikar', 'Si', 'Skar', 'Tang', 'Timer', 'Tur'];
@@ -22,8 +19,6 @@ export default function south_asian_towns() {
   const names14 = ['badhoo', 'dhoo', 'dhuffushi', 'du', 'faaru', 'faru', 'funadhoo', 'fushi', 'gili', 'goodhoo', 'huffushi', 'hufunadhoo', 'humale', 'huvadhoo', 'la', 'male', 'mandhoo', 'mandoo', 'meedhoo', 'mulah', 'n', 'nadhoo', 'navaru', 'ranfaru', 'roshi', 'ru', 'shi', 'vadhoo', 'varanfaru', 'varu'];
   const names15 = ['Ba', 'Bar', 'Cha', 'Che', 'Chung', 'Dam', 'Dip', 'Don', 'Ga', 'Gom', 'Gye', 'Ha', 'Hara', 'Hati', 'Ka', 'Kam', 'Kang', 'Ken', 'Ki', 'Kiso', 'Lame', 'Lhe', 'Lob', 'Mao', 'Mon', 'Nai', 'Nak', 'Ouna', 'Pa', 'Phi', 'Phisu', 'Pin', 'Pinso', 'Ri', 'Rung', 'Sak', 'Sam', 'Sar', 'Sha', 'Shin', 'Shing', 'Ta', 'Tari', 'Thim', 'Thun', 'Tosu', 'Tsha', 'Tshal', 'Tshalu', 'Ya'];
   const names16 = ['be', 'bling', 'cha', 'chap', 'cho', 'chu', 'dada', 'dang', 'ganka', 'gaon', 'gar', 'gha', 'hong', 'ka', 'kar', 'kha', 'laika', 'lang', 'lunang', 'maito', 'manu', 'nakha', 'nang', 'nig', 'pang', 'par', 'pe', 'pero', 'phu', 'ripe', 'sang', 'sar', 'shong', 'sila', 'sona', 'soperi', 'tang', 'teng', 'tola', 'tsa', 'tsang', 'tse', 'tu', 'zyung'];
-
-
   i = Math.floor(Math.random() * 16);
   {
     if (i < 2) {

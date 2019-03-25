@@ -1,6 +1,5 @@
 export default function niktos() {
   let rnd;
-
   let rnd2;
   let rnd3;
   let rnd4;
@@ -13,10 +12,7 @@ export default function niktos() {
   let rnd10;
   let
     rnd11;
-
-
   let names;
-
   const nm1 = ['', '', '', '', 'b', 'bh', 'br', 'c', 'ch', 'd', 'dr', 'f', 'fh', 'g', 'gr', 'h', 'j', 'kl', 'l', 'm', 'n', 'p', 'r', 's', 'sr', 'sl', 't', 'ts', 'v', 'wl'];
   const nm2 = ['a', 'e', 'i', 'o', 'u', 'y', 'a', 'e', 'i', 'o', 'u', 'y', 'a', 'e', 'i', 'o', 'u', 'y', 'a', 'e', 'i', 'o', 'u', 'y', 'a', 'e', 'i', 'o', 'u', 'y', 'a', 'e', 'i', 'o', 'u', 'y', 'a', 'e', 'i', 'o', 'u', 'y', 'au', 'oo', 'io', 'ia', 'ou', 'aa', 'ai', 'oi', 'ea'];
   const nm3 = ['b', 'bb', 'bd', 'd', 'dd', 'dr', 'dg', 'dr', 'g', 'gr', 'gg', 'gb', 'k', 'kt', 'kr', 'kn', 'kh', 'l', 'lf', 'll', 'lv', 'm', 'n', 'nd', 'ndl', 'ndr', 'ng', 'ns', 'nt', 'r', 'rd', 'rk', 'rsk', 's', 'sh', 'ss', 't', 'th', 'v', 'x', 'z'];
@@ -27,8 +23,6 @@ export default function niktos() {
   const nm10 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'ee', 'oo', 'uu', 'au', 'ou', 'oi', 'ai', 'ei'];
   const nm11 = ['b', 'cc', 'g', 'g', 'gg', 'gt', 'gn', 'gm', 'gl', 'gt', 'gr', 'k', 'kt', 'kk', 'kn', 'km', 'kl', 'm', 'mk', 'mp', 'mpl', 'n', 'nd', 'nk', 'ng', 'nt', 'p', 'pl', 'pt', 'r', 'rc', 'rk', 'rd', 'rt', 'rs', 's', 'st', 't', 'z'];
   const nm12 = ['', '', '', '', '', 'c', 'g', 'k', 'l', 'n', 'nn', 'nk', 'm', 'mk', 'rch', 'rk', 'rg', 'rc', 'rr', 's', 'sh', 'sk', 't', 'th', 'tt', 'x'];
-
-
   const i = Math.floor(Math.random() * 10);
   {
     rnd7 = Math.floor(Math.random() * nm9.length);

@@ -1,16 +1,12 @@
 export default function sangheilis() {
   let rnd;
-
   let rnd2;
   let rnd3;
   let rnd4;
   let rnd5;
   let
     rnd6;
-
-
   let names;
-
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['b', 'c', 'd', 'f', 'gr', 'j', 'k', 'kh', 'l', 'mr', 'n\'th', 'r', 'rt', 's', 't', 'th', 'v', 'x', 'z', '', ''];
   const nm2 = ['a', 'e', 'i', 'o', 'u', 'y'];
@@ -21,8 +17,6 @@ export default function sangheilis() {
   const nm7 = ['a', 'e', 'o', 'u'];
   const nm8 = ['ea', 'ha', 'he', 'ia', 'ie', 'io', 'la', 'le', 'lo', 'ma', 'me', 'mi', 'mo', 'n', 'na', 'ne', 'pa', 'sa', 'se', 'sha', 'she', 'so', 'wa', 'we', 'xa', 'xe', 'xi', 'ya', 'ye', 'yo'];
   const nm9 = ['', '', 'ee', '', 'ai'];
-
-
   {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm6.length);

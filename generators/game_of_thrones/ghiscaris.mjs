@@ -1,6 +1,5 @@
 export default function ghiscaris() {
   let rnd;
-
   let rnd2;
   let rnd3;
   let rnd4;
@@ -13,10 +12,7 @@ export default function ghiscaris() {
   let rnd12;
   let
     rnd13;
-
-
   let names;
-
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['', '', 'dr', 'g', 'gr', 'h', 'kr', 'm', 'pr', 'q', 'r', 'sr', 'sh', 'z', 'zh'];
   const nm2 = ['a', 'ei', 'i', 'o', 'e', 'a', 'e', 'i', 'o', 'a', 'a'];
@@ -31,8 +27,6 @@ export default function ghiscaris() {
   const nm11 = ['', '', '', '', '', 'dh', 'g', 'hn', 'hz', 'hl', 'kn', 'kl', 'l', 'llh', 'md', 'nd', 'q', 'qu', 'qq', 'r', 'rr', 'rd', 'sh', 'sn', 'z', 'zk', 'zz', 'zn', 'zd', 'zh'];
   const nm12 = ['', 'a', 'e', 'i', 'u', 'o', 'a', 'a'];
   const nm13 = ['', '', '', 'hl', 'k', 'n', 'q', 'r', 'z', 'zn'];
-
-
   {
     rnd9 = Math.floor(Math.random() * nm9.length);
     rnd10 = Math.floor(Math.random() * nm10.length);

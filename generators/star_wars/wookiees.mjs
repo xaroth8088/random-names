@@ -1,6 +1,5 @@
 export default function wookiees() {
   let rnd;
-
   let rnd2;
   let rnd3;
   let rnd4;
@@ -10,10 +9,7 @@ export default function wookiees() {
   let rnd8;
   let
     rnd9;
-
-
   let names;
-
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['', '', '', '', '', '', '', '', '', '', '', '', '', '', '', 'b', 'bl', 'c', 'ch', 'chr', 'd', 'drrl', 'dr', 'drl', 'f', 'fr', 'g', 'gr', 'grr', 'grrw', 'gw', 'h', 'hr', 'j', 'k', 'kh', 'kk', 'kr', 'krr', 'krrs', 'l', 'm', 'mr', 'n', 'q', 'r', 'rh', 'rr', 's', 'sh', 'sn', 'snr', 'snrr', 'snrl', 'sp', 'st', 't', 'tr', 'tvr', 'tvrr', 'trr', 'v', 'vr', 'w', 'wh', 'wr', 'wrh', 'wrrl', 'wrr', 'z', 'zh'];
   const nm2 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'aa', 'aaa', 'ae', 'ai', 'ao', 'aoa', 'au', 'ay', 'ayy', 'ee', 'eee', 'eeo', 'eo', 'eu', 'ia', 'iaa', 'ie', 'ii', 'ioe', 'iya', 'iyy', 'oa', 'oo', 'ooa', 'ooo', 'ou', 'oua', 'ua', 'uaa', 'uu', 'uy', 'y', 'ya', 'yi', 'yy', 'yyy'];
@@ -23,8 +19,6 @@ export default function wookiees() {
   const nm6 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'ie', 'ia', 'oe', 'ay', 'ayy', 'ua', 'aaa', 'aa', 'y', 'ay', 'yo', 'ae', 'aa', 'yy', 'eu', 'oo'];
   const nm7 = ['b', 'bb', 'bh', 'c', 'cc', 'ch', 'd', 'dd', 'g', 'gg', 'gh', 'ghr', 'h', 'hl', 'hb', 'hlb', 'ht', 'k', 'kk', 'kh', 'kl', 'l', 'lr', 'lg', 'ld', 'll', 'lm', 'ln', 'm', 'mb', 'mc', 'mm', 'mn', 'n', 'nch', 'ng', 'ngl', 'nb', 'nm', 'nn', 'p', 'pr', 'r', 'rc', 'rgl', 'rr', 'rrl', 'rrr', 'rrs', 's', 'sst', 'st', 't', 'thn', 'tm', 'tt', 'v', 'vv', 'w', 'wl', 'wr'];
   const nm8 = ['', '', '', '', '', '', '', '', '', '', '', '', '', '', '', 'ck', 'gn', 'gnh', 'k', 'kk', 'l', 'll', 'm', 'n', 'nh', 'r', 'rl', 'rr', 'rrl', 's', 'sh', 'shk', 'w'];
-
-
   const i = Math.floor(Math.random() * 10);
   {
     if (type === 1) {

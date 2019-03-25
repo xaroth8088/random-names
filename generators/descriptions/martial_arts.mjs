@@ -1,9 +1,5 @@
 export default function martial_arts() {
-
-
     let rnd3, rnd4;
-
-
     const nm1 = ['Bolenoe', 'Chiknu', 'Chorea-Crava', 'Chu Gwiara', 'Chukmul', 'Cogre Kenku', 'Croonkenzu', 'Crucho Bistia', 'Deochaju', 'Dintingaa', 'Dorohla', 'Dunari', 'Eenshi', 'Endia', 'Geche Gimpia', 'Goupo Vuati', 'Grupeo Chuto', 'Guthwou', 'Hanhim', 'Hintihte', 'Injashi', 'Jorin', 'Jothe', 'Ju-Monbung', 'Kekil', 'Khrastao', 'Kukmakyu', 'Kutte', 'Lantirmai', 'Let Aeshia', 'Maihtihta', 'Mindihlu', 'Neacela', 'Nejaesh', 'Nevoo-Crinchi', 'Ngairmeni', 'Ngobambo', 'Nhobyai', 'Nhunshulo', 'Nogwaimbo', 'Nunde-Gagri', 'Ochku', 'Ostundo', 'Oukwom Hwum', 'Saambermo', 'Stipu Iku', 'Taigwambu', 'Tosale', 'Voitse', 'Vusi'];
     const nm2 = ['defensive', 'mostly defensive', 'strictly defensive', 'defensive and offensive', 'partially offensive and partially defensive', 'mixed', 'offensive', 'mostly offensive', 'strictly offensive'];
     const nm3 = ['disabling', 'disenabling', 'subduing', 'exhausting', 'immobilizing', 'incapacitating', 'knocking out', 'paralyzing', 'taking down', 'outmaneuvering', 'undermining', 'defeating', 'crushing', 'overpowering', 'overwhelming', 'overthrowing', 'beating', 'decimating', 'demolishing', 'thrashing', 'crippling', 'clobbering', 'steamrolling'];
@@ -19,7 +15,6 @@ export default function martial_arts() {
     const nm13 = ['making them easy to overmaster', 'giving you the perfect opportunities to retaliate', 'allowing you to become an overwhelming force', 'giving you the opportunity to gain the upper hand', 'making it easier to overcome their strengths', 'further giving your strengths the upper hand', 'which helps defend your weaknesses more', 'helping you stay in control of the fight', 'allowing you to be the dominant force in this encounter', 'further giving you leverage to work with', 'which just helps pave the road to victory', 'which is a huge advantage in and of itself', 'which puts them right where you want them to be', 'something you\'ll be able to take full advantage of', 'allowing you to capitalize on your biggest strengths'];
     const nm14 = ['a lack of ground techniques. Once you\'re on the ground', 'a lack of more circular movements. If you\'re up against an opponent who dances around you', 'that it requires a great deal of mastery. So if you\'re still relatively new to this style', 'that opposite styles tend to gain the upper hand more easily. So if facing such an opponent', 'that it often requires the opponent to make the first move. If you\'re facing an opponent that doesn\'t', 'that it requires you to react incredibly fast. So until you\'ve training your reflexes', 'that there are too many different styles. So until you\'ve mastered enough', 'a lack of some very crucial real life applicable skills. So if you\'re in a real fight', 'a lack of potentially lethal moves. Not a big weakness, but needed in some situations and in those cases', 'the illegal moves in this art are easily used and exploited by others. When your opponent doesn\'t fight with the same rules', 'that multiple opponents can become overwhelming very quickly. If you ever face 3 or more opponents', 'that this is a purely one on one style. When facing multiple opponents', 'a lack of dirty tricks that are used in real life. So whenever facing an opponent outside of sporting events', 'that many moves are predictable to a knowledgeable opponent. If you face an opponent who knows your tricks', 'a common feeling of being in control even when you might not be. When you\'re overconfident'];
     const nm15 = ['it\'s really difficult to gain the upper hand', 'the fight may already be over', 'you\'ll need more than your skills to win', 'you may be the one that gets caught off guard', 'your weaknesses may suddenly become very apparent to your opponent', 'you could quickly end up overpowered', 'it\'s near impossible to win', 'your own strengths may prove to be lacking', 'your strengths quickly become far less viable', 'you\'ll have to rely on a different bag of tricks', 'your strengths may suddenly be a weakness', 'it\'s really difficult not to leave an exploitable opening', 'you\'re no longer the one in control of the fight', 'your opponent will have a lot of leverage over you', 'all you can do is try to force your opponent into a position you can dominate from', 'any advantage you may have had are out of the window'];
-
     const rnd1 = Math.floor(Math.random() * nm1.length);
     const rnd2 = Math.floor(Math.random() * nm2.length);
     let rnd3 = Math.floor(Math.random() * nm3.length);
@@ -58,14 +53,9 @@ export default function martial_arts() {
     const rnd13 = Math.floor(Math.random() * nm13.length);
     const rnd14 = Math.floor(Math.random() * nm14.length);
     const rnd15 = Math.floor(Math.random() * nm15.length);
-
     const name = `${nm1[rnd1]} is a ${nm2[rnd2]} martial art that focuses on ${nm3[rnd3]} your opponent ${nm4[rnd4]}. The primary focus lies on both ${nm5[rnd5]} and ${nm5[rnd5b]} and it often relies on the ${nm6[rnd6]} and ${nm6[rnd6b]}${nm7[rnd7]}.`;
-
     const name2 = `The biggest strength of ${nm1[rnd1]} is ${nm8[rnd8]}. By ${nm9[rnd9]} the ${nm11[rnd11]} of ${nm10[rnd10]} your opponent ${nm12[rnd12]}, ${nm13[rnd13]}.`;
-
     const name3 = `On the other hand the biggest weakness of ${nm1[rnd1]} is ${nm14[rnd14]} ${nm15[rnd15]}.`;
-
-
     let result = '';
     result += name;
     result += '\n';

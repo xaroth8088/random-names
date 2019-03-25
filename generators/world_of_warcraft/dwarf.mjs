@@ -1,15 +1,11 @@
 export default function dwarf() {
   let rnd;
-
   let rnd2;
   let rnd3;
   let rnd4;
   let
     rnd5;
-
-
   let names;
-
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['Am', 'Arm', 'Bal', 'Ban', 'Bar', 'Bel', 'Beng', 'Bhal', 'Bhar', 'Bhel', 'Bram', 'Bran', 'Brom', 'Brum', 'Bun', 'Dal', 'Dar', 'Dol', 'Dram', 'Drom', 'Drum', 'Dul', 'Em', 'Erm', 'Gal', 'Gar', 'Ger', 'Gim', 'Gir', 'Gol', 'Gor', 'Gral', 'Gram', 'Gran', 'Grem', 'Gren', 'Gril', 'Grim', 'Grom', 'Grul', 'Grum', 'Grun', 'Gry', 'Gul', 'Har', 'Hjal', 'Hjol', 'Hjul', 'Hor', 'Hulf', 'Hur', 'Irom', 'Iron', 'Jar', 'Jor', 'Kar', 'Khar', 'Kram', 'Krom', 'Krum', 'Mag', 'Mal', 'Mel', 'Muir', 'Mur', 'Ol', 'Orim', 'Orm', 'Rag', 'Reg', 'Rot', 'Shel', 'Sog', 'Sogn', 'Sug', 'Sugn', 'Thal', 'Thar', 'Thel', 'Ther', 'Tho', 'Thor', 'Thul', 'Thur', 'Thy', 'Tor', 'Ty', 'Um', 'Urm'];
   const nm2 = ['o', 'a', 'u', 'i', 'ia', 'iu', 'ou', 'ua', 'ah', 'uh', 'oh', 'ihr', 'ahr', 'ohr', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', ''];
@@ -19,8 +15,6 @@ export default function dwarf() {
   const nm6 = ['leil', 'nar', 'nyl', 'myl', 'lyl', 'dyl', 'ris', 'ras', 'res', 'ros', 'win', 'wyn', 'waen', 'whin', 'whyn', 'whaen', 'tin', 'tyn', 'lyn', 'lin', 'lynn', 'linn', 'wynn', 'va', 'van', 'rin', 'ryn', 'ryl', 'nas', 'nan', 'ria', 'nia', 'ri', 'rip', 'nip', 'dora', 'leen', 'len', 'ma', 'la', 'mora', 'mura', 'mera', 'nura', 'nera', 'nora', 'glia', 'glian', 'giel', 'thiel', 'diel', 'thel', 'nis', 'niss', 'nys', 'nyss'];
   const nm7 = ['Barley', 'Battle', 'Black', 'Bone', 'Boulder', 'Bright', 'Bronze', 'Cask', 'Cliff', 'Cold', 'Crag', 'Dark', 'Deep', 'Dirge', 'Doom', 'Fire', 'Flint', 'Frost', 'Fuse', 'Gold', 'Hammer', 'High', 'Iron', 'Long', 'Marble', 'Molten', 'Mountain', 'Pale', 'Red', 'Slate', 'Snow', 'Steel', 'Stern', 'Stone', 'Storm', 'Stout', 'Thunder'];
   const nm8 = ['arm', 'axe', 'beard', 'belly', 'blade', 'braid', 'branch', 'brand', 'breaker', 'brew', 'brow', 'crag', 'dust', 'fall', 'fist', 'flayer', 'forge', 'fury', 'gem', 'grip', 'hammer', 'hand', 'helm', 'mane', 'mantle', 'ore', 'pike', 'river', 'roar', 'rock', 'shaper', 'shield', 'shout', 'steel', 'stone', 'toe'];
-
-
   {
     rnd4 = Math.floor(Math.random() * nm7.length);
     rnd5 = Math.floor(Math.random() * nm8.length);

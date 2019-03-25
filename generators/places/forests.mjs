@@ -1,15 +1,11 @@
 export default function forests() {
   let rnd;
-
   let rnd2;
   let rnd3;
   let rnd4;
   let
     rnd5;
-
-
   let names;
-
   const nm1 = ['White', 'Black', 'Brown', 'Gray', 'Majestic', 'Pygmy', 'Little', 'Giant', 'Northern', 'Southern', 'Eastern', 'Western', 'Greater', 'Lesser', 'Masked', 'Grass', 'Water', 'Common', 'Mountain', 'Prairie', 'Grassland', 'Taiga', 'Tundra', 'Savanna', 'Alpine', 'Collared', 'Grand', 'Pacific', 'Oriental', 'Spotted', 'Speckled', 'Striped', 'Dotted', 'Rusty', 'Maned', 'Cloud', 'Long-tailed', 'Short-tailed', 'Crowned', 'Golden', 'Imperial', 'Royal', 'Noble', 'Laughing', 'Lined', 'Banded', 'Snow', 'Ivory', 'Ebony', 'Wild', 'Reagal'];
   const nm2 = ['Panda', 'Gerbil', 'Hare', 'Hedgehog', 'Jackal', 'Warthog', 'Coyote', 'Cat', 'Badger', 'Hyena', 'Jaguar', 'Gorilla', 'Sloth', 'Anteater', 'Ocelot', 'Lion', 'Porcupine', 'Beaver', 'Otter', 'Ant', 'Bandicoot', 'Crocodile', 'Alligator', 'Treefrog', 'Wolverine', 'Goat', 'Spider', 'Mouse', 'Snail', 'Crab', 'Deer', 'Fox', 'Lizard', 'Toad', 'Mole', 'Turtle', 'Frog', 'Squirrel', 'Tortoise', 'Gazelle', 'Panther', 'Bear', 'Rat', 'Lynx', 'Okapi', 'Leopard', 'Tiger', 'Wolf', 'Rhino', 'Wallaby', 'Yak', 'Pelican', 'Swallow', 'Duck', 'Eagle', 'Hawk', 'Falcon', 'Vulture', 'Sunbird', 'Macaw', 'Woodpecker', 'Kingfisher', 'Hummingbird', 'Pygmy Owl', 'Sandpiper', 'Mockingbird'];
   const nm3 = ['Forest', 'Grove', 'Woods', 'Covert', 'Woodland', 'Thicket', 'Forest', 'Grove', 'Woods', 'Covert', 'Woodland', 'Wilds', 'Wood', 'Wood', 'Timberland', 'Timberland'];
@@ -21,8 +17,6 @@ export default function forests() {
   const nm9 = ['b', 'c', 'd', 'f', 'g', 'h', 'j', 'k', 'l', 'm', 'n', 'p', 'q', 'r', 's', 't', 'v', 'w', 'x', 'z', '', '', '', '', '', ''];
   const nm10 = ['a', 'e', 'i', 'o', 'u', 'y'];
   const nm11 = ['b', 'd', 'g', 'gh', 'h', 'hr', 'hs', 'ht', 'hst', 'hsh', 'hn', 'hm', 'hl', 'hz', 'hx', 'hq', 'k', 'ks', 'kx', 'l', 'll', 'lk', 'ln', 'lm', 'lz', 'lp', 'lt', 'ls', 'lst', 'lf', 'm', 'mn', 'mm', 'mt', 'ms', 'n', 'nn', 'nt', 'ns', 'p', 'ps', 'pt', 'ph', 'q', 'r', 'rs', 'rt', 'rst', 'rq', 'rk', 'rc', 'rf', 'rb', 'rd', 's', 'st', 'ss', 'sh', 'sk', 'sp', 't', 'th', 'ts', 'w', 'wth', 'x', 'z'];
-
-
   const i = Math.floor(Math.random() * 10);
   {
     rnd3 = Math.floor(Math.random() * nm3.length);

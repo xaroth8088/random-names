@@ -1,15 +1,11 @@
 export default function hives() {
   let rnd;
-
   let rnd2;
   let rnd3;
   let rnd4;
   let
     rnd5;
-
-
   let names;
-
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['b', 'cr', 'd', 'g', 'gr', 'k', 'kr', 'm', 'n', 'r', 's', 'tr', 'z'];
   const nm2 = ['a', 'e', 'o', 'u', 'a', 'e', 'o', 'u', 'a', 'e', 'o', 'u', 'oo'];
@@ -19,8 +15,6 @@ export default function hives() {
   const nm6 = ['a', 'e', 'i', 'e', 'i', 'o'];
   const nm7 = ['g', 'lk', 'lm', 'ln', 'm', 'mn', 'n', 'nl', 'nr', 'rm', 'sh', 'sm', 'sn', 'sr', 'st', 'th', 'tr', 'v', 'vn', 'vr', 'z', 'zd', 'zl', 'zn'];
   const nm8 = ['', '', '', '', 'h', 'l', 's', 'th'];
-
-
   {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm5.length);

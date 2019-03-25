@@ -1,20 +1,14 @@
 export default function minishs() {
   let rnd;
-
   let rnd2;
   let rnd3;
   let
     rnd4;
-
-
   let names;
-
   const nm1 = ['B', 'D', 'F', 'G', 'H', 'J', 'K', 'L', 'M', 'N', 'P', 'T'];
   const nm2 = ['e', 'i', 'o', 'e', 'i', 'o', 'a', 'u'];
   const nm3 = ['b', 'd', 'f', 'g', 'k', 'l', 'm', 'n', 'p', 'r', 's', 't'];
   const nm4 = ['ari', 'tari', 'rari'];
-
-
   {
     rnd = Math.floor(Math.random() * nm1.length);
     rnd2 = Math.floor(Math.random() * nm2.length);

@@ -6,14 +6,12 @@ export default function animals() {
   let names4a = ['two legs and two arms', 'two legs and four arms', 'four legs', 'six legs', 'two legs and two arms', 'four legs', 'six legs', 'four legs and two arms', 'four legs and two arms'];
   let names4b = [''];
   let names4c = [', but they have no tail', ', but they have no tail', ', but they have no tail', ', but they have no tail', ', but they have no tail', ', but they have no tail', ' and a long, curling tail', ' and a long, fluffy tail', ' and a long, muscular tail', ' and a long, ribbon-like tail', ' and a long, strong and agile tail', ' and a long, strong tail', ' and a long, thick tail', ' and a long, thin tail', ' and a long, weak tail', ' and a short, curly tail', ' and a short, fluffy tail', ' and a short, muscular tail', ' and a short, strong tail', ' and a short, stubby tail', ' and a short, thick tail', ' and a short, thin tail', ' and a short, weak tail', ' and a thick, flat tail', ' and remnants of what was once a tail'];
-
   let names5 = ['soft, but strong skin', 'thick, strong skin', 'soft, delicate skin', 'thick, rough skin', 'thin, rough skin', 'thin, delicate skin', 'thick, smooth skin', 'soft, smooth skin', 'thin, but strong skin', 'thick, but delicate skin'];
   let names6 = ['covered in thick, soft fur', 'covered in thick, coarse fur', 'covered in thin, soft fur', 'covered in thin, coarse fur', 'covered in thick, fluffy fur', 'covered in thin, fluffy fur', 'covered in short, soft fur', 'covered in long, soft fur', 'covered in long, fluffy fur', 'covered in short, fluffy fur', 'covered in short, coarse hairs', 'covered in short, soft hairs', 'covered in long, coarse hairs', 'covered in long, soft hairs', 'covered in thick, soft hairs', 'covered in thick, coarse hairs', 'covered in thin, soft hairs', 'covered in thin, coarse hairs'];
   const names7a = ['black', 'blue', 'bronze', 'brown', 'gold', 'grey', 'orange', 'pink', 'purple', 'red', 'silver', 'white', 'yellow', 'dark blue', 'dark bronze', 'dark brown', 'dark gold', 'dark grey', 'dark orange', 'dark pink', 'dark purple', 'dark red', 'dark silver', 'dark yellow', 'light blue', 'light bronze', 'light brown', 'light gold', 'light grey', 'light orange', 'light pink', 'light purple', 'light red', 'light silver', 'light yellow'];
   const names7b = [', black', ', blue', ', bronze', ', brown', ', gold', ', grey', ', orange', ', pink', ', purple', ', red', ', silver', ', white', ', yellow', ', dark blue', ', dark bronze', ', dark brown', ', dark gold', ', dark grey', ', dark orange', ', dark pink', ', dark purple', ', dark red', ', dark silver', ', dark yellow', ', light blue', ', light bronze', ', light brown', ', light gold', ', light grey', ', light orange', ', light pink', ', light purple', ', light red', ', light silver', ', light yellow', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', ''];
   const names7c = [', black', ', blue', ', bronze', ', brown', ', gold', ', grey', ', orange', ', pink', ', purple', ', red', ', silver', ', white', ', yellow', ', dark blue', ', dark bronze', ', dark brown', ', dark gold', ', dark grey', ', dark orange', ', dark pink', ', dark purple', ', dark red', ', dark silver', ', dark yellow', ', light blue', ', light bronze', ', light brown', ', light gold', ', light grey', ', light orange', ', light pink', ', light purple', ', light red', ', light silver', ', light yellow', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', ''];
   const names7d = [' or black', ' or blue', ' or bronze', ' or brown', ' or gold', ' or grey', ' or orange', ' or pink', ' or purple', ' or red', ' or silver', ' or white', ' or yellow', ' or dark blue', ' or dark bronze', ' or dark brown', ' or dark gold', ' or dark grey', ' or dark orange', ' or dark pink', ' or dark purple', ' or dark red', ' or dark silver', ' or dark yellow', ' or light blue', ' or light bronze', ' or light brown', ' or light gold', ' or light grey', ' or light orange', ' or light pink', ' or light purple', ' or light red', ' or light silver', ' or light yellow'];
-
   let names8 = ['barren areas', 'cold areas', 'darker areas', 'forested areas', 'frozen areas', 'high areas', 'hot areas', 'humid areas', 'low areas', 'marshy areas', 'moist areas', 'mountainous areas', 'open areas', 'quiet areas', 'rainy areas', 'snowy areas', 'temperate areas', 'warm areas', 'wet areas', 'wintry areas'];
   const names9 = ['common', 'extremely common', 'extremely rare', 'fairly common', 'fairly rare', 'quite common', 'quite rare', 'rare', 'relatively common', 'relatively rare'];
   const names10 = ['herbivores', 'carnivores', 'omnivores'];
@@ -21,7 +19,6 @@ export default function animals() {
   let names11a = 'mouths, their teeth';
   const names12 = ['long', 'short', 'wide', 'narrow', 'rough'];
   let names13 = ['grasses', 'berries', 'fruits', 'nuts', 'flowers', 'plants', 'leaves', 'insects', 'fish', 'smaller creatures', 'larger creatures', 'mushrooms', 'creatures'];
-
   const names14 = ['nocturnal', 'diurnal', 'crepuscular'];
   const names15 = ['sight', 'sense of smell', 'hearing', 'taste buds', 'extra sense'];
   const names16 = ['large, round eyes', 'thin, narrow eyes', 'small, slanted eyes', 'small, round eyes', 'small, beady eyes', 'small, elliptic eyes', 'large, elliptic eyes', 'large, slanted eyes', 'odd, but interesting eyes', 'gorgeous eyes'];
@@ -29,10 +26,8 @@ export default function animals() {
   let names18 = ['huge noses', 'small noses', 'wide noses', 'long noses', 'enormous noses', 'thin noses', 'an almost hidden nose', 'a lack of a visible nose', 'tiny noses', 'narrow noses'];
   let names19 = ['enormous ears', 'huge, flappy ears', 'huge, hanging ears', 'large, bended ears', 'large, hanging ears', 'large, round ears', 'large, standing ears', 'long, pointy ears', 'short, flappy ears', 'short, pointy ears', 'small, bended ears', 'small, hanging ears', 'small, round ears', 'small, standing ears', 'tiny, almost hidden ears'];
   const names20 = ['relatively small', 'relatively large', 'fairly small', 'fairly large', 'small and long', 'large and long', 'small and thin', 'large and wide', 'small and narrow', 'long and narrow'];
-
   const names21 = ['extremely high pitched', 'very high pitched', 'high pitched', 'fairly high pitched', 'relatively high pitched', 'relatively low pitched', 'fairly low pitched', 'low pitched', 'very low pitched', 'extremely low pitched'];
   const names22 = ['extremely large', 'extremely limited', 'fairly limited', 'fairly small', 'fairly wide', 'huge', 'large', 'limited', 'small', 'very limited', 'very small', 'wide'];
-
   const names23 = ['aggressive', 'bold', 'fairly violent', 'invasive', 'quite forceful', 'quite frenzied', 'quite intrusive', 'quite nervous', 'very aggressive', 'very violent', 'very peaceful', 'calm', 'fairly calm', 'very calm', 'very gentle', 'very timid', 'quite timid', 'timid', 'mild mannered', 'gentle'];
   let names23b = ', but ';
   const names24 = ['they\'re very territorial.', 'they get very territorial.', 'they heavily defend their personal space.', 'they\'ll fiercely defend their territory.', 'they\'re quite territorial.', 'they\'ll defend their territory strongly.', 'their territory is well defended.', 'they can get quite territorial.', 'they\'re territorial in terms of personal space.', 'their personal space is fiercely defended.', 'they\'re not very territorial.', 'they\'re not territorial at all.', 'they won\'t defend their territory much.', 'they tend to let their territory be taken be stronger creatures.', 'they\'re not one to defend their territory.', 'they\'re not keen on defending their personal space.', 'they minimize conflict and thus aren\'t very territorial.', 'they have no real territory and wish to avoid conflicts.', 'they travel a lot and thus have no real territory nor urges to defend it.', 'their nomadic lifestyle has made them placid in terms of defending territory.'];
@@ -40,7 +35,6 @@ export default function animals() {
   const names26 = ['mate and bond with a single partner for life', 'mate with just 1 partner for life', 'mate and bond with a select few partners for life', 'mate and bond with one or two partners throughout life', 'mate with multiple partners throughout life', 'mate with one or two partners throughout life', 'mate with a select few partners throughout life', 'mate with a specificly selected partner for life', 'mate with a select group of partners for life', 'mate with a select few partners for life'];
   const names27 = ['long lifepans', 'incredibily long lifespans', 'very long lifespans', 'fairly long lifespans', 'short lifespans', 'fairly short lifespans', 'very short lifespans', 'unfortunately short lifespans'];
   let names28 = ['is to be expected.', 'isn\'t too surprising.', 'is only normal.', 'isn\'t out of the ordinary.', 'isn\'t extraordinary.', 'is quite common among other species as well.'];
-
   const random0 = parseInt(Math.floor((Math.random() * names0.length)), 10);
   const random1 = parseInt(Math.floor((Math.random() * names1.length)), 10);
   const random2 = parseInt(Math.floor((Math.random() * names2.length)), 10);
@@ -191,15 +185,10 @@ export default function animals() {
     names28 = ['is quite surprising.', 'is just amazing.', 'is beautiful in its own right.', 'is something special indeed.', 'is astonishing.'];
   }
   const random28 = parseInt(Math.floor((Math.random() * names28.length)), 10);
-
-
   const name = `This ${names1[random1]}${names0[random0]} creature is a type of ${names2[random2]}. It's about the size of a${names3[random3]}, has ${names4a[random4a]}${names4b[random4b]}${names4c[random4c]}.`;
   const name2 = `They have a ${names5[random5]} ${names6[random6]} which is usually either ${names7a[random7a]}${names7b[random7b]}${names7c[random7c]}${names7c[random7d]}${names7d[random7e]} or a combination of these colors.`;
-
   const name3 = `They live in ${names8[random8]} and are ${names9[random9]}. They're ${names10[random10]} and their ${names11[random11]} ${names11a} and ${names12[random12]} tongue are ideal for eating ${names13[random13]}.`;
-
   const name6 = `They make sounds ranging from ${names21[random21a]} to ${names21[random21b]} and have a ${names22[random22]} range of sounds they make to indicate discoveries, dangers and otherwise communicate with each other.`;
-
   const name7 = `These creatures are ${names23[random23]}${names23b}${names24[random24]} They mate ${names25[random25]} and they ${names26[random26]}. Which, with their ${names27[random27]}, ${names28[random28]}`;
   let result = '';
   result += name;

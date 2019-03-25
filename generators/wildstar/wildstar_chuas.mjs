@@ -1,13 +1,10 @@
 export default function wildstar_chuas() {
   let rnd;
-
   let rnd2;
   let rnd3;
   let rnd4;
   let
     rnd5;
-
-
   const nm1 = ['b', 'd', 'f', 'g', 'j', 'm', 'n', 'r', 'sh', 't', 'th', 'v', 'x', 'z'];
   const nm2 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'ao', 'oa', 'ia', 'ee', 'ua'];
   const nm3 = ['br', 'bn', 'dr', 'dh', 'dg', 'dz', 'fr', 'ff', 'g', 'gn', 'gg', 'gz', 'gh', 'j', 'k', 'kn', 'kv', 'kt', 'kv', 'kz', 'lk', 'lv', 'lg', 'll', 'n', 'nn', 'nk', 'np', 'nt', 'nv', 'm', 'mm', 'mk', 'pp', 'rr', 'rg', 'rsr', 'rs', 'rt', 'rv', 'rk', 'sk', 'ss', 'sz', 'sn', 'sm', 't', 'tt', 'tk', 'v', 'vn'];
@@ -15,8 +12,6 @@ export default function wildstar_chuas() {
   const nm5 = ['b', 'br', 'd', 'dr', 'f', 'fr', 'g', 'gn', 'gr', 'j', 'm', 'n', 'r', 's', 'sh', 'st', 't', 'th', 'tr', 'v', 'vr', 'z'];
   const nm6 = ['a', 'e', 'i', 'o', 'u'];
   const nm7 = ['', '', '', '', '', '', '', 'c', 'f', 'h', 'l', 'll', 'm', 'ms', 'n', 'ns', 'nn', 'r', 'rr', 's', 'ss', 'sh', 't', 'th', 'x', 'zz'];
-
-
   const i = Math.floor(Math.random() * 10);
   {
     rnd = Math.floor(Math.random() * nm5.length);

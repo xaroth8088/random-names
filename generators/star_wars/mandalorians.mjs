@@ -1,6 +1,5 @@
 export default function mandalorians() {
   let rnd;
-
   let rnd2;
   let rnd3;
   let rnd4;
@@ -13,10 +12,7 @@ export default function mandalorians() {
   let rnd10;
   let
     rnd11;
-
-
   let names;
-
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['', '', '', '', '', '', '', '', '', '', 'b', 'br', 'c', 'ch', 'd', 'dr', 'g', 'gh', 'gr', 'h', 'j', 'k', 'kr', 'l', 'll', 'm', 'n', 'nj', 'p', 'r', 'rh', 's', 't', 'tr', 'th', 'thr', 'v', 'vr', 'w', 'x', 'z'];
   const nm2 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'a', 'a', 'o', 'o', 'o', 'u', 'u', 'u', 'a', 'o', 'u', 'ae', 'uu', 'ii', 'aa', 'ea', 'ai', 'ee', 'io', 'oe'];
@@ -31,8 +27,6 @@ export default function mandalorians() {
   const nm11 = ['b', 'bb', 'd', 'dd', 'g', 'gg', 'j', 'k', 'kk', 'l', 'll', 'm', 'n', 'nn', 'p', 'r', 'rr', 's', 'ss', 't', 'v', 'y', 'b', 'd', 'g', 'j', 'k', 'l', 'm', 'n', 'p', 'r', 's', 't', 'v', 'y', 'b', 'ch', 'd', 'f', 'g', 'gg', 'gr', 'h', 'k', 'kk', 'l', 'lb', 'lg', 'lk', 'll', 'm', 'n', 'nk', 'pm', 'r', 'rh', 'rk', 'rm', 'rn', 'rr', 'rv', 'rvh', 's', 't', 'v', 'vh', 'x', 'zl'];
   const nm12 = ['', '', '', '', '', 'c', 'd', 'g', 'gg', 'gh', 'hl', 'k', 'l', 'll', 'n', 'ng', 'ngh', 'nch', 'r', 'rd', 'rr', 'rs', 'rn', 'rt', 's', 'ss', 'st', 't', 'tt', 'wr'];
   const nm13 = ['b', 'bb', 'd', 'dd', 'g', 'gg', 'j', 'k', 'kk', 'l', 'll', 'm', 'n', 'nn', 'p', 'r', 'rr', 's', 'ss', 't', 'v', 'b', 'd', 'g', 'j', 'k', 'l', 'm', 'n', 'p', 'r', 's', 't', 'v'];
-
-
   const i = Math.floor(Math.random() * 10);
   {
     rnd7 = Math.floor(Math.random() * nm9.length);

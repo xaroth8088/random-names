@@ -1,15 +1,11 @@
 export default function blood_elf() {
   let rnd;
-
   let rnd2;
   let rnd3;
   let rnd4;
   let
     rnd5;
-
-
   let names;
-
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['Aer', 'Aeri', 'Al', 'Ala', 'Ba', 'Bac', 'Bae', 'Baem', 'Baema', 'Be', 'Bem', 'Bema', 'Bi', 'Bit', 'Ca', 'Cae', 'Caem', 'Cam', 'Dra', 'Drae', 'Du', 'Duy', 'Er', 'Eri', 'Ha', 'Hat', 'He', 'Her', 'In', 'Ine', 'Inet', 'It', 'Je', 'Jen', 'Kee', 'Keel', 'Kre', 'Lo', 'Lor', 'Ma', 'Mat', 'Matha', 'Me', 'Mel', 'No', 'Nor', 'Norae', 'Oni', 'Pa', 'Par', 'Pe', 'Per', 'Qu', 'Qui', 'Ra', 'Rah', 'Sa', 'Sae', 'Saet', 'Sat', 'So', 'Ta', 'Tan', 'Vy', 'Vya', 'We', 'Wel', 'Wele', 'Wi', 'Win', 'Ya', 'Yat', 'Za', 'Zae', 'Zan', 'Ze', 'Zel'];
   const nm2 = ['h', 'ha', 'hae', 'hea', 'l', 'la', 'lae', 'le', 'm', 'ma', 'mae', 'me', 'n', 'na', 'nae', 'ne', 'r', 'ra', 'rae', 're', 't', 'th', '', '', '', '', '', '', '', '', '', '', '', '', ''];
@@ -19,8 +15,6 @@ export default function blood_elf() {
   const nm6 = ['aena', 'alda', 'alle', 'ana', 'anae', 'andra', 'anea', 'ann', 'anna', 'anne', 'anni', 'ara', 'da', 'dine', 'dori', 'dra', 'drae', 'drea', 'drel', 'drin', 'drine', 'eda', 'elda', 'eli', 'elly', 'enna', 'era', 'erae', 'erea', 'estra', 'iah', 'ice', 'inda', 'ine', 'inne', 'inth', 'ise', 'le', 'lean', 'leane', 'len', 'lenn', 'lenne', 'li', 'lia', 'ly', 'na', 'nia', 'nice', 'onia', 'ori', 'ra', 'rae', 'rea', 'rel', 'riah', 'rin', 'rine', 'rise', 'vea', 'via', 'vie', 'wae', 'we', 'wea', 'yn', 'yna', 'ynna'];
   const nm7 = ['Autumn', 'Black', 'Blood', 'Bright', 'Cold', 'Dark', 'Dawn', 'Day', 'Dew', 'Down', 'Ember', 'Fire', 'Flame', 'Heart', 'High', 'Leaf', 'Light', 'Mirth', 'Moon', 'Morning', 'Night', 'Phoenix', 'Red', 'Rose', 'Silver', 'Star', 'Sun'];
   const nm8 = ['bane', 'binder', 'blade', 'blossom', 'bringer', 'brook', 'down', 'fall', 'feather', 'flame', 'flare', 'forge', 'fury', 'gaze', 'gazer', 'heart', 'light', 'mourn', 'reaver', 'seeker', 'shade', 'shadow', 'shard', 'shield', 'singer', 'sky', 'sorrow', 'spark', 'spear', 'spell', 'sprinter', 'stalker', 'star', 'strider', 'sun', 'sworn', 'vale', 'walker', 'whisper', 'wing', 'wood'];
-
-
   const i = Math.floor(Math.random() * 10);
   {
     rnd4 = Math.floor(Math.random() * nm7.length);

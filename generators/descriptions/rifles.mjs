@@ -1,10 +1,6 @@
 export default function rifles() {
-
-
     let rnd18;
     let rnd21;
-
-
     const nm1 = ['a classic', 'a beauty', 'excellent', 'fear inducing', 'intimidating', 'near perfect', 'amazing', 'terrifying', 'a new release', 'a prototype', 'an odd one', 'a new model', 'a one of a kind', 'a new design', 'different from most', 'unique'];
     const nm1b = ', but ';
     const nm2 = ['admired by many', 'commissioned for many around the world', 'desired across the globe', 'famous around the world', 'in high demand', 'infamous around the world', 'made a name for itself', 'noted by many across the world', 'praised by many', 'prominent across the globe', 'purchased and sold by many', 'sold to people across the globe', 'well-known across the world', 'world renowned'];
@@ -37,10 +33,8 @@ export default function rifles() {
     const nm30 = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', '0', '1', '2', '3', '4', '5', '6', '7', '8', '9'];
     const nm31 = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', '0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', ''];
     const nm32 = ['Desert Viper', 'Black Mamba', 'Peacekeeper', 'The Ambassador', 'Oathkeeper', 'Due Diligence', 'Boomer', 'Bulldog', 'Valkyrie', 'Vengeance', 'Rattlesnake', 'Thunder', 'Big Daddy', 'The Punisher', 'The Judge'];
-
     const rnd1 = Math.floor(Math.random() * nm1.length);
     if (rnd1 < 8) {
-
     }
     const rnd2 = Math.floor(Math.random() * nm2.length);
     const rnd3 = Math.floor(Math.random() * nm3.length);
@@ -102,21 +96,16 @@ export default function rifles() {
     const rnd31c = Math.floor(Math.random() * nm31.length);
     const rnd31d = Math.floor(Math.random() * nm31.length);
     const rnd32 = Math.floor(Math.random() * nm32.length);
-
     const name = `This weapon is ${nm1[rnd1]}${nm1b}${nm2[rnd2]} and ${nm3[rnd3]}.`;
     const name2 = `The ${nm4[rnd4]} of the weapon is ${nm5}mm, with a ${nm6}mm barrel and the weapon weighs ${nm7[rnd7]} ${nm8}kg.`;
     const name3 = `It uses ${nm9[rnd9]}mm rounds, but ${nm10[rnd10]}.`;
-
     const name4 = `The weapon has ${nm11[rnd11]}. The pistol grip is made out of ${nm12[rnd12]}, but can also be made out of ${nm13[rnd13a]} and ${nm13[rnd13b]} depending on ${nm14[rnd14]}.`;
     const name5 = `The stock is made out of ${nm15[rnd15]}, but ${nm16[rnd16]}. The standard stock is a ${nm17[rnd17]}, but the ${nm17[rnd18]} is ${nm19[rnd19]}.`;
-
     const name6 = `The standard issue magazine is a ${nm20[rnd20]} which carries ${nm21[rnd21]} rounds, but ${nm22[rnd22]}. It has ${nm23[rnd23]} mechanism to release the magazine.`;
     const name7 = `The selective fire modes are safe mode, ${nm24[rnd24a]} and ${nm24[rnd24b]}.`;
-
     const name8 = `This weapon was designed for the ${nm25[rnd25]} with the purpose of ${nm26[rnd26]}. It was designed by a ${nm27[rnd27]}.`;
     const name9 = `${nm28[rnd28]}, ${nm29[rnd29]}.`;
     const name10 = `The weapon is called the ${nm30[rnd30a]}${nm31[rnd31a]}${nm31[rnd31b]}-${nm30[rnd30b]}${nm31[rnd31c]}${nm31[rnd31d]}, but it usally goes by its nickname '${nm32[rnd32]}'.`;
-
     let result = '';
     result += name;
     result += '\n';

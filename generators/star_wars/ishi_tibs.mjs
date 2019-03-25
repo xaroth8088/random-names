@@ -1,6 +1,5 @@
 export default function ishi_tibs() {
   let rnd;
-
   let rnd2;
   let rnd3;
   let rnd4;
@@ -13,10 +12,7 @@ export default function ishi_tibs() {
   let rnd10;
   let
     rnd11;
-
-
   let names;
-
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['', '', '', 'c', 'g', 'gr', 'h', 'j', 'k', 'm', 'n', 'q', 'r', 's', 'sh', 't', 'th', 'v', 'w', 'z'];
   const nm2 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'uu', 'ue', 'ia', 'ie', 'ui', 'ua', 'aa', 'ee'];
@@ -30,8 +26,6 @@ export default function ishi_tibs() {
   const nm10 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'ae', 'aa', 'ie', 'oo', 'ay'];
   const nm11 = ['br', 'b', 'd', 'dr', 'g', 'gg', 'gr', 'hr', 'ht', 'k', 'kz', 'kr', 'kl', 'km', 'l', 'll', 'lr', 'lz', 'lg', 'ld', 'lb', 'ls', 'ln', 'm', 'mb', 'mz', 'mr', 'mk', 'mm', 'n', 'nn', 'nr', 'nd', 'ng', 'r', 'rd', 'rg', 'rk', 'rm', 'rl', 'ssh', 'sh', 't', 'tl', 'th', 'zk', 'zl', 'z'];
   const nm12 = ['', '', '', 'c', 'ff', 'l', 'm', 'n', 'ng', 'rr', 'tz', 'w'];
-
-
   const i = Math.floor(Math.random() * 10);
   {
     rnd7 = Math.floor(Math.random() * nm9.length);

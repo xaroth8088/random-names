@@ -1,26 +1,19 @@
 export default function cliffs() {
   let rnd;
-
   let rnd2;
   let rnd3;
   let rnd4;
   let rnd5;
   let
     rnd6;
-
-
   let names;
-
   const names1 = ['Adamantine', 'Albatross', 'Ancient', 'Angry', 'Arctic', 'Arid', 'Bare', 'Basalt', 'Basanite', 'Bellowing', 'Black', 'Black Cavern', 'Blackrock', 'Blazing', 'Broken', 'Broken Ship', 'Bronze', 'Burning', 'Calm', 'Clay', 'Claystone', 'Clouded', 'Collapsing', 'Colossal', 'Cracking', 'Crumbling', 'Crushing', 'Cursed', 'Cyclone', 'Dark', 'Dead', 'Desolate', 'Diamond', 'Distant', 'Eagle', 'Eastern', 'Ebon', 'Empty', 'Enchanted', 'Eroded', 'Ever Reaching', 'Fabled', 'Faraway', 'Feared', 'Fearsome', 'Fishermen', 'Flower', 'Forbidden', 'Foxtail', 'Fractured', 'Frightening', 'Frozen', 'Giant', 'Gloomy', 'Golden', 'Granite', 'Gray', 'Grim', 'Growling', 'Guardian', 'Haunted', 'Hidden', 'Hidden Gold', 'Hollow', 'Hooded', 'Hopeless', 'Howling', 'Hungry', 'Hurricane', 'Ice-Crowned', 'Iced', 'Icy', 'Infernal', 'Iron', 'Ironbeak', 'Ivory', 'Jagged', 'Killer Whale', 'Laughing', 'Lifeless', 'Limestone', 'Lobster', 'Lonely', 'Mammoth', 'Marble', 'Mermaid', 'Mighty', 'Mirrored', 'Misty', 'Moaning', 'Moonlit', 'Mountain Goat', 'Mumbling', 'Murky', 'Musselbay', 'Mysterious', 'Narrow', 'Neverending', 'Northern', 'Obsidian', 'Oyster', 'Peaceful', 'Penguin', 'Petal', 'Pinetree', 'Plain', 'Pristine', 'Quiet', 'Rabbit Ear', 'Raging', 'Ravenclaw', 'Red', 'Restless', 'Roaring', 'Rock Lobster', 'Rocky', 'Rugged', 'Sacred', 'Sad', 'Salmon', 'Sandstone', 'Sandy', 'Savage', 'Scarlet', 'Scented', 'Screaming', 'Screeching', 'Sea Gull', 'Seal', 'Serpent', 'Severed', 'Shadowed', 'Shattered', 'Shattering', 'Shimmering', 'Sighing', 'Silent', 'Silver', 'Silver Cavern', 'Silverrock', 'Slippery', 'Slumbering', 'Snaketail', 'Snowy', 'Soft', 'Southern', 'Sterile', 'Stonetalon', 'Storm', 'Stormy', 'Sunken Ship', 'Tempest', 'Thunder', 'Thundering', 'Thunderrock', 'Thunderstorm', 'Titan', 'Tradepost', 'Treachorous', 'Violent', 'Voiceless', 'Volcanic', 'Wailing', 'Warthog', 'Western', 'Whimpering', 'Whining', 'Whirlwind', 'Whispering', 'Whisperwind', 'White', 'White Feather', 'Wild', 'Windless', 'Windy'];
   const names2 = ['Cliff', 'Cliffs', 'Fjord', 'Fjords', 'Wall', 'Crag', 'Bluff', 'Bluffs', 'Ravine', 'Crevice', 'Gorge', 'Chasm', 'Canyon', 'Abyss', 'Gulch'];
-
   const names3 = ['b', 'br', 'bl', 'c', 'cl', 'cr', 'd', 'dr', 'f', 'fr', 'fl', 'g', 'gr', 'gl', 'gn', 'h', 'j', 'k', 'kr', 'kl', 'kn', 'm', 'n', 'p', 'pr', 'pl', 'q', 'qr', 'ql', 'r', 's', 'st', 'sr', 'str', 'sl', 't', 'tr', 'tl', 'v', 'vl', 'vr', 'w', 'wr', 'x', 'z', '', '', '', '', ''];
   const names4 = ['a', 'e', 'i', 'o', 'u', 'y'];
   const names5 = ['b', 'c', 'd', 'f', 'g', 'h', 'j', 'k', 'l', 'm', 'n', 'p', 'q', 'r', 's', 't', 'v', 'w', 'x', 'z', '', '', '', '', '', ''];
   const names6 = ['a', 'e', 'i', 'o', 'u', 'y'];
   const names7 = ['b', 'd', 'g', 'gh', 'h', 'hr', 'hs', 'ht', 'hst', 'hsh', 'hn', 'hm', 'hl', 'hz', 'hx', 'hq', 'k', 'ks', 'kx', 'l', 'll', 'lk', 'ln', 'lm', 'lz', 'lp', 'lt', 'ls', 'lst', 'lf', 'm', 'mn', 'mm', 'mt', 'ms', 'n', 'nn', 'nt', 'ns', 'p', 'ps', 'pt', 'ph', 'q', 'r', 'rs', 'rt', 'rst', 'rq', 'rk', 'rc', 'rf', 'rb', 'rd', 's', 'st', 'ss', 'sh', 'sk', 'sp', 't', 'th', 'ts', 'w', 'wth', 'x', 'z'];
-
-
   const i = Math.floor(Math.random() * 10);
   {
     if (i < 6) {

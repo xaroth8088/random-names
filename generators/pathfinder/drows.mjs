@@ -1,6 +1,5 @@
 export default function drows() {
   let rnd;
-
   let rnd2;
   let rnd3;
   let rnd4;
@@ -18,10 +17,7 @@ export default function drows() {
   let rnd15;
   let
     rnd16;
-
-
   let names;
-
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['', '', '', '', '', 'br', 'bh', 'c', 'dh', 'dr', 'f', 'g', 'gr', 'gh', 'j', 'k', 'kr', 'kh', 'm', 'n', 'ph', 'q', 'r', 's', 't', 'v', 'w', 'x', 'z'];
   const nm2 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'y', 'y', 'y', 'io', 'ae', 'ou', 'ie', 'ui', 'yi', 'ey'];
@@ -35,8 +31,6 @@ export default function drows() {
   const nm10 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'y', 'y', 'y', 'y', 'ae', 'iu', 'ei', 'ie', 'ia', 'ai', 'ee'];
   const nm11 = ['d', 'dr', 'g', 'gn', 'gr', 'ld', 'lr', 'ldr', 'lv', 'lz', 'm', 'mr', 'n', 'nd', 'nn', 'ng', 'nr', 'ndr', 'nz', 'nvr', 'r', 'rq', 'rdr', 'rz', 'rv', 's', 'sr', 'shr', 'str', 'vr', 'vn', 'x', 'xr', 'zr', 'z'];
   const nm12 = ['', '', '', '', '', 'c', 'd', 'h', 'n', 'rc', 's', 'sh', 't', 'th', 'v', 'x'];
-
-
   const i = Math.floor(Math.random() * 10);
   {
     rnd10 = Math.floor(Math.random() * nm9.length);

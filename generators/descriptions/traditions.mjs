@@ -35,8 +35,6 @@ export default function traditions() {
       ['bless the baby and bring it fortune and health', 'bring good fortune and health', 'bless the lives of all those around the baby', 'create and strengthen a bond', 'be an omen of good fortune', 'be a most fortunate blessing'],
     ],
   ];
-
-
   const rnd1 = Math.floor(Math.random() * nm1.length);
   const rnd2 = Math.floor(Math.random() * nm2.length);
   const rnd3 = Math.floor(Math.random() * nm3.length);
@@ -47,12 +45,10 @@ export default function traditions() {
   const rnd6c = Math.floor(Math.random() * nm6[rnd6][1].length);
   const rnd6d = Math.floor(Math.random() * nm6[rnd6][1].length);
   while (rnd6c === rnd6d) {
-
   }
   const rnd7 = Math.floor(Math.random() * nm7.length);
   const rnd8 = Math.floor(Math.random() * nm8.length);
   const rnd9 = Math.floor(Math.random() * nm9.length);
-
   const rnd10 = Math.floor(Math.random() * nm1.length);
   const rnd11 = Math.floor(Math.random() * nm2.length);
   const rnd12 = Math.floor(Math.random() * nm3.length);
@@ -61,13 +57,9 @@ export default function traditions() {
   const rnd15 = Math.floor(Math.random() * nm10.length);
   const rnd15b = Math.floor(Math.random() * nm10[rnd15][0].length);
   const rnd15c = Math.floor(Math.random() * nm10[rnd15][1].length);
-
-
   const name = `In the ${nm1[rnd1]} of ${nm2[rnd2]}${nm3[rnd3]}${nm4[rnd4]}${nm5[rnd5]} it is tradition for ${nm6[rnd6][0][rnd6b]} ${nm9[rnd9]}. It's supposed to be a symbol of ${nm6[rnd6][1][rnd6c]} and ${nm6[rnd6][1][rnd6d]} and it's usually part of a ${nm7[rnd7]} that can ${nm8[rnd8]}.`;
   const name2 = '-------------------------';
   const name3 = `In the ${nm1[rnd10]} of ${nm2[rnd11]}${nm3[rnd12]}${nm4[rnd13]}${nm5[rnd14]} it is tradition ${nm10[rnd15][0][rnd15b]}. It's supposed to ${nm10[rnd15][1][rnd15c]}.`;
-
-
   let result = '';
   result += name;
   result += '\n';

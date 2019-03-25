@@ -1,6 +1,5 @@
 export default function jawas() {
   let rnd;
-
   let rnd2;
   let rnd3;
   let rnd4;
@@ -15,10 +14,7 @@ export default function jawas() {
   let rnd12;
   let
     rnd13;
-
-
   let names;
-
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['', '', '', '', '', 'b', 'bl', 'brr', 'ch', 'd', 'h', 'hr', 'j', 'k', 'kl', 'kr', 'kt', 'm', 'mn', 'n', 'nb', 'p', 'pl', 'pr', 'r', 'rk', 'sn', 'sq', 't', 'th', 'tt', 'ts', 'v', 'w', 'wr', 'z'];
   const nm2 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'oe', 'ee', 'ii', 'ee', 'ia', 'ui', 'eo'];
@@ -30,8 +26,6 @@ export default function jawas() {
   const nm9 = ['', '', '', '', 'b\'', 'b', 'd\'n', 'd', 'f', 'h', 'j', 'k', 'k\'', 'kl', 'kr', 'kk', 'l', 'm', 'm\'', 'nk', 'n', 'p', 'pt', 'q', 'q\'', 's', 't', 'tl', 'th', 'w'];
   const nm11 = ['c', 'd', 'g', 'h', 'j', 'k', 'l', 'm', 'n', 'q', 'r', 's', 't', 'v', 'z'];
   const nm12 = ['', '', '', '', '', 'c', 'd', 'hs', 'k', 'kt', 'kth', 'l', 'm', 'n', 'r', 's', 'y', 'z'];
-
-
   const i = Math.floor(Math.random() * 10);
   {
     rnd7 = Math.floor(Math.random() * nm9.length);

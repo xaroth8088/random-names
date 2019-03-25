@@ -27,7 +27,6 @@ export default function countrys() {
   const names26c = [' and black', ' and blue', ' and bronze', ' and brown', ' and gold', ' and grey', ' and orange', ' and pink', ' and purple', ' and red', ' and silver', ' and white', ' and yellow', ' and dark blue', ' and dark bronze', ' and dark brown', ' and dark gold', ' and dark grey', ' and dark orange', ' and dark pink', ' and dark purple', ' and dark red', ' and dark silver', ' and dark yellow', ' and light blue', ' and light bronze', ' and light brown', ' and light gold', ' and light grey', ' and light orange', ' and light pink', ' and light purple', ' and light red', ' and light silver', ' and light yellow'];
   const names27 = ['is a bell', 'is a bird\'s claw', 'is a bow', 'is a bow and arrow', 'is a castle', 'is a cat', 'is a chicken', 'is a crescent moon', 'is a dagger', 'is a dog', 'is a dragon', 'is a dragontooth', 'is a feather', 'is a fish', 'is a flower', 'is a hammer', 'is a hand', 'is a large star', 'is a lion', 'is a local animal', 'is a moon', 'is a mythical bird', 'is a rooster', 'is a sea monster', 'is a sickle', 'is a skull', 'is a snake', 'is a snowflake', 'is a spear', 'is a spider', 'is a sword', 'is a tree', 'is a twig', 'is a whale', 'is a whale\'s tail', 'is a wolf', 'is an anima\'s claw', 'is an animal\'s tail', 'is an arrow', 'is an eagle', 'is an important spiritual symbol', 'are angel wings', 'are animal teeth', 'are devil horns', 'is grain', 'are snowflakes', 'is the sun', 'are three fish', 'are two arrows', 'are two cats', 'are two daggers', 'are two dogs', 'are two dragonteeth', 'are two feathers', 'are two fish', 'are two hands', 'are two lions', 'are two ravens', 'are two shaking hands', 'are two twigs', 'are two wolves'];
   const names28 = ['above a lake', 'above a river', 'on a circle', 'on a hexagon', 'on a pentagon', 'on a shield', 'on a square', 'on a triangle', 'on top of a hill', 'on top of a mountain', 'on top of a stripe', 'on top of a wave', 'on top of three small circles', 'on top of three stripes', 'on top of two small circles', 'on top of two stripes', 'on top of two waves', 'surrounded by 3 small stars', 'surrounded by leaves', 'surrounded by small stars', 'surrounded by smaller spiritual symbols', 'surrounded by stripes', 'surrounded by sun rays', 'under a key', 'with 2 pillars on either side', 'with two arrows on either side', 'with two keys on either side', 'with two shields on either side', 'with two smaller spiritual symbols on either side', 'with two swords on either side'];
-
   const random1 = parseInt(Math.floor((Math.random() * names1.length)), 10);
   const random2 = parseInt(Math.floor((Math.random() * names2.length)), 10);
   if (random2 > 4) {
@@ -113,19 +112,13 @@ export default function countrys() {
   }
   const random34 = parseInt(Math.floor((Math.random() * names27.length)), 10);
   const random35 = parseInt(Math.floor((Math.random() * names28.length)), 10);
-
   const name = `The country of ${names1[random1]} is a${names2[random2]} country with a population of ${names3} ${names4[random4]}`;
   const name2 = `Bordered between ${names5[random5]} to the North, ${names5[random6]} to the South, ${names5[random7]} to the East and ${names5[random8]} to the West, the country of ${names1[random1]} mainly lives of ${names6[random9]}, ${names6[random10]} and ${names6[random11]}.`;
-
   const name3 = `${names1[random1]} itself is mainly covered in ${names7[random12]} and has a ${names7b[random3]} climate, which has lead to a ${names8[random13]} population, despite the number of people, which means most of them live in ${names10[random15]}.`;
-
   const name4 = `The country's landscape is ${names12[random17]}; ${names13[random18]}, ${names13[random19]} and ${names13[random20]} are just a sliver of the ${names14[random21]} ${names1[random1]} has to offer, which is why the country is ${names15[random22]} among foreigners.`;
   const name5 = `The people of ${names1[random1]} are ${names16[random23]} towards foreigners and tend to welcome them with ${names18[random25]}. They feel foreigners could ${names19[random26]} the country's well being.`;
-
   const name6 = `${names1[random1]} has ${names20[random27]} laws and law enforcement, which is ${names21[random28]}. The people are ${names22[random29]} due to ${names23[random30]} ${names24[random31]}.`;
   const name7 = `This is also reflected in the country's flag, which has ${names25[random32]} in ${names26[random33]}${names26b[random33b]}${names26b[random33c]}${names26b[random33d]}${names26c[random33e]}. Their coat of arms ${names27[random34]} ${names28[random35]}`;
-
-
   let result = '';
   result += name;
   result += '\n';

@@ -1,16 +1,12 @@
 export default function redguards() {
   let rnd;
-
   let rnd2;
   let rnd5;
   let rnd6;
   let rnd7;
   let
     rnd8;
-
-
   let names;
-
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['Ach', 'Ache', 'Aht', 'Ahta', 'Ale', 'Ales', 'Alo', 'Alon', 'Alu', 'Alus', 'Ami', 'Amir', 'Amr', 'Amre', 'Arm', 'Arma', 'Ata', 'Ataf', 'Ath', 'Atho', 'Avi', 'Avid', 'Avik', 'Aza', 'Azan', 'Azz', 'Azza', 'Bar', 'Bara', 'Bau', 'Baur', 'Bod', 'Bode', 'Bol', 'Bold', 'Bor', 'Bori', 'Bre', 'Bren', 'Cam', 'Cama', 'Cas', 'Casi', 'Casn', 'Cha', 'Char', 'Chr', 'Chre', 'Cir', 'Cirr', 'Clu', 'Clus', 'Coy', 'Coyl', 'Cur', 'Curt', 'Cyr', 'Cyru', 'Dar', 'Dara', 'Daro', 'Del', 'Delm', 'Dem', 'Deme', 'Din', 'Dino', 'Dom', 'Doma', 'Dor', 'Dori', 'Dort', 'Dud', 'Dudl', 'End', 'Endo', 'Enn', 'Enna', 'Enni', 'Ern', 'Erne', 'Fal', 'Fali', 'Far', 'Farm', 'Fih', 'Fiha', 'Fir', 'Firi', 'Fri', 'Frin', 'Gan', 'Ganc', 'Gar', 'Garr', 'Gla', 'Glan', 'Gog', 'Goga', 'Gor', 'Gre', 'Grek', 'Hae', 'Haek', 'Hal', 'Hald', 'Has', 'Hase', 'Hic', 'Hick', 'Hil', 'Hill', 'Hin', 'Hina', 'Ian', 'Ild', 'Ilde', 'Imi', 'Imin', 'Irg', 'Irgo', 'Isl', 'Isle', 'Isr', 'Isra', 'Jag', 'Jaga', 'Jai', 'Jair', 'Jal', 'Jalb', 'Jar', 'Jart', 'Jat', 'Jath', 'Jaw', 'Jawa', 'Jel', 'Jele', 'Jeli', 'Jim', 'Jin', 'Jine', 'Jon', 'Joni', 'Jun', 'Junc', 'K\'a', 'K\'av', 'Kal', 'Kalo', 'Kar', 'Karr', 'Kay', 'Kayd', 'Kaye', 'Kel', 'Kell', 'Kelv', 'Kem', 'Kema', 'Kew', 'Kewa', 'Kha', 'Khaf', 'Kin', 'Kint', 'Kit', 'Kith', 'Kot', 'Kota', 'Lak', 'Lake', 'Lan', 'Lana', 'Lat', 'Lath', 'Les', 'Lesl', 'Lho', 'Lhot', 'Lid', 'Lide', 'Lim', 'Lima', 'Man', 'Mani', 'Mar', 'Mara', 'Nac', 'Nach', 'Nam', 'Nama', 'Nan', 'Nann', 'Naz', 'Naze', 'Nazi', 'Nev', 'Nevi', 'Nis', 'Nist', 'Ori', 'Orin', 'Orr', 'Orri', 'Owy', 'Owyn', 'Pen', 'Pena', 'Phi', 'Phin', 'Pra', 'Pran', 'Pro', 'Prov', 'Pyk', 'Pyke', 'Rac', 'Racc', 'Rai', 'Raig', 'Raz', 'Raze', 'Rel', 'Rela', 'Rell', 'Rha', 'Rhan', 'Rin', 'Rini', 'Ris', 'Riss', 'Rod', 'Rode', 'Rus', 'Rusl', 'Sad', 'Sade', 'Sas', 'Saso', 'Sha', 'Shad', 'Sham', 'She', 'Shel', 'Shen', 'Sil', 'Sila', 'Sor', 'Sori', 'Sos', 'Sosc', 'Sta', 'Stan', 'Star', 'Ste', 'Sten', 'Ster', 'Sti', 'Stic', 'Tal', 'Tala', 'Tali', 'Tar', 'Tara', 'Tha', 'Thai', 'The', 'Thed', 'Ther', 'Tor', 'Torl', 'Tra', 'Tral', 'Tras', 'Tray', 'Tri', 'Trit', 'Var', 'Varn', 'Vho', 'Vhos', 'Vil', 'Vila', 'Wal', 'Wall', 'Way', 'Wayl', 'Wayn', 'Wil', 'Wilb', 'Will', 'Win', 'Wins'];
   const nm2 = ['ace', 'acey', 'acy', 'ada', 'adal', 'ado', 'ael', 'ah', 'al', 'ald', 'alen', 'amal', 'amon', 'an', 'anan', 'and', 'anvir', 'ar', 'ark', 'aro', 'aron', 'as', 'asson', 'asur', 'atu', 'ber', 'bert', 'bras', 'bur', 'can', 'cean', 'cey', 'colm', 'cy', 'd', 'da', 'dal', 'decan', 'den', 'dius', 'don', 'dr', 'dret', 'dyn', 'e', 'ean', 'ebras', 'eem', 'een', 'eif', 'ek', 'el', 'elan', 'ell', 'elm', 'em', 'en', 'ene', 'er', 'erick', 'ert', 'est', 'et', 'etrius', 'ey', 'f', 'fiz', 'g', 'gel', 'h', 'hael', 'her', 'hik', 'hlan', 'hlanie', 'hon', 'i', 'ian', 'ib', 'if', 'ik', 'ille', 'im', 'imir', 'in', 'ina', 'ine', 'inia', 'ion', 'ir', 'is', 'issean', 'ithon', 'ius', 'iz', 'k', 'kim', 'klith', 'kwon', 'l', 'la', 'lace', 'lan', 'lanie', 'las', 'ld', 'lden', 'le', 'len', 'let', 'ley', 'lian', 'line', 'lith', 'll', 'lle', 'lm', 'lod', 'mal', 'mar', 'min', 'mir', 'mon', 'n', 'na', 'nado', 'nal', 'nan', 'nar', 'nd', 'nda', 'ne', 'net', 'ni', 'nison', 'nithon', 'nk', 'nnison', 'no', 'nthal', 'ntias', 'nuin', 'nvir', 'nzo', 'o', 'oc', 'od', 'odd', 'ok', 'ola', 'olm', 'on', 'orter', 'r', 'rdecan', 'rdon', 'ret', 'rgel', 'rick', 'rk', 'ro', 'roc', 'rod', 'ron', 'rter', 'rus', 'ry', 's', 'san', 'saron', 'sek', 'sinia', 'son', 'ssean', 'sson', 'st', 'steve', 'sur', 't', 'tacey', 'teve', 'thal', 'ther', 'thik', 'tias', 'tis', 'todd', 'trius', 'tu', 'tun', 'uin', 'un', 'ur', 'us', 'var', 'vlith', 'vond', 'vyn', 'won', 'y', 'yn', 'yvond', 'zo'];
@@ -20,8 +16,6 @@ export default function redguards() {
   const nm6 = ['a', 'e', 'i', 'o', 'u'];
   const nm7 = ['ch', 'ct', 'fyl', 'g', 'ght', 'j', 'ld', 'll', 'lp', 'r', 'rc', 'rch', 'rd', 'rg', 'rht', 'rk', 'rm', 'rn', 'rp', 'rt', 's', 'sh', 'st', 'th', 'v', 'z'];
   const nm8 = ['am', 'an', 'ar', 'ba', 'ca', '-e', 'e', 'em', 'en', 'er', 'fa', 'ga', '-i', 'i', 'im', 'ir', 'ja', 'ka', 'ke', '\'kern', 'ki', 'in', 'om', 'on', 'rn', '-si', 'sa', 't', 'ta', 'ta', 'te', 'ten', 'tha', 'ti', 'um', 'un', 'ur'];
-
-
   const i = Math.floor(Math.random() * 10);
   {
     rnd5 = Math.floor(Math.random() * nm5.length);

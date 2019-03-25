@@ -1,6 +1,5 @@
 export default function half_elfs() {
   let rnd;
-
   let rnd2;
   let rnd3;
   let rnd4;
@@ -16,10 +15,7 @@ export default function half_elfs() {
   let rnd15;
   let
     rnd16;
-
-
   let names;
-
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['', '', '', '', '', 'b', 'c', 'd', 'g', 'h', 'j', 'jh', 'k', 'kh', 'kr', 'l', 'm', 'n', 'p', 'q', 'r', 's', 't', 'tr', 'v', 'vr', 'z', 'zr'];
   const nm2 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'y', 'y', 'y', 'ai', 'ae', 'ia', 'ue', 'ie', 'ui'];
@@ -33,8 +29,6 @@ export default function half_elfs() {
   const nm10 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'aa', 'io', 'ei', 'iu', 'ai', 'ea', 'ee'];
   const nm11 = ['d', 'd', 'd', 'dr', 'dw', 'gr', 'gw', 'gn', 'g', 'g', 'gg', 'h', 'h', 'h', 'j', 'j', 'j', 'k', 'k', 'k', 'kr', 'kl', 'km', 'kn', 'l', 'l', 'll', 'l', 'lr', 'lg', 'ld', 'ldr', 'lmr', 'ly', 'm', 'mg', 'mr', 'm', 'm', 'm', 'n', 'n', 'n', 'nn', 'n', 'nr', 'ng', 'ngr', 'ndr', 'nd', 'nsh', 'ntr', 'r', 'r', 'r', 'r', 'rr', 'rd', 'rdr', 'rg', 'rgr', 'rl', 'rm', 'rt', 's', 's', 's', 'sdr', 'sgr', 'sg', 'sh', 'ssr', 't', 'tr', 't', 't', 'th', 'v', 'v', 'vr', 'vl', 'w', 'xh', 'xt', 'y', 'yh', 'zm'];
   const nm12 = ['', '', '', '', '', '', '', 'ht', 'l', 'm', 'n', 'nd', 'nn', 'r', 'rks', 'rt', 's', 'th', 'w', 'ys'];
-
-
   const i = Math.floor(Math.random() * 10);
   {
     rnd10 = Math.floor(Math.random() * nm9.length);

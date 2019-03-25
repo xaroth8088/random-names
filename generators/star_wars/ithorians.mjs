@@ -1,6 +1,5 @@
 export default function ithorians() {
   let rnd;
-
   let rnd2;
   let rnd3;
   let rnd4;
@@ -15,10 +14,7 @@ export default function ithorians() {
   let rnd12;
   let
     rnd13;
-
-
   let names;
-
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['', '', '', '', '', 'b', 'br', 'ch', 'cl', 'd', 'dr', 'f', 'g', 'gr', 'h', 'j', 'jh', 'jw', 'k', 'kr', 'l', 'm', 'n', 'p', 'ph', 'pl', 'pw', 'q', 'r', 's', 'sn', 'spr', 'st', 't', 'th', 'tr', 'v', 'vl', 'w', 'wh', 'y', 'z'];
   const nm2 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'aa', 'oo', 'ea', 'ua', 'eo', 'ou', 'ee', 'ao', 'ii', 'aa', 'ui', 'au', 'uu', 'ie'];
@@ -32,8 +28,6 @@ export default function ithorians() {
   const nm10 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'ee', 'oo', 'ea', 'ee', 'au', 'ua'];
   const nm11 = ['b', 'bb', 'bbl', 'bl', 'd', 'dd', 'f', 'fl', 'g', 'h', 'j', 'k', 'l', 'll', 'lt', 'm', 'mfl', 'n', 'nd', 'nt', 'pr', 'q', 'r', 'rk', 'rt', 'rtk', 's', 't', 'th', 'tr', 'v', 'w', 'wm', 'wr', 'xl', 'z'];
   const nm12 = ['', '', '', '', '', 'b', 'bb', 'd', 'g', 'hl', 'k', 'l', 'll', 'm', 'n', 'ngs', 'nd', 'nn', 'r', 'rlq', 's', 't', 'th', 'thh', 'ts', 'w'];
-
-
   const i = Math.floor(Math.random() * 10);
   {
     rnd7 = Math.floor(Math.random() * nm9.length);

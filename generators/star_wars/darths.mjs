@@ -1,6 +1,5 @@
 export default function darths() {
   let rnd;
-
   let rnd2;
   let rnd3;
   let rnd4;
@@ -8,10 +7,7 @@ export default function darths() {
   let rnd6;
   let
     rnd7;
-
-
   let names;
-
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['', '', '', '', '', '', '', '', '', '', 'b', 'br', 'c', 'ch', 'chr', 'cr', 'd', 'dr', 'f', 'g', 'gl', 'gr', 'h', 'j', 'k', 'kr', 'kh', 'l', 'm', 'mh', 'n', 'pl', 'pr', 'q', 'r', 's', 'sc', 'sk', 'st', 'str', 'sr', 't', 'th', 'tr', 'v', 'w', 'wr', 'x', 'z'];
   const nm2 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'y', 'y', 'y', 'ou', 'ae', 'ea', 'ui', 'ia', 'ue', 'ei', 'uy'];
@@ -21,8 +17,6 @@ export default function darths() {
   const nm6 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'ea', 'ae', 'ia', 'ie', 'ei', 'ui'];
   const nm7 = ['b', 'ch', 'chr', 'cr', 'd', 'dh', 'dr', 'g', 'gr', 'gn', 'gm', 'gl', 'k', 'kn', 'km', 'kh', 'kk', 'l', 'll', 'lm', 'lr', 'ld', 'lm', 'm', 'mn', 'mr', 'mm', 'n', 'nn', 'nr', 'ns', 'nz', 'nl', 'r', 'rm', 'rl', 'rz', 'rg', 'rr', 'tr', 'ttr', 'th', 'thr', 'thn', 'thm', 'y'];
   const nm8 = ['', '', '', '', '', '', '', '', '', '', 'd', 'f', 'h', 'l', 'n', 'ph', 'r', 's', 'sh', 'ss', 'th', 'w', 'x'];
-
-
   const i = Math.floor(Math.random() * 10);
   {
     if (type === 1) {

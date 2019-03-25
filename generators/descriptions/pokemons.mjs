@@ -1,9 +1,5 @@
 export default function pokemons() {
-
-
     let rnd1, rnd3;
-
-
     const bugSkin = ['bioluminescent', 'phosphorescent', 'fluorescent', 'camouflaged', 'dark', 'fluff covered', 'glowing', 'hair covered', 'light', 'patterned', 'thick armored', 'thorny', 'translucent'];
     const bugLegs = ['ridged', 'armored', 'thick, fluffy', 'hair covered', 'thin, long', 'thorn covered', 'camouflaged', 'small', 'powerful'];
     const bugWings = ['angular', 'bioluminescent', 'phosphorescent', 'fluorescent', 'petal-like', 'camouflaged', 'cloak-like', 'dark', 'double paired', 'giant', 'glowing', 'light', 'patterned', 'powerful', 'razor sharp', 'ribbon-like', 'small', 'translucent'];
@@ -68,7 +64,6 @@ export default function pokemons() {
     const fireEars = ['enormous', 'wing-like', 'flame shaped', 'flappy', 'flabby', 'furnace-like', 'horn-like', 'huge', 'pointy', 'rounded', 'small', 'steaming', 'stumpy', 'tiny', 'big'];
     const fireHorns = ['ridged', 'enormous', 'curved', 'furnace-like', 'stubby', 'huge', 'pointy', 'rounded', 'small', 'steaming', 'stumpy', 'tiny', 'jagged'];
     const flySkin = ['armored', 'bioluminescent', 'phosphorescent', 'fluorescent', 'brightly colored', 'camouflaged', 'light', 'patterned', 'rough', 'smooth', 'soft', 'thorny', 'translucent'];
-
     const flyLegs = ['an extra pair of', 'armored', 'broad', 'clawed', 'decorated', 'delicate', 'fluffy', 'long', 'muscular', 'nimble', 'powerful', 'slim', 'tiny'];
     const flyWings = ['angular', 'angelic', 'armored', 'bioluminescent', 'phosphorescent', 'fluorescent', 'blade-like', 'clawed', 'cloak-like', 'cloud-like', 'enormous', 'fan-like', 'gigantic', 'huge', 'layered', 'patterned', 'rainbow', 'shield-like', 'translucent', 'two pairs of'];
     const flyMouth = ['broad', 'cavernous', 'frowning', 'hidden', 'huge', 'lack of a', 'mischievous', 'pointed', 'seemingly angry', 'seemingly expressionless', 'seemingly invisible', 'small', 'smiling', 'tiny', 'toothed', 'tranquil looking'];
@@ -197,8 +192,6 @@ export default function pokemons() {
     const wtr = ['dark', 'dragon', 'ghost', 'ice', 'poison', 'psychic', 'water'];
     const lnd = ['bug', 'dark', 'electric', 'fairy', 'fighting', 'fire', 'ghost', 'grass', 'ground', 'ice', 'normal', 'poison', 'psychic', 'rock', 'steel'];
     const air = ['bug', 'dark', 'dragon', 'electric', 'fairy', 'fire', 'flying', 'ghost', 'normal', 'poison', 'psychic'];
-
-
     const bugAttk = ['Attack Order', 'Bug Bite', 'Bug Buzz', 'Defend Order', 'Fell Stinger', 'Fury Cutter', 'Heal Order', 'Infestation', 'Leech Life', 'Megahorn', 'Pin Missile', 'Powder', 'Quiver Dance', 'Rage Powder', 'Signal Beam', 'Silver Wind', 'Spider Web', 'Steamroller', 'Sticky Web', 'String Shot', 'Struggle Bug', 'Tail Glow', 'Twineedle', 'U-turn', 'X-Scissor'];
     const darkAttk = ['Assurance', 'Beat Up', 'Bite', 'Crunch', 'Dark Pulse', 'Dark Void', 'Embargo', 'Fake Tears', 'Feint Attack', 'Flatter', 'Fling', 'Foul Play', 'Hone Claws', 'Hyperspace Fury', 'Knock Off', 'Memento', 'Nasty Plot', 'Night Daze', 'Night Slash', 'Parting Shot', 'Payback', 'Punishment', 'Pursuit', 'Quash', 'Snarl', 'Snatch', 'Sucker Punch', 'Switcheroo', 'Taunt', 'Thief', 'Topsy-Turvy', 'Torment'];
     const dragonAttk = ['Draco Meteor', 'Dragon Breath', 'Dragon Claw', 'Dragon Dance', 'Dragon Pulse', 'Dragon Rage', 'Dragon Rush', 'Dragon Tail', 'Dual Chop', 'Outrage', 'Roar of Time', 'Spacial Rend', 'Twister'];
@@ -219,7 +212,6 @@ export default function pokemons() {
     const waterAttk = ['Aqua Jet', 'Aqua Ring', 'Aqua Tail', 'Brine', 'Bubble', 'Bubble Beam', 'Clamp', 'Crabhammer', 'Dive', 'Hydro Cannon', 'Hydro Pump', 'Muddy Water', 'Octazooka', 'Origin Pulse', 'Rain Dance', 'Razor Shell', 'Scald', 'Steam Eruption', 'Soak', 'Surf', 'Water Gun', 'Water Pledge', 'Water Pulse', 'Water Shuriken', 'Water Sport', 'Water Spout', 'Waterfall', 'Whirlpool', 'Withdraw'];
     const evo = ['could still evolve, but it requires a special stone', 'could still evolve, but only under rare circumstances', 'has already evolved once, but can still evolve one more time', 'has evolve once and can still evolve into one of two potential evolutions', 'has evolved once and can evolve no more', 'has evolved twice and can evolve no more', 'has evolved twice, but can still evolve once more', 'hasn\'t evolved yet and there are no known evolutions', 'hasn\'t evolved yet, but could do so once', 'hasn\'t evolved yet, but could do so twice'];
     const rsm = ['bears resemblance to', 'closely resembles', 'faintly looks like', 'is similar to', 'looks a little like', 'looks a lot like', 'shares features with', 'slightly resembles', 'somewhat resembles'];
-
     let pkm = [
         ['an aardvark', ['land'],
             ['fur'],
@@ -894,7 +886,6 @@ export default function pokemons() {
             ['legs'], 'snout', 'tail', 'ears',
         ],
     ];
-
     const traits = [];
     let pkType = '';
     const rnPers = Math.random() * pers.length | 0;
@@ -2133,7 +2124,6 @@ export default function pokemons() {
     const name = `This Pokemon is a ${pkType}-type Pokemon and ${rsm[rnRsm]} ${pkm[rnd1][0]}. It has ${descrs[0]}, ${descrs[1]} and ${descrs[2]}.`;
     const name2 = ` They're generally ${pers[rnPers]} by nature and can often be found ${place}. If you're out looking for them they can often be seen ${amnt[rnAmnt]}.`;
     const name3 = `It tends to attack with ${atkOne} and ${atkTwo}. It ${evo[rnEvo]}.`;
-
     let result = '';
     result += name;
     result += name2;

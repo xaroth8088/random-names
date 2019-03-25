@@ -1,10 +1,6 @@
 export default function armys() {
-
-
     let rnd3;
     let rnd11, rnd12;
-
-
     const nm1 = ['7', '8', '9', '10', '11', '12', '13', '14', '15', '16', '17', '18', '19', '20', '21', '22', '23', '24', '25'];
     const nm2 = ['marches as one', 'moves as if a single being', 'advances as a whole', 'strides along as one', 'moves as one', 'strides onwards as a whole', 'moves forward, all together as one', 'marches onwards as one body', 'marches forward as if a single being', 'moves forward', 'marches onwards', 'strides onwards', 'moves onwards', 'marches forward', 'advances', 'marches along', 'strides forward', 'advances steadily'];
     const nm3 = ['Each step in unison with the others', 'Every step in perfect harmony with the others', 'A constant beat of step after step', 'A constant drumming of synchronized steps', 'A symphony of steps, each perfectly alligned with the one next to it', 'Every step alligned to the beat of the marching drums', 'Step after step on the rhythm of the marching drums', 'A cadence of steps after steps, all alligned with each other', 'Thousands of feet, all moving as individuals', 'Thousands of feet trample the ground beneath it', 'Step after step of an unsynchronized march', 'A cacophony of sound from a disharmonious march', 'A barrage of noise from thousands of individual steps', 'A storm of sound from disorganized steps after steps', 'A thunder of thousands of unsynchronized steps', 'A constant roar of thousand of steps after steps after steps', 'A continous noise of thousands of feet trampling the ground beneath it', 'An endless barrage of the sound of thousands of feet marching onwards'];
@@ -19,7 +15,6 @@ export default function armys() {
     const nm12 = ['elite footsoldiers armed with swords and shields', 'elite footsoldiers armed powerful with two-handed swords', 'elite bowmen with high precision aim', 'elite crossbow units with deadly precision', 'elite footsoldiers armed with pikes', 'elite footsoldiers armed with long sword and huge shield', 'elite footsoldiers armed with two swords', 'elite footsoldiers armed with huge maces and axes', 'elite spearmen on horseback', 'elite footsoldiers armed with spears and large shields', 'elite swordsmen on horseback', 'elite archers on horseback', 'elite soldiers on horseback', 'elite sword cavalry'];
     const nm13 = ['dozens of other warrior regiments', 'many other regiments, including mercenaries and allied soldiers', 'many other regiments, including mercenaries and slave soldiers', 'many other regiments, including allied soldiers, as well as slave soldiers'];
     const nm14 = ['several cavalry units', 'different types of archery units', 'stealth units', 'several bomb units', 'various flanking units', 'various charging units', 'many elite units', 'several defensive units', 'artillery units', 'units of war animals'];
-
     const rnd1 = Math.floor(Math.random() * nm1.length);
     const rnd2 = Math.floor(Math.random() * nm2.length);
     let rnd3 = Math.floor(Math.random() * nm3.length);
@@ -57,15 +52,11 @@ export default function armys() {
     while (rnd14d === rnd14a || rnd14d === rnd14b || rnd14d === rnd14c) {
         rnd14d = Math.floor(Math.random() * nm14.length);
     }
-
     const name = `The ground trembles as an army of ${nm1[rnd1]}0,000 ${nm2[rnd2]}. ${nm3[rnd3]}, ${nm4[rnd4]}.`;
-
     const name2 = `Up close it's the ${nm5[rnd5]} which overpowers all other sounds. The ${nm6[rnd6]} can be heard only faintly and the ${nm7[rnd7]} are all but drowned out completely.`;
     const name3 = `${nm8[rnd8]}. ${nm9[rnd9]}.`;
-
     const name4 = `The front is lead by eager ${nm10[rnd10]}. They're followed by ${nm11[rnd11]}, who in turn are followed by ${nm12[rnd12]}.`;
     const name5 = `The ranks are filled with ${nm13[rnd13]}, including ${nm14[rnd14a]}, ${nm14[rnd14b]}, ${nm14[rnd14c]} and ${nm14[rnd14d]}.`;
-
     let result = '';
     result += name;
     result += '\n';

@@ -1,18 +1,13 @@
 export default function khajiits() {
   let rnd;
-
   let rnd2;
   let rnd3;
   let
     rnd4;
-
-
   let names;
-
   const type = Math.random() > 0.5 ? 0 : 1;
   const names3 = ['Ah', 'Boora', 'Hamnu', 'Jar', 'Khar', 'Ka', 'Mahr', 'Ravi', 'Rou', 'Sah', 'Sih', 'Sohl', 'Tawak', 'Zah', 'Ahr', 'Bava', 'Havnu', 'Java', 'Kahra', 'Kihr', 'Marah', 'Rawi', 'Roj', 'Saj', 'Sij', 'Sal', 'Tarvak', 'Zahj', 'Ahj', 'Bahraja', 'Hannu', 'Jahk', 'Khanj', 'Kiji', 'Mahri', 'Rajiv', 'Rahk', 'Sara', 'Sira', 'Sajil', 'Tovik', 'Xa', 'A', 'Bara', 'Hammu', 'Ja', 'Kha', 'Ki', 'Mah', 'Rai', 'Ro', 'Sa', 'Si', 'Sol', 'Tavak', 'Za'];
   const names4 = ['biri', 'bus', 'davi', 'han', 'hir', 'kar', 'manni', 'mnin', 'nai', 'oni', 'rabi', 'spoor', 'stae', 'tani', 'vandi', 'bari', 'bes', 'dawi', 'haan', 'hior', 'kahr', 'mahni', 'mnihn', 'naihn', 'ani', 'rabbi', 'spaer', 'stee', 'tanni', 'vadni', 'bihrri', 'bussi', 'dhari', 'rhan', 'hirn', 'ghar', 'mhan', 'mnirn', 'nair', 'onihr', 'garvi', 'kpoor', 'stavir', 'tannil', 'gandihr', 'bihrith', 'busihr', 'dawihn', 'hasin', 'hirin', 'karon', 'manrin', 'nmin', 'nahir', 'ohin', 'radir', 'sopor', 'stahe', 'tamil', 'vanadi'];
-
   tp = type;
   if (type === 2) {
     var names1 = ['Dra\'', 'Daro\'', 'Ko\'', 'Ab\'', 'Ak\'', 'Akh\'', 'Dar\'', 'Do\'', 'Dro\'', 'Fa\'', 'J\'', 'Ja\'', 'Ji\'', 'Jo\'', 'K\'', 'M\'', 'Ma\'', 'Qa\'', 'R\'', 'Ra\'', 'Ri\'', 'S\'', 'Za\'', 'Zan\'', 'Ab\'', 'Ak\'', 'Akh\'', 'Dar\'', 'Do\'', 'Dro\'', 'Fa\'', 'J\'', 'Ja\'', 'Ji\'', 'Jo\'', 'K\'', 'M\'', 'Ma\'', 'Qa\'', 'R\'', 'Ra\'', 'Ri\'', 'S\'', 'Za\'', 'Zan\'', 'Am', 'Baa', 'Baad', 'Bhi', 'Bhis', 'Dah', 'Dahl', 'Dro', 'Has', 'Hass', 'Hel', 'Heln', 'Hus', 'Job', 'Joba', 'Jod', 'Jodh', 'Jos', 'Josh', 'Jot', 'Joto', 'Kaz', 'Kaza', 'Kes', 'Kesh', 'Kha', 'Khar', 'Mo', 'Moham', 'Moj', 'Na', 'Om', 'Ran', 'Rana', 'Sha', 'Sho', 'Shol', 'Sin', 'The', 'Then', 'Ther', 'Urj', 'Urja', 'Urjo', 'Vas', 'Vash', 'Wad', 'Wada', 'Zoa', 'Zoar'];
@@ -21,7 +16,6 @@ export default function khajiits() {
     var names1 = ['Dra\'', 'Daro\'', 'Ko\'', 'La\'', 'Dar\'', 'Do\'', 'Dro\'', 'J\'', 'Ja\'', 'Ji\'', 'Jo\'', 'M\'', 'Ma\'', 'Qa\'', 'Ra\'', 'Ri\'', 'S\'', 'Dar\'', 'Do\'', 'Dro\'', 'J\'', 'Ja\'', 'Ji\'', 'Jo\'', 'M\'', 'Ma\'', 'Qa\'', 'Ra\'', 'Ri\'', 'S\'', 'Dar\'', 'Do\'', 'Dro\'', 'J\'', 'Ja\'', 'Ji\'', 'Jo\'', 'M\'', 'Ma\'', 'Qa\'', 'Ra\'', 'Ri\'', 'S\'', 'A', 'Aba', 'Aban', 'Abh', 'Abhu', 'Ada', 'Adan', 'Add', 'Addh', 'Adh', 'Adha', 'Aff', 'Affr', 'Ahd', 'Ahda', 'Ahdn', 'Ahdr', 'Ahj', 'Ahja', 'Ahji', 'Ahk', 'Ahka', 'Ahn', 'Ahna', 'Ahnd', 'Ahni', 'Ahz', 'Ahzi', 'Ain', 'Aina', 'Aji', 'Ajir', 'Anj', 'Anja', 'Anu', 'Anur', 'Ara', 'Arab', 'Arav', 'Ash', 'Ashi', 'Ashn', 'Ata', 'Atah', 'Atr', 'Atra', 'Ayi', 'Ayis', 'Azi', 'Bah', 'Bahd', 'Bai', 'Bais', 'Bhi', 'Bhis', 'Bhu', 'Bhus', 'Chi', 'Chir', 'Dah', 'Dahl', 'Dahn', 'Dro', 'Eka', 'Ekap', 'Ela', 'Fa', 'Hab', 'Haba', 'Har', 'Hara', 'Idh', 'Idha', 'Ine', 'Iner', 'Ino', 'Inor', 'Kaa', 'Kaas', 'Kha', 'Kham', 'Khay', 'Khaz', 'Khi', 'Khin', 'Ki', 'Kis', 'Kise', 'Kish', 'Kisi', 'Mo', 'Na', 'Nah', 'Nahs', 'Nis', 'Nisa', 'Ra', 'Rab', 'Rabi', 'Ri', 'Sa', 'Sha', 'Shab', 'Sham', 'Shav', 'Shi', 'Shiv', 'Sho', 'Shom', 'Shot', 'Shu', 'Shun', 'Shur', 'So', 'Ta', 'Tal', 'Tala', 'Tsa', 'Tsab', 'Tsaj', 'Tsal', 'Tsan', 'Tsar', 'Tsav', 'Tsi', 'Tsiy', 'Tsr', 'Tsra', 'Uba', 'Ubaa', 'Uda', 'Udar', 'Unj', 'Unja', 'Vaj', 'Vajh', 'Van', 'Vanj', 'Yus', 'Yush', 'Za', 'Zab', 'Zabh', 'Zah', 'Zahr', 'Zay', 'Zayn'];
     var names2 = ['aba', 'abhi', 'abi', 'ada', 'adhi', 'ahin', 'ahna', 'ahni', 'ahra', 'aji', 'ajma', 'amla', 'ani', 'ara', 'aranji', 'ari', 'arji', 'arra', 'asa', 'asha', 'ashi', 'asi', 'asma', 'assa', 'assi', 'asuna', 'ava', 'avi', 'azami', 'azda', 'ba', 'bah', 'bhi', 'dahna', 'dahra', 'dasha', 'drashi', 'eena', 'ena', 'feliz', 'hana', 'hasa', 'hashi', 'hba', 'hbah', 'heh', 'herra', 'hi', 'hila', 'hinda', 'hira', 'hiranirr', 'hni', 'hrazad', 'ia', 'idasha', 'ila', 'imba', 'ini', 'inna', 'ira', 'iranirr', 'irra', 'isa', 'isi', 'ivva', 'ja', 'jadhi', 'jarsi', 'ji', 'jirra', 'jjan', 'khtar', 'ki', 'la', 'lajma', 'lani', 'leena', 'mada', 'mara', 'mba', 'mla', 'muzi', 'nabi', 'nara', 'nari', 'ni', 'nita', 'nja', 'njarsi', 'nji', 'nna', 'pi', 'ra', 'raji', 'ranirr', 'ranji', 'rasha', 'rashi', 'rassa', 'ravi', 'raya', 'ri', 'riba', 'rina', 'rivva', 'rji', 'rra', 'rranirr', 'rri', 'rrina', 'sa', 'sari', 'sha', 'shima', 'si', 'sma', 'srin', 'ssa', 'ssi', 'suna', 'therra', 'tima', 'uki', 'ura', 'uzi', 'va', 'vani', 'vari', 'vi', 'ya', 'yla', 'zami', 'zda', 'zhinda', 'zita', 'zura'];
   }
-
   const i = Math.floor(Math.random() * 10);
   {
     if (i < 5) {

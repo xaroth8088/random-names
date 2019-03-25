@@ -1,6 +1,5 @@
 export default function san_shyuums() {
   let rnd;
-
   let rnd2;
   let rnd3;
   let rnd4;
@@ -8,10 +7,7 @@ export default function san_shyuums() {
   let rnd6;
   let
     rnd7;
-
-
   let names;
-
   const nm1 = ['', '', '', '', '', '', '', 'b', 'c', 'd', 'f', 'h', 'k', 'l', 'm', 'n', 'p', 'r', 's', 't', 'v', 'w', 'z'];
   const nm2 = ['o', 'a', 'u'];
   const nm3 = ['b', 'c', 'd', 'g', 'k', 'p', 't', 'rd', 'rb', 'rc', 'rd', 'rg', 'rk', 'rp', 'rt'];
@@ -20,8 +16,6 @@ export default function san_shyuums() {
   const nm6 = ['o', 'a', 'u', '', ''];
   const nm7 = ['Prophet', 'Minister', 'High Prophet'];
   const nm8 = ['Absolution', 'Analysis', 'Atonement', 'Attrition', 'Audacity', 'Aversion', 'Boldness', 'Bravery', 'Candor', 'Caution', 'Censure', 'Charity', 'Civility', 'Clemency', 'Commitment', 'Compassion', 'Confidence', 'Conscience', 'Conservancy', 'Constraint', 'Contrition', 'Control', 'Conviction', 'Courage', 'Courtesy', 'Creed', 'Decency', 'Defiance', 'Dignity', 'Disdain', 'Doubt', 'Duty', 'Elegance', 'Empathy', 'Endurance', 'Esteem', 'Etiology', 'Fairness', 'Favor', 'Fervor', 'Forbearance', 'Fortitude', 'Gallantry', 'Generosity', 'Goodwill', 'Grace', 'Honesty', 'Honor', 'Inhibition', 'Inquisition', 'Insolence', 'Integrity', 'Interrogation', 'Intrepidity', 'Investigation', 'Kindness', 'Legitimacy', 'Lenience', 'Mercy', 'Moderation', 'Nobility', 'Objection', 'Obligation', 'Patience', 'Penance', 'Penitence', 'Pity', 'Principles', 'Protection', 'Protest', 'Prowess', 'Qualm', 'Recognition', 'Regret', 'Reliance', 'Remorse', 'Repentance', 'Resilience', 'Resistance', 'Restraint', 'Restriction', 'Reverence', 'Salvation', 'Saving', 'Silence', 'Sincerity', 'Sorrow', 'Stewardship', 'Strength', 'Suffering', 'Supposition', 'Sympathy', 'Tenacity', 'Tolerance', 'Trust', 'Truth', 'Valiance', 'Veracity', 'Vigor', 'Virtue'];
-
-
   const i = Math.floor(Math.random() * 10);
   {
     if (i < 5) {
@@ -38,7 +32,6 @@ export default function san_shyuums() {
           rnd3 = Math.floor(Math.random() * nm3.length);
         }
       }
-
       rnd4 = Math.floor(Math.random() * nm4.length);
       rnd5 = Math.floor(Math.random() * nm2.length);
       rnd6 = Math.floor(Math.random() * nm5.length);

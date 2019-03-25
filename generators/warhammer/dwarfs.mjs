@@ -1,6 +1,5 @@
 export default function dwarfs() {
   let rnd;
-
   let rnd2;
   let rnd3;
   let rnd4;
@@ -8,10 +7,7 @@ export default function dwarfs() {
   let rnd6;
   let
     rnd7;
-
-
   let names;
-
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['', '', '', 'br', 'd', 'dr', 'g', 'gr', 'kh', 'kr', 'm', 'n', 'r', 's', 'sr', 'str', 'th', 'tr', 'thr', 'v', 'z'];
   const nm2 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'au', 'ai', 'oa', 'ao'];
@@ -23,8 +19,6 @@ export default function dwarfs() {
   const nm8 = ['', '', '', '', '', 'd', 'h', 'm', 'n', 't'];
   const nm9 = ['amber', 'autumn', 'battle', 'bear', 'bitter', 'black', 'blunt', 'boulder', 'brane', 'bright', 'brittle', 'broad', 'broken', 'bronze', 'brown', 'cask', 'cinder', 'cliff', 'coal', 'cold', 'common', 'copper', 'crag', 'deep', 'distant', 'ember', 'far', 'fiery', 'fire', 'flame', 'flat', 'flint', 'forge', 'full', 'fuse', 'gold', 'golden', 'grand', 'granite', 'gray', 'great', 'grim', 'grudge', 'grumble', 'hammer', 'hill', 'ingot', 'iron', 'keen', 'keg', 'krag', 'lead', 'light', 'magma', 'merry', 'metal', 'mild', 'mirth', 'mithril', 'mountain', 'noble', 'onyx', 'plain', 'proud', 'regal', 'rich', 'rock', 'rough', 'rumble', 'shatter', 'silver', 'slender', 'solid', 'steel', 'stone', 'storm', 'stout', 'strong', 'thunder', 'true'];
   const nm10 = ['arm', 'armor', 'armour', 'axe', 'back', 'basher', 'beam', 'beard', 'bearer', 'belly', 'belt', 'bender', 'bluff', 'bone', 'bough', 'brace', 'branch', 'brand', 'breaker', 'brew', 'brewer', 'bringer', 'brow', 'buckle', 'buster', 'chaser', 'chest', 'chin', 'cloak', 'crag', 'crest', 'digger', 'dreamer', 'feet', 'finger', 'fire', 'fist', 'fists', 'flame', 'foot', 'force', 'forge', 'forged', 'fury', 'grip', 'grog', 'guard', 'gut', 'hammer', 'hand', 'hank', 'head', 'heart', 'helm', 'keeper', 'maker', 'mantle', 'mark', 'master', 'might', 'more', 'punch', 'rage', 'seeker', 'shaper', 'shield', 'shoulder', 'shout', 'strength', 'strider', 'striker', 'surge', 'sworn', 'thane', 'walker', 'ward'];
-
-
   const i = Math.floor(Math.random() * 10);
   {
     rnd = Math.floor(Math.random() * nm9.length);

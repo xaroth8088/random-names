@@ -1,6 +1,5 @@
 export default function ortolans() {
   let rnd;
-
   let rnd2;
   let rnd3;
   let rnd4;
@@ -12,10 +11,7 @@ export default function ortolans() {
   let rnd10;
   let
     rnd11;
-
-
   let names;
-
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['', '', 'b', 'd', 'h', 'l', 'm', 'n', 'p', 'r', 't', 'v'];
   const nm2 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'o', 'a', 'e', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'o', 'a', 'e', 'ee', 'oo'];
@@ -29,8 +25,6 @@ export default function ortolans() {
   const nm10 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'o', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'o', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'o', 'ee', 'oo', 'ai'];
   const nm11 = ['b', 'd', 'g', 'j', 'k', 'l', 'm', 'n', 'q', 't', 'v'];
   const nm12 = ['', '', '', '', 'd', 'g', 'k', 'l', 'm', 'n', 'q', 'r', 's', 'x'];
-
-
   const i = Math.floor(Math.random() * 10);
   {
     rnd7 = Math.floor(Math.random() * nm9.length);

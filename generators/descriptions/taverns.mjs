@@ -19,7 +19,6 @@ export default function taverns() {
   let names17 = [', what looks like couples, lone travellers and anybody else who enjoys great company.', ', what must be seperate groups who have bonded over great food and conversation.', ', what seems to be entire families, all enjoying the food, drinks and company of each other.', ', what seems to be one large group of people.', ', what seems to be the entire surrounding village.', ' happy, excited groups of people, some are dancing on the table, while others cheer them on with clapping and yelling.', ' locals, travellers, foreigners and anybody else who wishes to join.', ' seperate groups of people, all enjoying themselves, but they keep to themselves.', ' seperate groups who, after having had quite a few drinks, seem to be trying to prove which group is best.', ' several smaller groups of people.'];
   let names18 = ['are clearly having a good time.', 'seem to be enjoying themselves a lot, perhaps too much, if such a thing is possible.', 'are probably starting to reach the point of having drunk too much, though nobody seems to mind.', 'clearly enjoy each other\'s company, though they seem to be strangers who have met here.', 'are playing games and, judging by their laughter, are either telling jokes or great, perhaps embarrasing, tales.', 'seem to be close with the owner, though they happily welcome others among their midst.', 'are singing and dancing, occassionaly pulling an unsuspecting waitress amidst their dancing group.', 'are indulging in great food and drinks, while some do try to strike a conversation, others can barely speak a word between eating what must be delicious food.', 'who seem to be strangers to each other, all sitting here because there are no other seats. Though they all clearly enjoy each other\'s company.'];
   let names19 = ['the smells of grilled and cooked food coming from the kitchen, it must be the food.', 'the amount of cups, tankards and glasses on the table, it\'s probably the fine alcoholic drinks.', 'the amount of men staring at one of the waitresses, it\'s probably her beauty and charm.', 'the amount of women in this tavern and the amount of them trying to subtly eye the bartender, it\'s probably his good looks and charm.', 'the music and how many people are dancing, it must be the live band who just started playing.', 'the angelic voice who just started singing, it must be famous for this singer.', 'the laughter, cheering and overall enjoyment of everybody, it\'s probably the people themselves who make this tavern famous.', 'the warmth and joy radiating throught the tavern, it\'s probably the atmosphere that makes this tavern famous.'];
-
   if (type > 0.5) {
     names1 = ['broken', 'cheerless', 'cold', 'crude', 'dark', 'depressing', 'dire', 'dirty', 'disturbing', 'dull', 'gloomy', 'horrible', 'nasty', 'rough', 'ugly', 'uncomfortable', 'unenjoyable', 'unfriendly', 'uninviting', 'unwelcoming'];
     names5 = ['curtained windows', 'darkened windows', 'high windows', 'large, curtained windows', 'large, stained glass windows', 'small, curtained windows', 'small, stained glass windows', 'stained glass windows', 'windows', 'closed windows', 'dirty windows', 'dusty windows'];
@@ -37,7 +36,6 @@ export default function taverns() {
     names18 = [''];
     names19 = ['the figures lurking in the shadows, it\'s probably some dirty business', 'the dirt and unhygienic circumstances, it\'s probably food poisoning', 'everything you\'ve seen so far, you don\'t really care and you probably don\'t want to know', 'the things and people you\'ve seen, you\'re not waiting to find out', 'everything in this place, it must be something horrifying', 'judging by the people in this place, it\'s probably something shady and possibly dangerous for strangers like you'];
   }
-
   const random1a = parseInt(Math.floor((Math.random() * names1.length)), 10);
   let random1b = parseInt(Math.floor((Math.random() * names1.length)), 10);
   while (random1a === random1b) {
@@ -69,26 +67,18 @@ export default function taverns() {
   const random17 = parseInt(Math.floor((Math.random() * names17.length)), 10);
   const random18 = parseInt(Math.floor((Math.random() * names18.length)), 10);
   const random19 = parseInt(Math.floor((Math.random() * names19.length)), 10);
-
-
   const name = `From the outside it looks ${names1[random1a]}, ${names1[random1b]} and ${names1[random1c]}. ${names2[random2]} and ${names3[random3]} make up most of the building's outer structure.`;
   const name2 = `It's ${names4[random4]} to see through the ${names5[random5]}, but the ${names6[random6]} from within can be felt outside.`;
-
   const name3 = `As you enter the tavern through the ${names7[random7]}, you're welcomed by ${names8[random8a]} and ${names8[random8b]}.`;
   let name4 = `The bartender is ${names9[random9]}, but still manages to welcome you with a ${names10[random10]}.`;
-
   const name5 = `It's as ${names11[random11]} inside as it is on the outside. ${names12[random12]} support the upper floor and the ${names13[random13]} attached to them. The walls are ${names14[random14]}.`;
-
   let name6 = `The tavern itself is packed. ${names15[random15]} seem to be the primary clientele here, which ${names16[random16]} Several long tables are occupied by${names17[random17]} The other, smaller tables are also occupied by people who ${names18[random18]} Even most of the stools at the bar are occupied, though nobody seems to mind more company.`;
-
   let name7 = `You did hear rumors about this tavern, supposedly it's famous for something, but you can't remember what for. Though judging by ${names19[random19]} You manage to find a seat and prepare for what will undoubtedbly be a great evening.`;
   if (type > 0.5) {
     name4 = `The bartender is ${names9[random9]} and makes no effort to acknowledge your pressence.`;
     name6 = `The tavern itself is almost completely abanonded.  The few people inside ${names15[random15]}, but whoever they are, ${names16[random16]}.`;
     name7 = `You did hear rumors about this tavern, supposedly it's infamous for something, but for the life of you you can't remember what for. Though juding by ${names19[random19]}.`;
   }
-
-
   let result = '';
   result += name;
   result += '\n';

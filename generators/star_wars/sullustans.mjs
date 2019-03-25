@@ -1,6 +1,5 @@
 export default function sullustans() {
   let rnd;
-
   let rnd2;
   let rnd3;
   let rnd4;
@@ -13,10 +12,7 @@ export default function sullustans() {
   let rnd10;
   let
     rnd11;
-
-
   let names;
-
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['', '', '', '', '', '', 'b', 'bl', 'br', 'c', 'd', 'dl', 'dw', 'f', 'fr', 'g', 'gr', 'h', 'j', 'k', 'kr', 'l', 'm', 'n', 'p', 'q', 'r', 's', 't', 'tr', 'v', 'w', 'x', 'z'];
   const nm2 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'au', 'eo', 'ie', 'uu', 'ea', 'ee', 'ia', 'ao', 'ue', 'ae', 'ay', 'y', 'ii', 'ei', 'iu', 'ui', 'oo', 'ua', 'yu'];
@@ -30,8 +26,6 @@ export default function sullustans() {
   const nm10 = ['a', 'e', 'i', 'o', 'u', 'y', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'y', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'y', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'y', 'a', 'e', 'i', 'o', 'u', 'ia', 'ie', 'ei', 'oo', 'ee', 'uu', 'aa', 'au', 'ya', 'ea', 'ii', 'iu', 'ua'];
   const nm11 = ['b', 'bb', 'bbb', 'd', 'g', 'gg', 'gn', 'hnt', 'j', 'kk', 'l', 'lk', 'll', 'm', 'mb', 'mbl', 'n', 'nd', 'ng', 'nr', 'ns', 'ntr', 'r', 'rb', 'rr', 'rt', 'rt', 's', 'sc', 'st', 'tt', 'v', 'vn', 'wn'];
   const nm12 = ['', '', '', '', '', '', '', '', '', '', '', '', '', '', 'b', 'bb', 'bbs', 'bl', 'c', 'cb', 'd', 'h', 'k', 'l', 'll', 'ls', 'm', 'mb', 'mm', 'mp', 'n', 'nb', 'nd', 'nn', 'nr', 'nt', 'p', 'pt', 'r', 'rb', 'rl', 'rr', 'rs', 'rss', 's', 'st', 't', 'th', 'v', 'vv', 'wn', 'z'];
-
-
   const i = Math.floor(Math.random() * 10);
   {
     rnd7 = Math.floor(Math.random() * nm9.length);

@@ -1,9 +1,5 @@
 export default function citys() {
-
-
     let rnd6, rnd7;
-
-
     const nm1 = ['along the banks of a mighty river', 'along the banks of modest rivers', 'along the banks of a gentle river', 'along the banks of a crystal clear river', 'along the banks of a labyrinth of rivers', 'atop the crowns of majestic hills', 'atop gentle hills', 'atop emerald hills of grass', 'atop quiet and serene hills', 'atop robust hills', 'at the base of a mighty mountain', 'in the shadow of an enormous mountain', 'on the sunny side of a gentle mountain', 'at the base of a rugged mountain', 'at the base of a modest mountain', 'in the center of a giant forest', 'in a large glade of a mighty forest', 'at the edge of a lush forest', 'at the edge of a dense, tall forest', 'among the towering trees of a huge forest', 'atop a breathtaking fjord', 'atop a towering fjord', 'atop the rugged walls of a fjord', 'atop the steep facade of a mighty fjord', 'atop the rocky heights of a fjord', 'amidst the green grasses of a gentle field', 'amidst the windy fields of gentle grasslands', 'amidst the swaying grasses of a windy meadow', 'amidst the dry grasses of a simple savanna', 'amidst the lush grasses of an evergreen pasture', 'amidst the ivory fields of snow', 'amidst the gentle snows of a pristine tundra', 'amidst the crisp snows of a silver taiga', 'amidst the frozen lands of a bitter expanse', 'amidst the bleak fields of snow', 'at the edge of a mighty swamp', 'in the center of an expansive swamp', 'at the borders of a murky swamp', 'amidst the murky waters of an enormous swamp', 'around the mushy waters of a traitorous swamp', 'at the base of a mighty volcano', 'in the shadow of a dormant volcano', 'at the base of a traitorous volcano', 'in the shadow of a rugged volcano', 'at the base of a potentially active volcano', 'on the banks of a large natural harbor', 'on the banks of a carefully crafted harbor', 'on the banks of a modest natural harbor', 'on the banks of a man-made harbor', 'on the banks of a delicate natural harbor', 'amidst the flora of a mighty jungle', 'at the edge of a lush jungle', 'at the center of a dangerous jungle', 'at the border of a traitorous jungle', 'at the center of a gorgeous jungle', 'at the center of a delicate island', 'amidst a large, rugged island', 'on a simple island', 'at the edge of an enormous island', 'at the center of a relatively small island', 'at the edge of a desert', 'amidst the sands of a mighty desert', 'around an oasis in the middle of a desert', 'in the middle of a scorching desert', 'in a seemingly endless desert'];
     const nm2 = ['Southport', 'Highfront', 'Shroudmoor', 'Freyport', 'Westborough', 'Dawnburgh', 'Oldwood', 'Stonewick', 'Freyford', 'Blackmere', 'Rosemore', 'Amberhill', 'Evermere', 'Sunhold', 'Ebonwick', 'Ravenside', 'Riverburn', 'Embercrest', 'Whiteburn', 'Oxglen', 'Madhollow', 'Ironford', 'Earthwall', 'Claybourne', 'Shimmergarde', 'Earthbury', 'Fayglen', 'Craghorn', 'Bellburn', 'Kilbrook'];
     const nm3 = ['a true modern', 'a modest', 'a historic', 'an evergrowing', 'an architectural', 'a technological', 'an extraordinary', 'a gorgeous', 'an ancient', 'a classic', 'a contemporary', 'a state-of-the-art', 'a fully modernized', 'a future oriented', 'a leading-edge'];
@@ -22,7 +18,6 @@ export default function citys() {
     const nm16 = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14'];
     const nm17 = ['restaurants', 'bars', 'clubs', 'coffeehouses', 'bistros', 'bakeries', 'concession stands', 'diners', 'food carts', 'take-outs', 'sandwich bars', 'cafés', 'ethnic restaurants', 'gastropubs', 'theme restaurants'];
     const nm18 = ['art galleries', 'one of the many parks', 'nature', 'the national park', 'sightseeing', 'libraries', 'water sports', 'adventure sports', 'sport activities', 'concerts', 'musical activities', 'musea', 'tours', 'city exploring', 'dance', 'theaters', 'arcades', 'clubs', 'an amusement park', 'aerobics', 'photography'];
-
     const rnd1 = Math.floor(Math.random() * nm1.length);
     const rnd2 = Math.floor(Math.random() * nm2.length);
     const rnd3 = Math.floor(Math.random() * nm3.length);
@@ -88,15 +83,10 @@ export default function citys() {
     while (rnd17 === rnd18c || rnd18b === rnd18c) {
         rnd18c = Math.floor(Math.random() * nm18.length);
     }
-
     const name = `The city of ${nm2[rnd2]} was built ${nm1[rnd1]} and is truly ${nm3[rnd3]} ${nm4[rnd4]}. Its ${nm5[rnd5]} is matched by the backdrop of ${nm6[rnd6]} which have helped shape the city to what it is today.`;
     const name2 = `The ${nm7[rnd7]} these ${nm8b} brought were of great importance, but they were also influential when it came to architectural designs as the vast majority of buildings ${nm8[rnd8]}.`;
-
     const name3 = `The skyline is ${nm8c[rnd8c]} with ${nm9[rnd9]} skyscrapers and ${nm10[rnd10]}. ${nm11[rnd11]} in ${nm2[rnd2]} and it has attracted a lot of attention. ${nm12[rnd12]} have left their mark not just on ${nm13[rnd13]}, but also upon the city's identity. What historically was a city of ${nm14[rnd14]} has grown into ${nm15[rnd15]} and it's this that unites the ${nm16[rnd16]} million people to this day.`;
-
     const name4 = `It's this multicultural identity that has truly left its mark. Hundreds of ${nm17[rnd17]}, ${nm17[rnd17b]} and ${nm17[rnd17c]} offer a plethora of culinary choices and those who feel hungry for something else can enjoy ${nm18[rnd18]}, ${nm18[rnd18b]}, ${nm18[rnd18c]} or one of the many other recreational venues.`;
-
-
     let result = '';
     result += name;
     result += '\n';

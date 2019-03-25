@@ -1,6 +1,5 @@
 export default function gerudos() {
   let rnd;
-
   let rnd2;
   let rnd3;
   let rnd4;
@@ -8,10 +7,7 @@ export default function gerudos() {
   let rnd6;
   let
     rnd7;
-
-
   let names;
-
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['B', 'C', 'D', 'G', 'H', 'K', 'M', 'R', 'T'];
   const nm2 = ['a', 'e', 'i', 'o', 'u'];
@@ -22,8 +18,6 @@ export default function gerudos() {
   const nm7 = ['v', 'm', 'k', 'b', 'r', 'f', 'g', 'l', 'n', 's', 't'];
   const nm8 = ['m', 'k', 'r', 'f', 'g', 'l', 'n', 's', 't'];
   const nm9 = ['a', 'e', 'i', 'o', 'u', '', '', '', ''];
-
-
   {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm5.length);

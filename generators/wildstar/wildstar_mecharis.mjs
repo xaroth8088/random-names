@@ -1,6 +1,5 @@
 export default function wildstar_mecharis() {
   let rnd;
-
   let rnd2;
   let rnd3;
   let rnd4;
@@ -8,10 +7,7 @@ export default function wildstar_mecharis() {
   let rnd6;
   let
     rnd7;
-
-
   let names;
-
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['', '', '', '', '', 'c', 'd', 'gl', 'h', 'l', 'm', 'p', 'pr', 'r', 's', 't', 'tr', 'v', 'z'];
   const nm2 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'y', 'y', 'io', 'au', 'ei'];
@@ -23,8 +19,6 @@ export default function wildstar_mecharis() {
   const nm8 = ['', '', '', '', '', 'c', 'h', 'n', 'l', 'll', 's', 'sh', 'th', 'x'];
   const nm9 = ['Alpha', 'Beta', 'Bi', 'Cen', 'Cent', 'Centi', 'Chi', 'Dec', 'Deca', 'Decem', 'Delta', 'Di', 'Dodeca', 'Du', 'Duo', 'Duodec', 'Ennea', 'Epsilon', 'Eta', 'Gamma', 'Hec', 'Hecato', 'Hect', 'Hep', 'Hept', 'Hepta', 'Hex', 'Hexa', 'Iota', 'Kappa', 'Kilo', 'Lambda', 'Milli', 'Mono', 'Mu', 'Non', 'Nove', 'Nu', 'Nulli', 'Oc', 'Oct', 'Octa', 'Octo', 'Ogdo', 'Omega', 'Penta', 'Phi', 'Pi', 'Psi', 'Quadri', 'Quadru', 'Rho', 'Sedec', 'Semi', 'Sep', 'Sept', 'Sigma', 'Tau', 'Tetra', 'Theta', 'Tri', 'Trio', 'Unci', 'Uni', 'Upsilon', 'Xi', 'Zeta'];
   const nm10 = ['bit', 'byt', 'coil', 'col', 'cue', 'cy', 'frag', 'gine', 'helix', 'hicle', 'jet', 'lap', 'lic', 'lit', 'lix', 'logy', 'loop', 'maton', 'mech', 'mic', 'mics', 'net', 'nic', 'nics', 'niq', 'nis', 'nism', 'nix', 'nogy', 'nox', 'pin', 'ping', 'pute', 'ram', 'rom', 'ron', 'ser', 'sor', 'tec', 'tic', 'tics', 'ton', 'tred', 'tric', 'tron', 'vex', 'vox', 'ware', 'xis', 'zip'];
-
-
   const i = Math.floor(Math.random() * 10);
   {
     rnd6 = Math.floor(Math.random() * nm9.length);

@@ -1,15 +1,11 @@
 export default function daedrics() {
   let rnd;
-
   let rnd2;
   let rnd3;
   let rnd4;
   let
     rnd5;
-
-
   let names;
-
   const nm1 = ['b', 'br', 'c', 'cr', 'ch', 'd', 'dr', 'g', 'gr', 'j', 'k', 'kr', 'kn', 'km', 'p', 'pr', 'q', 'qr', 'r', 'st', 'str', 't', 'tr', 'v', 'vr', 'w', 'wr', 'x', 'z', 'zr', '', '', '', '', ''];
   const nm2 = ['a', 'e', 'i', 'o', 'u', 'y', 'au', 'ou', 'ei', 'uy', 'oe', 'ua', 'ue', 'uo', 'a', 'e', 'i', 'o', 'u', 'y'];
   const nm3 = ['b', 'c', 'd', 'g', 'j', 'k', 'l', 'm', 'p', 'q', 'r', 's', 't', 'v', 'w', 'x', 'z', 'br', 'cr', 'dr', 'gr', 'kr', 'km', 'pr', 'qr', 'st', 'tr', 'xx', 'g', 'q\'', 'k\'', 'rr', 'r\'', 't\'', 'tt', 'vv', 'v\'', 'x\'', 'z\'', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', ''];
@@ -21,8 +17,6 @@ export default function daedrics() {
   const nm9 = ['a', 'e', 'i', 'o', 'u', 'y', '', '', '', '', '', ''];
   const nm10 = ['ag', 'ah', 'al', 'ala', 'alag', 'ath', 'bal', 'cath', 'cius', 'cus', 'dea', 'dia', 'hala', 'icus', 'ina', 'ine', 'ira', 'ite', 'lag', 'maeus', 'mina', 'nal', 'nes', 'oth', 'rath', 'roth', 'unes', 'ura', 'us', 'vus', 'yite'];
   const nm11 = ['Insomnia', 'Lunacy', 'Luna', 'Mania', 'Phobia', 'Luna', 'Solar', 'Dementia', 'Hysteria', 'Delirium', 'Pedigree', 'Bane', 'Anathema', 'Grace', 'Hope', 'Malison', 'Misery', 'Blight', 'Poison', 'Venom', 'Calamity', 'Malificent', 'Sinister', 'Grim', 'Gloom', 'Dire', 'Malign', 'Malefic', 'Joy', 'Nova', 'Misty', 'Dusk', 'Dawn', 'Twilight', 'Rogue', 'Ominous', 'Vile', 'Nefarious', 'Melancholy', 'Saturnine', 'Solemn', 'Glum', 'Austere', 'Morose', 'Surly', 'Brusque', 'Gruff', 'Demise', 'Necrosis', 'Silence', 'Enigma', 'Virulence', 'Spite', 'Malign', 'Storm', 'Serene', 'Harmony', 'Strife', 'Striker', 'Sloth', 'Drowsy', 'Supine', 'Laggard'];
-
-
   const i = Math.floor(Math.random() * 10);
   {
     if (i < 4) {

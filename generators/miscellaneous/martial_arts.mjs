@@ -1,6 +1,5 @@
 export default function martial_arts() {
   let rnd;
-
   let rnd2;
   let rnd3;
   let rnd4;
@@ -10,34 +9,26 @@ export default function martial_arts() {
   let rnd8;
   let
     rnd9;
-
-
   let names;
-
   const nm1 = ['', 'b', 'd', 'g', 'h', 'l', 'm', 'n', 'ng', 's', 't', 'w'];
   const nm2 = ['a', 'e', 'i', 'o', 'u', 'aa', 'ai', 'oa', 'oe'];
   const nm3 = ['b', 'gw', 'hn', 'hl', 'ht', 'l', 'mb', 'n', 'nt', 'nd', 'ng', 'ngw', 'r', 'rm', 's'];
-
   const nm4 = ['', '', 'b', 'br', 'c', 'cr', 'ch', 'd', 'g', 'gr', 'h', 'j', 'k', 'm', 'n', 'sh', 'st', 'v', 'w'];
   const nm5 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'oei', 'ou', 'ee', 'oo', 'ea', 'eo', 'ue', 'ua', 'ia'];
   const nm6 = ['c', 'ch', 'd', 'gr', 'j', 'k', 'l', 'm', 'mp', 'n', 'nch', 'nd', 'nz', 'nt', 'nk', 'p', 'q', 'st', 'r', 'rt', 't', 'v'];
   const nm7 = ['', '', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'oei', 'ou', 'ee', 'oo', 'ea', 'eo', 'ue', 'ua', 'ia'];
   const nm8 = ['', '', 'c', 'ch', 'd', 'gr', 'j', 'k', 'l', 'm', 'mp', 'n', 'nch', 'nd', 'nz', 'nt', 'nk', 'p', 'q', 'st', 'r', 'rt', 't', 'v'];
   const nm9 = [' ', '-'];
-
   const nm10 = ['b', 'd', 'f', 'h', 'k', 'khr', 's', 't', 'm', 'n', 'p', 'q', 'v'];
   const nm11 = ['a', 'e', 'i', 'o', 'u'];
   const nm12 = ['c', 'd', 'df', 'dh', 'fr', 'g', 'j', 'ht', 'k', 'kh', 'l', 'nh', 'm', 'p', 'r', 'rs', 'sw', 'sth', 'st', 'z'];
   const nm13 = ['', 'a', 'e', 'i', 'o', 'u'];
   const nm14 = ['', '', 'c', 'd', 'df', 'dh', 'fr', 'g', 'j', 'ht', 'k', 'kh', 'l', 'nh', 'm', 'p', 'r', 'rs', 'sw', 'sth', 'st', 'z'];
   const nm15 = ['', '', 'b', 'f', 'g', 'h', 'hr', 'hn', 'k', 'm', 'n', 'p', 'r', 'sh'];
-
   const nm16 = ['', '', '', '', 'b', 'ch', 'c', 'g', 'gw', 'gy', 'h', 'hw', 'j', 'k', 'kb', 'kr', 'ky', 'l', 'm', 'nh', 'ny', 'p', 'pr', 'sh', 's', 't', 'th', 'v', 'w', 'y'];
   const nm17 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'oi', 'ae', 'eo', 'ua', 'ai', 'ia', 'ei', 'oo', 'aa', 'ou', 'ee'];
   const nm18 = ['b', 'by', 'chk', 'ch', 'd', 'ddh', 'dh', 'hlw', 'hw', 'j', 'k', 'km', 'kn', 'kw', 'ky', 'l', 'lg', 'll', 'mb', 'md', 'mp', 'n', 'nb', 'nd', 'ng', 'ngd', 'nj', 'nk', 'nsh', 'nt', 'p', 'pk', 'pp', 'r', 'rn', 's', 'sh', 'st', 't', 'th', 'thw', 'tk', 'ts', 'tt', 'y'];
   const nm19 = ['', '', '', '', '', '', '', '', '', '', '', '', 'k', 'l', 'm', 'n', 'ng', 'r', 's', 't', 'w', 'y'];
-
-
   const i = Math.floor(Math.random() * 10);
   {
     if (i < 2) {

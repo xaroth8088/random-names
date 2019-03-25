@@ -1,6 +1,5 @@
 export default function falleens() {
   let rnd;
-
   let rnd2;
   let rnd3;
   let rnd4;
@@ -11,10 +10,7 @@ export default function falleens() {
   let
     rnd9;
   let rnd11;
-
-
   let names;
-
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['c', 'cz', 'h', 'j', 'k', 's', 't', 'th', 'tr', 'x', 'xz', 'z'];
   const nm2 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'uu', 'ee'];
@@ -26,8 +22,6 @@ export default function falleens() {
   const nm8 = ['br', 'b', 'd', 'dr', 'g', 'gr', 'k', 'kr', 'l', 'm', 's', 't', 'w', 'x', 'z'];
   const nm9 = ['d', 'dv', 'dr', 'f', 'g', 'gr', 'gn', 'l', 'll', 'm', 'mm', 'mr', 'ms', 'nr', 'nn', 'n', 'ns', 's', 'ss', 'st', 'sm', 'sn', 'sv', 'rr', 't', 'tr', 'thr', 'v', 'vr', 'z'];
   const nm10 = ['c', 'd', 'j', 'l', 'm', 'n', 'r', 'ss', 't', 'x'];
-
-
   const i = Math.floor(Math.random() * 10);
   {
     rnd6 = Math.floor(Math.random() * nm8.length);

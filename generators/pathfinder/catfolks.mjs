@@ -1,6 +1,5 @@
 export default function catfolks() {
   let rnd;
-
   let rnd2;
   let rnd3;
   let rnd4;
@@ -8,10 +7,7 @@ export default function catfolks() {
   let rnd6;
   let
     rnd7;
-
-
   let names;
-
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['br', 'c', 'cr', 'dr', 'f', 'g', 'gr', 'j', 'k', 'kr', 'm', 'n', 'p', 'pr', 'q', 'qr', 'r', 't', 'z'];
   const nm2 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'y', 'y', 'ou', 'au', 'ei'];
@@ -21,8 +17,6 @@ export default function catfolks() {
   const nm6 = ['a', 'e', 'i', 'o', 'u'];
   const nm7 = ['f', 'ff', 'l', 'ly', 'lh', 'ls', 'lr', 'lm', 'ln', 'm', 'my', 'mh', 'n', 'ny', 'nh', 'ph', 'phr', 'r', 'rr', 'ry', 'rh', 'sy', 'sh', 'sr', 'sl', 'th', 'ty', 'y'];
   const nm8 = ['', '', '', '', '', '', '', '', '', '', 'h', 's'];
-
-
   const i = Math.floor(Math.random() * 10);
   {
     if (type === 1) {

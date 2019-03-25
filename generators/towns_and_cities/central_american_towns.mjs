@@ -1,9 +1,6 @@
 export default function central_american_towns() {
   let rnd;
-
   let rnd2;
-
-
   let names;
   /* Belize */
   const nm1 = ['Are', 'Arme', 'Barra', 'Be', 'Bermu', 'Bis', 'Bisca', 'Bla', 'Bu', 'Bue', 'Burre', 'Ca', 'Cal', 'Calcu', 'Cale', 'Cama', 'Car', 'Carme', 'Caro', 'Con', 'Conce', 'Cora', 'Coro', 'Cri', 'Cris', 'Dou', 'Ga', 'Gar', 'Garde', 'Gui', 'Isa', 'Ja', 'Jaci', 'Jala', 'Jo', 'Jor', 'La', 'Lagu', 'Le', 'Lemo', 'Li', 'Libe', 'Ma', 'Mabi', 'Maf', 'Mafre', 'Mas', 'Me', 'Medi', 'Nue', 'On', 'Onta', 'Oto', 'Pa', 'Pal', 'Para', 'Parai', 'Pat', 'Patcha', 'Pla', 'Place', 'Po', 'Pomo', 'Pro', 'Ra', 'Ran', 'Sa', 'San', 'San An', 'San Anto', 'San Be', 'San Ca', 'San Car', 'San Este', 'San Feli', 'San Joa', 'Santa', 'Santa Cla', 'Santa Ele', 'Santa Fami', 'Santa Ro', 'Santa Te', 'Santa Tere', 'Sara', 'Sarte', 'Se', 'Sei', 'Sele', 'Tri', 'Trini', 'Xai', 'Ya', 'Yal', 'Ye', 'Yeme'];
@@ -26,8 +23,6 @@ export default function central_american_towns() {
   /* Panama */
   const nm13 = ['Achu', 'Agua', 'Aili', 'Ala', 'Alan', 'Alca', 'Almi', 'An', 'Arra', 'Arrai', 'Ase', 'Aser', 'Ata', 'Bar', 'Barra', 'Barran', 'Beju', 'Bo', 'Boque', 'Bu', 'Bue', 'Buga', 'Ca', 'Cab', 'Cai', 'Caimi', 'Cal', 'Calza', 'Cana', 'Cani', 'Cape', 'Capel', 'Capi', 'Car', 'Cati', 'Cer', 'Cha', 'Chan', 'Che', 'Chi', 'Chigo', 'Chigui', 'Chili', 'Chiri', 'Chu', 'Churu', 'Co', 'Coc', 'Di', 'Diva', 'Do', 'Dole', 'El Ca', 'El Co', 'El Cor', 'El Cri', 'El Eji', 'El Es', 'El Espi', 'El Gi', 'El Ri', 'El Rin', 'El Ro', 'El Si', 'En', 'Entra', 'Esco', 'Fi', 'Fin', 'Ga', 'Gara', 'Go', 'Gua', 'Guabi', 'Guada', 'Guala', 'Guaru', 'Ja', 'Ku', 'Kusa', 'La Ca', 'La Cho', 'La Co', 'La Con', 'La Es', 'La He', 'La Her', 'La Lo', 'La Me', 'La Mi', 'La Pa', 'La Pal', 'La Pe', 'La Pin', 'La Ti', 'La Vi', 'Las Cu', 'Las Lo', 'Las Pa', 'Las Pal', 'Las Ta', 'Li', 'Los Al', 'Los An', 'Los Bo', 'Los Lo', 'Los San', 'Ma', 'Maca', 'Me', 'Mete', 'Mo', 'Mon', 'Mu', 'Mula', 'Na', 'Nar', 'Nue', 'Pa', 'Paco', 'Pal', 'Palmi', 'Pari', 'Pe', 'Peda', 'Pedre', 'Pla', 'Po', 'Pro', 'Pue', 'Pun', 'Que', 'Sa', 'Saba', 'Sio', 'So', 'Sor', 'Ti', 'Tije', 'To', 'Tocu', 'Tono', 'Tu', 'Tubua', 'Ve', 'Vera', 'Vo', 'Vol', 'Ya', 'Yavi'];
   const nm14 = ['bal', 'bima', 'bito', 'can', 'cas', 'cia', 'cio', 'cion', 'co', 'con', 'cora', 'cumen', 'dasi', 'dero', 'dido', 'dilla', 'dulce', 'dura', 'gaba', 'gal', 'gana', 'gandi', 'gore', 'gui', 'guiri', 'jan', 'je', 'juco', 'la', 'laca', 'lania', 'las', 'laya', 'le', 'lega', 'libre', 'linas', 'lon', 'lupe', 'ma', 'mas', 'me', 'men', 'mira', 'mito', 'na', 'nama', 'nazas', 'nita', 'nitas', 'no', 'nola', 'nome', 'nosi', 'pino', 'pira', 'po', 'que', 'queron', 'quete', 'quita', 'racas', 'rada', 'raiso', 'ral', 'ranco', 'rante', 'ranza', 'rare', 'ras', 're', 'regal', 'reno', 'rera', 'rio', 'riqui', 'rita', 'ritas', 'robos', 'ron', 'rones', 'rumal', 'sa', 'sapin', 'se', 'si', 'ta', 'tas', 'teno', 'tezo', 'tijo', 'tillo', 'tiva', 'to', 'ton', 'tos', 'tova', 'tun', 'tupo', 'va', 'vala', 'viza', 'vo', 'zada', 'zas'];
-
-
   i = Math.floor(Math.random() * 14);
   {
     if (i < 2) {

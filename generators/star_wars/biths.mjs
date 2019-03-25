@@ -1,6 +1,5 @@
 export default function biths() {
   let rnd;
-
   let rnd2;
   let rnd3;
   let rnd4;
@@ -13,10 +12,7 @@ export default function biths() {
   let rnd10;
   let
     rnd11;
-
-
   let names;
-
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['d', 'd\'r', 'f', 'f\'t', 'g', 'g\'h', 'h', 'j', 'k', 'ph', 'ph\'t', 'r', 'th'];
   const nm2 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'oo', 'eu', 'ia', 'aa'];
@@ -30,8 +26,6 @@ export default function biths() {
   const nm10 = ['b', 'd', 'dh', 'g', 'gr', 'h', 'l', 'lr', 'lm', 'm', 'mn', 'md', 'mm', 'n', 'nn', 'nr', 'nd', 'nt', 'r', 'rt', 'rl', 'rd', 's', 'sh', 'th', 'v', 'z'];
   const nm11 = ['', '', '', '', 'l', 'm', 'n', 'r', 'rn', 's', 'ss'];
   const nm12 = ['', '', '', '', '', 'a', 'e', 'i', 'o', 'u'];
-
-
   const i = Math.floor(Math.random() * 10);
   {
     rnd6 = Math.floor(Math.random() * nm8.length);

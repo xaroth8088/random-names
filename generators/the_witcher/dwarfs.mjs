@@ -1,6 +1,5 @@
 export default function dwarfs() {
   let rnd;
-
   let rnd2;
   let rnd3;
   let rnd4;
@@ -16,10 +15,7 @@ export default function dwarfs() {
   let rnd13;
   let
     rnd14;
-
-
   let names;
-
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['', '', '', '', '', 'b', 'bl', 'br', 'c', 'cr', 'd', 'dh', 'f', 'fl', 'g', 'gr', 'j', 'k', 'kr', 'l', 'm', 'p', 'r', 'rh', 'shr', 'sk', 'sh', 'th', 't', 'v', 'w', 'x', 'y', 'z', 'zh'];
   const nm2 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'ie', 'au', 'ia', 'ei', 'ou'];
@@ -40,8 +36,6 @@ export default function dwarfs() {
   const nm19 = ['', 'c', 'cc', 'ck', 'cr', 'dn', 'g', 'gg', 'gl', 'gn', 'gr', 'hl', 'hlb', 'hln', 'hn', 'l', 'ld', 'lm', 'ln', 'lr', 'n', 'nd', 'ngv', 'nl', 'nm', 'nr', 'r', 'rd', 'rg', 'rl', 'rn', 'rt', 's', 'sr', 'ssl', 'st', 'tt', 'v', 'zd'];
   const nm20 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'au', 'ei', 'ia', 'ea', 'ai'];
   const nm21 = ['', '', '', '', '', 'ck', 'ggs', 'gs', 'l', 'ld', 'ls', 'lt', 'm', 'n', 'r', 'rd', 'rg', 's', 'ss', 'st', 't', 'y', 'ys'];
-
-
   const i = Math.floor(Math.random() * 10);
   {
     rnd8 = Math.floor(Math.random() * nm15.length);

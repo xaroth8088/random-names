@@ -1,11 +1,7 @@
 export default function southeast_asian_towns() {
   let rnd;
-
   let rnd2;
-
-
   let names;
-
   const nm1 = ['Am', 'Ba', 'Ban', 'Bat', 'Battam', 'Cheo', 'Dam', 'Kam', 'Khma', 'Khmao', 'Khmau', 'Khu', 'Ko', 'Kou', 'Kra', 'Mo', 'Mong', 'Mou', 'Nea', 'Ou', 'Pha', 'Phanom', 'Phno', 'Po', 'Poi', 'Pre', 'Prea', 'Pur', 'Rôm', 'Ro', 'Sam', 'Sen', 'Si', 'Sie', 'Siha', 'Siso', 'Sku', 'Stu', 'Suo', 'Sva', 'Ta', 'Tbou', 'Thma', 'Tu', 'Tue'];
   const nm2 = ['bang', 'bel', 'beng', 'chey', 'dong', 'kéo', 'kol', 'kuon', 'lean', 'leang', 'len', 'leung', 'lung', 'luos', 'méas', 'mao', 'mar', 'mau', 'monorom', 'mum', 'nom', 'nomsok', 'norom', 'penh', 'pet', 'phon', 'phos', 'pong', 'pot', 'puok', 'ráng', 'ran', 'raong', 'reah', 'reng', 'rey', 'rieng', 'rom', 'sat', 'sei', 'sok', 'tam', 'tambang', 'tié', 'vay'];
   /* Indonesia */
@@ -26,8 +22,6 @@ export default function southeast_asian_towns() {
   /* Vietnam */
   const nm13 = ['Ðà', 'Ðông', 'Ðien', 'Ðong', 'Bà', 'Bac', 'Bao', 'Ben', 'Bien', 'Buôn', 'Buôn Ma', 'Cà', 'Cam', 'Cao', 'Châu', 'Hà', 'Hòa', 'Ha', 'Hai', 'Hoi', 'Hue', 'Hung', 'Kon', 'Lào', 'Lang', 'Long', 'Móng', 'My', 'Nam', 'Nha', 'Ninh', 'Phan', 'Phan Rang', 'Phu', 'Quang', 'Quy', 'Rach', 'Sóc', 'Sa', 'Son', 'Tân', 'Tam', 'Thái', 'Thanh', 'Trà', 'Tuyên', 'Tuy', 'Uông', 'Vinh', 'Vung', 'Yên'];
   const nm14 = ['Ðec', 'Ðinh', 'Ðoc', 'An', 'Bái', 'Bình', 'Bí', 'Bang', 'Binh', 'Cái', 'Cai', 'Chàm', 'Duong', 'Giá', 'Giang', 'Hà', 'Hòa', 'Hóa', 'Hoi', 'Ky', 'Lãnh', 'Lý', 'La', 'Lat', 'Liêu', 'Loc', 'Long', 'Mau', 'Ngãi', 'Nguyên', 'Nhon', 'Ninh', 'Pha', 'Phu', 'Quang', 'Ranh', 'Ria', 'Son', 'Tàu', 'Thiet', 'Tho', 'Thuot', 'Tinh', 'Trì', 'Trang', 'Tre', 'Tum', 'Xuyên', 'Yên'];
-
-
   i = Math.floor(Math.random() * 14);
   {
     if (i < 2) {

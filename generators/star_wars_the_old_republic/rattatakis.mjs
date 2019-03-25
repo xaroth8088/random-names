@@ -6,10 +6,7 @@ export default function rattatakis() {
   let rnd7;
   let
     rnd8;
-
-
   let names;
-
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['a', 'e', 'i', 'o', 'u', 'ai', 'au', 'ei', 'ou', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', ''];
   const nm2 = ['b', 'br', 'bz', 'bj', 'c', 'cz', 'ch', 'd', 'dj', 'dz', 'g', 'gr', 'h', 'j', 'k', 'kz', 'kr', 'p', 'pr', 'pj', 'pz', 'q', 'r', 'sj', 'st', 'sr', 't', 'ts', 'tr', 'v', 'wr', 'x', 'xj', 'xr', 'yj', 'yr', 'ys', 'yz', 'z', 'zr'];
@@ -19,8 +16,6 @@ export default function rattatakis() {
   const nm6 = ['a', 'e', 'i', 'o', 'u', 'ai', 'au', 'ei', 'ou', 'ay', 'ey', 'oy', '', '', '', '', '', '', '', '', '', '', '', ''];
   const nm7 = ['b', 'br', 'bj', 'c', 'cz', 'ch', 'd', 'dj', 'dz', 'g', 'h', 'j', 'k', 'kz', 'l', 'm', 'n', 'p', 'pr', 'pj', 'q', 'r', 's', 'sj', 'st', 'sr', 't', 'ts', 'tr', 'v', 'w', 'wr', 'x', 'xj', 'xr', 'y', 'yj', 'yr', 'ys', 'yz', 'z', 'zr'];
   const nm8 = ['i', 'a', 'o', 'e', 'u', 'ie', 'ai', 'ey', 'ay'];
-
-
   {
     rnd3 = Math.floor(Math.random() * nm3.length);
     rnd4 = Math.floor(Math.random() * nm4.length);

@@ -1,15 +1,11 @@
 export default function fairys() {
   let rnd;
-
   let rnd2;
   let rnd3;
   let rnd4;
   let
     rnd5;
-
-
   let names;
-
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['B', 'C', 'D', 'F', 'G', 'H', 'K', 'L', 'M', 'N', 'P', 'R', 'S', 'T', 'V', 'W', 'Z'];
   const nm2 = ['ea', 'ae', 'ai', 'ao', 'aa', 'au', 'ei', 'ee', 'ia', 'ie', 'io', 'oo', 'oa'];
@@ -18,8 +14,6 @@ export default function fairys() {
   const nm5 = ['w', 'r', 't', 'l', 'k', 'h', 'g', 'f', 'd', 's', 'm', 'n', 'v', 'c'];
   const nm6 = ['a', 'e', 'i', 'o', 'u'];
   const nm7 = ['', '', '', '', '', '', 't', 'h', 's', 'l', 'n', 'm'];
-
-
   {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm1.length);

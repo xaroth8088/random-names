@@ -1,6 +1,5 @@
 export default function aasimars() {
   let rnd;
-
   let rnd2;
   let rnd3;
   let rnd4;
@@ -16,10 +15,7 @@ export default function aasimars() {
   let rnd15;
   let
     rnd16;
-
-
   let names;
-
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['', '', '', '', '', 'b', 'c', 'cr', 'd', 'gr', 'k', 'kr', 'l', 'm', 'n', 'p', 's', 't', 'w', 'z'];
   const nm2 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'y', 'ai', 'au', 'ie', 'ia', 'ea'];
@@ -33,8 +29,6 @@ export default function aasimars() {
   const nm10 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'y'];
   const nm11 = ['b', 'd', 'g', 'gr', 'h', 'k', 'kr', 'km', 'l', 'll', 'lr', 'ls', 'lg', 'ldr', 'lm', 'lw', 'm', 'mr', 'ml', 'n', 'nm', 'ng', 'nv', 'nk', 'p', 'pr', 'r', 'rl', 'rg', 'rv', 'rw', 's', 'v', 'z'];
   const nm12 = ['', '', '', 'l', 'm', 'n', 'r'];
-
-
   const i = Math.floor(Math.random() * 10);
   {
     rnd10 = Math.floor(Math.random() * nm9.length);

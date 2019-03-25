@@ -1,6 +1,5 @@
 export default function dark_elfs() {
   let rnd;
-
   let rnd2;
   let rnd3;
   let rnd4;
@@ -8,10 +7,7 @@ export default function dark_elfs() {
   let rnd6;
   let
     rnd7;
-
-
   let names;
-
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['c', 'd', 'g', 'k', 'l', 'm', 'n', 'q', 'r', 't', 'v'];
   const nm2 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'ou', 'au'];
@@ -23,8 +19,6 @@ export default function dark_elfs() {
   const nm8 = ['h', 'n', 'l', 'sh', 's', 'th', '', '', '', '', ''];
   const nm9 = ['amber', 'ash', 'battle', 'blood', 'cinder', 'dark', 'dawn', 'dead', 'death', 'doom', 'dread', 'dusk', 'dust', 'ember', 'fall', 'fallen', 'fell', 'fire', 'flame', 'gloom', 'grim', 'haze', 'hell', 'nether', 'night', 'pyre', 'rage', 'rain', 'shade', 'shadow', 'silent', 'skull', 'steel', 'storm', 'thunder', 'void', 'war', 'wild'];
   const nm10 = ['arm', 'arrow', 'axe', 'bane', 'basher', 'binder', 'blade', 'blaze', 'bleeder', 'blight', 'breaker', 'bringer', 'caller', 'cleaver', 'crusher', 'cutter', 'eye', 'eyes', 'fall', 'fury', 'grip', 'hand', 'heart', 'hunter', 'mantle', 'maul', 'might', 'more', 'reaper', 'reaver', 'rider', 'ripper', 'runner', 'scar', 'seeker', 'shade', 'shadow', 'shard', 'slayer', 'sorrow', 'stalker', 'stride', 'strike', 'striker', 'surge', 'taker'];
-
-
   const i = Math.floor(Math.random() * 10);
   {
     rnd = Math.floor(Math.random() * nm9.length);

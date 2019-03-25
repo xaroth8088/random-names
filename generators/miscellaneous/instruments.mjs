@@ -1,6 +1,5 @@
 export default function instruments() {
   let rnd;
-
   let rnd2;
   let rnd3;
   let rnd4;
@@ -8,10 +7,7 @@ export default function instruments() {
   let rnd6;
   let
     rnd7;
-
-
   let names;
-
   const names1 = ['a', 'e', 'i', 'o', 'u', '', '', '', '', '', '', '', '', '', ''];
   const names2 = ['b', 'c', 'd', 'f', 'g', 'h', 'j', 'k', 'l', 'm', 'n', 'p', 'q', 'r', 's', 't', 'v', 'w', 'x', 'y', 'z', 'br', 'cr', 'gr', 'pr', 'tr', 'ch', 'bl', 'cl', 'fl', 'gl', 'kl', 'pl', 'sl', 'vl', 'st', 'str'];
   const names3 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'ia', 'ie', 'io', 'ai', 'ea', 'ei', 'eo'];
@@ -21,8 +17,6 @@ export default function instruments() {
   const names7 = ['a', 'e', 'i', 'o', 'u', 'ia', 'io', 'ea', 'ei', 'eo'];
   const names8 = [' Accordion', ' Bass', ' Bow', ' Clarinet', ' Drum', ' Drums', ' Flute', ' Guitar', ' Harmonica', ' Horn', ' Organ', ' Pipe', ' Saxophone', ' Trombone', ' Trumpet', ' Tuba', ' Violin', ' Whistle', 'horn', 'phone', 'pipe', 'horn', 'phone', 'phone', 'phone', 'phone', 'pipe'];
   const names9 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'ia', 'io', 'ai', 'ea', 'eo', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', ''];
-
-
   const i = Math.floor(Math.random() * 10);
   {
     if (i < 3) {

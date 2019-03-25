@@ -1,15 +1,11 @@
 export default function korok_kokiris() {
   let rnd;
-
   let rnd2;
   let rnd3;
   let rnd4;
   let
     rnd5;
-
-
   let names;
-
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['', '', '', '', 'b', 'd', 'br', 'dr', 'gr', 'g', 'h', 'k', 'l', 'm', 'r', 'tr', 't'];
   const nm2 = ['a', 'e', 'i', 'o', 'u'];
@@ -19,8 +15,6 @@ export default function korok_kokiris() {
   const nm6 = ['b', 'd', 'f', 'g', 'h', 'l', 'k', 'm', 'n', 'p', 'r', 's', 't', 'v', 'w', 'z'];
   const nm7 = ['c', 'd', 'f', 'g', 'h', 'k', 'l', 'm', 'n', 'ph', 'r', 's', 't', 'th', 'w', 'z'];
   const nm8 = ['a', 'e', 'i', 'o', 'u', 'ai', 'ae', 'ea', 'ei', 'eo', 'ia', 'io', 'iu', 'ie', 'oa', 'oe', 'oi', 'ou', 'ua', 'ue', 'uo', 'ui'];
-
-
   const i = Math.floor(Math.random() * 10);
   {
     if (type === 1) {

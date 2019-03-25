@@ -1,16 +1,12 @@
 export default function silurians() {
   let rnd;
-
   let rnd2;
   let rnd3;
   let rnd4;
   let rnd5;
   let
     rnd6;
-
-
   let names;
-
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['', 'd', 'h', 'k', 'l', 'm', 'r', 't'];
   const nm2 = ['o', 'e', 'a', 'i'];
@@ -21,8 +17,6 @@ export default function silurians() {
   const nm7 = ['o', 'e', 'a'];
   const nm8 = ['d', 'dr', 'hr', 'hl', 'hn', 'lr', 'ln', 'n', 'lm', 'ln', 'ml', 'mn', 'l', 'r', 'rl', 'rk', 'sk', 'sl', 'sn', 'sm', 'st', 'str', 'y'];
   const nm9 = ['', '', '', '', '', '', '', 'h', 'c', 'l', 'n', 'm', 's'];
-
-
   {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm6.length);

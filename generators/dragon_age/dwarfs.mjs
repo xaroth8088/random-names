@@ -4,10 +4,7 @@ export default function dwarfs() {
   let rnd2;
   let
     rnd3;
-
-
   let names;
-
   const type = Math.random() > 0.5 ? 0 : 1;
   const namesFemale = ['A', 'Ba', 'Bra', 'Co', 'Da', 'Fa', 'Fari', 'Fe', 'Feri', 'Fi', 'Ha', 'Hana', 'He', 'Ja', 'Je', 'Ka', 'Kala', 'Ke', 'Kela', 'Le', 'Li', 'Ma', 'Me', 'Mi', 'Mya', 'Na', 'Nara', 'Nera', 'Ole', 'Oli', 'Re', 'Ri', 'Se', 'Si', 'Ta', 'Te', 'Za', 'Ze'];
   const namesFemale2 = ['ca', 'cha', 'da', 'dal', 'den', 'dy', 'gna', 'grun', 'ha', 'han', 'ja', 'ka', 'la', 'lah', 'li', 'linda', 'linden', 'lsi', 'na', 'nda', 'nden', 'nka', 'nna', 'pith', 'ra', 'rav', 'rdy', 'rev', 'rinda', 'rinden', 'rra', 'rta', 'run', 'rvia', 'ryn', 'rynn', 'scha', 'shan', 'si', 'ta', 'tha', 'tyth', 'via', 'zda'];
@@ -15,8 +12,6 @@ export default function dwarfs() {
   const namesFamily = ['bor', 'dahn', 'dal', 'del', 'delor', 'derel', 'dlin', 'dol', 'don', 'drik', 'drin', 'g', 'gal', 'gan', 'gar', 'gek', 'gin', 'gor', 'grand', 'grin', 'ka', 'kas', 'ke', 'kel', 'kias', 'kin', 'lan', 'lanz', 'len', 'lid', 'lin', 'linar', 'mar', 'maro', 'merin', 'mor', 'n', 'nak', 'nar', 'nek', 'niv', 'nus', 'raht', 'ral', 'ram', 'rand', 'rav', 'rd', 'rel', 'ren', 'ric', 'rick', 'rik', 'rim', 'rin', 'ris', 'rkel', 'rkin', 'rol', 'ron', 'rtag', 'ryn', 'rys', 'sch', 'seck', 'shen', 'so', 'son', 'tag', 'tan', 'tek', 'thur', 'thy', 'tigan', 'tin', 'trak', 'trand', 'varis', 'vez', 'vhen', 'vil', 'vin', 'wan', 'wer', 'weryn', 'zyl'];
   const names3 = ['A', 'Ae', 'Al', 'Ar', 'Ara', 'Be', 'Ber', 'Bra', 'Bro', 'Ca', 'Cada', 'Car', 'Cari', 'Da', 'Do', 'Du', 'Dur', 'E', 'Eto', 'Fe', 'Fer', 'Fera', 'Fo', 'For', 'Fore', 'Ga', 'Gal', 'Gar', 'Ghe', 'Gher', 'Gla', 'Go', 'Gor', 'Goro', 'Ha', 'Har', 'He', 'Hel', 'Hi', 'Hir', 'I', 'Ka', 'Kana', 'Kla', 'Klar', 'Ko', 'Me', 'Mei', 'Mer', 'O', 'Or', 'Ra', 'Rae', 'Ro', 'Rou', 'Ru', 'Rumo', 'Sa', 'Sae', 'Te', 'Tho', 'Ti', 'To', 'Tor', 'Tu', 'Tur', 'U', 'Ul', 'Va', 'Var', 'Vo', 'We', 'Wey', 'Yo', 'Zy'];
   const names4 = ['ban', 'ca', 'can', 'das', 'dash', 'den', 'dens', 'der', 'dic', 'din', 'dra', 'drat', 'ducan', 'ka', 'lac', 'lar', 'lban', 'lmas', 'lmi', 'lney', 'lon', 'lra', 'lro', 'mas', 'mi', 'mold', 'mot', 'mote', 'munt', 'nak', 'narek', 'ney', 'nka', 'no', 'noch', 'ntop', 'ra', 'ral', 'rald', 'ran', 'rana', 'ras', 'rat', 'rek', 'ren', 'ret', 'ridin', 'rin', 'ro', 'rol', 'row', 'sca', 'sten', 'tack', 'tan', 'ten', 'top', 'ver', 'vis', 'vish', 'vo', 'vonak', 'vorn'];
-
-
   {
     if (type === 1) {
       rnd0 = Math.floor(Math.random() * namesFemale.length);

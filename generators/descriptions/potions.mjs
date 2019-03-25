@@ -18,7 +18,6 @@ export default function potions() {
   const nm17 = ['Pour everything through a fine sieve to remove any clumps', 'Pour the mixture through a very fine sieve to remove impurities', 'Pour everything through a broad sieve. It\'s pointless, but looks cool,', 'Stir everything a final time to thoroughly mix everything', 'Stir the mixture a final time, if it sticks you know it\'s right', 'Stir everything one last time to make sure what you made is in fact a potion', 'Whisk the mixture heavily to aerate it. Stop when it\'s frothy', 'Whisk everything with a knife until you realize you look like a fool', 'Whisk the mixture gently to break up any potential clumps', 'Remove the impurities floating at the surface with a spoon', 'Remove the impurities at the surface and banish them to oblivion', 'Remove the solidified impurities floating at the surface', 'Take a small sip to test your potion. If your potion has a bad effect and you still took a sip you might as well drink everything', 'Take a small sip to test your potion. Make sure you have an antidote ready, if you don\'t then, well, good luck'];
   const nm18 = ['Only a small sip will be needed for the potion to take effect, store leftovers in a cold place', 'Only a droplet is needed for the potion to take effect. If you made a lot you can store leftovers in oblivion', 'Only a small sip is needed for the potion to be effective, but it tastes really good so a big sip is more fun', 'Only a droplet is needed for the potion to work. Store leftovers in a dark, cold place. Like your heart', 'A good gulp is needed for the potion to work. Restraints may be needed to feed it to your victim, I mean sacrifice. No I did mean victim', 'A good gulp is needed for potion to be effective, but it tastes awful so maybe mix it with some honey', 'A good amount is needed for the potion to take effect, a bad amount would be bad', 'A good amount is needed for the potion to work, so make sure you use enough, but not too much', 'Only a droplet is needed for the potion to work. That\'s right, this potion is super potent, almost omnipotent. Almost', 'Only a small sip is needed for the potion to be effective, but when you use it on bugs it\'s not very effective', 'A lot is needed for the potion to take effect, if you didn\'t make enough go back to step 1', 'A lot is needed for the potion to work, like \'a lot\' a lot. Like you need to practically bathe in it \'a lot\'', 'A lot is needed for the potion to be effective. It\'s not very potent. We should probably have used different ingredients', 'A few sips is all that\'s needed for the potion to work. A few gulps will work too, but a few slurps will be too little and not very classy', 'Only a small amount is needed for the potion to work. If your target is small a puny amount will do. If your target is puny, a potion isn\'t really needed', 'Only a small amount is needed for the potion to work. Perhaps turn it into ice cubes for a \'special\' party', 'A small, but very cold amount is needed for the potion to be effective. Mixing it in a milkshake could work, but be warry of brain freeze', 'One droplet is enough for the potion to work. Two droplets would be overkill. Three droplets would be, well, why would anybody dare use three droplets', 'Three droplets is all it takes for the potion to work. Three shall be the number of droplets, the number of droplets shall be three. Four shall not be the number of droplets, nor two', 'A lot is needed for the potion to work. About a bucket will do. If the potion is meant to kill or incapacitate something, you might as well throw the bucket itself'];
   const nm19 = ['Several Snapes', 'Ano N. Ymous', 'Ariane', 'Babidibi', 'Chef-Queen Elzar', 'Dr.', 'Dr. Bunsen Honeydew, Tested on Beaker', 'Dr. Disaster (Name\'s a coincidence, I promise)', 'Dr. Jekyll', 'Dr. Pepper', 'Dr. Stranger', 'Gul\'Dan', 'Kel\'Thuzad', 'Merelin', 'Millhouse Manastorm', 'Miss Daisy Oopsey', 'Morrigan', 'Neloth', 'Nemo', 'Professor Farnsworth', 'Professor Wernstrom', 'Randal Flag', 'The Brain', 'The Greying Wizard', 'The Quarterblood Prince', 'The White Witcher', 'Tim the Enchanter', 'Van Helsing', 'Victor Frankenstein', 'Walter Heisenberg', 'Wilter Whate', 'Wolly Winka'];
-
   const rnd1 = Math.floor(Math.random() * nm1.length);
   const rnd2 = Math.floor(Math.random() * nm2.length);
   const rnd3a = Math.floor(Math.random() * nm3.length);
@@ -74,22 +73,17 @@ export default function potions() {
   const rnd17 = Math.floor(Math.random() * nm17.length);
   const rnd18 = Math.floor(Math.random() * nm18.length);
   const rnd19 = Math.floor(Math.random() * nm19.length);
-
   const name = `To brew a${nm1[rnd1]} potion, gather the following ingredients and ${nm2[rnd2]}.`;
   const name2 = `- ${nm3[rnd3a]} of ${nm4[rnd4a]} ${nm5[rnd5a]}`;
   const name3 = `- ${nm3[rnd3b]} of ${nm4[rnd4b]} ${nm5[rnd5b]}`;
   const name4 = `- ${nm3[rnd3c]} of ${nm4[rnd4c]} ${nm5[rnd5c]}`;
   const name5 = `- ${nm3[rnd3d]} of ${nm4[rnd4d]} ${nm5[rnd5d]}`;
   const name6 = `- ${nm3[rnd3e]} of ${nm4[rnd4e]} ${nm5[rnd5e]}`;
-
   const name7 = `${nm6[rnd6]} the ${nm4[rnd4a]} ${nm5[rnd5a]} ${nm7[rnd7]}. Add ${nm8[rnd8]} to turn it into ${nm9[rnd9]}, then add the ${nm4[rnd4b]} ${nm5[rnd5b]}${nm10[rnd10]}.`;
   const name8 = `Fill a pan with ${nm11[rnd11]}, add the mixture and ${nm12[rnd12]}. Let it ${nm13[rnd13]} before adding the ${nm4[rnd4c]} ${nm5[rnd5c]} and ${nm4[rnd4d]} ${nm5[rnd5d]}, ${nm14[rnd14]}.`;
   const name9 = `${nm15[rnd15]}, mix in the ${nm4[rnd4e]} ${nm5[rnd5e]} and let everything ${nm16[rnd16]}.`;
-
   const name10 = `${nm17[rnd17]}. Your potion is ready to be used. ${nm18[rnd18]}.`;
-
   const name11 = `Recipe by ${nm19[rnd19]}.`;
-
   let result = '';
   result += name;
   result += '\n';

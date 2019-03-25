@@ -1,16 +1,12 @@
 export default function currencys() {
   let rnd;
-
   let rnd2;
   let rnd3;
   let rnd4;
   let rnd5;
   let
     rnd6;
-
-
   let names;
-
   const nm1 = ['b', 'br', 'bl', 'c', 'cl', 'cr', 'd', 'dr', 'f', 'fr', 'fl', 'g', 'gr', 'gl', 'gn', 'h', 'j', 'k', 'kr', 'kl', 'kn', 'm', 'n', 'p', 'pr', 'pl', 'q', 'qr', 'ql', 'r', 's', 'st', 'sr', 'str', 'sl', 't', 'tr', 'tl', 'v', 'vl', 'vr', 'w', 'wr', 'x', 'z', '', '', '', '', ''];
   const nm2 = ['a', 'e', 'i', 'o', 'u', 'y'];
   const nm3 = ['b', 'c', 'd', 'f', 'g', 'h', 'j', 'k', 'l', 'm', 'n', 'p', 'q', 'r', 's', 't', 'v', 'w', 'x', 'z', '', '', '', '', '', ''];
@@ -21,8 +17,6 @@ export default function currencys() {
   const nm8 = ['Alliance', 'Allied', 'Ancestral', 'Astral', 'Black', 'Blood', 'Bloodbound', 'Blue', 'Castle', 'Celestial', 'Chrono', 'Coalition', 'Commonwealth', 'Confederate', 'Constellation', 'Crescent', 'Crimson', 'Crown', 'Division', 'Dominion', 'Dragon', 'Dwarven', 'Earth', 'Earthian', 'Electric', 'Elemental', 'Elvish', 'Emperor', 'Empire', 'Ethereal', 'Federal', 'Forest', 'Free World', 'Freedom', 'Galactic', 'Ghost', 'Glory', 'Gnomish', 'Gothic', 'Honor', 'Intergalactic', 'Interstellar', 'King\'s', 'Lion', 'Lionheart', 'Lunar', 'Mountain', 'Mystic', 'New', 'New Earth', 'New Order', 'Nova', 'Obsidian', 'Ocean', 'Orcish', 'Phantom', 'Phoenix', 'Presidential', 'Raven', 'Republic', 'River', 'Royal', 'Sanguine', 'Sea', 'Seafarer', 'Serpent', 'Solar', 'Sovereign', 'Space', 'Spectral', 'Supremacy', 'Syndicate', 'Trade Federation', 'Trader\'s', 'Tribe', 'Union', 'Utopian', 'Virtual', 'Volcanic', 'White', 'World League\'s', 'World Union'];
   const nm9 = ['Cash', 'Chips', 'Coins', 'Coins', 'Copper', 'Copper', 'Credits', 'Credits', 'Dime', 'Dime', 'Dollars', 'Doubloons', 'Gold', 'Gold', 'Pennies', 'Pieces', 'Silver', 'Silver', 'Tender', 'Tokens'];
   const nm10 = ['Abazi', 'Apsar', 'Aureus', 'Austral', 'Balboa', 'Birr', 'Cedi', 'Dalasi', 'Daler', 'Daric', 'Denarius', 'Dinar', 'Dobra', 'Dollar', 'Drachma', 'Dram', 'Ducat', 'Ekwele', 'Elymais', 'Escudo', 'Euro', 'Florin', 'Follis', 'Franc', 'Gourde', 'Guarani', 'Guilder', 'Hekte', 'Hwan', 'Inti', 'Keping', 'Kina', 'Koruna', 'Krone', 'Kuna', 'Kwacha', 'Kwanza', 'Kyat', 'Lari', 'Lempira', 'Leone', 'Leu', 'Lev', 'Lilangeni', 'Lira', 'Litas', 'Loti', 'Manat', 'Mark', 'Metica', 'Mon', 'Nakfa', 'Pataca', 'Peseta', 'Peso', 'Pound', 'Prutah', 'Pula', 'Qirsh', 'Quetzal', 'Rand', 'Real', 'Rial', 'Riel', 'Ringgit', 'Riyal', 'Ruble', 'Rufiyaa', 'Rupee', 'Rupiah', 'Shekel', 'Sheqel', 'Shilling', 'Sigloi', 'Sol', 'Solidus', 'Som', 'Somoni', 'Stater', 'Syli', 'Tael', 'Taka', 'Talent', 'Tenge', 'Tolar', 'Tremissis', 'Trite', 'Vatu', 'Won', 'Xu', 'Yen', 'Yuan', 'Zaire', 'Zuz'];
-
-
   const i = Math.floor(Math.random() * 10);
   {
     if (i < 4) {

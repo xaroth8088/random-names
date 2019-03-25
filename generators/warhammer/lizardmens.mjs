@@ -1,6 +1,5 @@
 export default function lizardmens() {
   let rnd;
-
   let rnd2;
   let rnd3;
   let rnd4;
@@ -9,18 +8,13 @@ export default function lizardmens() {
   let rnd7;
   let
     rnd8;
-
-
   let names;
-
   const nm = ['c', 'cr', 'ch', 'g', 'h', 'kr', 'm', 'n', 'q', 'qr', 't', 'tl', 'x', 'xlt', 'y', 'z'];
   const nm1 = ['', '', '', '', '', 'c', 'cr', 'ch', 'g', 'h', 'kr', 'm', 'n', 'q', 'qr', 't', 'tl', 'x', 'xlt', 'y', 'z'];
   const nm2 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'oa', 'aui', 'a\'u', 'o\'e', 'o\'a', 'u\'a', 'a\'e', 'e\'a'];
   const nm3 = ['c', 'cc', 'ch', 'cht', 'chtl', 'cn', 'ct', 'ctl', 'd', 'h', 'hc', 'hg', 'hp', 'ht', 'htl', 'htz', 'k', 'kt', 'l', 'lch', 'lh', 'll', 'lm', 'ln', 'lp', 'lt', 'lx', 'm', 'n', 'nd', 'nh', 'nq', 'nt', 'ntl', 'p', 'q', 'r', 'szc', 't', 'tl', 'tt', 'tz', 'tzc', 'tzp', 'tzt', 'x', 'xc', 'xch', 'xt', 'xtl', 'xy', 'y', 'z', 'zc', 'zd', 'zq', 'ztl'];
   const nm4 = ['', '', '', 'c', 'ch', 'cl', 'k', 'l', 'n', 'p', 'r', 'tl', 'x'];
   const nm5 = ['c', 'ch', 'cl', 'k', 'l', 'n', 'p', 'r', 'tl', 'x'];
-
-
   const i = Math.floor(Math.random() * 10);
   {
     rnd = Math.floor(Math.random() * nm1.length);

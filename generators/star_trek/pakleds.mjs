@@ -1,6 +1,5 @@
 export default function pakleds() {
   let rnd;
-
   let rnd2;
   let rnd3;
   let rnd4;
@@ -10,18 +9,13 @@ export default function pakleds() {
   let rnd8;
   let
     rnd9;
-
-
   let names;
-
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['B', 'D', 'G', 'H', 'K', 'L', 'N', 'M', 'P', 'R'];
   const nm2 = ['a', 'e', 'o', 'i', 'u'];
   const nm3 = ['b', 'd', 'g', 'h', 'k', 'l', 'n', 'm', 'p', 'r'];
   const nm4 = ['b', 'd', 'g', 'h', 'k', 'l', 'n', 'm', 'p', 'r', '', ''];
   const nm5 = ['b', 'd', 'g', 'k', 'l', 'm', 'p', 'r', 'gg', 'kk', 'll', 'rr'];
-
-
   {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm1.length);

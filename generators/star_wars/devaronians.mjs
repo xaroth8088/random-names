@@ -1,6 +1,5 @@
 export default function devaronians() {
   let rnd;
-
   let rnd2;
   let rnd3;
   let rnd4;
@@ -11,10 +10,7 @@ export default function devaronians() {
   let
     rnd9;
   let rnd10;
-
-
   let names;
-
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['c', 'cr', 'ch', 'g', 'gr', 'h', 'j', 'k', 'l', 'm', 'n', 'r', 's', 't', 'tr', 'v', 'vr', 'z'];
   const nm2 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'au', 'ue', 'ao', 'ei', 'aa'];
@@ -26,8 +22,6 @@ export default function devaronians() {
   const nm8 = ['br', 'c', 'ch', 'dr', 'd\'r', 'd\'v', 'dh', 'g', 'gr', 'g\'v', 'h', 'j', 'm', 'n\'v', 'n', 'r', 't', 't\'v', 't\'r', 'v'];
   const nm9 = ['d', 'dd', 'gr', 'gn', 'k', 'kr', 'kl', 'l', 'lg', 'ln', 'll', 'lr', 'm', 'mm', 'mr', 'mn', 'n', 'nn', 'nd', 'nh', 'r', 'rh', 'rg', 's', 'sn', 'ss', 'x', 'v', 'z'];
   const nm10 = ['c', 'ct', 'g', 'hrk', 'hk', 'k', 'kt', 'l', 'n', 'ndt', 'nd', 'nt', 'q', 'r', 'rt', 'rk', 's', 'sk', 'st', 'v', 'w', 'z'];
-
-
   const i = Math.floor(Math.random() * 10);
   {
     rnd6 = Math.floor(Math.random() * nm8.length);

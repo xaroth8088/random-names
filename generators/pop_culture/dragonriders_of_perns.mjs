@@ -1,6 +1,5 @@
 export default function dragonriders_of_perns() {
   let rnd;
-
   let rnd2;
   let rnd3;
   let rnd4;
@@ -8,10 +7,7 @@ export default function dragonriders_of_perns() {
   let rnd6;
   let
     rnd7;
-
-
   let names;
-
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['', '', '', '', 'b', 'c', 'f', 'g', 'gr', 'h', 'j', 'k', 'l', 'm', 'n', 'p', 'r', 's', 'sh', 't', 'v', 'w', 'z'];
   const nm2 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'y', 'y', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'ea', 'ee', 'au', 'ai', 'ie', 'ea', 'io'];
@@ -28,8 +24,6 @@ export default function dragonriders_of_perns() {
   const nm13 = ['b', 'br', 'ch', 'f', 'g', 'h', 'k', 'l', 'm', 'n', 'p', 'pr', 'r', 's', 't', 'w', 'z'];
   const nm14 = ['a', 'e', 'i', 'o', 'u'];
   const nm15 = ['d', 'd', 'l', 'l', 'l', 'l', 'll', 'lm', 'ln', 'ls', 'm', 'm', 'n', 'n', 'nl', 'nr', 'nm', 'r', 'r', 'r', 'rl', 'r', 's', 's', 'yl', 'yr', 'yn'];
-
-
   const i = Math.floor(Math.random() * 10);
   {
     rnd2 = Math.floor(Math.random() * nm3.length);

@@ -1,6 +1,5 @@
 export default function dragons() {
   let rnd;
-
   let rnd2;
   let rnd3;
   let rnd4;
@@ -8,22 +7,16 @@ export default function dragons() {
   let rnd6;
   let
     rnd7;
-
-
   let names;
-
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['', '', '', '', 'b', 'c', 'd', 'f', 'g', 'gl', 'gr', 'k', 'l', 'n', 'r', 's', 'sr', 'shr', 't', 'th', 'v'];
   const nm2 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'ae', 'io', 'ui', 'ua', 'au'];
   const nm3 = ['b', 'd', 'g', 'k', 'ln', 'l', 'lg', 'lm', 'm', 'md', 'n', 'nd', 'r', 'rm', 'rn'];
   const nm4 = ['c', 'd', 'dr', 'gr', 'k', 'kr', 'lfr', 'ldr', 'm', 'n', 'ngr', 'r', 'rn', 'th'];
-
   const nm5 = ['', '', '', '', 'c', 'd', 'f', 'gl', 'h', 'j', 'l', 'm', 'n', 'ph', 'r', 'sh', 's', 'th', 'v'];
   const nm6 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'ae', 'io', 'ei', 'ea', 'au'];
   const nm7 = ['d', 'g', 'l', 'lm', 'ln', 'm', 'mn', 'n', 'nv', 'ph', 'r', 'rn', 'rv', 'th', 'v'];
   const nm8 = ['', '', '', '', '', '', '', '', '', '', '', 'h', 'l', 'n', 's', 'sh', 'th'];
-
-
   const i = Math.floor(Math.random() * 10);
   {
     if (type === 1) {

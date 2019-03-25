@@ -1,6 +1,5 @@
 export default function nautolans() {
   let rnd;
-
   let rnd2;
   let rnd3;
   let rnd4;
@@ -15,10 +14,7 @@ export default function nautolans() {
   let rnd12;
   let
     rnd13;
-
-
   let names;
-
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['', '', '', '', '', 'b', 'br', 'c', 'd', 'f', 'h', 'j', 'k', 'kh', 'kn', 'l', 'm', 'n', 'p', 'r', 'rh', 'rr', 's', 'sh', 'shr', 't', 'v', 'w', 'y', 'z'];
   const nm2 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'oo', 'ey', 'ei', 'ea', 'ee', 'aa'];
@@ -32,8 +28,6 @@ export default function nautolans() {
   const nm10 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'oa', 'ai', 'ia', 'ii', 'ie', 'ee', 'oo'];
   const nm11 = ['ch', 'chm', 'd', 'dd', 'dr', 'dj', 'g', 'gg', 'gr', 'gd', 'gn', 'j', 'k', 'kt', 'kk', 'l', 'm', 'mm', 'md', 'mp', 'n', 'nd', 'nn', 'ng', 'nr', 'nt', 'r', 'rr', 'rd', 'rg', 'rj', 'rt', 'rv', 'st', 't', 'tr', 'wch', 'z'];
   const nm12 = ['', '', '', '', '', '', '', 'c', 'd', 'g', 'k', 'l', 'll', 'm', 'mt', 'n', 'ng', 'nd', 'nt', 'r', 'rk', 'rr', 's', 'ss', 't', 'ts', 'z', 'zz'];
-
-
   const i = Math.floor(Math.random() * 10);
   {
     rnd7 = Math.floor(Math.random() * nm9.length);

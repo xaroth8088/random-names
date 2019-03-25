@@ -1,6 +1,5 @@
 export default function anzatis() {
   let rnd;
-
   let rnd2;
   let rnd3;
   let rnd4;
@@ -11,10 +10,7 @@ export default function anzatis() {
   let
     rnd9;
   let rnd10;
-
-
   let names;
-
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['', '', '', 'b', 'd', 'g', 'h', 'k', 'm', 'n', 'r', 's', 'v', 'z'];
   const nm2 = ['a', 'e', 'i', 'o', 'u'];
@@ -26,8 +22,6 @@ export default function anzatis() {
   const nm8 = ['b', 'd', 'g', 'h', 'j', 'k', 'l', 'm', 'n', 'r', 's', 't', 'v', 'y', 'z'];
   const nm9 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'ou', 'ei', 'ea', 'ia'];
   const nm10 = ['ct', 'cn', 'cm', 'gr', 'kk', 'kr', 'kt', 'll', 'lg', 'lf', 'ld', 'lr', 'lkk', 'k', 'mm', 'mr', 'md', 'nn', 'nr', 'nd', 'nt', 'nn', 'r', 'rr', 'rt', 'rkk', 'sh', 'st', 'sn', 'sm', 'th', 'sh', 'tt', 'tr', 'zz'];
-
-
   {
     rnd6 = Math.floor(Math.random() * nm8.length);
     rnd7 = Math.floor(Math.random() * nm9.length);

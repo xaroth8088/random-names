@@ -1,6 +1,5 @@
 export default function miqotes() {
   let rnd;
-
   let rnd2;
   let rnd3;
   let rnd4;
@@ -20,10 +19,7 @@ export default function miqotes() {
   let rnd18;
   let
     rnd19;
-
-
   let names;
-
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['A\'', 'B\'', 'C\'', 'D\'', 'E\'', 'F\'', 'G\'', 'H\'', 'I\'', 'J\'', 'K\'', 'L\'', 'M\'', 'N\'', 'O\'', 'P\'', 'Q\'', 'R\'', 'S\'', 'T\'', 'U\'', 'V\'', 'W\'', 'X\'', 'Y\'', 'Z\''];
   const nm2 = ['b', 'c', 'd', 'f', 'g', 'j', 'k', 'l', 'm', 'n', 'p', 'q', 'r', 's', 't', 'v', 'w', 'x', 'y', 'z'];
@@ -36,8 +32,6 @@ export default function miqotes() {
   const nm9 = ['', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', 'b', 'c', 'd', 'f', 'g', 'j', 'k', 'l', 'm', 'n', 'p', 'q', 'r', 's', 't', 'v', 'w', 'x', 'y', 'z'];
   const nm10 = ['', 'a', 'e', 'o', 'i', 'u'];
   const nm11 = ['\'a', '\'to', '\'li', '\'sae', '\'ra', '\'ir', '\'wo', '\'ya', '\'zi', '\'tan'];
-
-
   const i = Math.floor(Math.random() * 10);
   {
     if (type === 1) {

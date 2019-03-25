@@ -1,6 +1,5 @@
 export default function tieflings() {
   let rnd;
-
   let rnd2;
   let rnd3;
   let rnd4;
@@ -16,10 +15,7 @@ export default function tieflings() {
   let rnd13;
   let
     rnd14;
-
-
   let names;
-
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['', '', '', '', '', 'b', 'cr', 'd', 'g', 'h', 'k', 'kr', 'm', 'r', 's', 'sh', 't', 'v', 'y', 'z'];
   const nm2 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'y', 'ia', 'io'];
@@ -33,8 +29,6 @@ export default function tieflings() {
   const nm10 = ['a', 'e', 'i', 'o', 'a', 'e', 'i', 'o', 'a', 'e', 'i', 'o', 'a', 'e', 'i', 'o', 'a', 'e', 'i', 'o', 'a', 'e', 'i', 'o', 'a', 'a', 'e', 'e', 'i', 'aa', 'ae', 'ia', 'ea'];
   const nm11 = ['b', 'br', 'c', 'd', 'dr', 'fr', 'g', 'gg', 'gr', 'gv', 'k', 'l', 'll', 'lr', 'lv', 'ldr', 'm', 'mm', 'mr', 'mdr', 'n', 'nd', 'ng', 'ndr', 'nst', 'nv', 'nr', 'r', 'rh', 'rv', 'rr', 'rz', 'rd', 'rdr', 's', 'ss', 'sr', 'sh', 'st', 't', 'tr', 'v', 'vr', 'b', 'c', 'd', 'g', 'k', 'l', 'm', 'n', 'r', 's', 't', 'v'];
   const nm12 = ['', '', '', '', '', '', '', '', '', '', 'd', 'ld', 'lt', 'm', 'n', 'nd', 'r', 'rd', 's', 't', 'th'];
-
-
   const i = Math.floor(Math.random() * 10);
   {
     rnd8 = Math.floor(Math.random() * nm9.length);

@@ -1,6 +1,5 @@
 export default function jemhadars() {
   let rnd;
-
   let rnd2;
   let rnd3;
   let rnd4;
@@ -14,22 +13,16 @@ export default function jemhadars() {
   let rnd11;
   let
     rnd12;
-
-
   let names;
-
   const nm1 = ['a', 'i', 'o', '', '', ''];
   const nm2 = ['d', 'g', 'k', 'l', 'm', 'n', 'r', 's', 't', 'v', 'y', 'z'];
   const nm3 = ['a', 'u', 'o', 'i', 'e', 'a'];
   const nm4 = ['d', 'g', 'k', 'l', 'm', 'n', 'r', 's', 't', 'z'];
   const nm5 = ['', '', 'd', 'g', 'k', 'n', 't'];
   const nm6 = ['a', '', '', '', ''];
-
   const nm7 = ['i', 'a', 'e', 'o', 'u', 'a', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', ''];
   const nm8 = ['d', 'g', 'k', 'l', 'm', 'n', 'r', 's', 't', 'v', 'x', 'y', 'z', 'kl', 'cl'];
   const nm9 = ['i', 'a', 'e', 'o', 'u', 'a', '', '', '', '', '', '', '', ''];
-
-
   const i = Math.floor(Math.random() * 10);
   {
     if (i < 5) {

@@ -1,6 +1,5 @@
 export default function warriors_of_chaos() {
   let rnd;
-
   let rnd2;
   let rnd3;
   let rnd4;
@@ -8,10 +7,7 @@ export default function warriors_of_chaos() {
   let rnd6;
   let
     rnd7;
-
-
   let names;
-
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['', '', '', 'b', 'bl', 'br', 'd', 'dr', 'dj', 'f', 'fr', 'g', 'gr', 'gh', 'k', 'kh', 'kr', 'm', 'r', 's', 'sc', 'sr', 'sk', 'sz', 'str', 't', 'tr', 'v', 'w'];
   const nm2 = ['a', 'e', 'i', 'o', 'u', 'y', 'a', 'e', 'i', 'o', 'u', 'y', 'a', 'e', 'i', 'o', 'u', 'y', 'ao', 'au', 'oa', 'ay'];
@@ -23,8 +19,6 @@ export default function warriors_of_chaos() {
   const nm8 = ['amber', 'battle', 'bitter', 'black', 'blaze', 'blazing', 'blood', 'burn', 'burning', 'chaos', 'cinder', 'daemon', 'dark', 'dead', 'death', 'demon', 'doom', 'ember', 'fiery', 'fire', 'flame', 'fuse', 'gloom', 'haze', 'hell', 'moon', 'nether', 'night', 'pyre', 'rage', 'rot', 'shade', 'shadow', 'silent', 'storm', 'sun', 'thunder', 'twice', 'void', 'wild', 'wraith', 'wrath'];
   const nm9 = ['bane', 'bash', 'blaze', 'blight', 'bone', 'born', 'bound', 'breath', 'buster', 'chaser', 'cleaver', 'eater', 'fall', 'fang', 'fire', 'flame', 'flare', 'flaw', 'force', 'forge', 'forged', 'fury', 'gaze', 'guard', 'gut', 'hand', 'heart', 'lash', 'mark', 'marked', 'might', 'more', 'mourn', 'rage', 'reaper', 'reaver', 'scar', 'scream', 'seeker', 'shade', 'shadow', 'shard', 'spawn', 'spawned', 'spew', 'spit', 'strength', 'stride', 'sunder', 'surge', 'sworn', 'wrath'];
   const nm10 = ['Abandoned', 'Aggressor', 'Anguished', 'Beast', 'Befouled', 'Behemoth', 'Berserker', 'Bewitched', 'Blood Bathed', 'Blood Soaked', 'Bloodied', 'Bloody', 'Bone Crusher', 'Corrupted Mind', 'Corruption Lord', 'Corruptor', 'Crooked Smile', 'Cunning', 'Cunning Mind', 'Curseling', 'Dark Lord', 'Dark Master', 'Dark Night', 'Dead Mind', 'Defiled', 'Dread Lord', 'Eternal', 'Everchosen', 'Explosive', 'Faithless', 'Forsaken', 'Fury', 'Gory', 'Grave Digger', 'Grave Robber', 'Grim Reaper', 'Grotesque', 'Hollow', 'Hound', 'Ill Tempered', 'Impure', 'Insane', 'Irrational', 'Jester', 'Leechlord', 'Lone Wolf', 'Lost Mind', 'Magnificent', 'Mammoth', 'Maneater', 'Manslayer', 'Menace', 'Merciless', 'Mutant', 'Necromancer', 'Nightmare', 'Nomad', 'Parasite', 'Pollutor', 'Rash', 'Roamer', 'Rotten', 'Rotting', 'Sanguine', 'Sanguine Lord', 'Serpent', 'Serpent Tongue', 'Shadow Dweller', 'Sinner', 'Skeptic', 'Skinner', 'Slaughterer', 'Soothsayer', 'Suneater', 'Transient', 'Unstable', 'Vagrant', 'Vengeful', 'Volatile', 'Wanderer', 'Warmonger', 'Wicked', 'Wrathful', 'Wreckage', 'Wretched'];
-
-
   const i = Math.floor(Math.random() * 10);
   {
     if (i % 3 === 0) {

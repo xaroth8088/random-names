@@ -1,13 +1,9 @@
 export default function dinosaurs() {
   let rnd;
-
   let rnd2;
   let
     rnd3;
-
-
   let names;
-
   const nm1 = [
     [
       ['Nigri'],
@@ -994,8 +990,6 @@ export default function dinosaurs() {
       ['Hunter'],
     ],
   ];
-
-
   const i = Math.floor(Math.random() * 10);
   {
     if (i < 5) {

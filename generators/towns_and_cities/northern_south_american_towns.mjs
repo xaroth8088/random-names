@@ -1,9 +1,6 @@
 export default function northern_south_american_towns() {
   let rnd;
-
   let rnd2;
-
-
   let names;
   /* Colombia */
   const nm1 = ['Aca', 'Agua', 'Agu', 'Anda', 'Anse', 'Anser', 'Apa', 'Apar', 'Ara', 'Araca', 'Arau', 'Ari', 'Aya', 'Ba', 'Bara', 'Bar', 'Barra', 'Barran', 'Bela', 'Bo', 'Bogo', 'Buca', 'Buena', 'Bu', 'Cucu', 'Cai', 'Cúcu', 'Ca', 'Cahi', 'Cala', 'Cal', 'Can', 'Cande', 'Care', 'Carta', 'Cau', 'Cauca', 'Ce', 'Cere', 'Cha', 'Chapa', 'Chi', 'Chigo', 'Cié', 'Ciéna', 'Chiqui', 'Coro', 'Curu', 'Dui', 'El Ba', 'El Ca', 'El Car', 'El Ce', 'El Cer', 'El Cha', 'El Char', 'Envi', 'Espi', 'Fa', 'Faca', 'Fla', 'Flan', 'Flo', 'Fon', 'Fre', 'Fres', 'Fu', 'Fun', 'Fusa', 'Gala', 'Gar', 'Gi', 'Gira', 'Gra', 'Grana', 'Gua', 'Hon', 'Iba', 'Ipia', 'Ita', 'Ja', 'Jamu', 'Léri', 'Lé', 'La Ce', 'La Do', 'La Dira', 'La Me', 'La Pla', 'Leti', 'Lori', 'Mála', 'Maga', 'Mai', 'Mala', 'Malam', 'Mani', 'Mari', 'Mede', 'Medel', 'Mel', 'Mo', 'Mom', 'Mora', 'Mos', 'Muni', 'Nei', 'Oca', 'Pal', 'Pam', 'Pa', 'Perei', 'Piede', 'Pita', 'Pivi', 'Popa', 'Pra', 'Qui', 'Quim', 'Rio', 'Rol', 'Sa', 'Saba', 'Saha', 'Sala', 'Sam', 'Sego', 'Sevi', 'Siba', 'Sin', 'Soa', 'Soco', 'Soga', 'Sole', 'Son', 'Túque', 'Tierra', 'To', 'Tuma', 'Tun', 'Tur', 'Uba', 'Yaru', 'Yopa', 'Yum', 'Zara', 'Zar', 'Zipa'];
@@ -23,8 +20,6 @@ export default function northern_south_american_towns() {
   /* Venezuela */
   const nm11 = ['Aca', 'Acari', 'Alta', 'Ana', 'Arau', 'Bar', 'Barce', 'Bari', 'Barqui', 'Baru', 'Ca', 'Cabi', 'Cala', 'Can', 'Cantau', 'Carú', 'Cara', 'Caraba', 'Caro', 'Carri', 'Cau', 'Cauca', 'Cha', 'Chara', 'Chi', 'Chichi', 'Ciu', 'Civa', 'Co', 'Cuma', 'Eji', 'El Ca', 'El Dia', 'El Ha', 'El Lim', 'El Ti', 'El To', 'El Tocu', 'El Vi', 'Güi', 'Gua', 'Guaca', 'Guana', 'Guare', 'Guas', 'Guati', 'Lagu', 'Mé', 'Méri', 'Mai', 'Maique', 'Mara', 'Maria', 'Matu', 'Mo', 'Mucu', 'Mucum', 'Ni', 'Ocu', 'Peta', 'Por', 'Porla', 'Quí', 'Ru', 'Tá', 'Tári', 'Ta', 'Taca', 'Tacari', 'Ti', 'Tina', 'Tuca', 'Tucu', 'Tur', 'Upa', 'Vale', 'Valen', 'Yari', 'Zara'];
   const nm12 = ['bio', 'bor', 'bozo', 'caibo', 'cao', 'cara', 'cas', 'cay', 'che', 'cia', 'co', 'coa', 'cuyo', 'do', 'güe', 'güito', 'gua', 'guita', 'jillo', 'lamar', 'lava', 'leda', 'lera', 'lito', 'lo', 'lona', 'maná', 'mare', 'mas', 'mero', 'meto', 'na', 'naco', 'nare', 'nas', 'nitas', 'pano', 'pita', 'piz', 'ques', 'quillo', 'rín', 'rón', 'ra', 'racas', 'racay', 'raure', 'raza', 're', 'renas', 'ria', 'riara', 'riba', 'rida', 'rigua', 'rinas', 'rio', 'rita', 'rizal', 'rojos', 'ruta', 'simeto', 'ta', 'tagua', 'tal', 'tare', 'tas', 'taura', 'tia', 'tillo', 'tire', 'toria', 'var', 'viche', 'yana', 'za'];
-
-
   i = Math.floor(Math.random() * 12);
   {
     if (i < 2) {

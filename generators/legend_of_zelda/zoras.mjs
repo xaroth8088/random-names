@@ -1,6 +1,5 @@
 export default function zoras() {
   let rnd;
-
   let rnd2;
   let rnd3;
   let rnd4;
@@ -8,22 +7,16 @@ export default function zoras() {
   let rnd6;
   let
     rnd7;
-
-
   let names;
-
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['', '', '', '', '', 'h', 'j', 'k', 'm', 'n', 'p', 't', 'v', 'z'];
   const nm2 = ['a', 'i', 'o', 'e'];
   const nm3 = ['j', 'k', 'l', 'p', 'r', 't', 'v'];
   const nm4 = ['', '', '', '', '', 'm', 'n', 's', 'r'];
-
   const nm5 = ['', '', '', '', 'l', 'n', 'r', 'm', 'h', 'f'];
   const nm6 = ['a', 'u', 'o', 'e'];
   const nm7 = ['r', 't', 'l', 'n', 'r', 't', 'l', 'ph', 'v', 'm'];
   const nm8 = ['', '', '', '', '', '', 'n', 'h'];
-
-
   const i = Math.floor(Math.random() * 10);
   {
     if (type === 1) {

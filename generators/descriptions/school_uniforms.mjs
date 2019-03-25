@@ -3,7 +3,6 @@ export default function school_uniforms() {
   const nm2 = ['Dacron', 'cotton', 'nylon', 'polycotton', 'polyester', 'cotton', 'nylon'];
   const nm3 = ['down to about their calves and thus reveal', 'down to just above', 'down to just under their knees, clearly revealing', 'down to just above their ankles and reveal', 'all the way down and partially cover', 'down to well below their knees and clearly reveal'];
   const nm3s = ['loafers', 'single strap shoes', 'double strap shoes', 'triple strap shoes', 'sporty loafers', 'lace-up shoes', 'slip-in shoes', 'Chelsea boots'];
-
   const nm5 = ['almond', 'amber', 'apricot', 'aquamarine', 'auburn', 'azure', 'baby blue', 'beige', 'black', 'bronze', 'brown', 'burgundy', 'cardinal', 'cerulean', 'cobalt', 'crimson', 'denim', 'forest green', 'ginger', 'indigo', 'jade', 'jasmine', 'jasper', 'khaki', 'lavender', 'lilac', 'mahogany', 'maroon', 'navy', 'ochre', 'onyx', 'orchid', 'peach', 'rosewood', 'russet', 'scarlet', 'sepia', 'sienna', 'sinopia', 'tangerine', 'tawny', 'teal', 'vanilla', 'vermilion', 'viridian', 'wheat'];
   const nm6 = ['long', 'short', 'regular'];
   const nm7 = ['and a simple belt ', 'and a thick belt ', ' and a regular belt ', '', ''];
@@ -23,12 +22,10 @@ export default function school_uniforms() {
   const nm19 = ['school-colored', 'all sorts of', 'varied', 'matching', 'uniform matching', 'various', 'distinct', 'individual', 'separate', 'corresponding'];
   const nm20 = ['mostly as a form of self expression', 'in some cases purely to be somewhat rebellious', 'often as a way to show their school spirit', 'often because this is the only part of their clothing they have any say over', 'sometimes somewhat as an act of defiance', 'in some cases simply to make a statement', 'often to create a new style within the standard uniform', 'usually to identify themselves as being part of a specific group', 'usually to bring some form of their own identity into the standard uniform', 'mostly because many think the standard uniform\'s too dull', 'many do it to add a personal touch to the otherwise identical uniform', 'some do it simply to avoid being confused for somebody else', 'it\'s an easy way to express themselves at least a little', 'for some it\'s a means to stand out from the crowd', 'often it\'s done through forms of group expression'];
   const nm21 = ['are emblazoned with the school logo', 'have a line around all edges in the school color', 'have two lines around all edges in the school color', 'are adorned with a small school logo', 'have buttons with the school symbol on them', 'have the school symbol on the breast pockets', 'have colored lines around the sleeves', 'have been left plain and undecorated', 'have a line in the school color at the bottom', 'have school colored accents on all edges'];
-
   const rnd1 = Math.floor(Math.random() * nm1.length);
   const rnd2 = Math.floor(Math.random() * nm2.length);
   const rnd3 = Math.floor(Math.random() * nm3.length);
   const rnd3s = Math.floor(Math.random() * nm3s.length);
-
   const rnd5 = Math.floor(Math.random() * nm5.length);
   const rnd5b = Math.floor(Math.random() * nm5.length);
   const rnd6 = Math.floor(Math.random() * nm6.length);
@@ -55,18 +52,12 @@ export default function school_uniforms() {
   const rnd19 = Math.floor(Math.random() * nm19.length);
   const rnd20 = Math.floor(Math.random() * nm20.length);
   const rnd21 = Math.floor(Math.random() * nm21.length);
-
   const name = `The boys in this school wear ${nm1[rnd1]}, ${nm2[rnd2]} trousers that reach ${nm3[rnd3]} their ${nm3s[rnd3s]}, all of which are colored ${nm5[rnd5]}.`;
   const name2 = ` They're paired with ${nm6[rnd6]}, ${nm14[rnd14]} socks ${nm7[rnd7]}colored ${nm5[rnd5b]}.`;
-
   const name3 = `${nm8[rnd8]} ${nm8b[rnd8b]} shirt is ${nm9[rnd9]} their trousers and covered with a ${nm10[rnd10]} jacket. A ${nm11[rnd11]} tie ${nm12[rnd12]} the middle of their ${nm13[rnd13]} jacket and is ${nm14[rnd14b]} in ${nm5[rnd5]} and ${nm5[rnd5b]}.`;
-
   const name4 = `The girls wear ${nm15[rnd15]} skirts in ${nm5[rnd5]} and they ${nm16[rnd16]}. They're paired with ${nm17[rnd17]} socks and ${nm16s[rnd16s]} colored in ${nm5[rnd5b]} and ${nm5[rnd5]} respectively.`;
   const name5 = `Like the boys the girls wear ${nm8b[rnd8b]} shirts, which are usually ${nm9[rnd9b]} their skirts and are covered with a ${nm10[rnd10b]} jacket. They too wear a tie that ${nm12[rnd12b]} the middle of their often ${nm13[rnd13b]} jackets and is ${nm14[rnd14c]} in the same colors.`;
-
   const name6 = `All jackets ${nm21[rnd21]} and, ${nm18[rnd18]}, many students wear ${nm19[rnd19]} accessoires, ${nm20[rnd20]}.`;
-
-
   let result = '';
   result += name;
   result += name2;

@@ -1,16 +1,12 @@
 export default function avatar_last_airbenders() {
   let rnd;
-
   let rnd2;
   let rnd3;
   let rnd4;
   let rnd5;
   let
     rnd6;
-
-
   let names;
-
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['g', 'h', 'l', 'm', 'n', 'gy', 'p', 'r', 's', 't'];
   const nm2 = ['a', 'e', 'i', 'o'];
@@ -19,7 +15,6 @@ export default function avatar_last_airbenders() {
   const nm5 = ['', 'h', 'l', 'n', 'm', 'p', 'r', 's', 'y'];
   const nm6 = ['h', 'l', 'm', 'ng', 'n', 'sh', 'r', 'rr'];
   const nm7 = ['', '', 'hn', 'h', 'n'];
-
   const nm8 = ['h', 'r', 's', 't', 'v', 'z'];
   const nm9 = ['a', 'i', 'o'];
   const nm10 = ['cc', 'dd', 'kk', 'lr', 'sr', 'nr', 'rr', 'vr'];
@@ -27,7 +22,6 @@ export default function avatar_last_airbenders() {
   const nm12 = ['h', 'k', 'r', 't', 'v', 'y', 'z'];
   const nm13 = ['a', 'i', 'o'];
   const nm14 = ['h', 'k', 'l', 'll', 'm', 'n', 'nn', 'r', 'rr', 's', 't'];
-
   const nm15 = ['ch', 'b', 'f', 'g', 'h', 'l', 'm', 'p', 'r', 'sh', 'x'];
   const nm16 = ['ao', 'uo', 'aa', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u'];
   const nm17 = ['h', 'l', 'm', 'n', 'sh', 't'];
@@ -36,15 +30,12 @@ export default function avatar_last_airbenders() {
   const nm19b = ['b', 'f', 'g', 'h', 'k', 'l', 'n', 'm', 's', 'sh', 't', 'w'];
   const nm20 = ['k', 'l', 'm', 'n', 'r', 'sh', 'v', 'y'];
   const nm21 = ['', '', 'ph', 'h', 'ng', 'n'];
-
   const nm22 = ['', '', 'ch', 'd', 'j', 'm', 'r', 's', 'sh', 't', 'y', 'z'];
   const nm23 = ['d', 'g', 'k', 'm', 'r', 'z'];
   const nm24 = ['', '', 'h', 'k', 'm', 'n', 'ng', 'w'];
   const nm25 = ['', '', 'ch', 'h', 'l', 'm', 'n', 's', 'sh', 't', 'y', 'z'];
   const nm26 = ['k', 'l', 'rs', 's', 'z'];
   const nm27 = ['', '', 'ch', 'h', 'l', 'm', 'n', 's', 'sh', 't', 'y', 'z'];
-
-
   i = Math.floor(Math.random() * 12);
   {
     if (type === 1) {

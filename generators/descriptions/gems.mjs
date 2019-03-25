@@ -7,7 +7,6 @@ export default function gems() {
   const nm6 = ['an incredibly common', 'a very common', 'a fairly common', 'a fairly uncommon', 'a quite uncommon', 'a very uncommon', 'a fairly rare', 'a quite rare', 'a very rare', 'an incredibly rare'];
   const nm7 = ['amplifying', 'augmentative', 'controlling', 'cooling', 'defensive', 'desirable', 'diminishing', 'disabling', 'electric', 'elemental', 'emotional', 'enhancing', 'enlarging', 'fiery', 'focusing', 'fortunate', 'healing', 'icy', 'invigorating', 'life', 'light', 'mending', 'potent', 'protective', 'rejuvenating', 'seductive', 'shady', 'strengthening', 'tenacious', 'warming'];
   const nm8 = ['defensive weapon', 'offensive weapon', 'defensive spell focus', 'offensive spell focus', 'beneficial spell focus', 'offensive weapon enhancement', 'defensive weapon enhancement', 'defensive spell focus enhancement', 'offensive spell focus enhancement', 'beneficial spell focus enhancement', 'defensive artifact', 'offensive artifact', 'defensive artifact enhancement', 'offensive artifact enhancement', 'defensive jewelry', 'offensive jewelry', 'defensive jewelry enhancement', 'offensive jewelry enhancement'];
-
   const rnd1 = Math.floor(Math.random() * nm1.length);
   const rnd2 = Math.floor(Math.random() * nm2.length);
   const rnd3 = Math.floor(Math.random() * nm3.length);
@@ -24,16 +23,11 @@ export default function gems() {
   const rnd14 = Math.floor(Math.random() * nm6.length);
   const rnd15 = Math.floor(Math.random() * nm7.length);
   const rnd16 = Math.floor(Math.random() * nm8.length);
-
   const name = `This ${nm1[rnd1]} with ${nm2[rnd2]} cut and the size of a ${nm3[rnd3]} is in ${nm4[rnd4]} condition. These gems are ${nm5[rnd5]}, but they're ${nm6[rnd6]} gemstone species.`;
   const name2 = `It's said these gems contain ${nm7[rnd7]} properties which make for a great ${nm8[rnd8]}.`;
-
   const name3 = '-----------------------------------------------------------------------------------------------------------------------------';
-
   const name4 = `This ${nm1[rnd9]} with ${nm2[rnd10]} cut and the size of a ${nm3[rnd11]} is in ${nm4[rnd12]} condition. These gems are ${nm5[rnd13]}, but they're ${nm6[rnd14]} gemstone species.`;
   const name5 = `It's said these gems contain ${nm7[rnd15]} properties which make for a great ${nm8[rnd16]}.`;
-
-
   let result = '';
   result += name;
   result += '\n';

@@ -1,15 +1,11 @@
 export default function sea_creatures() {
   let rnd;
-
   let rnd2;
   let rnd3;
   let rnd4;
   let
     rnd5;
-
-
   let names;
-
   const nm1 = ['B', 'Bl', 'Cr', 'Ch', 'G', 'Gl', 'Gr', 'H', 'J', 'K', 'Kr', 'L', 'M', 'S', 'Sc', 'Tr', 'Z'];
   const nm2 = ['o', 'a', 'a', 'o', 'e', 'i', 'u', 'y'];
   const nm3 = ['bd', 'bs', 'dr', 'gl', 'gn', 'gm', 'gr', 'k', 'kr', 'kl', 'll', 'nd', 'nr', 'ng', 'r', 'rg', 'rk', 'rc', 'sc', 'st', 'sk', 'sh', 'tr', 'th', 'q', 'z'];
@@ -18,8 +14,6 @@ export default function sea_creatures() {
   const nm6 = ['Angel', 'Apocalypse', 'Army', 'Arrow', 'Assassin', 'Blaze', 'Blight', 'Bone', 'Boulder', 'Bull', 'Butcher', 'Cannibal', 'Chaos', 'Corpse', 'Crocodile', 'Dagger', 'Dawn', 'Demon', 'Dino', 'Dire', 'Doom', 'Dragon', 'Dread', 'Ghost', 'Goblin', 'Grieve', 'Harlequin', 'Hell', 'Horror', 'Hound', 'Hunting', 'Jelly', 'Jester', 'Killer', 'Leopard', 'Lion', 'Lizard', 'Mayhem', 'Miracle', 'Mocking', 'Monster', 'Nether', 'Night', 'Nightmare', 'Ogre', 'Phantom', 'Predator', 'Puffer', 'Raptor', 'Razor', 'Requiem', 'Rock', 'Rogue', 'Sand', 'Serpent', 'Shadow', 'Skeleton', 'Slayer', 'Sleeper', 'Slumber', 'Spider', 'Spine', 'Spite', 'Storm', 'Sword', 'Tentacle', 'Terror', 'Thunder', 'Tiger', 'Torment', 'Tresher', 'Vampire', 'Venom', 'Void', 'Wonder', 'World'];
   const nm7 = ['Beast', 'Behemoth', 'Clam', 'Crab', 'Devil', 'Dolphin', 'Eel', 'Fiend', 'Fish', 'Leviathan', 'Lobster', 'Octopus', 'Orka', 'Ray', 'Seal', 'Shark', 'Snake', 'Squid', 'Turtle', 'Whale', 'Worm'];
   const nm8 = ['Alliconda', 'Alliganha', 'Alligatopus', 'Clamaconda', 'Clamiranha', 'Clamster', 'Clamtopus', 'Crabaconda', 'Crabemoth', 'Crabiathan', 'Crabiranha', 'Crabshark', 'Crabtopus', 'Dolpheel', 'Dolphemoth', 'Dolphiathan', 'Dolphiconda', 'Dolphigator', 'Dolphipus', 'Dolphiranha', 'Dolphiray', 'Dolphishark', 'Eelaconda', 'Eeligator', 'Eelodile', 'Lobstaconda', 'Lobstagator', 'Lobstemoth', 'Lobsteranha', 'Lobsteray', 'Lobstiathan', 'Lobstodile', 'Lobstopus', 'Lobstorka', 'Lobsturtle', 'Orkagator', 'Orkallion', 'Orkiathan', 'Orktopus', 'Pirahnopus', 'Piranhagator', 'Piranharay', 'Piranhashark', 'Piranheel', 'Piranhemoth', 'Piranhiathan', 'Piranhobster', 'Piranhopus', 'Piranhorka', 'Sealaconda', 'Sealcroc', 'Sealiathan', 'Sealligator', 'Sharkaconda', 'Sharkanha', 'Sharkeel', 'Sharkellion', 'Sharkemoth', 'Sharkfiend', 'Sharkigator', 'Sharkodil', 'Sharkray', 'Sharksnake', 'Sharksquid', 'Sharktopus', 'Sharkworm', 'Snaketopus', 'Squidaconda', 'Squidigator', 'Squidodile', 'Squidshark', 'Squitopus', 'Turtleconda', 'Turtledile', 'Turtleviathan', 'Turtligator', 'Turtlobster', 'Whalaconda', 'Whalecroc', 'Whaletopus', 'Whaliathan'];
-
-
   const i = Math.floor(Math.random() * 10);
   {
     if (i < 4) {

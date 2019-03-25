@@ -1,10 +1,6 @@
 export default function fancy_clothings() {
-
-
     let rnd5, rnd7;
     let rnd11;
-
-
     const type = Math.random() > 0.5 ? 0 : 1;
     const nm1 = ['covers her shoulders halfway', 'covers her shoulders entirely', 'covers her shoulders almost fully', 'covers her shoulders only barely with 2 spaghetti straps', 'leaves the top of her shoulders uncovered, but does cover the sides', 'leaves her shoulders mostly uncovered', 'leaves her shoulders uncovered, instead it\'s supported around her neck', 'covers just one of her shoulders, leaves the other uncovered', 'covers only a small portion of her shoulders'];
     const nm2 = ['an elegant', 'a graceful', 'a stylish', 'a delicate', 'a simple', 'a modest', 'a fancy', 'a beautiful', 'a tasteful'];
@@ -23,7 +19,6 @@ export default function fancy_clothings() {
     const nm15 = ['which matches the dress perfectly', 'an ideal match for this dress', 'which further adds elegance and class', 'which goes hand in hand with this dress', 'which adds simplicity and elegance', 'a perfect choice in combination with this dress', 'they\'re simple, but radiate grace and refinement', 'a strange, yet seemingly perfect choice', 'no other shoe would\'ve matched this dress better', 'gorgeous on their own, an ideal match in combination with the dress '];
     const nm16 = ['a simple, but stylish necklace', 'an intricately designed necklace', 'a gorgeous necklace', 'a subtle necklace', 'an ornate necklace', 'a lavish necklace', 'a simple, but stylish hat', 'a small, elegant hat', 'a gorgeous wide hat', 'a bow in her hair'];
     const nm17 = ['one simple, but elegant bracelet', 'an ornate bracelet', 'an embroidered bracelet', 'an opulent bracelet', 'several lavish bracelets', 'several elegant bracelets', 'several jeweled bracelets', 'several gilded bracelets', 'small jeweled earrings', 'large jeweled earrings', 'small, stylish earrings', 'large, stylish earrings'];
-
     const ns1 = ['simple shirt', 'clean shirt', 'smooth shirt', 'plain shirt', 'standard shirt'];
     const ns2 = ['left it unbuttoned at the top for a more casual look', 'buttoned it up fully to support the elegant tie he\'s wearing', 'buttoned it up fully to support the graceful bow tie he\'s wearing'];
     const ns3 = ['stylish', 'classy', 'trendy', 'chic', 'sleek'];
@@ -44,7 +39,6 @@ export default function fancy_clothings() {
     const ns19 = ['brogue derbies', 'brogue monkstraps', 'brogue oxfords', 'cap toe balmorals', 'cap toe monkstraps', 'cap toe oxfords', 'fullstrap loafers', 'horsebit loafers', 'longwing bluchers', 'medallian cap toe oxfords', 'moc toe penny loafers', 'penny loafers', 'perf toe balmorals', 'plain toe bluchers', 'plain toe derbies', 'plain toe monkstraps', 'plain toe oxfords', 'shortwing bluchers', 'spectator oxfords', 'split toe bluchers', 'split toe derbies', 'wholecut oxfords'];
     const ns20 = ['an elegant', 'a stylish', 'a sleek', 'a trendy', 'a fancy', 'a luxurious', 'a graceful', 'a refined', 'a modest', 'a classic'];
     const ns21 = ['gloves', 'cuff links', 'a hat', 'a watch', 'a tie clip', 'a scarf', 'a brooch'];
-
     if (type === 1) {
         var rnd1 = Math.floor(Math.random() * ns1.length);
         var rnd2 = Math.floor(Math.random() * ns2.length);
@@ -75,15 +69,11 @@ export default function fancy_clothings() {
         while (rnd21a === rnd21b) {
             rnd21b = Math.floor(Math.random() * ns21.length);
         }
-
         var name = `He's wearing a ${ns1[rnd1]} and ${ns2[rnd2]}. On top of the shirt he's wearing a ${ns3[rnd3]} vest with ${ns4[rnd4]} buttons, it has a ${ns5[rnd5]}.`;
-
         var name2 = `The jacket ${ns6[rnd6]}. ${ns7[rnd7]}. The ${ns9[rnd9]} buttons of his ${ns10[rnd10]} jacket ${ns11[rnd11]}.`;
         var name3 = `The jacket is ${ns12[rnd12]}, it has ${ns13[rnd13]}, ${ns14[rnd14]} and there's a breast pocket ${ns15[rnd15]}.`;
-
         var name4 = `He's wearing pants which ${ns16[rnd16]} and ${ns17[rnd17]} shoes. He's wearing ${ns18[rnd18]} pair of ${ns19[rnd19]}.`;
         var name5 = `To top it all off he's wearing ${ns20[rnd20]} belt, which can be accompanied by ${ns21[rnd21a]} and ${ns21[rnd21b]}.`;
-
         result = '';
         result += name;
         result += '\n';
@@ -133,15 +123,10 @@ export default function fancy_clothings() {
     var rnd15 = Math.floor(Math.random() * nm15.length);
     var rnd16 = Math.floor(Math.random() * nm16.length);
     var rnd17 = Math.floor(Math.random() * nm17.length);
-
     var name = `The dress ${nm1[rnd1]} and flows down into ${nm2[rnd2]} ${nm3[rnd3]}. It's a ${nm4[rnd4]} fit which ${nm5[rnd5]}.`;
-
     var name2 = `Her arms ${nm6[rnd6]}. ${nm7[rnd7]}.`;
-
     var name3 = `The dress' waist is ${nm8[rnd8]}, but it's a ${nm9[rnd9]}. ${nm10[rnd10]}.`;
-
     var name4 = `Below the waist the dress ${nm11[rnd11]}. The dress reaches ${nm12[rnd12]} and is ${nm13[rnd13]}.`;
-
     var name5 = `She's wearing ${nm14[rnd14]}, ${nm15[rnd15]}. To top it all off she's wearing ${nm16[rnd16]} and ${nm17[rnd17]}.`;
     result = '';
     result += name;

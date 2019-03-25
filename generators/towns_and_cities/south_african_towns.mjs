@@ -1,11 +1,7 @@
 export default function south_african_towns() {
   let rnd;
-
   let rnd2;
-
-
   let names;
-
   /* Botswana */
   const nm1 = ['Bo', 'Bob', 'Boro', 'Cha', 'Chadi', 'Du', 'Duk', 'Et', 'Ga', 'Gaba', 'Gabo', 'Gha', 'Ghan', 'Gu', 'Guma', 'Gwe', 'Hu', 'Huku', 'Hukun', 'Jwa', 'Ka', 'Kan', 'Kasa', 'Khu', 'Khudu', 'Ko', 'Kopo', 'Ku', 'Kuma', 'Le', 'Len', 'Lera', 'Let', 'Letha', 'Lo', 'Loba', 'Lot', 'Ma', 'Maha', 'Mai', 'Maiten', 'Malo', 'Malol', 'Man', 'Mandu', 'Mandun', 'Maro', 'Masun', 'Matha', 'Mathan', 'Mau', 'Mauna', 'Me', 'Metsi', 'Mma', 'Mmadi', 'Mmank', 'Mo', 'Mochu', 'Mogo', 'Mogodi', 'Moi', 'Moiya', 'Mola', 'Molapo', 'Mole', 'Molepo', 'Moo', 'Mooka', 'Mopi', 'Moshu', 'Na', 'Nka', 'Noka', 'Oo', 'Ora', 'Pa', 'Pala', 'Ra', 'Rako', 'Ramo', 'Ramok', 'Rana', 'Se', 'Sebi', 'Sefo', 'Sehi', 'Sele', 'Seli', 'Sero', 'Seron', 'Sha', 'Shaka', 'Sho', 'Shoro', 'Ta', 'Tha', 'Thaba', 'Thama', 'Tlo', 'Tlok', 'To', 'Toba', 'Tono', 'Tse', 'Tsetse', 'Tsha', 'Tu', 'Tuma', 'Tutu'];
   const nm2 = ['bala', 'bana', 'bane', 'be', 'bela', 'bina', 'bojang', 'bong', 'bonong', 'cheng', 'chudi', 'di', 'dibe', 'dinare', 'ditshane', 'dunyane', 'ga', 'godi', 'gonami', 'haba', 'jang', 'jwe', 'ka', 'kaa', 'kane', 'kaneng', 'kawe', 'keng', 'kops', 'la', 'lala', 'lapye', 'leka', 'letau', 'libe', 'lole', 'long', 'maga', 'mare', 'na', 'naka', 'nami', 'nare', 'ne', 'neng', 'nga', 'nong', 'nota', 'pa', 'pane', 'phe', 'pi', 'polole', 'pong', 'rala', 'rapa', 're', 'robe', 'rolong', 'rone', 'ronga', 'rowe', 'sane', 'sebjwe', 'sera', 'she', 'shong', 'shupa', 'sunga', 'ta', 'tau', 'teng', 'tengwe', 'the', 'thethe', 'thwa', 'tlala', 'tse', 'tsha', 'tshane', 'tsi', 'tswa', 'tume', 'wabojang', 'wane', 'we', 'weng', 'wi', 'yabana', 'yana', 'yane', 'ye', 'zi'];
@@ -21,8 +17,6 @@ export default function south_african_towns() {
   /* Swaziland */
   const nm9 = ['Bhu', 'Bhun', 'Bu', 'Bule', 'Bulem', 'Da', 'Dalu', 'Danka', 'Danzi', 'Dar', 'Dule', 'Hla', 'Hlati', 'Hlu', 'Hluti', 'Ku', 'Kubu', 'Kwa', 'Kwalu', 'La', 'Lanka', 'Lavu', 'Lo', 'Loba', 'Lobam', 'Lume', 'Ma', 'Mal', 'Male', 'Malu', 'Man', 'Manka', 'Manzi', 'Mavu', 'Mba', 'Mbaba', 'Mhla', 'Mhlam', 'Mhlamba', 'Mhlu', 'Mhlume', 'Mo', 'Moba', 'Mon', 'Mowe', 'Mpa', 'Ngo', 'Ngoba', 'Ngoma', 'Ngome', 'Ngowe', 'Ngwe', 'Ngwen', 'Nhla', 'Nhlame', 'Nhlan', 'Nhlana', 'Nhlave', 'Nsaba', 'Nse', 'Nso', 'Nsola', 'Savu', 'Si', 'Sid', 'Sidvo', 'Simu', 'Site', 'Some', 'Sume', 'Ta', 'Taba', 'Taban', 'Temba', 'Tha', 'Thane', 'Timo', 'Toba', 'Toma', 'Tsha', 'Tshane', 'Tume', 'Vam', 'Vamba', 'Vane', 'Ven', 'Voma', 'Vu', 'Vuvu'];
   const nm10 = ['ba', 'bamba', 'bane', 'bano', 'banyatsi', 'banye', 'beni', 'bu', 'bulu', 'bume', 'bunye', 'buta', 'dambe', 'dane', 'dano', 'di', 'dume', 'gane', 'gano', 'gembu', 'gesa', 'gulu', 'gune', 'ka', 'kani', 'kayane', 'kena', 'kerns', 'ki', 'ko', 'kodvo', 'kulu', 'kume', 'lane', 'lembu', 'lena', 'lo', 'lu', 'lulu', 'lume', 'luno', 'lunye', 'luseni', 'mane', 'me', 'misa', 'munye', 'ne', 'neni', 'ni', 'no', 'nya', 'sa', 'sena', 'seni', 'sisa', 'sume', 'ta', 'teki', 'teni', 'ti', 'tikulu', 'ton', 'tulu', 'tume', 'vane', 'vise', 'vo', 'volane', 'vone', 'vulane', 'vulu', 'ya', 'yale', 'yane', 'yatsi', 'ye', 'yesa', 'yu', 'yulu', 'zane', 'zena', 'zini', 'ziya', 'zon'];
-
-
   const i = Math.floor(Math.random() * 10);
   {
     if (i < 2) {

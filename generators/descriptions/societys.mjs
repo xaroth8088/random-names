@@ -5,28 +5,23 @@ export default function societys() {
   const names4 = ['wealthiest', 'luckiest', 'most fortunate', 'most booming economies', 'most independent', 'happiest', 'most successful', 'most adored', 'most blessed', 'most self-sufficient', 'most self-reliant', 'most liberated', 'safest', 'richest', 'most profitable', 'unhappiest', 'poorest', 'most bleak', 'most needy', 'most unfortunate', 'most troubled', 'most unconnected', 'most uncontrolled', 'most hindered', 'most dangerous', 'least self-sufficient', 'most confined', 'most burdened', 'most unproductive', 'most inefficient'];
   const names5 = ['education', 'trade', 'infrastructure', 'medicine', 'food production', 'sustainability', 'housing', 'fuel efficiency', 'fuel production', 'public safety', 'public health', 'science', 'industry', 'hygiene', 'clean water', 'income', 'life expectancy', 'literacy', 'export', 'natural resources'];
   let names6 = ' a little in ';
-
   const names7 = ['aristocratic', 'autocratic', 'capitalist ', 'communist', 'confederate', 'democratic', 'diarchic', 'feudal ', 'matriarchal', 'monarchical', 'parliamentary', 'patriarchal', 'plutocratic', 'republic', 'socialist ', 'theocratic', 'totalitarian', 'tribalistic'];
   const names8 = ['Fortunately', 'Unfortunately'];
   let names9 = ['no', 'no', 'no', 'no real', 'little to none', 'hardly any', 'barely any'];
   let names10 = [' and there hasn\'t been for a long time.', ' and this has been the case for a long time.', ' and this has been so for quite some time.', ', but this hasn\'t always been the case.', ', but this is a fairly recent development.', ', but this is only a recent occurance.', ' and this has been the case for decades.', ' and this has been so for nearly a century.', ', but things could change soon.', ', but things are changing at the moment.', ', but all this could change in a second.', ', but this will not last.', ' and this will probably last for decades to come.', ' and this may not last much longer.', ' and this doesn\'t appear to be changing any time soon.'];
-
   const names11 = ['a failed harvest', 'a flood', 'an active volcano', 'a conflict with a neighboring country', 'a new disease', 'pollution of water', 'air pollution', 'the rise of gangs', 'the rise of drugs', 'a smuggling organization', 'a group of bandits', 'aggressive wildlife', 'imminent war', 'a huge forest fire', 'a drought', 'an animal disease'];
   const names12 = ['is doing everything it can', 'is working on a solution', 'is implementing a solution', 'lacks resources', 'is powerless', 'is asking other countries to help', 'is too preoccupied with other issues', 'is willing to sacrifice a lot', 'can\'t do anything more', 'is unable', 'is incapable', 'won\'t be able', 'can\'t possibly do anything', 'does whatever it takes', 'might sacrifice too much', 'will do anything in its power', 'is supported by the people', 'is working with the public', 'is supported by other nations', 'is alone in trying'];
-
   let names13 = ['happy', 'content', 'quite happy', 'fairly content', 'cheerful', 'joyful', 'pleased', 'gratified', 'delighted', 'jolly'];
   let names14 = ['admirable', 'brilliant', 'decent', 'enjoyable', 'fine', 'good', 'gratifying', 'great', 'honest', 'pleasant', 'pleasing', 'rewarding', 'satisfying', 'terrific', 'wonderful'];
   let names15 = ' and ';
   let names16 = ' might be ';
   let names17 = ' most ';
-
   const names18 = ['no importance', 'barely any importance', 'no real importance', 'no importance at all', 'great importance', 'quite some importance', 'much importance', 'a fair deal of importance'];
   const names19 = ['adventurous', 'careful', 'cautious', 'confident', 'creative', 'curious', 'dedicated', 'driven', 'dutiful', 'elegant', 'energetic', 'faithful', 'friendly', 'generous', 'gentle', 'helpful', 'honest', 'hospitable', 'intrepid', 'joyful', 'just', 'law-abiding', 'light-hearted', 'modest', 'open to strangers', 'optimistic', 'proper', 'proud', 'reserved', 'sensitive', 'serious', 'warry of strangers'];
   const names20 = ['are very spiritual', 'are quite spiritual', 'are extremely spiritual', 'are moderately spiritual', 'aren\'t very spiritual', 'aren\'t spiritual at all', 'aren\'t really spiritual'];
   let names21 = ' however ';
   let names22 = ' have ';
   let names23 = ['many special ceremonies', 'an abundance of celebrations', 'an interesting way of life', 'special rituals', 'intriguing rites of passage', 'strict rules', 'firm beliefs', 'beautiful customs', 'ancient traditions', 'odd formalities'];
-
   const random1 = parseInt(Math.floor((Math.random() * names1.length)), 10);
   const random2 = parseInt(Math.floor((Math.random() * names2.length)), 10);
   const random3a = parseInt(Math.floor((Math.random() * names3.length)), 10);
@@ -103,16 +98,12 @@ export default function societys() {
   while (random23a === random23b) {
     random23b = parseInt(Math.floor((Math.random() * names23.length)), 10);
   }
-
   const name = `The ${names1[random1]} of ${names2[random2]}. Built upon the ${names3[random3a]}, ${names3[random3b]} and ${names3[random3c]} of its past, this ${names1[random1]} is now among the ${names4[random4]} countries in its corner of the world.`;
   const name2 = `Their ${names5[random5a]}, ${names5[random5b]} and ${names5[random5c]} are among its current greatest strengths. Unfortunately they lack ${names6}${names5[random5d]} and ${names5[random5e]}.`;
-
   const name3 = `${names2[random2]} is a ${names7[random7]} ${names1[random1]}. There are ${names9[random9]} opposing groups against the current leadership${names10[random10]}`;
   const name4 = `However, the current greatest threat to the nation is ${names11[random11]}, but the current leadership ${names12[random12]} to solve this issue. `;
-
   const name5 = `The people of ${names2[random2]} are ${names13[random13]}. They live ${names14[random14]} lives${names15} while ${names5[random5d]}${names16} lacking, their ${names5[random5a]} helps relief ${names17} of their issues.`;
   const name6 = `Religion holds ${names18[random18]} in their lives and, if anything, has made them more ${names19[random19]}. The people of ${names2[random2]} ${names20[random20]}${names21} and they${names22}${names23[random23a]} and ${names23[random23b]}.`;
-
   let result = '';
   result += name;
   result += '\n';

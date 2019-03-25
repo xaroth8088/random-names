@@ -1,15 +1,11 @@
 export default function night_elf() {
   let rnd;
-
   let rnd2;
   let rnd3;
   let rnd7;
   let
     rnd8;
-
-
   let names;
-
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['A', 'A\'', 'Al', 'All', 'Aly', 'An', 'Am', 'As', 'Ay', 'Ar', 'Cy', 'Ca', 'E', 'E\'', 'El', 'Ely', 'Em', 'En', 'Er', 'Es', 'Ey', 'F', 'Fa', 'Fy', 'Fil', 'Fel', 'Fyl', 'Ga', 'Gal', 'Ha', 'He', 'Hy', 'I', 'Il', 'Ily', 'Ill', 'Iy', 'Ji', 'Ja', 'K', 'Ka', 'Ke', 'Ky', 'L', 'Lil', 'Lyl', 'Lel', 'La', 'Le', 'Ly', 'M', 'Ma', 'Me', 'My', 'Myt', 'Myth', 'Mor', 'Math', 'Mil', 'Myl', 'Mel', 'N', 'Na', 'Ne', 'Nyl', 'Nil', 'Nel', 'Nyt', 'Nyth', 'Ny', 'Re', 'Ra', 'Ry', 'S', 'Sa', 'Sil', 'Syl', 'Sel', 'Sh', 'Sha', 'She', 'Sy', 'Shyl', 'Th', 'Tha', 'The', 'Thel', 'Thyl', 'Thil', 'Thy', 'U', 'Uy', 'W', 'Wa', 'We', 'Y', 'Y\'', 'Ya', 'Ye', 'Yl', 'Yll'];
   const nm2 = ['al', 'el', 'en', 'an', 'ana', 'ena', 'aena', 'a', 'i', 'ren', 'ran', 'eth', 'ath', 'a', 'e', 'o', 'h', 'ha', 'he', 'ho', 'f', 'fa', 'fe', 'l', 'le', 'la', 'm', 'me', 'ma', 'ne', 'na', 'n', 's', 'sa', 'se', 've', 'va'];
@@ -19,8 +15,6 @@ export default function night_elf() {
   const nm6 = ['anas', 'anaes', 'aenas', 'anelle', 'dris', 'liene', 'aria', 'anaria', 'alaria', 'cina', 'ina', 'ene', 'erias', 'eria', 'ora', 'lora', 'thea', 'thae', 'inne', 'rnae', 'rnea', 'is\'ta', 'n\'ra', 'nas', 'aste', 'arii', 'riia', 'hara', 'ethil', 'driel', '\'lynn', '\'lyn', 'india', 'adyia', 'adya', 'aedya', 'indea', 'indae', 'ania', 'aenia', 'eana', 'aenea', 'iyell', 'yell', 'ythis', 'ethis', 'rieth', 'drieth', 'draeth', 'dreath', 'raeth', 'reath', 'ynna', 'yna', 'enna', 'aenna', 'eanna', 'eana', 'aena', 'anna', 'rai', 'rea', 'rae', 'raei', 'anai', 'anea', 'lea', 'lae', 'laei', 'laeth', 'leath', 'yssa', 'lyssa', 'lyssae', 'lysae', 'ysae', 'lysea', 'ysea', 'asia', 'aesia', 'easia', 'asea', 'asae', 'aesa', 'easa', 'alas', 'aelas', 'alaes', 'aleas', 'aeleas', 'ealaes', 'aelleas', 'eallaes', 'allas', 'aellas', 'allaes', 'alleas', 'ercia', 'aercia', 'earcia', 'enia', 'aenia', 'enya', 'aenya', 'lia', 'alia', 'alaea', 'alias', 'alaeas', 'ysa', 'yssea', 'ysea', 'yssae', 'ysae', 'nya', 'nyae', 'nysa', 'nysea', 'nysae', 'nyssa', 'nyssae', 'nyssea', 'yssia', 'aeith', 'eaith', 'ileath', 'ilaeth', 'aleath', 'illeath', 'illaeth', 'yura', 'yurea', 'yurae', 'wen', 'leae', 'laea'];
   const nm7 = ['Amber', 'Autumn', 'Bear', 'Black', 'Blade', 'Blue', 'Dark', 'Dawn', 'Dew', 'Dusk', 'Even', 'Far', 'Feather', 'Fog', 'Forest', 'Green', 'Leaf', 'Light', 'Luna', 'Mist', 'Moon', 'Moss', 'Night', 'Ocean', 'Rain', 'Rapid', 'Raven', 'Sage', 'Sea', 'Shade', 'Shadow', 'Shield', 'Silent', 'Silver', 'Sky', 'Spirit', 'Stag', 'Star', 'Still', 'Stone', 'Storm', 'Strong', 'Summer', 'Sun', 'Swift', 'Thunder', 'Tree', 'True', 'Void', 'Wild', 'Wind', 'Winter', 'Wood'];
   const nm8 = ['arrow', 'blade', 'bloom', 'blower', 'bough', 'bow', 'branch', 'breath', 'breeze', 'caller', 'cloud', 'clouds', 'crest', 'dancer', 'dew', 'eye', 'feather', 'fire', 'flower', 'forest', 'gazer', 'grove', 'heart', 'helm', 'lance', 'leaf', 'light', 'mane', 'might', 'moon', 'oak', 'rage', 'runner', 'scribe', 'seeker', 'shade', 'shadow', 'shot', 'singer', 'sky', 'snow', 'song', 'spear', 'spirit', 'spyre', 'stalker', 'star', 'strike', 'striker', 'swift', 'sword', 'thorn', 'tree', 'walker', 'watcher', 'water', 'weaver', 'whisper', 'wind', 'wing'];
-
-
   const i = Math.floor(Math.random() * 10);
   {
     rnd7 = Math.floor(Math.random() * nm7.length);

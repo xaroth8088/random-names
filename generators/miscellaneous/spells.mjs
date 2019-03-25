@@ -1,11 +1,7 @@
 export default function spells() {
     let rnd;
-
     let rnd1, rnd2, rnd3;
-
-
     let names;
-
     const type = Math.random() > 0.5 ? 0 : 1;
     const names1 = ['Air', 'Ancestor\'s', 'Arcane', 'Arcane-fire', 'Blazing', 'Chaos', 'Death', 'Demonic', 'Dragon', 'Electric', 'Elemental', 'Energy', 'Fiery', 'Fire', 'Flame', 'Frost', 'Frostfire', 'Hellfire', 'Holy', 'Ice', 'Infernal', 'Lava', 'Life', 'Lunar', 'Mage', 'Magma', 'Mind', 'Molten', 'Moon', 'Moonlight', 'Mystic', 'Nether', 'Pyro', 'Shadow', 'Solar', 'Soul', 'Spirit', 'Starfire', 'Static', 'Sunfire', 'Sunlight', 'Thunder', 'Unholy', 'Void', 'Wind'];
     const names2 = ['Arrow', 'Assault', 'Barrage', 'Beam', 'Blast', 'Blaze', 'Blitz', 'Bolt', 'Bomb', 'Burn', 'Burst', 'Charge', 'Eruption', 'Explosion', 'Flare', 'Flash', 'Flux', 'Frenzy', 'Fury', 'Hail', 'Lash', 'Missiles', 'Nova', 'Orb', 'Rage', 'Rain', 'Ray', 'Rocket', 'Rupture', 'Rush', 'Salvo', 'Shower', 'Spike', 'Storm', 'Strike', 'Surge', 'Tempest', 'Torrent', 'Typhoon', 'Volley', 'Wave', 'Whip', 'Wrath'];
@@ -18,7 +14,6 @@ export default function spells() {
     const names9 = ['a', 'actum', 'actus', 'arbus', 'armus', 'aro', 'ashio', 'asi', 'asis', 'aris', 'ate', 'ecto', 'ectum', 'ectus', 'ego', 'egra', 'egris', 'elio', 'ello', 'em', 'empra', 'endio', 'endius', 'endo', 'enim', 'enis', 'enta', 'entus', 'enum', 'enus', 'eo', 'eom', 'eos', 'eous', 'erbus', 'ergio', 'erio', 'eris', 'erous', 'es', 'esco', 'eseo', 'etus', 'eum', 'eus', 'i', 'iate', 'iatis', 'iato', 'ictum', 'ictus', 'icum', 'icus', 'id', 'igeo', 'im', 'indo', 'inio', 'inius', 'io', 'ior', 'is', 'iseo', 'ite', 'iteus', 'itus', 'ium', 'ius', 'orgio', 'ori', 'orpus', 'ortia', 'ortis', 'ortus', 'orus', 'otis', 'otum', 'ucio', 'ucto', 'ula', 'ulsi', 'ulsis', 'ulso', 'ulus', 'um', 'undis', 'undo', 'uno', 'uro', 'us'];
     const names10 = ['Anim', 'Anno', 'Annoy', 'Arach', 'Arachn', 'Arachni', 'Av', 'Avi', 'Ban', 'Bull', 'Can', 'Cand', 'Candel', 'Cani', 'Canin', 'Consi', 'Consil', 'Contag', 'Dem', 'Demo', 'Demon', 'Drac', 'Drag', 'Elem', 'Elemen', 'Element', 'Fel', 'Feli', 'Felin', 'Foc', 'Focu', 'Infec', 'Infect', 'Intim', 'Intimi', 'Intimid', 'Ligh', 'Light', 'Noct', 'Oppon', 'Oppres', 'Padl', 'Padloc', 'Perso', 'Person', 'Pest', 'Rasc', 'Rat', 'Serp', 'Serpen', 'Stri', 'Strix', 'Torch', 'Torm', 'Tormen', 'Tyr', 'Tyran', 'Vesper', 'Vex', 'Vexat', 'Vir', 'Viral', 'Ache', 'Ago', 'Agon', 'Miser'];
     const names11 = ['Absol', 'Angel', 'Celest', 'Colos', 'Complet', 'Cor', 'Corrup', 'Dem', 'Demon', 'Demonic', 'Diab', 'Divin', 'Enorm', 'Ether', 'Gargant', 'Hid', 'Honor', 'Horrend', 'Horrib', 'Horrif', 'Immed', 'Immen', 'Immor', 'Impair', 'Imperf', 'Imperfec', 'Impur', 'Infec', 'Infect', 'Infer', 'Infern', 'Infin', 'Its', 'Juven', 'Limit', 'Malev', 'Minisc', 'Mix', 'Monst', 'Neth', 'Ordin', 'Perf', 'Perfec', 'Phan', 'Phant', 'Pris', 'Prist', 'Pur', 'Ref', 'Refin', 'Repeat', 'Repell', 'Satan', 'Spir', 'Spirit', 'Tain', 'Terrib', 'Thund', 'Total', 'Tremend', 'Vil', 'Virt', 'Virtu', 'Vulg'];
-
     const i = Math.floor(Math.random() * 10);
     {
         if (type === 1) {
@@ -53,13 +48,9 @@ export default function spells() {
         return names;
     }
 }
-
 export default function spellsHp() {
     let rnd;
-
-
     let names;
-
     const i = Math.floor(Math.random() * 10);
     {
         rnd[0] = Math.floor(Math.random() * names8.length);

@@ -10,7 +10,6 @@ export default function personalitys() {
   const nm8 = ['tend to get in the way', 'aren\'t exactly fun to deal with', 'do cause plenty of friction', 'pose plenty of problems', 'sour the mood many a time', 'risk ruining pleasant moods', 'can cause things to heat up', 'don\'t make for the greatest company', 'cause plenty of grievances', 'are far from ideal'];
   const nm9 = [', both personally and for others', ' on often personal levels', ', though more on a personal level than for others', ' and reach all around', ', much to the annoyance of others', ' and could ruin plenty of evenings', ' and just affect all around negatively', ' even at the best of times', ' and beyond what people are willing to deal with', ' and make things uncomfortable to say the least'];
   const nm10 = ['helps make sure these days are few and far between', 'assures this isn\'t the case very often', 'is usually there to soften the blows', 'usually softens the worst of it', 'shines brighter on most days', 'helps prevent most of these grievances', 'is usually there to help mends things when needed', 'helps keep them in check for at least a little', 'helps lighten the blows and moods when needed', 'is there to relift spirits when needed'];
-
   const nm11 = ['There\'s plenty people hate about', 'A whole lot can be said about', 'There\'s plenty to say about', 'It doesn\'t take long to dislike', 'Plenty of people will dislike', 'Many hateful words can be said about', 'Unfortunately very few people like', 'Looks can be deceiving when dealing with', 'You may not notice this when first meeting', 'There\'s more than meets the eye in the case of'];
   const nm12 = ['To make things worse', 'Never mind the fact', 'Let alone the fact', 'That\'s without even mentioning', 'To top it off', 'To make matters worse', 'As if that\'s not enough', 'There there\'s the fact', 'On top of that', 'That\'s without even stating'];
   const nm13 = ['at least those are kept somewhat in check by habits of being', 'fortunately they\'re balanced out slightly by being', 'their effects are at least lessened by impulses of being', 'at the very least they\'re countered somewhat by being', 'their worst is softened by behaviors of being', 'in an odd way they\'re balanced by habits of being', 'at least they\'re not as bad due to intertwined habits of being', 'fortunately they\'re mixed with behaviors of being', 'they\'re not as prominent and counteracted by habits of being', 'at least they only show in smaller doses and mixed with behaviors of being'];
@@ -248,7 +247,6 @@ export default function personalitys() {
   const nm23 = ['Aaron', 'Adam', 'Aidan', 'Aiden', 'Alex', 'Alexander', 'Alfie', 'Andrew', 'Anthony', 'Archie', 'Arthur', 'Ashton', 'Bailey', 'Ben', 'Benjamin', 'Billy', 'Blake', 'Bobby', 'Bradley', 'Brandon', 'Caleb', 'Callum', 'Cameron', 'Charles', 'Charlie', 'Christopher', 'Cody', 'Connor', 'Corey', 'Daniel', 'David', 'Declan', 'Dexter', 'Dominic', 'Dylan', 'Edward', 'Elliot', 'Ellis', 'Ethan', 'Evan', 'Ewan', 'Finlay', 'Finley', 'Frankie', 'Freddie', 'Frederick', 'Gabriel', 'George', 'Harley', 'Harrison', 'Harry', 'Harvey', 'Hayden', 'Henry', 'Isaac', 'Jack', 'Jackson', 'Jacob', 'Jake', 'James', 'Jamie', 'Jay', 'Jayden', 'Jenson', 'Joe', 'Joel', 'John', 'Jonathan', 'Jordan', 'Joseph', 'Josh', 'Joshua', 'Jude', 'Kai', 'Kayden', 'Kian', 'Kieran', 'Kyle', 'Leo', 'Leon', 'Lewis', 'Liam', 'Logan', 'Louie', 'Louis', 'Luca', 'Lucas', 'Luke', 'Mason', 'Matthew', 'Max', 'Michael', 'Morgan', 'Nathan', 'Nicholas', 'Noah', 'Oliver', 'Ollie', 'Oscar', 'Owen', 'Abbie', 'Abby', 'Abigail', 'Aimee', 'Alexandra', 'Alice', 'Alicia', 'Alisha', 'Amber', 'Amelia', 'Amelie', 'Amy', 'Anna', 'Ava', 'Bella', 'Bethany', 'Brooke', 'Caitlin', 'Cerys', 'Charlie', 'Charlotte', 'Chelsea', 'Chloe', 'Courtney', 'Daisy', 'Danielle', 'Demi', 'Eleanor', 'Eliza', 'Elizabeth', 'Ella', 'Ellie', 'Eloise', 'Elsie', 'Emilia', 'Emily', 'Emma', 'Erin', 'Esme', 'Eva', 'Eve', 'Evelyn', 'Evie', 'Faith', 'Freya', 'Georgia', 'Georgina', 'Grace', 'Gracie', 'Hannah', 'Harriet', 'Heidi', 'Hollie', 'Holly', 'Imogen', 'Isabel', 'Isabella', 'Isabelle', 'Isla', 'Isobel', 'Jade', 'Jasmine', 'Jennifer', 'Jessica', 'Jodie', 'Julia', 'Kate', 'Katherine', 'Katie', 'Kayla', 'Kayleigh', 'Keira', 'Lacey', 'Lara', 'Laura', 'Lauren', 'Layla', 'Leah', 'Lexi', 'Lexie', 'Libby', 'Lilly', 'Lily', 'Lola', 'Louise', 'Lucy', 'Lydia', 'Maddison', 'Madeleine', 'Madison', 'Maisie', 'Maisy', 'Maria', 'Martha', 'Matilda', 'Maya', 'Megan', 'Melissa', 'Mia', 'Mollie'];
   const nm24 = ['Adams', 'Allen', 'Anderson', 'Andrews', 'Armstrong', 'Atkinson', 'Austin', 'Bailey', 'Baker', 'Ball', 'Barker', 'Barnes', 'Barrett', 'Bates', 'Baxter', 'Bell', 'Bennett', 'Berry', 'Black', 'Booth', 'Bradley', 'Brooks', 'Brown', 'Burke', 'Burns', 'Burton', 'Butler', 'Byrne', 'Campbell', 'Carr', 'Carter', 'Chambers', 'Chapman', 'Clark', 'Clarke', 'Cole', 'Collins', 'Cook', 'Cooke', 'Cooper', 'Cox', 'Cunningham', 'Davidson', 'Davies', 'Davis', 'Dawson', 'Day', 'Dean', 'Dixon', 'Doyle', 'Duncan', 'Edwards', 'Elliott', 'Ellis', 'Evans', 'Fisher', 'Fletcher', 'Foster', 'Fox', 'Francis', 'Fraser', 'Gallagher', 'Gardner', 'George', 'Gibson', 'Gill', 'Gordon', 'Graham', 'Grant', 'Gray', 'Green', 'Griffiths', 'Hall', 'Hamilton', 'Harper', 'Harris', 'Harrison', 'Hart', 'Harvey', 'Hawkins', 'Hayes', 'Henderson', 'Hill', 'Holland', 'Holmes', 'Hopkins', 'Houghton', 'Howard', 'Hudson', 'Hughes', 'Hunt', 'Hunter', 'Hussain', 'Jackson', 'James', 'Jenkins', 'John', 'Johnson', 'Johnston', 'Jones', 'Jordan', 'Kaur', 'Kelly', 'Kennedy', 'Khan', 'King', 'Knight', 'Lane', 'Lawrence', 'Lawson', 'Lee', 'Lewis', 'Lloyd', 'Lowe', 'Macdonald', 'Marsh', 'Marshall', 'Martin', 'Mason', 'Matthews', 'May', 'Mccarthy', 'Mcdonald', 'Miller', 'Mills', 'Mitchell', 'Moore', 'Morgan', 'Morris', 'Moss', 'Murphy', 'Murray', 'Newman', 'Nicholson', 'Owen', 'Palmer', 'Parker', 'Parry', 'Patel', 'Pearce', 'Pearson', 'Perry', 'Phillips', 'Poole', 'Porter', 'Powell', 'Price', 'Read', 'Rees', 'Reid', 'Reynolds', 'Richards', 'Richardson', 'Riley', 'Roberts', 'Robertson', 'Robinson', 'Rogers', 'Rose', 'Ross', 'Russell', 'Ryan', 'Saunders', 'Scott', 'Sharp', 'Shaw', 'Simpson', 'Smith', 'Spencer', 'Stevens', 'Stewart', 'Stone', 'Sutton', 'Taylor', 'Thomas', 'Thompson', 'Thomson', 'Turner', 'Walker', 'Wallace', 'Walsh', 'Ward', 'Watson', 'Watts', 'Webb', 'Wells', 'West', 'White', 'Wilkinson', 'Williams', 'Williamson', 'Willis', 'Wilson', 'Wood', 'Woods', 'Wright', 'Young'];
   let nm25 = ['he\'s', 'his', 'His', 'He\'s'];
-
   const tp = type;
   const rnd13b = Math.floor(Math.random() * nm23.length);
   if (rnd13b > 99) {
@@ -258,7 +256,6 @@ export default function personalitys() {
   if (tp === 1) {
     var rnd1 = Math.floor(Math.random() * nm11.length);
     var rnd2 = Math.floor(Math.random() * nm12.length);
-
     var rnd4 = Math.floor(Math.random() * nm14.length);
     var rnd5 = Math.floor(Math.random() * nm15.length);
     var rnd6 = Math.floor(Math.random() * nm16.length);
@@ -275,7 +272,6 @@ export default function personalitys() {
     var rnd17 = Math.floor(Math.random() * nm22.length);
     var rnd18 = Math.floor(Math.random() * nm21.length);
     var rnd19 = Math.floor(Math.random() * nm21.length);
-
     var name = `${nm11[rnd1]} ${nm23[rnd13b]} ${nm24[rnd14b]}, but the fact ${nm25[0]} ${nm22[rnd11][0]} and ${nm22[rnd12][0]} is just the tip of the iceberg. ${nm12[rnd2]} ${nm25[0]} also ${nm22[rnd13][0]}, ${nm22[rnd14][0]} and ${nm22[rnd15][0]}, but ${nm13[rnd2]} ${nm21[rnd16][0]} as well.`;
     var name2 = `But focus on ${nm25[1]} as this is what ${nm25[0]} ${nm14[rnd4]}. ${nm15[rnd5]} because of this and ${nm25[1]} ${nm22[rnd17][1]}, ${nm16[rnd6]}.`;
     var name3 = `Fair is fair though, ${nm23[rnd13b]} ${nm17[rnd7]}. ${nm25[3]} ${nm21[rnd18][0]} and ${nm21[rnd19][0]} ${nm18[rnd8]}, ${nm19[rnd9]}.`;
@@ -300,14 +296,11 @@ export default function personalitys() {
     var rnd17 = Math.floor(Math.random() * nm21.length);
     var rnd18 = Math.floor(Math.random() * nm22.length);
     var rnd19 = Math.floor(Math.random() * nm22.length);
-
     var name = `${nm1[rnd1]} ${nm23[rnd13b]} ${nm24[rnd14b]}, but ${nm2[rnd2]} ${nm25[0]} ${nm21[rnd11][0]} and ${nm21[rnd12][0]}. Of course ${nm25[0]} also ${nm21[rnd13][0]}, ${nm21[rnd14][0]} and ${nm21[rnd15][0]}, but ${nm3[rnd3]} being ${nm22[rnd16][0]} as well.`;
     var name2 = `${nm25[2]} ${nm21[rnd11][1]} though, this is what ${nm25[0]} ${nm4[rnd4]}. ${nm5[rnd5]} count on this and ${nm25[1]} ${nm21[rnd17][1]} ${nm6[rnd6]}.`;
     var name3 = `Nobody's perfect of course and ${nm23[rnd13b]} has ${nm7[rnd7]} too. ${nm25[2]} ${nm22[rnd18][1]} and ${nm22[rnd19][1]} ${nm8[rnd8]}${nm9[rnd9]}.`;
     var name4 = `Fortunately ${nm25[1]} ${nm21[rnd12][1]} ${nm10[rnd10]}.`;
   }
-
-
   let result = '';
   result += name;
   result += '\n';

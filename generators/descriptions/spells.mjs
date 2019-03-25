@@ -7,7 +7,6 @@ export default function spells() {
   const nm6 = ['A bright', 'A clear', 'A cluttered', 'A complex', 'A constant', 'A dark', 'A dim', 'A flat', 'A fluid', 'A gentle', 'A jagged', 'A jumbled', 'A light', 'A mellow', 'A mixed', 'A modest', 'A plain', 'A pure', 'A rough', 'A rounded', 'A simple', 'A smooth', 'A spiky', 'A stable', 'A straight', 'A strong', 'A tangled', 'A thick', 'A thin', 'A transparent', 'A uniform', 'A vibrant', 'A violent', 'A wild', 'A wobbly', 'An impure', 'An interwoven', 'An intricate', 'An irregular', 'An unstable'];
   const nm7 = ['amber', 'azure', 'blue', 'blue-green', 'bronze', 'brown', 'burgundy', 'cerulean', 'cobalt', 'copper', 'crimson', 'emerald', 'golden', 'green', 'indigo', 'ivory', 'jade', 'lilac', 'magenta', 'maroon', 'multi-colored', 'orange', 'pink', 'purple', 'red', 'rose', 'ruby', 'sanguine', 'scarlet', 'silver', 'teal', 'vermilion', 'violet', 'white', 'yellow'];
   const nm8 = ['beam', 'blast of particles', 'blast of small waves', 'blast of waves', 'blaze of fragments', 'blaze of particles', 'blaze of sparks', 'coil', 'coil of particles', 'coil of waves', 'corkscrew of particles', 'flash', 'flash of particles', 'flash of sparks', 'glowing beam', 'glowing corkscrew', 'glowing fragment cluster', 'glowing particle cluster', 'glowing ray', 'glowing shaft', 'glowing sparks', 'glowing spike', 'glowing wave', 'intertwining duo of coils', 'intertwining duo of rays', 'intertwining duo of ripples', 'intertwining duo of streams', 'intertwining duo of twirls', 'intertwining duo of waves', 'line', 'line of particles', 'particle wave', 'ray', 'ray of particles', 'ray of sparks', 'rush of ripples', 'rush of small spikes', 'rush of small waves', 'rush of spikes', 'shaft', 'spike of particles', 'stream', 'stream of fragments', 'stream of particles', 'stream of sparks', 'surge', 'surge of fragments', 'surge of particles', 'surge of ripples', 'surge of sparks', 'surge of waves', 'twirl', 'twisting coil', 'twisting stream', 'twisting wave', 'wave of fragments', 'wave of particles', 'wave of tiny particles'];
-
   const rnd1 = Math.floor(Math.random() * nm1.length);
   const rnd2 = Math.floor(Math.random() * nm2.length);
   const rnd2b = Math.floor(Math.random() * nm2.length);
@@ -26,7 +25,6 @@ export default function spells() {
   const rnd14 = Math.floor(Math.random() * nm6.length);
   const rnd15 = Math.floor(Math.random() * nm7.length);
   const rnd16 = Math.floor(Math.random() * nm8.length);
-
   const name = `Spell name: ${nm1[rnd9]}${nm2[rnd10]} ${nm3[rnd11]}${nm2[rnd10b]}`;
   const name2 = `Inventor: ${nm4[rnd12]}`;
   const name3 = `Effect: ${nm5[rnd13]}.`;
@@ -36,7 +34,6 @@ export default function spells() {
   const name7 = `Inventor: ${nm4[rnd4]}`;
   const name8 = `Effect: ${nm5[rnd5]}.`;
   const name9 = `Appearance: ${nm6[rnd6]}, ${nm7[rnd7]} ${nm8[rnd8]}.`;
-
   let result = '';
   result += name;
   result += '\n';

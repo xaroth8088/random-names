@@ -1,11 +1,7 @@
 export default function south_european_towns() {
   let rnd;
-
   let rnd2;
-
-
   let names;
-
   const nm1 = ['Acha', 'Agia', 'Agio', 'Agri', 'Alexa', 'Ali', 'Alika', 'Ama', 'Ampe', 'Ampelo', 'Ana', 'Araio', 'Argy', 'Arte', 'Aspro', 'Cha', 'Chai', 'Chala', 'Chio', 'Cho', 'Chola', 'Co', 'Da', 'Dimi', 'Dra', 'Drape', 'Ede', 'Efka', 'Ega', 'Ele', 'Elefthe', 'Eleu', 'Elli', 'Ermou', 'Ery', 'Evo', 'Fa', 'Fali', 'Fila', 'Flo', 'Ga', 'Gala', 'Gera', 'Gia', 'Gianni', 'Gly', 'Gre', 'Hera', 'Ialy', 'Iera', 'Iliou', 'Ira', 'Ka', 'Kaisa', 'Kala', 'Kalli', 'Kaly', 'Kama', 'Kardi', 'Kasto', 'Kate', 'Kava', 'Kera', 'Ki', 'Kifi', 'Ko', 'Komo', 'Koro', 'Kory', 'Koza', 'La', 'Lio', 'Liva', 'Lou', 'Ma', 'Me', 'Mega', 'Meli', 'Mene', 'Meta', 'Misso', 'Mo', 'Myti', 'Na', 'Nafpa', 'Naou', 'Nea', 'Ni', 'Ore', 'Pa', 'Paia', 'Palli', 'Pano', 'Papa', 'Para', 'Pe', 'Pera', 'Petrou', 'Poli', 'Pre', 'Preve', 'Psy', 'Ptole', 'Py', 'Rafi', 'Rethy', 'Rho', 'Sa', 'Sala', 'Se', 'Smy', 'Spa', 'Sta', 'Stavrou', 'Sy', 'Ta', 'The', 'Thessa', 'Tri', 'Tyrna', 'Ve', 'Vo', 'Vou', 'Vrili', 'VyVyro', 'Xa', 'Ymi', 'Zogra'];
   const nm2 = ['bes', 'chiko', 'chni', 'dallos', 'dari', 'deia', 'des', 'dri', 'droupoli', 'fada', 'fina', 'fka', 'fki', 'fni', 'fou', 'fplio', 'ftherio', 'gara', 'gio', 'gou', 'gyroi', 'ka', 'kaia', 'kala', 'kas', 'kastro', 'kies', 'kipoi', 'kleio', 'klion', 'kri', 'ktos', 'la', 'laia', 'lamis', 'laos', 'largos', 'lcis', 'lene', 'lfeia', 'liada', 'lio', 'lion', 'liro', 'lkis', 'llini', 'longhi', 'loniki', 'los', 'ma', 'maida', 'maria', 'mata', 'meni', 'mia', 'mis', 'mno', 'mnos', 'mos', 'nas', 'ndra', 'ndreia', 'ndri', 'nghi', 'nia', 'niki', 'nikon', 'nina', 'nio', 'nnis', 'ns', 'nthi', 'ntis', 'pagou', 'petra', 'poi', 'poli', 'pyrgos', 'raeus', 'rafou', 'raia', 'rama', 'rdelio', 'rekas', 'rfosi', 'rfu', 'rgos', 'rgyroi', 'ri', 'ria', 'riani', 'rina', 'rini', 'rint', 'rio', 'rissa', 'rmi', 'rnes', 'rni', 'ropi', 'roupoli', 'rousi', 'rpia', 'rres', 'rta', 'rvara', 'sa', 'schato', 'sia', 'sina', 'skevi', 'smos', 'sos', 'ssa', 'ssia', 'ssos', 'steri', 'stiada', 'tero', 'thea', 'thraia', 'tini', 'traki', 'tras', 'trios', 'tsa', 'tsi', 'tsini', 'tsona', 'ttos', 'vala', 'vena', 'veza', 'via', 'vos', 'vros', 'zani', 'zi'];
   /* Italy */
@@ -17,8 +13,6 @@ export default function south_european_towns() {
   /* Spain */
   const nm7 = ['Alba', 'Alca', 'Alco', 'Alge', 'Ali', 'Alme', 'Alzi', 'Artei', 'Ba', 'Bada', 'Barce', 'Be', 'Beni', 'Bi', 'Bla', 'Bu', 'Ca', 'Co', 'Colo', 'Cordo', 'Coru', 'Fe', 'Fro', 'Fue', 'Fuenla', 'Ga', 'Ge', 'Geta', 'Gi', 'Giro', 'Gra', 'Grama', 'Grana', 'Gua', 'Guada', 'Guadala', 'Hospi', 'Hue', 'La', 'Lagu', 'Le', 'Lega', 'Lgro', 'Llei', 'Lo', 'Lu', 'Ma', 'Madri', 'Mala', 'Manre', 'Marbe', 'Mo', 'Mosto', 'Mu', 'Olei', 'Ou', 'Oure', 'Ovie', 'Pa', 'Pale', 'Ponte', 'Sa', 'Saba', 'Sala', 'Santa', 'Santia', 'Se', 'Seba', 'Sevi', 'Ta', 'Tarra', 'Tene', 'To', 'Tole', 'Torre', 'Va', 'Vale', 'Valla', 'Vi', 'Vito', 'Za', 'Zara'];
   const nm8 = ['ba', 'brada', 'bregat', 'cante', 'cete', 'ciras', 'da', 'de', 'dell', 'diz', 'do', 'dolid', 'dorm', 'dra', 'drid', 'fe', 'ga', 'ganes', 'gat', 'gena', 'go', 'gona', 'goza', 'grono', 'guna', 'jara', 'jon', 'joz', 'labrada', 'lade', 'laga', 'lajara', 'lavega', 'lbao', 'lche', 'ledo', 'les', 'lla', 'llon', 'lma', 'lmas', 'loma', 'lona', 'lt', 'lva', 'manca', 'manet', 'na', 'nada', 'nares', 'naria', 'nca', 'ncia', 'nder', 'ndia', 'nea', 'nes', 'net', 'no', 'nresa', 'nse', 'ntera', 'ra', 'rbella', 'rca', 'rcia', 'rcon', 'rdoba', 'res', 'rgos', 'ria', 'rife', 'rin', 'rm', 'ron', 'rona', 'ros', 'rotira', 'rrasa', 'rrol', 'rtos', 'runa', 'sa', 'stela', 'stian', 'stoles', 'tafe', 'tava', 'te', 'tiva', 'va', 'vega', 'vera', 'villa', 'ville', 'xo', 'za', 'zde'];
-
-
   i = Math.floor(Math.random() * 12);
   {
     if (i < 3) {

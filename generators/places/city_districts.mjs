@@ -1,6 +1,5 @@
 export default function city_districts() {
   let rnd;
-
   let rnd2;
   let rnd3;
   let rnd4;
@@ -8,10 +7,7 @@ export default function city_districts() {
   let rnd6;
   let
     rnd7;
-
-
   let names;
-
   const nm1 = ['b', 'c', 'd', 'f', 'g', 'h', 'l', 'm', 'n', 'p', 'r', 's', 't', 'w', 'y', 'b', 'c', 'd', 'f', 'g', 'h', 'j', 'k', 'l', 'm', 'n', 'p', 'q', 'r', 's', 't', 'v', 'w', 'x', 'y', 'z', 'bl', 'br', 'ch', 'cl', 'cr', 'dr', 'fl', 'fr', 'gl', 'gr', 'pl', 'pr', 'sc', 'sh', 'sk', 'sl', 'sm', 'sn', 'sp', 'st', 'sw', 'tr', 'tw', 'wh', 'wr', 'sch', 'scr', 'sph', 'shr', 'spl', 'spr', 'str', 'thr'];
   const nm2 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'ai', 'eo', 'ea', 'ee', 'oo', 'oa', 'ia', 'io'];
   const nm3 = ['br', 'bl', 'c', 'ch', 'cl', 'ct', 'ck', 'cc', 'd', 'dg', 'dw', 'dr', 'dl', 'f', 'g', 'gg', 'gl', 'gw', 'gr', 'h', 'k', 'kr', 'kw', 'l', 'll', 'lb', 'ld', 'lg', 'lm', 'ln', 'lr', 'lw', 'lz', 'm', 'mr', 'ml', 'nw', 'n', 'nn', 'ng', 'nl', 'p', 'ph', 'r', 'rb', 'rc', 'rd', 'rg', 'rl', 'rm', 'rn', 'rr', 'rs', 'rst', 'rt', 'rth', 'rtr', 'rw', 'rv', 's', 'ss', 'sh', 'st', 'sth', 'str', 'sl', 'sw', 't', 'tb', 'tl', 'tg', 'tm', 'tn', 'tw', 'th', 'tt', 'v', 'w', 'wl', 'wn', 'x', 'z'];
@@ -19,8 +15,6 @@ export default function city_districts() {
   const nm5 = ['st', 'sk', 'sp', 'nd', 'nt', 'nk', 'mp', 'rd', 'ld', 'lp', 'rk', 'lt', 'lf', 'pt', 'ft', 'ct', 't', 'd', 'k', 'n', 'p', 'l', 'g', 'm', 's', 'b', 'c', 't', 'd', 'k', 'n', 'p', 'l', 'g', 'm', 's', 'b', 'c'];
   const nm6 = ['', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', 'West', 'East', 'North', 'South', 'Little', 'Upper', 'Lower', 'Fort', 'Upper West', 'Upper East', 'Upper North', 'Upper South', 'Lower West', 'Lower East', 'Lower North', 'Lower South', 'Midtown', 'Waterside', 'Bayside', 'Downtown'];
   const nm7 = ['', 'Acre', 'Avenue', 'Bazaar', 'Boulevard', 'Center', 'Circle', 'Corner', 'Cross', 'District', 'East', 'Garden', 'Grove', 'Heights', 'Hill', 'Hills', 'Market', 'North', 'Park', 'Place', 'Plaza', 'Point', 'Road', 'Row', 'Side', 'South', 'Square', 'Street', 'Town', 'Vale', 'Valley', 'West', 'Wood', 'Yard'];
-
-
   const i = Math.floor(Math.random() * 10);
   {
     rnd6 = Math.floor(Math.random() * nm6.length);

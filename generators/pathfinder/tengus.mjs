@@ -1,6 +1,5 @@
 export default function tengus() {
   let rnd;
-
   let rnd2;
   let rnd3;
   let rnd4;
@@ -14,10 +13,7 @@ export default function tengus() {
   let rnd11;
   let
     rnd12;
-
-
   let names;
-
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['', '', '', '', '', 'b', 'ch', 'gr', 'j', 'k', 'kr', 'p', 'pr', 'q', 'qr', 'r', 's', 't', 'tr', 'tch', 'x', 'v', 'z'];
   const nm2 = ['a', 'e', 'o', 'u', 'a', 'e', 'o', 'u', 'a', 'e', 'o', 'u', 'a', 'e', 'o', 'u', 'i', 'i', 'a', 'e', 'o', 'u', 'au', 'ai', 'oi', 'ou'];
@@ -31,8 +27,6 @@ export default function tengus() {
   const nm10 = ['a', 'e', 'i', 'o', 'u', 'a', 'o', 'e', 'a', 'o', 'e', 'u'];
   const nm11 = ['ch', 'g', 'j', 'k', 'kk', 'ky', 'l', 'll', 'm', 'n', 'ng', 'nk', 'p', 'pp', 'q', 'r', 'rr', 's', 't', 'tch', 'v', 'y', 'z', 'zz'];
   const nm12 = ['', '', 'ck', 'k', 'l', 'n', 'r', 't'];
-
-
   const i = Math.floor(Math.random() * 10);
   {
     rnd8 = Math.floor(Math.random() * nm9.length);

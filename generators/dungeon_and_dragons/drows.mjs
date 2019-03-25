@@ -1,14 +1,10 @@
 export default function drows() {
   let rnd;
-
   let rnd2;
   let rnd3;
   let
     rnd4;
-
-
   let names;
-
   const type = Math.random() > 0.5 ? 0 : 1;
   const namesFem = ['Ahlysaaria', 'Akordia', 'Alaunirra', 'Alystin', 'Amalica', 'Angaste', 'Anluryn', 'Ardulace', 'Aunrae', 'Balaena', 'Baltana', 'Bautha', 'Belarbreena', 'Beszrima', 'Brigantyna', 'Briza', 'Brorna', 'Burryna', 'Byrtyn', 'Cazna', 'Chadra', 'Chadzina', 'Chalithra', 'Chandara', 'Chardalyn', 'Charinida', 'Charlindra', 'Chenzira', 'Chessintra', 'Dhaunae', 'Dilynrae', 'Drada', 'Drisinil', 'Eclavdra', 'Elerra', 'Elvanshalee', 'Elvraema', 'Erakasyne', 'Ereldra', 'Faeryl', 'Felyndiira', 'Felyndiira', 'Filfaere', 'G\'eldriia', 'Gaussra', 'Ghilanna', 'Greyanna', 'Gurina', 'Haelra', 'Halisstra', 'Ilharess', 'Ilivarrra', 'Ilmra', 'Imrae', 'Jaelryn', 'Jezzara', 'Jhaelryna', 'Jhaelrynna', 'Jhalass', 'Jhangara', 'Jhanniss', 'Jhulae', 'Khaless', 'Kiaran', 'Laele', 'Laele', 'Larynda', 'LiNeerlay', 'Lledrith', 'Llolfaen', 'Lualyrr', 'Lythrana', 'Malice', 'Maya', 'Menzoberra', 'Mez\'Barris', 'Micarlin', 'Miz\'ri', 'Mizzrym', 'Myrymma', 'Narcelia', 'Nathrae', 'Nedylene', 'Nendra', 'Nizana', 'Nulliira', 'Olorae', 'Pellanistra', 'Phaere', 'Phyrra', 'Qilue', 'Quarra', 'Rauva', 'Rilrae', 'Sabrae', 'Saradreza', 'Sassandra', 'Schezalle', 'Shimyra', 'ShriNeerune', 'Shulvallriel', 'Shurdriira', 'Shurdriira', 'Shurraenil', 'Shyntlara', 'SiNafay', 'Sindyrrith', 'Solenzara', 'Ssapriina', 'T\'risstree', 'Talabrina', 'Talice', 'Tallrene', 'Thalra', 'Thirza', 'Thraele', 'Triel', 'Ulitree', 'Ulviirala', 'Umrae', 'Urlryn', 'Urmelena', 'Vhondryl', 'Viconia', 'Vierna', 'Vornalla', 'Waerva', 'Wuyondra', 'Xalyth', 'Xullrae', 'Xune', 'Yasrena', 'Yvonnel', 'Z\'ress', 'Zarra', 'Zebeyana', 'Zeerith', 'Zelpassa', 'Zendalure', 'Zesstra', 'Zilvra'];
   const namesFemRf = ['Akor', 'Alaun', 'Aly', 'Ang', 'Ardul', 'Aun', 'Bae', 'Bal', 'Belar', 'Briz', 'Bur', 'Chal', 'Char', 'Chess', 'Dhaun', 'Dil', 'Dirz', 'Dris', 'Eclav', 'Elvan', 'Elv', 'Erel', 'Ethe', 'Faer', 'Felyn', 'Filf', 'Gauss', 'G\'eld', 'Ghuan', 'Gin', 'Grey', 'Hael', 'Hal', 'Houn', 'Iiv', 'Iim', 'Illiam', 'In', 'Ilph', 'Irae', 'In', 'Iym', 'Jan', 'Jhael', 'Jhul', 'Jys', 'Lael', 'Lar', 'LiNeer', 'Lird', 'Lua', 'Mal', 'May', 'Micar', 'Min', 'Mol', 'Myr', 'Nath', 'Ned', 'Nhil', 'Neer', 'Null', 'Olor', 'Pellan', 'Phaer', 'Phyr', 'Qualn', 'Quar', 'Quav', 'Qil', 'Rauv', 'Ril', 'Sbat', 'Sab', 'Shi\'n', 'Shri', 'Shur', 'Shynt', 'Sin', 'Ssap', 'Susp', 'Talab', 'Tal', 'Triel', 'T\'riss', 'Ulvir', 'Umrae', 'Vas', 'Vic', 'Vier', 'Vlon', 'Waer', 'Wuyon', 'Xull', 'Xun', 'Yas', 'Zar', 'Zebey', 'Zes', 'Zilv'];
@@ -25,8 +21,6 @@ export default function drows() {
   const namesSurRl = ['afin', 'ana', 'ani', 'ar', 'arn', 'ate', 'ath', 'duis', 'ervs', 'ep', 'ett', 'ghym', 'iryn', 'lyl', 'mtor', 'ndar', 'neld', 'rae', 'rahel', 'rret', 'sek', 'th', 'tlar', 't\'tar', 'tyl', 'und', 'urden', 'val', 'viir', 'zynge'];
   const namesSurFf = ['A\'Dar', 'Ab', 'Abb', 'Arg', 'Baenre', 'Belt', 'Blaer', 'Blund', 'Chaulss', 'Cob', 'Col', 'Cormr', 'D', 'Daev', 'Dal', 'Dhalm', 'Dhunn', 'Dil', 'Din', 'Dryaal', 'Duskr', 'Elpr', 'Faert', 'Fil', 'Gall', 'Glann', 'Glaur', 'H', 'Helv', 'Hunzr', 'Hyl', 'Ich', 'Ilal', 'Ill', 'Jhal', 'Juszt', 'Keteer', 'Khal', 'Kront\'t', 'Lhal', 'Luelt', 'Mizzr', 'Mlezz', 'N', 'Nir', 'Ol', 'Omr', 'Phil', 'Quav', 'Rhomd', 'Rrost', 'Seer', 'Ss', 'T', 'T\'', 'T\'s', 'Tanor\'Th', 'Tel', 'Tlin\'', 'Tlint', 'Ul', 'Vr', 'Vramm', 'Waegl', 'Xilt', 'Yaunt', 'Yril\'Lys', 'Zaphr', 'Zauv', 'Zol'];
   const namesSurFl = ['abar', 'abban', 'ach', 'aeir', 'ael', 'aen', 'aer', 'aerth', 'agh', 'agon', 'al', 'ala', 'ambra', 'ane', 'ar', 'arn', 'arr', 'arran', 'aryd', 'ass', 'ath', 'aulur', 'avar', 'azza', 'ear', 'ein', 'enna', 'esz', 'eztice', 'ifar', 'iir', 'iirn', 'iiryn', 'in', 'inath', 'inn', 'iom', 'ion\'lyr', 'iriy', 'is', 'istyn', 'ith', 'iwin', 'oara', 'oavae', 'ond', 'onrae', 'orel', 'orgh', 'oryn', 'orzza', 'ossz', 'uae', 'uan', 'uil', 'uin', 'une', 'ykur', 'yl', 'ylan', 'ym', 'yn', 'yr', 'yrr', 'yth'];
-
-
   const i = Math.floor(Math.random() * 10);
   {
     if (type === 1) {

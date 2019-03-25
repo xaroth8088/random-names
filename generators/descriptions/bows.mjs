@@ -43,17 +43,12 @@ export default function bows() {
   const rnd18 = Math.floor(Math.random() * nm18.length);
   const rnd19 = Math.floor(Math.random() * nm19.length);
   const rnd20 = Math.floor(Math.random() * nm20.length);
-
   const name = `This ${nm1[rnd]} ${nm2[rnd2]} has been ${nm3[rnd3]} constructed of ${nm4[rnd4]} ${nm5[rnd5]}. `;
   const name2 = `Its string is made from ${nm6[rnd6]} ${nm6b[rnd6b]}, it's ${nm7[rnd7]} material around these parts of the world.`;
-
   const name3 = `The limbs have been decorated with ${nm8[rnd8]} and end in ${nm9[rnd9]} ${nm10[rnd10]}. `;
   const name4 = `The ${nm15} is wrapped in ${nm11[rnd11]} and decorated with ${nm12[rnd12]}.`;
-
   const name6 = `The ${nm16[rnd16]} quiver is made from ${nm17[rnd17]} and is supposed to be worn around the archer's ${nm18[rnd18]}. The outer side has been decorated with ${nm19[rnd19]}, which ${nm20[rnd20]}.`;
-
   const name5 = `In the hands of ${nm13[rnd13]} this bow is capable of firing arrows up to ${nm14} meters while still retaining lethal power.`;
-
   let result = '';
   result += name;
   result += name2;

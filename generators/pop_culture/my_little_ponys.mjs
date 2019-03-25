@@ -2,10 +2,7 @@ export default function my_little_ponys() {
   let rnd0;
   let
     rnd1;
-
-
   let names;
-
   const type = Math.random() > 0.5 ? 0 : 1;
   if (type === 1) {
     var names1 = ['Blueberry', 'Twinkletoes', 'Starfish', 'Nettlekiss', 'Hazelblossom', 'Dazzleflash', 'Buttercup', 'Bubblegum', 'Cherry Blossom', 'Snowflake', 'Water Lilly', 'Twinkle Star', 'Saffron', 'Pumpkin', 'Cinnamon Twirl', 'Sweetie Pie', 'Cutie Pie', 'Celeste', 'Rose Petal', 'Sugar Song', 'Honey Bee', 'Scarlet', 'Obsidia', 'Lollipop', 'Sparkle', 'Dahlia', 'Lucy Light', 'Lavender', 'Orchid Jewel', 'Sapphire', 'Sapphire Swing', 'Scarlet Harmony', 'Sapphire Sunlight', 'Lunar Candy', 'Midnight Harmony', 'Violet Glow', 'Velvet Love', 'Sapphire Daisy', 'Fluffy Candy', 'Fluffy Star', 'Rainbow Dawn', 'Pearl Petunia', 'Caramel Candy', 'Velvet Kisses', 'Ruby Aurora', 'Dew Drop', 'Solar Kisses', 'Ivy Jewel', 'Emerald Aura', 'Violet Sparkle', 'Violet Rain', 'Strawberry Fashion', 'Ivory Fire', 'Shadow Flower', 'Delilah Dusk', 'Velvet Cupcake', 'Star Eyes', 'Celestial Song', 'Celestial Snowflake', 'Snowy Blossom', 'Azure Moon', 'Azure Shadow', 'Mythic Diamond', 'Sapphire Flower', 'Lunar Flower', 'Sapphire Moonlight', 'Aqua Lilly', 'Lillypad Love', 'Lila Love', 'Emerald Snow', 'Sugar Spice', 'Chocolate Harmony', 'Electric Harmony', 'Ebony Moon', 'River Breeze', 'Ebony Breeze', 'Crystal Rose', 'Diamond Blossom', 'Ice Blossom', 'Phantasia', 'Starry Night', 'Moon Petal', 'Emerald Dream', 'Sandy Shadow', 'Ivory Charm', 'Lucky Star', 'Lucky Lucy', 'Ocean Breeze', 'Cherry Berry', 'Caramel Smooch', 'Caramel Kisses', 'Amethyst Rose', 'Lunar Love', 'Scarlet Shadow', 'Mythic Fashion', 'Little Harmony', 'Little Snowflake', 'Starry Diamond', 'Starry Swirl', 'Nightlight Nourish', 'Honey Cake', 'Amber Night', 'Amber Gem', 'Flawless Gem', 'Twilight Snowflake', 'Fluffy Wings'];
@@ -20,7 +17,6 @@ export default function my_little_ponys() {
     var names2 = ['Apple', 'Arctic', 'Astral', 'Berry', 'Brisk', 'Bulky', 'Caramel', 'Cloud', 'Colt', 'Comet', 'Crimson', 'Dapper', 'Dark', 'Duke', 'Emerald', 'Fancy', 'Flawless', 'Golden', 'Ivory', 'Jackpot', 'Jade', 'Little', 'Marble', 'Master', 'Midnight', 'Mister', 'Moonlight', 'Moonshadow', 'Moonstone', 'Mythic', 'Night', 'Nimble', 'Onyx', 'Platinum', 'Prince', 'Rapid', 'Rocky', 'Sapphire', 'Shadow', 'Shining', 'Silver', 'Sky', 'Solar', 'Star', 'Steel', 'Straight', 'Sunrise', 'Sweet', 'Swift', 'Thunder', 'Tiny', 'Twilight', 'Velvet', 'Wild', 'Winter', 'Yellow'];
     var names3 = ['Ace', 'Armor', 'Arrow', 'Bolt', 'Breeze', 'Bristle', 'Bronco', 'Buster', 'Charge', 'Chaser', 'Colt', 'Comet', 'Crunch', 'Dare', 'Dash', 'Facade', 'Feet', 'Flash', 'Force', 'Gust', 'Haze', 'Hero', 'Hooves', 'Hunter', 'Ice', 'Jester', 'Justice', 'Mane', 'Mark', 'Mask', 'Meadow', 'Metal', 'Moon', 'Mustang', 'Night', 'Prickle', 'Road', 'Rock', 'Shadow', 'Shine', 'Snow', 'Sorbet', 'Spark', 'Specter', 'Spirit', 'Sprint', 'Star', 'Starlight', 'Storm', 'Strikes', 'Sweeper', 'Tail', 'Thunder', 'Twister', 'Venture', 'Victory', 'Vision', 'Whiskers', 'Whistle', 'White', 'Wing'];
   }
-
   const i = Math.floor(Math.random() * 10);
   {
     if (i < 5) {

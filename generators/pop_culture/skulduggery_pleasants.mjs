@@ -1,6 +1,5 @@
 export default function skulduggery_pleasants() {
   let rnd;
-
   let rnd2;
   let rnd3;
   let rnd4;
@@ -8,10 +7,7 @@ export default function skulduggery_pleasants() {
   let rnd6;
   let
     rnd7;
-
-
   let names;
-
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['Aberrant', 'Arbor', 'Arch', 'Archer', 'Argent', 'Art', 'Ash', 'Bane', 'Barb', 'Barbarous', 'Barren', 'Behemoth', 'Bellow', 'Berserk', 'Birch', 'Blade', 'Blaze', 'Booth', 'Brawl', 'Brawn', 'Brick', 'Brook', 'Brutus', 'Buster', 'Cane', 'Carnage', 'Carter', 'Chance', 'Chaos', 'Chase', 'Chuck', 'Cipher', 'Cliff', 'Clout', 'Coal', 'Copper', 'Cosmo', 'Coy', 'Crimson', 'Curse', 'Daemon', 'Dale', 'Darth', 'Dirk', 'Dolor', 'Drake', 'Duke', 'Dune', 'Dusty', 'Echo', 'Edge', 'Fiend', 'Fink', 'Flare', 'Flint', 'Forest', 'Frank', 'Furor', 'Gale', 'Gall', 'Gallant', 'Garotte', 'Ghoul', 'Giddy', 'Glint', 'Gloom', 'Glum', 'Grant', 'Grim', 'Grisly', 'Grit', 'Grog', 'Grub', 'Guillotine', 'Haggard', 'Hallow', 'Harm', 'Havoc', 'Hazard', 'Hog', 'Honor', 'Hunter', 'Insidious', 'Ire', 'Jack', 'Jasper', 'Jet', 'Jimmy', 'Jinx', 'Junior', 'Justice', 'Kindle', 'Kirk', 'Knave', 'Kris', 'Lament', 'Lance', 'Lore', 'Lynx', 'Lyric', 'Magnum', 'Mane', 'Mark', 'Mars', 'Maverick', 'Max', 'Maze', 'Meddle', 'Menace', 'Miles', 'Morrow', 'Mortar', 'Morte', 'Nick', 'Norm', 'Obsidian', 'Ocean', 'Omen', 'Onyx', 'Page', 'Pale', 'Paragon', 'Parker', 'Parrish', 'Pester', 'Phoenix', 'Picket', 'Proffer', 'Putrid', 'Pyre', 'Quell', 'Quill', 'Rage', 'Ray', 'Raze', 'Rebel', 'Red', 'Requiem', 'Riot', 'River', 'Rob', 'Rock', 'Rod', 'Rogue', 'Ruckus', 'Ruffian', 'Rum', 'Rusty', 'Saber', 'Sable', 'Sage', 'Sane', 'Savage', 'Scalawag', 'Scourge', 'Severus', 'Shade', 'Sinew', 'Slate', 'Slick', 'Slug', 'Sly', 'Snarl', 'Snitch', 'Spark', 'Spectre', 'Stain', 'Sterling', 'Storm', 'Stout', 'Strife', 'Sullen', 'Sully', 'Talon', 'Tax', 'Taylor', 'Teal', 'Tenor', 'Thorn', 'Torpid', 'Trinket', 'Tuck', 'Tucker', 'Vain', 'Venom', 'Venture', 'Verve', 'Vex', 'Victor', 'Vigor', 'Wicked', 'Will', 'Wily', 'Woe', 'Wolf', 'Wrath', 'Wright', 'Zeal', 'Zero', 'Zilch'];
   const nm2 = ['Affinity', 'Agate', 'Agony', 'Alma', 'Amber', 'Angel', 'Anima', 'Answer', 'Apathy', 'Apple', 'Aria', 'Ash', 'Atrophy', 'August', 'Aura', 'Aurora', 'Autumn', 'Banshee', 'Blaze', 'Blemish', 'Blight', 'Bliss', 'Blithe', 'Blitz', 'Bonnie', 'Breeze', 'Brook', 'Cadence', 'Caprice', 'Carmine', 'Carol', 'Cat', 'Cerise', 'Chance', 'Charity', 'Chastity', 'Chimera', 'Cicatrix', 'Cinnamon', 'Claret', 'Clover', 'Coral', 'Cosmo', 'Crystal', 'Cynthia', 'Dahlia', 'Daphne', 'Darling', 'Dawn', 'Desire', 'Destiny', 'Dew', 'Diamond', 'Distress', 'Dolorous', 'Drew', 'Ebony', 'Echo', 'Ember', 'Empathy', 'Enigma', 'Ennui', 'Erica', 'Erin', 'Euphoria', 'Eve', 'Faith', 'Fatality', 'Fawn', 'Feather', 'Felicity', 'Fern', 'Fever', 'Flare', 'Flora', 'Gem', 'Ginger', 'Goldie', 'Grace', 'Grief', 'Hail', 'Harmony', 'Hazel', 'Heirloom', 'Holly', 'Hope', 'Indigo', 'Iris', 'Isle', 'Ivory', 'Ivy', 'Jade', 'Jasmine', 'Jeopardy', 'Jewel', 'Joy', 'June', 'Juniper', 'Karma', 'Kat', 'Kelpie', 'Kitty', 'Laurel', 'Legacy', 'Liberty', 'Lily', 'Lullaby', 'Luna', 'Lyric', 'Mae', 'Magnolia', 'Magpie', 'Malady', 'Malaise', 'Melody', 'Merry', 'Mettle', 'Mirage', 'Mirth', 'Misery', 'Misty', 'Morgana', 'Muse', 'Mystery', 'Novelty', 'Oceane', 'Olive', 'Onyx', 'Opal', 'Oracle', 'Page', 'Paige', 'Paradox', 'Parody', 'Patience', 'Pearl', 'Penny', 'Penury', 'Pepper', 'Peril', 'Phoenix', 'Pixie', 'Psyche', 'Pyre', 'Raine', 'Rarity', 'Raven', 'Ravish', 'Riddle', 'River', 'Rose', 'Rosemary', 'Ruby', 'Rune', 'Ruth', 'Sable', 'Saffron', 'Sage', 'Sapphire', 'Saturninity', 'Scarlet', 'Scout', 'Serenity', 'Serpente', 'Shade', 'Shenanigan', 'Sierra', 'Sky', 'Skye', 'Soots', 'Sorrow', 'Spectacle', 'Sphinx', 'Spirit', 'Stigma', 'Storm', 'Summer', 'Sybil', 'Tawny', 'Teal', 'Tempest', 'Thorne', 'Thriller', 'Tinder', 'Tragedy', 'Trinity', 'Trinket', 'Twilight', 'Velleity', 'Velvet', 'Venus', 'Vex', 'Vice', 'Violet', 'Viper', 'Volley', 'Willow', 'Winter', 'Woe', 'Wraith'];
@@ -20,8 +16,6 @@ export default function skulduggery_pleasants() {
   const nm5 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'ue', 'au', 'io', 'ia', 'ie', 'ei', 'ai'];
   const nm6 = ['d', 'dd', 'dr', 'ff', 'fr', 'g', 'gr', 'gn', 'gm', 'k', 'kk', 'kn', 'l', 'll', 'ln', 'lm', 'm', 'mm', 'mr', 'n', 'nn', 'nr', 'nd', 'nv', 'nt', 'ph', 'rk', 'rg', 'rq', 'rv', 'rf', 'rb', 'rd', 'rl', 'rm', 's', 'ss', 'sh', 'sl', 'sr', 'sn', 'st', 't', 'th', 'tr', 'v', 'vr', 'd', 'd', 'g', 'g', 'k', 'k', 'l', 'l', 'l', 'm', 'm', 'n', 'n', 's', 's', 't', 't', 'v', 'v'];
   const nm7 = ['', '', 'l', 'n', 's', 'th'];
-
-
   {
     if (type === 2) {
       rnd = Math.floor(Math.random() * nm4.length);

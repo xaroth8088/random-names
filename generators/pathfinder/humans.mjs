@@ -1,6 +1,5 @@
 export default function humans() {
   let rnd;
-
   let rnd2;
   let rnd3;
   let rnd4;
@@ -11,10 +10,7 @@ export default function humans() {
   let
     rnd9;
   let rnd10;
-
-
   let names;
-
   const type = Math.random() > 0.5 ? 0 : 1;
   /* Kellid */
   const nm1 = ['b', 'br', 'd', 'dr', 'g', 'k', 'kr', 'p', 'pr', 'q', 'r', 'str', 't', 'tr', 'v'];
@@ -87,8 +83,6 @@ export default function humans() {
   const nm63 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'y', 'ae', 'eu', 'aa', 'ui', 'ee', 'ia', 'au', 'eo', 'ei'];
   const nm64 = ['b', 'c', 'ch', 'dr', 'f', 'fm', 'fs', 'g', 'h', 'hbr', 'hm', 'k', 'kh', 'kht', 'kr', 'kt', 'l', 'm', 'mm', 'ms', 'n', 'nh', 'nk', 'nkh', 'nm', 'nn', 'nr', 'ns', 'nt', 'p', 'ph', 'pp', 'ps', 'pt', 'q', 'r', 'rg', 'rk', 'rm', 'rp', 'rph', 'rr', 'rs', 'rt', 's', 'sh', 'sk', 'skh', 'ss', 'st', 't', 'th', 'thr', 'tm', 'tr', 'z', 'zgh'];
   const nm65 = ['', '', '', '', '', '', '', '', 'b', 'd', 'f', 'ff', 'h', 'l', 'ln', 'm', 'n', 'nn', 'p', 'r', 's', 'sh', 't', 'x'];
-
-
   i = Math.floor(Math.random() * 12);
   {
     if (type === 1) {

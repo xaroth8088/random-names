@@ -1,23 +1,17 @@
 export default function skavens() {
   let rnd;
-
   let rnd2;
   let rnd3;
   let rnd4;
   let
     rnd5;
-
-
   let names;
-
   const nm1 = ['', '', '', '', 'cr', 'chr', 'ch', 'kr', 'khr', 'kh', 'q', 'qh', 'qr', 'qhr', 'sn', 'sk', 'sr', 'str', 'st', 'skr', 'th', 'thr', 'tr', 't', 'v', 'x', 'z', 'zr', 'zh', 'zn'];
   const nm2 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'ie', 'ee', 'uo', 'ue', 'uee', 'ia', 'ua'];
   const nm3 = ['ch', 'cn', 'cr', 'cq', 'cx', 'gz', 'gr', 'gch', 'gq', 'k', 'kh', 'kr', 'kz', 'ktr', 'kn', 'nq', 'nk', 'nkr', 'nqr', 'q', 'qr', 'qz', 'qtr', 'sh', 'shr', 'shq', 'sq', 'sqh', 'sqr', 'sk', 'skr', 't', 'thr', 'tr', 'tz', 'x', 'xr', 'xk', 'xkr', 'xq', 'zq', 'zk', 'zkr'];
   const nm4 = ['ch', 'k', 'kch', 'l', 'lk', 'n', 'nq', 't', 'tch'];
   const nm5 = ['amber', 'ash', 'ashen', 'barb', 'barbed', 'bitter', 'black', 'blazing', 'bone', 'bristle', 'broad', 'cask', 'cinder', 'claw', 'coven', 'crag', 'craven', 'crest', 'crow', 'dark', 'dead', 'death', 'deep', 'dusk', 'dust', 'ember', 'farrow', 'feather', 'fiery', 'fire', 'flint', 'fore', 'great', 'grim', 'head', 'heart', 'high', 'iron', 'keen', 'krag', 'lone', 'low', 'mourn', 'night', 'pine', 'pride', 'rapid', 'rough', 'shadow', 'silent', 'silver', 'skull', 'sky', 'slate', 'steel', 'stern', 'stone', 'tusk', 'vermin', 'wild', 'wind'];
   const nm6 = ['back', 'basher', 'bender', 'binder', 'bleeded', 'blight', 'blood', 'bone', 'born', 'bough', 'breaker', 'breath', 'brow', 'buster', 'chaser', 'chest', 'chewer', 'chin', 'claw', 'cleaver', 'crest', 'crusher', 'cutter', 'digger', 'fang', 'fangs', 'finger', 'fingers', 'fist', 'flayer', 'fury', 'gaze', 'gazer', 'grip', 'hunter', 'jaw', 'lash', 'lasher', 'master', 'maul', 'maw', 'reaper', 'reaver', 'ripper', 'runner', 'sbark', 'scar', 'scream', 'seeker', 'shrieker', 'slayer', 'snout', 'spine', 'spire', 'splitter', 'stalker', 'striker', 'tail', 'taker', 'thorn', 'walker', 'watcher', 'weaver'];
-
-
   const i = Math.floor(Math.random() * 10);
   {
     rnd = Math.floor(Math.random() * nm5.length);

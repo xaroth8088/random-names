@@ -1,15 +1,11 @@
 export default function ratfolks() {
   let rnd;
-
   let rnd2;
   let rnd3;
   let rnd4;
   let
     rnd5;
-
-
   let names;
-
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['', '', '', '', '', '', '', 'b', 'br', 'c', 'cr', 'ch', 'd', 'dr', 'dj', 'g', 'gr', 'gn', 'gl', 'j', 'k', 'kr', 'kv', 'kn', 'm', 'n', 'p', 'pr', 'r', 's', 'st', 'sr', 'skr', 'sc', 'scr', 'sk', 't', 'tr', 'v', 'vr', 'z', 'zr'];
   const nm2 = ['a', 'e', 'i', 'o', 'a', 'e', 'i'];
@@ -19,8 +15,6 @@ export default function ratfolks() {
   const nm6 = ['a', 'e', 'i', 'o', 'u', 'e', 'e', 'e', 'i', 'i', 'i'];
   const nm7 = ['b', 'bb', 'c', 'cc', 'f', 'ff', 'g', 'gg', 'j', 'k', 'kk', 'l', 'll', 'm', 'mm', 'n', 'nn', 'p', 'pp', 'r', 'rr', 's', 'ss', 't', 'tt', 'z', 'zz'];
   const nm8 = ['', '', '', '', '', '', '', '', 'ch', 'f', 'hm', 'hl', 'ks', 'l', 'm', 'n', 'r', 's', 'sh', 't', 'th', 'tch', 'x'];
-
-
   const i = Math.floor(Math.random() * 10);
   {
     if (type === 1) {

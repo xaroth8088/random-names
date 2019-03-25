@@ -1,6 +1,5 @@
 export default function kel_dors() {
   let rnd;
-
   let rnd2;
   let rnd3;
   let rnd4;
@@ -15,10 +14,7 @@ export default function kel_dors() {
   let rnd12;
   let
     rnd13;
-
-
   let names;
-
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['', '', '', '', '', 'b', 'ch', 'd', 'gn', 'h', 'j', 'k', 'n', 'p', 'pl', 'r', 's', 'sh', 't', 'tr', 'v', 'w', 'x', 'y', 'z'];
   const nm2 = ['a', 'e', 'i', 'o', 'u', 'a', 'o', 'y', 'a', 'e', 'i', 'o', 'u', 'a', 'o', 'y', 'a', 'o', 'a', 'e', 'i', 'o', 'u', 'a', 'o', 'y', 'a', 'e', 'i', 'o', 'u', 'a', 'o', 'y', 'a', 'o', 'ee', 'aa', 'oo', 'ia', 'ea'];
@@ -32,8 +28,6 @@ export default function kel_dors() {
   const nm10 = ['a', 'e', 'i', 'o', 'u', 'a', 'a', 'e', 'i', 'o', 'u', 'a', 'a', 'e', 'i', 'o', 'u', 'a', 'a', 'e', 'i', 'o', 'u', 'a', 'a', 'e', 'i', 'o', 'u', 'a', 'ii', 'ai', 'oo', 'aa', 'uu'];
   const nm11 = ['c', 'ch', 'g', 'hr', 'k', 'kr', 'l', 'lr', 'mn', 'n', 'nd', 'r', 'rr', 'rv', 's', 'sz', 'st', 't', 'tch', 'z'];
   const nm12 = ['', '', '', '', '', '', '', '', 'c', 'k', 'l', 'ln', 'mm', 'n', 'ng', 'r', 's', 'ss', 'w', 'zz'];
-
-
   const i = Math.floor(Math.random() * 10);
   {
     rnd7 = Math.floor(Math.random() * nm9.length);

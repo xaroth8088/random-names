@@ -1,15 +1,11 @@
 export default function kobolds() {
   let rnd;
-
   let rnd2;
   let rnd3;
   let rnd4;
   let
     rnd5;
-
-
   let names;
-
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['', '', '', 'b', 'br', 'cr', 'cl', 'ch', 'chr', 'd', 'dr', 'g', 'gr', 'ghr', 'k', 'kr', 'kh', 'kn', 'q', 'qr', 'qh', 'sh', 'shr', 'sk', 'sn', 'str', 'sz', 'tr', 'v', 'vr', 'x', 'z', 'zr'];
   const nm2 = ['e', 'i', 'u', 'e', 'i', 'u', 'a', 'o', 'e', 'i', 'u', 'e', 'i', 'u', 'a', 'o', 'e', 'i', 'u', 'e', 'i', 'u', 'a', 'o', 'e', 'i', 'u', 'e', 'i', 'u', 'a', 'o', 'aa', 'ai', 'au', 'ei', 'ia', 'ee'];
@@ -25,8 +21,6 @@ export default function kobolds() {
   const nm12 = ['a', 'e', 'i', 'u', 'a', 'e', 'i', 'u', 'a', 'e', 'i', 'u', 'a', 'e', 'i', 'u', 'a', 'e', 'i', 'u', 'a', 'e', 'i', 'u', 'a', 'e', 'i', 'u', 'o', 'o', 'o', 'o', 'aa', 'ee', 'ia', 'ai', 'ei'];
   const nm13 = ['b', 'bb', 'd', 'dd', 'g', 'gg', 'k', 'kk', 'r', 'rr', 'tt', 'z', 'zz', 'bhr', 'dj', 'gn', 'gm', 'gr', 'gv', 'kz', 'kv', 'khr', 'lg', 'lgr', 'lk', 'ld', 'lz', 'ldr', 'mg', 'mk', 'mch', 'mq', 'msz', 'mzr', 'ng', 'nd', 'ndr', 'nz', 'nsz', 'rg', 'rd', 'rdr', 'rdj', 'rsz', 'rk', 'rch', 'tz', 'tr', 'thr', 'zs', 'zsz', 'zzs', 'zd'];
   const nm14 = ['', '', '', '', '', 'h', 'l', 'm', 'n', 'ng', 'r', 's', 'sz', 'x', 'z'];
-
-
   const i = Math.floor(Math.random() * 10);
   {
     rnd = Math.floor(Math.random() * nm9.length);

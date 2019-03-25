@@ -1,6 +1,5 @@
 export default function siths() {
   let rnd;
-
   let rnd2;
   let rnd3;
   let rnd4;
@@ -8,10 +7,7 @@ export default function siths() {
   let rnd6;
   let
     rnd7;
-
-
   let names;
-
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['a', 'i', 'o', 'u', 'â', 'û', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', ''];
   const nm2 = ['ch', 'd', 'dz', 'h', 'j', 'k', 'kr', 'kh', 'm', 'n', 'l', 'q', 'r', 'rh', 's', 'sh', 'sr', 't', 'ts', 'w', 'wr', 'wh', 'y', 'z', 'zh', 'zr', 'ch', 'd', 'h', 'j', 'k', 'm', 'n', 'l', 'q', 'r', 's', 't', 'w', 'y', 'z'];
@@ -27,8 +23,6 @@ export default function siths() {
   const nm12 = ['b', 'c', 'd', 'g', 'k', 'l', 'm', 'n', 'p', 'r', 's', 't', 'v', 'w', 'z', '', '', '', '', '', '', '', '', '', '', '', '', ''];
   const nm13 = ['a', 'e', 'i', 'o', 'u', 'iu', 'ae', 'ia', 'ua', 'uo', 'ea', 'iu', 'ae', 'ia', 'ua'];
   const nm14 = ['th', 's', 'sh', 'n', 'm', 'x', 'l', 'wr', 'sy', 'ty', 'tiur', 'tiuth', 'siuth', 'ny', 'nyr', 'lyr', 'rius', '', '', '', '', '', '', '', '', '', '', '', '', ''];
-
-
   {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm8.length);

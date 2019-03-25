@@ -8,7 +8,6 @@ export default function battlefields() {
   let nm7 = ['be filled with the scent of food from a nearby town', 'be rich with scents from nearby breweries', 'carry the sounds of birds, rivers and wildlife', 'be soft and carry a gentle breeze', 'be rich in sound from a nearby town and a forest full of wildlife', 'be full of nature\'s sounds', 'be delicate and quiet', 'be fresh and smell of nature\'s wonders', 'carry the delicate scents of flowers and fruits', 'carry the sounds of a large waterfall, small rivers and nature\'s wildlife'];
   const nm8 = ['thick with the scent of death and decay', 'heavy and thick with the scent of smoke', 'carrying a thick, black smoke and small embers', 'deafening loud, the sound of explosions drowns any other sound in the area', 'a hellish symphony of screams, explosions and gunfire', 'a barrage of sounds of explosions, war cries and the screams of the wounded', 'merely a canvas for the stench of death and the cries of the dying', 'thick with the stench of gunpowder, blood, gore and death', 'heavy with the screams of dying fighters and the scent of their blood', 'glowing red with fire and thick with smoke, ash and embers'];
   const nm9 = ['enough to make even the bravest tremble in fear', 'something no survivor will ever forget', 'hell has descended upon this area', 'a sight of pure nightmares', 'the mere sense of it will make you want to run', 'there\'s no coming back from this', 'enough to destroy whatever courage is left in the survivors'];
-
   const nm10 = ['Two armies', 'Two parties', 'Two trained armies', 'Two barely trained groups', 'An army and a rebellion', 'An army of rebels and an army of warriors'];
   const nm11 = ['for supremacy', 'for resources', 'over a mere difference in lifestyle and belief', 'for independance', 'because of a betrayal', 'because of the lies of their leaders', 'without knowing the true reason', 'for control of the area', 'due to a difference in beliefs'];
   const nm12 = ['it\'s clear who will win', 'the victor is obvious', 'it\'s becoming clear which side will win', 'at this point it\'s undeniable which side will win', 'it\'s starting to become clear which side will win', 'it\'s yet to be determined which side\'s on the winning hand', 'the battle is in nobody\'s favor yet', 'there\'s no hint of which side will win', 'with no side on the winning hand, this battle could go on for a long time', 'this battle has yet to find its winning side'];
@@ -18,19 +17,16 @@ export default function battlefields() {
   let nm16 = ' grim ';
   let nm17 = ['despair', 'the certainty of death', 'anguish', 'gloom', 'pain', 'sorrow', 'horror', 'agony', 'strain', 'exhaustion', 'fatigue'];
   let nm18 = ['yet they fight on', 'but they force themselves to fight nonetheless', 'but they refuse to give up', 'they want to give up, but somehow keep fighting', 'their spirit will be broken soon', 'they continue to fight, but their fight is a hopeless one', 'fighting is useless, but they will fight to the death'];
-
   let nm19 = ['the rush of victory coursing through their bodies', 'victory ready for the taking', 'victory becoming more and more likely', 'a certainty of victory', 'the thought of victory in their minds'];
   let nm20 = ' the winning side ';
   let nm21 = ['pushes harder and harder on their enemies', 'pushes on and on', 'fights even harder and with more tenacity', 'fights with a sense of relief knowing all will be over soon', 'has gained a morale boost and is fighting their enemies with more determination', 'fights as if they\'re invinsible', 'fights with new found strength'];
   const nm22 = ['bloodlust', 'a frenzy', 'rage', 'panic', 'hysteria', 'terror', 'exhaustion', 'fatigue'];
   let nm23 = ['frantically killing any enemy in sight', 'on a rampage against anybody standing in their way', 'killing any enemy they see in a fury of blood and gore', 'recklessly charging towards the enemy with only the aim to kill all', 'carelessly charging any enemy without a care for their own safety'];
   const nm24 = ['just wish all this was over', 'can only think of home and what they left behind', 'fight on in the hopes to survive this terror', 'fight merely for the sake of survival', 'seem to be fairly unaffected by the terrors around them', 'fight by only focusing on their enemy and not the carnage around them', 'long for the end of this battle'];
-
   const nm25 = ['heavy', 'enormous', 'unimaginable', 'tremendous', 'immense', 'disastrous', 'tragic', 'devastating'];
   const nm26 = ['years', 'decades', 'ages', 'generations', 'a lifetime'];
   const nm27 = ['explosion holes', 'broken siege engines', 'metal', 'bodies', 'weaponry', 'lost bombs', 'rubble', 'debris', 'blood', 'gore'];
   let nm28 = ['trees', 'flowers', 'grass', 'bushes', 'shrubs', 'plants'];
-
   const rnd1 = Math.floor(Math.random() * nm1.length);
   if (rnd1 > 1 && rnd1 < 4) {
     nm4 = ['peaceful ', 'quiet ', 'tranquil ', 'serene ', 'beautiful ', 'vast ', 'stunning ', 'tremendous '];
@@ -66,7 +62,6 @@ export default function battlefields() {
   const rnd7 = Math.floor(Math.random() * nm7.length);
   const rnd8 = Math.floor(Math.random() * nm8.length);
   const rnd9 = Math.floor(Math.random() * nm9.length);
-
   const rnd10 = Math.floor(Math.random() * nm10.length);
   const rnd11 = Math.floor(Math.random() * nm11.length);
   const rnd12 = Math.floor(Math.random() * nm12.length);
@@ -97,7 +92,6 @@ export default function battlefields() {
   }
   const rnd23 = Math.floor(Math.random() * nm23.length);
   const rnd24 = Math.floor(Math.random() * nm24.length);
-
   const rnd25 = Math.floor(Math.random() * nm25.length);
   const rnd26 = Math.floor(Math.random() * nm26.length);
   const rnd27a = Math.floor(Math.random() * nm27.length);
@@ -118,16 +112,11 @@ export default function battlefields() {
   while (rnd28c === rnd28a || rnd28c === rnd28b) {
     rnd28c = Math.floor(Math.random() * nm28.length);
   }
-
   const name = `The ${nm1[rnd1]} is littered with ${nm2[rnd2a]}, ${nm2[rnd2b]} and ${nm2[rnd2c]}. Red, ${nm3[rnd3a]} and ${nm3[rnd3b]} are the new colors of what was once a ${nm4[rnd4]}${nm5[rnd5]} ${nm1[rnd1]}, which has now become the stage of a ${nm6[rnd6]}.`;
   const name2 = `The air which would normally ${nm7[rnd7]} is now ${nm8[rnd8]}, ${nm9[rnd9]}.`;
-
   const name3 = `${nm10[rnd10]} fight each other ${nm11[rnd11]}, but ${nm12[rnd12]}. The ${nm13[rnd13]} of${nm14}${nm15[rnd15]} the ${nm1[rnd1]} and the faces of the fighters are${nm16}with ${nm17[rnd17a]} and ${nm17[rnd17b]}, ${nm18[rnd18]}.`;
-
   const name4 = `With ${nm19[rnd19]}${nm20}${nm21[rnd21]}. Some have succumbed to ${nm22[rnd22]} and are ${nm23[rnd23]}, while others ${nm24[rnd24]}.`;
-
   const name5 = `The toll on both nature and humanity is ${nm25[rnd25]}. It'll likely take ${nm26[rnd26]} before this ${nm1[rnd1]} will have recovered. It's clear ${nm27[rnd27a]}, ${nm27[rnd27b]} and ${nm27[rnd27c]} have taken the place of ${nm28[rnd28a]}, ${nm28[rnd28b]} and ${nm28[rnd28c]}.`;
-
   let result = '';
   result += name;
   result += '\n';

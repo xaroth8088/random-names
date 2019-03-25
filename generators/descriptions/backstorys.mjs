@@ -1,9 +1,5 @@
 export default function backstorys() {
-
-
     let rnd17;
-
-
     const type = Math.random() > 0.5 ? 0 : 1;
     let nm1 = ['He', 'he', 'his', 'him', 'man'];
     let nm2 = ['adventurous', 'affectionate', 'analytical', 'athletic', 'brave', 'calm', 'capable', 'charismatic', 'charming', 'cheerful', 'creative', 'curious', 'daring', 'dedicated', 'dependable', 'determined', 'driven', 'dutiful', 'eager', 'elegant', 'energetic', 'faithful', 'funny', 'generous', 'gentle', 'happy', 'helpful', 'honest', 'hospitable', 'humble', 'humorous', 'innocent', 'intelligent', 'intrepid', 'jovial', 'just', 'light-hearted', 'loyal', 'modest', 'mysterious', 'polite', 'popular', 'proud', 'quick', 'reliable', 'responsible', 'savvy', 'sensitive', 'sincere', 'sweet', 'talkative', 'thoughtful', 'whimsical', 'wise', 'witty'];
@@ -28,7 +24,6 @@ export default function backstorys() {
     let nm20 = ['to explore', 'than meets the eye', 'than we know', 'secrets than answers', 'than what we get to know', 'to experience', 'to discover', 'to see, taste and experience', 'than people let on', 'incredible sights to behold', 'watchful eyes than expected', 'caution than needed', 'to learn', 'to enjoy', 'people to meet'];
     let nm21 = ['great friends', 'great companions', 'great parents', 'amazing friends', 'plenty of resources', 'a great family', 'awesome friends', 'great people around', 'wise teachers and great friends', 'a close group of friends'];
     const names = [];
-
     const tp = type;
     const gnd = Math.random();
     if (gnd < 0.5) {
@@ -93,7 +88,6 @@ export default function backstorys() {
     const rnd19 = Math.floor(Math.random() * nm19.length);
     const rnd20 = Math.floor(Math.random() * nm20.length);
     const rnd21 = Math.floor(Math.random() * nm21.length);
-
     if (tp === 2) {
         names[0] = `${nm1[0]}'s ${nm2[rnd2a]}, ${nm2[rnd2b]} and ${nm2[rnd2c]}. ${nm4[rnd4]} with ${nm1[2]} ${nm3[rnd3]} past.`;
         names[1] = `${nm1[0]} was born and grew up in a${nm5[rnd5]} family in a${nm6[rnd6]} ${nm7[rnd7]}, ${nm1[1]} lived ${nm8[rnd8]} until ${nm1[1]} was about ${nm9} years old, but at that point ${nm10[rnd10]}.`;
@@ -105,14 +99,11 @@ export default function backstorys() {
         names[2] = `${nm1[0]} ${nm11[rnd11]} and was ${nm12[rnd12]}.  ${nm13[rnd13]}, ${nm1[1]} ${nm12b[rnd12b]} in a ${nm14[rnd14]} world. But with ${nm1[2]} ${nm15[rnd15a]} and ${nm15[rnd15b]}, there's nothing to stop ${nm1[3]} from ${nm16[rnd16]}. ${nm1[0]} could quickly become ${nm17[rnd17]}.`;
         names[3] = `${nm18[rnd18]} ${nm1[1]} is currently ${nm19[rnd19]}. ${nm1[0]} feels like there's more ${nm20[rnd20]} in this world. Luckily ${nm1[1]} has ${nm21[rnd21]} to support ${nm1[3]}.`;
     }
-
     let result = '';
-
     for (i = 0; i < 4; i++) {
         result += names;
         result += '\n';
         result += '\n';
     }
-
     return result;
 }

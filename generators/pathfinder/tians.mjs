@@ -1,6 +1,5 @@
 export default function tians() {
   let rnd;
-
   let rnd2;
   let rnd3;
   let rnd4;
@@ -9,10 +8,7 @@ export default function tians() {
   let rnd7;
   let
     rnd8;
-
-
   let names;
-
   const type = Math.random() > 0.5 ? 0 : 1;
   /* Tian-Dan - Vietnamese */
   const nm1 = ['', '', '', 'b', 'c', 'ch', 'd', 'g', 'h', 'kh', 'l', 'm', 'ng', 'nh', 'ph', 'q', 's', 'th', 't', 'tr', 'v', 'x'];
@@ -78,8 +74,6 @@ export default function tians() {
   const nm55 = ['ia', 'eo', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u'];
   const nm56 = ['c', 'd', 'dy', 'g', 'h', 'hy', 'k', 'l', 'm', 'nn', 'nt', 'nd', 'ng', 'nn', 'nt', 'r', 'rj', 'rl', 'rm', 'rt', 's', 'sk', 'st', 't', 'th', 'tn', 'tr', 'v', 'w', 'y'];
   const nm57 = ['', '', '', 'h', 'n', 'r'];
-
-
   i = Math.floor(Math.random() * 14);
   {
     if (type === 1) {

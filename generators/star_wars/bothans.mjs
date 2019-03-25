@@ -1,6 +1,5 @@
 export default function bothans() {
   let rnd;
-
   let rnd2;
   let rnd3;
   let rnd4;
@@ -13,10 +12,7 @@ export default function bothans() {
   let rnd10;
   let
     rnd11;
-
-
   let names;
-
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['', '', 'b', 'c', 'd', 'g', 'gr', 'h', 'k', 'n', 'r', 'tr', 'v', 'y', 'z'];
   const nm2 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'ae', 'aa', 'ee', 'ai', 'ia'];
@@ -30,8 +26,6 @@ export default function bothans() {
   const nm10 = ['d', 'd\'h', 'f\'l', '\'f', 'h\'r', 'h', '\'h', 'k', '\'k', 'l', '\'l', 'n', 'n\'d', 'nr', 'n\'q', 'nd', 'n\'n', 'q', 'r', 'rr', '\'r', 's', 's\'', '\'t', 't', 'th', 'v\'', 'y\'l'];
   const nm11 = ['h', 'l', 'm', 'n', 'r', 's', 't', 'v'];
   const nm12 = ['', '', '', '', '', 'a', 'e', 'i', 'o', 'u'];
-
-
   const i = Math.floor(Math.random() * 10);
   {
     rnd6 = Math.floor(Math.random() * nm8.length);

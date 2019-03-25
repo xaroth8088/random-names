@@ -1,6 +1,5 @@
 export default function iktotchis() {
   let rnd;
-
   let rnd2;
   let rnd3;
   let rnd4;
@@ -11,10 +10,7 @@ export default function iktotchis() {
   let
     rnd9;
   let rnd10;
-
-
   let names;
-
   const nm1 = ['', '', '', 'c', 'd', 'f', 'h', 'k', 'm', 'n', 'r', 's', 't', 'v', 'w', 'z'];
   const nm2 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'ee', 'ae', 'ie', 'ye', 'yi', 'ei'];
   const nm3 = ['d', 'dh', 'f', 'fl', 'fn', 'l', 'll', 'ld', 'ln', 'lm', 'lr', 'lv', 'm', 'mm', 'md', 'mr', 'mn', 'mk', 'n', 'nn', 'nh', 'nk', 'ng', 'nv', 'nl', 'r', 'rr', 'rn', 'rl', 'rk', 'rd', 's', 'sl', 'sh', 'shk'];
@@ -23,8 +19,6 @@ export default function iktotchis() {
   const nm6 = ['a', 'e', 'i', 'a', 'e', 'i', 'a', 'e', 'i', 'o', 'u', 'aa', 'ii'];
   const nm7 = ['d', 'f', 'h', 'j', 'l', 'm', 'n', 'r', 's', 'v', 'w', 'z'];
   const nm8 = ['', '', 'l', 'mm', 'n', 'r', 's'];
-
-
   const i = Math.floor(Math.random() * 10);
   {
     rnd6 = Math.floor(Math.random() * nm5.length);

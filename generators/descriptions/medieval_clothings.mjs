@@ -1,9 +1,6 @@
 export default function medieval_clothings() {
   let rnd1;
-
   let rnd24;
-
-
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['delicate', 'elegant', 'fancy', 'graceful', 'luxurious', 'relatively simple', 'majestic', 'modest', 'noble', 'ornate', 'rather simple', 'refined', 'stylish', 'traditional'];
   const nm2 = ['Queen Anne neckline', 'court neckline', 'cowl neckline', 'draped neckline', 'halter neckline', 'jewel neckline', 'keyhole neckline', 'round neckline', 'scoop neckline', 'semi-sweethear neckline', 'square neckline', 'sweetheart neckline', 'v-neck'];
@@ -23,7 +20,6 @@ export default function medieval_clothings() {
   const nm16 = ['they change color and where ', ''];
   const nm17 = ['decorative', 'elegant', 'ornamental', 'cosmetic', 'embellishing', 'ornate', 'delicate', 'graceful', 'luxurious', 'simple', 'modest', 'refined', 'stylish'];
   const nm18 = ['edges', 'sleeves', 'sleeves and bottom', 'bottom', 'neckline', 'bottom and neckline', 'sleeves, bottom and neckline', 'sleeves and neckline'];
-
   const nm19 = ['long', 'very long', 'fairly long', 'short', 'very short', 'fairly short'];
   const nm20 = ['leather', 'hide', 'furred', 'cloth', 'animal skin', 'silky', 'velvety'];
   const nm21 = ['just below his waist', 'well below his waist', 'just below his groin', 'well below his groin', 'just below his knees', 'well below his knees', 'just above his waist', 'well above his waist', 'just above his groin', 'well above his groin', 'just above his knees', 'well above his knees', 'his waist', 'his knees', 'his groin'];
@@ -44,7 +40,6 @@ export default function medieval_clothings() {
   const nm37 = ['quite simple', 'a simple design', 'an ordinary design', 'a common design', 'a common type', 'not that special', 'a design found commonly', 'not any different from others'];
   const nm38 = ['boots', 'shoes'];
   const nm39 = ['leather', 'hide', 'fur', 'leather', 'leather', 'cloth'];
-
   if (type === 1) {
     const rnd = Math.floor(Math.random() * nm1.length);
     const rnd2 = Math.floor(Math.random() * nm2.length);
@@ -95,13 +90,10 @@ export default function medieval_clothings() {
     const rnd36 = Math.floor(Math.random() * nm36.length);
     const rnd37 = Math.floor(Math.random() * nm37.length);
     const rnd38 = Math.floor(Math.random() * nm38.length);
-
     var name = `His ${nm19[rnd19]} sleeved, ${nm20[rnd20]} jacket covers him to ${nm21[rnd21]} and is ${nm22[rnd22]} ${nm23[rnd23]}. The sleeves of his${nm24}are ${nm25[rnd25]} and reach down to ${nm26[rnd26]}, they're decorated with ${nm27[rnd27]}.`;
     var name2 = `The jacket has a ${nm28[rnd28]} which reveals part of the ${nm29[rnd29]} shirt worn below it and is worn with a ${nm30[rnd30]} ${nm31[rnd31]}, which is held together by ${nm32[rnd32]}. The ${nm31[rnd31]} is ${nm33[rnd33]}.`;
     var name3 = `His pants are simple and ${nm25[rnd34]} and reach down to his ${nm35[rnd35]} ${nm38[rnd38]}. The ${nm38[rnd38]} are made from a ${nm36[rnd36]} ${nm39[rnd35]}, but are otherwise ${nm37[rnd37]}.`;
   }
-
-
   let result = '';
   result += name;
   result += '\n';

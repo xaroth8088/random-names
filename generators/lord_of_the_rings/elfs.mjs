@@ -1,11 +1,7 @@
 export default function elfs() {
   let rnd;
-
   let rnd2;
-
-
   const type = Math.random() < 0.5 ? 0 : 1;
-
   const nm1 = [
     ['Âr', 'Royal/Noble'],
     ['Êg', 'Thorn'],
@@ -892,8 +888,6 @@ export default function elfs() {
     ['', '', ''],
   ];
   let lastChar = '';
-
-
   i = Math.floor(Math.random() * 5);
   {
     if (i < 3) {

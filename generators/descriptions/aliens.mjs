@@ -3,32 +3,24 @@ export default function aliens() {
   let names2a = ['two arms and ', 'four arms and ', 'six arms and ', 'two arms and ', 'two arms and ', 'four arms and ', 'two arms and '];
   let names2b = ['two legs, ', 'four legs, ', 'six legs, ', 'four legs, ', 'two legs, ', 'two legs, '];
   let names2c = ['with a long, thin tail', 'with a long, thick tail', 'with a short, thin tail', 'with a short, thick tail', 'with remnants of what was once a tail', 'but they have no tail', 'with a long, strong and agile tail', 'with a short, strong tail', 'with a long, strong tail', 'with a short, muscular tail', 'with a long, muscular tail', 'with a long, weak tail', 'with a short, weak tail', 'with a long, useless tail', 'with a short, useless tail', 'with a short, stubby tail'];
-
   const names3 = ['two eyes', 'four eyes', 'six eyes', 'two eyes', 'four eyes', 'two eyes'];
   const names4 = ['deep', 'narrowly', 'buried', 'far', 'rooted', 'well', 'low', 'high', 'sunken', 'lightly', 'thightly', 'graciously', 'concealed', 'delicately', 'elegantly', 'gracefully'];
   const names5 = ['friendly', 'angry', 'arrogant', 'reserved', 'serene', 'compased', 'distant', 'modest', 'restrained', 'cautious', 'gentle', 'withdrawn', 'annoyed', 'nervous', 'agitated', 'bold', 'excited', 'troubled', 'upset', 'formal', 'evil', 'trustworthy', 'untrustworthy', 'sly', 'honest', 'dishonest', 'slick', 'elusive', 'calculating', 'intelligent'];
   const names6 = ['excellent', 'fairly good', 'quite good', 'not the best', 'amazing', 'astonishing', 'a bit poor', 'great at distances', 'not too great at distances', 'impressive', 'average', 'not that great', 'among the best', 'almost among the best', 'perhaps the best of all species'];
-
   let names7a = ['wide mouths', 'small mouths', 'long mouths', 'huge mouths', 'thin mouths', 'narrow mouths', 'enormous mouths'];
   let names7b = [' and huge noses', ' and small noses', ' and wide noses', ' and long noses', ' and enormous noses', ' and thin noses', ' and almost hidden noses', ' and lack of a visible nose', ' and tiny noses', ' and narrow noses'];
-
   let names8 = ['almost invisible', 'long and pointy', 'small', 'huge', 'large', 'long', 'quite long', 'a bit small', 'wide and long', 'long and narrow', 'will hidden', 'small and pointy', 'wide and large', 'long and hanging', 'small and stubby'];
-
   let names9 = ['They also have two horns on their heads.', 'They also have three horns on their heads.', 'They also have four horns on their heads.', 'They also have horns covering their face.', 'They also have horns running across their backs.', 'They also have small horns on their hands.', 'They also have small horns on their hands, arms and legs.', 'They also have two small horns on their elbows.', 'They also have two horns on their heels.', 'They also have small horns on their feet.', 'They also have small horns on their hands and feet.', 'They also have small horns across their chests.', 'They also have small horns across their body.', 'They also have small horns across their chests and backs.', 'They also have one long horn on their head.', '', '', '', '', ''];
-
   const names10 = ['very thick and rough.', 'smooth and thin.', 'thin, but strong.', 'thin and fairly weak.', 'very thick and very strong.', 'very strong, but not very thick.', 'course, thick and strong.', 'smooth, yet strong.', 'smooth, elastic and quite strong.', 'elastic and strong.'];
   let names11 = ['It\'s covered in thick fur.', 'It\'s covered lightly in small hairs.', 'It\'s covered lightly in long, coarse hairs.', 'It\'s covered in thick, course fur.', 'It\'s covered long, wavy hairs.', 'It\'s covered short hairs.', 'It\'s covered short, curly hairs.', 'It\'s covered in nothing but a few hairs on their hands.', 'It\'s covered in nothing but hair on their heads, arms and legs.', 'It\'s covered in nothing, except for hair on their heads.', 'It\'s covered in nothing, except for hairs on their heads, chests, arms and legs.', 'It\'s covered in nothing but a few hairs on their heads.', 'It\'s covered lightly in tiny hairs.', 'It\'s covered in thick, short hairs.', 'It\'s covered in soft, short hairs.'];
   let names11a = 'Their skin ';
-
   const names12a = ['black', 'blue', 'bronze', 'brown', 'gold', 'grey', 'orange', 'pink', 'purple', 'red', 'silver', 'white', 'yellow', 'dark blue', 'dark bronze', 'dark brown', 'dark gold', 'dark grey', 'dark orange', 'dark pink', 'dark purple', 'dark red', 'dark silver', 'dark yellow', 'light blue', 'light bronze', 'light brown', 'light gold', 'light grey', 'light orange', 'light pink', 'light purple', 'light red', 'light silver', 'light yellow'];
   const names12b = [', black', ', blue', ', bronze', ', brown', ', gold', ', grey', ', orange', ', pink', ', purple', ', red', ', silver', ', white', ', yellow', ', dark blue', ', dark bronze', ', dark brown', ', dark gold', ', dark grey', ', dark orange', ', dark pink', ', dark purple', ', dark red', ', dark silver', ', dark yellow', ', light blue', ', light bronze', ', light brown', ', light gold', ', light grey', ', light orange', ', light pink', ', light purple', ', light red', ', light silver', ', light yellow', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', ''];
   const names12c = [', black', ', blue', ', bronze', ', brown', ', gold', ', grey', ', orange', ', pink', ', purple', ', red', ', silver', ', white', ', yellow', ', dark blue', ', dark bronze', ', dark brown', ', dark gold', ', dark grey', ', dark orange', ', dark pink', ', dark purple', ', dark red', ', dark silver', ', dark yellow', ', light blue', ', light bronze', ', light brown', ', light gold', ', light grey', ', light orange', ', light pink', ', light purple', ', light red', ', light silver', ', light yellow', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', ''];
   const names12d = [' and black', ' and blue', ' and bronze', ' and brown', ' and gold', ' and grey', ' and orange', ' and pink', ' and purple', ' and red', ' and silver', ' and white', ' and yellow', ' and dark blue', ' and dark bronze', ' and dark brown', ' and dark gold', ' and dark grey', ' and dark orange', ' and dark pink', ' and dark purple', ' and dark red', ' and dark silver', ' and dark yellow', ' and light blue', ' and light bronze', ' and light brown', ' and light gold', ' and light grey', ' and light orange', ' and light pink', ' and light purple', ' and light red', ' and light silver', ' and light yellow'];
   const names13 = ['darker', 'lighter', 'dull', 'dim', 'pale', 'faded'];
-
   const names14 = ['more arrogant', 'bigger', 'bossier', 'braver', 'bulkier', 'faster', 'friendlier', 'heavier', 'lazier', 'more adventurous', 'more confident', 'more cunning', 'more dependable', 'more emotional', 'more gracious', 'more helpful', 'more honorable', 'more humble', 'more impulsive', 'more independent', 'more obedient', 'more obnoxious', 'more optimistic', 'more self-centered', 'more self-reliant', 'more vulgar', 'smarter', 'sneakier', 'stronger', 'taller'];
   const names15 = ['more vibrant', 'less vibrant', 'more varied', 'less varied', 'darker', 'lighter'];
-
   const random1 = parseInt(Math.floor((Math.random() * names1.length)), 10);
   if (random1 === 1) {
     names2a = ['a huge, powerful tail and small anal fin, ', 'a huge, muscular tail and small anal fin, ', 'a large, muscular tail and small anal fin, ', 'a large, powerful tail and small anal fin, ', 'a short, muscular tail and small anal fin, ', 'a long, powerful tail and small anal fin, ', 'a short, powerful tail and small anal fin, ', 'a long, muscular tail and small anal fin, ', 'a huge, powerful tail and small anal fin, ', 'a huge, muscular tail and long anal fin, ', 'a large, muscular tail and long anal fin, ', 'a large, powerful tail and long anal fin, ', 'a short, muscular tail and long anal fin, ', 'a long, powerful tail and long anal fin, ', 'a short, powerful tail and long anal fin, ', 'a long, muscular tail and long anal fin, '];
@@ -113,21 +105,13 @@ export default function aliens() {
     random14b = parseInt(Math.floor((Math.random() * names14.length)), 10);
   }
   const random15 = parseInt(Math.floor((Math.random() * names15.length)), 10);
-
-
   const name = `These aliens are a type of ${names1[random1]}. They have ${names2a[random2a]}${names2b[random2b]}${names2c[random2c]}.`;
-
   const name2 = `They have ${names3[random3]} which sit ${names4[random4]} in their sockets and can often make them appear to be ${names5[random5a]}. Their eyesight is ${names6[random6a]}.`;
-
   const name3 = `Their ${names7a[random7a]}${names7b[random7b]} often make these aliens appear to be ${names5[random5b]}, but looks can be deceiving.`;
   const name4 = `Their ears are ${names8[random8]} and their hearing is ${names6[random6b]}. ${names9[random9]}`;
-
   const name5 = `Their skin is ${names10[random10]} ${names11[random11]}`;
   const name6 = `${names11a} colors are mostly ${names12a[random12a]}${names12b[random12b]}${names12c[random12c]}${names12c[random12d]}${names12d[random12e]}, which tend to become ${names13[random13]} as they age.`;
-
   const name7 = `The males are usually ${names14[random14a]} than their female counter part and their colors are ${names15[random15]}. The females, however, are usually ${names14[random14b]}.`;
-
-
   let result = '';
   result += name;
   result += '\n';

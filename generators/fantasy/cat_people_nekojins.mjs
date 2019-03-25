@@ -1,6 +1,5 @@
 export default function cat_people_nekojins() {
   let rnd;
-
   let rnd4;
   let rnd5;
   let rnd6;
@@ -9,10 +8,7 @@ export default function cat_people_nekojins() {
   let
     rnd9;
   let rnd10;
-
-
   let names;
-
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['Aiko', 'Aki', 'Akihiko', 'Akihiro', 'Akiko', 'Akina', 'Akira', 'Anda', 'Aneko', 'Aoi', 'Ayame', 'Bento', 'Chika', 'Chiko', 'Chiyo', 'Cho', 'Dai', 'Daiki', 'Daisuke', 'Domo', 'Eriko', 'Gin', 'Haiku', 'Hana', 'Haru', 'Haruki', 'Haruko', 'Hideki', 'Hideo', 'Hikaru', 'Hiro', 'Hiroki', 'Hiroshi', 'Hisa', 'Hisashi', 'Hisoka', 'Honcho', 'Hoshi', 'Hoshiko', 'Ichiro', 'Isamu', 'Isao', 'Jiro', 'Judo', 'Jun', 'Juro', 'Kabuki', 'Kaede', 'Kameko', 'Katsumi', 'Katsuo', 'Katsuro', 'Keiji', 'Keiko', 'Ken', 'Kenji', 'Kin', 'Kioko', 'Kioshi', 'Ko', 'Kobe', 'Kohaku', 'Koji', 'Koto', 'Kou', 'Kumiko', 'Kuro', 'Kyo', 'Kyoko', 'Leiko', 'Madoka', 'Maeko', 'Makoto', 'Masa', 'Masaaki', 'Masaki', 'Masi', 'Masumi', 'Masuru', 'Matsui', 'Michiko', 'Michio', 'Minoru', 'Mitsuo', 'Mitsuru', 'Nami', 'Nao', 'Naoki', 'Nariko', 'Natsuko', 'Nikki', 'Nobu', 'Nori', 'Noriko', 'Norio', 'Nyoko', 'Oki', 'Orino', 'Ran', 'Rei', 'Ryu', 'Sachi', 'Sachiko', 'Sake', 'Sakura', 'Satu', 'Shig', 'Shika', 'Shin', 'Shina', 'Shino', 'Shiro', 'Sho', 'Suki', 'Sumi', 'Sumo', 'Suzu', 'Taiki', 'Taiko', 'Taji', 'Taka', 'Takara', 'Tamae', 'Toshi', 'Yoshi', 'Yukio'];
   const nm2 = ['Aiko', 'Aimi', 'Aio', 'Akane', 'Aki', 'Akina', 'Akira', 'Amaya', 'Ame', 'Aoi', 'Aozora', 'Asa', 'Asami', 'Aya', 'Ayaka', 'Chi', 'Chie', 'Chika', 'Chikako', 'Chiyo', 'Cho', 'Choji', 'Dai', 'Eiko', 'Emi', 'Emiko', 'Eri', 'Fujiko', 'Fuyu', 'Ginkgo', 'Haiku', 'Hana', 'Hanako', 'Haru', 'Haruki', 'Haruko', 'Hideko', 'Hikari', 'Hikaru', 'Hiro', 'Hiromi', 'Hisanori', 'Hisoka', 'Hitomi', 'Hoshi', 'Hoshinka', 'Hotaru', 'Junko', 'Kabuki', 'Kaede', 'Kameko', 'Kaori', 'Kasumi', 'Katsu', 'Kazumi', 'Kei', 'Keiko', 'Kimi', 'Kimiko', 'Kioko', 'Kiyoshi', 'Ko', 'Kohaku', 'Kohana', 'Koko', 'Kou', 'Kuro', 'Kyo', 'Kyoko', 'Leiko', 'Madoka', 'Mai', 'Maiya', 'Masa', 'Masako', 'Masami', 'Masumi', 'Mi', 'Michi', 'Michiko', 'Midori', 'Mika', 'Miki', 'Miku', 'Misuki', 'Mitsuru', 'Miyoshi', 'Miyuki', 'Moe', 'Momo', 'Momoe', 'Moriko', 'Name', 'Nami', 'Naoki', 'Naoko', 'Naomi', 'Nari', 'Nariko', 'Natsu', 'Natsumi', 'Neka', 'Nobu', 'Nori', 'Noriko', 'Oki', 'Rei', 'Reiko', 'Riko', 'Rin', 'Ryoko', 'Saki', 'Sakura', 'Sayomi', 'Sayuri', 'Shig', 'Shinju', 'Shiori', 'Shizumi', 'Shoji', 'Sora', 'Suki', 'Sumiko', 'Susumu', 'Suzaku', 'Suzu', 'Tamika', 'Tanaka', 'Tokiwa', 'Tora', 'Toshiko', 'Tsuki', 'Tsukiko', 'Umeko', 'Usagi', 'Yoi', 'Yoki', 'Yoko', 'Yori', 'Yoshie', 'Yuki', 'Yukiko', 'Yumi', 'Yumiko', 'Yuri', 'Yuuki', 'Zakuro'];
@@ -25,8 +21,6 @@ export default function cat_people_nekojins() {
   const nm9 = ['', '', '', 'r', 'rr', 's', 'ss', 'sh', 'x', 'z'];
   const nm10 = ['', '', '', '', '', '', '', 'th', 'h', 's', 'ss', 'sh'];
   const nm11 = ['s', 'ss', 'sh', 'z', 'h', '', '', '', '', '', ''];
-
-
   const i = Math.floor(Math.random() * 10);
   {
     rnd4 = Math.floor(Math.random() * nm4.length);

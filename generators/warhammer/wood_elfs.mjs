@@ -1,6 +1,5 @@
 export default function wood_elfs() {
   let rnd;
-
   let rnd2;
   let rnd3;
   let rnd4;
@@ -8,10 +7,7 @@ export default function wood_elfs() {
   let rnd6;
   let
     rnd7;
-
-
   let names;
-
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['', '', '', 'c', 'd', 'dh', 'g', 'k', 'kh', 'sc', 'str', 't', 'th', 'tr', 'v', 'z'];
   const nm2 = ['a', 'i', 'o', 'u', 'a', 'i', 'o', 'u', 'a', 'i', 'o', 'u', 'a', 'a', 'o', 'o', 'a', 'o', 'o', 'a', 'io', 'aa', 'ae', 'ia'];
@@ -21,8 +17,6 @@ export default function wood_elfs() {
   const nm6 = ['a', 'e', 'i', 'y', 'a', 'e', 'i', 'y', 'a', 'e', 'i', 'y', 'a', 'e', 'a', 'a', 'e', 'e', 'ie', 'ae'];
   const nm7 = ['c', 'cc', 'ch', 'd', 'dd', 'dr', 'h', 'hh', 'lc', 'll', 'lv', 'ls', 'lt', 'lth', 'ln', 'lm', 'l', 'n', 'nn', 'nr', 'nv', 'nd', 'ph', 'r', 'rl', 'rr', 'rv', 'rl', 's', 'ss', 'sh', 'st', 'str', 'sv', 't', 'th', 'tr', 'v'];
   const nm8 = ['', '', '', '', 'f', 'h', 'l', 'n', 's', 'th'];
-
-
   const i = Math.floor(Math.random() * 10);
   {
     if (type === 1) {

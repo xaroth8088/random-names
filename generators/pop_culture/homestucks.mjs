@@ -1,16 +1,12 @@
 export default function homestucks() {
   let rnd;
-
   let rnd2;
   let rnd3;
   let rnd4;
   let rnd5;
   let
     rnd6;
-
-
   let names;
-
   const nm0 = ['c', 'd', 'f', 'g', 'h', 'k', 'l', 'm', 'n', 'r', 'p', 's', 't', 'v', 'x', 'z'];
   const nm1 = ['cr', 'dr', 'fr', 'gr', 'gh', 'kh', 'kr', 'rh', 'ph', 'pr', 'sk', 'st', 'tr', 'vr', 'xh', 'zh'];
   const nm2 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'aa', 'ai', 'ea', 'ee', 'eu', 'ei', 'ia', 'ie', 'io'];
@@ -18,8 +14,6 @@ export default function homestucks() {
   const nm4 = ['dc', 'dj', 'dn', 'dr', 'dv', 'dy', 'dz', 'fg', 'fk', 'fr', 'ft', 'fz', 'gg', 'gh', 'gn', 'gr', 'gt', 'gz', 'kh', 'kk', 'kn', 'kr', 'ks', 'kt', 'kz', 'ld', 'lg', 'lk', 'll', 'lm', 'ln', 'lr', 'lv', 'ly', 'mk', 'mm', 'mr', 'mv', 'mz', 'nc', 'nd', 'ng', 'nk', 'nl', 'nn', 'nr', 'nt', 'nv', 'ny', 'nz', 'qq', 'qr', 'qt', 'rc', 'rg', 'rk', 'rl', 'rm', 'rn', 'rr', 'rt', 'rv', 'rx', 'rz', 'sc', 'sh', 'sk', 'sl', 'sm', 'sn', 'sp', 'sr', 'ss', 'st', 'sy', 'th', 'tr', 'vl', 'vr', 'zl', 'zr', 'zz'];
   const nm5 = ['d', 'f', 'g', 'k', 'l', 'm', 'n', 'q', 'r', 's', 't', 'v', 'y', 'z'];
   const nm6 = ['h', 'k', 'm', 'n', 'r', 's', 't', 'x', 'z'];
-
-
   const i = Math.floor(Math.random() * 10);
   {
     if (i % 2 === 0) {

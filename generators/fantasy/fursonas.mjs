@@ -1,16 +1,12 @@
 export default function fursonas() {
   let rnd;
-
   let rnd2;
   let rnd3;
   let rnd4;
   let rnd6;
   let
     rnd7;
-
-
   let names;
-
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['Amber', 'Arctic', 'Ash', 'Atom', 'Autumn', 'Big', 'Dire', 'Black', 'Blaze', 'Blue', 'Bone', 'Boulder', 'Bright', 'Bronze', 'Cinder', 'Cloud', 'Common', 'Crest', 'Crimson', 'Crystal', 'Dark', 'Dawn', 'Day', 'Desert', 'Dew', 'Doom', 'Dream', 'Dusk', 'Dust', 'Earth', 'Ebon', 'Ember', 'Evening', 'Feather', 'Feral', 'Fire', 'Flame', 'Forest', 'Free', 'Frenzy', 'Frost', 'Fury', 'Gloom', 'Gold', 'Grand', 'Gray', 'Grim', 'High', 'Hill', 'Humble', 'Ice', 'Iron', 'Jade', 'Keen', 'Light', 'Lightning', 'Low', 'Luna', 'Lunar', 'Magic', 'Meadow', 'Mild', 'Mist', 'Molten', 'Moon', 'Morning', 'Mountain', 'Mud', 'Night', 'Noble', 'Ocean', 'Old', 'Pale', 'Pride', 'Proud', 'Rage', 'Rain', 'Rainbow', 'Rapid', 'Rave', 'Razor', 'Red', 'Regal', 'River', 'Rock', 'Rough', 'Rune', 'Sea', 'Shade', 'Shadow', 'Short', 'Silent', 'Silver', 'Simple', 'Sky', 'Small', 'Snow', 'Soft', 'Solar', 'Spark', 'Spirit', 'Spring', 'Star', 'Steel', 'Stone', 'Storm', 'Stout', 'Strong', 'Summer', 'Sun', 'Swift', 'Tall', 'Terra', 'Thunder', 'True', 'Velvet', 'Whit', 'White', 'Wild', 'Wind', 'Winter', 'Wise', 'Wood', 'Young'];
   const nm2 = ['bat', 'bunny', 'cat', 'claw', 'coat', 'coyote', 'crest', 'crown', 'dog', 'face', 'fang', 'fennec', 'fox', 'fur', 'heart', 'hoof', 'horse', 'hound', 'hunter', 'husky', 'jackal', 'kitten', 'kitty', 'leopard', 'liger', 'lion', 'mane', 'panther', 'paw', 'pelt', 'pony', 'rabbit', 'snout', 'stud', 'tail', 'tiger', 'unicorn', 'vixen', 'wolf'];
@@ -28,8 +24,6 @@ export default function fursonas() {
   const nm18 = ['a', 'e', 'i', 'a', 'e', 'i', 'a', 'e', 'i', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'ui', 'ea', 'ei', 'ie', 'ai', 'ua', 'ei', 'eo', 'ia', 'aa', 'eo', 'ee'];
   const nm19 = ['b', 'c', 'd', 'f', 'g', 'h', 'k', 'l', 'm', 'n', 'ph', 'r', 's', 'th', 'b', 'c', 'd', 'f', 'g', 'h', 'k', 'l', 'm', 'n', 'ph', 'r', 's', 'th', 'b', 'b', 'br', 'bl', 'cl', 'c', 'c', 'cr', 'd', 'd', 'dl', 'dr', 'g', 'g', 'gr', 'gn', 'k', 'k', 'kr', 'kn', 'l', 'l', 'lc', 'll', 'lm', 'lt', 'lw', 'm', 'm', 'mn', 'mr', 'n', 'n', 'nc', 'ndl', 'nh', 'nn', 'ns', 'nz', 'r', 'r', 'rd', 'rk', 'rn', 'rs', 'rv', 'ry', 's', 's', 'st', 'sk', 'sr', 'str', 't', 'th', 'tr', 'tn', 't', 'thm', 'v', 'v', 'z', 'z', 'br', 'bh', 'b', 'dh', 'd', 'dn', 'dd', 'f', 'ff', 'fr', 'g', 'gh', 'gg', 'h', 'h', 'hh', 'k', 'kr', 'kh', 'l', 'll', 'lm', 'ln', 'lv', 'lw', 'm', 'mm', 'mn', 'n', 'nc', 'nn', 'pp', 'p', 'ph', 'pr', 'r', 'rg', 'rr', 's', 'ss', 'sh', 'tt', 'th', 'v', 'zn', 'z'];
   const nm22 = ['', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', 'q', 'x', 'z', 'ph', 'ss', 'sh', '', 's', 'n', 'h', 'l', 'th', 'b', 'bs', 'c', 'cs', 'ck', 'd', 'f', 'g', 'k', 'l', 'ld', 'll', 'lt', 'ln', 'lm', 'ls', 'm', 'n', 'nd', 'p', 'q', 'r', 'rs', 'rd', 'rt', 's', 'st', 'sh', 'z', 'y'];
-
-
   const i = Math.floor(Math.random() * 10);
   {
     if (i < 5) {

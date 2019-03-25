@@ -1,9 +1,5 @@
 export default function diseases() {
-
-
     let rnd15;
-
-
     const nm1 = ['Aggressive', 'Agitated', 'Agony', 'Aggressive', 'Ancient', 'Angel', 'Angry', 'Animated', 'Anxious', 'Arachnid', 'Autumn', 'Avian', 'Bacterial', 'Banshee', 'Beer', 'Black', 'Boar', 'Brain', 'Brittle', 'Buzzing', 'Canine', 'Cat', 'Cave', 'Chicken', 'Chilling', 'Cold', 'Collapsing', 'Contagious', 'Cow', 'Crazy', 'Creeping', 'Crippling', 'Crumbling', 'Crying', 'Crystal', 'Curable', 'Deadly', 'Death\'s', 'Deathbell', 'Decaying', 'Delirious', 'Demon', 'Desert', 'Desolation', 'Deteriorating', 'Devil\'s', 'Dog', 'Dragon', 'Dream', 'Dreaming', 'Duck', 'Dwarf', 'Dying', 'Elastic', 'Elephant', 'Enlarged', 'Ethereal', 'Exhausting', 'Explosive', 'Fading', 'Failing', 'Fall', 'Falling', 'Fatal', 'Feline', 'Fickle', 'Fiery', 'Fisherman\'s', 'Flower', 'Forceful', 'Forest', 'Frenzied', 'Frost', 'Frozen', 'Ghastly', 'Ghost', 'Goblin', 'Golden', 'Goose', 'Grave', 'Green', 'Growing', 'Guttural', 'Happy', 'Harmless', 'Heaven\'s', 'Hell', 'Hellish', 'Hiccup', 'Hopeless', 'Horse', 'Hostile', 'Hot', 'Humming', 'Hyper', 'Icy', 'Immobilizing', 'Impossible', 'Incurable', 'Intense', 'Iron', 'Ironbark', 'Island', 'Jumping', 'Jungle', 'King\'s', 'Lady', 'Laughing', 'Lifeless', 'Limp', 'Lion', 'Lizard', 'Man', 'Marsh', 'Memory', 'Mild', 'Milk', 'Mortal', 'Mountain', 'Mouse', 'Necrotic', 'Nervous', 'Numb', 'Numbing', 'Ogre', 'Orange', 'Pale', 'Paralyzing', 'Peaceful', 'Permanent', 'Pestilent', 'Petrifying', 'Phantom', 'Pig', 'Pink', 'Pygmy', 'Queen\'s', 'Quiet', 'Quivering', 'Rabbit', 'Rabid', 'Rasping', 'Rat', 'Red', 'Restless', 'Rickety', 'Rock', 'Rodent', 'Rooster', 'Rotting', 'Running', 'Sage', 'Screaming', 'Sedated', 'Serpent', 'Shadow', 'Shaking', 'Shaky', 'Sheep', 'Shivering', 'Shriveling', 'Silent', 'Silver', 'Sinister', 'Sleep', 'Smiling', 'Snake', 'Sniffeling', 'Soft', 'Soul', 'Spastic', 'Spider', 'Spine', 'Spirit', 'Spring', 'Steel', 'Sterile', 'Stiff', 'Stiffening', 'Stimulated', 'Stinging', 'Stomach', 'Stranger\'s', 'Stressed', 'Stressful', 'Stunned', 'Summer', 'Swamp', 'Swine', 'Temporary', 'Terrifying', 'Thorny', 'Ticklish', 'Tiring', 'Tomb', 'Tranquil', 'Tree', 'Trembling', 'Trivial', 'Twitching', 'Ugly', 'Undead', 'Vein', 'Violet', 'Volatile', 'Warping', 'Water', 'Weak', 'Weakening', 'Whispering', 'Wicked', 'Wild', 'Winter', 'Wired', 'Witch', 'Withering', 'Wizard', 'Wolf', 'Wooden', 'Worn', 'Wraith', 'Yellow', 'Zombie'];
     const nm2 = ['Ache', 'Aching', 'Acne', 'Allergy', 'Amnesia', 'Anemia', 'Anthrax', 'Anxiety', 'Arthritis', 'Asthma', 'Baldness', 'Blight', 'Blindness', 'Blisters', 'Body', 'Bones', 'Bronchitis', 'Cancer', 'Cannibalism', 'Chills', 'Chlamydia', 'Cholera', 'Cold', 'Cough', 'Cramps', 'Deafness', 'Death', 'Decay', 'Deficiency', 'Dehydration', 'Delirium', 'Delusion', 'Delusions', 'Depression', 'Diptheria', 'Disease', 'Dysfunctions', 'Ears', 'Ebola', 'Epilepsy', 'Euphoria', 'Eye', 'Eyes', 'Fatigue', 'Feet', 'Fever', 'Finger', 'Flu', 'Foot', 'Gangrene', 'Gonorrhea', 'Hallucinations', 'Hands', 'Head', 'Heart', 'Hepatitis', 'Herpes', 'Illness', 'Infection', 'Infertility', 'Inflammation', 'Influenza', 'Insanity', 'Insomnia', 'Intolerance', 'Irritation', 'Leprosy', 'Lupus', 'Malaria', 'Measles', 'Meningitis', 'Migraine', 'Mouth', 'Mutation', 'Nausea', 'Nose', 'Panic', 'Paralysis', 'Paranoia', 'Parasite', 'Plague', 'Pneumonia', 'Poisoning', 'Pox', 'Rabies', 'Rage', 'Rash', 'Salmonella', 'Scarring', 'Schizophrenia', 'Scurvy', 'Shock', 'Skin', 'Sleep Disorder', 'Sneeze', 'Soreness', 'Sores', 'Spasms', 'Stiffness', 'Stomach', 'Swelling', 'Syndrome', 'Syphilis', 'Tetanus', 'Throat', 'Tongue', 'Tumor', 'Ulcers', 'Vampirism', 'Virus', 'Warts'];
     const nm3 = ['a bad taste in mouth', 'a dry mouth', 'a dry skin', 'a fever', 'a loss of appetite', 'a loss of taste', 'a metallic taste in mouth', 'a rash', 'a runny nose', 'a shortness of breath', 'a skin bump outbreak', 'a skin sore outbreak', 'a sore throat', 'a sore tongue', 'abdominal pain', 'acid reflux', 'an altered mental status', 'an itchy skin', 'ankle pain', 'arm pain', 'back pain', 'bad breath', 'blistering', 'blood in urine', 'bloody nose', 'blurred vision', 'breast pain', 'breathing difficulty', 'burning urination', 'chest pain', 'chills', 'cloudy urine', 'cold feet', 'cold fingers', 'cold hands', 'confusion', 'constipation', 'coughing', 'cramping', 'delirium', 'delusion', 'depression', 'diarrhea', 'dizziness', 'double vision', 'drooling', 'ear pain', 'easy bruising', 'euphoria', 'excess sweating', 'excessive yawning', 'eye discharge', 'eye swelling', 'eye twitching', 'fainting', 'feeling light-headed', 'feeling sick', 'feeling sleepy', 'feeling tired', 'feeling weak', 'finger numbness', 'frequent urination', 'gum pain', 'hair loss', 'hallucination', 'headache', 'hearing difficulty', 'heartburn', 'hip pain', 'hyperactivity', 'inattention', 'increased thirst', 'jaw pain', 'joint redness', 'joint stiffness', 'joint swelling', 'knee pain', 'leg pain', 'leg swelling', 'memory loss', 'mood fluctuation', 'mouth sores', 'moving difficulty', 'muscle cramps', 'muscle weakness', 'nail brittleness', 'nasal congestion', 'nausea', 'neck pain', 'peeing difficulty', 'pelvic pain', 'pupil dilation', 'rectal pain', 'red spot outbreak', 'ringing ears', 'seizures', 'shaking hands', 'shoulder pain', 'sleeping difficulty', 'sneezing', 'swallowing difficulty', 'temperature fluctuation', 'temporary blindness', 'tingling feet', 'tingling hands', 'toe numbness', 'toothache', 'vomiting', 'walking difficulty', 'weight gain', 'weight loss'];
@@ -22,7 +18,6 @@ export default function diseases() {
     const nm16 = ['Simple medication routine', 'Heavy medication routine', 'Medication and dietary supplement routine', 'Light suppressants', 'Heavy suppressants', 'Simple surgical procedure', 'Invasive surgical procedure', 'Medication routine and in some cases a surgical procedure', 'Suppressants and medication routine', 'Change of lifestyle', 'None needed, medication is given in some cases', 'Untreatable. (Pain) medication helps manage it', 'Stress reduction and a light medication routine', 'Light suppressants and in some cases a surgical procedure', 'Invasive medication routine', 'Heavy medication and suppressant routine', 'Proper diet and enough rest', 'Rest, relaxation and in some cases minor medication', 'Usually rest is enough. Some cases require a minor surgical procedure', 'Usually rest and a proper diet are enough. Some cases require medication'];
     const nm17 = ['3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14', '15', '16', '17', '18', '19', '20', '21', '22', '23', '24', '25', '26', '27', '28', '29', '30', '31', '32', '33'];
     const nm18 = ['people', 'young adults', 'adults', 'older adults', 'children', 'young children', 'teenagers', 'senior adults', 'people', 'people'];
-
     const rnd1 = Math.floor(Math.random() * nm1.length);
     const rnd2 = Math.floor(Math.random() * nm2.length);
     const rnd3a = Math.floor(Math.random() * nm3.length);
@@ -67,7 +62,6 @@ export default function diseases() {
     const rnd16 = Math.floor(Math.random() * nm16.length);
     const rnd17 = Math.floor(Math.random() * nm17.length);
     const rnd18 = Math.floor(Math.random() * nm18.length);
-
     const name = `Name: ${nm1[rnd1]}  ${nm2[rnd2]}`;
     const name2 = 'Possible symptoms:';
     const name3 = `- ${nm3[rnd3a]}`;
@@ -75,17 +69,14 @@ export default function diseases() {
     const name5 = `- ${nm3[rnd3c]}`;
     const name6 = `- ${nm3[rnd3d]} (not in all cases)`;
     const name7 = `- ${nm3[rnd3e]} (uncommon)`;
-
     const name8 = `What to expect: ${nm3[rnd3a]} and ${nm3[rnd3b]} ${nm4[rnd4]}, but ${nm5[rnd5]}. After the initial onset, ${nm3[rnd3a]} ${nm6[rnd6]}. Around this time ${nm3[rnd3c]} is experienced ${nm7[rnd7]}.`;
     const name9 = `The experience of ${nm3[rnd3c]} ${nm8[rnd8]} experience of ${nm3[rnd3b]}.`;
     const name10 = `After a few more days ${nm3[rnd3d]} is experienced ${nm9[rnd9]} and is ${nm10[rnd10]}.`;
     const name11 = `Throughout the course of the disease, ${nm3[rnd3e]} may be experienced, but only ${nm11[rnd11]} and ${nm12[rnd12]}.`;
-
     const name12 = `Cause: ${nm13[rnd13]}.`;
     const name13 = `Made worse by: ${nm14[rnd14a]}. ${nm14[rnd14b]}. ${nm15[rnd15]}`;
     const name14 = `Treatment: ${nm16[rnd16]}.`;
     const name15 = `Rarity: 1 in ${nm17[rnd17]} ${nm18[rnd18]} have ${nm1[rnd1]}  ${nm2[rnd2]}.`;
-
     let result = '';
     result += name;
     result += '\n';

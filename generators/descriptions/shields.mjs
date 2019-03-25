@@ -17,7 +17,6 @@ export default function shields() {
   let nm16 = ', who knows if this shield ';
   let nm17 = ['will ever know the glory of victory', 'will one day need to prove its worth in battle', 'is even meant for battle or for ceremony', 'is going to get a chance to shine in battle', 'will ever need to protect its master', 'will ever be called upon in some future war', 'will ever be matched with a master of its equal', 'is ever going to be the final barricade between life and death', 'will ever get to stare at death and smile', 'will one day be praised and admired'];
   let nm18 = ['this shield is ready to prove itself', 'nothing will stand in its way', 'this shield will serve its master well', 'this shield is ready for anything and everything', 'this shield craves a master of its equal', 'this shield yearns for glory', 'glory shall come to this shield in one way or another', 'this shield can overcome anything', 'this shield shall always stand between its master and death', 'this shield will always be by the side of its master'];
-
   const rnd1 = Math.floor(Math.random() * nm1.length);
   const rnd2 = Math.floor(Math.random() * nm2.length);
   const rnd3 = Math.floor(Math.random() * nm3.length);
@@ -49,16 +48,11 @@ export default function shields() {
   const rnd15 = Math.floor(Math.random() * nm15.length);
   const rnd17 = Math.floor(Math.random() * nm17.length);
   const rnd18 = Math.floor(Math.random() * nm18.length);
-
   const name = `This ${nm1[rnd1]} ${nm2[rnd2]}, made from ${nm3[rnd3]}, offers ${nm4[rnd4]}, especially against ${nm5[rnd5a]} and ${nm5[rnd5b]}.`;
   const name2 = `${nm6[rnd6]}, as this shield was forged by ${nm7[rnd7]} in ${nm8[rnd8]} workshop.`;
-
   const name3 = `The shield's edges are ${nm9[rnd9]} with ${nm10[rnd10]} and have been decorated with ${nm11[rnd11]}.`;
   const name4 = `Its center is ${nm12[rnd12]} with ${nm13[rnd13a]} and ${nm13[rnd13b]}.`;
-
   const name5 = `It's clear this shield ${nm14[rnd14]}. ${nm15[rnd15]}${nm16}${nm17[rnd17]}, but one this is for sure: ${nm18[rnd18]}.`;
-
-
   let result = '';
   result += name;
   result += '\n';

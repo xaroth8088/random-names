@@ -1,11 +1,7 @@
 export default function southeast_african_towns() {
   let rnd;
-
   let rnd2;
-
-
   let names;
-
   /* Madagascar */
   const nm1 = ['Ala', 'Alara', 'Amba', 'Ambala', 'Amban', 'Ambato', 'Ambi', 'Ambo', 'Amboa', 'Amboan', 'Ambodi', 'Ambohi', 'Ambosi', 'Ampa', 'Ampani', 'Ampara', 'Ampasi', 'An', 'Ana', 'Anan', 'Anda', 'Andi', 'Andila', 'Ando', 'Andovo', 'Anje', 'Anjo', 'Anka', 'Ankazo', 'Ankazon', 'Anta', 'Antafo', 'Antafon', 'Antako', 'Antana', 'Antani', 'Antsi', 'Antsira', 'Antso', 'Antsohi', 'Antsohim', 'Ari', 'Arivo', 'Be', 'Bea', 'Beala', 'Beho', 'Belo', 'Bemai', 'Bero', 'Beta', 'Bete', 'Betio', 'Dau', 'Fan', 'Fandra', 'Fandria', 'Fara', 'Farafa', 'Fenoa', 'Fiana', 'Ifa', 'Ifana', 'Iho', 'Ika', 'Ikala', 'Iko', 'Ko', 'Kopo', 'Maha', 'Mahaja', 'Mahali', 'Mahano', 'Mahave', 'Mainti', 'Mana', 'Manan', 'Manja', 'Manta', 'Maro', 'Maroa', 'Maroan', 'Meri', 'Merikan', 'Mia', 'Miada', 'Miadana', 'Miandra', 'Miandri', 'Mora', 'Morama', 'Moron', 'Nandi', 'Rano', 'Sada', 'Sadjoa', 'Saha', 'Sahata', 'Saka', 'Sakara', 'Samba', 'Sambai', 'Sava', 'Sita', 'Sitam', 'Soanie', 'Soanin', 'Soavi', 'Soavina', 'Toa', 'Toama', 'Toliaa', 'Trano', 'Tsara', 'Tsio', 'Tsiom', 'Tsiroa', 'Vangai', 'Vangain', 'Vari', 'Vava', 'Vavate', 'Vohi', 'Vohibi', 'Vohima', 'Vondro'];
   const nm2 = ['baina', 'bato', 'bava', 'bia', 'bihina', 'binany', 'bondrona', 'dabe', 'dandy', 'dapa', 'dava', 'diana', 'drandava', 'drano', 'dravy', 'drazaka', 'driamanitra', 'driana', 'dro', 'drona', 'drozo', 'fangana', 'faravola', 'fondro', 'fotatra', 'fotsy', 'gana', 'habe', 'hana', 'hihy', 'hina', 'hira', 'hitsy', 'hizana', 'hompy', 'honko', 'ja', 'jaka', 'janga', 'jary', 'jepy', 'jo', 'kandriana', 'kanjaka', 'kao', 'kara', 'karaka', 'kotako', 'laha', 'lahonko', 'lambo', 'lamena', 'lampy', 'lanana', 'laona', 'lasoa', 'lavao', 'liara', 'lina', 'lobe', 'loha', 'lona', 'lotra', 'mahitsy', 'maitso', 'mandidy', 'manga', 'manitra', 'masina', 'mavony', 'mena', 'nana', 'nandrahana', 'nara', 'narivo', 'nato', 'nifotsy', 'nihy', 'nimamo', 'nimena', 'nitra', 'nolotra', 'noro', 'paho', 'piky', 'poky', 'rabe', 'raha', 'rahana', 'rana', 'ranana', 'ranto', 'rantsoa', 'rariny', 'rarivo', 'ravola', 'rika', 'riny', 'rivo', 'robe', 'robia', 'roha', 'roroha', 'sary', 'sirabe', 'siranana', 'sitra', 'soa', 'sohihy', 'tafo', 'tako', 'tanana', 'tasoa', 'tatra', 'tavy', 'tenina', 'teza', 'tioky', 'tirano', 'tra', 'tseheno', 'tsetra', 'tsiho', 'tsoa', 'tsy', 'vaho', 'vana', 'vao', 'vato', 'vazo', 'velone', 'voany', 'voara', 'voay', 'vola', 'vombe', 'vongo', 'vony', 'voranto', 'zaka', 'zana', 'zoabo', 'zobe', 'zondandy', 'zorobe'];
@@ -21,8 +17,6 @@ export default function southeast_african_towns() {
   /* Zimbabwe */
   const nm9 = ['Ba', 'Ban', 'Be', 'Bea', 'Bi', 'Bin', 'Bindu', 'Bu', 'Bula', 'Ce', 'Cen', 'Cente', 'Cha', 'Chaka', 'Che', 'Chegu', 'Chi', 'Chima', 'Chimani', 'Chin', 'Chipi', 'Chire', 'Chiru', 'Chitu', 'Chitun', 'Chiv', 'De', 'Do', 'Doro', 'Esi', 'Esigo', 'Fi', 'Fila', 'Gle', 'Go', 'Gok', 'Gwa', 'Gwan', 'Gwe', 'Ha', 'Hara', 'Hwa', 'Hwan', 'In', 'Insi', 'Inya', 'Ka', 'Kado', 'Kama', 'Kari', 'Karo', 'Karoi', 'Kwe', 'La', 'Lala', 'Lu', 'Lupa', 'Ma', 'Mache', 'Mad', 'Madzi', 'Maro', 'Maron', 'Mas', 'Masha', 'Masvi', 'Masvin', 'Mazo', 'Mha', 'Mhan', 'Mu', 'Mure', 'Mureh', 'Muta', 'Muto', 'Mvu', 'Mvur', 'No', 'Nor', 'Nya', 'Nyan', 'Nyazu', 'Od', 'Pen', 'Penha', 'Ra', 'Raffi', 'Raffin', 'Ru', 'Rusa', 'Sha', 'Sham', 'Shan', 'Shanga', 'Shu', 'Shuru', 'Zvi', 'Zvis', 'Zvisha'];
   const nm10 = ['ba', 'busi', 'ce', 'cheke', 'da', 'dale', 'dera', 'dge', 'dini', 'doma', 'du', 'dura', 'ga', 'gani', 'ge', 'go', 'godini', 'gora', 'goyi', 'gura', 'gutu', 'gwi', 'kari', 'ke', 'ket', 'ko', 'kwe', 'le', 'longa', 'ma', 'mani', 'nary', 'ne', 'ni', 'nimani', 'pane', 'panzi', 'pe', 'pinge', 'ra', 'rare', 're', 'redzi', 'rehwa', 'ri', 'riba', 'rice', 'roi', 'rowa', 'ru', 'rundu', 'ry', 'sape', 'shava', 'si', 'siza', 'tare', 'te', 'tenary', 'ti', 'tivi', 'toko', 'ton', 'tu', 'va', 'vane', 'vhu', 'vi', 'vingo', 'wa', 'wayo', 'we', 'wi', 'wiza', 'yati', 'yi', 'yo', 'za', 'zi', 'ziwa', 'zowe', 'zura'];
-
-
   const i = Math.floor(Math.random() * 10);
   {
     if (i < 2) {

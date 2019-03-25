@@ -1,11 +1,7 @@
 export default function west_african_towns() {
   let rnd;
-
   let rnd2;
-
-
   let names;
-
   const nm1 = ['Ari', 'Aribi', 'Ba', 'Banfo', 'Bo', 'Boga', 'Boro', 'Bou', 'Dé', 'Dédou', 'Da', 'Dié', 'Diébou', 'Dia', 'Diapa', 'Dji', 'Do', 'Fa', 'Ga', 'Gaoua', 'Gara', 'Gayé', 'Go', 'Goro', 'Gou', 'Hou', 'Ka', 'Ki', 'Ko', 'Koko', 'Kombi', 'Kongou', 'Kou', 'Koudou', 'Koupé', 'Loro', 'Mé', 'Ma', 'Mogte', 'Nia', 'Nou', 'Oro', 'Oua', 'Ouaga', 'Ouahi', 'Pa', 'Pi', 'Pissi', 'Po', 'Pou', 'Pouy', 'Réo', 'Sé', 'Ségué', 'Sa', 'Sapo', 'Se', 'Si', 'So', 'Sole', 'Ta', 'Te', 'Tenko', 'Ti', 'Tika', 'To', 'Tou', 'Vi', 'Ya', 'Zi', 'Zinia', 'Zo'];
   const nm2 = ['bba', 'binda', 'bo', 'bougou', 'chari', 'da', 'dara', 'do', 'dogo', 'dougou', 'fora', 'ga', 'gan', 'gandé', 'go', 'goloko', 'gou', 'goussi', 'gouya', 'gré', 'gtedo', 'guet', 'ka', 'karé', 'ko', 'kodogo', 'kologo', 'la', 'lasso', 'lenzo', 'lly', 'logo', 'loko', 'lsa', 'ma', 'mo', 'néga', 'nénéga', 'na', 'ndé', 'nda', 'ndi', 'ndou', 'nfora', 'nga', 'ngin', 'ngo', 'ni', 'niaré', 'no', 'péla', 'paga', 'peni', 'poné', 'pouy', 'ré', 'range', 'rcy', 'rdié', 'rgaye', 'rgo', 'ri', 'rma', 'rom', 'romo', 'ssé', 'ssi', 'ssila', 'ssiri', 'sso', 'ssouri', 'tao', 'tchari', 'tenga', 'tié', 'yéri', 'ya', 'ye'];
   /* Ghana */
@@ -26,8 +22,6 @@ export default function west_african_towns() {
   /* Senegal */
   const nm13 = ['Ba', 'Bi', 'Bigno', 'Da', 'Daga', 'Daka', 'Damnia', 'Diou', 'Fa', 'Fati', 'Go', 'Gossa', 'Gou', 'Gui', 'Guingui', 'Ké', 'Kébé', 'Kédou', 'Ka', 'Kane', 'Kao', 'Kaya', 'Kho', 'Ko', 'Koa', 'Kou', 'Lé', 'La', 'Lao', 'Li', 'Lou', 'Mé', 'M\'Bou', 'Ma', 'Mata', 'Mba', 'Mbo', 'Né', 'Na', 'Ndiou', 'Ngué', 'Nio', 'Ou', 'Pa', 'Pao', 'Pou', 'Ri', 'Rufi', 'Sé', 'Sébi', 'Sa', 'Sara', 'Sata', 'So', 'Soko', 'Ta', 'Tamba', 'Thiè', 'Thia', 'Ti', 'Tivaoua', 'Tou', 'Vé', 'Véli', 'Za', 'Zao', 'Zi', 'Zigui'];
   const nm14 = ['bémer', 'ba', 'bacou', 'cké', 'counda', 'dhiou', 'diaye', 'dio', 'diouth', 'domp', 'dougou', 'ffri', 'ffrine', 'frine', 'ga', 'gana', 'gheul', 'gnona', 'gou', 'guére', 'gui', 'guinéo', 'guin', 'hra', 'kar', 'kel', 'khé', 'kho', 'khokh', 'khota', 'khotane', 'ko', 'kone', 'lack', 'lda', 'linga', 'mbey', 'mbole', 'mer', 'mnia', 'néo', 'na', 'nchor', 'nda', 'ne', 'nel', 'ngara', 'ngheul', 'nguére', 'niadio', 'nona', 'que', 'ra', 'rbel', 're', 'rine', 'ro', 'sas', 'sque', 'ssas', 'tam', 'tane', 'tick', 'vaouane', 'yar', 'ye'];
-
-
   i = Math.floor(Math.random() * 14);
   {
     if (i < 2) {

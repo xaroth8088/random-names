@@ -1,22 +1,16 @@
 export default function unggoys() {
   let rnd;
-
   let rnd1;
   let rnd2;
   let rnd3;
   let rnd4;
   let
     rnd5;
-
-
   let names;
-
   const nm1 = ['a', 'i', 'u'];
   const nm2 = ['d', 'f', 'k', 'l', 'm', 's', 'w', 'p', 'y', 'z'];
   const nm3 = ['fl', 'kl', 'sl', 'sm', 'pl', 'zl', 'd', 'f', 'k', 'l', 'm', 's', 'w', 'p', 'y', 'z'];
   const nm4 = ['fl', 'kl', 'sl', 'sm', 'pl', 'zl'];
-
-
   const i = Math.floor(Math.random() * 10);
   {
     if (i < 5) {

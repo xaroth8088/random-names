@@ -1,9 +1,5 @@
 export default function gods() {
-
-
     let rnd11;
-
-
     const type = Math.random() > 0.5 ? 0 : 1;
     let nm1 = ['B', 'C', 'D', 'F', 'G', 'H', 'J', 'K', 'L', 'M', 'N', 'P', 'Q', 'R', 'S', 'T', 'V', 'W', 'X', 'Z'];
     const nm2 = ['a', 'e', 'u', 'i', 'o', 'y'];
@@ -46,9 +42,7 @@ export default function gods() {
     const nm31 = ['Which doesn\'t affect the power', 'This changes little in regards to the aid', 'Granted this changes nothing to the power', 'Of course this changes nothing to the guidance', 'But this has no effect on the help', 'This only adds to the aid', 'Which only fuels the power', 'This only helps focus the power', 'This just empowers the guidance', 'Fortunately this just strengthens the aid'];
     const nm32 = ['may', 'may or may not', 'will', 'can', 'could', 'could potentially', 'may possibly'];
     const nm33 = ['lovers often strike back together when one of them is crossed', 'lovers provide strength and aid in times of great need', 'lovers will often unite when either one is under scrutiny', 'united lovers stand strong together', 'when together they\'re a force to be reckoned with', 'love can be a distraction', 'lovers require require dedication and attention too', 'lovers too need help in times of need, whether they\'re a god or not', 'love brings about all sorts of emotion and not always the good ones', 'lovers can become rivals too', 'without allies you\'re on your own in times of peril', 'even gods stand vulnerable when on their own', 'even gods could use allies when others wish to take their power', 'a god on their own is still vulnerable despite their godly powers', 'without allies to back them up even gods can fall', 'it\'s the strongest gods that require no aid after all', 'only the strongest of gods can stand alone', 'it\'s the mightiest of deities that can walk alone', 'it\'s only the most confident of gods that can stand alone', 'only the mightiest and the overly proud gods dare stand alone'];
-
     const nm3b = ['agi', 'aldir', 'aos', 'arus', 'borh', 'bris', 'bum', 'bus', 'dall', 'dar', 'darr', 'des', 'dis', 'dite', 'dohr', 'don', 'dos', 'dros', 'dum', 'dur', 'emis', 'enar', 'esis', 'eus', 'eyar', 'eyr', 'her', 'ion', 'ione', 'ius', 'jun', 'ldir', 'lios', 'lo', 'lous', 'mes', 'mir', 'mjir', 'mos', 'mus', 'nia', 'nir', 'nos', 'nus', 'ohr', 'orr', 'rasil', 'reus', 'ros', 'ruer', 'rus', 'ses', 'stus', 'tar', 'tarr', 'teus', 'thar', 'ther', 'tia', 'ton', 'tos', 'tyx', 'ysus', 'ra', 'ara', 'ella', 'elia', 'nja', 'yja', 'ulla', 'la', 'na', 'ana', 'neas', 'phine', 'tris', 'gyn', 'syn', 'dite', 'ena', 'hena', 'tia', 'anke', 'mera', 'nera', 'soi', 'heia', 'mis', 'thys', 'asis', 'one', 'dione', 'dona', 'ona', 'phion', 'trix', 'tix', 'lene', 'lena', 'phy', 'tune', 'va', 'una', 'tuna', 'arae', 'aris', 'ris', 'tia', 'rena', 'raura', 'dea', 'enta', 'dia', 'ta'];
-
     const tp = type;
     const rnd7 = Math.floor(Math.random() * nm7.length);
     if (rnd7 === 1) {
@@ -143,17 +137,11 @@ export default function gods() {
     const rnd31 = Math.floor(Math.random() * nm31.length);
     const rnd32 = Math.floor(Math.random() * nm32.length);
     const rnd33 = Math.floor(Math.random() * nm33.length);
-
     const name = `${nm1[rnd1] + nm2[rnd2] + nm3[rnd3]} is a${nm8[rnd8]} ${nm9[rnd9]} and ${nm8b[rnd8b]} ${nm9[rnd9b]} ${nm7[rnd7]}. ${nm10[rnd10]}, ${nm11[rnd11]} and ${nm11[rnd11b]} are ${nm4[rnd4]} elements this divine being is associated with and ${nm12[rnd12]} ${nm13[rnd13]} and ${nm13[rnd13b]}.`;
-
     const name2 = `Often depicted as ${nmType} ${nm1[rnd1]}${nm2[rnd2]}${nm3[rnd3]} is usually worshipped through ${nm5[rnd5]} and ${nm5[rnd5b]}.`;
-
     const name3 = `There's ${nm21[rnd21]} for those ${nm22[rnd22]} ${nm1[rnd1]}${nm2[rnd2]}${nm3[rnd3]}, but ${nm23[rnd23]} and ${nm23[rnd23b]} are ${nm24[rnd24]}.`;
     const name4 = `Worshippers are ${nm25[rnd25]} and tend to come in the form of ${nm26[rnd26]} and ${nm26[rnd26b]}${nm27[rnd27]} this ${nm7[rnd7]}. ${nm6[rnd6][0]} the right ${nm5[rnd5]} and ${nm5[rnd5b]} ${nm6[rnd6][1]}.`;
-
     const name5 = `${nm1[rnd1] + nm2[rnd2] + nm3[rnd3]} has ${nm28[rnd28]} ${nm29}${nm30}. ${nm31[rnd31]} ${nm1[rnd1]}${nm2[rnd2]}${nm3[rnd3]} ${nm32[rnd32]} provide, but ${nm33[rnd33]}.`;
-
-
     let result = '';
     result += name;
     result += '\n';

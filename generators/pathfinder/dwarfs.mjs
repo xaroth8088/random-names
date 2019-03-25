@@ -1,6 +1,5 @@
 export default function dwarfs() {
   let rnd;
-
   let rnd2;
   let rnd3;
   let rnd4;
@@ -12,10 +11,7 @@ export default function dwarfs() {
   let rnd10;
   let
     rnd11;
-
-
   let names;
-
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['', '', '', '', '', 'b', 'br', 'd', 'dr', 'f', 'g', 'gr', 'h', 'j', 'k', 'm', 'r', 'sr', 'st', 'str', 't', 'tr', 'v', 'w', 'z'];
   const nm2 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'o', 'u', 'a', 'o', 'u', 'a', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'o', 'u', 'y', 'y', 'aa', 'ai', 'oo', 'uu', 'io', 'io'];
@@ -31,8 +27,6 @@ export default function dwarfs() {
   const nm12 = ['b', 'c', 'ck', 'd', 'dd', 'g', 'h', 'k', 'l', 'll', 'ls', 'ld', 'm', 'n', 'mn', 'r', 'rd', 'rsk', 'rg', 's', 't', 'th'];
   const nm13 = ['Amber', 'Axe', 'Battle', 'Black', 'Blaze', 'Boulder', 'Bright', 'Bronze', 'Cinder', 'Cloud', 'Cold', 'Common', 'Crag', 'Dark', 'Deep', 'Dew', 'Earth', 'Ember', 'Fair', 'Fire', 'Fist', 'Flame', 'Flat', 'Flint', 'Free', 'Full', 'Fuse', 'Gold', 'Grand', 'Great', 'Hammer', 'Hard', 'Heavy', 'High', 'Humble', 'Iron', 'Keen', 'Lone', 'Low', 'Molten', 'Noble', 'Plain', 'Pride', 'Proud', 'Pyre', 'Rock', 'Rumble', 'Shield', 'Silent', 'Simple', 'Single', 'Soft', 'Solid', 'Steel', 'Stern', 'Stone', 'Storm', 'Stout', 'Strong', 'Terra', 'Thunder', 'Titan', 'True', 'War', 'Wild', 'Winter', 'Wise'];
   const nm14 = ['arm', 'bash', 'beam', 'beard', 'belly', 'bend', 'blaze', 'bluff', 'bough', 'brace', 'brand', 'breath', 'brew', 'brow', 'crest', 'crusher', 'dew', 'fall', 'fell', 'flare', 'flow', 'force', 'forge', 'fury', 'gaze', 'gem', 'gleam', 'glide', 'glow', 'grip', 'guard', 'gut', 'hair', 'hand', 'heart', 'helm', 'hide', 'horn', 'ingot', 'mane', 'mantle', 'maul', 'might', 'more', 'pelt', 'punch', 'ridge', 'roar', 'scar', 'shade', 'shadow', 'shard', 'shot', 'shout', 'sky', 'snow', 'spark', 'steam', 'strength', 'stride', 'strike', 'surge', 'sword', 'thorn', 'track', 'ward'];
-
-
   const i = Math.floor(Math.random() * 10);
   {
     rnd7 = Math.floor(Math.random() * nm9.length);

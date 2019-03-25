@@ -1,6 +1,5 @@
 export default function halflings() {
   let rnd;
-
   let rnd2;
   let rnd3;
   let rnd4;
@@ -16,10 +15,7 @@ export default function halflings() {
   let rnd15;
   let
     rnd16;
-
-
   let names;
-
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['', '', 'b', 'br', 'd', 'f', 'h', 'j', 'l', 'm', 'n', 'p', 'r', 's', 't', 'tr', 'v', 'vr', 'x'];
   const nm2 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'aa'];
@@ -35,8 +31,6 @@ export default function halflings() {
   const nm12 = ['', '', '', 'g', 'l', 'lk', 'n', 'nch', 'nd', 'r', 'rd', 'rg', 's', 'th', 'x'];
   const nm13 = ['Amber', 'Arms', 'Ash', 'Autumn', 'Bard', 'Black', 'Blaze', 'Blossom', 'Bright', 'Bronze', 'Cask', 'Cinder', 'Cliff', 'Cloud', 'Cold', 'Common', 'Coven', 'Crag', 'Dark', 'Dawn', 'Day', 'Deep', 'Dew', 'Down', 'Dream', 'Dusk', 'Dust', 'Earth', 'Even', 'Ever', 'Far', 'Feather', 'Fern', 'Flame', 'Flat', 'Flint', 'Fog', 'Forest', 'Free', 'Frost', 'Full', 'Gold', 'Grand', 'Grass', 'Gray', 'Green', 'Hard', 'Haven', 'Haze', 'Heart', 'High', 'Hill', 'Honor', 'Humble', 'Iron', 'Keen', 'Leaf', 'Light', 'Lone', 'Long', 'Low', 'Meadow', 'Mild', 'Mist', 'Moon', 'Moss', 'Never', 'Night', 'Noble', 'Orb', 'Pale', 'Pine', 'Plain', 'Rain', 'Red', 'Rich', 'River', 'Rumble', 'Shadow', 'Silent', 'Simple', 'Single', 'Snow', 'Soft', 'Spirit', 'Spring', 'Star', 'Still', 'Stone', 'Summer', 'Sun', 'Swift', 'Tree', 'True', 'Truth', 'Turn', 'Water', 'Whit', 'Wind', 'Winter', 'Wise', 'Wood'];
   const nm14 = ['arm', 'beam', 'bend', 'blaze', 'bloom', 'blossom', 'bough', 'brace', 'branch', 'brand', 'breath', 'breeze', 'brook', 'brow', 'cloud', 'coin', 'creek', 'crest', 'dew', 'down', 'draft', 'dream', 'fall', 'flaw', 'flow', 'flower', 'force', 'gaze', 'gazer', 'gem', 'glade', 'gleam', 'glide', 'glow', 'grain', 'grip', 'guard', 'hair', 'hand', 'heart', 'helm', 'horn', 'keep', 'leaf', 'less', 'light', 'more', 'orb', 'peak', 'ridge', 'root', 'run', 'shine', 'shot', 'soar', 'song', 'spark', 'stream', 'stride', 'sun', 'surge', 'sword', 'sworn', 'thorn', 'tide', 'track', 'vale', 'valor', 'ward', 'water', 'whirl', 'wing', 'with', 'worth'];
-
-
   const i = Math.floor(Math.random() * 10);
   {
     rnd10 = Math.floor(Math.random() * nm9.length);

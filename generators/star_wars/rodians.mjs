@@ -1,6 +1,5 @@
 export default function rodians() {
   let rnd;
-
   let rnd2;
   let rnd3;
   let rnd4;
@@ -15,10 +14,7 @@ export default function rodians() {
   let rnd12;
   let
     rnd13;
-
-
   let names;
-
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['', '', '', '', '', '', '', '', '', '', 'b', 'bl', 'br', 'c', 'ch', 'chr', 'cl', 'cr', 'd', 'dh', 'dr', 'dw', 'f', 'fr', 'g', 'gl', 'gr', 'gw', 'h', 'j', 'k', 'kl', 'kn', 'kr', 'l', 'm', 'n', 'p', 'ph', 'pr', 'prw', 'q', 'r', 's', 'sh', 'sk', 'sl', 'sn', 'sp', 'st', 't', 'th', 'tr', 'ts', 'tw', 'v', 'vl', 'vr', 'w', 'x', 'z'];
   const nm2 = ['a', 'o', 'e', 'i', 'a', 'e', 'i', 'o', 'u', 'a', 'o', 'e', 'i', 'a', 'e', 'i', 'o', 'u', 'a', 'o', 'e', 'i', 'a', 'e', 'i', 'o', 'u', 'a', 'o', 'e', 'i', 'a', 'e', 'i', 'o', 'u', 'a', 'o', 'e', 'i', 'a', 'e', 'i', 'o', 'u', 'a', 'o', 'e', 'i', 'a', 'e', 'i', 'o', 'u', 'ee', 'ee', 'ee', 'ee', 'ee', 'ee', 'ee', 'ee', 'ee', 'ee', 'ee', 'ee', 'ee', 'aa', 'ei', 'oi', 'oo', 'ii', 'iu', 'ae', 'ea', 'ou', 'uu', 'ya', 'ye', 'yi', 'ua', 'ae', 'ay', 'ey', 'ei'];
@@ -32,8 +28,6 @@ export default function rodians() {
   const nm10 = ['a', 'e', 'i', 'o', 'u', 'a', 'a', 'o', 'e', 'a', 'e', 'i', 'o', 'u', 'a', 'a', 'o', 'e', 'a', 'e', 'i', 'o', 'u', 'a', 'a', 'o', 'e', 'a', 'e', 'i', 'o', 'u', 'a', 'a', 'o', 'e', 'a', 'e', 'i', 'o', 'u', 'a', 'a', 'o', 'e', 'ee', 'ee', 'ee', 'ee', 'ee', 'ee', 'ee', 'ee', 'ai', 'ee', 'oo', 'iee', 'eaa', 'ia', 'io', 'aa', 'uo', 'y', 'ii', 'oa', 'yo', 'yi', 'ye'];
   const nm11 = ['b', 'c', 'ch', 'd', 'fr', 'g', 'gg', 'j', 'k', 'kc', 'kk', 'ks', 'l', 'ld', 'lk', 'ln', 'lz', 'm', 'ml', 'n', 'nc', 'nck', 'nd', 'ng', 'nk', 'nn', 'np', 'nt', 'nw', 'p', 'pk', 'pp', 'r', 'rm', 'rr', 'rt', 's', 'sk', 'sm', 'ss', 'st', 't', 'tr', 'v', 'vr', 'w', 'y', 'z'];
   const nm12 = ['', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', 'c', 'ch', 'd', 'ff', 'gg', 'ggs', 'gs', 'h', 'hn', 'hnt', 'ht', 'k', 'l', 'lb', 'll', 'ls', 'm', 'n', 'ng', 'nk', 'nn', 'ntt', 'nx', 'p', 'q', 'r', 'rk', 'rn', 'ro', 'rr', 'rs', 's', 'sh', 't', 'th', 'w', 'x', 'z'];
-
-
   const i = Math.floor(Math.random() * 10);
   {
     rnd7 = Math.floor(Math.random() * nm9.length);

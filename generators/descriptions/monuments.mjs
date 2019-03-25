@@ -23,14 +23,10 @@ export default function monuments() {
   const rnd10 = Math.floor(Math.random() * nm10.length);
   const rnd11 = Math.floor(Math.random() * nm11.length);
   const rnd12 = Math.floor(Math.random() * nm12.length);
-
   const name = `Built ${nm1[rnd1]} ago, this ${nm2[rnd2]} ${nm3[rnd3]} is here to ${nm4[rnd4]}.`;
   const name2 = `Its position within this community is meant to represent the ${nm5[rnd5]}.`;
-
   const name3 = `It was designed by ${nm6[rnd6]} who ${nm7[rnd7]} captured the ${nm8[rnd8]} of the region and used ${nm9[rnd9]} style to convey ${nm12[rnd12]} vision in this piece of art.`;
   const name4 = `Every element was crafted and created with ${nm10[rnd10]} materials from local suppliers, ensuring this monument will ${nm11[rnd11]}.`;
-
-
   let result = '';
   result += name;
   result += '\n';

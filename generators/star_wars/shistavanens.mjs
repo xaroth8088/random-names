@@ -1,6 +1,5 @@
 export default function shistavanens() {
   let rnd;
-
   let rnd2;
   let rnd3;
   let rnd4;
@@ -12,10 +11,7 @@ export default function shistavanens() {
   let rnd10;
   let
     rnd11;
-
-
   let names;
-
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['b', 'bl', 'c', 'd', 'g', 'h', 'k', 'l', 'm', 'n', 'phl', 'r', 's', 't', 'v', 'y'];
   const nm2 = ['a', 'e', 'i', 'o', 'u', 'u', 'o', 'a', 'a', 'e', 'i', 'o', 'u', 'u', 'o', 'a', 'oo', 'aa', 'uu'];
@@ -28,8 +24,6 @@ export default function shistavanens() {
   const nm10 = ['a', 'e', 'i', 'o', 'u', 'a', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'o', 'u', 'ie', 'oa', 'ae', 'oo', 'aa'];
   const nm11 = ['c', 'd', 'dr', 'dv', 'h', 'hr', 'hx', 'hv', 'kv', 'kr', 'kd', 'n', 'r', 'rr', 'v', 'vr', 'vg', 'x', 'z'];
   const nm12 = ['', 'c', 'd', 'ft', 'g', 'k', 'l', 'm', 'n', 'nn', 'p', 'q', 'r', 'rr', 't', 'v', 'vl'];
-
-
   const i = Math.floor(Math.random() * 10);
   {
     rnd7 = Math.floor(Math.random() * nm9.length);

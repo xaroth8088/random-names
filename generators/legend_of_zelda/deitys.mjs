@@ -1,6 +1,5 @@
 export default function deitys() {
   let rnd;
-
   let rnd2;
   let rnd3;
   let rnd4;
@@ -8,10 +7,7 @@ export default function deitys() {
   let rnd6;
   let
     rnd7;
-
-
   let names;
-
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['', '', 'b', 'c', 'd', 'j', 'k', 'l', 'm', 'n', 'r', 't', 'v', 'z'];
   const nm2 = ['y', 'a', 'e', 'i', 'o', 'u'];
@@ -22,8 +18,6 @@ export default function deitys() {
   const nm7 = ['a', 'e', 'o', 'i', 'y', 'ay', 'ie', 'ia', 'ea'];
   const nm8 = ['h', 'l', 'm', 'n', 'ph', 'r', 'rd', 's', 'th', 'v', 'r'];
   const nm9 = ['', '', '', '', 'n', 'h'];
-
-
   const i = Math.floor(Math.random() * 10);
   {
     if (type === 1) {

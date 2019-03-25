@@ -1,6 +1,5 @@
 export default function demons() {
   let rnd;
-
   let rnd2;
   let rnd3;
   let rnd4;
@@ -8,10 +7,7 @@ export default function demons() {
   let rnd6;
   let
     rnd7;
-
-
   let names;
-
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['', '', '', '', '', 'b', 'bl', 'br', 'c', 'cr', 'ch', 'd', 'dr', 'g', 'gr', 'gh', 'h', 'j', 'k', 'kh', 'kr', 'l', 'm', 'n', 'p', 'pr', 'r', 's', 'sl', 'str', 'sthr', 'sth', 'sr', 't', 'th', 'tr', 'thr', 'v', 'vr', 'wr', 'x', 'y', 'z'];
   const nm2 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'io', 'oi', 'aa', 'iu', 'ia', 'ou', 'ea', 'uu', 'au', 'ao'];
@@ -21,8 +17,6 @@ export default function demons() {
   const nm6 = ['a', 'e', 'i', 'o', 'u', 'io', 'oi', 'aa', 'iu', 'ia', 'ou', 'ea', 'uu', 'au', 'ao'];
   const nm7 = ['b', 'bb', 'br', 'bh', 'c', 'ch', 'd', 'dh', 'dd', 'dr', 'g', 'gn', 'gr', 'h', 'hr', 'hl', 'k', 'kh', 'kr', 'l', 'lf', 'lph', 'lth', 'lm', 'ln', 'ld', 'll', 'lr', 'm', 'mm', 'ml', 'mf', 'n', 'nn', 'ng', 'nth', 'ns', 'nt', 'ndr', 'ph', 'phr', 'r', 'rr', 'rph', 'rl', 'rs', 'rn', 's', 'sh', 'ss', 'sz', 'sth', 'str', 't', 'th', 'tr', 'tt', 'thr', 'x', 'xx', 'xh', 'z', 'zz'];
   const nm8 = ['', '', '', '', 'h', 'l', 'n', 's', 'th', 'z'];
-
-
   const i = Math.floor(Math.random() * 10);
   {
     if (type === 1) {
