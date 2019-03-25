@@ -10,34 +10,14 @@ export default function sylphs() {
   let rnd8;
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['c', 'ch', 'l', 'm', 'n', 'ph', 's', 'th', 'v', 'w', 'y'];
-  const nm2 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i',
-    'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i',
-    'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i',
-    'o', 'u', 'ae', 'ea', 'ei', 'ia', 'ie', 'ue', 'ua', 'aei', 'aea', 'eae'];
-  const nm3 = ['bh', 'c', 'ch', 'h', 'y', 'hl', 'hm', 'hy', 'l', 'lm', 'ln',
-    'ls', 'lt', 'lth', 'lv', 'll', 'm', 'mm', 'mn', 'mh', 'ms', 'mth', 'n',
-    'nh', 'nn', 'nl', 'nt', 'ns', 'nth', 'nv', 'nf', 'nm', 'nh', 'nhr', 'ph',
-    'phr', 'r', 'rd', 'rph', 'rs', 'rth', 'rh', 'rn', 'rm', 'rv', 'ss', 'sn',
-    'sh', 'st', 't', 'th', 'thr', 'v', 'w'];
-  const nm4 = ['f', 'l', 'm', 'n', 's', 'th', 'f', 'ff', 'h', 'l', 'm', 'n',
-    'ph', 's', 'sh', 'th', 'y'];
-  const nm5 = ['', '', '', '', 'dh', 'f', 'h', 'l', 'm', 'n', 'ph', 's', 'sh',
-    'th', 'w', 'y'];
-  const nm6 = ['c', 'h', 'y', 'hl', 'hn', 'hm', 'hsh', 'hph', 'hy', 'hth', 'ht',
-    'l', 'll', 'lsh', 'lf', 'ln', 'lph', 'ls', 'lth', 'm', 'mn', 'mh', 'ms',
-    'n', 'nh', 'nl', 'nsh', 'nt', 'ns', 'nth', 'nph', 'nf', 'nm', 'nh', 'nhr',
-    'ph', 'phn', 'phl', 'r', 'rd', 'rph', 'rsh', 'rs', 'rth', 'rh', 'rn',
-    'rm', 'ss', 'sn', 'shn', 'sh', 'st', 'sht', 't', 'th', 'thr', 'v', 'w'];
-  const nm7 = ['', '', '', '', 'f', 'ff', 'h', 'l', 'm', 'n', 'ph', 's', 'sh',
-    'y', 'f', 'ff', 'h', 'ph', 's', 'sh', 'y'];
-  const nm8 = ['', '', '', '', '', 'c', 'dh', 'f', 'h', 'l', 'm', 'n', 'ph',
-    's', 'sh', 'th', 'v', 'w', 'y'];
-  const nm9 = ['ch', 'h', 'hl', 'hn', 'hm', 'hsh', 'hph', 'ht', 'hth', 'l',
-    'lsh', 'lf', 'lm', 'ln', 'lph', 'ls', 'lt', 'lth', 'lv', 'm', 'mm', 'mn',
-    'mh', 'ms', 'msh', 'mth', 'mf', 'n', 'nh', 'nl', 'nsh', 'nt', 'ns', 'nth',
-    'nph', 'nv', 'nf', 'nm', 'nh', 'nhr', 'ph', 'phr', 'phn', 'phl', 'r',
-    'rd', 'rph', 'rsh', 'rs', 'rth', 'rh', 'rn', 'rm', 'ss', 'sn', 'shn',
-    'sh', 'st', 'sht', 't', 'th', 'thr', 'v', 'w', 'y'];
+  const nm2 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'ae', 'ea', 'ei', 'ia', 'ie', 'ue', 'ua', 'aei', 'aea', 'eae'];
+  const nm3 = ['bh', 'c', 'ch', 'h', 'y', 'hl', 'hm', 'hy', 'l', 'lm', 'ln', 'ls', 'lt', 'lth', 'lv', 'll', 'm', 'mm', 'mn', 'mh', 'ms', 'mth', 'n', 'nh', 'nn', 'nl', 'nt', 'ns', 'nth', 'nv', 'nf', 'nm', 'nh', 'nhr', 'ph', 'phr', 'r', 'rd', 'rph', 'rs', 'rth', 'rh', 'rn', 'rm', 'rv', 'ss', 'sn', 'sh', 'st', 't', 'th', 'thr', 'v', 'w'];
+  const nm4 = ['f', 'l', 'm', 'n', 's', 'th', 'f', 'ff', 'h', 'l', 'm', 'n', 'ph', 's', 'sh', 'th', 'y'];
+  const nm5 = ['', '', '', '', 'dh', 'f', 'h', 'l', 'm', 'n', 'ph', 's', 'sh', 'th', 'w', 'y'];
+  const nm6 = ['c', 'h', 'y', 'hl', 'hn', 'hm', 'hsh', 'hph', 'hy', 'hth', 'ht', 'l', 'll', 'lsh', 'lf', 'ln', 'lph', 'ls', 'lth', 'm', 'mn', 'mh', 'ms', 'n', 'nh', 'nl', 'nsh', 'nt', 'ns', 'nth', 'nph', 'nf', 'nm', 'nh', 'nhr', 'ph', 'phn', 'phl', 'r', 'rd', 'rph', 'rsh', 'rs', 'rth', 'rh', 'rn', 'rm', 'ss', 'sn', 'shn', 'sh', 'st', 'sht', 't', 'th', 'thr', 'v', 'w'];
+  const nm7 = ['', '', '', '', 'f', 'ff', 'h', 'l', 'm', 'n', 'ph', 's', 'sh', 'y', 'f', 'ff', 'h', 'ph', 's', 'sh', 'y'];
+  const nm8 = ['', '', '', '', '', 'c', 'dh', 'f', 'h', 'l', 'm', 'n', 'ph', 's', 'sh', 'th', 'v', 'w', 'y'];
+  const nm9 = ['ch', 'h', 'hl', 'hn', 'hm', 'hsh', 'hph', 'ht', 'hth', 'l', 'lsh', 'lf', 'lm', 'ln', 'lph', 'ls', 'lt', 'lth', 'lv', 'm', 'mm', 'mn', 'mh', 'ms', 'msh', 'mth', 'mf', 'n', 'nh', 'nl', 'nsh', 'nt', 'ns', 'nth', 'nph', 'nv', 'nf', 'nm', 'nh', 'nhr', 'ph', 'phr', 'phn', 'phl', 'r', 'rd', 'rph', 'rsh', 'rs', 'rth', 'rh', 'rn', 'rm', 'ss', 'sn', 'shn', 'sh', 'st', 'sht', 't', 'th', 'thr', 'v', 'w', 'y'];
   const nm10 = ['f', 'ff', 'h', 'l', 'm', 'n', 'ph', 's', 'sh', 'th', 'y'];
   const i = Math.floor(Math.random() * 10);
   {

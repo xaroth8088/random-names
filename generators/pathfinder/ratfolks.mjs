@@ -6,25 +6,14 @@ export default function ratfolks() {
   let rnd4;
   let rnd5;
   const type = Math.random() > 0.5 ? 0 : 1;
-  const nm1 = ['', '', '', '', '', '', '', 'b', 'br', 'c', 'cr', 'ch', 'd',
-    'dr', 'dj', 'g', 'gr', 'gn', 'gl', 'j', 'k', 'kr', 'kv', 'kn', 'm', 'n',
-    'p', 'pr', 'r', 's', 'st', 'sr', 'skr', 'sc', 'scr', 'sk', 't', 'tr', 'v',
-    'vr', 'z', 'zr'];
+  const nm1 = ['', '', '', '', '', '', '', 'b', 'br', 'c', 'cr', 'ch', 'd', 'dr', 'dj', 'g', 'gr', 'gn', 'gl', 'j', 'k', 'kr', 'kv', 'kn', 'm', 'n', 'p', 'pr', 'r', 's', 'st', 'sr', 'skr', 'sc', 'scr', 'sk', 't', 'tr', 'v', 'vr', 'z', 'zr'];
   const nm2 = ['a', 'e', 'i', 'o', 'a', 'e', 'i'];
-  const nm3 = ['cc', 'cd', 'cr', 'gg', 'gr', 'gk', 'gv', 'gd', 'kk', 'kr', 'kv',
-    'kz', 'm', 'mm', 'md', 'mk', 'mv', 'mz', 'n', 'nn', 'nd', 'nv', 'nk',
-    'ng', 'nz', 'rr', 'r', 'rk', 'rv', 'rz', 'rc', 'rg', 'rd', 'vv', 'v',
-    'vd', 'vk', 'vz'];
-  const nm4 = ['c', 'g', 'c', 'g', 'hl', 'hz', 'hk', 'hn', 'hc', 'k', 'm', 'n',
-    'q', 'r', 's', 't', 'z', 'k', 'm', 'n', 'q', 'r', 's', 't', 'z'];
-  const nm5 = ['b', 'bh', 'c', 'ch', 'dh', 'f', 'fr', 'fh', 'gh', 'j', 'k', 'm',
-    'n', 'nh', 'p', 'r', 's', 'sh', 't', 'th', 'v', 'vh', 'z', 'zh'];
+  const nm3 = ['cc', 'cd', 'cr', 'gg', 'gr', 'gk', 'gv', 'gd', 'kk', 'kr', 'kv', 'kz', 'm', 'mm', 'md', 'mk', 'mv', 'mz', 'n', 'nn', 'nd', 'nv', 'nk', 'ng', 'nz', 'rr', 'r', 'rk', 'rv', 'rz', 'rc', 'rg', 'rd', 'vv', 'v', 'vd', 'vk', 'vz'];
+  const nm4 = ['c', 'g', 'c', 'g', 'hl', 'hz', 'hk', 'hn', 'hc', 'k', 'm', 'n', 'q', 'r', 's', 't', 'z', 'k', 'm', 'n', 'q', 'r', 's', 't', 'z'];
+  const nm5 = ['b', 'bh', 'c', 'ch', 'dh', 'f', 'fr', 'fh', 'gh', 'j', 'k', 'm', 'n', 'nh', 'p', 'r', 's', 'sh', 't', 'th', 'v', 'vh', 'z', 'zh'];
   const nm6 = ['a', 'e', 'i', 'o', 'u', 'e', 'e', 'e', 'i', 'i', 'i'];
-  const nm7 = ['b', 'bb', 'c', 'cc', 'f', 'ff', 'g', 'gg', 'j', 'k', 'kk', 'l',
-    'll', 'm', 'mm', 'n', 'nn', 'p', 'pp', 'r', 'rr', 's', 'ss', 't', 'tt',
-    'z', 'zz'];
-  const nm8 = ['', '', '', '', '', '', '', '', 'ch', 'f', 'hm', 'hl', 'ks', 'l',
-    'm', 'n', 'r', 's', 'sh', 't', 'th', 'tch', 'x'];
+  const nm7 = ['b', 'bb', 'c', 'cc', 'f', 'ff', 'g', 'gg', 'j', 'k', 'kk', 'l', 'll', 'm', 'mm', 'n', 'nn', 'p', 'pp', 'r', 'rr', 's', 'ss', 't', 'tt', 'z', 'zz'];
+  const nm8 = ['', '', '', '', '', '', '', '', 'ch', 'f', 'hm', 'hl', 'ks', 'l', 'm', 'n', 'r', 's', 'sh', 't', 'th', 'tch', 'x'];
   const i = Math.floor(Math.random() * 10);
   {
     if (type === 1) {

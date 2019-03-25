@@ -16,61 +16,20 @@ export default function halflings() {
   let rnd15;
   let rnd16;
   const type = Math.random() > 0.5 ? 0 : 1;
-  const nm1 = ['', '', 'b', 'br', 'd', 'f', 'h', 'j', 'l', 'm', 'n', 'p', 'r',
-    's', 't', 'tr', 'v', 'vr', 'x'];
-  const nm2 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i',
-    'o', 'u', 'aa'];
-  const nm3 = ['b', 'b', 'd', 'd', 'f', 'f', 'g', 'g', 'k', 'k', 'l', 'l', 'lb',
-    'ld', 'm', 'm', 'mr', 'mg', 'n', 'n', 'nd', 'ng', 'nk', 'nt', 'r', 'r',
-    'rb', 'rc', 'rg', 'rr', 'rk', 'sg', 'sk', 'st', 'v', 'v', 'x', 'x'];
-  const nm4 = ['', '', '', 'k', 'l', 'm', 'n', 'nd', 'pp', 'r', 'rd', 'rn', 's',
-    'th'];
-  const nm5 = ['', '', '', 'b', 'd', 'f', 'h', 'j', 'k', 'l', 'm', 'n', 'pr',
-    'r', 's', 't', 'v', 'w', 'y'];
-  const nm6 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i',
-    'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i',
-    'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'iu', 'io',
-    'oe', 'ai', 'ia', 'ae'];
-  const nm7 = ['dg', 'f', 'f', 'hs', 'hr', 'hn', 'hj', 'l', 'l', 'lc', 'lk',
-    'll', 'lm', 'ln', 'ld', 'lr', 'm', 'm', 'mb', 'n', 'n', 'nt', 'nth', 'nr',
-    'r', 'r', 'rl', 'rr', 's', 's', 'ss', 'st', 'str', 't', 't', 'th', 'tt',
-    'v', 'v', 'y', 'y', 'z', 'z'];
-  const nm8 = ['', '', '', '', '', '', '', '', '', '', 'h', 'l', 'n', 's', 't',
-    'th'];
-  const nm9 = ['', '', '', 'b', 'bl', 'c', 'd', 'f', 'g', 'gl', 'gn', 'h', 'k',
-    'kl', 'n', 'p', 'r', 's', 't', 'v', 'vl'];
-  const nm10 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i',
-    'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i',
-    'o', 'u', 'y', 'ia', 'ae', 'ea', 'ai'];
-  const nm11 = ['bl', 'br', 'bbl', 'dl', 'dn', 'dr', 'ffl', 'ggl', 'gr', 'gdd',
-    'gn', 'l', 'ld', 'lb', 'lv', 'ln', 'lm', 'lr', 'lz', 'lv', 'm', 'mb',
-    'md', 'n', 'nd', 'ng', 'nb', 'nv', 'nch', 'nd', 'r', 'rb', 'rd', 'rw',
-    's', 'sr', 'sb', 'sd', 'sl', 'v', 'vr', 'vl', 'wh', 'zr', 'zz'];
-  const nm12 = ['', '', '', 'g', 'l', 'lk', 'n', 'nch', 'nd', 'r', 'rd', 'rg',
-    's', 'th', 'x'];
-  const nm13 = ['Amber', 'Arms', 'Ash', 'Autumn', 'Bard', 'Black', 'Blaze',
-    'Blossom', 'Bright', 'Bronze', 'Cask', 'Cinder', 'Cliff', 'Cloud', 'Cold',
-    'Common', 'Coven', 'Crag', 'Dark', 'Dawn', 'Day', 'Deep', 'Dew', 'Down',
-    'Dream', 'Dusk', 'Dust', 'Earth', 'Even', 'Ever', 'Far', 'Feather',
-    'Fern', 'Flame', 'Flat', 'Flint', 'Fog', 'Forest', 'Free', 'Frost',
-    'Full', 'Gold', 'Grand', 'Grass', 'Gray', 'Green', 'Hard', 'Haven',
-    'Haze', 'Heart', 'High', 'Hill', 'Honor', 'Humble', 'Iron', 'Keen',
-    'Leaf', 'Light', 'Lone', 'Long', 'Low', 'Meadow', 'Mild', 'Mist', 'Moon',
-    'Moss', 'Never', 'Night', 'Noble', 'Orb', 'Pale', 'Pine', 'Plain', 'Rain',
-    'Red', 'Rich', 'River', 'Rumble', 'Shadow', 'Silent', 'Simple', 'Single',
-    'Snow', 'Soft', 'Spirit', 'Spring', 'Star', 'Still', 'Stone', 'Summer',
-    'Sun', 'Swift', 'Tree', 'True', 'Truth', 'Turn', 'Water', 'Whit', 'Wind',
-    'Winter', 'Wise', 'Wood'];
-  const nm14 = ['arm', 'beam', 'bend', 'blaze', 'bloom', 'blossom', 'bough',
-    'brace', 'branch', 'brand', 'breath', 'breeze', 'brook', 'brow', 'cloud',
-    'coin', 'creek', 'crest', 'dew', 'down', 'draft', 'dream', 'fall', 'flaw',
-    'flow', 'flower', 'force', 'gaze', 'gazer', 'gem', 'glade', 'gleam',
-    'glide', 'glow', 'grain', 'grip', 'guard', 'hair', 'hand', 'heart',
-    'helm', 'horn', 'keep', 'leaf', 'less', 'light', 'more', 'orb', 'peak',
-    'ridge', 'root', 'run', 'shine', 'shot', 'soar', 'song', 'spark',
-    'stream', 'stride', 'sun', 'surge', 'sword', 'sworn', 'thorn', 'tide',
-    'track', 'vale', 'valor', 'ward', 'water', 'whirl', 'wing', 'with',
-    'worth'];
+  const nm1 = ['', '', 'b', 'br', 'd', 'f', 'h', 'j', 'l', 'm', 'n', 'p', 'r', 's', 't', 'tr', 'v', 'vr', 'x'];
+  const nm2 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'aa'];
+  const nm3 = ['b', 'b', 'd', 'd', 'f', 'f', 'g', 'g', 'k', 'k', 'l', 'l', 'lb', 'ld', 'm', 'm', 'mr', 'mg', 'n', 'n', 'nd', 'ng', 'nk', 'nt', 'r', 'r', 'rb', 'rc', 'rg', 'rr', 'rk', 'sg', 'sk', 'st', 'v', 'v', 'x', 'x'];
+  const nm4 = ['', '', '', 'k', 'l', 'm', 'n', 'nd', 'pp', 'r', 'rd', 'rn', 's', 'th'];
+  const nm5 = ['', '', '', 'b', 'd', 'f', 'h', 'j', 'k', 'l', 'm', 'n', 'pr', 'r', 's', 't', 'v', 'w', 'y'];
+  const nm6 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'iu', 'io', 'oe', 'ai', 'ia', 'ae'];
+  const nm7 = ['dg', 'f', 'f', 'hs', 'hr', 'hn', 'hj', 'l', 'l', 'lc', 'lk', 'll', 'lm', 'ln', 'ld', 'lr', 'm', 'm', 'mb', 'n', 'n', 'nt', 'nth', 'nr', 'r', 'r', 'rl', 'rr', 's', 's', 'ss', 'st', 'str', 't', 't', 'th', 'tt', 'v', 'v', 'y', 'y', 'z', 'z'];
+  const nm8 = ['', '', '', '', '', '', '', '', '', '', 'h', 'l', 'n', 's', 't', 'th'];
+  const nm9 = ['', '', '', 'b', 'bl', 'c', 'd', 'f', 'g', 'gl', 'gn', 'h', 'k', 'kl', 'n', 'p', 'r', 's', 't', 'v', 'vl'];
+  const nm10 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'y', 'ia', 'ae', 'ea', 'ai'];
+  const nm11 = ['bl', 'br', 'bbl', 'dl', 'dn', 'dr', 'ffl', 'ggl', 'gr', 'gdd', 'gn', 'l', 'ld', 'lb', 'lv', 'ln', 'lm', 'lr', 'lz', 'lv', 'm', 'mb', 'md', 'n', 'nd', 'ng', 'nb', 'nv', 'nch', 'nd', 'r', 'rb', 'rd', 'rw', 's', 'sr', 'sb', 'sd', 'sl', 'v', 'vr', 'vl', 'wh', 'zr', 'zz'];
+  const nm12 = ['', '', '', 'g', 'l', 'lk', 'n', 'nch', 'nd', 'r', 'rd', 'rg', 's', 'th', 'x'];
+  const nm13 = ['Amber', 'Arms', 'Ash', 'Autumn', 'Bard', 'Black', 'Blaze', 'Blossom', 'Bright', 'Bronze', 'Cask', 'Cinder', 'Cliff', 'Cloud', 'Cold', 'Common', 'Coven', 'Crag', 'Dark', 'Dawn', 'Day', 'Deep', 'Dew', 'Down', 'Dream', 'Dusk', 'Dust', 'Earth', 'Even', 'Ever', 'Far', 'Feather', 'Fern', 'Flame', 'Flat', 'Flint', 'Fog', 'Forest', 'Free', 'Frost', 'Full', 'Gold', 'Grand', 'Grass', 'Gray', 'Green', 'Hard', 'Haven', 'Haze', 'Heart', 'High', 'Hill', 'Honor', 'Humble', 'Iron', 'Keen', 'Leaf', 'Light', 'Lone', 'Long', 'Low', 'Meadow', 'Mild', 'Mist', 'Moon', 'Moss', 'Never', 'Night', 'Noble', 'Orb', 'Pale', 'Pine', 'Plain', 'Rain', 'Red', 'Rich', 'River', 'Rumble', 'Shadow', 'Silent', 'Simple', 'Single', 'Snow', 'Soft', 'Spirit', 'Spring', 'Star', 'Still', 'Stone', 'Summer', 'Sun', 'Swift', 'Tree', 'True', 'Truth', 'Turn', 'Water', 'Whit', 'Wind', 'Winter', 'Wise', 'Wood'];
+  const nm14 = ['arm', 'beam', 'bend', 'blaze', 'bloom', 'blossom', 'bough', 'brace', 'branch', 'brand', 'breath', 'breeze', 'brook', 'brow', 'cloud', 'coin', 'creek', 'crest', 'dew', 'down', 'draft', 'dream', 'fall', 'flaw', 'flow', 'flower', 'force', 'gaze', 'gazer', 'gem', 'glade', 'gleam', 'glide', 'glow', 'grain', 'grip', 'guard', 'hair', 'hand', 'heart', 'helm', 'horn', 'keep', 'leaf', 'less', 'light', 'more', 'orb', 'peak', 'ridge', 'root', 'run', 'shine', 'shot', 'soar', 'song', 'spark', 'stream', 'stride', 'sun', 'surge', 'sword', 'sworn', 'thorn', 'tide', 'track', 'vale', 'valor', 'ward', 'water', 'whirl', 'wing', 'with', 'worth'];
   const i = Math.floor(Math.random() * 10);
   {
     rnd10 = Math.floor(Math.random() * nm9.length);

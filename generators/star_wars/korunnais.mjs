@@ -12,29 +12,16 @@ export default function korunnais() {
   let rnd11;
   let rnd12;
   const type = Math.random() > 0.5 ? 0 : 1;
-  const nm1 = ['', '', '', '', 'b', 'br', 'd', 'g', 'gr', 'k', 'l', 'm', 'n',
-    'pr', 'r', 's', 't', 'th', 'tr', 'v', 'z'];
-  const nm2 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i',
-    'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'io', 'ii',
-    'ou'];
-  const nm3 = ['c', 'd', 'ff', 'g', 'k', 'l', 'll', 'mm', 'n', 'nn', 'r', 'rr',
-    's', 'ss', 'th', 'v', 'z'];
+  const nm1 = ['', '', '', '', 'b', 'br', 'd', 'g', 'gr', 'k', 'l', 'm', 'n', 'pr', 'r', 's', 't', 'th', 'tr', 'v', 'z'];
+  const nm2 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'io', 'ii', 'ou'];
+  const nm3 = ['c', 'd', 'ff', 'g', 'k', 'l', 'll', 'mm', 'n', 'nn', 'r', 'rr', 's', 'ss', 'th', 'v', 'z'];
   const nm4 = ['c', 'g', 'k', 'l', 'm', 'n', 'r', 'rz', 's', 'sh', 'th', 'z'];
-  const nm5 = ['d', 'dh', 'f', 'g', 'h', 'k', 'l', 'm', 'n', 'r', 's', 'sh',
-    't', 'th', 'w', 'z'];
-  const nm6 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i',
-    'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i',
-    'o', 'u', 'ia', 'ie', 'ea', 'ae', 'eo'];
-  const nm7 = ['c', 'dd', 'f', 'ff', 'g', 'h', 'l', 'll', 'm', 'mm', 'n', 'nn',
-    'r', 'rr', 's', 'ss', 'sh', 't', 'th', 'v', 'w', 'z'];
-  const nm9 = ['d', 'g', 'gr', 'h', 'l', 'm', 'n', 'r', 's', 't', 'th', 'tr',
-    'v', 'w', 'z'];
+  const nm5 = ['d', 'dh', 'f', 'g', 'h', 'k', 'l', 'm', 'n', 'r', 's', 'sh', 't', 'th', 'w', 'z'];
+  const nm6 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'ia', 'ie', 'ea', 'ae', 'eo'];
+  const nm7 = ['c', 'dd', 'f', 'ff', 'g', 'h', 'l', 'll', 'm', 'mm', 'n', 'nn', 'r', 'rr', 's', 'ss', 'sh', 't', 'th', 'v', 'w', 'z'];
+  const nm9 = ['d', 'g', 'gr', 'h', 'l', 'm', 'n', 'r', 's', 't', 'th', 'tr', 'v', 'w', 'z'];
   const nm10 = ['a', 'e', 'i', 'o', 'u'];
-  const nm11 = ['dd', 'dn', 'dl', 'fn', 'fl', 'fd', 'gn', 'gm', 'gd', 'gl',
-    'gg', 'hn', 'hm', 'hd', 'hv', 'll', 'ln', 'ld', 'lm', 'lv', 'mm', 'mn',
-    'md', 'ml', 'mv', 'mt', 'nd', 'nn', 'nv', 'nl', 'ng', 'nd', 'nf', 'nt',
-    'pt', 'pp', 'pn', 'pm', 'pd', 'pt', 'st', 'ss', 'sn', 'sm', 'tn', 'tm',
-    'tv', 'vv', 'vd', 'vn', 'vl', 'vm'];
+  const nm11 = ['dd', 'dn', 'dl', 'fn', 'fl', 'fd', 'gn', 'gm', 'gd', 'gl', 'gg', 'hn', 'hm', 'hd', 'hv', 'll', 'ln', 'ld', 'lm', 'lv', 'mm', 'mn', 'md', 'ml', 'mv', 'mt', 'nd', 'nn', 'nv', 'nl', 'ng', 'nd', 'nf', 'nt', 'pt', 'pp', 'pn', 'pm', 'pd', 'pt', 'st', 'ss', 'sn', 'sm', 'tn', 'tm', 'tv', 'vv', 'vd', 'vn', 'vl', 'vm'];
   const nm12 = ['', '', '', '', '', '', '', 'l', 'm', 'n', 'r', 's'];
   const i = Math.floor(Math.random() * 10);
   {

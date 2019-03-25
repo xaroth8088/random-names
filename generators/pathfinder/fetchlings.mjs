@@ -8,20 +8,13 @@ export default function fetchlings() {
   let rnd6;
   let rnd7;
   const type = Math.random() > 0.5 ? 0 : 1;
-  const nm1 = ['', '', '', 'br', 'dr', 'gr', 'j', 'm', 'n', 'q', 'qr', 'r', 's',
-    'tr', 'x', 'y', 'z'];
+  const nm1 = ['', '', '', 'br', 'dr', 'gr', 'j', 'm', 'n', 'q', 'qr', 'r', 's', 'tr', 'x', 'y', 'z'];
   const nm2 = ['a', 'e', 'i', 'o', 'u'];
-  const nm3 = ['c', 'd', 'g', 'h', 'j', 'k', 'l', 'm', 'n', 'r', 's', 't', 'v',
-    'z'];
+  const nm3 = ['c', 'd', 'g', 'h', 'j', 'k', 'l', 'm', 'n', 'r', 's', 't', 'v', 'z'];
   const nm4 = ['', '', '', 'c', 'h', 'l', 'm', 'n', 'r', 't', 'x'];
-  const nm5 = ['c', 'f', 'g', 'h', 'l', 'm', 'n', 'q', 'r', 's', 't', 'th', 'v',
-    'y', 'z'];
-  const nm7 = ['c', 'fz', 'fn', 'g', 'gv', 'gn', 'gz', 'h', 'hn', 'hv', 'hz',
-    'l', 'lv', 'lr', 'ls', 'lz', 'm', 'mr', 'mv', 'mz', 'nv', 'nz', 'nr', 'r',
-    'rr', 'rs', 'rz', 'rh', 'rv', 'sc', 'sh', 'sr', 'sv', 'th', 'thr', 'tv',
-    'tn'];
-  const nm8 = ['', '', '', '', '', '', '', '', '', '', '', '', '', 'h', 'l',
-    'm', 'n', 's', 'x'];
+  const nm5 = ['c', 'f', 'g', 'h', 'l', 'm', 'n', 'q', 'r', 's', 't', 'th', 'v', 'y', 'z'];
+  const nm7 = ['c', 'fz', 'fn', 'g', 'gv', 'gn', 'gz', 'h', 'hn', 'hv', 'hz', 'l', 'lv', 'lr', 'ls', 'lz', 'm', 'mr', 'mv', 'mz', 'nv', 'nz', 'nr', 'r', 'rr', 'rs', 'rz', 'rh', 'rv', 'sc', 'sh', 'sr', 'sv', 'th', 'thr', 'tv', 'tn'];
+  const nm8 = ['', '', '', '', '', '', '', '', '', '', '', '', '', 'h', 'l', 'm', 'n', 's', 'x'];
   const i = Math.floor(Math.random() * 10);
   {
     if (type === 1) {

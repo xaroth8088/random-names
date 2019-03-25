@@ -14,14 +14,9 @@ export default function dugs() {
   let rnd5;
   let rnd6;
   let rnd7;
-  const nm1 = ['b', 'd', 'g', 'gr', 'j', 'k', 'n', 'p', 'pr', 'r', 's', 't',
-    'tr', 'v'];
-  const nm2 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i',
-    'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'ei', 'ou',
-    'aa', 'ai'];
-  const nm3 = ['b', 'br', 'bh', 'd', 'dd', 'dw', 'g', 'gn', 'gr', 'gw', 'gg',
-    'k', 'kw', 'kh', 'ln', 'lw', 'lg', 'lb', 'lt', 'nr', 'nb', 'nd', 'ng',
-    'ns', 'rd', 'r', 'rg', 'rn', 's', 'sw', 'ss', 'w'];
+  const nm1 = ['b', 'd', 'g', 'gr', 'j', 'k', 'n', 'p', 'pr', 'r', 's', 't', 'tr', 'v'];
+  const nm2 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'ei', 'ou', 'aa', 'ai'];
+  const nm3 = ['b', 'br', 'bh', 'd', 'dd', 'dw', 'g', 'gn', 'gr', 'gw', 'gg', 'k', 'kw', 'kh', 'ln', 'lw', 'lg', 'lb', 'lt', 'nr', 'nb', 'nd', 'ng', 'ns', 'rd', 'r', 'rg', 'rn', 's', 'sw', 'ss', 'w'];
   const nm4 = ['', '', '', 'd', 'hx', 'n', 's', 'x'];
   const nm6 = ['', '', 'a', 'e', 'i', 'o', 'u'];
   const nm7 = ['d', 'n', 'r', 's'];

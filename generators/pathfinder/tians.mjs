@@ -10,239 +10,68 @@ export default function tians() {
   let rnd8;
   const type = Math.random() > 0.5 ? 0 : 1;
   /* Tian-Dan - Vietnamese */
-  const nm1 = ['', '', '', 'b', 'c', 'ch', 'd', 'g', 'h', 'kh', 'l', 'm', 'ng',
-    'nh', 'ph', 'q', 's', 'th', 't', 'tr', 'v', 'x'];
-  const nm2 = ['a', 'ai', 'ao', 'i', 'ia', 'ie', 'ieu', 'o', 'oa', 'oai', 'u',
-    'ua', 'ue', 'ui', 'uo', 'uu'];
+  const nm1 = ['', '', '', 'b', 'c', 'ch', 'd', 'g', 'h', 'kh', 'l', 'm', 'ng', 'nh', 'ph', 'q', 's', 'th', 't', 'tr', 'v', 'x'];
+  const nm2 = ['a', 'ai', 'ao', 'i', 'ia', 'ie', 'ieu', 'o', 'oa', 'oai', 'u', 'ua', 'ue', 'ui', 'uo', 'uu'];
   const nm3 = ['', 'c', 'n', 'ng', 'nh', 't', 'y'];
-  const nm4 = ['', '', '', 'b', 'c', 'ch', 'd', 'g', 'h', 'hy', 'k', 'kh', 'l',
-    'm', 'n', 'ng', 'nh', 'ph', 'q', 's', 't', 'th', 'tr', 'v', 'x', 'y'];
-  const nm5 = ['a', 'ai', 'ao', 'au', 'e', 'h', 'i', 'ia', 'ie', 'ieu', 'iu',
-    'o', 'oa', 'u', 'ua', 'ue', 'uo'];
+  const nm4 = ['', '', '', 'b', 'c', 'ch', 'd', 'g', 'h', 'hy', 'k', 'kh', 'l', 'm', 'n', 'ng', 'nh', 'ph', 'q', 's', 't', 'th', 'tr', 'v', 'x', 'y'];
+  const nm5 = ['a', 'ai', 'ao', 'au', 'e', 'h', 'i', 'ia', 'ie', 'ieu', 'iu', 'o', 'oa', 'u', 'ua', 'ue', 'uo'];
   const nm6 = ['', '', '', 'c', 'ch', 'm', 'n', 'ng', 'nh', 'p', 't', 'y'];
-  const nm7 = ['b', 'c', 'ch', 'd', 'g', 'h', 'k', 'kh', 'l', 'm', 'ng', 'nh',
-    'nz', 'ph', 'q', 's', 't', 'th', 'tr', 'v'];
-  const nm8 = ['a', 'ai', 'ao', 'au', 'i', 'ia', 'ie', 'ieu', 'o', 'oa', 'oi',
-    'oo', 'ou', 'u', 'ua', 'ue', 'ui', 'uo', 'uu', 'uy', 'uye'];
+  const nm7 = ['b', 'c', 'ch', 'd', 'g', 'h', 'k', 'kh', 'l', 'm', 'ng', 'nh', 'nz', 'ph', 'q', 's', 't', 'th', 'tr', 'v'];
+  const nm8 = ['a', 'ai', 'ao', 'au', 'i', 'ia', 'ie', 'ieu', 'o', 'oa', 'oi', 'oo', 'ou', 'u', 'ua', 'ue', 'ui', 'uo', 'uu', 'uy', 'uye'];
   const nm9 = ['', '', 'c', 'ch', 'm', 'n', 'ng', 'nh', 'p', 'y'];
   /* Tian-Dtang - Cambodian/Khmer */
-  const nm10 = ['b', 'ch', 'chh', 'd', 'h', 'kh', 'k', 'kr', 'l', 'm', 'n',
-    'ph', 'p', 'pr', 'r', 's', 'sr', 'th', 'v'];
-  const nm11 = ['oeu', 'ou', 'ea', 'ei', 'ia', 'ao', 'au', 'ai', 'uo', 'a', 'e',
-    'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e',
-    'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e',
-    'i', 'o', 'u'];
-  const nm12 = ['b', 'ch', 'd', 'h', 'k', 'kb', 'kd', 'kh', 'kng', 'kr', 'ks',
-    'ksm', 'ktr', 'l', 'm', 'mb', 'ml', 'mn', 'mph', 'mr', 'n', 'nch', 'ngh',
-    'ngs', 'nkr', 'nl', 'nm', 'nn', 'nr', 'ns', 'nth', 'ntr', 'nv', 'ny', 'p',
-    'ph', 'r', 'rk', 'ry', 's', 'sm', 'sn', 't', 'td', 'th', 'tt', 'v', 'y'];
+  const nm10 = ['b', 'ch', 'chh', 'd', 'h', 'kh', 'k', 'kr', 'l', 'm', 'n', 'ph', 'p', 'pr', 'r', 's', 'sr', 'th', 'v'];
+  const nm11 = ['oeu', 'ou', 'ea', 'ei', 'ia', 'ao', 'au', 'ai', 'uo', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u'];
+  const nm12 = ['b', 'ch', 'd', 'h', 'k', 'kb', 'kd', 'kh', 'kng', 'kr', 'ks', 'ksm', 'ktr', 'l', 'm', 'mb', 'ml', 'mn', 'mph', 'mr', 'n', 'nch', 'ngh', 'ngs', 'nkr', 'nl', 'nm', 'nn', 'nr', 'ns', 'nth', 'ntr', 'nv', 'ny', 'p', 'ph', 'r', 'rk', 'ry', 's', 'sm', 'sn', 't', 'td', 'th', 'tt', 'v', 'y'];
   const nm13 = ['k', 'l', 'm', 'n', 'ng', 'nn', 'p', 'r', 's', 'th', 'y'];
-  const nm14 = ['b', 'ch', 'd', 'j', 'k', 'kr', 'l', 'm', 'n', 'ph', 'p', 'r',
-    's', 'sr', 't', 'th', 'v'];
-  const nm15 = ['b', 'ch', 'd', 'k', 'kd', 'kh', 'kkl', 'kr', 'kry', 'ksm', 'l',
-    'll', 'lth', 'm', 'mb', 'md', 'mj', 'mp', 'mph', 'mr', 'n', 'nch', 'nd',
-    'ngs', 'nkr', 'nl', 'nm', 'nn', 'nnl', 'nt', 'nth', 'ntr', 'nv', 'ny',
-    'p', 'ph', 'r', 'rk', 'rph', 'rsd', 'rt', 'rv', 'ry', 's', 'sm', 'sn',
-    'sn', 't', 'td', 'th', 'tr', 'tt', 'v', 'vy', 'w', 'y', 'yh', 'ym', 'yn',
-    'yp'];
-  const nm16 = ['ch', 'k', 'kry', 'l', 'lly', 'ly', 'm', 'mphy', 'n', 'ng',
-    'nn', 'nny', 'ny', 'ry', 's', 'ss', 'th', 'vy', 'y'];
-  const nm17 = ['b', 'ch', 'chh', 'd', 'h', 'j', 'k', 'kh', 'khl', 'l', 'm',
-    'nh', 'n', 'p', 'ph', 'r', 's', 't', 'th', 'v', 'y'];
-  const nm18 = ['a', 'aa', 'ae', 'ao', 'e', 'ea', 'eo', 'i', 'ia', 'ie', 'o',
-    'oe', 'ou', 'u', 'uo'];
-  const nm19 = ['ch', 'k', 'l', 'm', 'n', 'ng', 'r', 'rn', 's', 't', 'th', 'v',
-    'y'];
-    /* Tian-Hwan - Korean */
-  const nm20 = ['b', 'by', 'ch', 'd', 'g', 'h', 'hy', 'j', 'k', 'kw', 'ky', 'm',
-    'my', 'n', 'p', 'py', 's', 'sh', 't', 'w', 'y'];
-  const nm21 = ['a', 'ae', 'am', 'an', 'ang', 'e', 'ee', 'ejun', 'eo', 'eon',
-    'eong', 'eung', 'i', 'ihu', 'ihun', 'in', 'injae', 'injun', 'o', 'ochun',
-    'ohyon', 'on', 'ong', 'onghyon', 'ongmin', 'onjun', 'onu', 'oo', 'oon',
-    'oung', 'u', 'uck', 'uk', 'ul', 'un', 'ung', 'unghyon', 'unho', 'unso',
-    'unyong', 'uwon'];
-  const nm22 = ['bok', 'bong', 'cheol', 'chol', 'chuk', 'chul', 'dae', 'eun',
-    'gi', 'gu', 'gun', 'gyu', 'hae', 'han', 'hee', 'heon', 'ho', 'hoo',
-    'hoon', 'hu', 'hui', 'hun', 'hwa', 'hwan', 'hyeon', 'hyok', 'hyon',
-    'hyuk', 'hyun', 'il', 'ja', 'jae', 'jin', 'jo', 'joon', 'jun', 'jung',
-    'ki', 'kyu', 'kyung', 'min', 'mo', 'mun', 'nam', 'sam', 'sang', 'seo',
-    'seok', 'seon', 'seong', 'shik', 'sik', 'song', 'soo', 'sook', 'su',
-    'sun', 'sung', 'tae', 'u', 'won', 'woo', 'wook', 'woong', 'yeol', 'yeon',
-    'yeong', 'yol', 'yong', 'yoon', 'young', 'yul'];
-  const nm23 = ['b', 'ch', 'd', 'g', 'gr', 'h', 'hy', 'j', 'k', 'ky', 'l', 'm',
-    'my', 'n', 'r', 'ry', 's', 'sh', 't', 'w', 'y'];
-  const nm24 = ['a', 'ae', 'am', 'an', 'ang', 'ara', 'e', 'ee', 'eh', 'eo',
-    'eon', 'eong', 'eul', 'eum', 'eun', 'eung', 'i', 'ihye', 'ihyon', 'im',
-    'imin', 'in', 'inji', 'inso', 'it', 'iyeon', 'iyong', 'iyun', 'o',
-    'ohyon', 'on', 'ong', 'oo', 'ook', 'oon', 'oung', 'oyon', 'oyun', 'u',
-    'ubin', 'uk', 'un', 'ung', 'unji', 'unso'];
-  const nm25 = ['ae', 'ah', 'ahn', 'bi', 'bin', 'bon', 'byul', 'chae', 'dong',
-    'eum', 'eun', 'gyo', 'gyong', 'gyung', 'ha', 'hae', 'hee', 'ho', 'hui',
-    'hwa', 'hyang', 'hye', 'hyo', 'hyun', 'hyung', 'in', 'ja', 'jeong', 'ji',
-    'jin', 'jong', 'joo', 'joong', 'ju', 'jung', 'kyeong', 'kyung', 'min',
-    'na', 'neul', 'ok', 'ra', 'rae', 'rang', 'ri', 'rim', 'rin', 'ryung',
-    'seo', 'seon', 'shil', 'so', 'song', 'soo', 'sook', 'soon', 'su', 'suk',
-    'sun', 'u', 'un', 'won', 'woo', 'woon', 'yeon', 'yon', 'yong', 'yoon',
-    'young', 'yun', 'yung'];
-  const nm26 = ['Ae', 'Ah', 'An', 'Ch\'a', 'Ch\'ae', 'Ch\'ang', 'Ch\'o',
-    'Ch\'oe', 'Ch\'on', 'Ch\'u', 'Cha', 'Chang', 'Changgok', 'Che', 'Chegal',
-    'Chi', 'Chin', 'Cho', 'Chom', 'Chon', 'Chong', 'Chu', 'Chun', 'Chung',
-    'Chup', 'Chwa', 'Eoh', 'Ha', 'Hae', 'Hak', 'Ham', 'Han', 'Ho', 'Hong',
-    'Hu', 'Hung', 'Hwa', 'Hwan', 'Hwang', 'Hwangbo', 'Hyon', 'Hyong', 'Im',
-    'In', 'Ka', 'Kae', 'Kal', 'Kam', 'Kan', 'Kang', 'Kangjon', 'Ki', 'Kil',
-    'Kim', 'Ko', 'Kok', 'Kong', 'Ku', 'Kuk', 'Kum', 'Kun', 'Kung', 'Kwak',
-    'Kwok', 'Kwon', 'Kye', 'Kyo', 'Kyon', 'Kyong', 'Ma', 'Mae', 'Maeng',
-    'Man', 'Mangjol', 'Mi', 'Min', 'Mo', 'Mok', 'Muk', 'Mun', 'Myo', 'Myong',
-    'Na', 'Nae', 'Nam', 'Namgung', 'Nan', 'Nang', 'No', 'Noe', 'Nu', 'Ogum',
-    'Oh', 'Ok', 'Om', 'On', 'Ong', 'P\'aeng', 'P\'an', 'P\'i', 'P\'il',
-    'P\'o', 'P\'ung', 'P\'yo', 'P\'yon', 'P\'yong', 'Pae', 'Paek', 'Pak',
-    'Pan', 'Pang', 'Pi', 'Pin', 'Ping', 'Pok', 'Pom', 'Pong', 'Pu', 'Pyon',
-    'Ra', 'Ran', 'Rang', 'Ri', 'Rim', 'Ro', 'Roe', 'Ru', 'Ryang', 'Ryo',
-    'Ryom', 'Ryon', 'Ryong', 'Ryu', 'Ryuk', 'Sa', 'Sagong', 'Sam', 'Sang',
-    'Si', 'Sim', 'Sin', 'Sip', 'So', 'Sobong', 'Sok', 'Sol', 'Somun', 'Son',
-    'Song', 'Sonu', 'Sop', 'Su', 'Sun', 'Sung', 'T\'ae', 'T\'ak', 'T\'an',
-    'Tae', 'Tam', 'Tan', 'Tang', 'To', 'Tokko', 'Ton', 'Tong', 'Tongbang',
-    'Tu', 'Uh', 'Um', 'Un', 'Wang', 'Wi', 'Won', 'Wu', 'Ya', 'Yang', 'Ye',
-    'Yi', 'Yo', 'Yom', 'Yon', 'Yong', 'Yop', 'Yu', 'Yuk', 'Yun'];
-    /* Tian-La - Mongolian */
-  const nm27 = ['', '', '', 'b', 'c', 'ch', 'd', 'dh', 'g', 'gh', 'h', 'j', 'k',
-    'kh', 'l', 'm', 'n', 'q', 's', 'sh', 't', 'th', 'ts', 'x', 'y', 'z', 'zh'];
-  const nm28 = ['aie', 'aa', 'ei', 'aiu', 'ua', 'uu', 'eio', 'oi', 'ai', 'a',
-    'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a',
-    'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a',
-    'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u'];
-  const nm29 = ['b', 'cch', 'ch', 'd', 'dk', 'dy', 'g', 'gh', 'ght', 'gm', 'gs',
-    'j', 'k', 'kh', 'khg', 'khj', 'kt', 'l', 'lb', 'lch', 'ld', 'lg', 'lgh',
-    'lj', 'lt', 'lz', 'm', 'mb', 'ml', 'n', 'nb', 'ndj', 'ng', 'ngg', 'ngs',
-    'nksh', 'nt', 'nz', 'q', 'r', 'rch', 'rd', 'rg', 'rgh', 'rk', 'rkh', 'rt',
-    's', 'sg', 'sh', 'sl', 't', 'tb', 'tg', 'tl', 'ts', 'y', 'z', 'zb', 'zh'];
-  const nm30 = ['', '', '', 'd', 'g', 'gh', 'gt', 'l', 'ld', 'm', 'n', 'nt',
-    'r', 't', 'y'];
-  const nm31 = ['', '', '', 'b', 'ch', 'c', 'd', 'dh', 'g', 'gh', 'h', 'j', 'k',
-    'kh', 'l', 'm', 'n', 's', 'sh', 't', 'th', 'ts', 'y', 'z', 'zh'];
-  const nm32 = ['aa', 'ui', 'ei', 'oa', 'ui', 'ai', 'uu', 'a', 'e', 'i', 'o',
-    'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o',
-    'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o',
-    'u', 'a', 'e', 'i', 'o', 'u'];
-  const nm33 = ['b', 'ch', 'd', 'dts', 'dv', 'g', 'gch', 'gh', 'gm', 'gtb', 'j',
-    'k', 'kh', 'khg', 'khts', 'l', 'lj', 'lm', 'lt', 'm', 'mb', 'n', 'nb',
-    'nch', 'ng', 'nkhh', 'nkht', 'nkhts', 'nts', 'nts', 'nz', 'q', 'r', 'rb',
-    'rd', 'rdz', 'rg', 'rgh', 'rm', 'rt', 'rz', 's', 't', 'ts', 'tts', 'y',
-    'z'];
+  const nm14 = ['b', 'ch', 'd', 'j', 'k', 'kr', 'l', 'm', 'n', 'ph', 'p', 'r', 's', 'sr', 't', 'th', 'v'];
+  const nm15 = ['b', 'ch', 'd', 'k', 'kd', 'kh', 'kkl', 'kr', 'kry', 'ksm', 'l', 'll', 'lth', 'm', 'mb', 'md', 'mj', 'mp', 'mph', 'mr', 'n', 'nch', 'nd', 'ngs', 'nkr', 'nl', 'nm', 'nn', 'nnl', 'nt', 'nth', 'ntr', 'nv', 'ny', 'p', 'ph', 'r', 'rk', 'rph', 'rsd', 'rt', 'rv', 'ry', 's', 'sm', 'sn', 'sn', 't', 'td', 'th', 'tr', 'tt', 'v', 'vy', 'w', 'y', 'yh', 'ym', 'yn', 'yp'];
+  const nm16 = ['ch', 'k', 'kry', 'l', 'lly', 'ly', 'm', 'mphy', 'n', 'ng', 'nn', 'nny', 'ny', 'ry', 's', 'ss', 'th', 'vy', 'y'];
+  const nm17 = ['b', 'ch', 'chh', 'd', 'h', 'j', 'k', 'kh', 'khl', 'l', 'm', 'nh', 'n', 'p', 'ph', 'r', 's', 't', 'th', 'v', 'y'];
+  const nm18 = ['a', 'aa', 'ae', 'ao', 'e', 'ea', 'eo', 'i', 'ia', 'ie', 'o', 'oe', 'ou', 'u', 'uo'];
+  const nm19 = ['ch', 'k', 'l', 'm', 'n', 'ng', 'r', 'rn', 's', 't', 'th', 'v', 'y'];
+  /* Tian-Hwan - Korean */
+  const nm20 = ['b', 'by', 'ch', 'd', 'g', 'h', 'hy', 'j', 'k', 'kw', 'ky', 'm', 'my', 'n', 'p', 'py', 's', 'sh', 't', 'w', 'y'];
+  const nm21 = ['a', 'ae', 'am', 'an', 'ang', 'e', 'ee', 'ejun', 'eo', 'eon', 'eong', 'eung', 'i', 'ihu', 'ihun', 'in', 'injae', 'injun', 'o', 'ochun', 'ohyon', 'on', 'ong', 'onghyon', 'ongmin', 'onjun', 'onu', 'oo', 'oon', 'oung', 'u', 'uck', 'uk', 'ul', 'un', 'ung', 'unghyon', 'unho', 'unso', 'unyong', 'uwon'];
+  const nm22 = ['bok', 'bong', 'cheol', 'chol', 'chuk', 'chul', 'dae', 'eun', 'gi', 'gu', 'gun', 'gyu', 'hae', 'han', 'hee', 'heon', 'ho', 'hoo', 'hoon', 'hu', 'hui', 'hun', 'hwa', 'hwan', 'hyeon', 'hyok', 'hyon', 'hyuk', 'hyun', 'il', 'ja', 'jae', 'jin', 'jo', 'joon', 'jun', 'jung', 'ki', 'kyu', 'kyung', 'min', 'mo', 'mun', 'nam', 'sam', 'sang', 'seo', 'seok', 'seon', 'seong', 'shik', 'sik', 'song', 'soo', 'sook', 'su', 'sun', 'sung', 'tae', 'u', 'won', 'woo', 'wook', 'woong', 'yeol', 'yeon', 'yeong', 'yol', 'yong', 'yoon', 'young', 'yul'];
+  const nm23 = ['b', 'ch', 'd', 'g', 'gr', 'h', 'hy', 'j', 'k', 'ky', 'l', 'm', 'my', 'n', 'r', 'ry', 's', 'sh', 't', 'w', 'y'];
+  const nm24 = ['a', 'ae', 'am', 'an', 'ang', 'ara', 'e', 'ee', 'eh', 'eo', 'eon', 'eong', 'eul', 'eum', 'eun', 'eung', 'i', 'ihye', 'ihyon', 'im', 'imin', 'in', 'inji', 'inso', 'it', 'iyeon', 'iyong', 'iyun', 'o', 'ohyon', 'on', 'ong', 'oo', 'ook', 'oon', 'oung', 'oyon', 'oyun', 'u', 'ubin', 'uk', 'un', 'ung', 'unji', 'unso'];
+  const nm25 = ['ae', 'ah', 'ahn', 'bi', 'bin', 'bon', 'byul', 'chae', 'dong', 'eum', 'eun', 'gyo', 'gyong', 'gyung', 'ha', 'hae', 'hee', 'ho', 'hui', 'hwa', 'hyang', 'hye', 'hyo', 'hyun', 'hyung', 'in', 'ja', 'jeong', 'ji', 'jin', 'jong', 'joo', 'joong', 'ju', 'jung', 'kyeong', 'kyung', 'min', 'na', 'neul', 'ok', 'ra', 'rae', 'rang', 'ri', 'rim', 'rin', 'ryung', 'seo', 'seon', 'shil', 'so', 'song', 'soo', 'sook', 'soon', 'su', 'suk', 'sun', 'u', 'un', 'won', 'woo', 'woon', 'yeon', 'yon', 'yong', 'yoon', 'young', 'yun', 'yung'];
+  const nm26 = ['Ae', 'Ah', 'An', 'Ch\'a', 'Ch\'ae', 'Ch\'ang', 'Ch\'o', 'Ch\'oe', 'Ch\'on', 'Ch\'u', 'Cha', 'Chang', 'Changgok', 'Che', 'Chegal', 'Chi', 'Chin', 'Cho', 'Chom', 'Chon', 'Chong', 'Chu', 'Chun', 'Chung', 'Chup', 'Chwa', 'Eoh', 'Ha', 'Hae', 'Hak', 'Ham', 'Han', 'Ho', 'Hong', 'Hu', 'Hung', 'Hwa', 'Hwan', 'Hwang', 'Hwangbo', 'Hyon', 'Hyong', 'Im', 'In', 'Ka', 'Kae', 'Kal', 'Kam', 'Kan', 'Kang', 'Kangjon', 'Ki', 'Kil', 'Kim', 'Ko', 'Kok', 'Kong', 'Ku', 'Kuk', 'Kum', 'Kun', 'Kung', 'Kwak', 'Kwok', 'Kwon', 'Kye', 'Kyo', 'Kyon', 'Kyong', 'Ma', 'Mae', 'Maeng', 'Man', 'Mangjol', 'Mi', 'Min', 'Mo', 'Mok', 'Muk', 'Mun', 'Myo', 'Myong', 'Na', 'Nae', 'Nam', 'Namgung', 'Nan', 'Nang', 'No', 'Noe', 'Nu', 'Ogum', 'Oh', 'Ok', 'Om', 'On', 'Ong', 'P\'aeng', 'P\'an', 'P\'i', 'P\'il', 'P\'o', 'P\'ung', 'P\'yo', 'P\'yon', 'P\'yong', 'Pae', 'Paek', 'Pak', 'Pan', 'Pang', 'Pi', 'Pin', 'Ping', 'Pok', 'Pom', 'Pong', 'Pu', 'Pyon', 'Ra', 'Ran', 'Rang', 'Ri', 'Rim', 'Ro', 'Roe', 'Ru', 'Ryang', 'Ryo', 'Ryom', 'Ryon', 'Ryong', 'Ryu', 'Ryuk', 'Sa', 'Sagong', 'Sam', 'Sang', 'Si', 'Sim', 'Sin', 'Sip', 'So', 'Sobong', 'Sok', 'Sol', 'Somun', 'Son', 'Song', 'Sonu', 'Sop', 'Su', 'Sun', 'Sung', 'T\'ae', 'T\'ak', 'T\'an', 'Tae', 'Tam', 'Tan', 'Tang', 'To', 'Tokko', 'Ton', 'Tong', 'Tongbang', 'Tu', 'Uh', 'Um', 'Un', 'Wang', 'Wi', 'Won', 'Wu', 'Ya', 'Yang', 'Ye', 'Yi', 'Yo', 'Yom', 'Yon', 'Yong', 'Yop', 'Yu', 'Yuk', 'Yun'];
+  /* Tian-La - Mongolian */
+  const nm27 = ['', '', '', 'b', 'c', 'ch', 'd', 'dh', 'g', 'gh', 'h', 'j', 'k', 'kh', 'l', 'm', 'n', 'q', 's', 'sh', 't', 'th', 'ts', 'x', 'y', 'z', 'zh'];
+  const nm28 = ['aie', 'aa', 'ei', 'aiu', 'ua', 'uu', 'eio', 'oi', 'ai', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u'];
+  const nm29 = ['b', 'cch', 'ch', 'd', 'dk', 'dy', 'g', 'gh', 'ght', 'gm', 'gs', 'j', 'k', 'kh', 'khg', 'khj', 'kt', 'l', 'lb', 'lch', 'ld', 'lg', 'lgh', 'lj', 'lt', 'lz', 'm', 'mb', 'ml', 'n', 'nb', 'ndj', 'ng', 'ngg', 'ngs', 'nksh', 'nt', 'nz', 'q', 'r', 'rch', 'rd', 'rg', 'rgh', 'rk', 'rkh', 'rt', 's', 'sg', 'sh', 'sl', 't', 'tb', 'tg', 'tl', 'ts', 'y', 'z', 'zb', 'zh'];
+  const nm30 = ['', '', '', 'd', 'g', 'gh', 'gt', 'l', 'ld', 'm', 'n', 'nt', 'r', 't', 'y'];
+  const nm31 = ['', '', '', 'b', 'ch', 'c', 'd', 'dh', 'g', 'gh', 'h', 'j', 'k', 'kh', 'l', 'm', 'n', 's', 'sh', 't', 'th', 'ts', 'y', 'z', 'zh'];
+  const nm32 = ['aa', 'ui', 'ei', 'oa', 'ui', 'ai', 'uu', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u'];
+  const nm33 = ['b', 'ch', 'd', 'dts', 'dv', 'g', 'gch', 'gh', 'gm', 'gtb', 'j', 'k', 'kh', 'khg', 'khts', 'l', 'lj', 'lm', 'lt', 'm', 'mb', 'n', 'nb', 'nch', 'ng', 'nkhh', 'nkht', 'nkhts', 'nts', 'nts', 'nz', 'q', 'r', 'rb', 'rd', 'rdz', 'rg', 'rgh', 'rm', 'rt', 'rz', 's', 't', 'ts', 'tts', 'y', 'z'];
   const nm34 = ['', '', '', 'd', 'g', 'gh', 'l', 'm', 'n', 'r', 'sh'];
   /* Tian-Min - Japanese */
-  const nm35 = ['a', 'ba', 'bai', 'be', 'bo', 'bu', 'chi', 'da', 'dai', 'ei',
-    'fu', 'ga', 'ge', 'gi', 'go', 'ha', 'hei', 'hi', 'ho', 'hyo', 'i', 'ie',
-    'jo', 'ju', 'ka', 'ke', 'kei', 'ki', 'ko', 'ku', 'kyu', 'ma', 'mi', 'mo',
-    'mu', 'na', 'nao', 'ni', 'no', 'o', 'ri', 'ro', 'ryo', 'ryu', 'sa', 'se',
-    'sei', 'shi', 'sho', 'shu', 'so', 'su', 'ta', 'te', 'tei', 'to', 'tsu',
-    'u', 'wa', 'ya', 'yo', 'yu'];
-  const nm36 = ['bumi', 'buro', 'buru', 'chemon', 'chi', 'chiro', 'chiyo',
-    'chizo', 'dayu', 'deki', 'do', 'fu', 'fumi', 'gobei', 'goro', 'hari',
-    'haru', 'hide', 'hiko', 'hira', 'hiro', 'hisa', 'hito', 'ji', 'jio',
-    'jiro', 'juro', 'kado', 'kan', 'kao', 'karu', 'kazu', 'kei', 'ki',
-    'kichi', 'kin', 'kio', 'kira', 'ko', 'koto', 'kuchu', 'kudo', 'kumi',
-    'kuni', 'kusai', 'kushi', 'kusho', 'kuzo', 'mane', 'maro', 'masu',
-    'matsu', 'mei', 'miaki', 'michi', 'mio', 'mitsu', 'mon', 'mori', 'moru',
-    'moto', 'mune', 'nabu', 'naga', 'nari', 'nji', 'njiro', 'nkei', 'nko',
-    'nobu', 'nori', 'noru', 'noto', 'noye', 'npaku', 'nshiro', 'ntaro', 'nzo',
-    'rata', 'rei', 'ro', 'roji', 'roshi', 'ru', 'sada', 'sake', 'saku',
-    'sami', 'samu', 'sashi', 'sato', 'seki', 'setsu', 'shashi', 'shi',
-    'shige', 'shiko', 'shiro', 'sho', 'shushu', 'soshi', 'su', 'suke', 'suki',
-    'ta', 'tada', 'taka', 'tane', 'tari', 'taro', 'taru', 'toki', 'toku',
-    'tomo', 'tora', 'toshi', 'tsu', 'tsugu', 'tsumi', 'tsuna', 'tsune',
-    'tsuta', 'tsuyo', 'tzumi', 'wane', 'yaki', 'yasu', 'yori', 'yoshi',
-    'yuki', 'zane', 'zo', 'zuka', 'zuki', 'zuko', 'zuma', 'zumi', 'zumo',
-    'zushi'];
-  const nm37 = ['a', 'ai', 'ba', 'be', 'chi', 'e', 'ei', 'fu', 'ge', 'ha',
-    'hai', 'hi', 'ho', 'i', 'jo', 'ka', 'kae', 'ki', 'ko', 'ku', 'ma', 'mae',
-    'me', 'mi', 'mo', 'mu', 'na', 'nao', 'ni', 'no', 'o', 'rai', 'rei', 'ri',
-    'ro', 'ru', 'sa', 'sai', 'se', 'shi', 'su', 'ta', 'te', 'to', 'tsu', 'u',
-    'wa', 'ya', 'yae', 'yo', 'yu'];
-  const nm38 = ['bari', 'chi', 'chiha', 'chiho', 'chiko', 'cho', 'deko', 'doka',
-    'fumi', 'fuyu', 'gino', 'gusa', 'haru', 'hiro', 'ho', 'hoko', 'homi',
-    'hori', 'jiko', 'ka', 'kage', 'kako', 'kami', 'kane', 'kari', 'karu',
-    'kaze', 'ki', 'kichi', 'kiko', 'kina', 'kio', 'kira', 'ko', 'koto',
-    'kuko', 'kuma', 'kuro', 'kyo', 'maki', 'mako', 'mari', 'maya', 'meka',
-    'meko', 'mi', 'miho', 'mika', 'miki', 'miko', 'mina', 'miri', 'miya',
-    'mugi', 'na', 'nae', 'nai', 'nako', 'nami', 'natsu', 'neka', 'neko',
-    'niko', 'no', 'noka', 'nomi', 'noue', 'nu', 'nuko', 'nuye', 'nuyo', 'ra',
-    'rako', 'rante', 'rari', 'rea', 'ri', 'rika', 'riko', 'rime', 'rimi',
-    'rino', 'risa', 'risu', 'rize', 'ro', 'roe', 'roko', 'romi', 'roshi',
-    'ru', 'rui', 'ruka', 'ruko', 'rumi', 'sa', 'sae', 'sahi', 'saji', 'saki',
-    'sako', 'sami', 'samu', 'sano', 'sato', 'se', 'shi', 'shiko', 'shiyo',
-    'soko', 'sono', 'suka', 'suki', 'sumi', 'suzu', 'taba', 'tako', 'taru',
-    'to', 'tomi', 'tomo', 'tose', 'toshi', 'tsu', 'tsue', 'tsuka', 'tsuko',
-    'tsumi', 'tsune', 'tsuyo', 'yaka', 'yako', 'yame', 'yano', 'yeko', 'yo',
-    'yu', 'yuka', 'yuki', 'yuko', 'yume', 'yumi', 'yuri', 'zami', 'zu', 'zue',
-    'zuki', 'zuko', 'zumi', 'zuru', 'zusa'];
-  const nm39 = ['a', 'aka', 'ama', 'ao', 'ara', 'asa', 'ashi', 'azu', 'chi',
-    'e', 'fu', 'fuji', 'fuku', 'furu', 'go', 'ha', 'hagi', 'hama', 'hara',
-    'hata', 'haya', 'hi', 'hira', 'hiro', 'ho', 'i', 'ichi', 'iga', 'ike',
-    'ima', 'ina', 'ise', 'ishi', 'iwa', 'ka', 'kaga', 'kane', 'kawa', 'ki',
-    'kishi', 'kita', 'ko', 'koya', 'ku', 'kura', 'kuri', 'kuro', 'kusu', 'ma',
-    'mae', 'masu', 'matsu', 'mi', 'mika', 'miya', 'mo', 'mori', 'mu', 'mura',
-    'na', 'naga', 'naka', 'ni', 'nishi', 'no', 'nomu', 'nona', 'o', 'oga',
-    'oka', 'oku', 'osa', 'sa', 'saka', 'saku', 'sawa', 'saza', 'se', 'shi',
-    'shiba', 'shima', 'shimi', 'shimo', 'shino', 'so', 'su', 'suga', 'sugi',
-    'sumi', 'ta', 'taba', 'tachi', 'taga', 'taha', 'taka', 'tama', 'tana',
-    'tani', 'te', 'tera', 'to', 'toku', 'tsu', 'u', 'ue', 'uye', 'wa', 'waka',
-    'wata', 'ya', 'yama', 'yoko', 'yoshi'];
-  const nm40 = ['ba', 'bara', 'bashi', 'bata', 'be', 'bota', 'chi', 'chida',
-    'da', 'dama', 'gai', 'gamine', 'gano', 'gashi', 'gata', 'gawa', 'gi',
-    'guchi', 'hara', 'hira', 'hita', 'jima', 'jino', 'kada', 'kaga', 'kai',
-    'kaki', 'kama', 'kami', 'kawa', 'ki', 'kino', 'kuchi', 'kuda', 'kui',
-    'ma', 'mada', 'magai', 'mano', 'mari', 'matsu', 'maya', 'mei', 'mine',
-    'miya', 'mori', 'moto', 'mura', 'naga', 'nagi', 'nai', 'naka', 'name',
-    'nda', 'ndo', 'neko', 'nishi', 'nno', 'no', 'ra', 'rada', 'rai', 'rano',
-    'rashi', 'rata', 'raya', 'ri', 'rine', 'rino', 'rita', 'roda', 'rose',
-    'rota', 'ruta', 'ruya', 'sai', 'saki', 'sano', 'sato', 'sawa', 'se',
-    'shi', 'shida', 'shigawa', 'shige', 'shima', 'shino', 'shiro', 'shita',
-    'suda', 'ta', 'tani', 'to', 'tori', 'tsuda', 'tsuno', 'wa', 'wano',
-    'wara', 'wata', 'ya', 'yabu', 'yake', 'yama', 'yashi', 'yata', 'yeda',
-    'yoshi', 'zaki', 'zuki', 'zuma', 'zumi'];
-    /* Tian-Shu - Chinese */
-  const nm41 = ['b', 'ch', 'd', 'f', 'g', 'h', 'j', 'k', 'l', 'm', 'p', 'q',
-    'r', 'sh', 's', 't', 'ts', 'w', 'x', 'y', 'z', 'zh'];
-  const nm42 = ['ai', 'uo', 'ao', 'eu', 'ia', 'ua', 'uo', 'ei', 'ui', 'a', 'e',
-    'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e',
-    'i', 'o', 'u'];
-  const nm43 = ['ch', 'd', 'g', 'h', 'j', 'k', 'l', 'm', 'n', 'nch', 'nf', 'ng',
-    'ngb', 'ngf', 'ngg', 'ngh', 'ngk', 'ngl', 'ngm', 'ngp', 'ngq', 'ngsh',
-    'ngw', 'ngx', 'ngzh', 'nh', 'nj', 'nl', 'nm', 'nsh', 'ny', 'nz', 'q', 'r',
-    'sh', 't', 'w', 'x', 'y', 'z', 'zh'];
+  const nm35 = ['a', 'ba', 'bai', 'be', 'bo', 'bu', 'chi', 'da', 'dai', 'ei', 'fu', 'ga', 'ge', 'gi', 'go', 'ha', 'hei', 'hi', 'ho', 'hyo', 'i', 'ie', 'jo', 'ju', 'ka', 'ke', 'kei', 'ki', 'ko', 'ku', 'kyu', 'ma', 'mi', 'mo', 'mu', 'na', 'nao', 'ni', 'no', 'o', 'ri', 'ro', 'ryo', 'ryu', 'sa', 'se', 'sei', 'shi', 'sho', 'shu', 'so', 'su', 'ta', 'te', 'tei', 'to', 'tsu', 'u', 'wa', 'ya', 'yo', 'yu'];
+  const nm36 = ['bumi', 'buro', 'buru', 'chemon', 'chi', 'chiro', 'chiyo', 'chizo', 'dayu', 'deki', 'do', 'fu', 'fumi', 'gobei', 'goro', 'hari', 'haru', 'hide', 'hiko', 'hira', 'hiro', 'hisa', 'hito', 'ji', 'jio', 'jiro', 'juro', 'kado', 'kan', 'kao', 'karu', 'kazu', 'kei', 'ki', 'kichi', 'kin', 'kio', 'kira', 'ko', 'koto', 'kuchu', 'kudo', 'kumi', 'kuni', 'kusai', 'kushi', 'kusho', 'kuzo', 'mane', 'maro', 'masu', 'matsu', 'mei', 'miaki', 'michi', 'mio', 'mitsu', 'mon', 'mori', 'moru', 'moto', 'mune', 'nabu', 'naga', 'nari', 'nji', 'njiro', 'nkei', 'nko', 'nobu', 'nori', 'noru', 'noto', 'noye', 'npaku', 'nshiro', 'ntaro', 'nzo', 'rata', 'rei', 'ro', 'roji', 'roshi', 'ru', 'sada', 'sake', 'saku', 'sami', 'samu', 'sashi', 'sato', 'seki', 'setsu', 'shashi', 'shi', 'shige', 'shiko', 'shiro', 'sho', 'shushu', 'soshi', 'su', 'suke', 'suki', 'ta', 'tada', 'taka', 'tane', 'tari', 'taro', 'taru', 'toki', 'toku', 'tomo', 'tora', 'toshi', 'tsu', 'tsugu', 'tsumi', 'tsuna', 'tsune', 'tsuta', 'tsuyo', 'tzumi', 'wane', 'yaki', 'yasu', 'yori', 'yoshi', 'yuki', 'zane', 'zo', 'zuka', 'zuki', 'zuko', 'zuma', 'zumi', 'zumo', 'zushi'];
+  const nm37 = ['a', 'ai', 'ba', 'be', 'chi', 'e', 'ei', 'fu', 'ge', 'ha', 'hai', 'hi', 'ho', 'i', 'jo', 'ka', 'kae', 'ki', 'ko', 'ku', 'ma', 'mae', 'me', 'mi', 'mo', 'mu', 'na', 'nao', 'ni', 'no', 'o', 'rai', 'rei', 'ri', 'ro', 'ru', 'sa', 'sai', 'se', 'shi', 'su', 'ta', 'te', 'to', 'tsu', 'u', 'wa', 'ya', 'yae', 'yo', 'yu'];
+  const nm38 = ['bari', 'chi', 'chiha', 'chiho', 'chiko', 'cho', 'deko', 'doka', 'fumi', 'fuyu', 'gino', 'gusa', 'haru', 'hiro', 'ho', 'hoko', 'homi', 'hori', 'jiko', 'ka', 'kage', 'kako', 'kami', 'kane', 'kari', 'karu', 'kaze', 'ki', 'kichi', 'kiko', 'kina', 'kio', 'kira', 'ko', 'koto', 'kuko', 'kuma', 'kuro', 'kyo', 'maki', 'mako', 'mari', 'maya', 'meka', 'meko', 'mi', 'miho', 'mika', 'miki', 'miko', 'mina', 'miri', 'miya', 'mugi', 'na', 'nae', 'nai', 'nako', 'nami', 'natsu', 'neka', 'neko', 'niko', 'no', 'noka', 'nomi', 'noue', 'nu', 'nuko', 'nuye', 'nuyo', 'ra', 'rako', 'rante', 'rari', 'rea', 'ri', 'rika', 'riko', 'rime', 'rimi', 'rino', 'risa', 'risu', 'rize', 'ro', 'roe', 'roko', 'romi', 'roshi', 'ru', 'rui', 'ruka', 'ruko', 'rumi', 'sa', 'sae', 'sahi', 'saji', 'saki', 'sako', 'sami', 'samu', 'sano', 'sato', 'se', 'shi', 'shiko', 'shiyo', 'soko', 'sono', 'suka', 'suki', 'sumi', 'suzu', 'taba', 'tako', 'taru', 'to', 'tomi', 'tomo', 'tose', 'toshi', 'tsu', 'tsue', 'tsuka', 'tsuko', 'tsumi', 'tsune', 'tsuyo', 'yaka', 'yako', 'yame', 'yano', 'yeko', 'yo', 'yu', 'yuka', 'yuki', 'yuko', 'yume', 'yumi', 'yuri', 'zami', 'zu', 'zue', 'zuki', 'zuko', 'zumi', 'zuru', 'zusa'];
+  const nm39 = ['a', 'aka', 'ama', 'ao', 'ara', 'asa', 'ashi', 'azu', 'chi', 'e', 'fu', 'fuji', 'fuku', 'furu', 'go', 'ha', 'hagi', 'hama', 'hara', 'hata', 'haya', 'hi', 'hira', 'hiro', 'ho', 'i', 'ichi', 'iga', 'ike', 'ima', 'ina', 'ise', 'ishi', 'iwa', 'ka', 'kaga', 'kane', 'kawa', 'ki', 'kishi', 'kita', 'ko', 'koya', 'ku', 'kura', 'kuri', 'kuro', 'kusu', 'ma', 'mae', 'masu', 'matsu', 'mi', 'mika', 'miya', 'mo', 'mori', 'mu', 'mura', 'na', 'naga', 'naka', 'ni', 'nishi', 'no', 'nomu', 'nona', 'o', 'oga', 'oka', 'oku', 'osa', 'sa', 'saka', 'saku', 'sawa', 'saza', 'se', 'shi', 'shiba', 'shima', 'shimi', 'shimo', 'shino', 'so', 'su', 'suga', 'sugi', 'sumi', 'ta', 'taba', 'tachi', 'taga', 'taha', 'taka', 'tama', 'tana', 'tani', 'te', 'tera', 'to', 'toku', 'tsu', 'u', 'ue', 'uye', 'wa', 'waka', 'wata', 'ya', 'yama', 'yoko', 'yoshi'];
+  const nm40 = ['ba', 'bara', 'bashi', 'bata', 'be', 'bota', 'chi', 'chida', 'da', 'dama', 'gai', 'gamine', 'gano', 'gashi', 'gata', 'gawa', 'gi', 'guchi', 'hara', 'hira', 'hita', 'jima', 'jino', 'kada', 'kaga', 'kai', 'kaki', 'kama', 'kami', 'kawa', 'ki', 'kino', 'kuchi', 'kuda', 'kui', 'ma', 'mada', 'magai', 'mano', 'mari', 'matsu', 'maya', 'mei', 'mine', 'miya', 'mori', 'moto', 'mura', 'naga', 'nagi', 'nai', 'naka', 'name', 'nda', 'ndo', 'neko', 'nishi', 'nno', 'no', 'ra', 'rada', 'rai', 'rano', 'rashi', 'rata', 'raya', 'ri', 'rine', 'rino', 'rita', 'roda', 'rose', 'rota', 'ruta', 'ruya', 'sai', 'saki', 'sano', 'sato', 'sawa', 'se', 'shi', 'shida', 'shigawa', 'shige', 'shima', 'shino', 'shiro', 'shita', 'suda', 'ta', 'tani', 'to', 'tori', 'tsuda', 'tsuno', 'wa', 'wano', 'wara', 'wata', 'ya', 'yabu', 'yake', 'yama', 'yashi', 'yata', 'yeda', 'yoshi', 'zaki', 'zuki', 'zuma', 'zumi'];
+  /* Tian-Shu - Chinese */
+  const nm41 = ['b', 'ch', 'd', 'f', 'g', 'h', 'j', 'k', 'l', 'm', 'p', 'q', 'r', 'sh', 's', 't', 'ts', 'w', 'x', 'y', 'z', 'zh'];
+  const nm42 = ['ai', 'uo', 'ao', 'eu', 'ia', 'ua', 'uo', 'ei', 'ui', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u'];
+  const nm43 = ['ch', 'd', 'g', 'h', 'j', 'k', 'l', 'm', 'n', 'nch', 'nf', 'ng', 'ngb', 'ngf', 'ngg', 'ngh', 'ngk', 'ngl', 'ngm', 'ngp', 'ngq', 'ngsh', 'ngw', 'ngx', 'ngzh', 'nh', 'nj', 'nl', 'nm', 'nsh', 'ny', 'nz', 'q', 'r', 'sh', 't', 'w', 'x', 'y', 'z', 'zh'];
   const nm44 = ['', '', '', 'n', 'ng'];
-  const nm45 = ['b', 'ch', 'c', 'd', 'f', 'g', 'h', 'j', 'k', 'kw', 'l', 'm',
-    'n', 'p', 'q', 'r', 'sh', 's', 't', 'w', 'x', 'y', 'zh', 'z'];
-  const nm46 = ['ao', 'ua', 'ai', 'ui', 'ia', 'ei', 'ue', 'iu', 'a', 'e', 'i',
-    'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i',
-    'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u'];
-  const nm47 = ['b', 'c', 'ch', 'd', 'f', 'h', 'hw', 'j', 'k', 'l', 'm', 'n',
-    'nd', 'nf', 'ng', 'ngch', 'ngg', 'ngh', 'ngj', 'ngl', 'ngm', 'ngt', 'ngx',
-    'ngy', 'ngzh', 'nh', 'nl', 'nm', 'nq', 'nr', 'nt', 'nx', 'ny', 'nzh', 'q',
-    'r', 'sh', 't', 'w', 'x', 'y', 'zh'];
-  const nm48 = ['b', 'c', 'ch', 'd', 'f', 'g', 'h', 'hs', 'hw', 'j', 'k', 'kh',
-    'kw', 'l', 'm', 'n', 'p', 'q', 'r', 's', 'sh', 'sz', 't', 'ts', 'w', 'x',
-    'y', 'zh', 'z'];
-  const nm49 = ['ai', 'ao', 'au', 'ee', 'ea', 'eo', 'eu', 'ia', 'iao', 'ie',
-    'io', 'ua', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e',
-    'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u'];
-    /* Tian-Sing - Indonesian */
-  const nm50 = ['b', 'c', 'd', 'dj', 'dw', 'g', 'h', 'j', 'kr', 'k', 'p', 'r',
-    's', 'sl', 't', 'tr', 'w', 'y'];
-  const nm51 = ['ua', 'ia', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u',
-    'a', 'e', 'i', 'o', 'u'];
-  const nm52 = ['b', 'd', 'dd', 'dw', 'g', 'h', 'hy', 'j', 'k', 'l', 'm', 'mb',
-    'md', 'n', 'nd', 'ndr', 'ngk', 'nn', 'nt', 'o', 'r', 'rj', 'rm', 'rn',
-    'rt', 'rw', 'ry', 's', 'sk', 'sn', 't', 'tr', 'v', 'w', 'y'];
+  const nm45 = ['b', 'ch', 'c', 'd', 'f', 'g', 'h', 'j', 'k', 'kw', 'l', 'm', 'n', 'p', 'q', 'r', 'sh', 's', 't', 'w', 'x', 'y', 'zh', 'z'];
+  const nm46 = ['ao', 'ua', 'ai', 'ui', 'ia', 'ei', 'ue', 'iu', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u'];
+  const nm47 = ['b', 'c', 'ch', 'd', 'f', 'h', 'hw', 'j', 'k', 'l', 'm', 'n', 'nd', 'nf', 'ng', 'ngch', 'ngg', 'ngh', 'ngj', 'ngl', 'ngm', 'ngt', 'ngx', 'ngy', 'ngzh', 'nh', 'nl', 'nm', 'nq', 'nr', 'nt', 'nx', 'ny', 'nzh', 'q', 'r', 'sh', 't', 'w', 'x', 'y', 'zh'];
+  const nm48 = ['b', 'c', 'ch', 'd', 'f', 'g', 'h', 'hs', 'hw', 'j', 'k', 'kh', 'kw', 'l', 'm', 'n', 'p', 'q', 'r', 's', 'sh', 'sz', 't', 'ts', 'w', 'x', 'y', 'zh', 'z'];
+  const nm49 = ['ai', 'ao', 'au', 'ee', 'ea', 'eo', 'eu', 'ia', 'iao', 'ie', 'io', 'ua', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u'];
+  /* Tian-Sing - Indonesian */
+  const nm50 = ['b', 'c', 'd', 'dj', 'dw', 'g', 'h', 'j', 'kr', 'k', 'p', 'r', 's', 'sl', 't', 'tr', 'w', 'y'];
+  const nm51 = ['ua', 'ia', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u'];
+  const nm52 = ['b', 'd', 'dd', 'dw', 'g', 'h', 'hy', 'j', 'k', 'l', 'm', 'mb', 'md', 'n', 'nd', 'ndr', 'ngk', 'nn', 'nt', 'o', 'r', 'rj', 'rm', 'rn', 'rt', 'rw', 'ry', 's', 'sk', 'sn', 't', 'tr', 'v', 'w', 'y'];
   const nm53 = ['', '', '', 'h', 'n', 'ng', 'r', 's', 't'];
-  const nm54 = ['b', 'c', 'd', 'dw', 'f', 'gl', 'h', 'k', 'l', 'm', 'n', 'p',
-    'r', 's', 'sh', 'sr', 'tr', 'v', 'w', 'y'];
-  const nm55 = ['ia', 'eo', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u',
-    'a', 'e', 'i', 'o', 'u'];
-  const nm56 = ['c', 'd', 'dy', 'g', 'h', 'hy', 'k', 'l', 'm', 'nn', 'nt', 'nd',
-    'ng', 'nn', 'nt', 'r', 'rj', 'rl', 'rm', 'rt', 's', 'sk', 'st', 't', 'th',
-    'tn', 'tr', 'v', 'w', 'y'];
+  const nm54 = ['b', 'c', 'd', 'dw', 'f', 'gl', 'h', 'k', 'l', 'm', 'n', 'p', 'r', 's', 'sh', 'sr', 'tr', 'v', 'w', 'y'];
+  const nm55 = ['ia', 'eo', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u'];
+  const nm56 = ['c', 'd', 'dy', 'g', 'h', 'hy', 'k', 'l', 'm', 'nn', 'nt', 'nd', 'ng', 'nn', 'nt', 'r', 'rj', 'rl', 'rm', 'rt', 's', 'sk', 'st', 't', 'th', 'tn', 'tr', 'v', 'w', 'y'];
   const nm57 = ['', '', '', 'h', 'n', 'r'];
   const i = Math.floor(Math.random() * 14);
   {

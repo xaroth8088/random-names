@@ -8,21 +8,11 @@ export default function satyrFauns() {
   let rnd6;
   let rnd7;
   const type = Math.random() > 0.5 ? 0 : 1;
-  const nm1 = ['', '', '', 'br', 'c', 'ch', 'cr', 'cl', 'd', 'dr', 'dh', 'f',
-    'g', 'gr', 'gh', 'gl', 'gn', 'h', 'j', 'k', 'kr', 'kn', 'm', 'n', 'pr',
-    'p', 'q', 'r', 'rh', 's', 'sh', 'st', 'str', 'sn', 'sm', 't', 'tr', 'v',
-    'vr', 'wr', 'x', 'xh', 'z', 'zr', 'zh', 'c', 'd', 'f', 'g', 'j', 'j', 'k',
-    'm', 'n', 'p', 'q', 'r', 's', 't', 'v', 'x', 'z'];
-  const nm2 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i',
-    'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i',
-    'o', 'u', 'a', 'e', 'i', 'o', 'u', 'y', 'y', 'ai', 'ae', 'au', 'aa', 'ea',
-    'eo', 'ee', 'ia', 'ie', 'io'];
-  const nm3 = ['b', 'c', 'd', 'f', 'g', 'h', 'k', 'l', 'm', 'n', 'p', 'q', 'r',
-    's', 't', 'v', 'x', 'z'];
-  const nm4 = ['', '', '', '', '', '', '', '', '', 'b', 'c', 'd', 'f', 'g', 'h',
-    'k', 'l', 'm', 'n', 'p', 'r', 's', 't', 'w', 'x', 'z'];
-  const nm5 = ['c', 'ck', 'g', 'h', 'k', 'l', 'm', 'n', 'q', 'r', 's', 'sh',
-    't', 'th', 'x', 'z'];
+  const nm1 = ['', '', '', 'br', 'c', 'ch', 'cr', 'cl', 'd', 'dr', 'dh', 'f', 'g', 'gr', 'gh', 'gl', 'gn', 'h', 'j', 'k', 'kr', 'kn', 'm', 'n', 'pr', 'p', 'q', 'r', 'rh', 's', 'sh', 'st', 'str', 'sn', 'sm', 't', 'tr', 'v', 'vr', 'wr', 'x', 'xh', 'z', 'zr', 'zh', 'c', 'd', 'f', 'g', 'j', 'j', 'k', 'm', 'n', 'p', 'q', 'r', 's', 't', 'v', 'x', 'z'];
+  const nm2 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'y', 'y', 'ai', 'ae', 'au', 'aa', 'ea', 'eo', 'ee', 'ia', 'ie', 'io'];
+  const nm3 = ['b', 'c', 'd', 'f', 'g', 'h', 'k', 'l', 'm', 'n', 'p', 'q', 'r', 's', 't', 'v', 'x', 'z'];
+  const nm4 = ['', '', '', '', '', '', '', '', '', 'b', 'c', 'd', 'f', 'g', 'h', 'k', 'l', 'm', 'n', 'p', 'r', 's', 't', 'w', 'x', 'z'];
+  const nm5 = ['c', 'ck', 'g', 'h', 'k', 'l', 'm', 'n', 'q', 'r', 's', 'sh', 't', 'th', 'x', 'z'];
   const nm6 = ['e', 'i', 'u', 'a', 'o', 'y', 'ia', 'ea', 'ae'];
   const i = Math.floor(Math.random() * 10);
   {

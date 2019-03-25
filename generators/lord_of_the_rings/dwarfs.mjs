@@ -5,11 +5,9 @@ export default function dwarfs() {
   let rnd3;
   let rnd4;
   let rnd5;
-  const nm1 = ['b', 'br', 'd', 'dr', 'dw', 'f', 'fl', 'fr', 'g', 'gl', 'gr',
-    'k', 'kh', 'kr', 'l', 'm', 'mh', 'n', 't', 'th', 'thr'];
+  const nm1 = ['b', 'br', 'd', 'dr', 'dw', 'f', 'fl', 'fr', 'g', 'gl', 'gr', 'k', 'kh', 'kr', 'l', 'm', 'mh', 'n', 't', 'th', 'thr'];
   const nm2 = ['a', 'e', 'i', 'o', 'u'];
-  const nm3 = ['b', 'f', 'fr', 'l', 'lb', 'lr', 'lv', 'm', 'mb', 'ml', 'mr',
-    'n', 'nd', 'nr', 'r', 'rb', 'rl', 'rv', 's', 'sr'];
+  const nm3 = ['b', 'f', 'fr', 'l', 'lb', 'lr', 'lv', 'm', 'mb', 'ml', 'mr', 'n', 'nd', 'nr', 'r', 'rb', 'rl', 'rv', 's', 'sr'];
   const nm4 = ['k', 'm', 'n', 'r'];
   const nm5 = ['a', 'ai', 'e', 'i', 'o', 'oi', 'u'];
   const nm6 = ['b', 'd', 'f', 'g', 'k', 'l', 'm', 'n', 't'];

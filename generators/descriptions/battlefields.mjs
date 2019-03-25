@@ -1,132 +1,46 @@
 export default function battlefields() {
-  const nm1 = ['field', 'forest', 'farm field', 'beach', 'village', 'town',
-    'city'];
-  const nm2 = ['bodies', 'blood', 'gore', 'suits', 'weapons', 'shells',
-    'carnage', 'wounded fighters', 'destruction'];
+  const nm1 = ['field', 'forest', 'farm field', 'beach', 'village', 'town', 'city'];
+  const nm2 = ['bodies', 'blood', 'gore', 'suits', 'weapons', 'shells', 'carnage', 'wounded fighters', 'destruction'];
   const nm3 = ['pink', 'silver', 'brown', 'blue', 'black', 'gray', 'khaki'];
-  let nm4 = ['peaceful, ', 'quiet, ', 'tranquil, ', 'serene, ', 'beautiful, ',
-    'harmonious, ', 'marvelous, ', 'vast, ', 'delicate, '];
+  let nm4 = ['peaceful, ', 'quiet, ', 'tranquil, ', 'serene, ', 'beautiful, ', 'harmonious, ', 'marvelous, ', 'vast, ', 'delicate, '];
   let nm5 = ['green', 'lush', 'snowy', 'tender', 'luscious', 'rich'];
-  const nm6 = ['ruthless battle', 'disastrous fight',
-    'long, destructive battle', 'devastating war', 'tragic civil war',
-    'full-blown invasion', 'large scale assault', 'terrible battle',
-    'bloody war', 'cruel war'];
-  let nm7 = ['be filled with the scent of food from a nearby town',
-    'be rich with scents from nearby breweries',
-    'carry the sounds of birds, rivers and wildlife',
-    'be soft and carry a gentle breeze',
-    'be rich in sound from a nearby town and a forest full of wildlife',
-    'be full of nature\'s sounds', 'be delicate and quiet',
-    'be fresh and smell of nature\'s wonders',
-    'carry the delicate scents of flowers and fruits',
-    'carry the sounds of a large waterfall, small rivers and nature\'s wildlife',
-  ];
-  const nm8 = ['thick with the scent of death and decay',
-    'heavy and thick with the scent of smoke',
-    'carrying a thick, black smoke and small embers',
-    'deafening loud, the sound of explosions drowns any other sound in the area',
-    'a hellish symphony of screams, explosions and gunfire',
-    'a barrage of sounds of explosions, war cries and the screams of the wounded',
-    'merely a canvas for the stench of death and the cries of the dying',
-    'thick with the stench of gunpowder, blood, gore and death',
-    'heavy with the screams of dying fighters and the scent of their blood',
-    'glowing red with fire and thick with smoke, ash and embers'];
-  const nm9 = ['enough to make even the bravest tremble in fear',
-    'something no survivor will ever forget',
-    'hell has descended upon this area', 'a sight of pure nightmares',
-    'the mere sense of it will make you want to run',
-    'there\'s no coming back from this',
-    'enough to destroy whatever courage is left in the survivors'];
-  const nm10 = ['Two armies', 'Two parties', 'Two trained armies',
-    'Two barely trained groups', 'An army and a rebellion',
-    'An army of rebels and an army of warriors'];
-  const nm11 = ['for supremacy', 'for resources',
-    'over a mere difference in lifestyle and belief', 'for independance',
-    'because of a betrayal', 'because of the lies of their leaders',
-    'without knowing the true reason', 'for control of the area',
-    'due to a difference in beliefs'];
-  const nm12 = ['it\'s clear who will win', 'the victor is obvious',
-    'it\'s becoming clear which side will win',
-    'at this point it\'s undeniable which side will win',
-    'it\'s starting to become clear which side will win',
-    'it\'s yet to be determined which side\'s on the winning hand',
-    'the battle is in nobody\'s favor yet',
-    'there\'s no hint of which side will win',
-    'with no side on the winning hand, this battle could go on for a long time',
-    'this battle has yet to find its winning side'];
+  const nm6 = ['ruthless battle', 'disastrous fight', 'long, destructive battle', 'devastating war', 'tragic civil war', 'full-blown invasion', 'large scale assault', 'terrible battle', 'bloody war', 'cruel war'];
+  let nm7 = ['be filled with the scent of food from a nearby town', 'be rich with scents from nearby breweries', 'carry the sounds of birds, rivers and wildlife', 'be soft and carry a gentle breeze', 'be rich in sound from a nearby town and a forest full of wildlife', 'be full of nature\'s sounds', 'be delicate and quiet', 'be fresh and smell of nature\'s wonders', 'carry the delicate scents of flowers and fruits', 'carry the sounds of a large waterfall, small rivers and nature\'s wildlife'];
+  const nm8 = ['thick with the scent of death and decay', 'heavy and thick with the scent of smoke', 'carrying a thick, black smoke and small embers', 'deafening loud, the sound of explosions drowns any other sound in the area', 'a hellish symphony of screams, explosions and gunfire', 'a barrage of sounds of explosions, war cries and the screams of the wounded', 'merely a canvas for the stench of death and the cries of the dying', 'thick with the stench of gunpowder, blood, gore and death', 'heavy with the screams of dying fighters and the scent of their blood', 'glowing red with fire and thick with smoke, ash and embers'];
+  const nm9 = ['enough to make even the bravest tremble in fear', 'something no survivor will ever forget', 'hell has descended upon this area', 'a sight of pure nightmares', 'the mere sense of it will make you want to run', 'there\'s no coming back from this', 'enough to destroy whatever courage is left in the survivors'];
+  const nm10 = ['Two armies', 'Two parties', 'Two trained armies', 'Two barely trained groups', 'An army and a rebellion', 'An army of rebels and an army of warriors'];
+  const nm11 = ['for supremacy', 'for resources', 'over a mere difference in lifestyle and belief', 'for independance', 'because of a betrayal', 'because of the lies of their leaders', 'without knowing the true reason', 'for control of the area', 'due to a difference in beliefs'];
+  const nm12 = ['it\'s clear who will win', 'the victor is obvious', 'it\'s becoming clear which side will win', 'at this point it\'s undeniable which side will win', 'it\'s starting to become clear which side will win', 'it\'s yet to be determined which side\'s on the winning hand', 'the battle is in nobody\'s favor yet', 'there\'s no hint of which side will win', 'with no side on the winning hand, this battle could go on for a long time', 'this battle has yet to find its winning side'];
   const nm13 = ['dead', 'dead and wounded', 'wounded'];
   let nm14 = ' the losing side ';
-  const nm15 = ['lay in heaps across', 'are scattered across',
-    'are abundant and lay in heaps around', 'are spread around',
-    'lay in large groups across'];
+  const nm15 = ['lay in heaps across', 'are scattered across', 'are abundant and lay in heaps around', 'are spread around', 'lay in large groups across'];
   let nm16 = ' grim ';
-  let nm17 = ['despair', 'the certainty of death', 'anguish', 'gloom', 'pain',
-    'sorrow', 'horror', 'agony', 'strain', 'exhaustion', 'fatigue'];
-  let nm18 = ['yet they fight on',
-    'but they force themselves to fight nonetheless',
-    'but they refuse to give up',
-    'they want to give up, but somehow keep fighting',
-    'their spirit will be broken soon',
-    'they continue to fight, but their fight is a hopeless one',
-    'fighting is useless, but they will fight to the death'];
-  let nm19 = ['the rush of victory coursing through their bodies',
-    'victory ready for the taking', 'victory becoming more and more likely',
-    'a certainty of victory', 'the thought of victory in their minds'];
+  let nm17 = ['despair', 'the certainty of death', 'anguish', 'gloom', 'pain', 'sorrow', 'horror', 'agony', 'strain', 'exhaustion', 'fatigue'];
+  let nm18 = ['yet they fight on', 'but they force themselves to fight nonetheless', 'but they refuse to give up', 'they want to give up, but somehow keep fighting', 'their spirit will be broken soon', 'they continue to fight, but their fight is a hopeless one', 'fighting is useless, but they will fight to the death'];
+  let nm19 = ['the rush of victory coursing through their bodies', 'victory ready for the taking', 'victory becoming more and more likely', 'a certainty of victory', 'the thought of victory in their minds'];
   let nm20 = ' the winning side ';
-  let nm21 = ['pushes harder and harder on their enemies', 'pushes on and on',
-    'fights even harder and with more tenacity',
-    'fights with a sense of relief knowing all will be over soon',
-    'has gained a morale boost and is fighting their enemies with more determination',
-    'fights as if they\'re invinsible', 'fights with new found strength'];
-  const nm22 = ['bloodlust', 'a frenzy', 'rage', 'panic', 'hysteria', 'terror',
-    'exhaustion', 'fatigue'];
-  let nm23 = ['frantically killing any enemy in sight',
-    'on a rampage against anybody standing in their way',
-    'killing any enemy they see in a fury of blood and gore',
-    'recklessly charging towards the enemy with only the aim to kill all',
-    'carelessly charging any enemy without a care for their own safety'];
-  const nm24 = ['just wish all this was over',
-    'can only think of home and what they left behind',
-    'fight on in the hopes to survive this terror',
-    'fight merely for the sake of survival',
-    'seem to be fairly unaffected by the terrors around them',
-    'fight by only focusing on their enemy and not the carnage around them',
-    'long for the end of this battle'];
-  const nm25 = ['heavy', 'enormous', 'unimaginable', 'tremendous', 'immense',
-    'disastrous', 'tragic', 'devastating'];
+  let nm21 = ['pushes harder and harder on their enemies', 'pushes on and on', 'fights even harder and with more tenacity', 'fights with a sense of relief knowing all will be over soon', 'has gained a morale boost and is fighting their enemies with more determination', 'fights as if they\'re invinsible', 'fights with new found strength'];
+  const nm22 = ['bloodlust', 'a frenzy', 'rage', 'panic', 'hysteria', 'terror', 'exhaustion', 'fatigue'];
+  let nm23 = ['frantically killing any enemy in sight', 'on a rampage against anybody standing in their way', 'killing any enemy they see in a fury of blood and gore', 'recklessly charging towards the enemy with only the aim to kill all', 'carelessly charging any enemy without a care for their own safety'];
+  const nm24 = ['just wish all this was over', 'can only think of home and what they left behind', 'fight on in the hopes to survive this terror', 'fight merely for the sake of survival', 'seem to be fairly unaffected by the terrors around them', 'fight by only focusing on their enemy and not the carnage around them', 'long for the end of this battle'];
+  const nm25 = ['heavy', 'enormous', 'unimaginable', 'tremendous', 'immense', 'disastrous', 'tragic', 'devastating'];
   const nm26 = ['years', 'decades', 'ages', 'generations', 'a lifetime'];
-  const nm27 = ['explosion holes', 'broken siege engines', 'metal', 'bodies',
-    'weaponry', 'lost bombs', 'rubble', 'debris', 'blood', 'gore'];
+  const nm27 = ['explosion holes', 'broken siege engines', 'metal', 'bodies', 'weaponry', 'lost bombs', 'rubble', 'debris', 'blood', 'gore'];
   let nm28 = ['trees', 'flowers', 'grass', 'bushes', 'shrubs', 'plants'];
   const rnd1 = Math.floor(Math.random() * nm1.length);
   if (rnd1 > 1 && rnd1 < 4) {
-    nm4 = ['peaceful ', 'quiet ', 'tranquil ', 'serene ', 'beautiful ', 'vast ',
-      'stunning ', 'tremendous '];
+    nm4 = ['peaceful ', 'quiet ', 'tranquil ', 'serene ', 'beautiful ', 'vast ', 'stunning ', 'tremendous '];
     nm5 = [''];
   } else if (rnd1 > 3 && rnd1 < 6) {
-    nm4 = ['peaceful, ', 'quiet, ', 'tranquil, ', 'serene, ', 'beautiful, ',
-      'harmonious, ', 'small, ', 'reserved, '];
-    nm5 = ['harbor', 'fishing', 'small', 'trading', 'growing', 'farming',
-      'hard working', 'dynamic'];
-    nm7 = ['be rich in scents of food, fresh fish and new brews',
-      'be rich in the scents and sounds of hard work',
-      'be filled with the scent of freshly baked bread and the sound of people',
-      'carry the sound of working people and large tools',
-      'be vibrant with the sound of work, trade and craftsmanship'];
-    nm28 = ['homes', 'market stalls', 'schools', 'businesses', 'buildings',
-      'monuments', 'roads', 'gardens', 'parks'];
+    nm4 = ['peaceful, ', 'quiet, ', 'tranquil, ', 'serene, ', 'beautiful, ', 'harmonious, ', 'small, ', 'reserved, '];
+    nm5 = ['harbor', 'fishing', 'small', 'trading', 'growing', 'farming', 'hard working', 'dynamic'];
+    nm7 = ['be rich in scents of food, fresh fish and new brews', 'be rich in the scents and sounds of hard work', 'be filled with the scent of freshly baked bread and the sound of people', 'carry the sound of working people and large tools', 'be vibrant with the sound of work, trade and craftsmanship'];
+    nm28 = ['homes', 'market stalls', 'schools', 'businesses', 'buildings', 'monuments', 'roads', 'gardens', 'parks'];
   } else if (rnd1 === 6) {
     nm4 = ['busy ', 'lively ', 'bright ', 'spirited ', 'bustling ', 'hectic '];
     nm5 = [''];
-    nm7 = ['be rich in scents of food, fresh fish and new brews',
-      'be rich in the scents and sounds of hard work',
-      'be filled with the scent of freshly baked bread and the sound of people',
-      'carry the sound of working people and large tools',
-      'be vibrant with the sound of work, trade and craftsmanship',
-      'be packed with a wide array of city sounds',
-      'be loud and bustling with sounds of the city'];
-    nm28 = ['homes', 'market stalls', 'schools', 'businesses', 'buildings',
-      'monuments', 'roads', 'gardens', 'parks'];
+    nm7 = ['be rich in scents of food, fresh fish and new brews', 'be rich in the scents and sounds of hard work', 'be filled with the scent of freshly baked bread and the sound of people', 'carry the sound of working people and large tools', 'be vibrant with the sound of work, trade and craftsmanship', 'be packed with a wide array of city sounds', 'be loud and bustling with sounds of the city'];
+    nm28 = ['homes', 'market stalls', 'schools', 'businesses', 'buildings', 'monuments', 'roads', 'gardens', 'parks'];
   }
   const rnd2a = Math.floor(Math.random() * nm2.length);
   let rnd2b = Math.floor(Math.random() * nm2.length);
@@ -155,32 +69,11 @@ export default function battlefields() {
   if (rnd12 > 4) {
     nm14 = ' one side ';
     nm16 = ' hopeful ';
-    nm17 = ['victory in mind', 'hope in their hearts',
-      'adrenaline rushing through their bodies',
-      'weapons clenched in their hands', 'gritting teeth',
-      'their muscles tense and anxious', 'boots stepping firmly',
-      'eyes searching their surroundings', 'nervous, yet steady breathing'];
-    nm18 = ['they courageously fight on',
-      'they push harder and harder on the enemy',
-      'they fight their enemy in an equal battle',
-      'they take on their enemies',
-      'they carry out their orders in a tough fight'];
-    nm19 = ['the uncertainty of battle coursing through their minds',
-      'a lack of confidence in a postive outcome',
-      'no way of knowing they\'re winning or losing',
-      'the chaos of battle concealing any sense of victory or defeat',
-      'both confidence and panic', 'a strong possibility of pain or death',
-      'the possibility of death shaking their knees',
-      'no way to know if they\'ll live or die'];
+    nm17 = ['victory in mind', 'hope in their hearts', 'adrenaline rushing through their bodies', 'weapons clenched in their hands', 'gritting teeth', 'their muscles tense and anxious', 'boots stepping firmly', 'eyes searching their surroundings', 'nervous, yet steady breathing'];
+    nm18 = ['they courageously fight on', 'they push harder and harder on the enemy', 'they fight their enemy in an equal battle', 'they take on their enemies', 'they carry out their orders in a tough fight'];
+    nm19 = ['the uncertainty of battle coursing through their minds', 'a lack of confidence in a postive outcome', 'no way of knowing they\'re winning or losing', 'the chaos of battle concealing any sense of victory or defeat', 'both confidence and panic', 'a strong possibility of pain or death', 'the possibility of death shaking their knees', 'no way to know if they\'ll live or die'];
     nm20 = ' the other side ';
-    nm21 = ['fights like their lives depend on it, which they do',
-      'fights with fear flowing through their veins',
-      'battles their enemies head on in the hope to come out on top',
-      'does whatever it can in order to try to defeat their enemies',
-      'ferociously battles their enemies',
-      'desperately fights their enemies without knowing which side is stronger',
-      'courageously fights their enemies with the hope of being the stronger side',
-    ];
+    nm21 = ['fights like their lives depend on it, which they do', 'fights with fear flowing through their veins', 'battles their enemies head on in the hope to come out on top', 'does whatever it can in order to try to defeat their enemies', 'ferociously battles their enemies', 'desperately fights their enemies without knowing which side is stronger', 'courageously fights their enemies with the hope of being the stronger side'];
   }
   const rnd15 = Math.floor(Math.random() * nm15.length);
   const rnd17a = Math.floor(Math.random() * nm17.length);
@@ -193,18 +86,9 @@ export default function battlefields() {
   const rnd21 = Math.floor(Math.random() * nm21.length);
   const rnd22 = Math.floor(Math.random() * nm22.length);
   if (rnd22 > 2 && rnd22 < 6) {
-    nm23 = ['barely able to force their bodies in motion',
-      'bursting out in tears and screams',
-      'mumbling things about home and family',
-      'hiding or running away from the fight',
-      'no longer capable of moving, let alone defending themselves'];
+    nm23 = ['barely able to force their bodies in motion', 'bursting out in tears and screams', 'mumbling things about home and family', 'hiding or running away from the fight', 'no longer capable of moving, let alone defending themselves'];
   } else if (rnd22 > 5) {
-    nm23 = ['collapsing left and right',
-      'doing all they can to force their body in motion',
-      'sleeping amidst debris, rubble and their wounded',
-      'barely able to stand, let along lift an arm to defend themselves',
-      'giving in to whatever fate this battle has in story for them',
-      'no longer able to defend themselves and too tired to care'];
+    nm23 = ['collapsing left and right', 'doing all they can to force their body in motion', 'sleeping amidst debris, rubble and their wounded', 'barely able to stand, let along lift an arm to defend themselves', 'giving in to whatever fate this battle has in story for them', 'no longer able to defend themselves and too tired to care'];
   }
   const rnd23 = Math.floor(Math.random() * nm23.length);
   const rnd24 = Math.floor(Math.random() * nm24.length);

@@ -8,17 +8,12 @@ export default function deitys() {
   let rnd6;
   let rnd7;
   const type = Math.random() > 0.5 ? 0 : 1;
-  const nm1 = ['', '', 'b', 'c', 'd', 'j', 'k', 'l', 'm', 'n', 'r', 't', 'v',
-    'z'];
+  const nm1 = ['', '', 'b', 'c', 'd', 'j', 'k', 'l', 'm', 'n', 'r', 't', 'v', 'z'];
   const nm2 = ['y', 'a', 'e', 'i', 'o', 'u'];
-  const nm3 = ['b', 'br', 'cl', 'd', 'g', 'gr', 'gn', 'h', 'k', 'kr', 'l', 'ld',
-    'll', 'ln', 'lm', 'm', 'mn', 'n', 'ph', 'r', 'v', 'vr', 'z', 'zr', 'b',
-    'd', 'h', 'k', 'l', 'm', 'n', 'r', 'v', 'z', 'b', 'd', 'h', 'k', 'l', 'm',
-    'n', 'r', 'v', 'z'];
+  const nm3 = ['b', 'br', 'cl', 'd', 'g', 'gr', 'gn', 'h', 'k', 'kr', 'l', 'ld', 'll', 'ln', 'lm', 'm', 'mn', 'n', 'ph', 'r', 'v', 'vr', 'z', 'zr', 'b', 'd', 'h', 'k', 'l', 'm', 'n', 'r', 'v', 'z', 'b', 'd', 'h', 'k', 'l', 'm', 'n', 'r', 'v', 'z'];
   const nm4 = ['u', 'oo', 'ia', 'a', 'e', 'ai', 'i', 'o'];
   const nm5 = ['', '', '', '', 'n', 'm', 'r', 's'];
-  const nm6 = ['b', 'c', 'd', 'f', 'h', 'l', 'n', 'm', 'ph', 's', 'sh', 't',
-    'v'];
+  const nm6 = ['b', 'c', 'd', 'f', 'h', 'l', 'n', 'm', 'ph', 's', 'sh', 't', 'v'];
   const nm7 = ['a', 'e', 'o', 'i', 'y', 'ay', 'ie', 'ia', 'ea'];
   const nm8 = ['h', 'l', 'm', 'n', 'ph', 'r', 'rd', 's', 'th', 'v', 'r'];
   const nm9 = ['', '', '', '', 'n', 'h'];

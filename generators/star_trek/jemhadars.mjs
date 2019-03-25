@@ -19,10 +19,8 @@ export default function jemhadars() {
   const nm4 = ['d', 'g', 'k', 'l', 'm', 'n', 'r', 's', 't', 'z'];
   const nm5 = ['', '', 'd', 'g', 'k', 'n', 't'];
   const nm6 = ['a', '', '', '', ''];
-  const nm7 = ['i', 'a', 'e', 'o', 'u', 'a', '', '', '', '', '', '', '', '', '',
-    '', '', '', '', '', '', '', '', ''];
-  const nm8 = ['d', 'g', 'k', 'l', 'm', 'n', 'r', 's', 't', 'v', 'x', 'y', 'z',
-    'kl', 'cl'];
+  const nm7 = ['i', 'a', 'e', 'o', 'u', 'a', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', ''];
+  const nm8 = ['d', 'g', 'k', 'l', 'm', 'n', 'r', 's', 't', 'v', 'x', 'y', 'z', 'kl', 'cl'];
   const nm9 = ['i', 'a', 'e', 'o', 'u', 'a', '', '', '', '', '', '', '', ''];
   const i = Math.floor(Math.random() * 10);
   {

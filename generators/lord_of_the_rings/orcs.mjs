@@ -5,14 +5,10 @@ export default function orcs() {
   let rnd3;
   let rnd4;
   let rnd5;
-  const nm1 = ['b', 'br', 'c', 'cr', 'd', 'dr', 'g', 'gh', 'gr', 'k', 'kr', 'l',
-    'm', 'r', 's', 'sh', 'sr'];
+  const nm1 = ['b', 'br', 'c', 'cr', 'd', 'dr', 'g', 'gh', 'gr', 'k', 'kr', 'l', 'm', 'r', 's', 'sh', 'sr'];
   const nm2 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'au'];
-  const nm3 = ['cb', 'cd', 'cr', 'db', 'dd', 'fd', 'fth', 'g', 'gb', 'gd', 'gg',
-    'gl', 'gr', 'gz', 'h', 'lcm', 'ld', 'lf', 'lg', 'rb', 'rc', 'rd', 'rg',
-    'rz', 'shn', 'thr', 'z', 'zb', 'zg', 'zr', 'zz'];
-  const nm4 = ['c', 'd', 'dh', 'f', 'g', 'gh', 'kh', 'l', 'r', 'rg', 'sh', 't',
-    'th', '', '', ''];
+  const nm3 = ['cb', 'cd', 'cr', 'db', 'dd', 'fd', 'fth', 'g', 'gb', 'gd', 'gg', 'gl', 'gr', 'gz', 'h', 'lcm', 'ld', 'lf', 'lg', 'rb', 'rc', 'rd', 'rg', 'rz', 'shn', 'thr', 'z', 'zb', 'zg', 'zr', 'zz'];
+  const nm4 = ['c', 'd', 'dh', 'f', 'g', 'gh', 'kh', 'l', 'r', 'rg', 'sh', 't', 'th', '', '', ''];
   const nm5 = ['a', 'o', 'u', 'au'];
   const i = Math.floor(Math.random() * 10);
   {

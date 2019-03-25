@@ -7,12 +7,9 @@ export default function urgals() {
   let rnd5;
   let rnd6;
   let rnd7;
-  const nm1 = ['', '', 'b', 'd', 'g', 'kh', 'k', 'r', 'sk', 'skg', 't', 'y',
-    'v', 'z'];
+  const nm1 = ['', '', 'b', 'd', 'g', 'kh', 'k', 'r', 'sk', 'skg', 't', 'y', 'v', 'z'];
   const nm2 = ['a', 'e', 'o', 'u'];
-  const nm3 = ['b', 'br', 'bv', 'bgr', 'bdr', 'd', 'dv', 'dz', 'dzgr', 'dgr',
-    'gr', 'gn', 'gz', 'hgr', 'hr', 'lk', 'lv', 'r', 'rg', 'rd', 'rb', 'rv',
-    'rtv', 'rzhv', 'tv', 'tr', 'thb', 'tz', 'zg', 'zb', 'zr', 'ztr', 'zhgr'];
+  const nm3 = ['b', 'br', 'bv', 'bgr', 'bdr', 'd', 'dv', 'dz', 'dzgr', 'dgr', 'gr', 'gn', 'gz', 'hgr', 'hr', 'lk', 'lv', 'r', 'rg', 'rd', 'rb', 'rv', 'rtv', 'rzhv', 'tv', 'tr', 'thb', 'tz', 'zg', 'zb', 'zr', 'ztr', 'zhgr'];
   const nm4 = ['c', 'g', 'k', 'sz', 'shz', 'zh', 'z'];
   const i = Math.floor(Math.random() * 10);
   {

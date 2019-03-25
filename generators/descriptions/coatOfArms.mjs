@@ -1,140 +1,29 @@
 export default function coatOfArms() {
   let rnd5b;
-  const nm1 = ['large', 'fairly large', 'great', 'grand', 'broad',
-    'fairly small', 'not too large', 'standard sized', 'modest',
-    'regular sized'];
+  const nm1 = ['large', 'fairly large', 'great', 'grand', 'broad', 'fairly small', 'not too large', 'standard sized', 'modest', 'regular sized'];
   const nm2 = ['a symmetrical', 'a symmetrical', 'an asymmetrical'];
-  const nm3 = ['double inward curving', 'double outward curving',
-    'downwards curving', 'heart shaped', 'long pointed', 'podium-like',
-    'pointed', 'rounded', 'short pointed', 'squared', 'straight',
-    'tower-like', 'zig-zagged', 'angular shaped', 'upwards curving',
-    'horn-like cornered', 'inward curving cornered', 'inward curving sided',
-    'outward curving cornered', 'outward curving sided',
-    'sharp, inwards curving cornered', 'sharp, inwards pointing cornered',
-    'sharp, outwards curving cornered', 'sharp, outwards pointing cornered',
-    'talon-like cornered'];
-  const nm4 = ['broad curved', 'bullet shaped', 'diamond shaped',
-    'downwards curving', 'droplet shaped', 'long pointed', 'narrow curved',
-    'pointed', 'round', 'short pointed', 'squared', 'straight',
-    'angular shaped', 'upwards curving', 'double downwards curving',
-    'double inwards curving'];
-  const nm5 = ['a bear', 'a bird of paradise', 'a boar', 'a cat', 'a centaur',
-    'a column', 'a dark pillar', 'a deer', 'a demon', 'a dog', 'a dragon',
-    'a dryad', 'a fish', 'a flag pole', 'a fox', 'a griffon', 'a harp',
-    'a hawk', 'a hippogriff', 'a horse', 'a knight', 'a leopard',
-    'a lighthouse', 'a lion', 'a mage', 'a maiden', 'a mammoth', 'a man',
-    'a marble pillar', 'a mermaid', 'a minotaur', 'a moose', 'a palm',
-    'a parrot', 'a peacock', 'a pegasus', 'a pelican', 'a phoenix', 'a pine',
-    'a rabbit', 'a ram', 'a rhino', 'a saint', 'a shark', 'a snake',
-    'a songbird', 'a swan', 'a tiger', 'a tower', 'a treant', 'a turtle',
-    'a unicorn', 'a vine', 'a whale', 'a white stag', 'a wolf', 'a woman',
-    'an angel', 'an ape', 'an elephant', 'an owl'];
+  const nm3 = ['double inward curving', 'double outward curving', 'downwards curving', 'heart shaped', 'long pointed', 'podium-like', 'pointed', 'rounded', 'short pointed', 'squared', 'straight', 'tower-like', 'zig-zagged', 'angular shaped', 'upwards curving', 'horn-like cornered', 'inward curving cornered', 'inward curving sided', 'outward curving cornered', 'outward curving sided', 'sharp, inwards curving cornered', 'sharp, inwards pointing cornered', 'sharp, outwards curving cornered', 'sharp, outwards pointing cornered', 'talon-like cornered'];
+  const nm4 = ['broad curved', 'bullet shaped', 'diamond shaped', 'downwards curving', 'droplet shaped', 'long pointed', 'narrow curved', 'pointed', 'round', 'short pointed', 'squared', 'straight', 'angular shaped', 'upwards curving', 'double downwards curving', 'double inwards curving'];
+  const nm5 = ['a bear', 'a bird of paradise', 'a boar', 'a cat', 'a centaur', 'a column', 'a dark pillar', 'a deer', 'a demon', 'a dog', 'a dragon', 'a dryad', 'a fish', 'a flag pole', 'a fox', 'a griffon', 'a harp', 'a hawk', 'a hippogriff', 'a horse', 'a knight', 'a leopard', 'a lighthouse', 'a lion', 'a mage', 'a maiden', 'a mammoth', 'a man', 'a marble pillar', 'a mermaid', 'a minotaur', 'a moose', 'a palm', 'a parrot', 'a peacock', 'a pegasus', 'a pelican', 'a phoenix', 'a pine', 'a rabbit', 'a ram', 'a rhino', 'a saint', 'a shark', 'a snake', 'a songbird', 'a swan', 'a tiger', 'a tower', 'a treant', 'a turtle', 'a unicorn', 'a vine', 'a whale', 'a white stag', 'a wolf', 'a woman', 'an angel', 'an ape', 'an elephant', 'an owl'];
   const nm6 = ['and', 'on either side', 'on either side'];
-  const nm7 = ['boulder field', 'boulder surrounded by water', 'cloud',
-    'desert landscape', 'field of wheat', 'flower field', 'forest landscape',
-    'golden platform', 'grassy mount', 'hilly landscape', 'monolith',
-    'mound of gems', 'mound of ores', 'mound of petals',
-    'mountainous landscape', 'path with grass on either side', 'pedestal',
-    'small island surrounded by ocean', 'snowy landscape', 'temple top'];
-  const nm8 = ['considerable', 'fairly large', 'fairly small', 'grand',
-    'humble', 'large', 'lavish', 'modest', 'simple', 'small'];
-  const nm9 = ['acanthus leaves', 'broad tines', 'clover leaves', 'crosses',
-    'fleurs-de-lis', 'gems raised on stalks', 'golden arches',
-    'heraldic roses', 'narrow tines', 'pearls raised on stalks',
-    'raised crescents', 'raised leaves', 'raised snowflakes', 'raised stars',
-    'tines with pearls'];
-  const nm10 = ['', '', '', '', '', '', 'cashmere', 'felt', 'lace', 'satin',
-    'silk', 'suede', 'velour', 'velvet', 'woolen'];
-  const nm11 = ['an abundance of different gems', 'rows of similar gems',
-    'two rows of various gems', 'two rows of similar gems',
-    'an abundance of similar gems', 'rows of various gems',
-    'rows of precious gems', 'two rows of precious gems',
-    'an abundance of precious gems', 'a modest amount of different gems',
-    'a modest amount of similar gems', 'a modest amount of precious gems'];
-  const nm12 = ['a great', 'a frog-mouth', 'an armet', 'a coppergate',
-    'a coventry sallet', 'a sallet', 'a horned', 'a bascinet', 'a barbute',
-    'a hounskull'];
-  const nm13 = ['a classic', 'a common', 'a gilded', 'a glamorous', 'a grand',
-    'a great', 'a large', 'a lavish', 'a masterfully made', 'a modest',
-    'a simple', 'a small', 'a traditional', 'a well crafted', 'an adorned',
-    'an ornamented', 'an ornate'];
-  const nm14 = ['anchor', 'anvil', 'armored hand', 'bat', 'bear',
-    'bear\'s head', 'boar', 'boar\'s head', 'boat', 'bull', 'bull\'s head',
-    'carriage', 'cat', 'crescent moon', 'cross', 'crow', 'deer',
-    'deer\'s head', 'dog', 'dove', 'dragon', 'dragon\'s head', 'eagle',
-    'eagle with closed wings', 'eagle with spread wings', 'fish',
-    'fleurs-de-lis', 'fox', 'grapevine', 'griffon', 'griffon\'s head', 'harp',
-    'hawk with closed wings', 'hawk with spread wings', 'horse',
-    'horse\'s head', 'hunting horn', 'key', 'lamb', 'lion', 'lion\'s head',
-    'mermaid', 'owl with closed wings', 'owl with spread wings',
-    'pair of antlers', 'pair of intertwining snakes', 'pair of large antlers',
-    'pair of wings', 'phoenix with closed wings', 'phoenix with spread wings',
-    'row of feathers', 'row of leaves', 'scale', 'set of arrows',
-    'swan with closed wings', 'swan with spread wings', 'tiger',
-    'tiger\'s head', 'tower', 'tree', 'two headed eagle', 'unicorn',
-    'wheat sheaf', 'wheel', 'wolf', 'wolf\'s head'];
-  const nm15 = ['a large', 'an enormous', 'a fairly large', 'a not too large',
-    'a fairly small', 'an average sized', 'a modest', 'an elegant',
-    'a luxurious', 'a lavish', 'a grand', 'an ornate'];
-  const nm16 = ['large flowers', 'small flowers', 'delicate ribbons',
-    'simple leaves', 'intricate leaves', 'leaf-like patterns',
-    'simple ribbons', 'intricate ribbons', 'large leaves', 'floral patterns',
-    'normal drapes', 'a large cloak', 'large stage curtains',
-    'small stage curtains', 'a small cloak'];
+  const nm7 = ['boulder field', 'boulder surrounded by water', 'cloud', 'desert landscape', 'field of wheat', 'flower field', 'forest landscape', 'golden platform', 'grassy mount', 'hilly landscape', 'monolith', 'mound of gems', 'mound of ores', 'mound of petals', 'mountainous landscape', 'path with grass on either side', 'pedestal', 'small island surrounded by ocean', 'snowy landscape', 'temple top'];
+  const nm8 = ['considerable', 'fairly large', 'fairly small', 'grand', 'humble', 'large', 'lavish', 'modest', 'simple', 'small'];
+  const nm9 = ['acanthus leaves', 'broad tines', 'clover leaves', 'crosses', 'fleurs-de-lis', 'gems raised on stalks', 'golden arches', 'heraldic roses', 'narrow tines', 'pearls raised on stalks', 'raised crescents', 'raised leaves', 'raised snowflakes', 'raised stars', 'tines with pearls'];
+  const nm10 = ['', '', '', '', '', '', 'cashmere', 'felt', 'lace', 'satin', 'silk', 'suede', 'velour', 'velvet', 'woolen'];
+  const nm11 = ['an abundance of different gems', 'rows of similar gems', 'two rows of various gems', 'two rows of similar gems', 'an abundance of similar gems', 'rows of various gems', 'rows of precious gems', 'two rows of precious gems', 'an abundance of precious gems', 'a modest amount of different gems', 'a modest amount of similar gems', 'a modest amount of precious gems'];
+  const nm12 = ['a great', 'a frog-mouth', 'an armet', 'a coppergate', 'a coventry sallet', 'a sallet', 'a horned', 'a bascinet', 'a barbute', 'a hounskull'];
+  const nm13 = ['a classic', 'a common', 'a gilded', 'a glamorous', 'a grand', 'a great', 'a large', 'a lavish', 'a masterfully made', 'a modest', 'a simple', 'a small', 'a traditional', 'a well crafted', 'an adorned', 'an ornamented', 'an ornate'];
+  const nm14 = ['anchor', 'anvil', 'armored hand', 'bat', 'bear', 'bear\'s head', 'boar', 'boar\'s head', 'boat', 'bull', 'bull\'s head', 'carriage', 'cat', 'crescent moon', 'cross', 'crow', 'deer', 'deer\'s head', 'dog', 'dove', 'dragon', 'dragon\'s head', 'eagle', 'eagle with closed wings', 'eagle with spread wings', 'fish', 'fleurs-de-lis', 'fox', 'grapevine', 'griffon', 'griffon\'s head', 'harp', 'hawk with closed wings', 'hawk with spread wings', 'horse', 'horse\'s head', 'hunting horn', 'key', 'lamb', 'lion', 'lion\'s head', 'mermaid', 'owl with closed wings', 'owl with spread wings', 'pair of antlers', 'pair of intertwining snakes', 'pair of large antlers', 'pair of wings', 'phoenix with closed wings', 'phoenix with spread wings', 'row of feathers', 'row of leaves', 'scale', 'set of arrows', 'swan with closed wings', 'swan with spread wings', 'tiger', 'tiger\'s head', 'tower', 'tree', 'two headed eagle', 'unicorn', 'wheat sheaf', 'wheel', 'wolf', 'wolf\'s head'];
+  const nm15 = ['a large', 'an enormous', 'a fairly large', 'a not too large', 'a fairly small', 'an average sized', 'a modest', 'an elegant', 'a luxurious', 'a lavish', 'a grand', 'an ornate'];
+  const nm16 = ['large flowers', 'small flowers', 'delicate ribbons', 'simple leaves', 'intricate leaves', 'leaf-like patterns', 'simple ribbons', 'intricate ribbons', 'large leaves', 'floral patterns', 'normal drapes', 'a large cloak', 'large stage curtains', 'small stage curtains', 'a small cloak'];
   const nm17 = ['2', '3', '4', '5', '6'];
-  const nm18 = ['a bevilled', 'a bordure', 'a chevron', 'a dancetty',
-    'a diagonal cross', 'a diagonal, asymmetrically striped',
-    'a diagonal, symmetrically striped', 'a dovetailed', 'a fret', 'a gore',
-    'a horizontal, asymmetrically striped',
-    'a horizontal, symmetrically striped', 'a nebuly', 'a nowy', 'a pall',
-    'a potenty', 'a rayonn�', 'a saltire', 'a straight cross',
-    'a vertical, assymetrically striped', 'a vertical, symmetrically striped',
-    'a wavy', 'an angled', 'an embattled', 'an embattled grady', 'an embowed',
-    'an engrailed', 'an indented', 'an invected', 'an orle',
-    'an upside down chevron', 'an urdy'];
+  const nm18 = ['a bevilled', 'a bordure', 'a chevron', 'a dancetty', 'a diagonal cross', 'a diagonal, asymmetrically striped', 'a diagonal, symmetrically striped', 'a dovetailed', 'a fret', 'a gore', 'a horizontal, asymmetrically striped', 'a horizontal, symmetrically striped', 'a nebuly', 'a nowy', 'a pall', 'a potenty', 'a rayonn�', 'a saltire', 'a straight cross', 'a vertical, assymetrically striped', 'a vertical, symmetrically striped', 'a wavy', 'an angled', 'an embattled', 'an embattled grady', 'an embowed', 'an engrailed', 'an indented', 'an invected', 'an orle', 'an upside down chevron', 'an urdy'];
   const nm19 = ['1', '1', '2', '2', '3', '4'];
-  const nm20 = ['anchor', 'angel wing set', 'antler', 'antler set', 'anvil',
-    'apple', 'arrow', 'axe', 'axe set', 'badger', 'badger head', 'bat',
-    'bear', 'bear head', 'bird', 'boar', 'boar head', 'book', 'bow',
-    'bow and arrow set', 'bull', 'bull head', 'cannon', 'castle', 'chain',
-    'circle', 'clover', 'cow', 'cow head', 'crab', 'crescent moon',
-    'cross set', 'crow', 'crown', 'dagger', 'dagger set', 'deer head',
-    'diamond', 'dove', 'dragon', 'dragon head', 'eagle', 'eagle head',
-    'elephant', 'elephant head', 'fan', 'feather', 'flame', 'flower',
-    'footprint', 'goat', 'goat head', 'grapevine', 'griffin', 'hammer',
-    'hammer set', 'hand', 'harp', 'hatchet', 'heart', 'helmet', 'horn',
-    'horse', 'horse head', 'key', 'knight', 'lantern', 'leave',
-    'lightning bolt', 'lily flower', 'lion', 'lion head', 'lizard', 'mace',
-    'mace set', 'mermaid', 'moon', 'moon and star set', 'owl', 'palm tree',
-    'peacock', 'petal', 'pig', 'pig head', 'pitchfork', 'ram', 'ram head',
-    'rising sun', 'rose', 'scale', 'scorpion', 'scythe', 'sickel', 'skull',
-    'snake', 'snake head', 'spear', 'spear set', 'square', 'stag', 'star',
-    'sun', 'swan', 'sword', 'sword set', 'temple', 'thistle', 'tower', 'tree',
-    'tree stump', 'triangle', 'tusk', 'unicorn', 'vine', 'water droplet',
-    'wheat garb', 'wheel', 'wing pair', 'wolf head'];
+  const nm20 = ['anchor', 'angel wing set', 'antler', 'antler set', 'anvil', 'apple', 'arrow', 'axe', 'axe set', 'badger', 'badger head', 'bat', 'bear', 'bear head', 'bird', 'boar', 'boar head', 'book', 'bow', 'bow and arrow set', 'bull', 'bull head', 'cannon', 'castle', 'chain', 'circle', 'clover', 'cow', 'cow head', 'crab', 'crescent moon', 'cross set', 'crow', 'crown', 'dagger', 'dagger set', 'deer head', 'diamond', 'dove', 'dragon', 'dragon head', 'eagle', 'eagle head', 'elephant', 'elephant head', 'fan', 'feather', 'flame', 'flower', 'footprint', 'goat', 'goat head', 'grapevine', 'griffin', 'hammer', 'hammer set', 'hand', 'harp', 'hatchet', 'heart', 'helmet', 'horn', 'horse', 'horse head', 'key', 'knight', 'lantern', 'leave', 'lightning bolt', 'lily flower', 'lion', 'lion head', 'lizard', 'mace', 'mace set', 'mermaid', 'moon', 'moon and star set', 'owl', 'palm tree', 'peacock', 'petal', 'pig', 'pig head', 'pitchfork', 'ram', 'ram head', 'rising sun', 'rose', 'scale', 'scorpion', 'scythe', 'sickel', 'skull', 'snake', 'snake head', 'spear', 'spear set', 'square', 'stag', 'star', 'sun', 'swan', 'sword', 'sword set', 'temple', 'thistle', 'tower', 'tree', 'tree stump', 'triangle', 'tusk', 'unicorn', 'vine', 'water droplet', 'wheat garb', 'wheel', 'wing pair', 'wolf head'];
   const nm22 = ['and', '', ''];
-  const nm23 = ['a delicate', 'a fancy', 'a graceful', 'a large', 'a long',
-    'a luxurious', 'a majestic', 'a modest', 'a simple', 'a small',
-    'an elegant', 'an ornate'];
-  const nm24 = ['partially wrapped around the supporters',
-    'reaching from supporter to supporter',
-    'positioned just below the supporters',
-    'positioned just below the shield',
-    'partially covering the bottom of the shield',
-    'partially covered by the shield',
-    'wrapped around the sides of the shield', 'hanging above the crest'];
-  const nm25 = ['Formed from many, now as one', 'God is great, god is just',
-    'One nation, one people', 'For the people, for the realm',
-    'United we stand, united we conquer', 'In unity and freedom',
-    'Justice, honesty, integrity', 'Pride and honor', 'In service of god',
-    'Work, love, play', 'Peace, justice, progress', 'Truth prevails',
-    'God, king, country', 'Peace, equality, unity',
-    'Friends, family, fatherland', 'Peace, progress, prosperity',
-    'One struggle, one people, one destiny', 'Reap what you sow',
-    'Spirits guide us, spirits watch over us', 'Let there be eternal light',
-    'United we stand, united we stay', 'We will persevere',
-    'Pride, honor, justice', 'Without god we are nothing',
-    'Strength, prosperity, perseverance'];
+  const nm23 = ['a delicate', 'a fancy', 'a graceful', 'a large', 'a long', 'a luxurious', 'a majestic', 'a modest', 'a simple', 'a small', 'an elegant', 'an ornate'];
+  const nm24 = ['partially wrapped around the supporters', 'reaching from supporter to supporter', 'positioned just below the supporters', 'positioned just below the shield', 'partially covering the bottom of the shield', 'partially covered by the shield', 'wrapped around the sides of the shield', 'hanging above the crest'];
+  const nm25 = ['Formed from many, now as one', 'God is great, god is just', 'One nation, one people', 'For the people, for the realm', 'United we stand, united we conquer', 'In unity and freedom', 'Justice, honesty, integrity', 'Pride and honor', 'In service of god', 'Work, love, play', 'Peace, justice, progress', 'Truth prevails', 'God, king, country', 'Peace, equality, unity', 'Friends, family, fatherland', 'Peace, progress, prosperity', 'One struggle, one people, one destiny', 'Reap what you sow', 'Spirits guide us, spirits watch over us', 'Let there be eternal light', 'United we stand, united we stay', 'We will persevere', 'Pride, honor, justice', 'Without god we are nothing', 'Strength, prosperity, perseverance'];
   const rnd1 = Math.floor(Math.random() * nm1.length);
   const rnd2 = Math.floor(Math.random() * nm2.length);
   const rnd2b = Math.floor(Math.random() * nm2.length);

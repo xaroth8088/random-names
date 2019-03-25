@@ -8,46 +8,18 @@ export default function humans() {
   let rnd6;
   let rnd7;
   const type = Math.random() > 0.5 ? 0 : 1;
-  const nm1 = ['', '', '', '', '', 'b', 'br', 'c', 'ch', 'd', 'dr', 'f', 'gr',
-    'g', 'h', 'k', 'kr', 'l', 'm', 'n', 'r', 's', 'st', 'str', 't', 'th', 'v',
-    'z'];
-  const nm2 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i',
-    'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'ui', 'ea',
-    'ei', 'ie', 'ai', 'ua', 'ei', 'eo', 'ia', 'aa', 'ee'];
-  const nm3 = ['b', 'b', 'br', 'bl', 'cl', 'c', 'c', 'cr', 'd', 'd', 'dl', 'dr',
-    'g', 'g', 'gr', 'gn', 'k', 'k', 'kr', 'kn', 'l', 'l', 'lc', 'll', 'lm',
-    'lt', 'lw', 'm', 'm', 'mn', 'mr', 'n', 'n', 'nc', 'ndl', 'nh', 'nn', 'ns',
-    'nz', 'r', 'r', 'rd', 'rk', 'rn', 'rs', 'rv', 'ry', 's', 's', 'st', 'sk',
-    'sr', 'str', 't', 'th', 'tr', 'tn', 't', 'thm', 'v', 'v', 'z', 'z'];
-  const nm4 = ['', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
-    '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
-    '', '', '', '', '', '', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u',
-    'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u',
-    'ui', 'ea', 'ei', 'ie', 'ai', 'ua', 'ei', 'eo', 'ia', 'aa', 'ee'];
-  const nm5 = ['', 'b', 'b', 'br', 'bl', 'cl', 'c', 'c', 'cr', 'd', 'd', 'dl',
-    'dr', 'g', 'g', 'gr', 'gn', 'k', 'k', 'kr', 'kn', 'l', 'l', 'lc', 'll',
-    'lm', 'lt', 'lw', 'm', 'm', 'mn', 'mr', 'n', 'n', 'nc', 'ndl', 'nh', 'nn',
-    'ns', 'nz', 'r', 'r', 'rd', 'rk', 'rn', 'rs', 'rv', 'ry', 's', 's', 'st',
-    'sk', 'sr', 'str', 't', 'th', 'tr', 'tn', 't', 'thm', 'v', 'v', 'z', 'z'];
-  const nm7 = ['', '', '', '', 'b', 'c', 'ck', 'd', 'k', 'l', 'ld', 'll', 'lt',
-    'n', 'nd', 'r', 's', 'st', 'y'];
-  const nm8 = ['', '', '', '', '', 'br', 'c', 'd', 'dh', 'f', 'gl', 'gr', 'gw',
-    'k', 'l', 'm', 'n', 'ph', 'r', 's', 'sh', 't', 'th', 'tr', 'v', 'y'];
-  const nm9 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i',
-    'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'ai', 'io',
-    'ei', 'ea', 'ae', 'ia', 'ue', 'ua'];
-  const nm10 = ['br', 'b', 'dh', 'd', 'dd', 'f', 'ff', 'fr', 'g', 'gh', 'gg',
-    'k', 'l', 'll', 'lm', 'ln', 'lv', 'n', 'nc', 'nfr', 'nn', 'pp', 'ph',
-    'pr', 'r', 'rg', 'rr', 's', 'ss', 'sh', 'tt', 'th', 'v', 'zk', 'z'];
-  const nm11 = ['', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
-    '', '', '', '', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a',
-    'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u',
-    'ai', 'io', 'ei', 'ea', 'ae', 'ia', 'ue', 'ua'];
-  const nm12 = ['', 'br', 'b', 'dh', 'd', 'dd', 'f', 'ff', 'fr', 'g', 'gh',
-    'gg', 'k', 'l', 'll', 'lm', 'ln', 'lv', 'n', 'nc', 'nfr', 'nn', 'pp',
-    'ph', 'pr', 'r', 'rg', 'rr', 's', 'ss', 'sh', 'tt', 'th', 'v', 'zk', 'z'];
-  const nm14 = ['', '', '', '', '', '', '', '', '', '', '', '', '', '', '', 's',
-    'n', 'h', 'l', 'th'];
+  const nm1 = ['', '', '', '', '', 'b', 'br', 'c', 'ch', 'd', 'dr', 'f', 'gr', 'g', 'h', 'k', 'kr', 'l', 'm', 'n', 'r', 's', 'st', 'str', 't', 'th', 'v', 'z'];
+  const nm2 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'ui', 'ea', 'ei', 'ie', 'ai', 'ua', 'ei', 'eo', 'ia', 'aa', 'ee'];
+  const nm3 = ['b', 'b', 'br', 'bl', 'cl', 'c', 'c', 'cr', 'd', 'd', 'dl', 'dr', 'g', 'g', 'gr', 'gn', 'k', 'k', 'kr', 'kn', 'l', 'l', 'lc', 'll', 'lm', 'lt', 'lw', 'm', 'm', 'mn', 'mr', 'n', 'n', 'nc', 'ndl', 'nh', 'nn', 'ns', 'nz', 'r', 'r', 'rd', 'rk', 'rn', 'rs', 'rv', 'ry', 's', 's', 'st', 'sk', 'sr', 'str', 't', 'th', 'tr', 'tn', 't', 'thm', 'v', 'v', 'z', 'z'];
+  const nm4 = ['', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'ui', 'ea', 'ei', 'ie', 'ai', 'ua', 'ei', 'eo', 'ia', 'aa', 'ee'];
+  const nm5 = ['', 'b', 'b', 'br', 'bl', 'cl', 'c', 'c', 'cr', 'd', 'd', 'dl', 'dr', 'g', 'g', 'gr', 'gn', 'k', 'k', 'kr', 'kn', 'l', 'l', 'lc', 'll', 'lm', 'lt', 'lw', 'm', 'm', 'mn', 'mr', 'n', 'n', 'nc', 'ndl', 'nh', 'nn', 'ns', 'nz', 'r', 'r', 'rd', 'rk', 'rn', 'rs', 'rv', 'ry', 's', 's', 'st', 'sk', 'sr', 'str', 't', 'th', 'tr', 'tn', 't', 'thm', 'v', 'v', 'z', 'z'];
+  const nm7 = ['', '', '', '', 'b', 'c', 'ck', 'd', 'k', 'l', 'ld', 'll', 'lt', 'n', 'nd', 'r', 's', 'st', 'y'];
+  const nm8 = ['', '', '', '', '', 'br', 'c', 'd', 'dh', 'f', 'gl', 'gr', 'gw', 'k', 'l', 'm', 'n', 'ph', 'r', 's', 'sh', 't', 'th', 'tr', 'v', 'y'];
+  const nm9 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'ai', 'io', 'ei', 'ea', 'ae', 'ia', 'ue', 'ua'];
+  const nm10 = ['br', 'b', 'dh', 'd', 'dd', 'f', 'ff', 'fr', 'g', 'gh', 'gg', 'k', 'l', 'll', 'lm', 'ln', 'lv', 'n', 'nc', 'nfr', 'nn', 'pp', 'ph', 'pr', 'r', 'rg', 'rr', 's', 'ss', 'sh', 'tt', 'th', 'v', 'zk', 'z'];
+  const nm11 = ['', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'ai', 'io', 'ei', 'ea', 'ae', 'ia', 'ue', 'ua'];
+  const nm12 = ['', 'br', 'b', 'dh', 'd', 'dd', 'f', 'ff', 'fr', 'g', 'gh', 'gg', 'k', 'l', 'll', 'lm', 'ln', 'lv', 'n', 'nc', 'nfr', 'nn', 'pp', 'ph', 'pr', 'r', 'rg', 'rr', 's', 'ss', 'sh', 'tt', 'th', 'v', 'zk', 'z'];
+  const nm14 = ['', '', '', '', '', '', '', '', '', '', '', '', '', '', '', 's', 'n', 'h', 'l', 'th'];
   const i = Math.floor(Math.random() * 10);
   {
     if (type === 1) {

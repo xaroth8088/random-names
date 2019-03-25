@@ -7,10 +7,8 @@ export default function kigYars() {
   let rnd5;
   let rnd6;
   const nm1 = ['a', 'e', 'i', 'o', 'u'];
-  const nm2 = ['b', 'c', 'd', 'g', 'j', 'n', 'k', 'm', 'r', 't', 'th', 'y', 'z',
-    'zh'];
-  const nm3 = ['b', 'c', 'd', 'g', 'k', 'm', 'n', 'p', 'q', 'r', 'th', 'x',
-    'z'];
+  const nm2 = ['b', 'c', 'd', 'g', 'j', 'n', 'k', 'm', 'r', 't', 'th', 'y', 'z', 'zh'];
+  const nm3 = ['b', 'c', 'd', 'g', 'k', 'm', 'n', 'p', 'q', 'r', 'th', 'x', 'z'];
   const i = Math.floor(Math.random() * 10);
   {
     if (i < 5) {

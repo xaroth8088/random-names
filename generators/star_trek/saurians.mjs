@@ -8,24 +8,15 @@ export default function saurians() {
   let rnd6;
   let rnd7;
   const type = Math.random() > 0.5 ? 0 : 1;
-  const nm1 = ['', 'd', 'g', 'j', 'k', 'kr', 'm', 'n', 'pl', 'r', 'st', 't',
-    'y', 'z'];
+  const nm1 = ['', 'd', 'g', 'j', 'k', 'kr', 'm', 'n', 'pl', 'r', 'st', 't', 'y', 'z'];
   const nm2 = ['a', 'e', 'i', 'o', 'u'];
-  const nm3 = ['g', 'gz', 'ggt', 'j', 'k', 'kz', 'kr', 'km', 'l', 'm', 'mz',
-    'nz', 'n', 'nn', 'r', 'rr', 'rk', 'rd', 't', 'tg', 'tk', 'zk', 'zr', 'zg',
-    'z', 'g', 'j', 'k', 'l', 'm', 'n', 'r', 't', 'z', 'g', 'j', 'k', 'l', 'm',
-    'n', 'r', 't', 'z'];
+  const nm3 = ['g', 'gz', 'ggt', 'j', 'k', 'kz', 'kr', 'km', 'l', 'm', 'mz', 'nz', 'n', 'nn', 'r', 'rr', 'rk', 'rd', 't', 'tg', 'tk', 'zk', 'zr', 'zg', 'z', 'g', 'j', 'k', 'l', 'm', 'n', 'r', 't', 'z', 'g', 'j', 'k', 'l', 'm', 'n', 'r', 't', 'z'];
   const nm4 = ['c', 'chv', 'g', 'gt', 'k', 'n', 's', 'ss', 't', 'tt', 'z'];
   const nm5 = ['a', 'e', 'i', 'o', 'u', 'ee', 'ii', '', ''];
-  const nm6 = ['g', 'gz', 'ggt', 'j', 'k', 'kz', 'kr', 'km', 'l', 'm', 'mz',
-    'nz', 'n', 'nn', 'r', 'rr', 'rk', 'rd', 't', 'tg', 'tk', 'zk', 'zr', 'zg',
-    'z', 'c', 'chv', 'g', 'gt', 'k', 'n', 's', 'ss', 't', 'tt', 'z'];
-  const nm7 = ['', '', 'c', 'g', 'gl', 'h', 'j', 'k', 'l', 'n', 'm', 'r', 's',
-    'sh', 'y'];
-  const nm8 = ['a', 'e', 'i', 'o', 'u', 'ia', 'ie', 'uo', 'ai', 'uu', 'oo',
-    'ae', 'uoa'];
-  const nm9 = ['gr', 'gg', 'g', 'gt', 'h', 'l', 'm', 'n', 'nn', 'q', 'qq', 'r',
-    'rr', 'sh', 's', 'ss', 't', 'tt', 'v', 'y', 'z'];
+  const nm6 = ['g', 'gz', 'ggt', 'j', 'k', 'kz', 'kr', 'km', 'l', 'm', 'mz', 'nz', 'n', 'nn', 'r', 'rr', 'rk', 'rd', 't', 'tg', 'tk', 'zk', 'zr', 'zg', 'z', 'c', 'chv', 'g', 'gt', 'k', 'n', 's', 'ss', 't', 'tt', 'z'];
+  const nm7 = ['', '', 'c', 'g', 'gl', 'h', 'j', 'k', 'l', 'n', 'm', 'r', 's', 'sh', 'y'];
+  const nm8 = ['a', 'e', 'i', 'o', 'u', 'ia', 'ie', 'uo', 'ai', 'uu', 'oo', 'ae', 'uoa'];
+  const nm9 = ['gr', 'gg', 'g', 'gt', 'h', 'l', 'm', 'n', 'nn', 'q', 'qq', 'r', 'rr', 'sh', 's', 'ss', 't', 'tt', 'v', 'y', 'z'];
   const nm10 = ['', '', '', '', '', '', '', '', 'ch', 'g', 'm', 'n', 's'];
   const i = Math.floor(Math.random() * 10);
   {

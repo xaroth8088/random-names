@@ -12,25 +12,19 @@ export default function togrutas() {
   const nm0 = ['', '', '', '', '', '', '', '', '', 'a', 'o', 'u'];
   const nm1 = ['b', 'c', 'd', 'h', 'k', 'm', 'r', 's', 't', 'v', 'z'];
   const nm2 = ['a', 'o', 'u'];
-  const nm3 = ['b', 'br', 'd', 'k', 'kr', 'ky', 'l', 'n', 'nz', 'r', 'rh', 's',
-    'sht', 't', 'vr', 'z'];
+  const nm3 = ['b', 'br', 'd', 'k', 'kr', 'ky', 'l', 'n', 'nz', 'r', 'rh', 's', 'sht', 't', 'vr', 'z'];
   const nm4 = ['a', 'aa', 'ee', 'i', 'o', 'y'];
   const nm5 = ['', '', '', '', '', '', '', 'hd', 'k', 'n', 'm', 'r', 's', 'sh'];
   const nm6 = ['', '', '', '', 'a', 'a', 'o', 'a'];
   const nm7 = ['b', 'c', 'd', 'h', 'k', 'l', 'm', 'n', 'r', 's', 'sh', 'z'];
   const nm8 = ['a', 'aa', 'e', 'o'];
-  const nm9 = ['d', 'hn', 'hl', 'hs', 'k', 'l', 'm', 'mn', 'n', 'r', 'rl',
-    'rsh', 'rn', 's', 'ss', 'sh', 'shl', 't', 'th', 'tt'];
+  const nm9 = ['d', 'hn', 'hl', 'hs', 'k', 'l', 'm', 'mn', 'n', 'r', 'rl', 'rsh', 'rn', 's', 'ss', 'sh', 'shl', 't', 'th', 'tt'];
   const nm10 = ['a', 'aa', 'a', 'a', 'o'];
-  const nm11 = ['', '', '', '', '', '', '', '', '', '', '', '', '', '', 'n',
-    'm', 'h', 's', 'sh'];
-  const nm12 = ['b', 'd', 'h', 'k', 'l', 'm', 'n', 'ph', 'r', 's', 't', 'v',
-    'z'];
+  const nm11 = ['', '', '', '', '', '', '', '', '', '', '', '', '', '', 'n', 'm', 'h', 's', 'sh'];
+  const nm12 = ['b', 'd', 'h', 'k', 'l', 'm', 'n', 'ph', 'r', 's', 't', 'v', 'z'];
   const nm13 = ['a', 'y', 'aa', 'i', 'e'];
-  const nm14 = ['br', 'd', 'k', 'kr', 'l', 'm', 'n', 'r', 'rn', 'rl', 's', 'ss',
-    'sh', 'shr', 'vr', 'w', 'z'];
-  const nm15 = ['a', 'aa', 'e', 'u', 'y', 'a', 'e', 'u', 'i', 'o', 'o', 'ii',
-    'ua', 'ee'];
+  const nm14 = ['br', 'd', 'k', 'kr', 'l', 'm', 'n', 'r', 'rn', 'rl', 's', 'ss', 'sh', 'shr', 'vr', 'w', 'z'];
+  const nm15 = ['a', 'aa', 'e', 'u', 'y', 'a', 'e', 'u', 'i', 'o', 'o', 'ii', 'ua', 'ee'];
   const nm16 = ['', '', '', '', 'ks', 'l', 'n', 'm', 'r', 's', 'sh'];
   const i = Math.floor(Math.random() * 10);
   {

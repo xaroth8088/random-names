@@ -7,43 +7,13 @@ export default function species() {
   let rnd4;
   let rnd6;
   let rnd7;
-  const nm1 = ['a', 'e', 'o', 'i', 'u', 'a', 'e', 'o', 'i', 'u', 'ai', 'ea',
-    'eo', 'oi', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
-    '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
-    '', '', '', '', '', '', '', '', ''];
-  const nm2 = ['b', 'c', 'd', 'f', 'g', 'h', 'j', 'k', 'l', 'm', 'n', 'p', 'q',
-    'r', 's', 't', 'v', 'w', 'x', 'ch', 'chr', 'chl', 'z', 'br', 'cr', 'dr',
-    'fr', 'gr', 'kr', 'pr', 'sr', 'tr', 'str', 'bl', 'cl', 'fl', 'kl', 'pl',
-    'sl', 'vl', 'ph', 'sh'];
-  const nm3 = ['a', 'e', 'o', 'i', 'u', 'a', 'e', 'o', 'i', 'u', 'ai', 'ea',
-    'eo', 'oi', 'y'];
-  const nm4 = ['b', 'c', 'd', 'f', 'g', 'h', 'j', 'k', 'l', 'm', 'n', 'p', 'r',
-    's', 't', 'v', 'w', 'x', 'z', 'b', 'c', 'd', 'f', 'g', 'h', 'j', 'k', 'l',
-    'm', 'n', 'p', 'r', 's', 't', 'v', 'w', 'x', 'z', 'bl', 'br', 'bb', 'bs',
-    'bd', 'bn', 'ch', 'chl', 'chr', 'cl', 'ck', 'cn', 'cr', 'cc', 'dr', 'dl',
-    'ds', 'dn', 'dd', 'fl', 'ff', 'fr', 'fn', 'gr', 'gn', 'gs', 'gl', 'gg',
-    'kl', 'kh', 'kn', 'kk', 'kr', 'll', 'ln', 'lm', 'ls', 'ld', 'lb', 'mm',
-    'mn', 'md', 'ml', 'ms', 'nn', 'nd', 'ng', 'nt', 'ns', 'nst', 'pp', 'ph',
-    'pl', 'ps', 'pd', 'pr', 'rr', 'rd', 'rn', 'rl', 'rs', 'rt', 'ss', 'sh',
-    'sht', 'sl', 'sn', 'sr', 'st', 'str', 'tr', 'tt', 'th', 'tn', 'tm', 'tv',
-    'vv', 'vl', 'vn'];
-  const nm7 = ['', '', '', '', '', '', 'c', 'd', 'f', 'g', 'h', 'k', 'l', 'm',
-    'n', 'p', 'r', 's', 't', 'x', 'c', 'd', 'f', 'g', 'h', 'k', 'l', 'm', 'n',
-    'p', 'r', 's', 't', 'x', 'ch', 'ck', 'th', 'gs', 'rd', 'rg', 'rk', 'rm',
-    'rn', 'rq', 'rs', 'rst', 'rx', 'ds', 'cs', 'fs', 'gs', 'ks', 'ls', 'ms',
-    'ns', 'ps', 'rs', 'ts', 'st', 'ph', 'sh', 'ln', 'lm', 'lk', 'ld', 'lt'];
-  const nm8 = ['c', 'gian', 'lese', 'lian', 'n', 'nan', 'ne', 'nee', 'nes',
-    'nian', 'nin', 'no', 'nsian', 'r', 'rd', 'rn', 'se', 'sh', 't', 'te',
-    'vese', 'vian'];
-  const check = ['anal', 'anus', 'arse', 'ass', 'balls', 'bastard', 'biatch',
-    'bitch', 'bollock', 'bollok', 'boner', 'boob', 'bugger', 'bum', 'butt',
-    'clitoris', 'cock', 'coon', 'crap', 'cunt', 'damn', 'dick', 'dildo',
-    'dyke', 'fag', 'feck', 'felching', 'fellate', 'fellatio', 'flange',
-    'fuck', 'gay', 'goddamn', 'homo', 'jackass', 'jerk', 'jizz', 'knobend',
-    'labia', 'muff', 'nigga', 'nigger', 'penis', 'piss', 'poop', 'prick',
-    'pube', 'pussy', 'queer', 'scrotum', 'sex', 'shit', 'slut', 'smegma',
-    'spunk', 'tit', 'tosser', 'turd', 'twat', 'vagina', 'wank', 'whore', 'wtf',
-  ];
+  const nm1 = ['a', 'e', 'o', 'i', 'u', 'a', 'e', 'o', 'i', 'u', 'ai', 'ea', 'eo', 'oi', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', ''];
+  const nm2 = ['b', 'c', 'd', 'f', 'g', 'h', 'j', 'k', 'l', 'm', 'n', 'p', 'q', 'r', 's', 't', 'v', 'w', 'x', 'ch', 'chr', 'chl', 'z', 'br', 'cr', 'dr', 'fr', 'gr', 'kr', 'pr', 'sr', 'tr', 'str', 'bl', 'cl', 'fl', 'kl', 'pl', 'sl', 'vl', 'ph', 'sh'];
+  const nm3 = ['a', 'e', 'o', 'i', 'u', 'a', 'e', 'o', 'i', 'u', 'ai', 'ea', 'eo', 'oi', 'y'];
+  const nm4 = ['b', 'c', 'd', 'f', 'g', 'h', 'j', 'k', 'l', 'm', 'n', 'p', 'r', 's', 't', 'v', 'w', 'x', 'z', 'b', 'c', 'd', 'f', 'g', 'h', 'j', 'k', 'l', 'm', 'n', 'p', 'r', 's', 't', 'v', 'w', 'x', 'z', 'bl', 'br', 'bb', 'bs', 'bd', 'bn', 'ch', 'chl', 'chr', 'cl', 'ck', 'cn', 'cr', 'cc', 'dr', 'dl', 'ds', 'dn', 'dd', 'fl', 'ff', 'fr', 'fn', 'gr', 'gn', 'gs', 'gl', 'gg', 'kl', 'kh', 'kn', 'kk', 'kr', 'll', 'ln', 'lm', 'ls', 'ld', 'lb', 'mm', 'mn', 'md', 'ml', 'ms', 'nn', 'nd', 'ng', 'nt', 'ns', 'nst', 'pp', 'ph', 'pl', 'ps', 'pd', 'pr', 'rr', 'rd', 'rn', 'rl', 'rs', 'rt', 'ss', 'sh', 'sht', 'sl', 'sn', 'sr', 'st', 'str', 'tr', 'tt', 'th', 'tn', 'tm', 'tv', 'vv', 'vl', 'vn'];
+  const nm7 = ['', '', '', '', '', '', 'c', 'd', 'f', 'g', 'h', 'k', 'l', 'm', 'n', 'p', 'r', 's', 't', 'x', 'c', 'd', 'f', 'g', 'h', 'k', 'l', 'm', 'n', 'p', 'r', 's', 't', 'x', 'ch', 'ck', 'th', 'gs', 'rd', 'rg', 'rk', 'rm', 'rn', 'rq', 'rs', 'rst', 'rx', 'ds', 'cs', 'fs', 'gs', 'ks', 'ls', 'ms', 'ns', 'ps', 'rs', 'ts', 'st', 'ph', 'sh', 'ln', 'lm', 'lk', 'ld', 'lt'];
+  const nm8 = ['c', 'gian', 'lese', 'lian', 'n', 'nan', 'ne', 'nee', 'nes', 'nian', 'nin', 'no', 'nsian', 'r', 'rd', 'rn', 'se', 'sh', 't', 'te', 'vese', 'vian'];
+  const check = ['anal', 'anus', 'arse', 'ass', 'balls', 'bastard', 'biatch', 'bitch', 'bollock', 'bollok', 'boner', 'boob', 'bugger', 'bum', 'butt', 'clitoris', 'cock', 'coon', 'crap', 'cunt', 'damn', 'dick', 'dildo', 'dyke', 'fag', 'feck', 'felching', 'fellate', 'fellatio', 'flange', 'fuck', 'gay', 'goddamn', 'homo', 'jackass', 'jerk', 'jizz', 'knobend', 'labia', 'muff', 'nigga', 'nigger', 'penis', 'piss', 'poop', 'prick', 'pube', 'pussy', 'queer', 'scrotum', 'sex', 'shit', 'slut', 'smegma', 'spunk', 'tit', 'tosser', 'turd', 'twat', 'vagina', 'wank', 'whore', 'wtf'];
   const i = Math.floor(Math.random() * 10);
   {
     rnd = Math.floor(Math.random() * nm1.length);

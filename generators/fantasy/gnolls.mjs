@@ -9,60 +9,19 @@ export default function gnolls() {
   let rnd12;
   let rnd22;
   const type = Math.random() > 0.5 ? 0 : 1;
-  const nm1 = ['', '', '', '', '', 'br', 'd', 'dr', 'g', 'gr', 'gh', 'gn', 'k',
-    'kh', 'kr', 'm', 'r', 'rr', 't', 'th', 'tr', 'thr', 'v', 'x', 'z'];
-  const nm2 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i',
-    'o', 'u', 'y', 'a', 'e', 'i', 'o', 'u', 'y', 'y', 'y', 'aa', 'ei', 'ia',
-    'ou', 'ua', 'uo'];
-  const nm4 = ['r', 'rr', 'rg', 'rrg', 'rk', 'c', 'k', 'kk', 'x', 'kx', 'z',
-    'zz', 't', 'h', 'n'];
-  const nm5 = ['', '', '', '', '', '', 'b', 'd', 'dh', 'dr', 'g', 'gl', 'gr',
-    'grr', 'gn', 'h', 'hr', 'kh', 'kn', 'l', 'm', 'mr', 'n', 'p', 'r', 'rh',
-    'rr', 'rrh', 's', 'sh', 'sr', 'sn', 'sz', 't', 'th', 'tr', 'trr', 'ts',
-    'v', 'z', 'zh'];
-  const nm6 = ['a', 'e', 'i', 'o', 'u', 'y', 'a', 'e', 'i', 'o', 'u', 'y', 'a',
-    'e', 'i', 'o', 'u', 'y', 'a', 'e', 'i', 'o', 'u', 'y', 'a', 'e', 'i', 'o',
-    'u', 'y', 'aa', 'ae', 'ai', 'ea', 'ei', 'ie', 'ia', 'ui'];
-  const nm7 = ['b', 'bn', 'bl', 'd', 'dd', 'dn', 'g', 'gh', 'gg', 'gz', 'gr',
-    'hr', 'hz', 'hg', 'hn', 'hl', 'hrr', 'l', 'll', 'lr', 'lm', 'ln', 'lg',
-    'lz', 'lv', 'mn', 'mv', 'ms', 'ng', 'nk', 'nr', 'nz', 'nv', 'r', 'rr',
-    'rh', 'rg', 'rt', 'rtr', 'rth', 'rx', 's', 'ss', 'sz', 'sr', 'szr', 'str',
-    'sl', 'sn', 'sg', 'sh', 'szh', 't', 'th', 'thr', 'ts', 'thn', 'tn', 'tz',
-    'tzs', 'tsz', 'tsh', 'thv', 'thg', 'thm', 'thn', 'w', 'wv', 'vn', 'vg',
-    'vl', 'vr', 'zr', 'zn', 'zl', 'zh', 'zs', 'zsh'];
-  const nm8 = ['', '', '', '', '', 'r', 'rh', 'hr', 'h', 'hn', 's', 'sh', 'z',
-    'hz', 'th', 'rth'];
-  const nm9 = ['', '', '', '', '', 'b', 'd', 'g', 'gn', 'gr', 'k', 'kr', 'kn',
-    'm', 'r', 'rr', 's', 'sz', 'sr', 't', 'th', 'tr', 'thr', 'v', 'x', 'z'];
-  const nm10 = ['a', 'e', 'i', 'o', 'u', 'y', 'a', 'e', 'i', 'o', 'u', 'y', 'a',
-    'e', 'i', 'o', 'u', 'y', 'a', 'e', 'i', 'o', 'u', 'y', 'a', 'e', 'i', 'o',
-    'u', 'y', 'aa', 'ei', 'ou', 'ua', 'ue', 'ei', 'ai', 'ia'];
-  const nm11 = ['b', 'bb', 'd', 'dd', 'g', 'gg', 'gr', 'gn', 'gl', 'gv', 'grr',
-    'ghr', 'hr', 'hg', 'hn', 'hl', 'hz', 'l', 'll', 'lg', 'lz', 'lv', 'lk',
-    'lm', 'm', 'mm', 'mr', 'mv', 'mk', 'mg', 'nk', 'nn', 'nz', 'nv', 'ng',
-    'ngr', 'r', 'rr', 'rg', 'rh', 'rhg', 'rn', 'rm', 'rl', 'rz', 'x', 'xr',
-    'z', 'zz', 'zs', 'zn', 'zl', 'zg'];
+  const nm1 = ['', '', '', '', '', 'br', 'd', 'dr', 'g', 'gr', 'gh', 'gn', 'k', 'kh', 'kr', 'm', 'r', 'rr', 't', 'th', 'tr', 'thr', 'v', 'x', 'z'];
+  const nm2 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'y', 'a', 'e', 'i', 'o', 'u', 'y', 'y', 'y', 'aa', 'ei', 'ia', 'ou', 'ua', 'uo'];
+  const nm4 = ['r', 'rr', 'rg', 'rrg', 'rk', 'c', 'k', 'kk', 'x', 'kx', 'z', 'zz', 't', 'h', 'n'];
+  const nm5 = ['', '', '', '', '', '', 'b', 'd', 'dh', 'dr', 'g', 'gl', 'gr', 'grr', 'gn', 'h', 'hr', 'kh', 'kn', 'l', 'm', 'mr', 'n', 'p', 'r', 'rh', 'rr', 'rrh', 's', 'sh', 'sr', 'sn', 'sz', 't', 'th', 'tr', 'trr', 'ts', 'v', 'z', 'zh'];
+  const nm6 = ['a', 'e', 'i', 'o', 'u', 'y', 'a', 'e', 'i', 'o', 'u', 'y', 'a', 'e', 'i', 'o', 'u', 'y', 'a', 'e', 'i', 'o', 'u', 'y', 'a', 'e', 'i', 'o', 'u', 'y', 'aa', 'ae', 'ai', 'ea', 'ei', 'ie', 'ia', 'ui'];
+  const nm7 = ['b', 'bn', 'bl', 'd', 'dd', 'dn', 'g', 'gh', 'gg', 'gz', 'gr', 'hr', 'hz', 'hg', 'hn', 'hl', 'hrr', 'l', 'll', 'lr', 'lm', 'ln', 'lg', 'lz', 'lv', 'mn', 'mv', 'ms', 'ng', 'nk', 'nr', 'nz', 'nv', 'r', 'rr', 'rh', 'rg', 'rt', 'rtr', 'rth', 'rx', 's', 'ss', 'sz', 'sr', 'szr', 'str', 'sl', 'sn', 'sg', 'sh', 'szh', 't', 'th', 'thr', 'ts', 'thn', 'tn', 'tz', 'tzs', 'tsz', 'tsh', 'thv', 'thg', 'thm', 'thn', 'w', 'wv', 'vn', 'vg', 'vl', 'vr', 'zr', 'zn', 'zl', 'zh', 'zs', 'zsh'];
+  const nm8 = ['', '', '', '', '', 'r', 'rh', 'hr', 'h', 'hn', 's', 'sh', 'z', 'hz', 'th', 'rth'];
+  const nm9 = ['', '', '', '', '', 'b', 'd', 'g', 'gn', 'gr', 'k', 'kr', 'kn', 'm', 'r', 'rr', 's', 'sz', 'sr', 't', 'th', 'tr', 'thr', 'v', 'x', 'z'];
+  const nm10 = ['a', 'e', 'i', 'o', 'u', 'y', 'a', 'e', 'i', 'o', 'u', 'y', 'a', 'e', 'i', 'o', 'u', 'y', 'a', 'e', 'i', 'o', 'u', 'y', 'a', 'e', 'i', 'o', 'u', 'y', 'aa', 'ei', 'ou', 'ua', 'ue', 'ei', 'ai', 'ia'];
+  const nm11 = ['b', 'bb', 'd', 'dd', 'g', 'gg', 'gr', 'gn', 'gl', 'gv', 'grr', 'ghr', 'hr', 'hg', 'hn', 'hl', 'hz', 'l', 'll', 'lg', 'lz', 'lv', 'lk', 'lm', 'm', 'mm', 'mr', 'mv', 'mk', 'mg', 'nk', 'nn', 'nz', 'nv', 'ng', 'ngr', 'r', 'rr', 'rg', 'rh', 'rhg', 'rn', 'rm', 'rl', 'rz', 'x', 'xr', 'z', 'zz', 'zs', 'zn', 'zl', 'zg'];
   const nm12 = ['', '', '', 'c', 'l', 'n', 'm', 'h', 'r', 'rr', 'th', 't'];
-  const nm13 = ['Ash', 'Blight', 'Blood', 'Boom', 'Brine', 'Broken', 'Burst',
-    'Clay', 'Crack', 'Cracked', 'Damp', 'Dead', 'Dirt', 'Dreck', 'Dregs',
-    'Dust', 'Fail', 'Far', 'Fast', 'Filth', 'Fizz', 'Fizzle', 'Foam', 'Froth',
-    'Fungi', 'Fungus', 'Glop', 'Gold', 'Goo', 'Gore', 'Grapple', 'Grease',
-    'Grime', 'Ground', 'Gunk', 'Lard', 'Loose', 'Lump', 'Mire', 'Mole',
-    'Muck', 'Mucus', 'Mud', 'Murk', 'Ooze', 'Pebble', 'Pest', 'Rent', 'River',
-    'Rot', 'Salt', 'Sand', 'Scourge', 'Scum', 'Scuz', 'Silt', 'Slab',
-    'Sleaze', 'Slime', 'Sludge', 'Snore', 'Snot', 'Soil', 'Soot', 'Sore',
-    'Split', 'Stain', 'Sweat', 'Tame', 'Woe', 'Zest'];
-  const nm14 = ['barb', 'bash', 'basher', 'beam', 'blase', 'blast', 'bolt',
-    'boot', 'brass', 'cast', 'cheek', 'clash', 'claw', 'cloak', 'club',
-    'crook', 'dance', 'death', 'dent', 'ear', 'ears', 'eye', 'eyes', 'face',
-    'fang', 'fangs', 'feet', 'finger', 'fingers', 'fist', 'fists', 'foot',
-    'frown', 'fuse', 'gall', 'gaze', 'gleam', 'glob', 'gob', 'grapnel',
-    'grappler', 'grin', 'grinder', 'guard', 'guise', 'hallow', 'hammer',
-    'hand', 'hands', 'head', 'hook', 'hunter', 'knob', 'knuckle', 'mask',
-    'maw', 'mouth', 'mug', 'nail', 'nails', 'nose', 'paw', 'pince', 'pincer',
-    'pinch', 'scowl', 'scrap', 'shrapnel', 'skin', 'smile', 'smirk', 'snag',
-    'spear', 'stick', 'talon', 'teeth', 'thumb', 'tine', 'toe', 'toes',
-    'tongue', 'tooth', 'tusk', 'watch', 'wizzle'];
+  const nm13 = ['Ash', 'Blight', 'Blood', 'Boom', 'Brine', 'Broken', 'Burst', 'Clay', 'Crack', 'Cracked', 'Damp', 'Dead', 'Dirt', 'Dreck', 'Dregs', 'Dust', 'Fail', 'Far', 'Fast', 'Filth', 'Fizz', 'Fizzle', 'Foam', 'Froth', 'Fungi', 'Fungus', 'Glop', 'Gold', 'Goo', 'Gore', 'Grapple', 'Grease', 'Grime', 'Ground', 'Gunk', 'Lard', 'Loose', 'Lump', 'Mire', 'Mole', 'Muck', 'Mucus', 'Mud', 'Murk', 'Ooze', 'Pebble', 'Pest', 'Rent', 'River', 'Rot', 'Salt', 'Sand', 'Scourge', 'Scum', 'Scuz', 'Silt', 'Slab', 'Sleaze', 'Slime', 'Sludge', 'Snore', 'Snot', 'Soil', 'Soot', 'Sore', 'Split', 'Stain', 'Sweat', 'Tame', 'Woe', 'Zest'];
+  const nm14 = ['barb', 'bash', 'basher', 'beam', 'blase', 'blast', 'bolt', 'boot', 'brass', 'cast', 'cheek', 'clash', 'claw', 'cloak', 'club', 'crook', 'dance', 'death', 'dent', 'ear', 'ears', 'eye', 'eyes', 'face', 'fang', 'fangs', 'feet', 'finger', 'fingers', 'fist', 'fists', 'foot', 'frown', 'fuse', 'gall', 'gaze', 'gleam', 'glob', 'gob', 'grapnel', 'grappler', 'grin', 'grinder', 'guard', 'guise', 'hallow', 'hammer', 'hand', 'hands', 'head', 'hook', 'hunter', 'knob', 'knuckle', 'mask', 'maw', 'mouth', 'mug', 'nail', 'nails', 'nose', 'paw', 'pince', 'pincer', 'pinch', 'scowl', 'scrap', 'shrapnel', 'skin', 'smile', 'smirk', 'snag', 'spear', 'stick', 'talon', 'teeth', 'thumb', 'tine', 'toe', 'toes', 'tongue', 'tooth', 'tusk', 'watch', 'wizzle'];
   const i = Math.floor(Math.random() * 10);
   {
     rnd12 = Math.floor(Math.random() * nm13.length);

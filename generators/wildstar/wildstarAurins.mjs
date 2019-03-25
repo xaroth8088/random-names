@@ -9,31 +9,15 @@ export default function wildstarAurins() {
   let rnd6;
   let rnd7;
   const type = Math.random() > 0.5 ? 0 : 1;
-  const nm1 = ['', '', '', 'd', 'f', 'g', 'h', 'l', 'm', 'n', 's', 'r', 't',
-    'v'];
+  const nm1 = ['', '', '', 'd', 'f', 'g', 'h', 'l', 'm', 'n', 's', 'r', 't', 'v'];
   const nm2 = ['a', 'e', 'i', 'y'];
-  const nm3 = ['b', 'ff', 'h', 'l', 'll', 'm', 'mm', 'n', 'nn', 'r', 'rv', 'rl',
-    'v', 'w', 'z'];
+  const nm3 = ['b', 'ff', 'h', 'l', 'll', 'm', 'mm', 'n', 'nn', 'r', 'rv', 'rl', 'v', 'w', 'z'];
   const nm4 = ['l', 'll', 'n', 'nn', 'r', 's'];
-  const nm5 = ['d', 'f', 'h', 'l', 'm', 'n', 'r', 's', 'sh', 't', 'th', 'v',
-    'w'];
-  const nm6 = ['a', 'e', 'i', 'a', 'e', 'i', 'a', 'e', 'i', 'a', 'e', 'i', 'a',
-    'e', 'i', 'ya', 'ia'];
-  const nm7 = ['h', 'ff', 'hn', 'hl', 'l', 'll', 'ln', 'lm', 'm', 'mm', 'n',
-    'nn', 'r', 'rs', 'rl', 'rn', 'rm', 's', 'sh', 'ss', 'w'];
-  const nm8 = ['amber', 'autumn', 'blue', 'bright', 'comet', 'dawn', 'day',
-    'dew', 'dusk', 'ember', 'even', 'ever', 'far', 'feather', 'fire', 'flame',
-    'fog', 'forest', 'green', 'lake', 'leaf', 'light', 'luna', 'lunar',
-    'mirth', 'mist', 'moon', 'morning', 'moss', 'night', 'ocean', 'opal',
-    'rain', 'red', 'river', 'rose', 'ruby', 'shadow', 'silver', 'sky',
-    'solar', 'stem', 'still', 'storm', 'summer', 'sun', 'twilight', 'water',
-    'wild', 'wind', 'winter', 'wood'];
-  const nm9 = ['bloom', 'blossom', 'blower', 'branch', 'breath', 'breeze',
-    'brook', 'cloud', 'clouds', 'dance', 'drift', 'fall', 'flame', 'flock',
-    'flower', 'gaze', 'gazer', 'grass', 'heart', 'lead', 'leaf', 'mind',
-    'petal', 'root', 'shade', 'shine', 'sky', 'snow', 'song', 'spirit',
-    'spyre', 'stalk', 'star', 'strike', 'swift', 'thorn', 'vale', 'walk',
-    'watch', 'whisper', 'wing'];
+  const nm5 = ['d', 'f', 'h', 'l', 'm', 'n', 'r', 's', 'sh', 't', 'th', 'v', 'w'];
+  const nm6 = ['a', 'e', 'i', 'a', 'e', 'i', 'a', 'e', 'i', 'a', 'e', 'i', 'a', 'e', 'i', 'ya', 'ia'];
+  const nm7 = ['h', 'ff', 'hn', 'hl', 'l', 'll', 'ln', 'lm', 'm', 'mm', 'n', 'nn', 'r', 'rs', 'rl', 'rn', 'rm', 's', 'sh', 'ss', 'w'];
+  const nm8 = ['amber', 'autumn', 'blue', 'bright', 'comet', 'dawn', 'day', 'dew', 'dusk', 'ember', 'even', 'ever', 'far', 'feather', 'fire', 'flame', 'fog', 'forest', 'green', 'lake', 'leaf', 'light', 'luna', 'lunar', 'mirth', 'mist', 'moon', 'morning', 'moss', 'night', 'ocean', 'opal', 'rain', 'red', 'river', 'rose', 'ruby', 'shadow', 'silver', 'sky', 'solar', 'stem', 'still', 'storm', 'summer', 'sun', 'twilight', 'water', 'wild', 'wind', 'winter', 'wood'];
+  const nm9 = ['bloom', 'blossom', 'blower', 'branch', 'breath', 'breeze', 'brook', 'cloud', 'clouds', 'dance', 'drift', 'fall', 'flame', 'flock', 'flower', 'gaze', 'gazer', 'grass', 'heart', 'lead', 'leaf', 'mind', 'petal', 'root', 'shade', 'shine', 'sky', 'snow', 'song', 'spirit', 'spyre', 'stalk', 'star', 'strike', 'swift', 'thorn', 'vale', 'walk', 'watch', 'whisper', 'wing'];
   {
     rnd6 = Math.floor(Math.random() * nm8.length);
     rnd7 = Math.floor(Math.random() * nm9.length);

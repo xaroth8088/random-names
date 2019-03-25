@@ -11,28 +11,16 @@ export default function twileks() {
   let rnd9;
   let rnd10;
   const type = Math.random() > 0.5 ? 0 : 1;
-  const nm1 = ['i', 'a', 'o', 'e', 'u', 'y', 'aa', 'ai', 'ao', 'ae', 'au', 'ia',
-    'io', 'ie', 'iu', 'oi', 'oa', 'oo', 'oe', 'ou', 'ui', 'ua', 'uu', 'uo',
-    'ue', 'i', 'a', 'o', 'e', 'u', 'i', 'a', 'o', 'e', 'u', '', '', '', '',
-    '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', ''];
-  const nm2 = ['b', 'c', 'cr', 'd', 'f', 'g', 'h', 'j', 'k', 'l', 'm', 'n', 'p',
-    'r', 's', 'sr', 't', 'v', 'w', 'z'];
+  const nm1 = ['i', 'a', 'o', 'e', 'u', 'y', 'aa', 'ai', 'ao', 'ae', 'au', 'ia', 'io', 'ie', 'iu', 'oi', 'oa', 'oo', 'oe', 'ou', 'ui', 'ua', 'uu', 'uo', 'ue', 'i', 'a', 'o', 'e', 'u', 'i', 'a', 'o', 'e', 'u', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', ''];
+  const nm2 = ['b', 'c', 'cr', 'd', 'f', 'g', 'h', 'j', 'k', 'l', 'm', 'n', 'p', 'r', 's', 'sr', 't', 'v', 'w', 'z'];
   const nm3 = ['i', 'a', 'o', 'e', 'u'];
-  const nm4 = ['b', 'c', 'd', 'g', 'h', 'j', 'k', 'l', 'm', 'n', 'p', 'r', 's',
-    't', 'w', 'z'];
+  const nm4 = ['b', 'c', 'd', 'g', 'h', 'j', 'k', 'l', 'm', 'n', 'p', 'r', 's', 't', 'w', 'z'];
   const nm5 = ['\'', '', ''];
-  const nm6 = ['b', 'c', 'cr', 'd', 'f', 'g', 'h', 'j', 'k', 'l', 'm', 'n', 'p',
-    'r', 's', 't', 'v', 'w', 'z'];
-  const nm7 = ['c', 'd', 'f', 'g', 'k', 'l', 'm', 'n', 'q', 'r', 's', 't', 'w',
-    'y', 'z', '', '', '', '', '', '', '', '', '', '', ''];
-  const nm8 = ['i', 'a', 'o', 'e', 'u', 'aa', 'ai', 'ao', 'ae', 'au', 'ia',
-    'io', 'ie', 'iu', 'oi', 'oa', 'oo', 'oe', 'ou', 'ui', 'ua', 'uu', 'uo',
-    'ue', 'i', 'a', 'o', 'e', 'u', 'i', 'a', 'o', 'e', 'u', '', '', '', '',
-    '', '', ''];
-  const nm9 = ['b', 'c', 'ch', 'd', 'f', 'g', 'h', 'j', 'k', 'l', 'm', 'n', 'p',
-    'r', 's', 'sh', 't', 'v', 'w', 'y', 'y', 'y', 'z'];
-  const nm10 = ['c', 'f', 'g', 'h', 'l', 'm', 'n', 'p', 'r', 's', 't', 'w', 'y',
-    'z', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', ''];
+  const nm6 = ['b', 'c', 'cr', 'd', 'f', 'g', 'h', 'j', 'k', 'l', 'm', 'n', 'p', 'r', 's', 't', 'v', 'w', 'z'];
+  const nm7 = ['c', 'd', 'f', 'g', 'k', 'l', 'm', 'n', 'q', 'r', 's', 't', 'w', 'y', 'z', '', '', '', '', '', '', '', '', '', '', ''];
+  const nm8 = ['i', 'a', 'o', 'e', 'u', 'aa', 'ai', 'ao', 'ae', 'au', 'ia', 'io', 'ie', 'iu', 'oi', 'oa', 'oo', 'oe', 'ou', 'ui', 'ua', 'uu', 'uo', 'ue', 'i', 'a', 'o', 'e', 'u', 'i', 'a', 'o', 'e', 'u', '', '', '', '', '', '', ''];
+  const nm9 = ['b', 'c', 'ch', 'd', 'f', 'g', 'h', 'j', 'k', 'l', 'm', 'n', 'p', 'r', 's', 'sh', 't', 'v', 'w', 'y', 'y', 'y', 'z'];
+  const nm10 = ['c', 'f', 'g', 'h', 'l', 'm', 'n', 'p', 'r', 's', 't', 'w', 'y', 'z', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', ''];
   {
     rnd3 = Math.floor(Math.random() * nm3.length);
     rnd4 = Math.floor(Math.random() * nm4.length);

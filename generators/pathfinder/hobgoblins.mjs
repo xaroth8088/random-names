@@ -8,23 +8,13 @@ export default function hobgoblins() {
   let rnd6;
   let rnd7;
   const type = Math.random() > 0.5 ? 0 : 1;
-  const nm1 = ['', '', '', 'b', 'd', 'dr', 'f', 'g', 'gr', 'h', 'k', 'kr', 'm',
-    'n', 'p', 'pr', 'r', 's', 't', 'z'];
+  const nm1 = ['', '', '', 'b', 'd', 'dr', 'f', 'g', 'gr', 'h', 'k', 'kr', 'm', 'n', 'p', 'pr', 'r', 's', 't', 'z'];
   const nm2 = ['a', 'e', 'i', 'o', 'u'];
-  const nm3 = ['d', 'dr', 'gl', 'gr', 'gt', 'gh', 'kr', 'kt', 'kh', 'kl', 'l',
-    'lgr', 'lt', 'ld', 'ldr', 'lg', 'lb', 'lbr', 'll', 'r', 'rg', 'rd', 'rt',
-    'rdr', 'rgr', 'rk', 'rl', 'th', 'tt', 'tr', 'thr', 'vl', 'vr', 'vt'];
+  const nm3 = ['d', 'dr', 'gl', 'gr', 'gt', 'gh', 'kr', 'kt', 'kh', 'kl', 'l', 'lgr', 'lt', 'ld', 'ldr', 'lg', 'lb', 'lbr', 'll', 'r', 'rg', 'rd', 'rt', 'rdr', 'rgr', 'rk', 'rl', 'th', 'tt', 'tr', 'thr', 'vl', 'vr', 'vt'];
   const nm4 = ['', 'd', 'g', 'k', 'm', 'n', 'ng', 'r', 't'];
-  const nm5 = ['', '', '', '', 'b', 'c', 'd', 'f', 'h', 'k', 'm', 'n', 'ph',
-    'r', 's', 't', 'v', 'w', 'z'];
-  const nm7 = ['cl', 'cn', 'cm', 'cd', 'f', 'ff', 'fn', 'fm', 'fl', 'kl', 'kr',
-    'kn', 'km', 'kd', 'kt', 'ks', 'l', 'lz', 'ln', 'lm', 'ld', 'lg', 'm',
-    'mz', 'ms', 'mr', 'md', 'mg', 'mk', 'n', 'ns', 'nd', 'nr', 'ng', 'ns',
-    'nk', 'r', 'rm', 'rg', 'rn', 'rd', 'rk', 's', 'sm', 'st', 'ss', 'sz',
-    'sm', 'sn', 'sd', 'sg', 'th', 'tr', 'tn', 'tz', 'ts', 'yd', 'yn', 'yg',
-    'yk', 'yr', 'yz'];
-  const nm8 = ['', '', '', '', '', '', '', '', '', '', 'f', 'h', 'l', 'm', 'n',
-    's', 't'];
+  const nm5 = ['', '', '', '', 'b', 'c', 'd', 'f', 'h', 'k', 'm', 'n', 'ph', 'r', 's', 't', 'v', 'w', 'z'];
+  const nm7 = ['cl', 'cn', 'cm', 'cd', 'f', 'ff', 'fn', 'fm', 'fl', 'kl', 'kr', 'kn', 'km', 'kd', 'kt', 'ks', 'l', 'lz', 'ln', 'lm', 'ld', 'lg', 'm', 'mz', 'ms', 'mr', 'md', 'mg', 'mk', 'n', 'ns', 'nd', 'nr', 'ng', 'ns', 'nk', 'r', 'rm', 'rg', 'rn', 'rd', 'rk', 's', 'sm', 'st', 'ss', 'sz', 'sm', 'sn', 'sd', 'sg', 'th', 'tr', 'tn', 'tz', 'ts', 'yd', 'yn', 'yg', 'yk', 'yr', 'yz'];
+  const nm8 = ['', '', '', '', '', '', '', '', '', '', 'f', 'h', 'l', 'm', 'n', 's', 't'];
   const i = Math.floor(Math.random() * 10);
   {
     if (type === 1) {

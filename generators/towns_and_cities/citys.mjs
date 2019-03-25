@@ -7,41 +7,13 @@ export default function citys() {
   let rnd4;
   let rnd5;
   let rnd6;
-  const names1 = ['a', 'e', 'i', 'o', 'u', '', '', '', '', '', '', '', '', '',
-    '', '', '', '', '', '', '', '', '', '', '', '', ''];
-  const names2 = ['b', 'c', 'd', 'f', 'g', 'h', 'j', 'k', 'l', 'm', 'n', 'p',
-    'q', 'r', 's', 't', 'v', 'w', 'x', 'y', 'z', 'br', 'cr', 'dr', 'fr', 'gr',
-    'kr', 'pr', 'qr', 'sr', 'tr', 'vr', 'wr', 'yr', 'zr', 'str', 'bl', 'cl',
-    'fl', 'gl', 'kl', 'pl', 'sl', 'vl', 'yl', 'zl', 'ch', 'kh', 'ph', 'sh',
-    'yh', 'zh'];
-  const names3 = ['a', 'e', 'i', 'o', 'u', 'ae', 'ai', 'ao', 'au', 'aa', 'ee',
-    'ea', 'ei', 'eo', 'eu', 'ia', 'ie', 'io', 'iu', 'oa', 'oe', 'oi', 'oo',
-    'ou', 'ua', 'ue', 'ui', 'uo', 'uu', 'a', 'e', 'i', 'o', 'u', 'a', 'e',
-    'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e',
-    'i', 'o', 'u'];
-  const names4 = ['b', 'c', 'd', 'f', 'g', 'h', 'j', 'k', 'l', 'm', 'n', 'p',
-    'q', 'r', 's', 't', 'v', 'w', 'x', 'y', 'z', 'br', 'cr', 'dr', 'fr', 'gr',
-    'kr', 'pr', 'tr', 'vr', 'wr', 'zr', 'st', 'bl', 'cl', 'fl', 'gl', 'kl',
-    'pl', 'sl', 'vl', 'zl', 'ch', 'kh', 'ph', 'sh', 'zh'];
-  const names5 = ['c', 'd', 'f', 'h', 'k', 'l', 'm', 'n', 'p', 'r', 's', 't',
-    'x', 'y', '', '', '', '', '', '', '', '', '', '', '', '', '', '', ''];
-  const names6 = ['aco', 'ada', 'adena', 'ago', 'agos', 'aka', 'ale', 'alo',
-    'am', 'anbu', 'ance', 'and', 'ando', 'ane', 'ans', 'anta', 'arc', 'ard',
-    'ares', 'ario', 'ark', 'aso', 'athe', 'eah', 'edo', 'ego', 'eigh', 'eim',
-    'eka', 'eles', 'eley', 'ence', 'ens', 'ento', 'erton', 'ery', 'esa',
-    'ester', 'ey', 'ia', 'ico', 'ido', 'ila', 'ille', 'in', 'inas', 'ine',
-    'ing', 'irie', 'ison', 'ita', 'ock', 'odon', 'oit', 'ok', 'olis', 'olk',
-    'oln', 'ona', 'oni', 'onio', 'ont', 'ora', 'ord', 'ore', 'oria', 'ork',
-    'osa', 'ose', 'ouis', 'ouver', 'ul', 'urg', 'urgh', 'ury'];
-  const names7 = ['bert', 'bridge', 'burg', 'burgh', 'burn', 'bury', 'bus',
-    'by', 'caster', 'cester', 'chester', 'dale', 'dence', 'diff', 'ding',
-    'don', 'fast', 'field', 'ford', 'gan', 'gas', 'gate', 'gend', 'ginia',
-    'gow', 'ham', 'hull', 'land', 'las', 'ledo', 'lens', 'ling', 'mery',
-    'mond', 'mont', 'more', 'mouth', 'nard', 'phia', 'phis', 'polis', 'pool',
-    'port', 'pus', 'ridge', 'rith', 'ron', 'rora', 'ross', 'rough', 'sa',
-    'sall', 'sas', 'sea', 'set', 'sey', 'shire', 'son', 'stead', 'stin', 'ta',
-    'tin', 'tol', 'ton', 'vale', 'ver', 'ville', 'vine', 'ving', 'well',
-    'wood'];
+  const names1 = ['a', 'e', 'i', 'o', 'u', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', ''];
+  const names2 = ['b', 'c', 'd', 'f', 'g', 'h', 'j', 'k', 'l', 'm', 'n', 'p', 'q', 'r', 's', 't', 'v', 'w', 'x', 'y', 'z', 'br', 'cr', 'dr', 'fr', 'gr', 'kr', 'pr', 'qr', 'sr', 'tr', 'vr', 'wr', 'yr', 'zr', 'str', 'bl', 'cl', 'fl', 'gl', 'kl', 'pl', 'sl', 'vl', 'yl', 'zl', 'ch', 'kh', 'ph', 'sh', 'yh', 'zh'];
+  const names3 = ['a', 'e', 'i', 'o', 'u', 'ae', 'ai', 'ao', 'au', 'aa', 'ee', 'ea', 'ei', 'eo', 'eu', 'ia', 'ie', 'io', 'iu', 'oa', 'oe', 'oi', 'oo', 'ou', 'ua', 'ue', 'ui', 'uo', 'uu', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u'];
+  const names4 = ['b', 'c', 'd', 'f', 'g', 'h', 'j', 'k', 'l', 'm', 'n', 'p', 'q', 'r', 's', 't', 'v', 'w', 'x', 'y', 'z', 'br', 'cr', 'dr', 'fr', 'gr', 'kr', 'pr', 'tr', 'vr', 'wr', 'zr', 'st', 'bl', 'cl', 'fl', 'gl', 'kl', 'pl', 'sl', 'vl', 'zl', 'ch', 'kh', 'ph', 'sh', 'zh'];
+  const names5 = ['c', 'd', 'f', 'h', 'k', 'l', 'm', 'n', 'p', 'r', 's', 't', 'x', 'y', '', '', '', '', '', '', '', '', '', '', '', '', '', '', ''];
+  const names6 = ['aco', 'ada', 'adena', 'ago', 'agos', 'aka', 'ale', 'alo', 'am', 'anbu', 'ance', 'and', 'ando', 'ane', 'ans', 'anta', 'arc', 'ard', 'ares', 'ario', 'ark', 'aso', 'athe', 'eah', 'edo', 'ego', 'eigh', 'eim', 'eka', 'eles', 'eley', 'ence', 'ens', 'ento', 'erton', 'ery', 'esa', 'ester', 'ey', 'ia', 'ico', 'ido', 'ila', 'ille', 'in', 'inas', 'ine', 'ing', 'irie', 'ison', 'ita', 'ock', 'odon', 'oit', 'ok', 'olis', 'olk', 'oln', 'ona', 'oni', 'onio', 'ont', 'ora', 'ord', 'ore', 'oria', 'ork', 'osa', 'ose', 'ouis', 'ouver', 'ul', 'urg', 'urgh', 'ury'];
+  const names7 = ['bert', 'bridge', 'burg', 'burgh', 'burn', 'bury', 'bus', 'by', 'caster', 'cester', 'chester', 'dale', 'dence', 'diff', 'ding', 'don', 'fast', 'field', 'ford', 'gan', 'gas', 'gate', 'gend', 'ginia', 'gow', 'ham', 'hull', 'land', 'las', 'ledo', 'lens', 'ling', 'mery', 'mond', 'mont', 'more', 'mouth', 'nard', 'phia', 'phis', 'polis', 'pool', 'port', 'pus', 'ridge', 'rith', 'ron', 'rora', 'ross', 'rough', 'sa', 'sall', 'sas', 'sea', 'set', 'sey', 'shire', 'son', 'stead', 'stin', 'ta', 'tin', 'tol', 'ton', 'vale', 'ver', 'ville', 'vine', 'ving', 'well', 'wood'];
   const i = Math.floor(Math.random() * 10);
   {
     if (i < 3) {

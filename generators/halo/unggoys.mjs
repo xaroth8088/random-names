@@ -8,8 +8,7 @@ export default function unggoys() {
   let rnd5;
   const nm1 = ['a', 'i', 'u'];
   const nm2 = ['d', 'f', 'k', 'l', 'm', 's', 'w', 'p', 'y', 'z'];
-  const nm3 = ['fl', 'kl', 'sl', 'sm', 'pl', 'zl', 'd', 'f', 'k', 'l', 'm', 's',
-    'w', 'p', 'y', 'z'];
+  const nm3 = ['fl', 'kl', 'sl', 'sm', 'pl', 'zl', 'd', 'f', 'k', 'l', 'm', 's', 'w', 'p', 'y', 'z'];
   const nm4 = ['fl', 'kl', 'sl', 'sm', 'pl', 'zl'];
   const i = Math.floor(Math.random() * 10);
   {

@@ -8,17 +8,13 @@ export default function maiars() {
   let rnd6;
   const type = Math.random() < 0.5 ? 0 : 1;
   const nm1 = ['f', 'l', 'm', 'n', 'ph', 's', 'sh', 'w', 'y', 'z', '', ''];
-  const nm2 = ['a', 'e', 'o', 'i', 'u', 'ó', 'é', 'ie', 'ui', 'ia', 'ea', 'ae',
-    'ua'];
-  const nm3 = ['l', 'lm', 'ln', 'ls', 'n', 'nn', 'ph', 'r', 's', 'sh', 'ss',
-    'th'];
+  const nm2 = ['a', 'e', 'o', 'i', 'u', 'ó', 'é', 'ie', 'ui', 'ia', 'ea', 'ae', 'ua'];
+  const nm3 = ['l', 'lm', 'ln', 'ls', 'n', 'nn', 'ph', 'r', 's', 'sh', 'ss', 'th'];
   const nm4 = ['r', 'n', 's', 'th', 'l', 'm'];
   const nm5 = ['a', 'e', 'ë', 'é', 'ó', '', '', '', '', ''];
   const nm6 = ['c', 'k', 'l', 'm', 'n', 'p', 'r', 's', 't', 'th', '', ''];
-  const nm7 = ['a', 'e', 'o', 'i', 'u', 'ó', 'é', 'ai', 'eo', 'io', 'eö', 'uo',
-    'ua'];
-  const nm8 = ['l', 'll', 'lm', 'ln', 'ls', 'm', 'md', 'n', 'nd', 'nm', 'nw',
-    'r', 's', 'ss', 't', 'w'];
+  const nm7 = ['a', 'e', 'o', 'i', 'u', 'ó', 'é', 'ai', 'eo', 'io', 'eö', 'uo', 'ua'];
+  const nm8 = ['l', 'll', 'lm', 'ln', 'ls', 'm', 'md', 'n', 'nd', 'nm', 'nw', 'r', 's', 'ss', 't', 'w'];
   const nm9 = ['l', 'm', 'n', 'nd', 'r', 's', 't', 'th'];
   const nm10 = ['o', 'e', 'ë', 'ó', '', '', '', ''];
   {

@@ -8,21 +8,13 @@ export default function catfolks() {
   let rnd6;
   let rnd7;
   const type = Math.random() > 0.5 ? 0 : 1;
-  const nm1 = ['br', 'c', 'cr', 'dr', 'f', 'g', 'gr', 'j', 'k', 'kr', 'm', 'n',
-    'p', 'pr', 'q', 'qr', 'r', 't', 'z'];
-  const nm2 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i',
-    'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'y', 'y',
-    'ou', 'au', 'ei'];
-  const nm3 = ['c', 'cc', 'cd', 'cb', 'g', 'gg', 'gt', 'gb', 'gd', 'k', 'kk',
-    'kh', 'kt', 'mb', 'mk', 'mq', 'nq', 'nk', 'ng', 'q', 'qh', 'r', 'rr',
-    'rq', 'rk', 'th', 'w'];
+  const nm1 = ['br', 'c', 'cr', 'dr', 'f', 'g', 'gr', 'j', 'k', 'kr', 'm', 'n', 'p', 'pr', 'q', 'qr', 'r', 't', 'z'];
+  const nm2 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'y', 'y', 'ou', 'au', 'ei'];
+  const nm3 = ['c', 'cc', 'cd', 'cb', 'g', 'gg', 'gt', 'gb', 'gd', 'k', 'kk', 'kh', 'kt', 'mb', 'mk', 'mq', 'nq', 'nk', 'ng', 'q', 'qh', 'r', 'rr', 'rq', 'rk', 'th', 'w'];
   const nm4 = ['', 'm', 'n', 'r', 's', 'th'];
-  const nm5 = ['', '', '', 'd', 'f', 'g', 'h', 'j', 'k', 'l', 'm', 'n', 'p',
-    'r', 's', 't', 'v', 'z'];
+  const nm5 = ['', '', '', 'd', 'f', 'g', 'h', 'j', 'k', 'l', 'm', 'n', 'p', 'r', 's', 't', 'v', 'z'];
   const nm6 = ['a', 'e', 'i', 'o', 'u'];
-  const nm7 = ['f', 'ff', 'l', 'ly', 'lh', 'ls', 'lr', 'lm', 'ln', 'm', 'my',
-    'mh', 'n', 'ny', 'nh', 'ph', 'phr', 'r', 'rr', 'ry', 'rh', 'sy', 'sh',
-    'sr', 'sl', 'th', 'ty', 'y'];
+  const nm7 = ['f', 'ff', 'l', 'ly', 'lh', 'ls', 'lr', 'lm', 'ln', 'm', 'my', 'mh', 'n', 'ny', 'nh', 'ph', 'phr', 'r', 'rr', 'ry', 'rh', 'sy', 'sh', 'sr', 'sl', 'th', 'ty', 'y'];
   const nm8 = ['', '', '', '', '', '', '', '', '', '', 'h', 's'];
   const i = Math.floor(Math.random() * 10);
   {

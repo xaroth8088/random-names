@@ -7,17 +7,9 @@ export default function nephilims() {
   let rnd5;
   let rnd6;
   let rnd7;
-  const nm1 = ['', '', '', 'b', 'd', 'g', 'h', 'j', 'k', 'n', 'p', 'q', 'r',
-    's', 'sh', 't', 'th', 'z'];
-  const nm2 = ['a', 'e', 'a', 'e', 'a', 'e', 'a', 'e', 'a', 'e', 'a', 'e', 'i',
-    'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i',
-    'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'ya', 'yu',
-    'ee', 'ie', 'ue', 'ia'];
-  const nm3 = ['dr', 'dj', 'gr', 'gn', 'kb', 'kn', 'mj', 'mr', 'mz', 'nz', 'nq',
-    'rq', 'rm', 'rj', 'rz', 'sb', 'sz', 'st', 'tr', 'tn', 'tz', 'b', 'd', 'g',
-    'j', 'k', 'm', 'n', 'q', 'r', 's', 't', 'z', 'b', 'd', 'g', 'j', 'k', 'm',
-    'n', 'q', 'r', 's', 't', 'z', 'b', 'd', 'g', 'j', 'k', 'm', 'n', 'q', 'r',
-    's', 't', 'z'];
+  const nm1 = ['', '', '', 'b', 'd', 'g', 'h', 'j', 'k', 'n', 'p', 'q', 'r', 's', 'sh', 't', 'th', 'z'];
+  const nm2 = ['a', 'e', 'a', 'e', 'a', 'e', 'a', 'e', 'a', 'e', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'ya', 'yu', 'ee', 'ie', 'ue', 'ia'];
+  const nm3 = ['dr', 'dj', 'gr', 'gn', 'kb', 'kn', 'mj', 'mr', 'mz', 'nz', 'nq', 'rq', 'rm', 'rj', 'rz', 'sb', 'sz', 'st', 'tr', 'tn', 'tz', 'b', 'd', 'g', 'j', 'k', 'm', 'n', 'q', 'r', 's', 't', 'z', 'b', 'd', 'g', 'j', 'k', 'm', 'n', 'q', 'r', 's', 't', 'z', 'b', 'd', 'g', 'j', 'k', 'm', 'n', 'q', 'r', 's', 't', 'z'];
   const nm4 = ['l', 'n', 's', 'th', 'z', 'l', 'l', '', '', '', '', ''];
   const i = Math.floor(Math.random() * 10);
   {

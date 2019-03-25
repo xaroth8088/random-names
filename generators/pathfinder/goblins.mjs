@@ -8,51 +8,15 @@ export default function goblins() {
   let rnd6;
   let rnd7;
   const type = Math.random() > 0.5 ? 0 : 1;
-  const nm1 = ['', '', '', '', 'b', 'ch', 'dr', 'fl', 'g', 'gh', 'j', 'k', 'kr',
-    'l', 'm', 'n', 'p', 'r', 'v', 'w', 'z'];
-  const nm2 = ['a', 'e', 'i', 'o', 'u', 'a', 'o', 'u', 'a', 'e', 'i', 'o', 'u',
-    'a', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'o', 'u', 'oo', 'ou', 'oa'];
-  const nm3 = ['bb', 'bbl', 'bm', 'br', 'bn', 'bz', 'd', 'dd', 'dr', 'dz', 'dg',
-    'ff', 'g', 'ggl', 'gm', 'gn', 'gt', 'gv', 'gb', 'gd', 'm', 'md', 'mb',
-    'mz', 'mg', 'mk', 'nth', 'nz', 'nd', 'ng', 'ngb', 'ngl', 'nd', 'nv', 'rg',
-    'rk', 'rp', 'rs', 'rt', 'rd', 'rg', 'tf', 'tv', 'tt', 'tg', 'v', 'vg',
-    'vd', 'vn', 'vm'];
-  const nm4 = ['', '', '', '', '', 'b', 'ff', 'g', 'k', 'n', 'nk', 'rch', 'rd',
-    'rg', 'rk', 'rnk', 'rt', 's', 'sh', 't', 'wg', 'z'];
-  const nm5 = ['', '', '', '', '', 'ch', 'f', 'g', 'gh', 'gr', 'h', 'j', 'kl',
-    'l', 'm', 'n', 'p', 'r', 'v', 'vr', 'y', 'z'];
-  const nm7 = ['ck', 'dl', 'dg', 'dr', 'dn', 'dk', 'g', 'gl', 'gn', 'gm', 'gl',
-    'k', 'kk', 'kl', 'kn', 'km', 'kch', 'kt', 'lk', 'ld', 'lg', 'lv', 'lb',
-    'll', 'mb', 'ml', 'mp', 'md', 'mk', 'mr', 'nb', 'nch', 'nd', 'ng', 'nk',
-    'p', 'ph', 'phr', 'phl', 'rk', 'rg', 'rd', 'rb', 'rbl', 's', 'sh', 'ss',
-    'sk', 'st', 't', 'tr', 'tl', 'tch', 'vv', 'x'];
-  const nm8 = ['', '', '', '', '', '', '', '', '', '', '', '', '', '', '', 'b',
-    'h', 'l', 'k', 'n', 'ns', 'ms', 's', 'sh', 'th'];
-  const nm9 = ['Amber', 'Ash', 'Bear', 'Blade', 'Blood', 'Bone', 'Boulder',
-    'Cask', 'Claw', 'Crag', 'Crow', 'Crystal', 'Dead', 'Dew', 'Dog', 'Doom',
-    'Ear', 'Earth', 'Elf', 'Ember', 'Far', 'Finger', 'Fire', 'Fist', 'Flame',
-    'Flint', 'Forest', 'Frost', 'Fuse', 'Gloom', 'Gold', 'Gore', 'Grass',
-    'Gut', 'Hallow', 'Hard', 'Haze', 'Heart', 'Heavy', 'Hell', 'High', 'Hill',
-    'Hog', 'Horse', 'Ice', 'Iron', 'Keen', 'Long', 'Man', 'Marble', 'Marsh',
-    'Meadow', 'Moon', 'Moss', 'Nettle', 'Nose', 'Orb', 'Pine', 'Plain',
-    'Poke', 'Rage', 'Rain', 'Raven', 'Rip', 'River', 'Rock', 'Rough',
-    'Shadow', 'Silver', 'Skull', 'Snake', 'Snow', 'Spider', 'Stab', 'Star',
-    'Steel', 'Stern', 'Stone', 'Storm', 'Strong', 'Stump', 'Swamp', 'Toe',
-    'Tree', 'Water', 'Wild', 'Wind', 'Wold', 'Wood'];
-  const nm10 = ['bane', 'bash', 'basher', 'belly', 'bender', 'binder', 'bite',
-    'biter', 'blazer', 'bleeder', 'blight', 'brace', 'brand', 'breaker',
-    'breath', 'brew', 'brook', 'brow', 'bumper', 'caller', 'chaser', 'chew',
-    'chewer', 'chopper', 'cleaver', 'cooker', 'crag', 'crest', 'crusher',
-    'cut', 'cutter', 'dancer', 'draft', 'dreamer', 'dust', 'eye', 'fall',
-    'fang', 'flaw', 'flayer', 'force', 'fury', 'gloom', 'grip', 'gripper',
-    'guard', 'gut', 'hammerer', 'horn', 'hunter', 'jumper', 'killer',
-    'lasher', 'mark', 'mauler', 'maw', 'more', 'nugget', 'part', 'parts',
-    'pike', 'punch', 'puncher', 'rage', 'rager', 'reaper', 'reaver', 'rip',
-    'ripper', 'roar', 'rock', 'scar', 'scream', 'seeker', 'shard', 'shield',
-    'shooter', 'shot', 'singer', 'slaver', 'slayer', 'snacker', 'snarl',
-    'snouth', 'spark', 'spear', 'splitter', 'stalk', 'stalker', 'steel',
-    'stick', 'stomper', 'strike', 'striker', 'surge', 'taker', 'tracker',
-    'trapper', 'wad', 'walker', 'watcher', 'wound'];
+  const nm1 = ['', '', '', '', 'b', 'ch', 'dr', 'fl', 'g', 'gh', 'j', 'k', 'kr', 'l', 'm', 'n', 'p', 'r', 'v', 'w', 'z'];
+  const nm2 = ['a', 'e', 'i', 'o', 'u', 'a', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'o', 'u', 'oo', 'ou', 'oa'];
+  const nm3 = ['bb', 'bbl', 'bm', 'br', 'bn', 'bz', 'd', 'dd', 'dr', 'dz', 'dg', 'ff', 'g', 'ggl', 'gm', 'gn', 'gt', 'gv', 'gb', 'gd', 'm', 'md', 'mb', 'mz', 'mg', 'mk', 'nth', 'nz', 'nd', 'ng', 'ngb', 'ngl', 'nd', 'nv', 'rg', 'rk', 'rp', 'rs', 'rt', 'rd', 'rg', 'tf', 'tv', 'tt', 'tg', 'v', 'vg', 'vd', 'vn', 'vm'];
+  const nm4 = ['', '', '', '', '', 'b', 'ff', 'g', 'k', 'n', 'nk', 'rch', 'rd', 'rg', 'rk', 'rnk', 'rt', 's', 'sh', 't', 'wg', 'z'];
+  const nm5 = ['', '', '', '', '', 'ch', 'f', 'g', 'gh', 'gr', 'h', 'j', 'kl', 'l', 'm', 'n', 'p', 'r', 'v', 'vr', 'y', 'z'];
+  const nm7 = ['ck', 'dl', 'dg', 'dr', 'dn', 'dk', 'g', 'gl', 'gn', 'gm', 'gl', 'k', 'kk', 'kl', 'kn', 'km', 'kch', 'kt', 'lk', 'ld', 'lg', 'lv', 'lb', 'll', 'mb', 'ml', 'mp', 'md', 'mk', 'mr', 'nb', 'nch', 'nd', 'ng', 'nk', 'p', 'ph', 'phr', 'phl', 'rk', 'rg', 'rd', 'rb', 'rbl', 's', 'sh', 'ss', 'sk', 'st', 't', 'tr', 'tl', 'tch', 'vv', 'x'];
+  const nm8 = ['', '', '', '', '', '', '', '', '', '', '', '', '', '', '', 'b', 'h', 'l', 'k', 'n', 'ns', 'ms', 's', 'sh', 'th'];
+  const nm9 = ['Amber', 'Ash', 'Bear', 'Blade', 'Blood', 'Bone', 'Boulder', 'Cask', 'Claw', 'Crag', 'Crow', 'Crystal', 'Dead', 'Dew', 'Dog', 'Doom', 'Ear', 'Earth', 'Elf', 'Ember', 'Far', 'Finger', 'Fire', 'Fist', 'Flame', 'Flint', 'Forest', 'Frost', 'Fuse', 'Gloom', 'Gold', 'Gore', 'Grass', 'Gut', 'Hallow', 'Hard', 'Haze', 'Heart', 'Heavy', 'Hell', 'High', 'Hill', 'Hog', 'Horse', 'Ice', 'Iron', 'Keen', 'Long', 'Man', 'Marble', 'Marsh', 'Meadow', 'Moon', 'Moss', 'Nettle', 'Nose', 'Orb', 'Pine', 'Plain', 'Poke', 'Rage', 'Rain', 'Raven', 'Rip', 'River', 'Rock', 'Rough', 'Shadow', 'Silver', 'Skull', 'Snake', 'Snow', 'Spider', 'Stab', 'Star', 'Steel', 'Stern', 'Stone', 'Storm', 'Strong', 'Stump', 'Swamp', 'Toe', 'Tree', 'Water', 'Wild', 'Wind', 'Wold', 'Wood'];
+  const nm10 = ['bane', 'bash', 'basher', 'belly', 'bender', 'binder', 'bite', 'biter', 'blazer', 'bleeder', 'blight', 'brace', 'brand', 'breaker', 'breath', 'brew', 'brook', 'brow', 'bumper', 'caller', 'chaser', 'chew', 'chewer', 'chopper', 'cleaver', 'cooker', 'crag', 'crest', 'crusher', 'cut', 'cutter', 'dancer', 'draft', 'dreamer', 'dust', 'eye', 'fall', 'fang', 'flaw', 'flayer', 'force', 'fury', 'gloom', 'grip', 'gripper', 'guard', 'gut', 'hammerer', 'horn', 'hunter', 'jumper', 'killer', 'lasher', 'mark', 'mauler', 'maw', 'more', 'nugget', 'part', 'parts', 'pike', 'punch', 'puncher', 'rage', 'rager', 'reaper', 'reaver', 'rip', 'ripper', 'roar', 'rock', 'scar', 'scream', 'seeker', 'shard', 'shield', 'shooter', 'shot', 'singer', 'slaver', 'slayer', 'snacker', 'snarl', 'snouth', 'spark', 'spear', 'splitter', 'stalk', 'stalker', 'steel', 'stick', 'stomper', 'strike', 'striker', 'surge', 'taker', 'tracker', 'trapper', 'wad', 'walker', 'watcher', 'wound'];
   const i = Math.floor(Math.random() * 10);
   {
     if (type === 2) {

@@ -13,8 +13,7 @@ export default function pakleds() {
   const nm2 = ['a', 'e', 'o', 'i', 'u'];
   const nm3 = ['b', 'd', 'g', 'h', 'k', 'l', 'n', 'm', 'p', 'r'];
   const nm4 = ['b', 'd', 'g', 'h', 'k', 'l', 'n', 'm', 'p', 'r', '', ''];
-  const nm5 = ['b', 'd', 'g', 'k', 'l', 'm', 'p', 'r', 'gg', 'kk', 'll',
-    'rr'];
+  const nm5 = ['b', 'd', 'g', 'k', 'l', 'm', 'p', 'r', 'gg', 'kk', 'll', 'rr'];
   {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm1.length);

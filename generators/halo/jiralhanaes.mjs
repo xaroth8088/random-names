@@ -6,18 +6,10 @@ export default function jiralhanaes() {
   let rnd4;
   let rnd5;
   let rnd6;
-  const nm1 = ['b', 'br', 'c', 'cr', 'd', 'dr', 'f', 'g', 'gr', 'h', 'k', 'kr',
-    'l', 'm', 'n', 'p', 'pr', 'r', 's', 't', 'tr', 'v', 'w', 'z'];
+  const nm1 = ['b', 'br', 'c', 'cr', 'd', 'dr', 'f', 'g', 'gr', 'h', 'k', 'kr', 'l', 'm', 'n', 'p', 'pr', 'r', 's', 't', 'tr', 'v', 'w', 'z'];
   const nm2 = ['a', 'e', 'y', 'u', 'i', 'o'];
-  const nm3 = ['bb', 'cc', 'ck', 'ct', 'dd', 'gt', 'kk', 'kt', 'll', 'rb', 'rc',
-    'rd', 'rg', 'rk', 'rl', 'rm', 'rn', 'rp', 'rr', 'rs', 'rt', 'rv', 'rz',
-    'ss', 'st', 'b', 'c', 'd', 'g', 'h', 'k', 'l', 'm', 'n', 'p', 'r', 's',
-    't', 'v', 'z'];
-  const nm4 = ['bb', 'cc', 'ck', 'ct', 'dd', 'gt', 'kk', 'kt', 'll', 'rb', 'rc',
-    'rd', 'rg', 'rk', 'rl', 'rm', 'rn', 'rp', 'rr', 'rs', 'rt', 'rv', 'rz',
-    'ss', 'st', 'b', 'c', 'd', 'g', 'h', 'k', 'l', 'm', 'n', 'p', 'r', 's',
-    't', 'v', 'z', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
-    '', '', '', '', '', '', ''];
+  const nm3 = ['bb', 'cc', 'ck', 'ct', 'dd', 'gt', 'kk', 'kt', 'll', 'rb', 'rc', 'rd', 'rg', 'rk', 'rl', 'rm', 'rn', 'rp', 'rr', 'rs', 'rt', 'rv', 'rz', 'ss', 'st', 'b', 'c', 'd', 'g', 'h', 'k', 'l', 'm', 'n', 'p', 'r', 's', 't', 'v', 'z'];
+  const nm4 = ['bb', 'cc', 'ck', 'ct', 'dd', 'gt', 'kk', 'kt', 'll', 'rb', 'rc', 'rd', 'rg', 'rk', 'rl', 'rm', 'rn', 'rp', 'rr', 'rs', 'rt', 'rv', 'rz', 'ss', 'st', 'b', 'c', 'd', 'g', 'h', 'k', 'l', 'm', 'n', 'p', 'r', 's', 't', 'v', 'z', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', ''];
   const nm5 = ['us', 'um', 'eus', 'eum', 'ion', 'ius', 'is'];
   {
     rnd = Math.floor(Math.random() * nm1.length);

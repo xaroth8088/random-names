@@ -15,25 +15,16 @@ export default function biths() {
   let rnd10;
   let rnd11;
   const type = Math.random() > 0.5 ? 0 : 1;
-  const nm1 = ['d', 'd\'r', 'f', 'f\'t', 'g', 'g\'h', 'h', 'j', 'k', 'ph',
-    'ph\'t', 'r', 'th'];
-  const nm2 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i',
-    'o', 'u', 'oo', 'eu', 'ia', 'aa'];
-  const nm3 = ['b', 'bb', 'c', 'cr', 'd', 'dd', 'g', 'gr', 'h', 'k', 'kr', 'l',
-    'lk', 'll', 'mk', 'm', 'n', 'nk', 'p', 'pp', 'r', 'z'];
+  const nm1 = ['d', 'd\'r', 'f', 'f\'t', 'g', 'g\'h', 'h', 'j', 'k', 'ph', 'ph\'t', 'r', 'th'];
+  const nm2 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'oo', 'eu', 'ia', 'aa'];
+  const nm3 = ['b', 'bb', 'c', 'cr', 'd', 'dd', 'g', 'gr', 'h', 'k', 'kr', 'l', 'lk', 'll', 'mk', 'm', 'n', 'nk', 'p', 'pp', 'r', 'z'];
   const nm4 = ['', '', '', 'l', 'm', 'n', 'ns', 'r', 's', 'ss', 'w'];
-  const nm5 = ['d', 'd\'h', 'f', 'f\'h', 'g', 'g\'h', 'h', 'l', 'm', 'n', 'ph',
-    'r', 'rh', 'r\'h', 'th'];
-  const nm6 = ['b', 'c', 'd', 'dh', 'g', 'gr', 'h', 'l', 'lm', 'ln', 'ls', 'm',
-    'mn', 'ml', 'md', 'mm', 'n', 'nn', 'nr', 'nl', 'nd', 'r', 's', 'sh', 'th',
-    'v', 'z'];
+  const nm5 = ['d', 'd\'h', 'f', 'f\'h', 'g', 'g\'h', 'h', 'l', 'm', 'n', 'ph', 'r', 'rh', 'r\'h', 'th'];
+  const nm6 = ['b', 'c', 'd', 'dh', 'g', 'gr', 'h', 'l', 'lm', 'ln', 'ls', 'm', 'mn', 'ml', 'md', 'mm', 'n', 'nn', 'nr', 'nl', 'nd', 'r', 's', 'sh', 'th', 'v', 'z'];
   const nm7 = ['', '', '', 'h', 'l', 'm', 'n', 's', 'ss'];
-  const nm8 = ['d', 'd\'', 'f', 'g', 'g\'h', 'h', 'j', 'k', 'k\'s', 'l', 'm',
-    'n', 'ph', 'r', 'rh', 'r\'h', 'th'];
+  const nm8 = ['d', 'd\'', 'f', 'g', 'g\'h', 'h', 'j', 'k', 'k\'s', 'l', 'm', 'n', 'ph', 'r', 'rh', 'r\'h', 'th'];
   const nm9 = ['a', 'e', 'i', 'o', 'u'];
-  const nm10 = ['b', 'd', 'dh', 'g', 'gr', 'h', 'l', 'lr', 'lm', 'm', 'mn',
-    'md', 'mm', 'n', 'nn', 'nr', 'nd', 'nt', 'r', 'rt', 'rl', 'rd', 's', 'sh',
-    'th', 'v', 'z'];
+  const nm10 = ['b', 'd', 'dh', 'g', 'gr', 'h', 'l', 'lr', 'lm', 'm', 'mn', 'md', 'mm', 'n', 'nn', 'nr', 'nd', 'nt', 'r', 'rt', 'rl', 'rd', 's', 'sh', 'th', 'v', 'z'];
   const nm11 = ['', '', '', '', 'l', 'm', 'n', 'r', 'rn', 's', 'ss'];
   const nm12 = ['', '', '', '', '', 'a', 'e', 'i', 'o', 'u'];
   const i = Math.floor(Math.random() * 10);

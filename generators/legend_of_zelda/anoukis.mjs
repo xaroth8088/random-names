@@ -4,8 +4,7 @@ export default function anoukis() {
   let rnd3;
   let rnd4;
   let names;
-  const nm1 = ['', '', '', '', 'b', 'd', 'f', 'g', 'h', 'k', 'l', 'm', 'n', 'p',
-    'r', 's', 't', 'w', 'y', 'z'];
+  const nm1 = ['', '', '', '', 'b', 'd', 'f', 'g', 'h', 'k', 'l', 'm', 'n', 'p', 'r', 's', 't', 'w', 'y', 'z'];
   const nm2 = ['a', 'u', 'o', 'e'];
   const nm3 = ['u', 'o', 'u', 'o', 'u', 'o', 'oo'];
   {
