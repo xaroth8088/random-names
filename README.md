@@ -5,7 +5,7 @@ Generate random names for all kinds of things
 ```javascript
 import alienNames from '@xaroth8088-oss/random-names/fantasy/aliens';
 
-const aRandomName = alienNames();
+const aRandomName = alienNames().trim();    // The .trim() is temporary until I finish output cleanup efforts
 ```
 
 ## Full List
