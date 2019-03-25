@@ -1,4 +1,11 @@
 export default function toydarians() {
+  let rnd2; let rnd3; let rnd4; let rnd5; let rnd6; let rnd7; let rnd8; let
+    rnd9;
+  let rnd10;
+
+
+  let names;
+
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['', '', '', '', '', 'b', 'br', 'd', 'dr', 'f', 'g', 'gl', 'k', 'l', 'm', 'n', 'p', 'q', 'r', 't', 'v', 'w', 'z', 'zl'];
   const nm2 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'oo', 'ua', 'uu', 'ue', 'ey', 'oy'];

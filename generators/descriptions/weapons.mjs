@@ -1,4 +1,12 @@
 export default function weapons() {
+  let rnd8, rnd9;
+  let rnd12, rnd14, rnd15, rnd18, rnd19;
+  let rnd21, rnd22, rnd23, rnd24;
+
+
+
+
+
   const nm1 = ['fairly large', 'fairly long', 'fairly short', 'fairly small', 'large', 'long', 'short', 'small', 'very long', 'very short'];
   const nm2 = ['thick', 'thin', 'wide', 'narrow', 'slim', 'broad'];
   const nm3 = ['straight', 'smooth', 'slightly curved', 'warped', 'curved', 'jagged', 'barbed'];
@@ -45,93 +53,93 @@ export default function weapons() {
     }
   }
   if (rnd8 === 0 || rnd8 === 1) {
-    var rnd9 = Math.floor(Math.random() * (2 - 0 + 1));
+
   } else if (rnd8 > 1 && rnd8 < 5) {
-    var rnd9 = Math.floor(Math.random() * (5 - 3 + 1)) + 3;
+
   } else if (rnd8 === 5 || rnd8 === 6) {
-    var rnd9 = Math.floor(Math.random() * (8 - 6 + 1)) + 6;
+
   } else if (rnd8 > 6 && rnd8 < 10) {
-    var rnd9 = Math.floor(Math.random() * (11 - 9 + 1)) + 9;
+
   } else if (rnd8 === 10 || rnd8 === 11) {
-    var rnd9 = Math.floor(Math.random() * (14 - 12 + 1)) + 12;
+
   } else {
-    var rnd9 = Math.floor(Math.random() * (17 - 15 + 1)) + 15;
+
   }
 
   const rnd10 = Math.floor(Math.random() * nm10.length);
   if (rnd10 < 2) {
-    var rnd12 = Math.floor(Math.random() * (4 - 0 + 1)) + 0;
+
   } else {
-    var rnd12 = Math.floor(Math.random() * (9 - 5 + 1)) + 5;
+
   }
   const rnd11 = Math.floor(Math.random() * nm11.length);
 
   const rnd13 = Math.floor(Math.random() * nm13.length);
   if (rnd13 < 3) {
-    var rnd14 = Math.floor(Math.random() * (7 - 0 + 1)) + 0;
-    var rnd15 = Math.floor(Math.random() * (5 - 0 + 1)) + 0;
+
+
   } else {
-    var rnd14 = Math.floor(Math.random() * nm14.length);
-    var rnd15 = Math.floor(Math.random() * (13 - 6 + 1)) + 6;
+
+
   }
 
   const rnd16 = Math.floor(Math.random() * nm16.length);
   const rnd17 = Math.floor(Math.random() * nm17.length);
   if (rnd17 < 2) {
-    var rnd18 = Math.floor(Math.random() * (4 - 0 + 1)) + 0;
+
   } else if (rnd13 < 3) {
-    var rnd18 = Math.floor(Math.random() * (6 - 5 + 1)) + 5;
+
   } else {
-    var rnd18 = Math.floor(Math.random() * (9 - 7 + 1)) + 7;
+
   }
   if (rnd18 < 4) {
     if (rnd13 < 3) {
-      var rnd19 = Math.floor(Math.random() * (9 - 5 + 1)) + 5;
+
     } else {
-      var rnd19 = Math.floor(Math.random() * (4 - 0 + 1)) + 0;
+
     }
   } else if (rnd13 < 3) {
-    var rnd19 = Math.floor(Math.random() * (14 - 10 + 1)) + 10;
+
   } else {
-    var rnd19 = Math.floor(Math.random() * (19 - 15 + 1)) + 15;
+
   }
 
   const rnd20 = Math.floor(Math.random() * nm20.length);
   if (rnd20 < 4) {
-    var rnd21 = Math.floor(Math.random() * (3 - 0 + 1)) + 0;
+
   } else {
-    var rnd21 = Math.floor(Math.random() * (13 - 4 + 1)) + 4;
+
   }
   if (rnd21 < 4) {
     if (rnd13 < 3) {
-      var rnd22 = Math.floor(Math.random() * (6 - 0 + 1)) + 0;
+
     } else {
-      var rnd22 = Math.floor(Math.random() * (10 - 7 + 1)) + 7;
+
     }
   } else if (rnd21 < 12 && rnd21 > 3) {
-    var rnd22 = Math.floor(Math.random() * (21 - 11 + 1)) + 5;
+
   } else if (rnd21 > 11) {
-    var rnd22 = Math.floor(Math.random() * (26 - 22 + 1)) + 22;
+
   }
   if (rnd22 < 6) {
-    var rnd23 = Math.floor(Math.random() * (11 - 9 + 1)) + 9;
+
   } else if (rnd22 < 11 && rnd22 > 5) {
-    var rnd23 = Math.floor(Math.random() * (14 - 12 + 1)) + 12;
+
   } else if (rnd22 > 10 && rnd22 < 16) {
-    var rnd23 = Math.floor(Math.random() * (3 - 0 + 1)) + 0;
+
   } else if (rnd22 > 15 && rnd22 < 22) {
-    var rnd23 = Math.floor(Math.random() * (8 - 0 + 1)) + 0;
+
   } else {
-    var rnd23 = Math.floor(Math.random() * (8 - 4 + 1)) + 4;
+
   }
   if (rnd23 < 3) {
-    var rnd24 = Math.floor(Math.random() * (19 - 10 + 1)) + 15;
+
   } else if (rnd23 > 2 && rnd23 < 9) {
-    var rnd24 = Math.floor(Math.random() * (14 - 10 + 1)) + 10;
+
   } else if (rnd23 > 8 && rnd23 < 12) {
-    var rnd24 = Math.floor(Math.random() * (3 - 0 + 1)) + 0;
+
   } else {
-    var rnd24 = Math.floor(Math.random() * (9 - 4 + 1)) + 4;
+
   }
 
   const name = `A ${nm1[rnd1]}, ${nm2[rnd2]}, ${nm3[rnd3]} blade made of ${nm4[rnd4]} is held by a grip wrapped in ${nm5[rnd5]}, ${nm6[rnd6]} ${nm7[rnd7]}.`;

@@ -1,4 +1,10 @@
 export default function wookiees() {
+  let rnd2; let rnd3; let rnd4; let rnd5; let rnd6; let rnd7; let rnd8; let
+    rnd9;
+
+
+  let names;
+
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['', '', '', '', '', '', '', '', '', '', '', '', '', '', '', 'b', 'bl', 'c', 'ch', 'chr', 'd', 'drrl', 'dr', 'drl', 'f', 'fr', 'g', 'gr', 'grr', 'grrw', 'gw', 'h', 'hr', 'j', 'k', 'kh', 'kk', 'kr', 'krr', 'krrs', 'l', 'm', 'mr', 'n', 'q', 'r', 'rh', 'rr', 's', 'sh', 'sn', 'snr', 'snrr', 'snrl', 'sp', 'st', 't', 'tr', 'tvr', 'tvrr', 'trr', 'v', 'vr', 'w', 'wh', 'wr', 'wrh', 'wrrl', 'wrr', 'z', 'zh'];
   const nm2 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'aa', 'aaa', 'ae', 'ai', 'ao', 'aoa', 'au', 'ay', 'ayy', 'ee', 'eee', 'eeo', 'eo', 'eu', 'ia', 'iaa', 'ie', 'ii', 'ioe', 'iya', 'iyy', 'oa', 'oo', 'ooa', 'ooo', 'ou', 'oua', 'ua', 'uaa', 'uu', 'uy', 'y', 'ya', 'yi', 'yy', 'yyy'];

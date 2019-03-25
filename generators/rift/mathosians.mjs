@@ -1,4 +1,9 @@
 export default function mathosians() {
+  let rnd2;
+
+
+  let names;
+
   const type = Math.random() < 0.5 ? 0 : 1;
 
   if (type === 1) {

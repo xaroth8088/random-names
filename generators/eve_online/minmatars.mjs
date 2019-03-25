@@ -1,4 +1,10 @@
 export default function minmatars() {
+  let rnd2; let rnd3; let
+    rnd4;
+
+
+  let names;
+
   const type = Math.random() < 0.5 ? 0 : 1;
 
   const names1 = ['A', 'Agu', 'Ahe', 'Ahu', 'Ai', 'Ake', 'Albe', 'Alre', 'Ama', 'Ami', 'Amo', 'Amu', 'Ana', 'Ane', 'Anlei', 'Anu', 'Anvi', 'Ara', 'Are', 'Argi', 'Ari', 'Arma', 'Asbjo', 'Asgau', 'Aske', 'Asva', 'Ata', 'Au', 'Bamba', 'Bau', 'Be', 'Bei', 'Bi', 'Bja', 'Bjo', 'Bra', 'Bre', 'Bri', 'Bru', 'Bu', 'Bua', 'Ca', 'Caha', 'Da', 'De', 'Dja', 'Do', 'Dwi', 'Ei', 'Eka', 'Eli', 'Era', 'Ere', 'Fa', 'Fe', 'Fi', 'Fja', 'Fjo', 'Fo', 'Frae', 'Fre', 'Ga', 'Gau', 'Ge', 'Gi', 'Gu', 'Ha', 'Hama', 'Hamo', 'Hara', 'He', 'Hei', 'Heinri', 'Herlei', 'Hi', 'Hne', 'Hni', 'Hra', 'Ia', 'Ingi', 'Ingja', 'Je', 'Jo', 'Ka', 'Ki', 'Ko', 'Kri', 'Ku', 'Lo', 'Ma', 'Mi', 'Mo', 'Mu', 'Oli', 'Pai', 'Pe', 'Pu', 'Ra', 'Raha', 'Ranu', 'Ri', 'Sa', 'Setia', 'Si', 'Sigu', 'Sla', 'Sti', 'Sto', 'Su', 'Sudo', 'Suha', 'Suhe', 'Suka', 'Supa', 'Sva', 'Ta', 'Te', 'Tho', 'Ti', 'Tri', 'U', 'Va', 'Vermu', 'Volu', 'Wa', 'Waia', 'Wi', 'Ya', 'Yu'];

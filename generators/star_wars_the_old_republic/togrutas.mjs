@@ -1,4 +1,10 @@
 export default function togrutas() {
+  let rnd1; let rnd2; let rnd3; let rnd4; let rnd5; let
+    rnd6;
+
+
+  let names;
+
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm0 = ['', '', '', '', '', '', '', '', '', 'a', 'o', 'u'];
   const nm1 = ['b', 'c', 'd', 'h', 'k', 'm', 'r', 's', 't', 'v', 'z'];

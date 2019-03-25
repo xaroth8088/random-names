@@ -1,4 +1,12 @@
 export default function mandalorians() {
+  let rnd2; let rnd3; let rnd4; let rnd5; let rnd6; let rnd7; let rnd8; let
+    rnd9;
+  let rnd10; let
+    rnd11;
+
+
+  let names;
+
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['', '', '', '', '', '', '', '', '', '', 'b', 'br', 'c', 'ch', 'd', 'dr', 'g', 'gh', 'gr', 'h', 'j', 'k', 'kr', 'l', 'll', 'm', 'n', 'nj', 'p', 'r', 'rh', 's', 't', 'tr', 'th', 'thr', 'v', 'vr', 'w', 'x', 'z'];
   const nm2 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'a', 'a', 'o', 'o', 'o', 'u', 'u', 'u', 'a', 'o', 'u', 'ae', 'uu', 'ii', 'aa', 'ea', 'ai', 'ee', 'io', 'oe'];

@@ -1,4 +1,11 @@
 export default function humans() {
+  let rnd2; let rnd3; let rnd4; let rnd5; let rnd6; let rnd7; let rnd8; let
+    rnd9;
+  let rnd10;
+
+
+  let names;
+
   const type = Math.random() > 0.5 ? 0 : 1;
   /* Kellid */
   const nm1 = ['b', 'br', 'd', 'dr', 'g', 'k', 'kr', 'p', 'pr', 'q', 'r', 'str', 't', 'tr', 'v'];

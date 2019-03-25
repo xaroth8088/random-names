@@ -1,4 +1,12 @@
 export default function miqotes() {
+  let rnd2; let rnd3; let rnd4; let rnd5; let rnd6; let rnd7; let
+    rnd8;
+  let rnd10; let rnd11; let rnd12; let rnd13; let rnd14; let rnd15; let rnd16; let rnd17; let rnd18; let
+    rnd19;
+
+
+  let names;
+
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['A\'', 'B\'', 'C\'', 'D\'', 'E\'', 'F\'', 'G\'', 'H\'', 'I\'', 'J\'', 'K\'', 'L\'', 'M\'', 'N\'', 'O\'', 'P\'', 'Q\'', 'R\'', 'S\'', 'T\'', 'U\'', 'V\'', 'W\'', 'X\'', 'Y\'', 'Z\''];
   const nm2 = ['b', 'c', 'd', 'f', 'g', 'j', 'k', 'l', 'm', 'n', 'p', 'q', 'r', 's', 't', 'v', 'w', 'x', 'y', 'z'];

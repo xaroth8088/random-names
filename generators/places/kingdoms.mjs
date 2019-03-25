@@ -1,4 +1,10 @@
 export default function kingdoms() {
+  let rnd2; let rnd3; let rnd4; let rnd5; let rnd6; let
+    rnd7;
+
+
+  let names;
+
   const names1 = ['ae', 'ea', 'ai', 'au', 'ou', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', ''];
   const names2 = ['ae', 'eo', 'ea', 'ai', 'ui', 'ou', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u'];
   const names3 = ['b', 'c', 'd', 'g', 'h', 'k', 'l', 'm', 'n', 'p', 'q', 'r', 's', 't', 'v', 'w', 'x', 'y', 'z', 'br', 'cr', 'dr', 'gr', 'kr', 'pr', 'tr', 'vr', 'wr', 'st', 'sl', 'ch', 'sh', 'ph', 'kh', 'th'];

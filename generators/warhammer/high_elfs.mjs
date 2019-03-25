@@ -1,4 +1,10 @@
 export default function high_elfs() {
+  let rnd0; let rnd2; let rnd3; let rnd4; let rnd5; let rnd6; let rnd7; let
+    rnd8;
+
+
+  let names;
+
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm = ['Bel-', '', '', '', ''];
   const nm1 = ['', '', '', '', '', 'c', 'd', 'f', 'g', 'gh', 'h', 'k', 'm', 's', 'sh', 't', 'th', 'v', 'z'];

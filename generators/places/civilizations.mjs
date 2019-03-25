@@ -1,4 +1,10 @@
 export default function civilizations() {
+  let rnd2; let rnd3; let rnd4; let rnd5; let
+    rnd6;
+
+
+  let names;
+
   const nm1 = ['', '', '', '', '', '', '', '', '', '', '', 'b', 'c', 'd', 'f', 'g', 'h', 'j', 'k', 'l', 'm', 'n', 'p', 'q', 'r', 's', 't', 'v', 'w', 'x', 'y', 'z', 'br', 'cr', 'dr', 'fr', 'gr', 'kr', 'pr', 'sr', 'tr', 'vr', 'wr', 'str', 'st', 'bl', 'cl', 'fl', 'gl', 'kl', 'sl', 'vl', 'ch', 'ph', 'sh', 'sch', 'gn', 'kn', 'sn', 'sm', 'sw', 'tw', 'sc', 'wh', 'th', 'thr', 'sph', 'spr'];
   const nm2 = ['a', 'e', 'i', 'o', 'u'];
   const nm3 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'ee', 'eu', 'eo', 'ea', 'ei', 'aa', 'ai', 'au', 'ae', 'io', 'ia', 'iu', 'ie', 'oo', 'oa', 'ou', 'oe', 'oi', 'uu', 'ua', 'ue', 'ui', 'uo'];

@@ -1,4 +1,9 @@
 export default function valkyries() {
+  let rnd2;
+
+
+  let names;
+
   const names1 = ['A', 'Aga', 'Ar', 'Bry', 'Ey', 'Fri', 'Fria', 'Ge', 'Gei', 'Go', 'Guo', 'He', 'Hi', 'Hja', 'Hjo', 'Hla', 'Hlo', 'Hri', 'Hru', 'Ka', 'Mi', 'O', 'Re', 'Regi', 'Ro', 'Sa', 'San', 'Si', 'Ska', 'Ske', 'Sko', 'Sku', 'Sva', 'Sve', 'Svei', 'Svi', 'Tho', 'Thri', 'Thru', 'Va'];
   const names2 = ['dana', 'dis', 'dmadra', 'dne', 'dr', 'dra', 'drifa', 'dul', 'gabi', 'gin', 'ginleif', 'gjold', 'grdrifa', 'grior', 'grun', 'gul', 'hildr', 'hylde', 'ja', 'la', 'ld', 'ldana', 'ldr', 'leif', 'lmold', 'lna', 'lrun', 'ma', 'madra', 'mold', 'nd', 'ndul', 'ngrior', 'nhildr', 'nhylde', 'nul', 'pul', 'ra', 'rdmadra', 'rifa', 'rior', 'rja', 'ronul', 'run', 'rvif', 'st', 'ta', 'tha', 'va', 'vif'];
 

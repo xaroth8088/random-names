@@ -1,4 +1,10 @@
 export default function san_shyuums() {
+  let rnd2; let rnd3; let rnd4; let rnd5; let rnd6; let
+    rnd7;
+
+
+  let names;
+
   const nm1 = ['', '', '', '', '', '', '', 'b', 'c', 'd', 'f', 'h', 'k', 'l', 'm', 'n', 'p', 'r', 's', 't', 'v', 'w', 'z'];
   const nm2 = ['o', 'a', 'u'];
   const nm3 = ['b', 'c', 'd', 'g', 'k', 'p', 't', 'rd', 'rb', 'rc', 'rd', 'rg', 'rk', 'rp', 'rt'];

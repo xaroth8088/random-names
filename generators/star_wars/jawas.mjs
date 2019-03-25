@@ -1,4 +1,12 @@
 export default function jawas() {
+  let rnd2; let rnd3; let rnd4; let rnd5; let rnd6; let rnd7; let rnd8; let
+    rnd9;
+  let rnd10; let rnd11; let rnd12; let
+    rnd13;
+
+
+  let names;
+
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['', '', '', '', '', 'b', 'bl', 'brr', 'ch', 'd', 'h', 'hr', 'j', 'k', 'kl', 'kr', 'kt', 'm', 'mn', 'n', 'nb', 'p', 'pl', 'pr', 'r', 'rk', 'sn', 'sq', 't', 'th', 'tt', 'ts', 'v', 'w', 'wr', 'z'];
   const nm2 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'oe', 'ee', 'ii', 'ee', 'ia', 'ui', 'eo'];

@@ -1,4 +1,9 @@
 export default function medieval_clothings() {
+  let rnd1;
+
+  let rnd24;
+
+
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['delicate', 'elegant', 'fancy', 'graceful', 'luxurious', 'relatively simple', 'majestic', 'modest', 'noble', 'ornate', 'rather simple', 'refined', 'stylish', 'traditional'];
   const nm2 = ['Queen Anne neckline', 'court neckline', 'cowl neckline', 'draped neckline', 'halter neckline', 'jewel neckline', 'keyhole neckline', 'round neckline', 'scoop neckline', 'semi-sweethear neckline', 'square neckline', 'sweetheart neckline', 'v-neck'];

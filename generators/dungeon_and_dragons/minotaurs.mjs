@@ -1,4 +1,10 @@
 export default function minotaurs() {
+  let rnd2; let
+    rnd3;
+
+
+  let names;
+
   const type = Math.random() > 0.5 ? 0 : 1;
   const namesFemF = ['Aam', 'Ane', 'Are', 'Ase', 'Duu', 'Em', 'Enti', 'Este', 'Fen', 'Hene', 'Hes', 'Hila', 'Hine', 'Ias', 'Ire', 'Ki', 'Kia', 'Kuo', 'Laan', 'Line', 'Loo', 'Muu', 'Nan', 'Nea', 'Neo', 'Noo', 'Nuo', 'Oen', 'Oes', 'Raas', 'Ras', 'Sees', 'Seo', 'Sina', 'Tee', 'Tes', 'Tia', 'Tina', 'Uova', 'Weo'];
   const namesFemL = ['dra', 'fin', 'kane', 'kea', 'la', 'las', 'len', 'lin', 'lo', 'mas', 'me', 'mi', 'min', 'na', 'nan', 'nas', 'nim', 'nu', 'pen', 'pe', 'ra', 'ren', 'res', 'rin', 'ris', 'ru', 'sen', 'sia', 'ta', 'ter', 'tin', 'tra', 'tred', 'tri', 'trin', 'tris', 'ven', 'vena', 'vera', 'vin'];

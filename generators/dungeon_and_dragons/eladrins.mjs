@@ -1,4 +1,9 @@
 export default function eladrins() {
+  let rnd2;
+
+
+  let names;
+
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['Ara', 'Aran', 'Ber', 'Bran', 'Cor', 'Cru', 'Da', 'Daye', 'Elro', 'Ere', 'Far', 'Fyla', 'Gal', 'Galin', 'Ha', 'Hor', 'Im', 'Ira', 'Ja', 'Jor', 'Kru', 'Kuo', 'Lan', 'Lic', 'Mar', 'Min', 'Nal', 'Nark', 'Ola', 'Otir', 'Pae', 'Pan', 'Qua', 'Quo', 'Rel', 'Riar', 'Sarn', 'Sove', 'Tav', 'Trin', 'Uri', 'Veth', 'Vic', 'Wal', 'Wrug', 'Xan', 'Yan', 'Yor', 'Zen', 'Zor'];
   const nm2 = ['aris', 'aster', 'baver', 'bin', 'card', 'corin', 'dan', 'darai', 'dartis', 'don', 'emin', 'erta', 'fis', 'fros', 'geon', 'grephor', 'heros', 'horn', 'ikul', 'iver', 'kris', 'kul', 'lias', 'liss', 'mendi', 'meral', 'mil', 'morn', 'neiros', 'nis', 'okas', 'oros', 'peiros', 'prath', 'ratra', 'reth', 'rian', 'rion', 'sirak', 'ster', 'thas', 'tihr', 'torin', 'urian', 'uvir', 'van', 'vis', 'wirn', 'worn', 'xeral', 'xis', 'ykos', 'yth', 'zeiros', 'zion'];

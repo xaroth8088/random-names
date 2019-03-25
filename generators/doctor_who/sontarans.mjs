@@ -1,4 +1,12 @@
 export default function sontarans() {
+  let rnd2; let rnd3; let rnd4; let rnd5; let rnd6; let rnd7; let rnd8; let
+    rnd9;
+  let rnd10; let
+    rnd11;
+
+
+  let names;
+
   const nm1 = ['B', 'Br', 'D', 'Dr', 'Gr', 'J', 'K', 'Kr', 'L', 'N', 'M', 'S', 'Sk', 'Sn', 'St', 'T', 'Tr', 'V', 'Vr'];
   const nm2 = ['a', 'e', 'i', 'o', 'u', 'y', 'aa', 'ee'];
   const nm3 = ['g', 'gg', 'gt', 'gh', 'k', 'kt', 'kk', 'l', 'll', 'nt', 'nx', 'r', 'rl', 'rr', 'rk', 'rn', 'rg', 'sk'];

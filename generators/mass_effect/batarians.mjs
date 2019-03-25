@@ -1,4 +1,12 @@
 export default function batarians() {
+  let rnd2; let rnd3; let rnd4; let rnd5; let rnd6; let rnd7; let rnd8; let
+    rnd9;
+  let rnd10; let rnd11; let
+    rnd12;
+
+
+  let names;
+
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm2 = ['a', 'e', 'u', 'i', 'o', '', '', '', '', '', '', '', '', '', ''];
   const nm3 = ['b', 'br', 'c', 'cr', 'd', 'dh', 'dr', 'f', 'g', 'gr', 'gh', 'k', 'kh', 'kr', 'p', 'pr', 'r', 's'];

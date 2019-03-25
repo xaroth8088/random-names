@@ -1,4 +1,12 @@
 export default function tusken_raiders() {
+  let rnd2; let rnd3; let rnd4; let rnd5; let rnd6; let rnd7; let rnd8; let
+    rnd9;
+  let rnd10; let
+    rnd11;
+
+
+  let names;
+
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['A\'', 'Ch\'', 'Gr\'', 'H\'', 'K\'', 'Q\'', 'R\'', '', '', '', '', '', '', '', '', '', '', '', '', '', '', ''];
   const nm2 = ['B', 'C', 'Ch', 'D', 'G', 'K', 'Q', 'R', 'S', 'Sh', 'Sl', 'T', 'Th', 'Y', 'V', 'Z'];

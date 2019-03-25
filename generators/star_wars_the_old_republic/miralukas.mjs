@@ -1,4 +1,10 @@
 export default function miralukas() {
+  let rnd1; let rnd2; let rnd3; let rnd4; let rnd5; let
+    rnd6;
+
+
+  let names;
+
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['A', 'B', 'Ch', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', '', '', ''];
   const nm2 = ['i', 'a', 'o', 'e', 'u'];

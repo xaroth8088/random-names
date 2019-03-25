@@ -1,4 +1,9 @@
 export default function newspapers() {
+  let rnd2;
+
+
+  let names;
+
   const nm3 = [
     ['The ', 'Bulletin'],
     ['The ', 'Chronicle'],

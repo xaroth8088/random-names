@@ -1,4 +1,10 @@
 export default function vulcans() {
+  let rnd2; let rnd3; let rnd4; let
+    rnd5;
+
+
+  let names;
+
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['Ch', 'D', 'F', 'H', 'J', 'K', 'L', 'M', 'N', 'P', 'S', 'Sk', 'Sp', 'St', 'Str', 'T', 'T\'K', 'V', 'V\'L', 'S', 'Sk', 'Sp', 'St', 'Str', 'S'];
   const nm2 = ['aa', 'ia', 'au', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'y', 'y'];

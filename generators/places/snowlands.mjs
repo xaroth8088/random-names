@@ -1,4 +1,10 @@
 export default function snowlands() {
+  let rnd2; let rnd3; let rnd4; let rnd5; let
+    rnd6;
+
+
+  let names;
+
   const names1 = ['Aquamarine', 'Arctic', 'Avalanche', 'Azure', 'Blasting', 'Bleak', 'Blizzard', 'Bone-Chilling', 'Boreal', 'Brilliant', 'Chillbreath', 'Chillwind', 'Coldwind', 'Cracking', 'Crisp', 'Crystal', 'Crystalline', 'Diamond', 'Flurry', 'Freezing', 'Frigid', 'Frost', 'Frostbite', 'Frostbreath', 'Frosted', 'Frostfever', 'Frostfinger', 'Frostfire', 'Frozen', 'Ghostly', 'Glacial', 'Glacier', 'Glazed', 'Glimmering', 'Ice Crystal', 'Ice Floe', 'Ice Needle', 'Iceberg', 'Icebound', 'Icecap', 'Iced', 'Iceshelf', 'Icicle', 'Icy', 'Igloo', 'Ivory', 'Meltwater', 'Milky', 'Mirror', 'Mute', 'Muted', 'Nevermelting', 'Northbound', 'Northern', 'Numb', 'Pale', 'Pearly', 'Penguin', 'Permafrost', 'Petrified', 'Polar', 'Powder', 'Quiet', 'Quivering', 'Raw', 'Reflecting', 'Shattering', 'Shimmering', 'Shivering', 'Shuddering', 'Silent', 'Silver', 'Silvery', 'Sleeted', 'Sliding', 'Slippery', 'Snow Angel', 'Snow Crystal', 'Snow Owl', 'Snow Pack', 'Snow Storm', 'Snowbank', 'Snowcap', 'Snowdrift', 'Snowfall', 'Snowflake', 'Snowman', 'Snowslide', 'Snowy', 'Solid', 'Soundless', 'Sparkling', 'Thundersnow', 'Twinkling', 'Wailing', 'Weeping', 'Whimpering', 'Whispering', 'White', 'Winter', 'Yowling'];
   const names2 = ['Desert', 'Tundra', 'Taiga', 'Forests', 'Expanse', 'Fields', 'Flatlands', 'Plains'];
 

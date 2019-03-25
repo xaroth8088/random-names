@@ -1,4 +1,10 @@
 export default function daemons_of_chaos() {
+  let rnd2; let rnd3; let rnd4; let rnd5; let rnd6; let rnd7; let rnd8; let
+    rnd9;
+
+
+  let names;
+
   const nm1 = ['', '', '', '', 'c', 'ch', 'cr', 'cz', 'g', 'gr', 'k', 'kr', 'kh', 'n', 'q', 'qh', 'qr', 'r', 'rh', 'sc', 'str', 'sk', 't', 'tr', 'v', 'vr', 'z', 'zh'];
   const nm2 = ['a', 'o', 'u', 'a', 'o', 'u', 'i', 'a', 'o', 'u', 'a', 'o', 'u', 'i', 'e', 'e', 'ai'];
   const nm3 = ['\'', '', '', '', '', ''];

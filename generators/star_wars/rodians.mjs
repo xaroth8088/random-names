@@ -1,4 +1,12 @@
 export default function rodians() {
+  let rnd2; let rnd3; let rnd4; let rnd5; let rnd6; let rnd7; let rnd8; let
+    rnd9;
+  let rnd10; let rnd11; let rnd12; let
+    rnd13;
+
+
+  let names;
+
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['', '', '', '', '', '', '', '', '', '', 'b', 'bl', 'br', 'c', 'ch', 'chr', 'cl', 'cr', 'd', 'dh', 'dr', 'dw', 'f', 'fr', 'g', 'gl', 'gr', 'gw', 'h', 'j', 'k', 'kl', 'kn', 'kr', 'l', 'm', 'n', 'p', 'ph', 'pr', 'prw', 'q', 'r', 's', 'sh', 'sk', 'sl', 'sn', 'sp', 'st', 't', 'th', 'tr', 'ts', 'tw', 'v', 'vl', 'vr', 'w', 'x', 'z'];
   const nm2 = ['a', 'o', 'e', 'i', 'a', 'e', 'i', 'o', 'u', 'a', 'o', 'e', 'i', 'a', 'e', 'i', 'o', 'u', 'a', 'o', 'e', 'i', 'a', 'e', 'i', 'o', 'u', 'a', 'o', 'e', 'i', 'a', 'e', 'i', 'o', 'u', 'a', 'o', 'e', 'i', 'a', 'e', 'i', 'o', 'u', 'a', 'o', 'e', 'i', 'a', 'e', 'i', 'o', 'u', 'ee', 'ee', 'ee', 'ee', 'ee', 'ee', 'ee', 'ee', 'ee', 'ee', 'ee', 'ee', 'ee', 'aa', 'ei', 'oi', 'oo', 'ii', 'iu', 'ae', 'ea', 'ou', 'uu', 'ya', 'ye', 'yi', 'ua', 'ae', 'ay', 'ey', 'ei'];

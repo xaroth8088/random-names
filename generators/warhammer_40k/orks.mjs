@@ -1,4 +1,10 @@
 export default function orks() {
+  let rnd2; let rnd3; let rnd4; let
+    rnd5;
+
+
+  let names;
+
   const names1 = ['b', 'br', 'ch', 'd', 'dh', 'dr', 'g', 'gh', 'gr', 'hr', 'k', 'kh', 'kr', 'm', 'n', 'r', 'sk', 'sm', 'sn', 't', 'tr', 'v', 'vr', 'w', 'wr', 'z', 'zh', 'zr', '', '', '', '', ''];
   const names2 = ['a', 'i', 'o', 'u', 'a', 'u'];
   const names3 = ['b', 'd', 'dbr', 'dr', 'g', 'gb', 'gd', 'gg', 'gh', 'gn', 'gt', 'gz', 'hrbl', 'k', 'kg', 'kk', 'kt', 'lgr', 'nz', 'r', 'rb', 'rg', 'rgn', 'rgr', 'rk', 'rkr', 'rl', 'rz', 'sk', 'skr', 't', 'tgr', 'tzm', 'tzn', 'zdr', 'zg', 'zgr'];

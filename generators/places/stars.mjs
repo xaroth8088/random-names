@@ -1,4 +1,10 @@
 export default function stars() {
+  let rnd2; let rnd3; let rnd4; let rnd5; let
+    rnd6;
+
+
+  let names;
+
   const nm1 = ['a', 'e', 'i', 'o', 'u', '', '', '', '', '', '', '', '', '', '', '', '', '', ''];
   const nm2 = ['b', 'c', 'd', 'f', 'g', 'h', 'j', 'k', 'l', 'm', 'n', 'p', 'q', 'r', 's', 't', 'v', 'w', 'x', 'y', 'z', 'br', 'cr', 'dr', 'gr', 'kr', 'pr', 'sr', 'tr', 'str', 'vr', 'zr', 'bl', 'cl', 'fl', 'gl', 'kl', 'pl', 'sl', 'vl', 'zl', 'ch', 'sh', 'ph', 'th'];
   const nm3 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'ae', 'ai', 'ao', 'au', 'aa', 'ea', 'ei', 'eo', 'eu', 'ee', 'ia', 'io', 'iu', 'oa', 'oi', 'oo', 'ua', 'ue'];

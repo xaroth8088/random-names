@@ -1,4 +1,9 @@
 export default function beorning() {
+  let rnd2;
+
+
+  let names;
+
   const type = Math.random() < 0.5 ? 0 : 1;
 
   const nm1 = ['Ag', 'Aln', 'Aran', 'Arn', 'Bald', 'Beorn', 'Beran', 'Borg', 'Both', 'Dag', 'Darn', 'Dreng', 'Dug', 'Eld', 'Erad', 'Eran', 'Ern', 'Fer', 'Forn', 'Frid', 'Froth', 'Gal', 'Glum', 'Gluth', 'Grim', 'Har', 'Hart', 'Heim', 'Hroth', 'Ig', 'Ingel', 'Is', 'Iw', 'Jal', 'Jar', 'Jarn', 'Jorn', 'Log', 'Lor', 'Lyd', 'Lyth', 'Mag', 'Mar', 'Morn', 'Moth', 'Nard', 'Ned', 'Nef', 'Nor', 'Old', 'Ord', 'Ot', 'Oth', 'Rand', 'Rath', 'Ric', 'Rod', 'Sig', 'Skal', 'Skol', 'Stig', 'Tar', 'Theod', 'Thor', 'Throt', 'Val', 'Vald', 'Vig', 'Vul', 'Wal', 'Wald', 'Wid', 'Wul'];

@@ -1,4 +1,10 @@
 export default function dimensions() {
+  let rnd2; let rnd3; let rnd4; let
+    rnd5;
+
+
+  let names;
+
   const names1 = ['', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', 'b', 'c', 'd', 'f', 'g', 'h', 'j', 'k', 'l', 'm', 'n', 'p', 'q', 'r', 's', 't', 'v', 'w', 'x', 'y', 'z', 'b', 'c', 'd', 'f', 'g', 'h', 'j', 'k', 'l', 'm', 'n', 'p', 'q', 'r', 's', 't', 'v', 'w', 'x', 'y', 'z', 'ch', 'cw', 'cr', 'cy', 'cl', 'br', 'by', 'bl', 'dr', 'dy', 'dl', 'fr', 'fy', 'fl', 'gr', 'gy', 'gl', 'gn', 'gh', 'kr', 'kh', 'kl', 'ky', 'kn', 'lh', 'ly', 'my', 'ny', 'ph', 'pr', 'pl', 'py', 'pn', 'rh', 'ry', 'sh', 'sr', 'str', 'st', 'sn', 'sm', 'sl', 'sw', 'th', 'tr', 'thr'];
   const names2 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'ea', 'eo', 'eu', 'ei', 'ee', 'ia', 'io', 'iu', 'ie', 'ae', 'ao', 'ai', 'aa', 'ua', 'ui', 'ue', 'oi', 'oo', 'ou', 'oe'];
   const names3 = ['sh', 'ch', 'ph', 'br', 'cr', 'dr', 'gr', 'st', 'str', 'cl', 'gl', 'kl', 'b', 'c', 'd', 'f', 'g', 'h', 'j', 'k', 'l', 'm', 'n', 'p', 'q', 'r', 's', 't', 'v', 'w', 'x', 'y', 'z', 'bb', 'cc', 'dd', 'gg', 'kk', 'll', 'mm', 'nn', 'pp', 'rr', 'ss', 'tt'];

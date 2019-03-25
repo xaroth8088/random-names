@@ -1,4 +1,10 @@
 export default function dwarfs() {
+  let rnd2; let rnd3; let rnd4; let
+    rnd5;
+
+
+  let names;
+
   const nm1 = ['b', 'br', 'd', 'dr', 'dw', 'f', 'fl', 'fr', 'g', 'gl', 'gr', 'k', 'kh', 'kr', 'l', 'm', 'mh', 'n', 't', 'th', 'thr'];
   const nm2 = ['a', 'e', 'i', 'o', 'u'];
   const nm3 = ['b', 'f', 'fr', 'l', 'lb', 'lr', 'lv', 'm', 'mb', 'ml', 'mr', 'n', 'nd', 'nr', 'r', 'rb', 'rl', 'rv', 's', 'sr'];

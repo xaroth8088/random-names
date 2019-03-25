@@ -1,4 +1,7 @@
 export default function elfs() {
+  let rnd2;
+
+
   const type = Math.random() < 0.5 ? 0 : 1;
 
   const nm1 = [

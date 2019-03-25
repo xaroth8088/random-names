@@ -1,4 +1,12 @@
 export default function korunnais() {
+  let rnd2; let rnd3; let rnd4; let rnd5; let rnd7; let
+    rnd8;
+  let rnd10; let rnd11; let
+    rnd12;
+
+
+  let names;
+
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['', '', '', '', 'b', 'br', 'd', 'g', 'gr', 'k', 'l', 'm', 'n', 'pr', 'r', 's', 't', 'th', 'tr', 'v', 'z'];
   const nm2 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'io', 'ii', 'ou'];

@@ -1,4 +1,9 @@
 export default function portugueses() {
+  let rnd1;
+
+
+  let names;
+
   const type = Math.random() < 0.5 ? 0 : 1;
 
   const namesMale = ['Ângelo', 'Afonso', 'Alex', 'Alexandre', 'André', 'António', 'Artur', 'Benjamim', 'Bernardo', 'Brian', 'Bruno', 'César', 'Carlos', 'Cristiano', 'Dário', 'Daniel', 'Davi', 'David', 'Diego', 'Dinis', 'Diogo', 'Duarte', 'Edgar', 'Eduardo', 'Emanuel', 'Enzo', 'Fábio', 'Fernando', 'Filipe', 'Flávio', 'Francisco', 'Frederico', 'Gabriel', 'Gil', 'Gonçalo', 'Guilherme', 'Gustavo', 'Hélder', 'Henrique', 'Hugo', 'Ian', 'Igor', 'Isaac', 'Isac', 'Ismael', 'Ivan', 'Ivo', 'Ivo ', 'Jaime', 'João', 'Joaquim', 'Joel', 'Joel ', 'Jorge', 'José', 'Kévim', 'Kevin', 'Leandro', 'Leonardo', 'Leonel', 'Lisandro', 'Lourenço', 'Luís', 'Luca', 'Lucas', 'Márcio', 'Mário', 'Manel ', 'Manuel', 'Marco', 'Martim', 'Mateus', 'Matias', 'Mauro', 'Micael', 'Miguel', 'Nelson', 'Noah ', 'Nuno', 'Paulo', 'Pedro', 'Rúben', 'Raúl', 'Rafael', 'Renato', 'Ricardo', 'Rodrigo', 'Rui', 'Sérgio', 'Salvador', 'Samuel', 'Sandro', 'Santiago', 'Sebastião', 'Simão', 'Tiago', 'Tomás', 'Tomé', 'Vítor', 'Valentin', 'Vasco', 'Vicente', 'Wilson', 'Xavier'];

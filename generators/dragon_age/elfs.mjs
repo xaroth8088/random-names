@@ -1,4 +1,10 @@
 export default function elfs() {
+  let rnd0; let
+    rnd1;
+
+
+  let names;
+
   const type = Math.random() > 0.5 ? 0 : 1;
   const namesFemale = ['Ada', 'Ari', 'Aria', 'Asha', 'Ashi', 'Athe', 'Bri', 'Bria', 'Dany', 'De', 'Deve', 'Di', 'Elo', 'Fi', 'Fio', 'Ghe', 'Io', 'Ise', 'Ka', 'La', 'Lana', 'Li', 'Lia', 'Ma', 'Mare', 'Me', 'Melo', 'Merri', 'Mi', 'Mih', 'Na', 'Nama', 'Ne', 'Nesi', 'Nesia', 'No', 'Nola', 'Ora', 'Orana', 'Pa', 'Pano', 'Ri', 'Se', 'Sera', 'Sha', 'Shae', 'Shi', 'Shia', 'Va', 'Valo', 'Valy', 'Vari', 'Ve', 'Vela'];
   const namesFemale2 = ['hari', 'hra', 'hris', 'la', 'lanna', 'll', 'lle', 'lora', 'lva', 'lwyn', 'lya', 'maya', 'na', 'naya', 'ne', 'ni', 'nna', 'nne', 'nni', 'nowen', 'nril', 'nyla', 'ra', 'rana', 'ranni', 'ren', 'ri', 'riel', 'ril', 'rill', 'ris', 'rrill', 'sa', 'siara', 'ssa', 'thari', 'thra', 'triel', 'va', 'vera', 'vra', 'wen', 'wyn', 'ya'];

@@ -1,4 +1,10 @@
 export default function fallens() {
+  let rnd2; let rnd3; let rnd4; let rnd5; let
+    rnd6;
+
+
+  let names;
+
   const nm1 = ['b', 'br', 'd', 'dr', 'f', 'fr', 'g', 'gr', 'k', 'kr', 'n', 'p', 'ph', 'pr', 'r', 's', 'sk', 't', 'tr', 'v', 'vr', 'w', 'y', 'z'];
   const nm2 = ['a', 'e', 'i', 'o', 'y'];
   const nm3 = ['g', 'gr', 'k', 'kl', 'kn', 'kr', 'ks', 'l', 'ld', 'lkr', 'ltr', 'lv', 'lz', 'p', 'r', 'rk', 'rl', 'rrh', 'sg', 'sgr', 'sk', 'skr', 'str', 'thr', 'tk', 'tr', 'v', 'vg', 'vk', 'vr'];

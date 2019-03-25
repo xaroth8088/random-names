@@ -49,7 +49,7 @@ export default function humanoids() {
   const nm53 = ['6', '8', '10', '12'];
   const nm54 = ['long', 'muscular', 'broad', 'short', 'small', 'wide', 'lean', 'thin', 'skinny', 'crooked'];
   const nm55 = ['feet', 'hooves', 'feet', 'paws'];
-  const nm56 = ['large', 'broad', 'small', 'short', 'wide', 'big', 'hairy', 'flat', 'webbed', 'enormous', 'massive', 'bony', 'scaly', 'spiky'];
+
   const nm57 = ['short fur', 'coarse skin', 'smooth skin', 'soft skin', 'delicate skin', 'coarse fur', 'thick fur', 'coarse skin', 'smooth skin', 'soft skin', 'delicate skin', 'small scales', 'thick skin', 'thick scales', 'slime', 'slimy scales', 'large scales', 'rock-like scales', 'fluffy fur', 'nasty skin', 'wood-like skin', 'small feathers', 'large feathers', 'feathers', 'oily skin', 'armor-like scales', 'large armor-like scales'];
   const nm59 = ['', '', '', '', '', '', '', '', '', '', '', '', ', from which a long tail sways back and forth', ', from which a short tail sways back and forth', ', from which a broad tail sways back and forth', ', from which a thin tail sways back and forth', ', from which a small tail sways back and forth', ', from which a large tail sways back and forth', ', from which a narrow tail sways back and forth', ', from which a massive tail sways back and forth', ', from which a bony tail sways back and forth', ', from which a spiked tail sways back and forth', ', from which a tentacle-like tail grows', ', from which a coarse tail sways back and forth', ', from which a split tail sways back and forth', ', from which a forked tail sways back and forth', ', from which a bladed tail sways back and forth', ', from which a fanned tail sways back and forth'];
 

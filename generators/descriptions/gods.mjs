@@ -1,4 +1,12 @@
 export default function gods() {
+
+  let rnd11;
+
+
+
+
+
+
   const type = Math.random() > 0.5 ? 0 : 1;
   let nm1 = ['B', 'C', 'D', 'F', 'G', 'H', 'J', 'K', 'L', 'M', 'N', 'P', 'Q', 'R', 'S', 'T', 'V', 'W', 'X', 'Z'];
   const nm2 = ['a', 'e', 'u', 'i', 'o', 'y'];

@@ -1,4 +1,10 @@
 export default function ogres() {
+  let rnd2; let rnd3; let rnd4; let
+    rnd5;
+
+
+  let names;
+
   const nm1 = ['B', 'Bl', 'Br', 'D', 'Dr', 'G', 'Gl', 'Gr', 'K', 'Kl', 'Kr', 'M', 'N', 'T', 'Tr', 'V', 'Vr', 'W', 'X', 'Y', 'Z', '', '', '', ''];
   const nm2 = ['e', 'i', 'u', 'o', 'a'];
   const nm3 = ['b', 'd', 'g', 'k', 'l', 'm', 'n', 'r', 's', 't', 'w', 'x', 'z', '', '', '', '', '', '', '', '', ''];

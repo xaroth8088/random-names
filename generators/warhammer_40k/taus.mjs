@@ -1,4 +1,10 @@
 export default function taus() {
+  let rnd2; let rnd3; let
+    rnd4;
+
+
+  let names;
+
   const names1 = ['Aun\'El', 'Aun\'La', 'Aun\'O', 'Aun\'Ui', 'Aun\'Vre', 'Fio\'El', 'Fio\'La', 'Fio\'O', 'Fio\'Ui', 'Fio\'Vre', 'Kor\'El', 'Kor\'La', 'Kor\'O', 'Kor\'Ui', 'Kor\'Vre', 'Por\'El', 'Por\'La', 'Por\'O', 'Por\'Ui', 'Por\'Vre', 'Shas\'El', 'Shas\'La', 'Shas\'O', 'Shas\'Saal', 'Shas\'Ui', 'Shas\'Vre'];
   const names2 = ['Au\'taal', 'Bor\'kan', 'Bork\'an', 'D\'yanoi', 'Dal\'yth', 'Elsy\'eir', 'Es\'Tau', 'Fal\'shia', 'Fi\'rios', 'Ho\'sarn', 'Ka\'mais', 'Ke\'lshan', 'Ksi\'m\'yen', 'Me\'lek', 'Mu\'gulath', 'N\'dras', 'Pech', 'Sa\'cea', 'Sha\'draig', 'T\'au', 'T\'olku', 'T\'ros', 'Tash\'var', 'Tau\'n', 'Vash\'ya', 'Velk\'Han', 'Vespid', 'Vior\'la'];
   const names3 = ['Al', 'Ar', 'Ash', 'Bant', 'Bra', 'Bun', 'Dia', 'Dor', 'Dra', 'Fio', 'Fir', 'Fral', 'Gir', 'Gra', 'Gras', 'Har', 'Hia', 'Hova', 'Inio', 'Ir', 'Irah', 'Jax', 'Jila', 'Jol', 'Kes', 'Ko', 'Krin', 'Man', 'Mira', 'Mon', 'Nar', 'Nase', 'Nori', 'Ora', 'Orna', 'Oxa', 'Pax', 'Pira', 'Prin', 'Resh', 'Ria', 'Ril', 'Shase', 'Shi', 'Sio', 'Tor', 'Tsu', 'Tsua', 'Var', 'Vra', 'Vura', 'Wran', 'Wua', 'Wura', 'Xira', 'Xo', 'Xral'];

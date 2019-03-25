@@ -1,4 +1,10 @@
 export default function homestucks() {
+  let rnd2; let rnd3; let rnd4; let rnd5; let
+    rnd6;
+
+
+  let names;
+
   const nm0 = ['c', 'd', 'f', 'g', 'h', 'k', 'l', 'm', 'n', 'r', 'p', 's', 't', 'v', 'x', 'z'];
   const nm1 = ['cr', 'dr', 'fr', 'gr', 'gh', 'kh', 'kr', 'rh', 'ph', 'pr', 'sk', 'st', 'tr', 'vr', 'xh', 'zh'];
   const nm2 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'aa', 'ai', 'ea', 'ee', 'eu', 'ei', 'ia', 'ie', 'io'];

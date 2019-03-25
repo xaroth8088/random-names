@@ -1,4 +1,9 @@
 export default function succubus() {
+  let rnd2;
+
+
+  let names;
+
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['Aer', 'Arlen', 'Azer', 'Boren', 'Brax', 'Bren', 'Caran', 'Char', 'Col', 'Cryn', 'Dhar', 'Drac', 'Dyn', 'Eor', 'Eran', 'Ezrin', 'Faren', 'Fhar', 'Forn', 'Fyz', 'Garan', 'Gnar', 'Grul', 'Har', 'Hurin', 'Hyir', 'Iar', 'Igar', 'Inor', 'Jar', 'Jhor', 'Joran', 'Kran', 'Kuron', 'Kyl', 'Lanar', 'Lar', 'Lohr', 'Mahr', 'Maran', 'Maz', 'Nahar', 'Naj', 'Nyr', 'Ohir', 'Ohm', 'Oran', 'Pam', 'Phir', 'Prax', 'Qahr', 'Qrin', 'Qur', 'Rhar', 'Rizar', 'Ryz', 'Sal', 'Sur', 'Suran', 'Syl', 'Thal', 'Tor', 'Traz', 'Unor', 'Ur', 'Uran', 'Vohr', 'Vox', 'Vyl', 'Wahr', 'Wes', 'Wrax', 'Xahr', 'Xal', 'Xin', 'Yhr', 'Ylan', 'Ynar', 'Zael', 'Zahr', 'Zaran', 'Zohn'];
   const nm2 = ['aer', 'ahr', 'an', 'anin', 'arax', 'aris', 'ath', 'axis', 'ear', 'ed', 'el', 'elon', 'enar', 'er', 'errith', 'eth', 'ex', 'ez', 'ied', 'igar', 'ihr', 'ilan', 'irad', 'ith', 'ix', 'ixan', 'ixar', 'lagar', 'lahin', 'lan', 'larin', 'lax', 'lead', 'liar', 'lynx', 'lyx', 'nar', 'narax', 'near', 'neth', 'nex', 'nihr', 'nil', 'niran', 'nyx', 'olan', 'on', 'orad', 'oriad', 'orin', 'oth', 'ovan', 'ox', 'rad', 'rahn', 'rel', 'renar', 'riad', 'ryd', 'rydar', 'ryn', 'sahr', 'san', 'syn', 'syx', 'tar', 'taran', 'tihr', 'tiran', 'trax', 'tyz', 'vahr', 'vile', 'viraz', 'vix', 'vyce', 'vyn', 'yd', 'yhad', 'ylan', 'ynad', 'ynir', 'yth', 'yx', 'yxir'];

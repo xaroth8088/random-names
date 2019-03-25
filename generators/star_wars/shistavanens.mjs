@@ -1,4 +1,12 @@
 export default function shistavanens() {
+  let rnd2; let rnd3; let rnd4; let rnd5; let rnd7; let rnd8; let
+    rnd9;
+  let rnd10; let
+    rnd11;
+
+
+  let names;
+
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['b', 'bl', 'c', 'd', 'g', 'h', 'k', 'l', 'm', 'n', 'phl', 'r', 's', 't', 'v', 'y'];
   const nm2 = ['a', 'e', 'i', 'o', 'u', 'u', 'o', 'a', 'a', 'e', 'i', 'o', 'u', 'u', 'o', 'a', 'oo', 'aa', 'uu'];

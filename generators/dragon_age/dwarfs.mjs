@@ -1,4 +1,10 @@
 export default function dwarfs() {
+  let rnd0; let rnd1; let rnd2; let
+    rnd3;
+
+
+  let names;
+
   const type = Math.random() > 0.5 ? 0 : 1;
   const namesFemale = ['A', 'Ba', 'Bra', 'Co', 'Da', 'Fa', 'Fari', 'Fe', 'Feri', 'Fi', 'Ha', 'Hana', 'He', 'Ja', 'Je', 'Ka', 'Kala', 'Ke', 'Kela', 'Le', 'Li', 'Ma', 'Me', 'Mi', 'Mya', 'Na', 'Nara', 'Nera', 'Ole', 'Oli', 'Re', 'Ri', 'Se', 'Si', 'Ta', 'Te', 'Za', 'Ze'];
   const namesFemale2 = ['ca', 'cha', 'da', 'dal', 'den', 'dy', 'gna', 'grun', 'ha', 'han', 'ja', 'ka', 'la', 'lah', 'li', 'linda', 'linden', 'lsi', 'na', 'nda', 'nden', 'nka', 'nna', 'pith', 'ra', 'rav', 'rdy', 'rev', 'rinda', 'rinden', 'rra', 'rta', 'run', 'rvia', 'ryn', 'rynn', 'scha', 'shan', 'si', 'ta', 'tha', 'tyth', 'via', 'zda'];

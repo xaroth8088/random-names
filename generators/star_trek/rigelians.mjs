@@ -1,4 +1,10 @@
 export default function rigelians() {
+  let rnd2; let rnd3; let rnd4; let rnd5; let rnd6; let
+    rnd7;
+
+
+  let names;
+
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['B', 'C', 'Ch', 'D', 'G', 'Gr', 'K', 'Kr', 'M', 'Pr', 'R', 'Sr', 'Sch', 'T', 'V', 'Vr', 'W', 'Z'];
   const nm2 = ['a', 'ae', 'ei', 'i', 'o', 'ou', 'u', 'a', 'u', 'a', 'u', 'o', 'ii', 'ea', 'oo', 'aa', 'a', 'u'];

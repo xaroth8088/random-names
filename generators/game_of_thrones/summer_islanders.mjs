@@ -1,4 +1,12 @@
 export default function summer_islanders() {
+  let rnd2; let rnd3; let rnd4; let rnd5; let rnd6; let rnd7; let rnd8; let
+    rnd9;
+  let rnd10; let
+    rnd11;
+
+
+  let names;
+
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['B', 'Bh', 'D', 'J', 'M', 'S', 'T', 'X', 'Xh', 'Z', 'Zh'];
   const nm2 = ['a', 'o', 'a'];

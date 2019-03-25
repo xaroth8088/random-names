@@ -1,4 +1,9 @@
 export default function brazilians() {
+  let rnd2;
+
+
+  let names;
+
   const type = Math.random() < 0.5 ? 0 : 1;
 
   const namesFemale = ['Elizabete', 'Janice', 'Marcia', 'Ângela', 'Érica', 'Adelaide', 'Adriana', 'Ágata', 'Alícia', 'Alana', 'Alessandra', 'Alice', 'Aline', 'Amanda', 'Ana', 'Andréia', 'Andressa', 'Angélica', 'Anita', 'Bárbara', 'Beatriz', 'Berenice', 'Betina', 'Bianca', 'Bruna', 'Cíntia', 'Camila', 'Carina', 'Carla', 'Carolina', 'Caroline', 'Catarina', 'Cecília', 'Cláudia', 'Clara', 'Clarissa', 'Cristiane', 'Cristina', 'Débora', 'Daiana', 'Daniela', 'Denise', 'Diana', 'Eduarda', 'Elaine', 'Eliana', 'Elisa', 'Eloá', 'Emília', 'Estefânia', 'Ester', 'Evelyn', 'Fabíola', 'Fabiane', 'Fernanda', 'Flávia', 'Francine', 'Gabriela', 'Giovana', 'Gisele', 'Helena', 'Heloísa', 'Heloisa', 'Iara', 'Inês', 'Isabel', 'Isabela', 'Isadora', 'Ivone', 'Izabel', 'Isadora', 'Jéssica', 'Júlia', 'Janaína', 'Jaqueline', 'Joana', 'Julia', 'Juliana', 'Camila', 'Lívia', 'Lúcia', 'Laís', 'Larissa', 'Laura', 'Lavínia', 'Leila', 'Letícia', 'Liana', 'Lorena', 'Luíza', 'Luana', 'Luciana', 'Luiza', 'Mônica', 'Maiara', 'Maitê', 'Manoela', 'Manuela', 'Marília', 'Marcela', 'Maria', 'Mariana', 'Mariane', 'Marina', 'Marisa', 'Marta', 'Melissa', 'Michele', 'Milena', 'Mirela', 'Miriam', 'Nívea', 'Natália', 'Nicole', 'Nina', 'Olívia', 'Paloma', 'Patrícia', 'Paula', 'Priscila', 'Rafaela', 'Raquel', 'Rebeca', 'Regina', 'Renata', 'Rita', 'Roberta', 'Rosa', 'Rosana', 'Sílvia', 'Sônia', 'Sabrina', 'Samanta', 'Sandra', 'Sara', 'Silvana', 'Sofia', 'Soraia', 'Estela', 'Suzana', 'Taís', 'Talita', 'Tatiana', 'Teresa', 'Tereza', 'Vânia', 'Valéria', 'Valentina', 'Vanessa', 'Verônica', 'Vera', 'Virgínia', 'Vitória', 'Vivian', 'Yasmin'];

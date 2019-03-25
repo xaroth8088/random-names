@@ -1,4 +1,10 @@
 export default function demons() {
+  let rnd2; let rnd3; let rnd4; let rnd5; let rnd6; let
+    rnd7;
+
+
+  let names;
+
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['', '', '', '', '', 'b', 'bl', 'br', 'c', 'cr', 'ch', 'd', 'dr', 'g', 'gr', 'gh', 'h', 'j', 'k', 'kh', 'kr', 'l', 'm', 'n', 'p', 'pr', 'r', 's', 'sl', 'str', 'sthr', 'sth', 'sr', 't', 'th', 'tr', 'thr', 'v', 'vr', 'wr', 'x', 'y', 'z'];
   const nm2 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'io', 'oi', 'aa', 'iu', 'ia', 'ou', 'ea', 'uu', 'au', 'ao'];

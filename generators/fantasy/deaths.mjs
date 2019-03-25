@@ -1,4 +1,10 @@
 export default function deaths() {
+  let rnd2; let rnd3; let rnd4; let rnd5; let rnd6; let rnd7; let rnd8; let
+    rnd9;
+
+
+  let names;
+
   const nm1 = ['', '', '', '', '', '', 'b', 'bh', 'br', 'c', 'ch', 'ct', 'cth', 'd', 'dr', 'dh', 'dy', 'dz', 'f', 'fr', 'g', 'gh', 'gn', 'h', 'hw', 'k', 'kh', 'kn', 'kr', 'l', 'm', 'm', 'mn', 'mh', 'm', 'n', 'ng', 'p', 'ph', 'pr', 'q', 'qh', 's', 'sh', 'st', 'sr', 't', 'th', 'v', 'vr', 'vh', 'w', 'wr', 'x', 'y'];
   const nm2 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'ae', 'ae', 'ai', 'aa', 'eo', 'ea', 'ei', 'io', 'iu', 'ia', 'oo', 'ou', 'uu', 'ua', 'ue'];
   const nm3 = ['', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', 'ch', 'g', 'l', 'm', 'n', 'p', 'q', 'r', 's', 'z'];

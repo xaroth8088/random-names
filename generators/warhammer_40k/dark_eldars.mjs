@@ -1,4 +1,9 @@
 export default function dark_eldars() {
+  let rnd2;
+
+
+  let names;
+
   const type = Math.random() > 0.5 ? 0 : 1;
   const names1 = ['Aes', 'Ar\'o', 'Ar\'ug', 'Arh', 'Arma', 'Arqa', 'Arzo', 'Arzur', 'Asdru', 'Bahr', 'Bahru', 'Baze', 'Bazha', 'Bernu', 'Bhu', 'Bra', 'Braes', 'Bura', 'Caen', 'Char', 'Cra\'oza', 'Crahl', 'Daza', 'Dra', 'Draz', 'Duhr', 'El\'ur', 'Erza', 'Ez', 'Ezar', 'Fahar', 'Fahr', 'Fhars', 'Frae', 'Fure', 'Ga\'on', 'Gahu', 'Gara', 'Gra', 'Griza', 'Gura', 'Id\'ar', 'Iru', 'Iys', 'Izen', 'Izra', 'Kae', 'Kahar', 'Kahr', 'Khan', 'Kyra', 'Laerh', 'Lahza', 'Laku', 'Laza', 'Le\'u', 'Maru', 'Masra', 'Mazro', 'Meza', 'Mo\'u', 'Much', 'Muri', 'Or\'i', 'Ori', 'Orqa', 'Oura', 'Ozu', 'Taga', 'Tah', 'Teza', 'Trazh', 'Yl\'a', 'Yra', 'Yzu'];
   const names2 = ['baehr', 'bran', 'braq', 'bros', 'bryn', 'dazar', 'dhar', 'diaq', 'dovur', 'dros', 'durin', 'gahn', 'gard', 'gran', 'grath', 'hiron', 'his', 'hyque', 'kei', 'kos', 'kras', 'kyth', 'mahr', 'maq', 'mar', 'mass', 'mien', 'moque', 'mor', 'naer', 'nahr', 'nazar', 'neque', 'nyr', 'qar', 'qir', 'ra', 'rad', 'raes', 'ras', 'rath', 'raz', 'riaq', 'rihz', 'rior', 'rizar', 'ruin', 'ryq', 'sar', 'sarith', 'saros', 'sath', 'shar', 'sque', 'stra', 'syr', 'tahr', 'taz', 'teque', 'thara', 'tharn', 'tiron', 'tyhr', 'tzar', 'vall', 'van', 'vhar', 'vor', 'vyn', 'zaen', 'zaq', 'zhan', 'zhar', 'zon', 'zyth'];

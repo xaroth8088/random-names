@@ -1,4 +1,10 @@
 export default function zabraks() {
+  let rnd2; let rnd3; let rnd4; let
+    rnd5;
+
+
+  let names;
+
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['A', 'O', 'E', 'U', 'B', 'Br', 'Bl', 'D', 'Dr', 'G', 'Gr', 'H', 'K', 'Kr', 'Kl', 'M', 'N', 'P', 'Q', 'R', 'S', 'St', 'T', 'V', 'Vr', 'X'];
   const nm2 = ['a', 'o', 'u', 'e'];

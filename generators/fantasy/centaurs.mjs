@@ -1,4 +1,10 @@
 export default function centaurs() {
+  let rnd2; let rnd3; let rnd4; let
+    rnd5;
+
+
+  let names;
+
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['A', 'Ar', 'Al', 'B', 'Br', 'Bl', 'C', 'Cr', 'Cl', 'D', 'Dl', 'Dr', 'E', 'Er', 'El', 'F', 'Fl', 'G', 'Gl', 'Gr', 'H', 'I', 'Il', 'J', 'K', 'Kl', 'Kr', 'L', 'M', 'N', 'O', 'Or', 'Ol', 'P', 'Pl', 'Ph', 'Pr', 'R', 'S', 'Sl', 'Str', 'T', 'Tr', 'U', 'Ur', 'Ul', 'V', 'Vr', 'W', 'Wr', 'X', 'Z'];
   const nm2 = ['a', 'e', 'i', 'o', 'u', 'y'];

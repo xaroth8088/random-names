@@ -1,4 +1,10 @@
 export default function laboratorys() {
+  let rnd2; let
+    rnd4;
+
+
+  let names;
+
   const nm1 = ['Lab', 'Laboratory', 'Testing Bureau', 'Research Center', 'Test Center', 'Research Lab', 'Testing Grounds', 'Defense Lab'];
   const nm2 = ['Abused', 'Abusing', 'Adjusted', 'Advanced', 'Advancing', 'Altered', 'Altering', 'Ambiguous', 'Analysing', 'Augmentating', 'Augmented', 'Changing', 'Classified', 'Customized', 'Declined', 'Declining', 'Defined', 'Detecting', 'Deteriorated', 'Deteriorating', 'Developed', 'Developing', 'Diagnosing', 'Diminished', 'Diminishing', 'Discovered', 'Discovering', 'Documented', 'Dynamic', 'Enhanced', 'Enhancing', 'Enriched', 'Enriching', 'Enterprising', 'Established', 'Evolution', 'Evolved', 'Exploring', 'Exposed', 'Exposing', 'Harmful', 'Hidden', 'Improved', 'Improving', 'Intervened', 'Intervening', 'Introduced', 'Introducing', 'Modern', 'Modified', 'Mutating', 'Obscure', 'Organized', 'Progressed', 'Progressing', 'Progressive', 'Public', 'Rare', 'Recovered', 'Recovering', 'Rectified', 'Rectifying', 'Reformed', 'Reforming', 'Regenerating', 'Reinforced', 'Reinforcing', 'Revised', 'Revolutionary', 'Sheltered', 'Stagnated', 'Stagnating', 'Standardized', 'Tabulated', 'Transformed', 'Transforming', 'Unknown', 'Unrevealed', 'Verified'];
   const nm3 = ['Adjustment', 'Advancement', 'Altercation', 'Analysis', 'Augmentation', 'Classification', 'Customization', 'Declinement', 'Definement', 'Detection', 'Deterioration', 'Development', 'Diagnosis', 'Diminishment', 'Discovery', 'Documentation', 'Enhancement', 'Enrichment', 'Establishment', 'Exploration', 'Exposion', 'Harming', 'Improvement', 'Intervention', 'Introduction', 'Modernization', 'Modification', 'Mutation', 'Organizing', 'Progression', 'Publication', 'Recovery', 'Rectification', 'Reformation', 'Regeneration', 'Reinforcement', 'Revision', 'Standardization', 'Tabulation', 'Transformation', 'Revelation', 'Verification'];

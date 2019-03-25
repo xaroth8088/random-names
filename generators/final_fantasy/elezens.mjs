@@ -1,4 +1,12 @@
 export default function elezens() {
+  let rnd2; let rnd3; let rnd4; let rnd5; let rnd6; let rnd7; let rnd8; let
+    rnd9;
+  let rnd10; let
+    rnd11;
+
+
+  let names;
+
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['A', 'E', 'I', 'O', 'U', 'Au', 'Eau', 'A', 'E', 'I', 'O'];
   const nm2 = ['b', 'd', 'f', 'j', 'l', 'm', 'n', 'p', 'r', 's', 't', 'v', 'z', 'br', 'dr', 'fr', 'gr', 'str', 'tr', 'vr', 'rr', 'fl', 'gl', 'll', 'pl', 'rl', 'ch', 'ph', 'sh', 'lb', 'ld', 'lf', 'lm', 'ln', 'lp', 'ls', 'lv', 'lw'];

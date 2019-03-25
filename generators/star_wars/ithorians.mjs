@@ -1,4 +1,12 @@
 export default function ithorians() {
+  let rnd2; let rnd3; let rnd4; let rnd5; let rnd6; let rnd7; let rnd8; let
+    rnd9;
+  let rnd10; let rnd11; let rnd12; let
+    rnd13;
+
+
+  let names;
+
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['', '', '', '', '', 'b', 'br', 'ch', 'cl', 'd', 'dr', 'f', 'g', 'gr', 'h', 'j', 'jh', 'jw', 'k', 'kr', 'l', 'm', 'n', 'p', 'ph', 'pl', 'pw', 'q', 'r', 's', 'sn', 'spr', 'st', 't', 'th', 'tr', 'v', 'vl', 'w', 'wh', 'y', 'z'];
   const nm2 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'aa', 'oo', 'ea', 'ua', 'eo', 'ou', 'ee', 'ao', 'ii', 'aa', 'ui', 'au', 'uu', 'ie'];

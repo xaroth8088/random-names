@@ -1,4 +1,11 @@
 export default function trills() {
+  let rnd2; let rnd3; let rnd4; let rnd5; let rnd6; let rnd7; let rnd8; let
+    rnd9;
+  let rnd10;
+
+
+  let names;
+
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['', 'b', 'c', 'd', 'g', 'gr', 'h', 'j', 'k', 'm', 'n', 'r', 's', 't', 'v', 'vr', 'y'];
   const nm2 = ['ia', 'aa', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u'];

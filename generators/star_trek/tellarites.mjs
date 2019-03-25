@@ -1,4 +1,11 @@
 export default function tellarites() {
+  let rnd2; let rnd3; let rnd4; let rnd5; let rnd6; let rnd7; let rnd8; let
+    rnd9;
+  let rnd10;
+
+
+  let names;
+
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['B', 'Br', 'Ch', 'C', 'Cr', 'D', 'Dv', 'Fr', 'F', 'G', 'Gl', 'Gr', 'H', 'J', 'K', 'Kh', 'L', 'M', 'N', 'Pr', 'R', 'Sh', 'Sk', 'T', 'Th', 'Tr', 'V', 'W', 'X', 'Z', 'Zh'];
   const nm2 = ['aa', 'ao', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'o'];

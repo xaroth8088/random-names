@@ -1,4 +1,11 @@
 export default function grans() {
+  let rnd2; let rnd3; let rnd4; let rnd5; let rnd6; let rnd7; let rnd8; let
+    rnd9;
+  let rnd11;
+
+
+  let names;
+
   const nm1 = ['', '', '', '', '', 'b', 'br', 'c', 'dr', 'f', 'g', 'gr', 'h', 'j', 'k', 'kh', 'kl', 'kr', 'l', 'm', 'n', 'p', 'ph', 'r', 'rh', 's', 'sh', 'shm', 't', 'th', 'tw', 'v', 'y', 'z', 'zh'];
   const nm2 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'ee', 'aa', 'oe', 'ie', 'ia', 'ea'];
   const nm3 = ['b', 'c', 'd', 'f', 'g', 'gg', 'gh', 'k', 'kg', 'kk', 'ks', 'l', 'll', 'lv', 'm', 'mm', 'n', 'nch', 'nl', 'nn', 'ns', 'p', 'ph', 'r', 'rb', 'rg', 'rh', 'rl', 'rr', 'rv', 's', 'sk', 'ss', 't', 'th', 'tt', 'w', 'wh', 'y', 'yc'];

@@ -1,4 +1,12 @@
 export default function mgalekgolos() {
+  let rnd2; let rnd3; let rnd4; let rnd5; let rnd6; let rnd7; let rnd8; let
+    rnd9;
+  let rnd10; let rnd11; let rnd12; let rnd13; let
+    rnd14;
+
+
+  let names;
+
   const nm1 = ['b', 'd', 'f', 'g', 'h', 'k', 'l', 'm', 'n', 'p', 'r', 's', 't', 'w', 'x', 'y', '', '', '', '', '', '', '', '', ''];
   const nm2 = ['a', 'e', 'u', 'i', 'o'];
   const nm3 = ['b', 'd', 'f', 'g', 'h', 'k', 'l', 'm', 'n', 'p', 'r', 's', 't', 'w', 'x', 'y'];

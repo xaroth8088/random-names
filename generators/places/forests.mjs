@@ -1,4 +1,10 @@
 export default function forests() {
+  let rnd2; let rnd3; let rnd4; let
+    rnd5;
+
+
+  let names;
+
   const nm1 = ['White', 'Black', 'Brown', 'Gray', 'Majestic', 'Pygmy', 'Little', 'Giant', 'Northern', 'Southern', 'Eastern', 'Western', 'Greater', 'Lesser', 'Masked', 'Grass', 'Water', 'Common', 'Mountain', 'Prairie', 'Grassland', 'Taiga', 'Tundra', 'Savanna', 'Alpine', 'Collared', 'Grand', 'Pacific', 'Oriental', 'Spotted', 'Speckled', 'Striped', 'Dotted', 'Rusty', 'Maned', 'Cloud', 'Long-tailed', 'Short-tailed', 'Crowned', 'Golden', 'Imperial', 'Royal', 'Noble', 'Laughing', 'Lined', 'Banded', 'Snow', 'Ivory', 'Ebony', 'Wild', 'Reagal'];
   const nm2 = ['Panda', 'Gerbil', 'Hare', 'Hedgehog', 'Jackal', 'Warthog', 'Coyote', 'Cat', 'Badger', 'Hyena', 'Jaguar', 'Gorilla', 'Sloth', 'Anteater', 'Ocelot', 'Lion', 'Porcupine', 'Beaver', 'Otter', 'Ant', 'Bandicoot', 'Crocodile', 'Alligator', 'Treefrog', 'Wolverine', 'Goat', 'Spider', 'Mouse', 'Snail', 'Crab', 'Deer', 'Fox', 'Lizard', 'Toad', 'Mole', 'Turtle', 'Frog', 'Squirrel', 'Tortoise', 'Gazelle', 'Panther', 'Bear', 'Rat', 'Lynx', 'Okapi', 'Leopard', 'Tiger', 'Wolf', 'Rhino', 'Wallaby', 'Yak', 'Pelican', 'Swallow', 'Duck', 'Eagle', 'Hawk', 'Falcon', 'Vulture', 'Sunbird', 'Macaw', 'Woodpecker', 'Kingfisher', 'Hummingbird', 'Pygmy Owl', 'Sandpiper', 'Mockingbird'];
   const nm3 = ['Forest', 'Grove', 'Woods', 'Covert', 'Woodland', 'Thicket', 'Forest', 'Grove', 'Woods', 'Covert', 'Woodland', 'Wilds', 'Wood', 'Wood', 'Timberland', 'Timberland'];

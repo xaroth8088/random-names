@@ -1,4 +1,10 @@
 export default function dwarfs() {
+  let rnd2; let rnd3; let rnd4; let
+    rnd5;
+
+
+  let names;
+
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['A', 'Ara', 'Alfo', 'Bari', 'Be', 'Bo', 'Bha', 'Bu', 'Ba', 'Bra', 'Bro', 'Brou', 'Bru', 'Da', 'Dalo', 'Dare', 'De', 'Dhu', 'Dho', 'Do', 'Dora', 'Dwo', 'Dou', 'Duri', 'Du', 'El', 'Eri', 'Fi', 'Fo', 'Fo', 'Ga', 'Gi', 'Gla', 'Glori', 'Go', 'Gra', 'Gro', 'Groo', 'Gru', 'Grou', 'Ha', 'Ha', 'He', 'He', 'Ho', 'Hou', 'Hu', 'Ja', 'Jo', 'Ka', 'Khe', 'Khu', 'Khou', 'Ko', 'Ku', 'Ki', 'Kra', 'Kro', 'Lo', 'Lu', 'Lo', 'Ma', 'Mo', 'Mu', 'Na', 'No', 'Nu', 'Nora', 'Nura', 'Ne', 'No', 'O', 'Ori', 'Rei', 'Ra', 'Ru', 'Sa', 'Si', 'Sna', 'Sko', 'Ska', 'Stro', 'The', 'Thi', 'Tho', 'Thra', 'Tha', 'Tore', 'Tha', 'Thra', 'Thro', 'Thu', 'Tu', 'U', 'Umi', 'Va', 'Vo', 'Whu', 'We', 'Wera', 'Yu', 'Yo', 'Ya'];
   const nm2 = ['b', 'br', 'dd', 'd', 'dr', 'dm', 'dgr', 'f', 'fr', 'gr', 'gg', 'gh', 'gn', 'k', 'kh', 'kgr', 'kdr', 'kk', 'kh', 'kr', 'l', 'lg', 'lgr', 'ldr', 'lm', 'md', 'mn', 'm', 'mm', 'mr', 'n', 'nd', 'ndr', 'ngr', 'nm', 'r', 'rr', 'rgr', 'rdr', 'rb', 'rg', 'rn', 'rh', 'rd', 'rm', 'rs', 'rf', 's', 'ss', 'sdr', 'sgr', 'st', 'str', 't', 'tr', 'tm', 'th', 'tdr', 'tgr', 'v', 'vr', 'z', 'zm', 'zn', 'zz'];

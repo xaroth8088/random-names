@@ -1,4 +1,10 @@
 export default function awokens() {
+  let rnd2; let rnd3; let rnd4; let
+    rnd5;
+
+
+  let names;
+
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['', '', '', '', 'c', 'g', 'j', 'k', 'q', 'r', 'v', 'x', 'z'];
   const nm2 = ['a', 'a', 'u', 'u', 'e', 'i', 'a', 'a', 'u', 'u', 'e', 'i', 'a', 'a', 'u', 'u', 'e', 'i', 'oo', 'ou', 'uu', 'aa'];

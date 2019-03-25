@@ -1,4 +1,10 @@
 export default function charrs() {
+  let rnd2; let rnd3; let rnd4; let rnd5; let
+    rnd6;
+
+
+  let names;
+
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['D', 'R', 'T', 'G', 'K', 'Al', 'As', 'V', 'W'];
   const nm2 = ['a', 'o', 'u', 'i', 'a', 'o', 'u', 'e', 'ar', 'or', 'ur', 'ak', 'ok', 'uk', 'ud', 'ad', 'od', 'y', 'yt', '', ''];

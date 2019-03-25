@@ -1,4 +1,9 @@
 export default function high_elfs() {
+  let rnd2;
+
+
+  let names;
+
   const type = Math.random() > 0.5 ? 0 : 1;
   if (type === 1) {
     var names1 = ['Ael', 'Aem', 'Aer', 'Aern', 'Aest', 'Ag', 'Aghn', 'Ail', 'Aiy', 'Alis', 'Am', 'Amay', 'Aoib', 'Awen', 'Brian', 'Brig', 'Cael', 'Caen', 'Cainn', 'Ceall', 'Cear', 'Chey', 'Daer', 'Deir', 'Don', 'Eab', 'Ead', 'Eil', 'Eist', 'Eor', 'Eten', 'Faen', 'Fen', 'Fin', 'Finn', 'Gael', 'Gel', 'Hat', 'Kim', 'Kol', 'Laen', 'Leen', 'Lenm', 'Maed', 'Maen', 'Maer', 'Maev', 'Mag', 'Mair', 'Med', 'Mig', 'Moir', 'Mor', 'Muir', 'Naem', 'Nam', 'Nual', 'On', 'Onid', 'Orl', 'Ros', 'Saen', 'Shan', 'Sib', 'Sor', 'Taer', 'Tak', 'Ter', 'Wak', 'Wik', 'Yok'];

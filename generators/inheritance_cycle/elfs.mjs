@@ -1,4 +1,10 @@
 export default function elfs() {
+  let rnd2; let rnd3; let rnd4; let rnd5; let rnd6; let
+    rnd7;
+
+
+  let names;
+
   const type = Math.random() < 0.5 ? 0 : 1;
 
   const nm1 = ['', '', '', '', 'b', 'bl', 'c', 'cl', 'd', 'f', 'g', 'gl', 'gn', 'h', 'k', 'l', 'm', 'n', 't', 'th', 'v', 'vr', 'w'];

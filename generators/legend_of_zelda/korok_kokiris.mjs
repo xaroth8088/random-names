@@ -1,4 +1,10 @@
 export default function korok_kokiris() {
+  let rnd2; let rnd3; let rnd4; let
+    rnd5;
+
+
+  let names;
+
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['', '', '', '', 'b', 'd', 'br', 'dr', 'gr', 'g', 'h', 'k', 'l', 'm', 'r', 'tr', 't'];
   const nm2 = ['a', 'e', 'i', 'o', 'u'];

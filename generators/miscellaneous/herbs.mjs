@@ -1,4 +1,10 @@
 export default function herbs() {
+  let rnd2; let rnd3; let rnd4; let
+    rnd5;
+
+
+  let names;
+
   const names1 = ['', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', 'b', 'c', 'd', 'f', 'g', 'h', 'j', 'k', 'l', 'm', 'n', 'p', 'q', 'r', 's', 't', 'v', 'w', 'x', 'y', 'z', 'ch', 'sh', 'ph', 'br', 'cr', 'dr', 'gr', 'kr', 'pr', 'str', 'vr', 'wr', '', 'bl', 'cl', 'gl', 'fl', 'kl', 'pl', 'sl'];
   const names2 = ['a', 'e', 'i', 'o', 'u'];
   const names3 = ['sh', 'ch', 'ph', 'cr', 'dr', 'gr', 'str', 'cl', 'gl', 'kl', 'b', 'c', 'd', 'f', 'g', 'h', 'j', 'k', 'l', 'm', 'n', 'p', 'q', 'r', 's', 't', 'v', 'w', 'x', 'y', 'z', 'bb', 'cc', 'dd', 'gg', 'kk', 'll', 'mm', 'nn', 'pp', 'rr', 'ss', 'tt'];

@@ -1,4 +1,10 @@
 export default function daleks() {
+  let rnd2; let
+    rnd3;
+
+
+  let names;
+
   const nm1 = ['C', 'Ch', 'D', 'Dh', 'G', 'Gh', 'K', 'Kh', 'R', 'S', 'Th', 'V'];
   const nm2 = ['a', 'aa', 'e', 'a', 'e', 'a', 'e', 'i', 'o'];
   const nm3 = ['c', 'd', 'k', 'm', 'n', 'r', 's', 'ss', 'st', 't', 'th', 'y'];

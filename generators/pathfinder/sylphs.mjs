@@ -1,4 +1,10 @@
 export default function sylphs() {
+  let rnd2; let rnd3; let rnd4; let rnd5; let rnd6; let
+    rnd7;
+
+
+  let names;
+
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['', '', '', '', '', 'c', 'd', 'f', 'g', 'h', 'j', 'l', 'm', 'n', 's', 'v', 'w', 'z'];
   const nm2 = ['a', 'e', 'i', 'u', 'a', 'e', 'i', 'u', 'a', 'e', 'i', 'u', 'a', 'e', 'i', 'u', 'a', 'e', 'i', 'u', 'aa', 'uu', 'ii'];

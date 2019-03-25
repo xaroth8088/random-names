@@ -3,7 +3,7 @@ export default function school_uniforms() {
   const nm2 = ['Dacron', 'cotton', 'nylon', 'polycotton', 'polyester', 'cotton', 'nylon'];
   const nm3 = ['down to about their calves and thus reveal', 'down to just above', 'down to just under their knees, clearly revealing', 'down to just above their ankles and reveal', 'all the way down and partially cover', 'down to well below their knees and clearly reveal'];
   const nm3s = ['loafers', 'single strap shoes', 'double strap shoes', 'triple strap shoes', 'sporty loafers', 'lace-up shoes', 'slip-in shoes', 'Chelsea boots'];
-  const nm4 = ['both of which are colored', 'each respectively colored'];
+
   const nm5 = ['almond', 'amber', 'apricot', 'aquamarine', 'auburn', 'azure', 'baby blue', 'beige', 'black', 'bronze', 'brown', 'burgundy', 'cardinal', 'cerulean', 'cobalt', 'crimson', 'denim', 'forest green', 'ginger', 'indigo', 'jade', 'jasmine', 'jasper', 'khaki', 'lavender', 'lilac', 'mahogany', 'maroon', 'navy', 'ochre', 'onyx', 'orchid', 'peach', 'rosewood', 'russet', 'scarlet', 'sepia', 'sienna', 'sinopia', 'tangerine', 'tawny', 'teal', 'vanilla', 'vermilion', 'viridian', 'wheat'];
   const nm6 = ['long', 'short', 'regular'];
   const nm7 = ['and a simple belt ', 'and a thick belt ', ' and a regular belt ', '', ''];

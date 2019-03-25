@@ -1,4 +1,14 @@
 export default function raxacoricofallapatorians() {
+  let rnd2; let rnd3; let rnd4; let rnd5; let rnd6; let rnd7; let rnd8; let
+    rnd9;
+  let rnd10; let rnd11; let rnd12; let rnd13; let rnd14; let rnd15; let rnd16; let rnd17; let rnd18; let
+    rnd19;
+  let rnd20; let rnd21; let rnd22; let
+    rnd23;
+
+
+  let names;
+
   const nm1 = ['B', 'Bl', 'Br', 'D', 'Dr', 'Gr', 'G', 'Gl', 'J', 'K', 'Kr', 'L', 'S', 'Sr', 'Sl', 'Tr', 'Tl'];
   const nm2 = ['a', 'e', 'i', 'o', 'u', 'ee', 'oo', 'aa'];
   const nm3 = ['cra', 'ckt', 'ckto', 'f', 'ft', 'll', 'lm', 'ln', 'm', 'n', 'ne', 'p', 'rm', 'rn', 'rs', 'rst', 'st', 's', 'ss', 'sp', 'x', 'xa'];

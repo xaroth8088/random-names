@@ -1,4 +1,11 @@
 export default function iktotchis() {
+  let rnd2; let rnd3; let rnd4; let rnd5; let rnd6; let rnd7; let rnd8; let
+    rnd9;
+  let rnd10;
+
+
+  let names;
+
   const nm1 = ['', '', '', 'c', 'd', 'f', 'h', 'k', 'm', 'n', 'r', 's', 't', 'v', 'w', 'z'];
   const nm2 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'ee', 'ae', 'ie', 'ye', 'yi', 'ei'];
   const nm3 = ['d', 'dh', 'f', 'fl', 'fn', 'l', 'll', 'ld', 'ln', 'lm', 'lr', 'lv', 'm', 'mm', 'md', 'mr', 'mn', 'mk', 'n', 'nn', 'nh', 'nk', 'ng', 'nv', 'nl', 'r', 'rr', 'rn', 'rl', 'rk', 'rd', 's', 'sl', 'sh', 'shk'];

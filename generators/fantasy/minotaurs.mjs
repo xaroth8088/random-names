@@ -1,4 +1,9 @@
 export default function minotaurs() {
+  let rnd2;
+
+
+  let names;
+
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['Ar', 'Are', 'Ba', 'Bra', 'Bri', 'Da', 'Dha', 'Dra', 'Dri', 'Dru', 'Gar', 'Gara', 'Gna', 'Gnar', 'Gno', 'Gnu', 'Gra', 'Gri', 'Gru', 'Gun', 'Hon', 'Hun', 'Ja', 'Jan', 'Jar', 'Kal', 'Kan', 'Kha', 'Khu', 'Kon', 'Kul', 'Man', 'Min', 'Mo', 'Moh', 'Mohr', 'Mon', 'Mu', 'Mun', 'Mur', 'Na', 'Ni', 'No', 'Nohr', 'Nu', 'Nur', 'Par', 'Pra', 'Pru', 'Ra', 'Rahd', 'Ran', 'Rat', 'Ren', 'Ret', 'Ri', 'Ril', 'Ro', 'Ru', 'Rut', 'Sir', 'Su', 'Sur', 'Sy', 'Syn', 'Syr', 'Te', 'Tin', 'Tra', 'Tu', 'Tuhr', 'Tun', 'Tur', 'Ty', 'Tyr', 'Va', 'Vo', 'Vra', 'Vru', 'Vu', 'Vy', 'Vyr', 'Wan', 'War', 'Wra', 'Wri', 'Wru', 'Wry', 'Wu', 'Wun', 'Wur', 'Wy', 'Wyr', 'Xa', 'Xin', 'Xu', 'Xur', 'Xy', 'Za', 'Zam', 'Zan', 'Zu', 'Zun', 'Zy', 'Zyr'];
   const nm2 = ['ban', 'bur', 'barun', 'baruk', 'buk', 'bur', 'bor', 'dor', 'duk', 'drun', 'dius', 'bius', 'bus', 'dus', 'dir', 'drak', 'dax', 'diax', 'frad', 'farak', 'gun', 'grak', 'garan', 'garak', 'gur', 'grin', 'grim', 'gon', 'jur', 'jak', 'jag', 'jius', 'jus', 'kius', 'kus', 'kiras', 'kirus', 'kas', 'kurun', 'kud', 'kod', 'kohr', 'khius', 'khus', 'mius', 'mus', 'meus', 'muk', 'maruk', 'mud', 'miud', 'mun', 'myr', 'myar', 'mier', 'mak', 'neus', 'nus', 'nius', 'nuk', 'nur', 'nuran', 'narak', 'nas', 'nax', 'max', 'nyr', 'nag', 'phas', 'phius', 'pheus', 'phus', 'pius', 'peus', 'prak', 'parak', 'prix', 'rad', 'ruk', 'radak', 'ras', 'rius', 'reus', 'rus', 'rios', 'rath', 'rakar', 'rag', 'ragar', 'rug', 'rahg', 'raz', 'rax', 'ryx', 'rox', 'sius', 'sus', 'seus', 'sus', 'sag', 'sug', 'sur', 'sar', 'tor', 'thur', 'tir', 'trak', 'tagar', 'tarak', 'truk', 'tus', 'tius', 'teus', 'tin', 'tak', 'vak', 'vius', 'veus', 'vis', 'vur', 'vas', 'zius', 'zeus', 'zus', 'zak', 'zur', 'zan', 'zun'];

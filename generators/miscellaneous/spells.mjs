@@ -1,4 +1,12 @@
 export default function spells() {
+  let rnd1, rnd2, rnd3;
+
+
+
+
+
+  let names;
+
   const type = Math.random() > 0.5 ? 0 : 1;
   const names1 = ['Air', 'Ancestor\'s', 'Arcane', 'Arcane-fire', 'Blazing', 'Chaos', 'Death', 'Demonic', 'Dragon', 'Electric', 'Elemental', 'Energy', 'Fiery', 'Fire', 'Flame', 'Frost', 'Frostfire', 'Hellfire', 'Holy', 'Ice', 'Infernal', 'Lava', 'Life', 'Lunar', 'Mage', 'Magma', 'Mind', 'Molten', 'Moon', 'Moonlight', 'Mystic', 'Nether', 'Pyro', 'Shadow', 'Solar', 'Soul', 'Spirit', 'Starfire', 'Static', 'Sunfire', 'Sunlight', 'Thunder', 'Unholy', 'Void', 'Wind'];
   const names2 = ['Arrow', 'Assault', 'Barrage', 'Beam', 'Blast', 'Blaze', 'Blitz', 'Bolt', 'Bomb', 'Burn', 'Burst', 'Charge', 'Eruption', 'Explosion', 'Flare', 'Flash', 'Flux', 'Frenzy', 'Fury', 'Hail', 'Lash', 'Missiles', 'Nova', 'Orb', 'Rage', 'Rain', 'Ray', 'Rocket', 'Rupture', 'Rush', 'Salvo', 'Shower', 'Spike', 'Storm', 'Strike', 'Surge', 'Tempest', 'Torrent', 'Typhoon', 'Volley', 'Wave', 'Whip', 'Wrath'];
@@ -48,6 +56,14 @@ export default function spells() {
 }
 
 export default function spellsHp() {
+
+
+
+
+
+
+  let names;
+
   const i = Math.floor(Math.random() * 10);
   {
     rnd[0] = Math.floor(Math.random() * names8.length);

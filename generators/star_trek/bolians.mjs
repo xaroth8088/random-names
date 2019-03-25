@@ -1,4 +1,10 @@
 export default function bolians() {
+  let rnd2; let rnd3; let
+    rnd4;
+
+
+  let names;
+
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['Ado', 'Ara', 'Ardo', 'Ba', 'Bo', 'Bra', 'Che', 'Co', 'Cra', 'Da', 'Dai', 'Dri', 'Ga', 'Grai', 'Gri', 'Ha', 'Hi', 'Hra', 'La', 'Li', 'Lo', 'Ma', 'Mai', 'Mo', 'Na', 'Ni', 'No', 'Oda', 'Ori', 'Orla', 'Qa', 'Qe', 'Qhi', 'Ra', 'Rai', 'Ri', 'Sa', 'Sho', 'Sra', 'The', 'To', 'Tra', 'Va', 'Vo', 'Vri', 'Xa', 'Xai', 'Xi', 'Ya', 'Yai', 'Ye', 'Za', 'Zai', 'Zi'];
   const nm2 = ['d', 'dar', 'daw', 'ds', 'f', 'fe', 'fel', 'fer', 'g', 'ge', 'gg', 'gon', 'k', 'ken', 'kin', 'kk', 'l', 'lar', 'll', 'ls', 'm', 'man', 'mix', 'ms', 'n', 'nd', 'nn', 'nor', 'q', 'q\'no', 'q\'ra', 'q\'si', 'q\'ta', 'qar', 'r', 'ran', 'rr', 'rs', 's', 'sh', 'sia', 'ss', 't', 'thaw', 'tix', 'tt', 'w', 'wd', 'wer', 'ws', 'x', 'xin', 'xor', 'xx'];

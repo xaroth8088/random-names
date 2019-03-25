@@ -1,4 +1,10 @@
 export default function daedrics() {
+  let rnd2; let rnd3; let rnd4; let
+    rnd5;
+
+
+  let names;
+
   const nm1 = ['b', 'br', 'c', 'cr', 'ch', 'd', 'dr', 'g', 'gr', 'j', 'k', 'kr', 'kn', 'km', 'p', 'pr', 'q', 'qr', 'r', 'st', 'str', 't', 'tr', 'v', 'vr', 'w', 'wr', 'x', 'z', 'zr', '', '', '', '', ''];
   const nm2 = ['a', 'e', 'i', 'o', 'u', 'y', 'au', 'ou', 'ei', 'uy', 'oe', 'ua', 'ue', 'uo', 'a', 'e', 'i', 'o', 'u', 'y'];
   const nm3 = ['b', 'c', 'd', 'g', 'j', 'k', 'l', 'm', 'p', 'q', 'r', 's', 't', 'v', 'w', 'x', 'z', 'br', 'cr', 'dr', 'gr', 'kr', 'km', 'pr', 'qr', 'st', 'tr', 'xx', 'g', 'q\'', 'k\'', 'rr', 'r\'', 't\'', 'tt', 'vv', 'v\'', 'x\'', 'z\'', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', ''];

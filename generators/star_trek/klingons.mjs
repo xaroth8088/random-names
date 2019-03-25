@@ -1,4 +1,12 @@
 export default function klingons() {
+  let rnd2; let rnd3; let rnd4; let rnd5; let rnd6; let rnd7; let rnd8; let
+    rnd9;
+  let rnd10; let rnd11; let rnd12; let
+    rnd13;
+
+
+  let names;
+
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['a', 'o', 'u', 'e'];
   const nm2 = ['b', 'd', 'g', 'h', 'j', 'k', 'l', 'm', 'n', 'p', 'r', 's', 't', 'v', 'w', 'y', 'ts', 'th', 'tr', 'st', 'sh', 'gr', 'ch', 'kr', 'kl', 'dr'];

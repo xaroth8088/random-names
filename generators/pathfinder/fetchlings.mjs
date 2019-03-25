@@ -1,4 +1,10 @@
 export default function fetchlings() {
+  let rnd2; let rnd3; let rnd4; let rnd5; let rnd6; let
+    rnd7;
+
+
+  let names;
+
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['', '', '', 'br', 'dr', 'gr', 'j', 'm', 'n', 'q', 'qr', 'r', 's', 'tr', 'x', 'y', 'z'];
   const nm2 = ['a', 'e', 'i', 'o', 'u'];

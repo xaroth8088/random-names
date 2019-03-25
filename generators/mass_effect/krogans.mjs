@@ -1,4 +1,10 @@
 export default function krogans() {
+  let rnd0; let rnd1; let rnd2; let rnd3; let rnd4; let rnd5; let
+    rnd6;
+
+
+  let names;
+
   const type = Math.random() > 0.5 ? 0 : 1;
   const names1 = ['B', 'Br', 'C', 'Cr', 'Ch', 'D', 'Dr', 'F', 'G', 'Gr', 'H', 'J', 'K', 'Kh', 'Kr', 'M', 'N', 'P', 'Pr', 'Q', 'Qr', 'R', 'S', 'Sr', 'Str', 'T', 'Tr', 'V', 'Vr', 'W', 'Wr', 'Zr'];
   const names2 = ['a', 'e', 'u', 'i', 'o', 'a', 'u'];

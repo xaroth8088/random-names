@@ -1,4 +1,12 @@
 export default function ewoks() {
+  let rnd2; let rnd3; let rnd4; let rnd5; let rnd6; let rnd7; let rnd8; let
+    rnd9;
+  let rnd10; let
+    rnd11;
+
+
+  let names;
+
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['', '', 'b', 'ch', 'c', 'd', 'gr', 'g', 'k', 'kr', 'l', 'm', 'n', 'p', 'r', 't', 'tr', 'w'];
   const nm2 = ['a', 'e', 'i', 'a', 'e', 'i', 'a', 'e', 'i', 'a', 'e', 'i', 'ee', 'oo', 'aa', 'y'];

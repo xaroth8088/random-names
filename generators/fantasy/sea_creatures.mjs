@@ -1,4 +1,10 @@
 export default function sea_creatures() {
+  let rnd2; let rnd3; let rnd4; let
+    rnd5;
+
+
+  let names;
+
   const nm1 = ['B', 'Bl', 'Cr', 'Ch', 'G', 'Gl', 'Gr', 'H', 'J', 'K', 'Kr', 'L', 'M', 'S', 'Sc', 'Tr', 'Z'];
   const nm2 = ['o', 'a', 'a', 'o', 'e', 'i', 'u', 'y'];
   const nm3 = ['bd', 'bs', 'dr', 'gl', 'gn', 'gm', 'gr', 'k', 'kr', 'kl', 'll', 'nd', 'nr', 'ng', 'r', 'rg', 'rk', 'rc', 'sc', 'st', 'sk', 'sh', 'tr', 'th', 'q', 'z'];

@@ -1,4 +1,6 @@
 export default function shapeshifters() {
+  let names;
+
   const type = Math.random() > 0.5 ? 0 : 1;
   if (type === 1) {
     var names1 = ['Angel', 'Fell', 'Anomaly', 'Aspect', 'Aura', 'Autumn', 'Banshee', 'Blend', 'Bubble', 'Cam (Chamelion)', 'Cary (Caricature)', 'Cat (Copycat)', 'Conny (Con Artist)', 'Copy', 'Daydream', 'Design', 'Ditto', 'Dream', 'Dupe', 'Dust', 'Echo', 'Effigy', 'Elle (Element)', 'Em (Emulate)', 'Enigma', 'Entity', 'Etch', 'Eve (Evolve)', 'Evo', 'Fable', 'Feign', 'Flow', 'Flux', 'Form', 'Fuse', 'Ghost', 'Harmony', 'Hazel', 'Iden (Identical)', 'Jen (Generate)', 'Kate (Duplicate)', 'Light', 'Lucy (Illusion/Hallucination)', 'Mai (Mime)', 'Mani (Manifest)', 'Match', 'Melion', 'Mien', 'Mime', 'Mingle', 'Mint', 'Mirage', 'Mirror', 'Mix', 'Nemo', 'Nil', 'Niq (Unique)', 'Nix', 'Oddity', 'Paradox', 'Parallel', 'Parody', 'Parrot', 'Phase', 'Phony', 'Rascal', 'Reflection', 'Repeat', 'Replica', 'Ringer', 'Rogue', 'Sam (Semblance)', 'Same', 'Scribble', 'Shade', 'Shadow', 'Shape', 'Sim (Simulate)', 'Sketch', 'Skin', 'Snow', 'Sue (Assume)', 'Switch', 'Syn (Synthesize)', 'Tailor', 'Tassy (Fantasy)', 'Trace', 'Tracy (Tracing)', 'Trixy', 'Twin', 'Valence (Equivalence)', 'Variel', 'Veil', 'Vista', 'Vu (Déjà Vu)', 'Whisper', 'X (Exchange)', 'Zero', 'Zip', 'Zot'];

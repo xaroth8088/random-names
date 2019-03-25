@@ -1,4 +1,10 @@
 export default function wheel_of_times() {
+  let rnd2; let rnd3; let
+    rnd4;
+
+
+  let names;
+
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['Ad', 'Al', 'Ar', 'Art', 'B', 'Ben', 'Ber', 'Bin', 'C', 'Cal', 'Coul', 'Cul', 'Eam', 'El', 'Er', 'Ert', 'G', 'Gaid', 'Galv', 'Gar', 'J', 'Jan', 'Jand', 'Jul', 'K', 'Kal', 'Ken', 'L', 'Laer', 'Lan', 'Lest', 'Mas', 'Mat', 'Matt', 'Maz', 'Nad', 'Nal', 'Ner', 'Nor', 'Ol', 'Olv', 'Ond', 'Os', 'P', 'Pad', 'Pel', 'Per', 'R', 'Ran', 'Reld', 'Rh', 'S', 'Sal', 'Sar', 'Sil', 'T', 'Th', 'Ther', 'Tor', 'Val', 'Vend', 'Ver', 'Vor', 'Z', 'Zan', 'Zol', 'Zor'];
   const nm2 = ['adin', 'ain', 'al', 'am', 'an', 'and', 'ar', 'as', 'ath', 'aul', 'ean', 'el', 'em', 'ema', 'en', 'eon', 'er', 'erin', 'esean', 'eth', 'ian', 'il', 'im', 'in', 'inan', 'inean', 'inen', 'ion', 'iren', 'is', 'od', 'oial', 'ol', 'om', 'on', 'orin', 'orn', 'oth', 'oul', 'ovin', 'ral', 'ran', 'ren', 'rim', 'ris', 'uan', 'uarc', 'uen', 'uin', 'ulin', 'um', 'un', 'ur', 'us', 'uth', 'yas', 'yel', 'yin', 'yom', 'yor'];

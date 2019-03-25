@@ -1,4 +1,10 @@
 export default function nausicaans() {
+  let rnd2; let rnd3; let rnd4; let
+    rnd5;
+
+
+  let names;
+
   const nm1 = ['', '', 'b', 'ch', 'd', 'dg', 'gh', 'g', 'gr', 'h', 'j', 'k', 'kl', 'lh', 'l', 'm', 'n', 'p', 'r', 's', 'sh', 'st', 't', 'th', 'tl', 'tr', 'v', 'x', 'y', 'z'];
   const nm2 = ['ae', 'ee', 'ei', 'ou', 'uu', 'a', 'e', 'i', 'o', 'u'];
   const nm3 = ['bz', 'ch', 'd', 'g', 'ggr', 'gv', 'h', 'j', 'jh', 'l', 'lth', 'lrsh', 'k', 'kz', 'kkz', 'ktz', 'm', 'mmk', 'n', 'p', 'r', 'rt', 'rg', 'rc', 'sh', 'th', 't', 'tz', 'v', 'y', 'yk', 'z', 'zj', 'zzg', 'd', 'g', 'h', 'j', 'l', 'k', 'm', 'n', 'p', 'r', 't', 'v', 'y', 'z'];

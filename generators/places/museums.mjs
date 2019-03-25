@@ -1,4 +1,10 @@
 export default function museums() {
+  let rnd2; let
+    rnd3;
+
+
+  let names;
+
   const nm2 = ['Centre', 'Centre', 'Center', 'Center', 'Exhibition', 'Gallery', 'Gallery', 'Hall', 'Hall', 'Institute', 'Institution', 'Museum', 'Museum', 'Museum', 'Treasury', 'Vault'];
   const nm3 = ['National', 'International', 'Grand', 'Great', 'Central', 'Royal', '', '', '', '', '', '', '', '', '', '', '', '', '', ''];
 

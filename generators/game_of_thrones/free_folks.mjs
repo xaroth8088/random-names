@@ -1,4 +1,9 @@
 export default function free_folks() {
+  let rnd2;
+
+
+  let names;
+
   const type = Math.random() > 0.5 ? 0 : 1;
   const names1 = ['An', 'Ar', 'As', 'Ber', 'Bir', 'Dal', 'Dis', 'Dor', 'El', 'Fer', 'Fjor', 'Fren', 'Gil', 'Gren', 'Grin', 'Har', 'Her', 'Hil', 'Hol', 'Ig', 'Jen', 'Jor', 'Kar', 'Len', 'Mun', 'Myr', 'Nel', 'Row', 'Svan', 'Val', 'Vel', 'Vig', 'Yg', 'Yn', 'Yr'];
   const names2 = ['da', 'dis', 'ga', 'gin', 'la', 'lie', 'lif', 'lin', 'lina', 'lis', 'ly', 'ma', 'milla', 'na', 'ne', 'nel', 'ness', 'nora', 'ny', 'ra', 'rey', 'rima', 'rin', 'rine', 'rit', 'ritte', 'ry', 'sten', 'thine', 'trud', 'vil', 'vild', 'wen', 'wyn', 'ya'];

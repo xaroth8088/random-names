@@ -1,4 +1,10 @@
 export default function fursonas() {
+  let rnd2; let rnd3; let rnd4; let rnd6; let
+    rnd7;
+
+
+  let names;
+
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['Amber', 'Arctic', 'Ash', 'Atom', 'Autumn', 'Big', 'Dire', 'Black', 'Blaze', 'Blue', 'Bone', 'Boulder', 'Bright', 'Bronze', 'Cinder', 'Cloud', 'Common', 'Crest', 'Crimson', 'Crystal', 'Dark', 'Dawn', 'Day', 'Desert', 'Dew', 'Doom', 'Dream', 'Dusk', 'Dust', 'Earth', 'Ebon', 'Ember', 'Evening', 'Feather', 'Feral', 'Fire', 'Flame', 'Forest', 'Free', 'Frenzy', 'Frost', 'Fury', 'Gloom', 'Gold', 'Grand', 'Gray', 'Grim', 'High', 'Hill', 'Humble', 'Ice', 'Iron', 'Jade', 'Keen', 'Light', 'Lightning', 'Low', 'Luna', 'Lunar', 'Magic', 'Meadow', 'Mild', 'Mist', 'Molten', 'Moon', 'Morning', 'Mountain', 'Mud', 'Night', 'Noble', 'Ocean', 'Old', 'Pale', 'Pride', 'Proud', 'Rage', 'Rain', 'Rainbow', 'Rapid', 'Rave', 'Razor', 'Red', 'Regal', 'River', 'Rock', 'Rough', 'Rune', 'Sea', 'Shade', 'Shadow', 'Short', 'Silent', 'Silver', 'Simple', 'Sky', 'Small', 'Snow', 'Soft', 'Solar', 'Spark', 'Spirit', 'Spring', 'Star', 'Steel', 'Stone', 'Storm', 'Stout', 'Strong', 'Summer', 'Sun', 'Swift', 'Tall', 'Terra', 'Thunder', 'True', 'Velvet', 'Whit', 'White', 'Wild', 'Wind', 'Winter', 'Wise', 'Wood', 'Young'];
   const nm2 = ['bat', 'bunny', 'cat', 'claw', 'coat', 'coyote', 'crest', 'crown', 'dog', 'face', 'fang', 'fennec', 'fox', 'fur', 'heart', 'hoof', 'horse', 'hound', 'hunter', 'husky', 'jackal', 'kitten', 'kitty', 'leopard', 'liger', 'lion', 'mane', 'panther', 'paw', 'pelt', 'pony', 'rabbit', 'snout', 'stud', 'tail', 'tiger', 'unicorn', 'vixen', 'wolf'];

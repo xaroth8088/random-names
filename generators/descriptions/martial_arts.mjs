@@ -1,4 +1,12 @@
 export default function martial_arts() {
+  let rnd3, rnd4;
+
+
+
+
+
+
+
   const nm1 = ['Bolenoe', 'Chiknu', 'Chorea-Crava', 'Chu Gwiara', 'Chukmul', 'Cogre Kenku', 'Croonkenzu', 'Crucho Bistia', 'Deochaju', 'Dintingaa', 'Dorohla', 'Dunari', 'Eenshi', 'Endia', 'Geche Gimpia', 'Goupo Vuati', 'Grupeo Chuto', 'Guthwou', 'Hanhim', 'Hintihte', 'Injashi', 'Jorin', 'Jothe', 'Ju-Monbung', 'Kekil', 'Khrastao', 'Kukmakyu', 'Kutte', 'Lantirmai', 'Let Aeshia', 'Maihtihta', 'Mindihlu', 'Neacela', 'Nejaesh', 'Nevoo-Crinchi', 'Ngairmeni', 'Ngobambo', 'Nhobyai', 'Nhunshulo', 'Nogwaimbo', 'Nunde-Gagri', 'Ochku', 'Ostundo', 'Oukwom Hwum', 'Saambermo', 'Stipu Iku', 'Taigwambu', 'Tosale', 'Voitse', 'Vusi'];
   const nm2 = ['defensive', 'mostly defensive', 'strictly defensive', 'defensive and offensive', 'partially offensive and partially defensive', 'mixed', 'offensive', 'mostly offensive', 'strictly offensive'];
   const nm3 = ['disabling', 'disenabling', 'subduing', 'exhausting', 'immobilizing', 'incapacitating', 'knocking out', 'paralyzing', 'taking down', 'outmaneuvering', 'undermining', 'defeating', 'crushing', 'overpowering', 'overwhelming', 'overthrowing', 'beating', 'decimating', 'demolishing', 'thrashing', 'crippling', 'clobbering', 'steamrolling'];

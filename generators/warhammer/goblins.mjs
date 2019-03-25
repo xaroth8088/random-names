@@ -1,4 +1,10 @@
 export default function goblins() {
+  let rnd2; let rnd3; let rnd4; let rnd5; let
+    rnd6;
+
+
+  let names;
+
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['c', 'ch', 'cr', 'g', 'gh', 'gr', 'gn', 'k', 'kr', 'kn', 'r', 'sk', 'sc', 'sm', 'sn', 'st', 'str', 'skr', 't', 'tr', 'z', 'zr'];
   const nm2 = ['a', 'i', 'o', 'a', 'i', 'o', 'a', 'i', 'o', 'e', 'u'];

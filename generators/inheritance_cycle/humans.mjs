@@ -1,4 +1,10 @@
 export default function humans() {
+  let rnd2; let rnd3; let rnd4; let rnd5; let rnd6; let
+    rnd7;
+
+
+  let names;
+
   const type = Math.random() < 0.5 ? 0 : 1;
 
   const nm1 = ['', '', '', '', 'b', 'br', 'c', 'cl', 'cr', 'd', 'dr', 'f', 'fl', 'fr', 'g', 'gr', 'h', 'j', 'k', 'kn', 'kr', 'l', 'm', 'n', 'p', 'q', 'r', 's', 'sl', 'sv', 't', 'th', 'tr', 'v', 'w', 'y'];

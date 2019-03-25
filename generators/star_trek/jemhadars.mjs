@@ -1,4 +1,12 @@
 export default function jemhadars() {
+  let rnd2; let rnd3; let rnd4; let rnd5; let rnd6; let rnd7; let rnd8; let
+    rnd9;
+  let rnd10; let rnd11; let
+    rnd12;
+
+
+  let names;
+
   const nm1 = ['a', 'i', 'o', '', '', ''];
   const nm2 = ['d', 'g', 'k', 'l', 'm', 'n', 'r', 's', 't', 'v', 'y', 'z'];
   const nm3 = ['a', 'u', 'o', 'i', 'e', 'a'];

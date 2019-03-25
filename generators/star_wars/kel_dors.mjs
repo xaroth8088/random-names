@@ -1,4 +1,12 @@
 export default function kel_dors() {
+  let rnd2; let rnd3; let rnd4; let rnd5; let rnd6; let rnd7; let rnd8; let
+    rnd9;
+  let rnd10; let rnd11; let rnd12; let
+    rnd13;
+
+
+  let names;
+
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['', '', '', '', '', 'b', 'ch', 'd', 'gn', 'h', 'j', 'k', 'n', 'p', 'pl', 'r', 's', 'sh', 't', 'tr', 'v', 'w', 'x', 'y', 'z'];
   const nm2 = ['a', 'e', 'i', 'o', 'u', 'a', 'o', 'y', 'a', 'e', 'i', 'o', 'u', 'a', 'o', 'y', 'a', 'o', 'a', 'e', 'i', 'o', 'u', 'a', 'o', 'y', 'a', 'e', 'i', 'o', 'u', 'a', 'o', 'y', 'a', 'o', 'ee', 'aa', 'oo', 'ia', 'ea'];

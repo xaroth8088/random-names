@@ -1,4 +1,10 @@
 export default function brands() {
+  let rnd1; let rnd2; let rnd3; let
+    rnd4;
+
+
+  let names;
+
   const nm1 = ['b', 'c', 'd', 'f', 'g', 'h', 'j', 'k', 'l', 'm', 'n', 'p', 'q', 'r', 's', 't', 'v', 'w', 'x', 'y', 'z', 'b', 'c', 'd', 'f', 'g', 'h', 'j', 'k', 'l', 'm', 'n', 'p', 'q', 'r', 's', 't', 'v', 'w', 'x', 'y', 'z', 'b', 'c', 'd', 'f', 'g', 'h', 'j', 'k', 'l', 'm', 'n', 'p', 'q', 'r', 's', 't', 'v', 'w', 'x', 'y', 'z', 'br', 'cr', 'dr', 'fr', 'gr', 'kr', 'pr', 'qr', 'sr', 'tr', 'vr', 'wr', 'zr', 'str', 'spr', 'st', 'bl', 'cl', 'dl', 'fl', 'gl', 'kl', 'pl', 'sl', 'vl', 'zl', 'bh', 'ch', 'dh', 'gh', 'kh', 'ph', 'sh', 'sch', 'th', 'thr', 'sph', 'vh', 'wh', 'zh', 'gn', 'kn', 'sn', 'zn', 'sm', 'zm', 'sw', 'tw', 'zw', 'sc'];
   const nm2 = ['b', 'c', 'd', 'f', 'g', 'h', 'k', 'l', 'm', 'n', 'p', 'r', 's', 't', 'v', 'w', 'x', 'z'];
   const nm3 = ['a', 'e', 'i', 'o', 'u'];

@@ -1,4 +1,10 @@
 export default function goliaths() {
+  let rnd2; let rnd3; let rnd4; let
+    rnd5;
+
+
+  let names;
+
   const type = Math.random() > 0.5 ? 0 : 1;
   const namesFemF = ['Age', 'Ane', 'Gau', 'Ge', 'Ina', 'Kau', 'Ke', 'Ki', 'Kuo', 'La', 'Le', 'Maa', 'Man', 'Mau', 'Me', 'Na', 'Nal', 'Ni', 'One', 'Ori', 'Paa', 'Pau', 'Pe', 'Tha', 'The', 'Thu', 'Vaa', 'Vau', 'Ve', 'Vu'];
   const namesFemL = ['gea', 'geo', 'gia', 'gu', 'kea', 'keo', 'ki', 'kia', 'kio', 'la', 'lai', 'lane', 'lea', 'leo', 'lo', 'lu', 'meo', 'mi', 'mia', 'ne', 'nea', 'neo', 'ni', 'nia', 'nu', 'peo', 'peu', 'pu', 'rea', 'ri', 'ria', 'the', 'thea', 'thia', 'thio', 'thu', 'vea', 'vi', 'via', 'vu'];

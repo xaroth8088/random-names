@@ -1,4 +1,10 @@
 export default function minishs() {
+  let rnd2; let rnd3; let
+    rnd4;
+
+
+  let names;
+
   const nm1 = ['B', 'D', 'F', 'G', 'H', 'J', 'K', 'L', 'M', 'N', 'P', 'T'];
   const nm2 = ['e', 'i', 'o', 'e', 'i', 'o', 'a', 'u'];
   const nm3 = ['b', 'd', 'f', 'g', 'k', 'l', 'm', 'n', 'p', 'r', 's', 't'];

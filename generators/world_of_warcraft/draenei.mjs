@@ -1,4 +1,10 @@
 export default function draenei() {
+  let rnd2; let
+    rnd3;
+
+
+  let names;
+
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['Aho', 'Ak', 'Ar', 'Art', 'Az', 'Beh', 'Beho', 'Bra', 'Bran\'', 'Bre', 'Cae', 'Caed', 'Cem', 'Dek', 'Der', 'Dere', 'Dran\'', 'Du', 'Dug', 'Eoc', 'Fal', 'Fan', 'Fin', 'Fun', 'Ga', 'Gan', 'Han', 'Har', 'Hob', 'Hoba', 'Iz', 'Jov', 'Kav', 'Kel', 'Kha', 'Kil', 'Luc', 'Ma', 'Mah', 'Maho', 'Mu', 'Mua', 'Nah', 'Naho', 'Nob', 'Nobu', 'Oc', 'Ock', 'On', 'Os', 'Rem', 'Ste', 'Tal', 'Tho', 'Tor', 'Tora', 'Toral', 'Uz', 'Vel', 'Vel\'', 'Ven', 'Vor', 'Yil'];
   const nm2 = ['g', 'n', 'ph', 'f', 'r', 't', 'h', 'd', 'm', 'ga', 'na', 'pha', 'fa', 'ra', 'ta', 'ha', 'da', 'ma', 'go', 'no', 'pho', 'fo', 'ro', 'to', 'ho', 'do', 'mo', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', ''];

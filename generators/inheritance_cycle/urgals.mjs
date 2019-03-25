@@ -1,4 +1,10 @@
 export default function urgals() {
+  let rnd2; let rnd3; let rnd4; let rnd5; let rnd6; let
+    rnd7;
+
+
+  let names;
+
   const nm1 = ['', '', 'b', 'd', 'g', 'kh', 'k', 'r', 'sk', 'skg', 't', 'y', 'v', 'z'];
   const nm2 = ['a', 'e', 'o', 'u'];
   const nm3 = ['b', 'br', 'bv', 'bgr', 'bdr', 'd', 'dv', 'dz', 'dzgr', 'dgr', 'gr', 'gn', 'gz', 'hgr', 'hr', 'lk', 'lv', 'r', 'rg', 'rd', 'rb', 'rv', 'rtv', 'rzhv', 'tv', 'tr', 'thb', 'tz', 'zg', 'zb', 'zr', 'ztr', 'zhgr'];

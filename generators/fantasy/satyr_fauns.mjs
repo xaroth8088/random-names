@@ -1,4 +1,10 @@
 export default function satyr_fauns() {
+  let rnd2; let rnd3; let rnd4; let rnd5; let rnd6; let
+    rnd7;
+
+
+  let names;
+
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['', '', '', 'br', 'c', 'ch', 'cr', 'cl', 'd', 'dr', 'dh', 'f', 'g', 'gr', 'gh', 'gl', 'gn', 'h', 'j', 'k', 'kr', 'kn', 'm', 'n', 'pr', 'p', 'q', 'r', 'rh', 's', 'sh', 'st', 'str', 'sn', 'sm', 't', 'tr', 'v', 'vr', 'wr', 'x', 'xh', 'z', 'zr', 'zh', 'c', 'd', 'f', 'g', 'j', 'j', 'k', 'm', 'n', 'p', 'q', 'r', 's', 't', 'v', 'x', 'z'];
   const nm2 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'y', 'y', 'ai', 'ae', 'au', 'aa', 'ea', 'eo', 'ee', 'ia', 'ie', 'io'];

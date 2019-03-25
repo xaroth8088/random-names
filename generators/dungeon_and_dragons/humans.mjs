@@ -1,4 +1,10 @@
 export default function humans() {
+  let rnd2; let rnd3; let rnd4; let rnd5; let rnd6; let rnd7; let
+    rnd8;
+
+
+  let names;
+
   const type = Math.random() > 0.5 ? 0 : 1;
   /* Calashite */
   const nm1 = ['', '', 'b', 'bh', 'f', 'h', 'j', 'kh', 'm', 'n', 'nh', 'r', 'rh', 's', 'z'];

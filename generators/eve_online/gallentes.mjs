@@ -1,4 +1,10 @@
 export default function gallentes() {
+  let rnd2; let rnd3; let
+    rnd4;
+
+
+  let names;
+
   const type = Math.random() < 0.5 ? 0 : 1;
 
   const names1 = ['Aa', 'Abe', 'Abha', 'Abhi', 'Abra', 'Acha', 'Adha', 'Adi', 'Aga', 'Ahri', 'Ai', 'Aira', 'Ama', 'Ana', 'Ani', 'Anto', 'Asu', 'Au', 'Ba', 'Be', 'Bha', 'Bhi', 'Bra', 'Brae', 'Brai', 'Bre', 'Bru', 'Bry', 'Ca', 'Came', 'Cha', 'Cla', 'Cli', 'Co', 'Da', 'De', 'Dee', 'Dhe', 'Di', 'Do', 'Edga', 'Edoua', 'Elia', 'Eme', 'Emi', 'Fa', 'Fe', 'Fo', 'Fra', 'Ga', 'Gau', 'Ge', 'Gera', 'Gra', 'Gre', 'Gua', 'Gue', 'Gui', 'Ha', 'Ho', 'Hu', 'Ja', 'Jona', 'Jou', 'Ka', 'Ke', 'Kee', 'Ko', 'La', 'Lu', 'Ma', 'Mi', 'Mo', 'Mu', 'Na', 'No', 'Pa', 'Pi', 'Pie', 'Pita', 'Po', 'Qui', 'Ra', 'Re', 'Ri', 'Ro', 'Sa', 'Sha', 'Ste', 'Ta', 'Theo', 'Thi', 'Tre', 'Tri', 'Ty', 'Va', 'Vi', 'Xa', 'Ya', 'Za', 'Zo'];

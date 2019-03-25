@@ -1,4 +1,11 @@
 export default function quarians() {
+  let rnd0; let rnd1; let rnd2; let rnd3; let rnd4; let rnd5; let rnd6; let rnd7; let rnd8; let
+    rnd9;
+  let rnd10;
+
+
+  let names;
+
   const type = Math.random() > 0.5 ? 0 : 1;
   const names2 = ['a', 'e', 'i', 'o', 'u', 'aa', 'ee', 'ae'];
   const names5 = ['C', 'F', 'H', 'G', 'J', 'L', 'M', 'N', 'R', 'S', 'Sh', 'V', 'T', 'W', 'X', 'Y', 'Z'];

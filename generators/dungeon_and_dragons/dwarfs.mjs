@@ -1,4 +1,9 @@
 export default function dwarfs() {
+  let rnd2;
+
+
+  let names;
+
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['Ad', 'Am', 'Arm', 'Baer', 'Daer', 'Bal', 'Ban', 'Bar', 'Bel', 'Ben', 'Ber', 'Bhal', 'Bhar', 'Bhel', 'Bram', 'Bran', 'Brom', 'Brum', 'Bun', 'Dal', 'Dar', 'Dol', 'Dul', 'Eb', 'Em', 'Erm', 'Far', 'Gal', 'Gar', 'Ger', 'Gim', 'Gral', 'Gram', 'Gran', 'Grem', 'Gren', 'Gril', 'Gry', 'Gul', 'Har', 'Hjal', 'Hjol', 'Hjul', 'Hor', 'Hul', 'Hur', 'Kar', 'Khar', 'Kram', 'Krom', 'Krum', 'Mag', 'Mal', 'Mel', 'Mor', 'Muir', 'Mur', 'Rag', 'Ran', 'Reg', 'Rot', 'Thal', 'Thar', 'Thel', 'Ther', 'Tho', 'Thor', 'Thul', 'Thur', 'Thy', 'Tor', 'Ty', 'Um', 'Urm', 'Von'];
   const nm2 = ['adin', 'bek', 'brek', 'dahr', 'dain', 'dal', 'dan', 'dar', 'dek', 'dir', 'dohr', 'dor', 'drak', 'dram', 'dren', 'drom', 'drum', 'drus', 'duhr', 'dur', 'dus', 'garn', 'gram', 'gran', 'grim', 'grom', 'gron', 'grum', 'grun', 'gurn', 'gus', 'iggs', 'kahm', 'kam', 'kohm', 'kom', 'kuhm', 'kum', 'kyl', 'man', 'mand', 'mar', 'mek', 'miir', 'min', 'mir', 'mond', 'mor', 'mun', 'mund', 'mur', 'mus', 'myl', 'myr', 'nam', 'nar', 'nik', 'nir', 'nom', 'num', 'nur', 'nus', 'nyl', 'rak', 'ram', 'ren', 'rig', 'rigg', 'rik', 'rim', 'rom', 'ron', 'rum', 'rus', 'ryl', 'tharm', 'tharn', 'thran', 'thrum', 'thrun'];

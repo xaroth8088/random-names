@@ -1,4 +1,10 @@
 export default function dwarf() {
+  let rnd2; let rnd3; let rnd4; let
+    rnd5;
+
+
+  let names;
+
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['Am', 'Arm', 'Bal', 'Ban', 'Bar', 'Bel', 'Beng', 'Bhal', 'Bhar', 'Bhel', 'Bram', 'Bran', 'Brom', 'Brum', 'Bun', 'Dal', 'Dar', 'Dol', 'Dram', 'Drom', 'Drum', 'Dul', 'Em', 'Erm', 'Gal', 'Gar', 'Ger', 'Gim', 'Gir', 'Gol', 'Gor', 'Gral', 'Gram', 'Gran', 'Grem', 'Gren', 'Gril', 'Grim', 'Grom', 'Grul', 'Grum', 'Grun', 'Gry', 'Gul', 'Har', 'Hjal', 'Hjol', 'Hjul', 'Hor', 'Hulf', 'Hur', 'Irom', 'Iron', 'Jar', 'Jor', 'Kar', 'Khar', 'Kram', 'Krom', 'Krum', 'Mag', 'Mal', 'Mel', 'Muir', 'Mur', 'Ol', 'Orim', 'Orm', 'Rag', 'Reg', 'Rot', 'Shel', 'Sog', 'Sogn', 'Sug', 'Sugn', 'Thal', 'Thar', 'Thel', 'Ther', 'Tho', 'Thor', 'Thul', 'Thur', 'Thy', 'Tor', 'Ty', 'Um', 'Urm'];
   const nm2 = ['o', 'a', 'u', 'i', 'ia', 'iu', 'ou', 'ua', 'ah', 'uh', 'oh', 'ihr', 'ahr', 'ohr', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', ''];

@@ -1,4 +1,10 @@
 export default function mirialans() {
+  let rnd2; let rnd3; let rnd4; let rnd5; let rnd6; let rnd7; let
+    rnd9;
+
+
+  let names;
+
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['i', 'a', 'o', 'e', 'u', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', ''];
   const nm2 = ['b', 'c', 'ch', 'd', 'f', 'fl', 'g', 'h', 'j', 'k', 'l', 'm', 'n', 'p', 'q', 'r', 's', 'sh', 't', 'v', 'v', 'w', 'y', 'z', 'z'];

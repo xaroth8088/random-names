@@ -1,4 +1,10 @@
 export default function animatronics() {
+  let rnd2; let
+    rnd3;
+
+
+  let names;
+
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = [
     [

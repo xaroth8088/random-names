@@ -1,4 +1,12 @@
 export default function niktos() {
+  let rnd2; let rnd3; let rnd4; let rnd5; let rnd6; let rnd7; let rnd8; let
+    rnd9;
+  let rnd10; let
+    rnd11;
+
+
+  let names;
+
   const nm1 = ['', '', '', '', 'b', 'bh', 'br', 'c', 'ch', 'd', 'dr', 'f', 'fh', 'g', 'gr', 'h', 'j', 'kl', 'l', 'm', 'n', 'p', 'r', 's', 'sr', 'sl', 't', 'ts', 'v', 'wl'];
   const nm2 = ['a', 'e', 'i', 'o', 'u', 'y', 'a', 'e', 'i', 'o', 'u', 'y', 'a', 'e', 'i', 'o', 'u', 'y', 'a', 'e', 'i', 'o', 'u', 'y', 'a', 'e', 'i', 'o', 'u', 'y', 'a', 'e', 'i', 'o', 'u', 'y', 'a', 'e', 'i', 'o', 'u', 'y', 'au', 'oo', 'io', 'ia', 'ou', 'aa', 'ai', 'oi', 'ea'];
   const nm3 = ['b', 'bb', 'bd', 'd', 'dd', 'dr', 'dg', 'dr', 'g', 'gr', 'gg', 'gb', 'k', 'kt', 'kr', 'kn', 'kh', 'l', 'lf', 'll', 'lv', 'm', 'n', 'nd', 'ndl', 'ndr', 'ng', 'ns', 'nt', 'r', 'rd', 'rk', 'rsk', 's', 'sh', 'ss', 't', 'th', 'v', 'x', 'z'];

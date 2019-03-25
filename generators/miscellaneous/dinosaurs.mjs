@@ -1,4 +1,10 @@
 export default function dinosaurs() {
+  let rnd2; let
+    rnd3;
+
+
+  let names;
+
   const nm1 = [
     [
       ['Nigri'],

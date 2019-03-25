@@ -1,4 +1,10 @@
 export default function tians() {
+  let rnd2; let rnd3; let rnd4; let rnd5; let rnd6; let rnd7; let
+    rnd8;
+
+
+  let names;
+
   const type = Math.random() > 0.5 ? 0 : 1;
   /* Tian-Dan - Vietnamese */
   const nm1 = ['', '', '', 'b', 'c', 'ch', 'd', 'g', 'h', 'kh', 'l', 'm', 'ng', 'nh', 'ph', 'q', 's', 'th', 't', 'tr', 'v', 'x'];

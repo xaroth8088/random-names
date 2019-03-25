@@ -1,4 +1,9 @@
 export default function kelaris() {
+  let rnd2;
+
+
+  let names;
+
   const type = Math.random() > 0.5 ? 0 : 1;
   if (type === 1) {
     var names1 = ['Ac', 'Ad', 'Adem', 'Adon', 'Adr', 'Ag', 'Agl', 'Ail', 'Air', 'Al', 'Alet', 'Alex', 'Alys', 'Am', 'An', 'Anas', 'And', 'Ang', 'Aph', 'Aphr', 'Apol', 'Ar', 'Aret', 'Art', 'As', 'Asp', 'Ath', 'Bar', 'Cal', 'Call', 'Cas', 'Casc', 'Cath', 'Cel', 'Char', 'Cher', 'Cos', 'Cres', 'Cyr', 'Daphn', 'Del', 'Delph', 'Dem', 'Den', 'Dian', 'Dion', 'Dor', 'Dorin', 'Dun', 'Eil', 'Elean', 'Elen', 'Elin', 'Eud', 'Euph', 'Evan', 'Evang', 'Gel', 'Hel', 'Hyac', 'Hyp', 'Ir', 'Is', 'Isad', 'Kal', 'Kol', 'Lar', 'Lyd', 'Mar', 'Mel', 'Nel', 'Ner', 'Nes', 'Nor', 'Ol', 'Olym', 'Oph', 'Pan', 'Pand', 'Phed', 'Phil', 'Ren', 'San', 'Sel', 'Stel', 'Tar', 'Ter', 'Thel', 'Xand', 'Xen', 'Zan', 'Zer'];

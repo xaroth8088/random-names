@@ -1,4 +1,11 @@
 export default function molecules() {
+  let rnd2; let rnd3; let rnd4; let rnd5; let rnd6; let rnd7; let rnd8; let
+    rnd9;
+  let rnd10;
+
+
+  let names;
+
   const nm1 = ['', '', '', '', '', '', '', '', '', '', '', '', '', 'deca', 'di', 'duo', 'hepta', 'hexa', 'hydra', 'hydro', 'hypo', 'iso', 'mono', 'octa', 'penta', 'tetra', 'tri'];
   const nm2 = ['', '', '', '', '', '', '', '', '', '', '', '', '', '', '', 'a', 'e', 'i', 'o'];
   const nm3 = ['b', 'br', 'c', 'ch', 'chl', 'chr', 'cl', 'd', 'f', 'fl', 'fr', 'g', 'gl', 'h', 'j', 'k', 'l', 'm', 'n', 'p', 'ph', 'pl', 'pr', 'ps', 'r', 'rh', 's', 'sh', 'sp', 'st', 'str', 't', 'th', 'tr', 'v', 'w', 'z'];

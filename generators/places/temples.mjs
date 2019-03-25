@@ -1,4 +1,10 @@
 export default function temples() {
+  let rnd2; let rnd3; let rnd4; let
+    rnd5;
+
+
+  let names;
+
   const names1 = ['br', 'cr', 'dr', 'fr', 'gr', 'kr', 'pr', 'tr', 'str', 'vr', 'bl', 'cl', 'gl', 'kl', 'pl', 'sl', 'ch', 'sh', 'th', 'ph', 'b', 'c', 'd', 'f', 'g', 'h', 'j', 'k', 'l', 'm', 'n', 'p', 'q', 'r', 's', 't', 'v', 'w', 'x', 'y', 'z', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', ''];
   const names2 = ['a', 'e', 'i', 'o', 'u', 'ae', 'ea', 'eo', 'ai'];
   const names3 = ['b', 'c', 'd', 'g', 'h', 'k', 'l', 'm', 'n', 'p', 'q', 'r', 's', 't', 'w', 'br', 'cr', 'dr', 'fr', 'gr', 'kr', 'pr', 'tr', 'str', 'vr', 'bl', 'cl', 'gl', 'kl', 'pl', 'sl', 'ch', 'sh', 'th', 'ph'];
