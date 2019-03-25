@@ -1,6 +1,6 @@
 {
-  "name": "random-names",
-  "version": "1.0.0",
+  "name": "@xaroth8088/random-names",
+  "version": "1.0.1",
   "description": "A random name generator for all kinds of things",
   "main": "index.js",
   "repository": "https://github.com/xaroth8088/random-names.git",
