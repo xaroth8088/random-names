@@ -3,26 +3,24 @@ export default function lalafells() {
   let rnd;
   let rnd2;
   let rnd3;
-  let rnd;
-  let rnd2;
-  let rnd3;
   let rnd4;
   let rnd5;
   let rnd6;
   let rnd7;
   let rnd8;
-  let
-    rnd9;
+  let rnd9;
   let rnd10;
   let rnd11;
-  let
-    rnd12;
-  let names;
+  let rnd12;
   const type = Math.random() > 0.5 ? 0 : 1;
-  const nm1 = ['b', 'c', 'd', 'f', 'g', 'h', 'j', 'k', 'l', 'm', 'n', 'p', 'q', 'r', 's', 't', 'w', 'y', 'ch', 'sh'];
+  const nm1 = ['b', 'c', 'd', 'f', 'g', 'h', 'j', 'k', 'l', 'm', 'n', 'p', 'q',
+    'r', 's', 't', 'w', 'y', 'ch', 'sh'];
   const nm2 = ['a', 'e', 'i', 'o', 'u'];
-  const nm3 = ['', '', '', '', '', '', '', '', '', '', '', '', '', '', '', 'b', 'c', 'd', 'f', 'g', 'h', 'j', 'k', 'l', 'm', 'n', 'p', 'q', 'r', 's', 't', 'w', 'y', 'ch', 'sh'];
-  const nm4 = ['', '', '', '', '', '', '', '', '', '', '', '', '', '', '', 'r', 'l', 's', 'n', 'g'];
+  const nm3 = ['', '', '', '', '', '', '', '', '', '', '', '', '', '', '', 'b',
+    'c', 'd', 'f', 'g', 'h', 'j', 'k', 'l', 'm', 'n', 'p', 'q', 'r', 's', 't',
+    'w', 'y', 'ch', 'sh'];
+  const nm4 = ['', '', '', '', '', '', '', '', '', '', '', '', '', '', '', 'r',
+    'l', 's', 'n', 'g'];
   const nm5 = ['', 'a', 'e', 'i', 'o', 'u'];
   const i = Math.floor(Math.random() * 10); {
     if (type === 1) {

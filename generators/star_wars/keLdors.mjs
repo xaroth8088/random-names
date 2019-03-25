@@ -1,9 +1,6 @@
 export default function keLdors() {
   let namelast;
   let names;
-  let rnd;
-  let rnd2;
-  let rnd3;
   let rnd5b;
   let rnd;
   let rnd2;
@@ -13,27 +10,39 @@ export default function keLdors() {
   let rnd6;
   let rnd7;
   let rnd8;
-  let
-    rnd9;
+  let rnd9;
   let rnd10;
   let rnd11;
   let rnd12;
-  let
-    rnd13;
-  let names;
+  let rnd13;
   const type = Math.random() > 0.5 ? 0 : 1;
-  const nm1 = ['', '', '', '', '', 'b', 'ch', 'd', 'gn', 'h', 'j', 'k', 'n', 'p', 'pl', 'r', 's', 'sh', 't', 'tr', 'v', 'w', 'x', 'y', 'z'];
-  const nm2 = ['a', 'e', 'i', 'o', 'u', 'a', 'o', 'y', 'a', 'e', 'i', 'o', 'u', 'a', 'o', 'y', 'a', 'o', 'a', 'e', 'i', 'o', 'u', 'a', 'o', 'y', 'a', 'e', 'i', 'o', 'u', 'a', 'o', 'y', 'a', 'o', 'ee', 'aa', 'oo', 'ia', 'ea'];
-  const nm3 = ['\'r', 'c', 'c\'', 'chk', 'h', '\'h', 'k', '\'k', 'kr', 'l\'', 'll', 'ls', 'r', 'r\'', 'rr', 'rv', '\'s', 's', 'st', 'tch', 't\'', 'tchk', 'z', 'z\'', '\'z'];
-  const nm4 = ['', '', '', '', '', '', 'l', 'ln', 'lt', 'm', 'n', 'r', 'rn', 'rs', 'rss', 's', 'ss', 'st'];
-  const nm5 = ['', '', '', '', 'bh', 'ch', 'dh', 'dr', 'gh', 'g', 'h', 'kr', 'm', 'n', 'p', 'r', 's', 'sh', 't', 'th', 'y', 'v', 'w'];
-  const nm6 = ['a', 'i', 'u', 'a', 'i', 'a', 'i', 'u', 'e', 'a', 'i', 'o', 'ee'];
-  const nm7 = ['\'c', 'ch', 'h', '\'h', 'k', 'kh', '\'k', '\'l', 'l', 'q', '\'q', 'qr', 'r', '\'r', 'rr', 'rz', 'st', 's\'', 'sz', 'th', 't\'', '\'z'];
+  const nm1 = ['', '', '', '', '', 'b', 'ch', 'd', 'gn', 'h', 'j', 'k', 'n',
+    'p', 'pl', 'r', 's', 'sh', 't', 'tr', 'v', 'w', 'x', 'y', 'z'];
+  const nm2 = ['a', 'e', 'i', 'o', 'u', 'a', 'o', 'y', 'a', 'e', 'i', 'o', 'u',
+    'a', 'o', 'y', 'a', 'o', 'a', 'e', 'i', 'o', 'u', 'a', 'o', 'y', 'a', 'e',
+    'i', 'o', 'u', 'a', 'o', 'y', 'a', 'o', 'ee', 'aa', 'oo', 'ia', 'ea'];
+  const nm3 = ['\'r', 'c', 'c\'', 'chk', 'h', '\'h', 'k', '\'k', 'kr', 'l\'',
+    'll', 'ls', 'r', 'r\'', 'rr', 'rv', '\'s', 's', 'st', 'tch', 't\'',
+    'tchk', 'z', 'z\'', '\'z'];
+  const nm4 = ['', '', '', '', '', '', 'l', 'ln', 'lt', 'm', 'n', 'r', 'rn',
+    'rs', 'rss', 's', 'ss', 'st'];
+  const nm5 = ['', '', '', '', 'bh', 'ch', 'dh', 'dr', 'gh', 'g', 'h', 'kr',
+    'm', 'n', 'p', 'r', 's', 'sh', 't', 'th', 'y', 'v', 'w'];
+  const nm6 = ['a', 'i', 'u', 'a', 'i', 'a', 'i', 'u', 'e', 'a', 'i', 'o',
+    'ee'];
+  const nm7 = ['\'c', 'ch', 'h', '\'h', 'k', 'kh', '\'k', '\'l', 'l', 'q',
+    '\'q', 'qr', 'r', '\'r', 'rr', 'rz', 'st', 's\'', 'sz', 'th', 't\'', '\'z',
+  ];
   const nm8 = ['', '', '', '', '', '', '', 'l', 'm', 'n', 's', 'th'];
-  const nm9 = ['', '', '', '', '', 'b', 'br', 'ch', 'd', 'dr', 'g', 'h', 'k', 'm', 'n', 'p', 'r', 's', 'sh', 't', 'tl', 'v', 'y', 'z'];
-  const nm10 = ['a', 'e', 'i', 'o', 'u', 'a', 'a', 'e', 'i', 'o', 'u', 'a', 'a', 'e', 'i', 'o', 'u', 'a', 'a', 'e', 'i', 'o', 'u', 'a', 'a', 'e', 'i', 'o', 'u', 'a', 'ii', 'ai', 'oo', 'aa', 'uu'];
-  const nm11 = ['c', 'ch', 'g', 'hr', 'k', 'kr', 'l', 'lr', 'mn', 'n', 'nd', 'r', 'rr', 'rv', 's', 'sz', 'st', 't', 'tch', 'z'];
-  const nm12 = ['', '', '', '', '', '', '', '', 'c', 'k', 'l', 'ln', 'mm', 'n', 'ng', 'r', 's', 'ss', 'w', 'zz'];
+  const nm9 = ['', '', '', '', '', 'b', 'br', 'ch', 'd', 'dr', 'g', 'h', 'k',
+    'm', 'n', 'p', 'r', 's', 'sh', 't', 'tl', 'v', 'y', 'z'];
+  const nm10 = ['a', 'e', 'i', 'o', 'u', 'a', 'a', 'e', 'i', 'o', 'u', 'a', 'a',
+    'e', 'i', 'o', 'u', 'a', 'a', 'e', 'i', 'o', 'u', 'a', 'a', 'e', 'i', 'o',
+    'u', 'a', 'ii', 'ai', 'oo', 'aa', 'uu'];
+  const nm11 = ['c', 'ch', 'g', 'hr', 'k', 'kr', 'l', 'lr', 'mn', 'n', 'nd',
+    'r', 'rr', 'rv', 's', 'sz', 'st', 't', 'tch', 'z'];
+  const nm12 = ['', '', '', '', '', '', '', '', 'c', 'k', 'l', 'ln', 'mm', 'n',
+    'ng', 'r', 's', 'ss', 'w', 'zz'];
   const i = Math.floor(Math.random() * 10); {
     rnd7 = Math.floor(Math.random() * nm9.length);
     rnd8 = Math.floor(Math.random() * nm10.length);
@@ -46,13 +55,15 @@ export default function keLdors() {
     } else if (i % 2 === 0) {
       rnd9 = Math.floor(Math.random() * nm10.length);
       rnd11 = Math.floor(Math.random() * nm11.length);
-      namelast = nm9[rnd7] + nm10[rnd8] + nm11[rnd11] + nm10[rnd9] + nm12[rnd10];
+      namelast = nm9[rnd7] + nm10[rnd8] + nm11[rnd11] + nm10[rnd9] + nm12[
+        rnd10];
     } else {
       rnd9 = Math.floor(Math.random() * nm10.length);
       rnd11 = Math.floor(Math.random() * nm11.length);
       rnd12 = Math.floor(Math.random() * nm10.length);
       rnd13 = Math.floor(Math.random() * nm11.length);
-      namelast = nm9[rnd7] + nm10[rnd8] + nm11[rnd11] + nm10[rnd9] + nm11[rnd13] + nm10[rnd12] + nm12[rnd10];
+      namelast = nm9[rnd7] + nm10[rnd8] + nm11[rnd11] + nm10[rnd9] + nm11[
+        rnd13] + nm10[rnd12] + nm12[rnd10];
     }
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm5.length);

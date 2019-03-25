@@ -3,22 +3,24 @@ export default function korokKokiris() {
   let rnd;
   let rnd2;
   let rnd3;
-  let rnd;
-  let rnd2;
-  let rnd3;
   let rnd4;
-  let
-    rnd5;
-  let names;
+  let rnd5;
   const type = Math.random() > 0.5 ? 0 : 1;
-  const nm1 = ['', '', '', '', 'b', 'd', 'br', 'dr', 'gr', 'g', 'h', 'k', 'l', 'm', 'r', 'tr', 't'];
+  const nm1 = ['', '', '', '', 'b', 'd', 'br', 'dr', 'gr', 'g', 'h', 'k', 'l',
+    'm', 'r', 'tr', 't'];
   const nm2 = ['a', 'e', 'i', 'o', 'u'];
-  const nm3 = ['c', 'g', 'gn', 'gm', 'k', 'kl', 'l', 'v', 'ld', 'lm', 'll', 'm', 'md', 'n', 'nd', 'r', 'rn', 's', 'sn', 'sm', 'sr'];
-  const nm4 = ['', '', '', '', '', '', '', '', 'h', 'l', 'm', 's', 'r', 'n', 'wn', 'w'];
-  const nm5 = ['b', 'd', 'f', 'g', 'h', 'k', 'l', 'm', 'n', 'p', 'r', 's', 't', 'z'];
-  const nm6 = ['b', 'd', 'f', 'g', 'h', 'l', 'k', 'm', 'n', 'p', 'r', 's', 't', 'v', 'w', 'z'];
-  const nm7 = ['c', 'd', 'f', 'g', 'h', 'k', 'l', 'm', 'n', 'ph', 'r', 's', 't', 'th', 'w', 'z'];
-  const nm8 = ['a', 'e', 'i', 'o', 'u', 'ai', 'ae', 'ea', 'ei', 'eo', 'ia', 'io', 'iu', 'ie', 'oa', 'oe', 'oi', 'ou', 'ua', 'ue', 'uo', 'ui'];
+  const nm3 = ['c', 'g', 'gn', 'gm', 'k', 'kl', 'l', 'v', 'ld', 'lm', 'll', 'm',
+    'md', 'n', 'nd', 'r', 'rn', 's', 'sn', 'sm', 'sr'];
+  const nm4 = ['', '', '', '', '', '', '', '', 'h', 'l', 'm', 's', 'r', 'n',
+    'wn', 'w'];
+  const nm5 = ['b', 'd', 'f', 'g', 'h', 'k', 'l', 'm', 'n', 'p', 'r', 's', 't',
+    'z'];
+  const nm6 = ['b', 'd', 'f', 'g', 'h', 'l', 'k', 'm', 'n', 'p', 'r', 's', 't',
+    'v', 'w', 'z'];
+  const nm7 = ['c', 'd', 'f', 'g', 'h', 'k', 'l', 'm', 'n', 'ph', 'r', 's', 't',
+    'th', 'w', 'z'];
+  const nm8 = ['a', 'e', 'i', 'o', 'u', 'ai', 'ae', 'ea', 'ei', 'eo', 'ia',
+    'io', 'iu', 'ie', 'oa', 'oe', 'oi', 'ou', 'ua', 'ue', 'uo', 'ui'];
   const i = Math.floor(Math.random() * 10); {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm6.length);

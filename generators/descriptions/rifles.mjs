@@ -1,39 +1,140 @@
 export default function rifles() {
-  let result;
-  let rnd18;
-  let rnd21;
-  const nm1 = ['a classic', 'a beauty', 'excellent', 'fear inducing', 'intimidating', 'near perfect', 'amazing', 'terrifying', 'a new release', 'a prototype', 'an odd one', 'a new model', 'a one of a kind', 'a new design', 'different from most', 'unique'];
+  const nm1 = ['a classic', 'a beauty', 'excellent', 'fear inducing',
+    'intimidating', 'near perfect', 'amazing', 'terrifying', 'a new release',
+    'a prototype', 'an odd one', 'a new model', 'a one of a kind',
+    'a new design', 'different from most', 'unique'];
   const nm1b = ', but ';
-  const nm2 = ['admired by many', 'commissioned for many around the world', 'desired across the globe', 'famous around the world', 'in high demand', 'infamous around the world', 'made a name for itself', 'noted by many across the world', 'praised by many', 'prominent across the globe', 'purchased and sold by many', 'sold to people across the globe', 'well-known across the world', 'world renowned'];
-  const nm3 = ['celebrated for its consistent aim and accuracy', 'celebrated for its precision and reliability', 'known as a low cost, high value weapon', 'known for its deadly accuracy', 'known for its versatility and adaptability', 'praised as bang for your buck, due to its low manufacturing cost', 'praised for its deadly precision', 'praised for its reliability in almost any situation', 'praised for its stability, reliability and versatility', 'prominent due to its cheap cost and good reliability'];
+  const nm2 = ['admired by many', 'commissioned for many around the world',
+    'desired across the globe', 'famous around the world', 'in high demand',
+    'infamous around the world', 'made a name for itself',
+    'noted by many across the world', 'praised by many',
+    'prominent across the globe', 'purchased and sold by many',
+    'sold to people across the globe', 'well-known across the world',
+    'world renowned'];
+  const nm3 = ['celebrated for its consistent aim and accuracy',
+    'celebrated for its precision and reliability',
+    'known as a low cost, high value weapon', 'known for its deadly accuracy',
+    'known for its versatility and adaptability',
+    'praised as bang for your buck, due to its low manufacturing cost',
+    'praised for its deadly precision',
+    'praised for its reliability in almost any situation',
+    'praised for its stability, reliability and versatility',
+    'prominent due to its cheap cost and good reliability'];
   const nm4 = ['overall length', 'standard length', 'length', 'typical length'];
   const nm5 = Math.floor((Math.random() * 500) + 600);
   const nm6 = Math.floor((Math.random() * 255) + 295);
   const nm7 = ['roughly around', 'about', 'roughly', 'around', 'approximately'];
   const nm8 = (Math.floor((Math.random() * 27) + 27)) / 10;
-  const nm9 = ['5.45x39', '5.56x45', '5.8x42', '6.5x39', '6.8x43', '7.62x33', '7.62x35', '7.62x39', '7.62x45', '7.62x51', '7.92x33'];
-  const nm10 = ['a few other calibers have been produced as well', 'all other standard calibers are available as well', 'it can come in a wide variety of different calibers', 'many other calibers are produced as well', 'most other calibers are available', 'one other caliber is available', 'other calibers are available', 'other calibers are available, although harder to come by', 'other calibers are currently in production', 'other calibers have yet to be produced'];
-  const nm11 = ['an upper and lower receiver for easier maintenance', 'an upper and lower receiver to allow for easier customization', 'an upper and lower receiver to make potential repairs easier and low cost', 'its receiver located in front of the pistol grip to increase customizability', 'its receiver located in front of the pistol grip which helped increase the barrel length', 'its receiver located in front of the pistol grip, allowing for a more ergonomic design', 'its receiver located behind the pistol grip for a more compact design', 'its receiver located behind the pistol grip to improve maneuverability', 'its receiver located behind the pistol grip to save on weight'];
+  const nm9 = ['5.45x39', '5.56x45', '5.8x42', '6.5x39', '6.8x43', '7.62x33',
+    '7.62x35', '7.62x39', '7.62x45', '7.62x51', '7.92x33'];
+  const nm10 = ['a few other calibers have been produced as well',
+    'all other standard calibers are available as well',
+    'it can come in a wide variety of different calibers',
+    'many other calibers are produced as well',
+    'most other calibers are available', 'one other caliber is available',
+    'other calibers are available',
+    'other calibers are available, although harder to come by',
+    'other calibers are currently in production',
+    'other calibers have yet to be produced'];
+  const nm11 = ['an upper and lower receiver for easier maintenance',
+    'an upper and lower receiver to allow for easier customization',
+    'an upper and lower receiver to make potential repairs easier and low cost',
+    'its receiver located in front of the pistol grip to increase customizability',
+    'its receiver located in front of the pistol grip which helped increase the barrel length',
+    'its receiver located in front of the pistol grip, allowing for a more ergonomic design',
+    'its receiver located behind the pistol grip for a more compact design',
+    'its receiver located behind the pistol grip to improve maneuverability',
+    'its receiver located behind the pistol grip to save on weight'];
   const nm12 = ['wood', 'plastic', 'metal'];
-  const nm13 = ['wood', 'plastic', 'metal', 'premium wood', 'ivory', 'pearl', 'engraved wood', 'exotic wood', 'horn'];
-  const nm14 = ['your wishes', 'your desires', 'your purpose', 'your goals', 'your needs'];
-  const nm15 = ['walnut', 'maple', 'myrtle wood', 'birch', 'plastic', 'metal', 'laminated wood'];
-  const nm16 = ['other materials are available', 'other stocks will soon go in production', 'a few other stock materials are available', 'other stock materials are unfortunately not available yet', 'stocks made from a different material have to be custom made', 'most other stock materials are widely available', 'some other stock materials can be acquired with some effort', 'other materials, including luxury materials, are available as well', 'other materials have yet to be made available', 'other materials aren\'t available yet and may never be'];
-  const nm17 = ['folding stock', 'extendable stock', 'detachable stock', 'shoulder stock', 'wooden stock', 'plastic stock', 'straight grip stock', 'full grip stock', 'semi-grip stock'];
-  const nm19 = ['very common as well', 'the next most common stock available', 'high up on the list of demand', 'often preferred instead', 'used more often', 'just as common and popular', 'second in line, although not as common', 'very popular as well, despite being less common', 'slowly becoming the new standard', 'a close second in terms of popularity'];
-  const nm20 = ['drum', 'detachable box', 'horizontal box', 'casket', 'rotary', 'spool', 'STANAG', 'hopper', 'helical', 'saddle-drum', 'semi-curved'];
+  const nm13 = ['wood', 'plastic', 'metal', 'premium wood', 'ivory', 'pearl',
+    'engraved wood', 'exotic wood', 'horn'];
+  const nm14 = ['your wishes', 'your desires', 'your purpose', 'your goals',
+    'your needs'];
+  const nm15 = ['walnut', 'maple', 'myrtle wood', 'birch', 'plastic', 'metal',
+    'laminated wood'];
+  const nm16 = ['other materials are available',
+    'other stocks will soon go in production',
+    'a few other stock materials are available',
+    'other stock materials are unfortunately not available yet',
+    'stocks made from a different material have to be custom made',
+    'most other stock materials are widely available',
+    'some other stock materials can be acquired with some effort',
+    'other materials, including luxury materials, are available as well',
+    'other materials have yet to be made available',
+    'other materials aren\'t available yet and may never be'];
+  const nm17 = ['folding stock', 'extendable stock', 'detachable stock',
+    'shoulder stock', 'wooden stock', 'plastic stock', 'straight grip stock',
+    'full grip stock', 'semi-grip stock'];
+  const nm19 = ['very common as well', 'the next most common stock available',
+    'high up on the list of demand', 'often preferred instead',
+    'used more often', 'just as common and popular',
+    'second in line, although not as common',
+    'very popular as well, despite being less common',
+    'slowly becoming the new standard',
+    'a close second in terms of popularity'];
+  const nm20 = ['drum', 'detachable box', 'horizontal box', 'casket', 'rotary',
+    'spool', 'STANAG', 'hopper', 'helical', 'saddle-drum', 'semi-curved'];
   const nm21 = ['10', '20', '30', '40', '50', '60', '70', '80', '90', '100'];
-  const nm22 = ['other magazine are available', 'plenty of other magazine are available', 'a few other magazines are available as well', 'this is generally the only available magazine', 'other sizes are available', 'the magazine comes in various sizes', 'while this is the only magazine type, it does come in other sizes', 'other magazines types and magazine sizes are available', 'two more sizes and one other magazine type is available', 'customization for other magazine types and sizes is possible'];
-  const nm23 = ['a push button', 'a paddle', 'a lever', 'both a button and lever'];
+  const nm22 = ['other magazine are available',
+    'plenty of other magazine are available',
+    'a few other magazines are available as well',
+    'this is generally the only available magazine',
+    'other sizes are available', 'the magazine comes in various sizes',
+    'while this is the only magazine type, it does come in other sizes',
+    'other magazines types and magazine sizes are available',
+    'two more sizes and one other magazine type is available',
+    'customization for other magazine types and sizes is possible'];
+  const nm23 = ['a push button', 'a paddle', 'a lever',
+    'both a button and lever'];
   const nm24 = ['automatic', 'semi-auto', '2-round burst', '3-round burst'];
-  const nm25 = ['secret forces', 'military police', 'military', 'freedom fighters', 'rebels', 'revolutionists', 'separatists', 'army', 'special forces', 'marines', 'armed forces', 'secret service'];
-  const nm26 = ['winning a war', 'winning a civil war', 'preventing more crime', 'preventing war through a show of power', 'keeping the peace', 'increasing security', 'fighting crime on a bigger scale', 'upgrading the existing inventory', 'updating the existing inventory', 'preparing for a likely war', 'gaining the upper hand in a guerrilla war', 'providing more versatility in terms of weapon choice', 'increasing the amount of weapons available', 'fighting new threats', 'fighting terrorism more efficiently'];
-  const nm27 = ['Japanese man named H. Yoshimitsu', 'German man named G. Klauss', 'British man named E. Fawkes', 'American man named G. Jones', 'Canadian man names L. Coats', 'South-African man named A. Botha', 'Chinese man named B. Chan', 'Israeli man named D. Mizrahi', 'Russian man named T. Yakovich', 'Korean man named Sung S. W', 'Indian man named C. Mahal', 'Iranian man named B. Javan', 'Turkish man named T. Almaz', 'Italian man named W. Brocato', 'French man named C. Bouvard', 'Spanish man named D. Cruz'];
-  const nm28 = ['There are a few other variants of this weapon', 'Many other variants of this weapon are available', 'There are three other variants of this weapon', 'This weapon has quite a few other variants', 'Several other variants of this weapon are in production as well', 'Two other variants of this weapon are currently in production', 'Quite a few other variants of this weapon are available, with more nearing production', 'A few variants of this weapon will soon be in production'];
-  const nm29 = ['including a civilian version', 'including a semi-auto civilian version', 'including two less powerful civilian versions', 'but there\'s no civilian version yet', 'but there are no plans for a civilian version', 'but a civilian version is most likely out of the question', 'but a civilian version is currently on hold', 'but the plans for a less powerful civilian version have been delayed'];
-  const nm30 = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', '0', '1', '2', '3', '4', '5', '6', '7', '8', '9'];
-  const nm31 = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', '0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', ''];
-  const nm32 = ['Desert Viper', 'Black Mamba', 'Peacekeeper', 'The Ambassador', 'Oathkeeper', 'Due Diligence', 'Boomer', 'Bulldog', 'Valkyrie', 'Vengeance', 'Rattlesnake', 'Thunder', 'Big Daddy', 'The Punisher', 'The Judge'];
+  const nm25 = ['secret forces', 'military police', 'military',
+    'freedom fighters', 'rebels', 'revolutionists', 'separatists', 'army',
+    'special forces', 'marines', 'armed forces', 'secret service'];
+  const nm26 = ['winning a war', 'winning a civil war', 'preventing more crime',
+    'preventing war through a show of power', 'keeping the peace',
+    'increasing security', 'fighting crime on a bigger scale',
+    'upgrading the existing inventory', 'updating the existing inventory',
+    'preparing for a likely war', 'gaining the upper hand in a guerrilla war',
+    'providing more versatility in terms of weapon choice',
+    'increasing the amount of weapons available', 'fighting new threats',
+    'fighting terrorism more efficiently'];
+  const nm27 = ['Japanese man named H. Yoshimitsu',
+    'German man named G. Klauss', 'British man named E. Fawkes',
+    'American man named G. Jones', 'Canadian man names L. Coats',
+    'South-African man named A. Botha', 'Chinese man named B. Chan',
+    'Israeli man named D. Mizrahi', 'Russian man named T. Yakovich',
+    'Korean man named Sung S. W', 'Indian man named C. Mahal',
+    'Iranian man named B. Javan', 'Turkish man named T. Almaz',
+    'Italian man named W. Brocato', 'French man named C. Bouvard',
+    'Spanish man named D. Cruz'];
+  const nm28 = ['There are a few other variants of this weapon',
+    'Many other variants of this weapon are available',
+    'There are three other variants of this weapon',
+    'This weapon has quite a few other variants',
+    'Several other variants of this weapon are in production as well',
+    'Two other variants of this weapon are currently in production',
+    'Quite a few other variants of this weapon are available, with more nearing production',
+    'A few variants of this weapon will soon be in production'];
+  const nm29 = ['including a civilian version',
+    'including a semi-auto civilian version',
+    'including two less powerful civilian versions',
+    'but there\'s no civilian version yet',
+    'but there are no plans for a civilian version',
+    'but a civilian version is most likely out of the question',
+    'but a civilian version is currently on hold',
+    'but the plans for a less powerful civilian version have been delayed'];
+  const nm30 = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M',
+    'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', '0', '1',
+    '2', '3', '4', '5', '6', '7', '8', '9'];
+  const nm31 = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M',
+    'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', '0', '1',
+    '2', '3', '4', '5', '6', '7', '8', '9', '', '', '', '', '', '', '', '',
+    '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+    '', '', '', '', '', '', '', '', '', '', '', '', '', ''];
+  const nm32 = ['Desert Viper', 'Black Mamba', 'Peacekeeper', 'The Ambassador',
+    'Oathkeeper', 'Due Diligence', 'Boomer', 'Bulldog', 'Valkyrie',
+    'Vengeance', 'Rattlesnake', 'Thunder', 'Big Daddy', 'The Punisher',
+    'The Judge'];
   const rnd1 = Math.floor(Math.random() * nm1.length);
   if (rnd1 < 8) {}
   const rnd2 = Math.floor(Math.random() * nm2.length);

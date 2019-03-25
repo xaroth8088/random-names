@@ -3,20 +3,27 @@ export default function gorgons() {
   let rnd;
   let rnd2;
   let rnd3;
-  let rnd;
-  let rnd2;
-  let rnd3;
   let rnd4;
   let rnd5;
-  let
-    rnd6;
-  let names;
+  let rnd6;
   const type = Math.random() > 0.5 ? 0 : 1;
-  const nm1 = ['ch', 'chr', 'd', 'h', 'k', 'm', 'n', 'ph', 'r', 'sth', 'th', 'x', 'v', 'z'];
-  const nm2 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'y', 'a', 'e', 'i', 'o', 'u', 'y', 'eia', 'ei', 'eu', 'ae', 'ya', 'ai', 'ia'];
-  const nm3 = ['d', 'l', 'm', 'n', 'r', 's', 'x', 'v', 'z', 'd', 'l', 'm', 'n', 'r', 's', 'x', 'v', 'z', 'd', 'l', 'm', 'n', 'r', 's', 'x', 'v', 'z', 'dn', 'dr', 'gg', 'gn', 'kt', 'lc', 'ld', 'mbr', 'nc', 'ndr', 'nt', 'nth', 'rd', 'rl', 'rr', 'sc', 'sd', 'sn', 'sp', 'st', 'str', 'th', 'tt'];
+  const nm1 = ['ch', 'chr', 'd', 'h', 'k', 'm', 'n', 'ph', 'r', 'sth', 'th',
+    'x', 'v', 'z'];
+  const nm2 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i',
+    'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i',
+    'o', 'u', 'a', 'e', 'i', 'o', 'u', 'y', 'a', 'e', 'i', 'o', 'u', 'y',
+    'eia', 'ei', 'eu', 'ae', 'ya', 'ai', 'ia'];
+  const nm3 = ['d', 'l', 'm', 'n', 'r', 's', 'x', 'v', 'z', 'd', 'l', 'm', 'n',
+    'r', 's', 'x', 'v', 'z', 'd', 'l', 'm', 'n', 'r', 's', 'x', 'v', 'z',
+    'dn', 'dr', 'gg', 'gn', 'kt', 'lc', 'ld', 'mbr', 'nc', 'ndr', 'nt', 'nth',
+    'rd', 'rl', 'rr', 'sc', 'sd', 'sn', 'sp', 'st', 'str', 'th', 'tt'];
   const nm4 = ['a', 'e', 'o', 'a', 'e', 'o', 'a', 'e', 'o', 'ea', 'ia', 'y'];
-  const nm5 = ['aemon', 'aenon', 'aeon', 'aestus', 'aeus', 'agos', 'aios', 'anes', 'anos', 'antos', 'aon', 'arus', 'as', 'ates', 'atos', 'aumas', 'eas', 'eidon', 'er', 'erion', 'erus', 'es', 'etheus', 'etus', 'eus', 'ias', 'ibos', 'ion', 'ios', 'is', 'iton', 'ius', 'o', 'oeis', 'oeus', 'olus', 'on', 'onos', 'or', 'os', 'oteus', 'otos', 'otus', 'ous', 'us', 'yrus', 'ys', 'ytion'];
+  const nm5 = ['aemon', 'aenon', 'aeon', 'aestus', 'aeus', 'agos', 'aios',
+    'anes', 'anos', 'antos', 'aon', 'arus', 'as', 'ates', 'atos', 'aumas',
+    'eas', 'eidon', 'er', 'erion', 'erus', 'es', 'etheus', 'etus', 'eus',
+    'ias', 'ibos', 'ion', 'ios', 'is', 'iton', 'ius', 'o', 'oeis', 'oeus',
+    'olus', 'on', 'onos', 'or', 'os', 'oteus', 'otos', 'otus', 'ous', 'us',
+    'yrus', 'ys', 'ytion'];
   const i = Math.floor(Math.random() * 10); {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm1.length);
@@ -33,7 +40,8 @@ export default function gorgons() {
             rnd5 = Math.floor(Math.random() * nm3.length);
           }
         }
-        names = nm1[rnd] + nm2[rnd2] + nm3[rnd3] + nm2[rnd6] + nm3[rnd5] + nm4[rnd4];
+        names = nm1[rnd] + nm2[rnd2] + nm3[rnd3] + nm2[rnd6] + nm3[rnd5] + nm4[
+          rnd4];
       }
     } else {
       rnd = Math.floor(Math.random() * nm1.length);

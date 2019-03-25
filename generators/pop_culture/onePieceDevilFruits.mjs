@@ -1,8 +1,6 @@
 export default function onePieceDevilFruits() {
   let names;
   let rnd;
-  let rnd;
-  let names;
   const nm1 = [
     ['Ame', 'Rain'],
     ['Arashi', 'Storm'],

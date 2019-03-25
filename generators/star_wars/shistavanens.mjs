@@ -4,31 +4,38 @@ export default function shistavanens() {
   let rnd;
   let rnd2;
   let rnd3;
-  let rnd;
-  let rnd2;
-  let rnd3;
   let rnd4;
   let rnd5;
   let rnd7;
   let rnd8;
-  let
-    rnd9;
+  let rnd9;
   let rnd10;
-  let
-    rnd11;
-  let names;
+  let rnd11;
   const type = Math.random() > 0.5 ? 0 : 1;
-  const nm1 = ['b', 'bl', 'c', 'd', 'g', 'h', 'k', 'l', 'm', 'n', 'phl', 'r', 's', 't', 'v', 'y'];
-  const nm2 = ['a', 'e', 'i', 'o', 'u', 'u', 'o', 'a', 'a', 'e', 'i', 'o', 'u', 'u', 'o', 'a', 'oo', 'aa', 'uu'];
-  const nm3 = ['cv', 'cd', 'dv', 'dr', 'd', 'dd', 'gv', 'gr', 'gg', 'g', 'gn', 'k', 'kk', 'kv', 'kl', 'kr', 'kt', 'kd', 'lv', 'lr', 'mr', 'mv', 'nv', 'nr', 'nd', 'ndr', 'nst', 'r', 'rd', 'rt', 'vr', 'v', 'vr', 'vg', 'vgr', 'vd'];
-  const nm4 = ['', 'c', 'd', 'f', 'gg', 'k', 'l', 'm', 'n', 'q', 'r', 's', 'tt', 'v', 'z'];
-  const nm5 = ['c', 'd', 'f', 'g', 'h', 'k', 'l', 'm', 'n', 'r', 's', 'sh', 't', 'th', 'v', 'z'];
+  const nm1 = ['b', 'bl', 'c', 'd', 'g', 'h', 'k', 'l', 'm', 'n', 'phl', 'r',
+    's', 't', 'v', 'y'];
+  const nm2 = ['a', 'e', 'i', 'o', 'u', 'u', 'o', 'a', 'a', 'e', 'i', 'o', 'u',
+    'u', 'o', 'a', 'oo', 'aa', 'uu'];
+  const nm3 = ['cv', 'cd', 'dv', 'dr', 'd', 'dd', 'gv', 'gr', 'gg', 'g', 'gn',
+    'k', 'kk', 'kv', 'kl', 'kr', 'kt', 'kd', 'lv', 'lr', 'mr', 'mv', 'nv',
+    'nr', 'nd', 'ndr', 'nst', 'r', 'rd', 'rt', 'vr', 'v', 'vr', 'vg', 'vgr',
+    'vd'];
+  const nm4 = ['', 'c', 'd', 'f', 'gg', 'k', 'l', 'm', 'n', 'q', 'r', 's', 'tt',
+    'v', 'z'];
+  const nm5 = ['c', 'd', 'f', 'g', 'h', 'k', 'l', 'm', 'n', 'r', 's', 'sh', 't',
+    'th', 'v', 'z'];
   const nm6 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'ae', 'ea', 'ie'];
-  const nm8 = ['c', 'f', 'ft', 'l', 'm', 'n', 'nn', 'r', 's', 'sh', 't', 'v', 'z'];
-  const nm9 = ['b', 'br', 'c', 'cr', 'd', 'dr', 'dh', 'f', 'g', 'gr', 'k', 'kr', 'l', 'm', 'n', 'r', 's', 'sh', 'shr', 's', 'v', 'z'];
-  const nm10 = ['a', 'e', 'i', 'o', 'u', 'a', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'o', 'u', 'ie', 'oa', 'ae', 'oo', 'aa'];
-  const nm11 = ['c', 'd', 'dr', 'dv', 'h', 'hr', 'hx', 'hv', 'kv', 'kr', 'kd', 'n', 'r', 'rr', 'v', 'vr', 'vg', 'x', 'z'];
-  const nm12 = ['', 'c', 'd', 'ft', 'g', 'k', 'l', 'm', 'n', 'nn', 'p', 'q', 'r', 'rr', 't', 'v', 'vl'];
+  const nm8 = ['c', 'f', 'ft', 'l', 'm', 'n', 'nn', 'r', 's', 'sh', 't', 'v',
+    'z'];
+  const nm9 = ['b', 'br', 'c', 'cr', 'd', 'dr', 'dh', 'f', 'g', 'gr', 'k', 'kr',
+    'l', 'm', 'n', 'r', 's', 'sh', 'shr', 's', 'v', 'z'];
+  const nm10 = ['a', 'e', 'i', 'o', 'u', 'a', 'o', 'u', 'a', 'e', 'i', 'o', 'u',
+    'a', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'o', 'u', 'a', 'e', 'i', 'o',
+    'u', 'a', 'o', 'u', 'ie', 'oa', 'ae', 'oo', 'aa'];
+  const nm11 = ['c', 'd', 'dr', 'dv', 'h', 'hr', 'hx', 'hv', 'kv', 'kr', 'kd',
+    'n', 'r', 'rr', 'v', 'vr', 'vg', 'x', 'z'];
+  const nm12 = ['', 'c', 'd', 'ft', 'g', 'k', 'l', 'm', 'n', 'nn', 'p', 'q',
+    'r', 'rr', 't', 'v', 'vl'];
   const i = Math.floor(Math.random() * 10); {
     rnd7 = Math.floor(Math.random() * nm9.length);
     rnd8 = Math.floor(Math.random() * nm10.length);
@@ -41,7 +48,8 @@ export default function shistavanens() {
     } else {
       rnd9 = Math.floor(Math.random() * nm10.length);
       rnd11 = Math.floor(Math.random() * nm11.length);
-      namelast = nm9[rnd7] + nm10[rnd8] + nm11[rnd11] + nm10[rnd9] + nm12[rnd10];
+      namelast = nm9[rnd7] + nm10[rnd8] + nm11[rnd11] + nm10[rnd9] + nm12[
+        rnd10];
     }
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm5.length);

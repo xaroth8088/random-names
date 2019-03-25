@@ -1,14 +1,16 @@
 export default function geths() {
   let names;
   let rnd;
-  let rnd;
   let rnd0;
-  let
-    rnd1;
-  let names;
-  const names1 = ['Unit', 'Platform', 'Mod', 'System', 'SysMod', 'GU', 'G-Unit', 'Geth-Unit', 'Module'];
+  let rnd1;
+  const names1 = ['Unit', 'Platform', 'Mod', 'System', 'SysMod', 'GU', 'G-Unit',
+    'Geth-Unit', 'Module'];
   const names3 = ['a', 'b', 'c', 'e', 's', 'x'];
-  const names4 = ['Armada', 'Batallion', 'Alpha', 'Omega', 'Myriad', 'Sundry', 'Horde', 'Brigade', 'Phalanx', 'Host', 'Enigma', 'Terminus', 'Prophet', 'Genesis', 'Dawn', 'Oracle', 'Anomaly', 'Centurion', 'Obelisk', 'Pinnacle', 'Goliath', 'Apex', 'Vortex', 'Vertex', 'Armageddon', 'Oblivion', 'Eternity', 'Daemon', 'Demise', 'Destiny'];
+  const names4 = ['Armada', 'Batallion', 'Alpha', 'Omega', 'Myriad', 'Sundry',
+    'Horde', 'Brigade', 'Phalanx', 'Host', 'Enigma', 'Terminus', 'Prophet',
+    'Genesis', 'Dawn', 'Oracle', 'Anomaly', 'Centurion', 'Obelisk',
+    'Pinnacle', 'Goliath', 'Apex', 'Vortex', 'Vertex', 'Armageddon',
+    'Oblivion', 'Eternity', 'Daemon', 'Demise', 'Destiny'];
   const i = Math.floor(Math.random() * 10); {
     if (i < 6) {
       rnd = Math.floor(Math.random() * names1.length);

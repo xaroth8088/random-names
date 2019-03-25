@@ -4,26 +4,29 @@ export default function gotals() {
   let rnd;
   let rnd2;
   let rnd3;
-  let rnd;
-  let rnd2;
-  let rnd3;
   let rnd4;
   let rnd5;
   let rnd6;
   let rnd7;
   let rnd8;
-  let
-    rnd9;
+  let rnd9;
   let rnd11;
-  let names;
-  const nm1 = ['f', 'gl', 'h', 'j', 'k', 'l', 'm', 'n', 's', 't', 'th', 'v', 'vl', 'z'];
-  const nm2 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'au', 'aa', 'uu', 'ee'];
-  const nm3 = ['\'h', 'hs', 'h\'sh', 'h\'l', 'hx', 'hk', 'hk\'kh', '\'k', 'k', 'kh', '\'kh', '\'l', 'lt', 'p', 'ph', 'r\'ph', 'r', '\'r', 'r\'l', 'rl', 'sk', 's\'kh', 's\'m', 'sl', 'shn', 'sh\'n', 'sh\'m', 'sz', 'shm', 't', 't\'m', 'tm', 'tn', 'tl', 't\'n', 'xs', 'xz'];
+  const nm1 = ['f', 'gl', 'h', 'j', 'k', 'l', 'm', 'n', 's', 't', 'th', 'v',
+    'vl', 'z'];
+  const nm2 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i',
+    'o', 'u', 'a', 'e', 'i', 'o', 'u', 'au', 'aa', 'uu', 'ee'];
+  const nm3 = ['\'h', 'hs', 'h\'sh', 'h\'l', 'hx', 'hk', 'hk\'kh', '\'k', 'k',
+    'kh', '\'kh', '\'l', 'lt', 'p', 'ph', 'r\'ph', 'r', '\'r', 'r\'l', 'rl',
+    'sk', 's\'kh', 's\'m', 'sl', 'shn', 'sh\'n', 'sh\'m', 'sz', 'shm', 't',
+    't\'m', 'tm', 'tn', 'tl', 't\'n', 'xs', 'xz'];
   const nm4 = ['c', 'k', 'l', 'm', 'n', 's', 'sh', 'r', 'rn', 'tt', 'th', 'x'];
-  const nm5 = ['g', 'gr', 'j', 'k', 'kr', 'kl', 'm', 'n', 'r', 's', 'tr', 'v', 'z'];
+  const nm5 = ['g', 'gr', 'j', 'k', 'kr', 'kl', 'm', 'n', 'r', 's', 'tr', 'v',
+    'z'];
   const nm6 = ['a', 'e', 'i', 'o', 'u'];
-  const nm7 = ['hs', 'hx', 'k', 'kh', 'l', 'll', 'r', 'rr', 'rl', 'rs', 's', 'ss', 'sl', 'sk', 'sh', 'sm', 'st', 't', 'th', 'tl', 'v', 'x', 'z'];
-  const nm8 = ['c', 'gg', 'gh', 'l', 'm', 'n', 'nth', 'r', 'rn', 'rk', 'ss', 't', 'th', 'x'];
+  const nm7 = ['hs', 'hx', 'k', 'kh', 'l', 'll', 'r', 'rr', 'rl', 'rs', 's',
+    'ss', 'sl', 'sk', 'sh', 'sm', 'st', 't', 'th', 'tl', 'v', 'x', 'z'];
+  const nm8 = ['c', 'gg', 'gh', 'l', 'm', 'n', 'nth', 'r', 'rn', 'rk', 'ss',
+    't', 'th', 'x'];
   const i = Math.floor(Math.random() * 10); {
     rnd6 = Math.floor(Math.random() * nm5.length);
     rnd7 = Math.floor(Math.random() * nm6.length);

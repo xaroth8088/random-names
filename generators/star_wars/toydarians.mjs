@@ -4,28 +4,36 @@ export default function toydarians() {
   let rnd;
   let rnd2;
   let rnd3;
-  let rnd;
-  let rnd2;
-  let rnd3;
   let rnd4;
   let rnd5;
   let rnd6;
   let rnd7;
   let rnd8;
-  let
-    rnd9;
+  let rnd9;
   let rnd10;
-  let names;
   const type = Math.random() > 0.5 ? 0 : 1;
-  const nm1 = ['', '', '', '', '', 'b', 'br', 'd', 'dr', 'f', 'g', 'gl', 'k', 'l', 'm', 'n', 'p', 'q', 'r', 't', 'v', 'w', 'z', 'zl'];
-  const nm2 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'oo', 'ua', 'uu', 'ue', 'ey', 'oy'];
-  const nm3 = ['b', 'bb', 'd', 'dd', 'f', 'g', 'gg', 'll', 'm', 'mg', 'mr', 'mt', 'n', 'ng', 'nd', 'nk', 'nm', 'pp', 'r', 'rg', 'rd', 'rf', 'rp', 'rr', 'rt', 'ssc', 'ss', 'sg', 'sc', 'st', 't', 'tt', 'tw'];
-  const nm4 = ['', '', '', '', '', '', '', '', 'b', 'bb', 'd', 'g', 'l', 'lg', 'm', 'n'];
-  const nm5 = ['b', 'd', 'f', 'g', 'k', 'l', 'm', 'n', 'q', 'r', 's', 't', 'v', 'w', 'z'];
+  const nm1 = ['', '', '', '', '', 'b', 'br', 'd', 'dr', 'f', 'g', 'gl', 'k',
+    'l', 'm', 'n', 'p', 'q', 'r', 't', 'v', 'w', 'z', 'zl'];
+  const nm2 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i',
+    'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i',
+    'o', 'u', 'a', 'e', 'i', 'o', 'u', 'oo', 'ua', 'uu', 'ue', 'ey', 'oy'];
+  const nm3 = ['b', 'bb', 'd', 'dd', 'f', 'g', 'gg', 'll', 'm', 'mg', 'mr',
+    'mt', 'n', 'ng', 'nd', 'nk', 'nm', 'pp', 'r', 'rg', 'rd', 'rf', 'rp',
+    'rr', 'rt', 'ssc', 'ss', 'sg', 'sc', 'st', 't', 'tt', 'tw'];
+  const nm4 = ['', '', '', '', '', '', '', '', 'b', 'bb', 'd', 'g', 'l', 'lg',
+    'm', 'n'];
+  const nm5 = ['b', 'd', 'f', 'g', 'k', 'l', 'm', 'n', 'q', 'r', 's', 't', 'v',
+    'w', 'z'];
   const nm6 = ['a', 'e', 'i', 'o', 'u'];
-  const nm7 = ['b', 'bb', 'bl', 'd', 'dl', 'f', 'ff', 'fl', 'fn', 'fm', 'ffl', 'g', 'gg', 'gl', 'gm', 'gn', 'l', 'll', 'lb', 'ld', 'lt', 'm', 'mt', 'md', 'n', 'nt', 'nl', 'p', 'pp', 'r', 'rr', 'rg', 'rl', 'rt', 'rz', 'rb', 's', 'ss', 'sg', 'st', 'sl', 'sb', 'tt', 't', 'tl', 'tr', 'v', 'z'];
-  const nm9 = ['b', 'd', 'f', 'g', 'k', 'l', 'm', 'n', 'p', 'q', 'r', 's', 't', 'v', 'w', 'z'];
-  const nm10 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'aa', 'uu', 'oo'];
+  const nm7 = ['b', 'bb', 'bl', 'd', 'dl', 'f', 'ff', 'fl', 'fn', 'fm', 'ffl',
+    'g', 'gg', 'gl', 'gm', 'gn', 'l', 'll', 'lb', 'ld', 'lt', 'm', 'mt', 'md',
+    'n', 'nt', 'nl', 'p', 'pp', 'r', 'rr', 'rg', 'rl', 'rt', 'rz', 'rb', 's',
+    'ss', 'sg', 'st', 'sl', 'sb', 'tt', 't', 'tl', 'tr', 'v', 'z'];
+  const nm9 = ['b', 'd', 'f', 'g', 'k', 'l', 'm', 'n', 'p', 'q', 'r', 's', 't',
+    'v', 'w', 'z'];
+  const nm10 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i',
+    'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'aa', 'uu',
+    'oo'];
   const nm11 = ['b', 'bb', 'd', 'g', 'l', 'lg', 'm', 'n'];
   const i = Math.floor(Math.random() * 10); {
     rnd7 = Math.floor(Math.random() * nm9.length);

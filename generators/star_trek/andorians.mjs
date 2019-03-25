@@ -1,8 +1,4 @@
 export default function andorians() {
-  let names;
-  let rnd;
-  let rnd2;
-  let rnd3;
   let rnd;
   let rnd2;
   let rnd3;
@@ -11,13 +7,11 @@ export default function andorians() {
   let rnd6;
   let rnd7;
   let rnd8;
-  let
-    rnd9;
+  let rnd9;
   let rnd10;
   let rnd11;
   let rnd12;
-  let
-    rnd13;
+  let rnd13;
   let names;
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['a', 'e', 'o', 'i', '', '', '', '', '', '', ''];
@@ -27,14 +21,18 @@ export default function andorians() {
   const nm5 = ['a', 'e', 'o', 'i', 'ia', 'ao', 'aa'];
   const nm6 = ['Th\'', 'Ch\''];
   const nm7 = ['Sh\'', 'Zh\''];
-  const nm8 = ['zh', 'sh', 'th', 'z', 'v', 'rh', 'shr', 'vh', 'k', 't', 'r', 'ch', 'q'];
+  const nm8 = ['zh', 'sh', 'th', 'z', 'v', 'rh', 'shr', 'vh', 'k', 't', 'r',
+    'ch', 'q'];
   const nm9 = ['a', 'e', 'o', 'i', 'y', 'ao', 'ia', 'aa'];
-  const nm10 = ['r', 'l', 'v', 'n', 'th', 'hr', 'hl', 'nn', 'rh', 'lr', 'sr', 'kr', 'tr', 'ln', 'thr', 'q', 'll', 'rr'];
+  const nm10 = ['r', 'l', 'v', 'n', 'th', 'hr', 'hl', 'nn', 'rh', 'lr', 'sr',
+    'kr', 'tr', 'ln', 'thr', 'q', 'll', 'rr'];
   const nm11 = ['a', 'e', 'o', 'i'];
   const nm12 = ['th', 's', 'ss', 'n', 't', 'r', 'hr', 'rh', 'l', 'k', 'q'];
   const nm13 = ['vr', 'thr', 'v', 'jh', 'p', 't', 'th', 's', 'shr', 's', 'z'];
-  const nm14 = ['th', 'r', 'm', 'ss', 'v', 'l', 'll', 'r', 'z', 't', 'tt', 'sh'];
-  const nm15 = ['h', 's', 'l', 'ss', 'n', 't', 'th', 'sh', '', '', '', '', '', '', '', '', '', '', '', '', ''];
+  const nm14 = ['th', 'r', 'm', 'ss', 'v', 'l', 'll', 'r', 'z', 't', 'tt',
+    'sh'];
+  const nm15 = ['h', 's', 'l', 'ss', 'n', 't', 'th', 'sh', '', '', '', '', '',
+    '', '', '', '', '', '', '', ''];
   const i = Math.floor(Math.random() * 10); {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm1.length);

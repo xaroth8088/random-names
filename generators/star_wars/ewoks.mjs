@@ -4,29 +4,31 @@ export default function ewoks() {
   let rnd;
   let rnd2;
   let rnd3;
-  let rnd;
-  let rnd2;
-  let rnd3;
   let rnd4;
   let rnd5;
   let rnd6;
   let rnd7;
   let rnd8;
-  let
-    rnd9;
+  let rnd9;
   let rnd10;
-  let
-    rnd11;
-  let names;
+  let rnd11;
   const type = Math.random() > 0.5 ? 0 : 1;
-  const nm1 = ['', '', 'b', 'ch', 'c', 'd', 'gr', 'g', 'k', 'kr', 'l', 'm', 'n', 'p', 'r', 't', 'tr', 'w'];
-  const nm2 = ['a', 'e', 'i', 'a', 'e', 'i', 'a', 'e', 'i', 'a', 'e', 'i', 'ee', 'oo', 'aa', 'y'];
-  const nm3 = ['b', 'ck', 'd', 'dr', 'gr', 'gl', 'g', 'k', 'kk', 'l', 'll', 'm', 'n', 'pl', 'rf', 'rp', 'rph', 'rr', 'st', 'str'];
-  const nm4 = ['', '', '', '', '', '', 'c', 'ck', 'k', 'l', 'm', 'n', 'ng', 't'];
-  const nm5 = ['', '', 'b', 'ch', 'd', 'f', 'g', 'gl', 'gn', 'k', 'kn', 'l', 'm', 'n', 'p', 'r', 't', 'tr'];
-  const nm6 = ['ck', 'd', 'gr', 'gl', 'gn', 'k', 'l', 'll', 'm', 'n', 'p', 'pr', 'r', 'rph', 'rp', 'rr', 's', 'sh', 'st', 't', 'zz'];
-  const nm7 = ['b', 'd', 'f', 'g', 'gr', 'gl', 'j', 'k', 'kr', 'l', 'm', 'n', 'r', 't', 'tr', 'w', 'z'];
-  const nm8 = ['dr', 'dd', 'gr', 'k', 'kk', 'l', 'll', 'lr', 'm', 'mr', 'mn', 'n', 'nr', 'nl', 'nt', 'r', 'rr', 'rl', 'st', 'str'];
+  const nm1 = ['', '', 'b', 'ch', 'c', 'd', 'gr', 'g', 'k', 'kr', 'l', 'm', 'n',
+    'p', 'r', 't', 'tr', 'w'];
+  const nm2 = ['a', 'e', 'i', 'a', 'e', 'i', 'a', 'e', 'i', 'a', 'e', 'i', 'ee',
+    'oo', 'aa', 'y'];
+  const nm3 = ['b', 'ck', 'd', 'dr', 'gr', 'gl', 'g', 'k', 'kk', 'l', 'll', 'm',
+    'n', 'pl', 'rf', 'rp', 'rph', 'rr', 'st', 'str'];
+  const nm4 = ['', '', '', '', '', '', 'c', 'ck', 'k', 'l', 'm', 'n', 'ng',
+    't'];
+  const nm5 = ['', '', 'b', 'ch', 'd', 'f', 'g', 'gl', 'gn', 'k', 'kn', 'l',
+    'm', 'n', 'p', 'r', 't', 'tr'];
+  const nm6 = ['ck', 'd', 'gr', 'gl', 'gn', 'k', 'l', 'll', 'm', 'n', 'p', 'pr',
+    'r', 'rph', 'rp', 'rr', 's', 'sh', 'st', 't', 'zz'];
+  const nm7 = ['b', 'd', 'f', 'g', 'gr', 'gl', 'j', 'k', 'kr', 'l', 'm', 'n',
+    'r', 't', 'tr', 'w', 'z'];
+  const nm8 = ['dr', 'dd', 'gr', 'k', 'kk', 'l', 'll', 'lr', 'm', 'mr', 'mn',
+    'n', 'nr', 'nl', 'nt', 'r', 'rr', 'rl', 'st', 'str'];
   const nm9 = ['c', 'ck', 'k', 'l', 'm', 'n', 'ng', 't'];
   const i = Math.floor(Math.random() * 10); {
     rnd6 = Math.floor(Math.random() * nm7.length);
@@ -39,7 +41,8 @@ export default function ewoks() {
     } else {
       rnd9 = Math.floor(Math.random() * nm8.length);
       rnd11 = Math.floor(Math.random() * nm2.length);
-      namelast = nm7[rnd6] + nm2[rnd7] + nm8[rnd8] + nm2[rnd10] + nm8[rnd9] + nm2[rnd11];
+      namelast = nm7[rnd6] + nm2[rnd7] + nm8[rnd8] + nm2[rnd10] + nm8[rnd9]
+        + nm2[rnd11];
     }
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm5.length);

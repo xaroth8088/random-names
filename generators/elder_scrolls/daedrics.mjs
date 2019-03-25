@@ -3,24 +3,48 @@ export default function daedrics() {
   let rnd;
   let rnd2;
   let rnd3;
-  let rnd;
-  let rnd2;
-  let rnd3;
   let rnd4;
-  let
-    rnd5;
-  let names;
-  const nm1 = ['b', 'br', 'c', 'cr', 'ch', 'd', 'dr', 'g', 'gr', 'j', 'k', 'kr', 'kn', 'km', 'p', 'pr', 'q', 'qr', 'r', 'st', 'str', 't', 'tr', 'v', 'vr', 'w', 'wr', 'x', 'z', 'zr', '', '', '', '', ''];
-  const nm2 = ['a', 'e', 'i', 'o', 'u', 'y', 'au', 'ou', 'ei', 'uy', 'oe', 'ua', 'ue', 'uo', 'a', 'e', 'i', 'o', 'u', 'y'];
-  const nm3 = ['b', 'c', 'd', 'g', 'j', 'k', 'l', 'm', 'p', 'q', 'r', 's', 't', 'v', 'w', 'x', 'z', 'br', 'cr', 'dr', 'gr', 'kr', 'km', 'pr', 'qr', 'st', 'tr', 'xx', 'g', 'q\'', 'k\'', 'rr', 'r\'', 't\'', 'tt', 'vv', 'v\'', 'x\'', 'z\'', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', ''];
+  let rnd5;
+  const nm1 = ['b', 'br', 'c', 'cr', 'ch', 'd', 'dr', 'g', 'gr', 'j', 'k', 'kr',
+    'kn', 'km', 'p', 'pr', 'q', 'qr', 'r', 'st', 'str', 't', 'tr', 'v', 'vr',
+    'w', 'wr', 'x', 'z', 'zr', '', '', '', '', ''];
+  const nm2 = ['a', 'e', 'i', 'o', 'u', 'y', 'au', 'ou', 'ei', 'uy', 'oe', 'ua',
+    'ue', 'uo', 'a', 'e', 'i', 'o', 'u', 'y'];
+  const nm3 = ['b', 'c', 'd', 'g', 'j', 'k', 'l', 'm', 'p', 'q', 'r', 's', 't',
+    'v', 'w', 'x', 'z', 'br', 'cr', 'dr', 'gr', 'kr', 'km', 'pr', 'qr', 'st',
+    'tr', 'xx', 'g', 'q\'', 'k\'', 'rr', 'r\'', 't\'', 'tt', 'vv', 'v\'',
+    'x\'', 'z\'', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
+    '', ''];
   const nm4 = ['a', 'e', 'i', 'o', 'u', '', '', '', '', '', ''];
-  const nm5 = ['ag', 'ah', 'al', 'ala', 'alag', 'ath', 'bal', 'cath', 'cius', 'cus', 'dea', 'dia', 'hala', 'icus', 'ina', 'ine', 'ira', 'ite', 'lag', 'maeus', 'mina', 'nal', 'nes', 'oth', 'rath', 'roth', 'unes', 'ura', 'us', 'vus', 'yite'];
-  const nm6 = ['b', 'bl', 'c', 'cl', 'ch', 'd', 'f', 'fr', 'fl', 'g', 'gl', 'gn', 'h', 'kl', 'kn', 'm', 'n', 'p', 'pl', 'ph', 'q', 'ql', 's', 'st', 'sl', 't', 'v', 'vl', 'w', 'z', '', '', '', '', ''];
-  const nm7 = ['a', 'e', 'i', 'o', 'u', 'y', 'ae', 'ea', 'eo', 'oe', 'ie', 'ue', 'ua', 'a', 'e', 'i', 'o', 'u', 'y'];
-  const nm8 = ['b', 'c', 'f', 'g', 'h', 'k', 'l', 'm', 'n', 'p', 'q', 'r', 's', 'w', 'bb', 'bl', 'ff', 'fl', 'gl', 'gn', 'hh', 'hs', 'hl', 'hn', 'hm', 'ks', 'll', 'lh', 'kh', 'bh', 'ch', 'dh', 'lm', 'ln', 'lf', 'mm', 'mn', 'ms', 'nn', 'ns', 'p', 'ph', 'ps', 'rf', 'ss', 'st', 'sh', 'th', 'ts', 's\'', 'l\'', 'n\'', 'm\'', 'f\'', 'h\''];
+  const nm5 = ['ag', 'ah', 'al', 'ala', 'alag', 'ath', 'bal', 'cath', 'cius',
+    'cus', 'dea', 'dia', 'hala', 'icus', 'ina', 'ine', 'ira', 'ite', 'lag',
+    'maeus', 'mina', 'nal', 'nes', 'oth', 'rath', 'roth', 'unes', 'ura', 'us',
+    'vus', 'yite'];
+  const nm6 = ['b', 'bl', 'c', 'cl', 'ch', 'd', 'f', 'fr', 'fl', 'g', 'gl',
+    'gn', 'h', 'kl', 'kn', 'm', 'n', 'p', 'pl', 'ph', 'q', 'ql', 's', 'st',
+    'sl', 't', 'v', 'vl', 'w', 'z', '', '', '', '', ''];
+  const nm7 = ['a', 'e', 'i', 'o', 'u', 'y', 'ae', 'ea', 'eo', 'oe', 'ie', 'ue',
+    'ua', 'a', 'e', 'i', 'o', 'u', 'y'];
+  const nm8 = ['b', 'c', 'f', 'g', 'h', 'k', 'l', 'm', 'n', 'p', 'q', 'r', 's',
+    'w', 'bb', 'bl', 'ff', 'fl', 'gl', 'gn', 'hh', 'hs', 'hl', 'hn', 'hm',
+    'ks', 'll', 'lh', 'kh', 'bh', 'ch', 'dh', 'lm', 'ln', 'lf', 'mm', 'mn',
+    'ms', 'nn', 'ns', 'p', 'ph', 'ps', 'rf', 'ss', 'st', 'sh', 'th', 'ts',
+    's\'', 'l\'', 'n\'', 'm\'', 'f\'', 'h\''];
   const nm9 = ['a', 'e', 'i', 'o', 'u', 'y', '', '', '', '', '', ''];
-  const nm10 = ['ag', 'ah', 'al', 'ala', 'alag', 'ath', 'bal', 'cath', 'cius', 'cus', 'dea', 'dia', 'hala', 'icus', 'ina', 'ine', 'ira', 'ite', 'lag', 'maeus', 'mina', 'nal', 'nes', 'oth', 'rath', 'roth', 'unes', 'ura', 'us', 'vus', 'yite'];
-  const nm11 = ['Insomnia', 'Lunacy', 'Luna', 'Mania', 'Phobia', 'Luna', 'Solar', 'Dementia', 'Hysteria', 'Delirium', 'Pedigree', 'Bane', 'Anathema', 'Grace', 'Hope', 'Malison', 'Misery', 'Blight', 'Poison', 'Venom', 'Calamity', 'Malificent', 'Sinister', 'Grim', 'Gloom', 'Dire', 'Malign', 'Malefic', 'Joy', 'Nova', 'Misty', 'Dusk', 'Dawn', 'Twilight', 'Rogue', 'Ominous', 'Vile', 'Nefarious', 'Melancholy', 'Saturnine', 'Solemn', 'Glum', 'Austere', 'Morose', 'Surly', 'Brusque', 'Gruff', 'Demise', 'Necrosis', 'Silence', 'Enigma', 'Virulence', 'Spite', 'Malign', 'Storm', 'Serene', 'Harmony', 'Strife', 'Striker', 'Sloth', 'Drowsy', 'Supine', 'Laggard'];
+  const nm10 = ['ag', 'ah', 'al', 'ala', 'alag', 'ath', 'bal', 'cath', 'cius',
+    'cus', 'dea', 'dia', 'hala', 'icus', 'ina', 'ine', 'ira', 'ite', 'lag',
+    'maeus', 'mina', 'nal', 'nes', 'oth', 'rath', 'roth', 'unes', 'ura', 'us',
+    'vus', 'yite'];
+  const nm11 = ['Insomnia', 'Lunacy', 'Luna', 'Mania', 'Phobia', 'Luna',
+    'Solar', 'Dementia', 'Hysteria', 'Delirium', 'Pedigree', 'Bane',
+    'Anathema', 'Grace', 'Hope', 'Malison', 'Misery', 'Blight', 'Poison',
+    'Venom', 'Calamity', 'Malificent', 'Sinister', 'Grim', 'Gloom', 'Dire',
+    'Malign', 'Malefic', 'Joy', 'Nova', 'Misty', 'Dusk', 'Dawn', 'Twilight',
+    'Rogue', 'Ominous', 'Vile', 'Nefarious', 'Melancholy', 'Saturnine',
+    'Solemn', 'Glum', 'Austere', 'Morose', 'Surly', 'Brusque', 'Gruff',
+    'Demise', 'Necrosis', 'Silence', 'Enigma', 'Virulence', 'Spite', 'Malign',
+    'Storm', 'Serene', 'Harmony', 'Strife', 'Striker', 'Sloth', 'Drowsy',
+    'Supine', 'Laggard'];
   const i = Math.floor(Math.random() * 10); {
     if (i < 4) {
       rnd = Math.floor(Math.random() * nm1.length);

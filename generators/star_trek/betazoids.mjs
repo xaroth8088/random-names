@@ -3,38 +3,40 @@ export default function betazoids() {
   let rnd;
   let rnd2;
   let rnd3;
-  let rnd;
-  let rnd2;
-  let rnd3;
   let rnd4;
   let rnd5;
   let rnd6;
   let rnd7;
   let rnd8;
-  let
-    rnd9;
+  let rnd9;
   let rnd10;
   let rnd11;
-  let
-    rnd12;
-  let names;
+  let rnd12;
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['a', 'e', 'i', 'o', 'u', '', '', '', '', '', ''];
   const nm2 = ['b', 'c', 'd', 'g', 'k', 'l', 'm', 'n', 'r', 's', 't'];
   const nm3 = ['a', 'e', 'i', 'o', 'u', 'ei', 'aa', 'oa'];
-  const nm4 = ['b', 'c', 'd', 'g', 'k', 'l', 'm', 'n', 'r', 's', 't', 'b', 'c', 'd', 'g', 'k', 'l', 'm', 'n', 'r', 's', 't', 'br', 'cr', 'dr', 'gr', 'kr', 'mr', 'nr', 'tr', 'sb', 'sd', 'sl', 'sm', 'sn', 'sr', 'str', 'ndr', 'nd', 'ng', 'nk', 'nl', 'nt', 'tt', 'rr', 'bb', 'dd', 'gg'];
+  const nm4 = ['b', 'c', 'd', 'g', 'k', 'l', 'm', 'n', 'r', 's', 't', 'b', 'c',
+    'd', 'g', 'k', 'l', 'm', 'n', 'r', 's', 't', 'br', 'cr', 'dr', 'gr', 'kr',
+    'mr', 'nr', 'tr', 'sb', 'sd', 'sl', 'sm', 'sn', 'sr', 'str', 'ndr', 'nd',
+    'ng', 'nk', 'nl', 'nt', 'tt', 'rr', 'bb', 'dd', 'gg'];
   const nm5 = ['a', 'e', 'i', 'o', 'u'];
   const nm6 = ['m', 'n', 's', 'd', 'h', 'l'];
-  const nm7 = ['d', 'h', 'j', 'k', 'l', 'lw', 'm', 'n', 'st', 't', 'r', 'rw', 'v'];
+  const nm7 = ['d', 'h', 'j', 'k', 'l', 'lw', 'm', 'n', 'st', 't', 'r', 'rw',
+    'v'];
   const nm8 = ['a', 'e', 'i', 'o', 'u', 'ea', 'ee', 'ia'];
-  const nm9 = ['d', 'h', 'l', 'll', 'nn', 'mm', 'n', 'm', 'rr', 'r', 's', 'ss', 'str', 'v', 'vr', 'x', 'y'];
+  const nm9 = ['d', 'h', 'l', 'll', 'nn', 'mm', 'n', 'm', 'rr', 'r', 's', 'ss',
+    'str', 'v', 'vr', 'x', 'y'];
   const nm10 = ['a', 'e', 'i', 'o'];
   const nm11 = ['d', 'h', 'l', 'n', 'm', 'r', 's', 'v', 'x', 'y'];
-  const nm12 = ['t', 'h', 'w', 'n', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', ''];
+  const nm12 = ['t', 'h', 'w', 'n', '', '', '', '', '', '', '', '', '', '', '',
+    '', '', '', '', '', '', ''];
   const nm13 = ['a', 'e', 'i', 'o', 'u', '', '', '', '', '', ''];
-  const nm14 = ['b', 'd', 'g', 'h', 'k', 'm', 'n', 'r', 's', 't', 'v', 'z', 'gr', 'dr', 'tr', 'br', 'ch'];
+  const nm14 = ['b', 'd', 'g', 'h', 'k', 'm', 'n', 'r', 's', 't', 'v', 'z',
+    'gr', 'dr', 'tr', 'br', 'ch'];
   const nm15 = ['a', 'e', 'i', 'o', 'u', 'oi', 'aa', 'ea', 'ai', 'ei'];
-  const nm16 = ['b', 'c', 'd', 'g', 'k', 'l', 'lbr', 'm', 'n', 'r', 's', 'str', 't', 'v', 'x', 'z'];
+  const nm16 = ['b', 'c', 'd', 'g', 'k', 'l', 'lbr', 'm', 'n', 'r', 's', 'str',
+    't', 'v', 'x', 'z'];
   const nm17 = ['x', 'n', 'r', 'l', 'm', 'k', 'd', 't', '', '', '', '', '', ''];
   const i = Math.floor(Math.random() * 10); {
     if (type === 1) {

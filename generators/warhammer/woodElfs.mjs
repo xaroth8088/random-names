@@ -3,23 +3,28 @@ export default function woodElfs() {
   let rnd;
   let rnd2;
   let rnd3;
-  let rnd;
-  let rnd2;
-  let rnd3;
   let rnd4;
   let rnd5;
   let rnd6;
-  let
-    rnd7;
-  let names;
+  let rnd7;
   const type = Math.random() > 0.5 ? 0 : 1;
-  const nm1 = ['', '', '', 'c', 'd', 'dh', 'g', 'k', 'kh', 'sc', 'str', 't', 'th', 'tr', 'v', 'z'];
-  const nm2 = ['a', 'i', 'o', 'u', 'a', 'i', 'o', 'u', 'a', 'i', 'o', 'u', 'a', 'a', 'o', 'o', 'a', 'o', 'o', 'a', 'io', 'aa', 'ae', 'ia'];
-  const nm3 = ['c', 'd', 'k', 'l', 'r', 'c', 'd', 'k', 'l', 'r', 'c', 'cc', 'cr', 'dr', 'd', 'k', 'kk', 'lc', 'lg', 'lk', 'll', 'lt', 'lv', 'l', 'r', 'rl', 'rt', 'rc', 'rg', 'rn', 'sc', 'sr', 'st', 'sl', 'th', 'tr', 'tt', 'zc', 'zk', 'zl'];
+  const nm1 = ['', '', '', 'c', 'd', 'dh', 'g', 'k', 'kh', 'sc', 'str', 't',
+    'th', 'tr', 'v', 'z'];
+  const nm2 = ['a', 'i', 'o', 'u', 'a', 'i', 'o', 'u', 'a', 'i', 'o', 'u', 'a',
+    'a', 'o', 'o', 'a', 'o', 'o', 'a', 'io', 'aa', 'ae', 'ia'];
+  const nm3 = ['c', 'd', 'k', 'l', 'r', 'c', 'd', 'k', 'l', 'r', 'c', 'cc',
+    'cr', 'dr', 'd', 'k', 'kk', 'lc', 'lg', 'lk', 'll', 'lt', 'lv', 'l', 'r',
+    'rl', 'rt', 'rc', 'rg', 'rn', 'sc', 'sr', 'st', 'sl', 'th', 'tr', 'tt',
+    'zc', 'zk', 'zl'];
   const nm4 = ['', '', '', 'c', 'n', 's', 't', 'th'];
-  const nm5 = ['', '', '', '', '', 'd', 'dh', 'dr', 'f', 'h', 'l', 'm', 'n', 'ph', 'q', 's', 'th', 'v', 'y'];
-  const nm6 = ['a', 'e', 'i', 'y', 'a', 'e', 'i', 'y', 'a', 'e', 'i', 'y', 'a', 'e', 'a', 'a', 'e', 'e', 'ie', 'ae'];
-  const nm7 = ['c', 'cc', 'ch', 'd', 'dd', 'dr', 'h', 'hh', 'lc', 'll', 'lv', 'ls', 'lt', 'lth', 'ln', 'lm', 'l', 'n', 'nn', 'nr', 'nv', 'nd', 'ph', 'r', 'rl', 'rr', 'rv', 'rl', 's', 'ss', 'sh', 'st', 'str', 'sv', 't', 'th', 'tr', 'v'];
+  const nm5 = ['', '', '', '', '', 'd', 'dh', 'dr', 'f', 'h', 'l', 'm', 'n',
+    'ph', 'q', 's', 'th', 'v', 'y'];
+  const nm6 = ['a', 'e', 'i', 'y', 'a', 'e', 'i', 'y', 'a', 'e', 'i', 'y', 'a',
+    'e', 'a', 'a', 'e', 'e', 'ie', 'ae'];
+  const nm7 = ['c', 'cc', 'ch', 'd', 'dd', 'dr', 'h', 'hh', 'lc', 'll', 'lv',
+    'ls', 'lt', 'lth', 'ln', 'lm', 'l', 'n', 'nn', 'nr', 'nv', 'nd', 'ph',
+    'r', 'rl', 'rr', 'rv', 'rl', 's', 'ss', 'sh', 'st', 'str', 'sv', 't',
+    'th', 'tr', 'v'];
   const nm8 = ['', '', '', '', 'f', 'h', 'l', 'n', 's', 'th'];
   const i = Math.floor(Math.random() * 10); {
     if (type === 1) {
@@ -33,7 +38,8 @@ export default function woodElfs() {
       } else {
         rnd6 = Math.floor(Math.random() * nm7.length);
         rnd7 = Math.floor(Math.random() * nm6.length);
-        names = nm5[rnd] + nm6[rnd2] + nm7[rnd3] + nm6[rnd4] + nm7[rnd6] + nm6[rnd7] + nm8[rnd5];
+        names = nm5[rnd] + nm6[rnd2] + nm7[rnd3] + nm6[rnd4] + nm7[rnd6] + nm6[
+          rnd7] + nm8[rnd5];
       }
     } else {
       rnd = Math.floor(Math.random() * nm1.length);
@@ -46,7 +52,8 @@ export default function woodElfs() {
       } else {
         rnd6 = Math.floor(Math.random() * nm3.length);
         rnd7 = Math.floor(Math.random() * nm2.length);
-        names = nm1[rnd] + nm2[rnd2] + nm3[rnd3] + nm2[rnd4] + nm3[rnd6] + nm2[rnd7] + nm4[rnd5];
+        names = nm1[rnd] + nm2[rnd2] + nm3[rnd3] + nm2[rnd4] + nm3[rnd6] + nm2[
+          rnd7] + nm4[rnd5];
       }
     }
     return names;

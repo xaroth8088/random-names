@@ -3,30 +3,32 @@ export default function trills() {
   let rnd;
   let rnd2;
   let rnd3;
-  let rnd;
-  let rnd2;
-  let rnd3;
   let rnd4;
   let rnd5;
   let rnd6;
   let rnd7;
   let rnd8;
-  let
-    rnd9;
+  let rnd9;
   let rnd10;
-  let names;
   const type = Math.random() > 0.5 ? 0 : 1;
-  const nm1 = ['', 'b', 'c', 'd', 'g', 'gr', 'h', 'j', 'k', 'm', 'n', 'r', 's', 't', 'v', 'vr', 'y'];
+  const nm1 = ['', 'b', 'c', 'd', 'g', 'gr', 'h', 'j', 'k', 'm', 'n', 'r', 's',
+    't', 'v', 'vr', 'y'];
   const nm2 = ['ia', 'aa', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u'];
-  const nm3 = ['b', 'd', 'dr', 'g', 'hj', 'j', 'l', 'm', 'mbl', 'n', 'r', 'rv', 'rz', 'rj'];
+  const nm3 = ['b', 'd', 'dr', 'g', 'hj', 'j', 'l', 'm', 'mbl', 'n', 'r', 'rv',
+    'rz', 'rj'];
   const nm4 = ['', 'd', 'g', 'l', 'm', 'n', 'r', 'ss'];
-  const nm5 = ['', 'b', 'd', 'g', 'h', 'j', 'k', 'l', 'm', 'n', 's', 'r', 'v', 'y'];
-  const nm6 = ['au', 'ia', 'ee', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u'];
-  const nm7 = ['b', 'dr', 'dz', 'l', 'll', 'm', 'n', 'nh', 'r', 's', 'ss', 'sr', 'z', 'zr'];
+  const nm5 = ['', 'b', 'd', 'g', 'h', 'j', 'k', 'l', 'm', 'n', 's', 'r', 'v',
+    'y'];
+  const nm6 = ['au', 'ia', 'ee', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o',
+    'u'];
+  const nm7 = ['b', 'dr', 'dz', 'l', 'll', 'm', 'n', 'nh', 'r', 's', 'ss', 'sr',
+    'z', 'zr'];
   const nm8 = ['', '', '', '', '', 'd', 'h', 'l', 'll', 'm', 'n', 's'];
   const nm9 = ['b', 'd', 'gr', 'k', 'l', 'm', 'n', 'p', 'pr', 'r', 't', 'v'];
-  const nm10 = ['', '', 'ee', 'ia', 'au', 'aa', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u'];
-  const nm11 = ['', '', '', '', '', '', '', '', 'b', 'd', 'g', 'gr', 'gn', 'l', 'll', 'm', 'n', 'rr', 'r', 's', 'tn', 'v', 'z'];
+  const nm10 = ['', '', 'ee', 'ia', 'au', 'aa', 'a', 'e', 'i', 'o', 'u', 'a',
+    'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u'];
+  const nm11 = ['', '', '', '', '', '', '', '', 'b', 'd', 'g', 'gr', 'gn', 'l',
+    'll', 'm', 'n', 'rr', 'r', 's', 'tn', 'v', 'z'];
   const nm12 = ['d', 'g', 'hn', 'hl', 'l', 'm', 'n', 'r', 'rs', 's', 'x']; {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm5.length);

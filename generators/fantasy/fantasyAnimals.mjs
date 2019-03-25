@@ -3,22 +3,56 @@ export default function fantasyAnimals() {
   let rnd;
   let rnd2;
   let rnd3;
-  let rnd;
-  let rnd2;
-  let rnd3;
   let rnd4;
   let rnd5;
   let
     rnd6;
-  const nm1 = ['Alba', 'Alli', 'Ana', 'Ante', 'Arma', 'Barra', 'Bea', 'Buffa', 'Cani', 'Cari', 'Cate', 'Coyo', 'Cri', 'Cro', 'Croco', 'Drago', 'Ele', 'Feli', 'Fla', 'Flami', 'Gaze', 'Gira', 'Hexa', 'Hone', 'Jagu', 'Komo', 'Leo', 'Locu', 'Mana', 'Moo', 'Pa', 'Pea', 'Peli', 'Phea', 'Porcu', 'Rhi', 'Rhino', 'Sala', 'Sco', 'Sku', 'Sna', 'Snai', 'Spa', 'Spi', 'Squi', 'Sti', 'Toa', 'Ursa', 'Vi', 'Wea', 'Wha', 'Woo'];
-  const nm2 = ['b', 'c', 'd', 'f', 'g', 'k', 'l', 'm', 'n', 'p', 'q', 'r', 's', 't', 'v', 'w', 'x', 'z', 'b', 'c', 'd', 'f', 'g', 'k', 'l', 'm', 'n', 'p', 'q', 'r', 's', 't', 'v', 'w', 'x', 'z', 'br', 'cr', 'dr', 'gr', 'kr', 'pr', 'sr', 'st', 'str', 'bl', 'cl', 'fl', 'gl', 'kl', 'pl', 'sl', 'vl', 'cs', 'ds', 'fs', 'gs', 'ks', 'ls', 'ms', 'ns', 'ps', 'rs', 'ss', 'ts', 'bb', 'cc', 'dd', 'ff', 'gg', 'kk', 'll', 'mm', 'nn', 'pp', 'rr', 'ss', 'tt', 'ww', 'zz'];
-  const nm3 = ['a', 'o', 'i', 'e', 'u', 'aa', 'oo', 'ee', 'au', 'ou', 'ea', 'eo'];
-  const nm4 = ['', '', 'c', 'd', 'k', 'l', 'm', 'n', 'p', 'r', 's', 't', 'x', 'cs', 'ks', 'ps', 'rs', 'ts', 'st'];
+  const nm1 = ['Alba', 'Alli', 'Ana', 'Ante', 'Arma', 'Barra', 'Bea', 'Buffa',
+    'Cani', 'Cari', 'Cate', 'Coyo', 'Cri', 'Cro', 'Croco', 'Drago', 'Ele',
+    'Feli', 'Fla', 'Flami', 'Gaze', 'Gira', 'Hexa', 'Hone', 'Jagu', 'Komo',
+    'Leo', 'Locu', 'Mana', 'Moo', 'Pa', 'Pea', 'Peli', 'Phea', 'Porcu', 'Rhi',
+    'Rhino', 'Sala', 'Sco', 'Sku', 'Sna', 'Snai', 'Spa', 'Spi', 'Squi', 'Sti',
+    'Toa', 'Ursa', 'Vi', 'Wea', 'Wha', 'Woo'];
+  const nm2 = ['b', 'c', 'd', 'f', 'g', 'k', 'l', 'm', 'n', 'p', 'q', 'r', 's',
+    't', 'v', 'w', 'x', 'z', 'b', 'c', 'd', 'f', 'g', 'k', 'l', 'm', 'n', 'p',
+    'q', 'r', 's', 't', 'v', 'w', 'x', 'z', 'br', 'cr', 'dr', 'gr', 'kr',
+    'pr', 'sr', 'st', 'str', 'bl', 'cl', 'fl', 'gl', 'kl', 'pl', 'sl', 'vl',
+    'cs', 'ds', 'fs', 'gs', 'ks', 'ls', 'ms', 'ns', 'ps', 'rs', 'ss', 'ts',
+    'bb', 'cc', 'dd', 'ff', 'gg', 'kk', 'll', 'mm', 'nn', 'pp', 'rr', 'ss',
+    'tt', 'ww', 'zz'];
+  const nm3 = ['a', 'o', 'i', 'e', 'u', 'aa', 'oo', 'ee', 'au', 'ou', 'ea',
+    'eo'];
+  const nm4 = ['', '', 'c', 'd', 'k', 'l', 'm', 'n', 'p', 'r', 's', 't', 'x',
+    'cs', 'ks', 'ps', 'rs', 'ts', 'st'];
   const nm5 = ['', '', '', '', '', 'a', 'o', 'i', 'e', 'u', 'ee', 'ea', 'eo'];
-  const nm6 = ['Alb', 'All', 'Alp', 'Ant', 'Arach', 'Arm', 'Bab', 'Badg', 'Barr', 'Beav', 'Bis', 'Buff', 'Cam', 'Cat', 'Chick', 'Cobr', 'Coy', 'Croc', 'Dol', 'Don', 'Drag', 'Eag', 'El', 'Eleph', 'Fal', 'Falc', 'Fer', 'Flam', 'Gaz', 'Ger', 'Gir', 'Guin', 'Hedg', 'Hex', 'Hipp', 'Hor', 'Horn', 'Humm', 'Hyen', 'Jag', 'Kang', 'Koal', 'Kom', 'Komod', 'Leop', 'Lob', 'Mag', 'Mall', 'Mant', 'Mon', 'Mong', 'Mos', 'Mosq', 'Mul', 'Oct', 'Ost', 'Pan', 'Pand', 'Parr', 'Pel', 'Pen', 'Peng', 'Pon', 'Por', 'Quad', 'Rab', 'Rabb', 'Rac', 'Racc', 'Rhin', 'Sal', 'Sar', 'Scor', 'Ser', 'Serp', 'Skun', 'Snak', 'Spar', 'Sparr', 'Spid', 'Stin', 'Sting', 'Ter', 'Term', 'Tetr', 'Tuc', 'Tur', 'Turt', 'Vul', 'Vult', 'Wal', 'Wall', 'War', 'Wart', 'Wol', 'Wolv', 'Wom', 'Wor', 'Zeb'];
-  const nm7 = ['abura', 'aby', 'acle', 'acuda', 'adger', 'adillo', 'alo', 'amander', 'amel', 'ander', 'anzee', 'api', 'arak', 'aroo', 'aros', 'atee', 'atross', 'ecta', 'een', 'ela', 'elope', 'ena', 'eon', 'ephant', 'erine', 'erpillar', 'eton', 'ey', 'ibia', 'ibou', 'ican', 'ida', 'igator', 'illa', 'ing', 'ingale', 'ingo', 'ish', 'itar', 'eleon', 'ypus', 'ite', 'ium', 'oceros', 'oda', 'odile', 'odo', 'onite', 'oon', 'oose', 'opotamus', 'opus', 'ora', 'orb', 'os', 'osaur', 'ossum', 'oth', 'owary', 'oyote', 'uar', 'uin', 'uito', 'upine', 'utor', 'ybara', 'yte'];
-  const nm8 = ['bat', 'bil', 'boon', 'bug', 'dine', 'fly', 'meleon', 'guin', 'hawk', 'hog', 'hopper', 'key', 'king', 'ling', 'madillo', 'mingo', 'mite', 'nea', 'pecker', 'phant', 'phin', 'pie', 'pion', 'quito', 'raffe', 'ray', 'rilla', 'roach', 'ron', 'sel', 'ster', 'tile', 'topus', 'vark', 'whale', 'wing', 'zelle'];
-  const nm9 = ['b', 'c', 'd', 'f', 'g', 'k', 'l', 'm', 'n', 'p', 'q', 'r', 's', 't', 'v', 'w', 'x', 'z', 'b', 'c', 'd', 'f', 'g', 'k', 'l', 'm', 'n', 'p', 'q', 'r', 's', 't', 'v', 'w', 'x', 'z', 'br', 'cr', 'dr', 'gr', 'kr', 'pr', 'sr', 'st', 'str', 'bl', 'cl', 'fl', 'gl', 'kl', 'pl', 'sl', 'vl'];
+  const nm6 = ['Alb', 'All', 'Alp', 'Ant', 'Arach', 'Arm', 'Bab', 'Badg',
+    'Barr', 'Beav', 'Bis', 'Buff', 'Cam', 'Cat', 'Chick', 'Cobr', 'Coy',
+    'Croc', 'Dol', 'Don', 'Drag', 'Eag', 'El', 'Eleph', 'Fal', 'Falc', 'Fer',
+    'Flam', 'Gaz', 'Ger', 'Gir', 'Guin', 'Hedg', 'Hex', 'Hipp', 'Hor', 'Horn',
+    'Humm', 'Hyen', 'Jag', 'Kang', 'Koal', 'Kom', 'Komod', 'Leop', 'Lob',
+    'Mag', 'Mall', 'Mant', 'Mon', 'Mong', 'Mos', 'Mosq', 'Mul', 'Oct', 'Ost',
+    'Pan', 'Pand', 'Parr', 'Pel', 'Pen', 'Peng', 'Pon', 'Por', 'Quad', 'Rab',
+    'Rabb', 'Rac', 'Racc', 'Rhin', 'Sal', 'Sar', 'Scor', 'Ser', 'Serp',
+    'Skun', 'Snak', 'Spar', 'Sparr', 'Spid', 'Stin', 'Sting', 'Ter', 'Term',
+    'Tetr', 'Tuc', 'Tur', 'Turt', 'Vul', 'Vult', 'Wal', 'Wall', 'War', 'Wart',
+    'Wol', 'Wolv', 'Wom', 'Wor', 'Zeb'];
+  const nm7 = ['abura', 'aby', 'acle', 'acuda', 'adger', 'adillo', 'alo',
+    'amander', 'amel', 'ander', 'anzee', 'api', 'arak', 'aroo', 'aros',
+    'atee', 'atross', 'ecta', 'een', 'ela', 'elope', 'ena', 'eon', 'ephant',
+    'erine', 'erpillar', 'eton', 'ey', 'ibia', 'ibou', 'ican', 'ida',
+    'igator', 'illa', 'ing', 'ingale', 'ingo', 'ish', 'itar', 'eleon', 'ypus',
+    'ite', 'ium', 'oceros', 'oda', 'odile', 'odo', 'onite', 'oon', 'oose',
+    'opotamus', 'opus', 'ora', 'orb', 'os', 'osaur', 'ossum', 'oth', 'owary',
+    'oyote', 'uar', 'uin', 'uito', 'upine', 'utor', 'ybara', 'yte'];
+  const nm8 = ['bat', 'bil', 'boon', 'bug', 'dine', 'fly', 'meleon', 'guin',
+    'hawk', 'hog', 'hopper', 'key', 'king', 'ling', 'madillo', 'mingo',
+    'mite', 'nea', 'pecker', 'phant', 'phin', 'pie', 'pion', 'quito', 'raffe',
+    'ray', 'rilla', 'roach', 'ron', 'sel', 'ster', 'tile', 'topus', 'vark',
+    'whale', 'wing', 'zelle'];
+  const nm9 = ['b', 'c', 'd', 'f', 'g', 'k', 'l', 'm', 'n', 'p', 'q', 'r', 's',
+    't', 'v', 'w', 'x', 'z', 'b', 'c', 'd', 'f', 'g', 'k', 'l', 'm', 'n', 'p',
+    'q', 'r', 's', 't', 'v', 'w', 'x', 'z', 'br', 'cr', 'dr', 'gr', 'kr',
+    'pr', 'sr', 'st', 'str', 'bl', 'cl', 'fl', 'gl', 'kl', 'pl', 'sl', 'vl'];
   const i = Math.floor(Math.random() * 10); {
     if (i < 2) {
       rnd = Math.floor(Math.random() * nm1.length);

@@ -1,8 +1,5 @@
 export default function tombKings() {
   let names;
-  let rnd;
-  let rnd2;
-  let rnd3;
   let nameL;
   let rnd;
   let rnd2;
@@ -10,18 +7,40 @@ export default function tombKings() {
   let rnd4;
   let rnd5;
   let rnd6;
-  let
-    rnd7;
-  let names;
+  let rnd7;
   const type = Math.random() > 0.5 ? 0 : 1;
-  const nm1 = ['', '', '', '', 'ch', 'f', 'h', 'k', 'kh', 'm', 'n', 'r', 's', 't', 'th'];
-  const nm2 = ['a', 'e', 'o', 'a', 'e', 'o', 'a', 'e', 'o', 'a', 'e', 'o', 'i', 'i'];
-  const nm3 = ['b', 'ch', 'f', 'h', 'k', 'kh', 'l', 'm', 'mh', 'n', 'p', 'ph', 'r', 's', 'sh', 't', 'th', 'y', 'b', 'bd', 'ch', 'ct', 'f', 'h', 'k', 'kh', 'kht', 'kt', 'l', 'm', 'mh', 'mkh', 'mt', 'n', 'nkh', 'ns', 'p', 'ph', 'phk', 'phr', 'pht', 'pr', 'pth', 'r', 'rkh', 'rs', 'rt', 's', 'sf', 'sh', 'shk', 'skh', 'sph', 'ss', 'st', 't', 'th', 'tm', 'tr', 'ttr', 'y'];
-  const nm4 = ['', '', 'f', 'h', 'kh', 'm', 'n', 'nb', 'p', 'ph', 'r', 'rs', 's'];
-  const nm5 = ['b', 'h', 'k', 'kh', 'm', 'n', 'p', 'ph', 'r', 's', 'sh', 't', 'th'];
-  const nm6 = ['a', 'e', 'i', 'a', 'e', 'i', 'a', 'e', 'i', 'a', 'e', 'i', 'o', 'o'];
-  const nm7 = ['b', 'd', 'f', 'fr', 'g', 'gt', 'gh', 'h', 'k', 'kh', 'kt', 'l', 'm', 'mkh', 'mph', 'n', 'nkh', 'nph', 'nth', 'nkhn', 'ns', 'nt', 'p', 'ph', 'phr', 'pth', 'r', 'rh', 'rm', 'rt', 'ry', 's', 'st', 't', 'tr', 'th', 'thy', 'y', 'z', 'zh'];
-  const nm8 = ['Academic', 'Acclaimed', 'Adept', 'Ambitious', 'Ancient', 'Architect', 'Artist', 'Austere', 'Black', 'Blessed', 'Bright', 'Brilliant', 'Celebrated', 'Chaste', 'Composed', 'Conjurer', 'Content', 'Crimson', 'Cunning', 'Devoted', 'Diligent', 'Earnest', 'Educated', 'Elegant', 'Enchanted', 'Enlightened', 'Euphoric', 'Exalted', 'Flawless', 'Generous', 'Gifted', 'Giving', 'Glorious', 'Graceful', 'Grand', 'Great', 'Hallowed', 'Herald', 'Hierpohant', 'Holy', 'Honorable', 'Honored', 'Humble', 'Idealist', 'Illustrious', 'Immortal', 'Imperishable', 'Incredible', 'Infinite', 'Knowing', 'Learned', 'Light', 'Loyal', 'Magnificent', 'Majestic', 'Marvelous', 'Oracle', 'Paragon', 'Patient', 'Powerful', 'Prestigious', 'Prime', 'Prophet', 'Soothsayer', 'Sophisticated', 'Terrific', 'Treasure', 'Treasured', 'Valiant', 'Visionary', 'Watcher', 'White', 'Zealous'];
+  const nm1 = ['', '', '', '', 'ch', 'f', 'h', 'k', 'kh', 'm', 'n', 'r', 's',
+    't', 'th'];
+  const nm2 = ['a', 'e', 'o', 'a', 'e', 'o', 'a', 'e', 'o', 'a', 'e', 'o', 'i',
+    'i'];
+  const nm3 = ['b', 'ch', 'f', 'h', 'k', 'kh', 'l', 'm', 'mh', 'n', 'p', 'ph',
+    'r', 's', 'sh', 't', 'th', 'y', 'b', 'bd', 'ch', 'ct', 'f', 'h', 'k',
+    'kh', 'kht', 'kt', 'l', 'm', 'mh', 'mkh', 'mt', 'n', 'nkh', 'ns', 'p',
+    'ph', 'phk', 'phr', 'pht', 'pr', 'pth', 'r', 'rkh', 'rs', 'rt', 's', 'sf',
+    'sh', 'shk', 'skh', 'sph', 'ss', 'st', 't', 'th', 'tm', 'tr', 'ttr', 'y'];
+  const nm4 = ['', '', 'f', 'h', 'kh', 'm', 'n', 'nb', 'p', 'ph', 'r', 'rs',
+    's'];
+  const nm5 = ['b', 'h', 'k', 'kh', 'm', 'n', 'p', 'ph', 'r', 's', 'sh', 't',
+    'th'];
+  const nm6 = ['a', 'e', 'i', 'a', 'e', 'i', 'a', 'e', 'i', 'a', 'e', 'i', 'o',
+    'o'];
+  const nm7 = ['b', 'd', 'f', 'fr', 'g', 'gt', 'gh', 'h', 'k', 'kh', 'kt', 'l',
+    'm', 'mkh', 'mph', 'n', 'nkh', 'nph', 'nth', 'nkhn', 'ns', 'nt', 'p',
+    'ph', 'phr', 'pth', 'r', 'rh', 'rm', 'rt', 'ry', 's', 'st', 't', 'tr',
+    'th', 'thy', 'y', 'z', 'zh'];
+  const nm8 = ['Academic', 'Acclaimed', 'Adept', 'Ambitious', 'Ancient',
+    'Architect', 'Artist', 'Austere', 'Black', 'Blessed', 'Bright',
+    'Brilliant', 'Celebrated', 'Chaste', 'Composed', 'Conjurer', 'Content',
+    'Crimson', 'Cunning', 'Devoted', 'Diligent', 'Earnest', 'Educated',
+    'Elegant', 'Enchanted', 'Enlightened', 'Euphoric', 'Exalted', 'Flawless',
+    'Generous', 'Gifted', 'Giving', 'Glorious', 'Graceful', 'Grand', 'Great',
+    'Hallowed', 'Herald', 'Hierpohant', 'Holy', 'Honorable', 'Honored',
+    'Humble', 'Idealist', 'Illustrious', 'Immortal', 'Imperishable',
+    'Incredible', 'Infinite', 'Knowing', 'Learned', 'Light', 'Loyal',
+    'Magnificent', 'Majestic', 'Marvelous', 'Oracle', 'Paragon', 'Patient',
+    'Powerful', 'Prestigious', 'Prime', 'Prophet', 'Soothsayer',
+    'Sophisticated', 'Terrific', 'Treasure', 'Treasured', 'Valiant',
+    'Visionary', 'Watcher', 'White', 'Zealous'];
   const i = Math.floor(Math.random() * 10); {
     rnd = Math.floor(Math.random() * nm8.length);
     nameL = ` the ${nm8[rnd]}`;
@@ -35,7 +54,8 @@ export default function tombKings() {
       } else {
         rnd5 = Math.floor(Math.random() * nm7.length);
         rnd6 = Math.floor(Math.random() * nm6.length);
-        names = nm5[rnd] + nm6[rnd2] + nm7[rnd3] + nm6[rnd4] + nm7[rnd5] + nm6[rnd6] + nameL;
+        names = nm5[rnd] + nm6[rnd2] + nm7[rnd3] + nm6[rnd4] + nm7[rnd5] + nm6[
+          rnd6] + nameL;
       }
     } else {
       rnd = Math.floor(Math.random() * nm1.length);
@@ -49,11 +69,13 @@ export default function tombKings() {
         }
       }
       if (i < 5) {
-        names = nm1[rnd] + nm2[rnd2] + nm3[rnd3] + nm2[rnd4] + nm4[rnd5] + nameL;
+        names = nm1[rnd] + nm2[rnd2] + nm3[rnd3] + nm2[rnd4] + nm4[rnd5]
+          + nameL;
       } else {
         rnd6 = Math.floor(Math.random() * nm3.length);
         rnd7 = Math.floor(Math.random() * nm2.length);
-        names = nm1[rnd] + nm2[rnd2] + nm3[rnd3] + nm2[rnd4] + nm3[rnd6] + nm2[rnd7] + nm4[rnd5] + nameL;
+        names = nm1[rnd] + nm2[rnd2] + nm3[rnd3] + nm2[rnd4] + nm3[rnd6] + nm2[
+          rnd7] + nm4[rnd5] + nameL;
       }
     }
     return names;

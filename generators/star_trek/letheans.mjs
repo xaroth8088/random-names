@@ -3,19 +3,21 @@ export default function letheans() {
   let rnd;
   let rnd2;
   let rnd3;
-  let rnd;
-  let rnd2;
-  let rnd3;
   let rnd4;
   let rnd5;
   let rnd6;
-  let
-    rnd7;
-  let names;
-  const nm1 = ['b', 'c', 'd', 'g', 'j', 'k', 'l', 'm', 'n', 'q', 'r', 's', 't', 'tr', 'v', 'z', '', ''];
-  const nm2 = ['oi', 'ao', 'ui', 'ei', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u'];
-  const nm3 = ['b', 'c', 'd', 'g', 'j', 'k', 'l', 'm', 'n', 'p', 'q', 'r', 't', 'v', 'z', 'b', 'bb', 'bt', 'cz', 'c', 'd', 'dl', 'dz', 'g', 'gr', 'j', 'k', 'kz', 'kl', 'kr', 'l', 'lt', 'lv', 'm', 'nj', 'nb', 'n', 'nth', 'p', 'q', 'qr', 'r', 'rr', 'rrn', 'rn', 't', 'tt', 'v', 'vv', 'z', 'zz', 'ztr', 'zm'];
-  const nm4 = ['b', 'c', 'd', 'f', 'g', 'k', 'm', 'nt', 'n', 'p', 'q', 'r', 'sz', 't', 'v', 'z', '', ''];
+  let rnd7;
+  const nm1 = ['b', 'c', 'd', 'g', 'j', 'k', 'l', 'm', 'n', 'q', 'r', 's', 't',
+    'tr', 'v', 'z', '', ''];
+  const nm2 = ['oi', 'ao', 'ui', 'ei', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i',
+    'o', 'u'];
+  const nm3 = ['b', 'c', 'd', 'g', 'j', 'k', 'l', 'm', 'n', 'p', 'q', 'r', 't',
+    'v', 'z', 'b', 'bb', 'bt', 'cz', 'c', 'd', 'dl', 'dz', 'g', 'gr', 'j',
+    'k', 'kz', 'kl', 'kr', 'l', 'lt', 'lv', 'm', 'nj', 'nb', 'n', 'nth', 'p',
+    'q', 'qr', 'r', 'rr', 'rrn', 'rn', 't', 'tt', 'v', 'vv', 'z', 'zz', 'ztr',
+    'zm'];
+  const nm4 = ['b', 'c', 'd', 'f', 'g', 'k', 'm', 'nt', 'n', 'p', 'q', 'r',
+    'sz', 't', 'v', 'z', '', ''];
   const i = Math.floor(Math.random() * 10); {
     if (i < 5) {
       rnd = Math.floor(Math.random() * nm1.length);
@@ -38,7 +40,8 @@ export default function letheans() {
           rnd6 = Math.floor(Math.random() * nm2.length);
         }
       }
-      names = nm1[rnd] + nm2[rnd2] + nm3[rnd3] + nm2[rnd4] + nm3[rnd5] + nm2[rnd6] + nm4[rnd7];
+      names = nm1[rnd] + nm2[rnd2] + nm3[rnd3] + nm2[rnd4] + nm3[rnd5] + nm2[
+        rnd6] + nm4[rnd7];
     } else {
       rnd = Math.floor(Math.random() * nm1.length);
       rnd2 = Math.floor(Math.random() * nm2.length);

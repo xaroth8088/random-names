@@ -1,8 +1,5 @@
 export default function warriorsOfChaos() {
   let names;
-  let rnd;
-  let rnd2;
-  let rnd3;
   let lName;
   let rnd;
   let rnd2;
@@ -10,20 +7,68 @@ export default function warriorsOfChaos() {
   let rnd4;
   let rnd5;
   let rnd6;
-  let
-    rnd7;
-  let names;
+  let rnd7;
   const type = Math.random() > 0.5 ? 0 : 1;
-  const nm1 = ['', '', '', 'b', 'bl', 'br', 'd', 'dr', 'dj', 'f', 'fr', 'g', 'gr', 'gh', 'k', 'kh', 'kr', 'm', 'r', 's', 'sc', 'sr', 'sk', 'sz', 'str', 't', 'tr', 'v', 'w'];
-  const nm2 = ['a', 'e', 'i', 'o', 'u', 'y', 'a', 'e', 'i', 'o', 'u', 'y', 'a', 'e', 'i', 'o', 'u', 'y', 'ao', 'au', 'oa', 'ay'];
-  const nm3 = ['d', 'gg', 'k', 'kh', 'l', 'm', 'r', 'rr', 'z', 'zh', 'zz', 'd', 'gg', 'k', 'kh', 'l', 'm', 'r', 'rr', 'z', 'zh', 'zz', 'd', 'gg', 'k', 'kh', 'l', 'm', 'r', 'rr', 'z', 'zh', 'zz', 'd', 'gg', 'k', 'kh', 'l', 'm', 'r', 'rr', 'z', 'zh', 'zz', 'd', 'dr', 'dz', 'gv', 'gg', 'gr', 'gn', 'gtr', 'gz', 'k', 'kr', 'kz', 'kh', 'ktr', 'kth', 'kx', 'l', 'lr', 'lfr', 'lvr', 'lv', 'lg', 'lgr', 'ld', 'ldr', 'm', 'mk', 'mkr', 'mz', 'mv', 'mvr', 'r', 'rr', 'rx', 'rz', 'rzr', 'rk', 'rkh', 'rch', 'rgh', 'rb', 'sz', 'str', 'sgr', 'sg', 'sk', 'skr', 'st', 'sht', 'shtr', 'shk', 'szh', 'z', 'zh', 'zz', 'zr'];
-  const nm4 = ['', '', 'b', 'ch', 'k', 'l', 'lk', 'ld', 'n', 'nd', 'r', 'rd', 'rk', 'rt', 'rr', 's', 'sk', 't', 'tts', 'tch', 'x'];
-  const nm5 = ['bh', 'br', 'd', 'dh', 'f', 'fr', 'fh', 'g', 'gh', 'gr', 'kh', 'kr', 'k', 'm', 'mh', 'n', 'nh', 'r', 'rh', 's', 'sh', 'sl', 'sm', 'sn', 'st', 'sth', 't', 'th', 'thr', 'tr', 'v', 'vh', 'vr', 'w', 'wh'];
-  const nm6 = ['a', 'e', 'i', 'a', 'e', 'i', 'a', 'e', 'i', 'a', 'e', 'i', 'a', 'e', 'i', 'a', 'a', 'a', 'ia', 'ea', 'ae'];
-  const nm7 = ['d', 'g', 'gg', 'gh', 'k', 'kk', 'kh', 'l', 'll', 'm', 'mm', 'r', 'rr', 's', 'ss', 'z', 'zh', 'zz', 'd', 'g', 'gg', 'gh', 'k', 'kk', 'kh', 'l', 'll', 'm', 'mm', 'r', 'rr', 's', 'ss', 'z', 'zh', 'zz', 'd', 'g', 'gg', 'gh', 'k', 'kk', 'kh', 'l', 'll', 'm', 'mm', 'r', 'rr', 's', 'ss', 'z', 'zh', 'zz', 'd', 'dj', 'dn', 'fr', 'fg', 'gg', 'g', 'gr', 'gh', 'gn', 'gm', 'gz', 'k', 'kk', 'kn', 'kh', 'kr', 'kz', 'kt', 'kth', 'l', 'll', 'lr', 'lx', 'lt', 'lth', 'ln', 'lk', 'm', 'mm', 'mn', 'mr', 'mv', 'mz', 'mk', 'nk', 'ng', 'nm', 'nr', 'nth', 'nz', 'nv', 'r', 'rr', 'rth', 'rsh', 'rz', 'rzh', 'rl', 'rc', 'rch', 's', 'ss', 'sz', 'sh', 'shz', 'shn', 'sq', 'shq', 'sht', 'shtr', 'szh', 'z', 'zz', 'zh', 'zn', 'zhn'];
-  const nm8 = ['amber', 'battle', 'bitter', 'black', 'blaze', 'blazing', 'blood', 'burn', 'burning', 'chaos', 'cinder', 'daemon', 'dark', 'dead', 'death', 'demon', 'doom', 'ember', 'fiery', 'fire', 'flame', 'fuse', 'gloom', 'haze', 'hell', 'moon', 'nether', 'night', 'pyre', 'rage', 'rot', 'shade', 'shadow', 'silent', 'storm', 'sun', 'thunder', 'twice', 'void', 'wild', 'wraith', 'wrath'];
-  const nm9 = ['bane', 'bash', 'blaze', 'blight', 'bone', 'born', 'bound', 'breath', 'buster', 'chaser', 'cleaver', 'eater', 'fall', 'fang', 'fire', 'flame', 'flare', 'flaw', 'force', 'forge', 'forged', 'fury', 'gaze', 'guard', 'gut', 'hand', 'heart', 'lash', 'mark', 'marked', 'might', 'more', 'mourn', 'rage', 'reaper', 'reaver', 'scar', 'scream', 'seeker', 'shade', 'shadow', 'shard', 'spawn', 'spawned', 'spew', 'spit', 'strength', 'stride', 'sunder', 'surge', 'sworn', 'wrath'];
-  const nm10 = ['Abandoned', 'Aggressor', 'Anguished', 'Beast', 'Befouled', 'Behemoth', 'Berserker', 'Bewitched', 'Blood Bathed', 'Blood Soaked', 'Bloodied', 'Bloody', 'Bone Crusher', 'Corrupted Mind', 'Corruption Lord', 'Corruptor', 'Crooked Smile', 'Cunning', 'Cunning Mind', 'Curseling', 'Dark Lord', 'Dark Master', 'Dark Night', 'Dead Mind', 'Defiled', 'Dread Lord', 'Eternal', 'Everchosen', 'Explosive', 'Faithless', 'Forsaken', 'Fury', 'Gory', 'Grave Digger', 'Grave Robber', 'Grim Reaper', 'Grotesque', 'Hollow', 'Hound', 'Ill Tempered', 'Impure', 'Insane', 'Irrational', 'Jester', 'Leechlord', 'Lone Wolf', 'Lost Mind', 'Magnificent', 'Mammoth', 'Maneater', 'Manslayer', 'Menace', 'Merciless', 'Mutant', 'Necromancer', 'Nightmare', 'Nomad', 'Parasite', 'Pollutor', 'Rash', 'Roamer', 'Rotten', 'Rotting', 'Sanguine', 'Sanguine Lord', 'Serpent', 'Serpent Tongue', 'Shadow Dweller', 'Sinner', 'Skeptic', 'Skinner', 'Slaughterer', 'Soothsayer', 'Suneater', 'Transient', 'Unstable', 'Vagrant', 'Vengeful', 'Volatile', 'Wanderer', 'Warmonger', 'Wicked', 'Wrathful', 'Wreckage', 'Wretched'];
+  const nm1 = ['', '', '', 'b', 'bl', 'br', 'd', 'dr', 'dj', 'f', 'fr', 'g',
+    'gr', 'gh', 'k', 'kh', 'kr', 'm', 'r', 's', 'sc', 'sr', 'sk', 'sz', 'str',
+    't', 'tr', 'v', 'w'];
+  const nm2 = ['a', 'e', 'i', 'o', 'u', 'y', 'a', 'e', 'i', 'o', 'u', 'y', 'a',
+    'e', 'i', 'o', 'u', 'y', 'ao', 'au', 'oa', 'ay'];
+  const nm3 = ['d', 'gg', 'k', 'kh', 'l', 'm', 'r', 'rr', 'z', 'zh', 'zz', 'd',
+    'gg', 'k', 'kh', 'l', 'm', 'r', 'rr', 'z', 'zh', 'zz', 'd', 'gg', 'k',
+    'kh', 'l', 'm', 'r', 'rr', 'z', 'zh', 'zz', 'd', 'gg', 'k', 'kh', 'l',
+    'm', 'r', 'rr', 'z', 'zh', 'zz', 'd', 'dr', 'dz', 'gv', 'gg', 'gr', 'gn',
+    'gtr', 'gz', 'k', 'kr', 'kz', 'kh', 'ktr', 'kth', 'kx', 'l', 'lr', 'lfr',
+    'lvr', 'lv', 'lg', 'lgr', 'ld', 'ldr', 'm', 'mk', 'mkr', 'mz', 'mv',
+    'mvr', 'r', 'rr', 'rx', 'rz', 'rzr', 'rk', 'rkh', 'rch', 'rgh', 'rb',
+    'sz', 'str', 'sgr', 'sg', 'sk', 'skr', 'st', 'sht', 'shtr', 'shk', 'szh',
+    'z', 'zh', 'zz', 'zr'];
+  const nm4 = ['', '', 'b', 'ch', 'k', 'l', 'lk', 'ld', 'n', 'nd', 'r', 'rd',
+    'rk', 'rt', 'rr', 's', 'sk', 't', 'tts', 'tch', 'x'];
+  const nm5 = ['bh', 'br', 'd', 'dh', 'f', 'fr', 'fh', 'g', 'gh', 'gr', 'kh',
+    'kr', 'k', 'm', 'mh', 'n', 'nh', 'r', 'rh', 's', 'sh', 'sl', 'sm', 'sn',
+    'st', 'sth', 't', 'th', 'thr', 'tr', 'v', 'vh', 'vr', 'w', 'wh'];
+  const nm6 = ['a', 'e', 'i', 'a', 'e', 'i', 'a', 'e', 'i', 'a', 'e', 'i', 'a',
+    'e', 'i', 'a', 'a', 'a', 'ia', 'ea', 'ae'];
+  const nm7 = ['d', 'g', 'gg', 'gh', 'k', 'kk', 'kh', 'l', 'll', 'm', 'mm', 'r',
+    'rr', 's', 'ss', 'z', 'zh', 'zz', 'd', 'g', 'gg', 'gh', 'k', 'kk', 'kh',
+    'l', 'll', 'm', 'mm', 'r', 'rr', 's', 'ss', 'z', 'zh', 'zz', 'd', 'g',
+    'gg', 'gh', 'k', 'kk', 'kh', 'l', 'll', 'm', 'mm', 'r', 'rr', 's', 'ss',
+    'z', 'zh', 'zz', 'd', 'dj', 'dn', 'fr', 'fg', 'gg', 'g', 'gr', 'gh', 'gn',
+    'gm', 'gz', 'k', 'kk', 'kn', 'kh', 'kr', 'kz', 'kt', 'kth', 'l', 'll',
+    'lr', 'lx', 'lt', 'lth', 'ln', 'lk', 'm', 'mm', 'mn', 'mr', 'mv', 'mz',
+    'mk', 'nk', 'ng', 'nm', 'nr', 'nth', 'nz', 'nv', 'r', 'rr', 'rth', 'rsh',
+    'rz', 'rzh', 'rl', 'rc', 'rch', 's', 'ss', 'sz', 'sh', 'shz', 'shn', 'sq',
+    'shq', 'sht', 'shtr', 'szh', 'z', 'zz', 'zh', 'zn', 'zhn'];
+  const nm8 = ['amber', 'battle', 'bitter', 'black', 'blaze', 'blazing',
+    'blood', 'burn', 'burning', 'chaos', 'cinder', 'daemon', 'dark', 'dead',
+    'death', 'demon', 'doom', 'ember', 'fiery', 'fire', 'flame', 'fuse',
+    'gloom', 'haze', 'hell', 'moon', 'nether', 'night', 'pyre', 'rage', 'rot',
+    'shade', 'shadow', 'silent', 'storm', 'sun', 'thunder', 'twice', 'void',
+    'wild', 'wraith', 'wrath'];
+  const nm9 = ['bane', 'bash', 'blaze', 'blight', 'bone', 'born', 'bound',
+    'breath', 'buster', 'chaser', 'cleaver', 'eater', 'fall', 'fang', 'fire',
+    'flame', 'flare', 'flaw', 'force', 'forge', 'forged', 'fury', 'gaze',
+    'guard', 'gut', 'hand', 'heart', 'lash', 'mark', 'marked', 'might',
+    'more', 'mourn', 'rage', 'reaper', 'reaver', 'scar', 'scream', 'seeker',
+    'shade', 'shadow', 'shard', 'spawn', 'spawned', 'spew', 'spit',
+    'strength', 'stride', 'sunder', 'surge', 'sworn', 'wrath'];
+  const nm10 = ['Abandoned', 'Aggressor', 'Anguished', 'Beast', 'Befouled',
+    'Behemoth', 'Berserker', 'Bewitched', 'Blood Bathed', 'Blood Soaked',
+    'Bloodied', 'Bloody', 'Bone Crusher', 'Corrupted Mind', 'Corruption Lord',
+    'Corruptor', 'Crooked Smile', 'Cunning', 'Cunning Mind', 'Curseling',
+    'Dark Lord', 'Dark Master', 'Dark Night', 'Dead Mind', 'Defiled',
+    'Dread Lord', 'Eternal', 'Everchosen', 'Explosive', 'Faithless',
+    'Forsaken', 'Fury', 'Gory', 'Grave Digger', 'Grave Robber', 'Grim Reaper',
+    'Grotesque', 'Hollow', 'Hound', 'Ill Tempered', 'Impure', 'Insane',
+    'Irrational', 'Jester', 'Leechlord', 'Lone Wolf', 'Lost Mind',
+    'Magnificent', 'Mammoth', 'Maneater', 'Manslayer', 'Menace', 'Merciless',
+    'Mutant', 'Necromancer', 'Nightmare', 'Nomad', 'Parasite', 'Pollutor',
+    'Rash', 'Roamer', 'Rotten', 'Rotting', 'Sanguine', 'Sanguine Lord',
+    'Serpent', 'Serpent Tongue', 'Shadow Dweller', 'Sinner', 'Skeptic',
+    'Skinner', 'Slaughterer', 'Soothsayer', 'Suneater', 'Transient',
+    'Unstable', 'Vagrant', 'Vengeful', 'Volatile', 'Wanderer', 'Warmonger',
+    'Wicked', 'Wrathful', 'Wreckage', 'Wretched'];
   const i = Math.floor(Math.random() * 10); {
     if (i % 3 === 0) {
       rnd = Math.floor(Math.random() * nm8.length);

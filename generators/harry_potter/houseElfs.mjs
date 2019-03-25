@@ -3,15 +3,11 @@ export default function houseElfs() {
   let rnd;
   let rnd2;
   let rnd3;
-  let rnd;
-  let rnd2;
-  let rnd3;
   let rnd4;
-  let
-    rnd5;
-  let names;
+  let rnd5;
   const type = Math.random() > 0.5 ? 0 : 1;
-  const nm1 = ['B', 'C', 'D', 'F', 'G', 'H', 'J', 'K', 'L', 'M', 'N', 'P', 'R', 'S', 'T', 'V', 'W', 'Z'];
+  const nm1 = ['B', 'C', 'D', 'F', 'G', 'H', 'J', 'K', 'L', 'M', 'N', 'P', 'R',
+    'S', 'T', 'V', 'W', 'Z'];
   const nm2 = ['oo', 'a', 'o'];
   const nm3 = ['', 'd', 'n', 'r', 'l', 'b', 'k'];
   const nm4 = ['b', 'd', 'k', 'p', 'r'];

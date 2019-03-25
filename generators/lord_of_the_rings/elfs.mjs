@@ -6,8 +6,6 @@ export default function elfs() {
   let names2;
   let rnd;
   let rnd2;
-  let rnd;
-  let rnd2;
   const type = Math.random() < 0.5 ? 0 : 1;
   const nm1 = [
     ['Âr', 'Royal/Noble'],
@@ -902,8 +900,8 @@ export default function elfs() {
       lastTwoChar = nm1[rnd][0].substr(nm1[rnd][0].length - 2);
       if (type === 1) {
         switch (lastChar) {
-        case 'a':
-          nm3 = [
+          case 'a':
+            nm3 = [
               ['eth', 'Female', 'eth'],
               ['el', 'Female', 'el'],
               ['il', 'Female', 'il'],
@@ -918,10 +916,10 @@ export default function elfs() {
               ['thêl', 'Sister', 'athel'],
               ['bess', 'Wife', 'aves'],
             ];
-          name1 = nm1[rnd][0].slice(0, nm1[rnd][0].length - 1);
-          break;
-        case 'e':
-          nm3 = [
+            name1 = nm1[rnd][0].slice(0, nm1[rnd][0].length - 1);
+            break;
+          case 'e':
+            nm3 = [
               ['eth', 'Female', 'eth'],
               ['el', 'Female', 'el'],
               ['il', 'Female', 'il'],
@@ -936,10 +934,10 @@ export default function elfs() {
               ['thêl', 'Sister', 'ethel'],
               ['bess', 'Wife', 'eves'],
             ];
-          name1 = nm1[rnd][0].slice(0, nm1[rnd][0].length - 1);
-          break;
-        case 'i':
-          nm3 = [
+            name1 = nm1[rnd][0].slice(0, nm1[rnd][0].length - 1);
+            break;
+          case 'i':
+            nm3 = [
               ['eth', 'Female', 'eth'],
               ['el', 'Female', 'el'],
               ['il', 'Female', 'il'],
@@ -954,10 +952,10 @@ export default function elfs() {
               ['thêl', 'Sister', 'ithel'],
               ['bess', 'Wife', 'ives'],
             ];
-          name1 = nm1[rnd][0].slice(0, nm1[rnd][0].length - 1);
-          break;
-        case 'o':
-          nm3 = [
+            name1 = nm1[rnd][0].slice(0, nm1[rnd][0].length - 1);
+            break;
+          case 'o':
+            nm3 = [
               ['eth', 'Female', 'eth'],
               ['el', 'Female', 'el'],
               ['il', 'Female', 'il'],
@@ -972,10 +970,10 @@ export default function elfs() {
               ['thêl', 'Sister', 'othel'],
               ['bess', 'Wife', 'oves'],
             ];
-          name1 = nm1[rnd][0].slice(0, nm1[rnd][0].length - 1);
-          break;
-        case 'u':
-          nm3 = [
+            name1 = nm1[rnd][0].slice(0, nm1[rnd][0].length - 1);
+            break;
+          case 'u':
+            nm3 = [
               ['eth', 'Female', 'eth'],
               ['el', 'Female', 'el'],
               ['il', 'Female', 'il'],
@@ -990,10 +988,10 @@ export default function elfs() {
               ['thêl', 'Sister', 'uthel'],
               ['bess', 'Wife', 'uves'],
             ];
-          name1 = nm1[rnd][0].slice(0, nm1[rnd][0].length - 1);
-          break;
-        case 'b':
-          nm3 = [
+            name1 = nm1[rnd][0].slice(0, nm1[rnd][0].length - 1);
+            break;
+          case 'b':
+            nm3 = [
               ['eth', 'Female', 'eth'],
               ['el', 'Female', 'el'],
               ['il', 'Female', 'il'],
@@ -1001,10 +999,10 @@ export default function elfs() {
               ['iell', 'Daughter of', 'iel'],
               ['bess', 'Wife', 'es'],
             ];
-          name1 = nm1[rnd][0];
-          break;
-        case 'c':
-          nm3 = [
+            name1 = nm1[rnd][0];
+            break;
+          case 'c':
+            nm3 = [
               ['eth', 'Female', 'geth'],
               ['el', 'Female', 'gel'],
               ['il', 'Female', 'gil'],
@@ -1012,11 +1010,11 @@ export default function elfs() {
               ['iell', 'Daughter of', 'giel'],
               ['gwend', 'Maiden', 'gwen'],
             ];
-          name1 = nm1[rnd][0].slice(0, nm1[rnd][0].length - 1);
-          break;
-        case 'd':
-          if (lastTwoChar === 'nd') {
-            nm3 = [
+            name1 = nm1[rnd][0].slice(0, nm1[rnd][0].length - 1);
+            break;
+          case 'd':
+            if (lastTwoChar === 'nd') {
+              nm3 = [
                 ['eth', 'Female', 'neth'],
                 ['el', 'Female', 'nel'],
                 ['il', 'Female', 'nil'],
@@ -1031,9 +1029,9 @@ export default function elfs() {
                 ['thêl', 'Sister', 'thel'],
                 ['bess', 'Wife', 'bes'],
               ];
-            name1 = nm1[rnd][0].slice(0, nm1[rnd][0].length - 1);
-          } else {
-            nm3 = [
+              name1 = nm1[rnd][0].slice(0, nm1[rnd][0].length - 1);
+            } else {
+              nm3 = [
                 ['eth', 'Female', 'deth'],
                 ['el', 'Female', 'del'],
                 ['il', 'Female', 'dil'],
@@ -1044,11 +1042,11 @@ export default function elfs() {
                 ['dîs', 'Bride', 'dis'],
                 ['dess', 'Woman', 'des'],
               ];
-            name1 = nm1[rnd][0].slice(0, nm1[rnd][0].length - 1);
-          }
-          break;
-        case 'f':
-          nm3 = [
+              name1 = nm1[rnd][0].slice(0, nm1[rnd][0].length - 1);
+            }
+            break;
+          case 'f':
+            nm3 = [
               ['eth', 'Female', 'veth'],
               ['el', 'Female', 'vel'],
               ['il', 'Female', 'vil'],
@@ -1056,10 +1054,10 @@ export default function elfs() {
               ['iell', 'Daughter of', 'viel'],
               ['bess', 'Wife', 'ves'],
             ];
-          name1 = nm1[rnd][0].slice(0, nm1[rnd][0].length - 1);
-          break;
-        case 'g':
-          nm3 = [
+            name1 = nm1[rnd][0].slice(0, nm1[rnd][0].length - 1);
+            break;
+          case 'g':
+            nm3 = [
               ['eth', 'Female', 'geth'],
               ['el', 'Female', 'gel'],
               ['il', 'Female', 'gil'],
@@ -1073,20 +1071,20 @@ export default function elfs() {
               ['nîth', 'Sister', 'gnith'],
               ['thêl', 'Sister', 'cthel'],
             ];
-          name1 = nm1[rnd][0].slice(0, nm1[rnd][0].length - 1);
-          break;
-        case 'h':
-          if (lastTwoChar === 'ch') {
-            nm3 = [
+            name1 = nm1[rnd][0].slice(0, nm1[rnd][0].length - 1);
+            break;
+          case 'h':
+            if (lastTwoChar === 'ch') {
+              nm3 = [
                 ['eth', 'Female', 'eth'],
                 ['il', 'Female', 'il'],
                 ['ien', 'Daughter of', 'ien'],
                 ['iell', 'Daughter of', 'iel'],
                 ['sell', 'Girl', 'el'],
               ];
-            name1 = nm1[rnd][0];
-          } else {
-            nm3 = [
+              name1 = nm1[rnd][0];
+            } else {
+              nm3 = [
                 ['eth', 'Female', 'es'],
                 ['el', 'Female', 'el'],
                 ['il', 'Female', 'il'],
@@ -1095,12 +1093,12 @@ export default function elfs() {
                 ['sell', 'Girl', 'el'],
                 ['thêl', 'Sister', 'el'],
               ];
-            name1 = nm1[rnd][0];
-          }
-          break;
-        case 'l':
-          if (lastTwoChar === 'll') {
-            nm3 = [
+              name1 = nm1[rnd][0];
+            }
+            break;
+          case 'l':
+            if (lastTwoChar === 'll') {
+              nm3 = [
                 ['eth', 'Female', 'eth'],
                 ['el', 'Female', 'el'],
                 ['il', 'Female', 'il'],
@@ -1115,9 +1113,9 @@ export default function elfs() {
                 ['thêl', 'Sister', 'thel'],
                 ['bess', 'Wife', 'bes'],
               ];
-            name1 = nm1[rnd][0].slice(0, nm1[rnd][0].length - 1);
-          } else {
-            nm3 = [
+              name1 = nm1[rnd][0].slice(0, nm1[rnd][0].length - 1);
+            } else {
+              nm3 = [
                 ['eth', 'Female', 'eth'],
                 ['el', 'Female', 'el'],
                 ['il', 'Female', 'il'],
@@ -1132,11 +1130,11 @@ export default function elfs() {
                 ['thêl', 'Sister', 'thel'],
                 ['bess', 'Wife', 'bes'],
               ];
-            name1 = nm1[rnd][0];
-          }
-          break;
-        case 'm':
-          nm3 = [
+              name1 = nm1[rnd][0];
+            }
+            break;
+          case 'm':
+            nm3 = [
               ['eth', 'Female', 'eth'],
               ['el', 'Female', 'el'],
               ['il', 'Female', 'il'],
@@ -1146,10 +1144,10 @@ export default function elfs() {
               ['dess', 'Woman', 'des'],
               ['bess', 'Wife', 'bes'],
             ];
-          name1 = nm1[rnd][0];
-          break;
-        case 'n':
-          nm3 = [
+            name1 = nm1[rnd][0];
+            break;
+          case 'n':
+            nm3 = [
               ['eth', 'Female', 'neth'],
               ['el', 'Female', 'nel'],
               ['il', 'Female', 'nil'],
@@ -1164,11 +1162,11 @@ export default function elfs() {
               ['thêl', 'Sister', 'nthel'],
               ['bess', 'Wife', 'mes'],
             ];
-          name1 = nm1[rnd][0].slice(0, nm1[rnd][0].length - 1);
-          break;
-        case 'p':
-          if (lastTwoChar === 'mp') {
-            nm3 = [
+            name1 = nm1[rnd][0].slice(0, nm1[rnd][0].length - 1);
+            break;
+          case 'p':
+            if (lastTwoChar === 'mp') {
+              nm3 = [
                 ['eth', 'Female', 'meth'],
                 ['el', 'Female', 'mel'],
                 ['il', 'Female', 'mil'],
@@ -1179,9 +1177,9 @@ export default function elfs() {
                 ['dess', 'Woman', 'des'],
                 ['bess', 'Wife', 'bes'],
               ];
-            name1 = nm1[rnd][0].slice(0, nm1[rnd][0].length - 1);
-          } else {
-            nm3 = [
+              name1 = nm1[rnd][0].slice(0, nm1[rnd][0].length - 1);
+            } else {
+              nm3 = [
                 ['eth', 'Female', 'beth'],
                 ['el', 'Female', 'bel'],
                 ['il', 'Female', 'bil'],
@@ -1189,11 +1187,11 @@ export default function elfs() {
                 ['iell', 'Daughter of', 'biel'],
                 ['bess', 'Wife', 'bes'],
               ];
-            name1 = nm1[rnd][0].slice(0, nm1[rnd][0].length - 1);
-          }
-          break;
-        case 'r':
-          nm3 = [
+              name1 = nm1[rnd][0].slice(0, nm1[rnd][0].length - 1);
+            }
+            break;
+          case 'r':
+            nm3 = [
               ['eth', 'Female', 'eth'],
               ['el', 'Female', 'el'],
               ['il', 'Female', 'il'],
@@ -1208,11 +1206,11 @@ export default function elfs() {
               ['thêl', 'Sister', 'thel'],
               ['bess', 'Wife', 'bes'],
             ];
-          name1 = nm1[rnd][0];
-          break;
-        case 's':
-          if (lastTwoChar === 'ss') {
-            nm3 = [
+            name1 = nm1[rnd][0];
+            break;
+          case 's':
+            if (lastTwoChar === 'ss') {
+              nm3 = [
                 ['eth', 'Female', 'seth'],
                 ['el', 'Female', 'sel'],
                 ['il', 'Female', 'sil'],
@@ -1227,9 +1225,9 @@ export default function elfs() {
                 ['thêl', 'Sister', 'senthel'],
                 ['bess', 'Wife', 'semes'],
               ];
-            name1 = nm1[rnd][0].slice(0, nm1[rnd][0].length - 1);
-          } else {
-            nm3 = [
+              name1 = nm1[rnd][0].slice(0, nm1[rnd][0].length - 1);
+            } else {
+              nm3 = [
                 ['eth', 'Female', 'seth'],
                 ['el', 'Female', 'sel'],
                 ['il', 'Female', 'sil'],
@@ -1240,12 +1238,12 @@ export default function elfs() {
                 ['dess', 'Woman', 'des'],
                 ['bess', 'Wife', 'bes'],
               ];
-            name1 = nm1[rnd][0];
-          }
-          break;
-        case 't':
-          if (lastTwoChar === 'lt') {
-            nm3 = [
+              name1 = nm1[rnd][0];
+            }
+            break;
+          case 't':
+            if (lastTwoChar === 'lt') {
+              nm3 = [
                 ['eth', 'Female', 'eth'],
                 ['il', 'Female', 'il'],
                 ['ien', 'Daughter of', 'ien'],
@@ -1257,9 +1255,9 @@ export default function elfs() {
                 ['nîth', 'Sister', 'nith'],
                 ['bess', 'Wife', 'ves'],
               ];
-            name1 = nm1[rnd][0].slice(0, nm1[rnd][0].length - 1);
-          } else if (lastTwoChar === 'nt') {
-            nm3 = [
+              name1 = nm1[rnd][0].slice(0, nm1[rnd][0].length - 1);
+            } else if (lastTwoChar === 'nt') {
+              nm3 = [
                 ['eth', 'Female', 'nneth'],
                 ['el', 'Female', 'nnel'],
                 ['il', 'Female', 'nnil'],
@@ -1273,9 +1271,9 @@ export default function elfs() {
                 ['nîth', 'Sister', 'nnith'],
                 ['bess', 'Wife', 'mbes'],
               ];
-            name1 = nm1[rnd][0].slice(0, nm1[rnd][0].length - 2);
-          } else {
-            nm3 = [
+              name1 = nm1[rnd][0].slice(0, nm1[rnd][0].length - 2);
+            } else {
+              nm3 = [
                 ['eth', 'Female', 'teth'],
                 ['el', 'Female', 'tel'],
                 ['il', 'Female', 'til'],
@@ -1283,11 +1281,11 @@ export default function elfs() {
                 ['iell', 'Daughter of', 'tiel'],
                 ['sell', 'Girl', 'sel'],
               ];
-            name1 = nm1[rnd][0].slice(0, nm1[rnd][0].length - 1);
-          }
-          break;
-        case 'w':
-          nm3 = [
+              name1 = nm1[rnd][0].slice(0, nm1[rnd][0].length - 1);
+            }
+            break;
+          case 'w':
+            nm3 = [
               ['eth', 'Female', 'weth'],
               ['el', 'Female', 'wel'],
               ['il', 'Female', 'wil'],
@@ -1302,197 +1300,197 @@ export default function elfs() {
               ['thêl', 'Sister', 'thel'],
               ['bess', 'Wife', 'ves'],
             ];
-          name1 = nm1[rnd][0].slice(0, nm1[rnd][0].length - 1);
-          break;
+            name1 = nm1[rnd][0].slice(0, nm1[rnd][0].length - 1);
+            break;
         }
       } else if (type === 2) {
         switch (lastChar) {
-        case 'a':
-          nm3 = [
+          case 'a':
+            nm3 = [
               ['pen', 'Person', 'ben'],
               ['', '', ''],
             ];
-          name1 = nm1[rnd][0];
-          break;
-        case 'e':
-          nm3 = [
+            name1 = nm1[rnd][0];
+            break;
+          case 'e':
+            nm3 = [
               ['pen', 'Person', 'ben'],
               ['', '', ''],
             ];
-          name1 = nm1[rnd][0];
-          break;
-        case 'i':
-          nm3 = [
+            name1 = nm1[rnd][0];
+            break;
+          case 'i':
+            nm3 = [
               ['pen', 'Person', 'ben'],
               ['', '', ''],
             ];
-          name1 = nm1[rnd][0];
-          break;
-        case 'o':
-          nm3 = [
+            name1 = nm1[rnd][0];
+            break;
+          case 'o':
+            nm3 = [
               ['pen', 'Person', 'ben'],
               ['', '', ''],
             ];
-          name1 = nm1[rnd][0];
-          break;
-        case 'u':
-          nm3 = [
+            name1 = nm1[rnd][0];
+            break;
+          case 'u':
+            nm3 = [
               ['pen', 'Person', 'ben'],
               ['', '', ''],
             ];
-          name1 = nm1[rnd][0];
-          break;
-        case 'b':
-          nm3 = [
+            name1 = nm1[rnd][0];
+            break;
+          case 'b':
+            nm3 = [
               ['pen', 'Person', 'en'],
               ['', '', ''],
             ];
-          name1 = nm1[rnd][0];
-          break;
-        case 'c':
-          nm3 = [
+            name1 = nm1[rnd][0];
+            break;
+          case 'c':
+            nm3 = [
               ['', '', ''],
             ];
-          name1 = nm1[rnd][0];
-          break;
-        case 'd':
-          if (lastTwoChar === 'nd') {
-            nm3 = [
+            name1 = nm1[rnd][0];
+            break;
+          case 'd':
+            if (lastTwoChar === 'nd') {
+              nm3 = [
                 ['pen', 'Person', 'mben'],
                 ['', '', 'nd'],
               ];
-            name1 = nm1[rnd][0].slice(0, nm1[rnd][0].length - 2);
-          } else {
-            nm3 = [
+              name1 = nm1[rnd][0].slice(0, nm1[rnd][0].length - 2);
+            } else {
+              nm3 = [
                 ['', '', ''],
               ];
-            name1 = nm1[rnd][0];
-          }
-          break;
-        case 'f':
-          nm3 = [
+              name1 = nm1[rnd][0];
+            }
+            break;
+          case 'f':
+            nm3 = [
               ['pen', 'Person', 'phen'],
               ['', '', 'f'],
             ];
-          name1 = nm1[rnd][0].slice(0, nm1[rnd][0].length - 1);
-          break;
-        case 'g':
-          nm3 = [
+            name1 = nm1[rnd][0].slice(0, nm1[rnd][0].length - 1);
+            break;
+          case 'g':
+            nm3 = [
               ['', '', ''],
             ];
-          name1 = nm1[rnd][0];
-          break;
-        case 'h':
-          if (lastTwoChar === 'ch') {
-            nm3 = [
+            name1 = nm1[rnd][0];
+            break;
+          case 'h':
+            if (lastTwoChar === 'ch') {
+              nm3 = [
                 ['', '', ''],
               ];
-            name1 = nm1[rnd][0];
-          } else {
-            nm3 = [
+              name1 = nm1[rnd][0];
+            } else {
+              nm3 = [
                 ['pen', 'Person', 'ben'],
                 ['', '', ''],
               ];
-            name1 = nm1[rnd][0];
-          }
-          break;
-        case 'l':
-          if (lastTwoChar === 'll') {
-            nm3 = [
+              name1 = nm1[rnd][0];
+            }
+            break;
+          case 'l':
+            if (lastTwoChar === 'll') {
+              nm3 = [
                 ['pen', 'Person', 'ben'],
                 ['', '', ''],
               ];
-            name1 = nm1[rnd][0].slice(0, nm1[rnd][0].length - 1);
-          } else {
-            nm3 = [
+              name1 = nm1[rnd][0].slice(0, nm1[rnd][0].length - 1);
+            } else {
+              nm3 = [
                 ['pen', 'Person', 'ben'],
                 ['', '', ''],
               ];
-            name1 = nm1[rnd][0];
-          }
-          break;
-        case 'm':
-          nm3 = [
+              name1 = nm1[rnd][0];
+            }
+            break;
+          case 'm':
+            nm3 = [
               ['pen', 'Person', 'ben'],
               ['', '', ''],
             ];
-          name1 = nm1[rnd][0];
-          break;
-        case 'n':
-          nm3 = [
+            name1 = nm1[rnd][0];
+            break;
+          case 'n':
+            nm3 = [
               ['pen', 'Person', 'mben'],
               ['', '', ''],
             ];
-          name1 = nm1[rnd][0].slice(0, nm1[rnd][0].length - 1);
-          break;
-        case 'p':
-          if (lastTwoChar === 'mp') {
-            nm3 = [
+            name1 = nm1[rnd][0].slice(0, nm1[rnd][0].length - 1);
+            break;
+          case 'p':
+            if (lastTwoChar === 'mp') {
+              nm3 = [
                 ['pen', 'Person', 'ben'],
                 ['', '', ''],
               ];
-            name1 = nm1[rnd][0].slice(0, nm1[rnd][0].length - 1);
-          } else {
-            nm3 = [
+              name1 = nm1[rnd][0].slice(0, nm1[rnd][0].length - 1);
+            } else {
+              nm3 = [
                 ['pen', 'Person', 'en'],
                 ['', '', ''],
               ];
-            name1 = nm1[rnd][0];
-          }
-          break;
-        case 'r':
-          nm3 = [
+              name1 = nm1[rnd][0];
+            }
+            break;
+          case 'r':
+            nm3 = [
               ['pen', 'Person', 'phen'],
               ['', '', ''],
             ];
-          name1 = nm1[rnd][0];
-          break;
-        case 's':
-          if (lastTwoChar === 'ss') {
-            nm3 = [
-                ['pen', 'Person', 'pen'],
-                ['', '', ''],
-              ];
-            name1 = nm1[rnd][0].slice(0, nm1[rnd][0].length - 1);
-          } else {
-            nm3 = [
-                ['pen', 'Person', 'pen'],
-                ['', '', ''],
-              ];
             name1 = nm1[rnd][0];
-          }
-          break;
-        case 't':
-          if (lastTwoChar === 'lt') {
-            nm3 = [
+            break;
+          case 's':
+            if (lastTwoChar === 'ss') {
+              nm3 = [
+                ['pen', 'Person', 'pen'],
+                ['', '', ''],
+              ];
+              name1 = nm1[rnd][0].slice(0, nm1[rnd][0].length - 1);
+            } else {
+              nm3 = [
+                ['pen', 'Person', 'pen'],
+                ['', '', ''],
+              ];
+              name1 = nm1[rnd][0];
+            }
+            break;
+          case 't':
+            if (lastTwoChar === 'lt') {
+              nm3 = [
                 ['pen', 'Person', 'ben'],
                 ['', '', ''],
               ];
-            name1 = nm1[rnd][0].slice(0, nm1[rnd][0].length - 1);
-          } else if (lastTwoChar === 'nt') {
-            nm3 = [
+              name1 = nm1[rnd][0].slice(0, nm1[rnd][0].length - 1);
+            } else if (lastTwoChar === 'nt') {
+              nm3 = [
                 ['pen', 'Person', 'mben'],
                 ['', '', ''],
               ];
-            name1 = nm1[rnd][0].slice(0, nm1[rnd][0].length - 2);
-          } else {
-            nm3 = [
+              name1 = nm1[rnd][0].slice(0, nm1[rnd][0].length - 2);
+            } else {
+              nm3 = [
                 ['', '', ''],
               ];
-            name1 = nm1[rnd][0];
-          }
-          break;
-        case 'w':
-          nm3 = [
+              name1 = nm1[rnd][0];
+            }
+            break;
+          case 'w':
+            nm3 = [
               ['', '', ''],
             ];
-          name1 = nm1[rnd][0];
-          break;
+            name1 = nm1[rnd][0];
+            break;
         }
       } else {
         switch (lastChar) {
-        case 'a':
-          nm3 = [
+          case 'a':
+            nm3 = [
               ['daer', 'Groom', 'naer'],
               ['dir', 'Man', 'nir'],
               ['benn', 'Husband', 'ven'],
@@ -1500,10 +1498,10 @@ export default function elfs() {
               ['hawn', 'Brother', 'chon'],
               ['hanar', 'Brother', 'chanar'],
             ];
-          name1 = nm1[rnd][0];
-          break;
-        case 'e':
-          nm3 = [
+            name1 = nm1[rnd][0];
+            break;
+          case 'e':
+            nm3 = [
               ['daer', 'Groom', 'naer'],
               ['dir', 'Man', 'nir'],
               ['benn', 'Husband', 'ven'],
@@ -1511,10 +1509,10 @@ export default function elfs() {
               ['hawn', 'Brother', 'chon'],
               ['hanar', 'Brother', 'chanar'],
             ];
-          name1 = nm1[rnd][0];
-          break;
-        case 'i':
-          nm3 = [
+            name1 = nm1[rnd][0];
+            break;
+          case 'i':
+            nm3 = [
               ['daer', 'Groom', 'naer'],
               ['dir', 'Man', 'nir'],
               ['benn', 'Husband', 'ven'],
@@ -1522,10 +1520,10 @@ export default function elfs() {
               ['hawn', 'Brother', 'chon'],
               ['hanar', 'Brother', 'chanar'],
             ];
-          name1 = nm1[rnd][0];
-          break;
-        case 'o':
-          nm3 = [
+            name1 = nm1[rnd][0];
+            break;
+          case 'o':
+            nm3 = [
               ['daer', 'Groom', 'naer'],
               ['dir', 'Man', 'nir'],
               ['benn', 'Husband', 'ven'],
@@ -1533,10 +1531,10 @@ export default function elfs() {
               ['hawn', 'Brother', 'chon'],
               ['hanar', 'Brother', 'chanar'],
             ];
-          name1 = nm1[rnd][0];
-          break;
-        case 'u':
-          nm3 = [
+            name1 = nm1[rnd][0];
+            break;
+          case 'u':
+            nm3 = [
               ['daer', 'Groom', 'naer'],
               ['dir', 'Man', 'nir'],
               ['benn', 'Husband', 'ven'],
@@ -1544,26 +1542,26 @@ export default function elfs() {
               ['hawn', 'Brother', 'chon'],
               ['hanar', 'Brother', 'chanar'],
             ];
-          name1 = nm1[rnd][0];
-          break;
-        case 'b':
-          nm3 = [
+            name1 = nm1[rnd][0];
+            break;
+          case 'b':
+            nm3 = [
               ['on', 'Male', 'on'],
               ['ion', 'Son of', 'ion'],
               ['benn', 'Husband', 'en'],
             ];
-          name1 = nm1[rnd][0];
-          break;
-        case 'c':
-          nm3 = [
+            name1 = nm1[rnd][0];
+            break;
+          case 'c':
+            nm3 = [
               ['on', 'Male', 'gon'],
               ['ion', 'Son of', 'gion'],
             ];
-          name1 = nm1[rnd][0].slice(0, nm1[rnd][0].length - 1);
-          break;
-        case 'd':
-          if (lastTwoChar === 'nd') {
-            nm3 = [
+            name1 = nm1[rnd][0].slice(0, nm1[rnd][0].length - 1);
+            break;
+          case 'd':
+            if (lastTwoChar === 'nd') {
+              nm3 = [
                 ['on', 'Male', 'nnor'],
                 ['ion', 'Son of', 'nnion'],
                 ['daer', 'Groom', 'ndaer'],
@@ -1571,9 +1569,9 @@ export default function elfs() {
                 ['benn', 'Husband', 'mben'],
                 ['tôr', 'Brother', 'ndor'],
               ];
-            name1 = nm1[rnd][0].slice(0, nm1[rnd][0].length - 2);
-          } else {
-            nm3 = [
+              name1 = nm1[rnd][0].slice(0, nm1[rnd][0].length - 2);
+            } else {
+              nm3 = [
                 ['on', 'Male', 'on'],
                 ['ion', 'Son of', 'ion'],
                 ['daer', 'Groom', 'aer'],
@@ -1581,65 +1579,65 @@ export default function elfs() {
                 ['benn', 'Husband', 'ben'],
                 ['tôr', 'Brother', 'or'],
               ];
-            name1 = nm1[rnd][0];
-          }
-          break;
-        case 'f':
-          nm3 = [
+              name1 = nm1[rnd][0];
+            }
+            break;
+          case 'f':
+            nm3 = [
               ['on', 'Male', 'von'],
               ['ion', 'Son of', 'vion'],
               ['benn', 'Husband', 'ven'],
             ];
-          name1 = nm1[rnd][0].slice(0, nm1[rnd][0].length - 1);
-          break;
-        case 'g':
-          nm3 = [
+            name1 = nm1[rnd][0].slice(0, nm1[rnd][0].length - 1);
+            break;
+          case 'g':
+            nm3 = [
               ['on', 'Male', 'gon'],
               ['ion', 'Son of', 'gion'],
               ['dir', 'Man', 'gnir'],
               ['hawn', 'Brother', 'chon'],
               ['hanar', 'Brother', 'chanar'],
             ];
-          name1 = nm1[rnd][0].slice(0, nm1[rnd][0].length - 1);
-          break;
-        case 'h':
-          nm3 = [
+            name1 = nm1[rnd][0].slice(0, nm1[rnd][0].length - 1);
+            break;
+          case 'h':
+            nm3 = [
               ['on', 'Male', 'on'],
               ['ion', 'Son of', 'ion'],
               ['hawn', 'Brother', 'on'],
               ['hanar', 'Brother', 'anar'],
             ];
-          name1 = nm1[rnd][0];
-          break;
-        case 'l':
-          if (lastTwoChar === 'll') {
-            nm3 = [
-                ['on', 'Male', 'on'],
-                ['ion', 'Son of', 'ion'],
-                ['daer', 'Groom', 'daer'],
-                ['dir', 'Man', 'dir'],
-                ['benn', 'Husband', 'ben'],
-                ['tôr', 'Brother', 'dor'],
-                ['hawn', 'Brother', 'chon'],
-                ['hanar', 'Brother', 'chanar'],
-              ];
-            name1 = nm1[rnd][0].slice(0, nm1[rnd][0].length - 1);
-          } else {
-            nm3 = [
-                ['on', 'Male', 'on'],
-                ['ion', 'Son of', 'ion'],
-                ['daer', 'Groom', 'daer'],
-                ['dir', 'Man', 'dir'],
-                ['benn', 'Husband', 'ben'],
-                ['tôr', 'Brother', 'dor'],
-                ['hawn', 'Brother', 'chon'],
-                ['hanar', 'Brother', 'chanar'],
-              ];
             name1 = nm1[rnd][0];
-          }
-          break;
-        case 'm':
-          nm3 = [
+            break;
+          case 'l':
+            if (lastTwoChar === 'll') {
+              nm3 = [
+                ['on', 'Male', 'on'],
+                ['ion', 'Son of', 'ion'],
+                ['daer', 'Groom', 'daer'],
+                ['dir', 'Man', 'dir'],
+                ['benn', 'Husband', 'ben'],
+                ['tôr', 'Brother', 'dor'],
+                ['hawn', 'Brother', 'chon'],
+                ['hanar', 'Brother', 'chanar'],
+              ];
+              name1 = nm1[rnd][0].slice(0, nm1[rnd][0].length - 1);
+            } else {
+              nm3 = [
+                ['on', 'Male', 'on'],
+                ['ion', 'Son of', 'ion'],
+                ['daer', 'Groom', 'daer'],
+                ['dir', 'Man', 'dir'],
+                ['benn', 'Husband', 'ben'],
+                ['tôr', 'Brother', 'dor'],
+                ['hawn', 'Brother', 'chon'],
+                ['hanar', 'Brother', 'chanar'],
+              ];
+              name1 = nm1[rnd][0];
+            }
+            break;
+          case 'm':
+            nm3 = [
               ['on', 'Male', 'on'],
               ['ion', 'Son of', 'ion'],
               ['daer', 'Groom', 'daer'],
@@ -1647,10 +1645,10 @@ export default function elfs() {
               ['benn', 'Husband', 'ben'],
               ['tôr', 'Brother', 'dor'],
             ];
-          name1 = nm1[rnd][0];
-          break;
-        case 'n':
-          nm3 = [
+            name1 = nm1[rnd][0];
+            break;
+          case 'n':
+            nm3 = [
               ['on', 'Male', 'nor'],
               ['ion', 'Son of', 'nion'],
               ['daer', 'Groom', 'ndaer'],
@@ -1658,11 +1656,11 @@ export default function elfs() {
               ['benn', 'Husband', 'men'],
               ['tôr', 'Brother', 'thor'],
             ];
-          name1 = nm1[rnd][0].slice(0, nm1[rnd][0].length - 1);
-          break;
-        case 'p':
-          if (lastTwoChar === 'mp') {
-            nm3 = [
+            name1 = nm1[rnd][0].slice(0, nm1[rnd][0].length - 1);
+            break;
+          case 'p':
+            if (lastTwoChar === 'mp') {
+              nm3 = [
                 ['on', 'Male', 'mon'],
                 ['ion', 'Son of', 'mion'],
                 ['daer', 'Groom', 'daer'],
@@ -1670,18 +1668,18 @@ export default function elfs() {
                 ['benn', 'Husband', 'ben'],
                 ['tôr', 'Brother', 'dor'],
               ];
-            name1 = nm1[rnd][0].slice(0, nm1[rnd][0].length - 1);
-          } else {
-            nm3 = [
+              name1 = nm1[rnd][0].slice(0, nm1[rnd][0].length - 1);
+            } else {
+              nm3 = [
                 ['on', 'Male', 'bon'],
                 ['ion', 'Son of', 'bion'],
                 ['benn', 'Husband', 'ben'],
               ];
-            name1 = nm1[rnd][0].slice(0, nm1[rnd][0].length - 1);
-          }
-          break;
-        case 'r':
-          nm3 = [
+              name1 = nm1[rnd][0].slice(0, nm1[rnd][0].length - 1);
+            }
+            break;
+          case 'r':
+            nm3 = [
               ['on', 'Male', 'on'],
               ['ion', 'Son of', 'ion'],
               ['daer', 'Groom', 'daer'],
@@ -1691,11 +1689,11 @@ export default function elfs() {
               ['hawn', 'Brother', 'chon'],
               ['hanar', 'Brother', 'chanar'],
             ];
-          name1 = nm1[rnd][0];
-          break;
-        case 's':
-          if (lastTwoChar === 'ss') {
-            nm3 = [
+            name1 = nm1[rnd][0];
+            break;
+          case 's':
+            if (lastTwoChar === 'ss') {
+              nm3 = [
                 ['on', 'Male', 'son'],
                 ['ion', 'Son of', 'sion'],
                 ['daer', 'Groom', 'sendaer'],
@@ -1703,9 +1701,9 @@ export default function elfs() {
                 ['benn', 'Husband', 'semen'],
                 ['tôr', 'Brother', 'tor'],
               ];
-            name1 = nm1[rnd][0].slice(0, nm1[rnd][0].length - 1);
-          } else {
-            nm3 = [
+              name1 = nm1[rnd][0].slice(0, nm1[rnd][0].length - 1);
+            } else {
+              nm3 = [
                 ['on', 'Male', 'son'],
                 ['ion', 'Son of', 'sion'],
                 ['daer', 'Groom', 'daer'],
@@ -1713,12 +1711,12 @@ export default function elfs() {
                 ['benn', 'Husband', 'ben'],
                 ['tôr', 'Brother', 'tor'],
               ];
-            name1 = nm1[rnd][0];
-          }
-          break;
-        case 't':
-          if (lastTwoChar === 'lt') {
-            nm3 = [
+              name1 = nm1[rnd][0];
+            }
+            break;
+          case 't':
+            if (lastTwoChar === 'lt') {
+              nm3 = [
                 ['on', 'Male', 'on'],
                 ['ion', 'Son of', 'ion'],
                 ['daer', 'Groom', 'daer'],
@@ -1728,9 +1726,9 @@ export default function elfs() {
                 ['hawn', 'Brother', 'chon'],
                 ['hanar', 'Brother', 'chanar'],
               ];
-            name1 = nm1[rnd][0].slice(0, nm1[rnd][0].length - 1);
-          } else if (lastTwoChar === 'nt') {
-            nm3 = [
+              name1 = nm1[rnd][0].slice(0, nm1[rnd][0].length - 1);
+            } else if (lastTwoChar === 'nt') {
+              nm3 = [
                 ['on', 'Male', 'nnor'],
                 ['ion', 'Son of', 'nnion'],
                 ['daer', 'Groom', 'ndaer'],
@@ -1738,18 +1736,18 @@ export default function elfs() {
                 ['benn', 'Husband', 'mben'],
                 ['tôr', 'Brother', 'ndor'],
               ];
-            name1 = nm1[rnd][0].slice(0, nm1[rnd][0].length - 2);
-          } else {
-            nm3 = [
+              name1 = nm1[rnd][0].slice(0, nm1[rnd][0].length - 2);
+            } else {
+              nm3 = [
                 ['on', 'Male', 'on'],
                 ['ion', 'Son of', 'ion'],
                 ['tôr', 'Brother', 'or'],
               ];
-            name1 = nm1[rnd][0];
-          }
-          break;
-        case 'w':
-          nm3 = [
+              name1 = nm1[rnd][0];
+            }
+            break;
+          case 'w':
+            nm3 = [
               ['on', 'Male', 'won'],
               ['ion', 'Son of', 'wion'],
               ['daer', 'Groom', 'naer'],
@@ -1759,8 +1757,8 @@ export default function elfs() {
               ['hawn', 'Brother', 'chon'],
               ['hanar', 'Brother', 'chanar'],
             ];
-          name1 = nm1[rnd][0].slice(0, nm1[rnd][0].length - 1);
-          break;
+            name1 = nm1[rnd][0].slice(0, nm1[rnd][0].length - 1);
+            break;
         }
       }
       rnd2 = Math.floor(Math.random() * nm3.length);
@@ -1769,31 +1767,30 @@ export default function elfs() {
     } else {
       rnd = Math.floor(Math.random() * nm2.length);
       lastChar = nm2[rnd][0].substr(nm2[rnd][0].length - 1);
-      lastTwoChar = nm2[rnd][0].substr(nm2[rnd][0].length - 2);
       if (type === 1) {
         switch (lastChar) {
-        case 'a':
-          nm3 = [
+          case 'a':
+            nm3 = [
               ['ril', 'Female', 'ril'],
               ['dis', 'Female', 'adis'],
               ['iell', 'Daughter of', 'riel'],
               ['ien', 'Daughter of', 'rien'],
             ];
-          name2 = nm2[rnd][0].slice(0, nm2[rnd][0].length - 1);
-          break;
-        case 'b':
-        case 'h':
-        case 'w':
-          nm3 = [
+            name2 = nm2[rnd][0].slice(0, nm2[rnd][0].length - 1);
+            break;
+          case 'b':
+          case 'h':
+          case 'w':
+            nm3 = [
               ['ril', 'Female', 'ril'],
               ['dis', 'Female', 'edis'],
               ['iell', 'Daughter of', 'riel'],
               ['ien', 'Daughter of', 'rien'],
             ];
-          name2 = nm2[rnd][0];
-          break;
-        case 'd':
-          nm3 = [
+            name2 = nm2[rnd][0];
+            break;
+          case 'd':
+            nm3 = [
               ['ril', 'Female', 'ril'],
               ['dis', 'Female', 'is'],
               ['iell', 'Daughter of', 'issiel'],
@@ -1801,19 +1798,19 @@ export default function elfs() {
               ['iell', 'Daughter of', 'riel'],
               ['ien', 'Daughter of', 'rien'],
             ];
-          name2 = nm2[rnd][0];
-          break;
-        case 'f':
-          nm3 = [
+            name2 = nm2[rnd][0];
+            break;
+          case 'f':
+            nm3 = [
               ['ril', 'Female', 'vril'],
               ['dis', 'Female', 'vedis'],
               ['iell', 'Daughter of', 'vriel'],
               ['ien', 'Daughter of', 'vrien'],
             ];
-          name2 = nm2[rnd][0].slice(0, nm2[rnd][0].length - 1);
-          break;
-        case 'g':
-          nm3 = [
+            name2 = nm2[rnd][0].slice(0, nm2[rnd][0].length - 1);
+            break;
+          case 'g':
+            nm3 = [
               ['ril', 'Female', 'ril'],
               ['dis', 'Female', 'nis'],
               ['iell', 'Daughter of', 'nissiel'],
@@ -1821,10 +1818,10 @@ export default function elfs() {
               ['iell', 'Daughter of', 'riel'],
               ['ien', 'Daughter of', 'rien'],
             ];
-          name2 = nm2[rnd][0];
-          break;
-        case 'l':
-          nm3 = [
+            name2 = nm2[rnd][0];
+            break;
+          case 'l':
+            nm3 = [
               ['ril', 'Female', 'lil'],
               ['dis', 'Female', 'dis'],
               ['iell', 'Daughter of', 'liel'],
@@ -1832,10 +1829,10 @@ export default function elfs() {
               ['iell', 'Daughter of', 'dissiel'],
               ['ien', 'Daughter of', 'dissien'],
             ];
-          name2 = nm2[rnd][0];
-          break;
-        case 'n':
-          nm3 = [
+            name2 = nm2[rnd][0];
+            break;
+          case 'n':
+            nm3 = [
               ['ril', 'Female', 'dhril'],
               ['dis', 'Female', 'ndis'],
               ['iell', 'Daughter of', 'ndissiel'],
@@ -1843,146 +1840,146 @@ export default function elfs() {
               ['iell', 'Daughter of', 'dhriel'],
               ['ien', 'Daughter of', 'dhrien'],
             ];
-          name2 = nm2[rnd][0].slice(0, nm2[rnd][0].length - 1);
-          break;
-        case 'r':
-          nm3 = [
+            name2 = nm2[rnd][0].slice(0, nm2[rnd][0].length - 1);
+            break;
+          case 'r':
+            nm3 = [
               ['ril', 'Female', 'il'],
               ['dis', 'Female', 'dis'],
               ['iell', 'Daughter of', 'iel'],
               ['ien', 'Daughter of', 'ien'],
             ];
-          name2 = nm2[rnd][0];
-          break;
+            name2 = nm2[rnd][0];
+            break;
         }
       } else if (type === 2) {
         switch (lastChar) {
-        case 'a':
-          nm3 = [
+          case 'a':
+            nm3 = [
               ['or', 'Person', 'or'],
             ];
-          name2 = nm2[rnd][0].slice(0, nm2[rnd][0].length - 1);
-          break;
-        case 'b':
-        case 'h':
-        case 'w':
-          nm3 = [
+            name2 = nm2[rnd][0].slice(0, nm2[rnd][0].length - 1);
+            break;
+          case 'b':
+          case 'h':
+          case 'w':
+            nm3 = [
               ['or', 'Person', 'or'],
             ];
-          name2 = nm2[rnd][0];
-          break;
-        case 'd':
-          nm3 = [
+            name2 = nm2[rnd][0];
+            break;
+          case 'd':
+            nm3 = [
               ['or', 'Person', 'or'],
             ];
-          name2 = nm2[rnd][0];
-          break;
-        case 'f':
-          nm3 = [
+            name2 = nm2[rnd][0];
+            break;
+          case 'f':
+            nm3 = [
               ['or', 'Person', 'vor'],
             ];
-          name2 = nm2[rnd][0].slice(0, nm2[rnd][0].length - 1);
-          break;
-        case 'g':
-          nm3 = [
+            name2 = nm2[rnd][0].slice(0, nm2[rnd][0].length - 1);
+            break;
+          case 'g':
+            nm3 = [
               ['or', 'Person', 'or'],
             ];
-          name2 = nm2[rnd][0];
-          break;
-        case 'l':
-          nm3 = [
+            name2 = nm2[rnd][0];
+            break;
+          case 'l':
+            nm3 = [
               ['or', 'Person', 'or'],
             ];
-          name2 = nm2[rnd][0];
-          break;
-        case 'n':
-          nm3 = [
+            name2 = nm2[rnd][0];
+            break;
+          case 'n':
+            nm3 = [
               ['or', 'Person', 'or'],
             ];
-          name2 = nm2[rnd][0];
-          break;
-        case 'r':
-          nm3 = [
+            name2 = nm2[rnd][0];
+            break;
+          case 'r':
+            nm3 = [
               ['or', 'Person', 'or'],
             ];
-          name2 = nm2[rnd][0];
-          break;
+            name2 = nm2[rnd][0];
+            break;
         }
       } else {
         switch (lastChar) {
-        case 'a':
-          nm3 = [
+          case 'a':
+            nm3 = [
               ['on', 'Male', 'on'],
               ['dir', 'Male', 'edir'],
               ['ron', 'Male', 'on'],
               ['ion', 'Son of', 'ion'],
             ];
-          name2 = nm2[rnd][0].slice(0, nm2[rnd][0].length - 1);
-          break;
-        case 'b':
-        case 'h':
-        case 'w':
-          nm3 = [
+            name2 = nm2[rnd][0].slice(0, nm2[rnd][0].length - 1);
+            break;
+          case 'b':
+          case 'h':
+          case 'w':
+            nm3 = [
               ['on', 'Male', 'edon'],
               ['dir', 'Male', 'edir'],
               ['ron', 'Male', 'ron'],
               ['ion', 'Son of', 'rion'],
             ];
-          name2 = nm2[rnd][0];
-          break;
-        case 'd':
-          nm3 = [
+            name2 = nm2[rnd][0];
+            break;
+          case 'd':
+            nm3 = [
               ['ion', 'Son of', 'irion'],
               ['dir', 'Male', 'ir'],
               ['ron', 'Male', 'ron'],
               ['ion', 'Son of', 'rion'],
             ];
-          name2 = nm2[rnd][0];
-          break;
-        case 'f':
-          nm3 = [
+            name2 = nm2[rnd][0];
+            break;
+          case 'f':
+            nm3 = [
               ['dir', 'Male', 'vedir'],
               ['ron', 'Male', 'vron'],
               ['ion', 'Son of', 'vrion'],
             ];
-          name2 = nm2[rnd][0].slice(0, nm2[rnd][0].length - 1);
-          break;
-        case 'g':
-          nm3 = [
+            name2 = nm2[rnd][0].slice(0, nm2[rnd][0].length - 1);
+            break;
+          case 'g':
+            nm3 = [
               ['ion', 'Son of', 'nirion'],
               ['dir', 'Male', 'nir'],
               ['ron', 'Male', 'ron'],
               ['ion', 'Son of', 'rion'],
             ];
-          name2 = nm2[rnd][0];
-          break;
-        case 'l':
-          nm3 = [
+            name2 = nm2[rnd][0];
+            break;
+          case 'l':
+            nm3 = [
               ['ion', 'Son of', 'lion'],
               ['dir', 'Male', 'dir'],
               ['ron', 'Male', 'lon'],
               ['ion', 'Son of', 'dirion'],
             ];
-          name2 = nm2[rnd][0];
-          break;
-        case 'n':
-          nm3 = [
+            name2 = nm2[rnd][0];
+            break;
+          case 'n':
+            nm3 = [
               ['ion', 'Son of', 'dhrion'],
               ['dir', 'Male', 'ndir'],
               ['ron', 'Male', 'dhron'],
               ['ion', 'Son of', 'ndirion'],
             ];
-          name2 = nm2[rnd][0].slice(0, nm2[rnd][0].length - 1);
-          break;
-        case 'r':
-          nm3 = [
+            name2 = nm2[rnd][0].slice(0, nm2[rnd][0].length - 1);
+            break;
+          case 'r':
+            nm3 = [
               ['ion', 'Son of', 'ion'],
               ['dir', 'Male', 'dir'],
               ['ron', 'Male', 'on'],
               ['ion', 'Son of', 'dirion'],
             ];
-          name2 = nm2[rnd][0];
-          break;
+            name2 = nm2[rnd][0];
+            break;
         }
       }
       rnd2 = Math.floor(Math.random() * nm3.length);

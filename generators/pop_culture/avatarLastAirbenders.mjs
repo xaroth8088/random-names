@@ -3,14 +3,9 @@ export default function avatarLastAirbenders() {
   let rnd;
   let rnd2;
   let rnd3;
-  let rnd;
-  let rnd2;
-  let rnd3;
   let rnd4;
   let rnd5;
-  let
-    rnd6;
-  let names;
+  let rnd6;
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['g', 'h', 'l', 'm', 'n', 'gy', 'p', 'r', 's', 't'];
   const nm2 = ['a', 'e', 'i', 'o'];
@@ -27,10 +22,12 @@ export default function avatarLastAirbenders() {
   const nm13 = ['a', 'i', 'o'];
   const nm14 = ['h', 'k', 'l', 'll', 'm', 'n', 'nn', 'r', 'rr', 's', 't'];
   const nm15 = ['ch', 'b', 'f', 'g', 'h', 'l', 'm', 'p', 'r', 'sh', 'x'];
-  const nm16 = ['ao', 'uo', 'aa', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u'];
+  const nm16 = ['ao', 'uo', 'aa', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o',
+    'u'];
   const nm17 = ['h', 'l', 'm', 'n', 'sh', 't'];
   const nm18 = ['', '', '', 'h', 'ng', 'n', 'r'];
-  const nm19 = ['', '', 'b', 'f', 'g', 'h', 'k', 'l', 'n', 'm', 's', 'sh', 't', 'w'];
+  const nm19 = ['', '', 'b', 'f', 'g', 'h', 'k', 'l', 'n', 'm', 's', 'sh', 't',
+    'w'];
   const nm19b = ['b', 'f', 'g', 'h', 'k', 'l', 'n', 'm', 's', 'sh', 't', 'w'];
   const nm20 = ['k', 'l', 'm', 'n', 'r', 'sh', 'v', 'y'];
   const nm21 = ['', '', 'ph', 'h', 'ng', 'n'];
@@ -56,7 +53,8 @@ export default function avatarLastAirbenders() {
         rnd4 = Math.floor(Math.random() * nm13.length);
         rnd5 = Math.floor(Math.random() * nm14.length);
         rnd6 = Math.floor(Math.random() * nm13.length);
-        names = nm12[rnd] + nm13[rnd2] + nm14[rnd3] + nm13[rnd4] + nm14[rnd5] + nm13[rnd6];
+        names = nm12[rnd] + nm13[rnd2] + nm14[rnd3] + nm13[rnd4] + nm14[rnd5]
+          + nm13[rnd6];
       } else if (i < 6) {
         rnd = Math.floor(Math.random() * nm12.length);
         rnd2 = Math.floor(Math.random() * nm13.length);
@@ -82,7 +80,8 @@ export default function avatarLastAirbenders() {
         rnd4 = Math.floor(Math.random() * nm2.length);
         rnd5 = Math.floor(Math.random() * nm26.length);
         rnd6 = Math.floor(Math.random() * nm2.length);
-        names = nm25[rnd] + nm2[rnd2] + nm26[rnd3] + nm2[rnd4] + nm26[rnd5] + nm2[rnd6];
+        names = nm25[rnd] + nm2[rnd2] + nm26[rnd3] + nm2[rnd4] + nm26[rnd5]
+          + nm2[rnd6];
       } else {
         rnd = Math.floor(Math.random() * nm27.length);
         rnd2 = Math.floor(Math.random() * nm2.length);

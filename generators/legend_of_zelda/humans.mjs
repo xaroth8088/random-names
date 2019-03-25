@@ -3,23 +3,20 @@ export default function humans() {
   let rnd;
   let rnd2;
   let rnd3;
-  let rnd;
-  let rnd2;
-  let rnd3;
   let rnd4;
   let rnd5;
-  let
-    rnd6;
-  let names;
+  let rnd6;
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['', '', '', '', '', '', 'a', 'e', 'i', 'o', 'u', 'i', 'a', 'e'];
   const nm2 = ['b', 'c', 'd', 'j', 'k', 'l', 'm', 'n', 'r', 't', 'z'];
   const nm3 = ['a', 'i', 'o', 'u', 'a', 'o'];
   const nm4 = ['b', 'g', 'k', 'l', 'm', 'ng', 'r', 'rr', 'ss', 't', 'z'];
-  const nm5 = ['', '', '', '', '', '', 'h', 'k', 'l', 'll', 'lph', 'm', 'n', 'nk', 's'];
+  const nm5 = ['', '', '', '', '', '', 'h', 'k', 'l', 'll', 'lph', 'm', 'n',
+    'nk', 's'];
   const nm6 = ['a', 'e', 'i', 'o'];
   const nm7 = ['c', 'f', 'h', 'm', 'n', 'ph', 'r', 's', 'sh', 'th', 't'];
-  const nm8 = ['f', 'l', 'm', 'mb', 'n', 'p', 'ph', 'tr', 'ld', 'r', 's', 'sh', 'v'];
+  const nm8 = ['f', 'l', 'm', 'mb', 'n', 'p', 'ph', 'tr', 'ld', 'r', 's', 'sh',
+    'v'];
   const nm9 = ['a', 'e', 'i', 'o', 'ia', 'ei', 'ie', 'ea', 'a', 'e', 'i'];
   const nm10 = ['', '', '', '', '', '', 'l', 'm', 'n', 's', 'sh', 'th'];
   const i = Math.floor(Math.random() * 10); {

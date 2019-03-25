@@ -5,32 +5,34 @@ export default function ghiscaris() {
   let rnd;
   let rnd2;
   let rnd3;
-  let rnd;
-  let rnd2;
-  let rnd3;
   let rnd4;
   let rnd5;
   let rnd6;
-  let
-    rnd9;
+  let rnd9;
   let rnd10;
   let rnd11;
   let rnd12;
-  let
-    rnd13;
-  let names;
+  let rnd13;
   const type = Math.random() > 0.5 ? 0 : 1;
-  const nm1 = ['', '', 'dr', 'g', 'gr', 'h', 'kr', 'm', 'pr', 'q', 'r', 'sr', 'sh', 'z', 'zh'];
+  const nm1 = ['', '', 'dr', 'g', 'gr', 'h', 'kr', 'm', 'pr', 'q', 'r', 'sr',
+    'sh', 'z', 'zh'];
   const nm2 = ['a', 'ei', 'i', 'o', 'e', 'a', 'e', 'i', 'o', 'a', 'a'];
-  const nm3 = ['dn', 'd', 'gh', 'ghd', 'gn', 'nd', 'md', 'k', 'kh', 'kn', 'kl', 'q', 'qh', 'qn', 'rd', 'rn', 'rm', 'sn', 'zd', 'zh', 'zn', 'zm', 'zl'];
+  const nm3 = ['dn', 'd', 'gh', 'ghd', 'gn', 'nd', 'md', 'k', 'kh', 'kn', 'kl',
+    'q', 'qh', 'qn', 'rd', 'rn', 'rm', 'sn', 'zd', 'zh', 'zn', 'zm', 'zl'];
   const nm4 = ['hr', 'hl', 'k', 'l', 'n', 'q', 'r', 's', 'z'];
   const nm5 = ['zo', 'na', 'mo'];
-  const nm6 = ['Ch', 'D', 'G', 'H', 'K', 'L', 'M', 'N', 'P', 'Pr', 'R', 'S', 'Sh', 'Z', 'Zh'];
+  const nm6 = ['Ch', 'D', 'G', 'H', 'K', 'L', 'M', 'N', 'P', 'Pr', 'R', 'S',
+    'Sh', 'Z', 'Zh'];
   const nm7 = ['a', 'e', 'i', 'o', 'a', 'a'];
-  const nm8 = ['dn', 'g', 'gd', 'ghd', 'gn', 'nd', 'n', 'm', 'md', 'kh', 'l', 'q', 'qh', 'qn', 'r', 'rr', 'sh', 'ss', 'zz', 'zd', 'zh', 'zn', 'zm', 'zl'];
-  const nm9 = ['', '', '', 'd', 'dh', 'g', 'gh', 'h', 'k', 'l', 'm', 'n', 'p', 'qu', 'r', 'rh', 'sh', 'yh', 'zh', 'z'];
+  const nm8 = ['dn', 'g', 'gd', 'ghd', 'gn', 'nd', 'n', 'm', 'md', 'kh', 'l',
+    'q', 'qh', 'qn', 'r', 'rr', 'sh', 'ss', 'zz', 'zd', 'zh', 'zn', 'zm', 'zl',
+  ];
+  const nm9 = ['', '', '', 'd', 'dh', 'g', 'gh', 'h', 'k', 'l', 'm', 'n', 'p',
+    'qu', 'r', 'rh', 'sh', 'yh', 'zh', 'z'];
   const nm10 = ['a', 'e', 'i', 'u', 'o', 'a', 'a'];
-  const nm11 = ['', '', '', '', '', 'dh', 'g', 'hn', 'hz', 'hl', 'kn', 'kl', 'l', 'llh', 'md', 'nd', 'q', 'qu', 'qq', 'r', 'rr', 'rd', 'sh', 'sn', 'z', 'zk', 'zz', 'zn', 'zd', 'zh'];
+  const nm11 = ['', '', '', '', '', 'dh', 'g', 'hn', 'hz', 'hl', 'kn', 'kl',
+    'l', 'llh', 'md', 'nd', 'q', 'qu', 'qq', 'r', 'rr', 'rd', 'sh', 'sn', 'z',
+    'zk', 'zz', 'zn', 'zd', 'zh'];
   const nm12 = ['', 'a', 'e', 'i', 'u', 'o', 'a', 'a'];
   const nm13 = ['', '', '', 'hl', 'k', 'n', 'q', 'r', 'z', 'zn']; {
     rnd9 = Math.floor(Math.random() * nm9.length);
@@ -39,9 +41,7 @@ export default function ghiscaris() {
     rnd12 = Math.floor(Math.random() * nm12.length);
     rnd13 = Math.floor(Math.random() * nm13.length);
     names2 = nm9[rnd9] + nm10[rnd10] + nm11[rnd11] + nm12[rnd12] + nm13[rnd13];
-    if (rnd11 < 5) {
-      rnd12 = 0;
-    } else {
+    if (rnd11 < 5) {} else {
       while (rnd12 === 0) {
         rnd12 = Math.floor(Math.random() * nm12.length);
       }
@@ -53,7 +53,8 @@ export default function ghiscaris() {
       rnd4 = Math.floor(Math.random() * nm7.length);
       rnd5 = Math.floor(Math.random() * nm8.length);
       rnd6 = Math.floor(Math.random() * nm7.length);
-      names1 = nm6[rnd] + nm7[rnd2] + nm8[rnd3] + nm7[rnd4] + nm8[rnd5] + nm7[rnd6];
+      names1 = nm6[rnd] + nm7[rnd2] + nm8[rnd3] + nm7[rnd4] + nm8[rnd5] + nm7[
+        rnd6];
       names = `${names1} ${names2.substr(0, 1).toUpperCase()}${names2.substr(1)}`;
     } else {
       rnd = Math.floor(Math.random() * nm1.length);

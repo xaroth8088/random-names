@@ -4,36 +4,51 @@ export default function halfOrcs() {
   let rnd;
   let rnd2;
   let rnd3;
-  let rnd;
-  let rnd2;
-  let rnd3;
   let rnd4;
   let rnd5;
   let rnd6;
-  let
-    rnd7;
+  let rnd7;
   let rnd10;
   let rnd11;
   let rnd12;
   let rnd13;
   let rnd14;
   let rnd15;
-  let
-    rnd16;
-  let names;
+  let rnd16;
   const type = Math.random() > 0.5 ? 0 : 1;
-  const nm1 = ['', '', '', 'b', 'br', 'c', 'cr', 'd', 'dr', 'g', 'gr', 'h', 'hr', 'k', 'm', 'n', 'p', 't', 'th', 'ts', 'z'];
-  const nm2 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'a', 'o', 'o', 'aa', 'au', 'oa', 'ia', 'ai', 'uu'];
-  const nm3 = ['br', 'b', 'd', 'dh', 'dr', 'dz', 'g', 'gr', 'gd', 'gh', 'k', 'kh', 'kt', 'kd', 'kr', 'lgr', 'ltr', 'ldr', 'lr', 'lkr', 'nd', 'ng', 'ngr', 'ndr', 'nv', 'r', 'rv', 'rg', 'rdr', 'st', 'sd', 'str', 'tr', 'v', 'zr', 'zz', 'zv', 'zvr'];
-  const nm4 = ['', '', '', 'ch', 'd', 'g', 'k', 'l', 'lm', 'n', 'r', 'rg', 'rm', 'rv', 's', 'sk', 't', 'x', 'zhg'];
-  const nm5 = ['', '', '', '', '', 'b', 'br', 'c', 'd', 'dr', 'g', 'h', 'k', 'm', 'n', 'r', 'rz', 's', 'sh', 'str', 't', 'v', 'w', 'z'];
-  const nm6 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'a', 'o', 'o', 'ay', 'ou', 'ai', 'uo'];
-  const nm7 = ['b', 'br', 'bl', 'c', 'cl', 'cr', 'd', 'dl', 'dr', 'g', 'gh', 'gr', 'gl', 'hg', 'hk', 'hr', 'jk', 'l', 'ljk', 'll', 'ln', 'lr', 'lt', 'm', 'mr', 'mg', 'ml', 'n', 'ng', 'nl', 'nc', 'r', 'rg', 'rl', 'rd', 's', 'sl', 'sr', 't', 'tt', 'tr', 'v', 'vr', 'z', 'zr'];
-  const nm8 = ['', '', '', '', '', '', '', '', '', '', '', '', '', '', '', 'h', 'n', 'sh', 'th', 'x'];
-  const nm9 = ['', '', '', '', '', 'b', 'c', 'd', 'g', 'gn', 'h', 'j', 'k', 'm', 'n', 'r', 's', 'sh', 't', 'th', 'v', 'w', 'z'];
+  const nm1 = ['', '', '', 'b', 'br', 'c', 'cr', 'd', 'dr', 'g', 'gr', 'h',
+    'hr', 'k', 'm', 'n', 'p', 't', 'th', 'ts', 'z'];
+  const nm2 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i',
+    'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i',
+    'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'a', 'o', 'o', 'aa', 'au', 'oa',
+    'ia', 'ai', 'uu'];
+  const nm3 = ['br', 'b', 'd', 'dh', 'dr', 'dz', 'g', 'gr', 'gd', 'gh', 'k',
+    'kh', 'kt', 'kd', 'kr', 'lgr', 'ltr', 'ldr', 'lr', 'lkr', 'nd', 'ng',
+    'ngr', 'ndr', 'nv', 'r', 'rv', 'rg', 'rdr', 'st', 'sd', 'str', 'tr', 'v',
+    'zr', 'zz', 'zv', 'zvr'];
+  const nm4 = ['', '', '', 'ch', 'd', 'g', 'k', 'l', 'lm', 'n', 'r', 'rg', 'rm',
+    'rv', 's', 'sk', 't', 'x', 'zhg'];
+  const nm5 = ['', '', '', '', '', 'b', 'br', 'c', 'd', 'dr', 'g', 'h', 'k',
+    'm', 'n', 'r', 'rz', 's', 'sh', 'str', 't', 'v', 'w', 'z'];
+  const nm6 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i',
+    'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i',
+    'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'a', 'o', 'o', 'ay', 'ou', 'ai',
+    'uo'];
+  const nm7 = ['b', 'br', 'bl', 'c', 'cl', 'cr', 'd', 'dl', 'dr', 'g', 'gh',
+    'gr', 'gl', 'hg', 'hk', 'hr', 'jk', 'l', 'ljk', 'll', 'ln', 'lr', 'lt',
+    'm', 'mr', 'mg', 'ml', 'n', 'ng', 'nl', 'nc', 'r', 'rg', 'rl', 'rd', 's',
+    'sl', 'sr', 't', 'tt', 'tr', 'v', 'vr', 'z', 'zr'];
+  const nm8 = ['', '', '', '', '', '', '', '', '', '', '', '', '', '', '', 'h',
+    'n', 'sh', 'th', 'x'];
+  const nm9 = ['', '', '', '', '', 'b', 'c', 'd', 'g', 'gn', 'h', 'j', 'k', 'm',
+    'n', 'r', 's', 'sh', 't', 'th', 'v', 'w', 'z'];
   const nm10 = ['a', 'e', 'i', 'o', 'u'];
-  const nm11 = ['b', 'br', 'd', 'dr', 'dk', 'g', 'gr', 'gh', 'gl', 'k', 'kr', 'l', 'lk', 'lgr', 'ln', 'lr', 'lr', 'm', 'mk', 'n', 'nr', 'nk', 'nd', 'ndr', 'ng', 'rg', 'rv', 'rk', 'r', 'rr', 'rsh', 'shk', 'st', 'sk', 'sr', 'sv', 'svr', 'tsk', 'tk', 'tr', 'v', 'xl', 'xn', 'z', 'zr', 'zk'];
-  const nm12 = ['', '', '', '', '', 'ch', 'd', 'k', 'ld', 'lm', 'm', 'n', 'r', 'shky', 'tsky', 'v', 'x', 'z'];
+  const nm11 = ['b', 'br', 'd', 'dr', 'dk', 'g', 'gr', 'gh', 'gl', 'k', 'kr',
+    'l', 'lk', 'lgr', 'ln', 'lr', 'lr', 'm', 'mk', 'n', 'nr', 'nk', 'nd',
+    'ndr', 'ng', 'rg', 'rv', 'rk', 'r', 'rr', 'rsh', 'shk', 'st', 'sk', 'sr',
+    'sv', 'svr', 'tsk', 'tk', 'tr', 'v', 'xl', 'xn', 'z', 'zr', 'zk'];
+  const nm12 = ['', '', '', '', '', 'ch', 'd', 'k', 'ld', 'lm', 'm', 'n', 'r',
+    'shky', 'tsky', 'v', 'x', 'z'];
   const i = Math.floor(Math.random() * 10); {
     rnd10 = Math.floor(Math.random() * nm9.length);
     rnd11 = Math.floor(Math.random() * nm10.length);
@@ -43,7 +58,8 @@ export default function halfOrcs() {
       rnd14 = Math.floor(Math.random() * nm10.length);
       rnd15 = Math.floor(Math.random() * nm11.length);
       rnd16 = Math.floor(Math.random() * nm10.length);
-      nameLast = nm9[rnd10] + nm10[rnd11] + nm11[rnd13] + nm10[rnd14] + nm11[rnd15] + nm10[rnd16] + nm12[rnd12];
+      nameLast = nm9[rnd10] + nm10[rnd11] + nm11[rnd13] + nm10[rnd14] + nm11[
+        rnd15] + nm10[rnd16] + nm12[rnd12];
     } else if (i % 2 === 0) {
       while (rnd10 < 5) {
         rnd10 = Math.floor(Math.random() * nm9.length);
@@ -55,7 +71,8 @@ export default function halfOrcs() {
     } else {
       rnd13 = Math.floor(Math.random() * nm11.length);
       rnd14 = Math.floor(Math.random() * nm10.length);
-      nameLast = nm9[rnd10] + nm10[rnd11] + nm11[rnd13] + nm10[rnd14] + nm12[rnd12];
+      nameLast = nm9[rnd10] + nm10[rnd11] + nm11[rnd13] + nm10[rnd14] + nm12[
+        rnd12];
     }
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm5.length);

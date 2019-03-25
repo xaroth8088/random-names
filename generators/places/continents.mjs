@@ -3,19 +3,27 @@ export default function continents() {
   let rnd;
   let rnd2;
   let rnd3;
-  let rnd;
-  let rnd2;
-  let rnd3;
   let rnd4;
   let rnd5;
-  let
-    rnd6;
-  let names;
-  const names1 = ['b', 'c', 'd', 'f', 'g', 'h', 'j', 'k', 'l', 'm', 'n', 'p', 'q', 'r', 's', 't', 'v', 'w', 'x', 'y', 'z', 'br', 'cr', 'dr', 'gr', 'kr', 'pr', 'tr', 'vr', 'wr', 'str', 'bl', 'cl', 'fl', 'gl', 'kl', 'pl', 'sl', 'vl', 'ch', 'ph', 'sh', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', ''];
-  const names2 = ['a', 'e', 'i', 'o', 'u', 'eu', 'eo', 'ea', 'ei', 'ai', 'au', 'ae', 'io', 'ia', 'iu', 'ua'];
-  const names3 = ['b', 'c', 'd', 'f', 'g', 'h', 'k', 'l', 'm', 'n', 'p', 'q', 'r', 's', 't', 'w', 'y', 'z', 'br', 'cr', 'dr', 'gr', 'kr', 'tr', 'vr', 'wr', 'str', 'bl', 'cl', 'pl', 'sl', 'ch', 'ph', 'sh'];
-  const names4 = ['b', 'c', 'd', 'f', 'g', 'h', 'k', 'l', 'm', 'n', 'p', 'q', 'r', 's', 't', 'v', 'w', 'x', 'y', 'z', 'br', 'cr', 'dr', 'gr', 'kr', 'pr', 'tr', 'str', 'ph', 'sh'];
-  const names5 = ['aes', 'ai', 'all', 'an', 'and', 'ane', 'ari', 'as', 'ath', 'ax', 'ea', 'ela', 'en', 'end', 'eon', 'era', 'eron', 'es', 'esh', 'eth', 'ia', 'ias', 'ica', 'in', 'ios', 'ira', 'is', 'ish', 'ith', 'ix', 'oa', 'on', 'one', 'or', 'ora', 'oris', 'os', 'oth', 'ox', 'oya', 'uan', 'uin', 'ul', 'un', 'une', 'ura', 'us', 'ush', 'uth', 'ux'];
+  let rnd6;
+  const names1 = ['b', 'c', 'd', 'f', 'g', 'h', 'j', 'k', 'l', 'm', 'n', 'p',
+    'q', 'r', 's', 't', 'v', 'w', 'x', 'y', 'z', 'br', 'cr', 'dr', 'gr', 'kr',
+    'pr', 'tr', 'vr', 'wr', 'str', 'bl', 'cl', 'fl', 'gl', 'kl', 'pl', 'sl',
+    'vl', 'ch', 'ph', 'sh', '', '', '', '', '', '', '', '', '', '', '', '',
+    '', '', '', '', '', '', '', '', '', '', '', '', '', '', ''];
+  const names2 = ['a', 'e', 'i', 'o', 'u', 'eu', 'eo', 'ea', 'ei', 'ai', 'au',
+    'ae', 'io', 'ia', 'iu', 'ua'];
+  const names3 = ['b', 'c', 'd', 'f', 'g', 'h', 'k', 'l', 'm', 'n', 'p', 'q',
+    'r', 's', 't', 'w', 'y', 'z', 'br', 'cr', 'dr', 'gr', 'kr', 'tr', 'vr',
+    'wr', 'str', 'bl', 'cl', 'pl', 'sl', 'ch', 'ph', 'sh'];
+  const names4 = ['b', 'c', 'd', 'f', 'g', 'h', 'k', 'l', 'm', 'n', 'p', 'q',
+    'r', 's', 't', 'v', 'w', 'x', 'y', 'z', 'br', 'cr', 'dr', 'gr', 'kr',
+    'pr', 'tr', 'str', 'ph', 'sh'];
+  const names5 = ['aes', 'ai', 'all', 'an', 'and', 'ane', 'ari', 'as', 'ath',
+    'ax', 'ea', 'ela', 'en', 'end', 'eon', 'era', 'eron', 'es', 'esh', 'eth',
+    'ia', 'ias', 'ica', 'in', 'ios', 'ira', 'is', 'ish', 'ith', 'ix', 'oa',
+    'on', 'one', 'or', 'ora', 'oris', 'os', 'oth', 'ox', 'oya', 'uan', 'uin',
+    'ul', 'un', 'une', 'ura', 'us', 'ush', 'uth', 'ux'];
   const names6 = ['a', 'e', 'i', 'o', 'u'];
   const i = Math.floor(Math.random() * 10); {
     if (i < 3) {
@@ -57,7 +65,8 @@ export default function continents() {
         }
       }
       rnd6 = Math.floor(Math.random() * names5.length);
-      names = names1[rnd] + names2[rnd2] + names3[rnd3] + names2[rnd4] + names4[rnd5] + names5[rnd6];
+      names = names1[rnd] + names2[rnd2] + names3[rnd3] + names2[rnd4] + names4[
+        rnd5] + names5[rnd6];
     }
     return names;
   }

@@ -3,22 +3,28 @@ export default function drells() {
   let rnd;
   let rnd2;
   let rnd3;
-  let rnd;
-  let rnd2;
-  let rnd3;
   let rnd4;
   let rnd5;
   let rnd6;
   let rnd7;
-  let
-    rnd8;
-  let names;
+  let rnd8;
   const type = Math.random() > 0.5 ? 0 : 1;
   let nm1 = [''];
-  const nm2 = ['ka', 'ki', 'ku', 'ke', 'ko', 'sa', 'si', 'su', 'se', 'so', 'sha', 'shi', 'shu', 'she', 'sho', 'ta', 'ti', 'tu', 'te', 'to', 'tha', 'thi', 'thu', 'the', 'tho', 'dra', 'dri', 'dru', 'dre', 'dro', 'ma', 'mi', 'mu', 'me', 'mo', 'na', 'ni', 'nu', 'ne', 'no', 'ha', 'hi', 'hu', 'he', 'ho', 'fa', 'fi', 'fu', 'fe', 'fo', 'ra', 'ri', 'ru', 're', 'ro', 'la', 'li', 'lu', 'le', 'lo', 'ya', 'yi', 'yu', 'ye', 'yo'];
-  const nm3 = ['n', 'l', 't', 'k', 's', '', '', '', '', '', '', '', '', '', '', '', ''];
-  const nm4 = ['ka', 'ki', 'ku', 'ke', 'ko', 'sa', 'si', 'su', 'se', 'so', 'ta', 'ti', 'tu', 'te', 'to', 'ma', 'mi', 'mu', 'me', 'mo', 'na', 'ni', 'nu', 'ne', 'no', 'ha', 'hi', 'hu', 'he', 'ho', 'fa', 'fi', 'fu', 'fe', 'fo', 'ra', 'ri', 'ru', 're', 'ro', 'la', 'li', 'lu', 'le', 'lo', 'ya', 'yi', 'yu', 'ye', 'yo'];
-  const nm5 = ['n', 'l', 't', 'k', 's', 'h', 'm', '', '', '', '', '', '', '', '', '', '', '', ''];
+  const nm2 = ['ka', 'ki', 'ku', 'ke', 'ko', 'sa', 'si', 'su', 'se', 'so',
+    'sha', 'shi', 'shu', 'she', 'sho', 'ta', 'ti', 'tu', 'te', 'to', 'tha',
+    'thi', 'thu', 'the', 'tho', 'dra', 'dri', 'dru', 'dre', 'dro', 'ma', 'mi',
+    'mu', 'me', 'mo', 'na', 'ni', 'nu', 'ne', 'no', 'ha', 'hi', 'hu', 'he',
+    'ho', 'fa', 'fi', 'fu', 'fe', 'fo', 'ra', 'ri', 'ru', 're', 'ro', 'la',
+    'li', 'lu', 'le', 'lo', 'ya', 'yi', 'yu', 'ye', 'yo'];
+  const nm3 = ['n', 'l', 't', 'k', 's', '', '', '', '', '', '', '', '', '', '',
+    '', ''];
+  const nm4 = ['ka', 'ki', 'ku', 'ke', 'ko', 'sa', 'si', 'su', 'se', 'so', 'ta',
+    'ti', 'tu', 'te', 'to', 'ma', 'mi', 'mu', 'me', 'mo', 'na', 'ni', 'nu',
+    'ne', 'no', 'ha', 'hi', 'hu', 'he', 'ho', 'fa', 'fi', 'fu', 'fe', 'fo',
+    'ra', 'ri', 'ru', 're', 'ro', 'la', 'li', 'lu', 'le', 'lo', 'ya', 'yi',
+    'yu', 'ye', 'yo'];
+  const nm5 = ['n', 'l', 't', 'k', 's', 'h', 'm', '', '', '', '', '', '', '',
+    '', '', '', '', ''];
   const nm6 = ['a', 'e', 'i', 'o', 'u'];
   const nm7 = ['n', 'l', 't', 'k', 's'];
   if (type === 1) {

@@ -2,9 +2,6 @@ export default function roegadyns() {
   let names;
   let rnd;
   let rnd2;
-  let rnd;
-  let rnd2;
-  let names;
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = [
     ['Abar', 'Lone'],
@@ -295,10 +292,97 @@ export default function roegadyns() {
     ['lona', 'Gatherer'],
     ['bryda', 'Bride'],
   ];
-  const nm4 = ['Active', 'Adept', 'Admired', 'Adored', 'Ages', 'Aggressive', 'Agile', 'Alert', 'Amazing', 'Amused', 'Amusing', 'Ancient', 'Angry', 'Anxious', 'Arctic', 'Austere', 'Aware', 'Awesome', 'Awkward', 'Bad', 'Bare', 'Basic', 'Beautiful', 'Beloved', 'Big', 'Bitter', 'Black', 'Blue', 'Bold', 'Brave', 'Bright', 'Brilliant', 'Broken', 'Bronze', 'Busy', 'Calm', 'Careful', 'Careless', 'Cheerful', 'Cleaan', 'Clever', 'Clumsy', 'Cold', 'Colossal', 'Complex', 'Composed', 'Crafty', 'Cruel', 'Damaged', 'Dangerous', 'Dapper', 'Daring', 'Dark', 'Defiant', 'Dependable', 'Devoted', 'Difficult', 'Diligent', 'Dirt', 'Distant', 'Dull', 'Eager', 'Earnest', 'Elderly', 'Enchanted', 'Enormous', 'Enraged', 'Exalted', 'Excellent', 'Excited', 'Exotic', 'Expert', 'Faithful', 'Famous', 'Fancy', 'Fast', 'Fatal', 'Fearless', 'Firm', 'Fixed', 'Flawed', 'Flawless', 'Forsaken', 'Free', 'Friendly', 'Frozen', 'Gentle', 'Giant', 'Gifted', 'Giving', 'Glamorous', 'Glorious', 'Golden', 'Graceful', 'Gracious', 'Grand', 'Grateful', 'Gray', 'Great', 'Grim', 'Harmless', 'Hasty', 'Heavy', 'Helpful', 'Hidden', 'Hollow', 'Honest', 'Honorable', 'Humble', 'Hungry', 'Joyful', 'Keen', 'Kind', 'Large', 'Lazy', 'Light', 'Little', 'Lone', 'Loud', 'Loyal', 'Lucky', 'Majestic', 'Major', 'Massive', 'Mellow', 'Mild', 'Minor', 'Modest', 'Nervous', 'Nifty', 'Nimble', 'Obedient', 'Odd', 'Old', 'Orange', 'Ordinary', 'Ornate', 'Pale', 'Perfect', 'Plain', 'Pleasant', 'Powerful', 'Prime', 'Pristine', 'Proud', 'Pure', 'Quick', 'Quiet', 'Rapid', 'Rare', 'Reckless', 'Red', 'Regular', 'Rough', 'Scary', 'Second', 'Secret', 'Serene', 'Serious', 'Sharp', 'Shiny', 'Shy', 'Silent', 'Silver', 'Simple', 'Skinny', 'Sleepy', 'Slow', 'Small', 'Smart', 'Sneaky', 'Spotted', 'Stable', 'Stark', 'Strange', 'Strong', 'Sturdy', 'Subtle', 'Surprised', 'Swift', 'Tall', 'Tame', 'Thin', 'Tough', 'Useful', 'Vibrant', 'Vicious', 'Warm', 'Weak', 'Weird', 'White', 'Wide', 'Wild', 'Wise', 'Witty', 'Worthy', 'Yellow', 'Young', 'Youthful'];
-  const nm5 = ['Air', 'Ant', 'Autumn', 'Badger', 'Bat', 'Horizon', 'Bear', 'Beetle', 'Bird', 'Bison', 'Blade', 'Blizzard', 'Boar', 'Bog', 'Boulder', 'Brood', 'Brook', 'Bush', 'Buzzard', 'Cave', 'Cavern', 'Claw', 'Cliff', 'Cloud', 'Cougar', 'Coyote', 'Cricket', 'Crow', 'Deer', 'Desert', 'Dingo', 'Dune', 'Eagle', 'Earth', 'Elk', 'Emu', 'Falcon', 'Field', 'Fir', 'Flower', 'Forest', 'Fox', 'Frog', 'Fungus', 'Gale', 'Glacier', 'Grass', 'Hare', 'Hawk', 'Hedgehog', 'Hill', 'Hog', 'Hollow', 'Ice', 'Iron', 'Island', 'Isle', 'Jasper', 'Juniper', 'Kelp', 'Lake', 'Lava', 'Lichen', 'Lion', 'Magma', 'Mane', 'Mantle', 'Maple', 'Moon', 'Moose', 'Mountain', 'Mouse', 'Mushroom', 'Nest', 'Nettle', 'Oak', 'Ocen', 'Ore', 'Owl', 'Park', 'Peak', 'Pine', 'Pinnacle', 'Plant', 'Raccoon', 'Rain', 'Raven', 'River', 'Roach', 'Rock', 'Salmon', 'Sand', 'Sea', 'Serpent', 'Shrub', 'Snake', 'Snow', 'Stag', 'Stone', 'Storm', 'Summit', 'Sun', 'Talon', 'Thunder', 'Tide', 'Tiger', 'Toad', 'Torrent', 'Tortoise', 'Track', 'Tree', 'Turtle', 'Typhoon', 'Valley', 'Wasp', 'Water', 'Waterfall', 'Wave', 'Weasel', 'Willow', 'Wind', 'Wolf', 'Wombat', 'Wood', 'Yew'];
-  const nm6 = ['Active', 'Adept', 'Admired', 'Adorable', 'Adored', 'Aged', 'Agile', 'Amused', 'Amusing', 'Angelic', 'Aromatic', 'Attractive', 'Average', 'Awkward', 'Beautiful', 'Beloved', 'Black', 'Blissful', 'Blue', 'Blushing', 'Bold', 'Bouncy', 'Brave', 'Bright', 'Brilliant', 'Bronze', 'Brown', 'Bubbly', 'Carefree', 'Careful', 'Careless', 'Caring', 'Charming', 'Cheerful', 'Cheery', 'Clever', 'Cloudy', 'Clumsy', 'Creative', 'Cuddly', 'Curly', 'Cute', 'Darling', 'Delightful', 'Dependable', 'Devoted', 'Eager', 'Elderly', 'Elegant', 'Emotional', 'Enchanted', 'Energetic', 'Euphoric', 'Excited', 'Fair', 'Faithful', 'Fancy', 'Fearless', 'Feline', 'Flawed', 'Flawless', 'Flustered', 'Frail', 'Frozen', 'Funny', 'Fuzzy', 'Generous', 'Gentle', 'Gifted', 'Giving', 'Glittering', 'Golden', 'Gorgeous', 'Graceful', 'Gracious', 'Gray', 'Green', 'Grim', 'Grumpy', 'Happy', 'Harmless', 'Heavenly', 'Helpful', 'Helpless', 'Hidden', 'Hollow', 'Honest', 'Honored', 'Hopeful', 'Humble', 'Idle', 'Innocent', 'Jealous', 'Jolly', 'Joyful', 'Joyous', 'Keen', 'Kind', 'Lavish', 'Lazy', 'Lean', 'Light', 'Likable', 'Little', 'Lively', 'Lone', 'Lonely', 'Lost', 'Loud', 'Lovable', 'Lovely', 'Loving', 'Mad', 'Majestic', 'Mellow', 'Merry', 'Mild', 'Minor', 'Misty', 'Motherly', 'Mysterious', 'Naive', 'Naughty', 'Nervous', 'Nimble', 'Obedient', 'Odd', 'Old', 'Optimistic', 'Orange', 'Ordinary', 'Pale', 'Peaceful', 'Perfect', 'Pink', 'Plain', 'Playful', 'Pleasant', 'Pleased', 'Pleasing', 'Powerful', 'Precious', 'Pretty', 'Pristine', 'Proud', 'Pure', 'Purple', 'Quick', 'Quiet', 'Quirky', 'Rare', 'Reckless', 'Scared', 'Scary', 'Secret', 'Serene', 'Serious', 'Short', 'Shy', 'Silent', 'Silly', 'Silver', 'Simple', 'Skinny', 'Sleepy', 'Slim', 'Slow', 'Small', 'Smart', 'Sneaky', 'Soft', 'Strange', 'Striped', 'Surprised', 'Sweet', 'Swift', 'Tall', 'Terrific', 'Thick', 'Thin', 'Tidy', 'Tiny', 'Tough', 'Trusting', 'Trusty', 'Twin', 'Warm', 'Watchful', 'Weak', 'Weird', 'Whimsical', 'White', 'Wicked', 'Wild', 'Wise', 'Worried', 'Yellow', 'Young', 'Youthful'];
-  const nm7 = ['Air', 'Allium', 'Alyssum', 'Amarath', 'Amazon', 'Anemone', 'Apple', 'Aura', 'Aurora', 'Autumn', 'Bee', 'Bell', 'Berry', 'Bird', 'Bloom', 'Blossom', 'Bunny', 'Bush', 'Butterfly', 'Cherry', 'Chive', 'Clematis', 'Cloud', 'Clover', 'Cosmos', 'Crocus', 'Daffodil', 'Daisy', 'Dandelion', 'Deer', 'Dew', 'Dill', 'Dove', 'Dream', 'Droplet', 'Earth', 'Eclipse', 'Feather', 'Flower', 'Fog', 'Forest', 'Frost', 'Fruit', 'Fuchsia', 'Fur', 'Gilly', 'Ginger', 'Grain', 'Grass', 'Heliconia', 'Hibiscus', 'Holly', 'Horizon', 'Hyacinth', 'Ice', 'Iris', 'Juniper', 'Lavender', 'Leaf', 'Lilac', 'Lily', 'Locust', 'Lotus', 'Magnolia', 'Mantle', 'Maple', 'Marigold', 'Mist', 'Moon', 'Moss', 'Mouse', 'Mushroom', 'Myrtle', 'Narcissus', 'Oleander', 'Orchid', 'Pad', 'Pea', 'Peach', 'Peony', 'Petal', 'Petunia', 'Plume', 'Poinsetta', 'Poppy', 'Rabbit', 'Rain', 'Robin', 'Root', 'Rose', 'Safflower', 'Sage', 'Sapling', 'Sheep', 'Snow', 'Snowflake', 'Sparrow', 'Spring', 'Sprout', 'Star', 'Summer', 'Sun', 'Sunflower', 'Tulip', 'Vapor', 'Vine', 'Willow', 'Winter'];
+  const nm4 = ['Active', 'Adept', 'Admired', 'Adored', 'Ages', 'Aggressive',
+    'Agile', 'Alert', 'Amazing', 'Amused', 'Amusing', 'Ancient', 'Angry',
+    'Anxious', 'Arctic', 'Austere', 'Aware', 'Awesome', 'Awkward', 'Bad',
+    'Bare', 'Basic', 'Beautiful', 'Beloved', 'Big', 'Bitter', 'Black', 'Blue',
+    'Bold', 'Brave', 'Bright', 'Brilliant', 'Broken', 'Bronze', 'Busy',
+    'Calm', 'Careful', 'Careless', 'Cheerful', 'Cleaan', 'Clever', 'Clumsy',
+    'Cold', 'Colossal', 'Complex', 'Composed', 'Crafty', 'Cruel', 'Damaged',
+    'Dangerous', 'Dapper', 'Daring', 'Dark', 'Defiant', 'Dependable',
+    'Devoted', 'Difficult', 'Diligent', 'Dirt', 'Distant', 'Dull', 'Eager',
+    'Earnest', 'Elderly', 'Enchanted', 'Enormous', 'Enraged', 'Exalted',
+    'Excellent', 'Excited', 'Exotic', 'Expert', 'Faithful', 'Famous', 'Fancy',
+    'Fast', 'Fatal', 'Fearless', 'Firm', 'Fixed', 'Flawed', 'Flawless',
+    'Forsaken', 'Free', 'Friendly', 'Frozen', 'Gentle', 'Giant', 'Gifted',
+    'Giving', 'Glamorous', 'Glorious', 'Golden', 'Graceful', 'Gracious',
+    'Grand', 'Grateful', 'Gray', 'Great', 'Grim', 'Harmless', 'Hasty',
+    'Heavy', 'Helpful', 'Hidden', 'Hollow', 'Honest', 'Honorable', 'Humble',
+    'Hungry', 'Joyful', 'Keen', 'Kind', 'Large', 'Lazy', 'Light', 'Little',
+    'Lone', 'Loud', 'Loyal', 'Lucky', 'Majestic', 'Major', 'Massive',
+    'Mellow', 'Mild', 'Minor', 'Modest', 'Nervous', 'Nifty', 'Nimble',
+    'Obedient', 'Odd', 'Old', 'Orange', 'Ordinary', 'Ornate', 'Pale',
+    'Perfect', 'Plain', 'Pleasant', 'Powerful', 'Prime', 'Pristine', 'Proud',
+    'Pure', 'Quick', 'Quiet', 'Rapid', 'Rare', 'Reckless', 'Red', 'Regular',
+    'Rough', 'Scary', 'Second', 'Secret', 'Serene', 'Serious', 'Sharp',
+    'Shiny', 'Shy', 'Silent', 'Silver', 'Simple', 'Skinny', 'Sleepy', 'Slow',
+    'Small', 'Smart', 'Sneaky', 'Spotted', 'Stable', 'Stark', 'Strange',
+    'Strong', 'Sturdy', 'Subtle', 'Surprised', 'Swift', 'Tall', 'Tame',
+    'Thin', 'Tough', 'Useful', 'Vibrant', 'Vicious', 'Warm', 'Weak', 'Weird',
+    'White', 'Wide', 'Wild', 'Wise', 'Witty', 'Worthy', 'Yellow', 'Young',
+    'Youthful'];
+  const nm5 = ['Air', 'Ant', 'Autumn', 'Badger', 'Bat', 'Horizon', 'Bear',
+    'Beetle', 'Bird', 'Bison', 'Blade', 'Blizzard', 'Boar', 'Bog', 'Boulder',
+    'Brood', 'Brook', 'Bush', 'Buzzard', 'Cave', 'Cavern', 'Claw', 'Cliff',
+    'Cloud', 'Cougar', 'Coyote', 'Cricket', 'Crow', 'Deer', 'Desert', 'Dingo',
+    'Dune', 'Eagle', 'Earth', 'Elk', 'Emu', 'Falcon', 'Field', 'Fir',
+    'Flower', 'Forest', 'Fox', 'Frog', 'Fungus', 'Gale', 'Glacier', 'Grass',
+    'Hare', 'Hawk', 'Hedgehog', 'Hill', 'Hog', 'Hollow', 'Ice', 'Iron',
+    'Island', 'Isle', 'Jasper', 'Juniper', 'Kelp', 'Lake', 'Lava', 'Lichen',
+    'Lion', 'Magma', 'Mane', 'Mantle', 'Maple', 'Moon', 'Moose', 'Mountain',
+    'Mouse', 'Mushroom', 'Nest', 'Nettle', 'Oak', 'Ocen', 'Ore', 'Owl',
+    'Park', 'Peak', 'Pine', 'Pinnacle', 'Plant', 'Raccoon', 'Rain', 'Raven',
+    'River', 'Roach', 'Rock', 'Salmon', 'Sand', 'Sea', 'Serpent', 'Shrub',
+    'Snake', 'Snow', 'Stag', 'Stone', 'Storm', 'Summit', 'Sun', 'Talon',
+    'Thunder', 'Tide', 'Tiger', 'Toad', 'Torrent', 'Tortoise', 'Track',
+    'Tree', 'Turtle', 'Typhoon', 'Valley', 'Wasp', 'Water', 'Waterfall',
+    'Wave', 'Weasel', 'Willow', 'Wind', 'Wolf', 'Wombat', 'Wood', 'Yew'];
+  const nm6 = ['Active', 'Adept', 'Admired', 'Adorable', 'Adored', 'Aged',
+    'Agile', 'Amused', 'Amusing', 'Angelic', 'Aromatic', 'Attractive',
+    'Average', 'Awkward', 'Beautiful', 'Beloved', 'Black', 'Blissful', 'Blue',
+    'Blushing', 'Bold', 'Bouncy', 'Brave', 'Bright', 'Brilliant', 'Bronze',
+    'Brown', 'Bubbly', 'Carefree', 'Careful', 'Careless', 'Caring',
+    'Charming', 'Cheerful', 'Cheery', 'Clever', 'Cloudy', 'Clumsy',
+    'Creative', 'Cuddly', 'Curly', 'Cute', 'Darling', 'Delightful',
+    'Dependable', 'Devoted', 'Eager', 'Elderly', 'Elegant', 'Emotional',
+    'Enchanted', 'Energetic', 'Euphoric', 'Excited', 'Fair', 'Faithful',
+    'Fancy', 'Fearless', 'Feline', 'Flawed', 'Flawless', 'Flustered', 'Frail',
+    'Frozen', 'Funny', 'Fuzzy', 'Generous', 'Gentle', 'Gifted', 'Giving',
+    'Glittering', 'Golden', 'Gorgeous', 'Graceful', 'Gracious', 'Gray',
+    'Green', 'Grim', 'Grumpy', 'Happy', 'Harmless', 'Heavenly', 'Helpful',
+    'Helpless', 'Hidden', 'Hollow', 'Honest', 'Honored', 'Hopeful', 'Humble',
+    'Idle', 'Innocent', 'Jealous', 'Jolly', 'Joyful', 'Joyous', 'Keen',
+    'Kind', 'Lavish', 'Lazy', 'Lean', 'Light', 'Likable', 'Little', 'Lively',
+    'Lone', 'Lonely', 'Lost', 'Loud', 'Lovable', 'Lovely', 'Loving', 'Mad',
+    'Majestic', 'Mellow', 'Merry', 'Mild', 'Minor', 'Misty', 'Motherly',
+    'Mysterious', 'Naive', 'Naughty', 'Nervous', 'Nimble', 'Obedient', 'Odd',
+    'Old', 'Optimistic', 'Orange', 'Ordinary', 'Pale', 'Peaceful', 'Perfect',
+    'Pink', 'Plain', 'Playful', 'Pleasant', 'Pleased', 'Pleasing', 'Powerful',
+    'Precious', 'Pretty', 'Pristine', 'Proud', 'Pure', 'Purple', 'Quick',
+    'Quiet', 'Quirky', 'Rare', 'Reckless', 'Scared', 'Scary', 'Secret',
+    'Serene', 'Serious', 'Short', 'Shy', 'Silent', 'Silly', 'Silver',
+    'Simple', 'Skinny', 'Sleepy', 'Slim', 'Slow', 'Small', 'Smart', 'Sneaky',
+    'Soft', 'Strange', 'Striped', 'Surprised', 'Sweet', 'Swift', 'Tall',
+    'Terrific', 'Thick', 'Thin', 'Tidy', 'Tiny', 'Tough', 'Trusting',
+    'Trusty', 'Twin', 'Warm', 'Watchful', 'Weak', 'Weird', 'Whimsical',
+    'White', 'Wicked', 'Wild', 'Wise', 'Worried', 'Yellow', 'Young',
+    'Youthful'];
+  const nm7 = ['Air', 'Allium', 'Alyssum', 'Amarath', 'Amazon', 'Anemone',
+    'Apple', 'Aura', 'Aurora', 'Autumn', 'Bee', 'Bell', 'Berry', 'Bird',
+    'Bloom', 'Blossom', 'Bunny', 'Bush', 'Butterfly', 'Cherry', 'Chive',
+    'Clematis', 'Cloud', 'Clover', 'Cosmos', 'Crocus', 'Daffodil', 'Daisy',
+    'Dandelion', 'Deer', 'Dew', 'Dill', 'Dove', 'Dream', 'Droplet', 'Earth',
+    'Eclipse', 'Feather', 'Flower', 'Fog', 'Forest', 'Frost', 'Fruit',
+    'Fuchsia', 'Fur', 'Gilly', 'Ginger', 'Grain', 'Grass', 'Heliconia',
+    'Hibiscus', 'Holly', 'Horizon', 'Hyacinth', 'Ice', 'Iris', 'Juniper',
+    'Lavender', 'Leaf', 'Lilac', 'Lily', 'Locust', 'Lotus', 'Magnolia',
+    'Mantle', 'Maple', 'Marigold', 'Mist', 'Moon', 'Moss', 'Mouse',
+    'Mushroom', 'Myrtle', 'Narcissus', 'Oleander', 'Orchid', 'Pad', 'Pea',
+    'Peach', 'Peony', 'Petal', 'Petunia', 'Plume', 'Poinsetta', 'Poppy',
+    'Rabbit', 'Rain', 'Robin', 'Root', 'Rose', 'Safflower', 'Sage', 'Sapling',
+    'Sheep', 'Snow', 'Snowflake', 'Sparrow', 'Spring', 'Sprout', 'Star',
+    'Summer', 'Sun', 'Sunflower', 'Tulip', 'Vapor', 'Vine', 'Willow', 'Winter',
+  ];
   const i = Math.floor(Math.random() * 10); {
     if (type === 1) {
       if (i < 5) {

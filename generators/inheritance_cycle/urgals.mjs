@@ -3,18 +3,16 @@ export default function urgals() {
   let rnd;
   let rnd2;
   let rnd3;
-  let rnd;
-  let rnd2;
-  let rnd3;
   let rnd4;
   let rnd5;
   let rnd6;
-  let
-    rnd7;
-  let names;
-  const nm1 = ['', '', 'b', 'd', 'g', 'kh', 'k', 'r', 'sk', 'skg', 't', 'y', 'v', 'z'];
+  let rnd7;
+  const nm1 = ['', '', 'b', 'd', 'g', 'kh', 'k', 'r', 'sk', 'skg', 't', 'y',
+    'v', 'z'];
   const nm2 = ['a', 'e', 'o', 'u'];
-  const nm3 = ['b', 'br', 'bv', 'bgr', 'bdr', 'd', 'dv', 'dz', 'dzgr', 'dgr', 'gr', 'gn', 'gz', 'hgr', 'hr', 'lk', 'lv', 'r', 'rg', 'rd', 'rb', 'rv', 'rtv', 'rzhv', 'tv', 'tr', 'thb', 'tz', 'zg', 'zb', 'zr', 'ztr', 'zhgr'];
+  const nm3 = ['b', 'br', 'bv', 'bgr', 'bdr', 'd', 'dv', 'dz', 'dzgr', 'dgr',
+    'gr', 'gn', 'gz', 'hgr', 'hr', 'lk', 'lv', 'r', 'rg', 'rd', 'rb', 'rv',
+    'rtv', 'rzhv', 'tv', 'tr', 'thb', 'tz', 'zg', 'zb', 'zr', 'ztr', 'zhgr'];
   const nm4 = ['c', 'g', 'k', 'sz', 'shz', 'zh', 'z'];
   const i = Math.floor(Math.random() * 10); {
     rnd = Math.floor(Math.random() * nm1.length);
@@ -31,7 +29,8 @@ export default function urgals() {
       rnd5 = Math.floor(Math.random() * nm2.length);
       rnd6 = Math.floor(Math.random() * nm3.length);
       rnd7 = Math.floor(Math.random() * nm2.length);
-      names = nm1[rnd] + nm2[rnd2] + nm3[rnd3] + nm2[rnd5] + nm3[rnd6] + nm2[rnd7] + nm4[rnd4];
+      names = nm1[rnd] + nm2[rnd2] + nm3[rnd3] + nm2[rnd5] + nm3[rnd6] + nm2[
+        rnd7] + nm4[rnd4];
     }
     return names;
   }

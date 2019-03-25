@@ -3,23 +3,42 @@ export default function sanShyuums() {
   let rnd;
   let rnd2;
   let rnd3;
-  let rnd;
-  let rnd2;
-  let rnd3;
   let rnd4;
   let rnd5;
   let rnd6;
-  let
-    rnd7;
-  let names;
-  const nm1 = ['', '', '', '', '', '', '', 'b', 'c', 'd', 'f', 'h', 'k', 'l', 'm', 'n', 'p', 'r', 's', 't', 'v', 'w', 'z'];
+  let rnd7;
+  const nm1 = ['', '', '', '', '', '', '', 'b', 'c', 'd', 'f', 'h', 'k', 'l',
+    'm', 'n', 'p', 'r', 's', 't', 'v', 'w', 'z'];
   const nm2 = ['o', 'a', 'u'];
-  const nm3 = ['b', 'c', 'd', 'g', 'k', 'p', 't', 'rd', 'rb', 'rc', 'rd', 'rg', 'rk', 'rp', 'rt'];
-  const nm4 = ['b', 'br', 'c', 'cr', 'd', 'dr', 'f', 'fr', 'h', 'k', 'l', 'm', 'n', 'p', 'pr', 'r', 's', 'sr', 't', 'tr', 'v', 'vr', 'w', 'z', 'mr', 'kr'];
-  const nm5 = ['b', 'bt', 'c', 'ct', 'd', 'f', 'ft', 'h', 'k', 'kt', 'l', 'm', 'mnt', 'mt', 'n', 'nb', 'nc', 'nct', 'nd', 'nf', 'nft', 'nst', 'nt', 'p', 'pt', 'r', 'rc', 'rnt', 'rt', 's', 'sc', 'st', 't', 'w', 'wt', 'z', 'zc', 'zt'];
+  const nm3 = ['b', 'c', 'd', 'g', 'k', 'p', 't', 'rd', 'rb', 'rc', 'rd', 'rg',
+    'rk', 'rp', 'rt'];
+  const nm4 = ['b', 'br', 'c', 'cr', 'd', 'dr', 'f', 'fr', 'h', 'k', 'l', 'm',
+    'n', 'p', 'pr', 'r', 's', 'sr', 't', 'tr', 'v', 'vr', 'w', 'z', 'mr', 'kr',
+  ];
+  const nm5 = ['b', 'bt', 'c', 'ct', 'd', 'f', 'ft', 'h', 'k', 'kt', 'l', 'm',
+    'mnt', 'mt', 'n', 'nb', 'nc', 'nct', 'nd', 'nf', 'nft', 'nst', 'nt', 'p',
+    'pt', 'r', 'rc', 'rnt', 'rt', 's', 'sc', 'st', 't', 'w', 'wt', 'z', 'zc',
+    'zt'];
   const nm6 = ['o', 'a', 'u', '', ''];
   const nm7 = ['Prophet', 'Minister', 'High Prophet'];
-  const nm8 = ['Absolution', 'Analysis', 'Atonement', 'Attrition', 'Audacity', 'Aversion', 'Boldness', 'Bravery', 'Candor', 'Caution', 'Censure', 'Charity', 'Civility', 'Clemency', 'Commitment', 'Compassion', 'Confidence', 'Conscience', 'Conservancy', 'Constraint', 'Contrition', 'Control', 'Conviction', 'Courage', 'Courtesy', 'Creed', 'Decency', 'Defiance', 'Dignity', 'Disdain', 'Doubt', 'Duty', 'Elegance', 'Empathy', 'Endurance', 'Esteem', 'Etiology', 'Fairness', 'Favor', 'Fervor', 'Forbearance', 'Fortitude', 'Gallantry', 'Generosity', 'Goodwill', 'Grace', 'Honesty', 'Honor', 'Inhibition', 'Inquisition', 'Insolence', 'Integrity', 'Interrogation', 'Intrepidity', 'Investigation', 'Kindness', 'Legitimacy', 'Lenience', 'Mercy', 'Moderation', 'Nobility', 'Objection', 'Obligation', 'Patience', 'Penance', 'Penitence', 'Pity', 'Principles', 'Protection', 'Protest', 'Prowess', 'Qualm', 'Recognition', 'Regret', 'Reliance', 'Remorse', 'Repentance', 'Resilience', 'Resistance', 'Restraint', 'Restriction', 'Reverence', 'Salvation', 'Saving', 'Silence', 'Sincerity', 'Sorrow', 'Stewardship', 'Strength', 'Suffering', 'Supposition', 'Sympathy', 'Tenacity', 'Tolerance', 'Trust', 'Truth', 'Valiance', 'Veracity', 'Vigor', 'Virtue'];
+  const nm8 = ['Absolution', 'Analysis', 'Atonement', 'Attrition', 'Audacity',
+    'Aversion', 'Boldness', 'Bravery', 'Candor', 'Caution', 'Censure',
+    'Charity', 'Civility', 'Clemency', 'Commitment', 'Compassion',
+    'Confidence', 'Conscience', 'Conservancy', 'Constraint', 'Contrition',
+    'Control', 'Conviction', 'Courage', 'Courtesy', 'Creed', 'Decency',
+    'Defiance', 'Dignity', 'Disdain', 'Doubt', 'Duty', 'Elegance', 'Empathy',
+    'Endurance', 'Esteem', 'Etiology', 'Fairness', 'Favor', 'Fervor',
+    'Forbearance', 'Fortitude', 'Gallantry', 'Generosity', 'Goodwill',
+    'Grace', 'Honesty', 'Honor', 'Inhibition', 'Inquisition', 'Insolence',
+    'Integrity', 'Interrogation', 'Intrepidity', 'Investigation', 'Kindness',
+    'Legitimacy', 'Lenience', 'Mercy', 'Moderation', 'Nobility', 'Objection',
+    'Obligation', 'Patience', 'Penance', 'Penitence', 'Pity', 'Principles',
+    'Protection', 'Protest', 'Prowess', 'Qualm', 'Recognition', 'Regret',
+    'Reliance', 'Remorse', 'Repentance', 'Resilience', 'Resistance',
+    'Restraint', 'Restriction', 'Reverence', 'Salvation', 'Saving', 'Silence',
+    'Sincerity', 'Sorrow', 'Stewardship', 'Strength', 'Suffering',
+    'Supposition', 'Sympathy', 'Tenacity', 'Tolerance', 'Trust', 'Truth',
+    'Valiance', 'Veracity', 'Vigor', 'Virtue'];
   const i = Math.floor(Math.random() * 10); {
     if (i < 5) {
       rnd = Math.floor(Math.random() * nm1.length);

@@ -4,28 +4,30 @@ export default function falleens() {
   let rnd;
   let rnd2;
   let rnd3;
-  let rnd;
-  let rnd2;
-  let rnd3;
   let rnd4;
   let rnd5;
   let rnd6;
   let rnd7;
   let rnd8;
-  let
-    rnd9;
+  let rnd9;
   let rnd11;
-  let names;
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['c', 'cz', 'h', 'j', 'k', 's', 't', 'th', 'tr', 'x', 'xz', 'z'];
-  const nm2 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'uu', 'ee'];
-  const nm3 = ['b', 'h', 'j', 'n', 'nn', 'm', 'mr', 'mn', 'mm', 'rr', 'sh', 'sz', 't', 'z', 'zz'];
+  const nm2 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i',
+    'o', 'u', 'uu', 'ee'];
+  const nm3 = ['b', 'h', 'j', 'n', 'nn', 'm', 'mr', 'mn', 'mm', 'rr', 'sh',
+    'sz', 't', 'z', 'zz'];
   const nm4 = ['', '', '', 'l', 'n', 'nn', 'r', 's', 'st', 't', 'x'];
-  const nm5 = ['', '', 'b', 'd', 'f', 'g', 'gl', 'k', 'kr', 'l', 'm', 'n', 's', 'th', 'x', 'z'];
-  const nm6 = ['d', 'dv', 'f', 'ff', 'll', 'm', 'mm', 'ml', 'n', 'nl', 'nr', 'r', 'rr', 's', 'ss', 'st', 'sn', 'sm', 'sv', 't', 'v'];
+  const nm5 = ['', '', 'b', 'd', 'f', 'g', 'gl', 'k', 'kr', 'l', 'm', 'n', 's',
+    'th', 'x', 'z'];
+  const nm6 = ['d', 'dv', 'f', 'ff', 'll', 'm', 'mm', 'ml', 'n', 'nl', 'nr',
+    'r', 'rr', 's', 'ss', 'st', 'sn', 'sm', 'sv', 't', 'v'];
   const nm7 = ['', '', '', 'bs', 'l', 'm', 'n', 's', 't'];
-  const nm8 = ['br', 'b', 'd', 'dr', 'g', 'gr', 'k', 'kr', 'l', 'm', 's', 't', 'w', 'x', 'z'];
-  const nm9 = ['d', 'dv', 'dr', 'f', 'g', 'gr', 'gn', 'l', 'll', 'm', 'mm', 'mr', 'ms', 'nr', 'nn', 'n', 'ns', 's', 'ss', 'st', 'sm', 'sn', 'sv', 'rr', 't', 'tr', 'thr', 'v', 'vr', 'z'];
+  const nm8 = ['br', 'b', 'd', 'dr', 'g', 'gr', 'k', 'kr', 'l', 'm', 's', 't',
+    'w', 'x', 'z'];
+  const nm9 = ['d', 'dv', 'dr', 'f', 'g', 'gr', 'gn', 'l', 'll', 'm', 'mm',
+    'mr', 'ms', 'nr', 'nn', 'n', 'ns', 's', 'ss', 'st', 'sm', 'sn', 'sv',
+    'rr', 't', 'tr', 'thr', 'v', 'vr', 'z'];
   const nm10 = ['c', 'd', 'j', 'l', 'm', 'n', 'r', 'ss', 't', 'x'];
   const i = Math.floor(Math.random() * 10); {
     rnd6 = Math.floor(Math.random() * nm8.length);

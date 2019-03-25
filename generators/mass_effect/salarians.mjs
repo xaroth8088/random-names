@@ -1,7 +1,5 @@
 export default function salarians() {
   let names;
-  let rnd2;
-  let rnd3;
   let rnd0;
   let rnd1;
   let rnd2;
@@ -10,16 +8,22 @@ export default function salarians() {
   let rnd5;
   let rnd6;
   let rnd7;
-  let
-    rnd8;
-  let names;
+  let rnd8;
   const type = Math.random() > 0.5 ? 0 : 1;
-  const names1 = ['b', 'c', 'd', 'f', 'g', 'h', 'j', 'l', 'm', 'n', 'p', 'r', 's', 't', 'v', 'w', 'y', 'z', '', '', '', ''];
+  const names1 = ['b', 'c', 'd', 'f', 'g', 'h', 'j', 'l', 'm', 'n', 'p', 'r',
+    's', 't', 'v', 'w', 'y', 'z', '', '', '', ''];
   const names2 = ['a', 'e', 'o', 'i', 'u', 'ae'];
   const names3 = ['r', '', ''];
-  const names4 = ['b', 'd', 'g', 'h', 'k', 'l', 'm', 'n', 'p', 'r', 's', 'st', 't', 'w'];
-  const names5 = ['af', 'al', 'all', 'an', 'ann', 'ant', 'ar', 'arf', 'arp', 'art', 'arth', 'aw', 'ern', 'ik', 'in', 'ip', 'irn', 'ok', 'ol', 'oln', 'on', 'op', 'orm', 'ort', 'orth', 'ow', 'um'];
-  const names6 = ['bam', 'ban', 'ben', 'dril', 'drok', 'he', 'ja', 'ji', 'ks', 'lan', 'lban', 'lben', 'lis', 'lji', 'lon', 'lorn', 'ls', 'lu', 'lus', 'lzik', 'mal', 'min', 'mnor', 'mor', 'nik', 'nis', 'nmorn', 'nok', 'pon', 'raji', 'ral', 'ralan', 'ran', 'rban', 'rix', 'rji', 'rlan', 'ss', 'u', 'wan', 'x', 'yor', 'zal', 'zen', 'zik', 'zom', 'zon', 'zor', 'zu', 'zz'];
+  const names4 = ['b', 'd', 'g', 'h', 'k', 'l', 'm', 'n', 'p', 'r', 's', 'st',
+    't', 'w'];
+  const names5 = ['af', 'al', 'all', 'an', 'ann', 'ant', 'ar', 'arf', 'arp',
+    'art', 'arth', 'aw', 'ern', 'ik', 'in', 'ip', 'irn', 'ok', 'ol', 'oln',
+    'on', 'op', 'orm', 'ort', 'orth', 'ow', 'um'];
+  const names6 = ['bam', 'ban', 'ben', 'dril', 'drok', 'he', 'ja', 'ji', 'ks',
+    'lan', 'lban', 'lben', 'lis', 'lji', 'lon', 'lorn', 'ls', 'lu', 'lus',
+    'lzik', 'mal', 'min', 'mnor', 'mor', 'nik', 'nis', 'nmorn', 'nok', 'pon',
+    'raji', 'ral', 'ralan', 'ran', 'rban', 'rix', 'rji', 'rlan', 'ss', 'u',
+    'wan', 'x', 'yor', 'zal', 'zen', 'zik', 'zom', 'zon', 'zor', 'zu', 'zz'];
   if (type === 1) {
     var names7 = [''];
   } else {

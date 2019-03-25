@@ -25,12 +25,12 @@ function* walkSync(dir) {
 
 function isNameValid(name) {
     if (typeof name !== 'string') {
-        console.error(`Didn't get a string:${name}`);
+        console.error(`\nDidn't get a string:${name}\n`);
         return false;
     }
 
     if (name === '') {
-        console.error('Got an empty string.');
+        console.error('\nGot an empty string.\n');
         return false;
     }
 
@@ -41,22 +41,25 @@ function isNameValid(name) {
 async function testModule(modulePath) {
     const module = await import(modulePath);
 
-    const names = [];
     for (let i = 0; i < 1000; i++) {
-        names.push(module.default());
+        isNameValid(module.default());
     }
-
-    names.forEach(name => isNameValid(name));
 }
 
-function runTests() {
+async function runTests() {
     const absolutePath = path.resolve('generators/');
 
     for (const file of walkSync(absolutePath)) {
-        console.info(file);
-        clearLine(process.stdout, 0);
-        testModule(file).catch(e => console.error(`Test for ${file} failed! ${e}`));
+        process.stdout.clearLine();  // clear current text
+        process.stdout.cursorTo(0);  // move cursor to beginning of line
+        process.stdout.write(file);
+
+        try {
+            await testModule(file);
+        } catch (e) {
+            console.error(e);
+        }
     }
 }
 
-runTests();
+runTests().catch(console.error);

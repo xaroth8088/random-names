@@ -1,10 +1,7 @@
 export default function summerIslanders() {
   let names;
-  let rnd;
-  let rnd2;
   let rnd2b;
   let rnd2c;
-  let rnd3;
   let rnd3b;
   let rnd6b;
   let rnd;
@@ -15,19 +12,19 @@ export default function summerIslanders() {
   let rnd6;
   let rnd7;
   let rnd8;
-  let
-    rnd9;
+  let rnd9;
   let rnd10;
-  let
-    rnd11;
-  let names;
+  let rnd11;
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['B', 'Bh', 'D', 'J', 'M', 'S', 'T', 'X', 'Xh', 'Z', 'Zh'];
   const nm2 = ['a', 'o', 'a'];
-  const nm3 = ['b', 'bh', 'dh', 'l', 'lth', 'll', 'lh', 'n', 'nt', 'qu', 'r', 'rr'];
+  const nm3 = ['b', 'bh', 'dh', 'l', 'lth', 'll', 'lh', 'n', 'nt', 'qu', 'r',
+    'rr'];
   const nm4 = ['r', 'l', '', 'r', 'l', 's'];
-  const nm5 = ['Ch', 'H', 'J', 'L', 'M', 'N', 'R', 'S', 'T', 'X', 'Xh', 'Z', 'Zh'];
-  const nm6 = ['dh', 'l', 'll', 'lh', 'n', 'nd', 'nt', 'r', 'rr', 't', 's', 'z'];
+  const nm5 = ['Ch', 'H', 'J', 'L', 'M', 'N', 'R', 'S', 'T', 'X', 'Xh', 'Z',
+    'Zh'];
+  const nm6 = ['dh', 'l', 'll', 'lh', 'n', 'nd', 'nt', 'r', 'rr', 't', 's',
+    'z'];
   const nm7 = ['Ch', 'D', 'Q', 'Qh', 'R', 'Rh', 'S', 'T', 'X', 'Xh', 'Z', 'Zh'];
   const nm8 = ['a', 'o', 'a', 'aa'];
   const nm9 = ['', '', 'qu', 'd', 'l', 'm', 'n', 'q', 'r', 's', 'x'];
