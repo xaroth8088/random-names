@@ -9,7 +9,7 @@ export default function humans() {
   let rnd6;
   let rnd7;
   let rnd8;
-  const type = Math.random() > 0.5 ? 0 : 1;
+  const type = Math.floor(Math.random() * 4.0);
   /* Calashite */
   const nm1 = ['', '', 'b', 'bh', 'f', 'h', 'j', 'kh', 'm', 'n', 'nh', 'r', 'rh', 's', 'z'];
   const nm2 = ['a', 'e', 'u', 'a', 'e', 'u', 'a', 'e', 'u', 'i', 'ei'];

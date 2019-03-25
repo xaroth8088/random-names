@@ -1,3 +1,5 @@
+import sample from 'lodash/sample';
+
 export default function spells() {
   const nm1 = ['Aug', 'Corrupt', 'Deflect', 'Dupl', 'Ech', 'Ejec', 'Erec', 'Evic', 'Evict', 'Exp', 'Exting', 'Ignit', 'Ill', 'Imb', 'Imm', 'Incant', 'Incent', 'Incept', 'Invoc', 'Lag', 'Magn', 'Mend', 'Morph', 'Muffl', 'Oblit', 'Obsc', 'Pest', 'Petrif', 'Port', 'Purif', 'Rect', 'Refl', 'Reflect', 'Sanc', 'Sanct', 'Scorch', 'Slug', 'Supr', 'Tranq', 'Trans', 'Alte', 'Alter', 'Apear', 'Aper', 'Ara', 'Augmen', 'Clar', 'Clari', 'Confus', 'Conju', 'Conjur', 'Cor', 'Corrup', 'Cur', 'Decim', 'Defen', 'Deler', 'Depres', 'Depri', 'Descen', 'Divi', 'Ethe', 'Ether', 'Evi', 'Expel', 'Expul', 'Exte', 'Extermi', 'Extermin', 'Exti', 'Fier', 'Fir', 'Flar', 'Fluo', 'Igni', 'Illumi', 'Immol', 'Immun', 'Imped', 'Impedim', 'Imper', 'Incen', 'Incre', 'Increm', 'Incren', 'Inter', 'Iso', 'Isol', 'Lev', 'Levi', 'Levita', 'Libe', 'Liber', 'Loco', 'Locomo', 'Lum', 'Lumi', 'Magni', 'Mobi', 'Mobil', 'Mor', 'Muf', 'Mystif', 'Neur', 'Neural', 'Ob', 'Obli', 'Obliter', 'Pes', 'Pesti', 'Pet', 'Petri', 'Por', 'Porta', 'Pro', 'Prot', 'Puri', 'Quen', 'Re', 'Red', 'Redu', 'Rege', 'Regen', 'Rejuvi', 'Rel', 'Releas', 'Reno', 'Rep', 'Repa', 'Repe', 'Repel', 'Restor', 'Revi', 'Sco', 'Scor', 'Ser', 'Sever', 'Shri', 'Sil', 'Silen', 'Slu', 'Stu', 'Stup', 'Supres', 'Tra', 'Tranqi', 'Venge'];
   const nm2 = ['a', 'actum', 'actus', 'arbus', 'armus', 'aro', 'ashio', 'asi', 'asis', 'aris', 'ate', 'ecto', 'ectum', 'ectus', 'ego', 'egra', 'egris', 'elio', 'ello', 'em', 'empra', 'endio', 'endius', 'endo', 'enim', 'enis', 'enta', 'entus', 'enum', 'enus', 'eo', 'eom', 'eos', 'eous', 'erbus', 'ergio', 'erio', 'eris', 'erous', 'es', 'esco', 'eseo', 'etus', 'eum', 'eus', 'i', 'iate', 'iatis', 'iato', 'ictum', 'ictus', 'icum', 'icus', 'id', 'igeo', 'im', 'indo', 'inio', 'inius', 'io', 'ior', 'is', 'iseo', 'ite', 'iteus', 'itus', 'ium', 'ius', 'orgio', 'ori', 'orpus', 'ortia', 'ortis', 'ortus', 'orus', 'otis', 'otum', 'ucio', 'ucto', 'ula', 'ulsi', 'ulsis', 'ulso', 'ulus', 'um', 'undis', 'undo', 'uno', 'uro', 'us'];
@@ -7,33 +9,15 @@ export default function spells() {
   const nm6 = ['A bright', 'A clear', 'A cluttered', 'A complex', 'A constant', 'A dark', 'A dim', 'A flat', 'A fluid', 'A gentle', 'A jagged', 'A jumbled', 'A light', 'A mellow', 'A mixed', 'A modest', 'A plain', 'A pure', 'A rough', 'A rounded', 'A simple', 'A smooth', 'A spiky', 'A stable', 'A straight', 'A strong', 'A tangled', 'A thick', 'A thin', 'A transparent', 'A uniform', 'A vibrant', 'A violent', 'A wild', 'A wobbly', 'An impure', 'An interwoven', 'An intricate', 'An irregular', 'An unstable'];
   const nm7 = ['amber', 'azure', 'blue', 'blue-green', 'bronze', 'brown', 'burgundy', 'cerulean', 'cobalt', 'copper', 'crimson', 'emerald', 'golden', 'green', 'indigo', 'ivory', 'jade', 'lilac', 'magenta', 'maroon', 'multi-colored', 'orange', 'pink', 'purple', 'red', 'rose', 'ruby', 'sanguine', 'scarlet', 'silver', 'teal', 'vermilion', 'violet', 'white', 'yellow'];
   const nm8 = ['beam', 'blast of particles', 'blast of small waves', 'blast of waves', 'blaze of fragments', 'blaze of particles', 'blaze of sparks', 'coil', 'coil of particles', 'coil of waves', 'corkscrew of particles', 'flash', 'flash of particles', 'flash of sparks', 'glowing beam', 'glowing corkscrew', 'glowing fragment cluster', 'glowing particle cluster', 'glowing ray', 'glowing shaft', 'glowing sparks', 'glowing spike', 'glowing wave', 'intertwining duo of coils', 'intertwining duo of rays', 'intertwining duo of ripples', 'intertwining duo of streams', 'intertwining duo of twirls', 'intertwining duo of waves', 'line', 'line of particles', 'particle wave', 'ray', 'ray of particles', 'ray of sparks', 'rush of ripples', 'rush of small spikes', 'rush of small waves', 'rush of spikes', 'shaft', 'spike of particles', 'stream', 'stream of fragments', 'stream of particles', 'stream of sparks', 'surge', 'surge of fragments', 'surge of particles', 'surge of ripples', 'surge of sparks', 'surge of waves', 'twirl', 'twisting coil', 'twisting stream', 'twisting wave', 'wave of fragments', 'wave of particles', 'wave of tiny particles'];
-  const rnd1 = Math.floor(Math.random() * nm1.length);
-  const rnd2 = Math.floor(Math.random() * nm2.length);
-  const rnd2b = Math.floor(Math.random() * nm2.length);
-  const rnd3 = Math.floor(Math.random() * nm3.length);
-  const rnd4 = Math.floor(Math.random() * nm4.length);
-  const rnd5 = Math.floor(Math.random() * nm5.length);
-  const rnd6 = Math.floor(Math.random() * nm6.length);
-  const rnd7 = Math.floor(Math.random() * nm7.length);
-  const rnd8 = Math.floor(Math.random() * nm8.length);
-  const rnd9 = Math.floor(Math.random() * nm1.length);
-  const rnd10 = Math.floor(Math.random() * nm2.length);
-  const rnd10b = Math.floor(Math.random() * nm2.length);
-  const rnd11 = Math.floor(Math.random() * nm3.length);
-  const rnd12 = Math.floor(Math.random() * nm4.length);
-  const rnd13 = Math.floor(Math.random() * nm5.length);
-  const rnd14 = Math.floor(Math.random() * nm6.length);
-  const rnd15 = Math.floor(Math.random() * nm7.length);
-  const rnd16 = Math.floor(Math.random() * nm8.length);
-  const name = `Spell name: ${nm1[rnd9]}${nm2[rnd10]} ${nm3[rnd11]}${nm2[rnd10b]}`;
-  const name2 = `Inventor: ${nm4[rnd12]}`;
-  const name3 = `Effect: ${nm5[rnd13]}.`;
-  const name4 = `Appearance: ${nm6[rnd14]}, ${nm7[rnd15]} ${nm8[rnd16]}.`;
+  const name = `Spell name: ${sample(nm1)}${sample(nm2)} ${sample(nm3)}${sample(nm2)}`;
+  const name2 = `Inventor: ${sample(nm4)}`;
+  const name3 = `Effect: ${sample(nm5)}.`;
+  const name4 = `Appearance: ${sample(nm6)}, ${sample(nm7)} ${sample(nm8)}.`;
   const name5 = '----------------------------';
-  const name6 = `Spell name: ${nm1[rnd1]}${nm2[rnd2]} ${nm3[rnd3]}${nm2[rnd2b]}`;
-  const name7 = `Inventor: ${nm4[rnd4]}`;
-  const name8 = `Effect: ${nm5[rnd5]}.`;
-  const name9 = `Appearance: ${nm6[rnd6]}, ${nm7[rnd7]} ${nm8[rnd8]}.`;
+  const name6 = `Spell name: ${sample(nm1)}${sample(nm2)} ${sample(nm3)}${sample(nm2)}`;
+  const name7 = `Inventor: ${sample(nm4)}`;
+  const name8 = `Effect: ${sample(nm5)}.`;
+  const name9 = `Appearance: ${sample(nm6)}, ${sample(nm7)} ${sample(nm8)}.`;
   let result = '';
   result += name;
   result += '\n';

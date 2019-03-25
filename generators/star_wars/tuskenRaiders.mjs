@@ -1,17 +1,8 @@
+import sample from 'lodash/sample';
+
 export default function tuskenRaiders() {
   let namelast;
   let names;
-  let rnd;
-  let rnd2;
-  let rnd3;
-  let rnd4;
-  let rnd5;
-  let rnd6;
-  let rnd7;
-  let rnd8;
-  let rnd9;
-  let rnd10;
-  let rnd11;
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['A\'', 'Ch\'', 'Gr\'', 'H\'', 'K\'', 'Q\'', 'R\'', '', '', '', '', '', '', '', '', '', '', '', '', '', '', ''];
   const nm2 = ['B', 'C', 'Ch', 'D', 'G', 'K', 'Q', 'R', 'S', 'Sh', 'Sl', 'T', 'Th', 'Y', 'V', 'Z'];
@@ -34,52 +25,27 @@ export default function tuskenRaiders() {
   const nm19 = ['c', 'ct', 'g', 'gg', 'k', 'kt', 'n', 'q', 'qt', 'r', 'rr', 'rk', 'rc', 'rg', 'rq', 'rt', 'rd', 'tt', 't'];
   const i = Math.floor(Math.random() * 10);
   {
-    rnd7 = Math.floor(Math.random() * nm16.length);
-    rnd8 = Math.floor(Math.random() * nm17.length);
-    rnd10 = Math.floor(Math.random() * nm19.length);
     if (i % 2 !== 0) {
-      namelast = nm16[rnd7] + nm17[rnd8] + nm19[rnd10];
+      namelast = sample(nm16) + sample(nm17) + sample(nm19);
     } else {
-      rnd9 = Math.floor(Math.random() * nm17.length);
-      rnd11 = Math.floor(Math.random() * nm18.length);
-      namelast = nm16[rnd7] + nm17[rnd8] + nm18[rnd11] + nm17[rnd9] + nm19[rnd10];
+      namelast = sample(nm16) + sample(nm17) + sample(nm18) + sample(nm17) + sample(nm19);
     }
     if (type === 1) {
-      rnd2 = Math.floor(Math.random() * nm12.length);
-      rnd3 = Math.floor(Math.random() * nm13.length);
       if (i < 5) {
-        rnd = Math.floor(Math.random() * nm1.length);
-        rnd4 = Math.floor(Math.random() * nm15.length);
-        names = `${nm1[rnd] + nm12[rnd2] + nm13[rnd3] + nm15[rnd4]} ${namelast}`;
+        names = `${sample(nm1) + sample(nm12) + sample(nm13) + sample(nm15)} ${namelast}`;
       } else {
-        rnd = Math.floor(Math.random() * nm14.length);
-        rnd4 = Math.floor(Math.random() * nm13.length);
-        names = `${nm12[rnd2] + nm13[rnd3] + nm14[rnd] + nm13[rnd4]} ${namelast}`;
+        names = `${sample(nm12) + sample(nm13) + sample(nm14) + sample(nm13)} ${namelast}`;
       }
     } else if (i < 5) {
-      rnd = Math.floor(Math.random() * nm1.length);
-      rnd2 = Math.floor(Math.random() * nm2.length);
-      rnd3 = Math.floor(Math.random() * nm3.length);
-      rnd5 = Math.floor(Math.random() * nm5.length);
       if (i < 3) {
-        names = `${nm1[rnd] + nm2[rnd2] + nm3[rnd3] + nm5[rnd5]}  ${namelast}`;
+        names = `${sample(nm1) + sample(nm2) + sample(nm3) + sample(nm5)}  ${namelast}`;
       } else {
-        rnd6 = Math.floor(Math.random() * nm3.length);
-        rnd4 = Math.floor(Math.random() * nm4.length);
-        names = `${nm1[rnd] + nm2[rnd2] + nm3[rnd3] + nm4[rnd4] + nm3[rnd6] + nm5[rnd5]}  ${namelast}`;
+        names = `${sample(nm1) + sample(nm2) + sample(nm3) + sample(nm4) + sample(nm3) + sample(nm5)}  ${namelast}`;
       }
+    } else if (i < 8) {
+      names = `${sample(nm6) + sample(nm7)}'${sample(nm8)}${sample(nm9)}`;
     } else {
-      rnd = Math.floor(Math.random() * nm6.length);
-      rnd2 = Math.floor(Math.random() * nm7.length);
-      rnd3 = Math.floor(Math.random() * nm8.length);
-      rnd4 = Math.floor(Math.random() * nm9.length);
-      if (i < 8) {
-        names = `${nm6[rnd] + nm7[rnd2]}'${nm8[rnd3]}${nm9[rnd4]}`;
-      } else {
-        rnd5 = Math.floor(Math.random() * nm10.length);
-        rnd6 = Math.floor(Math.random() * nm11.length);
-        names = `${nm6[rnd] + nm7[rnd2]}'${nm8[rnd3]}${nm9[rnd4]}'${nm10[rnd5]}${nm11[rnd6]}`;
-      }
+      names = `${sample(nm6) + sample(nm7)}'${sample(nm8)}${sample(nm9)}'${sample(nm10)}${sample(nm11)}`;
     }
     return names;
   }

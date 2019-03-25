@@ -1,10 +1,8 @@
+import sample from 'lodash/sample';
+
 export default function halfElfs() {
   let nameLast;
   let names;
-  let rnd;
-  let rnd2;
-  let rnd3;
-  let rnd4;
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['Aal', 'Abe', 'Ad', 'Ada', 'Ade', 'Al', 'An', 'Ar', 'Arn', 'Aro', 'Aud', 'Ave', 'Bal', 'Bar', 'Bel', 'Ber', 'Bri', 'Char', 'Chris', 'Cler', 'Col', 'Con', 'Cor', 'Cra', 'Cris', 'Dan', 'Dav', 'Der', 'Don', 'Dor', 'Dra', 'Ed', 'Eir', 'El', 'Eli', 'Em', 'Eme', 'Eng', 'Er', 'Ever', 'Fal', 'Far', 'Fara', 'Fer', 'Fran', 'Fred', 'Fril', 'Ful', 'Ga', 'Gab', 'Gaer', 'Gal', 'Gale', 'Gar', 'Gef', 'Geof', 'Ger', 'Gib', 'Gil', 'Gir', 'God', 'Gra', 'Greg', 'Ha', 'Hal', 'Ham', 'Han', 'Har', 'Have', 'Hem', 'Hen', 'Hewe', 'Hig', 'Hil', 'Hor', 'Hu', 'Hum', 'Ian', 'Ilo', 'Im', 'Ing', 'Ingel', 'Isem', 'Ivo', 'Iz', 'Jac', 'Jam', 'Jame', 'Jaqu', 'Jar', 'Jef', 'Jen', 'Jer', 'Jere', 'Jor', 'Jose', 'Kev', 'Kri', 'Lam', 'Lan', 'Lance', 'Laun', 'Leo', 'Lor', 'Mal', 'Malcu', 'Mar', 'Maug', 'Mei', 'Mer', 'Mic', 'Mich', 'Mik', 'Nic', 'Nich', 'Nig', 'Nige', 'Nik', 'Nil', 'Nor', 'Nyco', 'Ori', 'Os', 'Pan', 'Per', 'Perci', 'Pet', 'Pete', 'Pier', 'Quo', 'Rad', 'Raf', 'Raim', 'Rain', 'Ran', 'Raw', 'Ray', 'Raym', 'Reim', 'Rem', 'Ren', 'Rey', 'Reyn', 'Ri', 'Ric', 'Rich', 'Rob', 'Rod', 'Rog', 'Roge', 'Rol', 'Rot', 'Sal', 'Sala', 'Sam', 'San', 'Sar', 'Sim', 'Sten', 'Steph', 'Syl', 'Tan', 'Ted', 'Teod', 'Ter', 'Thi', 'Thom', 'Tib', 'To', 'Tob', 'Tra', 'Tris', 'Tyb', 'Tyr', 'Uan', 'Ul', 'Um', 'Ur', 'Val', 'Van', 'Vic', 'Vil', 'Wal', 'War', 'Wat', 'Wi', 'Wil', 'Wim', 'Wis', 'Wy', 'Wym', 'Xan', 'Xav', 'Yen', 'Yor', 'Ysem', 'Zan', 'Zyl'];
   const nm2 = ['amar', 'arat', 'alath', 'avor', 'bane', 'ben', 'borin', 'byran', 'coril', 'craes', 'dal', 'dar', 'deyr', 'dil', 'dithas', 'dorr', 'driel', 'dryn', 'duil', 'duin', 'dyr', 'ellan', 'elor', 'enas', 'endyl', 'esin', 'faelor', 'faerd', 'falen', 'farin', 'fin', 'finas', 'fire', 'fyndar', 'fyr', 'gotin', 'gretor', 'homin', 'horn', 'idon', 'indel', 'is', 'kas', 'kath', 'koris', 'ladar', 'ladon', 'lael', 'laer', 'laeril', 'laern', 'laeron', 'laith', 'lamar', 'lamir', 'lan', 'lanann', 'lando', 'lanor', 'lar', 'lareo', 'las', 'lathan', 'lather', 'leath', 'len', 'lidyr', 'linar', 'lion', 'lis', 'lisar', 'lith', 'luar', 'luin', 'lumin', 'manas', 'mar', 'mede', 'mer', 'meron', 'minar', 'mir', 'mitar', 'mon', 'morn', 'mus', 'naith', 'nall', 'nalor', 'nan', 'nar', 'naril', 'nas', 'neak', 'neiros', 'nian', 'nik', 'nor', 'nos', 'orin', 'osrin', 'ovar', 'parin', 'phanis', 'phar', 'phon', 'qarim', 'qinor', 'rach', 'rath', 'rauth', 'reak', 'red', 'rel', 'reth', 'rian', 'ridan', 'ril', 'rion', 'rith', 'ron', 'ros', 'roth', 'ruil', 'rune', 'ryll', 'rym', 'ryn', 'rynn', 'rynnon', 'san', 'saran', 'sariph', 'seith', 'shor', 'sin', 'staer', 'tael', 'taor', 'tar', 'telar', 'tevar', 'tharal', 'thath', 'thil', 'thin', 'thor', 'thorn', 'tien', 'torin', 'trydal', 'tumil', 'uin', 'valor', 'vendor', 'verel', 'voril', 'warith', 'win', 'word', 'xian', 'xiron', 'yeras', 'ynor', 'zaphir', 'zaren'];
@@ -13,17 +11,11 @@ export default function halfElfs() {
   const nm5 = ['Ad', 'Ae', 'Ara', 'Bal', 'Bei', 'Bi', 'Bry', 'Cai', 'Car', 'Chae', 'Cra', 'Da', 'Dae', 'Dor', 'Eil', 'El', 'Ela', 'En', 'Er', 'Fa', 'Fae', 'Far', 'Fen', 'Gen', 'Gil', 'Glyn', 'Gre', 'Hei', 'Hele', 'Her', 'Hola', 'Ian', 'Iar', 'Ili', 'Ina', 'Jo', 'Kea', 'Kel', 'Key', 'Kris', 'Leo', 'Lia', 'Lora', 'Lu', 'Mag', 'Mia', 'Mira', 'Mor', 'Nae', 'Neri', 'Nor', 'Ola', 'Olo', 'Oma', 'Ori', 'Pa', 'Per', 'Pet', 'Phi', 'Pres', 'Qi', 'Qin', 'Qui', 'Ralo', 'Rava', 'Rey', 'Ro', 'Sar', 'Sha', 'Syl', 'The', 'Tor', 'Tra', 'Tris', 'Ula', 'Ume', 'Uri', 'Va', 'Val', 'Ven', 'Vir', 'Waes', 'Wran', 'Wyn', 'Wysa', 'Xil', 'Xyr', 'Yel', 'Yes', 'Yin', 'Ylla', 'Zin', 'Zum', 'Zyl'];
   const nm6 = ['balar', 'banise', 'bella', 'beros', 'can', 'caryn', 'ceran', 'cyne', 'dan', 'di', 'dithas', 'dove', 'faren', 'fiel', 'fina', 'fir', 'geiros', 'gella', 'golor', 'gwyn', 'hana', 'harice', 'hice', 'horn', 'jeon', 'jor', 'jyre', 'kalyn', 'kas', 'kian', 'krana', 'lamin', 'lana', 'lar', 'lee', 'len', 'leth', 'lynn', 'maer', 'maris', 'menor', 'moira', 'myar', 'mys', 'na', 'nala', 'nan', 'neiros', 'nelis', 'norin', 'peiros', 'petor', 'phine', 'phyra', 'qen', 'qirelle', 'quinal', 'ra', 'ralei', 'ran', 'rel', 'ren', 'ric', 'rie', 'rieth', 'ris', 'ro', 'rona', 'rora', 'roris', 'salor', 'sandoral', 'satra', 'stina', 'sys', 'thana', 'thyra', 'toris', 'tris', 'tumal', 'valur', 'varis', 'ven', 'vyre', 'warin', 'wenys', 'wraek', 'wynn', 'xalim', 'xidor', 'xina', 'xisys', 'yarus', 'ydark', 'ynore', 'yra', 'zana', 'zeiros', 'zorwyn', 'zumin'];
   {
-    rnd3 = Math.floor(Math.random() * nm5.length);
-    rnd4 = Math.floor(Math.random() * nm6.length);
-    nameLast = nm5[rnd3] + nm6[rnd4];
+    nameLast = sample(nm5) + sample(nm6);
     if (type === 1) {
-      rnd = Math.floor(Math.random() * nm3.length);
-      rnd2 = Math.floor(Math.random() * nm4.length);
-      names = `${nm3[rnd] + nm4[rnd2]} ${nameLast}`;
+      names = `${sample(nm3) + sample(nm4)} ${nameLast}`;
     } else {
-      rnd = Math.floor(Math.random() * nm1.length);
-      rnd2 = Math.floor(Math.random() * nm2.length);
-      names = `${nm1[rnd] + nm2[rnd2]} ${nameLast}`;
+      names = `${sample(nm1) + sample(nm2)} ${nameLast}`;
     }
     return names;
   }

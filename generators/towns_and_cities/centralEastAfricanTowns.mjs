@@ -1,7 +1,7 @@
+import sample from 'lodash/sample';
+
 export default function centralEastAfricanTowns() {
   let names;
-  let rnd;
-  let rnd2;
   /* Burundi */
   const nm1 = ['Ban', 'Batu', 'Bi', 'Bite', 'Bo', 'Bu', 'Buba', 'Buju', 'Buki', 'Buri', 'Buru', 'Buye', 'Buyo', 'Bwa', 'Bwam', 'Bwamba', 'Bwanyo', 'Bwaru', 'Bwaya', 'Bwo', 'Bwom', 'Bwu', 'Ca', 'Can', 'Ci', 'Cibi', 'Ga', 'Garu', 'Gatu', 'Gaya', 'Gaye', 'Gi', 'Gibo', 'Gibon', 'Giru', 'Gite', 'Guju', 'Isa', 'Ka', 'Kabe', 'Kan', 'Kanyo', 'Karu', 'Kaya', 'Kaye', 'Kayi', 'Kayo', 'Ki', 'Kibo', 'Kibon', 'Kiru', 'Kirun', 'Kiso', 'Ma', 'Maba', 'Maban', 'Maga', 'Maka', 'Maru', 'Mata', 'Maya', 'Mibo', 'Mibon', 'Miru', 'Mirun', 'Mu', 'Mugo', 'Mugon', 'Muke', 'Mura', 'Muro', 'Muse', 'Musen', 'Muya', 'Muyi', 'Muyin', 'Mwa', 'Ngo', 'Nya', 'Nyan', 'Raga', 'Raka', 'Raya', 'Ru', 'Ruga', 'Rumo', 'Rura', 'Ruse', 'Ruta', 'Ruyi'];
   const nm2 = ['ba', 'banda', 'banza', 'barangwe', 'bezi', 'bitoke', 'bondo', 'bura', 'da', 'do', 'ga', 'gara', 'gari', 'ge', 'gi', 'go', 'gomanga', 'goro', 'hongo', 'jumbura', 'kamba', 'ke', 'kenke', 'kuzo', 'le', 'manga', 'monge', 'na', 'ra', 'ramvya', 'rangwe', 'ranyi', 'rasazi', 're', 'ri', 'ro', 'rore', 'rundo', 'ruri', 'ruzi', 'sazi', 'senyi', 'sha', 'sozi', 'tana', 'tega', 'teranyi', 'toke', 'vya', 'we', 'ya', 'yaga', 'yanza', 'yero', 'yi', 'yigi', 'yinga', 'yogoro', 'yosha', 'za', 'zi', 'zo'];
@@ -26,33 +26,19 @@ export default function centralEastAfricanTowns() {
   const i = Math.floor(Math.random() * 16);
   {
     if (i < 2) {
-      rnd = Math.floor(Math.random() * nm1.length);
-      rnd2 = Math.floor(Math.random() * nm2.length);
-      names = nm1[rnd] + nm2[rnd2];
+      names = sample(nm1) + sample(nm2);
     } else if (i < 4) {
-      rnd = Math.floor(Math.random() * nm3.length);
-      rnd2 = Math.floor(Math.random() * nm4.length);
-      names = nm3[rnd] + nm4[rnd2];
+      names = sample(nm3) + sample(nm4);
     } else if (i < 6) {
-      rnd = Math.floor(Math.random() * nm5.length);
-      rnd2 = Math.floor(Math.random() * nm6.length);
-      names = nm5[rnd] + nm6[rnd2];
+      names = sample(nm5) + sample(nm6);
     } else if (i < 8) {
-      rnd = Math.floor(Math.random() * nm7.length);
-      rnd2 = Math.floor(Math.random() * nm8.length);
-      names = nm7[rnd] + nm8[rnd2];
+      names = sample(nm7) + sample(nm8);
     } else if (i < 10) {
-      rnd = Math.floor(Math.random() * nm9.length);
-      rnd2 = Math.floor(Math.random() * nm10.length);
-      names = nm9[rnd] + nm10[rnd2];
+      names = sample(nm9) + sample(nm10);
     } else if (i < 12) {
-      rnd = Math.floor(Math.random() * nm11.length);
-      rnd2 = Math.floor(Math.random() * nm12.length);
-      names = nm11[rnd] + nm12[rnd2];
+      names = sample(nm11) + sample(nm12);
     } else {
-      rnd = Math.floor(Math.random() * nm13.length);
-      rnd2 = Math.floor(Math.random() * nm14.length);
-      names = nm13[rnd] + nm14[rnd2];
+      names = sample(nm13) + sample(nm14);
     }
     return names;
   }

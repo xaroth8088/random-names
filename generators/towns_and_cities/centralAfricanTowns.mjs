@@ -1,7 +1,7 @@
+import sample from 'lodash/sample';
+
 export default function centralAfricanTowns() {
   let names;
-  let rnd;
-  let rnd2;
   const nm1 = ['Am', 'An', 'Andu', 'Bai', 'Ba', 'Balo', 'Ben', 'Bi', 'Biba', 'Bim', 'Biu', 'Bun', 'Ca', 'Caba', 'Cabam', 'Cabin', 'Cabo', 'Cacon', 'Cacu', 'Cafun', 'Caha', 'Caien', 'Caim', 'Calan', 'Calen', 'Calon', 'Calu', 'Cama', 'Cam', 'Cambon', 'Cambun', 'Camis', 'Can', 'Cangam', 'Cangan', 'Cangum', 'Cape', 'Capen', 'Cas', 'Cassan', 'Casson', 'Ca', 'Cata', 'Cat', 'Catum', 'Caun', 'Caxi', 'Caza', 'Cazom', 'Ce', 'Chian', 'Chi', 'Chiban', 'Chibem', 'Chica', 'Chin', 'Chipin', 'Chis', 'Chitem', 'Coem', 'Co', 'Con', 'Cou', 'Couta', 'Cuan', 'Cua', 'Cu', 'Cui', 'Cuim', 'Cuve', 'Da', 'Dam', 'Didi', 'Di', 'Don', 'Dun', 'Ekun', 'Fol', 'Folga', 'Fun', 'Ga', 'Gabe', 'Gan', 'Golun', 'Gu', 'Huam', 'Hum', 'Jam', 'Kui', 'Lo', 'Lobi', 'Lom', 'Lon', 'Longon', 'Lua', 'Luaca', 'Luan', 'Luban', 'Luca', 'Lucus', 'Lue', 'Luia', 'Luim', 'Lum', 'Lu', 'Lumba', 'Lume', 'Lure', 'Luxi', 'Lan', 'Malen', 'Malem', 'Ma', 'Malu', 'Marim', 'Ma', 'Mas', 'Mata', 'Mavin', 'Mban', 'Menon', 'Mu', 'Mhcin', 'Mucon', 'Mucum', 'Mucu', 'Mugin', 'Mulon', 'Mun', 'Mus', 'Mussen', 'Na', 'Nama', 'Nami', 'Nega', 'Nha', 'No', 'Nza', 'On', 'Ondji', 'Pin', 'Que', 'Qui', 'Quiba', 'Quilen', 'Quima', 'Quiban', 'Quiri', 'Quima', 'Quim', 'Quir', 'Sa', 'Saco', 'Samu', 'Sauri', 'Sava', 'Savun', 'Son', 'So', 'Sum', 'Tchin', 'Tchi', 'Tchipe', 'Techa', 'Tenta', 'Tom', 'Tum', 'Uku', 'Via', 'Wa', 'Xangon', 'Xan'];
   const nm2 = ['ba', 'bal', 'bala', 'bale', 'bamba', 'bambe', 'bambo', 'banda', 'bango', 'batela', 'baxe', 'be', 'bela', 'bele', 'bemba', 'bia', 'binda', 'bito', 'bo', 'bola', 'boledo', 'bongue', 'briz', 'bua', 'bundi', 'cala', 'canha', 'cano', 'capa', 'chi', 'chinda', 'chiungo', 'cinga', 'colo', 'comar', 'combo', 'conda', 'culama', 'cumbo', 'cunda', 'cupa', 'cuso', 'cusse', 'cusso', 'da', 'dala', 'dimbo', 'do', 'dulo', 'funfo', 'ga', 'gage', 'gamba', 'gandala', 'gar', 'gares', 'gi', 'ginga', 'go', 'gongo', 'gonjo', 'gue', 'guela', 'guengo', 'gufo', 'guide', 'gula', 'gumbe', 'hango', 'heiro', 'je', 'jenje', 'jimbe', 'jiva', 'kuma', 'la', 'lai', 'lama', 'lanje', 'ledo', 'lembo', 'lengues', 'lo', 'lombo', 'londo', 'longo', 'ludi', 'lui', 'lulo', 'lundo', 'lungo', 'ma', 'mavongo', 'meje', 'mibe', 'munona', 'mutete', 'na', 'nongue', 'pata', 'penda', 'pindo', 'pulo', 'pungo', 'quembe', 'qui', 'rea', 'remo', 'ri', 'rima', 'rimba', 'rimo', 'riz', 'sa', 'samba', 'sango', 'sende', 'serra', 'sombo', 'songue', 'suco', 'sueje', 'ta', 'tada', 'tado', 'tala', 'tativa', 'teba', 'tela', 'tembo', 'tiva', 'to', 'vate', 'vinga', 'vongo', 'vungo', 'xilo', 'xita', 'xito', 'zaje', 'zombo'];
   /* Cameroon */
@@ -28,37 +28,21 @@ export default function centralAfricanTowns() {
   const i = Math.floor(Math.random() * 16);
   {
     if (i < 2) {
-      rnd = Math.floor(Math.random() * nm1.length);
-      rnd2 = Math.floor(Math.random() * nm2.length);
-      names = nm1[rnd] + nm2[rnd2];
+      names = sample(nm1) + sample(nm2);
     } else if (i < 4) {
-      rnd = Math.floor(Math.random() * nm3.length);
-      rnd2 = Math.floor(Math.random() * nm4.length);
-      names = nm3[rnd] + nm4[rnd2];
+      names = sample(nm3) + sample(nm4);
     } else if (i < 6) {
-      rnd = Math.floor(Math.random() * nm5.length);
-      rnd2 = Math.floor(Math.random() * nm6.length);
-      names = nm5[rnd] + nm6[rnd2];
+      names = sample(nm5) + sample(nm6);
     } else if (i < 8) {
-      rnd = Math.floor(Math.random() * nm7.length);
-      rnd2 = Math.floor(Math.random() * nm8.length);
-      names = nm7[rnd] + nm8[rnd2];
+      names = sample(nm7) + sample(nm8);
     } else if (i < 10) {
-      rnd = Math.floor(Math.random() * nm9.length);
-      rnd2 = Math.floor(Math.random() * nm10.length);
-      names = nm9[rnd] + nm10[rnd2];
+      names = sample(nm9) + sample(nm10);
     } else if (i < 12) {
-      rnd = Math.floor(Math.random() * nm11.length);
-      rnd2 = Math.floor(Math.random() * nm12.length);
-      names = nm11[rnd] + nm12[rnd2];
+      names = sample(nm11) + sample(nm12);
     } else if (i < 14) {
-      rnd = Math.floor(Math.random() * nm13.length);
-      rnd2 = Math.floor(Math.random() * nm14.length);
-      names = nm13[rnd] + nm14[rnd2];
+      names = sample(nm13) + sample(nm14);
     } else {
-      rnd = Math.floor(Math.random() * nm15.length);
-      rnd2 = Math.floor(Math.random() * nm16.length);
-      names = nm15[rnd] + nm16[rnd2];
+      names = sample(nm15) + sample(nm16);
     }
     return names;
   }

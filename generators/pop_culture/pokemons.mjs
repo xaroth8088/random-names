@@ -1,3 +1,5 @@
+import sample from 'lodash/sample';
+
 export default function pokemons() {
   let names;
   let rnd0;
@@ -19,14 +21,11 @@ export default function pokemons() {
   {
     if (type === 1) {
       if (i < 3) {
-        rnd1 = Math.floor(Math.random() * nm1.length);
-        names = nm1[rnd1];
+        names = sample(nm1);
       } else if (i < 7) {
-        rnd1 = Math.floor(Math.random() * nm3.length);
-        names = nm3[rnd1];
+        names = sample(nm3);
       } else {
-        rnd1 = Math.floor(Math.random() * nm2.length);
-        names = nm2[rnd1];
+        names = sample(nm2);
       }
     } else if (i < 2) {
       rnd0 = Math.floor(Math.random() * names1.length);

@@ -16,8 +16,6 @@ export default function awards() {
       }
     }
     names = `The ${nm1[rnd]} ${nm2[rnd2]} ${nm3[rnd3]}`;
-    nm1.splice(rnd, 1);
-    nm2.splice(rnd2, 1);
     return names;
   }
 }

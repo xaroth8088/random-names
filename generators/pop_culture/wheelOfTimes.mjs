@@ -1,9 +1,7 @@
+import sample from 'lodash/sample';
+
 export default function wheelOfTimes() {
   let names;
-  let rnd;
-  let rnd2;
-  let rnd3;
-  let rnd4;
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['Ad', 'Al', 'Ar', 'Art', 'B', 'Ben', 'Ber', 'Bin', 'C', 'Cal', 'Coul', 'Cul', 'Eam', 'El', 'Er', 'Ert', 'G', 'Gaid', 'Galv', 'Gar', 'J', 'Jan', 'Jand', 'Jul', 'K', 'Kal', 'Ken', 'L', 'Laer', 'Lan', 'Lest', 'Mas', 'Mat', 'Matt', 'Maz', 'Nad', 'Nal', 'Ner', 'Nor', 'Ol', 'Olv', 'Ond', 'Os', 'P', 'Pad', 'Pel', 'Per', 'R', 'Ran', 'Reld', 'Rh', 'S', 'Sal', 'Sar', 'Sil', 'T', 'Th', 'Ther', 'Tor', 'Val', 'Vend', 'Ver', 'Vor', 'Z', 'Zan', 'Zol', 'Zor'];
   const nm2 = ['adin', 'ain', 'al', 'am', 'an', 'and', 'ar', 'as', 'ath', 'aul', 'ean', 'el', 'em', 'ema', 'en', 'eon', 'er', 'erin', 'esean', 'eth', 'ian', 'il', 'im', 'in', 'inan', 'inean', 'inen', 'ion', 'iren', 'is', 'od', 'oial', 'ol', 'om', 'on', 'orin', 'orn', 'oth', 'oul', 'ovin', 'ral', 'ran', 'ren', 'rim', 'ris', 'uan', 'uarc', 'uen', 'uin', 'ulin', 'um', 'un', 'ur', 'us', 'uth', 'yas', 'yel', 'yin', 'yom', 'yor'];
@@ -13,17 +11,9 @@ export default function wheelOfTimes() {
   const nm6 = ['aem', 'aera', 'ag', 'agar', 'agin', 'aidhrin', 'aim', 'ain', 'alda', 'alin', 'amon', 'an', 'anche', 'and', 'aneos', 'ar', 'ara', 'arin', 'athor', 'aw', 'ear', 'ed', 'elle', 'enne', 'eos', 'era', 'eran', 'ere', 'eron', 'evron', 'iar', 'iaw', 'iaya', 'ilin', 'in', 'inas', 'ind', 'ineos', 'ira', 'iros', 'odred', 'ogan', 'oihan', 'olin', 'olrin', 'on', 'onche', 'onne', 'or', 'oron', 'yan', 'yl', 'ynar', 'yne', 'yr', 'yrag', 'yran', 'yron', 'yros', 'ys'];
   {
     if (type === 1) {
-      rnd = Math.floor(Math.random() * nm3.length);
-      rnd2 = Math.floor(Math.random() * nm4.length);
-      rnd3 = Math.floor(Math.random() * nm5.length);
-      rnd4 = Math.floor(Math.random() * nm6.length);
-      names = `${nm3[rnd] + nm4[rnd2]} ${nm5[rnd3]}${nm6[rnd4]}`;
+      names = `${sample(nm3) + sample(nm4)} ${sample(nm5)}${sample(nm6)}`;
     } else {
-      rnd = Math.floor(Math.random() * nm1.length);
-      rnd2 = Math.floor(Math.random() * nm2.length);
-      rnd3 = Math.floor(Math.random() * nm5.length);
-      rnd4 = Math.floor(Math.random() * nm6.length);
-      names = `${nm1[rnd] + nm2[rnd2]} ${nm5[rnd3]}${nm6[rnd4]}`;
+      names = `${sample(nm1) + sample(nm2)} ${sample(nm5)}${sample(nm6)}`;
     }
     return names;
   }

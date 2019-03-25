@@ -1,7 +1,7 @@
+import sample from 'lodash/sample';
+
 export default function aztecs() {
   let names;
-  let rnd;
-  let rnd2;
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['Acalan', 'Acamapichtli', 'Achcauhtli', 'Acolmixtli', 'Ahuiliztli', 'Ahuitzotl', 'Amoxtli', 'Atl', 'Axayacatl', 'Camaxtli', 'Chicahua', 'Chimalli', 'Chimalpopoca', 'Chipahua', 'Cipac', 'Cipactli', 'Citlali', 'Citlalli', 'Coatl', 'Coyotl', 'Cozahtli', 'Cualli', 'Cuauhtemoc', 'Cuauhtl', 'Cuetlachtli', 'Cuetzpalli', 'Cuixtli', 'Ehecatl', 'Eleuia', 'Eloxochitl', 'Etalpalli', 'Eztli', 'Huemac', 'Huitzilihuitl', 'Huitzilin', 'Huitzilli', 'Huitzitl', 'Huitztecol', 'Iccauhtli', 'Ichtaca', 'Icnoyotl', 'Ihuicatl', 'Ilhicamina', 'Ilhuitl', 'Itotia', 'Itzcali', 'Itzcoatl', 'Itzcuintli', 'Itzli', 'Itztli', 'Iuitl', 'Ixtli', 'Ixtlilxochitl', 'Izel', 'Mahuizoh', 'Manauia', 'Matlal', 'Matlalihuitl', 'Maxtla', 'Mazatl', 'Mecatl', 'Meztli', 'Mictlantecuhtli', 'Milintica', 'Miztli', 'Momoztli', 'Montezuma', 'Moquihuix', 'Moyolehuani', 'Nahuatl', 'Namacuix', 'Natlalihuitl', 'Necahual', 'Necalli', 'Necuametl', 'Nelli', 'Nezahualcoyotl', 'Nezahualpilli', 'Nochehuatl', 'Nochtli', 'Nopaltzin', 'Ocelotl', 'Ocuil', 'Ohtli', 'Olli', 'Ollin', 'Ozomatli', 'Patli', 'Quauhtli', 'Quetzalcoatl', 'Tapayaxi', 'Tecolotl', 'Tenoch', 'Teoxihuitl', 'Tepiltzin', 'Tepin', 'Tezcacoatl', 'Tezozomoc', 'Tizoc', 'Tlacaelel', 'Tlacelel', 'Tlachinolli', 'Tlalli', 'Tlaloc', 'Tlanextic', 'Tlanextli', 'Tlazohtlaloni', 'Tlazopilli', 'Tlexictli', 'Tlilpotonqui', 'Tochtli', 'Toltecatl', 'Tonauac', 'Topiltzin', 'Tototl', 'Tupac', 'Ueman', 'Uetzcayotl', 'Xicohtencatl', 'Xihuitl', 'Xipil', 'Xipilli', 'Xiuhcoatl', 'Xiuhpilli', 'Xochipepe', 'Xochipilli', 'Xochitl', 'Yaotl', 'Yayauhqui', 'Yolotli', 'Yolyamanitzin', 'Zipactonal', 'Zolin', 'Zuma'];
   const nm2 = ['Achcauh', 'Ahuiliz', 'Amox', 'Azcalxochi', 'Cente', 'Chalchiuh', 'Chalchiui', 'Chica', 'Chicome', 'Chimal', 'Chipa', 'Cihua', 'Citla', 'Citlal', 'Coa', 'Coszca', 'Cozama', 'Cual', 'Cuica', 'Eloxo', 'Eren', 'Etal', 'Ez', 'Hue', 'Huitzil', 'Huitzili', 'Iccauh', 'Ich', 'Icnoyo', 'Ihuica', 'Ilhica', 'Ilhui', 'Ito', 'Itz', 'Iui', 'Ix', 'Ixca', 'Mahui', 'Malinal', 'Maza', 'Meca', 'Mez', 'Miahua', 'Miyaoa', 'Mizqui', 'Momoz', 'Moyole', 'Nahua', 'Neca', 'Nel', 'Nene', 'Noch', 'Noxochi', 'Oh', 'Pa', 'Que', 'Quetzal', 'Quiauh', 'Sac', 'Te', 'Tei', 'Teoxi', 'Teui', 'Teya', 'Tla', 'Tlachi', 'Tlah', 'Tlal', 'Tlanex', 'Tlazoh', 'Tlexic', 'Toch', 'Tolte', 'Tonal', 'Xi', 'Xihui', 'Xilo', 'Xio', 'Xitlal', 'Xiuh', 'Xo', 'Xochi', 'Xoco', 'Yao', 'Yare', 'Yayauh', 'Yol', 'Yoli', 'Yolo', 'Yolyamani', 'Zani', 'Zel', 'Zya'];
@@ -13,20 +13,14 @@ export default function aztecs() {
   {
     if (type === 1) {
       if (i < 5) {
-        rnd = Math.floor(Math.random() * nm4.length);
-        names = nm4[rnd];
+        names = sample(nm4);
       } else {
-        rnd = Math.floor(Math.random() * nm5.length);
-        rnd2 = Math.floor(Math.random() * nm6.length);
-        names = nm5[rnd] + nm6[rnd2];
+        names = sample(nm5) + sample(nm6);
       }
     } else if (i < 5) {
-      rnd = Math.floor(Math.random() * nm1.length);
-      names = nm1[rnd];
+      names = sample(nm1);
     } else {
-      rnd = Math.floor(Math.random() * nm2.length);
-      rnd2 = Math.floor(Math.random() * nm3.length);
-      names = nm2[rnd] + nm3[rnd2];
+      names = sample(nm2) + sample(nm3);
     }
     return names;
   }

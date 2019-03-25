@@ -1,15 +1,7 @@
+import sample from 'lodash/sample';
+
 export default function tellarites() {
   let names;
-  let rnd;
-  let rnd2;
-  let rnd3;
-  let rnd4;
-  let rnd5;
-  let rnd6;
-  let rnd7;
-  let rnd8;
-  let rnd9;
-  let rnd10;
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['B', 'Br', 'Ch', 'C', 'Cr', 'D', 'Dv', 'Fr', 'F', 'G', 'Gl', 'Gr', 'H', 'J', 'K', 'Kh', 'L', 'M', 'N', 'Pr', 'R', 'Sh', 'Sk', 'T', 'Th', 'Tr', 'V', 'W', 'X', 'Z', 'Zh'];
   const nm2 = ['aa', 'ao', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'o'];
@@ -28,51 +20,14 @@ export default function tellarites() {
   {
     if (type === 1) {
       if (i < 5) {
-        rnd = Math.floor(Math.random() * nm6.length);
-        rnd2 = Math.floor(Math.random() * nm2.length);
-        rnd3 = Math.floor(Math.random() * nm8.length);
-        rnd4 = Math.floor(Math.random() * nm2.length);
-        rnd5 = Math.floor(Math.random() * nm9.length);
-        rnd6 = Math.floor(Math.random() * nm5.length);
-        rnd7 = Math.floor(Math.random() * nm12.length);
-        rnd8 = Math.floor(Math.random() * nm2.length);
-        rnd9 = Math.floor(Math.random() * nm14.length);
-        names = `${nm6[rnd] + nm2[rnd2] + nm8[rnd3] + nm2[rnd4] + nm9[rnd5] + nm5[rnd6]} ${nm12[rnd7]}${nm2[rnd8]}${nm14[rnd9]}`;
+        names = `${sample(nm6) + sample(nm2) + sample(nm8) + sample(nm2) + sample(nm9) + sample(nm5)} ${sample(nm12)}${sample(nm2)}${sample(nm14)}`;
       } else {
-        rnd = Math.floor(Math.random() * nm6.length);
-        rnd2 = Math.floor(Math.random() * nm2.length);
-        rnd3 = Math.floor(Math.random() * nm10.length);
-        rnd4 = Math.floor(Math.random() * nm11.length);
-        rnd5 = Math.floor(Math.random() * nm5.length);
-        rnd6 = Math.floor(Math.random() * nm12.length);
-        rnd7 = Math.floor(Math.random() * nm2.length);
-        rnd8 = Math.floor(Math.random() * nm13.length);
-        rnd9 = Math.floor(Math.random() * nm2.length);
-        rnd10 = Math.floor(Math.random() * nm14.length);
-        names = `${nm6[rnd] + nm2[rnd2] + nm10[rnd3] + nm11[rnd4] + nm5[rnd5]} ${nm12[rnd6]}${nm2[rnd7]}${nm13[rnd8]}${nm2[rnd9]}${nm14[rnd10]}`;
+        names = `${sample(nm6) + sample(nm2) + sample(nm10) + sample(nm11) + sample(nm5)} ${sample(nm12)}${sample(nm2)}${sample(nm13)}${sample(nm2)}${sample(nm14)}`;
       }
     } else if (i < 5) {
-      rnd = Math.floor(Math.random() * nm1.length);
-      rnd2 = Math.floor(Math.random() * nm2.length);
-      rnd3 = Math.floor(Math.random() * nm4.length);
-      rnd4 = Math.floor(Math.random() * nm5.length);
-      rnd5 = Math.floor(Math.random() * nm12.length);
-      rnd6 = Math.floor(Math.random() * nm2.length);
-      rnd7 = Math.floor(Math.random() * nm13.length);
-      rnd8 = Math.floor(Math.random() * nm2.length);
-      rnd9 = Math.floor(Math.random() * nm14.length);
-      names = `${nm1[rnd] + nm2[rnd2] + nm4[rnd3] + nm5[rnd4]} ${nm12[rnd5]}${nm2[rnd6]}${nm13[rnd7]}${nm2[rnd8]}${nm14[rnd9]}`;
+      names = `${sample(nm1) + sample(nm2) + sample(nm4) + sample(nm5)} ${sample(nm12)}${sample(nm2)}${sample(nm13)}${sample(nm2)}${sample(nm14)}`;
     } else {
-      rnd = Math.floor(Math.random() * nm1.length);
-      rnd2 = Math.floor(Math.random() * nm2.length);
-      rnd3 = Math.floor(Math.random() * nm3.length);
-      rnd4 = Math.floor(Math.random() * nm2.length);
-      rnd5 = Math.floor(Math.random() * nm4.length);
-      rnd6 = Math.floor(Math.random() * nm5.length);
-      rnd7 = Math.floor(Math.random() * nm12.length);
-      rnd8 = Math.floor(Math.random() * nm2.length);
-      rnd9 = Math.floor(Math.random() * nm14.length);
-      names = `${nm1[rnd] + nm2[rnd2] + nm3[rnd3] + nm2[rnd4] + nm4[rnd5] + nm5[rnd6]} ${nm12[rnd7]}${nm2[rnd8]}${nm14[rnd9]}`;
+      names = `${sample(nm1) + sample(nm2) + sample(nm3) + sample(nm2) + sample(nm4) + sample(nm5)} ${sample(nm12)}${sample(nm2)}${sample(nm14)}`;
     }
     return names;
   }

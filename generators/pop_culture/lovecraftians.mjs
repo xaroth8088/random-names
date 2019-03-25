@@ -1,12 +1,7 @@
+import sample from 'lodash/sample';
+
 export default function lovecraftians() {
   let names;
-  let rnd;
-  let rnd1;
-  let rnd2;
-  let rnd3;
-  let rnd4;
-  let rnd5;
-  let rnd6;
   const nm1 = ['a', 'e', 'i', 'u', 'o', 'a', 'ai', 'aiu', 'aiue', 'e', 'i', 'ia', 'iau', 'iu', 'o', 'u', 'y', 'ya', 'yi', 'yo'];
   const nm2 = ['bh', 'br', 'c\'th', 'cn', 'ct', 'cth', 'cx', 'd', 'd\'', 'g', 'gh', 'ghr', 'gr', 'h', 'k', 'kh', 'kth', 'mh', 'mh\'', 'ml', 'n', 'ng', 'sh', 't', 'th', 'tr', 'v', 'v\'', 'vh', 'vh\'', 'vr', 'x', 'z', 'z\'', 'zh'];
   const nm3 = ['a', 'e', 'i', 'u', 'o', 'a', 'e', 'i', 'u', 'o', 'ao', 'aio', 'ui', 'aa', 'io', 'ou', 'y'];
@@ -17,22 +12,9 @@ export default function lovecraftians() {
   const i = Math.floor(Math.random() * 10);
   {
     if (i < 5) {
-      rnd = Math.floor(Math.random() * nm2.length);
-      rnd2 = Math.floor(Math.random() * nm3.length);
-      rnd3 = Math.floor(Math.random() * nm4.length);
-      rnd4 = Math.floor(Math.random() * nm5.length);
-      rnd5 = Math.floor(Math.random() * nm6.length);
-      rnd6 = Math.floor(Math.random() * nm7.length);
-      names = nm2[rnd] + nm3[rnd2] + nm4[rnd3] + nm5[rnd4] + nm6[rnd5] + nm7[rnd6];
+      names = sample(nm2) + sample(nm3) + sample(nm4) + sample(nm5) + sample(nm6) + sample(nm7);
     } else {
-      rnd1 = Math.floor(Math.random() * nm1.length);
-      rnd = Math.floor(Math.random() * nm2.length);
-      rnd2 = Math.floor(Math.random() * nm3.length);
-      rnd3 = Math.floor(Math.random() * nm4.length);
-      rnd4 = Math.floor(Math.random() * nm5.length);
-      rnd5 = Math.floor(Math.random() * nm6.length);
-      rnd6 = Math.floor(Math.random() * nm7.length);
-      names = nm1[rnd1] + nm2[rnd] + nm3[rnd2] + nm4[rnd3] + nm5[rnd4] + nm6[rnd5] + nm7[rnd6];
+      names = sample(nm1) + sample(nm2) + sample(nm3) + sample(nm4) + sample(nm5) + sample(nm6) + sample(nm7);
     }
     return names;
   }

@@ -1,16 +1,7 @@
+import sample from 'lodash/sample';
+
 export default function bajorans() {
   let names;
-  let rnd;
-  let rnd2;
-  let rnd3;
-  let rnd4;
-  let rnd5;
-  let rnd6;
-  let rnd7;
-  let rnd8;
-  let rnd9;
-  let rnd10;
-  let rnd11;
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['b', 'c', 'd', 'f', 'g', 'h', 'j', 'k', 'l', 'm', 'n', 'p', 'r', 's', 't', 'v', 'w', 'y', 'z', 'b', 'c', 'd', 'f', 'g', 'h', 'j', 'k', 'l', 'm', 'n', 'p', 'r', 's', 't', 'v', 'w', 'y', 'z', 'ch', 'sh', 'br', 'pr', 'tr', 'dr', 'kr', 'vr', '', '', '', '', '', '', '', '', '', '', '', '', '', '', ''];
   const nm2 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'aa', 'ee'];
@@ -31,47 +22,15 @@ export default function bajorans() {
   const i = Math.floor(Math.random() * 10);
   {
     if (type === 1) {
-      rnd = Math.floor(Math.random() * nm1.length);
-      rnd2 = Math.floor(Math.random() * nm2.length);
-      rnd3 = Math.floor(Math.random() * nm3.length);
-      rnd4 = Math.floor(Math.random() * nm4.length);
-      rnd5 = Math.floor(Math.random() * nm5.length);
       if (i < 5) {
-        rnd6 = Math.floor(Math.random() * nm11.length);
-        rnd7 = Math.floor(Math.random() * nm12.length);
-        rnd8 = Math.floor(Math.random() * nm13.length);
-        rnd9 = Math.floor(Math.random() * nm14.length);
-        names = `${nm1[rnd] + nm2[rnd2] + nm3[rnd3] + nm4[rnd4] + nm5[rnd5]} ${nm11[rnd6]}${nm12[rnd7]}${nm13[rnd8]}${nm14[rnd9]}`;
+        names = `${sample(nm1) + sample(nm2) + sample(nm3) + sample(nm4) + sample(nm5)} ${sample(nm11)}${sample(nm12)}${sample(nm13)}${sample(nm14)}`;
       } else {
-        rnd6 = Math.floor(Math.random() * nm11.length);
-        rnd7 = Math.floor(Math.random() * nm12.length);
-        rnd8 = Math.floor(Math.random() * nm13.length);
-        rnd9 = Math.floor(Math.random() * nm14.length);
-        rnd10 = Math.floor(Math.random() * nm15.length);
-        rnd11 = Math.floor(Math.random() * nm16.length);
-        names = `${nm1[rnd] + nm2[rnd2] + nm3[rnd3] + nm4[rnd4] + nm5[rnd5]} ${nm11[rnd6]}${nm12[rnd7]}${nm13[rnd8]}${nm14[rnd9]}${nm15[rnd10]}${nm16[rnd11]}`;
+        names = `${sample(nm1) + sample(nm2) + sample(nm3) + sample(nm4) + sample(nm5)} ${sample(nm11)}${sample(nm12)}${sample(nm13)}${sample(nm14)}${sample(nm15)}${sample(nm16)}`;
       }
+    } else if (i < 5) {
+      names = `${sample(nm1) + sample(nm2) + sample(nm3) + sample(nm4) + sample(nm5)} ${sample(nm6)}${sample(nm7)}${sample(nm8)}${sample(nm10)}`;
     } else {
-      rnd = Math.floor(Math.random() * nm1.length);
-      rnd2 = Math.floor(Math.random() * nm2.length);
-      rnd3 = Math.floor(Math.random() * nm3.length);
-      rnd4 = Math.floor(Math.random() * nm4.length);
-      rnd5 = Math.floor(Math.random() * nm5.length);
-      if (i < 5) {
-        rnd6 = Math.floor(Math.random() * nm6.length);
-        rnd7 = Math.floor(Math.random() * nm7.length);
-        rnd8 = Math.floor(Math.random() * nm8.length);
-        rnd9 = Math.floor(Math.random() * nm10.length);
-        names = `${nm1[rnd] + nm2[rnd2] + nm3[rnd3] + nm4[rnd4] + nm5[rnd5]} ${nm6[rnd6]}${nm7[rnd7]}${nm8[rnd8]}${nm10[rnd9]}`;
-      } else {
-        rnd6 = Math.floor(Math.random() * nm6.length);
-        rnd7 = Math.floor(Math.random() * nm7.length);
-        rnd8 = Math.floor(Math.random() * nm8.length);
-        rnd9 = Math.floor(Math.random() * nm4.length);
-        rnd10 = Math.floor(Math.random() * nm9.length);
-        rnd11 = Math.floor(Math.random() * nm10.length);
-        names = `${nm1[rnd] + nm2[rnd2] + nm3[rnd3] + nm4[rnd4] + nm5[rnd5]} ${nm6[rnd6]}${nm7[rnd7]}${nm8[rnd8]}${nm4[rnd9]}${nm9[rnd10]}${nm10[rnd11]}`;
-      }
+      names = `${sample(nm1) + sample(nm2) + sample(nm3) + sample(nm4) + sample(nm5)} ${sample(nm6)}${sample(nm7)}${sample(nm8)}${sample(nm4)}${sample(nm9)}${sample(nm10)}`;
     }
     return names;
   }

@@ -1,17 +1,7 @@
+import sample from 'lodash/sample';
+
 export default function betazoids() {
   let names;
-  let rnd;
-  let rnd2;
-  let rnd3;
-  let rnd4;
-  let rnd5;
-  let rnd6;
-  let rnd7;
-  let rnd8;
-  let rnd9;
-  let rnd10;
-  let rnd11;
-  let rnd12;
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['a', 'e', 'i', 'o', 'u', '', '', '', '', '', ''];
   const nm2 = ['b', 'c', 'd', 'g', 'k', 'l', 'm', 'n', 'r', 's', 't'];
@@ -34,56 +24,14 @@ export default function betazoids() {
   {
     if (type === 1) {
       if (i < 5) {
-        rnd = Math.floor(Math.random() * nm7.length);
-        rnd2 = Math.floor(Math.random() * nm8.length);
-        rnd3 = Math.floor(Math.random() * nm9.length);
-        rnd4 = Math.floor(Math.random() * nm10.length);
-        rnd5 = Math.floor(Math.random() * nm12.length);
-        rnd6 = Math.floor(Math.random() * nm13.length);
-        rnd7 = Math.floor(Math.random() * nm14.length);
-        rnd8 = Math.floor(Math.random() * nm15.length);
-        rnd9 = Math.floor(Math.random() * nm16.length);
-        rnd10 = Math.floor(Math.random() * nm5.length);
-        rnd11 = Math.floor(Math.random() * nm17.length);
-        names = `${nm7[rnd] + nm8[rnd2] + nm9[rnd3] + nm10[rnd4] + nm12[rnd5]} ${nm13[rnd6]}${nm14[rnd7]}${nm15[rnd8]}${nm16[rnd9]}${nm5[rnd10]}${nm17[rnd11]}`;
+        names = `${sample(nm7) + sample(nm8) + sample(nm9) + sample(nm10) + sample(nm12)} ${sample(nm13)}${sample(nm14)}${sample(nm15)}${sample(nm16)}${sample(nm5)}${sample(nm17)}`;
       } else {
-        rnd = Math.floor(Math.random() * nm7.length);
-        rnd2 = Math.floor(Math.random() * nm8.length);
-        rnd3 = Math.floor(Math.random() * nm9.length);
-        rnd4 = Math.floor(Math.random() * nm10.length);
-        rnd5 = Math.floor(Math.random() * nm11.length);
-        rnd6 = Math.floor(Math.random() * nm10.length);
-        rnd7 = Math.floor(Math.random() * nm12.length);
-        rnd8 = Math.floor(Math.random() * nm13.length);
-        rnd9 = Math.floor(Math.random() * nm14.length);
-        rnd10 = Math.floor(Math.random() * nm15.length);
-        rnd12 = Math.floor(Math.random() * nm17.length);
-        names = `${nm7[rnd] + nm8[rnd2] + nm9[rnd3] + nm10[rnd4] + nm11[rnd5] + nm10[rnd6] + nm12[rnd7]} ${nm13[rnd8]}${nm14[rnd9]}${nm15[rnd10]}${nm17[rnd12]}`;
+        names = `${sample(nm7) + sample(nm8) + sample(nm9) + sample(nm10) + sample(nm11) + sample(nm10) + sample(nm12)} ${sample(nm13)}${sample(nm14)}${sample(nm15)}${sample(nm17)}`;
       }
     } else if (i < 5) {
-      rnd = Math.floor(Math.random() * nm1.length);
-      rnd2 = Math.floor(Math.random() * nm2.length);
-      rnd3 = Math.floor(Math.random() * nm3.length);
-      rnd4 = Math.floor(Math.random() * nm4.length);
-      rnd5 = Math.floor(Math.random() * nm5.length);
-      rnd6 = Math.floor(Math.random() * nm6.length);
-      rnd7 = Math.floor(Math.random() * nm13.length);
-      rnd8 = Math.floor(Math.random() * nm14.length);
-      rnd9 = Math.floor(Math.random() * nm15.length);
-      rnd11 = Math.floor(Math.random() * nm17.length);
-      names = `${nm1[rnd] + nm2[rnd2] + nm3[rnd3] + nm4[rnd4] + nm5[rnd5] + nm6[rnd6]} ${nm13[rnd7]}${nm14[rnd8]}${nm15[rnd9]}${nm17[rnd11]}`;
+      names = `${sample(nm1) + sample(nm2) + sample(nm3) + sample(nm4) + sample(nm5) + sample(nm6)} ${sample(nm13)}${sample(nm14)}${sample(nm15)}${sample(nm17)}`;
     } else {
-      rnd = Math.floor(Math.random() * nm3.length);
-      rnd2 = Math.floor(Math.random() * nm4.length);
-      rnd3 = Math.floor(Math.random() * nm5.length);
-      rnd4 = Math.floor(Math.random() * nm6.length);
-      rnd6 = Math.floor(Math.random() * nm13.length);
-      rnd7 = Math.floor(Math.random() * nm14.length);
-      rnd8 = Math.floor(Math.random() * nm15.length);
-      rnd9 = Math.floor(Math.random() * nm16.length);
-      rnd10 = Math.floor(Math.random() * nm5.length);
-      rnd11 = Math.floor(Math.random() * nm17.length);
-      names = `${nm3[rnd] + nm4[rnd2] + nm5[rnd3] + nm6[rnd4]} ${nm13[rnd6]}${nm14[rnd7]}${nm15[rnd8]}${nm16[rnd9]}${nm5[rnd10]}${nm17[rnd11]}`;
+      names = `${sample(nm3) + sample(nm4) + sample(nm5) + sample(nm6)} ${sample(nm13)}${sample(nm14)}${sample(nm15)}${sample(nm16)}${sample(nm5)}${sample(nm17)}`;
     }
     return names;
   }

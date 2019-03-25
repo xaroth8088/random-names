@@ -1,8 +1,6 @@
+import sample from 'lodash/sample';
+
 export default function chests() {
-  let rnd;
-  let rnd2;
-  let rnd3;
-  let rnd4;
   let names;
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['Ancient', 'Binding', 'Blessed', 'Blind', 'Broken', 'Burning', 'Condemned', 'Conquered', 'Cursed', 'Damned', 'Dark', 'Demonic', 'Distant', 'Divine', 'Doomed', 'Ending', 'Endless', 'Eternal', 'Faded', 'Fallen', 'Fleeting', 'Frozen', 'Hallowed', 'Haunted', 'Hellish', 'Holy', 'Imminent', 'Immortal', 'Infernal', 'Infinite', 'Lost', 'Ominous', 'Relentless', 'Sacred', 'Shattered', 'Silent', 'Smoldering', 'Timeless', 'Twisted', 'Unholy'];
@@ -24,30 +22,15 @@ export default function chests() {
   const i = Math.floor(Math.random() * 10);
   {
     if (i < 2) {
-      rnd = Math.floor(Math.random() * nm1.length);
-      rnd2 = Math.floor(Math.random() * nm2.length);
-      rnd3 = Math.floor(Math.random() * nm5.length);
-      names = `${nm5[rnd3]} of ${nm1[rnd]} ${nm2[rnd2]}`;
+      names = `${sample(nm5)} of ${sample(nm1)} ${sample(nm2)}`;
     } else if (i < 4) {
-      rnd = Math.floor(Math.random() * nm1.length);
-      rnd2 = Math.floor(Math.random() * nm2.length);
-      rnd3 = Math.floor(Math.random() * nm4.length);
-      rnd4 = Math.floor(Math.random() * nm5.length);
-      names = `${nm4[rnd3]} ${nm5[rnd4]} of ${nm1[rnd]} ${nm2[rnd2]}`;
+      names = `${sample(nm4)} ${sample(nm5)} of ${sample(nm1)} ${sample(nm2)}`;
     } else if (i < 6) {
-      rnd = Math.floor(Math.random() * nm3.length);
-      rnd2 = Math.floor(Math.random() * nm4.length);
-      rnd3 = Math.floor(Math.random() * nm5.length);
-      names = `${nm3[rnd]} ${nm4[rnd2]} ${nm5[rnd3]}`;
+      names = `${sample(nm3)} ${sample(nm4)} ${sample(nm5)}`;
     } else if (i < 8) {
-      rnd = Math.floor(Math.random() * nm3.length);
-      rnd2 = Math.floor(Math.random() * nm5.length);
-      rnd3 = Math.floor(Math.random() * nm7.length);
-      names = `${nm3[rnd]} ${nm5[rnd2]} of ${nm7[rnd3]}`;
+      names = `${sample(nm3)} ${sample(nm5)} of ${sample(nm7)}`;
     } else {
-      rnd = Math.floor(Math.random() * nm6.length);
-      rnd2 = Math.floor(Math.random() * nm7.length);
-      names = `${nm6[rnd]} of ${nm7[rnd2]}`;
+      names = `${sample(nm6)} of ${sample(nm7)}`;
     }
     return names;
   }

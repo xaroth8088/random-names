@@ -1,7 +1,7 @@
+import sample from 'lodash/sample';
+
 export default function southEuropeanTowns() {
   let names;
-  let rnd;
-  let rnd2;
   const nm1 = ['Acha', 'Agia', 'Agio', 'Agri', 'Alexa', 'Ali', 'Alika', 'Ama', 'Ampe', 'Ampelo', 'Ana', 'Araio', 'Argy', 'Arte', 'Aspro', 'Cha', 'Chai', 'Chala', 'Chio', 'Cho', 'Chola', 'Co', 'Da', 'Dimi', 'Dra', 'Drape', 'Ede', 'Efka', 'Ega', 'Ele', 'Elefthe', 'Eleu', 'Elli', 'Ermou', 'Ery', 'Evo', 'Fa', 'Fali', 'Fila', 'Flo', 'Ga', 'Gala', 'Gera', 'Gia', 'Gianni', 'Gly', 'Gre', 'Hera', 'Ialy', 'Iera', 'Iliou', 'Ira', 'Ka', 'Kaisa', 'Kala', 'Kalli', 'Kaly', 'Kama', 'Kardi', 'Kasto', 'Kate', 'Kava', 'Kera', 'Ki', 'Kifi', 'Ko', 'Komo', 'Koro', 'Kory', 'Koza', 'La', 'Lio', 'Liva', 'Lou', 'Ma', 'Me', 'Mega', 'Meli', 'Mene', 'Meta', 'Misso', 'Mo', 'Myti', 'Na', 'Nafpa', 'Naou', 'Nea', 'Ni', 'Ore', 'Pa', 'Paia', 'Palli', 'Pano', 'Papa', 'Para', 'Pe', 'Pera', 'Petrou', 'Poli', 'Pre', 'Preve', 'Psy', 'Ptole', 'Py', 'Rafi', 'Rethy', 'Rho', 'Sa', 'Sala', 'Se', 'Smy', 'Spa', 'Sta', 'Stavrou', 'Sy', 'Ta', 'The', 'Thessa', 'Tri', 'Tyrna', 'Ve', 'Vo', 'Vou', 'Vrili', 'VyVyro', 'Xa', 'Ymi', 'Zogra'];
   const nm2 = ['bes', 'chiko', 'chni', 'dallos', 'dari', 'deia', 'des', 'dri', 'droupoli', 'fada', 'fina', 'fka', 'fki', 'fni', 'fou', 'fplio', 'ftherio', 'gara', 'gio', 'gou', 'gyroi', 'ka', 'kaia', 'kala', 'kas', 'kastro', 'kies', 'kipoi', 'kleio', 'klion', 'kri', 'ktos', 'la', 'laia', 'lamis', 'laos', 'largos', 'lcis', 'lene', 'lfeia', 'liada', 'lio', 'lion', 'liro', 'lkis', 'llini', 'longhi', 'loniki', 'los', 'ma', 'maida', 'maria', 'mata', 'meni', 'mia', 'mis', 'mno', 'mnos', 'mos', 'nas', 'ndra', 'ndreia', 'ndri', 'nghi', 'nia', 'niki', 'nikon', 'nina', 'nio', 'nnis', 'ns', 'nthi', 'ntis', 'pagou', 'petra', 'poi', 'poli', 'pyrgos', 'raeus', 'rafou', 'raia', 'rama', 'rdelio', 'rekas', 'rfosi', 'rfu', 'rgos', 'rgyroi', 'ri', 'ria', 'riani', 'rina', 'rini', 'rint', 'rio', 'rissa', 'rmi', 'rnes', 'rni', 'ropi', 'roupoli', 'rousi', 'rpia', 'rres', 'rta', 'rvara', 'sa', 'schato', 'sia', 'sina', 'skevi', 'smos', 'sos', 'ssa', 'ssia', 'ssos', 'steri', 'stiada', 'tero', 'thea', 'thraia', 'tini', 'traki', 'tras', 'trios', 'tsa', 'tsi', 'tsini', 'tsona', 'ttos', 'vala', 'vena', 'veza', 'via', 'vos', 'vros', 'zani', 'zi'];
   /* Italy */
@@ -16,21 +16,13 @@ export default function southEuropeanTowns() {
   const i = Math.floor(Math.random() * 12);
   {
     if (i < 3) {
-      rnd = Math.floor(Math.random() * nm1.length);
-      rnd2 = Math.floor(Math.random() * nm2.length);
-      names = nm1[rnd] + nm2[rnd2];
+      names = sample(nm1) + sample(nm2);
     } else if (i < 6) {
-      rnd = Math.floor(Math.random() * nm3.length);
-      rnd2 = Math.floor(Math.random() * nm4.length);
-      names = nm3[rnd] + nm4[rnd2];
+      names = sample(nm3) + sample(nm4);
     } else if (i < 9) {
-      rnd = Math.floor(Math.random() * nm5.length);
-      rnd2 = Math.floor(Math.random() * nm6.length);
-      names = nm5[rnd] + nm6[rnd2];
+      names = sample(nm5) + sample(nm6);
     } else {
-      rnd = Math.floor(Math.random() * nm7.length);
-      rnd2 = Math.floor(Math.random() * nm8.length);
-      names = nm7[rnd] + nm8[rnd2];
+      names = sample(nm7) + sample(nm8);
     }
     return names;
   }

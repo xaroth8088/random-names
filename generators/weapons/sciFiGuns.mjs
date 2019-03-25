@@ -1,8 +1,7 @@
+import sample from 'lodash/sample';
+
 export default function sciFiGuns() {
   let names;
-  let rnd;
-  let rnd2;
-  let rnd3;
   const nm1 = ['Active', 'Adjustable', 'Agony', 'Allegiance', 'Alpha', 'Amnesia', 'Anti-Tank', 'Apocalypse', 'Apocalyptic', 'Armageddon', 'Ash', 'Astral', 'Atomic', 'Attuned', 'Augmented', 'Bandit\'s', 'Battlestar', 'Battleworn', 'Blackout', 'Brutal', 'Carbon', 'Cataclysm', 'Cataclysmic', 'Challenger', 'Challenger\'s', 'Champion', 'Champion\'s', 'Chaos', 'Chromed', 'Close-Defence', 'Comet', 'Commando', 'Commando\'s', 'Conqueror', 'Conqueror\'s', 'Cosmic', 'Cosmos', 'Crimson', 'Cruiser', 'Cyclone', 'Dancing', 'Dark', 'Decimation', 'Defender', 'Defender\'s', 'Desolation', 'Diabolical', 'Dire', 'Discharge', 'Divine', 'Doom', 'Doom\'s', 'Ebon', 'Echo', 'Eclipse', 'Energized', 'Engraved', 'Enhanced', 'Eternal', 'Explosive', 'Falcon', 'Fancy', 'Ferocious', 'Fireguard', 'Firestorm', 'Frenzied', 'Frenzy', 'Furious', 'Fury', 'Fusion', 'Gilded', 'Gladiator', 'Grieving', 'Guard\'s', 'Guardian\'s', 'Guerilla', 'Heavy', 'Hero', 'Hero\'s', 'High-Frequency', 'High-Power', 'High-Speed', 'Honed', 'Honor\'s', 'Howling', 'Hungering', 'Infantry', 'Infantry\'s', 'Infused', 'Ivory', 'Judgement', 'Keeper\'s', 'Legionnaire', 'Legionnaire\'s', 'Light', 'Lightning', 'Limbo', 'Long-Range', 'Low-Frequency', 'Low-Power', 'Magma', 'Malevolent', 'Malice', 'Malicious', 'Maleficent', 'Malignant', 'Massive', 'Mercenary', 'Mercy', 'Meteor', 'Midnight', 'Military', 'Moonlight', 'Mourning', 'Multi-Load', 'Multi-Shot', 'Nightfall', 'Nightmare', 'Nightwatch', 'Nuclear', 'Oathkeeper\'s', 'Oblivion', 'Obsidian', 'Omega', 'Peacekeeper', 'Peacekeeper\'s', 'Pendulum', 'Phantom', 'Polarized', 'Powered', 'Prime', 'Primitive', 'Protector\'s', 'Proud', 'Pure', 'Raging', 'Rapid-Fire', 'Rapture', 'Recruit\'s', 'Refined', 'Reforged', 'Renewed', 'Renovated', 'Replica', 'Requiem', 'Retribution', 'Ritual', 'Roaring', 'Savage', 'Self-Guided', 'Sentinel', 'Shadow', 'Short-Range', 'Silent', 'Silver', 'Singing', 'Single-Load', 'Single-Shot', 'Smooth', 'Soldier\'s', 'Spectral', 'Standard', 'Storm', 'Stormbringer', 'Stormfury', 'Stormguard', 'Stormrider', 'Sunshine', 'Supernova', 'Thunder', 'Thunderfury', 'Thunderguard', 'Thunderstorm', 'Titanium', 'Trainee\'s', 'Trans-Warp', 'Trauma', 'Tremor', 'Trinity', 'Twilight', 'Twilight\'s', 'Twisted', 'Typhoon', 'Valkyrie', 'Vanquisher', 'Vengeance', 'Veteran', 'Veteran\'s', 'Victor', 'Void', 'Vortex', 'War-Forged', 'Warbringer', 'Warden\'s', 'Warlord\'s', 'Warmonger', 'Warmonger\'s', 'Warp', 'Warped', 'Warrior', 'Warrior\'s', 'Whispering', 'Whistling'];
   const nm2 = ['Active', 'Adjustable', 'Alpha', 'Anti-Tank', 'Armageddon', 'Astral', 'Atomic', 'Attuned', 'Augmented', 'Battlestar', 'Cataclysm', 'Chaos', 'Close-Defence', 'Comet', 'Cosmic', 'Cosmos', 'Cruiser', 'Cyclone', 'Discharge', 'Eclipse', 'Energized', 'Enhanced', 'Explosive', 'Fusion', 'Heavy', 'High-Frequency', 'High-Power', 'High-Speed', 'Honed', 'Infused', 'Light', 'Long-Range', 'Low-Frequency', 'Low-Power', 'Meteor', 'Multi-Load', 'Multi-Shot', 'Nuclear', 'Oblivion', 'Omega', 'Pendulum', 'Polarized', 'Powered', 'Penetrating', 'Rapid-Fire', 'Refined', 'Reforged', 'Renewed', 'Self-Guided', 'Short-Range', 'Single-Load', 'Single-Shot', 'Standard', 'Sunshine', 'Supernova', 'Trans-Warp', 'Void', 'Vortex', 'Warp', '', '', ''];
   const nm3 = ['Flux', 'Gatling', 'Hand', 'Laser', 'Phase', 'Plasma', 'Pulse', 'Ray', 'Thermal', 'Proton', 'Meson', 'Fusion', 'Electron', 'Anti-Matter', 'Gravity', 'Photon'];
@@ -12,19 +11,11 @@ export default function sciFiGuns() {
   const i = Math.floor(Math.random() * 10);
   {
     if (i < 4) {
-      rnd = Math.floor(Math.random() * nm2.length);
-      rnd2 = Math.floor(Math.random() * nm3.length);
-      rnd3 = Math.floor(Math.random() * nm4.length);
-      names = `${nm2[rnd]} ${nm3[rnd2]} ${nm4[rnd3]}`;
+      names = `${sample(nm2)} ${sample(nm3)} ${sample(nm4)}`;
     } else if (i < 7) {
-      rnd = Math.floor(Math.random() * nm1.length);
-      rnd2 = Math.floor(Math.random() * nm3.length);
-      rnd3 = Math.floor(Math.random() * nm4.length);
-      names = `${nm1[rnd]} ${nm3[rnd2]} ${nm4[rnd3]}`;
+      names = `${sample(nm1)} ${sample(nm3)} ${sample(nm4)}`;
     } else {
-      rnd = Math.floor(Math.random() * nm5.length);
-      rnd2 = Math.floor(Math.random() * nm6.length);
-      names = `${nm5[rnd]} ${nm6[rnd2]}`;
+      names = `${sample(nm5)} ${sample(nm6)}`;
     }
     return names;
   }

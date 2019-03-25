@@ -7,7 +7,7 @@ export default function dragonridersOfPerns() {
   let rnd5;
   let rnd6;
   let rnd7;
-  const type = Math.random() > 0.5 ? 0 : 1;
+  const type = Math.floor(Math.random() * 3.0);
   const nm1 = ['', '', '', '', 'b', 'c', 'f', 'g', 'gr', 'h', 'j', 'k', 'l', 'm', 'n', 'p', 'r', 's', 'sh', 't', 'v', 'w', 'z'];
   const nm2 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'y', 'y', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'ea', 'ee', 'au', 'ai', 'ie', 'ea', 'io'];
   const nm3 = ['b', 'c', 'd', 'f', 'g', 'k', 'l', 'm', 'n', 'p', 'r', 's', 't', 'v', 'x', 'b', 'br', 'c', 'ch', 'd', 'dr', 'f', 'fr', 'g', 'k', 'l', 'ld', 'll', 'lr', 'lt', 'm', 'n', 'nc', 'nd', 'ng', 'ngr', 'nn', 'nr', 'ns', 'nt', 'p', 'r', 'rbr', 'rm', 'rn', 'rr', 'rsh', 'rt', 'sg', 'shm', 'ss', 'sr', 'st', 't', 'th', 'v', 'x'];

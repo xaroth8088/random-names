@@ -1,3 +1,5 @@
+import sample from 'lodash/sample';
+
 export default function castles() {
   const nm1 = ['Four', 'Five', 'Six', 'Seven', 'Eight', 'Nine', 'Ten', 'Eleven', 'Twelve', 'Thirteen', 'Fourteen', 'Fifteen'];
   const nm2 = ['broad', 'lean', 'massive', 'narrow', 'skinny', 'slim', 'solid', 'strong', 'thick', 'thin'];
@@ -18,29 +20,10 @@ export default function castles() {
   const nm17 = ['and it\'s the only way in, at least to those unfamiliar with the castle and its surroundings', ' and it\'s the only easy way in, any other side would be futile', ', but it\'s not the only way in, which fortunately only very few know', ', but it\'s not the only way in, but it\'ll be your best shot if you wish to conquer this castle', ' and it\'s the only way in, at least without taking down the castle walls', ' and it\'s the only way in, if you can make it that is', ', but it\'s not the only way in when you know the castle\'s secret passages', ' and it\'s the only easy way in, but easy is very relative here'];
   const nm18 = ['Huge statues of heroes and kings decorate the bridge outside, memories of glories of the past', 'Statues of kings are lined up outside of the castle gates, serving as reminders of the past', 'Remnants of broken siege engines, swords and shields litter the fields outside, a painful reminder of a past war', 'Well kept gardens with fragrant flowers, gorgeous trees and many bushes decorate the outside of the castle', 'Carts, boxes, tents and various trade goods are stacked and packed outside the castle, ready to be sold', 'Huge dragon bones litter the fields outside the castle, half overgrown, but still a painful reminder of the past', 'Fields of nothingness stretch out outside the castle, allowing to see people coming far before they pose a threat', 'Small buildings, houses and other structures populate the grounds outside the castle walls, homes for the poorest of the poor', 'Large boulders litter the fields outside the castle, paths to and from the castle snake around them and farm plots are small and scattered all around', 'Plain fields of a type of grass cover most of the fields outside of the castle, adding to the castle\'s aesthetics', 'A handful of waterfalls flow into various small rivers and provide the precious farm fields outside the castle with needed water', 'Trees grow close to the castle gates and provide it with valuable wood for all sorts of purposes', 'Lush fields of crops surround the castle walls and provides the inhabitants with food all year round', 'The forest outside of the castle gates is light up with bioluminescent creatues, adding to the atmosphere of the castle', 'Various large houses are scattered outside the castle gates, surprisingly the rich are comfortable with living outside the gates as well'];
   const nm19 = ['has clearly stood the test of time and its inhabitants are intend on making sure it stays that way for ages to come', 'has stood the test of time, it stood it well, but cracks begin to show here and there', 'has clearly stood the test of time, the rocks of the walls are aged and vines and plants grow inside the cracks, but this castle will last for ages to come', 'is relatively new, but so far it stood its ground with ease and it\'ll likely do so for ages to come', 'has clearly been around for at least a thousand years, but it doesn\'t seem like it will collapse any time soon', 'looks very new, but without knowing its history it\'s impossible to tell if it\'s a newly build castle or a well kept one', 'shows signs of decay after being around for ages, but its inhabitants are determined to repair any weaknesses to make sure this castle will be around for ages to come', 'shows signs of expansion as some parts are clearly build more recently than others, the inhabitants are already working on another part and hope to keep expanding', 'has been improved and improved over the ages, some parts of the castle are clearly newer than others, the inhabitants are determined to keep their castle as modern as possible', 'has stood the test of time and despite knowing some very rough times, the castle still stands and it looks like it will do so for many years to come'];
-  const rnd1 = Math.floor(Math.random() * nm1.length);
-  const rnd2 = Math.floor(Math.random() * nm2.length);
-  const rnd3 = Math.floor(Math.random() * nm3.length);
-  const rnd4 = Math.floor(Math.random() * nm4.length);
-  const rnd5 = Math.floor(Math.random() * nm5.length);
-  const rnd6 = Math.floor(Math.random() * nm6.length);
-  const rnd7 = Math.floor(Math.random() * nm7.length);
-  const rnd8 = Math.floor(Math.random() * nm8.length);
-  const rnd9 = Math.floor(Math.random() * nm9.length);
-  const rnd10 = Math.floor(Math.random() * nm10.length);
-  const rnd11 = Math.floor(Math.random() * nm11.length);
-  const rnd12 = Math.floor(Math.random() * nm12.length);
-  const rnd13 = Math.floor(Math.random() * nm13.length);
-  const rnd14 = Math.floor(Math.random() * nm14.length);
-  const rnd15 = Math.floor(Math.random() * nm15.length);
-  const rnd16 = Math.floor(Math.random() * nm16.length);
-  const rnd17 = Math.floor(Math.random() * nm17.length);
-  const rnd18 = Math.floor(Math.random() * nm18.length);
-  const rnd19 = Math.floor(Math.random() * nm19.length);
-  const name = `${nm1[rnd1]} ${nm2[rnd2]}, ${nm3[rnd3]} towers ${nm4[rnd4]} and are connected by ${nm5[rnd5]}, ${nm6[rnd6]} walls made of ${nm7[rnd7]}.`;
-  const name2 = `${nm8[rnd8]} windows are scattered ${nm9[rnd9]}, along with ${nm10[rnd10]} for archers and artillery.`;
-  const name3 = `A ${nm11[rnd11]} gate with ${nm12[rnd12]} ${nm13[rnd13]} doors${nm14[rnd14]} and ${nm15[rnd15]} ${nm16[rnd16]}${nm17[rnd17]}.`;
-  const name4 = `${nm18[rnd18]}. This castle ${nm19[rnd19]}.`;
+  const name = `${sample(nm1)} ${sample(nm2)}, ${sample(nm3)} towers ${sample(nm4)} and are connected by ${sample(nm5)}, ${sample(nm6)} walls made of ${sample(nm7)}.`;
+  const name2 = `${sample(nm8)} windows are scattered ${sample(nm9)}, along with ${sample(nm10)} for archers and artillery.`;
+  const name3 = `A ${sample(nm11)} gate with ${sample(nm12)} ${sample(nm13)} doors${sample(nm14)} and ${sample(nm15)} ${sample(nm16)}${sample(nm17)}.`;
+  const name4 = `${sample(nm18)}. This castle ${sample(nm19)}.`;
   let result = '';
   result += name;
   result += '\n';

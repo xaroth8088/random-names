@@ -1,8 +1,7 @@
+import sample from 'lodash/sample';
+
 export default function dinosaurs() {
   let names;
-  let rnd;
-  let rnd2;
-  let rnd3;
   const nm1 = [
     [
       ['Nigri'],
@@ -992,14 +991,9 @@ export default function dinosaurs() {
   const i = Math.floor(Math.random() * 10);
   {
     if (i < 5) {
-      rnd = Math.floor(Math.random() * nm4.length);
-      rnd2 = Math.floor(Math.random() * nm5.length);
-      names = `${nm4[rnd][0] + nm5[rnd2][0]} (${nm4[rnd][1]}  ${nm5[rnd2][1]})`;
+      names = `${sample(nm4)[0] + sample(nm5)[0]} (${sample(nm4)[1]}  ${sample(nm5)[1]})`;
     } else {
-      rnd = Math.floor(Math.random() * nm1.length);
-      rnd2 = Math.floor(Math.random() * nm2.length);
-      rnd3 = Math.floor(Math.random() * nm3.length);
-      names = `${nm1[rnd][0] + nm2[rnd2][0] + nm3[rnd3][0]} (${nm1[rnd][1]}  ${nm2[rnd2][1]}  ${nm3[rnd3][1]})`;
+      names = `${sample(nm1)[0] + sample(nm2)[0] + sample(nm3)[0]} (${sample(nm1)[1]}  ${sample(nm2)[1]}  ${sample(nm3)[1]})`;
     }
     return names;
   }

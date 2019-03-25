@@ -1,7 +1,7 @@
+import sample from 'lodash/sample';
+
 export default function constellations() {
   let names;
-  let rnd;
-  let rnd2;
   const nm1 = ['Acanthuridae', 'Achatina', 'Achatinoidea', 'Acidalia', 'Acinonyx', 'Actinidia', 'Aedes', 'Aegypius', 'Aepyceros', 'Ailuropoda', 'Ailurus', 'Aitheria', 'Ajaja', 'Alcelaphinae', 'Alces', 'Alligator', 'Allita', 'Alopex', 'Alouatta', 'Ambystoma', 'Amphiprioninae', 'Anas', 'Anguis', 'Anisoptera', 'Anthozoa', 'Antilocapra', 'Apatura', 'Apis', 'Apodemus', 'Apolline', 'Apollonia', 'Aptenodytes', 'Arachnocampa', 'Arctictis', 'Arctocephalinae', 'Ardeidae', 'Arini', 'Arvicola', 'Asta', 'Asteria', 'Asterodea', 'Astra', 'Astrea', 'Astrochelys', 'Atelerix', 'Balaenoptera', 'Balsenoptera', 'Barbus', 'Betta', 'Bison', 'Blattaria', 'Bombina', 'Bombus', 'Bos', 'Brachypelma', 'Brachyura', 'Branta', 'Bubalus', 'Bubo', 'Bufo', 'Buteo', 'Cacajao', 'Caelestra', 'Caeli', 'Caelia', 'Caelifera', 'Caimaninae', 'Callithrix', 'Calva', 'Camelus', 'Canis', 'Canus', 'Capra', 'Caracal', 'Carcharhinus', 'Carcharodon', 'Caridea', 'Castor', 'Casuarius', 'Caudata', 'Cavia', 'Cebus', 'Celaeno', 'Celesse', 'Celesta', 'Celeste', 'Celestia', 'Celestiel', 'Celestina', 'Celestine', 'Celestyna', 'Celia', 'Celine', 'Cephalopterus', 'Ceratophrys', 'Ceratotherium', 'Cerura', 'Cervus', 'Cetorhinus', 'Cettia', 'Chelonioidea', 'Chelydridae', 'Chilopoda', 'Chinchilla', 'Chiroptera', 'Chlamyphorus', 'Chlorocebus', 'Choeropsis', 'Choloepus', 'Cichlidae', 'Cirripedia', 'Civettictis', 'Clethrionomys', 'Cnidaria', 'Coccinellidae', 'Coleoptera', 'Connochaetes', 'Coraciiformes', 'Coturnix', 'Crocodylus', 'Crocuta', 'Cryptoprocta', 'Cuon', 'Cygnus', 'Damia', 'Dasyatis', 'Dasypodidae', 'Dasyurus', 'Daubentonia', 'Delphinus', 'Demospongiae', 'Dendrobatidae', 'Dendrobranchiata', 'Dermaptera', 'Desmodontinae', 'Dicerorhinus', 'Diceros', 'Didelphis', 'Diomedeidae', 'Diplopoda', 'Dipodomys', 'Diptera', 'Dracaena', 'Dromaius', 'Dugong', 'Dynastes', 'Echinoidea', 'Eleadora', 'Eleana', 'Electrophorus', 'Elephantulus', 'Elephas', 'Eliana', 'Elianna', 'Elianne', 'Emydidae', 'Enhydra', 'Ephemeroptera', 'Eptesicus', 'Erethizon', 'Erithacus', 'Erythrocebus', 'Esox', 'Essie', 'Estella', 'Estelle', 'Eudyptes', 'Eudyptula', 'Eustella', 'Eutamias', 'Falconiforme', 'Fanum', 'Felis', 'Formicidae', 'Fratercula', 'Fregata', 'Funambulus', 'Galeocerdo', 'Gallinula', 'Gallus', 'Gavia', 'Gavialis', 'Gekkonidae', 'Geochelone', 'Gerbillinae', 'Gerridae', 'Ginglymostoma', 'Giraffa', 'Glaucomys', 'Gliridae', 'Gopherus', 'Gorilla', 'Gruidae', 'Gulo', 'Gynnidomorpha', 'Halichoerus', 'Helarctos', 'Heleioporus', 'Helia', 'Heloderma', 'Helogale', 'Hemigalus', 'Hester', 'Heterodontus', 'Hieraatus', 'Hippopotamus', 'Holothuroidea', 'Hydrochoerus', 'Hydrodamalis', 'Hydrurga', 'Hyla', 'Hylobatidae', 'Hymenoptera', 'Idalia', 'Iguana', 'Indri', 'Iris', 'Irisa', 'Isoptera', 'Labridae', 'Lacerta', 'Lacertilia', 'Lagenorhynchus', 'Lagothrix', 'Lama', 'Larva', 'Latrodectus', 'Lemmus', 'Lemur', 'Leontopithecus', 'Leopardus', 'Lepisosteidae', 'Leptailurus', 'Lepus', 'Limulidae', 'Lissotriton', 'Litoria', 'Lontra', 'Lopholithodes', 'Loxodonta', 'Lucanidae', 'Luscinia', 'Lutra', 'Lycaon', 'Lynx', 'Macaca', 'Macropus', 'Maia', 'Malleus', 'Mammuthus', 'Mandrillus', 'Manta', 'Marmota', 'Martes', 'Megadyptes', 'Megaptera', 'Meleagris', 'Melopsittacus', 'Mephitis', 'Merops', 'Mesobatrachia', 'Mesocricetus', 'Metynnis', 'Microcebus', 'Microsorex', 'Microtus', 'Mirounga', 'Moloch', 'Muraenidae', 'Mustela', 'Myotis', 'Myrmecobius', 'Myrmecophaga', 'Nandinia', 'Nasalis', 'Nasua', 'Nectophryne', 'Neofelis', 'Neotoma', 'Nephropidae', 'Numididae', 'Nyctereutes', 'Ochotona', 'Octopus', 'Odobenus', 'Odocoileus', 'Okapia', 'Ondatra', 'Oniscidea', 'Ophisaurus', 'Orcinus', 'Oreamnos', 'Oriana', 'Oriolus', 'Ornithorhynchus', 'Oryctolagus', 'Osteolaemus', 'Ostreidae', 'Otariidae', 'Ovis', 'Paguma', 'Paguroidea', 'Panthera', 'Papilionoidea', 'Papio', 'Paracheirodon', 'Paradoxurus', 'Paralichthys', 'Passeridae', 'Pavo', 'Pecari', 'Pelecanus', 'Pelophylax', 'Perameles', 'Peromyscus', 'Phacochoerus', 'Phaethon', 'Phalanger', 'Phasianus', 'Phasmatodea', 'Phoca', 'Phoenicopterus', 'Phycodurus', 'Physeter', 'Physignathus', 'Pica', 'Picidae', 'Platanistoidea', 'Pleione', 'Poecilia', 'Pogona', 'Pomacanthidae', 'Pongo', 'Prionailurus', 'Pristella', 'Procavia', 'Procyon', 'Proteus', 'Protoreaster', 'Pseudoryx', 'Psittacine', 'Pterois', 'Pteromyini', 'Pygocentrus', 'Pygoscelis', 'Ramphastos', 'Rana', 'Rangifer', 'Raphus', 'Rattus', 'Recurvirostra', 'Rhincodon', 'Rhinoceros', 'Rhinocerotidae', 'Rhinoderma', 'Rupicapra', 'Saguinus', 'Saimiri', 'Sarcophilus', 'Sciuridae', 'Scorpaenidae', 'Scorpiones', 'Selena', 'Selene', 'Selenia', 'Sepiida', 'Serpentes', 'Setonix', 'Sidra', 'Siluriformes', 'Simia', 'Smilodon', 'Sorex', 'Spermophilus', 'Spheniscus', 'Sphenodon', 'Sphyraena', 'Sphyrna', 'Squalus', 'Star', 'Stegostoma', 'Stella', 'Stelle', 'Strigops', 'Strix', 'Struthio', 'Sula', 'Suricata', 'Sylvilagus', 'Symphysodon', 'Syncerus', 'Tachyglossus', 'Tadarida', 'Talpidae', 'Tamias', 'Tamiasciurus', 'Tapirus', 'Tarsius', 'Taxidea', 'Tefia', 'Tellus', 'Teralyn', 'Terra', 'Terrecea', 'Terrena', 'Terrene', 'Terricia', 'Tetraodontidae', 'Tetraoninae', 'Teuthida', 'Thomomys', 'Threskiornithidae', 'Thylogale', 'Tragelaphus', 'Tremarctos', 'Trichechus', 'Tridacna', 'Trochilidae', 'Troglodytes', 'Tursiops', 'Tyto', 'Urania', 'Urochordata', 'Urocyon', 'Uroplatus', 'Ursidae', 'Ursus', 'Vanessa', 'Varanus', 'Vega', 'Venessa', 'Vespa', 'Vespera', 'Vesperia', 'Vespira', 'Viverra', 'Vombatus', 'Vulpes', 'Xenopus', 'Zapus'];
   const nm2 = ['Major', 'Minor', 'Australis', 'Borealis', 'Occidentalis', 'Orientalis'];
   const nm3 = ['Amaranth', 'Amber', 'Amethyst', 'Aquamarine', 'Azure', 'Black', 'Blue', 'Brown', 'Cerulean', 'Citrine', 'Cobalt', 'Crimson', 'Diamond', 'Ebony', 'Emerald', 'Green', 'Harlequin', 'Ivory', 'Jade', 'Jasmine', 'Malachite', 'Maroon', 'Onyx', 'Orange', 'Pearl', 'Red', 'Ruby', 'Sapphire', 'Scarlet', 'Vermilion', 'Violet', 'White'];
@@ -11,20 +11,13 @@ export default function constellations() {
   const i = Math.floor(Math.random() * 10);
   {
     if (i < 3) {
-      rnd = Math.floor(Math.random() * nm1.length);
-      names = nm1[rnd];
+      names = sample(nm1);
     } else if (i < 5) {
-      rnd = Math.floor(Math.random() * nm1.length);
-      rnd2 = Math.floor(Math.random() * nm2.length);
-      names = `${nm1[rnd]} ${nm2[rnd2]}`;
+      names = `${sample(nm1)} ${sample(nm2)}`;
     } else if (i < 7) {
-      rnd = Math.floor(Math.random() * nm3.length);
-      rnd2 = Math.floor(Math.random() * nm4.length);
-      names = `${nm3[rnd]} ${nm4[rnd2]}`;
+      names = `${sample(nm3)} ${sample(nm4)}`;
     } else {
-      rnd = Math.floor(Math.random() * nm5.length);
-      rnd2 = Math.floor(Math.random() * nm6.length);
-      names = `${nm5[rnd]} ${nm6[rnd2]}`;
+      names = `${sample(nm5)} ${sample(nm6)}`;
     }
     return names;
   }

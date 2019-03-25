@@ -1,10 +1,7 @@
+import sample from 'lodash/sample';
+
 export default function asuras() {
   let names;
-  let rnd;
-  let rnd2;
-  let rnd3;
-  let rnd4;
-  let rnd5;
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'Y', 'Z', 'Bl', 'Br', 'Bj', 'Dl', 'Dr', 'Dk', 'Dn', 'Fl', 'Fr', 'Fj', 'Gr', 'Gl', 'Gn', 'Gh', 'Bh', 'Dh', 'Kr', 'Kl', 'Kh', 'Kj', 'Lh', 'Mh', 'Pr', 'Pl', 'Pj', 'Ph', 'Rh', 'Qh', 'Sl', 'Sr', 'Sh', 'Tr', 'Tw', 'Sw', 'Pw', 'Kw', 'Dw', 'Bw', 'Vr', 'Vl', 'Sn', 'Sm', 'Zn', 'Zm', 'Str'];
   const nm2 = ['a', 'e', 'o', 'i', 'u', 'ea', 'eo', 'ia', 'io', 'ou', 'ua', 'a', 'e', 'o', 'i', 'u'];
@@ -18,27 +15,15 @@ export default function asuras() {
   const i = Math.floor(Math.random() * 10);
   {
     if (type === 1) {
-      rnd = Math.floor(Math.random() * nm5.length);
-      rnd2 = Math.floor(Math.random() * nm6.length);
-      rnd3 = Math.floor(Math.random() * nm7.length);
-      rnd4 = Math.floor(Math.random() * nm8.length);
-      rnd5 = Math.floor(Math.random() * nm9.length);
       if (i < 5) {
-        names = `${nm5[rnd]} ${nm6[rnd2]}${nm7[rnd3]}${nm8[rnd4]}${nm9[rnd5]}`;
+        names = `${sample(nm5)} ${sample(nm6)}${sample(nm7)}${sample(nm8)}${sample(nm9)}`;
       } else {
-        names = `${nm6[rnd2] + nm7[rnd3] + nm8[rnd4] + nm9[rnd5]} the ${nm5[rnd]}`;
+        names = `${sample(nm6) + sample(nm7) + sample(nm8) + sample(nm9)} the ${sample(nm5)}`;
       }
+    } else if (i < 5) {
+      names = `${sample(nm5)} ${sample(nm1)}${sample(nm2)}${sample(nm3)}${sample(nm4)}`;
     } else {
-      rnd = Math.floor(Math.random() * nm5.length);
-      rnd2 = Math.floor(Math.random() * nm1.length);
-      rnd3 = Math.floor(Math.random() * nm2.length);
-      rnd4 = Math.floor(Math.random() * nm3.length);
-      rnd5 = Math.floor(Math.random() * nm4.length);
-      if (i < 5) {
-        names = `${nm5[rnd]} ${nm1[rnd2]}${nm2[rnd3]}${nm3[rnd4]}${nm4[rnd5]}`;
-      } else {
-        names = `${nm1[rnd2] + nm2[rnd3] + nm3[rnd4] + nm4[rnd5]} the ${nm5[rnd]}`;
-      }
+      names = `${sample(nm1) + sample(nm2) + sample(nm3) + sample(nm4)} the ${sample(nm5)}`;
     }
     return names;
   }

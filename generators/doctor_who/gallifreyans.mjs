@@ -1,20 +1,7 @@
+import sample from 'lodash/sample';
+
 export default function gallifreyans() {
   let names;
-  let rnd;
-  let rnd2;
-  let rnd3;
-  let rnd4;
-  let rnd5;
-  let rnd6;
-  let rnd7;
-  let rnd8;
-  let rnd9;
-  let rnd10;
-  let rnd11;
-  let rnd12;
-  let rnd13;
-  let rnd14;
-  let rnd15;
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['', '', '', '', '', 'b', 'c', 'ch', 'd', 'dr', 'f', 'g', 'gl', 'gr', 'h', 'j', 'k', 'l', 'm', 'n', 'p', 'pr', 'q', 'r', 's', 'st', 't', 'th', 'tr', 'v', 'z'];
   const nm2 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'ia'];
@@ -33,96 +20,18 @@ export default function gallifreyans() {
   {
     if (type === 1) {
       if (i < 4) {
-        rnd = Math.floor(Math.random() * nm8.length);
-        rnd2 = Math.floor(Math.random() * nm2.length);
-        rnd3 = Math.floor(Math.random() * nm9.length);
-        rnd4 = Math.floor(Math.random() * nm10.length);
-        rnd5 = Math.floor(Math.random() * nm11.length);
-        rnd6 = Math.floor(Math.random() * nm2.length);
-        rnd7 = Math.floor(Math.random() * nm12.length);
-        rnd8 = Math.floor(Math.random() * nm2.length);
-        rnd9 = Math.floor(Math.random() * nm12.length);
-        rnd10 = Math.floor(Math.random() * nm2.length);
-        rnd11 = Math.floor(Math.random() * nm13.length);
-        names = nm8[rnd] + nm2[rnd2] + nm9[rnd3] + nm10[rnd4] + nm11[rnd5] + nm2[rnd6] + nm12[rnd7] + nm2[rnd8] + nm12[rnd9] + nm2[rnd10] + nm13[rnd11];
+        names = sample(nm8) + sample(nm2) + sample(nm9) + sample(nm10) + sample(nm11) + sample(nm2) + sample(nm12) + sample(nm2) + sample(nm12) + sample(nm2) + sample(nm13);
       } else if (i < 7) {
-        rnd = Math.floor(Math.random() * nm8.length);
-        rnd2 = Math.floor(Math.random() * nm2.length);
-        rnd3 = Math.floor(Math.random() * nm9.length);
-        rnd4 = Math.floor(Math.random() * nm10.length);
-        rnd5 = Math.floor(Math.random() * nm11.length);
-        rnd6 = Math.floor(Math.random() * nm2.length);
-        rnd7 = Math.floor(Math.random() * nm12.length);
-        rnd8 = Math.floor(Math.random() * nm2.length);
-        rnd9 = Math.floor(Math.random() * nm12.length);
-        rnd10 = Math.floor(Math.random() * nm2.length);
-        rnd11 = Math.floor(Math.random() * nm12.length);
-        rnd12 = Math.floor(Math.random() * nm2.length);
-        rnd13 = Math.floor(Math.random() * nm13.length);
-        names = nm8[rnd] + nm2[rnd2] + nm9[rnd3] + nm10[rnd4] + nm11[rnd5] + nm2[rnd6] + nm12[rnd7] + nm2[rnd8] + nm12[rnd9] + nm2[rnd10] + nm12[rnd11] + nm2[rnd12] + nm13[rnd13];
+        names = sample(nm8) + sample(nm2) + sample(nm9) + sample(nm10) + sample(nm11) + sample(nm2) + sample(nm12) + sample(nm2) + sample(nm12) + sample(nm2) + sample(nm12) + sample(nm2) + sample(nm13);
       } else {
-        rnd = Math.floor(Math.random() * nm8.length);
-        rnd2 = Math.floor(Math.random() * nm2.length);
-        rnd3 = Math.floor(Math.random() * nm9.length);
-        rnd4 = Math.floor(Math.random() * nm10.length);
-        rnd5 = Math.floor(Math.random() * nm11.length);
-        rnd6 = Math.floor(Math.random() * nm2.length);
-        rnd7 = Math.floor(Math.random() * nm12.length);
-        rnd8 = Math.floor(Math.random() * nm2.length);
-        rnd9 = Math.floor(Math.random() * nm12.length);
-        rnd10 = Math.floor(Math.random() * nm2.length);
-        rnd11 = Math.floor(Math.random() * nm12.length);
-        rnd12 = Math.floor(Math.random() * nm2.length);
-        rnd13 = Math.floor(Math.random() * nm12.length);
-        rnd14 = Math.floor(Math.random() * nm2.length);
-        rnd15 = Math.floor(Math.random() * nm13.length);
-        names = nm8[rnd] + nm2[rnd2] + nm9[rnd3] + nm10[rnd4] + nm11[rnd5] + nm2[rnd6] + nm12[rnd7] + nm2[rnd8] + nm12[rnd9] + nm2[rnd10] + nm12[rnd11] + nm2[rnd12] + nm12[rnd13] + nm2[rnd14] + nm13[rnd15];
+        names = sample(nm8) + sample(nm2) + sample(nm9) + sample(nm10) + sample(nm11) + sample(nm2) + sample(nm12) + sample(nm2) + sample(nm12) + sample(nm2) + sample(nm12) + sample(nm2) + sample(nm12) + sample(nm2) + sample(nm13);
       }
     } else if (i < 4) {
-      rnd = Math.floor(Math.random() * nm1.length);
-      rnd2 = Math.floor(Math.random() * nm2.length);
-      rnd3 = Math.floor(Math.random() * nm3.length);
-      rnd4 = Math.floor(Math.random() * nm2.length);
-      rnd5 = Math.floor(Math.random() * nm4.length);
-      rnd6 = Math.floor(Math.random() * nm2.length);
-      rnd7 = Math.floor(Math.random() * nm5.length);
-      rnd8 = Math.floor(Math.random() * nm2.length);
-      rnd9 = Math.floor(Math.random() * nm6.length);
-      rnd10 = Math.floor(Math.random() * nm2.length);
-      rnd11 = Math.floor(Math.random() * nm7.length);
-      names = nm1[rnd] + nm2[rnd2] + nm3[rnd3] + nm2[rnd4] + nm4[rnd5] + nm2[rnd6] + nm5[rnd7] + nm2[rnd8] + nm6[rnd9] + nm2[rnd10] + nm7[rnd11];
+      names = sample(nm1) + sample(nm2) + sample(nm3) + sample(nm2) + sample(nm4) + sample(nm2) + sample(nm5) + sample(nm2) + sample(nm6) + sample(nm2) + sample(nm7);
     } else if (i < 7) {
-      rnd = Math.floor(Math.random() * nm1.length);
-      rnd2 = Math.floor(Math.random() * nm2.length);
-      rnd3 = Math.floor(Math.random() * nm3.length);
-      rnd4 = Math.floor(Math.random() * nm2.length);
-      rnd5 = Math.floor(Math.random() * nm4.length);
-      rnd6 = Math.floor(Math.random() * nm2.length);
-      rnd7 = Math.floor(Math.random() * nm5.length);
-      rnd8 = Math.floor(Math.random() * nm2.length);
-      rnd9 = Math.floor(Math.random() * nm6.length);
-      rnd10 = Math.floor(Math.random() * nm2.length);
-      rnd11 = Math.floor(Math.random() * nm6.length);
-      rnd12 = Math.floor(Math.random() * nm2.length);
-      rnd13 = Math.floor(Math.random() * nm7.length);
-      names = nm1[rnd] + nm2[rnd2] + nm3[rnd3] + nm2[rnd4] + nm4[rnd5] + nm2[rnd6] + nm5[rnd7] + nm2[rnd8] + nm6[rnd9] + nm2[rnd10] + nm6[rnd11] + nm2[rnd12] + nm7[rnd13];
+      names = sample(nm1) + sample(nm2) + sample(nm3) + sample(nm2) + sample(nm4) + sample(nm2) + sample(nm5) + sample(nm2) + sample(nm6) + sample(nm2) + sample(nm6) + sample(nm2) + sample(nm7);
     } else {
-      rnd = Math.floor(Math.random() * nm1.length);
-      rnd2 = Math.floor(Math.random() * nm2.length);
-      rnd3 = Math.floor(Math.random() * nm3.length);
-      rnd4 = Math.floor(Math.random() * nm2.length);
-      rnd5 = Math.floor(Math.random() * nm4.length);
-      rnd6 = Math.floor(Math.random() * nm2.length);
-      rnd7 = Math.floor(Math.random() * nm5.length);
-      rnd8 = Math.floor(Math.random() * nm2.length);
-      rnd9 = Math.floor(Math.random() * nm6.length);
-      rnd10 = Math.floor(Math.random() * nm2.length);
-      rnd11 = Math.floor(Math.random() * nm6.length);
-      rnd12 = Math.floor(Math.random() * nm2.length);
-      rnd13 = Math.floor(Math.random() * nm6.length);
-      rnd14 = Math.floor(Math.random() * nm2.length);
-      rnd15 = Math.floor(Math.random() * nm7.length);
-      names = nm1[rnd] + nm2[rnd2] + nm3[rnd3] + nm2[rnd4] + nm4[rnd5] + nm2[rnd6] + nm5[rnd7] + nm2[rnd8] + nm6[rnd9] + nm2[rnd10] + nm6[rnd11] + nm2[rnd12] + nm6[rnd13] + nm2[rnd14] + nm7[rnd15];
+      names = sample(nm1) + sample(nm2) + sample(nm3) + sample(nm2) + sample(nm4) + sample(nm2) + sample(nm5) + sample(nm2) + sample(nm6) + sample(nm2) + sample(nm6) + sample(nm2) + sample(nm6) + sample(nm2) + sample(nm7);
     }
     return names;
   }

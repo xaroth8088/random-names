@@ -1,11 +1,7 @@
+import sample from 'lodash/sample';
+
 export default function afterlifes() {
   let name;
-  let rnd;
-  let rnd0;
-  let rnd1;
-  let rnd2;
-  let rnd3;
-  let rnd4;
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['a', 'e', 'i', 'o', 'u', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', ''];
   const nm2 = ['b', 'c', 'd', 'f', 'g', 'h', 'k', 'l', 'm', 'n', 'p', 'r', 's', 't', 'v', 'w', 'y', 'z', 'ch', 'sh', 'ph'];
@@ -25,29 +21,15 @@ export default function afterlifes() {
   {
     if (type !== 1) {
       if (i < 5) {
-        rnd0 = Math.floor(Math.random() * nm1.length);
-        rnd1 = Math.floor(Math.random() * nm2.length);
-        rnd2 = Math.floor(Math.random() * nm3.length);
-        rnd3 = Math.floor(Math.random() * nm4.length);
-        rnd4 = Math.floor(Math.random() * nm5.length);
-        name = nm1[rnd0] + nm2[rnd1] + nm3[rnd2] + nm4[rnd3] + nm5[rnd4];
+        name = sample(nm1) + sample(nm2) + sample(nm3) + sample(nm4) + sample(nm5);
       } else {
-        rnd = Math.floor(Math.random() * nm6.length);
-        rnd2 = Math.floor(Math.random() * nm7.length);
-        name = `The ${nm6[rnd]} ${nm7[rnd2]}`;
+        name = `The ${sample(nm6)} ${sample(nm7)}`;
       }
     } else if (type === 1) {
       if (i < 5) {
-        rnd0 = Math.floor(Math.random() * nm8.length);
-        rnd1 = Math.floor(Math.random() * nm9.length);
-        rnd2 = Math.floor(Math.random() * nm10.length);
-        rnd3 = Math.floor(Math.random() * nm11.length);
-        rnd4 = Math.floor(Math.random() * nm12.length);
-        name = nm8[rnd0] + nm9[rnd1] + nm10[rnd2] + nm11[rnd3] + nm12[rnd4];
+        name = sample(nm8) + sample(nm9) + sample(nm10) + sample(nm11) + sample(nm12);
       } else {
-        rnd = Math.floor(Math.random() * nm13.length);
-        rnd2 = Math.floor(Math.random() * nm14.length);
-        name = `The ${nm13[rnd]} ${nm14[rnd2]}`;
+        name = `The ${sample(nm13)} ${sample(nm14)}`;
       }
     }
     return name;

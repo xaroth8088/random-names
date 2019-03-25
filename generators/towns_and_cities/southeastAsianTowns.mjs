@@ -1,7 +1,7 @@
+import sample from 'lodash/sample';
+
 export default function southeastAsianTowns() {
   let names;
-  let rnd;
-  let rnd2;
   const nm1 = ['Am', 'Ba', 'Ban', 'Bat', 'Battam', 'Cheo', 'Dam', 'Kam', 'Khma', 'Khmao', 'Khmau', 'Khu', 'Ko', 'Kou', 'Kra', 'Mo', 'Mong', 'Mou', 'Nea', 'Ou', 'Pha', 'Phanom', 'Phno', 'Po', 'Poi', 'Pre', 'Prea', 'Pur', 'Rôm', 'Ro', 'Sam', 'Sen', 'Si', 'Sie', 'Siha', 'Siso', 'Sku', 'Stu', 'Suo', 'Sva', 'Ta', 'Tbou', 'Thma', 'Tu', 'Tue'];
   const nm2 = ['bang', 'bel', 'beng', 'chey', 'dong', 'kéo', 'kol', 'kuon', 'lean', 'leang', 'len', 'leung', 'lung', 'luos', 'méas', 'mao', 'mar', 'mau', 'monorom', 'mum', 'nom', 'nomsok', 'norom', 'penh', 'pet', 'phon', 'phos', 'pong', 'pot', 'puok', 'ráng', 'ran', 'raong', 'reah', 'reng', 'rey', 'rieng', 'rom', 'sat', 'sei', 'sok', 'tam', 'tambang', 'tié', 'vay'];
   /* Indonesia */
@@ -25,33 +25,19 @@ export default function southeastAsianTowns() {
   const i = Math.floor(Math.random() * 14);
   {
     if (i < 2) {
-      rnd = Math.floor(Math.random() * nm1.length);
-      rnd2 = Math.floor(Math.random() * nm2.length);
-      names = nm1[rnd] + nm2[rnd2];
+      names = sample(nm1) + sample(nm2);
     } else if (i < 4) {
-      rnd = Math.floor(Math.random() * nm3.length);
-      rnd2 = Math.floor(Math.random() * nm4.length);
-      names = nm3[rnd] + nm4[rnd2];
+      names = sample(nm3) + sample(nm4);
     } else if (i < 6) {
-      rnd = Math.floor(Math.random() * nm5.length);
-      rnd2 = Math.floor(Math.random() * nm6.length);
-      names = nm5[rnd] + nm6[rnd2];
+      names = sample(nm5) + sample(nm6);
     } else if (i < 8) {
-      rnd = Math.floor(Math.random() * nm7.length);
-      rnd2 = Math.floor(Math.random() * nm8.length);
-      names = nm7[rnd] + nm8[rnd2];
+      names = sample(nm7) + sample(nm8);
     } else if (i < 10) {
-      rnd = Math.floor(Math.random() * nm9.length);
-      rnd2 = Math.floor(Math.random() * nm10.length);
-      names = nm9[rnd] + nm10[rnd2];
+      names = sample(nm9) + sample(nm10);
     } else if (i < 12) {
-      rnd = Math.floor(Math.random() * nm11.length);
-      rnd2 = Math.floor(Math.random() * nm12.length);
-      names = nm11[rnd] + nm12[rnd2];
+      names = sample(nm11) + sample(nm12);
     } else {
-      rnd = Math.floor(Math.random() * nm13.length);
-      rnd2 = Math.floor(Math.random() * nm14.length);
-      names = `${nm13[rnd]} ${nm14[rnd2]}`;
+      names = `${sample(nm13)} ${sample(nm14)}`;
     }
     return names;
   }

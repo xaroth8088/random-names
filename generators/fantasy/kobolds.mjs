@@ -6,7 +6,7 @@ export default function kobolds() {
   let rnd3;
   let rnd4;
   let rnd5;
-  const type = Math.random() > 0.5 ? 0 : 1;
+  const type = Math.floor(Math.random() * 3.0);
   const nm1 = ['', '', '', 'b', 'br', 'cr', 'cl', 'ch', 'chr', 'd', 'dr', 'g', 'gr', 'ghr', 'k', 'kr', 'kh', 'kn', 'q', 'qr', 'qh', 'sh', 'shr', 'sk', 'sn', 'str', 'sz', 'tr', 'v', 'vr', 'x', 'z', 'zr'];
   const nm2 = ['e', 'i', 'u', 'e', 'i', 'u', 'a', 'o', 'e', 'i', 'u', 'e', 'i', 'u', 'a', 'o', 'e', 'i', 'u', 'e', 'i', 'u', 'a', 'o', 'e', 'i', 'u', 'e', 'i', 'u', 'a', 'o', 'aa', 'ai', 'au', 'ei', 'ia', 'ee'];
   const nm3 = ['b', 'bb', 'd', 'dd', 'g', 'gg', 'k', 'kk', 'r', 'rr', 'z', 'zz', 'b', 'bb', 'd', 'dd', 'g', 'gg', 'k', 'kk', 'r', 'rr', 'z', 'zz', 'b', 'br', 'bb', 'd', 'dd', 'dr', 'dg', 'g', 'gg', 'gd', 'gn', 'gm', 'gr', 'gdr', 'gbr', 'gv', 'k', 'kk', 'kr', 'kz', 'kzr', 'kgr', 'kv', 'kdr', 'lg', 'lgr', 'lk', 'ldr', 'lbr', 'mg', 'mgr', 'mk', 'mc', 'md', 'mq', 'mz', 'mzr', 'ng', 'nd', 'ndr', 'ngr', 'nz', 'nsz', 'r', 'rr', 'rg', 'rgr', 'rd', 'rdr', 'rz', 'rk', 'rkr', 'tk', 'tz', 'tr', 'tv', 'z', 'zr', 'zk', 'zkr', 'zz', 'zzk', 'zd'];

@@ -1,8 +1,7 @@
+import sample from 'lodash/sample';
+
 export default function troll() {
   let names;
-  let rnd;
-  let rnd2;
-  let rnd3;
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['Al', 'An', 'Azi', 'Dru', 'Druk', 'Hai', 'Hak', 'Haka', 'Haku', 'Ham', 'Han', 'Hana', 'Hok', 'Hoki', 'Huka', 'Ja', 'Jal', 'Jan', 'Jar', 'Jes', 'Jin', 'Ju', 'Jum', 'Jun', 'Kai', 'Kaz', 'Kel', 'Ko', 'Kor', 'Ku', 'Kur', 'Kuz', 'Li', 'Lin', 'Maal', 'Mal', 'Muz', 'Mul', 'Mal', 'Pel', 'Pele', 'Rah', 'Rak', 'Rap', 'Ras', 'Raz', 'Rej', 'Reji', 'Rhaz', 'Rhuz', 'Ruja', 'Ruz', 'Seji', 'Sen', 'Ses', 'Sesh', 'Sez', 'Sha', 'Shak', 'She', 'Shen', 'Sin', 'Shun', 'Tan', 'Taz', 'Tes', 'Tesh', 'Traz', 'Trez', 'Tun', 'Tzal', 'Tzan', 'Tzul', 'Tzun', 'Ugo', 'Um', 'Un', 'Ur', 'Uthel', 'Ven', 'Vol', 'Vu', 'Vul', 'Vuz', 'Vuza', 'Vuze', 'Wan', 'Won', 'Wun', 'Xan', 'Xen', 'Xon', 'Xu', 'Xuk', 'Xun', 'Za', 'Zae', 'Zaej', 'Zal', 'Zan', 'Zando', 'Zax', 'Zeb', 'Zel', 'Zela', 'Zen', 'Zendo', 'Zes', 'Zil', 'Zilzi', 'Zin', 'Zol', 'Zon', 'Zu', 'Zub', 'Zuba', 'Zuf', 'Zul', 'Zula', 'Zulya', 'Zun', 'Zuva', 'Zux', 'Val', 'Van', 'Vun', 'Vin', 'Von', 'Kan', 'Kun', 'Kuz', 'Jam', 'Jama', 'Jum', 'Juma', 'Jun', 'Jan', 'Juna', 'Zal', 'Sal', 'Zala', 'Zula', 'Zalu', 'Gol', 'Gul', 'Gal', 'Mug', 'Mig', 'Ros', 'Rus'];
   const nm2 = ['aj', 'uj', 'ij', 'az', 'uz', 'iz', 'ah', 'uh', 'an', 'un', 'on', 'ajin', 'ujin', 'ijin', 'nan', 'nun', 'non', 'mun', 'mon', 'ju', 'ji', 'za', 'zu', 'zul', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', ''];
@@ -11,15 +10,9 @@ export default function troll() {
   const nm6 = ['\'Anji', '\'Aya', '\'Dur', '\'Enji', '\'Eza', '\'Jen', '\'Jin', '\'Jun', '\'Kelah', '\'Mahi', '\'Tsu', '\'Ujia', '\'Unji', '\'Unna', '\'Zali', '\'Zula', '\'Zuli', 'aca', 'aci', 'ajia', 'ajie', 'ajin', 'ala', 'alae', 'alu', 'amja', 'amor', 'andi', 'ani', 'anja', 'anji', 'any', 'ara', 'ari', 'asha', 'ashi', 'atha', 'aty', 'aya', 'ayo', 'azae', 'azea', 'azi', 'azra', 'di', 'dur', 'eja', 'ejie', 'elea', 'emalu', 'ena', 'enji', 'era', 'esa', 'esha', 'eshia', 'eta', 'eti', 'eza', 'ezzi', 'hena', 'ia', 'iaja', 'ijazi', 'ijo', 'ila', 'ilith', 'ina', 'inda', 'ini', 'ino', 'isa', 'ishi', 'ixia', 'iya', 'izali', 'izi', 'ja', 'jari', 'jin', 'kelah', 'lynn', 'mahi', 'mei', 'ola', 'ona', 'onji', 'onna', 'onoo', 'oti', 'oza', 'ra', 'raa', 'shia', 'siya', 'toa', 'uja', 'ujia', 'ujin', 'ukraa', 'ula', 'ulae', 'ulea', 'uli', 'ulli', 'ullu', 'ulu', 'una', 'unja', 'unjin', 'unna', 'usah', 'usha', 'utie', 'uwei', 'uxia', 'uzzi', 'watha', 'ylin', 'yra', 'zae', 'zali', 'zari', 'zea', 'zula', 'zuli'];
   {
     if (type === 1) {
-      rnd = Math.floor(Math.random() * nm4.length);
-      rnd2 = Math.floor(Math.random() * nm2.length);
-      rnd3 = Math.floor(Math.random() * nm6.length);
-      names = nm4[rnd] + nm2[rnd2] + nm6[rnd3];
+      names = sample(nm4) + sample(nm2) + sample(nm6);
     } else {
-      rnd = Math.floor(Math.random() * nm1.length);
-      rnd2 = Math.floor(Math.random() * nm2.length);
-      rnd3 = Math.floor(Math.random() * nm3.length);
-      names = nm1[rnd] + nm2[rnd2] + nm3[rnd3];
+      names = sample(nm1) + sample(nm2) + sample(nm3);
     }
     return names;
   }

@@ -1,3 +1,5 @@
+import sample from 'lodash/sample';
+
 export default function bows() {
   const nm1 = ['admirable', 'beautiful', 'charming', 'common', 'decent', 'elegant', 'excellent', 'exceptional', 'fine', 'first-rate', 'intricate', 'magnificent', 'marvelous', 'masterfully crafted', 'nifty', 'ornate', 'pleasant', 'popular', 'rare', 'skillfully created', 'solid', 'superior', 'uncommon', 'well designed', 'well-made'];
   const nm2 = ['recurve bow', 'reflex bow', 'self bow', 'longbow', 'flatbow', 'composite bow', 'compound bow', 'shortbow', 'recurve crossbow', 'compound crossbow', 'repeating crossbow', 'pistol crossbow', 'rifle crossbow', 'recurve crossbow', 'compound crossbow'];
@@ -20,35 +22,18 @@ export default function bows() {
   const nm18 = ['back', 'belt'];
   const nm19 = ['a furry animal tail', 'a seemingly glowing thread', 'animal bones', 'animal horns', 'animal scales', 'armored plating', 'bird feathers', 'carefully wrapped leather', 'crafted eyes', 'curved talon-like spikes', 'ebony details', 'feathers', 'flower petals', 'gilded decorations', 'gilded details', 'gilded linings', 'glowing threads', 'golden rings', 'intricate thread work', 'ivory animal parts', 'ivory details', 'leaves', 'magic runes', 'magical runes', 'many small spikes', 'masterful paintworks', 'ominous symbols', 'ornate golden details', 'painted decorations', 'painted on eyes', 'patterns of fabric', 'pieces of obsidian', 'rows and rows of different arrow heads', 'rows of gems', 'rows of large teeth', 'rows of small teeth', 'rune-like symbols', 'seemingly glowing runes', 'seemingly growing vines', 'several small furry animal tails', 'sigil decorations', 'silken ribbons', 'small animal horns', 'small antlers', 'small gems', 'small sigils', 'symbolic writing', 'tribal paintings', 'wrapped silk ribbons', 'wrapped vines'];
   const nm20 = ['seems to mean a lot to the archer', 'don\'t seem to have a particular meaning', 'likely have a significant meaning to the archer', 'may be purely decorational or might have a meaning', 'may be related to previous victories', 'could very well be done in a significant way for the archer', 'are probably just a means of showing off', 'likely are meant purely to make the archer stand out', 'at least make it look more special than normal quivers', 'don\'t seem to have any function other than decoration', 'probably costed a fair bit of money', 'may have been added by the archer on a lazy day', 'must be there for more than just decoration', 'may be of greater significance to the archer than to others', 'although seemingly random does have some reason behind it'];
-  const rnd = Math.floor(Math.random() * nm1.length);
   const rnd2 = Math.floor(Math.random() * nm2.length);
   if (rnd2 > 7) {
     nm14 -= 100;
     nm15 = 'stock';
   }
-  const rnd3 = Math.floor(Math.random() * nm3.length);
-  const rnd4 = Math.floor(Math.random() * nm4.length);
-  const rnd5 = Math.floor(Math.random() * nm5.length);
-  const rnd6 = Math.floor(Math.random() * nm6.length);
   const rnd6b = Math.floor(Math.random() * nm6b.length);
-  const rnd7 = Math.floor(Math.random() * nm7.length);
-  const rnd8 = Math.floor(Math.random() * nm8.length);
-  const rnd9 = Math.floor(Math.random() * nm9.length);
-  const rnd10 = Math.floor(Math.random() * nm10.length);
-  const rnd11 = Math.floor(Math.random() * nm11.length);
-  const rnd12 = Math.floor(Math.random() * nm12.length);
-  const rnd13 = Math.floor(Math.random() * nm13.length);
-  const rnd16 = Math.floor(Math.random() * nm16.length);
-  const rnd17 = Math.floor(Math.random() * nm17.length);
-  const rnd18 = Math.floor(Math.random() * nm18.length);
-  const rnd19 = Math.floor(Math.random() * nm19.length);
-  const rnd20 = Math.floor(Math.random() * nm20.length);
-  const name = `This ${nm1[rnd]} ${nm2[rnd2]} has been ${nm3[rnd3]} constructed of ${nm4[rnd4]} ${nm5[rnd5]}. `;
-  const name2 = `Its string is made from ${nm6[rnd6]} ${nm6b[rnd6b]}, it's ${nm7[rnd7]} material around these parts of the world.`;
-  const name3 = `The limbs have been decorated with ${nm8[rnd8]} and end in ${nm9[rnd9]} ${nm10[rnd10]}. `;
-  const name4 = `The ${nm15} is wrapped in ${nm11[rnd11]} and decorated with ${nm12[rnd12]}.`;
-  const name6 = `The ${nm16[rnd16]} quiver is made from ${nm17[rnd17]} and is supposed to be worn around the archer's ${nm18[rnd18]}. The outer side has been decorated with ${nm19[rnd19]}, which ${nm20[rnd20]}.`;
-  const name5 = `In the hands of ${nm13[rnd13]} this bow is capable of firing arrows up to ${nm14} meters while still retaining lethal power.`;
+  const name = `This ${sample(nm1)} ${sample(nm2)} has been ${sample(nm3)} constructed of ${sample(nm4)} ${sample(nm5)}. `;
+  const name2 = `Its string is made from ${sample(nm6)} ${nm6b[rnd6b]}, it's ${sample(nm7)} material around these parts of the world.`;
+  const name3 = `The limbs have been decorated with ${sample(nm8)} and end in ${sample(nm9)} ${sample(nm10)}. `;
+  const name4 = `The ${nm15} is wrapped in ${sample(nm11)} and decorated with ${sample(nm12)}.`;
+  const name6 = `The ${sample(nm16)} quiver is made from ${sample(nm17)} and is supposed to be worn around the archer's ${sample(nm18)}. The outer side has been decorated with ${sample(nm19)}, which ${sample(nm20)}.`;
+  const name5 = `In the hands of ${sample(nm13)} this bow is capable of firing arrows up to ${nm14} meters while still retaining lethal power.`;
   let result = '';
   result += name;
   result += name2;

@@ -1,7 +1,7 @@
+import sample from 'lodash/sample';
+
 export default function northernSouthAmericanTowns() {
   let names;
-  let rnd;
-  let rnd2;
   /* Colombia */
   const nm1 = ['Aca', 'Agua', 'Agu', 'Anda', 'Anse', 'Anser', 'Apa', 'Apar', 'Ara', 'Araca', 'Arau', 'Ari', 'Aya', 'Ba', 'Bara', 'Bar', 'Barra', 'Barran', 'Bela', 'Bo', 'Bogo', 'Buca', 'Buena', 'Bu', 'Cucu', 'Cai', 'Cúcu', 'Ca', 'Cahi', 'Cala', 'Cal', 'Can', 'Cande', 'Care', 'Carta', 'Cau', 'Cauca', 'Ce', 'Cere', 'Cha', 'Chapa', 'Chi', 'Chigo', 'Cié', 'Ciéna', 'Chiqui', 'Coro', 'Curu', 'Dui', 'El Ba', 'El Ca', 'El Car', 'El Ce', 'El Cer', 'El Cha', 'El Char', 'Envi', 'Espi', 'Fa', 'Faca', 'Fla', 'Flan', 'Flo', 'Fon', 'Fre', 'Fres', 'Fu', 'Fun', 'Fusa', 'Gala', 'Gar', 'Gi', 'Gira', 'Gra', 'Grana', 'Gua', 'Hon', 'Iba', 'Ipia', 'Ita', 'Ja', 'Jamu', 'Léri', 'Lé', 'La Ce', 'La Do', 'La Dira', 'La Me', 'La Pla', 'Leti', 'Lori', 'Mála', 'Maga', 'Mai', 'Mala', 'Malam', 'Mani', 'Mari', 'Mede', 'Medel', 'Mel', 'Mo', 'Mom', 'Mora', 'Mos', 'Muni', 'Nei', 'Oca', 'Pal', 'Pam', 'Pa', 'Perei', 'Piede', 'Pita', 'Pivi', 'Popa', 'Pra', 'Qui', 'Quim', 'Rio', 'Rol', 'Sa', 'Saba', 'Saha', 'Sala', 'Sam', 'Sego', 'Sevi', 'Siba', 'Sin', 'Soa', 'Soco', 'Soga', 'Sole', 'Son', 'Túque', 'Tierra', 'To', 'Tuma', 'Tun', 'Tur', 'Uba', 'Yaru', 'Yopa', 'Yum', 'Zara', 'Zar', 'Zipa'];
   const nm2 = ['bano', 'baya', 'bosa', 'cá', 'cías', 'ca', 'cao', 'carí', 'cas', 'casia', 'cazar', 'chica', 'chiná', 'ción', 'co', 'coa', 'cuta', 'dó', 'da', 'das', 'dera', 'donia', 'dot', 'ga', 'gado', 'gar', 'gena', 'gotá', 'gre', 'gué', 'guaní', 'jicá', 'jona', 'kesquera', 'laga', 'lapa', 'larcá', 'laria', 'les', 'li', 'lito', 'lona', 'ma', 'maní', 'manga', 'mar', 'meja', 'men', 'menia', 'mina', 'mira', 'ná', 'ní', 'nada', 'naga', 'nal', 'neta', 'nilla', 'no', 'noa', 'pel', 'quilla', 'quirá', 'quite', 'rá', 'ría', 'rón', 'ral', 'ranoa', 'repa', 'reté', 'rida', 'rito', 'rodó', 'seca', 'suga', 'tá', 'té', 'tín', 'taca', 'tadó', 'tago', 'tivá', 'vá', 'va', 'zón', 'zal', 'zales'];
@@ -23,29 +23,17 @@ export default function northernSouthAmericanTowns() {
   const i = Math.floor(Math.random() * 12);
   {
     if (i < 2) {
-      rnd = Math.floor(Math.random() * nm1.length);
-      rnd2 = Math.floor(Math.random() * nm2.length);
-      names = nm1[rnd] + nm2[rnd2];
+      names = sample(nm1) + sample(nm2);
     } else if (i < 4) {
-      rnd = Math.floor(Math.random() * nm3.length);
-      rnd2 = Math.floor(Math.random() * nm4.length);
-      names = nm3[rnd] + nm4[rnd2];
+      names = sample(nm3) + sample(nm4);
     } else if (i < 6) {
-      rnd = Math.floor(Math.random() * nm5.length);
-      rnd2 = Math.floor(Math.random() * nm6.length);
-      names = nm5[rnd] + nm6[rnd2];
+      names = sample(nm5) + sample(nm6);
     } else if (i < 8) {
-      rnd = Math.floor(Math.random() * nm7.length);
-      rnd2 = Math.floor(Math.random() * nm8.length);
-      names = nm7[rnd] + nm8[rnd2];
+      names = sample(nm7) + sample(nm8);
     } else if (i < 10) {
-      rnd = Math.floor(Math.random() * nm9.length);
-      rnd2 = Math.floor(Math.random() * nm10.length);
-      names = nm9[rnd] + nm10[rnd2];
+      names = sample(nm9) + sample(nm10);
     } else {
-      rnd = Math.floor(Math.random() * nm11.length);
-      rnd2 = Math.floor(Math.random() * nm12.length);
-      names = nm11[rnd] + nm12[rnd2];
+      names = sample(nm11) + sample(nm12);
     }
     return names;
   }

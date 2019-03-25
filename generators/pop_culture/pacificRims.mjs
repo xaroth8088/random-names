@@ -17,8 +17,6 @@ export default function pacificRims() {
         rnd2 = Math.floor(Math.random() * nm2.length);
       }
       names = `${nm1[rnd]} ${nm2[rnd2]}`;
-      nm1.splice(rnd, 1);
-      nm2.splice(rnd2, 1);
     } else if (i < 5) {
       rnd = Math.floor(Math.random() * nm3.length);
       rnd2 = Math.floor(Math.random() * nm4.length);
@@ -26,12 +24,9 @@ export default function pacificRims() {
         rnd2 = Math.floor(Math.random() * nm4.length);
       }
       names = nm3[rnd] + nm4[rnd2];
-      nm3.splice(rnd, 1);
-      nm4.splice(rnd2, 1);
     } else {
       rnd = Math.floor(Math.random() * nm5.length);
       names = nm5[rnd];
-      nm5.splice(rnd, 1);
     }
     return names;
   }

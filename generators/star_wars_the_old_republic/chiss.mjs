@@ -1,19 +1,7 @@
+import sample from 'lodash/sample';
+
 export default function chiss() {
   let names;
-  let rnd;
-  let rnd2;
-  let rnd3;
-  let rnd4;
-  let rnd5;
-  let rnd6;
-  let rnd7;
-  let rnd8;
-  let rnd9;
-  let rnd10;
-  let rnd11;
-  let rnd12;
-  let rnd13;
-  let rnd14;
   const nm1 = ['B', 'C', 'D', 'G', 'H', 'J', 'K', 'M', 'N', 'P', 'R', 'S', 'T', 'V', 'W', 'Z'];
   const nm2 = ['a', 'e', 'u', 'i', 'o', 'a', 'e', 'u', 'i', 'o', 'ra', 're', 'ru', 'ri', 'ro', 'la', 'le', 'lu', 'li', 'lo'];
   const nm3 = ['th', 'tth', 'tt', 's', 'ss', 'sh', 'st', 'sd', 'g', 'gh', 'w', 'q', 'qh', 'r', 'rr', 'rs', 'rt', 'rd', 'rg', 'rk', 'rm', 'rn', 'c', 'rc', 'sk', 'z', 'zz', 'm', 'mm', 'n', 'ng'];
@@ -29,21 +17,7 @@ export default function chiss() {
   const nm13 = ['th', 'tth', 'tt', 's', 's', 's', 'g', 'g', 'r', 'r', 'c', 'c', 'm', 'm', 'n', 'n', 'z', 'z', 'ss', 'sh', 'st', 'sd', 'g', 'gh', 'w', 'q', 'qh', 'r', 'rr', 'rs', 'rt', 'rd', 'rg', 'rk', 'rm', 'rn', 'c', 'rc', 'sk', 'z', 'zz', 'm', 'mm', 'n', 'ng', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', ''];
   const nm14 = ['i', 'a', 'o', 'e', 'u', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', ''];
   {
-    rnd = Math.floor(Math.random() * nm1.length);
-    rnd2 = Math.floor(Math.random() * nm2.length);
-    rnd3 = Math.floor(Math.random() * nm3.length);
-    rnd4 = Math.floor(Math.random() * nm4.length);
-    rnd5 = Math.floor(Math.random() * nm5.length);
-    rnd6 = Math.floor(Math.random() * nm6.length);
-    rnd7 = Math.floor(Math.random() * nm7.length);
-    rnd8 = Math.floor(Math.random() * nm8.length);
-    rnd9 = Math.floor(Math.random() * nm9.length);
-    rnd10 = Math.floor(Math.random() * nm10.length);
-    rnd11 = Math.floor(Math.random() * nm11.length);
-    rnd12 = Math.floor(Math.random() * nm12.length);
-    rnd13 = Math.floor(Math.random() * nm13.length);
-    rnd14 = Math.floor(Math.random() * nm14.length);
-    names = `${nm1[rnd] + nm2[rnd2] + nm3[rnd3] + nm4[rnd4]}'${nm5[rnd5]}${nm6[rnd6]}${nm7[rnd7]}${nm8[rnd8]}'${nm9[rnd9]}${nm10[rnd10]}${nm11[rnd11]}${nm12[rnd12]}${nm13[rnd13]}${nm14[rnd14]}`;
+    names = `${sample(nm1) + sample(nm2) + sample(nm3) + sample(nm4)}'${sample(nm5)}${sample(nm6)}${sample(nm7)}${sample(nm8)}'${sample(nm9)}${sample(nm10)}${sample(nm11)}${sample(nm12)}${sample(nm13)}${sample(nm14)}`;
     return names;
   }
 }

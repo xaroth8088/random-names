@@ -1,9 +1,6 @@
+import sample from 'lodash/sample';
+
 export default function amazons() {
-  let rnd;
-  let rnd2;
-  let rnd3;
-  let rnd4;
-  let rnd5;
   let names;
   const nm1 = ['b', 'bl', 'br', 'c', 'chr', 'cl', 'cr', 'd', 'dr', 'f', 'g', 'gl', 'gr', 'h', 'j', 'k', 'kl', 'kr', 'm', 'n', 'p', 'ph', 'ps', 'pr', 'r', 'rh', 's', 'sm', 'sc', 't', 'th', 'v', 'x', '', '', '', '', '', '', ''];
   const nm2 = ['a', 'e', 'i', 'o', 'u', 'y', 'ou', 'ei', 'oe', 'ao', 'io', 'eo', 'a', 'e', 'i', 'o', 'u'];
@@ -14,19 +11,9 @@ export default function amazons() {
   const i = Math.floor(Math.random() * 10);
   {
     if (i < 5) {
-      rnd = Math.floor(Math.random() * nm1.length);
-      rnd2 = Math.floor(Math.random() * nm2.length);
-      rnd3 = Math.floor(Math.random() * nm3.length);
-      rnd4 = Math.floor(Math.random() * nm5.length);
-      rnd5 = Math.floor(Math.random() * nm6.length);
-      names = nm1[rnd] + nm2[rnd2] + nm3[rnd3] + nm5[rnd4] + nm6[rnd5];
+      names = sample(nm1) + sample(nm2) + sample(nm3) + sample(nm5) + sample(nm6);
     } else {
-      rnd = Math.floor(Math.random() * nm1.length);
-      rnd2 = Math.floor(Math.random() * nm2.length);
-      rnd3 = Math.floor(Math.random() * nm4.length);
-      rnd4 = Math.floor(Math.random() * nm2.length);
-      rnd5 = Math.floor(Math.random() * nm6.length);
-      names = nm1[rnd] + nm2[rnd2] + nm4[rnd3] + nm2[rnd4] + nm6[rnd5];
+      names = sample(nm1) + sample(nm2) + sample(nm4) + sample(nm2) + sample(nm6);
     }
     return names;
   }

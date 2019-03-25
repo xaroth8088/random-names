@@ -1,7 +1,7 @@
+import sample from 'lodash/sample';
+
 export default function ferengis() {
   let names;
-  let rnd;
-  let rnd2;
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['Aba', 'Adre', 'Aga', 'Arga', 'Arri', 'Ba', 'Be', 'Belo', 'Beri', 'Bo', 'Bra', 'Bre', 'Broi', 'Bru', 'Da', 'De', 'Di', 'Do', 'Dra', 'Dre', 'Droi', 'Fa', 'Fale', 'Fare', 'Fna', 'Fra', 'Fre', 'Fri', 'Froo', 'Ga', 'Gai', 'Ge', 'Gegi', 'Gi', 'Gla', 'Gna', 'Go', 'Gora', 'Gra', 'Gri', 'Groo', 'Ha', 'Hai', 'Ho', 'Hoe', 'Hora', 'Hra', 'Iga', 'Ige', 'Ira', 'Iro', 'Ita', 'Ka', 'Kara', 'Kay', 'Kaza', 'Ke', 'Ki', 'Kola', 'Kra', 'Kre', 'Kri', 'La', 'Le', 'Lera', 'Lete', 'Li', 'Lo', 'Lu', 'Luri', 'Ma', 'Mala', 'Maza', 'Mo', 'Mona', 'Mora', 'Mu', 'Na', 'Nala', 'Nazra', 'Nera', 'Ni', 'Nibo', 'Nilra', 'No', 'Nu', 'Ola', 'Ona', 'Ora', 'Orda', 'Orpa', 'Oza', 'Pa', 'Pela', 'Pera', 'Pi', 'Ple', 'Pra', 'Ra', 'Rate', 'Raza', 'Re', 'Rha', 'Ro', 'Rotto', 'Ruta', 'Sa', 'Smee', 'So', 'Solo', 'Sova', 'Sra', 'Sto', 'Sura', 'Ta', 'Tega', 'To', 'Torro', 'Toza', 'Tra', 'Tro', 'Tu', 'Turo', 'Tye', 'Ubo', 'Ugro', 'Ulda', 'Uli', 'Ura', 'Uro', 'Ya', 'Yaza', 'Ye', 'Yna', 'Yora', 'Za', 'Ze', 'Zira', 'Zra', 'Zyla'];
   const nm2 = ['ba', 'bac', 'bar', 'bor', 'c', 'car', 'ck', 'ctor', 'd', 'dac', 'dok', 'dor', 'g', 'ga', 'gg', 'ggie', 'gis', 'go', 'k', 'ka', 'kag', 'kor', 'l', 'la', 'ldar', 'lis', 'lok', 'lva', 'm', 'mag', 'mp', 'mra', 'n', 'nk', 'no', 'nog', 'nt', 'nzo', 'p', 'pak', 'pax', 'pum', 'rad', 'rbo', 'rik', 'rin', 'ron', 'rot', 'rpax', 'rr', 'rrot', 'rta', 's', 'sax', 'sh', 'ss', 't', 'ta', 'tax', 'tek', 'va', 'vag', 'vak', 'var', 'xa', 'xac', 'xon', 'xor', 'za', 'zar', 'zig', 'zoc'];
@@ -9,13 +9,9 @@ export default function ferengis() {
   const nm4 = ['ba', 'bel', 'bis', 'bora', 'ca', 'cera', 'cine', 'cis', 'd', 'de', 'del', 'dis', 'ga', 'gel', 'gela', 'gena', 'gis', 'gora', 'k', 'kera', 'kia', 'kis', 'l', 'le', 'lea', 'lera', 'lina', 'll', 'me', 'mera', 'mis', 'miya', 'n', 'ne', 'nia', 'nka', 'nni', 'no', 'pe', 'phi', 'pia', 'pora', 'r', 're', 'res', 'reya', 'ri', 'ris', 'rles', 'rni', 'rona', 'rra', 's', 'se', 'sh', 'sha', 'shi', 'shka', 'si', 'ta', 'the', 'ti', 'tis', 'va', 'vena', 'vil', 'vira', 'xaia', 'xen', 'xera', 'xi', 'zel', 'zenna', 'zera'];
   {
     if (type === 1) {
-      rnd = Math.floor(Math.random() * nm3.length);
-      rnd2 = Math.floor(Math.random() * nm4.length);
-      names = nm3[rnd] + nm4[rnd2];
+      names = sample(nm3) + sample(nm4);
     } else {
-      rnd = Math.floor(Math.random() * nm1.length);
-      rnd2 = Math.floor(Math.random() * nm2.length);
-      names = nm1[rnd] + nm2[rnd2];
+      names = sample(nm1) + sample(nm2);
     }
     return names;
   }

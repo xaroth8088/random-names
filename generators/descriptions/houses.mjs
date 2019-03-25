@@ -1,3 +1,5 @@
+import sample from 'lodash/sample';
+
 export default function houses() {
   const nm1 = ['magnificent', 'cozy', 'warm and cozy', 'stylish', 'very elegant', 'gorgeous', 'grandiose', 'impressive', 'lavish', 'snug and comfortable', 'intimate and cozy', 'luxurious', 'posh and extravagant', 'nice and traditional', 'old, but wonderful'];
   const nm2 = ['blue stones', 'bricks covered in render', 'brown bricks', 'brown stones', 'burgandy bricks', 'cypress wood', 'fir wood', 'grey bricks', 'grey stones', 'oak wood', 'poplar wood', 'red bricks', 'red pine wood', 'sandstone', 'spruce wood', 'tan bricks', 'tan stones', 'walnut wood', 'wheat colored bricks', 'white bricks', 'white cedar wood', 'white pine wood', 'white stones', 'wood covered in render', 'yellow pine wood'];
@@ -31,12 +33,6 @@ export default function houses() {
   const nm24 = ['storage room', 'garage', 'basement'];
   let nms8 = '';
   let nms10 = '';
-  const rnd1 = Math.floor(Math.random() * nm1.length);
-  const rnd2 = Math.floor(Math.random() * nm2.length);
-  const rnd3 = Math.floor(Math.random() * nm3.length);
-  const rnd4 = Math.floor(Math.random() * nm4.length);
-  const rnd5 = Math.floor(Math.random() * nm5.length);
-  const rnd6 = Math.floor(Math.random() * nm6.length);
   const rnd7 = Math.floor(Math.random() * nm7.length);
   let rnd8 = Math.floor(Math.random() * nm8e.length);
   if (rnd7 === 0) {
@@ -65,27 +61,12 @@ export default function houses() {
   } else {
     nms10 = nm10a[rnd10];
   }
-  const rnd11 = Math.floor(Math.random() * nm11.length);
-  const rnd12 = Math.floor(Math.random() * nm12.length);
-  const rnd13 = Math.floor(Math.random() * nm13.length);
-  const rnd14 = Math.floor(Math.random() * nm14.length);
-  const rnd15 = Math.floor(Math.random() * nm15.length);
-  const rnd16 = Math.floor(Math.random() * nm16.length);
-  const rnd17 = Math.floor(Math.random() * nm17.length);
-  const rnd18 = Math.floor(Math.random() * nm18.length);
-  const rnd19 = Math.floor(Math.random() * nm19.length);
-  const rnd20 = Math.floor(Math.random() * nm20.length);
-  const rnd21 = Math.floor(Math.random() * nm21.length);
-  const rnd22 = Math.floor(Math.random() * nm22.length);
-  const rnd23 = Math.floor(Math.random() * nm23.length);
-  const rnd24 = Math.floor(Math.random() * nm24.length);
-  const rnd25 = Math.floor(Math.random() * nm21.length);
-  const name = `From the outside this house looks ${nm1[rnd1]}, it has been built with ${nm2[rnd2]} and has ${nm3[rnd3]} decorations. ${nm4[rnd4]} windows ${nm5[rnd5]} and have been added to the house ${nm6[rnd6]}.`;
-  const name2 = `The house is equipped with ${nm17[rnd17]} kitchen and ${nm18[rnd18]}, it also has a ${nm19[rnd19]} living room, ${nm20[rnd20]}, ${nm21[rnd21]} ${nm22[rnd22]}${nm23[rnd23]} and ${nm21[rnd25]} ${nm24[rnd24]}.`;
-  const name3 = `The building is ${nm7[rnd7]}. ${nms8}.`;
-  const name4 = `The second floor is ${nm9[rnd9]}, ${nms10}. This floor ${nm11[rnd11]} the floor below.`;
-  const name5 = `The roof is ${nm12[rnd12]} and is covered with ${nm13[rnd13]}. ${nm14[rnd14]}. ${nm15[rnd15]}.`;
-  const name6 = `The house itself is surrounded by ${nm16[rnd16]}.`;
+  const name = `From the outside this house looks ${sample(nm1)}, it has been built with ${sample(nm2)} and has ${sample(nm3)} decorations. ${sample(nm4)} windows ${sample(nm5)} and have been added to the house ${sample(nm6)}.`;
+  const name2 = `The house is equipped with ${sample(nm17)} kitchen and ${sample(nm18)}, it also has a ${sample(nm19)} living room, ${sample(nm20)}, ${sample(nm21)} ${sample(nm22)}${sample(nm23)} and ${sample(nm21)} ${sample(nm24)}.`;
+  const name3 = `The building is ${sample(nm7)}. ${nms8}.`;
+  const name4 = `The second floor is ${sample(nm9)}, ${nms10}. This floor ${sample(nm11)} the floor below.`;
+  const name5 = `The roof is ${sample(nm12)} and is covered with ${sample(nm13)}. ${sample(nm14)}. ${sample(nm15)}.`;
+  const name6 = `The house itself is surrounded by ${sample(nm16)}.`;
   let result = '';
   result += name;
   result += '\n';

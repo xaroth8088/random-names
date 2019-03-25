@@ -1,10 +1,7 @@
+import sample from 'lodash/sample';
+
 export default function countrys() {
   let names;
-  let rnd;
-  let rnd2;
-  let rnd3;
-  let rnd4;
-  let rnd5;
   const nm1 = ['b', 'c', 'd', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'p', 'q', 'r', 's', 't', 'v', 'w', 'x', 'y', 'z', '', '', '', '', ''];
   const nm2 = ['a', 'e', 'o', 'u'];
   const nm3 = ['br', 'cr', 'dr', 'fr', 'gr', 'pr', 'str', 'tr', 'bl', 'cl', 'fl', 'gl', 'pl', 'sl', 'sc', 'sk', 'sm', 'sn', 'sp', 'st', 'sw', 'ch', 'sh', 'th', 'wh'];
@@ -14,35 +11,15 @@ export default function countrys() {
   const i = Math.floor(Math.random() * 10);
   {
     if (i < 2) {
-      rnd = Math.floor(Math.random() * nm1.length);
-      rnd2 = Math.floor(Math.random() * nm2.length);
-      rnd3 = Math.floor(Math.random() * nm3.length);
-      rnd4 = Math.floor(Math.random() * nm4.length);
-      rnd5 = Math.floor(Math.random() * nm5.length);
-      names = nm1[rnd] + nm2[rnd2] + nm3[rnd3] + nm4[rnd4] + nm5[rnd5];
+      names = sample(nm1) + sample(nm2) + sample(nm3) + sample(nm4) + sample(nm5);
     } else if (i < 4) {
-      rnd = Math.floor(Math.random() * nm1.length);
-      rnd2 = Math.floor(Math.random() * nm2.length);
-      rnd3 = Math.floor(Math.random() * nm3.length);
-      rnd4 = Math.floor(Math.random() * nm6.length);
-      names = nm1[rnd] + nm2[rnd2] + nm3[rnd3] + nm6[rnd4];
+      names = sample(nm1) + sample(nm2) + sample(nm3) + sample(nm6);
     } else if (i < 6) {
-      rnd = Math.floor(Math.random() * nm3.length);
-      rnd2 = Math.floor(Math.random() * nm4.length);
-      rnd3 = Math.floor(Math.random() * nm5.length);
-      names = nm3[rnd] + nm4[rnd2] + nm5[rnd3];
+      names = sample(nm3) + sample(nm4) + sample(nm5);
     } else if (i < 8) {
-      rnd = Math.floor(Math.random() * nm2.length);
-      rnd2 = Math.floor(Math.random() * nm3.length);
-      rnd3 = Math.floor(Math.random() * nm6.length);
-      names = nm2[rnd] + nm3[rnd2] + nm6[rnd3];
+      names = sample(nm2) + sample(nm3) + sample(nm6);
     } else {
-      rnd = Math.floor(Math.random() * nm3.length);
-      rnd2 = Math.floor(Math.random() * nm4.length);
-      rnd3 = Math.floor(Math.random() * nm1.length);
-      rnd4 = Math.floor(Math.random() * nm3.length);
-      rnd5 = Math.floor(Math.random() * nm6.length);
-      names = `${nm3[rnd] + nm4[rnd2] + nm1[rnd3]}  ${nm3[rnd4]}${nm6[rnd5]}`;
+      names = `${sample(nm3) + sample(nm4) + sample(nm1)}  ${sample(nm3)}${sample(nm6)}`;
     }
     return names;
   }

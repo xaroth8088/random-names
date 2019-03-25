@@ -1,9 +1,7 @@
+import sample from 'lodash/sample';
+
 export default function spaceMarines() {
   let names;
-  let rnd;
-  let rnd2;
-  let rnd3;
-  let rnd4;
   const nm1 = ['Abdaziel', 'Abdiel', 'Abrariel', 'Adnachiel', 'Adonael', 'Adriel', 'Afriel', 'Akhazriel', 'Akriel', 'Ambriel', 'Amitiel', 'Amriel', 'Anael', 'Anaiel', 'Anaphiel', 'Anapiel', 'Anauel', 'Anpiel', 'Ansiel', 'Aphael', 'Aradiel', 'Arael', 'Araqiel', 'Araquiel', 'Arariel', 'Azrael', 'Azriel', 'Barachiel', 'Baradiel', 'Barakiel', 'Baraqiel', 'Barattiel', 'Barbiel', 'Barchiel', 'Bariel', 'Barquiel', 'Barrattiel', 'Baruchiel', 'Bethuel', 'Boamiel', 'Cadriel', 'Camael', 'Camiel', 'Caphriel', 'Cassiel', 'Castiel', 'Cerviel', 'Chamuel', 'Chayliel', 'Dabriel', 'Dagiel', 'Dalquiel', 'Daniel', 'Dardariel', 'Diniel', 'Domiel', 'Dubbiel', 'Emmanuel', 'Eremiel', 'Ezekiel', 'Ezequiel', 'Gabriel', 'Gadiel', 'Gadreel', 'Gadriel', 'Gagiel', 'Galgaliel', 'Gazardiel', 'Geburatiel', 'Germael', 'Habriel', 'Hadariel', 'Hadramiel', 'Hadraniel', 'Hadriel', 'Hakael', 'Hamael', 'Hamaliel', 'Hasdiel', 'Hayliel', 'Hermesiel', 'Hochmael', 'Hofniel', 'Humatiel', 'Humiel', 'Incarael', 'Ishmael', 'Israfel', 'Israfiel', 'Israfil', 'Ithuriel', 'Jehudiel', 'Jeremiel', 'Kabshiel', 'Kadmiel', 'Kafziel', 'Kalaziel', 'Karael', 'Kasbiel', 'Kemuel', 'Kerubiel', 'Khamael', 'Labbiel', 'Lahabiel', 'Machidiel', 'Malchediel', 'Mazrael', 'Michael', 'Mihael', 'Morael', 'Mordigael', 'Mydaiel', 'Naaririel', 'Nahaliel', 'Nanael', 'Narcariel', 'Nasargiel', 'Nathanael', 'Nathaniel', 'Nelchael', 'Omael', 'Omniel', 'Onafiel', 'Ophaniel', 'Ophiel', 'Orphamiel', 'Osmadiel', 'Pathiel', 'Peliel', 'Peniel', 'Perpetiel', 'Phanuel', 'Pyriel', 'Qaphsiel', 'Qaspiel', 'Quabriel', 'Rachmiel', 'Radfael', 'Radueriel', 'Raduriel', 'Rahatiel', 'Rahmiel', 'Ramiel', 'Raphael', 'Rasiel', 'Rathanael', 'Razael', 'Raziel', 'Rehael', 'Remiel', 'Remliel', 'Rhamiel', 'Rikbiel', 'Rogziel', 'Rufeal', 'Ruhiel', 'Sabathiel', 'Sabrael', 'Sachael', 'Sachiel', 'Salathiel', 'Samael', 'Samandiriel', 'Samandriel', 'Samkiel', 'Sammael', 'Saniel', 'Sarandiel', 'Sariel', 'Satqiel', 'Sealtiel', 'Seraphiel', 'Shamsiel', 'Simiel', 'Stadiel', 'Suriel', 'Tadhiel', 'Tamiel', 'Tatrasiel', 'Theliel', 'Turiel', 'Turmiel', 'Uriel', 'Usiel', 'Uzziel', 'Vretiel', 'Yerachmiel', 'Yeshamiel', 'Zacharael', 'Zachariel', 'Zachriel', 'Zadkiel', 'Zahariel', 'Zaphiel', 'Zazriel', 'Zophiel', 'Zuriel'];
   const nm2 = ['Abra', 'Ale', 'Alge', 'Alle', 'Alva', 'Ama', 'Apo', 'Arca', 'Archa', 'Are', 'Arge', 'Arte', 'Ata', 'Atana', 'Athi', 'Augu', 'Auto', 'Avi', 'Avu', 'Axa', 'Ba', 'Be', 'Belle', 'Bo', 'Borea', 'Ca', 'Cae', 'Caele', 'Caldi', 'Cassia', 'Cassio', 'Cassiu', 'Ce', 'Centu', 'Cleu', 'Co', 'Consta', 'Consu', 'Corio', 'Corne', 'Corvu', 'Cra', 'Cy', 'Cyru', 'Da', 'Dae', 'Damo', 'Dariu', 'Deme', 'Desti', 'Dio', 'Do', 'Domi', 'Ela', 'Ely', 'Eno', 'Epheu', 'Epi', 'Era', 'Eume', 'Fa', 'Fabiu', 'Fennia', 'Fenniu', 'Ferru', 'Fi', 'Firlu', 'Go', 'Gordia', 'Gothcha', 'Grae', 'Gre', 'Gri', 'Grima', 'Ha', 'Hadrio', 'Hea', 'Heli', 'Helve', 'Ho', 'Holo', 'Hono', 'Hy', 'Hype', 'Ica', 'Igna', 'Ikti', 'Invi', 'Ja', 'Janu', 'Ju', 'Juliu', 'Kae', 'Ko', 'Lae', 'Lame', 'Laza', 'Leo', 'Leode', 'Leona', 'Liciu', 'Lu', 'Luctu', 'Ludo', 'Ly', 'Lysi', 'Ma', 'Mandu', 'Maneu', 'Mariu', 'Marte', 'Maxi', 'Me', 'Mephi', 'Mero', 'Mettiu', 'Mi', 'Mike', 'Milu', 'Mora', 'Myki', 'Ne', 'Nele', 'No', 'Ome', 'Ore', 'Oria', 'Pa', 'Palla', 'Pe', 'Pella', 'Pera', 'Petiu', 'Pra', 'Prae', 'Qui', 'Ra', 'Rammiu', 'Re', 'Remu', 'Rena', 'Rheto', 'Rui', 'Sa', 'Sangui', 'Se', 'Sera', 'Seve', 'Sica', 'Soli', 'Tae', 'Tha', 'Theo', 'Tho', 'Thra', 'Tire', 'Titu', 'Tole', 'Toria', 'Try', 'Tybe', 'Va', 'Valle', 'Vite'];
   const nm3 = ['beros', 'bius', 'canus', 'carius', 'ccimius', 'ceus', 'cius', 'ctus', 'ddeus', 'des', 'deus', 'dia', 'dis', 'dius', 'dosios', 'drios', 'garius', 'goras', 'gris', 'gus', 'kelus', 'kilus', 'lanus', 'lcus', 'ldimus', 'ldus', 'lestis', 'leus', 'licanus', 'linus', 'lis', 'lius', 'lixus', 'llas', 'llenus', 'llian', 'llios', 'llius', 'llo', 'llus', 'lochus', 'los', 'ltus', 'lus', 'machus', 'maldus', 'medes', 'menes', 'metheus', 'mion', 'mis', 'mmius', 'mos', 'mus', 'natos', 'natus', 'nduls', 'ndus', 'nes', 'neus', 'nicus', 'nius', 'nnias', 'nnius', 'nnus', 'ntinus', 'ntis', 'ntius', 'ntos', 'nus', 'pheus', 'phicus', 'phis', 'ptus', 'ras', 'ratos', 'rbus', 'rdian', 'reas', 'rex', 'rias', 'rion', 'rius', 'rlus', 'rnon', 'ron', 'ros', 'rpheus', 'rpus', 'rrus', 'rtes', 'rthus', 'rus', 'rvus', 'scios', 'sias', 'sios', 'sius', 'ssian', 'ssios', 'ssius', 'ssos', 'ssus', 'stin', 'stis', 'ston', 'sus', 'theus', 'thios', 'thos', 'ticus', 'tin', 'tinos', 'tio', 'tios', 'tius', 'tor', 'trios', 'trius', 'ttius', 'tus', 'tutus', 'verus', 'vius', 'vus', 'ximus', 'xis', 'xus', 'zarus'];
@@ -20,26 +18,13 @@ export default function spaceMarines() {
   const i = Math.floor(Math.random() * 12);
   {
     if (i < 3) {
-      rnd = Math.floor(Math.random() * nm1.length);
-      names = nm1[rnd];
+      names = sample(nm1);
     } else if (i < 6) {
-      rnd = Math.floor(Math.random() * nm2.length);
-      rnd2 = Math.floor(Math.random() * nm3.length);
-      rnd3 = Math.floor(Math.random() * nm4.length);
-      rnd4 = Math.floor(Math.random() * nm5.length);
-      names = `${nm2[rnd] + nm3[rnd2]} ${nm4[rnd3]}${nm5[rnd4]}`;
+      names = `${sample(nm2) + sample(nm3)} ${sample(nm4)}${sample(nm5)}`;
     } else if (i < 9) {
-      rnd = Math.floor(Math.random() * nm6.length);
-      rnd2 = Math.floor(Math.random() * nm7.length);
-      rnd3 = Math.floor(Math.random() * nm8.length);
-      rnd4 = Math.floor(Math.random() * nm9.length);
-      names = `${nm6[rnd] + nm7[rnd2]} ${nm8[rnd3]}${nm9[rnd4]}`;
+      names = `${sample(nm6) + sample(nm7)} ${sample(nm8)}${sample(nm9)}`;
     } else {
-      rnd = Math.floor(Math.random() * nm10.length);
-      rnd2 = Math.floor(Math.random() * nm11.length);
-      rnd3 = Math.floor(Math.random() * nm12.length);
-      rnd4 = Math.floor(Math.random() * nm13.length);
-      names = `${nm10[rnd] + nm11[rnd2]} ${nm12[rnd3]}${nm13[rnd4]}`;
+      names = `${sample(nm10) + sample(nm11)} ${sample(nm12)}${sample(nm13)}`;
     }
     return names;
   }

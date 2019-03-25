@@ -1,11 +1,7 @@
+import sample from 'lodash/sample';
+
 export default function holyBooks() {
   let names;
-  let rnd;
-  let rnd2;
-  let rnd3;
-  let rnd4;
-  let rnd5;
-  let rnd6;
   const nm3 = ['Book', 'Books', 'Scroll', 'Scrolls', 'Testament', 'Testaments', 'Codex', 'Codices', 'Chronicle', 'Chronicles', 'Tome', 'Tomes', 'Word', 'Words'];
   const nm4 = ['b', 'c', 'd', 'f', 'g', 'h', 'j', 'k', 'l', 'm', 'n', 'p', 'q', 'r', 's', 't', 'v', 'w', 'x', 'z', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', ''];
   const nm5 = ['a', 'e', 'u', 'i', 'o', 'y'];
@@ -16,26 +12,14 @@ export default function holyBooks() {
   const nm2 = ['Absolution', 'Aeon', 'Affinity', 'Afterworld', 'Almighty', 'Alpha', 'Amity', 'Amnesty', 'Angelic', 'Apex', 'Ardor', 'Ascension', 'Aspect', 'Astral', 'Ataraxia', 'Azure', 'Balance', 'Birth', 'Blessed', 'Bloodline', 'Brotherhood', 'Celestial', 'Century', 'Cerberus', 'Clarity', 'Concord', 'Connection', 'Covenant', 'Crown', 'Curator', 'Custodian', 'Cycle', 'Daemon', 'Dawn', 'Descendant', 'Devotion', 'Divine', 'Divinity', 'Dominion', 'Duality', 'Effigy', 'Element', 'Elysian', 'Ember', 'Emissary', 'Empyrean', 'Epitome', 'Epoch', 'Equilibrium', 'Essence', 'Eternal', 'Ethereal', 'Evidence', 'Exemplary', 'Faith', 'Fate', 'Fealty', 'Felicity', 'Fidelity', 'Fire', 'Force', 'Fundamental', 'Generation', 'Genesis', 'Glory', 'Guardian', 'Hallowed', 'Harmony', 'Heaven', 'Heirloom', 'Herald', 'Heritage', 'Heritage', 'Holy', 'Idol', 'Illumination', 'Immortal', 'Inception', 'Infinitude', 'Infinity', 'Innocence', 'Integrity', 'Keeper', 'Kindred', 'Kingdom', 'Kinship', 'Legacy', 'Life', 'Light', 'Lineage', 'Loyalty', 'Lustrous', 'Master', 'Matriarch', 'Mercy', 'Messenger', 'Miracle', 'Moon', 'Morality', 'Myriad', 'Noble', 'Observance', 'Omega', 'Oracle', 'Paragon', 'Passion', 'Patriarch', 'Pedigree', 'Perfection', 'Phoenix', 'Piety', 'Pinnacle', 'Pious', 'Power', 'Prime', 'Prodigy', 'Prophecy', 'Prophet', 'Prudence', 'Pure', 'Purity', 'Rapture', 'Realm', 'Revelation', 'Revered', 'Reverent', 'Righteous', 'Sacred', 'Saintly', 'Sanctified', 'Sanctity', 'Sentinel', 'Seraph', 'Serenity', 'Service', 'Shepherd', 'Sign', 'Sinless', 'Sisterhood', 'Solemn', 'Solstice', 'Soul', 'Spire', 'Spirit', 'Sun', 'Titan', 'Totem', 'Tranquility', 'Truth', 'Unity', 'Utopia', 'Venerable', 'Vertex', 'Virtue', 'Vision', 'Vitality', 'Witness', 'Worship', 'Worthy', 'Zeal', 'Zenith', 'Zion'];
   const i = Math.floor(Math.random() * 10);
   {
-    rnd = Math.floor(Math.random() * nm3.length);
     if (i < 3) {
-      rnd2 = Math.floor(Math.random() * nm1.length);
-      names = `The ${nm3[rnd]} of ${nm1[rnd2]}`;
+      names = `The ${sample(nm3)} of ${sample(nm1)}`;
     } else if (i < 6) {
-      rnd2 = Math.floor(Math.random() * nm2.length);
-      names = `The ${nm2[rnd2]} ${nm3[rnd]}`;
+      names = `The ${sample(nm2)} ${sample(nm3)}`;
     } else if (i < 8) {
-      rnd2 = Math.floor(Math.random() * nm1.length);
-      rnd3 = Math.floor(Math.random() * nm4.length);
-      rnd4 = Math.floor(Math.random() * nm5.length);
-      rnd5 = Math.floor(Math.random() * nm6.length);
-      rnd6 = Math.floor(Math.random() * nm8.length);
-      names = `The ${nm1[rnd2]} of ${nm4[rnd3]}${nm5[rnd4]}${nm6[rnd5]}${nm8[rnd6]}`;
+      names = `The ${sample(nm1)} of ${sample(nm4)}${sample(nm5)}${sample(nm6)}${sample(nm8)}`;
     } else {
-      rnd3 = Math.floor(Math.random() * nm4.length);
-      rnd4 = Math.floor(Math.random() * nm5.length);
-      rnd5 = Math.floor(Math.random() * nm6.length);
-      rnd6 = Math.floor(Math.random() * nm7.length);
-      names = `The ${nm3[rnd]} of ${nm4[rnd3]}${nm5[rnd4]}${nm6[rnd5]}${nm7[rnd6]}`;
+      names = `The ${sample(nm3)} of ${sample(nm4)}${sample(nm5)}${sample(nm6)}${sample(nm7)}`;
     }
     return names;
   }

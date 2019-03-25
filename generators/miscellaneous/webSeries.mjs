@@ -1,7 +1,7 @@
+import sample from 'lodash/sample';
+
 export default function webSeries() {
   let names;
-  let rnd;
-  let rnd2;
   const nm1 = ['Adorable', 'Alternate', 'Ambitious', 'Angel', 'Angelic', 'Animal', 'Anti-Social', 'Apocalypse', 'Astonishing', 'Astronomic', 'Autumn', 'Awkward', 'Backwards', 'Beautiful', 'Bedtime', 'Bite Sized', 'Bitten', 'Bitter', 'Bound', 'Boyfriend', 'Braindead', 'Cake', 'Candy', 'Cardboard', 'Cat', 'Chocolate', 'Chrono', 'Clouded', 'Companion', 'Conjured', 'Cooking', 'Cosmic', 'Costumed', 'Country', 'Couple', 'Crazy', 'Creation', 'Cute', 'Date', 'Dating', 'Daydream', 'Dead', 'Deadly', 'Death', 'Delicious', 'Demon', 'Demonic', 'Derpy', 'Destined', 'Detective', 'Devil', 'Disconnected', 'Discount', 'Distant', 'Dog', 'Donkey', 'Doodle', 'Dragon', 'Dreamy', 'Eccentric', 'Elemental', 'Embarrasing', 'Emotional', 'Empty', 'Endearing', 'Enigma', 'Epic', 'Error', 'Evening', 'Everyday', 'Exotic', 'Exploration', 'Fail', 'Failure', 'Fangirl', 'Fantastic', 'Fellowship', 'Floating', 'Food', 'Foolish', 'Forgetful', 'Fortunate', 'Fragile', 'Freaky', 'Frosty', 'Frozen', 'Funny', 'Future', 'Galaxy', 'Game', 'Gamer', 'Gaming', 'Geeky', 'Gentle', 'Ghost', 'Girlfriend', 'Gloomy', 'Golden', 'Grave', 'Grim', 'Hazy', 'Heroic', 'Hidden', 'Honor', 'Horror', 'Hot', 'Humanoid', 'Illusion', 'Immortal', 'Infinite', 'Insane', 'Insanity', 'Intense', 'Iron', 'Ironic', 'Justice', 'Karma', 'Kawaii', 'Kitchen', 'Kitten', 'Lazy', 'Leftover', 'Lifeless', 'Lifesize', 'Little', 'Lost', 'Love', 'Lover', 'Lucky', 'Lunar', 'Magic', 'Maniac', 'Married', 'Maximum', 'Mecha', 'Medieval', 'Mega', 'Melodic', 'Midnight', 'Mindbending', 'Mini', 'Miscellaneous', 'Missing', 'Modern', 'Molten', 'Monkey', 'Monster', 'Moon', 'Moonlight', 'Morning', 'Mortal', 'Musical', 'Naughty', 'Neurotic', 'Nightmare', 'Odd', 'Optimistic', 'Oracle', 'Panic', 'Paper', 'Paradox', 'Paragon', 'Parallel', 'Perfect', 'Personal', 'Phantom', 'Phased', 'Pink', 'Pirate', 'Placebo', 'Planetary', 'Prince', 'Princess', 'Prodigy', 'Puppy', 'Rainbow', 'Rainy', 'Rainy Day', 'Random', 'Real Life', 'Reality', 'Reaper', 'Robot', 'Robotic', 'Roommate', 'Royal', 'Salty', 'Samurai', 'Sandbox', 'Sarcastic', 'Scribble', 'Secret', 'Sentient', 'Shadow', 'Shady', 'Sidekick', 'Silent', 'Silver', 'Singing', 'Skeleton', 'Sketchbook', 'Smiling', 'Smoke', 'Smokey', 'Snowflake', 'Snowy', 'Social', 'Socially Awkward', 'Solar', 'Soul', 'Soulless', 'Sour', 'Space', 'Spirit', 'Spoiled', 'Spring', 'Star', 'Steamy', 'Steel', 'Storm', 'Stray', 'Summer', 'Sun', 'Sweet', 'Terror', 'Thunder', 'Time Travel', 'Timeless', 'Travel', 'Treehouse', 'Twisting', 'Ultimate', 'Underground', 'Unfortunate', 'United', 'Unknown', 'Unlucky', 'Unrestrained', 'Urban', 'Vampire', 'Villainous', 'Voodoo', 'War', 'Warrior', 'Weekend', 'Werewolf', 'Winter', 'Wonderful', 'Yesterday\'s', 'Zombie'];
   const nm2 = ['Comic', 'Comics', 'Story', 'Stories', 'Tales', 'Fantasy', 'Fantasies', 'Chronicles', 'Drama', 'Adventure', 'Adventures', 'Report', 'Romance', 'Series', 'Legend', 'Myths'];
   const nm3 = ['Abnormal', 'Adorable', 'Alternate', 'Ambitious', 'Angel', 'Anonymous', 'Artificial', 'Awoken', 'Beautiful', 'Big Bad', 'Bite Sized', 'Bitten', 'Bitter', 'Bound', 'Cardboard', 'Chocolate', 'Chronic', 'Conjured', 'Cosmic', 'Costumed', 'Dangerous', 'Dark', 'Dead', 'Deadly', 'Demon', 'Different', 'Digital', 'Discount', 'Distant', 'Divided', 'Dragon', 'Eccentric', 'Emotional', 'Eternal', 'Euphoric', 'Exotic', 'Fantasy', 'Foolish', 'Fragile', 'Freak', 'Frozen', 'Gamer', 'Gaming', 'Gentle', 'Girl', 'Golden', 'Guy', 'Happy', 'Heaven\'s', 'Hell\'s', 'Hidden', 'Human', 'Infamous', 'Infinite', 'Insane', 'Ironic', 'Kawaii', 'Killing', 'Lifesize', 'Light', 'Lonely', 'Lucid', 'Lunar', 'Mini', 'Mirrored', 'Missing', 'Modern', 'Monster', 'Mumbling', 'Naughty', 'Online', 'Panic', 'Paper', 'Perfect', 'Placebo', 'Quirky', 'Random', 'Robotic', 'Royal', 'Shady', 'Silent', 'Social', 'Somber', 'Soul', 'Space', 'Stolen', 'Stray', 'Student', 'Stupid', 'Timeless', 'Tired', 'Twisted', 'Ultimate', 'Underground', 'Unknown', 'Weekend', 'Weird', 'Wicked', 'Wonderful', 'Zero'];
@@ -11,17 +11,11 @@ export default function webSeries() {
   const i = Math.floor(Math.random() * 10);
   {
     if (i < 4) {
-      rnd = Math.floor(Math.random() * nm1.length);
-      rnd2 = Math.floor(Math.random() * nm2.length);
-      names = `${nm1[rnd]} ${nm2[rnd2]}`;
+      names = `${sample(nm1)} ${sample(nm2)}`;
     } else if (i < 7) {
-      rnd = Math.floor(Math.random() * nm3.length);
-      rnd2 = Math.floor(Math.random() * nm4.length);
-      names = `${nm3[rnd]} ${nm4[rnd2]}`;
+      names = `${sample(nm3)} ${sample(nm4)}`;
     } else {
-      rnd = Math.floor(Math.random() * nm5.length);
-      rnd2 = Math.floor(Math.random() * nm6.length);
-      names = nm5[rnd] + nm6[rnd2];
+      names = sample(nm5) + sample(nm6);
     }
     return names;
   }

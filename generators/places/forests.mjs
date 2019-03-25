@@ -1,11 +1,7 @@
+import sample from 'lodash/sample';
+
 export default function forests() {
   let names;
-  let rnd3b;
-  let rnd;
-  let rnd2;
-  let rnd3;
-  let rnd4;
-  let rnd5;
   const nm1 = ['White', 'Black', 'Brown', 'Gray', 'Majestic', 'Pygmy', 'Little', 'Giant', 'Northern', 'Southern', 'Eastern', 'Western', 'Greater', 'Lesser', 'Masked', 'Grass', 'Water', 'Common', 'Mountain', 'Prairie', 'Grassland', 'Taiga', 'Tundra', 'Savanna', 'Alpine', 'Collared', 'Grand', 'Pacific', 'Oriental', 'Spotted', 'Speckled', 'Striped', 'Dotted', 'Rusty', 'Maned', 'Cloud', 'Long-tailed', 'Short-tailed', 'Crowned', 'Golden', 'Imperial', 'Royal', 'Noble', 'Laughing', 'Lined', 'Banded', 'Snow', 'Ivory', 'Ebony', 'Wild', 'Reagal'];
   const nm2 = ['Panda', 'Gerbil', 'Hare', 'Hedgehog', 'Jackal', 'Warthog', 'Coyote', 'Cat', 'Badger', 'Hyena', 'Jaguar', 'Gorilla', 'Sloth', 'Anteater', 'Ocelot', 'Lion', 'Porcupine', 'Beaver', 'Otter', 'Ant', 'Bandicoot', 'Crocodile', 'Alligator', 'Treefrog', 'Wolverine', 'Goat', 'Spider', 'Mouse', 'Snail', 'Crab', 'Deer', 'Fox', 'Lizard', 'Toad', 'Mole', 'Turtle', 'Frog', 'Squirrel', 'Tortoise', 'Gazelle', 'Panther', 'Bear', 'Rat', 'Lynx', 'Okapi', 'Leopard', 'Tiger', 'Wolf', 'Rhino', 'Wallaby', 'Yak', 'Pelican', 'Swallow', 'Duck', 'Eagle', 'Hawk', 'Falcon', 'Vulture', 'Sunbird', 'Macaw', 'Woodpecker', 'Kingfisher', 'Hummingbird', 'Pygmy Owl', 'Sandpiper', 'Mockingbird'];
   const nm3 = ['Forest', 'Grove', 'Woods', 'Covert', 'Woodland', 'Thicket', 'Forest', 'Grove', 'Woods', 'Covert', 'Woodland', 'Wilds', 'Wood', 'Wood', 'Timberland', 'Timberland'];
@@ -19,30 +15,16 @@ export default function forests() {
   const nm11 = ['b', 'd', 'g', 'gh', 'h', 'hr', 'hs', 'ht', 'hst', 'hsh', 'hn', 'hm', 'hl', 'hz', 'hx', 'hq', 'k', 'ks', 'kx', 'l', 'll', 'lk', 'ln', 'lm', 'lz', 'lp', 'lt', 'ls', 'lst', 'lf', 'm', 'mn', 'mm', 'mt', 'ms', 'n', 'nn', 'nt', 'ns', 'p', 'ps', 'pt', 'ph', 'q', 'r', 'rs', 'rt', 'rst', 'rq', 'rk', 'rc', 'rf', 'rb', 'rd', 's', 'st', 'ss', 'sh', 'sk', 'sp', 't', 'th', 'ts', 'w', 'wth', 'x', 'z'];
   const i = Math.floor(Math.random() * 10);
   {
-    rnd3 = Math.floor(Math.random() * nm3.length);
     if (i < 2) {
-      rnd = Math.floor(Math.random() * nm5.length);
-      rnd2 = Math.floor(Math.random() * nm6.length);
-      names = `${nm5[rnd]} ${nm6[rnd2]} ${nm3[rnd3]}`;
+      names = `${sample(nm5)} ${sample(nm6)} ${sample(nm3)}`;
     } else if (i < 4) {
-      rnd = Math.floor(Math.random() * nm4.length);
-      names = `${nm4[rnd]} ${nm3[rnd3]}`;
+      names = `${sample(nm4)} ${sample(nm3)}`;
     } else if (i < 6) {
-      rnd = Math.floor(Math.random() * nm1.length);
-      rnd2 = Math.floor(Math.random() * nm2.length);
-      names = `${nm1[rnd]} ${nm2[rnd2]} ${nm3[rnd3]}`;
+      names = `${sample(nm1)} ${sample(nm2)} ${sample(nm3)}`;
     } else if (i < 8) {
-      rnd = Math.floor(Math.random() * nm7.length);
-      rnd2 = Math.floor(Math.random() * nm8.length);
-      rnd4 = Math.floor(Math.random() * nm11.length);
-      names = `${nm7[rnd] + nm8[rnd2] + nm11[rnd4]} ${nm3[rnd3]}`;
+      names = `${sample(nm7) + sample(nm8) + sample(nm11)} ${sample(nm3)}`;
     } else {
-      rnd = Math.floor(Math.random() * nm7.length);
-      rnd2 = Math.floor(Math.random() * nm8.length);
-      rnd3b = Math.floor(Math.random() * nm9.length);
-      rnd4 = Math.floor(Math.random() * nm10.length);
-      rnd5 = Math.floor(Math.random() * nm11.length);
-      names = `${nm7[rnd] + nm8[rnd2] + nm9[rnd3b] + nm10[rnd4] + nm11[rnd5]} ${nm3[rnd3]}`;
+      names = `${sample(nm7) + sample(nm8) + sample(nm9) + sample(nm10) + sample(nm11)} ${sample(nm3)}`;
     }
     return names;
   }

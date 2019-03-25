@@ -1,7 +1,7 @@
+import sample from 'lodash/sample';
+
 export default function southeastEuropean() {
   let names;
-  let rnd;
-  let rnd2;
   /* Belarus */
   const nm1 = ['Ash', 'Asi', 'Ba', 'Bara', 'Bary', 'Bra', 'By', 'Bya', 'Byaro', 'Bye', 'Byelaa', 'Byera', 'Cha', 'Che', 'Chery', 'Da', 'Daro', 'Do', 'Dokshy', 'Dra', 'Drahi', 'Du', 'Dubro', 'Dzi', 'Dzuat', 'Dzyar', 'Fani', 'Ha', 'Hantsa', 'Hara', 'Hly', 'Hlybo', 'Ho', 'Hro', 'Iva', 'Ivatse', 'Ka', 'Kalin', 'Kamya', 'Kas', 'Kashal', 'Kastsyu', 'Kho', 'Khoy', 'Ki', 'Kira', 'Kli', 'Klima', 'Klye', 'Ko', 'Kosa', 'Kru', 'Kry', 'Laho', 'Li', 'Lue', 'Lunin', 'Lyak', 'Lyakha', 'Lyu', 'Ma', 'Mahi', 'Mala', 'Mi', 'Mika', 'Miyo', 'Mstsi', 'Mya', 'Naro', 'Nava', 'Navapo', 'Nova', 'Novalu', 'Nya', 'Or', 'Pasta', 'Pi', 'Pila', 'Pru', 'Pye', 'Pyetry', 'Raha', 'Re', 'Rechy', 'Sali', 'Shchu', 'Shklo', 'Ski', 'Slaw', 'Slo', 'Slu', 'Sma', 'Smalya', 'Sta', 'Sto', 'Svis', 'Svyet', 'Svyetla', 'Sya', 'Tala', 'Tu', 'Tura', 'Uz', 'Va', 'Valo', 'Vasi', 'Vasilye', 'Vawka', 'Vi', 'Vile', 'Vitsye', 'Vye', 'Vyer', 'Vyerhnya', 'Vyso', 'Ye', 'Za', 'Zaska', 'Zha', 'Zhabi', 'Zhlo', 'Zho', 'Zhod', 'Zhy', 'Zhyt', 'Zhytka'];
   const nm2 = ['ban', 'bbokaye', 'bin', 'browna', 'brush', 'bruysk', 'bryn', 'btsy', 'chaw', 'chersk', 'chow', 'chyn', 'chytsa', 'da', 'dna', 'dok', 'dzina', 'dzyechna', 'dzyel', 'hachow', 'harad', 'hichyn', 'horsk', 'hoysk', 'ka', 'kavysk', 'kaw', 'kaye', 'khaw', 'ki', 'koml', 'kovichy', 'lach', 'lahorsk', 'latsk', 'lava', 'lawye', 'lin', 'lukoml', 'lya', 'lyow', 'myany', 'myel', 'nava', 'nim', 'nka', 'nkavichy', 'no', 'nsk', 'nyets', 'pal', 'pki', 'polatsk', 'povichy', 'pyel', 'pyl', 'rad', 'ran', 'raw', 'rhon', 'rki', 'roza', 'rsk', 'rudak', 'rush', 'ryta', 'sava', 'savichy', 'saw', 'sha', 'shniki', 'shytsy', 'slaw', 'sna', 'st', 'stavy', 'sty', 'sy', 'tka', 'tlava', 'trykaw', 'tsa', 'tsavichy', 'tsk', 'va', 'vichy', 'vinsk', 'vizh', 'vusy', 'vy', 'vyen', 'vysk', 'wka', 'wna', 'wye', 'ya', 'yavichy', 'ye', 'yebsk', 'yel', 'yets', 'yeyka', 'yory', 'yova', 'yow', 'zawka', 'zhany', 'zhyn', 'zhynsk', 'zino', 'zyechna', 'zyorsk', 'zyr'];
@@ -29,37 +29,21 @@ export default function southeastEuropean() {
   const i = Math.floor(Math.random() * 16);
   {
     if (i < 2) {
-      rnd = Math.floor(Math.random() * nm1.length);
-      rnd2 = Math.floor(Math.random() * nm2.length);
-      names = nm1[rnd] + nm2[rnd2];
+      names = sample(nm1) + sample(nm2);
     } else if (i < 4) {
-      rnd = Math.floor(Math.random() * nm3.length);
-      rnd2 = Math.floor(Math.random() * nm4.length);
-      names = nm3[rnd] + nm4[rnd2];
+      names = sample(nm3) + sample(nm4);
     } else if (i < 6) {
-      rnd = Math.floor(Math.random() * nm5.length);
-      rnd2 = Math.floor(Math.random() * nm6.length);
-      names = nm5[rnd] + nm6[rnd2];
+      names = sample(nm5) + sample(nm6);
     } else if (i < 8) {
-      rnd = Math.floor(Math.random() * nm7.length);
-      rnd2 = Math.floor(Math.random() * nm8.length);
-      names = nm7[rnd] + nm8[rnd2];
+      names = sample(nm7) + sample(nm8);
     } else if (i < 10) {
-      rnd = Math.floor(Math.random() * nm9.length);
-      rnd2 = Math.floor(Math.random() * nm10.length);
-      names = nm9[rnd] + nm10[rnd2];
+      names = sample(nm9) + sample(nm10);
     } else if (i < 12) {
-      rnd = Math.floor(Math.random() * nm11.length);
-      rnd2 = Math.floor(Math.random() * nm12.length);
-      names = nm11[rnd] + nm12[rnd2];
+      names = sample(nm11) + sample(nm12);
     } else if (i < 14) {
-      rnd = Math.floor(Math.random() * nm13.length);
-      rnd2 = Math.floor(Math.random() * nm14.length);
-      names = nm13[rnd] + nm14[rnd2];
+      names = sample(nm13) + sample(nm14);
     } else {
-      rnd = Math.floor(Math.random() * nm15.length);
-      rnd2 = Math.floor(Math.random() * nm16.length);
-      names = nm15[rnd] + nm16[rnd2];
+      names = sample(nm15) + sample(nm16);
     }
     return names;
   }

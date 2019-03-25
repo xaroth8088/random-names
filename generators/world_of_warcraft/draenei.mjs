@@ -1,8 +1,7 @@
+import sample from 'lodash/sample';
+
 export default function draenei() {
   let names;
-  let rnd;
-  let rnd2;
-  let rnd3;
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['Aho', 'Ak', 'Ar', 'Art', 'Az', 'Beh', 'Beho', 'Bra', 'Bran\'', 'Bre', 'Cae', 'Caed', 'Cem', 'Dek', 'Der', 'Dere', 'Dran\'', 'Du', 'Dug', 'Eoc', 'Fal', 'Fan', 'Fin', 'Fun', 'Ga', 'Gan', 'Han', 'Har', 'Hob', 'Hoba', 'Iz', 'Jov', 'Kav', 'Kel', 'Kha', 'Kil', 'Luc', 'Ma', 'Mah', 'Maho', 'Mu', 'Mua', 'Nah', 'Naho', 'Nob', 'Nobu', 'Oc', 'Ock', 'On', 'Os', 'Rem', 'Ste', 'Tal', 'Tho', 'Tor', 'Tora', 'Toral', 'Uz', 'Vel', 'Vel\'', 'Ven', 'Vor', 'Yil'];
   const nm2 = ['g', 'n', 'ph', 'f', 'r', 't', 'h', 'd', 'm', 'ga', 'na', 'pha', 'fa', 'ra', 'ta', 'ha', 'da', 'ma', 'go', 'no', 'pho', 'fo', 'ro', 'to', 'ho', 'do', 'mo', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', ''];
@@ -12,15 +11,9 @@ export default function draenei() {
   const nm6 = ['aan', 'al', 'all', 'ally', 'araa', 'ca', 'dine', 'ela', 'elle', 'elli', 'era', 'ere', 'ett', 'ette', 'gin', 'guni', 'haa', 'hi', 'hri', 'in', 'ine', 'irah', 'kua', 'la', 'laa', 'laana', 'lae', 'laena', 'lun', 'mae', 'mena', 'mere', 'mis', 'mon', 'nii', 'nora', 'oh', 'ora', 'raa', 'rah', 'ran', 'ret', 'rette', 'ri', 'rii', 'rua', 'sa', 'stra', 'straa', 'taa', 'ti', 'tia', 'tra', 'traa', 'ua', 'un', 'uni', 'zi'];
   {
     if (type === 1) {
-      rnd = Math.floor(Math.random() * nm4.length);
-      rnd2 = Math.floor(Math.random() * nm5.length);
-      rnd3 = Math.floor(Math.random() * nm6.length);
-      names = nm4[rnd] + nm5[rnd2] + nm6[rnd3];
+      names = sample(nm4) + sample(nm5) + sample(nm6);
     } else {
-      rnd = Math.floor(Math.random() * nm1.length);
-      rnd2 = Math.floor(Math.random() * nm2.length);
-      rnd3 = Math.floor(Math.random() * nm3.length);
-      names = nm1[rnd] + nm2[rnd2] + nm3[rnd3];
+      names = sample(nm1) + sample(nm2) + sample(nm3);
     }
     return names;
   }

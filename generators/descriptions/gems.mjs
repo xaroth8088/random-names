@@ -1,3 +1,5 @@
+import sample from 'lodash/sample';
+
 export default function gems() {
   const nm1 = ['Agate', 'Agate Geode', 'Alexandrite', 'Almandine Garnet', 'Amazonite', 'Amethyst', 'Ametrine', 'Ammolite', 'Andalusite', 'Apatite', 'Aquamarine', 'Aventurine', 'Axinite', 'Beryl', 'Bloodstone', 'Boulder Opal', 'Calcite', 'Carnelian', 'Cassiterite', 'Charoite', 'Chrome Diopside', 'Citrine', 'Clinohumite', 'Diamond', 'Emerald', 'Enstatite', 'Fire Agate', 'Fire Opal', 'Fluorite', 'Hematite', 'Hiddenite', 'Howlite', 'Iolite', 'Jasper', 'Kyanite', 'Lapis Lazuli', 'Malachite', 'Mali Garnet', 'Melanite', 'Moldavite', 'Moonstone', 'Morganite', 'Moss Opal', 'Nuummite', 'Obsidian', 'Onyx', 'Opal', 'Peridot', 'Prehnite', 'Pyrope Garnet', 'Quartz', 'Rainbow Moonstone', 'Rainbow Pyrite', 'Rhodochrosite', 'Rhodolite Garnet', 'Rhodonite', 'Rose Quartz', 'Ruby', 'Sapphire', 'Scapolite', 'Seraphinite', 'Serpentine', 'Snowflake Obsidian', 'Sodalite', 'Sphalerite', 'Sphene', 'Spinel', 'Star Diopside', 'Star Garnet', 'Star Ruby', 'Star Sapphire', 'Sugilite', 'Sunstone', 'Tanzanite', 'Tiger\'s Eye', 'Topaz', 'Tourmaline', 'Turquoise', 'Verdite', 'Zircon'];
   const nm2 = ['an antique cushion', 'a baguette', 'a brilliant', 'a briolette', 'a cabochon', 'a cushion', 'an emerald', 'a heart', 'a kite', 'a marquise', 'an octagon', 'an oval', 'a pear', 'a princess', 'a radiant', 'a round', 'a royal', 'a square', 'a triangle', 'a trillion'];
@@ -7,27 +9,11 @@ export default function gems() {
   const nm6 = ['an incredibly common', 'a very common', 'a fairly common', 'a fairly uncommon', 'a quite uncommon', 'a very uncommon', 'a fairly rare', 'a quite rare', 'a very rare', 'an incredibly rare'];
   const nm7 = ['amplifying', 'augmentative', 'controlling', 'cooling', 'defensive', 'desirable', 'diminishing', 'disabling', 'electric', 'elemental', 'emotional', 'enhancing', 'enlarging', 'fiery', 'focusing', 'fortunate', 'healing', 'icy', 'invigorating', 'life', 'light', 'mending', 'potent', 'protective', 'rejuvenating', 'seductive', 'shady', 'strengthening', 'tenacious', 'warming'];
   const nm8 = ['defensive weapon', 'offensive weapon', 'defensive spell focus', 'offensive spell focus', 'beneficial spell focus', 'offensive weapon enhancement', 'defensive weapon enhancement', 'defensive spell focus enhancement', 'offensive spell focus enhancement', 'beneficial spell focus enhancement', 'defensive artifact', 'offensive artifact', 'defensive artifact enhancement', 'offensive artifact enhancement', 'defensive jewelry', 'offensive jewelry', 'defensive jewelry enhancement', 'offensive jewelry enhancement'];
-  const rnd1 = Math.floor(Math.random() * nm1.length);
-  const rnd2 = Math.floor(Math.random() * nm2.length);
-  const rnd3 = Math.floor(Math.random() * nm3.length);
-  const rnd4 = Math.floor(Math.random() * nm4.length);
-  const rnd5 = Math.floor(Math.random() * nm5.length);
-  const rnd6 = Math.floor(Math.random() * nm6.length);
-  const rnd7 = Math.floor(Math.random() * nm7.length);
-  const rnd8 = Math.floor(Math.random() * nm8.length);
-  const rnd9 = Math.floor(Math.random() * nm1.length);
-  const rnd10 = Math.floor(Math.random() * nm2.length);
-  const rnd11 = Math.floor(Math.random() * nm3.length);
-  const rnd12 = Math.floor(Math.random() * nm4.length);
-  const rnd13 = Math.floor(Math.random() * nm5.length);
-  const rnd14 = Math.floor(Math.random() * nm6.length);
-  const rnd15 = Math.floor(Math.random() * nm7.length);
-  const rnd16 = Math.floor(Math.random() * nm8.length);
-  const name = `This ${nm1[rnd1]} with ${nm2[rnd2]} cut and the size of a ${nm3[rnd3]} is in ${nm4[rnd4]} condition. These gems are ${nm5[rnd5]}, but they're ${nm6[rnd6]} gemstone species.`;
-  const name2 = `It's said these gems contain ${nm7[rnd7]} properties which make for a great ${nm8[rnd8]}.`;
+  const name = `This ${sample(nm1)} with ${sample(nm2)} cut and the size of a ${sample(nm3)} is in ${sample(nm4)} condition. These gems are ${sample(nm5)}, but they're ${sample(nm6)} gemstone species.`;
+  const name2 = `It's said these gems contain ${sample(nm7)} properties which make for a great ${sample(nm8)}.`;
   const name3 = '-----------------------------------------------------------------------------------------------------------------------------';
-  const name4 = `This ${nm1[rnd9]} with ${nm2[rnd10]} cut and the size of a ${nm3[rnd11]} is in ${nm4[rnd12]} condition. These gems are ${nm5[rnd13]}, but they're ${nm6[rnd14]} gemstone species.`;
-  const name5 = `It's said these gems contain ${nm7[rnd15]} properties which make for a great ${nm8[rnd16]}.`;
+  const name4 = `This ${sample(nm1)} with ${sample(nm2)} cut and the size of a ${sample(nm3)} is in ${sample(nm4)} condition. These gems are ${sample(nm5)}, but they're ${sample(nm6)} gemstone species.`;
+  const name5 = `It's said these gems contain ${sample(nm7)} properties which make for a great ${sample(nm8)}.`;
   let result = '';
   result += name;
   result += '\n';

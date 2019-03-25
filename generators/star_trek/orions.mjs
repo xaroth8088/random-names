@@ -1,12 +1,7 @@
+import sample from 'lodash/sample';
+
 export default function orions() {
   let names;
-  let rnd;
-  let rnd2;
-  let rnd3;
-  let rnd4;
-  let rnd5;
-  let rnd6;
-  let rnd7;
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['D', 'G', 'H', 'J', 'L', 'M', 'N', 'Ng', 'R', 'T', 'Th', 'V'];
   const nm2 = ['a', 'i', 'e', 'o', 'a', 'ai', 'ou', 'aa', 'a', 'e', 'i', 'o'];
@@ -23,29 +18,12 @@ export default function orions() {
   {
     if (type === 1) {
       if (i < 5) {
-        rnd = Math.floor(Math.random() * nm6.length);
-        rnd2 = Math.floor(Math.random() * nm7.length);
-        rnd3 = Math.floor(Math.random() * nm8.length);
-        rnd4 = Math.floor(Math.random() * nm9.length);
-        rnd5 = Math.floor(Math.random() * nm10.length);
-        names = nm6[rnd] + nm7[rnd2] + nm8[rnd3] + nm9[rnd4] + nm10[rnd5];
+        names = sample(nm6) + sample(nm7) + sample(nm8) + sample(nm9) + sample(nm10);
       } else {
-        rnd = Math.floor(Math.random() * nm6.length);
-        rnd2 = Math.floor(Math.random() * nm7.length);
-        rnd3 = Math.floor(Math.random() * nm8.length);
-        rnd4 = Math.floor(Math.random() * nm9.length);
-        rnd5 = Math.floor(Math.random() * nm11.length);
-        rnd6 = Math.floor(Math.random() * nm9.length);
-        rnd7 = Math.floor(Math.random() * nm10.length);
-        names = nm6[rnd] + nm7[rnd2] + nm8[rnd3] + nm9[rnd4] + nm11[rnd5] + nm9[rnd6] + nm10[rnd7];
+        names = sample(nm6) + sample(nm7) + sample(nm8) + sample(nm9) + sample(nm11) + sample(nm9) + sample(nm10);
       }
     } else {
-      rnd = Math.floor(Math.random() * nm1.length);
-      rnd2 = Math.floor(Math.random() * nm2.length);
-      rnd3 = Math.floor(Math.random() * nm3.length);
-      rnd4 = Math.floor(Math.random() * nm4.length);
-      rnd5 = Math.floor(Math.random() * nm5.length);
-      names = nm1[rnd] + nm2[rnd2] + nm3[rnd3] + nm4[rnd4] + nm5[rnd5];
+      names = sample(nm1) + sample(nm2) + sample(nm3) + sample(nm4) + sample(nm5);
     }
     return names;
   }

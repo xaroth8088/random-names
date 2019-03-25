@@ -8,7 +8,7 @@ export default function sylphs() {
   let rnd6;
   let rnd7;
   let rnd8;
-  const type = Math.random() > 0.5 ? 0 : 1;
+  const type = Math.floor(Math.random() * 3.0);
   const nm1 = ['c', 'ch', 'l', 'm', 'n', 'ph', 's', 'th', 'v', 'w', 'y'];
   const nm2 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'ae', 'ea', 'ei', 'ia', 'ie', 'ue', 'ua', 'aei', 'aea', 'eae'];
   const nm3 = ['bh', 'c', 'ch', 'h', 'y', 'hl', 'hm', 'hy', 'l', 'lm', 'ln', 'ls', 'lt', 'lth', 'lv', 'll', 'm', 'mm', 'mn', 'mh', 'ms', 'mth', 'n', 'nh', 'nn', 'nl', 'nt', 'ns', 'nth', 'nv', 'nf', 'nm', 'nh', 'nhr', 'ph', 'phr', 'r', 'rd', 'rph', 'rs', 'rth', 'rh', 'rn', 'rm', 'rv', 'ss', 'sn', 'sh', 'st', 't', 'th', 'thr', 'v', 'w'];

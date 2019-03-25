@@ -12,31 +12,29 @@ export default function auRas() {
   const nm6 = ['Alagh Yid', 'Alan', 'Alan Ghoa', 'Alaqa', 'Altan', 'Altani', 'Altantsetseg', 'Altun', 'Barghujin', 'Battsetseg', 'Bayarma', 'Bayarmaa', 'Berude', 'Bolormaa', 'Boragchin', 'Borte', 'Borte Jusin', 'Botokhui Targhun', 'Budan', 'Chagur', 'Chakha', 'Chambui', 'Checheyigen', 'Chotan', 'Cirina', 'Cota', 'Cotota', 'Dagasi', 'Dokuz Khatum', 'Dorgene', 'Ebegei', 'Enebish', 'Enkhjargal', 'Enkhtuya', 'Enkhtuyaa', 'Erdenechimeg', 'Erdenetungalag', 'Ergene', 'Etugen Eke', 'Ganzorig', 'Gerelma', 'Ghoa', 'Gorbeljin', 'Gurbesu', 'Hogelun', 'Holuikhan', 'Hongorzul', 'Hujaghur', 'Ibakha', 'Jaliqai', 'Jiguur', 'Khünbish', 'Khadagan', 'Khenbish', 'Khogaghchin', 'Khojin', 'Khongordzol', 'Khorijin', 'Khugurchin', 'Khulan', 'Mönkhtsetseg', 'Maa', 'Maral', 'Medekhgüi', 'Mide', 'Mongoljin', 'Munkhtsetseg', 'Muunokhoi', 'Narangerel', 'Narantsetseg', 'Narantuyaa', 'Narengawa', 'Nergüi', 'Nomolun', 'Odtsetseg', 'Odval', 'Oghul', 'Ogtbish', 'Ogul', 'Ogul Gaimysh', 'Orbei', 'Oyunbileg', 'Oyunchimeg', 'Oyuun', 'Oyuunchimeg', 'Samga', 'Saran', 'Sarangerel', 'Sarantsatsr', 'Sarantsatsral', 'Sarantuya', 'Sayinaral Qayag', 'Sechen', 'Seruuntungalag', 'Silugukhan Qatakhan', 'Silun Gorgelji', 'Sokhatai', 'Solongo', 'Sorghaghtani Beki', 'Sorkhaghtani', 'Sorocan', 'Tegusken', 'Temulun', 'Temulun Abagai', 'Terbish', 'Togene', 'Toragana', 'Tsetsegmaa', 'Turakina', 'Uranchimeg', 'Yesugen', 'Yesui', 'Yesuntei', 'Yisu Qatun', 'Yisugei Qatun'];
   const nm7 = ['Adarkim', 'Angura', 'Arulaq', 'Avagnar', 'Bairon', 'Bayaqud', 'Bolir', 'Borlaaq', 'Buduga', 'Dalamiq', 'Dataq', 'Dazkar', 'Dhoro', 'Dotharl', 'Ejinn', 'Geneq', 'Gesi', 'Gharl', 'Goro', 'Haragin', 'Himaa', 'Horo', 'Hotgo', 'Iriq', 'Jhungid', 'Kagon', 'Kahkol', 'Kha', 'Kharlu', 'Khatayin', 'Malaguld', 'Malqir', 'Mankhad', 'Mierqid', 'Moks', 'Mol', 'Noykin', 'Olkund', 'Orben', 'Oronir', 'Oroq', 'Qalli', 'Qerel', 'Qestir', 'Sagahl', 'Torgud', 'Tumet', 'Ugund', 'Ura', 'Urumet', 'Uyagir'];
   const i = Math.floor(Math.random() * 10);
-  {
-    if (type === 1) {
-      if (i < 5) {
-        rnd = Math.floor(Math.random() * nm2.length);
-        rnd2 = Math.floor(Math.random() * nm3.length);
-        rnd3 = Math.floor(Math.random() * nm4.length);
-        names = `${nm2[rnd] + nm3[rnd2]} ${nm4[rnd3]}`;
-      } else {
-        rnd = Math.floor(Math.random() * nm5.length);
-        rnd2 = Math.floor(Math.random() * nm7.length);
-        names = `${nm5[rnd]} ${nm7[rnd2]}`;
-      }
-    } else if (i < 5) {
-      rnd = Math.floor(Math.random() * nm1.length);
-      rnd2 = Math.floor(Math.random() * nm1.length);
+  if (type === 1) {
+    if (i < 5) {
+      rnd = Math.floor(Math.random() * nm2.length);
+      rnd2 = Math.floor(Math.random() * nm3.length);
       rnd3 = Math.floor(Math.random() * nm4.length);
-      while (rnd === rnd2) {
-        rnd2 = Math.floor(Math.random() * nm1.length);
-      }
-      names = `${nm1[rnd] + nm1[rnd2]} ${nm4[rnd3]}`;
+      names = `${nm2[rnd] + nm3[rnd2]} ${nm4[rnd3]}`;
     } else {
-      rnd = Math.floor(Math.random() * nm6.length);
+      rnd = Math.floor(Math.random() * nm5.length);
       rnd2 = Math.floor(Math.random() * nm7.length);
-      names = `${nm6[rnd]} ${nm7[rnd2]}`;
+      names = `${nm5[rnd]} ${nm7[rnd2]}`;
     }
-    return names;
+  } else if (i < 5) {
+    rnd = Math.floor(Math.random() * nm1.length);
+    rnd2 = Math.floor(Math.random() * nm1.length);
+    rnd3 = Math.floor(Math.random() * nm4.length);
+    while (rnd === rnd2) {
+      rnd2 = Math.floor(Math.random() * nm1.length);
+    }
+    names = `${nm1[rnd] + nm1[rnd2]} ${nm4[rnd3]}`;
+  } else {
+    rnd = Math.floor(Math.random() * nm6.length);
+    rnd2 = Math.floor(Math.random() * nm7.length);
+    names = `${nm6[rnd]} ${nm7[rnd2]}`;
   }
+  return names;
 }

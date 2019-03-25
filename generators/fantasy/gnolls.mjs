@@ -8,7 +8,7 @@ export default function gnolls() {
   let rnd5;
   let rnd12;
   let rnd22;
-  const type = Math.random() > 0.5 ? 0 : 1;
+  const type = Math.floor(Math.random() * 3.0);
   const nm1 = ['', '', '', '', '', 'br', 'd', 'dr', 'g', 'gr', 'gh', 'gn', 'k', 'kh', 'kr', 'm', 'r', 'rr', 't', 'th', 'tr', 'thr', 'v', 'x', 'z'];
   const nm2 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'y', 'a', 'e', 'i', 'o', 'u', 'y', 'y', 'y', 'aa', 'ei', 'ia', 'ou', 'ua', 'uo'];
   const nm4 = ['r', 'rr', 'rg', 'rrg', 'rk', 'c', 'k', 'kk', 'x', 'kx', 'z', 'zz', 't', 'h', 'n'];

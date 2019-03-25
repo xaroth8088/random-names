@@ -1,6 +1,6 @@
+import sample from 'lodash/sample';
+
 export default function amusementParks() {
-  let rnd;
-  let rnd2;
   let names;
   const nm1 = ['Angel', 'Animal', 'Aqua', 'Arcane', 'Astral', 'Astro', 'Aura', 'Beach', 'Beast', 'Carny', 'Cartoon', 'Child', 'Clown', 'Comic', 'Creep', 'Critter', 'Crypt', 'Demon', 'Dino', 'Doll', 'Dragon', 'Dread', 'Dream', 'Elf', 'Ember', 'Epic', 'Eterni', 'Ever', 'Expo', 'Fable', 'Fairy', 'Feral', 'Festi', 'Film', 'Fire', 'Forest', 'Freak', 'Fright', 'Fun', 'Game', 'Ghost', 'Giant', 'Groovy', 'Happy', 'Hell', 'Hero', 'Horror', 'Ice', 'Jungle', 'Kids', 'Luna', 'Lunar', 'Magic', 'Marina', 'Maze', 'Mega', 'Mini', 'Miracle', 'Mirror', 'Monster', 'Movie', 'Mutant', 'Never', 'Night', 'Ocean', 'Paradox', 'Phantom', 'Play', 'Quest', 'Rain', 'Rainbow', 'River', 'Robot', 'Saga', 'Sand', 'Scream', 'Secret', 'Shadow', 'Shock', 'Sky', 'Snow', 'Solar', 'Space', 'Speed', 'Spirit', 'Splash', 'Star', 'Stellar', 'Storm', 'Story', 'Summer', 'Sun', 'Super', 'Terra', 'Terror', 'Thrill', 'Titan', 'Toy', 'Undead', 'Vision', 'Warp', 'Water', 'Winter', 'Witch', 'Wizard', 'Wonder', 'Zombie', 'Zoo'];
   const nm2 = ['land', 'world', 'zone', 'park', 'town', 'fair', 'realm', 'ville', 'land', 'park', 'ventures'];
@@ -9,13 +9,9 @@ export default function amusementParks() {
   const i = Math.floor(Math.random() * 10);
   {
     if (i < 5) {
-      rnd = Math.floor(Math.random() * nm1.length);
-      rnd2 = Math.floor(Math.random() * nm2.length);
-      names = nm1[rnd] + nm2[rnd2];
+      names = sample(nm1) + sample(nm2);
     } else {
-      rnd = Math.floor(Math.random() * nm3.length);
-      rnd2 = Math.floor(Math.random() * nm4.length);
-      names = `${nm3[rnd]} ${nm4[rnd2]}`;
+      names = `${sample(nm3)} ${sample(nm4)}`;
     }
     return names;
   }

@@ -19,19 +19,16 @@ export default function azerbaijanis() {
       if (i < 5) {
         rnd2 = Math.floor(Math.random() * nm4.length);
         names = `${nm2[rnd]} ${nm4[rnd2]}`;
-        nm4.splice(rnd2, 1);
       } else {
         rnd2 = Math.floor(Math.random() * nm1.length);
         rnd3 = Math.floor(Math.random() * nm6.length);
         names = `${nm2[rnd]} ${nm1[rnd2]}${nm6[rnd3]}`;
       }
-      nm2.splice(rnd, 1);
     } else {
       rnd = Math.floor(Math.random() * nm1.length);
       if (i < 5) {
         rnd2 = Math.floor(Math.random() * nm3.length);
         names = `${nm1[rnd]} ${nm3[rnd2]}`;
-        nm3.splice(rnd2, 1);
       } else {
         rnd2 = Math.floor(Math.random() * nm1.length);
         rnd3 = Math.floor(Math.random() * nm5.length);
@@ -44,7 +41,6 @@ export default function azerbaijanis() {
         }
         names = `${nm1[rnd]} ${nm1[rnd2]}${nm5[rnd3]}`;
       }
-      nm1.splice(rnd, 1);
     }
     return names;
   }
