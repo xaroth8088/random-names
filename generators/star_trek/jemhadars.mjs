@@ -24,15 +24,15 @@ export default function jemhadars() {
   const nm8 = ['d', 'g', 'k', 'l', 'm', 'n', 'r', 's', 't', 'v', 'x', 'y', 'z',
     'kl', 'cl'];
   const nm9 = ['i', 'a', 'e', 'o', 'u', 'a', '', '', '', '', '', '', '', ''];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     if (i < 5) {
       rnd = Math.floor(Math.random() * nm1.length);
       rnd2 = Math.floor(Math.random() * nm2.length);
       rnd3 = Math.floor(Math.random() * nm3.length);
       rnd4 = Math.floor(Math.random() * nm4.length);
       rnd6 = Math.floor(Math.random() * nm5.length);
-      names1 = nm1[rnd] + nm2[rnd2] + nm3[rnd3] + nm4[rnd4] + nm3[rnd3] + nm5[
-        rnd6];
+      names1 = nm1[rnd] + nm2[rnd2] + nm3[rnd3] + nm4[rnd4] + nm3[rnd3] + nm5[rnd6];
     } else {
       rnd = Math.floor(Math.random() * nm2.length);
       rnd2 = Math.floor(Math.random() * nm3.length);
@@ -43,8 +43,7 @@ export default function jemhadars() {
       if (rnd5 < 2) {
         rnd6 = 1;
       }
-      names1 = nm2[rnd] + nm3[rnd2] + nm4[rnd3] + nm3[rnd4] + nm5[rnd5] + nm6[
-        rnd6];
+      names1 = nm2[rnd] + nm3[rnd2] + nm4[rnd3] + nm3[rnd4] + nm5[rnd5] + nm6[rnd6];
     }
     rnd7 = Math.floor(Math.random() * nm7.length);
     rnd8 = Math.floor(Math.random() * nm8.length);

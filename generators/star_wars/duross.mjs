@@ -31,7 +31,8 @@ export default function duross() {
     'kt', 'll', 'lm', 'lw', 'md', 'm', 'mp', 'nw', 'nd', 'nt', 'ns', 'n',
     'rd', 'rl', 'rr', 'z'];
   const nm9 = ['', 'd', 'g', 'ks', 'l', 'lt', 'm', 'n', 's'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     rnd6 = Math.floor(Math.random() * nm7.length);
     rnd7 = Math.floor(Math.random() * nm2.length);
     rnd8 = Math.floor(Math.random() * nm9.length);

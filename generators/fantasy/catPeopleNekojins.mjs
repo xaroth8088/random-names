@@ -80,7 +80,8 @@ export default function catPeopleNekojins() {
   const nm9 = ['', '', '', 'r', 'rr', 's', 'ss', 'sh', 'x', 'z'];
   const nm10 = ['', '', '', '', '', '', '', 'th', 'h', 's', 'ss', 'sh'];
   const nm11 = ['s', 'ss', 'sh', 'z', 'h', '', '', '', '', '', ''];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     rnd4 = Math.floor(Math.random() * nm4.length);
     rnd5 = Math.floor(Math.random() * nm5.length);
     rnd6 = Math.floor(Math.random() * nm6.length);
@@ -100,8 +101,7 @@ export default function catPeopleNekojins() {
         names = nm2[rnd];
       } else {
         rnd10 = Math.floor(Math.random() * nm10.length);
-        names = nm4[rnd4] + nm5[rnd5] + nm6[rnd6] + nm7[rnd7] + nm8[rnd8] + nm5[
-          rnd9] + nm10[rnd10];
+        names = nm4[rnd4] + nm5[rnd5] + nm6[rnd6] + nm7[rnd7] + nm8[rnd8] + nm5[rnd9] + nm10[rnd10];
       }
     } else if (type === 2) {
       if (i < 5) {
@@ -109,16 +109,14 @@ export default function catPeopleNekojins() {
         names = nm3[rnd];
       } else {
         rnd10 = Math.floor(Math.random() * nm11.length);
-        names = nm4[rnd4] + nm5[rnd5] + nm6[rnd6] + nm7[rnd7] + nm8[rnd8] + nm5[
-          rnd9] + nm11[rnd10];
+        names = nm4[rnd4] + nm5[rnd5] + nm6[rnd6] + nm7[rnd7] + nm8[rnd8] + nm5[rnd9] + nm11[rnd10];
       }
     } else if (i < 5) {
       rnd = Math.floor(Math.random() * nm1.length);
       names = nm1[rnd];
     } else {
       rnd10 = Math.floor(Math.random() * nm9.length);
-      names = nm4[rnd4] + nm5[rnd5] + nm6[rnd6] + nm7[rnd7] + nm8[rnd8] + nm5[
-        rnd9] + nm9[rnd10];
+      names = nm4[rnd4] + nm5[rnd5] + nm6[rnd6] + nm7[rnd7] + nm8[rnd8] + nm5[rnd9] + nm9[rnd10];
     }
     return names;
   }

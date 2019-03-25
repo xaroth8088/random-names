@@ -172,7 +172,8 @@ export default function dualWields() {
     'the Talon', 'the Undying', 'the Victor', 'the Void', 'the West',
     'the Whispers', 'the Wicked', 'the Wind', 'the Wolf', 'the World',
     'the Wretched'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     rnd = Math.floor(Math.random() * nm1.length);
     if (i < 5) {
       names = nm1[rnd];

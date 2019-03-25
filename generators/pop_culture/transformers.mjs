@@ -62,7 +62,8 @@ export default function transformers() {
     'Typhoon', 'Venture', 'Vermin', 'Vigor', 'Virtue', 'Volley', 'Voltage',
     'Wallop', 'Weasel', 'Wheels', 'Whistle', 'Whiz', 'Wrangle', 'Wreckage',
     'Zephyr', 'Zodiac'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     if (i < 5) {
       rnd = Math.floor(Math.random() * nm1.length);
       rnd2 = Math.floor(Math.random() * nm2.length);

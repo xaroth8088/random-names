@@ -35,7 +35,8 @@ export default function politicalPartys() {
     'Theocratic', 'Transformation', 'Trust', 'Uniformity', 'Unionist',
     'Unity', 'Voice', 'Voter', 'Welfare', 'Workers', 'Working Class'];
   const nm3 = ['Party', 'League', 'Movement', 'Group', 'Union', 'Coalition',
-    'Party', 'Party']; {
+    'Party', 'Party'];
+  {
     rnd = Math.floor(Math.random() * nm1.length);
     rnd2 = Math.floor(Math.random() * nm2.length);
     rnd3 = Math.floor(Math.random() * nm3.length);

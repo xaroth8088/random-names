@@ -175,7 +175,8 @@ export default function malaysians() {
     'Tanggang', 'Taufan', 'Teh', 'Tempawi', 'Teruna', 'Tuah', 'Uda', 'Ujang',
     'Ungu', 'Usop', 'Wira', 'Yaacob', 'Yaakob', 'Yaakop', 'Yahaya', 'Yeop',
     'Yunos', 'Zakaria', 'Zulkarnain', 'Zulkifli', 'Zulkipli'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     if (i < 5) {
       if (type === 1) {
         rnd = Math.floor(Math.random() * names1.length);

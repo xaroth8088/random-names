@@ -71,7 +71,8 @@ export default function codes() {
     'Unicorn', 'Venus', 'Vigilant', 'Volcano', 'Volunteer', 'Walker',
     'Warrior', 'Wasp', 'Watchdog', 'Watchman', 'Whirlwind', 'Whisper',
     'Widow', 'Willow', 'Windigo', 'Wing', 'Wings', 'Witch', 'Witness',
-    'Wizard', 'Wolf', 'Wrangler', 'Zeus', 'Zion']; {
+    'Wizard', 'Wolf', 'Wrangler', 'Zeus', 'Zion'];
+  {
     rnd = Math.floor(Math.random() * nm1.length);
     rnd2 = Math.floor(Math.random() * nm2.length);
     names = `${nm1[rnd]} ${nm2[rnd2]}`;

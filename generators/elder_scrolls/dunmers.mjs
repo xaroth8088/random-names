@@ -384,7 +384,8 @@ export default function dunmers() {
     'tis', 'to', 'ul', 'ules', 'ulis', 'ur', 'us', 'valo', 'vam', 'vani',
     'varen', 'vas', 'vayn', 'vayne', 'vel', 'ven', 'vi', 'vilo', 'vion', 'vo',
     'von', 'vos', 'vu', 'vulis', 'vur', 'vyn', 'yal', 'yn', 'yon', 'yoni',
-    'yron', 'ys']; {
+    'yron', 'ys'];
+  {
     rnd3 = Math.floor(Math.random() * nm5.length);
     rnd4 = Math.floor(Math.random() * nm6.length);
     if (type === 1) {

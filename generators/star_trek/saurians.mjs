@@ -27,7 +27,8 @@ export default function saurians() {
   const nm9 = ['gr', 'gg', 'g', 'gt', 'h', 'l', 'm', 'n', 'nn', 'q', 'qq', 'r',
     'rr', 'sh', 's', 'ss', 't', 'tt', 'v', 'y', 'z'];
   const nm10 = ['', '', '', '', '', '', '', '', 'ch', 'g', 'm', 'n', 's'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     if (type === 1) {
       if (i < 5) {
         rnd = Math.floor(Math.random() * nm7.length);
@@ -59,8 +60,7 @@ export default function saurians() {
           }
         }
         rnd7 = Math.floor(Math.random() * nm10.length);
-        names = nm7[rnd] + nm8[rnd2] + nm9[rnd3] + nm8[rnd4] + nm9[rnd5] + nm8[
-          rnd6] + nm10[rnd7];
+        names = nm7[rnd] + nm8[rnd2] + nm9[rnd3] + nm8[rnd4] + nm9[rnd5] + nm8[rnd6] + nm10[rnd7];
       }
     } else if (i < 5) {
       rnd = Math.floor(Math.random() * nm1.length);
@@ -75,8 +75,7 @@ export default function saurians() {
       rnd4 = Math.floor(Math.random() * nm2.length);
       rnd5 = Math.floor(Math.random() * nm4.length);
       rnd6 = Math.floor(Math.random() * nm5.length);
-      names = nm1[rnd] + nm2[rnd2] + nm3[rnd3] + nm2[rnd4] + nm4[rnd5] + nm5[
-        rnd6];
+      names = nm1[rnd] + nm2[rnd2] + nm3[rnd3] + nm2[rnd4] + nm4[rnd5] + nm5[rnd6];
     }
     return names;
   }

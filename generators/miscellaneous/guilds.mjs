@@ -186,7 +186,8 @@ export default function guilds() {
     'Veterans', 'Vigor', 'Vigorous', 'Vikings', 'Vitality', 'Voltiac',
     'Vultures', 'War', 'Warfare', 'Warheads', 'Widowmakers', 'Wolverines',
     'Wound', 'Incarnation'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     if (i < 3) {
       rnd = Math.floor(Math.random() * nm5.length);
       rnd2 = Math.floor(Math.random() * nm6.length);

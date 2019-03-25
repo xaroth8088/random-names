@@ -145,7 +145,8 @@ export default function reptiles() {
     'WallyGator', 'Whip', 'Whiskey', 'Willow', 'Xena', 'Xibalba', 'Yayo',
     'YellowTooth', 'Yig', 'Yuidenoth', 'Zack', 'Zaffle', 'Zakk', 'Zap',
     'ZapBrannigan', 'Zapdos', 'Zeke', 'Zero', 'Zeus', 'Ziggy', 'Zippy',
-    'Zith', 'Zobique', 'Zoe', 'Zomglazers', 'Zuberi']; {
+    'Zith', 'Zobique', 'Zoe', 'Zomglazers', 'Zuberi'];
+  {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm2.length);
       names = nm2[rnd];

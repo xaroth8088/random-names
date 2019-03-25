@@ -62,7 +62,7 @@ export default function northAmericanTowns() {
     'terre', 'thon', 'to', 'tois', 'ton', 'tona', 'tonas', 'tos', 'tou',
     'town', 'trie', 'val', 'ver', 'view', 'ville', 'vista', 'vons', 'waki',
     'wall', 'wick', 'win', 'wood', 'worth'];
-  /* Greenland */
+    /* Greenland */
   const nm3 = ['Aappi', 'Aappilat', 'Aas', 'Akun', 'Alluit', 'Ammas', 'Ar',
     'Atam', 'Eqalu', 'Eqalugaar', 'Havig', 'Hiura', 'Hiurapa', 'Igali',
     'Iginniar', 'Ika', 'Ikera', 'Ili', 'Ilima', 'Illor', 'Ilu', 'Ilulis',
@@ -82,7 +82,7 @@ export default function northAmericanTowns() {
     'sat', 'siaat', 'siaq', 'siarsuk', 'sillit', 'simiut', 'sivik', 'soq',
     'suaq', 'suarsuit', 'suatsiaat', 'suatsiaq', 'suit', 'suk', 'sup', 'sut',
     'talik', 'taq', 'tat', 'thal', 'toormiit', 'toq', 'tu', 'tut', 'vik'];
-  /* Mexico */
+    /* Mexico */
   const nm5 = ['Aca', 'Acam', 'Agua', 'Allen', 'Almo', 'Alta', 'Amo', 'Apat',
     'Apo', 'Ati', 'Atiza', 'Atli', 'Beni', 'Buena', 'Ca', 'Caje', 'Cam',
     'Can', 'Car', 'Cauh', 'Cela', 'Cen', 'Chal', 'Che', 'Chetu', 'Chi',
@@ -115,7 +115,7 @@ export default function northAmericanTowns() {
     'tanejo', 'taro', 'tecas', 'temoc', 'tepec', 'titlan', 'tla', 'toca',
     'toyuca', 'tro', 'tumal', 'yuca', 'zanillo', 'zapan', 'zava', 'zingan',
     'zoc'];
-  /* United States */
+    /* United States */
   const nm7 = ['Ab', 'Al', 'Aller', 'Ames', 'An', 'Apple', 'Arling', 'As',
     'Ash', 'Attle', 'Autumn', 'Bain', 'Bal', 'Bar', 'Barn', 'Barring', 'Bax',
     'Bed', 'Bedding', 'Ber', 'Berk', 'Bever', 'Bex', 'Birming', 'Bloom',
@@ -155,7 +155,8 @@ export default function northAmericanTowns() {
     'ster', 'stone', 'swell', 'ter', 'tham', 'ton', 'try', 'vern', 'ville',
     'wall', 'ware', 'water', 'way', 'we', 'well', 'wich', 'wick', 'win',
     'wood', 'worth'];
-  const i = Math.floor(Math.random() * 12); {
+  const i = Math.floor(Math.random() * 12);
+  {
     if (i < 3) {
       rnd = Math.floor(Math.random() * nm1.length);
       rnd2 = Math.floor(Math.random() * nm2.length);

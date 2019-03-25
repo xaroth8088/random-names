@@ -36,7 +36,8 @@ export default function digimons() {
     'Tremo', 'Tropo', 'Twi', 'Twilei', 'Typho', 'Unani', 'Uni', 'Uno', 'Uvee',
     'Vala', 'Vapo', 'Veilio', 'Veni', 'Veno', 'Vexi', 'Volu', 'Voodoo',
     'Vultu', 'Walla', 'Were', 'Whimsi', 'Willo', 'Windi', 'Xyge', 'Zeno',
-    'Zephy']; {
+    'Zephy'];
+  {
     rnd = Math.floor(Math.random() * nm1.length);
     names = `${nm1[rnd]}mon`;
     return names;

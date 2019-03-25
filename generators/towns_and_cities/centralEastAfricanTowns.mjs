@@ -20,7 +20,7 @@ export default function centralEastAfricanTowns() {
     'ro', 'rore', 'rundo', 'ruri', 'ruzi', 'sazi', 'senyi', 'sha', 'sozi',
     'tana', 'tega', 'teranyi', 'toke', 'vya', 'we', 'ya', 'yaga', 'yanza',
     'yero', 'yi', 'yigi', 'yinga', 'yogoro', 'yosha', 'za', 'zi', 'zo'];
-  /* Ethiopia */
+    /* Ethiopia */
   const nm3 = ['Abo', 'Abom', 'Ad', 'Are', 'Asai', 'Aw', 'Ba', 'Bahi', 'Be',
     'Bede', 'Bi', 'Biche', 'Bir', 'Bisho', 'Bo', 'Bodi', 'Bon', 'Bu', 'Buta',
     'Da', 'Daba', 'De', 'Deb', 'Deba', 'Dede', 'Deje', 'Dem', 'Di', 'Do',
@@ -45,7 +45,7 @@ export default function centralEastAfricanTowns() {
     'ro', 'rota', 'ruta', 'sa', 'saita', 'se', 'shemene', 'shoftu', 'so',
     'sosa', 'sum', 'ta', 'tahara', 'te', 'ti', 'to', 'tu', 'wa', 'wane',
     'wassa', 'way', 'wet', 'yam', 'zan'];
-  /* Kenya */
+    /* Kenya */
   const nm5 = ['A', 'Ahe', 'Ba', 'Bari', 'Barin', 'Bo', 'Bon', 'Bu', 'Bun',
     'Bungo', 'Bunya', 'Bute', 'Che', 'Chepa', 'Chu', 'El', 'Eldo', 'Em', 'Ga',
     'Gari', 'Ho', 'I', 'Isio', 'Ka', 'Kaba', 'Kabar', 'Kajia', 'Kaka', 'Kan',
@@ -76,7 +76,7 @@ export default function centralEastAfricanTowns() {
     'te', 'tein', 'tere', 'tik', 'to', 'tu', 'tui', 'vasha', 'ver', 'veta',
     'vine', 'wa', 'wani', 'war', 'ya', 'yala', 'yale', 'yi', 'yu', 'yuki',
     'za', 'zi'];
-  /* Rwanda */
+    /* Rwanda */
   const nm7 = ['Bi', 'Biga', 'Bigo', 'Bini', 'Bisa', 'Bita', 'Bu', 'Buga',
     'Bugara', 'Buhe', 'By', 'Bya', 'Byo', 'Byu', 'Byum', 'Cy', 'Cya', 'Cyaha',
     'Cyama', 'Cyan', 'Cyasa', 'Ga', 'Gasa', 'Gi', 'Giko', 'Gikon', 'Gise',
@@ -94,7 +94,7 @@ export default function centralEastAfricanTowns() {
     'na', 'nigi', 'ra', 'raga', 'ragara', 'rama', 'ranga', 'ranza', 're',
     'renda', 'renga', 'ri', 'ro', 'sanze', 'sarenda', 'senyi', 'ta', 'tara',
     'tarama', 'tare', 'we', 'ye', 'yi', 'yonza', 'za', 'ze'];
-  /* Somalia */
+    /* Somalia */
   const nm9 = ['Abaa', 'Abu', 'Abud', 'Ada', 'Af', 'Afgoo', 'Afma', 'Alo',
     'Ara', 'Arab', 'Ba', 'Bad', 'Bai', 'Bal', 'Balli', 'Ban', 'Bandii', 'Bar',
     'Bara', 'Barde', 'Bel', 'Bele', 'Beled', 'Belha', 'Belhan', 'Ber',
@@ -132,7 +132,7 @@ export default function centralEastAfricanTowns() {
     'to', 'wa', 'waa', 'wak', 'waley', 'weyn', 'weyna', 'weyne', 'wo',
     'xagay', 'xato', 'xo', 'ya', 'yaale', 'yacado', 'yale', 'yarey', 'ye',
     'yo', 'yoley'];
-  /* Tanzania */
+    /* Tanzania */
   const nm11 = ['Aru', 'Ba', 'Baba', 'Baga', 'Baria', 'Bi', 'Biha', 'Bihara',
     'Bu', 'Buga', 'Buko', 'Bun', 'Buse', 'Cha', 'Chalin', 'Chani', 'Chi',
     'Chima', 'Do', 'Dodo', 'Gei', 'Ifa', 'Ifaka', 'Igu', 'Igugu', 'Igun',
@@ -165,7 +165,7 @@ export default function centralEastAfricanTowns() {
     'sumbwe', 'sungwi', 'ta', 'tai', 'te', 'ti', 'to', 'toro', 'tu', 'tumba',
     'vu', 'wa', 'wala', 'wanga', 'ya', 'yanga', 'yere', 'yi', 'yo', 'yu',
     'za', 'ze', 'zi', 'zibar'];
-  /* Uganda */
+    /* Uganda */
   const nm13 = ['Adju', 'Amu', 'Apa', 'Bu', 'Buge', 'Bugem', 'Bugi', 'Bun',
     'Bundi', 'Buse', 'Busem', 'Buwe', 'Bwe', 'Bweyo', 'Bwi', 'Bwizi', 'Bya',
     'Byaka', 'En', 'Ente', 'Gu', 'Hoi', 'Iga', 'Igan', 'Ji', 'Jin', 'Ka',
@@ -191,7 +191,8 @@ export default function centralEastAfricanTowns() {
     'suba', 'ta', 'tebbe', 'tera', 'ti', 'tia', 'tido', 'to', 'tonde', 'wa',
     'wenge', 'wero', 'wo', 'yana', 'yo', 'yuge', 'yunga', 'za', 'zi',
     'zibwera'];
-  const i = Math.floor(Math.random() * 16); {
+  const i = Math.floor(Math.random() * 16);
+  {
     if (i < 2) {
       rnd = Math.floor(Math.random() * nm1.length);
       rnd2 = Math.floor(Math.random() * nm2.length);

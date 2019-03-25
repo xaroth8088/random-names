@@ -237,7 +237,8 @@ export default function jewishs() {
     'Wiener', 'Wiezman', 'Wigram', 'Wirth', 'Wolf', 'Wolmark', 'Woolf',
     'Worms', 'Yadin', 'Yakobovitch', 'Yedidyah', 'Yoelsen', 'Yoffey',
     'Zahavy', 'Zalkind', 'Zangwill', 'Zedner', 'Zeev', 'Zeiman', 'Zlato',
-    'Zoegell', 'Zundel']; {
+    'Zoegell', 'Zundel'];
+  {
     rnd2 = Math.floor(Math.random() * nm3.length);
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm2.length);

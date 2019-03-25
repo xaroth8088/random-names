@@ -55,7 +55,8 @@ export default function christmasElfs() {
     'hat', 'hope', 'hug', 'icicle', 'ivy', 'joke', 'joy', 'jump', 'kiss',
     'laugh', 'light', 'love', 'milk', 'mitten', 'moon', 'myrrh', 'night',
     'pie', 'plum', 'scarf', 'sledge', 'sleigh', 'song', 'spirit', 'star',
-    'toy', 'tree', 'warmth', 'wine', 'wish', 'wrap']; {
+    'toy', 'tree', 'warmth', 'wine', 'wish', 'wrap'];
+  {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm3.length);
       rnd2 = Math.floor(Math.random() * nm4.length);

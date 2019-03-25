@@ -173,7 +173,8 @@ export default function elfs() {
     'roris', 'salor', 'sandoral', 'satra', 'stina', 'sys', 'thana', 'thyra',
     'toris', 'tris', 'tumal', 'valur', 'varis', 'ven', 'vyre', 'warin',
     'wenys', 'wraek', 'wynn', 'xalim', 'xidor', 'xina', 'xisys', 'yarus',
-    'ydark', 'ynore', 'yra', 'zana', 'zeiros', 'zorwyn', 'zumin']; {
+    'ydark', 'ynore', 'yra', 'zana', 'zeiros', 'zorwyn', 'zumin'];
+  {
     rnd2 = Math.floor(Math.random() * nm3.length);
     rnd3 = Math.floor(Math.random() * nm4.length);
     nameLast = nm3[rnd2] + nm4[rnd3];

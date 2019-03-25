@@ -50,7 +50,8 @@ export default function eastAsianTowns() {
   const names8 = ['baek', 'chaek', 'cheok', 'cheon', 'cho', 'chon', 'dong',
     'geup', 'gye', 'hae', 'hung', 'je', 'jin', 'ju', 'nan', 'neung', 'po',
     'san', 'seong', 'song', 'su', 'wang', 'won', 'yeong', 'yong'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     if (i < 3) {
       rnd0 = Math.floor(Math.random() * names1.length);
       rnd1 = Math.floor(Math.random() * names2.length);

@@ -39,7 +39,8 @@ export default function sanShyuums() {
     'Sincerity', 'Sorrow', 'Stewardship', 'Strength', 'Suffering',
     'Supposition', 'Sympathy', 'Tenacity', 'Tolerance', 'Trust', 'Truth',
     'Valiance', 'Veracity', 'Vigor', 'Virtue'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     if (i < 5) {
       rnd = Math.floor(Math.random() * nm1.length);
       rnd2 = Math.floor(Math.random() * nm2.length);

@@ -4,8 +4,7 @@ export default function aliens() {
   let rnd3;
   let rnd4;
   let rnd5;
-  let
-    rnd6;
+  let rnd6;
   let names;
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['Aether', 'Altair', 'Aphelion', 'Aster', 'Astro', 'Atlas',
@@ -73,7 +72,8 @@ export default function aliens() {
   const nm7 = ['', '', '', '', '', '', '', '', 'a', 'e', 'i', 'o', 'u', 'a',
     'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'ae', 'ea', 'ee', 'aa', 'ia',
     'ua', 'ue'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     if (type === 1) {
       if (i < 6) {
         rnd = Math.floor(Math.random() * nm2.length);
@@ -93,8 +93,7 @@ export default function aliens() {
         if (rnd5 < 8) {
           rnd6 = 0;
         }
-        names = nm3[rnd] + nm4[rnd2] + nm5[rnd3] + nm4[rnd4] + nm6[rnd5] + nm7[
-          rnd6];
+        names = nm3[rnd] + nm4[rnd2] + nm5[rnd3] + nm4[rnd4] + nm6[rnd5] + nm7[rnd6];
       }
     } else if (i < 6) {
       rnd = Math.floor(Math.random() * nm1.length);

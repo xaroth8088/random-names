@@ -44,7 +44,8 @@ export default function orcs() {
     'rg', 'rk', 'rn', 'rm', 'rv', 'sg', 'ss', 's', 'sr', 'sk', 'sn', 'v',
     'vr', 'vn', 'vk', 'z', 'zk', 'zn', 'zm'];
   const nm12 = ['d', 'hn', 'hd', 'k', 'l', 'm', 'n', 'r', 's', 'sh', 't', 'th'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     rnd8 = Math.floor(Math.random() * nm9.length);
     rnd9 = Math.floor(Math.random() * nm10.length);
     rnd12 = Math.floor(Math.random() * nm12.length);
@@ -56,8 +57,7 @@ export default function orcs() {
     } else {
       rnd10 = Math.floor(Math.random() * nm11.length);
       rnd11 = Math.floor(Math.random() * nm10.length);
-      nameLast = nm9[rnd8] + nm10[rnd9] + nm11[rnd10] + nm10[rnd11] + nm12[
-        rnd12];
+      nameLast = nm9[rnd8] + nm10[rnd9] + nm11[rnd10] + nm10[rnd11] + nm12[rnd12];
     }
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm5.length);

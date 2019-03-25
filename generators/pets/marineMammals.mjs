@@ -33,7 +33,8 @@ export default function marineMammals() {
     'Snowball', 'Snowflake', 'Snowwhite', 'Sona', 'Sparkle', 'Splash',
     'Splashy', 'Sprinkle', 'Sprinkles', 'Squeal', 'Squeek', 'Squiggle',
     'Squiggles', 'Star', 'Sundance', 'Tide', 'Tumble', 'Tyde', 'Ula', 'Una',
-    'Yoka', 'Zippy']; {
+    'Yoka', 'Zippy'];
+  {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm2.length);
       names = nm2[rnd];

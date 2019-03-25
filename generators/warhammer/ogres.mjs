@@ -33,7 +33,8 @@ export default function ogres() {
     'munch', 'muncher', 'pelt', 'punch', 'ripper', 'seeker', 'shoulder',
     'slayer', 'snarl', 'spine', 'splinter', 'splitter', 'strength', 'stride',
     'strider', 'striker', 'teeth', 'tooth', 'watcher'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     rnd = Math.floor(Math.random() * nm1.length);
     rnd2 = Math.floor(Math.random() * nm2.length);
     rnd5 = Math.floor(Math.random() * nm4.length);

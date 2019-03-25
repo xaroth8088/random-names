@@ -128,7 +128,8 @@ export default function basothos() {
     'Tebello (Expectation)', 'Thato (Love)', 'Thuto (Lesson)',
     'Tiisetso (Perseverance)', 'Tlhokomelo (Care)', 'Tlotliso (Honour)',
     'Tokoloho (Freedom/Independence)', 'Topollo (Emancipation/Release)',
-    'Tshepiso (Promise)', 'Tshepo (Hope)', 'Tumelo (Faith)']; {
+    'Tshepiso (Promise)', 'Tshepo (Hope)', 'Tumelo (Faith)'];
+  {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm2.length);
       names = nm2[rnd];

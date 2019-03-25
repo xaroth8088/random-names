@@ -71,7 +71,8 @@ export default function cityNicknames() {
     'Tragedy', 'Tranquility', 'Trees', 'Trust', 'Unity', 'Values', 'Vermin',
     'Virtues', 'Visions', 'Water', 'Waterfalls', 'Welcomes', 'Winds',
     'Wisdom', 'Wonders', 'Wood', 'Yesteryear', 'Zest'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     if (i < 5) {
       rnd = Math.floor(Math.random() * nm2.length);
       names = `The City of ${nm2[rnd]}`;

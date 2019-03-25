@@ -38,7 +38,7 @@ export default function southeastAfricanTowns() {
     'tsoa', 'tsy', 'vaho', 'vana', 'vao', 'vato', 'vazo', 'velone', 'voany',
     'voara', 'voay', 'vola', 'vombe', 'vongo', 'vony', 'voranto', 'zaka',
     'zana', 'zoabo', 'zobe', 'zondandy', 'zorobe'];
-  /* Malawi */
+    /* Malawi */
   const nm3 = ['Ba', 'Bala', 'Ban', 'Bla', 'Blan', 'Bwa', 'Bwan', 'Cha', 'Cham',
     'Chi', 'Chiku', 'Chikwa', 'Chile', 'Chin', 'Chipo', 'Chira', 'Chiti',
     'Ded', 'Do', 'Doma', 'Edi', 'Edin', 'Ekwe', 'Ekwen', 'Emba', 'Emban',
@@ -60,7 +60,7 @@ export default function southeastAfricanTowns() {
     'radzulu', 're', 'ronga', 'sa', 'si', 'sungu', 'ta', 'takota', 'te',
     'tete', 'theche', 'thenje', 'thipe', 'tipa', 'tundu', 'tyre', 'wa', 'we',
     'wera', 'wonde', 'yani', 'za', 'ze', 'zi', 'zu', 'zulu'];
-  /* Mozambique */
+    /* Mozambique */
   const nm5 = ['Ango', 'Anto', 'Bei', 'Bi', 'Bile', 'Ca', 'Cata', 'Catan',
     'Chi', 'Chibu', 'Chicu', 'Chicua', 'Chimo', 'Chin', 'Cho', 'Chok', 'Cua',
     'Cuam', 'Don', 'Do', 'Gu', 'Inha', 'Inham', 'Li', 'Lichi', 'Lichin', 'Ma',
@@ -75,7 +75,7 @@ export default function southeastAfricanTowns() {
     'li', 'limane', 'lo', 'ma', 'mane', 'moio', 'ne', 'nes', 'nica', 'nio',
     'no', 'puez', 'pula', 'puto', 'que', 'ra', 'racuene', 'rue', 'sano', 'te',
     'tize', 'to', 'tola', 'tuali', 'vala', 'we', 'xe', 'xixe', 'ze'];
-  /* Zambia */
+    /* Zambia */
   const nm7 = ['Cha', 'Chadi', 'Cham', 'Chi', 'Chibo', 'Chibom', 'Chin',
     'Chipa', 'Cho', 'Chon', 'Gwe', 'Gwem', 'Iso', 'Ka', 'Kab', 'Kabo',
     'Kabom', 'Kala', 'Kale', 'Kalen', 'Kalu', 'Kan', 'Kansa', 'Kansan', 'Kao',
@@ -97,7 +97,7 @@ export default function southeastAfricanTowns() {
     'saka', 'sali', 'sama', 'sanshi', 'se', 'sempa', 'sheke', 'shi', 'shya',
     'so', 'ta', 'taba', 'tauke', 'twe', 'vonga', 'wala', 'wamba', 'we',
     'wezi', 'wingu', 'za', 'ze', 'zi', 'zongwe'];
-  /* Zimbabwe */
+    /* Zimbabwe */
   const nm9 = ['Ba', 'Ban', 'Be', 'Bea', 'Bi', 'Bin', 'Bindu', 'Bu', 'Bula',
     'Ce', 'Cen', 'Cente', 'Cha', 'Chaka', 'Che', 'Chegu', 'Chi', 'Chima',
     'Chimani', 'Chin', 'Chipi', 'Chire', 'Chiru', 'Chitu', 'Chitun', 'Chiv',
@@ -118,7 +118,8 @@ export default function southeastAfricanTowns() {
     'te', 'tenary', 'ti', 'tivi', 'toko', 'ton', 'tu', 'va', 'vane', 'vhu',
     'vi', 'vingo', 'wa', 'wayo', 'we', 'wi', 'wiza', 'yati', 'yi', 'yo', 'za',
     'zi', 'ziwa', 'zowe', 'zura'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     if (i < 2) {
       rnd = Math.floor(Math.random() * nm1.length);
       rnd2 = Math.floor(Math.random() * nm2.length);

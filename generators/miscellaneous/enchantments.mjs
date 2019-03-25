@@ -84,7 +84,8 @@ export default function enchantments() {
     'Versatility', 'Vigor', 'Visibility', 'Vitality', 'Voodoo', 'War',
     'Water Walking', 'Weakness', 'Wealth', 'Wind', 'Windwalking', 'Wisdom',
     'Witchcraft', 'Woe', 'Wonders', 'Worship'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     rnd = Math.floor(Math.random() * nm1.length);
     rnd2 = Math.floor(Math.random() * nm3.length);
     if (i < 3) {

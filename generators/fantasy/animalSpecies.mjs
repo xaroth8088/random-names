@@ -567,7 +567,8 @@ export default function animalSpecies() {
     'Yellow-green-Dotted', 'Yellow-green-Furred', 'Yellow-green-Nosed',
     'Yellow-green-Scaled', 'Yellow-green-Striped', 'Yellow-green-Tailed',
     'Yellow-Nosed', 'Yellow-Scaled', 'Yellow-Striped', 'Yellow-Tailed'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     if (i < 4) {
       rnd = Math.floor(Math.random() * nm1.length);
       rnd2 = Math.floor(Math.random() * nm2.length);

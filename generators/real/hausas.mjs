@@ -61,7 +61,8 @@ export default function hausas() {
     'Salama', 'Salihah', 'Salimah', 'Samirah', 'Sanura', 'Sarama', 'Saran',
     'Sarda', 'Sarki', 'Sauda', 'Seghen', 'Sekai', 'Selam', 'Selamawit',
     'Selas', 'Semira', 'Shukriyah', 'Sumayyah', 'Talatu', 'Tani', 'Zahrah',
-    'Zainab', 'Zakiyyah', 'Zaytun', 'Zorra', 'Zubaydah']; {
+    'Zainab', 'Zakiyyah', 'Zaytun', 'Zorra', 'Zubaydah'];
+  {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm2.length);
       names = nm2[rnd];

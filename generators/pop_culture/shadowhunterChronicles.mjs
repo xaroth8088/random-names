@@ -82,7 +82,8 @@ export default function shadowhunterChronicles() {
     'scar', 'send', 'shade', 'sky', 'smith', 'soar', 'song', 'spark', 'stern',
     'stone', 'stride', 'sun', 'surge', 'sworn', 'thorn', 'tide', 'tower',
     'tree', 'vale', 'ward', 'water', 'weather', 'weaver', 'well', 'whirl',
-    'wind', 'winds', 'wine', 'wing', 'winter', 'wood', 'woods', 'wright']; {
+    'wind', 'winds', 'wine', 'wing', 'winter', 'wood', 'woods', 'wright'];
+  {
     rnd2 = Math.floor(Math.random() * nm4.length);
     rnd3 = Math.floor(Math.random() * nm5.length);
     nl = nm4[rnd2] + nm5[rnd3];

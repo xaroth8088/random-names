@@ -114,7 +114,8 @@ export default function vehicles() {
   const names8 = ['plane', 'train', 'truck', 'bus', 'car', 'copter', 'cycle',
     'ship', 'mobile', 'craft', 'cart', 'sled', 'craft', 'motive', 'van',
     'wheel', 'board'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     if (i < 4) {
       rnd = Math.floor(Math.random() * names1.length);
       rnd2 = Math.floor(Math.random() * names2.length);
@@ -134,8 +135,7 @@ export default function vehicles() {
       }
       rnd5 = Math.floor(Math.random() * names7.length);
       rnd6 = Math.floor(Math.random() * names8.length);
-      names = names4[rnd] + names5[rnd2] + names6[rnd3] + names5[rnd4] + names7[
-        rnd5] + names8[rnd6];
+      names = names4[rnd] + names5[rnd2] + names6[rnd3] + names5[rnd4] + names7[rnd5] + names8[rnd6];
     }
     return names;
   }

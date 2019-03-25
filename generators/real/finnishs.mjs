@@ -169,7 +169,8 @@ export default function finnishs() {
     'Uusitalo', 'Väisänen', 'Väyrynen', 'Vainio', 'Valtonen', 'Vanhatalo',
     'Varis', 'Venäläinen', 'Vennamo', 'Vepsäläinen', 'Vesa', 'Viinanen',
     'Viitala', 'Viitanen', 'Virolainen', 'Virta', 'Virtanen', 'Vuorela',
-    'Vuorinen', 'Waris', 'Wirtanen', 'Ylitalo', 'Yrjölä']; {
+    'Vuorinen', 'Waris', 'Wirtanen', 'Ylitalo', 'Yrjölä'];
+  {
     rnd2 = Math.floor(Math.random() * nm3.length);
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm2.length);

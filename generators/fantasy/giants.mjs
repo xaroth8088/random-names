@@ -19,7 +19,8 @@ export default function giants() {
     'og', 'om', 'os', 'rion', 'roch', 'rog', 'rus', 'rym', 'sag', 'sal',
     'sar', 'sius', 'sog', 'sor', 'tag', 'tius', 'theus', 'thor', 'thos', 'to',
     'tor', 'vag', 'ver', 'var', 'vir', 'vog', 'war', 'wor', 'zar', 'ziar',
-    'zus']; {
+    'zus'];
+  {
     rnd = Math.floor(Math.random() * nm1.length);
     rnd2 = Math.floor(Math.random() * nm2.length);
     rnd3 = Math.floor(Math.random() * nm3.length);

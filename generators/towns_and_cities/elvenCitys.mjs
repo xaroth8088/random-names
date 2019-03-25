@@ -30,7 +30,8 @@ export default function elvenCitys() {
     'luma', 'lume', 'luna', 'lune', 'mel', 'melle', 'naes', 'nas', 'neas',
     'nor', 'nora', 'nore', 'noris', 'qua', 'rion', 'rius', 'sari', 'sera',
     'serin', 'serine', 'shara', 'shys', 'taesi', 'talos', 'thaes', 'thalas',
-    'thas', 'theas', 'themar', 'thyr']; {
+    'thas', 'theas', 'themar', 'thyr'];
+  {
     rnd = Math.floor(Math.random() * nm1.length);
     rnd2 = Math.floor(Math.random() * nm2.length);
     rnd3 = Math.floor(Math.random() * nm3.length);

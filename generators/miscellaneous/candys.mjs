@@ -42,7 +42,8 @@ export default function candys() {
     'Twisters', 'Twitters', 'Vampies', 'Waggles', 'Wallops', 'Whippers',
     'Whippersnappers', 'Whoopees', 'Wibbles', 'Wiggles', 'Wisecrackers',
     'Witties', 'Wizards', 'Wonkies', 'Wrilies', 'Wrinklies', 'Yahoos',
-    'Yumyums', 'Zigzags', 'Zoots']; {
+    'Yumyums', 'Zigzags', 'Zoots'];
+  {
     rnd = Math.floor(Math.random() * nm1.length);
     names = nm1[rnd];
     return names;

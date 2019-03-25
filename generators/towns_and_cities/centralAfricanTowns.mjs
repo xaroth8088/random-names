@@ -39,7 +39,7 @@ export default function centralAfricanTowns() {
     'songue', 'suco', 'sueje', 'ta', 'tada', 'tado', 'tala', 'tativa', 'teba',
     'tela', 'tembo', 'tiva', 'to', 'vate', 'vinga', 'vongo', 'vungo', 'xilo',
     'xita', 'xito', 'zaje', 'zombo'];
-  /* Cameroon */
+    /* Cameroon */
   const nm3 = ['Ako', 'Akono', 'Am', 'Ba', 'Bafa', 'Bafou', 'Bafia', 'Baga',
     'Bagan', 'Bame', 'Bamen', 'Bami', 'Bamin', 'Ban', 'Bange', 'Batou', 'Be',
     'Bela', 'Ber', 'Ca', 'Cam', 'Di', 'Dima', 'Diza', 'Dizan', 'Djou', 'Doua',
@@ -58,7 +58,7 @@ export default function centralAfricanTowns() {
     'melima', 'menda', 'mie', 'mingie', 'nam', 'nau', 'nene', 'nolinga', 'po',
     'ra', 're', 'roa', 'roua', 'sam', 'samba', 'seri', 'tap', 'te', 'tele',
     'ti', 'toua', 'touri', 'wa', 'yo', 'zangue'];
-  /* Central African Republic */
+    /* Central African Republic */
   const nm5 = ['Ali', 'Alin', 'Ba', 'Babo', 'Baha', 'Bam', 'Bamba', 'Ban',
     'Bando', 'Banga', 'Bao', 'Bata', 'Batan', 'Be', 'Ber', 'Berbe', 'Bi',
     'Bim', 'Bo', 'Boa', 'Boba', 'Boban', 'Bos', 'Bossan', 'Bossem', 'Bou',
@@ -71,7 +71,7 @@ export default function centralAfricanTowns() {
     'goa', 'goumbe', 'gui', 'hamo', 'ki', 'la', 'le', 'li', 'lindao', 'mara',
     'mio', 'mo', 'not', 'py', 'ra', 'rao', 'rati', 'ri', 'ro', 'sangoa',
     'sembele', 'sou', 'tangafo', 'ti', 'ye', 'zoum'];
-  /* Chad */
+    /* Chad */
   const nm7 = ['Abé', 'Adé', 'Ao', 'Aou', 'Bé', 'Bébé', 'Bébo', 'Bén', 'Béno',
     'Ba', 'Bar', 'Be', 'Bei', 'Beina', 'Beno', 'Bi', 'Bil', 'Bilti', 'Bit',
     'Bo', 'Boko', 'Bon', 'Bou', 'Dja', 'Djeme', 'Do', 'Dour', 'Fa', 'Fia',
@@ -85,7 +85,7 @@ export default function centralAfricanTowns() {
     'namar', 'ne', 'nia', 'noy', 'ré', 'réda', 'ra', 'riba', 'ro', 'ry',
     'saguet', 'sala', 'senya', 'so', 'soro', 'sou', 'ti', 'tine', 'to', 'ya',
     'zou'];
-  /* D.R. Congo */
+    /* D.R. Congo */
   const nm9 = ['Ake', 'Ba', 'Baf', 'Bafwa', 'Baga', 'Bak', 'Bala', 'Balam',
     'Bam', 'Bana', 'Bandu', 'Bandun', 'Bara', 'Basan', 'Baso', 'Befa', 'Be',
     'Biko', 'Bin', 'Boen', 'Boko', 'Bokun', 'Bolo', 'Bolom', 'Bomon', 'Bon',
@@ -129,7 +129,7 @@ export default function centralAfricanTowns() {
     'tapata', 'teba', 'tembo', 'to', 'tona', 'tuga', 'tuku', 'twa', 'twaba',
     'vi', 'vira', 'wanga', 'wasende', 'we', 'wezi', 'wi', 'za', 'zau', 'zi',
     'zu', 'zumba', 'zzo'];
-  /* Gabon */
+    /* Gabon */
   const nm11 = ['Ako', 'Ba', 'Bakou', 'Bakoum', 'Batoua', 'Be', 'Belin', 'Bi',
     'Bita', 'Bo', 'Bon', 'Bongo', 'Co', 'De', 'Eka', 'Ete', 'Fou', 'Fouga',
     'Ga', 'Gam', 'Ge', 'Gen', 'Ka', 'Kan', 'Kema', 'Kou', 'Koula', 'La',
@@ -144,7 +144,7 @@ export default function centralAfricanTowns() {
     'labona', 'le', 'linga', 'ma', 'mo', 'mongo', 'mou', 'moutou', 'na',
     'nana', 'ne', 'ni', 'nis', 'ra', 'rene', 'ta', 'tam', 'teke', 'tou',
     'touala', 'voul', 'yem', 'yumba', 'zic'];
-  /* R. Congo */
+    /* R. Congo */
   const nm13 = ['Be', 'Bou', 'Boua', 'Bouan', 'Boukie', 'Boun', 'Bra', 'Dja',
     'Djam', 'Do', 'Doli', 'Don', 'En', 'Enye', 'Etou', 'Etoum', 'Ewo', 'Ga',
     'Gam', 'Gambo', 'Imp', 'Impfo', 'Impfon', 'Ka', 'Kaye', 'Ke', 'Kel', 'Ki',
@@ -161,7 +161,7 @@ export default function centralAfricanTowns() {
     'mono', 'na', 'naga', 'no', 'ro', 'sa', 'saka', 'sendjo', 'si', 'sie',
     'so', 'te', 'tete', 'ti', 'tou', 'toumbi', 'wo', 'ya', 'yelle', 'yes',
     'yondzi', 'zi'];
-  /* Zambia */
+    /* Zambia */
   const nm15 = ['Cha', 'Cham', 'Che', 'Chem', 'Chi', 'Chie', 'Chi', 'Chin',
     'Cho', 'Gwe', 'Gwem', 'Iso', 'Ka', 'Kabo', 'Kabom', 'Kafu', 'Kaful',
     'Kala', 'Kale', 'Kalo', 'Kalu', 'Kan', 'Kanye', 'Kanyem', 'Kao', 'Kappi',
@@ -182,7 +182,8 @@ export default function centralAfricanTowns() {
     'shi', 'sisi', 'soka', 'taba', 'tauke', 'tete', 'vonga', 'vuma', 'wa',
     'wambwa', 'wanyama', 'we', 'yama', 'yembo', 'yingi', 'za', 'ze', 'zembe',
     'zongwe'];
-  const i = Math.floor(Math.random() * 16); {
+  const i = Math.floor(Math.random() * 16);
+  {
     if (i < 2) {
       rnd = Math.floor(Math.random() * nm1.length);
       rnd2 = Math.floor(Math.random() * nm2.length);

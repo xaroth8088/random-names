@@ -36,7 +36,8 @@ export default function eldars() {
     'raniel', 'rena', 'ria', 'riel', 'rio', 'ris', 'rith', 'rosa', 'rye',
     'ryna', 'rys', 'sa', 'sae', 'sela', 'shae', 'sho', 'sis', 'sya', 'sys',
     'tara', 'tela', 'tera', 'thala', 'thanis', 'tiren', 'tyra', 'tys', 'vae',
-    'vara', 'vela', 'vena', 'vyss']; {
+    'vara', 'vela', 'vena', 'vyss'];
+  {
     if (type === 1) {
       rnd = Math.floor(Math.random() * names3.length);
       rnd2 = Math.floor(Math.random() * names4.length);

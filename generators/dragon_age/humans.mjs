@@ -470,7 +470,8 @@ export default function humans() {
     'Walton', 'Whiteaker', 'Whitebread', 'Witt', 'Witte', 'Wittie', 'Witting',
     'Wittman', 'Witts', 'Witty', 'Xavier', 'Yvon', 'da Costa', 'da Cruz',
     'da Cunha', 'da Rocha', 'da Silva', 'de Almeida', 'de Carvalho',
-    'de Oliveira', 'de Sousa']; {
+    'de Oliveira', 'de Sousa'];
+  {
     if (type === 1) {
       rnd0 = Math.floor(Math.random() * namesFemale.length);
       rnd1 = Math.floor(Math.random() * names2.length);

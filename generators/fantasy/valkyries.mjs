@@ -11,7 +11,8 @@ export default function valkyries() {
     'hildr', 'hylde', 'ja', 'la', 'ld', 'ldana', 'ldr', 'leif', 'lmold',
     'lna', 'lrun', 'ma', 'madra', 'mold', 'nd', 'ndul', 'ngrior', 'nhildr',
     'nhylde', 'nul', 'pul', 'ra', 'rdmadra', 'rifa', 'rior', 'rja', 'ronul',
-    'run', 'rvif', 'st', 'ta', 'tha', 'va', 'vif']; {
+    'run', 'rvif', 'st', 'ta', 'tha', 'va', 'vif'];
+  {
     rnd = Math.floor(Math.random() * names1.length);
     rnd2 = Math.floor(Math.random() * names2.length);
     names = names1[rnd] + names2[rnd2];

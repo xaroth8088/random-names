@@ -150,7 +150,8 @@ export default function companys() {
     'stones', 'sun', 'sys', 'tales', 'techs', 'time', 'tronics', 'tube',
     'walk', 'ware', 'wares', 'water', 'way', 'ways', 'well', 'wheels', 'wood',
     'works', 'world', 'worth'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     if (i < 3) {
       rnd0 = Math.floor(Math.random() * names1.length);
       rnd1 = Math.floor(Math.random() * names2.length);

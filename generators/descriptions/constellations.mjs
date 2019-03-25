@@ -239,18 +239,15 @@ export default function constellations() {
     random11 = Math.floor(Math.random() * names3.length);
   }
   let random12 = Math.floor(Math.random() * names3.length);
-  while (random3 === random9 || random3 === random12 || random10 === random12
-    || random11 === random12) {
+  while (random3 === random9 || random3 === random12 || random10 === random12 || random11 === random12) {
     random12 = Math.floor(Math.random() * names3.length);
   }
   let random13 = Math.floor(Math.random() * names9.length);
-  while (random3 === random9 || random3 === random13 || random10 === random13
-    || random11 === random13 || random12 === random13) {
+  while (random3 === random9 || random3 === random13 || random10 === random13 || random11 === random13 || random12 === random13) {
     random13 = Math.floor(Math.random() * names9.length);
   }
   let random14 = Math.floor(Math.random() * names3.length);
-  while (random3 === random9 || random3 === random14 || random10 === random14
-    || random11 === random14 || random12 === random14 || random13 === random14) {
+  while (random3 === random9 || random3 === random14 || random10 === random14 || random11 === random14 || random12 === random14 || random13 === random14) {
     random14 = Math.floor(Math.random() * names3.length);
   }
   const name = `Made up of ${names1[random1]} stars, the constellation called ${names2[random2]} roughly resembles the shape of a ${names3[random3]}`;

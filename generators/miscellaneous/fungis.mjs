@@ -260,7 +260,8 @@ export default function fungis() {
     'Helveola', 'Hortensis', 'Hydnum', 'Leoninus', 'Mane', 'Multifida',
     'Oyster', 'Penicillata', 'Powderpuff', 'Ringless Amanita', 'Rustgill ',
     'Rutilum', 'Serpens', 'Slime ', 'Spot Fungus', 'Tails', 'Trumpets',
-    'Veil Amanita']; {
+    'Veil Amanita'];
+  {
     rnd = Math.floor(Math.random() * nm1.length);
     rnd2 = Math.floor(Math.random() * nm2.length);
     names = `${nm1[rnd]} ${nm2[rnd2]}`;

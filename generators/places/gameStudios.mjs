@@ -88,7 +88,8 @@ export default function gameStudios() {
     'Untouchable', 'Vagabond', 'Vault', 'Vigor', 'Void', 'Zion'];
   const names7 = ['Games', 'Entertainment', 'Studios', 'Interactive',
     'Game Studios', 'Media', 'Productions', 'Arts'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     rnd = Math.floor(Math.random() * names7.length);
     if (i < 3) {
       rnd1 = Math.floor(Math.random() * names1.length);

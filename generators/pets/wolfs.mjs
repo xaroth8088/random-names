@@ -44,7 +44,8 @@ export default function wolfs() {
     'Saffron', 'Sapphire', 'Satin', 'Scarlet', 'Shade', 'Shadow', 'Silver',
     'Snow', 'Snowball', 'Snowflake', 'Solstice', 'Star', 'Twilight', 'Vapor',
     'Velvet', 'Violet', 'Vixen', 'Whisper', 'Willow', 'Winter', 'Xena',
-    'Zelda']; {
+    'Zelda'];
+  {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm2.length);
       names = nm2[rnd];

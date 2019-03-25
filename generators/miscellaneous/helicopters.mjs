@@ -31,7 +31,8 @@ export default function helicopters() {
     'Teratorn', 'Terrorbird', 'Thor', 'Thunder Bird', 'Thunderbolt',
     'Tigress', 'Tinder', 'Trumpet', 'Tucan', 'Typhoon', 'Varmint', 'Veil',
     'Vermillion', 'Vimana', 'Void', 'Volley', 'Vulture', 'Warbler', 'Wasp',
-    'Zephyr', 'Zeus', 'Zion']; {
+    'Zephyr', 'Zeus', 'Zion'];
+  {
     rnd = Math.floor(Math.random() * nm1.length);
     names = nm1[rnd];
     return names;

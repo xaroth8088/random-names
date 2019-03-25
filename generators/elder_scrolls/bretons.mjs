@@ -196,7 +196,8 @@ export default function bretons() {
     'tien', 'tieri', 'tieve', 'tinius', 'ton', 'tor', 'torard', 'trine',
     'trose', 'tte', 'tya', 'uardt', 'uchamp', 'uche', 'ud', 'uelle', 'ues',
     'uette', 'ufort', 'ulanie', 'ult', 'us', 'ush', 'van', 'vanne', 've',
-    'ven', 'venne', 'vieve', 'wald', 'wing', 'wulf', 'ya', 'yne']; {
+    'ven', 'venne', 'vieve', 'wald', 'wing', 'wulf', 'ya', 'yne'];
+  {
     rnd3 = Math.floor(Math.random() * nm5.length);
     rnd4 = Math.floor(Math.random() * nm6.length);
     if (type === 1) {

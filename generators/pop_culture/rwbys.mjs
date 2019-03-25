@@ -342,7 +342,8 @@ export default function rwbys() {
     'VRML (Vermillion)', 'VRNC (Veronica)', 'WEAT (Wheat)', 'WHIT (White)',
     'WINE (Wine)', 'WITE (White)', 'WNGE (Wenge)', 'WTER (Watersprout)',
     'WZRD (Winter Wizard)', 'XNDU (Xanadu)', 'YLLW (Yellow)',
-    'YNDR (Blue Yonder)', 'ZFFR (Zaffre)', 'ZOMP (Zomp', 'ZTEC (Aztec Gold)']; {
+    'YNDR (Blue Yonder)', 'ZFFR (Zaffre)', 'ZOMP (Zomp', 'ZTEC (Aztec Gold)'];
+  {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm2.length);
       names = nm2[rnd];

@@ -18,7 +18,8 @@ export default function hives() {
   const nm7 = ['g', 'lk', 'lm', 'ln', 'm', 'mn', 'n', 'nl', 'nr', 'rm', 'sh',
     'sm', 'sn', 'sr', 'st', 'th', 'tr', 'v', 'vn', 'vr', 'z', 'zd', 'zl', 'zn',
   ];
-  const nm8 = ['', '', '', '', 'h', 'l', 's', 'th']; {
+  const nm8 = ['', '', '', '', 'h', 'l', 's', 'th'];
+  {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm5.length);
       rnd2 = Math.floor(Math.random() * nm6.length);

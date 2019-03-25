@@ -381,7 +381,8 @@ export default function circassians() {
     'Zhelihazhevy', 'Zhelkashevy', 'Zhelyasovy', 'Zhemadukovy',
     'Zhereshtievy', 'Zherugovy', 'Zherukovy', 'Zhigirovy', 'Zhilegotovy',
     'Zhiletezhevy', 'Zhilokovy', 'Zhilyasovy', 'Zhinzhakovy', 'Zhirikovy',
-    'Zhirokovy', 'Zhudovy', 'Zimahovy']; {
+    'Zhirokovy', 'Zhudovy', 'Zimahovy'];
+  {
     rnd2 = Math.floor(Math.random() * nm3.length);
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm2.length);

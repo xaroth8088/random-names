@@ -18,7 +18,8 @@ export default function jiralhanaes() {
     'ss', 'st', 'b', 'c', 'd', 'g', 'h', 'k', 'l', 'm', 'n', 'p', 'r', 's',
     't', 'v', 'z', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
     '', '', '', '', '', '', ''];
-  const nm5 = ['us', 'um', 'eus', 'eum', 'ion', 'ius', 'is']; {
+  const nm5 = ['us', 'um', 'eus', 'eum', 'ion', 'ius', 'is'];
+  {
     rnd = Math.floor(Math.random() * nm1.length);
     rnd2 = Math.floor(Math.random() * nm2.length);
     rnd3 = Math.floor(Math.random() * nm3.length);
@@ -30,8 +31,7 @@ export default function jiralhanaes() {
       }
     }
     rnd6 = Math.floor(Math.random() * nm5.length);
-    names = nm1[rnd] + nm2[rnd2] + nm3[rnd3] + nm2[rnd4] + nm4[rnd5] + nm5[
-      rnd6];
+    names = nm1[rnd] + nm2[rnd2] + nm3[rnd3] + nm2[rnd4] + nm4[rnd5] + nm5[rnd6];
     return names;
   }
 }

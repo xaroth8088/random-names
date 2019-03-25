@@ -27,7 +27,8 @@ export default function eladrins() {
     'neth', 'parys', 'prana', 'qirith', 'qis', 'raste', 'rastra', 'riele',
     'rynna', 'sanna', 'shana', 'sys', 'thaea', 'tora', 'trianna', 'vara',
     'viryn', 'vyre', 'wena', 'wyse', 'xana', 'xis', 'yana', 'yeira', 'zane',
-    'zora']; {
+    'zora'];
+  {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm3.length);
       rnd2 = Math.floor(Math.random() * nm4.length);

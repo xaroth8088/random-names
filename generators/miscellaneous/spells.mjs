@@ -179,7 +179,8 @@ export default function spells() {
     'Phant', 'Pris', 'Prist', 'Pur', 'Ref', 'Refin', 'Repeat', 'Repell',
     'Satan', 'Spir', 'Spirit', 'Tain', 'Terrib', 'Thund', 'Total', 'Tremend',
     'Vil', 'Virt', 'Virtu', 'Vulg'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     if (type === 1) {
       rnd = Math.floor(Math.random() * names8.length);
       rnd1 = Math.floor(Math.random() * names9.length);

@@ -23,11 +23,11 @@ export default function khajiits() {
     'hirin', 'karon', 'manrin', 'nmin', 'nahir', 'ohin', 'radir', 'sopor',
     'stahe', 'tamil', 'vanadi'];
   if (type === 2) {
-    names1 = ["Dra'", "Daro'", "Ko'", "Ab'", "Ak'", "Akh'", "Dar'", "Do'",
-      "Dro'", "Fa'", "J'", "Ja'", "Ji'", "Jo'", "K'", "M'", "Ma'", "Qa'",
-      "R'", "Ra'", "Ri'", "S'", "Za'", "Zan'", "Ab'", "Ak'", "Akh'", "Dar'",
-      "Do'", "Dro'", "Fa'", "J'", "Ja'", "Ji'", "Jo'", "K'", "M'", "Ma'",
-      "Qa'", "R'", "Ra'", "Ri'", "S'", "Za'", "Zan'", 'Am', 'Baa', 'Baad',
+    names1 = ['Dra\'', 'Daro\'', 'Ko\'', 'Ab\'', 'Ak\'', 'Akh\'', 'Dar\'', 'Do\'',
+      'Dro\'', 'Fa\'', 'J\'', 'Ja\'', 'Ji\'', 'Jo\'', 'K\'', 'M\'', 'Ma\'', 'Qa\'',
+      'R\'', 'Ra\'', 'Ri\'', 'S\'', 'Za\'', 'Zan\'', 'Ab\'', 'Ak\'', 'Akh\'', 'Dar\'',
+      'Do\'', 'Dro\'', 'Fa\'', 'J\'', 'Ja\'', 'Ji\'', 'Jo\'', 'K\'', 'M\'', 'Ma\'',
+      'Qa\'', 'R\'', 'Ra\'', 'Ri\'', 'S\'', 'Za\'', 'Zan\'', 'Am', 'Baa', 'Baad',
       'Bhi', 'Bhis', 'Dah', 'Dahl', 'Dro', 'Has', 'Hass', 'Hel', 'Heln',
       'Hus', 'Job', 'Joba', 'Jod', 'Jodh', 'Jos', 'Josh', 'Jot', 'Joto',
       'Kaz', 'Kaza', 'Kes', 'Kesh', 'Kha', 'Khar', 'Mo', 'Moham', 'Moj', 'Na',
@@ -50,11 +50,11 @@ export default function khajiits() {
       'zaka', 'ar', 'bar', 'bil', 'der', 'dul', 'gh', 'ir', 'kir', 'med',
       'nir', 'noud', 'sien', 'soud', 'taba', 'tabe', 'urabi'];
   } else {
-    names1 = ["Dra'", "Daro'", "Ko'", "La'", "Dar'", "Do'", "Dro'", "J'", "Ja'",
-      "Ji'", "Jo'", "M'", "Ma'", "Qa'", "Ra'", "Ri'", "S'", "Dar'", "Do'",
-      "Dro'", "J'", "Ja'", "Ji'", "Jo'", "M'", "Ma'", "Qa'", "Ra'", "Ri'",
-      "S'", "Dar'", "Do'", "Dro'", "J'", "Ja'", "Ji'", "Jo'", "M'", "Ma'",
-      "Qa'", "Ra'", "Ri'", "S'", 'A', 'Aba', 'Aban', 'Abh', 'Abhu', 'Ada',
+    names1 = ['Dra\'', 'Daro\'', 'Ko\'', 'La\'', 'Dar\'', 'Do\'', 'Dro\'', 'J\'', 'Ja\'',
+      'Ji\'', 'Jo\'', 'M\'', 'Ma\'', 'Qa\'', 'Ra\'', 'Ri\'', 'S\'', 'Dar\'', 'Do\'',
+      'Dro\'', 'J\'', 'Ja\'', 'Ji\'', 'Jo\'', 'M\'', 'Ma\'', 'Qa\'', 'Ra\'', 'Ri\'',
+      'S\'', 'Dar\'', 'Do\'', 'Dro\'', 'J\'', 'Ja\'', 'Ji\'', 'Jo\'', 'M\'', 'Ma\'',
+      'Qa\'', 'Ra\'', 'Ri\'', 'S\'', 'A', 'Aba', 'Aban', 'Abh', 'Abhu', 'Ada',
       'Adan', 'Add', 'Addh', 'Adh', 'Adha', 'Aff', 'Affr', 'Ahd', 'Ahda',
       'Ahdn', 'Ahdr', 'Ahj', 'Ahja', 'Ahji', 'Ahk', 'Ahka', 'Ahn', 'Ahna',
       'Ahnd', 'Ahni', 'Ahz', 'Ahzi', 'Ain', 'Aina', 'Aji', 'Ajir', 'Anj',
@@ -88,7 +88,8 @@ export default function khajiits() {
       'therra', 'tima', 'uki', 'ura', 'uzi', 'va', 'vani', 'vari', 'vi', 'ya',
       'yla', 'zami', 'zda', 'zhinda', 'zita', 'zura'];
   }
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     if (i < 5) {
       rnd = Math.floor(Math.random() * names1.length);
       rnd2 = Math.floor(Math.random() * names2.length);

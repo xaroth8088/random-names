@@ -275,7 +275,8 @@ export default function usernames() {
     'Watermelon', 'Weasel', 'Werewolf', 'Whale', 'Whelp', 'Willow', 'Witch',
     'Wizard', 'Wolf', 'Wolverine', 'Wombat', 'Woodpecker', 'Worm', 'Wraith',
     'Wrecker', 'Yak', 'Yeti', 'Yew', 'Zebra', 'Zombie'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     if (i < 4) {
       rnd = Math.floor(Math.random() * names1.length);
       names = names1[rnd];

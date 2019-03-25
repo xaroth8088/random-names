@@ -230,7 +230,8 @@ export default function horses() {
     'Twinkles', 'Una', 'Uno', 'Ursula', 'Vanilla', 'Velvet', 'Venus',
     'Veronica', 'Vickie', 'Victoria', 'Vilma', 'Violet', 'Virgo', 'Wanda',
     'Weeko', 'Wendy', 'Whiskers', 'Wiggle', 'Wiggles', 'Willow', 'Windy',
-    'Xena', 'Yang', 'Yin', 'Yvette', 'Zaney', 'Zelda']; {
+    'Xena', 'Yang', 'Yin', 'Yvette', 'Zaney', 'Zelda'];
+  {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm2.length);
       names = nm2[rnd];

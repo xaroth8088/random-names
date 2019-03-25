@@ -294,13 +294,11 @@ export default function plants() {
     random11c = Math.floor((Math.random() * names11c.length));
   }
   let random11d = Math.floor((Math.random() * names11c.length));
-  while (random11d === random11a || random11d === random11b || random11d
-    === random11c) {
+  while (random11d === random11a || random11d === random11b || random11d === random11c) {
     random11d = Math.floor((Math.random() * names11c.length));
   }
   let random11e = Math.floor((Math.random() * names11d.length));
-  while (random11e === random11a || random11e === random11b || random11e
-    === random11c || random11e === random11d) {
+  while (random11e === random11a || random11e === random11b || random11e === random11c || random11e === random11d) {
     random11e = Math.floor((Math.random() * names11d.length));
   }
   const random12 = Math.floor((Math.random() * names12.length));

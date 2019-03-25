@@ -217,7 +217,8 @@ export default function cowboys() {
     'Wilcox', 'Wilder', 'Wiley', 'Wilkerson', 'Wilkins', 'Wilkinson',
     'William', 'Williams', 'Williamson', 'Willis', 'Wilson', 'Winters',
     'Wise', 'Witt', 'Wolf', 'Wolfe', 'Wood', 'Woodard', 'Woods', 'Woodward',
-    'Workman', 'Wright', 'Wyatt', 'Yates', 'York', 'Young']; {
+    'Workman', 'Wright', 'Wyatt', 'Yates', 'York', 'Young'];
+  {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm2.length);
       rnd2 = Math.floor(Math.random() * nm3.length);

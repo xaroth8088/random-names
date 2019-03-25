@@ -36,7 +36,8 @@ export default function shifters() {
     'Snowflake', 'Spring', 'Star', 'Stardust', 'Sugar', 'Summer', 'Sun',
     'Sunrise', 'Sunset', 'Sunshine', 'Swill', 'Thistle', 'Tidal', 'Tiger',
     'Tinder', 'Topaz', 'Twig', 'Twilight', 'Urchin', 'Vapor', 'Violet',
-    'Whirl', 'Willow', 'Wind', 'Wing', 'Winter']; {
+    'Whirl', 'Willow', 'Wind', 'Wing', 'Winter'];
+  {
     if (type === 1) {
       rnd2 = Math.floor(Math.random() * names2.length);
       names = names2[rnd2];

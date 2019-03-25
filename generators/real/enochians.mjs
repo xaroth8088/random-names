@@ -37,7 +37,8 @@ export default function enochians() {
     'Xcz', 'Xdz', 'Xgazd', 'Xgzd', 'Xii', 'Xnilr', 'Xom', 'Xoy', 'Xpa',
     'Xpaxn', 'Xpcn', 'Xrinh', 'Xrnh', 'Xxan', 'Yasen', 'Zaabo', 'Zabo',
     'Zarnaah', 'Zarzi', 'Zarzilg', 'Zazi', 'Zdaxg', 'Zdxg', 'Zedekiel',
-    'Zinggen', 'Ziracah', 'Zirz', 'Ziza', 'Zurchol']; {
+    'Zinggen', 'Ziracah', 'Zirz', 'Ziza', 'Zurchol'];
+  {
     rnd = Math.floor(Math.random() * nm1.length);
     names = nm1[rnd];
     return names;

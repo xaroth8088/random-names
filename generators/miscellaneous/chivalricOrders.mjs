@@ -48,7 +48,8 @@ export default function chivalricOrders() {
   const nm4 = ['Knights', 'Order', 'Soldiers', 'Squires', 'Preservers',
     'Guardians', 'Custodians', 'Legion', 'League', 'Circle', 'Lancers',
     'Shields', 'Helmets', 'Templars', 'Knights', 'Order', 'Knights', 'Order'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     rnd2 = Math.floor(Math.random() * nm4.length);
     if (i < 3) {
       rnd = Math.floor(Math.random() * nm2.length);

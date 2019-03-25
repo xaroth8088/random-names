@@ -34,7 +34,8 @@ export default function sheeps() {
     'Silver', 'Smiley', 'Smooch', 'Smooches', 'Snowflake', 'Snuggle',
     'Snuggles', 'Snugs', 'Socks', 'Speckle', 'Speckles', 'Spice',
     'Strawberry', 'Sugar', 'Sweetie', 'Sweetpea', 'Teeny', 'Tinkerbell',
-    'Tiny', 'Tulip', 'Twinkie', 'Twinkle', 'Vanilla', 'Velvet', 'Venus']; {
+    'Tiny', 'Tulip', 'Twinkie', 'Twinkle', 'Vanilla', 'Velvet', 'Venus'];
+  {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm2.length);
       names = nm2[rnd];

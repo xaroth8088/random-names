@@ -65,7 +65,8 @@ export default function boarsBears() {
     'Snouts', 'Snowball', 'Soooeee', 'SpamelaAnderson', 'Sparerib',
     'Spiderpig', 'Squishy', 'Sweathog', 'Sweetie', 'Swinub', 'TammySwinette',
     'Tenderloin', 'Toby', 'Triath', 'Tristan', 'Truffles', 'Tubby', 'Tui',
-    'Twrch', 'VanCleef', 'WTFBBQ', 'Warpig', 'WhiteMeat', 'Wilbur', 'Ziggy']; {
+    'Twrch', 'VanCleef', 'WTFBBQ', 'Warpig', 'WhiteMeat', 'Wilbur', 'Ziggy'];
+  {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm2.length);
       names = nm2[rnd];

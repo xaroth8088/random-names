@@ -10,7 +10,7 @@ export default function northEuropeanTowns() {
     'havn', 'holm', 'hus', 'kilde', 'leva', 'lunda', 'nse', 'rød', 'ring',
     'rupa', 'saxea', 'sens', 'singør', 'slev', 'sted', 'strup', 'strupa',
     'sundby', 've', 'ved', 'vrea'];
-  /* Estonia */
+    /* Estonia */
   const nm3 = ['Ab', 'Ant', 'El', 'Haap', 'Jõge', 'Jõh', 'Kär', 'Kal', 'Kar',
     'Keh', 'Kei', 'Ki', 'Kiviõ', 'Koht', 'Kun', 'Kure', 'Li', 'Lihu', 'Lok',
     'Mõisa', 'Maar', 'Must', 'Nar', 'Ote', 'Pär', 'Põl', 'Pai', 'Pal', 'Rä',
@@ -21,7 +21,7 @@ export default function northEuropeanTowns() {
     'me', 'mme', 'na', 'ngi', 'nu', 'pää', 'pa', 'pina', 'ra', 'ri', 'ru',
     'sa', 'saare', 'salu', 'samaa', 'si', 'ski', 'ssaare', 'ssi', 'ste',
     'suu', 'tu', 'va', 'vee', 'vere', 'viõli', 'vi'];
-  /* Finland */
+    /* Finland */
   const nm5 = ['Ääne', 'Ähtä', 'Ala', 'Hämeen', 'Ha', 'Haapa', 'Han', 'Harja',
     'Hauki', 'Hei', 'Hel', 'Hui', 'Hy', 'Iisal', 'Ikaa', 'Ima', 'Jäm',
     'Järven', 'Joen', 'Juan', 'Jyväs', 'Ka', 'Kaa', 'Kala', 'Kan', 'Kankaan',
@@ -41,7 +41,7 @@ export default function northEuropeanTowns() {
     'sämäki', 'saari', 'siä', 'sinki', 'ssa', 'suu', 'tali', 'tee', 'tila',
     'tinen', 'tra', 'ttila', 'ttinen', 'vala', 'valta', 'vesi', 'vieska',
     'viisa', 'voo', 'vus'];
-  /* Iceland */
+    /* Iceland */
   const nm7 = ['Álf', 'Árbæjar', 'Ísaf', 'Ólafs', 'Þórs', 'Þin', 'Þorláks',
     'Ak', 'Aku', 'Bíldu', 'Búðar', 'Bakka', 'Bi', 'Blön', 'Bolungar',
     'Borgar', 'Brúnah', 'Brautar', 'Breiðdals', 'Byggðak', 'Dal', 'Djúpi',
@@ -62,7 +62,7 @@ export default function northEuropeanTowns() {
     'staður', 'lækur', 'höfn', 'hólar', 'holt', 'jahlíð', 'javík', 'heimar',
     'vík', 'gerði', 'krókur', 'foss', 'narnes', 'strönd', 'seyri', 'hólmur',
     'reyri', 'seyri', 'naeyjar'];
-  /* Latvia */
+    /* Latvia */
   const nm9 = ['Ai', 'Aiz', 'Ak', 'Akni', 'Alo', 'Alu', 'Aluk', 'Ba', 'Bal',
     'Baus', 'Bro', 'Ce', 'Ces', 'Dag', 'Daugav', 'Do', 'Dur', 'Es', 'Gro',
     'Gul', 'Ik', 'Iluk', 'Jaun', 'Jekab', 'Jel', 'Jur', 'Kan', 'Kar', 'Ke',
@@ -80,7 +80,7 @@ export default function northEuropeanTowns() {
     'niste', 'paja', 'pils', 'pute', 'salaca', 'sava', 'sis', 'site', 'ska',
     'skile', 'sne', 'sta', 'tene', 'tne', 'vaine', 'vani', 'vinas', 'za',
     'zekne'];
-  /* Lithuania */
+    /* Lithuania */
   const nm11 = ['Šak', 'Šal', 'Šed', 'Šiaul', 'Šil', 'Šir', 'Šven', 'Žag',
     'Žiež', 'Ak', 'Al', 'Anyk', 'Ario', 'Bal', 'Bir', 'Daug', 'Drus', 'Duk',
     'Duset', 'Ežer', 'Eišis', 'Elek', 'Gar', 'Garg', 'Gel', 'Grig', 'Ignal',
@@ -105,7 +105,7 @@ export default function northEuropeanTowns() {
     'tavas', 'tena', 'tinga', 'toji', 'tos', 'trenai', 'tus', 'va', 'valus',
     'varija', 'varis', 'vas', 'vežys', 'venai', 'ventis', 'viškis', 'vile',
     'viliškis', 'vintos', 'vis', 'zlu', 'znas'];
-  /* Norway */
+    /* Norway */
   const nm13 = ['Åkre', 'Åle', 'Åndal', 'Åsgård', 'Aren', 'As', 'Brønnøy',
     'Bre', 'Brek', 'Brumund', 'Drø', 'Eger', 'El', 'Fager', 'Far', 'Finn',
     'Flekke', 'Fos', 'Gjø', 'Grim', 'Høne', 'Hal', 'Hammer', 'Har', 'Hauge',
@@ -120,7 +120,7 @@ export default function northEuropeanTowns() {
     'kanger', 'kenes', 'kim', 'kjer', 'land', 'nes', 'reid', 'ros', 'rum',
     'søor', 'søra', 'sand', 'ske', 'sla', 'snes', 'sos', 'stad', 'strøm',
     'strand', 'sund', 'våg', 'vanger', 'verg', 'vern', 'vik', 'vinger'];
-  /* Sweden */
+    /* Sweden */
   const nm15 = ['Ängel', 'Ål', 'Ö', 'Öre', 'Öst', 'Öster', 'Aling', 'Ar',
     'Asker', 'Båt', 'Berg', 'Björn', 'Boll', 'Bor', 'Borg', 'Dag', 'Djurs',
     'Ek', 'En', 'Eskil', 'Fager', 'Falken', 'Falster', 'Fin', 'Fol', 'Gamle',
@@ -138,7 +138,8 @@ export default function northEuropeanTowns() {
     'land', 'landa', 'llefteå', 'näs', 'sås', 'sand', 'sele', 'shamn', 'sjö',
     'stad', 'strand', 'stuna', 'sun', 'sund', 'tälje', 'torp', 'tuna', 'vall',
     'valla', 'vik', 'viken'];
-  const i = Math.floor(Math.random() * 16); {
+  const i = Math.floor(Math.random() * 16);
+  {
     if (i < 2) {
       rnd = Math.floor(Math.random() * nm1.length);
       rnd2 = Math.floor(Math.random() * nm2.length);

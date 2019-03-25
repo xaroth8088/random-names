@@ -31,7 +31,8 @@ export default function tribes() {
     'Sun', 'Swamp', 'Sword', 'Thunder', 'Titan', 'Tooth', 'Tower', 'Watch',
     'Water', 'Whisper', 'Wing', 'Witch', 'Wolf', 'Woods'];
   const names3 = ['Tribe', 'Kin', 'Clan', 'Warriors', 'Children', 'Caste',
-    'Horde', 'Tribe']; {
+    'Horde', 'Tribe'];
+  {
     rnd = Math.floor(Math.random() * names1.length);
     rnd2 = Math.floor(Math.random() * names2.length);
     rnd3 = Math.floor(Math.random() * names3.length);

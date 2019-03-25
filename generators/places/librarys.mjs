@@ -31,7 +31,8 @@ export default function librarys() {
     'Wonder', 'Zenith'];
   const nm2 = ['Library', 'Bilbiotheca', 'Library', 'Library', 'Library',
     'Library', 'Library', 'Library', 'Library', 'Library', 'Library',
-    'Atheneum']; {
+    'Atheneum'];
+  {
     rnd = Math.floor(Math.random() * nm1.length);
     rnd2 = Math.floor(Math.random() * nm2.length);
     names = `${nm1[rnd]} ${nm2[rnd2]}`;

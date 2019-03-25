@@ -42,7 +42,8 @@ export default function ruins() {
     'Soot', 'Spirit', 'Stone', 'Twilight', 'Uncanny', 'Undone', 'Unknown',
     'Vanquished', 'Vibrating', 'Void', 'Waste', 'Wasted', 'Weeping',
     'Whisper', 'Whispering', 'Windy', 'Wreckage'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     if (i < 5) {
       rnd = Math.floor(Math.random() * nm1.length);
       rnd2 = Math.floor(Math.random() * nm2.length);

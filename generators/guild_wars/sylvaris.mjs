@@ -716,7 +716,8 @@ export default function sylvaris() {
     'Treise', 'Tristyn', 'Tullia', 'Tyra', 'Ulicia', 'Una', 'Unity', 'Uny',
     'Vala', 'Valmai', 'Vanora', 'Vevila', 'Vevina', 'Vika', 'Wenda', 'Wendi',
     'Wendy', 'Winifred', 'Winnie', 'Winnifred', 'Wyn', 'Wynda', 'Wynne',
-    'Wynnifred', 'Ysbail', 'Zaira']; {
+    'Wynnifred', 'Ysbail', 'Zaira'];
+  {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm2.length);
       names = nm2[rnd];

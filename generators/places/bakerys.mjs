@@ -51,7 +51,8 @@ export default function bakerys() {
     'Top of the Muffin', 'Torte Reform', 'Tough Cookies', 'Tout de Sweet',
     'Up the Cakes', 'Wakey Bakey', 'Wallflour', 'We Knead Dough',
     'We Take the Cake', 'Wee Flours', 'Whisk it for a Biscuit',
-    'Whoopie Cakes', 'Witching Flours', 'You Take the Cake']; {
+    'Whoopie Cakes', 'Witching Flours', 'You Take the Cake'];
+  {
     rnd = Math.floor(Math.random() * nm1.length);
     names = nm1[rnd];
     nm1.splice(rnd, 1);

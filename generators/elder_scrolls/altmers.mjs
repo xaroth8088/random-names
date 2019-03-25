@@ -105,7 +105,8 @@ export default function altmers() {
     'orin', 'thar', 'us', 'watch', 'aere', 'ahl', 'kaender', 'aen', 'ihre',
     'ious', 'ore', 'onin', 'fhar', 'eus', 'aine', 'ael', 'iath', 'ihle',
     'iuth', 'our', 'orinh', 'thaer', 'useus', 'faere', 'an', 'iane', 'ifeth',
-    'thius', 'oth', 'aerith', 'fhaer', 'osin']; {
+    'thius', 'oth', 'aerith', 'fhaer', 'osin'];
+  {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm3.length);
       rnd2 = Math.floor(Math.random() * nm4.length);

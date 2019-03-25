@@ -53,7 +53,7 @@ export default function tians() {
     'oe', 'ou', 'u', 'uo'];
   const nm19 = ['ch', 'k', 'l', 'm', 'n', 'ng', 'r', 'rn', 's', 't', 'th', 'v',
     'y'];
-  /* Tian-Hwan - Korean */
+    /* Tian-Hwan - Korean */
   const nm20 = ['b', 'by', 'ch', 'd', 'g', 'h', 'hy', 'j', 'k', 'kw', 'ky', 'm',
     'my', 'n', 'p', 'py', 's', 'sh', 't', 'w', 'y'];
   const nm21 = ['a', 'ae', 'am', 'an', 'ang', 'e', 'ee', 'ejun', 'eo', 'eon',
@@ -104,7 +104,7 @@ export default function tians() {
     'Tae', 'Tam', 'Tan', 'Tang', 'To', 'Tokko', 'Ton', 'Tong', 'Tongbang',
     'Tu', 'Uh', 'Um', 'Un', 'Wang', 'Wi', 'Won', 'Wu', 'Ya', 'Yang', 'Ye',
     'Yi', 'Yo', 'Yom', 'Yon', 'Yong', 'Yop', 'Yu', 'Yuk', 'Yun'];
-  /* Tian-La - Mongolian */
+    /* Tian-La - Mongolian */
   const nm27 = ['', '', '', 'b', 'c', 'ch', 'd', 'dh', 'g', 'gh', 'h', 'j', 'k',
     'kh', 'l', 'm', 'n', 'q', 's', 'sh', 't', 'th', 'ts', 'x', 'y', 'z', 'zh'];
   const nm28 = ['aie', 'aa', 'ei', 'aiu', 'ua', 'uu', 'eio', 'oi', 'ai', 'a',
@@ -201,7 +201,7 @@ export default function tians() {
     'suda', 'ta', 'tani', 'to', 'tori', 'tsuda', 'tsuno', 'wa', 'wano',
     'wara', 'wata', 'ya', 'yabu', 'yake', 'yama', 'yashi', 'yata', 'yeda',
     'yoshi', 'zaki', 'zuki', 'zuma', 'zumi'];
-  /* Tian-Shu - Chinese */
+    /* Tian-Shu - Chinese */
   const nm41 = ['b', 'ch', 'd', 'f', 'g', 'h', 'j', 'k', 'l', 'm', 'p', 'q',
     'r', 'sh', 's', 't', 'ts', 'w', 'x', 'y', 'z', 'zh'];
   const nm42 = ['ai', 'uo', 'ao', 'eu', 'ia', 'ua', 'uo', 'ei', 'ui', 'a', 'e',
@@ -227,7 +227,7 @@ export default function tians() {
   const nm49 = ['ai', 'ao', 'au', 'ee', 'ea', 'eo', 'eu', 'ia', 'iao', 'ie',
     'io', 'ua', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e',
     'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u'];
-  /* Tian-Sing - Indonesian */
+    /* Tian-Sing - Indonesian */
   const nm50 = ['b', 'c', 'd', 'dj', 'dw', 'g', 'h', 'j', 'kr', 'k', 'p', 'r',
     's', 'sl', 't', 'tr', 'w', 'y'];
   const nm51 = ['ua', 'ia', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u',
@@ -244,7 +244,8 @@ export default function tians() {
     'ng', 'nn', 'nt', 'r', 'rj', 'rl', 'rm', 'rt', 's', 'sk', 'st', 't', 'th',
     'tn', 'tr', 'v', 'w', 'y'];
   const nm57 = ['', '', '', 'h', 'n', 'r'];
-  const i = Math.floor(Math.random() * 14); {
+  const i = Math.floor(Math.random() * 14);
+  {
     if (type === 1) {
       if (i < 2) {
         rnd = Math.floor(Math.random() * nm4.length);

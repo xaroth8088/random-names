@@ -185,7 +185,8 @@ export default function suebis() {
     'Uenildi', 'Uistrileuba', 'Unilli', 'Vedrailli', 'Vergilli', 'Vestregoti',
     'Vigilli', 'Vilesinda', 'Villavaria', 'Viscaverga', 'Visclavara',
     'Vistesinda', 'Vistiberga', 'Vistivara', 'Vistravara', 'Vistregia',
-    'Vistresilli', 'Vistrildi']; {
+    'Vistresilli', 'Vistrildi'];
+  {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm2.length);
       names = nm2[rnd];

@@ -46,7 +46,8 @@ export default function streets() {
     'Vista', 'Walnut', 'Water', 'Wellness', 'West', 'Wetland', 'Wharf',
     'Willow', 'Windmill', 'Winter', 'Wright', 'Yew'];
   const nm2 = ['Street', 'Avenue', 'Lane', 'Row', 'Boulevard', 'Way', 'Route',
-    'Passage', 'Street', 'Avenue', 'Lane']; {
+    'Passage', 'Street', 'Avenue', 'Lane'];
+  {
     rnd = Math.floor(Math.random() * nm1.length);
     rnd2 = Math.floor(Math.random() * nm2.length);
     names = `${nm1[rnd]} ${nm2[rnd2]}`;

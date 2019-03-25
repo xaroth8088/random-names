@@ -687,7 +687,8 @@ export default function cats() {
     'Zelinda', 'Zelpha', 'Zena', 'Zenaide', 'Zenia', 'Zephyr', 'Zera', 'Zeva',
     'Zevida', 'Zia', 'Zigana', 'Zila', 'Zilia', 'Zina', 'Zingara', 'Zinnia',
     'Ziona', 'Zisel', 'Zita', 'Zizi', 'Zoe', 'Zoila', 'Zola', 'Zona', 'Zonda',
-    'Zora', 'Zosima', 'Zotia', 'Zula', 'Zulema', 'Zuriaa', 'Zuriela']; {
+    'Zora', 'Zosima', 'Zotia', 'Zula', 'Zulema', 'Zuriaa', 'Zuriela'];
+  {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm2.length);
       names = nm2[rnd];

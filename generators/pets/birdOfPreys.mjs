@@ -37,7 +37,8 @@ export default function birdOfPreys() {
     'Sable', 'Sabre', 'Sanguine', 'Scarlett', 'Serenity', 'Shade', 'Shadow',
     'Shaye', 'Siren', 'Skye', 'Snow', 'Storm', 'Termina', 'Truce', 'Twilight',
     'Tyra', 'Vanity', 'Velvet', 'Victoria', 'Violet', 'Vixen', 'Wilde',
-    'Willow', 'Winter', 'Xena']; {
+    'Willow', 'Winter', 'Xena'];
+  {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm2.length);
       names = nm2[rnd];

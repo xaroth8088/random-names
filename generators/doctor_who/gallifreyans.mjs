@@ -54,7 +54,8 @@ export default function gallifreyans() {
     'rl', 'rm', 'st', 'sv', 'str', 'tr', 'th', 'v'];
   const nm13 = ['', '', '', '', '', 'd', 'l', 'll', 'm', 'm', 'n', 'nn', 'r',
     's', 'ss', 'sh', 'th'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     if (type === 1) {
       if (i < 4) {
         rnd = Math.floor(Math.random() * nm8.length);
@@ -68,9 +69,7 @@ export default function gallifreyans() {
         rnd9 = Math.floor(Math.random() * nm12.length);
         rnd10 = Math.floor(Math.random() * nm2.length);
         rnd11 = Math.floor(Math.random() * nm13.length);
-        names = nm8[rnd] + nm2[rnd2] + nm9[rnd3] + nm10[rnd4] + nm11[rnd5]
-          + nm2[rnd6] + nm12[rnd7] + nm2[rnd8] + nm12[rnd9] + nm2[rnd10] + nm13[
-          rnd11];
+        names = nm8[rnd] + nm2[rnd2] + nm9[rnd3] + nm10[rnd4] + nm11[rnd5] + nm2[rnd6] + nm12[rnd7] + nm2[rnd8] + nm12[rnd9] + nm2[rnd10] + nm13[rnd11];
       } else if (i < 7) {
         rnd = Math.floor(Math.random() * nm8.length);
         rnd2 = Math.floor(Math.random() * nm2.length);
@@ -85,9 +84,7 @@ export default function gallifreyans() {
         rnd11 = Math.floor(Math.random() * nm12.length);
         rnd12 = Math.floor(Math.random() * nm2.length);
         rnd13 = Math.floor(Math.random() * nm13.length);
-        names = nm8[rnd] + nm2[rnd2] + nm9[rnd3] + nm10[rnd4] + nm11[rnd5]
-          + nm2[rnd6] + nm12[rnd7] + nm2[rnd8] + nm12[rnd9] + nm2[rnd10] + nm12[
-          rnd11] + nm2[rnd12] + nm13[rnd13];
+        names = nm8[rnd] + nm2[rnd2] + nm9[rnd3] + nm10[rnd4] + nm11[rnd5] + nm2[rnd6] + nm12[rnd7] + nm2[rnd8] + nm12[rnd9] + nm2[rnd10] + nm12[rnd11] + nm2[rnd12] + nm13[rnd13];
       } else {
         rnd = Math.floor(Math.random() * nm8.length);
         rnd2 = Math.floor(Math.random() * nm2.length);
@@ -104,9 +101,7 @@ export default function gallifreyans() {
         rnd13 = Math.floor(Math.random() * nm12.length);
         rnd14 = Math.floor(Math.random() * nm2.length);
         rnd15 = Math.floor(Math.random() * nm13.length);
-        names = nm8[rnd] + nm2[rnd2] + nm9[rnd3] + nm10[rnd4] + nm11[rnd5]
-          + nm2[rnd6] + nm12[rnd7] + nm2[rnd8] + nm12[rnd9] + nm2[rnd10] + nm12[
-          rnd11] + nm2[rnd12] + nm12[rnd13] + nm2[rnd14] + nm13[rnd15];
+        names = nm8[rnd] + nm2[rnd2] + nm9[rnd3] + nm10[rnd4] + nm11[rnd5] + nm2[rnd6] + nm12[rnd7] + nm2[rnd8] + nm12[rnd9] + nm2[rnd10] + nm12[rnd11] + nm2[rnd12] + nm12[rnd13] + nm2[rnd14] + nm13[rnd15];
       }
     } else if (i < 4) {
       rnd = Math.floor(Math.random() * nm1.length);
@@ -120,8 +115,7 @@ export default function gallifreyans() {
       rnd9 = Math.floor(Math.random() * nm6.length);
       rnd10 = Math.floor(Math.random() * nm2.length);
       rnd11 = Math.floor(Math.random() * nm7.length);
-      names = nm1[rnd] + nm2[rnd2] + nm3[rnd3] + nm2[rnd4] + nm4[rnd5] + nm2[
-        rnd6] + nm5[rnd7] + nm2[rnd8] + nm6[rnd9] + nm2[rnd10] + nm7[rnd11];
+      names = nm1[rnd] + nm2[rnd2] + nm3[rnd3] + nm2[rnd4] + nm4[rnd5] + nm2[rnd6] + nm5[rnd7] + nm2[rnd8] + nm6[rnd9] + nm2[rnd10] + nm7[rnd11];
     } else if (i < 7) {
       rnd = Math.floor(Math.random() * nm1.length);
       rnd2 = Math.floor(Math.random() * nm2.length);
@@ -136,9 +130,7 @@ export default function gallifreyans() {
       rnd11 = Math.floor(Math.random() * nm6.length);
       rnd12 = Math.floor(Math.random() * nm2.length);
       rnd13 = Math.floor(Math.random() * nm7.length);
-      names = nm1[rnd] + nm2[rnd2] + nm3[rnd3] + nm2[rnd4] + nm4[rnd5] + nm2[
-        rnd6] + nm5[rnd7] + nm2[rnd8] + nm6[rnd9] + nm2[rnd10] + nm6[rnd11]
-        + nm2[rnd12] + nm7[rnd13];
+      names = nm1[rnd] + nm2[rnd2] + nm3[rnd3] + nm2[rnd4] + nm4[rnd5] + nm2[rnd6] + nm5[rnd7] + nm2[rnd8] + nm6[rnd9] + nm2[rnd10] + nm6[rnd11] + nm2[rnd12] + nm7[rnd13];
     } else {
       rnd = Math.floor(Math.random() * nm1.length);
       rnd2 = Math.floor(Math.random() * nm2.length);
@@ -155,9 +147,7 @@ export default function gallifreyans() {
       rnd13 = Math.floor(Math.random() * nm6.length);
       rnd14 = Math.floor(Math.random() * nm2.length);
       rnd15 = Math.floor(Math.random() * nm7.length);
-      names = nm1[rnd] + nm2[rnd2] + nm3[rnd3] + nm2[rnd4] + nm4[rnd5] + nm2[
-        rnd6] + nm5[rnd7] + nm2[rnd8] + nm6[rnd9] + nm2[rnd10] + nm6[rnd11]
-        + nm2[rnd12] + nm6[rnd13] + nm2[rnd14] + nm7[rnd15];
+      names = nm1[rnd] + nm2[rnd2] + nm3[rnd3] + nm2[rnd4] + nm4[rnd5] + nm2[rnd6] + nm5[rnd7] + nm2[rnd8] + nm6[rnd9] + nm2[rnd10] + nm6[rnd11] + nm2[rnd12] + nm6[rnd13] + nm2[rnd14] + nm7[rnd15];
     }
     return names;
   }

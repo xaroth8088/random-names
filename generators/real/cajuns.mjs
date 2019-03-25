@@ -204,7 +204,8 @@ export default function cajuns() {
     'Savoie', 'Savoy', 'Schexnayder', 'Semer', 'Simon', 'Simoneaux',
     'Surette', 'Tassin', 'Terriau', 'Theriault', 'Theriot', 'Thibault',
     'Thibeau', 'Thibodeau', 'Thibodeaux', 'Tourangeau', 'Toussaint', 'Trahan',
-    'Tregre', 'Veco', 'Vilatte', 'Vincent', 'Voyer', 'Yvon']; {
+    'Tregre', 'Veco', 'Vilatte', 'Vincent', 'Voyer', 'Yvon'];
+  {
     rnd2 = Math.floor(Math.random() * nm3.length);
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm2.length);

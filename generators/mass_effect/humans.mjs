@@ -3184,7 +3184,8 @@ export default function humans() {
     'Yoe', 'Yoke', 'Yonge', 'Yongue', 'Yore', 'York', 'Yorke', 'Yorks',
     'Youell', 'Youman', 'Youmans', 'Young', 'Younger', 'Youngman', 'Youngs',
     'Yule', 'Yung', 'Zacharias', 'Zachary', 'Zachery', 'Zachry', 'Zane',
-    'Zone']; {
+    'Zone'];
+  {
     if (type === 1) {
       rnd = Math.floor(Math.random() * namesFemale.length);
       rnd1 = Math.floor(Math.random() * names2.length);

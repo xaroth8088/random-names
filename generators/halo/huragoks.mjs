@@ -75,7 +75,8 @@ export default function huragoks() {
     'Troublesome Balance', 'Troublesome Floater', 'Troublesome Plummet',
     'Troublesome Sinker', 'Tumbles A Lot', 'Unhurriedly Floats',
     'Unhurriedly Sinks', 'Unlikely To Balance', 'Unlikely To Crash',
-    'Unlikely To Float', 'Unlikely To Sink', 'Very Dense', 'Very Heavy']; {
+    'Unlikely To Float', 'Unlikely To Sink', 'Very Dense', 'Very Heavy'];
+  {
     rnd = Math.floor(Math.random() * nm1.length);
     names = nm1[rnd];
     nm1.splice(rnd, 1);

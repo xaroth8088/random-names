@@ -25,7 +25,8 @@ export default function deaths() {
   const nm5 = ['', '', '', '', '', '', '', '', '', '', '', '', 'c', 'cs', 'c',
     'd', 'd', 'h', 'h', 'k', 'k', 'ks', 'l', 'ls', 'l', 'n', 'n', 'ng', 'nth',
     'q', 'q', 'r', 'r', 'rs', 's', 's', 't', 't', 'th', 'v', 'x'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     rnd = Math.floor(Math.random() * nm1.length);
     rnd2 = Math.floor(Math.random() * nm2.length);
     rnd5 = Math.floor(Math.random() * nm5.length);
@@ -41,8 +42,7 @@ export default function deaths() {
       rnd3 = Math.floor(Math.random() * nm3.length);
       rnd4 = Math.floor(Math.random() * nm4.length);
       rnd6 = Math.floor(Math.random() * nm2.length);
-      names = nm1[rnd] + nm2[rnd2] + nm3[rnd3] + nm4[rnd4] + nm2[rnd6] + nm5[
-        rnd5];
+      names = nm1[rnd] + nm2[rnd2] + nm3[rnd3] + nm4[rnd4] + nm2[rnd6] + nm5[rnd5];
     } else {
       rnd3 = Math.floor(Math.random() * nm3.length);
       rnd4 = Math.floor(Math.random() * nm4.length);
@@ -50,8 +50,7 @@ export default function deaths() {
       rnd7 = Math.floor(Math.random() * nm3.length);
       rnd8 = Math.floor(Math.random() * nm4.length);
       rnd9 = Math.floor(Math.random() * nm2.length);
-      names = nm1[rnd] + nm2[rnd2] + nm3[rnd3] + nm4[rnd4] + nm2[rnd6] + nm3[
-        rnd7] + nm4[rnd8] + nm2[rnd9] + nm5[rnd5];
+      names = nm1[rnd] + nm2[rnd2] + nm3[rnd3] + nm4[rnd4] + nm2[rnd6] + nm3[rnd7] + nm4[rnd8] + nm2[rnd9] + nm5[rnd5];
     }
     return names;
   }

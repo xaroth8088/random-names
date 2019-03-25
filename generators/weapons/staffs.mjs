@@ -216,7 +216,8 @@ export default function staffs() {
     'Valkyrie', 'Vanity', 'Verdict', 'Visage', 'Visage of Arrogance',
     'Visage of Truth', 'Will of Truth', 'Will of the Master', 'Windcaller',
     'Windfall', 'Windwalker', 'Windweaver', 'Worldshaper'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     if (i < 3) {
       rnd = Math.floor(Math.random() * nm1.length);
       names = nm1[rnd];

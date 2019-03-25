@@ -241,7 +241,8 @@ export default function nepaleses() {
     'Tsering', 'Tshering', 'Tuladhar', 'Tumbahangphe', 'Tumbahangphey',
     'Upadhayay', 'Upadhya', 'Upadhyay', 'Upadhyaya', 'Upreti', 'Uprety',
     'Vaidya', 'Vaishnav', 'Vajracharya', 'Verma', 'Vidyadhar', 'Wagle',
-    'Waiba', 'Wasti', 'Wosti', 'Yadav', 'Yogi', 'Yonjan', 'Yonzon']; {
+    'Waiba', 'Wasti', 'Wosti', 'Yadav', 'Yogi', 'Yonjan', 'Yonzon'];
+  {
     rnd2 = Math.floor(Math.random() * nm3.length);
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm2.length);

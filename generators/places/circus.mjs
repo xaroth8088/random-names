@@ -237,7 +237,8 @@ export default function circus() {
   const nm5 = ['Circus', 'Cirque', 'Hippodrome', 'Bazaar', 'Big Top', 'Circus',
     'Cirque', 'Circus', 'Cirque', 'Circus', 'Circus', 'Circus', 'Circus',
     'Circus', 'Circus', 'Circus'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     rnd5 = Math.floor(Math.random() * nm5.length);
     if (i < 2) {
       rnd = Math.floor(Math.random() * nm1.length);

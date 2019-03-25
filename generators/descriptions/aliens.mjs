@@ -340,13 +340,11 @@ export default function aliens() {
     random12c = Math.floor((Math.random() * names12c.length));
   }
   let random12d = Math.floor((Math.random() * names12c.length));
-  while (random12d === random12a || random12d === random12b || random12d
-    === random12c) {
+  while (random12d === random12a || random12d === random12b || random12d === random12c) {
     random12d = Math.floor((Math.random() * names12c.length));
   }
   let random12e = Math.floor((Math.random() * names12d.length));
-  while (random12e === random12a || random12e === random12b || random12e
-    === random12c || random12e === random12d) {
+  while (random12e === random12a || random12e === random12b || random12e === random12c || random12e === random12d) {
     random12e = Math.floor((Math.random() * names12d.length));
   }
   const random13 = Math.floor((Math.random() * names13.length));

@@ -112,7 +112,8 @@ export default function reptiles() {
     'Tinsel', 'Tisiphone', 'Titania', 'Tom', 'Tora', 'Trinity', 'Trixie',
     'Ulysses', 'Vala', 'Valentine', 'Valkyrie', 'Vesta', 'Vivian', 'Waffle',
     'Wanda', 'Wednesday', 'Willow', 'Wynter', 'Yeva', 'Zara', 'Zelda',
-    'Zhanna', 'Zilla', 'Zinoviya', 'Zippy', 'Zoe']; {
+    'Zhanna', 'Zilla', 'Zinoviya', 'Zippy', 'Zoe'];
+  {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm2.length);
       names = nm2[rnd];

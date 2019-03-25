@@ -155,7 +155,8 @@ export default function hyurs() {
     'Torment', 'Trasher', 'Valor', 'Warblade', 'Warcry', 'Warfury', 'Warsong',
     'Warsoul', 'Windstorm', 'Wolfe', 'Wolfshead', 'Wolfsheart', 'Wolfshowl',
     'Wrath'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     if (type === 1) {
       if (i < 5) {
         rnd = Math.floor(Math.random() * nm3.length);

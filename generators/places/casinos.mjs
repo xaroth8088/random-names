@@ -51,7 +51,8 @@ export default function casinos() {
     'Stallion', 'Star', 'Talisman', 'Tempest', 'Tiara', 'Tigress', 'Trillium',
     'Trinket', 'Valley', 'Wolfhound', 'Zenith', 'Zephyr'];
   const nm4 = ['', ' Casino'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     if (i < 5) {
       rnd = Math.floor(Math.random() * nm1.length);
       rnd2 = Math.floor(Math.random() * nm4.length);

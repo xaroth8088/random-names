@@ -36,7 +36,8 @@ export default function kingdoms() {
     'topia', 'tor', 'tus', 'valon', 'varia', 'vell', 'ven', 'via', 'viel',
     'wen', 'weth', 'wyth', 'ya', 'zar', 'zia'];
   const names6 = ['Kingdom', 'Empire', 'Dynasty'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     if (i < 5) {
       rnd = Math.floor(Math.random() * names1.length);
       rnd2 = Math.floor(Math.random() * names3.length);

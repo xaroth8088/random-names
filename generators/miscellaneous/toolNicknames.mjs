@@ -44,7 +44,8 @@ export default function toolNicknames() {
     'Weeping Bell', 'Wheel of Death', 'Whiskers', 'Whiskey Stick',
     'Wiggle Stick', 'Wiggler', 'Winger', 'Wippersnapper', 'Wishywashy',
     'Wizzer', 'Wonker', 'Woodhandle', 'Woodpecker', 'Wrapper', 'Zapper',
-    'Zigzag', 'Zipzap']; {
+    'Zigzag', 'Zipzap'];
+  {
     rnd = Math.floor(Math.random() * nm1.length);
     names = `The ${nm1[rnd]}`;
     return names;

@@ -5,8 +5,7 @@ export default function parks() {
   let rnd3;
   let rnd4;
   let rnd5;
-  let
-    rnd6;
+  let rnd6;
   const names1 = ['Almond', 'Angel', 'Angel Island', 'Angelwing', 'Antelope',
     'Bamboo', 'Bayview', 'Bearhug', 'Big Pond', 'Birch', 'Birdsong',
     'Blossom', 'Blue Laguna', 'Boulderfield', 'Briarwood', 'Broadview',
@@ -60,7 +59,8 @@ export default function parks() {
     'ms', 'n', 'nn', 'nt', 'ns', 'p', 'ps', 'pt', 'ph', 'q', 'r', 'rs', 'rt',
     'rst', 'rq', 'rk', 'rc', 'rf', 'rb', 'rd', 's', 'st', 'ss', 'sh', 'sk',
     'sp', 't', 'th', 'ts', 'w', 'wth', 'x', 'z'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     if (i < 6) {
       rnd = Math.floor(Math.random() * names1.length);
       rnd2 = Math.floor(Math.random() * names2.length);

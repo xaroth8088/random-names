@@ -94,7 +94,8 @@ export default function ghosts() {
     'Soldier', 'Soul', 'Specter', 'Squire', 'Stalker', 'Student', 'Teacher',
     'Teenager', 'Templar', 'Toddler', 'Torturer', 'Vision', 'Visitor',
     'Warden', 'Widow', 'Wizard', 'Woman', 'Wraith', 'Writer'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     if (i < 5) {
       if (type === 1) {
         rnd = Math.floor(Math.random() * names2.length);

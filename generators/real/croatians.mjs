@@ -212,7 +212,8 @@ export default function croatians() {
     'Zekić', 'Železnjak', 'Želić', 'Žilić', 'Ženić', 'Žeravica', 'Žganec',
     'Žgela', 'Žuvjivuć', 'Židak', 'Žižić', 'Zlatunić', 'Zoretić', 'Zovko',
     'Zorić', 'Zubak', 'Zubčić', 'Zubović', 'Žugaj', 'Žugec', 'Zulim', 'Zunec',
-    'Žunić', 'Županić', 'Zuvić', 'Žužić', 'Zrinski']; {
+    'Žunić', 'Županić', 'Zuvić', 'Žužić', 'Zrinski'];
+  {
     rnd2 = Math.floor(Math.random() * nm3.length);
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm2.length);

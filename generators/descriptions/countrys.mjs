@@ -346,13 +346,11 @@ export default function countrys() {
     random33c = Math.floor((Math.random() * names26b.length));
   }
   let random33d = Math.floor((Math.random() * names26b.length));
-  while (random33d === random33 || random33d === random33b || random33d
-    === random33c) {
+  while (random33d === random33 || random33d === random33b || random33d === random33c) {
     random33d = Math.floor((Math.random() * names26b.length));
   }
   let random33e = Math.floor((Math.random() * names26c.length));
-  while (random33e === random33 || random33e === random33b || random33e
-    === random33c || random33e === random33d) {
+  while (random33e === random33 || random33e === random33b || random33e === random33c || random33e === random33d) {
     random33e = Math.floor((Math.random() * names26c.length));
   }
   const random34 = Math.floor((Math.random() * names27.length));

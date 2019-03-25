@@ -40,7 +40,8 @@ export default function heists() {
     'Termination', 'Terror', 'Textbook', 'Thunder', 'Titan', 'Torture',
     'Treasure', 'Twin', 'Tyrant', 'Undead', 'Underdog', 'Vanishing', 'Venom',
     'Vigilante', 'Void', 'Voodoo', 'Walking Dead', 'Warden', 'Watchdog',
-    'Wild Goose', 'Witchcraft', 'Worthless', 'Zero', 'Zombie']; {
+    'Wild Goose', 'Witchcraft', 'Worthless', 'Zero', 'Zombie'];
+  {
     rnd = Math.floor(Math.random() * nm1.length);
     rnd2 = Math.floor(Math.random() * nm2.length);
     names = `The ${nm1[rnd]} ${nm2[rnd2]}`;

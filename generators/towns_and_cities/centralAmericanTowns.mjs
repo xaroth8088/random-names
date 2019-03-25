@@ -23,7 +23,7 @@ export default function centralAmericanTowns() {
     'rell', 'res', 'resa', 'resso', 'ret', 'rio', 'sejo', 'sita', 'so', 'ta',
     'tad', 'to', 'ton', 'vo', 'wee', 'xha', 'ya', 'za', 'zalito', 'zaro',
     'zon'];
-  /* Costa Rica */
+    /* Costa Rica */
   const nm3 = ['Ala', 'Alajue', 'Ase', 'Ate', 'Ba', 'Baga', 'Be', 'Bi', 'Bija',
     'Ca', 'Cahui', 'Cape', 'Car', 'Carri', 'Carta', 'Cha', 'Chaca', 'Ciu',
     'Co', 'Coli', 'Corre', 'Curri', 'De', 'Desa', 'Desam', 'Esca', 'Espa',
@@ -47,7 +47,7 @@ export default function centralAmericanTowns() {
     'rillos', 'rique', 'rita', 'sada', 'sco', 'si', 'sol', 'ta', 'tago',
     'tan', 'tas', 'tina', 'tral', 'trillos', 'tuna', 'xana', 'yas', 'yure',
     'za'];
-  /* El Salvador */
+    /* El Salvador */
   const nm5 = ['Aca', 'Agui', 'Ahua', 'Ana', 'Anamo', 'Anti', 'Apa', 'Apaste',
     'Apo', 'Arme', 'Ati', 'Atiqui', 'Ayu', 'Ayutu', 'Cacao', 'Can', 'Cande',
     'Cha', 'Chal', 'Chala', 'Chi', 'China', 'Chiri', 'Ciu', 'Coa', 'Coate',
@@ -69,7 +69,7 @@ export default function centralAmericanTowns() {
     'ria', 'rinto', 'rio', 'ros', 'sito', 'sonate', 'sori', 'stin', 'tan',
     'tepan', 'tian', 'tin', 'tique', 'toto', 'vador', 'ya', 'zalco', 'zapa',
     'zaya'];
-  /* Guatemala */
+    /* Guatemala */
   const nm7 = ['Aca', 'Agua', 'Almo', 'Alo', 'Alote', 'Ami', 'Anti', 'Asu',
     'Asun', 'Ate', 'Ayu', 'Bar', 'Barbe', 'Bari', 'Ca', 'Cabri', 'Can',
     'Casi', 'Cha', 'Cham', 'Chi', 'Chia', 'Chian', 'Chica', 'Chichi',
@@ -104,7 +104,7 @@ export default function centralAmericanTowns() {
     'tel', 'tempa', 'tenango', 'tiapa', 'tic', 'titlan', 'tor', 'tores',
     'toria', 'toya', 'tulul', 'va', 'yac', 'yuta', 'zal', 'zicia', 'zos',
     'zuela', 'zun'];
-  /* Honduras */
+    /* Honduras */
   const nm9 = ['Ama', 'Amapa', 'Ara', 'Ari', 'Arme', 'Armen', 'Aza', 'Azacua',
     'Bara', 'Bo', 'Boni', 'Ca', 'Cam', 'Campa', 'Cana', 'Cha', 'Cho', 'Ciu',
     'Co', 'Cofra', 'Coma', 'Cor', 'Coro', 'Cucu', 'Cuya', 'Dan', 'El Ci',
@@ -133,7 +133,7 @@ export default function centralAmericanTowns() {
     'rosa', 'ruelo', 'senti', 'sica', 'spire', 'stan', 'tal', 'tas', 'teca',
     'tez', 'tiapa', 'tosa', 'tuca', 'veral', 'yagua', 'zal', 'zan', 'zapa',
     'zona'];
-  /* Nicaragua */
+    /* Nicaragua */
   const nm11 = ['Achua', 'Aco', 'Alta', 'Be', 'Boa', 'Boca', 'Bona', 'Bonan',
     'Bue', 'Ca', 'Camoa', 'Car', 'Carde', 'Cata', 'Chi', 'Chichi', 'China',
     'Chinan', 'Cin', 'Ciu', 'Coma', 'Con', 'Conde', 'Cor', 'Cori', 'Cua',
@@ -158,7 +158,7 @@ export default function centralAmericanTowns() {
     'res', 'riamba', 'rina', 'rinto', 'rio', 'riomo', 'rito', 'rote', 'saya',
     'sio', 'tal', 'tapa', 'te', 'tega', 'teli', 'tepe', 'tiguas', 'tillo',
     'to', 'tosi', 'vas', 'ya', 'yapa', 'zan', 'zas', 'zonte'];
-  /* Panama */
+    /* Panama */
   const nm13 = ['Achu', 'Agua', 'Aili', 'Ala', 'Alan', 'Alca', 'Almi', 'An',
     'Arra', 'Arrai', 'Ase', 'Aser', 'Ata', 'Bar', 'Barra', 'Barran', 'Beju',
     'Bo', 'Boque', 'Bu', 'Bue', 'Buga', 'Ca', 'Cab', 'Cai', 'Caimi', 'Cal',
@@ -188,7 +188,8 @@ export default function centralAmericanTowns() {
     'sa', 'sapin', 'se', 'si', 'ta', 'tas', 'teno', 'tezo', 'tijo', 'tillo',
     'tiva', 'to', 'ton', 'tos', 'tova', 'tun', 'tupo', 'va', 'vala', 'viza',
     'vo', 'zada', 'zas'];
-  const i = Math.floor(Math.random() * 14); {
+  const i = Math.floor(Math.random() * 14);
+  {
     if (i < 2) {
       rnd = Math.floor(Math.random() * nm1.length);
       rnd2 = Math.floor(Math.random() * nm2.length);

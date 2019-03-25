@@ -893,7 +893,8 @@ export default function elfs() {
     ['', '', ''],
   ];
   let lastChar = '';
-  const i = Math.floor(Math.random() * 5); {
+  const i = Math.floor(Math.random() * 5);
+  {
     if (i < 3) {
       rnd = Math.floor(Math.random() * nm1.length);
       lastChar = nm1[rnd][0].substr(nm1[rnd][0].length - 1);

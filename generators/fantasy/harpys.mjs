@@ -21,7 +21,8 @@ export default function harpys() {
     'ise', 'o', 'oah', 'oe', 'oelle', 'oene', 'oinne', 'ola', 'one', 'onia',
     'ophine', 'ophis', 'ora', 'orena', 'oris', 'oya', 'ya', 'yana', 'ylia',
     'ylis', 'yne', 'ynea', 'ynne', 'ynore', 'yore', 'yphe', 'yre', 'yrea',
-    'yris', 'ys', 'yth']; {
+    'yris', 'ys', 'yth'];
+  {
     rnd = Math.floor(Math.random() * nm1.length);
     rnd2 = Math.floor(Math.random() * nm2.length);
     names = nm1[rnd] + nm2[rnd2];

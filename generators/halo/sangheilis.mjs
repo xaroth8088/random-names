@@ -27,7 +27,8 @@ export default function sangheilis() {
   const nm8 = ['ea', 'ha', 'he', 'ia', 'ie', 'io', 'la', 'le', 'lo', 'ma', 'me',
     'mi', 'mo', 'n', 'na', 'ne', 'pa', 'sa', 'se', 'sha', 'she', 'so', 'wa',
     'we', 'xa', 'xe', 'xi', 'ya', 'ye', 'yo'];
-  const nm9 = ['', '', 'ee', '', 'ai']; {
+  const nm9 = ['', '', 'ee', '', 'ai'];
+  {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm6.length);
       rnd2 = Math.floor(Math.random() * nm7.length);

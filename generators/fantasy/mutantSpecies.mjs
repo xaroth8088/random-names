@@ -54,7 +54,8 @@ export default function mutantSpecies() {
   const names7 = ['', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'y',
     'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'y', 'a', 'e', 'i', 'o',
     'u', 'a', 'e', 'i', 'o', 'u', 'y'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     if (i < 4) {
       rnd = Math.floor(Math.random() * names1.length);
       names = `The ${names1[rnd]}`;
@@ -71,8 +72,7 @@ export default function mutantSpecies() {
         rnd4 = 0;
       }
       rnd5 = Math.floor(Math.random() * names3.length);
-      names = names4[rnd] + names5[rnd2] + names6[rnd3] + names7[rnd4] + names3[
-        rnd5];
+      names = names4[rnd] + names5[rnd2] + names6[rnd3] + names7[rnd4] + names3[rnd5];
     }
     return names;
   }

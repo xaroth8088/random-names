@@ -145,8 +145,7 @@ export default function towns() {
     random15 = Math.floor((Math.random() * names14.length));
   }
   let random16 = Math.floor((Math.random() * names11.length));
-  while (random16 === random11 || random16 === random12 || random16
-    === random13) {
+  while (random16 === random11 || random16 === random12 || random16 === random13) {
     random16 = Math.floor((Math.random() * names11.length));
   }
   const random17 = Math.floor((Math.random() * names17.length));
@@ -208,9 +207,7 @@ export default function towns() {
       'Jalai', 'Javyn', 'Jijel', 'Juma', 'Jumoke', 'Kaijin', 'Kazko',
       'Maalik', 'Makas', 'Malak', 'Nyabingi', 'Rahjin', 'Rakash', 'Rashi',
       'Razi'];
-  } else if (random6 === 1 || random6 === 11 || random6 === 12 || random6
-    === 15
-    || random6 === 16 || random6 === 17) {
+  } else if (random6 === 1 || random6 === 11 || random6 === 12 || random6 === 15 || random6 === 16 || random6 === 17) {
     names5 = ['Gandoline', 'Galadoneh', 'Tirianae', 'Darnassea', 'Sinashari',
       'Kaladorei', 'Hiborane', 'Fandralore', 'Cenorias', 'Ishnuala'];
     names8 = ['Wyninn', 'Ninleyn', 'Tinlef', 'Elluin', 'Elduin', 'Elmon',

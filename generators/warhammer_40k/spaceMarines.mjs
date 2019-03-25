@@ -166,7 +166,8 @@ export default function spaceMarines() {
     'iam', 'iar', 'ica', 'idya', 'iel', 'ikus', 'im', 'io', 'ios', 'ist',
     'istus', 'it', 'ius', 'ixx', 'on', 'onus', 'or', 'orak', 'os', 'oss',
     'ova', 'ox', 'oza', 'uebus', 'uil', 'uila', 'urus', 'us', 'yras', 'ys'];
-  const i = Math.floor(Math.random() * 12); {
+  const i = Math.floor(Math.random() * 12);
+  {
     if (i < 3) {
       rnd = Math.floor(Math.random() * nm1.length);
       names = nm1[rnd];

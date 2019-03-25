@@ -321,7 +321,8 @@ export default function fantasyClass() {
     'Totemist', 'Transmuter', 'Trapsmith', 'Trickster', 'Valkyrie', 'Vampire',
     'Viking', 'Warden', 'Warlock', 'Warlord', 'Warmage', 'Warmaster',
     'Warpriest', 'Warrior', 'Weaponmaster', 'Weaver', 'Windwalker', 'Witch',
-    'Witch Doctor']; {
+    'Witch Doctor'];
+  {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm2.length);
       names = nm2[rnd];

@@ -104,7 +104,8 @@ export default function akans() {
     'Sintim', 'Siriboe', 'Soadwa', 'Soadwah', 'Sowah', 'Tagoe', 'Takyi',
     'Tandoh', 'Tawiah', 'Tuffour', 'Twasam', 'Tweneboa', 'Tweneboah',
     'Twerefuo', 'Twum', 'Twumasi', 'Vorsah', 'Wiafe', 'Wiredu', 'Yamoah',
-    'Yankah', 'Yartei', 'Yeboah', 'Yiadom']; {
+    'Yankah', 'Yartei', 'Yeboah', 'Yiadom'];
+  {
     rnd2 = Math.floor(Math.random() * nm3.length);
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm2.length);

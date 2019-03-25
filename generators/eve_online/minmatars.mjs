@@ -91,7 +91,8 @@ export default function minmatars() {
     'rta', 'rtha', 'rtna', 'sih', 'sina', 'ska', 'sol', 'ssa', 'sta', 'ta',
     'tha', 'ti', 'tna', 'to', 'tra', 'trea', 'tri', 'tt', 'tta', 'tu', 'tua',
     'va', 'van', 'veca', 'veka', 'vi', 'war', 'wati', 'wi', 'xia', 'xina',
-    'yja']; {
+    'yja'];
+  {
     if (type === 1) {
       rnd = Math.floor(Math.random() * names3.length);
       rnd2 = Math.floor(Math.random() * names4.length);

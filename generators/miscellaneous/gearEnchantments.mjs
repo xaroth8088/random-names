@@ -77,7 +77,8 @@ export default function gearEnchantments() {
     'the Prodigy', 'the Prophecy', 'the Prophet', 'the Queen', 'the River',
     'the Scourge', 'the Seer', 'the Serpent', 'the Steward', 'the Sun',
     'the Swamp', 'the Void', 'the Volcano', 'the Ward', 'the Warrior',
-    'the Whale', 'the Wolf']; {
+    'the Whale', 'the Wolf'];
+  {
     rnd = Math.floor(Math.random() * nm1.length);
     rnd2 = Math.floor(Math.random() * nm2.length);
     names = `${nm1[rnd]} of ${nm2[rnd2]}`;

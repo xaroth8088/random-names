@@ -156,7 +156,8 @@ export default function steampunks() {
     'Wheelwright', 'Whitesmith', 'Whiting', 'Wickham', 'Wilkins', 'Winch',
     'Windlass', 'Winterman', 'Wrayburn', 'Wyndham', 'Wyverstone', 'Yardley',
     'Yorke'];
-  const names1 = type === 1 ? namesFemale : namesMale; {
+  const names1 = type === 1 ? namesFemale : namesMale;
+  {
     rnd = Math.floor(Math.random() * names1.length);
     rnd2 = Math.floor(Math.random() * names1.length);
     while (rnd2 === rnd) {

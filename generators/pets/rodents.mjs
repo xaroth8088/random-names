@@ -213,7 +213,8 @@ export default function rodents() {
     'Xena', 'Xenon', 'Yolanda', 'Yummerz', 'Yvette', 'Yvonne', 'Yzma', 'Zada',
     'Zara', 'Zata', 'Zaza', 'Zea', 'Zeira', 'Zelda', 'Zenda', 'Zeppelin',
     'Zila', 'Ziona', 'Zippy', 'Zoe', 'Zoey', 'Zola', 'Zona', 'Zora', 'Zowie',
-    'Zsa Zsa', 'Zuzu']; {
+    'Zsa Zsa', 'Zuzu'];
+  {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm2.length);
       names = nm2[rnd];

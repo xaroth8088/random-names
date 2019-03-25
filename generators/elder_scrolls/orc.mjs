@@ -121,7 +121,8 @@ export default function orc() {
     'rkub', 'rkul', 'rn', 'rob', 'rol', 'rolg', 'rump', 'rz', 'rzog', 'rzuf',
     'sh', 'sharzol', 'shnar', 't', 'th', 'tub', 'tur', 'twog', 'u', 'ub',
     'ug', 'uk', 'ul', 'ulg', 'um', 'uma', 'ump', 'ur', 'urn', 'urz', 'ush',
-    'wog', 'z', 'zag', 'zgub', 'zog', 'zol', 'zor', 'zuf']; {
+    'wog', 'z', 'zag', 'zgub', 'zog', 'zol', 'zor', 'zuf'];
+  {
     rnd5 = Math.floor(Math.random() * nm5.length);
     rnd6 = Math.floor(Math.random() * nm6.length);
     if (type === 1) {

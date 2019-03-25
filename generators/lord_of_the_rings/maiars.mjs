@@ -20,7 +20,8 @@ export default function maiars() {
   const nm8 = ['l', 'll', 'lm', 'ln', 'ls', 'm', 'md', 'n', 'nd', 'nm', 'nw',
     'r', 's', 'ss', 't', 'w'];
   const nm9 = ['l', 'm', 'n', 'nd', 'r', 's', 't', 'th'];
-  const nm10 = ['o', 'e', 'ë', 'ó', '', '', '', '']; {
+  const nm10 = ['o', 'e', 'ë', 'ó', '', '', '', ''];
+  {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm1.length);
       rnd2 = Math.floor(Math.random() * nm2.length);
@@ -33,8 +34,7 @@ export default function maiars() {
       }
       rnd5 = Math.floor(Math.random() * nm4.length);
       rnd6 = Math.floor(Math.random() * nm5.length);
-      names = nm1[rnd] + nm2[rnd2] + nm3[rnd3] + nm2[rnd4] + nm4[rnd5] + nm5[
-        rnd6];
+      names = nm1[rnd] + nm2[rnd2] + nm3[rnd3] + nm2[rnd4] + nm4[rnd5] + nm5[rnd6];
     } else {
       rnd = Math.floor(Math.random() * nm6.length);
       rnd2 = Math.floor(Math.random() * nm7.length);
@@ -47,8 +47,7 @@ export default function maiars() {
       }
       rnd5 = Math.floor(Math.random() * nm9.length);
       rnd6 = Math.floor(Math.random() * nm10.length);
-      names = nm6[rnd] + nm7[rnd2] + nm8[rnd3] + nm7[rnd4] + nm9[rnd5] + nm10[
-        rnd6];
+      names = nm6[rnd] + nm7[rnd2] + nm8[rnd3] + nm7[rnd4] + nm9[rnd5] + nm10[rnd6];
     }
     return names;
   }

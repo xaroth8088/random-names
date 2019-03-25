@@ -42,7 +42,8 @@ export default function lions() {
     'Snowball', 'Snowflake', 'Snuggles', 'Song', 'Sphinx', 'Spot', 'Stripes',
     'Sugar', 'Summer', 'Sundance', 'Sweetie', 'Tickles', 'Tigress', 'Tiny',
     'Toots', 'Trixie', 'Truffles', 'Twilight', 'Twinkle', 'Umbreon', 'Violet',
-    'Waffles', 'Whiskers', 'Whisper', 'Wiggles', 'Willow', 'Winter']; {
+    'Waffles', 'Whiskers', 'Whisper', 'Wiggles', 'Willow', 'Winter'];
+  {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm2.length);
       names = nm2[rnd];

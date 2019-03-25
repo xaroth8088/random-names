@@ -10,7 +10,8 @@ export default function vexs() {
     'io', 'y', 'y', 'ia', 'ea'];
   const nm3 = ['d', 'dh', 'dr', 'g', 'gg', 'gh', 'gr', 'k', 'kh', 'kk', 'kr',
     'lg', 'lk', 'nk', 'nr', 'rg', 'rk', 'sk', 'th', 'tr'];
-  const nm4 = ['m', 'n', 's', 't', 'x']; {
+  const nm4 = ['m', 'n', 's', 't', 'x'];
+  {
     rnd = Math.floor(Math.random() * nm1.length);
     rnd2 = Math.floor(Math.random() * nm2.length);
     rnd3 = Math.floor(Math.random() * nm3.length);

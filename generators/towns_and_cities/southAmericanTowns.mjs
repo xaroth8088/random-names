@@ -35,7 +35,7 @@ export default function southAmericanTowns() {
     'tagal', 'tana', 'tas', 'te', 'telli', 'tencia', 'tes', 'tiago', 'tier',
     'tiro', 'to', 'tuya', 'va', 'vedra', 'vez', 'vier', 'ya', 'yito', 'yo',
     'yos', 'zú', 'za'];
-  /* Bolivia */
+    /* Bolivia */
   const nm3 = ['Aba', 'Acha', 'Ai', 'Aiqui', 'Ali', 'Ama', 'An', 'Ara', 'Asce',
     'Ascen', 'Ato', 'Ba', 'Bata', 'Batal', 'Be', 'Beta', 'Betan', 'Bo', 'Bue',
     'Caña', 'Ca', 'Cama', 'Cami', 'Capi', 'Caya', 'Cha', 'Chaka', 'Challa',
@@ -65,7 +65,7 @@ export default function southAmericanTowns() {
     'rete', 'ri', 'rija', 'rillos', 'rina', 'rito', 'ro', 'roico', 'ros',
     'ruro', 'sí', 'sar', 'ta', 'tajata', 'tero', 'to', 'toca', 'tora',
     'toral', 'tosí', 'tus', 'ya', 'yu', 'yuibe', 'za', 'zana', 'zos'];
-  /* Brazil */
+    /* Brazil */
   const nm5 = ['Ala', 'Alagoi', 'Ame', 'Aná', 'An', 'Ana', 'Anani', 'Ananin',
     'Apa', 'Apere', 'Araça', 'Ara', 'Araca', 'Arai', 'Arapi', 'Arara', 'Ato',
     'Ba', 'Bar', 'Barba', 'Barrei', 'Bau', 'Be', 'Bel', 'Beto', 'Blu',
@@ -101,7 +101,7 @@ export default function southAmericanTowns() {
     'sa', 'sende', 'sina', 'soró', 'tão', 'tagem', 'tal', 'tanhal', 'tano',
     'tas', 'tes', 'tia', 'tiba', 'tim', 'tinga', 'tininga', 'tos', 'triz',
     'tuba', 'va', 'vador', 'vel', 'xias', 'zano', 'zea', 'zeiro', 'zia'];
-  /* Chile */
+    /* Chile */
   const nm7 = ['An', 'Anto', 'Arau', 'Ari', 'Bu', 'Bui', 'Bul', 'Cañe', 'Ca',
     'Cab', 'Cabre', 'Cala', 'Calbu', 'Cale', 'Car', 'Cara', 'Carta', 'Cas',
     'Cau', 'Cauque', 'Chai', 'Chi', 'Chicu', 'Chigua', 'Chim', 'Chimba',
@@ -131,7 +131,7 @@ export default function southAmericanTowns() {
     'rongo', 'ropa', 'ros', 'stad', 'tén', 'ta', 'tagena', 'tal', 'tana',
     'taro', 'tel', 'tillar', 'to', 'tro', 'ví', 'va', 'via', 'vier', 'yante',
     'yehue'];
-  /* Paraguay */
+    /* Paraguay */
   const nm9 = ['Ña', 'Ñacu', 'Ñacun', 'Ñu', 'Aba', 'Aca', 'Al', 'Albo', 'An',
     'Ante', 'Ar', 'Are', 'Arqui', 'Arro', 'Aty', 'Ayo', 'Be', 'Bel', 'Ben',
     'Bue', 'Caa', 'Caapu', 'Caaza', 'Camby', 'Capi', 'Capia', 'Car', 'Cara',
@@ -158,7 +158,7 @@ export default function southAmericanTowns() {
     'rica', 'ro', 'rubí', 'sardi', 'scada', 'tá', 'tán', 'tí', 'tay', 'tecto',
     'tiago', 'tora', 'tos', 'tuy', 'ty', 'wa', 'yó', 'yaó', 'yapey', 'yaty',
     'yaybi', 'yos', 'zapá'];
-  /* Peru */
+    /* Peru */
   const nm11 = ['Aba', 'Aban', 'Aco', 'Acol', 'Agua', 'Am', 'Anda', 'Are', 'As',
     'Asco', 'Aya', 'Azá', 'Azán', 'Ba', 'Bam', 'Bamba', 'Bar', 'Barra', 'Bue',
     'Ca', 'Caja', 'Cal', 'Cam', 'Cama', 'Campo', 'Cará', 'Car', 'Carhua',
@@ -199,7 +199,7 @@ export default function southAmericanTowns() {
     'sica', 'ta', 'tamana', 'tel', 'tillo', 'tina', 'tipo', 'tos', 'tupe',
     'velica', 'vera', 'verde', 'verry', 'vilca', 'viri', 'vista', 'ya',
     'yape', 'yas', 'yeque', 'za', 'zuta'];
-  /* Uruguay */
+    /* Uruguay */
   const nm13 = ['Ace', 'Ai', 'Aqua', 'Arti', 'At', 'Atlá', 'Ba', 'Bal', 'Bar',
     'Be', 'Bel', 'Bla', 'Blan', 'Ca', 'Cane', 'Car', 'Cardo', 'Carme', 'Cas',
     'Casti', 'Casu', 'Ce', 'Cebo', 'Cer', 'Chu', 'Co', 'Colo', 'Cur', 'Del',
@@ -221,7 +221,8 @@ export default function southAmericanTowns() {
     'rio', 'ro', 'sandú', 'sar', 'sario', 'scala', 'supá', 'tas', 'tasar',
     'tes', 'tiago', 'tida', 'tigas', 'tillos', 'tina', 'tista', 'va', 'venir',
     'vera', 'vo'];
-  const i = Math.floor(Math.random() * 14); {
+  const i = Math.floor(Math.random() * 14);
+  {
     if (i < 2) {
       rnd = Math.floor(Math.random() * nm1.length);
       rnd2 = Math.floor(Math.random() * nm2.length);

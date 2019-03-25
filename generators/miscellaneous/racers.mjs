@@ -33,7 +33,8 @@ export default function racers() {
     'Thriller', 'Throttle', 'Turbo', 'Twitch', 'Typhoon', 'Velocity', 'Viper',
     'Wheelie', 'Wheelspin', 'White Smoke', 'Wild Thing', 'Wings', 'Wolf',
     'Wonderkid', 'Xelarate', 'Zero', 'Zero Light', 'Zigzag', 'Zoomer',
-    'Zoomzoom']; {
+    'Zoomzoom'];
+  {
     rnd = Math.floor(Math.random() * nm1.length);
     names = nm1[rnd];
     return names;

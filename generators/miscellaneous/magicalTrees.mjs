@@ -73,7 +73,8 @@ export default function magicalTrees() {
     'etto', 'ew', 'eye', 'ifer', 'immon', 'ine', 'iper', 'irch', 'ock',
     'olia', 'on', 'onet', 'ood', 'ore', 'orn', 'ory', 'ove', 'ow', 'uce',
     'um', 'us'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     if (i < 6) {
       rnd = Math.floor(Math.random() * nm1.length);
       rnd2 = Math.floor(Math.random() * nm2.length);

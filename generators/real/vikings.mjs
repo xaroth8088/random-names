@@ -492,7 +492,8 @@ export default function vikings() {
     'Vigbjordottir', 'Vigfusdottir', 'Vigidottir', 'Vigotdottir',
     'Vikardottir', 'Visätedottir', 'Vogdottir', 'Vottdottir',
     'Waltheofdottir', 'Warydottir', 'Wealglistdottir', 'Wengodottir',
-    'Yngvardottir', 'Ysoppadottir']; {
+    'Yngvardottir', 'Ysoppadottir'];
+  {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm3.length);
       rnd2 = Math.floor(Math.random() * nm4.length);

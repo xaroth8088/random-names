@@ -44,7 +44,8 @@ export default function stadiums() {
     'Tribute', 'Trinity', 'Triumph', 'Trust', 'Tulip', 'Twilight', 'Twin',
     'Unity', 'Universe', 'Valley', 'Valor', 'Velvet', 'Venture', 'Vertex',
     'Victory', 'Visage', 'Vision', 'Vista', 'Vortex', 'Voyage', 'White Stag',
-    'Willow', 'Wish', 'Zion', 'Zodiac']; {
+    'Willow', 'Wish', 'Zion', 'Zodiac'];
+  {
     rnd2 = Math.floor(Math.random() * nm2.length);
     rnd = Math.floor(Math.random() * nm1.length);
     names = `${nm1[rnd]} ${nm2[rnd2]}`;

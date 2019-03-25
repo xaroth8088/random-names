@@ -33,7 +33,8 @@ export default function ninjas() {
     'eyes', 'fall', 'flake', 'flash', 'flow', 'kill', 'lock', 'mark', 'moon',
     'saw', 'scar', 'shade', 'shadow', 'shiv', 'shot', 'sign', 'slinger',
     'stain', 'stike', 'streak', 'strikes', 'stroke', 'tooth'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     if (i < 5) {
       rnd = Math.floor(Math.random() * names1.length);
       rnd2 = Math.floor(Math.random() * names2.length);

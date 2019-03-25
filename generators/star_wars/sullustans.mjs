@@ -58,7 +58,8 @@ export default function sullustans() {
     'bb', 'bbs', 'bl', 'c', 'cb', 'd', 'h', 'k', 'l', 'll', 'ls', 'm', 'mb',
     'mm', 'mp', 'n', 'nb', 'nd', 'nn', 'nr', 'nt', 'p', 'pt', 'r', 'rb', 'rl',
     'rr', 'rs', 'rss', 's', 'st', 't', 'th', 'v', 'vv', 'wn', 'z'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     rnd7 = Math.floor(Math.random() * nm9.length);
     rnd8 = Math.floor(Math.random() * nm10.length);
     rnd10 = Math.floor(Math.random() * nm12.length);
@@ -70,8 +71,7 @@ export default function sullustans() {
     } else {
       rnd9 = Math.floor(Math.random() * nm10.length);
       rnd11 = Math.floor(Math.random() * nm11.length);
-      namelast = nm9[rnd7] + nm10[rnd8] + nm11[rnd11] + nm10[rnd9] + nm12[
-        rnd10];
+      namelast = nm9[rnd7] + nm10[rnd8] + nm11[rnd11] + nm10[rnd9] + nm12[rnd10];
     }
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm5.length);

@@ -37,7 +37,8 @@ export default function ortolans() {
   const nm11 = ['b', 'd', 'g', 'j', 'k', 'l', 'm', 'n', 'q', 't', 'v'];
   const nm12 = ['', '', '', '', 'd', 'g', 'k', 'l', 'm', 'n', 'q', 'r', 's',
     'x'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     rnd7 = Math.floor(Math.random() * nm9.length);
     rnd8 = Math.floor(Math.random() * nm10.length);
     rnd10 = Math.floor(Math.random() * nm12.length);
@@ -46,8 +47,7 @@ export default function ortolans() {
     } else {
       rnd9 = Math.floor(Math.random() * nm10.length);
       rnd11 = Math.floor(Math.random() * nm11.length);
-      namelast = nm9[rnd7] + nm10[rnd8] + nm11[rnd11] + nm10[rnd9] + nm12[
-        rnd10];
+      namelast = nm9[rnd7] + nm10[rnd8] + nm11[rnd11] + nm10[rnd9] + nm12[rnd10];
     }
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm5.length);

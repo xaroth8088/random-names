@@ -114,7 +114,8 @@ export default function chineses() {
     'Yuke', 'Yuming', 'Yun', 'Yunru', 'Yusheng', 'Yuying', 'Yuzhen',
     'Zhaohui', 'Zhen', 'Zhenzhen', 'Zhilan', 'Zhu', 'Zi', 'Zongying'];
   const names2 = type === 1 ? namesFemale : namesMale;
-  const names1 = namesFamily; {
+  const names1 = namesFamily;
+  {
     rnd = Math.floor(Math.random() * names1.length);
     rnd1 = Math.floor(Math.random() * names2.length);
     names = `${names1[rnd]} ${names2[rnd1]}`;

@@ -152,7 +152,8 @@ export default function gameSoundtracks() {
     'Tavern', 'Temple', 'Territory', 'Tomb', 'Tower', 'Town', 'Tree',
     'Tribute', 'Tune', 'Vault', 'Village', 'Volcano', 'Voyage', 'Waterfall',
     'Whisper', 'Winter', 'Woman'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     if (i < 3) {
       rnd = Math.floor(Math.random() * names1.length);
       rnd2 = Math.floor(Math.random() * names2.length);

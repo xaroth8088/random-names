@@ -219,8 +219,7 @@ export default function flags() {
     random15 = Math.floor((Math.random() * names4.length));
   }
   let random16 = Math.floor((Math.random() * names5.length));
-  while (random16 === random13 || random16 === random14 || random16
-    === random15) {
+  while (random16 === random13 || random16 === random14 || random16 === random15) {
     random16 = Math.floor((Math.random() * names5.length));
   }
   const random17 = Math.floor((Math.random() * names6.length));

@@ -137,7 +137,8 @@ export default function futuristics() {
     'Tamira', 'Taraia', 'Taryne', 'Tatum', 'Temrance', 'Thalira', 'Tira',
     'Tiyana', 'Ulivia', 'Vaessa', 'Valria', 'Valrie', 'Valriya', 'Viliana',
     'Wyla', 'Wylo', 'Wylow', 'Ylena', 'Ylivea', 'Yrenea', 'Yve', 'Zaera',
-    'Zaiyah', 'Zarilah', 'Zarina', 'Zarinah', 'Ziahra']; {
+    'Zaiyah', 'Zarilah', 'Zarina', 'Zarinah', 'Ziahra'];
+  {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm2.length);
       names = nm2[rnd];

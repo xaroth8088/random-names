@@ -37,7 +37,8 @@ export default function freeFolks() {
     'grim', 'gvar', 'kmar', 'kul', 'laf', 'lner', 'mir', 'mun', 'mund', 'myr',
     'narr', 'nir', 'rald', 'rand', 'regg', 'rigg', 'rik', 'rne', 'rnir',
     'rolf', 'rrand', 'val'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     if (i < 5) {
       if (type === 1) {
         rnd = Math.floor(Math.random() * names1.length);

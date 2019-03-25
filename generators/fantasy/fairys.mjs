@@ -162,7 +162,8 @@ export default function fairys() {
     'twist', 'vale', 'valley', 'vine', 'wax', 'weather', 'web', 'whirl',
     'whisk', 'whisper', 'whistle', 'white', 'willow', 'wind', 'wing', 'wings',
     'wink', 'wish', 'wood', 'wort'];
-  const names1 = type === 1 ? namesFemale : namesMale; {
+  const names1 = type === 1 ? namesFemale : namesMale;
+  {
     rnd = Math.floor(Math.random() * names1.length);
     rnd2 = Math.floor(Math.random() * namesFamily.length);
     rnd3 = Math.floor(Math.random() * namesFamily2.length);

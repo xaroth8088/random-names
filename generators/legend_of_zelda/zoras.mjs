@@ -16,7 +16,8 @@ export default function zoras() {
   const nm6 = ['a', 'u', 'o', 'e'];
   const nm7 = ['r', 't', 'l', 'n', 'r', 't', 'l', 'ph', 'v', 'm'];
   const nm8 = ['', '', '', '', '', '', 'n', 'h'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm5.length);
       rnd2 = Math.floor(Math.random() * nm6.length);
@@ -33,8 +34,7 @@ export default function zoras() {
       } else {
         rnd6 = Math.floor(Math.random() * nm6.length);
         rnd7 = Math.floor(Math.random() * nm7.length);
-        names = nm5[rnd] + nm6[rnd2] + nm7[rnd3] + nm6[rnd5] + nm7[rnd7] + nm6[
-          rnd6] + nm8[rnd4];
+        names = nm5[rnd] + nm6[rnd2] + nm7[rnd3] + nm6[rnd5] + nm7[rnd7] + nm6[rnd6] + nm8[rnd4];
       }
     } else {
       rnd = Math.floor(Math.random() * nm1.length);

@@ -45,7 +45,8 @@ export default function barbarians() {
     'tk', 'tr', 'tt', 'tth', 'v', 'y', 'yj', 'ym', 'yn'];
   const nm8 = ['', '', '', '', 'f', 'g', 'h', 'l', 'n', 'nn', 's', 'sh', 'th',
     'y'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm5.length);
       rnd2 = Math.floor(Math.random() * nm6.length);
@@ -79,8 +80,7 @@ export default function barbarians() {
           }
         }
         rnd7 = Math.floor(Math.random() * nm7.length);
-        names = nm5[rnd] + nm6[rnd2] + nm7[rnd5] + nm6[rnd4] + nm7[rnd7] + nm6[
-          rnd6];
+        names = nm5[rnd] + nm6[rnd2] + nm7[rnd5] + nm6[rnd4] + nm7[rnd7] + nm6[rnd6];
       }
     } else {
       rnd = Math.floor(Math.random() * nm2.length);
@@ -112,8 +112,7 @@ export default function barbarians() {
           }
         }
         rnd7 = Math.floor(Math.random() * nm3.length);
-        names = nm2[rnd] + nm1[rnd2] + nm3[rnd5] + nm1[rnd4] + nm3[rnd7] + nm1[
-          rnd6] + nm4[rnd3];
+        names = nm2[rnd] + nm1[rnd2] + nm3[rnd5] + nm1[rnd4] + nm3[rnd7] + nm1[rnd6] + nm4[rnd3];
       }
     }
     return names;

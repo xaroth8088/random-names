@@ -92,7 +92,8 @@ export default function demons() {
     '', '', '', '', '', '', '', '', 'a', 'aa', 'ae', 'au', 'ao', 'ai', 'e',
     'ee', 'ea', 'ei', 'eo', 'eu', 'i', 'ia', 'io', 'iu', 'ie', 'o', 'oo',
     'ou', 'oa', 'oe', 'oi', 'u', 'uu', 'ua', 'ue', 'ui', 'uo'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     if (i < 3) {
       rnd = Math.floor(Math.random() * nm1.length);
       rnd2 = Math.floor(Math.random() * nm7.length);

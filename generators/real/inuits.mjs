@@ -103,7 +103,8 @@ export default function inuits() {
     'Ulva (Wolf)', 'Umiaktorvik (River)', 'Unalaq (West Wind)',
     'Unnuk (Evening)', 'Uukkarnit (Carved Ice)',
     'Uvlugiaq (Stars in the Sky)', 'Uyarak (Rolling Rock)',
-    'Yakone (Red Aurora)', 'Yuralria (Dancing One)']; {
+    'Yakone (Red Aurora)', 'Yuralria (Dancing One)'];
+  {
     rnd = Math.floor(Math.random() * nm1.length);
     names = nm1[rnd];
     return names;

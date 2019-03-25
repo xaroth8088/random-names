@@ -34,15 +34,15 @@ export default function instruments() {
   const names9 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'ia', 'io',
     'ai', 'ea', 'eo', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
     '', '', '', '', '', ''];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     if (i < 3) {
       rnd = Math.floor(Math.random() * names1.length);
       rnd2 = Math.floor(Math.random() * names2.length);
       rnd3 = Math.floor(Math.random() * names3.length);
       rnd4 = Math.floor(Math.random() * names4.length);
       rnd5 = Math.floor(Math.random() * names5.length);
-      names = names1[rnd] + names2[rnd2] + names3[rnd3] + names4[rnd4] + names5[
-        rnd5];
+      names = names1[rnd] + names2[rnd2] + names3[rnd3] + names4[rnd4] + names5[rnd5];
     } else if (i < 6) {
       rnd = Math.floor(Math.random() * names1.length);
       rnd2 = Math.floor(Math.random() * names2.length);
@@ -56,8 +56,7 @@ export default function instruments() {
       rnd4 = Math.floor(Math.random() * names4.length);
       rnd5 = Math.floor(Math.random() * names9.length);
       rnd6 = Math.floor(Math.random() * names8.length);
-      names = names1[rnd] + names2[rnd2] + names3[rnd3] + names4[rnd4] + names9[
-        rnd5] + names8[rnd6];
+      names = names1[rnd] + names2[rnd2] + names3[rnd3] + names4[rnd4] + names9[rnd5] + names8[rnd6];
     } else if (i === 8) {
       rnd = Math.floor(Math.random() * names1.length);
       rnd2 = Math.floor(Math.random() * names2.length);
@@ -66,8 +65,7 @@ export default function instruments() {
       rnd5 = Math.floor(Math.random() * names5.length);
       rnd6 = Math.floor(Math.random() * names6.length);
       rnd7 = Math.floor(Math.random() * names7.length);
-      names = names1[rnd] + names2[rnd2] + names3[rnd3] + names4[rnd4] + names5[
-        rnd5] + names6[rnd6] + names7[rnd7];
+      names = names1[rnd] + names2[rnd2] + names3[rnd3] + names4[rnd4] + names5[rnd5] + names6[rnd6] + names7[rnd7];
     } else {
       rnd = Math.floor(Math.random() * names1.length);
       rnd2 = Math.floor(Math.random() * names2.length);
@@ -75,8 +73,7 @@ export default function instruments() {
       rnd4 = Math.floor(Math.random() * names4.length);
       rnd5 = Math.floor(Math.random() * names5.length);
       rnd6 = Math.floor(Math.random() * names4.length);
-      names = names1[rnd] + names2[rnd2] + names3[rnd3] + names4[rnd4] + names5[
-        rnd5] + names4[rnd6];
+      names = names1[rnd] + names2[rnd2] + names3[rnd3] + names4[rnd4] + names5[rnd5] + names4[rnd6];
     }
     return names;
   }

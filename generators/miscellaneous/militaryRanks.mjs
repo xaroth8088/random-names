@@ -55,7 +55,8 @@ export default function militaryRanks() {
     'the Fleet', 'the Guard', 'the Guardians', 'the Hounds', 'the Law',
     'the Line', 'the Mob', 'the Navy', 'the Order', 'the Reavers',
     'the Riders', 'the Siege', 'the Underground', 'the Wall', 'the Watch'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     if (i < 4) {
       rnd0 = Math.floor(Math.random() * names3.length);
       rnd1 = Math.floor(Math.random() * names4.length);

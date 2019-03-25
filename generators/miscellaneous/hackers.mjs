@@ -74,7 +74,8 @@ export default function hackers() {
     'Voyage (v0y463)', 'Wasp (w45p)', 'Web (w3b)', 'Webster (w3b573r)',
     'Whiz (wh1z)', 'Witcher (w17ch3r)', 'Wolf (w0lf)', 'Wraith (wr417h)',
     'Wrath (wr47h)', 'Wyvern (wyv3rn)', 'Zero (z3r0)', 'Zigzag (z16z46)',
-    'Zion (z10n)']; {
+    'Zion (z10n)'];
+  {
     rnd = Math.floor(Math.random() * nm1.length);
     names = nm1[rnd];
     nm1.splice(rnd, 1);

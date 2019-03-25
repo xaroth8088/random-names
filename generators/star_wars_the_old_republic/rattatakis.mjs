@@ -26,7 +26,8 @@ export default function rattatakis() {
     'k', 'kz', 'l', 'm', 'n', 'p', 'pr', 'pj', 'q', 'r', 's', 'sj', 'st',
     'sr', 't', 'ts', 'tr', 'v', 'w', 'wr', 'x', 'xj', 'xr', 'y', 'yj', 'yr',
     'ys', 'yz', 'z', 'zr'];
-  const nm8 = ['i', 'a', 'o', 'e', 'u', 'ie', 'ai', 'ey', 'ay']; {
+  const nm8 = ['i', 'a', 'o', 'e', 'u', 'ie', 'ai', 'ey', 'ay'];
+  {
     rnd3 = Math.floor(Math.random() * nm3.length);
     rnd4 = Math.floor(Math.random() * nm4.length);
     rnd5 = Math.floor(Math.random() * nm5.length);
@@ -34,14 +35,12 @@ export default function rattatakis() {
       rnd6 = Math.floor(Math.random() * nm6.length);
       rnd7 = Math.floor(Math.random() * nm7.length);
       rnd8 = Math.floor(Math.random() * nm8.length);
-      names = nm6[rnd6] + nm7[rnd7] + nm8[rnd8] + nm4[rnd4] + nm3[rnd3] + nm5[
-        rnd5];
+      names = nm6[rnd6] + nm7[rnd7] + nm8[rnd8] + nm4[rnd4] + nm3[rnd3] + nm5[rnd5];
     } else {
       rnd6 = Math.floor(Math.random() * nm1.length);
       rnd7 = Math.floor(Math.random() * nm2.length);
       rnd8 = Math.floor(Math.random() * nm3.length);
-      names = nm1[rnd6] + nm2[rnd7] + nm3[rnd8] + nm4[rnd4] + nm3[rnd3] + nm5[
-        rnd5];
+      names = nm1[rnd6] + nm2[rnd7] + nm3[rnd8] + nm4[rnd4] + nm3[rnd3] + nm5[rnd5];
     }
     return names;
   }

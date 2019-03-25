@@ -161,7 +161,8 @@ export default function hyborians() {
     'nah', 'ne', 'net', 'ni', 'nura', 'phira', 'psut', 'qet', 'ra', 'rah',
     'ret', 'rifa', 'rose', 'rtari', 'rte', 'ru', 'rye', 'sa', 'she', 'shida',
     'stet', 'this', 'za'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     if (type === 1) {
       if (i < 2) {
         rnd = Math.floor(Math.random() * nm3.length);

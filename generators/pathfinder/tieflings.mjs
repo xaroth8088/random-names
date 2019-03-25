@@ -46,20 +46,19 @@ export default function tieflings() {
     'l', 'm', 'n', 'r', 's', 't', 'v'];
   const nm12 = ['', '', '', '', '', '', '', '', '', '', 'd', 'ld', 'lt', 'm',
     'n', 'nd', 'r', 'rd', 's', 't', 'th'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     rnd8 = Math.floor(Math.random() * nm9.length);
     rnd9 = Math.floor(Math.random() * nm10.length);
     rnd10 = Math.floor(Math.random() * nm11.length);
     rnd11 = Math.floor(Math.random() * nm10.length);
     rnd12 = Math.floor(Math.random() * nm12.length);
     if (i % 2 === 0) {
-      lastName = nm9[rnd8] + nm10[rnd9] + nm11[rnd10] + nm10[rnd11] + nm12[
-        rnd12];
+      lastName = nm9[rnd8] + nm10[rnd9] + nm11[rnd10] + nm10[rnd11] + nm12[rnd12];
     } else {
       rnd13 = Math.floor(Math.random() * nm11.length);
       rnd14 = Math.floor(Math.random() * nm10.length);
-      lastName = nm9[rnd8] + nm10[rnd9] + nm11[rnd10] + nm10[rnd11] + nm11[
-        rnd13] + nm10[rnd14] + nm12[rnd12];
+      lastName = nm9[rnd8] + nm10[rnd9] + nm11[rnd10] + nm10[rnd11] + nm11[rnd13] + nm10[rnd14] + nm12[rnd12];
     }
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm5.length);

@@ -228,7 +228,8 @@ export default function battleAxes() {
     'Warmonger', 'Whirlwind', 'Wicked', 'Widow Maker', 'Willbreaker',
     'Windreaper', 'Windslicer', 'Winter\'s Bite', 'Wit\'s End', 'Witherbrand',
     'Wolf', 'Worldbreaker', 'Worldcarver', 'Worldslayer'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     if (i < 3) {
       rnd = Math.floor(Math.random() * nm1.length);
       names = nm1[rnd];

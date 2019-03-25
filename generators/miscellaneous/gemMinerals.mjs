@@ -369,7 +369,8 @@ export default function gemMinerals() {
     'yopilite', 'yptite', 'yrelite', 'ysoberyl', 'ysocolla', 'ysoprase',
     'ysotile', 'ystonite', 'yte', 'ytocalcite', 'z', 'zalite', 'zanite',
     'zerite', 'zilianite', 'zite', 'zlewoodite', 'zonite', 'zottaite',
-    'zziite']; {
+    'zziite'];
+  {
     rnd = Math.floor(Math.random() * nm1.length);
     rnd2 = Math.floor(Math.random() * nm2.length);
     rnd3 = Math.floor(Math.random() * nm3.length);

@@ -49,7 +49,8 @@ export default function prisons() {
     'Detention Center', 'Holding Center', 'Institute', 'Institution',
     'Juvenile Holding Center', 'Low Security Prison', 'Max Security Prison',
     'Medium Security Prison', 'Penitentiary', 'Prison', 'Regional Prison',
-    'Work Camp']; {
+    'Work Camp'];
+  {
     rnd = Math.floor(Math.random() * names1.length);
     rnd2 = Math.floor(Math.random() * names2.length);
     names = `${names1[rnd]} ${names2[rnd2]}`;

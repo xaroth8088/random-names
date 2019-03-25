@@ -72,7 +72,7 @@ export default function humans() {
     'shout', 'slayer', 'snarl', 'song', 'spirit', 'splitter', 'star',
     'stride', 'sun', 'sword', 'thorn', 'tongue', 'walker', 'ward', 'watcher',
     'wind', 'wine', 'wolf'];
-  /* Varisian */
+    /* Varisian */
   const nm18 = ['', '', '', '', '', 'b', 'c', 'd', 'f', 'g', 'h', 'j', 'k', 'l',
     'r', 's', 'tr', 'v', 'y'];
   const nm19 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i',
@@ -109,7 +109,7 @@ export default function humans() {
     'zz'];
   const nm29 = ['', '', '', '', '', '', '', '', 'd', 'kz', 'kcz', 'l', 'lf',
     'n', 'r', 'rc', 'rd', 'rk', 's', 't', 'v'];
-  /* Azlanti */
+    /* Azlanti */
   const nm30 = ['', '', '', '', 'b', 'br', 'cr', 'c', 'd', 'dh', 'dr', 'g',
     'gr', 'j', 'k', 'kr', 'm', 'n', 'nh', 'r', 'x', 'z', 'zr'];
   const nm31 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i',
@@ -138,7 +138,7 @@ export default function humans() {
     'rs', 'rr', 'rb', 'rg', 'rl', 'ss', 'sh', 't', 'th', 'v', 'z'];
   const nm41 = ['', '', '', '', '', 'g', 'll', 'l', 'm', 'n', 'r', 's', 'sh',
     'st', 'th'];
-  /* Keleshite */
+    /* Keleshite */
   const nm42 = ['', '', '', '', 'b', 'c', 'd', 'dh', 'f', 'gh', 'gr', 'h', 'j',
     'k', 'm', 'n', 'r', 's', 'sh', 't', 'x', 'w', 'z'];
   const nm43 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i',
@@ -207,7 +207,8 @@ export default function humans() {
     'skh', 'ss', 'st', 't', 'th', 'thr', 'tm', 'tr', 'z', 'zgh'];
   const nm65 = ['', '', '', '', '', '', '', '', 'b', 'd', 'f', 'ff', 'h', 'l',
     'ln', 'm', 'n', 'nn', 'p', 'r', 's', 'sh', 't', 'x'];
-  const i = Math.floor(Math.random() * 12); {
+  const i = Math.floor(Math.random() * 12);
+  {
     if (type === 1) {
       if (i < 2) {
         rnd = Math.floor(Math.random() * nm5.length);

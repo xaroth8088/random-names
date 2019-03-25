@@ -437,13 +437,11 @@ export default function animals() {
     random7c = Math.floor((Math.random() * names7c.length));
   }
   let random7d = Math.floor((Math.random() * names7c.length));
-  while (random7d === random7a || random7d === random7b || random7d
-    === random7c) {
+  while (random7d === random7a || random7d === random7b || random7d === random7c) {
     random7d = Math.floor((Math.random() * names7c.length));
   }
   let random7e = Math.floor((Math.random() * names7d.length));
-  while (random7e === random7a || random7e === random7b || random7e
-    === random7c || random7e === random7d) {
+  while (random7e === random7a || random7e === random7b || random7e === random7c || random7e === random7d) {
     random7e = Math.floor((Math.random() * names7d.length));
   }
   const random8 = Math.floor((Math.random() * names8.length));

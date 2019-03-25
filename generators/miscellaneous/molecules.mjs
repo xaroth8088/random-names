@@ -39,7 +39,8 @@ export default function molecules() {
     'ein', 'eite', 'el', 'ene', 'er', 'ial', 'id', 'ide', 'iene', 'in', 'ine',
     'iol', 'ite', 'ium', 'oate', 'ocin', 'ol', 'ole', 'on', 'one', 'or',
     'ose', 'ox', 'oxin', 'uene', 'um', 'ur', 'ycin', 'yde', 'yl', 'yme', 'yn'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     if (i < 4) {
       rnd = Math.floor(Math.random() * nm1.length);
       rnd2 = Math.floor(Math.random() * nm2.length);
@@ -47,8 +48,7 @@ export default function molecules() {
       rnd4 = Math.floor(Math.random() * nm5.length);
       rnd5 = Math.floor(Math.random() * nm4.length);
       rnd6 = Math.floor(Math.random() * nm6.length);
-      names = nm1[rnd] + nm2[rnd2] + nm3[rnd3] + nm5[rnd4] + nm4[rnd5] + nm6[
-        rnd6];
+      names = nm1[rnd] + nm2[rnd2] + nm3[rnd3] + nm5[rnd4] + nm4[rnd5] + nm6[rnd6];
     } else if (i < 7) {
       rnd = Math.floor(Math.random() * nm1.length);
       rnd2 = Math.floor(Math.random() * nm2.length);
@@ -58,8 +58,7 @@ export default function molecules() {
       rnd6 = Math.floor(Math.random() * nm5.length);
       rnd7 = Math.floor(Math.random() * nm4.length);
       rnd8 = Math.floor(Math.random() * nm6.length);
-      names = nm1[rnd] + nm2[rnd2] + nm3[rnd3] + nm5[rnd4] + nm4[rnd5] + nm5[
-        rnd6] + nm4[rnd7] + nm6[rnd8];
+      names = nm1[rnd] + nm2[rnd2] + nm3[rnd3] + nm5[rnd4] + nm4[rnd5] + nm5[rnd6] + nm4[rnd7] + nm6[rnd8];
     } else {
       rnd = Math.floor(Math.random() * nm1.length);
       rnd2 = Math.floor(Math.random() * nm2.length);
@@ -71,8 +70,7 @@ export default function molecules() {
       rnd8 = Math.floor(Math.random() * nm5.length);
       rnd9 = Math.floor(Math.random() * nm4.length);
       rnd10 = Math.floor(Math.random() * nm6.length);
-      names = nm1[rnd] + nm2[rnd2] + nm3[rnd3] + nm5[rnd4] + nm4[rnd5] + nm5[
-        rnd6] + nm4[rnd7] + nm5[rnd8] + nm4[rnd9] + nm6[rnd10];
+      names = nm1[rnd] + nm2[rnd2] + nm3[rnd3] + nm5[rnd4] + nm4[rnd5] + nm5[rnd6] + nm4[rnd7] + nm5[rnd8] + nm4[rnd9] + nm6[rnd10];
     }
     return names;
   }

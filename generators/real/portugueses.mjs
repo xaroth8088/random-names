@@ -61,7 +61,8 @@ export default function portugueses() {
     'Siqueira', 'Soares', 'Sousa', 'Tavares', 'Teixeira', 'Tomás', 'Torres',
     'Valente', 'Varejão', 'Varela', 'Vasconcelos', 'Vaz', 'Venâncio', 'Vidal',
     'Vieira', 'Vila', 'Vomlel'];
-  const names1 = type === 1 ? namesFemale : namesMale; {
+  const names1 = type === 1 ? namesFemale : namesMale;
+  {
     rnd = Math.floor(Math.random() * names1.length);
     rnd1 = Math.floor(Math.random() * names2.length);
     names = `${names1[rnd]} ${names2[rnd1]}`;

@@ -38,7 +38,8 @@ export default function apocalypseTowns() {
     'Tradesburg', 'Transfere', 'Turnville', 'Utopia', 'Vacancy',
     'Victorville', 'Vileville', 'Vilewaters', 'Voidville', 'Wakefield',
     'Wickhills', 'Windgrip', 'Witherbury', 'Withergate', 'Withervale',
-    'Woeford', 'Wolfwater', 'Wrathford', 'Wreckville', 'Zion']; {
+    'Woeford', 'Wolfwater', 'Wrathford', 'Wreckville', 'Zion'];
+  {
     rnd = Math.floor(Math.random() * names1.length);
     names = names1[rnd];
     return names;

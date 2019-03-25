@@ -33,7 +33,8 @@ export default function beorning() {
     'gun', 'helda', 'hena', 'hera', 'hild', 'la', 'laug', 'lin', 'loth',
     'nida', 'nis', 'nwyn', 'ny', 'olin', 'ora', 'otta', 'owyn', 'rin', 'risa',
     'rlin', 'run', 'thrith', 'tina', 'tira', 'tyn', 'vera', 'vild', 'vor',
-    'vyn', 'wed', 'wild', 'winne', 'wyn']; {
+    'vyn', 'wed', 'wild', 'winne', 'wyn'];
+  {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm3.length);
       rnd2 = Math.floor(Math.random() * nm4.length);

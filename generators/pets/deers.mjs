@@ -33,7 +33,8 @@ export default function deers() {
     'Huntress', 'Cotton', 'Luna', 'Breeze', 'Breezy', 'Dashful', 'Whiskers',
     'Nighte', 'Brooke', 'Moone', 'Winde', 'Windy', 'Enya', 'Cloude', 'Hope',
     'Lace', 'Silk', 'Orchid', 'Lullaby', 'Pebbles', 'River', 'Cupcake',
-    'Mystique', 'Ginger', 'Destiny']; {
+    'Mystique', 'Ginger', 'Destiny'];
+  {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm2.length);
       names = nm2[rnd];

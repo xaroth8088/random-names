@@ -68,7 +68,8 @@ export default function brazilians() {
     'Teixeira', 'Vidal', 'Vila', 'Vasconcelos', 'Ventura', 'Vieira', 'Vale',
     'Vargas', 'Velho', 'Vaz'];
   const names1 = type === 1 ? namesFemale : namesMale;
-  const names2 = namesFamily; {
+  const names2 = namesFamily;
+  {
     rnd = Math.floor(Math.random() * names1.length);
     rnd2 = Math.floor(Math.random() * names2.length);
     names = `${names1[rnd]} ${names2[rnd2]}`;

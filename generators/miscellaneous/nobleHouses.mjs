@@ -75,7 +75,8 @@ export default function nobleHouses() {
     'riddle', 'ridge', 'send', 'smith', 'son', 'star', 'stein', 'ster',
     'strong', 'tomb', 'ton', 'tree', 'ward', 'water', 'way', 'well', 'win',
     'wood'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     if (i < 3) {
       rnd = Math.floor(Math.random() * names1.length);
       rnd2 = Math.floor(Math.random() * names2.length);
@@ -95,8 +96,7 @@ export default function nobleHouses() {
         }
       }
       rnd5 = Math.floor(Math.random() * names6.length);
-      names = names3[rnd] + names4[rnd2] + names5[rnd3] + names4[rnd4] + names6[
-        rnd5];
+      names = names3[rnd] + names4[rnd2] + names5[rnd3] + names4[rnd4] + names6[rnd5];
     }
     return names;
   }

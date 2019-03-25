@@ -123,7 +123,8 @@ export default function laboratorys() {
     'Volcanology (Study of Volcanoes)', 'Xenogenics', 'Zoogenics',
     'Zoology (Study of Animals)', 'Zymogenics',
     'Zymology (Study of Fermentation)'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     rnd = Math.floor(Math.random() * nm1.length);
     rnd4 = Math.floor(Math.random() * nm4.length);
     if (i < 5) {

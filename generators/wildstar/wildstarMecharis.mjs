@@ -45,7 +45,8 @@ export default function wildstarMecharis() {
     'nism', 'nix', 'nogy', 'nox', 'pin', 'ping', 'pute', 'ram', 'rom', 'ron',
     'ser', 'sor', 'tec', 'tic', 'tics', 'ton', 'tred', 'tric', 'tron', 'vex',
     'vox', 'ware', 'xis', 'zip'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     rnd6 = Math.floor(Math.random() * nm9.length);
     rnd7 = Math.floor(Math.random() * nm10.length);
     lname = nm9[rnd6] + nm10[rnd7];

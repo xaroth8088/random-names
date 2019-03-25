@@ -31,7 +31,8 @@ export default function plantations() {
     'stones', 'thorne', 'ton', 'town', 'vale', 'valley', 'view', 'ville',
     'wall', 'way', 'well', 'wild', 'will', 'wood', 'woods', 'worth', 'worthy'];
   const nm3 = ['Plantation', 'Plantation House', 'Manor', 'Home', 'Mansion',
-    'Hall', 'Plantation']; {
+    'Hall', 'Plantation'];
+  {
     rnd = Math.floor(Math.random() * nm1.length);
     rnd2 = Math.floor(Math.random() * nm2.length);
     rnd3 = Math.floor(Math.random() * nm3.length);

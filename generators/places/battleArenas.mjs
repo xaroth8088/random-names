@@ -44,7 +44,8 @@ export default function battleArenas() {
     'Torture Squad', 'Tragedy', 'Tranquility', 'Transcendence', 'Twilight',
     'Underdome', 'Underworld', 'Vermin', 'Void', 'Warpath', 'White Witch',
     'Wrath', 'Xenomorph', 'Zero'];
-  const nm2 = ['Arena', 'Stadium', 'Coliseum', 'Amphitheater', 'Arena']; {
+  const nm2 = ['Arena', 'Stadium', 'Coliseum', 'Amphitheater', 'Arena'];
+  {
     rnd = Math.floor(Math.random() * nm1.length);
     rnd2 = Math.floor(Math.random() * nm2.length);
     names = `The ${nm1[rnd]} ${nm2[rnd2]}`;

@@ -120,7 +120,8 @@ export default function evils() {
     'Wish', 'Wysteria', 'Xenia', 'Xoxo', 'Xyla', 'Yellow', 'Yoko', 'Yureka',
     'Zada', 'Zaphara', 'Zeldalia', 'Zen', 'Zephyr', 'Zillah', 'Zima', 'Zofia',
     'Zola', 'Zolona', 'Zunda'];
-  const names1 = type === 1 ? namesFemale : namesMale; {
+  const names1 = type === 1 ? namesFemale : namesMale;
+  {
     rnd0 = Math.floor(Math.random() * names1.length);
     rnd1 = Math.floor(Math.random() * namesFamily.length);
     names = `${names1[rnd0]} ${namesFamily[rnd1]}`;

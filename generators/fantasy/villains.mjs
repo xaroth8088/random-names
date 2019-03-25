@@ -174,7 +174,8 @@ export default function villains() {
     'The Poltergeist', 'The Reaper', 'The Shadow Stranger', 'The Wanderer',
     'Timber', 'Vampirellina', 'Venom Hunter', 'Venom-Blast', 'Viktorai',
     'Void', 'Voluptuous', 'Vortex', 'Warped Warrior', 'Wicked Wasp'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     if (i < 4) {
       rnd = Math.floor(Math.random() * nm1.length);
       rnd2 = Math.floor(Math.random() * nm2.length);

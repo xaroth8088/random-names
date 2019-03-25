@@ -71,7 +71,8 @@ export default function oldHighGermans() {
     'Sieglinde', 'Sigune', 'Sunna', 'Sunnhild', 'Thusnelda', 'Ubalda',
     'Ulrike', 'Ute', 'Veerle', 'Walpurga', 'Waltraud', 'Wanda', 'Wendelgard',
     'Wendelina', 'Wigberta', 'Wigburg', 'Wilfriede', 'Wilhelma', 'Wiltrud',
-    'Yvonne']; {
+    'Yvonne'];
+  {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm2.length);
       names = nm2[rnd];

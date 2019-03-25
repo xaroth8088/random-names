@@ -425,7 +425,8 @@ export default function animatronics() {
       ['Zelda the', 'Ziggy the', 'Zippy the', 'Zoe the'],
       ['Zebra'],
     ],
-  ]; {
+  ];
+  {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm2.length);
       rnd2 = Math.floor(Math.random() * nm2[rnd][0].length);

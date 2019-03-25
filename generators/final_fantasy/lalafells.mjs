@@ -22,7 +22,8 @@ export default function lalafells() {
   const nm4 = ['', '', '', '', '', '', '', '', '', '', '', '', '', '', '', 'r',
     'l', 's', 'n', 'g'];
   const nm5 = ['', 'a', 'e', 'i', 'o', 'u'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     if (type === 1) {
       if (i < 5) {
         rnd = Math.floor(Math.random() * nm1.length);

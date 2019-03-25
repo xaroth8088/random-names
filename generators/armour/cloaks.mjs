@@ -4,8 +4,7 @@ export default function cloaks() {
   let rnd3;
   let rnd4;
   let rnd5;
-  let
-    rnd6;
+  let rnd6;
   let names;
   const nm1 = ['Ancient', 'Binding', 'Blessed', 'Blind', 'Broken', 'Burning',
     'Condemned', 'Conquered', 'Cursed', 'Damned', 'Dark', 'Demonic',
@@ -132,7 +131,8 @@ export default function cloaks() {
     'the Volcano', 'the Ward', 'the Warrior', 'the West', 'the Whale',
     'the Whispers', 'the Wicked', 'the Wind', 'the Wolf', 'the World',
     'the Wretched'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     rnd = Math.floor(Math.random() * nm1.length);
     rnd2 = Math.floor(Math.random() * nm2.length);
     rnd3 = Math.floor(Math.random() * nm3.length);

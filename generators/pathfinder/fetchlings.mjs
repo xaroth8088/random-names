@@ -22,7 +22,8 @@ export default function fetchlings() {
     'tn'];
   const nm8 = ['', '', '', '', '', '', '', '', '', '', '', '', '', 'h', 'l',
     'm', 'n', 's', 'x'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm5.length);
       rnd2 = Math.floor(Math.random() * nm2.length);
@@ -34,8 +35,7 @@ export default function fetchlings() {
       } else {
         rnd6 = Math.floor(Math.random() * nm7.length);
         rnd7 = Math.floor(Math.random() * nm2.length);
-        names = nm5[rnd] + nm2[rnd2] + nm7[rnd3] + nm2[rnd4] + nm7[rnd6] + nm2[
-          rnd7] + nm8[rnd5];
+        names = nm5[rnd] + nm2[rnd2] + nm7[rnd3] + nm2[rnd4] + nm7[rnd6] + nm2[rnd7] + nm8[rnd5];
       }
     } else {
       rnd = Math.floor(Math.random() * nm1.length);

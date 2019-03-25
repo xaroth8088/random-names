@@ -111,7 +111,8 @@ export default function swedishs() {
     'Svensson', 'Syrén', 'Tegnér', 'Tornquist', 'Torvalds', 'Ulf', 'Vikström',
     'Wahlberg', 'Wahlgren', 'Wahlström', 'Wallenberg', 'Wallin', 'Westergren',
     'Westermarck', 'Westermark', 'Widforss', 'Wikström', 'Winblad'];
-  const names1 = type === 1 ? namesFemale : namesMale; {
+  const names1 = type === 1 ? namesFemale : namesMale;
+  {
     rnd = Math.floor(Math.random() * names1.length);
     rnd1 = Math.floor(Math.random() * names2.length);
     names = `${names1[rnd]} ${names2[rnd1]}`;

@@ -24,7 +24,8 @@ export default function saiyans() {
     'Sallot', 'Scalli', 'Scallio', 'Shalot', 'Snippar', 'Spargu', 'Sproute',
     'Squas', 'Suncho', 'Sunchock', 'Tabaga', 'Tarro', 'Tato', 'Teeb',
     'Tercres', 'Tichoke', 'Totoma', 'Tunnip', 'Turrip', 'Ugula', 'Umpkin',
-    'Vocado', 'Yamma', 'Zucchi']; {
+    'Vocado', 'Yamma', 'Zucchi'];
+  {
     rnd = Math.floor(Math.random() * names1.length);
     names = names1[rnd];
     return names;

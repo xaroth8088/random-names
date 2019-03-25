@@ -27,7 +27,8 @@ export default function elfs() {
     'm', 'mv', 'my', 'mm', 'ny', 'n', 'nn', 'nv', 'nz', 'r', 'rm', 'ry', 'rh',
     'sn', 'sl', 't', 'th', 'y'];
   const nm8 = ['', '', '', '', '', '', '', 'd', 'n', 'r', 's', 'th'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm5.length);
       rnd2 = Math.floor(Math.random() * nm6.length);
@@ -39,8 +40,7 @@ export default function elfs() {
       } else {
         rnd6 = Math.floor(Math.random() * nm6.length);
         rnd7 = Math.floor(Math.random() * nm7.length);
-        names = nm5[rnd] + nm6[rnd2] + nm7[rnd3] + nm6[rnd6] + nm7[rnd7] + nm6[
-          rnd4] + nm8[rnd5];
+        names = nm5[rnd] + nm6[rnd2] + nm7[rnd3] + nm6[rnd6] + nm7[rnd7] + nm6[rnd4] + nm8[rnd5];
       }
     } else {
       rnd = Math.floor(Math.random() * nm1.length);
@@ -62,8 +62,7 @@ export default function elfs() {
         rnd5 = Math.floor(Math.random() * nm2.length);
         rnd6 = Math.floor(Math.random() * nm3.length);
         rnd7 = Math.floor(Math.random() * nm2.length);
-        names = nm1[rnd] + nm2[rnd2] + nm3[rnd3] + nm2[rnd5] + nm3[rnd6] + nm2[
-          rnd7] + nm4[rnd4];
+        names = nm1[rnd] + nm2[rnd2] + nm3[rnd3] + nm2[rnd5] + nm3[rnd6] + nm2[rnd7] + nm4[rnd4];
       }
     }
     return names;

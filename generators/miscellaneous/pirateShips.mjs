@@ -36,7 +36,8 @@ export default function pirateShips() {
     'Swashbucklers', 'Rovers', 'Sea Rovers', 'Buccaneers', 'Rose', 'Rift',
     'Deceit', 'Secret', 'Serpent', 'Servant', 'Servants', 'Seven Seas',
     'Shark', 'Slave', 'Squid', 'Storm', 'Strumpet', 'Sun', 'Terror',
-    'Tortuga', 'Treasure', 'Trinity', 'Valant', 'Wolf']; {
+    'Tortuga', 'Treasure', 'Trinity', 'Valant', 'Wolf'];
+  {
     rnd = Math.floor(Math.random() * nm1.length);
     rnd2 = Math.floor(Math.random() * nm2.length);
     names = `The ${nm1[rnd]} ${nm2[rnd2]}`;

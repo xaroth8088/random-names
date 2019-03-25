@@ -39,7 +39,8 @@ export default function siegeEngines() {
     'Trinity', 'Trojan', 'Tsunami', 'Twister', 'Typhoon', 'Tyrant',
     'Valkyrie', 'Vampire', 'Void', 'Volcano', 'Wall of Death', 'Warbear',
     'Warden', 'Warmonger', 'Whirlwind', 'Wicker Man', 'Widow Maker', 'Wyvern',
-  ]; {
+  ];
+  {
     rnd = Math.floor(Math.random() * nm1.length);
     names = `The ${nm1[rnd]}`;
     nm1.splice(rnd, 1);

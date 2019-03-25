@@ -212,7 +212,8 @@ export default function africanAmericans() {
     'Webster', 'Wells', 'West', 'Wheeler', 'Whitaker', 'White', 'Whitfield',
     'Wiggins', 'Wiley', 'Wilkerson', 'Wilkins', 'Williams', 'Williamson',
     'Willis', 'Wilson', 'Winston', 'Wood', 'Woodard', 'Woods', 'Wright',
-    'Young']; {
+    'Young'];
+  {
     rnd2 = Math.floor(Math.random() * nm3.length);
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm2.length);

@@ -281,7 +281,8 @@ export default function worgen() {
     'Chrom', 'Kellam', 'Virion', 'Inigo', 'Ike', 'Marth', 'Rhys', 'Soren',
     'Kieran', 'Reyson', 'Devdan', 'Camus', 'Nealuchi', 'Sephiran', 'Zelgius',
     'Seth', 'Ross', 'Joshua', 'Ephraim', 'Voss', 'Vossler', 'Lincoln',
-    'Abraham', 'Driscoll', 'Alder', 'Weiss', 'Larc']; {
+    'Abraham', 'Driscoll', 'Alder', 'Weiss', 'Larc'];
+  {
     rnd2 = Math.floor(Math.random() * nm3.length);
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm2.length);

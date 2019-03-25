@@ -72,7 +72,8 @@ export default function timePeriods() {
     'Trust', 'Turbulence', 'Turmoil', 'Unities', 'Utopia', 'Venom', 'Victims',
     'Violence', 'Warfare', 'Waste', 'Whitewashing', 'Witchcraft', 'Wonder'];
   const nm3 = ['Age', 'Era', 'Aeon', 'Ages'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     rnd2 = Math.floor(Math.random() * nm3.length);
     if (i < 5) {
       rnd = Math.floor(Math.random() * nm1.length);

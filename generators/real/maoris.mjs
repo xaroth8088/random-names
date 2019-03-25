@@ -52,7 +52,8 @@ export default function maoris() {
     'Tahana', 'Taimana', 'Taimona', 'Tame', 'Tamihana', 'Taneti', 'Tapihana',
     'Teira', 'Tereiti', 'Terere', 'Tiki', 'Timoti', 'Tipene', 'Topia',
     'Waaka', 'Waata', 'Wati', 'Watihana', 'Wetere', 'Wihone', 'Wikiriwhi',
-    'Winiata', 'Wirihana', 'Witika']; {
+    'Winiata', 'Wirihana', 'Witika'];
+  {
     if (type === 1) {
       rnd = Math.floor(Math.random() * names2.length);
       rnd2 = Math.floor(Math.random() * names3.length);

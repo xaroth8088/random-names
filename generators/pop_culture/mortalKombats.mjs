@@ -28,7 +28,8 @@ export default function mortalKombats() {
     'Splinter', 'Spyte', 'Stal', 'Stark', 'Storm', 'Surge', 'Sybre', 'Sylver',
     'Tank', 'Tenac', 'Tiger', 'Torm', 'Torren', 'Tugs', 'Vapor', 'Viger',
     'Vissu', 'Visus', 'Weasel', 'Wildcat', 'Wolf', 'Wolverine', 'Wrangler',
-    'Xerox', 'Yce', 'Zizor', 'Zyn']; {
+    'Xerox', 'Yce', 'Zizor', 'Zyn'];
+  {
     rnd = Math.floor(Math.random() * nm1.length);
     names = nm1[rnd];
     nm1.splice(rnd, 1);

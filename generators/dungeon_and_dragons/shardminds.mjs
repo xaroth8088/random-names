@@ -13,7 +13,8 @@ export default function shardminds() {
     'niri', 'nu', 'nua', 'pana', 'ram', 'ranu', 'rashi', 'raya', 'ri', 'rin',
     'runu', 'shara', 'shari', 'shi', 'shti', 'shtu', 'shu', 'sunu', 'ta',
     'tana', 'tani', 'tari', 'ti', 'tira', 'tiru', 'tua', 'tum', 'wia', 'ya',
-    'yara', 'yua', 'zu']; {
+    'yara', 'yua', 'zu'];
+  {
     rnd = Math.floor(Math.random() * names1.length);
     rnd2 = Math.floor(Math.random() * names2.length);
     names = names1[rnd] + names2[rnd2];

@@ -30,7 +30,8 @@ export default function drugs() {
     'Twin', 'Twinkle', 'Twist', 'Twister', 'Typhoon', 'Vacuum', 'Vamp',
     'Vampire Dust', 'Vanilla', 'Vapor', 'Venom', 'Vibe', 'Vintage', 'Visage',
     'Void', 'Warp', 'Waves', 'Wax', 'Whiskers', 'Whisper', 'Wish', 'Wizard',
-    'Wolf', 'Wrath', 'Wrathhog', 'Wyvern', 'Xp']; {
+    'Wolf', 'Wrath', 'Wrathhog', 'Wyvern', 'Xp'];
+  {
     rnd = Math.floor(Math.random() * nm1.length);
     names = nm1[rnd];
     return names;

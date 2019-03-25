@@ -191,7 +191,8 @@ export default function sinhaleses() {
     'Weeramantry', 'Weeraratne', 'Weerasekara', 'Weerasinghe', 'Weerathunga',
     'Wichramasinghe', 'Wickrema', 'Wickremanayake', 'Wickremasinghe',
     'Wijemanne', 'Wijeratne', 'Wijetunge', 'Wijewardene', 'Wimaladharma',
-    'Wimalaratne', 'Wimalasuriya', 'Wipulasara']; {
+    'Wimalaratne', 'Wimalasuriya', 'Wipulasara'];
+  {
     rnd2 = Math.floor(Math.random() * nm3.length);
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm2.length);

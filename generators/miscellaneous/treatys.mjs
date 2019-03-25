@@ -43,7 +43,8 @@ export default function treatys() {
     'Thieves', 'Torment', 'Torture', 'Traitors', 'Treachery', 'Triumph',
     'Truth', 'Unanimity', 'Unification', 'Unions', 'Unison', 'Utopia',
     'Vetos', 'Victims', 'Victory', 'Vigor', 'Virtues', 'Vitality', 'Wealth',
-    'Wellfare', 'Wonder']; {
+    'Wellfare', 'Wonder'];
+  {
     rnd = Math.floor(Math.random() * names1.length);
     names = `Treaty of ${names1[rnd]}`;
     return names;

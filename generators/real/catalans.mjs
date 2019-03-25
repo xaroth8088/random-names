@@ -649,7 +649,8 @@ export default function catalans() {
     'Xercavin', 'Xicola', 'Xifrà', 'Xifré', 'Xifró', 'Ximenis', 'Xiprés',
     'Xirau', 'Xixons', 'Xoy', 'Yaben', 'Yern', 'Ylla', 'Ysamat', 'Zúrich',
     'Zabala', 'Zalarich', 'Zanuy', 'Zaragozà', 'Zaragoza', 'Zarzosa',
-    'Zornoza', 'Zulueta', 'Zurdo', 'Zuriguel', 'Zurita', 'del Clos']; {
+    'Zornoza', 'Zulueta', 'Zurdo', 'Zuriguel', 'Zurita', 'del Clos'];
+  {
     rnd2 = Math.floor(Math.random() * nm3.length);
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm2.length);

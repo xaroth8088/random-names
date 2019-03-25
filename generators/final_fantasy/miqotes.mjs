@@ -53,7 +53,8 @@ export default function miqotes() {
   const nm10 = ['', 'a', 'e', 'o', 'i', 'u'];
   const nm11 = ['\'a', '\'to', '\'li', '\'sae', '\'ra', '\'ir', '\'wo', '\'ya',
     '\'zi', '\'tan'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     if (type === 1) {
       if (i < 5) {
         rnd = Math.floor(Math.random() * nm1.length);
@@ -85,8 +86,7 @@ export default function miqotes() {
             rnd18 = Math.floor(Math.random() * nm10.length);
           }
         }
-        names = nm1[rnd] + nm6[rnd10] + nm5[rnd11] + nm7[rnd12] + nm6[rnd13]
-          + nm5[rnd14] + nm7[rnd15] + nm9[rnd16] + nm5[rnd17] + nm10[rnd18];
+        names = nm1[rnd] + nm6[rnd10] + nm5[rnd11] + nm7[rnd12] + nm6[rnd13] + nm5[rnd14] + nm7[rnd15] + nm9[rnd16] + nm5[rnd17] + nm10[rnd18];
       } else {
         rnd2 = Math.floor(Math.random() * nm8.length);
         rnd3 = Math.floor(Math.random() * nm3.length);
@@ -152,8 +152,7 @@ export default function miqotes() {
       if (rnd5 < 3) {
         rnd8 = 0;
       }
-      names = nm1[rnd] + nm2[rnd2] + nm5[rnd6] + nm3[rnd3] + nm5[rnd7] + nm2[
-        rnd4] + nm4[rnd5] + nm5[rnd8];
+      names = nm1[rnd] + nm2[rnd2] + nm5[rnd6] + nm3[rnd3] + nm5[rnd7] + nm2[rnd4] + nm4[rnd5] + nm5[rnd8];
     } else {
       rnd2 = Math.floor(Math.random() * nm8.length);
       rnd3 = Math.floor(Math.random() * nm3.length);

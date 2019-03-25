@@ -6889,7 +6889,8 @@ export default function human() {
     'Yildirim', 'Yildiz', 'Yildizeli', 'Yildizoglu', 'Yilmaz', 'Yuce',
     'Yucel', 'Yuksel', 'Yumlu', 'Zaim', 'Zaimoglu', 'Zarakolu', 'Zengin',
     'Zeybek', 'Zorlu'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     if (type === 1) {
       if (i < 3) {
         rnd = Math.floor(Math.random() * nm5.length);

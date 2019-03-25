@@ -122,7 +122,8 @@ export default function mongolians() {
     'Temulun', 'Temulun Abagai', 'Terbish', 'Togene', 'Toragana',
     'Tsetsegmaa', 'Turakina', 'Uranchimeg', 'Yesugen', 'Yesui', 'Yesuntei',
     'Yisu Qatun', 'Yisugei Qatun'];
-  const names1 = type === 1 ? namesFemale : namesMale; {
+  const names1 = type === 1 ? namesFemale : namesMale;
+  {
     rnd = Math.floor(Math.random() * names1.length);
     names = names1[rnd];
     return names;

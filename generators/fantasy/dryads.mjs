@@ -240,7 +240,8 @@ export default function dryads() {
     'Thyme', 'Thymea', 'Trillia', 'Trilliaris', 'Trillioris', 'Trillis',
     'Tulip', 'Tulipea', 'Tuliphis', 'Willoa', 'Willonia', 'Willoris',
     'Willow', 'Zinnia'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     if (i < 2) {
       rnd = Math.floor(Math.random() * nm1.length);
       names = nm1[rnd];

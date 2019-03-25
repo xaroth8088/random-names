@@ -122,7 +122,8 @@ export default function superpowers() {
     'Voice Manipulation', 'Void Manipulation', 'Vortex Breath',
     'Water Breathing', 'Weapon Mastery', 'Web Secretion',
     'Weight Manipulation', 'Wing Manifestation', 'Wish Granting',
-    'X-ray vision', 'Yin-Yang Manipulation']; {
+    'X-ray vision', 'Yin-Yang Manipulation'];
+  {
     rnd = Math.floor(Math.random() * nm1.length);
     names = nm1[rnd];
     return names;

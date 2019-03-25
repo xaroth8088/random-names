@@ -216,8 +216,7 @@ export default function diseases() {
     rnd3d = Math.floor(Math.random() * nm3.length);
   }
   rnd3e = Math.floor(Math.random() * nm3.length);
-  while (rnd3e === rnd3a || rnd3e === rnd3b || rnd3e === rnd3c || rnd3e
-    === rnd3d) {
+  while (rnd3e === rnd3a || rnd3e === rnd3b || rnd3e === rnd3c || rnd3e === rnd3d) {
     rnd3e = Math.floor(Math.random() * nm3.length);
   }
   const rnd4 = Math.floor(Math.random() * nm4.length);

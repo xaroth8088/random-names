@@ -88,7 +88,8 @@ export default function aztecs() {
     'pepe', 'pilli', 'pin', 'popoca', 'qui', 'taca', 'tecol', 'tecuhtli',
     'temoc', 'tencatl', 'tia', 'tic', 'tica', 'tla', 'tli', 'tonal', 'tonqui',
     'tzin', 'tzotl', 'yacatl', 'yaxi', 'yotli', 'zoc', 'zoh', 'zomoc', 'zuma'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     if (type === 1) {
       if (i < 5) {
         rnd = Math.floor(Math.random() * nm4.length);

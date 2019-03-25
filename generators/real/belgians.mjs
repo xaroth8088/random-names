@@ -176,7 +176,8 @@ export default function belgians() {
     'Velghe', 'Verbeke', 'Vercruysse', 'Verdoodt', 'Verhaeghe', 'Verhasselt',
     'Verhelst', 'Vermaut', 'Vermeersch', 'Vermeulen', 'Vermote', 'Verplancke',
     'Verschuere', 'Verstraete', 'Veys', 'Viaene', 'Vlogaert', 'Vrammout',
-    'Walravens', 'Wauters', 'Willems', 'Windels', 'Wouters', 'Zelderloo']; {
+    'Walravens', 'Wauters', 'Willems', 'Windels', 'Wouters', 'Zelderloo'];
+  {
     rnd2 = Math.floor(Math.random() * nm3.length);
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm2.length);

@@ -107,7 +107,8 @@ export default function cats() {
     'Whiskers', 'Whiskey', 'Wiggle', 'Wiley', 'Willow', 'Willy', 'Wolf',
     'Wombat', 'WorldDestroyer', 'Wrath', 'Xavier', 'Xelanette', 'Xerxes',
     'Yan', 'YellowTooth', 'YoYo', 'Ysondre', 'Zador', 'Zander', 'Zebra',
-    'Zed', 'Zeke', 'Zimba', 'Zimmer', 'Zippy', 'Zizzi', 'Zoey']; {
+    'Zed', 'Zeke', 'Zimba', 'Zimmer', 'Zippy', 'Zizzi', 'Zoey'];
+  {
     rnd = Math.floor(Math.random() * nm1.length);
     names = nm1[rnd];
     return names;

@@ -158,7 +158,8 @@ export default function celticWelshs() {
     'Treharne', 'Trevor', 'Tudor', 'Uren', 'Urian', 'Vaughan', 'Vaughn',
     'Voiles', 'Voils', 'Voyles', 'Wathen', 'Wiliams', 'Wogan', 'Wren', 'Wynn',
     'Wynne', 'Yale', 'Yarwood'];
-  const names1 = type === 1 ? namesFemale : namesMale; {
+  const names1 = type === 1 ? namesFemale : namesMale;
+  {
     rnd = Math.floor(Math.random() * names1.length);
     rnd2 = Math.floor(Math.random() * names2.length);
     names = `${names1[rnd]} ${names2[rnd2]}`;

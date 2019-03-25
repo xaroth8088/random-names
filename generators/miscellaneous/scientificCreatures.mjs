@@ -247,7 +247,8 @@ export default function scientificCreatures() {
     'oyi', 'ozoa', 'ua', 'uco', 'ues', 'uinus', 'ula', 'ularis', 'ulata',
     'ules', 'ulosa', 'ulus', 'um', 'undus', 'urnix', 'urong', 'us', 'uta',
     'uus', 'yanus', 'yi', 'ynchos', 'ythrus', 'yurus'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     if (i < 5) {
       rnd = Math.floor(Math.random() * nm1.length);
       rnd2 = Math.floor(Math.random() * nm2.length);

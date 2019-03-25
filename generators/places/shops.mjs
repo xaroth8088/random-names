@@ -106,7 +106,8 @@ export default function shops() {
     'To Thai For', 'Uppercuts', 'Visual Eyes', 'Wash Up Doc', 'We\'re Hair',
     'What Ales You', 'Wish You Wash Here', 'Wok This Way', 'Wok With Me',
     'Wok and Roll', 'Wooden It Be Nice'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     if (i < 4) {
       rnd = Math.floor(Math.random() * names1.length);
       rnd2 = Math.floor(Math.random() * names2.length);

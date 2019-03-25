@@ -50,7 +50,8 @@ export default function servants() {
     'Sarah', 'Scarlet', 'Selena', 'Selma', 'Serena', 'Shirley', 'Sophia',
     'Stella', 'Tiffany', 'Valerie', 'Vanessa', 'Veronica', 'Victoria',
     'Viola', 'Violet', 'Virginia', 'Vivian', 'Wendy', 'Wilhelmina', 'Zoe'];
-  let names = ''; {
+  let names = '';
+  {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm2.length);
       names = nm2[rnd];

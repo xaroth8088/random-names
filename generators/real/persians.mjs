@@ -859,7 +859,8 @@ export default function persians() {
     'Zarolia', 'Zaroliwala', 'Zarra', 'Zarthoshti-manish', 'Zarthosty',
     'Zaveri', 'Zek', 'Zend', 'Zendeh-Zarinabadi', 'Zendehbad', 'Zendehnoosh',
     'Zendi', 'Zerehpoosh', 'Ziafat', 'Ziatabari', 'Zohrab', 'Zomorrodi',
-    'Zorabi', 'Zorabian', 'Zoroaster']; {
+    'Zorabi', 'Zorabian', 'Zoroaster'];
+  {
     rnd2 = Math.floor(Math.random() * nm3.length);
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm2.length);

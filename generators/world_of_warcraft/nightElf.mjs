@@ -85,7 +85,8 @@ export default function nightElf() {
     'snow', 'song', 'spear', 'spirit', 'spyre', 'stalker', 'star', 'strike',
     'striker', 'swift', 'sword', 'thorn', 'tree', 'walker', 'watcher',
     'water', 'weaver', 'whisper', 'wind', 'wing'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     rnd7 = Math.floor(Math.random() * nm7.length);
     rnd8 = Math.floor(Math.random() * nm8.length);
     if (type === 1) {

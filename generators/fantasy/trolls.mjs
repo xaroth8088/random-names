@@ -38,7 +38,8 @@ export default function trolls() {
     'Watu', 'Yuhai', 'Zalma', 'Zalmea', 'Zenma', 'Zhonya', 'Zhoumai',
     'Ziataaman', 'Ziataima', 'Ziataja', 'Ziatajie', 'Ziatakraa', 'Zonraja',
     'Zulja', 'Zulja', 'Zuljah', 'Zuljin', 'Zulkraa', 'Zulmara', 'Zulraja',
-    'Zulrea', 'Zulwatha']; {
+    'Zulrea', 'Zulwatha'];
+  {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm2.length);
       names = nm2[rnd];

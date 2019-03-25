@@ -125,7 +125,8 @@ export default function mouses() {
     'Walnut', 'Wanda', 'Wednesday', 'Wendy', 'Willow', 'Wilma', 'Wimma',
     'Winky', 'Winnie', 'Winona', 'Wren', 'Xandy', 'Xena', 'Xia', 'Yale',
     'Yeva', 'Yew', 'Yogi', 'Yoshi', 'Yoyo', 'Zane', 'Zanthe', 'Zara', 'Zebra',
-    'Zoe', 'Zoey', 'Zooey', 'Zwido', 'Fizz']; {
+    'Zoe', 'Zoey', 'Zooey', 'Zwido', 'Fizz'];
+  {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm2.length);
       names = nm2[rnd];

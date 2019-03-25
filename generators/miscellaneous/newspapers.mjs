@@ -64,7 +64,8 @@ export default function newspapers() {
     'Society', 'Standard', 'Star', 'Sun', 'Telegram', 'Telegraph', 'Time',
     'Times', 'Tribune', 'Union', 'Unity', 'Vista', 'Witness', 'World',
     'Zenith'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     if (i < 6) {
       rnd = Math.floor(Math.random() * nm1.length);
       rnd2 = Math.floor(Math.random() * nm3.length);

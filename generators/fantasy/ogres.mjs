@@ -16,7 +16,8 @@ export default function ogres() {
     'zig', 'zir', 'zur', 'nk', 'gut', 'grut', 'grot', 'gruk', 'grok', 'rok',
     'ruk', 'rag', 'gark', 'gork', 'gurk', 'kur', 'kurk', 'kurg', 'kor',
     'kork', 'korg', 'zog', 'zug', 'zig', 'zrog', 'zrug'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     rnd = Math.floor(Math.random() * nm1.length);
     rnd2 = Math.floor(Math.random() * nm2.length);
     rnd4 = Math.floor(Math.random() * nm4.length);

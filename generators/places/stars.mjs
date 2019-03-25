@@ -28,7 +28,8 @@ export default function stars() {
     'c', 'd', 'f', 'g', 'h', 'k', 'l', 'm', 'n', 'p', 'r', 's', 't', 'x', 'y',
     'cs', 'ks', 'ls', 'ms', 'ns', 'ps', 'rs', 'ts', 'ys', 'ct', 'ft', 'kt',
     'lt', 'nt', 'ph', 'sh', 'th'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     if (i < 5) {
       rnd = Math.floor(Math.random() * nm1.length);
       rnd2 = Math.floor(Math.random() * nm2.length);
@@ -47,8 +48,7 @@ export default function stars() {
         }
       }
       rnd6 = Math.floor(Math.random() * nm5.length);
-      names = nm1[rnd] + nm2[rnd2] + nm3[rnd3] + nm4[rnd4] + nm3[rnd5] + nm5[
-        rnd6];
+      names = nm1[rnd] + nm2[rnd2] + nm3[rnd3] + nm4[rnd4] + nm3[rnd5] + nm5[rnd6];
     }
     return names;
   }

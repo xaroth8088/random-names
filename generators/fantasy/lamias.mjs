@@ -61,7 +61,8 @@ export default function lamias() {
     'olphi', 'one', 'ophai', 'ophe', 'opheu', 'ophi', 'ophia', 'ophila',
     'ophis', 'ophise', 'orise', 'osa', 'ose', 'osi', 'osia', 'osise', 'ossia',
     'thise', 'usa', 'usei', 'usi', 'ymes', 'yphe', 'yphise', 'ypise', 'ypso',
-    'yse', 'yxio', 'yxo']; {
+    'yse', 'yxio', 'yxo'];
+  {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm3.length);
       rnd2 = Math.floor(Math.random() * nm4.length);

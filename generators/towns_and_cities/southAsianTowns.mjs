@@ -101,7 +101,8 @@ export default function southAsianTowns() {
     'lang', 'lunang', 'maito', 'manu', 'nakha', 'nang', 'nig', 'pang', 'par',
     'pe', 'pero', 'phu', 'ripe', 'sang', 'sar', 'shong', 'sila', 'sona',
     'soperi', 'tang', 'teng', 'tola', 'tsa', 'tsang', 'tse', 'tu', 'zyung'];
-  const i = Math.floor(Math.random() * 16); {
+  const i = Math.floor(Math.random() * 16);
+  {
     if (i < 2) {
       rnd0 = Math.floor(Math.random() * names1.length);
       rnd1 = Math.floor(Math.random() * names2.length);

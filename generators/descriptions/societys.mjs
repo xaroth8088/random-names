@@ -125,13 +125,11 @@ export default function societys() {
     random5c = Math.floor((Math.random() * names5.length));
   }
   let random5d = Math.floor((Math.random() * names5.length));
-  while (random5d === random5a || random5d === random5b || random5d
-    === random5c) {
+  while (random5d === random5a || random5d === random5b || random5d === random5c) {
     random5d = Math.floor((Math.random() * names5.length));
   }
   let random5e = Math.floor((Math.random() * names5.length));
-  while (random5e === random5a || random5e === random5b || random5e
-    === random5c || random5e === random5d) {
+  while (random5e === random5a || random5e === random5b || random5e === random5c || random5e === random5d) {
     random5e = Math.floor((Math.random() * names5.length));
   }
   const random7 = Math.floor((Math.random() * names7.length));

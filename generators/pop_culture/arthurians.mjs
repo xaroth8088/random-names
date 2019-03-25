@@ -86,7 +86,8 @@ export default function arthurians() {
     'ngaine', 'ngwain', 'nloie', 'nna', 'nor', 'nors', 'nte', 'nwen', 'rad',
     'ramur', 'ramurs', 'rat', 'rawd', 'rd', 're', 'ree', 'rine', 'rne', 'rre',
     'rvudd', 'rvydd', 'se', 'ssant', 'th', 'tte', 'vach', 'var', 'ver',
-    'vere', 'viana', 'vien', 'wse']; {
+    'vere', 'viana', 'vien', 'wse'];
+  {
     if (type === 1) {
       rnd = Math.floor(Math.random() * names5.length);
       rnd2 = Math.floor(Math.random() * names6.length);

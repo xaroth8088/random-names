@@ -208,7 +208,8 @@ export default function wildstarCassians() {
     'Tyler', 'Tyrer', 'Unity', 'Verve', 'Voss', 'Walker', 'Waller', 'Ward',
     'Warf', 'Warner', 'Warrer', 'Wayne', 'Webb', 'Webster', 'West', 'Willow',
     'Winter', 'Woodward', 'Wright', 'Young'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     if (i < 6) {
       rnd = Math.floor(Math.random() * nm9.length);
       rnd2 = Math.floor(Math.random() * nm10.length);
@@ -217,8 +218,7 @@ export default function wildstarCassians() {
       if (i % 2 === 0) {
         rnd5 = Math.floor(Math.random() * nm10.length);
         rnd6 = Math.floor(Math.random() * nm11.length);
-        lname = nm9[rnd] + nm10[rnd2] + nm11[rnd3] + nm10[rnd5] + nm11[rnd6]
-          + nm12[rnd4];
+        lname = nm9[rnd] + nm10[rnd2] + nm11[rnd3] + nm10[rnd5] + nm11[rnd6] + nm12[rnd4];
       } else {
         lname = nm9[rnd] + nm10[rnd2] + nm11[rnd3] + nm12[rnd4];
       }

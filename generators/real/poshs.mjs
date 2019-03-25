@@ -122,7 +122,8 @@ export default function poshs() {
     'Valentina-Smith', 'Vanderbilt', 'Wakefield', 'Watson', 'Wellington',
     'Wells', 'Weston', 'Westwood', 'Whitehall', 'Whitely', 'Whittaker',
     'Wickes', 'Wilde', 'Wildingham', 'Wilson', 'Winchester', 'Windsor',
-    'Winfield', 'Winstanley', 'Winston', 'Winthrope', 'Wraith', 'Younger']; {
+    'Winfield', 'Winstanley', 'Winston', 'Winthrope', 'Wraith', 'Younger'];
+  {
     rnd3 = Math.floor(Math.random() * nm3.length);
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm2.length);

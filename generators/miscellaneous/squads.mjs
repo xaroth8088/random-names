@@ -50,7 +50,8 @@ export default function squads() {
     'Task', 'Tracking', 'Training', 'Weapons'];
   const names5 = ['Crew', 'Division', 'Squad', 'Squadron', 'Team', 'Unit'];
   const names6 = ['Crew', 'Squad', 'Squadron'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     if (i < 3) {
       rnd = Math.floor(Math.random() * names1.length);
       rnd2 = Math.floor(Math.random() * names6.length);

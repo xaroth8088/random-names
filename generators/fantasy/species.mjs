@@ -44,7 +44,8 @@ export default function species() {
     'pube', 'pussy', 'queer', 'scrotum', 'sex', 'shit', 'slut', 'smegma',
     'spunk', 'tit', 'tosser', 'turd', 'twat', 'vagina', 'wank', 'whore', 'wtf',
   ];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     rnd = Math.floor(Math.random() * nm1.length);
     rnd2 = Math.floor(Math.random() * nm2.length);
     rnd3 = Math.floor(Math.random() * nm3.length);
@@ -64,8 +65,7 @@ export default function species() {
       rnd4 = Math.floor(Math.random() * nm4.length);
       rnd6 = Math.floor(Math.random() * nm3.length);
       rnd7 = Math.floor(Math.random() * nm8.length);
-      names = nm1[rnd] + nm2[rnd2] + nm3[rnd3] + nm4[rnd4] + nm3[rnd6] + nm8[
-        rnd7];
+      names = nm1[rnd] + nm2[rnd2] + nm3[rnd3] + nm4[rnd4] + nm3[rnd6] + nm8[rnd7];
       for (j = 0; j < check.length; j++) {
         while (names === check[j]) {
           rnd = Math.floor(Math.random() * nm1.length);
@@ -74,8 +74,7 @@ export default function species() {
           rnd4 = Math.floor(Math.random() * nm4.length);
           rnd6 = Math.floor(Math.random() * nm3.length);
           rnd7 = Math.floor(Math.random() * nm8.length);
-          names = nm1[rnd] + nm2[rnd2] + nm3[rnd3] + nm4[rnd4] + nm3[rnd6]
-            + nm8[rnd7];
+          names = nm1[rnd] + nm2[rnd2] + nm3[rnd3] + nm4[rnd4] + nm3[rnd6] + nm8[rnd7];
         }
       }
     }

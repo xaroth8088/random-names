@@ -48,7 +48,8 @@ export default function chaos() {
     'renne', 'reon', 'resh', 'ress', 'rhazi', 'rilith', 'rique', 'riss',
     'rith', 'riyes', 'riz', 'rothe', 'roush', 'roze', 'rumine', 'ruse',
     'ruxa', 'ryn', 'silix', 'sou', 'sty', 'styxe', 'thall', 'thess', 'thia',
-    'this', 'tosh', 'triesh', 'trix', 'vie', 'vix', 'xis', 'zara']; {
+    'this', 'tosh', 'triesh', 'trix', 'vie', 'vix', 'xis', 'zara'];
+  {
     if (type === 1) {
       rnd = Math.floor(Math.random() * names3.length);
       rnd2 = Math.floor(Math.random() * names4.length);

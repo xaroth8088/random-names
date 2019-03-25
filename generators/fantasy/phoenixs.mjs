@@ -14,7 +14,8 @@ export default function phoenixs() {
     'Shine', 'Slag', 'Soar', 'Sol', 'Solar', 'Solaris', 'Soleil', 'Soot',
     'Soots', 'Soul', 'Spark', 'Sparkle', 'Sparkles', 'Spirit', 'Sprout',
     'Smoke', 'Sunbeam', 'Sunny', 'Surge', 'Tinder', 'Torch', 'Vitality',
-    'Vitally', 'Viva', 'Vu', 'Zeal']; {
+    'Vitally', 'Viva', 'Vu', 'Zeal'];
+  {
     rnd = Math.floor(Math.random() * nm1.length);
     names = nm1[rnd];
     return names;

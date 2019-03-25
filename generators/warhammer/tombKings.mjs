@@ -41,7 +41,8 @@ export default function tombKings() {
     'Powerful', 'Prestigious', 'Prime', 'Prophet', 'Soothsayer',
     'Sophisticated', 'Terrific', 'Treasure', 'Treasured', 'Valiant',
     'Visionary', 'Watcher', 'White', 'Zealous'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     rnd = Math.floor(Math.random() * nm8.length);
     nameL = ` the ${nm8[rnd]}`;
     if (type === 1) {
@@ -54,8 +55,7 @@ export default function tombKings() {
       } else {
         rnd5 = Math.floor(Math.random() * nm7.length);
         rnd6 = Math.floor(Math.random() * nm6.length);
-        names = nm5[rnd] + nm6[rnd2] + nm7[rnd3] + nm6[rnd4] + nm7[rnd5] + nm6[
-          rnd6] + nameL;
+        names = nm5[rnd] + nm6[rnd2] + nm7[rnd3] + nm6[rnd4] + nm7[rnd5] + nm6[rnd6] + nameL;
       }
     } else {
       rnd = Math.floor(Math.random() * nm1.length);
@@ -69,13 +69,11 @@ export default function tombKings() {
         }
       }
       if (i < 5) {
-        names = nm1[rnd] + nm2[rnd2] + nm3[rnd3] + nm2[rnd4] + nm4[rnd5]
-          + nameL;
+        names = nm1[rnd] + nm2[rnd2] + nm3[rnd3] + nm2[rnd4] + nm4[rnd5] + nameL;
       } else {
         rnd6 = Math.floor(Math.random() * nm3.length);
         rnd7 = Math.floor(Math.random() * nm2.length);
-        names = nm1[rnd] + nm2[rnd2] + nm3[rnd3] + nm2[rnd4] + nm3[rnd6] + nm2[
-          rnd7] + nm4[rnd5] + nameL;
+        names = nm1[rnd] + nm2[rnd2] + nm3[rnd3] + nm2[rnd4] + nm3[rnd6] + nm2[rnd7] + nm4[rnd5] + nameL;
       }
     }
     return names;

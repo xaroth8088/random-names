@@ -28,7 +28,8 @@ export default function exos() {
     'Templar', 'Thunder', 'Titan', 'Toad', 'Touch', 'Trick', 'Twist', 'Umbra',
     'Vamp', 'Varmint', 'Veil', 'Vermin', 'Villain', 'Viper', 'Virtue',
     'Vision', 'Void', 'Vortex', 'Wave', 'Weasel', 'Whip', 'Whisper', 'Winter',
-    'Wraith', 'Zealot']; {
+    'Wraith', 'Zealot'];
+  {
     rnd = Math.floor(Math.random() * nm1.length);
     rnd2 = Math.floor(Math.random() * 50);
     names = `${nm1[rnd]}-${rnd2}`;

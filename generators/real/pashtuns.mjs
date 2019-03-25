@@ -116,7 +116,8 @@ export default function pashtuns() {
     'Turabi', 'Turkhel', 'Umar Khel', 'Umarzai', 'Umrani', 'Unar', 'Usmani',
     'Uthman khel', 'Virk', 'Wadeyla', 'Wassan', 'Wasti', 'Wazir', 'Wur',
     'Yazdani', 'Yousafzai', 'Yusaf Khel', 'Zaidi', 'Zain', 'Zand', 'Zardari',
-    'Zehri', 'Zubairi']; {
+    'Zehri', 'Zubairi'];
+  {
     rnd2 = Math.floor(Math.random() * nm3.length);
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm2.length);

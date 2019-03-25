@@ -34,7 +34,8 @@ export default function skavens() {
     'runner', 'sbark', 'scar', 'scream', 'seeker', 'shrieker', 'slayer',
     'snout', 'spine', 'spire', 'splitter', 'stalker', 'striker', 'tail',
     'taker', 'thorn', 'walker', 'watcher', 'weaver'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     rnd = Math.floor(Math.random() * nm5.length);
     rnd2 = Math.floor(Math.random() * nm6.length);
     while (nm5[rnd] === nm6[rnd2]) {

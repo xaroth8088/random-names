@@ -251,7 +251,8 @@ export default function owls() {
     'Whispers', 'Whitney', 'Wiggle', 'Wiggles', 'Winifred', 'Wobbles',
     'Woodstock', 'Wumba', 'Xantara', 'Xena', 'Yahtzee', 'Yaya', 'Yogi',
     'Yoki', 'Yoshi', 'Yoyo', 'Yuna', 'Zabrina', 'Zahava', 'Zava', 'Zaza',
-    'Zazoo', 'Zelda', 'Zibby', 'Ziggy', 'Zoey', 'Zoya']; {
+    'Zazoo', 'Zelda', 'Zibby', 'Ziggy', 'Zoey', 'Zoya'];
+  {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm2.length);
       names = nm2[rnd];

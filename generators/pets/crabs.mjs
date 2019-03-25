@@ -40,7 +40,8 @@ export default function crabs() {
     'Ria', 'Ripples', 'Ripple', 'Rogue', 'Shadow', 'Shade', 'Ruby', 'Sally',
     'Sandy', 'Sapphire', 'Scratches', 'Biscuit', 'Shelly', 'Shine', 'Snappy',
     'Snips', 'Snaps', 'Sparkles', 'Sparkle', 'Spot', 'Dot', 'Dots', 'Surimi',
-    'Waddles', 'Wobble', 'Wobbles', 'Waddle']; {
+    'Waddles', 'Wobble', 'Wobbles', 'Waddle'];
+  {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm2.length);
       names = nm2[rnd];

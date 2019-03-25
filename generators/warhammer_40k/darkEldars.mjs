@@ -40,7 +40,8 @@ export default function darkEldars() {
     'sarihs', 'seos', 'seqe', 'seth', 'sher', 'shi', 'sira', 'syrr', 'taena',
     'taez', 'tarin', 'teque', 'thara', 'thera', 'tihr', 'tyhs', 'vaesh',
     'velle', 'vero', 'vynn', 'zae', 'zaehn', 'zhael', 'zhenne', 'zoh', 'zysh',
-  ]; {
+  ];
+  {
     if (type === 1) {
       rnd = Math.floor(Math.random() * names3.length);
       rnd2 = Math.floor(Math.random() * names4.length);

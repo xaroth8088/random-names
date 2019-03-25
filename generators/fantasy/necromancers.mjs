@@ -53,7 +53,8 @@ export default function necromancers() {
     'the Serpent', 'the Soulkeeper', 'the Soulreaper', 'the Surgeon',
     'the Tyrant', 'the Undead', 'the Undertaker', 'the Unliving',
     'the Vivisector', 'the Wraith'];
-  const names4 = type === 1 ? namesFemale : namesMale; {
+  const names4 = type === 1 ? namesFemale : namesMale;
+  {
     rnd = Math.floor(Math.random() * names1.length);
     rnd2 = Math.floor(Math.random() * names2.length);
     rnd3 = Math.floor(Math.random() * names3.length);

@@ -85,7 +85,8 @@ export default function poisons() {
     'Symbiote', 'Tease', 'Terra', 'Throe', 'Throttle', 'Tickle', 'Toll',
     'Torment', 'Tremble', 'Truth', 'Twilight', 'Twinge', 'Vision', 'Voodoo',
     'Vortex', 'Wish', 'Wraith', 'Wyvern'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     if (i < 2) {
       rnd = Math.floor(Math.random() * nm1.length);
       rnd2 = Math.floor(Math.random() * nm2.length);

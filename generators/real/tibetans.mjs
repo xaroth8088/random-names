@@ -35,7 +35,8 @@ export default function tibetans() {
     'Pandita', 'Repa', 'Sambhota', 'Sangpo', 'Shakabpa', 'Sherpa', 'Tamang',
     'Tangpa', 'Tenzin', 'Thaye', 'Trengwa', 'Trungpa', 'Tsemo', 'Tsogyal',
     'Wangpo', 'Yeshy'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     rnd = Math.floor(Math.random() * nm1.length);
     if (i < 5) {
       names = nm1[rnd];

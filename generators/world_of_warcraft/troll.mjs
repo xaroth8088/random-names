@@ -75,7 +75,8 @@ export default function troll() {
     'oti', 'oza', 'ra', 'raa', 'shia', 'siya', 'toa', 'uja', 'ujia', 'ujin',
     'ukraa', 'ula', 'ulae', 'ulea', 'uli', 'ulli', 'ullu', 'ulu', 'una',
     'unja', 'unjin', 'unna', 'usah', 'usha', 'utie', 'uwei', 'uxia', 'uzzi',
-    'watha', 'ylin', 'yra', 'zae', 'zali', 'zari', 'zea', 'zula', 'zuli']; {
+    'watha', 'ylin', 'yra', 'zae', 'zali', 'zari', 'zea', 'zula', 'zuli'];
+  {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm4.length);
       rnd2 = Math.floor(Math.random() * nm2.length);

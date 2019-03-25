@@ -597,7 +597,8 @@ export default function punjabis() {
     'Tomar', 'Toor', 'Toot', 'Tott', 'Tuar', 'Tuli', 'Tung', 'Tushir', 'Tutt',
     'Udar', 'Ujjwal', 'Uppal', 'Vaid', 'Vaince', 'Vanar', 'Vashisht', 'Ver',
     'Verma', 'Vijayrania', 'Virk', 'Wadhwa', 'Wahla', 'Wainse', 'Walia',
-    'Wander', 'Waraich', 'Warraich']; {
+    'Wander', 'Waraich', 'Warraich'];
+  {
     rnd2 = Math.floor(Math.random() * nm3.length);
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm2.length);

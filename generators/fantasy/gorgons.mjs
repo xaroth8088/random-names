@@ -24,7 +24,8 @@ export default function gorgons() {
     'ias', 'ibos', 'ion', 'ios', 'is', 'iton', 'ius', 'o', 'oeis', 'oeus',
     'olus', 'on', 'onos', 'or', 'os', 'oteus', 'otos', 'otus', 'ous', 'us',
     'yrus', 'ys', 'ytion'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm1.length);
       rnd2 = Math.floor(Math.random() * nm2.length);
@@ -40,8 +41,7 @@ export default function gorgons() {
             rnd5 = Math.floor(Math.random() * nm3.length);
           }
         }
-        names = nm1[rnd] + nm2[rnd2] + nm3[rnd3] + nm2[rnd6] + nm3[rnd5] + nm4[
-          rnd4];
+        names = nm1[rnd] + nm2[rnd2] + nm3[rnd3] + nm2[rnd6] + nm3[rnd5] + nm4[rnd4];
       }
     } else {
       rnd = Math.floor(Math.random() * nm1.length);

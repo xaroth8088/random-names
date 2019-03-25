@@ -430,7 +430,8 @@ export default function empires() {
     'Wildner', 'Wilhelm', 'Wilpert', 'Wimpffen', 'Windisch', 'Windischmann',
     'Winkelhock', 'Winkler', 'Winter', 'Wintsch', 'Winzer', 'Wirth', 'Wirths',
     'Wirz', 'Wissmann', 'Wittgenstein', 'Wittich', 'Witting', 'Wittke',
-    'Woerfel', 'Wolf', 'Wolfensohn', 'Wolff', 'Wolfsohn']; {
+    'Woerfel', 'Wolf', 'Wolfensohn', 'Wolff', 'Wolfsohn'];
+  {
     rnd2 = Math.floor(Math.random() * nm3.length);
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm2.length);

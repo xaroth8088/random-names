@@ -69,7 +69,8 @@ export default function puritans() {
     'Ward', 'Water', 'Watson', 'Watts', 'Weeks', 'Wentworth', 'Whathing',
     'Wheelwright', 'Whitaker', 'White', 'Whitehead', 'Whittingham',
     'Wigginton', 'Wigglesworth', 'Williams', 'Wilson', 'Winthrop', 'Wither',
-    'Wood', 'Woodbridge', 'Woodford', 'Young']; {
+    'Wood', 'Woodbridge', 'Woodford', 'Young'];
+  {
     rnd = Math.floor(Math.random() * nm1.length);
     rnd2 = Math.floor(Math.random() * nm2.length);
     names = `${nm1[rnd]} ${nm2[rnd2]}`;

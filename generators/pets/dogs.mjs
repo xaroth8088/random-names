@@ -1154,7 +1154,8 @@ export default function dogs() {
     'Zewa', 'Ziera', 'Zifra', 'Ziga', 'Zillah', 'Zilly', 'Zima', 'Ziona',
     'Zippora', 'Zita', 'Ziva', 'Ziwa', 'Ziya', 'Zizi', 'Zobi', 'Zoe', 'Zoey',
     'Zoi', 'Zona', 'Zotti', 'Zula', 'Zulla', 'Zulle', 'Zuma', 'Zuni', 'Zurra',
-    'Zusa', 'Zuxi', 'Zweety', 'Zyma', 'Zyrie', 'Zyta']; {
+    'Zusa', 'Zuxi', 'Zweety', 'Zyma', 'Zyrie', 'Zyta'];
+  {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm2.length);
       names = nm2[rnd];

@@ -84,7 +84,8 @@ export default function bountyHunters() {
     'Trauma', 'Trumps', 'Twilight', 'Twitch', 'Tyran', 'Umbra', 'Vain',
     'Veil', 'Venin', 'Venom', 'Veto', 'Vex', 'Viper', 'Virtue', 'Visage',
     'Vise', 'Vision', 'Whisper', 'Wish', 'Wither', 'Woe', 'Wolf', 'X', 'Zero',
-    'Zot']; {
+    'Zot'];
+  {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm2.length);
       names = nm2[rnd];

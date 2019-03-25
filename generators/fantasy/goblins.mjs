@@ -51,7 +51,8 @@ export default function goblins() {
     'fs', 'fz', 'lm', 'lk', 'lt', 'ng', 'nx', 'ns', 'nq'];
   const nm8 = ['e', 'i', 'ee', 'ia', 'ea', 'a', 'ai', '', '', '', '', '', '',
     '', '', '', '', '', '', ''];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     rnd2 = Math.floor(Math.random() * nm2.length);
     rnd2b = Math.floor(Math.random() * nm2.length);
     if (type === 1) {
@@ -62,8 +63,7 @@ export default function goblins() {
         names = nm5[rnd5] + nm2[rnd2] + nm7[rnd7] + nm8[rnd8];
       } else {
         rnd6 = Math.floor(Math.random() * nm6.length);
-        names = nm5[rnd5] + nm2[rnd2] + nm6[rnd6] + nm2[rnd2b] + nm7[rnd7]
-          + nm8[rnd8];
+        names = nm5[rnd5] + nm2[rnd2] + nm6[rnd6] + nm2[rnd2b] + nm7[rnd7] + nm8[rnd8];
       }
     } else {
       rnd5 = Math.floor(Math.random() * nm1.length);

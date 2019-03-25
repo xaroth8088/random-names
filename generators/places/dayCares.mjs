@@ -53,7 +53,8 @@ export default function dayCares() {
     'Wee Watch', 'Wiggles and Giggles', 'Wish Upon A Star', 'Wiz Kids',
     'Wonder Kids', 'Wonderland', 'Young Explorers'];
   const nm2 = ['Childcare', 'Childcare Center', 'Daycare', 'Daycare Center',
-    'Kindergarten', 'Nursery School', 'Playgroup', 'Pre-School']; {
+    'Kindergarten', 'Nursery School', 'Playgroup', 'Pre-School'];
+  {
     rnd = Math.floor(Math.random() * nm1.length);
     rnd2 = Math.floor(Math.random() * nm2.length);
     names = `${nm1[rnd]} ${nm2[rnd2]}`;

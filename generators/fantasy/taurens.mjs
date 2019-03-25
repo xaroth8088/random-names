@@ -105,7 +105,8 @@ export default function taurens() {
     'shot', 'shout', 'singer', 'snout', 'song', 'spear', 'stalker', 'stream',
     'stride', 'strider', 'talon', 'tail', 'tusk', 'tusks', 'totem', 'walker',
     'watcher', 'water', 'weaver', 'whisk', 'whisper', 'wind', 'winds', 'wood',
-    'woods', 'wound']; {
+    'woods', 'wound'];
+  {
     rnd3 = Math.floor(Math.random() * nm3.length);
     rnd4 = Math.floor(Math.random() * nm4.length);
     if (type === 1) {

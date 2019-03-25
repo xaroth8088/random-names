@@ -66,7 +66,8 @@ export default function farms() {
     'Willowbranch', 'Windswept', 'Windy Oaks', 'Windy Willows', 'Yew Valley'];
   const names2 = ['Acres', 'Estate', 'Farm', 'Farms', 'Range', 'Farmstead',
     'Fields', 'Gardens', 'Grange', 'Lands', 'Meadow', 'Nursery', 'Orchard',
-    'Pastures', 'Ranch', 'Vineyard']; {
+    'Pastures', 'Ranch', 'Vineyard'];
+  {
     rnd0 = Math.floor(Math.random() * names1.length);
     rnd1 = Math.floor(Math.random() * names2.length);
     names = `${names1[rnd0]} ${names2[rnd1]}`;

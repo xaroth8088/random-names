@@ -155,7 +155,8 @@ export default function magicBooks() {
     'of the Undying', 'of the Victor', 'of the Void', 'of the West',
     'of the Whispers', 'of the Wicked', 'of the Wind', 'of the Wolf',
     'of the World', 'of the Wretched'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     if (i < 4) {
       rnd = Math.floor(Math.random() * nm1.length);
       names = nm1[rnd];

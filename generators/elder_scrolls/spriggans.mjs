@@ -98,7 +98,8 @@ export default function spriggans() {
     'sage', 'shadow', 'shard', 'shine', 'song', 'spell', 'spirit', 'spray',
     'sprite', 'sprout', 'star', 'stem', 'storm', 'strider', 'swirl',
     'thistle', 'thorn', 'tree', 'twig', 'twist', 'vine', 'wax', 'web',
-    'whirl', 'whisper', 'willow', 'wind', 'wish', 'wood', 'woods']; {
+    'whirl', 'whisper', 'willow', 'wind', 'wish', 'wood', 'woods'];
+  {
     rnd0 = Math.floor(Math.random() * names1.length);
     rnd1 = Math.floor(Math.random() * names2.length);
     rnd2 = Math.floor(Math.random() * names3.length);

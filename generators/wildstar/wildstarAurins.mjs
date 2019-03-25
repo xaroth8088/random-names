@@ -33,7 +33,8 @@ export default function wildstarAurins() {
     'flower', 'gaze', 'gazer', 'grass', 'heart', 'lead', 'leaf', 'mind',
     'petal', 'root', 'shade', 'shine', 'sky', 'snow', 'song', 'spirit',
     'spyre', 'stalk', 'star', 'strike', 'swift', 'thorn', 'vale', 'walk',
-    'watch', 'whisper', 'wing']; {
+    'watch', 'whisper', 'wing'];
+  {
     rnd6 = Math.floor(Math.random() * nm8.length);
     rnd7 = Math.floor(Math.random() * nm9.length);
     while (nm8[rnd6] === nm9[rnd7]) {

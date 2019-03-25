@@ -395,7 +395,8 @@ export default function birds() {
     'Wilsonia', 'Wollweberi', 'Woodhouseii', 'Wrightii', 'Wyvilliana',
     'Xanthocephalus', 'Xanthopterygius', 'Xanthotis', 'Xolmis', 'Yetapa',
     'Yncas', 'Yucatanensis', 'Zenaida', 'Zonarius', 'Zonotrichia', 'Zosterops',
-  ]; {
+  ];
+  {
     rnd = Math.floor(Math.random() * nm1.length);
     rnd2 = Math.floor(Math.random() * nm1.length);
     names = `${nm1[rnd]} ${nm1[rnd2]}`;

@@ -1066,7 +1066,8 @@ export default function telugus() {
     'Viswanatha', 'Vogeti', 'Voleti', 'Volimiri', 'Voore', 'Vruddhula',
     'Vundavalli', 'Vundavilli', 'Vutukuru', 'Vyamajala', 'Yadav',
     'Yaddanapudi', 'Yadivilli', 'Yamujala', 'Yarlagadda', 'Yeraguntla',
-    'Yerramilli']; {
+    'Yerramilli'];
+  {
     rnd2 = Math.floor(Math.random() * nm3.length);
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm2.length);

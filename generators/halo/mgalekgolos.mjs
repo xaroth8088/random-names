@@ -26,7 +26,8 @@ export default function mgalekgolos() {
     'pk', 'sk', 'tk', 'bl', 'fl', 'gl', 'pl', 'tl', 'xl', 'sl', 'bd', 'gd',
     'fd', 'ld', 'pd', 'sd', 'xd', 'bb', 'dd', 'ff', 'gg', 'kk', 'll', 'mm',
     'nn', 'pp', 'rr', 'ss', 'tt', 'ww', 'br', 'dr', 'gr', 'fr', 'kr', 'pr',
-    'tr', 'xr']; {
+    'tr', 'xr'];
+  {
     rnd = Math.floor(Math.random() * nm1.length);
     rnd2 = Math.floor(Math.random() * nm2.length);
     rnd3 = Math.floor(Math.random() * nm3.length);

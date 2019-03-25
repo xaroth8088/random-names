@@ -467,7 +467,8 @@ export default function dogWolfs() {
     'Tashmarine', 'Thulite', 'Tibet', 'Tigereye', 'Titanite', 'Topaz',
     'Tourmaline', 'Uvarovite', 'Vanadium', 'Verdite', 'Vesuvianite',
     'Zincite ', 'Zircon', 'Zoisite', 'Zuberi', 'Zultanite'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     if (type === 1) {
       if (i < 5) {
         rnd = Math.floor(Math.random() * nm2.length);

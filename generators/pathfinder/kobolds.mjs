@@ -28,7 +28,8 @@ export default function kobolds() {
     'zl'];
   const nm8 = ['', '', '', '', '', '', '', '', '', '', '', '', '', '', '', 'h',
     'k', 'l', 'n', 'm', 'r', 's'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm5.length);
       rnd2 = Math.floor(Math.random() * nm2.length);
@@ -40,8 +41,7 @@ export default function kobolds() {
       } else {
         rnd6 = Math.floor(Math.random() * nm7.length);
         rnd7 = Math.floor(Math.random() * nm2.length);
-        names = nm5[rnd] + nm2[rnd2] + nm7[rnd3] + nm2[rnd4] + nm7[rnd6] + nm2[
-          rnd7] + nm8[rnd5];
+        names = nm5[rnd] + nm2[rnd2] + nm7[rnd3] + nm2[rnd4] + nm7[rnd6] + nm2[rnd7] + nm8[rnd5];
       }
     } else {
       rnd = Math.floor(Math.random() * nm1.length);
@@ -62,8 +62,7 @@ export default function kobolds() {
       } else {
         rnd6 = Math.floor(Math.random() * nm3.length);
         rnd7 = Math.floor(Math.random() * nm2.length);
-        names = nm1[rnd] + nm2[rnd2] + nm3[rnd3] + nm2[rnd4] + nm3[rnd6] + nm2[
-          rnd7] + nm4[rnd5];
+        names = nm1[rnd] + nm2[rnd2] + nm3[rnd3] + nm2[rnd4] + nm3[rnd6] + nm2[rnd7] + nm4[rnd5];
       }
     }
     return names;

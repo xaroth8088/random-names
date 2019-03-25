@@ -325,7 +325,8 @@ export default function human() {
     'Valerie', 'Vanesa', 'Vanessa', 'Veronica', 'Victoria', 'Violet',
     'Virginia', 'Vivian', 'Viviana', 'Wendy', 'Whitney', 'Willow', 'Wilona',
     'Winifred', 'Winter', 'Yasmin', 'Yasmine', 'Yazmin', 'Yedda', 'Yetta',
-    'Yolanda', 'Yuliana', 'Yvette', 'Yvonne', 'Zaria', 'Zoe', 'Zoey', 'Zoie']; {
+    'Yolanda', 'Yuliana', 'Yvette', 'Yvonne', 'Zaria', 'Zoe', 'Zoey', 'Zoie'];
+  {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm2.length);
       names = nm2[rnd];

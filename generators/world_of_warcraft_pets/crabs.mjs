@@ -63,7 +63,8 @@ export default function crabs() {
     'Twister', 'Twitch', 'Twonka', 'Vicegrip', 'Waddles', 'Waikiki', 'Wallie',
     'Water', 'Waves', 'Weakpoint', 'Wendi', 'Wheezer', 'Whopper', 'Wonka',
     'Xavier', 'Yolanda', 'Yssup', 'Zeus', 'Zippy', 'Zoantharia', 'Zoe',
-    'iPinch']; {
+    'iPinch'];
+  {
     rnd = Math.floor(Math.random() * nm1.length);
     names = nm1[rnd];
     return names;

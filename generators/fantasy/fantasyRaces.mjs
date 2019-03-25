@@ -39,7 +39,8 @@ export default function fantasyRaces() {
     'Oceanids', 'Ogres', 'Lich', 'Gargoyles', 'Grendels', 'Draugr', 'Kappa',
     'Oni', 'Wendigo', 'Drake', 'Dragonborn', 'Ghouls', 'Grell', 'Hydra',
     'Trogg', 'Orcs', 'People', 'Satyr', 'Siren', 'Spriggan', 'Sylphs',
-    'Trolls', 'Undine', 'Valkyrie', 'Vampires', 'Werewolves', 'Women']; {
+    'Trolls', 'Undine', 'Valkyrie', 'Vampires', 'Werewolves', 'Women'];
+  {
     rnd = Math.floor(Math.random() * nm1.length);
     rnd2 = Math.floor(Math.random() * nm2.length);
     names = `${nm1[rnd]} ${nm2[rnd2]}`;

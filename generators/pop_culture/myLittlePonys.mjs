@@ -135,7 +135,8 @@ export default function myLittlePonys() {
       'Thunder', 'Twister', 'Venture', 'Victory', 'Vision', 'Whiskers',
       'Whistle', 'White', 'Wing'];
   }
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     if (i < 5) {
       rnd0 = Math.floor(Math.random() * names1.length);
       names = names1[rnd0];

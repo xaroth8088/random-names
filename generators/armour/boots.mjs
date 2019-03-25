@@ -2,8 +2,7 @@ export default function boots() {
   let rnd0;
   let rnd1;
   let rnd2;
-  let
-    rnd3;
+  let rnd3;
   let names;
   const type = Math.random() > 0.5 ? 0 : 1;
   const names1 = ['Ancient', 'Binding', 'Blessed', 'Blind', 'Broken', 'Burning',
@@ -139,7 +138,8 @@ export default function boots() {
     names5 = ['Sprinters', 'Sandals', 'Boots', 'Heels', 'Treads', 'Feet',
       'Footguards', 'Footpads', 'Walkers', 'Footsteps'];
   }
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     if (i < 2) {
       rnd0 = Math.floor(Math.random() * names1.length);
       rnd1 = Math.floor(Math.random() * names2.length);

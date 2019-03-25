@@ -114,7 +114,8 @@ export default function witchs() {
     'Rehan', 'Reuben', 'Rodney', 'Rune', 'Saul', 'Seth', 'Sol', 'Tade',
     'Tate', 'Thayer', 'Tierney', 'Tiordan', 'Torin', 'Trent', 'Troy',
     'Ulrich', 'Vivian', 'Wade', 'Ward', 'Wayde', 'Wolfe', 'Xavier', 'Xenos',
-    'Zander', 'Zelig', 'Zen', 'Zion', 'Zohar']; {
+    'Zander', 'Zelig', 'Zen', 'Zion', 'Zohar'];
+  {
     rnd2 = Math.floor(Math.random() * nm2.length);
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm1.length);

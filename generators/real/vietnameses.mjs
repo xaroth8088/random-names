@@ -40,7 +40,8 @@ export default function vietnameses() {
     'Phuong', 'Quy', 'Quyen', 'Sang', 'Suong', 'Tam', 'Tan', 'Tham', 'Thanh',
     'Thanh Ha', 'Thao', 'Thi', 'Thi ', 'Thien ', 'Thom', 'Thu', 'Thuy',
     'Tien', 'Trinh', 'Truc', 'Tuyen', 'Tuyet', 'Uoc', 'Van', 'Viet', 'Xuan',
-    'Yen']; {
+    'Yen'];
+  {
     rnd1 = Math.floor(Math.random() * nm1.length);
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm4.length);

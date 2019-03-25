@@ -175,7 +175,8 @@ export default function auRas() {
     'Khatayin', 'Malaguld', 'Malqir', 'Mankhad', 'Mierqid', 'Moks', 'Mol',
     'Noykin', 'Olkund', 'Orben', 'Oronir', 'Oroq', 'Qalli', 'Qerel', 'Qestir',
     'Sagahl', 'Torgud', 'Tumet', 'Ugund', 'Ura', 'Urumet', 'Uyagir'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     if (type === 1) {
       if (i < 5) {
         rnd = Math.floor(Math.random() * nm2.length);

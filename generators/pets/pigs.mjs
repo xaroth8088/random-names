@@ -35,7 +35,8 @@ export default function pigs() {
     'Salmone', 'Skye', 'Slobs', 'Sludges', 'Slushie', 'Smudge', 'Smudges',
     'Snoots', 'Snuffle', 'Spot', 'Stuffles', 'Sugar', 'Thistle', 'Trixie',
     'Tulip', 'Twinkie', 'Twinkle', 'Ursula', 'Wiggle', 'Waddle', 'Waddles',
-    'Wiggles', 'Wobble']; {
+    'Wiggles', 'Wobble'];
+  {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm2.length);
       names = nm2[rnd];

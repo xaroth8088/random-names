@@ -31,7 +31,8 @@ export default function taus() {
     '\'yr', 'ah', 'al', 'aln', 'an', 'ara', 'arn', 'ash', 'ax', 'eh', 'el',
     'en', 'er', 'erra', 'es', 'esh', 'eth', 'ina', 'ir', 'ira', 'irn', 'irr',
     'ish', 'ith', 'ix', 'o', 'oh', 'ol', 'om', 'on', 'or', 'ot', 'oth', 'u',
-    'ug', 'un', 'ur', 'urn', 'us', 'uth', 'ux']; {
+    'ug', 'un', 'ur', 'urn', 'us', 'uth', 'ux'];
+  {
     rnd = Math.floor(Math.random() * names1.length);
     rnd2 = Math.floor(Math.random() * names2.length);
     rnd3 = Math.floor(Math.random() * names3.length);

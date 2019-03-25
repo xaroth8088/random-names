@@ -46,7 +46,8 @@ export default function militaryDivisions() {
     'Trench', 'Tunneler', 'UAV', 'Undercover', 'Underground', 'Unmanned',
     'Vanguard', 'Veteran', 'Veterinary', 'Victim Aid', 'Victory', 'Volunteer',
     'War Dog', 'War Machine', 'Warband', 'Warhammer', 'Warmaster', 'Warrior',
-    'Weaponry', 'Winged']; {
+    'Weaponry', 'Winged'];
+  {
     rnd = Math.floor(Math.random() * nm1.length);
     names = `${nm1[rnd]} Division`;
     return names;

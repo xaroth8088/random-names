@@ -65,7 +65,8 @@ export default function ancientGreekTowns() {
     'urion', 'us', 'ussae', 'ydna', 'ydon', 'ydos', 'ylos', 'yma', 'ymna',
     'ympia', 'yn', 'ynthos', 'ynthus', 'ypes', 'yra', 'yras', 'yreum',
     'yrgos', 'yria', 'yrian', 'yrna', 'yros', 'ysos', 'ysthenes', 'ystus',
-    'ythrae', 'ytos']; {
+    'ythrae', 'ytos'];
+  {
     rnd = Math.floor(Math.random() * nm1.length);
     rnd2 = Math.floor(Math.random() * nm2.length);
     names = nm1[rnd] + nm2[rnd2];

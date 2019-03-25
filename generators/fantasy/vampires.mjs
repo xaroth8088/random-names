@@ -129,7 +129,8 @@ export default function vampires() {
     'Viktoria', 'Violet', 'Violeta', 'Wanette', 'Wilhelmina', 'Willow',
     'Wilma', 'Winnifred', 'Wren', 'Xanthe', 'Xaverie', 'Xena', 'Xylia',
     'Yolanthe', 'Ysabelle', 'Yvonne', 'Zabrina', 'Zada', 'Zafrina', 'Zakira',
-    'Zaleria', 'Zara', 'Zella', 'Zephirah', 'Zetta', 'Zola']; {
+    'Zaleria', 'Zara', 'Zella', 'Zephirah', 'Zetta', 'Zola'];
+  {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm2.length);
       names = nm2[rnd];

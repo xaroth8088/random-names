@@ -29,7 +29,8 @@ export default function salarians() {
     names7 = [''];
   } else {
     names7 = ['a', 'e', 'o', 'i'];
-  } {
+  }
+  {
     rnd0 = Math.floor(Math.random() * names1.length);
     rnd1 = Math.floor(Math.random() * names2.length);
     rnd2 = Math.floor(Math.random() * names3.length);

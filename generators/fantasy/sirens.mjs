@@ -61,7 +61,8 @@ export default function sirens() {
     'rith', 'roe', 'ros', 'sana', 'sea', 'shell', 'shi', 'ssa', 'sura', 'ta',
     'thea', 'thia', 'tina', 'tune', 'va', 've', 'vere', 'via', 'viane',
     'vianna', 'vien', 'wai', 'wen', 'xie'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     if (i < 5) {
       rnd = Math.floor(Math.random() * nm1.length);
       rnd2 = Math.floor(Math.random() * nm2.length);

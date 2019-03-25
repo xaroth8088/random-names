@@ -45,7 +45,8 @@ export default function gods() {
     'Winter', 'Wisdom', 'Work', 'Youth', 'the Afterlife', 'the Dark',
     'the Hearth', 'the Hunt', 'the Insane', 'the Land', 'the Military',
     'the Moon', 'the Mountains', 'the Ocean', 'the Ostracized', 'the Rivers',
-    'the Sea', 'the Sky', 'the Stars', 'the Sun', 'the Underworld']; {
+    'the Sea', 'the Sky', 'the Stars', 'the Sun', 'the Underworld'];
+  {
     rnd = Math.floor(Math.random() * nm1.length);
     rnd2 = Math.floor(Math.random() * nm2.length);
     rnd3 = Math.floor(Math.random() * nm3.length);

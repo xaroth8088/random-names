@@ -67,7 +67,8 @@ export default function killers() {
     'Therapist', 'Tourist', 'Tracker', 'Trapper', 'Vampire', 'Vermin',
     'Watcher', 'Weasel', 'Weirdo', 'Werewolf', 'Whale', 'Whip', 'Whisper',
     'Widow Maker', 'Wolf', 'Zombie'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     if (i < 5) {
       rnd = Math.floor(Math.random() * names1.length);
       rnd2 = Math.floor(Math.random() * names2.length);

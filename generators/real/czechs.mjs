@@ -145,7 +145,8 @@ export default function czechs() {
     'Valentová', 'Vaníčková', 'Večeřová', 'Vlčková', 'Vlachová', 'Vlasáková',
     'Vodičková', 'Vondráčková', 'Vyvozilová', 'Zahradníková', 'Zajíčková',
     'Zajícová', 'Zapletalová', 'Zatloukalová', 'Zavadilová', 'Zelenková',
-    'Zemanová']; {
+    'Zemanová'];
+  {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm2.length);
       rnd2 = Math.floor(Math.random() * nm4.length);

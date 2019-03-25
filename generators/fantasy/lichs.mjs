@@ -32,7 +32,8 @@ export default function lichs() {
   const nm4 = ['c', 'd', 'g', 'k', 'l', 'n', 'q', 'r', 'gh', 'gn', 'gr'];
   const nm5 = ['', '', 'c', 'd', 'dh', 'g', 'k', 'l', 'n', 'q', 'r', 's', 'x',
     'z'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     rnd = Math.floor(Math.random() * nm1.length);
     rnd2 = Math.floor(Math.random() * nm2.length);
     rnd3 = Math.floor(Math.random() * nm3.length);
@@ -48,8 +49,7 @@ export default function lichs() {
         }
       }
       rnd7 = Math.floor(Math.random() * nm4.length);
-      names = nm1[rnd] + nm2[rnd2] + nm3[rnd3] + nm2[rnd4] + nm4[rnd7] + nm2[
-        rnd6] + nm5[rnd5];
+      names = nm1[rnd] + nm2[rnd2] + nm3[rnd3] + nm2[rnd4] + nm4[rnd7] + nm2[rnd6] + nm5[rnd5];
     }
     return names;
   }

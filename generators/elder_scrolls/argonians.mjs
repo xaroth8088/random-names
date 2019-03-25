@@ -88,7 +88,8 @@ export default function argonians() {
     'goulus', 'lures', 'mareen', 'museeth', 'mesh', 'sareth', 'sesh', 'seene',
     'seus', 'tius', 'clesh', 'daresh', 'deseer', 'galus', 'leesh', 'rean',
     'marush', 'naresh', 'sareeth', 'teus', 'sifon', 'silus', 'thees'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     if (type === 1) {
       if (i < 6) {
         rnd = Math.floor(Math.random() * nm4.length);

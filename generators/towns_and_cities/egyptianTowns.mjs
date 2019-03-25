@@ -22,7 +22,8 @@ export default function egyptianTowns() {
     'ru', 'run', 'runa', 's', 'sa', 'sai', 'set', 'sheh', 'sir', 'siris',
     'sma', 'souk', 'sut', 'sy', 'ta', 'taten', 'ten', 'tennu', 'this', 'thus',
     'tjer', 'tunis', 'ty', 'yut', 'zum', '', '', '', '', '', '', '', '', '',
-    '', '', '', '', '', '', '', '', '', '', '', '', '', '', '']; {
+    '', '', '', '', '', '', '', '', '', '', '', '', '', '', ''];
+  {
     rnd = Math.floor(Math.random() * names1.length);
     rnd2 = Math.floor(Math.random() * names2.length);
     rnd3 = Math.floor(Math.random() * names3.length);

@@ -62,7 +62,8 @@ export default function cavemens() {
     'vv', 'vr', 'vk', 'vd', 'z', 'zz', 'zk', 'zd', 'zc', 'zg'];
   const nm12 = ['', '', 'b', 'c', 'd', 'g', 'h', 'k', 'kk', 'lk', 'll', 'n',
     'r', 't', '', '', '', '', 'h', 'l', 'n', 's'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm5.length);
       rnd2 = Math.floor(Math.random() * nm6.length);

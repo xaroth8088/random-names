@@ -366,7 +366,8 @@ export default function bandits() {
     'Swindling', 'Thieving', 'Three Fingered', 'Three Toed', 'Toothless',
     'Two Face', 'Viper', 'Wacko', 'Weasel', 'Whispering', 'Wild'];
   const names1 = type === 1 ? namesFemale : namesMale;
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     rnd = Math.floor(Math.random() * names1.length);
     if (i < 5) {
       rnd2 = Math.floor(Math.random() * names2.length);

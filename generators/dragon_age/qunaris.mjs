@@ -20,7 +20,8 @@ export default function qunaris() {
     'amay', 'an', 'anat', 'aner', 'ant', 'arad', 'ari', 'as', 'at', 'ay',
     'azim', 'ehan', 'ek', 'en', 'enol', 'er', 'ilay', 'im', 'iner', 'ishok',
     'it', 'ogan', 'ojan', 'ok', 'ol', 'oren', 'ri', 'ug', 'ul', 'urak',
-    'urhan', 'utlu']; {
+    'urhan', 'utlu'];
+  {
     if (type === 1) {
       rnd0 = Math.floor(Math.random() * namesFemale.length);
       rnd1 = Math.floor(Math.random() * namesFemale2.length);

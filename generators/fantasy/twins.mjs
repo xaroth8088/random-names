@@ -118,7 +118,8 @@ export default function twins() {
     'Yenetruoc - Courteney', 'Yerffej - Jeffrey', 'Yhtorod - Dorothy',
     'Ylrebmik - Kimberly', 'Ynitsed - Destiny', 'Ynnej - Jenny', 'Yor - Roy',
     'Yret - Tery', 'Yrloav - Valory', 'Yrret - Terry', 'Zaid - Diaz',
-    'Zeni - Inez', 'Zil - Liz', 'Zoey - Yeoz']; {
+    'Zeni - Inez', 'Zil - Liz', 'Zoey - Yeoz'];
+  {
     rnd = Math.floor(Math.random() * nm1.length);
     names = nm1[rnd];
     return names;

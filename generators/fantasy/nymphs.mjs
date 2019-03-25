@@ -134,7 +134,8 @@ export default function nymphs() {
     'Thousia', 'Thrasise', 'Thrassa', 'Thronie', 'Thronise', 'Throssia',
     'Thyia', 'Thyliase', 'Thyxia', 'Trilleia', 'Triteia', 'Tritelipha',
     'Tykhe', 'Tykiphe', 'Tyriphe', 'Xaniphe', 'Xanthe', 'Zelipea', 'Zephixo',
-    'Zeuxipia', 'Zeuxippe', 'Zeuxise', 'Zeuxoli']; {
+    'Zeuxipia', 'Zeuxippe', 'Zeuxise', 'Zeuxoli'];
+  {
     rnd = Math.floor(Math.random() * nm1.length);
     names = nm1[rnd];
     return names;

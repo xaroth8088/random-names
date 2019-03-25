@@ -70,7 +70,8 @@ export default function hotels() {
     'Wonderland', 'Yesteryear', 'Zion'];
   const names4 = ['Hotel', 'Resort', 'Resort & Spa', 'Hotel & Spa', 'Hotel',
     'Hotel', 'Resort'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     if (i < 6) {
       rnd = Math.floor(Math.random() * names1.length);
       rnd2 = Math.floor(Math.random() * names2.length);

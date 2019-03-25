@@ -513,7 +513,8 @@ export default function knights() {
     'the Unbreakable', 'the Undefeated', 'the Valiant', 'the Vigilant',
     'the Warden', 'the Warm', 'the Warrior', 'the Weak', 'the Whisper',
     'the Widow', 'the Wild', 'the Wolf', 'the Worthy', 'the Yellow',
-    'the Young']; {
+    'the Young'];
+  {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm2.length);
       rnd2 = Math.floor(Math.random() * nm4.length);

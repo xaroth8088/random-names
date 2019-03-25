@@ -46,7 +46,8 @@ export default function tieflings() {
     'rali', 'rissa', 'seis', 'solis', 'spira', 'tari', 'tish', 'uphis',
     'vari', 'vine', 'wala', 'wure', 'xibis', 'xori', 'yis', 'yola', 'za',
     'zis'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     if (type === 1) {
       if (i < 7) {
         rnd = Math.floor(Math.random() * nm4.length);

@@ -34,7 +34,8 @@ export default function amphibians() {
     'Sparkles', 'Speckles', 'Spot', 'Spots', 'Squee', 'Squiggy', 'Stitch',
     'Stitches', 'Teeny', 'Tiggles', 'Tiny', 'Tootsie', 'Trixie', 'Twiggy',
     'Twinkle', 'Waddle', 'Waddles', 'Wiggle', 'Wiggles', 'Wobble', 'Wobbles',
-    'Xena']; {
+    'Xena'];
+  {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm2.length);
       names = nm2[rnd];

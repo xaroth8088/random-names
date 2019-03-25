@@ -30,7 +30,7 @@ export default function northernSouthAmericanTowns() {
     'rá', 'ría', 'rón', 'ral', 'ranoa', 'repa', 'reté', 'rida', 'rito',
     'rodó', 'seca', 'suga', 'tá', 'té', 'tín', 'taca', 'tadó', 'tago', 'tivá',
     'vá', 'va', 'zón', 'zal', 'zales'];
-  /* Ecuador */
+    /* Ecuador */
   const nm3 = ['Al', 'Alau', 'Alfre', 'Am', 'Amba', 'Archi', 'Atu', 'Atun',
     'Azo', 'Ba', 'Bal', 'Bo', 'Ca', 'Cal', 'Caria', 'Cata', 'Caya', 'Ce',
     'Celi', 'Cho', 'Co', 'Coli', 'Coro', 'Cota', 'Cue', 'Cuen', 'Es', 'Esme',
@@ -50,7 +50,7 @@ export default function northernSouthAmericanTowns() {
     'rama', 'randa', 'rate', 'riel', 'ruma', 'sí', 'saje', 'sti', 'ta',
     'tanas', 'taqui', 'tina', 'to', 'valo', 'vedo', 'velo', 'viejo', 'yo',
     'zaza'];
-  /* French Guiana */
+    /* French Guiana */
   const nm5 = ['Akou', 'Ali', 'Apa', 'Awa', 'Bé', 'Béli', 'Be', 'Ca', 'Camo',
     'Cau', 'Caye', 'Ci', 'Clé', 'Cor', 'Cormo', 'Cormon', 'Cou', 'Dé', 'Déli',
     'Gui', 'Guisa', 'Guisan', 'Ira', 'Iracou', 'Ja', 'Javou', 'Ka', 'Kou',
@@ -62,7 +62,7 @@ export default function northernSouthAmericanTowns() {
     'nary', 'nate', 'naye', 'ne', 'noury', 'nue', 'pi', 'qui', 'ra', 're',
     'ria', 'ron', 'rou', 'ry', 'sinéry', 'soula', 'te', 'tière', 'ti', 'tibo',
     'to', 'tou', 'toury', 'venue', 'w', 'x', 'ye', 'zon'];
-  /* Guyana */
+    /* Guyana */
   const nm7 = ['Ai', 'Aisha', 'Aishal', 'An', 'Apo', 'Ara', 'Araka', 'Ari',
     'Ba', 'Bara', 'Bi', 'Bilo', 'Bu', 'Bur', 'Bux', 'En', 'Enmo', 'He',
     'Hele', 'Ho', 'Hol', 'Hoso', 'Im', 'Imbai', 'Is', 'Ish', 'Ishe', 'Isher',
@@ -79,7 +79,7 @@ export default function northernSouthAmericanTowns() {
     'riabo', 'rika', 'ro', 'roro', 'ru', 'ruca', 'ruma', 'sa', 'sano', 'sie',
     'signan', 'ta', 'taro', 'teri', 'tik', 'ton', 'tuni', 'wa', 'weigek',
     'whanna'];
-  /* Suriname */
+    /* Suriname */
   const nm9 = ['Abe', 'Abena', 'Abenas', 'Aca', 'Acari', 'Al', 'Albi', 'Ana',
     'Ape', 'Apoe', 'Au', 'Auro', 'Ba', 'Bata', 'Ben', 'Bi', 'Bita', 'Bo',
     'Boto', 'Bro', 'Broko', 'Co', 'Cor', 'Corne', 'Cot', 'Dju', 'Go', 'Ka',
@@ -91,7 +91,7 @@ export default function northernSouthAmericanTowns() {
     'naston', 'ness', 'ny', 'paike', 'pasi', 'pondo', 'pu', 'ra', 'ranam',
     'ribo', 'rie', 'rora', 'samutu', 'shoda', 'si', 'tavia', 'ti', 'tica',
     'tina', 'toe', 'toetoe', 'ton', 'tu', 'via'];
-  /* Venezuela */
+    /* Venezuela */
   const nm11 = ['Aca', 'Acari', 'Alta', 'Ana', 'Arau', 'Bar', 'Barce', 'Bari',
     'Barqui', 'Baru', 'Ca', 'Cabi', 'Cala', 'Can', 'Cantau', 'Carú', 'Cara',
     'Caraba', 'Caro', 'Carri', 'Cau', 'Cauca', 'Cha', 'Chara', 'Chi',
@@ -110,7 +110,8 @@ export default function northernSouthAmericanTowns() {
     'rigua', 'rinas', 'rio', 'rita', 'rizal', 'rojos', 'ruta', 'simeto', 'ta',
     'tagua', 'tal', 'tare', 'tas', 'taura', 'tia', 'tillo', 'tire', 'toria',
     'var', 'viche', 'yana', 'za'];
-  const i = Math.floor(Math.random() * 12); {
+  const i = Math.floor(Math.random() * 12);
+  {
     if (i < 2) {
       rnd = Math.floor(Math.random() * nm1.length);
       rnd2 = Math.floor(Math.random() * nm2.length);

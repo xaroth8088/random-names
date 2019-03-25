@@ -25,7 +25,8 @@ export default function xMens() {
     'Splinter', 'Stardust', 'Steel', 'Stretch', 'Swine', 'Switch', 'Thunder',
     'Timber', 'Timeles', 'Tranquillity', 'Twin', 'Valkyrie', 'Vapor',
     'Vermin', 'Viper', 'Virtue', 'Void', 'Vortex', 'Weasel', 'Whisper',
-    'Wisp', 'X-Ray', 'Yce']; {
+    'Wisp', 'X-Ray', 'Yce'];
+  {
     rnd = Math.floor(Math.random() * nm1.length);
     names = nm1[rnd];
     return names;

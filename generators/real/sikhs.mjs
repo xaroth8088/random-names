@@ -376,7 +376,8 @@ export default function sikhs() {
     'Wallerai', 'Walot', 'Wamak', 'Wanda', 'Wandar', 'Wanghaya', 'Wanjo',
     'Wanwar', 'Warah', 'Waran', 'Warbhu', 'Warhe', 'Wark', 'Warya', 'Warye',
     'Wasir', 'Wasli', 'Watarah', 'Wato', 'Welan', 'Wijhi', 'Wirk', 'Wulana',
-    'Yohal']; {
+    'Yohal'];
+  {
     rnd2 = Math.floor(Math.random() * nm3.length);
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm2.length);

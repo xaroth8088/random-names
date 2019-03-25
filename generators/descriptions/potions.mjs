@@ -253,8 +253,7 @@ export default function potions() {
     rnd4d = Math.floor(Math.random() * nm4.length);
   }
   let rnd4e = Math.floor(Math.random() * nm4.length);
-  while (rnd4e === rnd4a || rnd4e === rnd4b || rnd4e === rnd4c || rnd4e
-    === rnd4d) {
+  while (rnd4e === rnd4a || rnd4e === rnd4b || rnd4e === rnd4c || rnd4e === rnd4d) {
     rnd4e = Math.floor(Math.random() * nm4.length);
   }
   const rnd5a = Math.floor(Math.random() * nm5.length);
@@ -271,8 +270,7 @@ export default function potions() {
     rnd5d = Math.floor(Math.random() * nm5.length);
   }
   let rnd5e = Math.floor(Math.random() * nm5.length);
-  while (rnd5e === rnd5a || rnd5e === rnd5b || rnd5e === rnd5c || rnd5e
-    === rnd5d) {
+  while (rnd5e === rnd5a || rnd5e === rnd5b || rnd5e === rnd5c || rnd5e === rnd5d) {
     rnd5e = Math.floor(Math.random() * nm5.length);
   }
   const rnd6 = Math.floor(Math.random() * nm6.length);

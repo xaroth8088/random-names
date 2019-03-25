@@ -489,7 +489,8 @@ export default function albanians() {
     'Useni', 'Varoshi', 'Vata', 'Velo', 'Velo', 'Vercuni', 'Veseli', 'Vllasi',
     'Vllasi', 'Vrioni', 'Vulaj', 'Xhaferi', 'Xhanari', 'Xhanari', 'Xhaxhka',
     'Xhepa', 'Xhumba', 'Ymeri', 'Ymeri', 'Zagreda', 'Zaharia', 'Zhugli',
-    'Zhulati', 'Zhulati', 'Zhuzhumi', 'Ziberi', 'Zogjani', 'Zogjani', 'Zogu']; {
+    'Zhulati', 'Zhulati', 'Zhuzhumi', 'Ziberi', 'Zogjani', 'Zogjani', 'Zogu'];
+  {
     rnd2 = Math.floor(Math.random() * nm3.length);
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm2.length);

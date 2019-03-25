@@ -121,7 +121,8 @@ export default function angels() {
     'Tartys', 'Tatrasiel', 'Telantes', 'Temperance', 'Theliel', 'Ubaviel',
     'Umabel', 'Uriel', 'Usiel', 'Usiu', 'Valoel', 'Vequaniel', 'Verchiel',
     'Virgil', 'Vohamanah', 'Vretiel', 'Xathanael', 'Yahoel', 'Yofie',
-    'Zarall', 'Zazriel', 'Zophiel', 'Zuriel']; {
+    'Zarall', 'Zazriel', 'Zophiel', 'Zuriel'];
+  {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm3.length);
       nm = nm3[rnd];

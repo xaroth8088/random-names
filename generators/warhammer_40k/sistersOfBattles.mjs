@@ -15,7 +15,8 @@ export default function sistersOfBattles() {
     'enya', 'i', 'ia', 'iael', 'iah', 'icia', 'ien', 'ima', 'ina', 'ine',
     'ira', 'iro', 'isma', 'itta', 'ity', 'iya', 'on', 'one', 'osha', 'oya',
     'olis', 'oia', 'onya', 'olla', 'o', 'oris', 'ora', 'ulata', 'uya', 'une',
-    'uah', 'una']; {
+    'uah', 'una'];
+  {
     rnd = Math.floor(Math.random() * nm1.length);
     rnd2 = Math.floor(Math.random() * nm2.length);
     names = nm1[rnd] + nm2[rnd2];

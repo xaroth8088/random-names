@@ -25,7 +25,8 @@ export default function iktotchis() {
     'ii'];
   const nm7 = ['d', 'f', 'h', 'j', 'l', 'm', 'n', 'r', 's', 'v', 'w', 'z'];
   const nm8 = ['', '', 'l', 'mm', 'n', 'r', 's'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     rnd6 = Math.floor(Math.random() * nm5.length);
     rnd7 = Math.floor(Math.random() * nm6.length);
     rnd8 = Math.floor(Math.random() * nm8.length);

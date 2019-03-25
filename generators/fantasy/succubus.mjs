@@ -42,7 +42,8 @@ export default function succubus() {
     'raya', 'reia', 'relle', 'riane', 'rya', 'ryna', 'ryss', 'sea', 'sha',
     'sya', 'syss', 'tarish', 'thine', 'tia', 'tila', 'tora', 'tyse', 'via',
     'vielle', 'vienne', 'vyn', 'vynia', 'vyra', 'yera', 'yla', 'ynore', 'yra',
-    'ysh', 'ysha', 'yss', 'yxih']; {
+    'ysh', 'ysha', 'yss', 'yxih'];
+  {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm1.length);
       rnd2 = Math.floor(Math.random() * nm2.length);

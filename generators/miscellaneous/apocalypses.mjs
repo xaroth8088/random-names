@@ -31,7 +31,8 @@ export default function apocalypses() {
     'The Severance', 'The Showdown', 'The Sterilization', 'The Sundering',
     'The Tipping Point', 'The Visitors', 'The Wipe Out', 'Total Annihilation',
     'Toxic Rain', 'Winds of Death', 'World War Final', 'Our Execution',
-    'Nature\'s Judgement', 'The Omega Event', 'The Cosmic Annihilation']; {
+    'Nature\'s Judgement', 'The Omega Event', 'The Cosmic Annihilation'];
+  {
     rnd = Math.floor(Math.random() * nm1.length);
     names = nm1[rnd];
     return names;

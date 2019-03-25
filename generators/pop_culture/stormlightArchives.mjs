@@ -74,7 +74,8 @@ export default function stormlightArchives() {
     'hl', 'kl', 'kh', 'kn', 'km', 'kv', 'l', 'ln', 'lm', 'ls', 'mn', 'mw',
     'mh', 'nw', 'nl', 'nh', 'th', 'thr', 'trh', 'ts', 'tw', 'tm', 'tn', 'vl',
     'vn', 'r'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     if (i < 4) {
       rnd = Math.floor(Math.random() * nm9.length);
       rnd2 = Math.floor(Math.random() * nm10.length);
@@ -92,8 +93,7 @@ export default function stormlightArchives() {
       }
       rnd8 = Math.floor(Math.random() * nm10.length);
       rnd9 = Math.floor(Math.random() * nm14.length);
-      lname = nm9[rnd] + nm10[rnd2] + nm11[rnd3] + nm10[rnd4] + nm11[rnd5]
-        + nm12[rnd6] + nm13[rnd7] + nm10[rnd8] + nm14[rnd9];
+      lname = nm9[rnd] + nm10[rnd2] + nm11[rnd3] + nm10[rnd4] + nm11[rnd5] + nm12[rnd6] + nm13[rnd7] + nm10[rnd8] + nm14[rnd9];
     } else if (i < 7) {
       rnd = Math.floor(Math.random() * nm23.length);
       rnd2 = Math.floor(Math.random() * nm24.length);
@@ -111,8 +111,7 @@ export default function stormlightArchives() {
       }
       rnd8 = Math.floor(Math.random() * nm24.length);
       rnd9 = Math.floor(Math.random() * nm28.length);
-      sname = nm23[rnd] + nm24[rnd2] + nm25[rnd3] + nm24[rnd4] + nm25[rnd5]
-        + nm26[rnd6] + nm27[rnd7] + nm24[rnd8] + nm28[rnd9];
+      sname = nm23[rnd] + nm24[rnd2] + nm25[rnd3] + nm24[rnd4] + nm25[rnd5] + nm26[rnd6] + nm27[rnd7] + nm24[rnd8] + nm28[rnd9];
     }
     if (type === 1) {
       if (i < 2) {

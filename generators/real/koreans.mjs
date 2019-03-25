@@ -128,7 +128,8 @@ export default function koreans() {
     'Song', 'Sonu', 'Sop', 'Su', 'Sun', 'Sung', 'T\'ae', 'T\'ak', 'T\'an',
     'Tae', 'Tam', 'Tan', 'Tang', 'To', 'Tokko', 'Ton', 'Tong', 'Tongbang',
     'Tu', 'Uh', 'Um', 'Un', 'Wang', 'Wi', 'Won', 'Wu', 'Ya', 'Yang', 'Ye',
-    'Yi', 'Yo', 'Yom', 'Yon', 'Yong', 'Yop', 'Yu', 'Yuk', 'Yun']; {
+    'Yi', 'Yo', 'Yom', 'Yon', 'Yong', 'Yop', 'Yu', 'Yuk', 'Yun'];
+  {
     rnd2 = Math.floor(Math.random() * nm3.length);
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm2.length);

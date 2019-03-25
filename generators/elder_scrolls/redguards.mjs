@@ -108,7 +108,8 @@ export default function redguards() {
     'ga', '-i', 'i', 'im', 'ir', 'ja', 'ka', 'ke', '\'kern', 'ki', 'in', 'om',
     'on', 'rn', '-si', 'sa', 't', 'ta', 'ta', 'te', 'ten', 'tha', 'ti', 'um',
     'un', 'ur'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     rnd5 = Math.floor(Math.random() * nm5.length);
     rnd6 = Math.floor(Math.random() * nm6.length);
     rnd7 = Math.floor(Math.random() * nm7.length);

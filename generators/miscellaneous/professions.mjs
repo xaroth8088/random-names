@@ -68,7 +68,8 @@ export default function professions() {
     'Treasure Hunter', 'Vendor', 'Village Idiot', 'Warlock', 'Warrior',
     'Watchman', 'Water Carrier', 'Weaver', 'Wetnurse', 'Wheelwright',
     'Wine Merchant', 'Witch', 'Wizard', 'Wood Merchant', 'Woodcarver',
-    'Woodcutter', 'Zookeeper', 'Zoologist']; {
+    'Woodcutter', 'Zookeeper', 'Zoologist'];
+  {
     rnd = Math.floor(Math.random() * nm1.length);
     names = nm1[rnd];
     return names;

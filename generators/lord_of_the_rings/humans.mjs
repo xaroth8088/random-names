@@ -439,7 +439,8 @@ export default function humans() {
     'Virginia', 'Vivian', 'Viviana', 'Wendy', 'Whitney', 'Willow', 'Wilona',
     'Winifred', 'Winter', 'Yasmin', 'Yasmine', 'Yazmin', 'Yedda', 'Yetta',
     'Yolanda', 'Yuliana', 'Yvette', 'Yvonne', 'Zaria', 'Zoe', 'Zoey', 'Zoie'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     if (type === 1) {
       if (i < 4) {
         rnd = Math.floor(Math.random() * nm6.length);

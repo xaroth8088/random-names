@@ -61,7 +61,8 @@ export default function detectives() {
     'Marley', 'Mell', 'Merle', 'Mo', 'Morgan', 'Nat', 'Quinn', 'Raegan',
     'Reese', 'Riley', 'River', 'Robin', 'Rowan', 'Sam', 'Shannon', 'Shawn',
     'Skyler', 'Stevie', 'Sydney', 'Tanner', 'Taylor', 'Tristan', 'Tyler',
-    'Val', 'Vic', 'Wil']; {
+    'Val', 'Vic', 'Wil'];
+  {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm2.length);
       rnd2 = Math.floor(Math.random() * nm3.length);

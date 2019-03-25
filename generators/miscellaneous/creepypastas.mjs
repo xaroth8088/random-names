@@ -107,7 +107,8 @@ export default function creepypastas() {
     'Waiting For You', 'Wasting Time', 'We Stick Together', 'Wedding Buffet',
     'Weeping Willows', 'Wendighost', 'When The Devil Takes Hold', 'Who Am I?',
     'Who Do You Voodoo', 'Wish Upon A Star', 'Written In The Stars',
-    'Wrong Turn']; {
+    'Wrong Turn'];
+  {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm2.length);
       names = nm2[rnd];

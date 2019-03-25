@@ -78,7 +78,8 @@ export default function robots() {
     '', '', ''];
   const names9 = ['x', 'tron', 'roid', 'ator', 'oid', '', '', '', '', '', '',
     ''];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     if (i < 4) {
       rnd0 = Math.floor(Math.random() * names1.length);
       rnd1 = Math.floor(Math.random() * names2.length);
@@ -93,8 +94,7 @@ export default function robots() {
       rnd2 = Math.floor(Math.random() * names7.length);
       rnd3 = Math.floor(Math.random() * names8.length);
       rnd4 = Math.floor(Math.random() * names9.length);
-      names = names5[rnd0] + names6[rnd1] + names7[rnd2] + names8[rnd3]
-        + names9[rnd4];
+      names = names5[rnd0] + names6[rnd1] + names7[rnd2] + names8[rnd3] + names9[rnd4];
     }
     return names;
   }

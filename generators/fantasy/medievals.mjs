@@ -435,7 +435,8 @@ export default function medievals() {
     'Yda', 'Ymanie', 'Ymanya', 'Ymanye', 'Ymeisna', 'Ymenia', 'Ysabel',
     'Ysabell', 'Ysabella', 'Ysabelle', 'Ysabelon', 'Ysabelot', 'Ysabiau',
     'Ysemay', 'Yseult', 'Yseulte', 'Ysmay', 'Ysmeina', 'Ysmena', 'Ysmene',
-    'Ysolt', 'Ysoude', 'Ysout', 'Yvette', 'Yvonne']; {
+    'Ysolt', 'Ysoude', 'Ysout', 'Yvette', 'Yvonne'];
+  {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm3.length);
       rnd2 = Math.floor(Math.random() * nm4.length);

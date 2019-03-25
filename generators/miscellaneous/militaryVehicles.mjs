@@ -67,7 +67,8 @@ export default function militaryVehicles() {
     'Mine Clearing Vehicle', 'Personal Carrier', 'Reconnaissance Vehicle',
     'Recovery Vehicle', 'Repair Vehicle', 'Self-Propelled Anti-Tank Vehicle',
     'Self-Propelled Gun', 'Self-Propelled Mortar', 'Supply Vehicle', 'Tank',
-    'Tank Destroyer', 'Transport', 'Utility Vehicle']; {
+    'Tank Destroyer', 'Transport', 'Utility Vehicle'];
+  {
     rnd3 = Math.floor(Math.random() * nm4.length);
     rnd4 = Math.floor(Math.random() * nm3.length);
     rnd5 = Math.floor(Math.random() * nm3.length);

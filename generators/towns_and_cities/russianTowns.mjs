@@ -57,7 +57,8 @@ export default function russianTowns() {
     'vo', 'vodsk', 'vostok', 'vropol', 'vrov', 'vsk', 'vskoy', 'vsky',
     'vyurt', 'ya', 'yarsk', 'yev', 'yevka', 'yevsk', 'ylovka', 'ylovsk',
     'ysk', 'yugansk', 'yungri', 'zan', 'zino', 'zma', 'znetsk', 'zniki',
-    'znogorsk', 'zny', 'zov', 'zovsky', 'zran', 'zuluk', 'zyl']; {
+    'znogorsk', 'zny', 'zov', 'zovsky', 'zran', 'zuluk', 'zyl'];
+  {
     rnd = Math.floor(Math.random() * nm1.length);
     rnd2 = Math.floor(Math.random() * nm2.length);
     names = nm1[rnd] + nm2[rnd2];

@@ -37,7 +37,8 @@ export default function darkElfs() {
     'rider', 'ripper', 'runner', 'scar', 'seeker', 'shade', 'shadow', 'shard',
     'slayer', 'sorrow', 'stalker', 'stride', 'strike', 'striker', 'surge',
     'taker'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     rnd = Math.floor(Math.random() * nm9.length);
     rnd2 = Math.floor(Math.random() * nm10.length);
     while (nm9[rnd] === nm10[rnd2]) {

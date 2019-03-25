@@ -62,7 +62,8 @@ export default function goblin() {
     'pinch', 'pocket', 'pot', 'racket', 'rocket', 'screw', 'shatter', 'shiv',
     'skimmer', 'snap', 'snipe', 'spark', 'sprocket', 'task', 'tongue',
     'tooth', 'tweak', 'twister', 'volt', 'watts', 'well', 'wick', 'wizzle',
-    'wrench']; {
+    'wrench'];
+  {
     rnd7 = Math.floor(Math.random() * nm7.length);
     rnd8 = Math.floor(Math.random() * nm8.length);
     if (type === 1) {

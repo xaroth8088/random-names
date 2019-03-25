@@ -108,7 +108,8 @@ export default function bretonnias() {
     'l\'Archer', 'l\'Empereur', 'l\'Extrac', 'la Gajant', 'la Poucelle',
     'la Pucelle', 'la Voiriere', 'la pucelle', 'le Berger', 'le Cler',
     'le Coq', 'le Cordelier', 'le Gouays', 'le Grant Augustin', 'le Maçon',
-    'le Prestre']; {
+    'le Prestre'];
+  {
     rnd2 = Math.floor(Math.random() * nm3.length);
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm2.length);

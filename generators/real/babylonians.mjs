@@ -123,7 +123,8 @@ export default function babylonians() {
     'Nana', 'Ni', 'Nidintu', 'Nin-marki', 'Ninsunu', 'Omarosa', 'Ri',
     'Rubati', 'Rubati', 'Sabitum', 'Sarpanitum', 'Shala', 'Shala',
     'Tabni-Ishtar', 'Tashmitum', 'Tauthe', 'Tiamat', 'Tiamat', 'Ubalnu',
-    'Yadidatum', 'Zakiti', 'Zirat-banit', 'Zirratbanit', 'Zirratbanit']; {
+    'Yadidatum', 'Zakiti', 'Zirat-banit', 'Zirratbanit', 'Zirratbanit'];
+  {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm2.length);
       names = nm2[rnd];

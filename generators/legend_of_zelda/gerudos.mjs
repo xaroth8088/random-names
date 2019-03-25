@@ -27,7 +27,8 @@ export default function gerudos() {
     'eo', 'oa', 'ou', 'oo', 'ae', 'ai', 'au'];
   const nm7 = ['v', 'm', 'k', 'b', 'r', 'f', 'g', 'l', 'n', 's', 't'];
   const nm8 = ['m', 'k', 'r', 'f', 'g', 'l', 'n', 's', 't'];
-  const nm9 = ['a', 'e', 'i', 'o', 'u', '', '', '', '']; {
+  const nm9 = ['a', 'e', 'i', 'o', 'u', '', '', '', ''];
+  {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm5.length);
       rnd2 = Math.floor(Math.random() * nm6.length);
@@ -35,8 +36,7 @@ export default function gerudos() {
       rnd4 = Math.floor(Math.random() * nm6.length);
       rnd5 = Math.floor(Math.random() * nm8.length);
       rnd6 = Math.floor(Math.random() * nm9.length);
-      names = nm5[rnd] + nm6[rnd2] + nm7[rnd3] + nm6[rnd4] + nm8[rnd5] + nm9[
-        rnd6];
+      names = nm5[rnd] + nm6[rnd2] + nm7[rnd3] + nm6[rnd4] + nm8[rnd5] + nm9[rnd6];
     } else {
       rnd = Math.floor(Math.random() * nm1.length);
       rnd2 = Math.floor(Math.random() * nm2.length);
@@ -45,8 +45,7 @@ export default function gerudos() {
       rnd5 = Math.floor(Math.random() * nm2.length);
       rnd6 = Math.floor(Math.random() * nm3.length);
       rnd7 = Math.floor(Math.random() * nm2.length);
-      names = nm1[rnd] + nm2[rnd2] + nm3[rnd3] + nm2[rnd5] + nm3[rnd6] + nm2[
-        rnd7] + nm4[rnd4];
+      names = nm1[rnd] + nm2[rnd2] + nm3[rnd3] + nm2[rnd5] + nm3[rnd6] + nm2[rnd7] + nm4[rnd4];
     }
     return names;
   }

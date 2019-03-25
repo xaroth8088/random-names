@@ -38,7 +38,8 @@ export default function jewelrys() {
     'Star', 'Stone', 'Sun', 'Swan', 'Tear', 'Teardrop', 'Tempest', 'Tribute',
     'Trinket', 'Twin', 'Twins', 'Twirl', 'Twist', 'Valor', 'Vigor', 'Vision',
     'Voice', 'Vow', 'Whisper', 'Will', 'Wing', 'Wings', 'Wish'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     rnd = Math.floor(Math.random() * nm1.length);
     rnd2 = Math.floor(Math.random() * nm2.length);
     if (i < 5) {

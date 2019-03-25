@@ -57,7 +57,8 @@ export default function modernEgyptians() {
     'Safar', 'Said', 'Salib', 'Saliba', 'Samaha', 'Sarkis', 'Sarraf',
     'Sayegh', 'Seif', 'Shadid', 'Shalhoub', 'Shammas', 'Shamon', 'Shamoon',
     'Shamoun', 'Sleiman', 'Srour', 'Tahan', 'Tannous', 'Toma', 'Totah',
-    'Touma', 'Tuma', 'Wasem', 'Zogby']; {
+    'Touma', 'Tuma', 'Wasem', 'Zogby'];
+  {
     rnd2 = Math.floor(Math.random() * nm3.length);
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm2.length);

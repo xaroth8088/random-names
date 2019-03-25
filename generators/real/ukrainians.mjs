@@ -120,7 +120,8 @@ export default function ukrainians() {
     'Shulyayev', 'Shynkarchuk', 'Shmata', 'Shch', 'Shcherba', 'Shcherbak',
     'Shcherbatyuk', 'Shcherbachenko', 'Shcherbyna', 'Shchyrytsya', 'Shchors',
     'Shchuka', 'Shchurat', 'Yurchenko', 'Yushchenko', 'Yanukovych', 'Yarmoluk',
-  ]; {
+  ];
+  {
     rnd2 = Math.floor(Math.random() * nm3.length);
     nm3.splice(rnd2, 1);
     if (type === 1) {

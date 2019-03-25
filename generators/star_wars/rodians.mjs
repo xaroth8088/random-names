@@ -83,7 +83,8 @@ export default function rodians() {
     'gs', 'h', 'hn', 'hnt', 'ht', 'k', 'l', 'lb', 'll', 'ls', 'm', 'n', 'ng',
     'nk', 'nn', 'ntt', 'nx', 'p', 'q', 'r', 'rk', 'rn', 'ro', 'rr', 'rs', 's',
     'sh', 't', 'th', 'w', 'x', 'z'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     rnd7 = Math.floor(Math.random() * nm9.length);
     rnd8 = Math.floor(Math.random() * nm10.length);
     rnd10 = Math.floor(Math.random() * nm12.length);
@@ -95,15 +96,13 @@ export default function rodians() {
     } else if (i % 2 === 0) {
       rnd9 = Math.floor(Math.random() * nm10.length);
       rnd11 = Math.floor(Math.random() * nm11.length);
-      namelast = nm9[rnd7] + nm10[rnd8] + nm11[rnd11] + nm10[rnd9] + nm12[
-        rnd10];
+      namelast = nm9[rnd7] + nm10[rnd8] + nm11[rnd11] + nm10[rnd9] + nm12[rnd10];
     } else {
       rnd9 = Math.floor(Math.random() * nm10.length);
       rnd11 = Math.floor(Math.random() * nm11.length);
       rnd12 = Math.floor(Math.random() * nm10.length);
       rnd13 = Math.floor(Math.random() * nm11.length);
-      namelast = nm9[rnd7] + nm10[rnd8] + nm11[rnd11] + nm10[rnd9] + nm11[
-        rnd13] + nm10[rnd12] + nm12[rnd10];
+      namelast = nm9[rnd7] + nm10[rnd8] + nm11[rnd11] + nm10[rnd9] + nm11[rnd13] + nm10[rnd12] + nm12[rnd10];
     }
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm5.length);

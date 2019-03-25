@@ -23,7 +23,8 @@ export default function tuffles() {
     'Roupe', 'Ruity', 'Rybe', 'Simper', 'Talou', 'Taloup', 'Tama', 'Tang',
     'Tara', 'Tarato', 'Tareen', 'Tarine', 'Taya', 'Tayapi', 'Tecojo',
     'Temoya', 'Tohui', 'Vagua', 'Vaqua', 'Wesha', 'Wiki', 'Woran', 'Yapa',
-    'Yote', 'Zara']; {
+    'Yote', 'Zara'];
+  {
     rnd = Math.floor(Math.random() * nm1.length);
     names = nm1[rnd];
     nm1.splice(rnd, 1);

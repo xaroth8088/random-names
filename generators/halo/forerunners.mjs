@@ -51,7 +51,8 @@ export default function forerunners() {
     'Stability and Balance', 'Stars Eternal', 'Stars and Planets',
     'Sundered Star', 'Symmetry', 'Trust and Faith', 'Twisted Fate',
     'Value and Virtue', 'Wandering Star', 'Warped Space', 'Will and Might',
-    'Wisdom and Knowlege']; {
+    'Wisdom and Knowlege'];
+  {
     rnd = Math.floor(Math.random() * nm1.length);
     rnd2 = Math.floor(Math.random() * nm2.length);
     names = `${nm1[rnd]} ${nm2[rnd2]}`;

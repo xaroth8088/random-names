@@ -43,7 +43,8 @@ export default function awards() {
   const nm3 = ['', '', '', '', '', 'Accolade', 'Award', 'Award', 'Award',
     'Award', 'Award', 'Award', 'Award', 'Award', 'Award', 'Award', 'Grant',
     'Hall of Fame', 'Hall of Fame Award', 'Prize', 'Prize for Quality',
-    'Quality Award', 'Trophy', 'of the Year']; {
+    'Quality Award', 'Trophy', 'of the Year'];
+  {
     rnd = Math.floor(Math.random() * nm1.length);
     rnd2 = Math.floor(Math.random() * nm2.length);
     rnd3 = Math.floor(Math.random() * nm3.length);

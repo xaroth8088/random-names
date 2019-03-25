@@ -27,7 +27,8 @@ export default function benzites() {
   const nm9 = ['in', 'en', 'iq', 'eq', 'ix', 'ex', 'eth', 'ith', 'ez', 'iz',
     'ey', 'iy'];
   const nm10 = ['a', 'e', 'o', 'u', '', '', '', ''];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     if (type === 1) {
       if (i < 5) {
         rnd = Math.floor(Math.random() * nm6.length);
@@ -51,8 +52,7 @@ export default function benzites() {
       rnd4 = Math.floor(Math.random() * nm2.length);
       rnd5 = Math.floor(Math.random() * nm4.length);
       rnd6 = Math.floor(Math.random() * nm5.length);
-      names = nm1[rnd] + nm2[rnd2] + nm3[rnd3] + nm2[rnd4] + nm4[rnd5] + nm5[
-        rnd6];
+      names = nm1[rnd] + nm2[rnd2] + nm3[rnd3] + nm2[rnd4] + nm4[rnd5] + nm5[rnd6];
     }
     return names;
   }

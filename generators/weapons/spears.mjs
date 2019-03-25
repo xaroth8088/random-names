@@ -229,7 +229,8 @@ export default function spears() {
     'Viewpoint', 'Warbringer', 'Warmonger', 'Waypoint', 'Whirlwind', 'Wicked',
     'Widow Maker', 'Willbreaker', 'Windpiercer', 'Winter\'s Bite',
     'Wit\'s End', 'Witherbrand', 'Wolf', 'Woosh'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     if (i < 3) {
       rnd = Math.floor(Math.random() * nm1.length);
       names = nm1[rnd];

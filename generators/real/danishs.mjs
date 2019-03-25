@@ -148,7 +148,8 @@ export default function danishs() {
     'Thogersen', 'Thomasen', 'Thomassen', 'Thomsen', 'Thorsen', 'Thorup',
     'Thrane', 'Thuesen', 'Thygesen', 'Toft', 'Torp', 'Tran', 'Troelsen',
     'Truelsen', 'Vester', 'Vestergaard', 'Vilhelmsen', 'Villadsen',
-    'Villumsen', 'Vinther', 'Wagner', 'Westergaard', 'Winther', 'Wulff']; {
+    'Villumsen', 'Vinther', 'Wagner', 'Westergaard', 'Winther', 'Wulff'];
+  {
     rnd3 = Math.floor(Math.random() * nm3.length);
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm2.length);

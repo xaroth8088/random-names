@@ -251,7 +251,8 @@ export default function bands() {
     'Velvet', 'Venom', 'Vibe', 'Virtue', 'Virtuoso', 'Vision', 'Void',
     'Volley', 'Voyage', 'Whip', 'Whistle', 'Wish', 'Wraith', 'Wreckage',
     'Wrinkle', 'Zion', 'Zombies'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     if (i < 3) {
       rnd = Math.floor(Math.random() * names1.length);
       rnd2 = Math.floor(Math.random() * names2.length);

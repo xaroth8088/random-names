@@ -64,7 +64,8 @@ export default function orc() {
     'chewer', 'cleaver', 'crusher', 'eye', 'fang', 'fist', 'fury', 'hammer',
     'hand', 'horn', 'lash', 'maul', 'maw', 'rage', 'ripper', 'runner',
     'scream', 'seeker', 'slayer', 'snarl', 'song', 'splitter', 'sword',
-    'taker', 'wolf']; {
+    'taker', 'wolf'];
+  {
     rnd2 = Math.floor(Math.random() * nm2.length);
     rnd7 = Math.floor(Math.random() * nm7.length);
     rnd8 = Math.floor(Math.random() * nm8.length);

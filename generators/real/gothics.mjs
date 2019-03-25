@@ -66,7 +66,8 @@ export default function gothics() {
     'Monia', 'Narin', 'Oonagh', 'Ostrogotho', 'Radegond', 'Radegonda',
     'Rasha', 'Rautgundis', 'Richildis', 'Riciberga', 'Seda', 'Sunigilda',
     'Sunilda', 'Talida', 'Teja', 'Theodananda', 'Thiudigotho', 'Vadamerca',
-    'Valdamerca', 'Wilgefortis']; {
+    'Valdamerca', 'Wilgefortis'];
+  {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm2.length);
       names = nm2[rnd];

@@ -64,7 +64,8 @@ export default function holidays() {
     'Tranquility', 'Trees', 'Truth', 'Unity', 'Vegetables', 'Victory',
     'Voices', 'Warmth', 'Water', 'Waves', 'Whispers', 'Wine', 'Winter',
     'Women', 'Wonders', 'Wood', 'Worship', 'Writing', 'Youth'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     if (i < 4) {
       rnd = Math.floor(Math.random() * names1.length);
       rnd1 = Math.floor(Math.random() * names2.length);

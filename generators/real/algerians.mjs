@@ -105,7 +105,8 @@ export default function algerians() {
     'Saadi', 'Sadi', 'Sahnoun', 'Salem', 'Salhi', 'Seghir', 'Sidi',
     'Skandrani', 'Slimani', 'Solal', 'Taha', 'Tannoudji', 'Tarik', 'Tifour',
     'Timsit', 'Wadoud', 'Yacine', 'Youcef', 'Zabana', 'Zakaria', 'Zekkal',
-    'Zerhouni', 'Zeroual', 'Ziani', 'Zidane']; {
+    'Zerhouni', 'Zeroual', 'Ziani', 'Zidane'];
+  {
     rnd2 = Math.floor(Math.random() * nm3.length);
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm2.length);

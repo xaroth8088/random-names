@@ -47,7 +47,8 @@ export default function vocalGroups() {
     'Vocal Affinity', 'Vocal Chords', 'Vocal Harmony', 'Vocal Movement',
     'Voce Pienna', 'Voce Vita', 'Voice of the People', 'Voices In Our Head',
     'Voicestra', 'Vox Anima', 'Vox Humana', 'Vox Populi',
-    'Wicked Pitch of the West', 'Young Voices', 'Prime Chorus']; {
+    'Wicked Pitch of the West', 'Young Voices', 'Prime Chorus'];
+  {
     rnd = Math.floor(Math.random() * nm2.length);
     names = nm2[rnd];
     nm2.splice(rnd, 1);

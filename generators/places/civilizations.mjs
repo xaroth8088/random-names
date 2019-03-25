@@ -43,7 +43,8 @@ export default function civilizations() {
     'thn', 'thm', 'tch'];
   const nm7 = ['', '', '', '', '', '', '', '', 'c', 'g', 'h', 'k', 'l', 'll',
     'm', 'n', 'nd', 'q', 'r', 's', 'sh', 't', 'th', 'x'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     rnd = Math.floor(Math.random() * nm1.length);
     if (i < 3) {
       rnd2 = Math.floor(Math.random() * nm5.length);
@@ -64,8 +65,7 @@ export default function civilizations() {
       rnd4 = Math.floor(Math.random() * nm5.length);
       rnd5 = Math.floor(Math.random() * nm3.length);
       rnd6 = Math.floor(Math.random() * nm7.length);
-      names = nm1[rnd] + nm2[rnd2] + nm4[rnd3] + nm5[rnd4] + nm3[rnd5] + nm7[
-        rnd6];
+      names = nm1[rnd] + nm2[rnd2] + nm4[rnd3] + nm5[rnd4] + nm3[rnd5] + nm7[rnd6];
     } else {
       rnd2 = Math.floor(Math.random() * nm3.length);
       rnd3 = Math.floor(Math.random() * nm6.length);
@@ -75,8 +75,7 @@ export default function civilizations() {
         rnd5 = Math.floor(Math.random() * nm7.length);
       }
       rnd6 = Math.floor(Math.random() * nm3.length);
-      names = nm1[rnd] + nm3[rnd2] + nm6[rnd3] + nm3[rnd4] + nm7[rnd5] + nm3[
-        rnd6];
+      names = nm1[rnd] + nm3[rnd2] + nm6[rnd3] + nm3[rnd4] + nm7[rnd5] + nm3[rnd6];
     }
     return names;
   }

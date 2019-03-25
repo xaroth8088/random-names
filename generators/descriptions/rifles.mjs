@@ -15,7 +15,7 @@ export default function rifles() {
   const nm13 = ['wood', 'plastic', 'metal', 'premium wood', 'ivory', 'pearl', 'engraved wood', 'exotic wood', 'horn'];
   const nm14 = ['your wishes', 'your desires', 'your purpose', 'your goals', 'your needs'];
   const nm15 = ['walnut', 'maple', 'myrtle wood', 'birch', 'plastic', 'metal', 'laminated wood'];
-  const nm16 = ['other materials are available', 'other stocks will soon go in production', 'a few other stock materials are available', 'other stock materials are unfortunately not available yet', 'stocks made from a different material have to be custom made', 'most other stock materials are widely available', 'some other stock materials can be acquired with some effort', 'other materials, including luxury materials, are available as well', 'other materials have yet to be made available', "other materials aren't available yet and may never be"];
+  const nm16 = ['other materials are available', 'other stocks will soon go in production', 'a few other stock materials are available', 'other stock materials are unfortunately not available yet', 'stocks made from a different material have to be custom made', 'most other stock materials are widely available', 'some other stock materials can be acquired with some effort', 'other materials, including luxury materials, are available as well', 'other materials have yet to be made available', 'other materials aren\'t available yet and may never be'];
   const nm17 = ['folding stock', 'extendable stock', 'detachable stock', 'shoulder stock', 'wooden stock', 'plastic stock', 'straight grip stock', 'full grip stock', 'semi-grip stock'];
   const nm19 = ['very common as well', 'the next most common stock available', 'high up on the list of demand', 'often preferred instead', 'used more often', 'just as common and popular', 'second in line, although not as common', 'very popular as well, despite being less common', 'slowly becoming the new standard', 'a close second in terms of popularity'];
   const nm20 = ['drum', 'detachable box', 'horizontal box', 'casket', 'rotary', 'spool', 'STANAG', 'hopper', 'helical', 'saddle-drum', 'semi-curved'];
@@ -27,11 +27,10 @@ export default function rifles() {
   const nm26 = ['winning a war', 'winning a civil war', 'preventing more crime', 'preventing war through a show of power', 'keeping the peace', 'increasing security', 'fighting crime on a bigger scale', 'upgrading the existing inventory', 'updating the existing inventory', 'preparing for a likely war', 'gaining the upper hand in a guerrilla war', 'providing more versatility in terms of weapon choice', 'increasing the amount of weapons available', 'fighting new threats', 'fighting terrorism more efficiently'];
   const nm27 = ['Japanese man named H. Yoshimitsu', 'German man named G. Klauss', 'British man named E. Fawkes', 'American man named G. Jones', 'Canadian man names L. Coats', 'South-African man named A. Botha', 'Chinese man named B. Chan', 'Israeli man named D. Mizrahi', 'Russian man named T. Yakovich', 'Korean man named Sung S. W', 'Indian man named C. Mahal', 'Iranian man named B. Javan', 'Turkish man named T. Almaz', 'Italian man named W. Brocato', 'French man named C. Bouvard', 'Spanish man named D. Cruz'];
   const nm28 = ['There are a few other variants of this weapon', 'Many other variants of this weapon are available', 'There are three other variants of this weapon', 'This weapon has quite a few other variants', 'Several other variants of this weapon are in production as well', 'Two other variants of this weapon are currently in production', 'Quite a few other variants of this weapon are available, with more nearing production', 'A few variants of this weapon will soon be in production'];
-  const nm29 = ['including a civilian version', 'including a semi-auto civilian version', 'including two less powerful civilian versions', "but there's no civilian version yet", 'but there are no plans for a civilian version', 'but a civilian version is most likely out of the question', 'but a civilian version is currently on hold', 'but the plans for a less powerful civilian version have been delayed'];
+  const nm29 = ['including a civilian version', 'including a semi-auto civilian version', 'including two less powerful civilian versions', 'but there\'s no civilian version yet', 'but there are no plans for a civilian version', 'but a civilian version is most likely out of the question', 'but a civilian version is currently on hold', 'but the plans for a less powerful civilian version have been delayed'];
   const nm30 = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', '0', '1', '2', '3', '4', '5', '6', '7', '8', '9'];
   const nm31 = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', '0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', ''];
   const nm32 = ['Desert Viper', 'Black Mamba', 'Peacekeeper', 'The Ambassador', 'Oathkeeper', 'Due Diligence', 'Boomer', 'Bulldog', 'Valkyrie', 'Vengeance', 'Rattlesnake', 'Thunder', 'Big Daddy', 'The Punisher', 'The Judge'];
-
   const rnd1 = Math.floor(Math.random() * nm1.length);
   const rnd2 = Math.floor(Math.random() * nm2.length);
   const rnd3 = Math.floor(Math.random() * nm3.length);
@@ -93,21 +92,16 @@ export default function rifles() {
   const rnd31c = Math.floor(Math.random() * nm31.length);
   const rnd31d = Math.floor(Math.random() * nm31.length);
   const rnd32 = Math.floor(Math.random() * nm32.length);
-
   const name = `This weapon is ${nm1[rnd1]}${nm1b}${nm2[rnd2]} and ${nm3[rnd3]}.`;
   const name2 = `The ${nm4[rnd4]} of the weapon is ${nm5}mm, with a ${nm6}mm barrel and the weapon weighs ${nm7[rnd7]} ${nm8}kg.`;
   const name3 = `It uses ${nm9[rnd9]}mm rounds, but ${nm10[rnd10]}.`;
-
   const name4 = `The weapon has ${nm11[rnd11]}. The pistol grip is made out of ${nm12[rnd12]}, but can also be made out of ${nm13[rnd13a]} and ${nm13[rnd13b]} depending on ${nm14[rnd14]}.`;
   const name5 = `The stock is made out of ${nm15[rnd15]}, but ${nm16[rnd16]}. The standard stock is a ${nm17[rnd17]}, but the ${nm17[rnd18]} is ${nm19[rnd19]}.`;
-
   const name6 = `The standard issue magazine is a ${nm20[rnd20]} which carries ${nm21[rnd21]} rounds, but ${nm22[rnd22]}. It has ${nm23[rnd23]} mechanism to release the magazine.`;
   const name7 = `The selective fire modes are safe mode, ${nm24[rnd24a]} and ${nm24[rnd24b]}.`;
-
   const name8 = `This weapon was designed for the ${nm25[rnd25]} with the purpose of ${nm26[rnd26]}. It was designed by a ${nm27[rnd27]}.`;
   const name9 = `${nm28[rnd28]}, ${nm29[rnd29]}.`;
   const name10 = `The weapon is called the ${nm30[rnd30a]}${nm31[rnd31a]}${nm31[rnd31b]}-${nm30[rnd30b]}${nm31[rnd31c]}${nm31[rnd31d]}, but it usally goes by its nickname '${nm32[rnd32]}'.`;
-
   let result = '';
   result += name;
   result += '\n';

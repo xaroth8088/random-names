@@ -80,7 +80,8 @@ export default function dwarfs() {
     'o', 'u', 'a', 'e', 'i', 'o', 'u', 'au', 'ei', 'ia', 'ea', 'ai'];
   const nm21 = ['', '', '', '', '', 'ck', 'ggs', 'gs', 'l', 'ld', 'ls', 'lt',
     'm', 'n', 'r', 'rd', 'rg', 's', 'ss', 'st', 't', 'y', 'ys'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     rnd8 = Math.floor(Math.random() * nm15.length);
     rnd9 = Math.floor(Math.random() * nm16.length);
     rnd10 = Math.floor(Math.random() * nm17.length);
@@ -96,8 +97,7 @@ export default function dwarfs() {
         rnd12 = Math.floor(Math.random() * nm19.length);
       }
     }
-    lname = nm15[rnd8] + nm16[rnd9] + nm17[rnd10] + nm18[rnd11] + nm19[rnd12]
-      + nm20[rnd13] + nm21[rnd14];
+    lname = nm15[rnd8] + nm16[rnd9] + nm17[rnd10] + nm18[rnd11] + nm19[rnd12] + nm20[rnd13] + nm21[rnd14];
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm8.length);
       rnd2 = Math.floor(Math.random() * nm9.length);

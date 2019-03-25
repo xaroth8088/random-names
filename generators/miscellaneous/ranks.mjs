@@ -42,7 +42,8 @@ export default function ranks() {
     'Sellsword', 'Senator', 'Sentinel', 'Shaman', 'Shogun', 'Specialist',
     'Spokesman', 'Squire', 'Strategos', 'Sultan', 'Supervisor', 'Templar',
     'Trainee', 'Vizier', 'Warchief', 'Warlord', 'Warmaster', 'Warrior',
-    'Zealot']; {
+    'Zealot'];
+  {
     rnd = Math.floor(Math.random() * nm1.length);
     names = nm1[rnd];
     return names;

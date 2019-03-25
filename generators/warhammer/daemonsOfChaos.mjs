@@ -33,7 +33,8 @@ export default function daemonsOfChaos() {
     'might', 'mourn', 'reaper', 'reaver', 'rider', 'ripper', 'seeker',
     'shade', 'shadow', 'shaper', 'strider', 'striker', 'sworn', 'taker',
     'thane', 'watcher', 'weaver'];
-  const nm8 = ['the ', '', '', '']; {
+  const nm8 = ['the ', '', '', ''];
+  {
     rnd = Math.floor(Math.random() * nm1.length);
     rnd2 = Math.floor(Math.random() * nm2.length);
     rnd3 = Math.floor(Math.random() * nm3.length);

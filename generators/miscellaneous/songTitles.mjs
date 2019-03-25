@@ -1167,7 +1167,8 @@ export default function songTitles() {
         'You Love Me', 'You Don\'t Love Me', 'You Got Me'];
       break;
   }
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     if (i < 2) {
       rnd = Math.floor(Math.random() * names1.length);
       rnd2 = Math.floor(Math.random() * names2.length);

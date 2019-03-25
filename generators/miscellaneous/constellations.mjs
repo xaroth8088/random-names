@@ -122,7 +122,8 @@ export default function constellations() {
     'Chest', 'Hourglass', 'Umbrella', 'Telephone', 'Ring', 'Pencil', 'Brush',
     'Cone', 'Scroll', 'Heart', 'Spoon', 'Fork', 'Knife', 'Vase', 'Shell',
     'Book'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     if (i < 3) {
       rnd = Math.floor(Math.random() * nm1.length);
       names = nm1[rnd];

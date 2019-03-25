@@ -18,7 +18,8 @@ export default function letheans() {
     'zm'];
   const nm4 = ['b', 'c', 'd', 'f', 'g', 'k', 'm', 'nt', 'n', 'p', 'q', 'r',
     'sz', 't', 'v', 'z', '', ''];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     if (i < 5) {
       rnd = Math.floor(Math.random() * nm1.length);
       rnd2 = Math.floor(Math.random() * nm2.length);
@@ -40,8 +41,7 @@ export default function letheans() {
           rnd6 = Math.floor(Math.random() * nm2.length);
         }
       }
-      names = nm1[rnd] + nm2[rnd2] + nm3[rnd3] + nm2[rnd4] + nm3[rnd5] + nm2[
-        rnd6] + nm4[rnd7];
+      names = nm1[rnd] + nm2[rnd2] + nm3[rnd3] + nm2[rnd4] + nm3[rnd5] + nm2[rnd6] + nm4[rnd7];
     } else {
       rnd = Math.floor(Math.random() * nm1.length);
       rnd2 = Math.floor(Math.random() * nm2.length);

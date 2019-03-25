@@ -28,7 +28,8 @@ export default function cathars() {
   const nm12 = ['d', 'l', 'm', 'n', 's', 'sh', 'rg', 'z'];
   const nm13 = ['', '', '', 'g', 'k', 'l', 'm', 'n', 'r', 's', 't'];
   const nm14 = ['', '', '', 'h'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     if (i < 5) {
       rn = Math.floor(Math.random() * nm10.length);
       rn2 = Math.floor(Math.random() * nm14.length);
@@ -36,8 +37,7 @@ export default function cathars() {
       rn4 = Math.floor(Math.random() * nm12.length);
       rn5 = Math.floor(Math.random() * nm11.length);
       rn6 = Math.floor(Math.random() * nm13.length);
-      lName = nm10[rn] + nm14[rn2] + nm11[rn3] + nm12[rn4] + nm11[rn5] + nm13[
-        rn6];
+      lName = nm10[rn] + nm14[rn2] + nm11[rn3] + nm12[rn4] + nm11[rn5] + nm13[rn6];
     } else {
       rn = Math.floor(Math.random() * nm10.length);
       rn2 = Math.floor(Math.random() * nm14.length);

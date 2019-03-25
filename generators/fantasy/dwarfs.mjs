@@ -138,7 +138,8 @@ export default function dwarfs() {
     'helm', 'hide', 'hood', 'horn', 'jaw', 'mace', 'mail', 'maker', 'mantle',
     'mane', 'master', 'maul', 'miner', 'pike', 'rock', 'river', 'shield',
     'shaper', 'sword', 'shoulder', 'stone', 'spine', 'sunder', 'thane', 'toe',
-    'tank', 'view']; {
+    'tank', 'view'];
+  {
     rnd4 = Math.floor(Math.random() * nm7.length);
     rnd5 = Math.floor(Math.random() * nm8.length);
     if (type === 1) {

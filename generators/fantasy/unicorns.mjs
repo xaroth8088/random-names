@@ -57,7 +57,8 @@ export default function unicorns() {
     'Nightwind', 'Perky', 'Rainbow', 'Robin', 'Roshan', 'Rune', 'Sable',
     'Sapphire', 'Sigil', 'Silly', 'Silvesse', 'Snow', 'Snowflake', 'Solstice',
     'Sparkles', 'Starburst', 'Stardust', 'Sterling', 'Sunny', 'Sunshine',
-    'Tryne', 'Twilight', 'Twinkle', 'Unity', 'Willow', 'Wynn', 'Zane']; {
+    'Tryne', 'Twilight', 'Twinkle', 'Unity', 'Willow', 'Wynn', 'Zane'];
+  {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm2.length);
       names = nm2[rnd];

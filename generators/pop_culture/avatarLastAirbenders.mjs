@@ -37,7 +37,8 @@ export default function avatarLastAirbenders() {
   const nm25 = ['', '', 'ch', 'h', 'l', 'm', 'n', 's', 'sh', 't', 'y', 'z'];
   const nm26 = ['k', 'l', 'rs', 's', 'z'];
   const nm27 = ['', '', 'ch', 'h', 'l', 'm', 'n', 's', 'sh', 't', 'y', 'z'];
-  const i = Math.floor(Math.random() * 12); {
+  const i = Math.floor(Math.random() * 12);
+  {
     if (type === 1) {
       if (i < 3) {
         rnd = Math.floor(Math.random() * nm5.length);
@@ -53,8 +54,7 @@ export default function avatarLastAirbenders() {
         rnd4 = Math.floor(Math.random() * nm13.length);
         rnd5 = Math.floor(Math.random() * nm14.length);
         rnd6 = Math.floor(Math.random() * nm13.length);
-        names = nm12[rnd] + nm13[rnd2] + nm14[rnd3] + nm13[rnd4] + nm14[rnd5]
-          + nm13[rnd6];
+        names = nm12[rnd] + nm13[rnd2] + nm14[rnd3] + nm13[rnd4] + nm14[rnd5] + nm13[rnd6];
       } else if (i < 6) {
         rnd = Math.floor(Math.random() * nm12.length);
         rnd2 = Math.floor(Math.random() * nm13.length);
@@ -80,8 +80,7 @@ export default function avatarLastAirbenders() {
         rnd4 = Math.floor(Math.random() * nm2.length);
         rnd5 = Math.floor(Math.random() * nm26.length);
         rnd6 = Math.floor(Math.random() * nm2.length);
-        names = nm25[rnd] + nm2[rnd2] + nm26[rnd3] + nm2[rnd4] + nm26[rnd5]
-          + nm2[rnd6];
+        names = nm25[rnd] + nm2[rnd2] + nm26[rnd3] + nm2[rnd4] + nm26[rnd5] + nm2[rnd6];
       } else {
         rnd = Math.floor(Math.random() * nm27.length);
         rnd2 = Math.floor(Math.random() * nm2.length);

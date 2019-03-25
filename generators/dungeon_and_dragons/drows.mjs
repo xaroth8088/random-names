@@ -182,7 +182,8 @@ export default function drows() {
     'oavae', 'ond', 'onrae', 'orel', 'orgh', 'oryn', 'orzza', 'ossz', 'uae',
     'uan', 'uil', 'uin', 'une', 'ykur', 'yl', 'ylan', 'ym', 'yn', 'yr', 'yrr',
     'yth'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     if (type === 1) {
       if (i < 4) {
         rnd = Math.floor(Math.random() * namesFemRf.length);

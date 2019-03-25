@@ -63,7 +63,8 @@ export default function halflings() {
     'lich', 'ling', 'man', 'meier', 'ming', 'mond', 'red', 'ric', 'rich',
     'ring', 'roth', 'stein', 'stock', 'thal', 'thorn', 'thran', 'tram',
     'veldt', 'ville', 'wald', 'ward', 'wend', 'wich', 'wise', 'wort', 'yegg',
-    'zel']; {
+    'zel'];
+  {
     rnd2 = Math.floor(Math.random() * nm3.length);
     rnd3 = Math.floor(Math.random() * nm4.length);
     if (type === 1) {

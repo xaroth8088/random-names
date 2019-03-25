@@ -101,7 +101,7 @@ export default function humans() {
     'watcher', 'water', 'weaver', 'whirl', 'whisk', 'winds', 'wing', 'woods',
     'wound', 'brooke', 'fall', 'fallow', 'horn', 'root', 'shine', 'swallow',
     'thorne', 'willow', 'wood'];
-  /* Damaran */
+    /* Damaran */
   const nm23 = ['', '', 'b', 'br', 'f', 'g', 'gl', 'gr', 'h', 'k', 'm', 'n',
     'p', 'r', 's', 'v'];
   const nm24 = ['a', 'e', 'i', 'o'];
@@ -157,7 +157,7 @@ export default function humans() {
     'th', 'thr', 'v', 'vr', 'z', 'zr', 'zd'];
   const nm53 = ['b', 'd', 'ft', 'fk', 'hd', 'hr', 'hk', 'k', 'kt', 'ld', 'm',
     't'];
-  /* Rashemi */
+    /* Rashemi */
   const nm54 = ['b', 'br', 'd', 'dr', 'f', 'g', 'j', 'k', 'm', 'r', 's', 'sh',
     't', 'vl', 'z'];
   const nm55 = ['a', 'e', 'i', 'o', 'a', 'e', 'i', 'o', 'a', 'e', 'i', 'o', 'a',
@@ -181,7 +181,7 @@ export default function humans() {
   const nm64 = ['b', 'd', 'dz', 'g', 'k', 'ld', 'lb', 'lm', 'lz', 'm', 'mr',
     'mz', 'n', 'nz', 'ng', 'nt', 'r', 'rg', 'rn', 'rk', 'th', 'tr', 'tv', 'v',
     'vr', 'vz', 'b', 'd', 'g', 'k', 'm', 'n', 'r', 'v'];
-  /* Shou */
+    /* Shou */
   const nm65 = ['', '', 'ch', 'f', 'h', 'j', 'l', 'm', 'q', 'sh', 't', 'th',
     'w', 'z'];
   const nm66 = ['a', 'i', 'e', 'o', 'u', 'ia', 'ui', 'io', 'ie', 'iu'];
@@ -1256,7 +1256,8 @@ export default function humans() {
     'Zara', 'Zarah', 'Zaria', 'Zeider', 'Zelda', 'Zena', 'Zenobia', 'Zenzi',
     'Zerelda', 'Zerla', 'Zerlina', 'Zerline', 'Zilli', 'Zina', 'Zoe', 'Zoey',
     'Zoie', 'Zorra', 'Zuri', 'Zuria', 'Zurie'];
-  const i = Math.floor(Math.random() * 16); {
+  const i = Math.floor(Math.random() * 16);
+  {
     if (i < 2) {
       rnd = Math.floor(Math.random() * nm9.length);
       rnd2 = Math.floor(Math.random() * nm10.length);
@@ -1298,8 +1299,7 @@ export default function humans() {
       if (i === 8) {
         rnd6 = Math.floor(Math.random() * nm52.length);
         rnd7 = Math.floor(Math.random() * nm51.length);
-        lname = nm50[rnd] + nm51[rnd2] + nm52[rnd3] + nm51[rnd4] + nm52[rnd6]
-          + nm51[rnd7] + nm53[rnd5];
+        lname = nm50[rnd] + nm51[rnd2] + nm52[rnd3] + nm51[rnd4] + nm52[rnd6] + nm51[rnd7] + nm53[rnd5];
       } else {
         lname = nm50[rnd] + nm51[rnd2] + nm52[rnd3] + nm51[rnd4] + nm53[rnd5];
       }
@@ -1313,11 +1313,9 @@ export default function humans() {
       if (i === 10) {
         rnd7 = Math.floor(Math.random() * nm64.length);
         rnd8 = Math.floor(Math.random() * nm63.length);
-        lname = nm62[rnd] + nm63[rnd2] + nm64[rnd3] + nm63[rnd4] + nm64[rnd5]
-          + nm63[rnd6] + nm64[rnd7] + nm63[rnd8];
+        lname = nm62[rnd] + nm63[rnd2] + nm64[rnd3] + nm63[rnd4] + nm64[rnd5] + nm63[rnd6] + nm64[rnd7] + nm63[rnd8];
       } else {
-        lname = nm62[rnd] + nm63[rnd2] + nm64[rnd3] + nm63[rnd4] + nm64[rnd5]
-          + nm63[rnd6];
+        lname = nm62[rnd] + nm63[rnd2] + nm64[rnd3] + nm63[rnd4] + nm64[rnd5] + nm63[rnd6];
       }
     } else if (i < 14) {
       rnd = Math.floor(Math.random() * nm70.length);
@@ -1337,8 +1335,7 @@ export default function humans() {
       rnd6 = Math.floor(Math.random() * nm81.length);
       rnd7 = Math.floor(Math.random() * nm14.length);
       rnd5 = Math.floor(Math.random() * nm82.length);
-      lname = nm80[rnd] + nm14[rnd2] + nm81[rnd3] + nm14[rnd4] + nm81[rnd6]
-        + nm14[rnd7] + nm82[rnd5];
+      lname = nm80[rnd] + nm14[rnd2] + nm81[rnd3] + nm14[rnd4] + nm81[rnd6] + nm14[rnd7] + nm82[rnd5];
     }
     if (type === 3) {
       rnd = Math.floor(Math.random() * nm83.length);

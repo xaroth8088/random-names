@@ -23,7 +23,8 @@ export default function orions() {
   const nm10 = ['r', 's', 'sh', 'ss', '', '', '', '', '', '', '', '', '', '',
     ''];
   const nm11 = ['hn', 'l', 'll', 'n', 'nn', 's', 'ss', 'sh', 'v'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     if (type === 1) {
       if (i < 5) {
         rnd = Math.floor(Math.random() * nm6.length);
@@ -40,8 +41,7 @@ export default function orions() {
         rnd5 = Math.floor(Math.random() * nm11.length);
         rnd6 = Math.floor(Math.random() * nm9.length);
         rnd7 = Math.floor(Math.random() * nm10.length);
-        names = nm6[rnd] + nm7[rnd2] + nm8[rnd3] + nm9[rnd4] + nm11[rnd5] + nm9[
-          rnd6] + nm10[rnd7];
+        names = nm6[rnd] + nm7[rnd2] + nm8[rnd3] + nm9[rnd4] + nm11[rnd5] + nm9[rnd6] + nm10[rnd7];
       }
     } else {
       rnd = Math.floor(Math.random() * nm1.length);

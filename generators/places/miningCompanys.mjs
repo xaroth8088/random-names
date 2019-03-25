@@ -53,7 +53,8 @@ export default function miningCompanys() {
     'West Field', 'Zinc Holes'];
   const nm2 = ['Mining', 'Mining Companies', 'Mines', 'Mining Group',
     'Mineshaft', 'Company', 'Corporation', 'Industries', 'Mining Corporation',
-  ]; {
+  ];
+  {
     rnd = Math.floor(Math.random() * nm1.length);
     rnd2 = Math.floor(Math.random() * nm2.length);
     names = `${nm1[rnd]} ${nm2[rnd2]}`;

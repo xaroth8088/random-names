@@ -63,7 +63,8 @@ export default function gnolls() {
     'pinch', 'scowl', 'scrap', 'shrapnel', 'skin', 'smile', 'smirk', 'snag',
     'spear', 'stick', 'talon', 'teeth', 'thumb', 'tine', 'toe', 'toes',
     'tongue', 'tooth', 'tusk', 'watch', 'wizzle'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     rnd12 = Math.floor(Math.random() * nm13.length);
     rnd22 = Math.floor(Math.random() * nm14.length);
     nmLast = nm13[rnd12] + nm14[rnd22];

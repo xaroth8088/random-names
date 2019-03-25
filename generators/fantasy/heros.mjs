@@ -119,7 +119,8 @@ export default function heros() {
     'Thunder Hawk', 'Thunderclap', 'Thundering Whisper', 'Venom', 'Venombite',
     'Voiceless Stranger', 'Wi-Fire', 'Wild Tornado', 'Wildfire', 'Wildflame',
     'Karma'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     if (i < 4) {
       rnd = Math.floor(Math.random() * nm1.length);
       rnd2 = Math.floor(Math.random() * nm2.length);

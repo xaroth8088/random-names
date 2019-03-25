@@ -63,7 +63,8 @@ export default function assyrians() {
     'Panna', 'Pari', 'Ramina', 'Ramsina', 'Rashomta', 'Rdita', 'Sahdina',
     'Sawrina', 'Shamiram', 'Shamiran', 'Shamyran', 'Shamreta', 'Shamrina',
     'Shamura', 'Sharokina', 'Shimta', 'Shirat', 'Simta', 'Sorme', 'Ur',
-    'Walita', 'Wardina', 'Wardiya', 'Yaeeta', 'Yata', 'Yayota']; {
+    'Walita', 'Wardina', 'Wardiya', 'Yaeeta', 'Yata', 'Yayota'];
+  {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm2.length);
       names = nm2[rnd];

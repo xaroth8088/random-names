@@ -101,7 +101,8 @@ export default function epithets() {
     'Moaner', 'Mole', 'Necromancer', 'Nobody', 'Oaf', 'Pickpocket', 'Prophet',
     'Puppy', 'Quack', 'Scar', 'Servant', 'Sheep', 'Silencer', 'Slayer',
     'Soothsayer', 'Stalker', 'Surgeon', 'Vulture', 'Warlock', 'Whelp', 'Worm',
-    'Wreckage']; {
+    'Wreckage'];
+  {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm2.length);
       names = `The ${nm2[rnd]}`;

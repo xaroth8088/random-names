@@ -19,7 +19,8 @@ export default function gorns() {
     'm', 'mal', 'mar', 'msek', 'mus', 'n', 'nbet', 'nd', 'ndas', 'nzaar', 'r',
     'rash', 'rd', 'rith', 'rozs', 'rr', 's', 'sek', 'sh', 'sibus', 'ss',
     'szan', 'tar', 'tezs', 'th', 'this', 'ts', 'yah', 'yak', 'yas', 'yin',
-    'yith', 'z', 'zaar', 'zin', 'zs', 'zzan']; {
+    'yith', 'z', 'zaar', 'zin', 'zs', 'zzan'];
+  {
     rnd = Math.floor(Math.random() * nm1.length);
     rnd2 = Math.floor(Math.random() * nm2.length);
     names = nm1[rnd] + nm2[rnd2];

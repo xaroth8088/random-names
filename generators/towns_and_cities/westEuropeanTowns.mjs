@@ -16,7 +16,7 @@ export default function westEuropeanTowns() {
     'ling', 'markt', 'nau', 'nitz', 'rau', 'schlag', 'see', 'sill', 'stadt',
     'statt', 'stein', 'tal', 'ten', 'tetten', 'trenk', 'weg', 'weil', 'zell',
     'zing', 'zis'];
-  /* Belgium */
+    /* Belgium */
   const nm3 = ['Aar', 'Ander', 'Ant', 'Bever', 'Blanken', 'Bras', 'Brug',
     'Brus', 'Dam', 'Dender', 'Dik', 'Dil', 'Eek', 'Etter', 'Ever', 'For',
     'Grim', 'Hal', 'Harel', 'Has', 'Her', 'Heren', 'Heus', 'Hoog', 'Hout',
@@ -31,7 +31,7 @@ export default function westEuropeanTowns() {
     'muide', 'port', 'ren', 'rijk', 'ringen', 'schaat', 'schot', 'sel',
     'selt', 'sen', 'stal', 'stel', 'straten', 'tals', 'ten', 'ven', 'vik',
     'voorde', 'werp', 'werpen', 'zen'];
-  /* France */
+    /* France */
   const nm5 = ['Épi', 'Alen', 'Angou', 'Anti', 'Anto', 'Argen', 'Auber', 'Auri',
     'Avi', 'Ba', 'Bé', 'Beau', 'Bel', 'Berge', 'Besan', 'Bor', 'Bou', 'Bour',
     'Ca', 'Cam', 'Carca', 'Cha', 'Champi', 'Char', 'Cho', 'Cla', 'Cler',
@@ -49,7 +49,7 @@ export default function westEuropeanTowns() {
     'sier', 'sir', 'ssion', 'ssis', 'ssonne', 'ssons', 'ssy', 'teaux',
     'thune', 'toise', 'tou', 'veil', 'vers', 'ves', 'ville', 'vin', 'yonne',
     'zieu', 'zon'];
-  /* Germany */
+    /* Germany */
   const nm7 = ['Aben', 'Ade', 'Adels', 'Ahrens', 'All', 'Allen', 'Als', 'Alten',
     'Ans', 'Arns', 'Auer', 'Bür', 'Baum', 'Ben', 'Bern', 'Biesen', 'Blanken',
     'Blau', 'Blom', 'Blum', 'Boizen', 'Bonn', 'Clau', 'Cloppen', 'Creuz',
@@ -73,7 +73,7 @@ export default function westEuropeanTowns() {
     'nau', 'now', 'räschen', 'rath', 'roda', 'rode', 'schau', 'scheid',
     'shafen', 'sloh', 'stadt', 'stedt', 'stein', 'sten', 'thal', 'wagen',
     'wald', 'werder', 'wig', 'zach'];
-  /* Ireland */
+    /* Ireland */
   const nm9 = ['Ar', 'Ark', 'Ath', 'Bal', 'Ballin', 'Bally', 'Ban', 'Bel',
     'Bun', 'Car', 'Castle', 'Clon', 'Clona', 'Coote', 'Done', 'Drog', 'Dub',
     'Dun', 'Dungar', 'East', 'Eden', 'Ennis', 'Gal', 'Gran', 'Grey', 'Kil',
@@ -89,7 +89,7 @@ export default function westEuropeanTowns() {
     'ran', 'rary', 'rea', 'reen', 'rey', 'rick', 'room', 'rush', 'sale',
     'shannon', 'shel', 'sloe', 'stone', 'stones', 'ton', 'towel', 'try',
     'van', 'way'];
-  /* Netherlands */
+    /* Netherlands */
   const nm11 = ['Al', 'Alk', 'Amers', 'Amstel', 'Amster', 'Apel', 'Appinge',
     'Arn', 'Arne', 'As', 'Blok', 'Bols', 'Breda', 'Brede', 'Coe', 'Culem',
     'Deven', 'Dier', 'Dik', 'Doetin', 'Dor', 'Drach', 'Eind', 'Em', 'Emmel',
@@ -108,7 +108,7 @@ export default function westEuropeanTowns() {
     'richem', 'rode', 'schede', 'schoten', 'selt', 'singen', 'stad', 'stadt',
     'stein', 'ter', 'veen', 'venter', 'voort', 'vorden', 'voren', 'waard',
     'ward', 'warden', 'wijk', 'zaal', 'zand', 'zee', 'zijl'];
-  /* Switzerland */
+    /* Switzerland */
   const nm13 = ['Aar', 'Adlish', 'Affol', 'All', 'Alt', 'Amris', 'Appen', 'Ar',
     'As', 'Bellin', 'Bero', 'Bia', 'Birs', 'Bischof', 'Brem', 'Burg', 'Con',
     'Crog', 'Cud', 'Düben', 'Delé', 'Diessen', 'Eg', 'Ein', 'Er', 'Frauen',
@@ -128,7 +128,8 @@ export default function westEuropeanTowns() {
     'seen', 'sellen', 'siedeln', 'singen', 'soix', 'son', 'stätten', 'stadt',
     'stal', 'steig', 'stein', 'stuhl', 'swil', 'tal', 'tern', 'thal', 'wil',
     'zach', 'zell', 'zona'];
-  const i = Math.floor(Math.random() * 14); {
+  const i = Math.floor(Math.random() * 14);
+  {
     if (i < 2) {
       rnd = Math.floor(Math.random() * nm1.length);
       rnd2 = Math.floor(Math.random() * nm2.length);

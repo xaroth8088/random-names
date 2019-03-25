@@ -69,7 +69,8 @@ export default function warriorsOfChaos() {
     'Skinner', 'Slaughterer', 'Soothsayer', 'Suneater', 'Transient',
     'Unstable', 'Vagrant', 'Vengeful', 'Volatile', 'Wanderer', 'Warmonger',
     'Wicked', 'Wrathful', 'Wreckage', 'Wretched'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     if (i % 3 === 0) {
       rnd = Math.floor(Math.random() * nm8.length);
       rnd2 = Math.floor(Math.random() * nm9.length);

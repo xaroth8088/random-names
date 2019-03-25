@@ -32,7 +32,8 @@ export default function cars() {
     'Tradition', 'Trailblazer', 'Treasure', 'Triumph', 'Twister', 'Umbra',
     'Union', 'Universe', 'Utopia', 'Vagabond', 'Vanish', 'Vertex', 'Vigor',
     'Vindicator', 'Viper', 'Virtue', 'Vision', 'Vortex', 'Voyage', 'Vulture',
-    'Warrior', 'Whim', 'Whirlpool', 'Wish', 'Zeal']; {
+    'Warrior', 'Whim', 'Whirlpool', 'Wish', 'Zeal'];
+  {
     rnd = Math.floor(Math.random() * nm1.length);
     names = nm1[rnd];
     return names;

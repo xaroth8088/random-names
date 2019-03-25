@@ -6,16 +6,14 @@ export default function aasimars() {
   let rnd4;
   let rnd5;
   let rnd6;
-  let
-    rnd7;
+  let rnd7;
   let rnd10;
   let rnd11;
   let rnd12;
   let rnd13;
   let rnd14;
   let rnd15;
-  let
-    rnd16;
+  let rnd16;
   let names;
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['', '', '', '', '', 'b', 'c', 'cr', 'd', 'gr', 'k', 'kr', 'l',
@@ -45,7 +43,8 @@ export default function aasimars() {
     'ls', 'lg', 'ldr', 'lm', 'lw', 'm', 'mr', 'ml', 'n', 'nm', 'ng', 'nv',
     'nk', 'p', 'pr', 'r', 'rl', 'rg', 'rv', 'rw', 's', 'v', 'z'];
   const nm12 = ['', '', '', 'l', 'm', 'n', 'r'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     rnd10 = Math.floor(Math.random() * nm9.length);
     rnd11 = Math.floor(Math.random() * nm10.length);
     rnd12 = Math.floor(Math.random() * nm12.length);
@@ -54,11 +53,9 @@ export default function aasimars() {
     if (i % 2 === 0) {
       rnd15 = Math.floor(Math.random() * nm11.length);
       rnd16 = Math.floor(Math.random() * nm10.length);
-      nameLast = nm9[rnd10] + nm10[rnd11] + nm11[rnd13] + nm10[rnd14] + nm11[
-        rnd15] + nm10[rnd16] + nm12[rnd12];
+      nameLast = nm9[rnd10] + nm10[rnd11] + nm11[rnd13] + nm10[rnd14] + nm11[rnd15] + nm10[rnd16] + nm12[rnd12];
     } else {
-      nameLast = nm9[rnd10] + nm10[rnd11] + nm11[rnd13] + nm10[rnd14] + nm12[
-        rnd12];
+      nameLast = nm9[rnd10] + nm10[rnd11] + nm11[rnd13] + nm10[rnd14] + nm12[rnd12];
     }
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm5.length);

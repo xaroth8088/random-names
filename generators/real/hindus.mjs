@@ -208,7 +208,8 @@ export default function hindus() {
     'Varty', 'Varughese', 'Vasa', 'Venkataraman', 'Venkatesh', 'Verma', 'Vig',
     'Virk', 'Viswanathan', 'Vohra', 'Vora', 'Vyas', 'Wable', 'Wadhwa',
     'Wagle', 'Wali', 'Walia', 'Walla', 'Warrior', 'Wason', 'Yadav', 'Yogi',
-    'Yohannan', 'Zacharia', 'Zachariah']; {
+    'Yohannan', 'Zacharia', 'Zachariah'];
+  {
     rnd2 = Math.floor(Math.random() * nm3.length);
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm2.length);

@@ -75,7 +75,8 @@ export default function nicknames() {
     'The Wicked', 'The Widow', 'The Wild', 'The Wildling', 'The Wise',
     'The Wolf', 'The Wonder', 'The Young', 'Traditions', 'Twice Captured',
     'Twice Dead', 'Twice Killed', 'Venom Tongue', 'Warrior Queen',
-    'Weak Legs', 'White Hand', 'White Rose']; {
+    'Weak Legs', 'White Hand', 'White Rose'];
+  {
     rnd = Math.floor(Math.random() * names1.length);
     names = names1[rnd];
     return names;

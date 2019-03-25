@@ -148,7 +148,8 @@ export default function romaGypsys() {
     'Shofranka', 'Simza', 'Sinfi', 'Stanka', 'Syeira', 'Talaitha', 'Tasaria',
     'Tasarla', 'Tawni', 'Tematea', 'Treju', 'Tshilaba', 'Tsura', 'Tsuritsa',
     'Ucho', 'Ujaranza', 'Vadoma', 'Vai', 'Violca', 'Viollca', 'Zujenia'];
-  const names1 = type === 1 ? namesFemale : namesMale; {
+  const names1 = type === 1 ? namesFemale : namesMale;
+  {
     rnd = Math.floor(Math.random() * names1.length);
     rnd1 = Math.floor(Math.random() * names2.length);
     names = `${names1[rnd]} ${names2[rnd1]}`;

@@ -23,7 +23,8 @@ export default function countrys() {
     'ain', 'ium', 'us', 'esh', 'os', 'ana', 'il', 'ad', 'or', 'ea', 'eau',
     'ax', 'on', 'ana', 'ary', 'ya', 'ye', 'yae', 'ait', 'ein', 'urg', 'al',
     'ines', 'ela'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     if (i < 2) {
       rnd = Math.floor(Math.random() * nm1.length);
       rnd2 = Math.floor(Math.random() * nm2.length);

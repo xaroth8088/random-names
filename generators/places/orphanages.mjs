@@ -48,7 +48,8 @@ export default function orphanages() {
     'White Lilly', 'White Orchid', 'White Tulip', 'White Warden',
     'White Willow', 'Wings of Angels', 'Wings of Love', 'Wings of Refuge',
     'Zion'];
-  const nm2 = ['Orphanage', 'Orphan Home', 'Home']; {
+  const nm2 = ['Orphanage', 'Orphan Home', 'Home'];
+  {
     rnd = Math.floor(Math.random() * nm1.length);
     rnd2 = Math.floor(Math.random() * nm2.length);
     names = `${nm1[rnd]} ${nm2[rnd2]}`;

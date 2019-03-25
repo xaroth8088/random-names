@@ -19,7 +19,7 @@ export default function westAfricanTowns() {
     'pouy', 'ré', 'range', 'rcy', 'rdié', 'rgaye', 'rgo', 'ri', 'rma', 'rom',
     'romo', 'ssé', 'ssi', 'ssila', 'ssiri', 'sso', 'ssouri', 'tao', 'tchari',
     'tenga', 'tié', 'yéri', 'ya', 'ye'];
-  /* Ghana */
+    /* Ghana */
   const nm3 = ['Abo', 'Abu', 'Ade', 'Ago', 'Aki', 'Akro', 'Akwa', 'Ango', 'Ano',
     'Anoma', 'Apa', 'Asa', 'Asama', 'Ashia', 'Axi', 'Ba', 'Be', 'Bego',
     'Bere', 'Bi', 'Bibi', 'Bibia', 'Bo', 'Bolga', 'Do', 'Du', 'Dua', 'Effi',
@@ -40,7 +40,7 @@ export default function westAfricanTowns() {
     'ridua', 'ru', 'se', 'shibi', 'shie', 'si', 'so', 'stea', 'tanga', 'tapo',
     'te', 'tia', 'vrongo', 'wam', 'we', 'wkaw', 'wku', 'xim', 'yani', 'yaw',
     'yow'];
-  /* Ivory Coast */
+    /* Ivory Coast */
   const nm5 = ['Ánya', 'Ányo', 'Aba', 'Abe', 'Abi', 'Aboi', 'Adza', 'Adzo',
     'Agbi', 'Agbo', 'Ba', 'Bara', 'Bi', 'Bia', 'Bo', 'Bona', 'Bou', 'Bu',
     'Buoa', 'Da', 'Daba', 'Dana', 'Dano', 'Di', 'Dimbo', 'Do', 'Dona', 'Dora',
@@ -57,7 +57,7 @@ export default function westAfricanTowns() {
     'ndra', 'nfra', 'ng', 'nné', 'nyama', 'pé', 'rahoué', 'rhoga', 'rhogo',
     'rou', 'sam', 'ssé', 'ssam', 'ssiam', 'sso', 'ssoukro', 'tala', 'tiola',
     'to', 'vo'];
-  /* Mali */
+    /* Mali */
   const nm7 = ['Ba', 'Bama', 'Bandia', 'Bgui', 'Bla', 'Bou', 'Dié', 'Di',
     'Dioï', 'Dio', 'Dje', 'Doue', 'Fé', 'Fa', 'Ga', 'Gao', 'Gla', 'Go', 'Gou',
     'Gui', 'Ka', 'Kadio', 'Kala', 'Kanga', 'Kara', 'Ki', 'Ko', 'Kolo', 'Koro',
@@ -75,7 +75,7 @@ export default function westAfricanTowns() {
     'nkidi', 'nkou', 'nné', 'no', 'ntou', 'ntza', 'pti', 'ré', 'ra', 'ran',
     'rem', 'ri', 'ro', 'rosso', 'ry', 'ssigui', 'sso', 'ta', 'tao', 'ti',
     'tiala', 'to', 'tou', 'ya', 'yes'];
-  /* Niger */
+    /* Niger */
   const nm9 = ['Aba', 'Ade', 'Aderbi', 'Aga', 'Akou', 'Aou', 'Assa', 'Asso',
     'Ayou', 'Ba', 'Bale', 'Bi', 'Bo', 'Bou', 'Ché', 'Chéti', 'Che', 'Da',
     'Daba', 'Dako', 'Di', 'Dia', 'Diago', 'Dogo', 'Fa', 'Fi', 'Fili', 'Ga',
@@ -96,7 +96,7 @@ export default function westAfricanTowns() {
     'rria', 'rti', 'saoua', 'ssaoua', 'ssinat', 'sso', 'ssodé', 'ta',
     'tameye', 'tchi', 'timari', 'wa', 'weye', 'ya', 'yahi', 'yara', 'ye',
     'yourou', 'zérina', 'za', 'zine'];
-  /* Nigeria */
+    /* Nigeria */
   const nm11 = ['Aba', 'Abaka', 'Abeo', 'Age', 'Aku', 'Asa', 'Bau', 'BeBeni',
     'Bi', 'Bu', 'Ca', 'Cala', 'Du', 'Eke', 'Enu', 'Go', 'Gu', 'Iba', 'Ike',
     'Iko', 'Ilo', 'Ira', 'Ja', 'Jali', 'Ji', 'Jime', 'Jo', 'Ka', 'Kadu',
@@ -113,7 +113,7 @@ export default function westAfricanTowns() {
     'nugu', 'rdu', 'ri', 'ria', 'rin', 'riya', 'rlu', 'rnin', 'ron', 'rri',
     'ru', 'saba', 'sau', 'si', 'skum', 'so', 'ta', 'to', 'tse', 'tsha',
     'tsina', 'ya', 'yi', 'yo'];
-  /* Senegal */
+    /* Senegal */
   const nm13 = ['Ba', 'Bi', 'Bigno', 'Da', 'Daga', 'Daka', 'Damnia', 'Diou',
     'Fa', 'Fati', 'Go', 'Gossa', 'Gou', 'Gui', 'Guingui', 'Ké', 'Kébé',
     'Kédou', 'Ka', 'Kane', 'Kao', 'Kaya', 'Kho', 'Ko', 'Koa', 'Kou', 'Lé',
@@ -130,7 +130,8 @@ export default function westAfricanTowns() {
     'nchor', 'nda', 'ne', 'nel', 'ngara', 'ngheul', 'nguére', 'niadio',
     'nona', 'que', 'ra', 'rbel', 're', 'rine', 'ro', 'sas', 'sque', 'ssas',
     'tam', 'tane', 'tick', 'vaouane', 'yar', 'ye'];
-  const i = Math.floor(Math.random() * 14); {
+  const i = Math.floor(Math.random() * 14);
+  {
     if (i < 2) {
       rnd = Math.floor(Math.random() * nm1.length);
       rnd2 = Math.floor(Math.random() * nm2.length);

@@ -40,7 +40,8 @@ export default function airplanes() {
     'pulse', 'punch', 'pyre', 'rage', 'raid', 'rise', 'roar', 'rush',
     'scream', 'shade', 'spark', 'storm', 'strike', 'thunder', 'tooth', 'urge',
     'ward', 'wing', 'wrath'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     if (i < 5) {
       rnd = Math.floor(Math.random() * nm3.length);
       rnd2 = Math.floor(Math.random() * nm4.length);

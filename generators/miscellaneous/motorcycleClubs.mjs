@@ -44,7 +44,8 @@ export default function motorcycleClubs() {
     'Syndicate', 'Tigers', 'Travelers', 'Troopers', 'Vagabonds', 'Veterans',
     'Vultures', 'Wanderers', 'Warriors', 'Weasels', 'Werewolves', 'Wheelers',
     'Widows', 'Wings', 'Wolves'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     rnd2 = Math.floor(Math.random() * nm2.length);
     if (i < 2) {
       names = `The ${nm2[rnd2]}`;

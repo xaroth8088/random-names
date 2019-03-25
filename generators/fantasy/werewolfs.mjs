@@ -181,7 +181,8 @@ export default function werewolfs() {
     'Tharja', 'Theda', 'Theola', 'Thessalia', 'Titania', 'Trisha', 'Tuska',
     'Uma', 'Ursula', 'Valentine', 'Valeria', 'Valerie', 'Victoria', 'Viki',
     'Vivian', 'Vivianne', 'Whisper', 'Wilhelmina', 'Willow', 'Wynne',
-    'Wynona', 'Xanthe', 'Yolanda', 'Zenesha', 'Zunda']; {
+    'Wynona', 'Xanthe', 'Yolanda', 'Zenesha', 'Zunda'];
+  {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm2.length);
       names = nm2[rnd];

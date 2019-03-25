@@ -273,7 +273,8 @@ export default function slavics() {
     'Voronin', 'Voronov', 'Woronoff', 'Voronoff', 'Zacharov', 'Zajic',
     'Zajczyk', 'Seitz', 'Saitz', 'Zeman', 'Zemlinsky', 'Zinoviev', 'Zinovac',
     'Sinowatz', 'Zhdanov', 'Zhirinovsky', 'Zhivkov', 'Zhtomir', 'Zhukov',
-    'Zhukovsky', 'Zworszak']; {
+    'Zhukovsky', 'Zworszak'];
+  {
     rnd2 = Math.floor(Math.random() * nm3.length);
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm2.length);

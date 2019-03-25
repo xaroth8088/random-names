@@ -760,7 +760,8 @@ export default function russians() {
     'Valentinovna', 'Valerianovna', 'Valerievna', 'Vasilievna', 'Victorovna',
     'Vitalievna', 'Vladimirovna', 'Vladislavovna', 'Vsevolodovna',
     'Vyacheslavovna', 'Yakovna', 'Yanovna', 'Yaroslavovna', 'Yegorovna',
-    'Yemelyanovna', 'Yermolayevna', 'Yevgenievna', 'Yurievna', 'Zakharovna']; {
+    'Yemelyanovna', 'Yermolayevna', 'Yevgenievna', 'Yurievna', 'Zakharovna'];
+  {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm4.length);
       rnd2 = Math.floor(Math.random() * nm5.length);

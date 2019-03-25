@@ -29,7 +29,8 @@ export default function plagues() {
     'Terminus', 'Terror', 'Third', 'Titan', 'Tomb', 'Torture', 'Turbulent',
     'Twilight', 'Uncontrollable', 'Underestimated', 'Unseen', 'Veiled',
     'Vertex', 'Violent', 'Void', 'Vortex', 'White', 'Wild', 'Wildlife',
-    'World', 'Wretched', 'Zombie']; {
+    'World', 'Wretched', 'Zombie'];
+  {
     rnd = Math.floor(Math.random() * nm1.length);
     rnd2 = Math.floor(Math.random() * nm2.length);
     names = `The ${nm1[rnd]} ${nm2[rnd2]}`;

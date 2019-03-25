@@ -56,7 +56,8 @@ export default function bloodElf() {
     'shield', 'singer', 'sky', 'sorrow', 'spark', 'spear', 'spell',
     'sprinter', 'stalker', 'star', 'strider', 'sun', 'sworn', 'vale',
     'walker', 'whisper', 'wing', 'wood'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     rnd4 = Math.floor(Math.random() * nm7.length);
     rnd5 = Math.floor(Math.random() * nm8.length);
     if (type === 1) {

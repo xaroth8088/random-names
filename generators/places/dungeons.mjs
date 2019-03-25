@@ -68,7 +68,8 @@ export default function dungeons() {
     'Phoenix', 'Priest', 'Queen', 'Raven', 'Scorpion', 'Serpent', 'Soldier',
     'Spider', 'Swamp', 'Tiger', 'Warrior', 'Widow', 'Witch', 'Wizard',
     'Warlord', 'Wolf'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     rnd2 = Math.floor(Math.random() * nm2.length);
     if (i < 4) {
       rnd3 = Math.floor(Math.random() * nm3.length);

@@ -64,7 +64,8 @@ export default function insects() {
     'Webby', 'Webmaster', 'Webslinger', 'Webster', 'Webzya', 'Whitie',
     'Wincey', 'Wippiyeu', 'Wolfgang', 'Woolslayer', 'Wyphem', 'Xaggavea',
     'Xennowua', 'Xunkiira', 'Xuzzayua', 'Zechchenoa', 'Zkirax', 'Zoll',
-    'Zorphax']; {
+    'Zorphax'];
+  {
     rnd = Math.floor(Math.random() * nm1.length);
     names = nm1[rnd];
     return names;

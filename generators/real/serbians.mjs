@@ -1493,7 +1493,8 @@ export default function serbians() {
     'Zujković', 'Zujović', 'Zukić', 'Zulević', 'Zunić', 'Zunjanin', 'Zupac',
     'Zupanjac', 'Zupanjevac', 'Zupljanin', 'Zupunski', 'Zurković', 'Zurnić',
     'Zurnja', 'Zurovac', 'Zutić', 'Zutobradić', 'Zuza', 'Zuzorić', 'Zvecevac',
-    'Zvekić', 'Zvijer', 'Zvijerac', 'Zvizdalo', 'Zvizdić', 'Zvonar']; {
+    'Zvekić', 'Zvijer', 'Zvijerac', 'Zvizdalo', 'Zvizdić', 'Zvonar'];
+  {
     rnd2 = Math.floor(Math.random() * nm3.length);
     nm3.splice(rnd2, 1);
     if (type === 1) {

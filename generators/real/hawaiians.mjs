@@ -237,7 +237,8 @@ export default function hawaiians() {
     'Noma ', 'Okalani ', 'Ola ', 'Oliana ', 'Olina ', 'Oline ', 'Onakea',
     'Onaona ', 'Paahao', 'Pahia', 'Paikuli', 'Palakiko', 'Palea', 'Palila ',
     'Pane\'e', 'Pekelo', 'Pi', 'Pilialoha ', 'Pilis ', 'Pookalani', 'Pouha',
-    'Puhihale', 'Pukahi', 'Pula', 'Sasilvia', 'Ulani', 'Wikolia']; {
+    'Puhihale', 'Pukahi', 'Pula', 'Sasilvia', 'Ulani', 'Wikolia'];
+  {
     rnd2 = Math.floor(Math.random() * nm3.length);
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm2.length);

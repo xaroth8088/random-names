@@ -1685,9 +1685,7 @@ export default function pokemons() {
   switch (pkType) {
     case 'bug':
       for (i = 0; i < 3; i++) {
-        if (traits[i] === 'skin' || traits[i] === 'shell' || traits[i]
-        === 'hair' || traits[i] === 'feathers' || traits[i] === 'hide' || traits[
-          i] === 'fur' || traits[i] === 'armor' || traits[i] === 'scales') {
+        if (traits[i] === 'skin' || traits[i] === 'shell' || traits[i] === 'hair' || traits[i] === 'feathers' || traits[i] === 'hide' || traits[i] === 'fur' || traits[i] === 'armor' || traits[i] === 'scales') {
           rndm = Math.floor(Math.random() * bugSkin.length);
           description = `${bugSkin[rndm]} ${traits[i]}`;
           descrs.push(description);
@@ -1729,9 +1727,7 @@ export default function pokemons() {
       break;
     case 'dark':
       for (i = 0; i < 3; i++) {
-        if (traits[i] === 'skin' || traits[i] === 'shell' || traits[i]
-        === 'hair' || traits[i] === 'feathers' || traits[i] === 'hide' || traits[
-          i] === 'fur' || traits[i] === 'armor' || traits[i] === 'scales') {
+        if (traits[i] === 'skin' || traits[i] === 'shell' || traits[i] === 'hair' || traits[i] === 'feathers' || traits[i] === 'hide' || traits[i] === 'fur' || traits[i] === 'armor' || traits[i] === 'scales') {
           rndm = Math.floor(Math.random() * darkSkin.length);
           description = `${darkSkin[rndm]} ${traits[i]}`;
           descrs.push(description);
@@ -1793,9 +1789,7 @@ export default function pokemons() {
       break;
     case 'dragon':
       for (i = 0; i < 3; i++) {
-        if (traits[i] === 'skin' || traits[i] === 'shell' || traits[i]
-        === 'hair' || traits[i] === 'feathers' || traits[i] === 'hide' || traits[
-          i] === 'fur' || traits[i] === 'armor' || traits[i] === 'scales') {
+        if (traits[i] === 'skin' || traits[i] === 'shell' || traits[i] === 'hair' || traits[i] === 'feathers' || traits[i] === 'hide' || traits[i] === 'fur' || traits[i] === 'armor' || traits[i] === 'scales') {
           rndm = Math.floor(Math.random() * dragonSkin.length);
           description = `${dragonSkin[rndm]} ${traits[i]}`;
           descrs.push(description);
@@ -1811,8 +1805,7 @@ export default function pokemons() {
           rndm = Math.floor(Math.random() * dragonArms.length);
           description = `${dragonArms[rndm]} ${traits[i]}`;
           descrs.push(description);
-        } else if (traits[i] === 'mouth' || traits[i] === 'snout' || traits[i]
-        === 'beak') {
+        } else if (traits[i] === 'mouth' || traits[i] === 'snout' || traits[i] === 'beak') {
           rndm = Math.floor(Math.random() * dragonMouth.length);
           description = `a ${dragonMouth[rndm]} mouth`;
           descrs.push(description);
@@ -1850,9 +1843,7 @@ export default function pokemons() {
       break;
     case 'electric':
       for (i = 0; i < 3; i++) {
-        if (traits[i] === 'skin' || traits[i] === 'shell' || traits[i]
-        === 'hair' || traits[i] === 'feathers' || traits[i] === 'hide' || traits[
-          i] === 'fur' || traits[i] === 'armor' || traits[i] === 'scales') {
+        if (traits[i] === 'skin' || traits[i] === 'shell' || traits[i] === 'hair' || traits[i] === 'feathers' || traits[i] === 'hide' || traits[i] === 'fur' || traits[i] === 'armor' || traits[i] === 'scales') {
           rndm = Math.floor(Math.random() * elecSkin.length);
           description = `${elecSkin[rndm]} ${traits[i]}`;
           descrs.push(description);
@@ -1914,9 +1905,7 @@ export default function pokemons() {
       break;
     case 'fairy':
       for (i = 0; i < 3; i++) {
-        if (traits[i] === 'skin' || traits[i] === 'shell' || traits[i]
-        === 'hair' || traits[i] === 'feathers' || traits[i] === 'hide' || traits[
-          i] === 'fur' || traits[i] === 'armor' || traits[i] === 'scales') {
+        if (traits[i] === 'skin' || traits[i] === 'shell' || traits[i] === 'hair' || traits[i] === 'feathers' || traits[i] === 'hide' || traits[i] === 'fur' || traits[i] === 'armor' || traits[i] === 'scales') {
           rndm = Math.floor(Math.random() * fairySkin.length);
           description = `${fairySkin[rndm]} ${traits[i]}`;
           descrs.push(description);
@@ -1978,9 +1967,7 @@ export default function pokemons() {
       break;
     case 'fighting':
       for (i = 0; i < 3; i++) {
-        if (traits[i] === 'skin' || traits[i] === 'shell' || traits[i]
-        === 'hair' || traits[i] === 'feathers' || traits[i] === 'hide' || traits[
-          i] === 'fur' || traits[i] === 'armor' || traits[i] === 'scales') {
+        if (traits[i] === 'skin' || traits[i] === 'shell' || traits[i] === 'hair' || traits[i] === 'feathers' || traits[i] === 'hide' || traits[i] === 'fur' || traits[i] === 'armor' || traits[i] === 'scales') {
           rndm = Math.floor(Math.random() * fightSkin.length);
           description = `${fightSkin[rndm]} ${traits[i]}`;
           descrs.push(description);
@@ -2042,9 +2029,7 @@ export default function pokemons() {
       break;
     case 'fire':
       for (i = 0; i < 3; i++) {
-        if (traits[i] === 'skin' || traits[i] === 'shell' || traits[i]
-        === 'hair' || traits[i] === 'feathers' || traits[i] === 'hide' || traits[
-          i] === 'fur' || traits[i] === 'armor' || traits[i] === 'scales') {
+        if (traits[i] === 'skin' || traits[i] === 'shell' || traits[i] === 'hair' || traits[i] === 'feathers' || traits[i] === 'hide' || traits[i] === 'fur' || traits[i] === 'armor' || traits[i] === 'scales') {
           rndm = Math.floor(Math.random() * fireSkin.length);
           description = `${fireSkin[rndm]} ${traits[i]}`;
           descrs.push(description);
@@ -2106,9 +2091,7 @@ export default function pokemons() {
       break;
     case 'flying':
       for (i = 0; i < 3; i++) {
-        if (traits[i] === 'skin' || traits[i] === 'shell' || traits[i]
-        === 'hair' || traits[i] === 'feathers' || traits[i] === 'hide' || traits[
-          i] === 'fur' || traits[i] === 'armor' || traits[i] === 'scales') {
+        if (traits[i] === 'skin' || traits[i] === 'shell' || traits[i] === 'hair' || traits[i] === 'feathers' || traits[i] === 'hide' || traits[i] === 'fur' || traits[i] === 'armor' || traits[i] === 'scales') {
           rndm = Math.floor(Math.random() * flySkin.length);
           description = `${flySkin[rndm]} ${traits[i]}`;
           descrs.push(description);
@@ -2170,9 +2153,7 @@ export default function pokemons() {
       break;
     case 'ghost':
       for (i = 0; i < 3; i++) {
-        if (traits[i] === 'skin' || traits[i] === 'shell' || traits[i]
-        === 'hair' || traits[i] === 'feathers' || traits[i] === 'hide' || traits[
-          i] === 'fur' || traits[i] === 'armor' || traits[i] === 'scales') {
+        if (traits[i] === 'skin' || traits[i] === 'shell' || traits[i] === 'hair' || traits[i] === 'feathers' || traits[i] === 'hide' || traits[i] === 'fur' || traits[i] === 'armor' || traits[i] === 'scales') {
           rndm = Math.floor(Math.random() * ghostSkin.length);
           description = `${ghostSkin[rndm]} ${traits[i]}`;
           descrs.push(description);
@@ -2234,9 +2215,7 @@ export default function pokemons() {
       break;
     case 'grass':
       for (i = 0; i < 3; i++) {
-        if (traits[i] === 'skin' || traits[i] === 'shell' || traits[i]
-        === 'hair' || traits[i] === 'feathers' || traits[i] === 'hide' || traits[
-          i] === 'fur' || traits[i] === 'armor' || traits[i] === 'scales') {
+        if (traits[i] === 'skin' || traits[i] === 'shell' || traits[i] === 'hair' || traits[i] === 'feathers' || traits[i] === 'hide' || traits[i] === 'fur' || traits[i] === 'armor' || traits[i] === 'scales') {
           rndm = Math.floor(Math.random() * grassSkin.length);
           description = `${grassSkin[rndm]} ${traits[i]}`;
           descrs.push(description);
@@ -2298,9 +2277,7 @@ export default function pokemons() {
       break;
     case 'ground':
       for (i = 0; i < 3; i++) {
-        if (traits[i] === 'skin' || traits[i] === 'shell' || traits[i]
-        === 'hair' || traits[i] === 'feathers' || traits[i] === 'hide' || traits[
-          i] === 'fur' || traits[i] === 'armor' || traits[i] === 'scales') {
+        if (traits[i] === 'skin' || traits[i] === 'shell' || traits[i] === 'hair' || traits[i] === 'feathers' || traits[i] === 'hide' || traits[i] === 'fur' || traits[i] === 'armor' || traits[i] === 'scales') {
           rndm = Math.floor(Math.random() * groundSkin.length);
           description = `${groundSkin[rndm]} ${traits[i]}`;
           descrs.push(description);
@@ -2362,9 +2339,7 @@ export default function pokemons() {
       break;
     case 'ice':
       for (i = 0; i < 3; i++) {
-        if (traits[i] === 'skin' || traits[i] === 'shell' || traits[i]
-        === 'hair' || traits[i] === 'feathers' || traits[i] === 'hide' || traits[
-          i] === 'fur' || traits[i] === 'armor' || traits[i] === 'scales') {
+        if (traits[i] === 'skin' || traits[i] === 'shell' || traits[i] === 'hair' || traits[i] === 'feathers' || traits[i] === 'hide' || traits[i] === 'fur' || traits[i] === 'armor' || traits[i] === 'scales') {
           rndm = Math.floor(Math.random() * iceSkin.length);
           description = `${iceSkin[rndm]} ${traits[i]}`;
           descrs.push(description);
@@ -2426,9 +2401,7 @@ export default function pokemons() {
       break;
     case 'normal':
       for (i = 0; i < 3; i++) {
-        if (traits[i] === 'skin' || traits[i] === 'shell' || traits[i]
-        === 'hair' || traits[i] === 'feathers' || traits[i] === 'hide' || traits[
-          i] === 'fur' || traits[i] === 'armor' || traits[i] === 'scales') {
+        if (traits[i] === 'skin' || traits[i] === 'shell' || traits[i] === 'hair' || traits[i] === 'feathers' || traits[i] === 'hide' || traits[i] === 'fur' || traits[i] === 'armor' || traits[i] === 'scales') {
           rndm = Math.floor(Math.random() * normSkin.length);
           description = `${normSkin[rndm]} ${traits[i]}`;
           descrs.push(description);
@@ -2490,9 +2463,7 @@ export default function pokemons() {
       break;
     case 'poison':
       for (i = 0; i < 3; i++) {
-        if (traits[i] === 'skin' || traits[i] === 'shell' || traits[i]
-        === 'hair' || traits[i] === 'feathers' || traits[i] === 'hide' || traits[
-          i] === 'fur' || traits[i] === 'armor' || traits[i] === 'scales') {
+        if (traits[i] === 'skin' || traits[i] === 'shell' || traits[i] === 'hair' || traits[i] === 'feathers' || traits[i] === 'hide' || traits[i] === 'fur' || traits[i] === 'armor' || traits[i] === 'scales') {
           rndm = Math.floor(Math.random() * poisonSkin.length);
           description = `${poisonSkin[rndm]} ${traits[i]}`;
           descrs.push(description);
@@ -2554,9 +2525,7 @@ export default function pokemons() {
       break;
     case 'psychic':
       for (i = 0; i < 3; i++) {
-        if (traits[i] === 'skin' || traits[i] === 'shell' || traits[i]
-        === 'hair' || traits[i] === 'feathers' || traits[i] === 'hide' || traits[
-          i] === 'fur' || traits[i] === 'armor' || traits[i] === 'scales') {
+        if (traits[i] === 'skin' || traits[i] === 'shell' || traits[i] === 'hair' || traits[i] === 'feathers' || traits[i] === 'hide' || traits[i] === 'fur' || traits[i] === 'armor' || traits[i] === 'scales') {
           rndm = Math.floor(Math.random() * psySkin.length);
           description = `${psySkin[rndm]} ${traits[i]}`;
           descrs.push(description);
@@ -2618,9 +2587,7 @@ export default function pokemons() {
       break;
     case 'rock':
       for (i = 0; i < 3; i++) {
-        if (traits[i] === 'skin' || traits[i] === 'shell' || traits[i]
-        === 'hair' || traits[i] === 'feathers' || traits[i] === 'hide' || traits[
-          i] === 'fur' || traits[i] === 'armor' || traits[i] === 'scales') {
+        if (traits[i] === 'skin' || traits[i] === 'shell' || traits[i] === 'hair' || traits[i] === 'feathers' || traits[i] === 'hide' || traits[i] === 'fur' || traits[i] === 'armor' || traits[i] === 'scales') {
           rndm = Math.floor(Math.random() * rockSkin.length);
           description = `${rockSkin[rndm]} ${traits[i]}`;
           descrs.push(description);
@@ -2682,9 +2649,7 @@ export default function pokemons() {
       break;
     case 'steel':
       for (i = 0; i < 3; i++) {
-        if (traits[i] === 'skin' || traits[i] === 'shell' || traits[i]
-        === 'hair' || traits[i] === 'feathers' || traits[i] === 'hide' || traits[
-          i] === 'fur' || traits[i] === 'armor' || traits[i] === 'scales') {
+        if (traits[i] === 'skin' || traits[i] === 'shell' || traits[i] === 'hair' || traits[i] === 'feathers' || traits[i] === 'hide' || traits[i] === 'fur' || traits[i] === 'armor' || traits[i] === 'scales') {
           rndm = Math.floor(Math.random() * steelSkin.length);
           description = `${steelSkin[rndm]} ${traits[i]}`;
           descrs.push(description);
@@ -2746,9 +2711,7 @@ export default function pokemons() {
       break;
     case 'water':
       for (i = 0; i < 3; i++) {
-        if (traits[i] === 'skin' || traits[i] === 'shell' || traits[i]
-        === 'hair' || traits[i] === 'feathers' || traits[i] === 'hide' || traits[
-          i] === 'fur' || traits[i] === 'armor' || traits[i] === 'scales') {
+        if (traits[i] === 'skin' || traits[i] === 'shell' || traits[i] === 'hair' || traits[i] === 'feathers' || traits[i] === 'hide' || traits[i] === 'fur' || traits[i] === 'armor' || traits[i] === 'scales') {
           rndm = Math.floor(Math.random() * waterSkin.length);
           description = `${waterSkin[rndm]} ${traits[i]}`;
           descrs.push(description);

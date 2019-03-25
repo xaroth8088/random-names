@@ -45,7 +45,8 @@ export default function pirateCoves() {
     'the Moon', 'the Occult', 'the Red Sand', 'the Red Water', 'the Scourge',
     'the Sunken Fleet', 'the Tempest', 'the Tortoise', 'the Unknown',
     'the Unnamed'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     if (i < 5) {
       rnd = Math.floor(Math.random() * nm1.length);
       rnd2 = Math.floor(Math.random() * nm2.length);

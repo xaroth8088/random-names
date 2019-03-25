@@ -25,7 +25,8 @@ export default function dugs() {
   const nm4 = ['', '', '', 'd', 'hx', 'n', 's', 'x'];
   const nm6 = ['', '', 'a', 'e', 'i', 'o', 'u'];
   const nm7 = ['d', 'n', 'r', 's'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     rnd = Math.floor(Math.random() * nm1.length);
     rnd2 = Math.floor(Math.random() * nm2.length);
     rnd3 = Math.floor(Math.random() * nm3.length);
@@ -36,8 +37,7 @@ export default function dugs() {
     rnd2e = Math.floor(Math.random() * nm2.length);
     rnd7 = Math.floor(Math.random() * nm7.length);
     rnd6 = Math.floor(Math.random() * nm6.length);
-    namelast = nm3[rnd5] + nm2[rnd2d] + nm3[rnd3c] + nm2[rnd2e] + nm7[rnd7]
-      + nm6[rnd6];
+    namelast = nm3[rnd5] + nm2[rnd2d] + nm3[rnd3c] + nm2[rnd2e] + nm7[rnd7] + nm6[rnd6];
     if (i < 5) {
       rnd4 = Math.floor(Math.random() * nm4.length);
       names = `${nm1[rnd] + nm2[rnd2] + nm3[rnd3] + nm2[rnd2b] + nm4[rnd4]} ${namelast}`;

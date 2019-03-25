@@ -51,7 +51,8 @@ export default function outposts() {
     'Thunder', 'Thunderstorm', 'Timber', 'Triumph', 'Twilight', 'Twin',
     'Valley', 'Valor', 'Vendetta', 'Vengeance', 'Venom', 'Victor', 'Vortex',
     'Warden', 'Watcher\'s', 'Wild', 'Wildling', 'Winter\'s', 'Writhing'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     if (i < 5) {
       rnd = Math.floor(Math.random() * names1.length);
       rnd2 = Math.floor(Math.random() * names2.length);

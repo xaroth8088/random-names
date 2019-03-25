@@ -99,7 +99,8 @@ export default function sciFiGuns() {
     'of the Setting Sun', 'of the Shadows', 'of the Sky', 'of the Stars',
     'of the Storm', 'of the Sun', 'of the Victor', 'of the Void',
     'of the Whispers', 'of the Wicked'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     if (i < 4) {
       rnd = Math.floor(Math.random() * nm2.length);
       rnd2 = Math.floor(Math.random() * nm3.length);

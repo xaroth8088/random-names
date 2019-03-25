@@ -30,7 +30,8 @@ export default function zabraks() {
     'sri', 'sro', 'sta', 'ste', 'sti', 'sto', 'ta', 'te', 'ti', 'to', 'tra',
     'tre', 'tri', 'tro', 'va', 've', 'vi', 'vo', 'vra', 'vre', 'vri', 'vro',
     'xa', 'xe', 'xi', 'xo'];
-  const nm8 = ['a', 'o', 'u', 'e', 'i', '', '', '', '']; {
+  const nm8 = ['a', 'o', 'u', 'e', 'i', '', '', '', ''];
+  {
     rnd2 = Math.floor(Math.random() * nm2.length);
     rnd4 = Math.floor(Math.random() * nm4.length);
     if (type === 1) {

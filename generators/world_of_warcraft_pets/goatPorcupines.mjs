@@ -68,7 +68,8 @@ export default function goatPorcupines() {
     'RobbieQuilliams', 'RobinQuilliams', 'Romeo', 'Sam', 'Shredder',
     'Skeezix', 'SnoopHoggyHog', 'Snuggles', 'Sonar', 'Spike', 'SpikeBeaver',
     'Spikey', 'Splinter', 'StickWithMe', 'StickyPig', 'Thiery',
-    'TomBombaquill', 'Tuffnel', 'Tumble', 'WinstonChurchquill']; {
+    'TomBombaquill', 'Tuffnel', 'Tumble', 'WinstonChurchquill'];
+  {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm2.length);
       names = nm2[rnd];

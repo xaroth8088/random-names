@@ -4,8 +4,7 @@ export default function aliens() {
   let rnd3;
   let rnd4;
   let rnd5;
-  let
-    rnd6;
+  let rnd6;
   let names;
   const nm1 = ['b', 'br', 'c', 'cr', 'ch', 'd', 'dr', 'g', 'gr', 'j', 'k', 'kr',
     'kn', 'km', 'p', 'pr', 'q', 'qr', 'ql', 'r', 'st', 'str', 't', 'tr', 'v',
@@ -62,7 +61,8 @@ export default function aliens() {
     'sp', 'ss', 'st', 't', 'th', 'ts', 'w', 'wth', 'x', 'z'];
   const nm17 = ['a', 'e', 'i', 'o', 'u', 'y', 'ae', 'ea', 'eo', 'oe', 'ie',
     'ue', 'ua', '', '', '', '', '', '', '', '', '', '', '', ''];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     if (i < 4) {
       rnd = Math.floor(Math.random() * nm1.length);
       rnd2 = Math.floor(Math.random() * nm2.length);
@@ -85,8 +85,7 @@ export default function aliens() {
         rnd5 = 0;
       }
       rnd6 = Math.floor(Math.random() * nm11.length);
-      names = nm6[rnd] + nm7[rnd2] + nm8[rnd3] + nm4[rnd4] + nm10[rnd5] + nm11[
-        rnd6];
+      names = nm6[rnd] + nm7[rnd2] + nm8[rnd3] + nm4[rnd4] + nm10[rnd5] + nm11[rnd6];
     } else {
       rnd = Math.floor(Math.random() * nm12.length);
       rnd2 = Math.floor(Math.random() * nm13.length);
@@ -99,8 +98,7 @@ export default function aliens() {
       }
       rnd5 = Math.floor(Math.random() * nm16.length);
       rnd6 = Math.floor(Math.random() * nm17.length);
-      names = nm12[rnd] + nm13[rnd2] + nm14[rnd3] + nm15[rnd4] + nm16[rnd5]
-        + nm17[rnd6];
+      names = nm12[rnd] + nm13[rnd2] + nm14[rnd3] + nm15[rnd4] + nm16[rnd5] + nm17[rnd6];
     }
     return names;
   }

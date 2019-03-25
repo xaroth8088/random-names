@@ -46,7 +46,8 @@ export default function wizards() {
   const nm9 = ['b', 'bl', 'c', 'cl', 'd', 'f', 'fr', 'fl', 'g', 'gl', 'gn', 'h',
     'kl', 'kn', 'm', 'n', 'p', 'pl', 'ph', 'q', 's', 'st', 'sl', 't', 'v',
     'vl', 'w', 'z'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     if (type === 1) {
       if (i < 2) {
         rnd = Math.floor(Math.random() * nm1.length);
@@ -55,8 +56,7 @@ export default function wizards() {
         rnd4 = Math.floor(Math.random() * nm4.length);
         rnd5 = Math.floor(Math.random() * nm3.length);
         rnd6 = Math.floor(Math.random() * nm8.length);
-        names = nm1[rnd] + nm2[rnd2] + nm3[rnd3] + nm4[rnd4] + nm3[rnd5] + nm8[
-          rnd6];
+        names = nm1[rnd] + nm2[rnd2] + nm3[rnd3] + nm4[rnd4] + nm3[rnd5] + nm8[rnd6];
       } else if (i < 4) {
         rnd = Math.floor(Math.random() * nm1.length);
         rnd2 = Math.floor(Math.random() * nm2.length);
@@ -70,8 +70,7 @@ export default function wizards() {
         rnd4 = Math.floor(Math.random() * nm7.length);
         rnd5 = Math.floor(Math.random() * nm3.length);
         rnd6 = Math.floor(Math.random() * nm8.length);
-        names = nm1[rnd] + nm9[rnd2] + nm3[rnd3] + nm7[rnd4] + nm3[rnd5] + nm8[
-          rnd6];
+        names = nm1[rnd] + nm9[rnd2] + nm3[rnd3] + nm7[rnd4] + nm3[rnd5] + nm8[rnd6];
       } else if (i < 8) {
         rnd = Math.floor(Math.random() * nm1.length);
         rnd2 = Math.floor(Math.random() * nm9.length);
@@ -91,8 +90,7 @@ export default function wizards() {
       rnd4 = Math.floor(Math.random() * nm4.length);
       rnd5 = Math.floor(Math.random() * nm3.length);
       rnd6 = Math.floor(Math.random() * nm5.length);
-      names = nm1[rnd] + nm2[rnd2] + nm3[rnd3] + nm4[rnd4] + nm3[rnd5] + nm5[
-        rnd6];
+      names = nm1[rnd] + nm2[rnd2] + nm3[rnd3] + nm4[rnd4] + nm3[rnd5] + nm5[rnd6];
     } else if (i < 4) {
       rnd = Math.floor(Math.random() * nm1.length);
       rnd2 = Math.floor(Math.random() * nm2.length);
@@ -106,8 +104,7 @@ export default function wizards() {
       rnd4 = Math.floor(Math.random() * nm7.length);
       rnd5 = Math.floor(Math.random() * nm3.length);
       rnd6 = Math.floor(Math.random() * nm5.length);
-      names = nm1[rnd] + nm6[rnd2] + nm3[rnd3] + nm7[rnd4] + nm3[rnd5] + nm5[
-        rnd6];
+      names = nm1[rnd] + nm6[rnd2] + nm3[rnd3] + nm7[rnd4] + nm3[rnd5] + nm5[rnd6];
     } else if (i < 8) {
       rnd = Math.floor(Math.random() * nm1.length);
       rnd2 = Math.floor(Math.random() * nm6.length);

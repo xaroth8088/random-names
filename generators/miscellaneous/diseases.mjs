@@ -53,7 +53,8 @@ export default function diseases() {
     'Rash', 'Salmonella', 'Scarring', 'Schizophrenia', 'Scurvy', 'Shock',
     'Skin', 'Sleep Disorder', 'Sneeze', 'Soreness', 'Sores', 'Spasms',
     'Stiffness', 'Stomach', 'Swelling', 'Syndrome', 'Syphilis', 'Tetanus',
-    'Throat', 'Tongue', 'Tumor', 'Ulcers', 'Vampirism', 'Virus', 'Warts']; {
+    'Throat', 'Tongue', 'Tumor', 'Ulcers', 'Vampirism', 'Virus', 'Warts'];
+  {
     rnd = Math.floor(Math.random() * nm1.length);
     rnd2 = Math.floor(Math.random() * nm2.length);
     names = `${nm1[rnd]} ${nm2[rnd2]}`;

@@ -272,7 +272,8 @@ export default function faroeses() {
     'Reyni', 'Rosenmeyer', 'Ryberg', 'Sørensen', 'Schrøter', 'Sigmundsdóttir',
     'Sigurðsson', 'Simonsen', 'Skarði', 'Smith', 'Stórá', 'Svabo', 'Tórgarð',
     'Taalle', 'Tausen', 'Thomsen', 'Torfasen', 'Vágadal', 'Vatnhamar',
-    'Viderø', 'Wich', 'Ziska']; {
+    'Viderø', 'Wich', 'Ziska'];
+  {
     rnd2 = Math.floor(Math.random() * nm3.length);
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm2.length);

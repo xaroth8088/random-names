@@ -76,7 +76,8 @@ export default function colonialAmericans() {
     'Taggert', 'Taylor', 'Templeton', 'Thompson', 'Tomkin', 'Toule',
     'Traverse', 'Vansant', 'Wallace', 'Watt', 'Webb', 'Wentz', 'West',
     'White', 'Whiteford', 'Whitelock', 'Wiley', 'Williams', 'Williamson',
-    'Wilson', 'Wise', 'Woodbury']; {
+    'Wilson', 'Wise', 'Woodbury'];
+  {
     rnd2 = Math.floor(Math.random() * nm3.length);
     nm3.splice(rnd2, 1);
     if (type === 1) {

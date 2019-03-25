@@ -65,7 +65,8 @@ export default function realms() {
     'Realm', 'Realms', 'Region', 'Sanctuary', 'Sanctum', 'Sea', 'Terrain',
     'Territories', 'Territory', 'Universe', 'Vale', 'Vales', 'Valley',
     'World', 'Yonder'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     if (i < 5) {
       rnd = Math.floor(Math.random() * names1.length);
       rnd2 = Math.floor(Math.random() * names2.length);
@@ -77,8 +78,7 @@ export default function realms() {
       }
       rnd4 = Math.floor(Math.random() * names4.length);
       rnd5 = Math.floor(Math.random() * names5.length);
-      names = names1[rnd] + names2[rnd2] + names3[rnd3] + names4[rnd4] + names5[
-        rnd5];
+      names = names1[rnd] + names2[rnd2] + names3[rnd3] + names4[rnd4] + names5[rnd5];
     } else {
       rnd = Math.floor(Math.random() * names6.length);
       rnd2 = Math.floor(Math.random() * names7.length);

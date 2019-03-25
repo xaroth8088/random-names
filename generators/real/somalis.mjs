@@ -129,7 +129,8 @@ export default function somalis() {
     'Xaddiyo', 'Xadiyo', 'Xaliimo', 'Xalwo', 'Xamaro', 'Xamdi', 'Xamso',
     'Xanaan', 'Xareedo', 'Xiddo', 'Xiisaan', 'Xinbilo', 'Xirsiyo', 'Xoriyo',
     'Xorriyo', 'Xukun', 'Xulbado', 'Xurmo', 'Yaasmiin', 'Yaryaro', 'Yusur',
-    'Yuusa', 'Zaynab']; {
+    'Yuusa', 'Zaynab'];
+  {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm2.length);
       names = nm2[rnd];

@@ -301,7 +301,8 @@ export default function celticBretons() {
     'Tanet', 'Tangi', 'Tanguy', 'Tardivel', 'Thoraval', 'Tiercelin', 'Tilly',
     'Touboulic', 'Toullec', 'Trépos', 'Troadec', 'Uguen', 'Ulliac', 'Vallée',
     'Vallerie', 'Verne', 'Vidament', 'Visdeloup', 'Yvenou', 'd\'Argentré',
-    'd\'Avennes', 'de Gaulle', 'de Missirien', 'de Rais', 'de Saint-André']; {
+    'd\'Avennes', 'de Gaulle', 'de Missirien', 'de Rais', 'de Saint-André'];
+  {
     rnd2 = Math.floor(Math.random() * nm3.length);
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm2.length);

@@ -30,7 +30,8 @@ export default function ewoks() {
   const nm8 = ['dr', 'dd', 'gr', 'k', 'kk', 'l', 'll', 'lr', 'm', 'mr', 'mn',
     'n', 'nr', 'nl', 'nt', 'r', 'rr', 'rl', 'st', 'str'];
   const nm9 = ['c', 'ck', 'k', 'l', 'm', 'n', 'ng', 't'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     rnd6 = Math.floor(Math.random() * nm7.length);
     rnd7 = Math.floor(Math.random() * nm2.length);
     rnd8 = Math.floor(Math.random() * nm8.length);
@@ -41,8 +42,7 @@ export default function ewoks() {
     } else {
       rnd9 = Math.floor(Math.random() * nm8.length);
       rnd11 = Math.floor(Math.random() * nm2.length);
-      namelast = nm7[rnd6] + nm2[rnd7] + nm8[rnd8] + nm2[rnd10] + nm8[rnd9]
-        + nm2[rnd11];
+      namelast = nm7[rnd6] + nm2[rnd7] + nm8[rnd8] + nm2[rnd10] + nm8[rnd9] + nm2[rnd11];
     }
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm5.length);

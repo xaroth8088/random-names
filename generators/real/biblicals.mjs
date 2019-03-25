@@ -91,7 +91,8 @@ export default function biblicals() {
     'Shemariah', 'Sherah', 'Shiloh', 'Shiza', 'Sia', 'Sophia', 'Susan',
     'Susanna', 'Syntyche', 'Tabitha', 'Talitha', 'Tamah', 'Tamar', 'Tamara',
     'Theodora', 'Tirzah', 'Tryphena', 'Tryphosa', 'Vashti', 'Zelah', 'Zemira',
-    'Zemirah', 'Zillah', 'Zilpah', 'Zimrah', 'Zion', 'Zipporah', 'Zoe']; {
+    'Zemirah', 'Zillah', 'Zilpah', 'Zimrah', 'Zion', 'Zipporah', 'Zoe'];
+  {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm2.length);
       names = nm2[rnd];

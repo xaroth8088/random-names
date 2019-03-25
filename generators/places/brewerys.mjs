@@ -45,7 +45,8 @@ export default function brewerys() {
   const nm2 = ['Brewing Company', 'Brewers', 'Brewing', 'Fermentary',
     'Brewing Co.', 'Brewery', 'Aleworks', 'Craft Ales', 'Brewing Company',
     'Brewers', 'Brewing', 'Brewing Co.', 'Brewery'];
-  const nm3 = ['', '', '', '', '', 'The ']; {
+  const nm3 = ['', '', '', '', '', 'The '];
+  {
     rnd = Math.floor(Math.random() * nm1.length);
     rnd2 = Math.floor(Math.random() * nm2.length);
     rnd3 = Math.floor(Math.random() * nm3.length);

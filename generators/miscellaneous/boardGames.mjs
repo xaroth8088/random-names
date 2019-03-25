@@ -77,7 +77,8 @@ export default function boardGames() {
     'Underground', 'Unforeseen', 'Utopia', 'Vanish', 'Venture', 'Voodoo',
     'Wager', 'Wait Out', 'Way of Life', 'Wayward', 'Wildcat', 'Wipe Out',
     'Wisdom', 'Wit', 'Without a Trace', 'Wrecking Ball', 'Wriggle Room',
-    'Yakkety Yak', 'Yields', 'Zoom In']; {
+    'Yakkety Yak', 'Yields', 'Zoom In'];
+  {
     rnd = Math.floor(Math.random() * nm1.length);
     names = nm1[rnd];
     return names;

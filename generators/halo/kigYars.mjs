@@ -11,7 +11,8 @@ export default function kigYars() {
     'zh'];
   const nm3 = ['b', 'c', 'd', 'g', 'k', 'm', 'n', 'p', 'q', 'r', 'th', 'x',
     'z'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     if (i < 5) {
       rnd = Math.floor(Math.random() * nm2.length);
       rnd2 = Math.floor(Math.random() * nm1.length);

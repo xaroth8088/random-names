@@ -43,7 +43,8 @@ export default function snowlands() {
     'sp', 't', 'th', 'ts', 'w', 'wth', 'x', 'z'];
   const names8 = ['Tundra', 'Taiga', 'Expanse', 'Snow Fields', 'Snowlands',
     'Snow Plains', 'Ice Fields', 'Icelands', 'Ice Plains'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     if (i < 5) {
       rnd = Math.floor(Math.random() * names1.length);
       rnd2 = Math.floor(Math.random() * names2.length);

@@ -18,7 +18,8 @@ export default function skians() {
     'Sirren', 'Sitar', 'Snai', 'Snayle', 'Sopra', 'Sopran', 'Sulug', 'Taiko',
     'Tooba', 'Triango', 'Trombo', 'Trombon', 'Tropod', 'Trump', 'Trumpe',
     'Tuba', 'Ukule', 'Ukulel', 'Ukulele', 'Viol', 'Violin', 'Vuvu', 'Vuzela',
-    'Whist', 'Xophone', 'Xylo', 'Xylofo', 'Zooka']; {
+    'Whist', 'Xophone', 'Xylo', 'Xylofo', 'Zooka'];
+  {
     rnd = Math.floor(Math.random() * names1.length);
     names = names1[rnd];
     return names;

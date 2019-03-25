@@ -127,7 +127,8 @@ export default function bombMissiles() {
     'Vanquisher', 'Vengeance', 'Warbringer', 'Warmonger', 'Whispers',
     'Whisperwind', 'Wicked', 'Widow Maker', 'Willbreaker', 'Wit\'s End',
     'Wolf'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     if (i < 6) {
       rnd = Math.floor(Math.random() * nm1.length);
       rnd2 = Math.floor(Math.random() * nm3.length);

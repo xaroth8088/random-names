@@ -936,6 +936,7 @@ function charactersFemale() {
   result += name4;
   return result;
 }
+
 export default function characters() {
   const type = Math.random() > 0.5 ? 0 : 1;
   return type === 1 ? charactersFemale() : charactersMale();

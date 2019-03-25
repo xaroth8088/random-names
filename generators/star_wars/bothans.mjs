@@ -37,15 +37,15 @@ export default function bothans() {
     's', 's\'', '\'t', 't', 'th', 'v\'', 'y\'l'];
   const nm11 = ['h', 'l', 'm', 'n', 'r', 's', 't', 'v'];
   const nm12 = ['', '', '', '', '', 'a', 'e', 'i', 'o', 'u'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     rnd6 = Math.floor(Math.random() * nm8.length);
     rnd7 = Math.floor(Math.random() * nm9.length);
     rnd8 = Math.floor(Math.random() * nm10.length);
     rnd9 = Math.floor(Math.random() * nm9.length);
     rnd10 = Math.floor(Math.random() * nm11.length);
     rnd11 = Math.floor(Math.random() * nm12.length);
-    namelast = nm8[rnd6] + nm9[rnd7] + nm10[rnd8] + nm9[rnd9] + nm11[rnd10]
-      + nm12[rnd11];
+    namelast = nm8[rnd6] + nm9[rnd7] + nm10[rnd8] + nm9[rnd9] + nm11[rnd10] + nm12[rnd11];
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm5.length);
       rnd2 = Math.floor(Math.random() * nm2.length);

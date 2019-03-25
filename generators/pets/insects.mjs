@@ -44,7 +44,8 @@ export default function insects() {
     'Spindles', 'Spindra', 'Squiggles', 'Squiggly', 'Squirmy', 'Stingy',
     'Sugar', 'Sunshine', 'Tabitha', 'Tickle', 'Tickles', 'Tilly',
     'Tinkerbelle', 'Toots', 'Twilight', 'Twitchy', 'Velvet', 'Venom',
-    'Violet', 'Waffle', 'Webzie', 'Xena', 'Ziggy']; {
+    'Violet', 'Waffle', 'Webzie', 'Xena', 'Ziggy'];
+  {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm2.length);
       names = nm2[rnd];

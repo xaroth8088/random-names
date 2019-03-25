@@ -50,7 +50,7 @@ export default function planets() {
     'Vinci', 'Pandora', 'Tarantulon', 'Skaro', 'Gallifrey', 'Mondas',
     'Alderaan', 'Naboo', 'Tatooine', 'Hoth', 'Endor', 'Krypton', 'Zenn-La',
     'Azeroth', 'Draenor', 'Qo\'noS'];
-  // Intelligent lifeforms or not?
+    // Intelligent lifeforms or not?
   const names2 = [', named so by its discoverer, ',
     ', named after a famous scientist, ',
     ', as it\'s called by most scientists, ',
@@ -148,7 +148,7 @@ export default function planets() {
     'made up of trees and flowers, with only a few dozen of grass species, even less bush species and almost no brush and fungi species. Although the grass species are few in number, they grow fast and cover wide areas. The trees and flowers cover a lot more though and because they use up most of the nutrients, other species like shrubs and fungi haven\'t been able to reach higher numbers.',
     'made up of tall grasses and flowers, with even taller fungi and huge trees. Shrubs are non-existent and bushes are so rare they might as well be. While flowers come in more shapes and colors than grasses, they both share a wide variety of scents, most of which are related to the nutrients in their area. The fungi are tall, strong and, like the grasses and flowers, scented. The trees are also scented, but it\'s much harder to detect.',
   ];
-  // Advanced plants
+    // Advanced plants
   const names22a = [
     'Many of these organisms have developed unique ways to prevent them from being eaten. While many of them taste bad and a few are even poisonous, some have gone the extra mile and have become hard to digest. Any part of them that does get eaten and manages to survive an animal\'s digestion will often end up regrowing from that small piece, which now has plenty of nutrients from the animal\'s poop.',
     'While most organisms don\'t have to fear being completely destroyed when eaten by animals, some have made sure they will survive either way. Some will prevent being eaten by tasting horrible, by growing thorns or by being poisonous. But there are a handful of species who, in a way, need to be eaten. When an animal begin eaten these species, they will release the seeds around the eaten area, which are either swept away with the wind or get stuck on the animal to be taken away and thus ensure the species can continue to grow in other areas.',
@@ -166,7 +166,7 @@ export default function planets() {
     'When nutrients are scarce, many organisms have methods of storing those nutrients for times of need. Some have become so specialized in this they can go for very long times without the need of additonal food, to then stock up when nutrients are available. However, some species on this planet didn\'t develop such methods. Instead, they simply take what they need, whenever they need it, from wherever they can. If nutrients aren\'t available in the ground, it will take them from others, including its own kind. This has occasionally lead to the survival of this species, but the downfall of another.',
     'Surviving is usually extremely difficult, especially when nutrients are scarce and you have to choose between growing or reproducing. One species on this planet has developed a nifty method to prepare for this. Once full matured, this species will split into 2 versions of itself and attached to each other, so it\'s essentially reproducing. Once those 2 are fully grown, they newly grown version will either detach itself if enough nutrients are available or it becomes a storage unit for the original, if nutrients are scarce. If nutrients continue to be scarce, the original will use slowly consume the nutrients in the new version in the hope that new nutrients become available again and it can repeat the cycle.',
   ];
-  // Basic plants
+    // Basic plants
   const names22b = [
     'Despite the large amount different species, none of them have developed much beyond their basic form. So while their colors and shapes are different, they have all yet to develop into more specialized organisms.',
     'While their colors, shapes and in some cases their scents may be wonderful, none of these organisms have developed beyond a more basic form. Some are on the right path, but it will take a while before we can see thorned or poisonous species on this planet.',
@@ -179,7 +179,7 @@ export default function planets() {
     'Despite not being much more than the first baby steps to higher, more specialized species, the species on this planet already show great promise in terms of diversity and characteristics we\'ve never seen before.',
     'In terms of development and specialization the species on this planet aren\'t very impressive, but their shapes and colors make for astonishing natural works of art and many already show great promise of a highly specialized natural balance for the distant future.',
   ];
-  // Advanced Corals and water plants
+    // Advanced Corals and water plants
   const names22c = [
     'The aquatic life too is full of wonders. Highly specialized plants, which closely resemble the corals of Earth, cover nearly everything in the not too deep waters. Their colors are bright and numerous, something they share with the Earth corals. But their shapes and sizes are far beyond anything ever seen on Earth or anywhere else we\'ve discovered.',
     'Corals, or what closely resembles corals, cover the bottoms of almost every body of water, both lakes and oceans. Their beauty and the unique properties of this planet\'s waters make for some of the most impressive natural spectacles.',
@@ -197,7 +197,7 @@ export default function planets() {
     'While the surface may have gorgeous forests of amazing organisms, the underwater world also has its fair share of forests. Mostly in the form of long, grass-like waterplants, but there are few dozens places on this planet where actual underwater forests grow. The species in these forests aren\'t actual trees, but they work in similar ways. Roots keep them in place, while a trunk helps carry the nutrients to every part of its body. At the top, branch-like tentacles grow to feed on micro-organisms near the surface. These tentacles often reach above the surface, giving the water a mysterious and eerie look.',
     'The underwater world of this planet is truly a feast for the eyes. Thousands of different soft and hard coral species cover the ocean floors, most of which have a form of bioluminescence, which makes the night even more magical than the day. These bioluminescent corals offer homes to plenty of creatures, which they need to be cleaned, while at the same time trying to attract the very same creatures with their lights so they can eat them. A truly remarkable balance.',
   ];
-  // Basic corals and water plants
+    // Basic corals and water plants
   const names22d = [
     'Just like the surface, the underwater world doesn\'t have much more to offer than basic plants. While they do play an important role in many of the planet\'s eco-systems, they\'re not that spectacular to look at.',
     'The underwater plants are also very basic. The steps to higher, more specialized organisms are slowly being taken, but it will take thousands of years before we\'ll be able to see much variation in the planet\'s underwater life.',
@@ -210,7 +210,7 @@ export default function planets() {
     'Basic life forms are also the only thing you\'ll find in this planet\'s underwater world. Seaweeds, algae and a few dozen soft corals are scattered in very specific areas of this world, while everything else is eerily empty. But these vast areas of emptyness make the overgrown fields of soft corals and weeds all the more gorgeous.',
     'While the underwater world on this planet might not have any advanced plants or corals, their sheer numbers are astonishing. Almost everything in the shallower depth is covered in weeds, soft corals, hard corals and anything in between. Now it\'s just a matter of time to see which will develop and specialize the fastest and which species will perish in this fight.',
   ];
-  // Lifeform types, dependant on user choices
+    // Lifeform types, dependant on user choices
   const names23a = [
     'The only thing coming close to animals on the planet are the many species of microorganisms found on pretty much every surface of this planet. While they may not provide a spectacular sight for the eyes, they do show promises of higher forms of life being possible on this planet. Only time will tell what they might evolve into.',
     'While most animal-like organisms on this planet are nothing more than bacteria and other microbes, a few species have already evolved into crude forms of insects. While they still lack many of the specialized characteristics you\'d find on plenty of Earth\'s insects, they do show the first steps to such specialized creatures.',

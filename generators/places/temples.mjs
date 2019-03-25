@@ -104,7 +104,8 @@ export default function temples() {
     'Sanctuary', 'Sanctum', 'Shore', 'Shrine', 'Slab', 'Statue', 'Stone',
     'Summit', 'Synagogue', 'Temple', 'Terrace', 'Thicket', 'Tomb', 'Topiary',
     'Totem', 'Tower', 'Tree', 'Trees', 'Vertex', 'Willow', 'Woods', 'Yew'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     if (i < 3) {
       rnd = Math.floor(Math.random() * names5.length);
       rnd2 = Math.floor(Math.random() * names6.length);

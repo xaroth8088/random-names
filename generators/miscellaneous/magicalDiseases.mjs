@@ -30,7 +30,8 @@ export default function magicalDiseases() {
     'Flu', 'Gut', 'Haze', 'Infection', 'Insanity', 'Limb', 'Madness',
     'Malady', 'Mark', 'Plague', 'Pox', 'Puffs', 'Rage', 'Rash', 'Rot',
     'Shakes', 'Sickness', 'Sores', 'Spasm', 'Spasms', 'Syndrome', 'Thirst',
-    'Vapors', 'Virus', 'Warts']; {
+    'Vapors', 'Virus', 'Warts'];
+  {
     rnd = Math.floor(Math.random() * nm1.length);
     rnd2 = Math.floor(Math.random() * nm2.length);
     names = `${nm1[rnd]} ${nm2[rnd2]}`;

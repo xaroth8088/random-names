@@ -45,7 +45,8 @@ export default function bats() {
     'Shade', 'Shadow', 'Shay', 'Shine', 'Siren', 'Skye', 'Skylar', 'Snuffles',
     'Sona', 'Sora', 'Star', 'Stardust', 'Starlight', 'Sugar', 'Tinkerbell',
     'Trixie', 'Trixy', 'Twilight', 'Twinkle', 'Twinkles', 'Vanity', 'Velvet',
-    'Violet', 'Vixen', 'Wiggles', 'Xena']; {
+    'Violet', 'Vixen', 'Wiggles', 'Xena'];
+  {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm2.length);
       names = nm2[rnd];

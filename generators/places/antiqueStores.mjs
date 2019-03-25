@@ -44,7 +44,8 @@ export default function antiqueStores() {
     'Twosided', 'Utter Clutter', 'Vagabond Vendor', 'Vestiges of the Past',
     'Vintage', 'Vintage Baby', 'Vintage Treasures', 'Vintage Vogue',
     'Vintage Wares', 'Warm Wares', 'Wayward Wealths', 'Wealth of Time',
-    'Well of a Time', 'Whispers of the Past', 'Wonders of the Past']; {
+    'Well of a Time', 'Whispers of the Past', 'Wonders of the Past'];
+  {
     rnd = Math.floor(Math.random() * nm1.length);
     names = nm1[rnd];
     nm1.splice(rnd, 1);

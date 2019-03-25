@@ -15,7 +15,8 @@ export default function caitians() {
     'ira', 'iras', 'iri', 'irl', 'irr', 'isarr', 'ish', 'isil', 'iss', 'oa',
     'oaw', 'oia', 'ol', 'oll', 'ora', 'orash', 'oren', 'ori', 'orish', 'orr',
     'orri', 'osin', 'ow', 'uaw', 'ular', 'ulish', 'ull', 'uran', 'urin',
-    'uris', 'urr', 'urs', 'us', 'usar', 'uul', 'uur', 'uuras', 'uuri']; {
+    'uris', 'urr', 'urs', 'us', 'usar', 'uul', 'uur', 'uuras', 'uuri'];
+  {
     rnd = Math.floor(Math.random() * nm1.length);
     rnd2 = Math.floor(Math.random() * nm2.length);
     names = nm1[rnd] + nm2[rnd2];

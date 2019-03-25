@@ -70,7 +70,8 @@ export default function business() {
     'Scrubadub Doggie', 'Scruffy to Fluffy', 'Shampooch', 'Shampoodles',
     'Shear Critters', 'Top to Tail', 'Tossled Tails', 'Wags to Riches',
     'Wash and Wag', 'Yuppy Puppy'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     if (i < 7) {
       rnd = Math.floor(Math.random() * nm1.length);
       rnd2 = Math.floor(Math.random() * nm2.length);

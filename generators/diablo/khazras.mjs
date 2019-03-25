@@ -18,7 +18,8 @@ export default function khazras() {
     'rb', 'rg', 'rd', 'rgr', 'rt', 'rth', 'rz', 't', 'wd'];
   const nm4 = ['', '', '', 'ch', 'd', 'g', 'gg', 'k', 'l', 'lm', 'm', 'n', 'nn',
     'r', 'rg', 's', 'sh', 't', 'tch', 'th', 'wl'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     rnd = Math.floor(Math.random() * nm1.length);
     rnd2 = Math.floor(Math.random() * nm2.length);
     rnd3 = Math.floor(Math.random() * nm3.length);
@@ -29,8 +30,7 @@ export default function khazras() {
     } else {
       rnd6 = Math.floor(Math.random() * nm3.length);
       rnd7 = Math.floor(Math.random() * nm2.length);
-      names = nm1[rnd] + nm2[rnd2] + nm3[rnd3] + nm2[rnd4] + nm3[rnd6] + nm2[
-        rnd7] + nm4[rnd5];
+      names = nm1[rnd] + nm2[rnd2] + nm3[rnd3] + nm2[rnd4] + nm3[rnd6] + nm2[rnd7] + nm4[rnd5];
     }
     return names;
   }

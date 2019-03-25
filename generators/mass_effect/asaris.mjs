@@ -56,7 +56,8 @@ export default function asaris() {
     'ra', 'ran', 're', 'rev', 'ri', 'ria', 'ris', 'rix', 'ro', 'ros', 'rus',
     'san', 'sava', 'se', 'shi', 'si', 'sir', 'sus', 'tari', 'te', 'tis', 'to',
     'tora', 'us', 'va', 've', 'vius', 'vo', 'vus', 'yma', 'yne', 'za', 'ze',
-    'zea', 'zor']; {
+    'zea', 'zor'];
+  {
     rnd = Math.floor(Math.random() * nm1.length);
     rnd1 = Math.floor(Math.random() * nm2.length);
     rnd2 = Math.floor(Math.random() * nm3.length);

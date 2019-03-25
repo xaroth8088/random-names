@@ -61,7 +61,8 @@ export default function sportsTeams() {
     'Turtles', 'Vampires', 'Vikings', 'Vipers', 'Vultures', 'Warhawks',
     'Warhogs', 'Warriors', 'Warthogs', 'Wasps', 'Weasels', 'Werewolves',
     'Wildcats', 'Wildlings', 'Wings', 'Wizards', 'Wolverines', 'Wolves',
-    'Wombats', 'Wreckers', 'Yetis', 'Zebras', 'Zombies']; {
+    'Wombats', 'Wreckers', 'Yetis', 'Zebras', 'Zombies'];
+  {
     rnd = Math.floor(Math.random() * nm1.length);
     rnd2 = Math.floor(Math.random() * nm2.length);
     names = `The ${nm1[rnd]} ${nm2[rnd2]}`;

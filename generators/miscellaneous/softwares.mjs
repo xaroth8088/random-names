@@ -30,7 +30,8 @@ export default function softwares() {
     'Soar', 'Sonic', 'Spark', 'Sparkle', 'Speckle', 'Sphinx', 'Spirit',
     'Splice', 'Strut', 'Tiger', 'Tremor', 'Tri', 'Triad', 'Trifle', 'Trinity',
     'Trix', 'Tru', 'Tune', 'Twist', 'Vertex', 'Vibe', 'Vim', 'Virtue',
-    'Visage', 'Vitae', 'Vitality', 'Vortex', 'Voyage', 'Wave', 'Wiz', 'Zest']; {
+    'Visage', 'Vitae', 'Vitality', 'Vortex', 'Voyage', 'Wave', 'Wiz', 'Zest'];
+  {
     rnd = Math.floor(Math.random() * nm1.length);
     rnd2 = Math.floor(Math.random() * nm2.length);
     names = nm1[rnd] + nm2[rnd2];

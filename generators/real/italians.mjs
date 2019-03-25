@@ -1357,7 +1357,8 @@ export default function italians() {
     'Zito', 'Zizza', 'Zizzi', 'Zizzo', 'Zocchi', 'Zocco', 'Zoda', 'Zola',
     'Zolezzi', 'Zolla', 'Zollo', 'Zona', 'Zoppi', 'Zorzi', 'Zotti', 'Zottola',
     'Zucca', 'Zuccarelli', 'Zuccarello', 'Zuccaro', 'Zucco', 'Zulli', 'Zullo',
-    'Zumbo', 'Zummo', 'Zumpano', 'Zunino', 'Zurlo']; {
+    'Zumbo', 'Zummo', 'Zumpano', 'Zunino', 'Zurlo'];
+  {
     rnd2 = Math.floor(Math.random() * nm3.length);
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm2.length);

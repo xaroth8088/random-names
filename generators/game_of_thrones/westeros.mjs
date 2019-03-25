@@ -226,7 +226,8 @@ export default function westeros() {
   } else {
     namesFirst = names2;
   }
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     if (i < 5) {
       rnd = Math.floor(Math.random() * namesFirst.length);
       rnd2 = Math.floor(Math.random() * names3.length);

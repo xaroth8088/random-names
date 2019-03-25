@@ -197,7 +197,8 @@ export default function romanTowns() {
     'Viroconium Cornoviorum', 'Viroviacum', 'Virunum', 'Vitudurum',
     'Vizeliacum', 'Volaterrae', 'Volsinii', 'Volsinii Novi', 'Volubilis',
     'Vorgium', 'Vuenteka super fluvium Therma', 'Vulci', 'Xanthus', 'Zaitha',
-    'Zama Regia', 'Zela', 'Zeugma']; {
+    'Zama Regia', 'Zela', 'Zeugma'];
+  {
     rnd = Math.floor(Math.random() * nm1.length);
     names = nm1[rnd];
     return names;

@@ -51,7 +51,8 @@ export default function tuskenRaiders() {
     't', 'v', 'z', 'zh', 'zr', 'zd'];
   const nm19 = ['c', 'ct', 'g', 'gg', 'k', 'kt', 'n', 'q', 'qt', 'r', 'rr',
     'rk', 'rc', 'rg', 'rq', 'rt', 'rd', 'tt', 't'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     rnd7 = Math.floor(Math.random() * nm16.length);
     rnd8 = Math.floor(Math.random() * nm17.length);
     rnd10 = Math.floor(Math.random() * nm19.length);
@@ -60,8 +61,7 @@ export default function tuskenRaiders() {
     } else {
       rnd9 = Math.floor(Math.random() * nm17.length);
       rnd11 = Math.floor(Math.random() * nm18.length);
-      namelast = nm16[rnd7] + nm17[rnd8] + nm18[rnd11] + nm17[rnd9] + nm19[
-        rnd10];
+      namelast = nm16[rnd7] + nm17[rnd8] + nm18[rnd11] + nm17[rnd9] + nm19[rnd10];
     }
     if (type === 1) {
       rnd2 = Math.floor(Math.random() * nm12.length);

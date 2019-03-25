@@ -347,7 +347,8 @@ export default function birds() {
     'Wings', 'Winky', 'Winnie', 'Winter', 'Wrigley', 'Wylie', 'Xanadu',
     'Xena', 'Xerox', 'Yabba', 'Yahtzee', 'Yuki', 'YumYum', 'Zamba', 'Zani',
     'Zazu', 'Zeebo', 'Zelda', 'Zena', 'Zenith', 'Zephyr', 'Zero', 'Zesta',
-    'Zeta', 'Ziggy', 'Zippo', 'Zippy', 'Ziz', 'Zodiac', 'Zowie']; {
+    'Zeta', 'Ziggy', 'Zippo', 'Zippy', 'Ziz', 'Zodiac', 'Zowie'];
+  {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm2.length);
       names = nm2[rnd];

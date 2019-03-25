@@ -95,7 +95,8 @@ export default function natures() {
     'River', 'Roan', 'Robin', 'Rowan', 'Sable', 'Sage', 'Shadow', 'Shale',
     'Shell', 'Silver', 'Sky', 'Skyler', 'Snow', 'Sol', 'Sorrel', 'Spruce',
     'Star', 'Starling', 'Sterling', 'Storm', 'Stormy', 'Sunny', 'Thyme',
-    'Vale', 'Winter', 'Wren', 'Yarrow']; {
+    'Vale', 'Winter', 'Wren', 'Yarrow'];
+  {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm2.length);
       names = nm2[rnd];

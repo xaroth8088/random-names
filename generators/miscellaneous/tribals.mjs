@@ -63,7 +63,8 @@ export default function tribals() {
     'Valley of blossoms', 'Voice of a bird', 'Walks like a fairy',
     'Walks on four claws', 'Warrior spirit', 'Waves crashing against rock',
     'Wild as a river', 'Wild horse', 'Wild rose', 'Willow tree',
-    'Wise leader', 'Wise like an elder', 'Wise one']; {
+    'Wise leader', 'Wise like an elder', 'Wise one'];
+  {
     rnd = Math.floor(Math.random() * nm1.length);
     names = nm1[rnd];
     nm1.splice(rnd, 1);

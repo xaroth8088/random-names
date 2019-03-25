@@ -477,7 +477,8 @@ export default function romans() {
     'Viridio', 'Virilis', 'Virnia', 'Vitalina', 'Vitalion', 'Vitalis',
     'Vitorica', 'Vitula', 'Vita', 'Vocula', 'Volturcia', 'Volusena',
     'Volusiana', 'Vonones', 'Vopisca', 'Voteporix', 'Vulso', 'Zeno', 'Zoila',
-    'Zosima']; {
+    'Zosima'];
+  {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm4.length);
       rnd2 = Math.floor(Math.random() * nm5.length);

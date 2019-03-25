@@ -2434,7 +2434,8 @@ export default function humanSws() {
     'Yoe', 'Yoke', 'Yonge', 'Yongue', 'Yore', 'York', 'Yorke', 'Yorks',
     'Youell', 'Youman', 'Youmans', 'Young', 'Younger', 'Youngman', 'Youngs',
     'Yule', 'Yung', 'Zacharias', 'Zachary', 'Zachery', 'Zachry', 'Zane',
-    'Zone']; {
+    'Zone'];
+  {
     rnd3 = Math.floor(Math.random() * nm3.length);
     rnd4 = Math.floor(Math.random() * nm3.length);
     rndnr1 = Math.floor(Math.random() * (4 - 3 + 1)) + 3;

@@ -73,7 +73,8 @@ export default function minotaurs() {
     'sal', 'sar', 'sen', 'sien', 'sin', 'sir', 'sis', 'tara', 'taren', 'ten',
     'tera', 'tes', 'teus', 'tha', 'tin', 'tish', 'tix', 'tres', 'vas', 'vel',
     'ven', 'ver', 'vin', 'vir', 'zan', 'zel', 'zen', 'zeph', 'zera', 'zia',
-    'zis']; {
+    'zis'];
+  {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm3.length);
       rnd2 = Math.floor(Math.random() * nm4.length);

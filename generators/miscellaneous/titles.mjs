@@ -64,7 +64,8 @@ export default function titles() {
     'the Sands', 'the Sea', 'the South', 'the Stars', 'the Sun', 'the Undead',
     'the Undying', 'the Veil', 'the Voice', 'the Void', 'the West',
     'the White', 'the World'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     if (i < 3) {
       rnd = Math.floor(Math.random() * nm1.length);
       rnd2 = Math.floor(Math.random() * nm2.length);

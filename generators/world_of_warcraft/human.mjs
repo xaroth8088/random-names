@@ -387,7 +387,8 @@ export default function human() {
     'Tindall', 'Torp', 'Townend', 'Townsend', 'Trollope', 'Twynam', 'Tyndall',
     'Upton', 'Ward', 'Watt', 'Webb', 'Whatley', 'Wheatleigh', 'Wheatley',
     'Whiteley', 'Whitley', 'Whitney', 'Williams', 'Wither', 'Withers',
-    'Wyther', 'Yardley', 'Yeardley']; {
+    'Wyther', 'Yardley', 'Yeardley'];
+  {
     rnd2 = Math.floor(Math.random() * nm3.length);
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm2.length);

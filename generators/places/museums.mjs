@@ -77,7 +77,8 @@ export default function museums() {
     'Winter', 'Youth', 'Zoology', 'the Future', 'the Galaxy', 'the Globe',
     'the Mind', 'the Night', 'the Nightingale', 'the Underground',
     'the Universe', 'the Wild'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     rnd2 = Math.floor(Math.random() * nm2.length);
     rnd3 = Math.floor(Math.random() * nm3.length);
     if (i < 5) {

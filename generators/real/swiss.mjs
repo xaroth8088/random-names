@@ -285,7 +285,8 @@ export default function swiss() {
     'Zybach', 'de Werdi', 'inAebnit', 'von Almen', 'von Ballmoos',
     'von Bergen', 'von Dach', 'von Grünigen', 'von Gunten', 'von Herren',
     'von Ins', 'von Känel', 'von Mühlenen', 'von Niederhäusern',
-    'von Siebenthal', 'von Tobel']; {
+    'von Siebenthal', 'von Tobel'];
+  {
     rnd2 = Math.floor(Math.random() * nm3.length);
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm2.length);

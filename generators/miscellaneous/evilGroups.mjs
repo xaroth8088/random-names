@@ -56,7 +56,8 @@ export default function evilGroups() {
     'the Sinner', 'the Slayer', 'the Specter', 'the Twisted', 'the Undead',
     'the Universe', 'the Unknown', 'the Unseen', 'the Virus', 'the Void',
     'the Warlord', 'the Wicked'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     if (i < 4) {
       rnd = Math.floor(Math.random() * nm1.length);
       names = nm1[rnd];

@@ -39,7 +39,8 @@ export default function humans() {
     'Sno', 'Sofai', 'Sorsi', 'Soufa', 'Soye', 'Spinro', 'Spone', 'Sprinro',
     'Srimpee', 'Stachi', 'Stapely', 'Stapley', 'Storme', 'Stormey', 'Sueshi',
     'Sumdi', 'Susi', 'Tabelle', 'Tofi', 'Tofue', 'Tonwo', 'Truffelle',
-    'Truffs', 'Undey', 'Undi', 'Wonto', 'Yaso', 'Yogi', 'Yoguri']; {
+    'Truffs', 'Undey', 'Undi', 'Wonto', 'Yaso', 'Yogi', 'Yoguri'];
+  {
     if (type === 1) {
       rnd = Math.floor(Math.random() * namesFemale.length);
       names = namesFemale[rnd];

@@ -31,7 +31,7 @@ export default function eastEuropeanTowns() {
     'wye', 'ya', 'yavichy', 'ye', 'yebsk', 'yel', 'yets', 'yeyka', 'yory',
     'yova', 'yow', 'zawka', 'zhany', 'zhyn', 'zhynsk', 'zino', 'zyechna',
     'zyorsk', 'zyr'];
-  /* Czech Republic */
+    /* Czech Republic */
   const nm3 = ['Šum', 'Ža', 'Bře', 'Bla', 'Bohu', 'Bole', 'Br', 'Budě', 'Che',
     'Chomu', 'Chru', 'Dě', 'Frý', 'Ha', 'Haví', 'Havlí', 'Ho', 'Hodo', 'Hra',
     'Hradi', 'Ja', 'Jablo', 'Ji', 'Jih', 'Jindři', 'Jir', 'Kar', 'Kla',
@@ -50,7 +50,7 @@ export default function eastEuropeanTowns() {
     'plice', 'rec', 'rov', 'sek', 'ské', 'sko', 'slav', 'sou', 'stějov',
     'stek', 'tín', 'tec', 'tek', 'tov', 'tovy', 'vá', 'vířov', 'vínov', 'vý',
     'va', 'vice', 'viná', 'vou', 'vy', 'waldov', 'zavou'];
-  /* Hungary */
+    /* Hungary */
   const nm5 = ['Újfe', 'Úl', 'Abo', 'Aj', 'Bátony', 'Bé', 'Ba', 'Bal', 'Balas',
     'Balaton', 'Balma', 'Beret', 'Bia', 'Biator', 'Bic', 'Bony', 'Bu', 'Buda',
     'Budaka', 'Cell', 'Cson', 'Csor', 'Da', 'Do', 'Dom', 'Duna', 'Dunaha',
@@ -78,7 +78,7 @@ export default function eastEuropeanTowns() {
     'thalom', 'thely', 'ti', 'tirsa', 'tonfüred', 'tor', 'tvár', 'vár',
     'várda', 'vári', 'város', 'vörösvár', 'van', 'vas', 'vasvári', 've',
     'ves', 'vesd', 'yóújfalu', 'zújváros'];
-  /* Moldova */
+    /* Moldova */
   const nm7 = ['Șol', 'Ște', 'Băl', 'Basa', 'Basara', 'Ben', 'Bi', 'Bri', 'Bu',
     'Buco', 'Căi', 'Călă', 'Cău', 'Ca', 'Camen', 'Can', 'Cante', 'Cea',
     'Chiși', 'Chi', 'Cimi', 'Co', 'Com', 'Cor', 'Corne', 'Coste', 'Cras',
@@ -100,7 +100,7 @@ export default function eastEuropeanTowns() {
     'rași', 'raclia', 'rat', 'rești', 'reni', 'ri', 'riopol', 'roca', 'ru',
     'ruința', 'sari', 'sca', 'spol', 'spolul', 'strovsc', 'tești', 'temir',
     'văț', 'va', 'veni', 'ză', 'zia', 'zina'];
-  /* Poland */
+    /* Poland */
   const nm9 = ['Łó', 'Ło', 'Łom', 'Ślą', 'Śląs', 'Świę', 'Świętoch', 'Świ',
     'Świd', 'Żo', 'Będ', 'Beł', 'Biały', 'Bia', 'Biel', 'By', 'Byd', 'Che',
     'Chor', 'Częs', 'Często', 'Dą', 'Dąbro', 'Eł', 'El', 'Gór', 'Górni',
@@ -125,7 +125,7 @@ export default function eastEuropeanTowns() {
     'polski', 'ruń', 'ry', 'ska', 'skie', 'sko', 'stok', 'tów', 'tom', 'tyn',
     'wałki', 'wa', 'wek', 'wice', 'wiec', 'wiecki', 'worzno', 'wrocław', 'wy',
     'zów', 'zębie', 'ziądz', 'zierzyn', 'zin', 'zno', 'zyn'];
-  /* Romania */
+    /* Romania */
   const nm11 = ['Însu', 'Întor', 'Șim', 'Șom', 'Ște', 'Țăn', 'Țic', 'Ad',
     'Agni', 'Ama', 'Ani', 'Ar', 'Azu', 'Bâr', 'Bă', 'Băi', 'Băile', 'Băl',
     'Bănea', 'Ba', 'Baba', 'Be', 'Ber', 'Bere', 'Bi', 'Bistri', 'Bo', 'Bolde',
@@ -167,7 +167,7 @@ export default function eastEuropeanTowns() {
     'teni', 'ticeni', 'tila', 'tin', 'tina', 'trița', 'trila', 'turu', 'vaci',
     'vada', 'vana', 'vaniei', 'vasna', 'vata', 'veni', 'vița', 'vodă', 'zău',
     'za', 'zia', 'zoi', 'zu'];
-  /* Slovakia */
+    /* Slovakia */
   const nm13 = ['Čad', 'Čier', 'Šaš', 'Ša', 'Šamo', 'Štú', 'Šu', 'Šura', 'Žar',
     'Žarno', 'Že', 'Žel', 'Želie', 'Ži', 'Žia', 'Žil', 'Žili', 'Bá', 'Báno',
     'Ban', 'Bar', 'Barde', 'Boj', 'Bra', 'Bratis', 'Brez', 'Brezo', 'Byt',
@@ -197,7 +197,7 @@ export default function eastEuropeanTowns() {
     'sucké', 'tár', 'tín', 'ta', 'tin', 'tovce', 'tra', 'vá', 'vé', 'vúca',
     'va', 'vce', 'vec', 'vičovo', 'vica', 'vice', 'vidza', 'voča', 'vo',
     'vou', 'zánske', 'zev', 'zinok', 'zová', 'zovce'];
-  /* Ukraine */
+    /* Ukraine */
   const nm15 = ['Advii', 'Al', 'Alche', 'Alma', 'Alu', 'Amvro', 'Anan', 'Andru',
     'Antra', 'Apo', 'Aposto', 'Armia', 'Arte', 'Artemi', 'Bakh', 'Bal',
     'Bala', 'Bara', 'Barvin', 'Batu', 'Ber', 'Berdy', 'Bere', 'Bery', 'Bil',
@@ -242,7 +242,8 @@ export default function eastEuropeanTowns() {
     'vuta', 'vutych', 'vylib', 'vytsia', 'yi', 'yiv', 'zan', 'zansk',
     'zerske', 'zhany', 'zhyn', 'zhynets', 'zhynsk', 'zivka', 'zna', 'zne',
     'zova', 'zovsk'];
-  const i = Math.floor(Math.random() * 16); {
+  const i = Math.floor(Math.random() * 16);
+  {
     if (i < 2) {
       rnd = Math.floor(Math.random() * nm1.length);
       rnd2 = Math.floor(Math.random() * nm2.length);

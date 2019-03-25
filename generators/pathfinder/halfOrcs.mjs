@@ -49,7 +49,8 @@ export default function halfOrcs() {
     'sv', 'svr', 'tsk', 'tk', 'tr', 'v', 'xl', 'xn', 'z', 'zr', 'zk'];
   const nm12 = ['', '', '', '', '', 'ch', 'd', 'k', 'ld', 'lm', 'm', 'n', 'r',
     'shky', 'tsky', 'v', 'x', 'z'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     rnd10 = Math.floor(Math.random() * nm9.length);
     rnd11 = Math.floor(Math.random() * nm10.length);
     rnd12 = Math.floor(Math.random() * nm12.length);
@@ -58,8 +59,7 @@ export default function halfOrcs() {
       rnd14 = Math.floor(Math.random() * nm10.length);
       rnd15 = Math.floor(Math.random() * nm11.length);
       rnd16 = Math.floor(Math.random() * nm10.length);
-      nameLast = nm9[rnd10] + nm10[rnd11] + nm11[rnd13] + nm10[rnd14] + nm11[
-        rnd15] + nm10[rnd16] + nm12[rnd12];
+      nameLast = nm9[rnd10] + nm10[rnd11] + nm11[rnd13] + nm10[rnd14] + nm11[rnd15] + nm10[rnd16] + nm12[rnd12];
     } else if (i % 2 === 0) {
       while (rnd10 < 5) {
         rnd10 = Math.floor(Math.random() * nm9.length);
@@ -71,8 +71,7 @@ export default function halfOrcs() {
     } else {
       rnd13 = Math.floor(Math.random() * nm11.length);
       rnd14 = Math.floor(Math.random() * nm10.length);
-      nameLast = nm9[rnd10] + nm10[rnd11] + nm11[rnd13] + nm10[rnd14] + nm12[
-        rnd12];
+      nameLast = nm9[rnd10] + nm10[rnd11] + nm11[rnd13] + nm10[rnd14] + nm12[rnd12];
     }
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm5.length);

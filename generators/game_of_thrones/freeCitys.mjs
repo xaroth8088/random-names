@@ -34,7 +34,8 @@ export default function freeCitys() {
     'assar', 'atis', 'el', 'elar', 'elion', 'en', 'enohr', 'erah', 'erion',
     'erris', 'in', 'inar', 'ion', 'ios', 'irah', 'iris', 'iros', 'ohr',
     'ohrin', 'olis', 'onnis', 'oran', 'oris', 'orlan', 'os', 'oyor', 'yl',
-    'ymion', 'yr', 'yrion', 'yris', 'ys']; {
+    'ymion', 'yr', 'yrion', 'yris', 'ys'];
+  {
     if (type === 1) {
       rnd = Math.floor(Math.random() * names3.length);
       rnd2 = Math.floor(Math.random() * names4.length);

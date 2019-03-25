@@ -31,7 +31,8 @@ export default function thrones() {
     'Terror', 'Thorn', 'Thunder', 'Timeless', 'Titan', 'Torment', 'Traitor',
     'Tranquil', 'Twilight', 'Undead', 'Unholy', 'Venom', 'Vile', 'Violet',
     'Volcanic', 'Warlord', 'Water', 'Wayward', 'Welfare', 'Wicked', 'Widow',
-    'Wild', 'Winged', 'Wooden', 'Zodiac']; {
+    'Wild', 'Winged', 'Wooden', 'Zodiac'];
+  {
     rnd = Math.floor(Math.random() * nm1.length);
     names = `The ${nm1[rnd]} Throne`;
     return names;

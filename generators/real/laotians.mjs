@@ -54,7 +54,8 @@ export default function laotians() {
     'Thammavong', 'Thammavong ', 'Thammavongsa', 'Thepsenavong',
     'Thiamphasone', 'Thonemany', 'Vatthana', 'Viravongs', 'Vongphachanh',
     'Vongphakdy', 'Vongsamphanh', 'Vongsay', 'Vongvichit', 'Vongvilay',
-    'Vorachith', 'Xiengboree']; {
+    'Vorachith', 'Xiengboree'];
+  {
     rnd2 = Math.floor(Math.random() * nm3.length);
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm2.length);

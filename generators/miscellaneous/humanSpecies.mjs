@@ -67,7 +67,8 @@ export default function humanSpecies() {
     'Tumulosus (Hilly)', 'Turbulentus (Muddy)', 'Turpis (Disgraceful)',
     'Ultimus (Farthest)', 'Vagus (Wandering)', 'Velox (Fast)',
     'Versutus (Dexterous)', 'Verus (True)', 'Vesanus (Insane)',
-    'Viridis (Green)']; {
+    'Viridis (Green)'];
+  {
     rnd = Math.floor(Math.random() * nm1.length);
     names = `Homo ${nm1[rnd]}`;
     nm1.splice(rnd, 1);

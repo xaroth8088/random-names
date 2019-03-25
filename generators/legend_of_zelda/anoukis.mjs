@@ -7,7 +7,8 @@ export default function anoukis() {
   const nm1 = ['', '', '', '', 'b', 'd', 'f', 'g', 'h', 'k', 'l', 'm', 'n', 'p',
     'r', 's', 't', 'w', 'y', 'z'];
   const nm2 = ['a', 'u', 'o', 'e'];
-  const nm3 = ['u', 'o', 'u', 'o', 'u', 'o', 'oo']; {
+  const nm3 = ['u', 'o', 'u', 'o', 'u', 'o', 'oo'];
+  {
     rnd = Math.floor(Math.random() * nm1.length);
     rnd2 = Math.floor(Math.random() * nm2.length);
     rnd3 = Math.floor(Math.random() * nm3.length);

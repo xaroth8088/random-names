@@ -834,7 +834,8 @@ export default function warriorCats() {
     'Mist', 'Moon', 'Night', 'Ocean', 'Petal', 'Puddle', 'Rain', 'River',
     'Sea', 'Shade', 'Sky', 'Snow', 'Storm', 'Sun', 'Tree', 'Vine', 'Water',
     'Wave', 'Willow', 'Wind'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     if (type === 1) {
       if (i < 2) {
         rnd = Math.floor(Math.random() * names5.length);

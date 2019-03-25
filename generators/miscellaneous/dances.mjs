@@ -31,7 +31,8 @@ export default function dances() {
     'Twiddlefitch', 'Twilight', 'Twine', 'Twinkle Toes', 'Twitch', 'Twitter',
     'Vex', 'Vice', 'Vigger', 'Vortex', 'Wade', 'Wallis', 'Waver', 'Whim',
     'Whirl', 'Whisker', 'Whisper', 'Wicked', 'Widget', 'Wig', 'Wiggle', 'Wix',
-    'Wobble', 'Wraith', 'Yoke', 'Zigzag']; {
+    'Wobble', 'Wraith', 'Yoke', 'Zigzag'];
+  {
     rnd = Math.floor(Math.random() * nm1.length);
     names = `The ${nm1[rnd]}`;
     return names;

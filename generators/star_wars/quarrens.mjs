@@ -37,7 +37,8 @@ export default function quarrens() {
     'st', 'sm', 'sq', 't', 'v', 'w', 'wm'];
   const nm8 = ['', '', '', '', 'd', 'dd', 'ff', 'g', 'k', 'l', 'lg', 'll', 'ls',
     'm', 'n', 'nk', 'nx', 'q', 'r', 'rg', 'rn', 'rv', 's', 'sk', 't', 'z'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     rnd7 = Math.floor(Math.random() * nm5.length);
     rnd8 = Math.floor(Math.random() * nm6.length);
     rnd10 = Math.floor(Math.random() * nm8.length);

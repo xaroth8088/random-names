@@ -32,7 +32,7 @@ export default function southEuropeanTowns() {
     'ssa', 'ssia', 'ssos', 'steri', 'stiada', 'tero', 'thea', 'thraia',
     'tini', 'traki', 'tras', 'trios', 'tsa', 'tsi', 'tsini', 'tsona', 'ttos',
     'vala', 'vena', 'veza', 'via', 'vos', 'vros', 'zani', 'zi'];
-  /* Italy */
+    /* Italy */
   const nm3 = ['Ace', 'Aci', 'Afra', 'Agri', 'Ale', 'Alta', 'Anco', 'Apri',
     'Are', 'Asco', 'Ave', 'Ba', 'Baghe', 'Barle', 'Batti', 'Be', 'Bene',
     'Berga', 'Bi', 'Bisce', 'Bito', 'Bo', 'Bolo', 'Bolza', 'Bre', 'Bri', 'Bu',
@@ -68,7 +68,7 @@ export default function southEuropeanTowns() {
     'sto', 'stoia', 'tania', 'tera', 'ti', 'tina', 'to', 'tone', 'tonto',
     'tri', 'vano', 'vara', 'vecchia', 'venna', 'vento', 'vero', 'via', 'vigo',
     'viso', 'voli', 'vona', 'vorno', 'zara', 'zia', 'zio', 'zzo'];
-  /* Portugal */
+    /* Portugal */
   const nm5 = ['Abra', 'Agua', 'Ague', 'Albu', 'Alca', 'Alco', 'Alma', 'Almei',
     'Alve', 'Ama', 'Amara', 'Amo', 'Ana', 'Avei', 'Ba', 'Balei', 'Barce',
     'Barrei', 'Be', 'Bra', 'Braga', 'Ca', 'Cama', 'Cani', 'Canta', 'Capa',
@@ -96,7 +96,7 @@ export default function southEuropeanTowns() {
     'rtaxo', 'rteira', 'sbon', 'sende', 'seu', 'sinde', 'sinhos', 'smo', 'so',
     'tejo', 'tima', 'tubal', 'vas', 'veia', 'veira', 'velas', 'vem', 'ves',
     'veses', 'vira', 'vo', 'voa', 'xa', 'xal', 'zela'];
-  /* Spain */
+    /* Spain */
   const nm7 = ['Alba', 'Alca', 'Alco', 'Alge', 'Ali', 'Alme', 'Alzi', 'Artei',
     'Ba', 'Bada', 'Barce', 'Be', 'Beni', 'Bi', 'Bla', 'Bu', 'Ca', 'Co',
     'Colo', 'Cordo', 'Coru', 'Fe', 'Fro', 'Fue', 'Fuenla', 'Ga', 'Ge', 'Geta',
@@ -117,7 +117,8 @@ export default function southEuropeanTowns() {
     'rin', 'rm', 'ron', 'rona', 'ros', 'rotira', 'rrasa', 'rrol', 'rtos',
     'runa', 'sa', 'stela', 'stian', 'stoles', 'tafe', 'tava', 'te', 'tiva',
     'va', 'vega', 'vera', 'villa', 'ville', 'xo', 'za', 'zde'];
-  const i = Math.floor(Math.random() * 12); {
+  const i = Math.floor(Math.random() * 12);
+  {
     if (i < 3) {
       rnd = Math.floor(Math.random() * nm1.length);
       rnd2 = Math.floor(Math.random() * nm2.length);

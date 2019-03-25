@@ -73,7 +73,8 @@ export default function apocalypseMutants() {
     names1 = namesNeutral;
   } else {
     names1 = namesMale;
-  } {
+  }
+  {
     rnd = Math.floor(Math.random() * names1.length);
     names = names1[rnd];
     return names;

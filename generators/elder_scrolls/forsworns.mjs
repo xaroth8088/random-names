@@ -37,15 +37,15 @@ export default function forsworns() {
   const nm10 = ['', '', '', '', '', '', '', '', '', '', '', '', '', '', '', 'b',
     'br', 'd', 'dr', 'g', 'gr', 'h', 'k', 'm', 'n', 'p', 'pr', 'r', 's', 't',
     'tr', 'v', 'w'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     rnd8a = Math.floor(Math.random() * nm10.length);
     rnd8 = Math.floor(Math.random() * nm6.length);
     rnd9 = Math.floor(Math.random() * nm3.length);
     rnd10 = Math.floor(Math.random() * nm6.length);
     rnd11 = Math.floor(Math.random() * nm8.length);
     rnd12 = Math.floor(Math.random() * nm9.length);
-    nameLast = nm10[rnd8a] + nm6[rnd8] + nm3[rnd9] + nm6[rnd10] + nm8[rnd11]
-      + nm9[rnd12];
+    nameLast = nm10[rnd8a] + nm6[rnd8] + nm3[rnd9] + nm6[rnd10] + nm8[rnd11] + nm9[rnd12];
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm5.length);
       rnd2 = Math.floor(Math.random() * nm7.length);

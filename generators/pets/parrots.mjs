@@ -137,7 +137,8 @@ export default function parrots() {
     'Vickie', 'Victorina', 'Villette', 'Violet', 'Vixan', 'Wenda', 'Wilma',
     'Winifred', 'Xalvadora', 'Xena', 'Yasmin', 'Yasmine', 'Yoko', 'Yolanda',
     'Yolonda', 'Zaa-Zoo', 'Zamira', 'Zillah', 'Zoe', 'Zoey', 'Zohra', 'Zola',
-    'Zsa Zsa', 'Zyana']; {
+    'Zsa Zsa', 'Zyana'];
+  {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm2.length);
       names = nm2[rnd];

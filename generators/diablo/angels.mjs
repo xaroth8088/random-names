@@ -25,7 +25,8 @@ export default function angels() {
     'nl', 'ny', 'nph', 'nd', 'r', 'rd', 's', 'sh', 'sr', 'th', 'z'];
   const nm8 = ['el', 'ael', 'il', 'on', 'uen', 'uel', 'eil', 'iel', 'is', 'ith',
     'oelle', 'oenne', 'aelle'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm5.length);
       rnd2 = Math.floor(Math.random() * nm6.length);
@@ -36,8 +37,7 @@ export default function angels() {
       } else {
         rnd5 = Math.floor(Math.random() * nm7.length);
         rnd6 = Math.floor(Math.random() * nm6.length);
-        names = nm5[rnd] + nm6[rnd2] + nm7[rnd3] + nm6[rnd6] + nm7[rnd5] + nm8[
-          rnd4];
+        names = nm5[rnd] + nm6[rnd2] + nm7[rnd3] + nm6[rnd6] + nm7[rnd5] + nm8[rnd4];
       }
     } else {
       rnd = Math.floor(Math.random() * nm1.length);
@@ -49,8 +49,7 @@ export default function angels() {
       } else {
         rnd5 = Math.floor(Math.random() * nm3.length);
         rnd6 = Math.floor(Math.random() * nm2.length);
-        names = nm1[rnd] + nm2[rnd2] + nm3[rnd3] + nm2[rnd6] + nm3[rnd5] + nm4[
-          rnd4];
+        names = nm1[rnd] + nm2[rnd2] + nm3[rnd3] + nm2[rnd6] + nm3[rnd5] + nm4[rnd4];
       }
     }
     return names;

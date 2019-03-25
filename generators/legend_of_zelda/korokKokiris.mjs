@@ -21,7 +21,8 @@ export default function korokKokiris() {
     'th', 'w', 'z'];
   const nm8 = ['a', 'e', 'i', 'o', 'u', 'ai', 'ae', 'ea', 'ei', 'eo', 'ia',
     'io', 'iu', 'ie', 'oa', 'oe', 'oi', 'ou', 'ua', 'ue', 'uo', 'ui'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm6.length);
       rnd2 = Math.floor(Math.random() * nm2.length);

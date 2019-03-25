@@ -42,7 +42,8 @@ export default function siths() {
     'iu', 'ae', 'ia', 'ua'];
   const nm14 = ['th', 's', 'sh', 'n', 'm', 'x', 'l', 'wr', 'sy', 'ty', 'tiur',
     'tiuth', 'siuth', 'ny', 'nyr', 'lyr', 'rius', '', '', '', '', '', '', '',
-    '', '', '', '', '', '']; {
+    '', '', '', '', '', ''];
+  {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm8.length);
       rnd2 = Math.floor(Math.random() * nm9.length);
@@ -51,8 +52,7 @@ export default function siths() {
       rnd5 = Math.floor(Math.random() * nm12.length);
       rnd6 = Math.floor(Math.random() * nm13.length);
       rnd7 = Math.floor(Math.random() * nm14.length);
-      names = nm8[rnd] + nm9[rnd2] + nm10[rnd3] + nm11[rnd4] + nm12[rnd5]
-        + nm13[rnd6] + nm14[rnd7];
+      names = nm8[rnd] + nm9[rnd2] + nm10[rnd3] + nm11[rnd4] + nm12[rnd5] + nm13[rnd6] + nm14[rnd7];
     } else {
       rnd = Math.floor(Math.random() * nm1.length);
       rnd2 = Math.floor(Math.random() * nm2.length);
@@ -61,8 +61,7 @@ export default function siths() {
       rnd5 = Math.floor(Math.random() * nm5.length);
       rnd6 = Math.floor(Math.random() * nm6.length);
       rnd7 = Math.floor(Math.random() * nm7.length);
-      names = nm1[rnd] + nm2[rnd2] + nm3[rnd3] + nm4[rnd4] + nm5[rnd5] + nm6[
-        rnd6] + nm7[rnd7];
+      names = nm1[rnd] + nm2[rnd2] + nm3[rnd3] + nm4[rnd4] + nm5[rnd5] + nm6[rnd6] + nm7[rnd7];
     }
     return names;
   }

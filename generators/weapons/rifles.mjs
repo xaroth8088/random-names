@@ -211,7 +211,8 @@ export default function rifles() {
     'Voice of Insanity', 'Voice of Reason', 'Warbringer', 'Warmonger',
     'Whispers', 'Whisperwind', 'Wicked', 'Widow Maker', 'Willbreaker',
     'Wit\'s End', 'Wolf'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     if (i < 3) {
       rnd = Math.floor(Math.random() * nm1.length);
       names = nm1[rnd];

@@ -36,7 +36,8 @@ export default function fantasyTowns() {
     'shield', 'shore', 'shire', 'side', 'spell', 'spire', 'stall', 'wich',
     'minster', 'star', 'storm', 'strand', 'summit', 'tide', 'town', 'vale',
     'valley', 'vault', 'vein', 'view', 'ville', 'wall', 'wallow', 'ward',
-    'watch', 'water', 'well', 'wharf', 'wick', 'wind', 'wood', 'yard']; {
+    'watch', 'water', 'well', 'wharf', 'wick', 'wind', 'wood', 'yard'];
+  {
     rnd = Math.floor(Math.random() * nm1.length);
     rnd2 = Math.floor(Math.random() * nm2.length);
     while (nm1[rnd] === nm2[rnd2]) {

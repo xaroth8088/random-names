@@ -32,7 +32,7 @@ export default function northAfricanTowns() {
     'rouch', 'roun', 'sa', 'saad', 'saoud', 'sat', 'sem', 'sera', 'set', 'si',
     'silt', 'sourah', 'sy', 'ta', 'taf', 'tah', 'tif', 'ya', 'yadh', 'zaïa',
     'za', 'zaouet', 'ziane', 'zou', 'zouar'];
-  /* Libya */
+    /* Libya */
   const nm3 = ['Ab', 'Abya', 'Aghei', 'Aj', 'Ajda', 'Akhy', 'Ara', 'As', 'Ash',
     'Aw', 'Awji', 'Ba', 'Bar', 'Bat', 'Bay', 'Be', 'Ben', 'Beng', 'Beni',
     'Bra', 'Bre', 'Da', 'Der', 'Far', 'Gha', 'Ghada', 'Ghar', 'Ghla', 'Gsei',
@@ -53,7 +53,7 @@ export default function northAfricanTowns() {
     'sha', 'shita', 'ta', 'tan', 'te', 'ten', 'tha', 'trun', 'tuba', 'wad',
     'wara', 'wiya', 'woon', 'ya', 'yada', 'yan', 'yar', 'zam', 'zi', 'zirbu',
     'zougha', 'zuk'];
-  /* Morocco */
+    /* Morocco */
   const nm5 = ['Ab', 'Al Ho', 'Azi', 'Be', 'Ben', 'Bensli', 'Ber', 'Berka',
     'Bou', 'Boule', 'Ca', 'Casa', 'Chaou', 'Chef', 'Chtou', 'Douk', 'El Ha',
     'Erra', 'Es', 'Fi', 'Guel', 'Ho', 'Hocei', 'If', 'Ifra', 'Inez', 'Ja',
@@ -72,7 +72,7 @@ export default function northAfricanTowns() {
     'nitra', 'ra', 'rache', 'rada', 'rane', 'rate', 'ri', 'ribga', 'rirt',
     'rou', 'sa', 'set', 'sift', 'tat', 'te', 'touan', 'tra', 'za', 'zane',
     'zate', 'zazate', 'zilal'];
-  /* Sudan */
+    /* Sudan */
   const nm7 = ['Abdu', 'Abe', 'Abye', 'Ad Da', 'Ad Dama', 'Al', 'Al Fa',
     'Al Fas', 'Al Ma', 'Al Mana', 'Al Qa', 'Al Qada', 'Al Uba', 'Alja', 'At',
     'Atba', 'Ba', 'Baba', 'Bah', 'Bak', 'Ben', 'Ber', 'Bu', 'Buwai', 'Del',
@@ -93,7 +93,7 @@ export default function northAfricanTowns() {
     'mahmood', 'man', 'mazin', 'mood', 'na', 'nagil', 'nar', 'neina', 'ni',
     'nusa', 'qa', 'ra', 'ri', 'rif', 'sa', 'sala', 'scha', 'shir', 'ti',
     'tiu', 'toum', 'tur', 'waba', 'yala', 'yara', 'yei', 'yid', 'zin'];
-  /* Tunisia */
+    /* Tunisia */
   const nm9 = ['Abde', 'Abderra', 'Aga', 'Ami', 'Anda', 'Aria', 'Az', 'Bé',
     'Ba', 'Bassa', 'Be', 'Beka', 'Bekal', 'Bem', 'Ben', 'Ben Ga', 'Ben Gar',
     'Beni Khe', 'Benna', 'Bi', 'Bizer', 'Bou', 'Bouh', 'Bour', 'Bra', 'Ce',
@@ -134,7 +134,8 @@ export default function northAfricanTowns() {
     'si', 'sja', 'souk', 'stir', 'ta', 'tan', 'tar', 'teur', 'tia', 'tine',
     'touia', 'tour', 'yada', 'yef', 'yet', 'zèze', 'za', 'zahra', 'ze', 'zel',
     'zerka', 'zerte', 'zid', 'zis', 'zouna'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     if (i < 2) {
       rnd = Math.floor(Math.random() * nm1.length);
       rnd2 = Math.floor(Math.random() * nm2.length);

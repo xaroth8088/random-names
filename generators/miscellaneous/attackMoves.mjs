@@ -71,7 +71,8 @@ export default function attackMoves() {
     'Trauma', 'Tremor', 'Trick', 'Truth', 'Vanish', 'Vengeance', 'Vigor',
     'Vindicate', 'Vision', 'Volley', 'Warcry', 'Ward', 'Warp Time', 'Weaken',
     'Whack', 'Whip', 'Whirl', 'Whirlwind', 'Whiteout', 'Will', 'Wither',
-    'Wrath', 'Wreck', 'Zeal']; {
+    'Wrath', 'Wreck', 'Zeal'];
+  {
     rnd = Math.floor(Math.random() * names1.length);
     names = names1[rnd];
     return names;

@@ -415,7 +415,8 @@ export default function norns() {
     'the Forgotten', 'the Forsaken', 'the Gladiator', 'the Immortal',
     'the Insane', 'the Lost', 'the Protector', 'the Storm', 'the Victor',
     'the Wicked', 'the Wolf', 'the Wretched'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm3.length);
       if (i < 4) {

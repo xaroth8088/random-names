@@ -29,7 +29,8 @@ export default function trills() {
     'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u'];
   const nm11 = ['', '', '', '', '', '', '', '', 'b', 'd', 'g', 'gr', 'gn', 'l',
     'll', 'm', 'n', 'rr', 'r', 's', 'tn', 'v', 'z'];
-  const nm12 = ['d', 'g', 'hn', 'hl', 'l', 'm', 'n', 'r', 'rs', 's', 'x']; {
+  const nm12 = ['d', 'g', 'hn', 'hl', 'l', 'm', 'n', 'r', 'rs', 's', 'x'];
+  {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm5.length);
       rnd2 = Math.floor(Math.random() * nm6.length);

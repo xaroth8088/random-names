@@ -91,7 +91,8 @@ export default function filmStudios() {
   const names8 = ['Entertainment', 'Film Company', 'Studio', 'Pictures',
     'Productions', 'Cinema', 'Film', 'Filmworks', 'Studios',
     'Film Productions', 'Films', 'Film Studios'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     rnd = Math.floor(Math.random() * names8.length);
     if (i < 2) {
       rnd1 = Math.floor(Math.random() * names1.length);

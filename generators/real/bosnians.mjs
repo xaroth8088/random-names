@@ -82,7 +82,8 @@ export default function bosnians() {
     'Subasic', 'Subotić', 'Suljic', 'Susic', 'Tabakovic', 'Tadić',
     'Tahirović', 'Tahirovic', 'Tanovic', 'Terzić', 'Todorović', 'Tomić',
     'Topčagić', 'Topalović', 'Topic', 'Toskić', 'Turković', 'Vasić', 'Velic',
-    'Vidovic', 'Vuković', 'Zahirović', 'Zahirovic', 'Zovko', 'Zukic']; {
+    'Vidovic', 'Vuković', 'Zahirović', 'Zahirovic', 'Zovko', 'Zukic'];
+  {
     rnd2 = Math.floor(Math.random() * nm3.length);
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm2.length);

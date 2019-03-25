@@ -47,7 +47,8 @@ export default function gameEngines() {
     'Zodiac'];
   const nm2 = ['Creative Engine', 'Creator', 'Engine', 'Frameworks',
     'Game Engine', 'Physics Engine', 'Studio', 'Tools', 'Toolset', 'Engine',
-    'Engine']; {
+    'Engine'];
+  {
     rnd = Math.floor(Math.random() * nm1.length);
     rnd2 = Math.floor(Math.random() * nm2.length);
     names = `${nm1[rnd]} ${nm2[rnd2]}`;

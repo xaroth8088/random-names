@@ -112,7 +112,8 @@ export default function bulgarians() {
     'Radulova', 'Ruseva', 'Stoeva', 'Strashilova', 'Svetkova', 'Todorova',
     'Toncheva', 'Tsankova', 'Taneva', 'Valcheva', 'Veneva', 'Vrancheva',
     'Valerieva', 'Valova', 'Vankova', 'Varbanova', 'Vaseva', 'Vasileva',
-    'Velichkova', 'Velikova', 'Yankova', 'Zheleva', 'Zhelyaskova']; {
+    'Velichkova', 'Velikova', 'Yankova', 'Zheleva', 'Zhelyaskova'];
+  {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm4.length);
       rnd2 = Math.floor(Math.random() * nm5.length);

@@ -65,7 +65,8 @@ export default function camps() {
     'Tiger Lilly', 'Torchbearer', 'Tortoise', 'Turtle Shell', 'Twilight',
     'Viper', 'Waterfall', 'Whisper', 'Wild Card', 'Wild Horse', 'Willow',
     'Woodpecker'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     if (i < 3) {
       rnd = Math.floor(Math.random() * names1.length);
       names = `Camp ${names1[rnd]}`;

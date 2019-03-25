@@ -122,7 +122,8 @@ export default function onePieceDevilFruits() {
     ['Yuge', 'Steam'],
     ['Yuki', 'Snow'],
     ['Zō', 'Elephant'],
-  ]; {
+  ];
+  {
     rnd = Math.floor(Math.random() * nm1.length);
     names = `${nm1[rnd][0]} ${nm1[rnd][0]} no Mi (${nm1[rnd][1]})`;
     nm1.splice(rnd, 1);

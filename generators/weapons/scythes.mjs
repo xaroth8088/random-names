@@ -199,7 +199,8 @@ export default function scythes() {
     'The Inevitable', 'The Judge', 'The Warden', 'Tranquillizer',
     'Unholy Might', 'Valkyrie', 'Vanquisher', 'Widowblight', 'Widowmaker',
     'Willbreaker'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     if (i < 3) {
       rnd = Math.floor(Math.random() * nm1.length);
       names = nm1[rnd];

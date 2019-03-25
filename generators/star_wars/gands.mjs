@@ -25,7 +25,8 @@ export default function gands() {
     'ql', 'qr', 'rr', 'rn', 'rl', 'sl', 'th', 't', 'tr', 'z', 'zz', 'zl'];
   const nm7 = ['', '', '', '', '', '', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i',
     'o', 'u', 'y', 'aa', 'oo', 'uu', 'ee', 'ay', 'ai', 'ey', 'ya', 'yu', 'yi'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     rnd6 = Math.floor(Math.random() * nm5.length);
     rnd7 = Math.floor(Math.random() * nm2.length);
     rnd8 = Math.floor(Math.random() * nm6.length);

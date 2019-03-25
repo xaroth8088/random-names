@@ -59,7 +59,8 @@ export default function zombieTypes() {
     'Venom Zombie', 'Vomiter', 'Wacko', 'Wailer', 'Walker', 'Waster',
     'Weeper', 'Whacker', 'Whiner', 'Whistler', 'Wild Zombie',
     'Withering Zombie', 'Wrangler', 'Wrestler', 'Wriggler', 'Writher',
-    'Yelper']; {
+    'Yelper'];
+  {
     rnd = Math.floor(Math.random() * nm1.length);
     names = nm1[rnd];
     nm1.splice(rnd, 1);

@@ -45,7 +45,8 @@ export default function brands() {
     'Par', 'Post', 'Pre', 'Pro', 'Quin', 'Res', 'Rese', 'Scar', 'Semi', 'Sha',
     'Spin', 'Sta', 'Stra', 'Stri', 'Sub', 'Syn', 'Tech', 'Tran', 'Trans',
     'Tri', 'Un', 'Uni'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     if (i < 2) {
       rnd1 = Math.floor(Math.random() * nm11.length);
       rnd2 = Math.floor(Math.random() * nm2.length);

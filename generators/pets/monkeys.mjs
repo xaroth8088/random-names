@@ -123,7 +123,8 @@ export default function monkeys() {
     'Taylor', 'Theres', 'Tiara', 'Tracy', 'Trinka', 'Tyra', 'Vevina',
     'Victoria', 'Victorina', 'Violet', 'Vivian', 'Ynes', 'Zavrina',
     'Zerlinda', 'Zoey', 'Zulema', 'Zurina'];
-  let names = ''; {
+  let names = '';
+  {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm2.length);
       names = nm2[rnd];

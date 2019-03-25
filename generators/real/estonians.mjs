@@ -93,7 +93,8 @@ export default function estonians() {
     'Peetre', 'Pihlak', 'Piip', 'Puhvel', 'Putsep', 'Puusepp', 'Raud',
     'Rebane', 'Rootare', 'Rummo', 'Ruutel', 'Ruutli', 'Saar', 'Sepp', 'Sibul',
     'Sirel', 'Sisask', 'Sokk', 'Soosaar', 'Tamm', 'Teder', 'Toom', 'Vaher',
-    'Vaino', 'Valbe', 'Valjas', 'Valk', 'Vesik', 'Viiding', 'Vitsut', 'Vosu']; {
+    'Vaino', 'Valbe', 'Valjas', 'Valk', 'Vesik', 'Viiding', 'Vitsut', 'Vosu'];
+  {
     rnd2 = Math.floor(Math.random() * nm3.length);
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm2.length);

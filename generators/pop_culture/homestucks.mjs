@@ -25,7 +25,8 @@ export default function homestucks() {
   const nm5 = ['d', 'f', 'g', 'k', 'l', 'm', 'n', 'q', 'r', 's', 't', 'v', 'y',
     'z'];
   const nm6 = ['h', 'k', 'm', 'n', 'r', 's', 't', 'x', 'z'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     if (i % 2 === 0) {
       rnd = Math.floor(Math.random() * nm0.length);
       rnd2 = Math.floor(Math.random() * nm2.length);

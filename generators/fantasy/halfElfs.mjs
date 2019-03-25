@@ -118,7 +118,8 @@ export default function halfElfs() {
     'roris', 'salor', 'sandoral', 'satra', 'stina', 'sys', 'thana', 'thyra',
     'toris', 'tris', 'tumal', 'valur', 'varis', 'ven', 'vyre', 'warin',
     'wenys', 'wraek', 'wynn', 'xalim', 'xidor', 'xina', 'xisys', 'yarus',
-    'ydark', 'ynore', 'yra', 'zana', 'zeiros', 'zorwyn', 'zumin']; {
+    'ydark', 'ynore', 'yra', 'zana', 'zeiros', 'zorwyn', 'zumin'];
+  {
     rnd3 = Math.floor(Math.random() * nm5.length);
     rnd4 = Math.floor(Math.random() * nm6.length);
     nameLast = nm5[rnd3] + nm6[rnd4];

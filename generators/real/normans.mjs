@@ -176,7 +176,8 @@ export default function normans() {
     'de Pinchemont', 'de Recusson', 'de Rely', 'de Roncherolles',
     'de Saussay', 'de Seguzzo', 'de Servian', 'de Seyssel', 'de Valles',
     'de Vandes', 'de Vere', 'de Villy', 'de Viuepont', 'de Voil', 'de Vymont',
-    'l\'Argent']; {
+    'l\'Argent'];
+  {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm2.length);
       rnd2 = Math.floor(Math.random() * nm3.length);

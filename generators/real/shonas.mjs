@@ -221,7 +221,8 @@ export default function shonas() {
     'Nhema', 'Nhiwatiw', 'Nkala', 'Nkomo', 'Nyambuya', 'Nyandoro', 'Olonga',
     'Pocock', 'Rugeje', 'Rusere', 'Samkange', 'Shamuyarira', 'Shaw', 'Shumba',
     'Sibanda', 'Sithole', 'Takawira', 'Tekere', 'Towungana', 'Tsvangirai',
-    'Tungamirai', 'Ullyet', 'Vera', 'Zvinavashe']; {
+    'Tungamirai', 'Ullyet', 'Vera', 'Zvinavashe'];
+  {
     rnd2 = Math.floor(Math.random() * nm3.length);
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm2.length);

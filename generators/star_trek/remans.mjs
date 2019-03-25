@@ -13,7 +13,8 @@ export default function remans() {
     'kix', 'krax', 'krikuk', 'kruvek', 'kuk', 'marik', 'mek', 'mix', 'mosik',
     'muk', 'narix', 'natek', 'nuk', 'nuvik', 'nux', 'rad', 'rarix', 'rix',
     'ruk', 'ruvix', 'sarix', 'sek', 'sik', 'srix', 'stuk', 'tek', 'tix',
-    'trik', 'tuk', 'turik', 'vek', 'vik', 'vrex', 'vurik', 'vux']; {
+    'trik', 'tuk', 'turik', 'vek', 'vik', 'vrex', 'vurik', 'vux'];
+  {
     rnd = Math.floor(Math.random() * nm1.length);
     rnd2 = Math.floor(Math.random() * nm2.length);
     names = nm1[rnd] + nm2[rnd2];

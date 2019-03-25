@@ -308,7 +308,8 @@ export default function latvians() {
     'Kiegelnieks', 'Kimene', 'Kiploks', 'Kede', 'Kenins', 'Kevite', 'Laudis',
     'Saurins', 'Smits', 'Sneiders', 'Steinbergs', 'Steins', 'Stelmahers',
     'Svalbe', 'Svarcs', 'Savejs', 'Skidra', 'Skinkis', 'Skele', 'Snore',
-    'Supulis', 'Udens', 'Udris', 'Udritis', 'Usins']; {
+    'Supulis', 'Udens', 'Udris', 'Udritis', 'Usins'];
+  {
     rnd2 = Math.floor(Math.random() * nm3.length);
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm2.length);

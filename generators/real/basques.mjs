@@ -2456,7 +2456,8 @@ export default function basques() {
     'Zuri', 'Zuria', 'Zuriaga', 'Zuriain', 'Zuriarrain', 'Zuricaldai',
     'Zuricalday', 'Zuricaray', 'Zurico', 'Zuricoain', 'Zuridia', 'Zurimendi',
     'Zurinaga', 'Zurra', 'Zurriaran', 'Zurrigarin', 'Zurtegui', 'Zurutuza',
-    'Zurvano', 'Zuviaur', 'Zuvillaga', 'Zuza', 'Zuzuarregui']; {
+    'Zurvano', 'Zuviaur', 'Zuvillaga', 'Zuza', 'Zuzuarregui'];
+  {
     rnd2 = Math.floor(Math.random() * nm3.length);
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm2.length);

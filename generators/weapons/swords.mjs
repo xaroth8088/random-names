@@ -202,7 +202,8 @@ export default function swords() {
     'Unholy Might', 'Valkyrie', 'Vanquisher', 'Vengeance', 'Venom',
     'Venomshank', 'Warmonger', 'Widow Maker', 'Willbreaker', 'Winterthorn',
     'Wit\'s End', 'Witherbrand', 'Wolf', 'Worldbreaker', 'Worldslayer'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     if (i < 3) {
       rnd = Math.floor(Math.random() * nm1.length);
       names = nm1[rnd];

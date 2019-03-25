@@ -12,7 +12,8 @@ export default function hakaishins() {
     'Raicil', 'Raki', 'Rakis', 'Sak', 'Sakis', 'Sakus', 'Sala', 'Salas',
     'Sangris', 'Santis', 'Shou', 'Sin', 'Singa', 'Sinthe', 'Sojus', 'Sontis',
     'Teq', 'Teqi', 'Tequi', 'Tes', 'Tonton', 'Vado', 'Vados', 'Vod', 'Vodkis',
-    'Waine', 'Whis', 'Wynn']; {
+    'Waine', 'Whis', 'Wynn'];
+  {
     rnd = Math.floor(Math.random() * nm1.length);
     names = nm1[rnd];
     nm1.splice(rnd, 1);

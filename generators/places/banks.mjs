@@ -42,7 +42,8 @@ export default function banks() {
     'State', 'Sublime', 'Summit', 'Sunray', 'Surge', 'Syndicate', 'Trust',
     'Trustcorp', 'United', 'Value', 'Velvet', 'Vertex', 'Victory', 'Vigor',
     'Virtue', 'Vitality', 'Voyage', 'Ward', 'Wellness', 'Wellspring',
-    'Zenith', 'Zion']; {
+    'Zenith', 'Zion'];
+  {
     rnd = Math.floor(Math.random() * nm1.length);
     rnd2 = Math.floor(Math.random() * nm2.length);
     names = `${nm2[rnd2]} ${nm1[rnd]}`;

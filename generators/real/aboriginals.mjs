@@ -294,7 +294,8 @@ export default function aboriginals() {
     'Yimmah', 'Yingee', 'Ynallie', 'Yoekabiddy', 'Yonerda', 'Yonyinonna',
     'Yoondong', 'Yorjup', 'Yorresie', 'Youbah', 'Youllisa', 'Youlou',
     'Younga', 'Yourie', 'Yowalie', 'Yowanona', 'Yoweina', 'Yowerassy',
-    'Yowlah', 'Yuinabang', 'Yunda']; {
+    'Yowlah', 'Yuinabang', 'Yunda'];
+  {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm2.length);
       names = nm2[rnd];

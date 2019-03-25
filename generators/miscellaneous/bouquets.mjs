@@ -59,7 +59,8 @@ export default function bouquets() {
     'Winter Phenomenon', 'Winter Sensations', 'Winter Spectacles',
     'Winter Vibes', 'Winter Whispers', 'Winter White', 'Winter Wonders',
     'Winter to Spring', 'Winter\'s Grace', 'Yellow Fever', 'You and I',
-    'You\'re My Angel', 'You\'re the one']; {
+    'You\'re My Angel', 'You\'re the one'];
+  {
     rnd = Math.floor(Math.random() * nm1.length);
     names = nm1[rnd];
     return names;

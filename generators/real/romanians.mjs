@@ -123,7 +123,8 @@ export default function romanians() {
     'Tugurlan', 'Ungur', 'Ungureanu', 'Urzica', 'Vântu', 'Vãduva', 'Vaduva',
     'Varias', 'Vasile', 'Vasilescu', 'Vasiliu', 'Vianu', 'Vladimirescu',
     'Vladimiri', 'Vladu', 'Vlaicu', 'Voicu', 'Voiculescu', 'Voiculet',
-    'Voinea', 'Vulcan', 'Vulpes', 'Yonescu', 'Zaituc', 'Zamfir']; {
+    'Voinea', 'Vulcan', 'Vulpes', 'Yonescu', 'Zaituc', 'Zamfir'];
+  {
     rnd2 = Math.floor(Math.random() * nm3.length);
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm2.length);

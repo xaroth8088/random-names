@@ -36,7 +36,8 @@ export default function korunnais() {
     'pt', 'pp', 'pn', 'pm', 'pd', 'pt', 'st', 'ss', 'sn', 'sm', 'tn', 'tm',
     'tv', 'vv', 'vd', 'vn', 'vl', 'vm'];
   const nm12 = ['', '', '', '', '', '', '', 'l', 'm', 'n', 'r', 's'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     rnd7 = Math.floor(Math.random() * nm9.length);
     rnd8 = Math.floor(Math.random() * nm10.length);
     rnd10 = Math.floor(Math.random() * nm11.length);

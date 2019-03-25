@@ -82,7 +82,8 @@ export default function monsters() {
     'Monkey', 'Monster', 'Owl', 'Panther', 'Phoenix', 'Pig', 'Rat', 'Rhino',
     'Scorpion', 'Serpent', 'Sheep', 'Snake', 'Spider', 'Swine', 'Tiger',
     'Vermin', 'Viper', 'Warthog', 'Wolf', 'Yak'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     if (i < 4) {
       rnd = Math.floor(Math.random() * nm3.length);
       rnd2 = Math.floor(Math.random() * nm4.length);

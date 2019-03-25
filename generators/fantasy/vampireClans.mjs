@@ -34,7 +34,8 @@ export default function vampireClans() {
     'The Flock', 'The Gauntlet', 'The Mist', 'The Sabbat', 'The Scarlet Kiss',
     'The Unaligned', 'The Will', 'Total Eclipse', 'Visio Aeternae',
     'Youngbloods'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     if (i < 8) {
       rnd = Math.floor(Math.random() * nm1.length);
       rnd2 = Math.floor(Math.random() * nm2.length);

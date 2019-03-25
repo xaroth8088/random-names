@@ -495,7 +495,8 @@ export default function charrs() {
     'Volaginia', 'Volcatia', 'Volturcia', 'Volumnia', 'Volusena', 'Volusenna',
     'Volusia', 'Volusiana', 'Vonones', 'Vopisca', 'Vorenia', 'Voteporix',
     'Vulso', 'Zeno', 'Zoila', 'Zosima'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     rnd5 = Math.floor(Math.random() * nm5.length);
     rnd6 = Math.floor(Math.random() * nm6.length);
     if (type === 1) {

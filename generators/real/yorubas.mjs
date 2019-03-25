@@ -299,7 +299,8 @@ export default function yorubas() {
     'Tiwalade (crown is ours)', 'Tokunbo (born in my absence)',
     'Toluwalope (god\'s to be praised)',
     'Yejide (mother has come back to life)', 'Yetunde (mother has come back)',
-    'Yewande (mother returned)']; {
+    'Yewande (mother returned)'];
+  {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm2.length);
       names = nm2[rnd];

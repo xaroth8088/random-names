@@ -13,7 +13,7 @@ export default function southeastAsianTowns() {
     'phos', 'pong', 'pot', 'puok', 'ráng', 'ran', 'raong', 'reah', 'reng',
     'rey', 'rieng', 'rom', 'sat', 'sei', 'sok', 'tam', 'tambang', 'tié', 'vay',
   ];
-  /* Indonesia */
+    /* Indonesia */
   const nm3 = ['Atam', 'Ba', 'Balik', 'Ban', 'Bau', 'Be', 'Beng', 'Bi', 'Bin',
     'Blang', 'Bli', 'Bo', 'Bon', 'Bukit', 'Ci', 'Cian', 'Cima', 'Cire', 'De',
     'Den', 'Du', 'Go', 'Horon', 'Ja', 'Jaka', 'Jam', 'Jaya', 'Ke', 'Kedi',
@@ -34,7 +34,7 @@ export default function southeastAsianTowns() {
     'rang', 'rauke', 'raya', 'rebon', 'reuen', 'rinda', 'rong', 'ruan', 'sa',
     'sar', 'ta', 'talo', 'tam', 'tang', 'tar', 'taram', 'tiga', 'tinggi',
     'tro', 'tu', 'tuan', 'tung', 'wah', 'wang', 'wari', 'ya'];
-  /* Malaysia */
+    /* Malaysia */
   const nm5 = ['A', 'Am', 'Asa', 'Ba', 'Ban', 'Be', 'Bela', 'Belu', 'Ben',
     'Bha', 'Bin', 'Bu', 'Chu', 'Da', 'Dong', 'Dun', 'Ge', 'Gom', 'Hi', 'Hu',
     'I', 'Iskan', 'Ja', 'Je', 'Jeran', 'Ji', 'Jo', 'Ka', 'Kam', 'Kan', 'Kang',
@@ -59,7 +59,7 @@ export default function southeastAsianTowns() {
     'tajam', 'tan', 'tang', 'tangan', 'tangor', 'tar', 'tas', 'tau', 'tian',
     'tok', 'tong', 'tra', 'tu', 'tulu', 'tut', 'wan', 'wang', 'was', 'wau',
     'wit', 'yang', 'yu'];
-  /* Myanmar/Burma */
+    /* Myanmar/Burma */
   const nm7 = ['Al', 'Allan', 'Ap', 'Aung', 'Aya', 'Aye', 'Ba', 'Ban', 'Baw',
     'Bha', 'Bi', 'Bo', 'Boga', 'Bok', 'Buda', 'Butee', 'Chau', 'Chi', 'Chin',
     'Ci', 'Co', 'Da', 'Daba', 'Dai', 'Danu', 'De', 'Deda', 'Ein', 'Fa', 'Gan',
@@ -102,7 +102,7 @@ export default function southeastAsianTowns() {
     'wei', 'wi', 'win', 'wingyi', 'ya', 'yai', 'yak', 'yan', 'yang', 'yangon',
     'yauk', 'ye', 'yet', 'yidaut', 'yin', 'yinegyun', 'yun', 'zayat', 'zon',
     'zua'];
-  /* Phillipines */
+    /* Phillipines */
   const nm9 = ['Ala', 'Ange', 'Anti', 'Ba', 'Baco', 'Bai', 'Bala', 'Bata',
     'Bay', 'Baya', 'Bayu', 'Bi', 'Bis', 'Bo', 'Boron', 'Bu', 'Caba', 'Cabad',
     'Cabana', 'Cabu', 'Cadi', 'Caga', 'Cala', 'Calba', 'Caloo', 'Can', 'Car',
@@ -130,7 +130,7 @@ export default function southeastAsianTowns() {
     'rong', 'rongan', 'say', 'si', 'sig', 'sin', 'sogon', 'tac', 'tan',
     'tangas', 'tay', 'to', 'tuan', 'vao', 'vite', 'votas', 'wan', 'xas',
     'yabas', 'yan', 'yawan', 'zon'];
-  /* Thailand */
+    /* Thailand */
   const nm11 = ['Am', 'Aran', 'Ayo', 'Ban Bue', 'Ban Cha', 'Ban Du', 'Ban Phai',
     'Ban Po', 'Bang Kru', 'Bang Mue', 'Bang Ra', 'Be', 'Bua Kha', 'Buri',
     'Cha', 'Chae', 'Chantha', 'Chao', 'Chaya', 'Chia', 'Chiang Ma',
@@ -159,7 +159,7 @@ export default function southeastAsianTowns() {
     'tani', 'taya', 'thabat', 'thaburi', 'thana', 'thani', 'tharalak',
     'tharam', 'thaya', 'thet', 'thiwat', 'tho', 'thom', 'thon', 'thum',
     'tong', 'wai', 'wan', 'wat', 'ya', 'yao', 'yaphum', 'yok', 'yong'];
-  /* Vietnam */
+    /* Vietnam */
   const nm13 = ['Ðà', 'Ðông', 'Ðien', 'Ðong', 'Bà', 'Bac', 'Bao', 'Ben', 'Bien',
     'Buôn', 'Buôn Ma', 'Cà', 'Cam', 'Cao', 'Châu', 'Hà', 'Hòa', 'Ha', 'Hai',
     'Hoi', 'Hue', 'Hung', 'Kon', 'Lào', 'Lang', 'Long', 'Móng', 'My', 'Nam',
@@ -172,7 +172,8 @@ export default function southeastAsianTowns() {
     'Nguyên', 'Nhon', 'Ninh', 'Pha', 'Phu', 'Quang', 'Ranh', 'Ria', 'Son',
     'Tàu', 'Thiet', 'Tho', 'Thuot', 'Tinh', 'Trì', 'Trang', 'Tre', 'Tum',
     'Xuyên', 'Yên'];
-  const i = Math.floor(Math.random() * 14); {
+  const i = Math.floor(Math.random() * 14);
+  {
     if (i < 2) {
       rnd = Math.floor(Math.random() * nm1.length);
       rnd2 = Math.floor(Math.random() * nm2.length);

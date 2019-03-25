@@ -111,7 +111,8 @@ export default function magicTypes() {
     'Water Magic', 'Weather Bending', 'Weather Conjuring', 'Weather Magic',
     'Weather Sorcery', 'Weather Ritual', 'White Ritual', 'White Magic',
     'Witchcraft', 'Wizardry', 'Sky Magic', 'Sky Sorcery', 'Sky Ritual',
-    'Summoning Magic', 'Summoning Sorcery', 'Summoning Ritual']; {
+    'Summoning Magic', 'Summoning Sorcery', 'Summoning Ritual'];
+  {
     rnd = Math.floor(Math.random() * names1.length);
     names = names1[rnd];
     return names;

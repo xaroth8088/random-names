@@ -148,7 +148,8 @@ export default function edwardians() {
     'Wheat', 'Wheeler', 'Whitcher', 'White', 'Whitt', 'Whittemore',
     'Widdowson', 'Wildma', 'Wilkinson', 'Williams', 'Wills', 'Wilson',
     'Witcher', 'Wood', 'Wooding', 'Woodley', 'Woodmore', 'Wraight', 'Wright',
-    'Young']; {
+    'Young'];
+  {
     rnd2 = Math.floor(Math.random() * nm3.length);
     nm3.splice(rnd2, 1);
     if (type === 1) {

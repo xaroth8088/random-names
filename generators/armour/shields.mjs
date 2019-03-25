@@ -213,7 +213,8 @@ export default function shields() {
     'Voice of Reason', 'Volcano', 'Vortex', 'Warcry', 'Warmonger', 'Warsong',
     'Willbreaker', 'Wisdom\'s Grasp', 'Wisdom\'s Hold', 'Wit\'s End',
     'Witherbrand'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     if (i < 3) {
       rnd = Math.floor(Math.random() * nm1.length);
       names = nm1[rnd];

@@ -28,7 +28,8 @@ export default function kaijus() {
     'randa', 'rappa', 'ras', 'rashi', 'rax', 'ria', 'rigar', 'rola', 'ron',
     'ros', 'rugon', 'rus', 'sari', 'saurus', 'sis', 'sos', 'sus', 'talak',
     'tax', 'thrax', 'tor', 'tori', 'tra', 'tul', 'vern', 'vore', 'yah',
-    'zilla']; {
+    'zilla'];
+  {
     rnd = Math.floor(Math.random() * nm1.length);
     rnd2 = Math.floor(Math.random() * nm2.length);
     names = nm1[rnd] + nm2[rnd2];

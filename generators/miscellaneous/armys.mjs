@@ -75,7 +75,8 @@ export default function armys() {
     'oxir', 'ozran', 'uard', 'uern', 'uex', 'uhr', 'ul', 'ulim', 'ulkahr',
     'uln', 'ulrik', 'umanir', 'uphis', 'uqiat', 'urad', 'utir', 'utron',
     'uweth', 'uxir', 'uxron', 'uyar', 'uzrak'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     if (i < 6) {
       rnd0 = Math.floor(Math.random() * nm1.length);
       names = `The ${nm1[rnd0]}`;

@@ -26,7 +26,8 @@ export default function grans() {
     'k', 'ks', 'kz', 'l', 'ls', 'm', 'n', 'nd', 'ps', 'r', 'rch', 'rg', 's',
     'sk', 'ss', 'th', 'wz', 'x', 'yk', 'z'];
   const nm5 = ['ee', 'aa', 'oe', 'ie', 'ia', 'ea', 'ei'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     rnd6 = Math.floor(Math.random() * nm1.length);
     rnd7 = Math.floor(Math.random() * nm5.length);
     rnd8 = Math.floor(Math.random() * nm4.length);

@@ -43,7 +43,8 @@ export default function gnomes() {
   const nm12 = ['b', 'd', 'f', 'h', 'l', 'm', 'n', 's', 'v', 'w'];
   const nm13 = ['b', 'c', 'd', 'f', 'g', 'h', 'k', 'l', 'm', 'n', 'r', 's', 'v',
     'w'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     rnd2 = Math.floor(Math.random() * nm3.length);
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm5.length);
@@ -59,13 +60,11 @@ export default function gnomes() {
       } else if (i < 7) {
         rnd6 = Math.floor(Math.random() * nm12.length);
         rnd7 = Math.floor(Math.random() * nm2.length);
-        names = nm5[rnd] + nm2[rnd2] + nm6[rnd3] + nm2[rnd4] + nm12[rnd6] + nm2[
-          rnd7] + nm7[rnd5];
+        names = nm5[rnd] + nm2[rnd2] + nm6[rnd3] + nm2[rnd4] + nm12[rnd6] + nm2[rnd7] + nm7[rnd5];
       } else {
         rnd6 = Math.floor(Math.random() * nm12.length);
         rnd7 = Math.floor(Math.random() * nm2.length);
-        names = nm5[rnd] + nm2[rnd2] + nm12[rnd6] + nm2[rnd7] + nm6[rnd3] + nm2[
-          rnd4] + nm7[rnd5];
+        names = nm5[rnd] + nm2[rnd2] + nm12[rnd6] + nm2[rnd7] + nm6[rnd3] + nm2[rnd4] + nm7[rnd5];
       }
     } else if (type === 2) {
       rnd = Math.floor(Math.random() * nm8.length);
@@ -81,13 +80,11 @@ export default function gnomes() {
       } else if (i < 7) {
         rnd6 = Math.floor(Math.random() * nm13.length);
         rnd7 = Math.floor(Math.random() * nm2.length);
-        names = nm8[rnd] + nm2[rnd2] + nm9[rnd3] + nm2[rnd4] + nm13[rnd6] + nm2[
-          rnd7] + nm10[rnd5];
+        names = nm8[rnd] + nm2[rnd2] + nm9[rnd3] + nm2[rnd4] + nm13[rnd6] + nm2[rnd7] + nm10[rnd5];
       } else {
         rnd6 = Math.floor(Math.random() * nm12.length);
         rnd7 = Math.floor(Math.random() * nm2.length);
-        names = nm8[rnd] + nm2[rnd2] + nm13[rnd6] + nm2[rnd7] + nm9[rnd3] + nm2[
-          rnd4] + nm10[rnd5];
+        names = nm8[rnd] + nm2[rnd2] + nm13[rnd6] + nm2[rnd7] + nm9[rnd3] + nm2[rnd4] + nm10[rnd5];
       }
     } else {
       rnd = Math.floor(Math.random() * nm1.length);
@@ -100,13 +97,11 @@ export default function gnomes() {
       } else if (i < 7) {
         rnd6 = Math.floor(Math.random() * nm11.length);
         rnd7 = Math.floor(Math.random() * nm2.length);
-        names = nm1[rnd] + nm2[rnd2] + nm3[rnd3] + nm2[rnd4] + nm11[rnd6] + nm2[
-          rnd7] + nm4[rnd5];
+        names = nm1[rnd] + nm2[rnd2] + nm3[rnd3] + nm2[rnd4] + nm11[rnd6] + nm2[rnd7] + nm4[rnd5];
       } else {
         rnd6 = Math.floor(Math.random() * nm12.length);
         rnd7 = Math.floor(Math.random() * nm2.length);
-        names = nm1[rnd] + nm2[rnd2] + nm11[rnd6] + nm2[rnd7] + nm3[rnd3] + nm2[
-          rnd4] + nm4[rnd5];
+        names = nm1[rnd] + nm2[rnd2] + nm11[rnd6] + nm2[rnd7] + nm3[rnd3] + nm2[rnd4] + nm4[rnd5];
       }
     }
     return names;

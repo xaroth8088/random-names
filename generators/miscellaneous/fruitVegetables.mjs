@@ -65,7 +65,8 @@ export default function fruitVegetables() {
     'Pumpkin', 'Quince', 'Radish', 'Rocket', 'Root', 'Rowan', 'Saguaro',
     'Salal', 'Spinach', 'Sprout', 'Squash', 'Tamarind', 'Tangerine',
     'Tomatillo', 'Tomato', 'Turnip', 'Walnut', 'Yam', 'Zucchini'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     if (i < 5) {
       rnd = Math.floor(Math.random() * names1.length);
       rnd2 = Math.floor(Math.random() * names2.length);
@@ -77,8 +78,7 @@ export default function fruitVegetables() {
       }
       rnd4 = Math.floor(Math.random() * names4.length);
       rnd5 = Math.floor(Math.random() * names5.length);
-      names = names1[rnd] + names2[rnd2] + names3[rnd3] + names4[rnd4] + names5[
-        rnd5];
+      names = names1[rnd] + names2[rnd2] + names3[rnd3] + names4[rnd4] + names5[rnd5];
     } else {
       rnd = Math.floor(Math.random() * names6.length);
       rnd2 = Math.floor(Math.random() * names7.length);

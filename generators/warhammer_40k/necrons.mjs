@@ -27,7 +27,8 @@ export default function necrons() {
     'ros', 'rqa', 'rtari', 'ru', 'rus', 's', 'sankh', 'sehti', 'seneb', 'set',
     'shen', 'shenq', 'shet', 'skaf', 'skhet', 'snet', 'sret', 't', 'tamen',
     'tamun', 'tanath', 'tankh', 'tari', 'taruk', 'taten', 'tef', 'tekh',
-    'tep', 'thap', 'thes', 'this', 'thor', 'tka', 'wa']; {
+    'tep', 'thap', 'thes', 'this', 'thor', 'tka', 'wa'];
+  {
     rnd = Math.floor(Math.random() * names1.length);
     rnd2 = Math.floor(Math.random() * names2.length);
     names = names1[rnd] + names2[rnd2];

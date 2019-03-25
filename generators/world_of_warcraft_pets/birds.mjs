@@ -84,7 +84,8 @@ export default function birds() {
     'WingMan', 'Wingull', 'Wisdom', 'Woodstock', 'WormHunter', 'Wulfric',
     'Xavea', 'Xeno', 'Xiao', 'Yarly', 'Yagers', 'Yakky', 'Yaralla', 'Ying',
     'Yoshi', 'Yugar', 'Yulthi', 'Yutussal', 'Zaharia', 'Zelda', 'Zena',
-    'Zenith', 'Zephyr', 'Zhentou', 'Zipper', 'Zorphax']; {
+    'Zenith', 'Zephyr', 'Zhentou', 'Zipper', 'Zorphax'];
+  {
     rnd = Math.floor(Math.random() * nm1.length);
     names = nm1[rnd];
     return names;

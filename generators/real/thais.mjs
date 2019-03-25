@@ -281,7 +281,8 @@ export default function thais() {
     'Wattana', 'Wattanapanit', 'Wattanasin', 'Wechsupaporn', 'Wi\'lepana',
     'Wichasak', 'Willapana', 'Wisetkaew', 'Wongkrachang', 'Wongrutiyan',
     'Wongsawat', 'Wongsuwon', 'Yao-Yun', 'Yodsuwan', 'Yongchaiyudh',
-    'Yongjaiyut', 'Yoobamroong', 'Yoonim', 'Yoovidhya', 'Yuvaves']; {
+    'Yongjaiyut', 'Yoobamroong', 'Yoonim', 'Yoovidhya', 'Yuvaves'];
+  {
     rnd2 = Math.floor(Math.random() * nm3.length);
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm2.length);

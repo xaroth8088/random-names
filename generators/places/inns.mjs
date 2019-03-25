@@ -178,7 +178,8 @@ export default function inns() {
     'Water', 'Weasel', 'Well', 'Whale', 'Whip', 'Whisper', 'Whistle', 'Wife',
     'Wilderbeast', 'Willow', 'Wolf', 'Wolves', 'Wood Elf', 'Woodpecker',
     'Worker', 'Worm', 'Xylophone', 'Yak', 'Yam', 'Yew', 'Zebra'];
-  const nm3 = ['Pub', 'Tavern', 'Inn', 'Bar', '', '']; {
+  const nm3 = ['Pub', 'Tavern', 'Inn', 'Bar', '', ''];
+  {
     rnd = Math.floor(Math.random() * nm1.length);
     rnd2 = Math.floor(Math.random() * nm2.length);
     rnd3 = Math.floor(Math.random() * nm3.length);

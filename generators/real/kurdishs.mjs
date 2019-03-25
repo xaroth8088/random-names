@@ -271,7 +271,8 @@ export default function kurdishs() {
     'Yekta', 'Zêbazê', 'Zêrê', 'Zêrîn', 'Zîlan', 'Zînê', 'Zîn', 'Zînet',
     'Zîv', 'Zîvan', 'Zarîn', 'Zara', 'Zayele', 'Zelal', 'Zemrîd', 'Zende',
     'Zerê', 'Zerî', 'Zerîn', 'Zerîxan', 'Zera', 'Zergul', 'Zernîşan', 'Zerya',
-    'Zerzan', 'Zevîn', 'Zeyno', 'Zeytîn', 'Zeytûn', 'Zilfê', 'Zoya', 'Zozan']; {
+    'Zerzan', 'Zevîn', 'Zeyno', 'Zeytîn', 'Zeytûn', 'Zilfê', 'Zoya', 'Zozan'];
+  {
     rnd2 = Math.floor(Math.random() * nm1.length);
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm2.length);

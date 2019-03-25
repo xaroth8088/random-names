@@ -264,7 +264,8 @@ export default function argentinians() {
     'Suarez', 'Tarella', 'Tocci', 'Toledo', 'Torres', 'Toscani', 'Toscano',
     'Trevisan', 'Trevisani', 'Udinese', 'Udinesi', 'Urquiza', 'Vásquez',
     'Vázquez', 'Valdéz', 'Varela', 'Vargas', 'Vazquez', 'Vecoli', 'Vega',
-    'Vera', 'Vidal', 'Villalba', 'Villar', 'Von Brocken', 'Zetticci', 'Zito']; {
+    'Vera', 'Vidal', 'Villalba', 'Villar', 'Von Brocken', 'Zetticci', 'Zito'];
+  {
     rnd2 = Math.floor(Math.random() * nm3.length);
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm2.length);

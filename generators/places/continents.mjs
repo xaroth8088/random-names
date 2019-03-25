@@ -25,7 +25,8 @@ export default function continents() {
     'on', 'one', 'or', 'ora', 'oris', 'os', 'oth', 'ox', 'oya', 'uan', 'uin',
     'ul', 'un', 'une', 'ura', 'us', 'ush', 'uth', 'ux'];
   const names6 = ['a', 'e', 'i', 'o', 'u'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     if (i < 3) {
       rnd = Math.floor(Math.random() * names1.length);
       rnd2 = Math.floor(Math.random() * names6.length);
@@ -65,8 +66,7 @@ export default function continents() {
         }
       }
       rnd6 = Math.floor(Math.random() * names5.length);
-      names = names1[rnd] + names2[rnd2] + names3[rnd3] + names2[rnd4] + names4[
-        rnd5] + names5[rnd6];
+      names = names1[rnd] + names2[rnd2] + names3[rnd3] + names2[rnd4] + names4[rnd5] + names5[rnd6];
     }
     return names;
   }

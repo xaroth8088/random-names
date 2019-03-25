@@ -48,7 +48,8 @@ export default function dwarfs() {
     'keeper', 'maker', 'mantle', 'mark', 'master', 'might', 'more', 'punch',
     'rage', 'seeker', 'shaper', 'shield', 'shoulder', 'shout', 'strength',
     'strider', 'striker', 'surge', 'sworn', 'thane', 'walker', 'ward'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     rnd = Math.floor(Math.random() * nm9.length);
     rnd2 = Math.floor(Math.random() * nm10.length);
     while (nm9[rnd] === nm10[rnd2]) {

@@ -19,7 +19,8 @@ export default function humans() {
     'v'];
   const nm9 = ['a', 'e', 'i', 'o', 'ia', 'ei', 'ie', 'ea', 'a', 'e', 'i'];
   const nm10 = ['', '', '', '', '', '', 'l', 'm', 'n', 's', 'sh', 'th'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm6.length);
       rnd2 = Math.floor(Math.random() * nm7.length);

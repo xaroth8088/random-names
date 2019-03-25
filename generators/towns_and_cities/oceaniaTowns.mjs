@@ -25,7 +25,7 @@ export default function oceaniaTowns() {
     'in', 'ina', 'ine', 'ing', 'irna', 'ith', 'on', 'ona', 'one', 'ong',
     'onga', 'ongong', 'ool', 'oomba', 'oorlie', 'or', 'ora', 'ore', 'orn',
     'uca', 'ulla', 'ura', 'urah', 'ure', 'urn', 'ury', 'yn'];
-  /* Fiji */
+    /* Fiji */
   const nm3 = ['Ba', 'Bo', 'Bra', 'Da', 'Do', 'Dra', 'Dre', 'Ka', 'Ki', 'Ko',
     'La', 'Lau', 'Le', 'Lo', 'Lu', 'Na', 'Nau', 'Nu', 'Ra', 'Rau', 'Ro', 'Sa',
     'Sau', 'Si', 'So', 'Ta', 'Tau', 'To', 'Va', 'Vo', 'Vu'];
@@ -34,7 +34,7 @@ export default function oceaniaTowns() {
   const nm4 = ['basa', 'bua', 'di', 'ka', 'kasi', 'keti', 'ki', 'koula', 'la',
     'levu', 'mawai', 'mi', 'nu', 'raki', 'ri', 'rovou', 'sa', 'savu', 'si',
     'sinu', 'sori', 'ti', 'toka', 'tumbua', 'vou', 'vu', 'vua', 'vuka', 'wai'];
-  /* Kiribati */
+    /* Kiribati */
   const nm5 = ['Aba', 'Abai', 'Abama', 'Abao', 'Aenea', 'Ai', 'Aia', 'Am', 'An',
     'Ante', 'Aobi', 'Aon', 'Aoni', 'Aono', 'Ara', 'Auto', 'Autu', 'Ba', 'Bai',
     'Baka', 'Ban', 'Bango', 'Bare', 'Bau', 'Benua', 'Beta', 'Bika', 'Bike',
@@ -67,7 +67,7 @@ export default function oceaniaTowns() {
     'tari', 'taw', 'tebike', 'tebiki', 'teman', 'tena', 'teuea', 'teute',
     'tiam', 'tiku', 'tio', 'tiroa', 'toa', 'tokia', 'ton', 'tongo', 'toru',
     'torua', 'tukia', 'tuma', 'wa', 'wai', 'weai', 'were'];
-  /* New Zealand */
+    /* New Zealand */
   const nm7 = ['Ahi', 'Aka', 'Athe', 'Balclu', 'Ble', 'Blu', 'Bur', 'Cly',
     'Coro', 'Dar', 'Darga', 'Dob', 'Dune', 'Ede', 'El', 'Embe', 'Fai', 'Fox',
     'Gis', 'Go', 'Hami', 'Han', 'Haru', 'Has', 'Have', 'Hawe', 'Hima', 'Hoki',
@@ -97,7 +97,7 @@ export default function oceaniaTowns() {
     'tapere', 'tara', 'tata', 'tati', 'tau', 'tea', 'tianga', 'tika', 'tiki',
     'to', 'ton', 'tone', 'torua', 'towai', 'tueka', 'tuke', 'turoto', 'ven',
     'vin', 'wa', 'wahia', 'wai', 'waka', 'wald', 'wera', 'whata'];
-  /* Samoa */
+    /* Samoa */
   const nm9 = ['A\'o', 'A\'u', 'A\'ufa', 'Afe', 'Afen', 'Amai', 'Asa', 'Aua',
     'Ava', 'Fa', 'Faga', 'Fai\'a', 'Fale', 'Falea', 'Faleo', 'Faleu', 'Fasi',
     'Fatu', 'Fau', 'Fausa', 'Fo', 'Foga', 'Fogasa', 'Fu', 'Ga', 'Gatai',
@@ -124,7 +124,7 @@ export default function oceaniaTowns() {
     'tasi', 'taua', 'tautu', 'tavai', 'tele', 'tia', 'titoa', 'toala',
     'togia', 'togo', 'tu', 'tufu', 'tui', 'tuli', 'vai', 'vaia', 'valu',
     'vao', 'vau', 'vi'];
-  /* Tonga */
+    /* Tonga */
   const nm11 = ['Ale', 'Anga', 'Faka', 'Fale', 'Fan', 'Fata', 'Fata\'u', 'Fatu',
     'Fe', 'Fele', 'Feto', 'Fo', 'Foa', 'Fola', 'Fongo', 'Fonoi', 'Fonuai',
     'Fotu', 'Ha\'a', 'Ha\'u', 'Hakau', 'Hakaua', 'Hala', 'Hamu', 'Have',
@@ -153,7 +153,8 @@ export default function oceaniaTowns() {
     'tafa', 'tafu', 'tala', 'tani', 'tapu', 'teo\'o', 'to', 'toa', 'toka',
     'tolo', 'tonga', 'tu', 'tu\'u', 'tua', 'tuku', 'tula', 'tumu', 'va',
     'vili', 'viti'];
-  const i = Math.floor(Math.random() * 12); {
+  const i = Math.floor(Math.random() * 12);
+  {
     if (i < 2) {
       rnd = Math.floor(Math.random() * nm1.length);
       rnd2 = Math.floor(Math.random() * nm2.length);

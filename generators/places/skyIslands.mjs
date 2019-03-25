@@ -37,7 +37,8 @@ export default function skyIslands() {
     'Tranquility', 'Tropos', 'Tumul', 'Tumulus', 'Utopia', 'Valkyrie',
     'Ventis', 'Vertex', 'Volance', 'Volantis', 'Volar', 'Volaris', 'Vortex',
     'Vox', 'Voxis', 'Vulture', 'Windy', 'Zenith', 'Zephyr', 'Zephys', 'Zion'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     rnd7 = Math.floor(Math.random() * nm6.length);
     if (i < 6) {
       rnd = Math.floor(Math.random() * nm1.length);

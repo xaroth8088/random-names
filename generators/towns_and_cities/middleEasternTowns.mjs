@@ -27,7 +27,7 @@ export default function middleEasternTowns() {
     'si', 'sil', 'sler', 'sli', 'slu', 'sova', 'ssu', 'sun', 'talan', 'tlar',
     'tlu', 'tpasa', 'ttin', 'turak', 'va', 'veli', 'yayla', 'yeri', 'yuva',
     'züyük', 'zar', 'zdere', 'zkale'];
-  // Iran
+    // Iran
   const nm3 = ['Aba', 'Abha', 'Abya', 'Abye', 'Aha', 'Ahva', 'Ala', 'Ali',
     'Andi', 'Ara', 'Arda', 'Asa', 'Ashke', 'Asta', 'Babo', 'Baha', 'Balo',
     'Barda', 'Behba', 'Bija', 'Bona', 'Bora', 'Boru', 'Dara', 'Deyla',
@@ -51,7 +51,7 @@ export default function middleEasternTowns() {
     's', 'san', 'sar', 'sh', 'shahr', 'shan', 'sht', 'shtar', 'sk', 'st',
     'stan', 'star', 'tian', 'vand', 'var', 'vaz', 'veh', 'vrik', 'yaan',
     'yeh', 'yer', 'zd', 'zeh', 'zmian', 'zvin'];
-  // Iraq
+    // Iraq
   const nm5 = ['Ad Da', 'Ad Diwa', 'Afa', 'Al Ba', 'Al Diwa', 'Al Fallu',
     'Al Hilla', 'Al Iska', 'Al Ku', 'Al Miqda', 'Al-Fa', 'Al-Qa\'i', 'Al-Qu',
     'Al-Sha', 'Ama', 'An Na', 'An Nasi', 'An Ra', 'An Rama', 'An Ru', 'Arbi',
@@ -75,7 +75,7 @@ export default function middleEasternTowns() {
     'rnah', 'rra', 'ruk', 'sh', 'sit', 'siyyah', 'sra', 'srah', 'sul', 'tba',
     'tbah', 'tha', 'thah', 'thana', 'tra', 'veh', 'wah', 'wja', 'wr', 'ya',
     'yah', 'yala', 'yji', 'ysan', 'zi'];
-  // Egypt
+    // Egypt
   const nm7 = ['Abu', 'Abu Ha', 'Abu Hu', 'Abu Ka', 'Abu Qi', 'Abu Su',
     'Abu Ti', 'Aga', 'Ako', 'Al-Bali', 'Al-Basa', 'Al-Fa', 'Al-Ha', 'Al-Hu',
     'Al-Ibra', 'Al-Ka', 'Al-Kana', 'Al-Ma', 'Al-Mara', 'Al-Qu', 'Al-Tu',
@@ -102,7 +102,7 @@ export default function middleEasternTowns() {
     'shna', 'shtul', 'siya', 'skur', 'sna', 'sta', 'suf', 'sus', 'syoun',
     'tara', 'ter', 'tikh', 'wah', 'wai', 'yana', 'yna', 'youm', 'yum', 'zar',
     'zig'];
-  // Saudi Arabia
+    // Saudi Arabia
   const nm9 = ['Abqa', 'Al Arta', 'Al Ba', 'Al Bada', 'Al Ha', 'Al Hasa',
     'Al Ja', 'Al Jafe', 'Al Khu', 'Al Li', 'Al Ma', 'Al Mi', 'Al Na',
     'Al Ola', 'Al Oyoo', 'Al Qu', 'Al Qunfu', 'Al Wa', 'Ar Ra', 'As Su',
@@ -127,7 +127,7 @@ export default function middleEasternTowns() {
     'tif', 'tin', 'toorah', 'tt', 'turah', 'wadmi', 'wain', 'weeiyah', 'wf',
     'yadh', 'ybah', 'ydah', 'yla', 'yna', 'ynah', 'yoon', 'yyil', 'zah',
     'zan', 'zzan'];
-  // Yemen
+    // Yemen
   const nm11 = ['Abya', 'Ad-Da', 'Ad-Dahi', 'Ad-Di', 'Ade', 'Al-Abi', 'Al-Fa',
     'Al-Faqi', 'Al-Gha', 'Al-Ghai', 'Al-Hu', 'Al-Huda', 'Al-Ja', 'Al-Jarra',
     'Al-Kha', 'Al-Ki', 'Al-Ma', 'Al-Maha', 'Al-Manu', 'Al-Mara', 'Al-Marhi',
@@ -148,7 +148,7 @@ export default function middleEasternTowns() {
     'qih', 'ra', 'rakh', 'ran', 'rawi', 'rbah', 'rhinah', 'rib', 'rim',
     'riyah', 'rut', 'sab', 'shah', 'shtun', 'srakh', 'taq', 'tra', 'wdar',
     'wi', 'wit', 'wkhah', 'yda', 'ydah', 'yya', 'yyan', 'zm', 'zz'];
-  // Syria
+    // Syria
   const nm13 = ['Abo Fa', 'Abu Ka', 'Afri', 'Al Anna', 'Al Bahlu', 'Al Bari',
     'Al Darba', 'Al Di', 'Al Fa', 'Al Ghu', 'Al Ha', 'Al Haja', 'Al Hami',
     'Al Hasa', 'Al Kari', 'Al Mrie', 'Al Na', 'Al Qamsi', 'Al Qusa', 'Al Ra',
@@ -176,7 +176,8 @@ export default function middleEasternTowns() {
     'sta', 'stan', 'syaf', 'takia', 'tayfah', 'tina', 'tra', 'wahin', 'wayda',
     'wda', 'wrah', 'wrat', 'yadin', 'yah', 'yamayn', 'ykish', 'zah', 'zeh',
     'zeraa'];
-  const i = Math.floor(Math.random() * 14); {
+  const i = Math.floor(Math.random() * 14);
+  {
     if (i < 2) {
       rnd = Math.floor(Math.random() * nm1.length);
       rnd2 = Math.floor(Math.random() * nm2.length);

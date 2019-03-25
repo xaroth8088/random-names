@@ -51,7 +51,8 @@ export default function oasis() {
     'the Clouds', 'the Divine', 'the Garden', 'the Light', 'the Moon',
     'the Night', 'the Senses', 'the Sky', 'the Stars', 'the Sun', 'the Temple',
   ];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     rnd2 = Math.floor(Math.random() * nm2.length);
     if (i < 5) {
       rnd = Math.floor(Math.random() * nm1.length);

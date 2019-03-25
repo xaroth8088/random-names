@@ -103,7 +103,8 @@ export default function kazakhs() {
     'Serikbekov', 'Sultanov', 'Tahirov', 'Tairov', 'Talgatov', 'Tarasov',
     'Temirzhanov', 'Timourov', 'Turlanov', 'Yedilov', 'Yeldosov', 'Yerbolov',
     'Yerbolatov', 'Yerikov', 'Yermekov', 'Yerzhanov', 'Zhanbolatov', 'Zhandos',
-  ]; {
+  ];
+  {
     rnd2 = Math.floor(Math.random() * nm3.length);
     nm3.splice(rnd2, 1);
     if (type === 1) {

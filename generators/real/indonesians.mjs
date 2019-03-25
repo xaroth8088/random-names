@@ -833,7 +833,8 @@ export default function indonesians() {
       'Slamet', 'Sriwidadi', 'Sudiroprojo', 'Suharto', 'Sukarno', 'Sukarto',
       'Suratman', 'Suripto', 'Susilo', 'Sutikno', 'Tirto'];
   }
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     if (i < 2) {
       rnd0 = Math.floor(Math.random() * inNm.length);
       rnd1 = Math.floor(Math.random() * inNm.length);

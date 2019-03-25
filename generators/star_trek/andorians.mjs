@@ -33,7 +33,8 @@ export default function andorians() {
     'sh'];
   const nm15 = ['h', 's', 'l', 'ss', 'n', 't', 'th', 'sh', '', '', '', '', '',
     '', '', '', '', '', '', '', ''];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm1.length);
       rnd2 = Math.floor(Math.random() * nm13.length);

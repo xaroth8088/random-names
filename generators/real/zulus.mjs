@@ -318,7 +318,8 @@ export default function zulus() {
     'Zintwezinhle (Beautiful things)', 'Ziphozonke (All the gifts)',
     'Zishwezi (Gliding)', 'Zodwa (Girls only)', 'Zola (Quiet, Tranquil)',
     'Zondlile (Nourished herself)', 'Zongile (Preserved)',
-    'Zonke (All gifts)', 'Zonkizizwe (All nations)', 'Zula (Brilliant)']; {
+    'Zonke (All gifts)', 'Zonkizizwe (All nations)', 'Zula (Brilliant)'];
+  {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm2.length);
       names = nm2[rnd];

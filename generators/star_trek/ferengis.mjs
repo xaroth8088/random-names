@@ -45,7 +45,8 @@ export default function ferengis() {
     'pia', 'pora', 'r', 're', 'res', 'reya', 'ri', 'ris', 'rles', 'rni',
     'rona', 'rra', 's', 'se', 'sh', 'sha', 'shi', 'shka', 'si', 'ta', 'the',
     'ti', 'tis', 'va', 'vena', 'vil', 'vira', 'xaia', 'xen', 'xera', 'xi',
-    'zel', 'zenna', 'zera']; {
+    'zel', 'zenna', 'zera'];
+  {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm3.length);
       rnd2 = Math.floor(Math.random() * nm4.length);

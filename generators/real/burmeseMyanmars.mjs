@@ -21,7 +21,8 @@ export default function burmeseMyanmars() {
     'Phyo', 'Phyoe', 'Pyae', 'Pyay', 'Sein', 'Soe', 'Thant', 'Thawda', 'Thet',
     'Thiha', 'Thu', 'Thura', 'Thurein', 'Thuta', 'Tun', 'U', 'Wai', 'Win',
     'Wunna', 'Yarzar', 'Yaza', 'Ye', 'Zarni', 'Zaw', 'Zeya', 'Zeyar', 'Zin'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     if (type === 1) {
       if (i < 4) {
         rnd = Math.floor(Math.random() * nm2.length);

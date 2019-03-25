@@ -18,7 +18,8 @@ export default function silurians() {
   const nm7 = ['o', 'e', 'a'];
   const nm8 = ['d', 'dr', 'hr', 'hl', 'hn', 'lr', 'ln', 'n', 'lm', 'ln', 'ml',
     'mn', 'l', 'r', 'rl', 'rk', 'sk', 'sl', 'sn', 'sm', 'st', 'str', 'y'];
-  const nm9 = ['', '', '', '', '', '', '', 'h', 'c', 'l', 'n', 'm', 's']; {
+  const nm9 = ['', '', '', '', '', '', '', 'h', 'c', 'l', 'n', 'm', 's'];
+  {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm6.length);
       rnd2 = Math.floor(Math.random() * nm7.length);
@@ -33,8 +34,7 @@ export default function silurians() {
       rnd4 = Math.floor(Math.random() * nm2.length);
       rnd5 = Math.floor(Math.random() * nm4.length);
       rnd6 = Math.floor(Math.random() * nm5.length);
-      names = nm1[rnd] + nm2[rnd2] + nm3[rnd3] + nm2[rnd4] + nm4[rnd5] + nm5[
-        rnd6];
+      names = nm1[rnd] + nm2[rnd2] + nm3[rnd3] + nm2[rnd4] + nm4[rnd5] + nm5[rnd6];
     }
     return names;
   }

@@ -35,7 +35,8 @@ export default function dragons() {
     'wahl', 'wen', 'win', 'wol', 'wuld', 'wuth', 'yah', 'yolx', 'yuvon',
     'zaam', 'zaan', 'zah', 'zeim', 'zein', 'zii', 'zin', 'zind', 'zok', 'zol',
     'zoor', 'zul', 'zun'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     if (i < 8) {
       rnd = Math.floor((Math.random() * names1.length));
       rnd2 = Math.floor((Math.random() * names1.length));

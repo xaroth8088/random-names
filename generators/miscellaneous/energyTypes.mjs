@@ -33,7 +33,8 @@ export default function energyTypes() {
     'Transfiguration', 'Tribal Energy', 'Twisted Energy', 'Unholy Might',
     'Ursine Power', 'Vigor', 'Virility', 'Virtue', 'Vitality', 'Void Energy',
     'Warpower', 'Wicked Energy', 'Will', 'Willpower', 'Wrath', 'Yin Yang',
-    'Zeal', 'Zen']; {
+    'Zeal', 'Zen'];
+  {
     rnd = Math.floor(Math.random() * nm1.length);
     names = nm1[rnd];
     return names;

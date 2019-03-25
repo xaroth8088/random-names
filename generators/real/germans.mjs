@@ -492,7 +492,8 @@ export default function germans() {
     'Victoria', 'Viktoria', 'Walburg', 'Walburga', 'Waldtraud', 'Waldtraut',
     'Walpurga', 'Walpurgis', 'Waltraud', 'Waltraut', 'Wanja', 'Wibke',
     'Wiebke', 'Wilhelmina', 'Wilhelmine', 'Wilma', 'Yasmin', 'Yvonne', 'Zoe'];
-  const names1 = type === 1 ? namesFemale : namesMale; {
+  const names1 = type === 1 ? namesFemale : namesMale;
+  {
     rnd = Math.floor(Math.random() * names1.length);
     rnd2 = Math.floor(Math.random() * names2.length);
     names = `${names1[rnd]} ${names2[rnd2]}`;

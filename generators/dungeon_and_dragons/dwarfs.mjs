@@ -37,7 +37,8 @@ export default function dwarfs() {
     'niss', 'nora', 'nura', 'nyl', 'nys', 'nyss', 'ra', 'ras', 'res', 'ri',
     'ria', 'rielle', 'rin', 'ris', 'ros', 'ryl', 'ryn', 'sael', 'selle',
     'sora', 'syl', 'thel', 'thiel', 'tin', 'tyn', 'va', 'van', 'via', 'vian',
-    'waen', 'win', 'wyn', 'wynn']; {
+    'waen', 'win', 'wyn', 'wynn'];
+  {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm3.length);
       rnd2 = Math.floor(Math.random() * nm4.length);

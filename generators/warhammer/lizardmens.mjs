@@ -23,7 +23,8 @@ export default function lizardmens() {
     'xc', 'xch', 'xt', 'xtl', 'xy', 'y', 'z', 'zc', 'zd', 'zq', 'ztl'];
   const nm4 = ['', '', '', 'c', 'ch', 'cl', 'k', 'l', 'n', 'p', 'r', 'tl', 'x'];
   const nm5 = ['c', 'ch', 'cl', 'k', 'l', 'n', 'p', 'r', 'tl', 'x'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     rnd = Math.floor(Math.random() * nm1.length);
     rnd2 = Math.floor(Math.random() * nm2.length);
     rnd3 = Math.floor(Math.random() * nm3.length);
@@ -39,8 +40,7 @@ export default function lizardmens() {
     } else if (i < 6) {
       rnd6 = Math.floor(Math.random() * nm3.length);
       rnd7 = Math.floor(Math.random() * nm2.length);
-      names = nm1[rnd] + nm2[rnd2] + nm3[rnd3] + nm2[rnd4] + nm3[rnd6] + nm2[
-        rnd7] + nm4[rnd5];
+      names = nm1[rnd] + nm2[rnd2] + nm3[rnd3] + nm2[rnd4] + nm3[rnd6] + nm2[rnd7] + nm4[rnd5];
     } else if (i < 8) {
       rnd6 = Math.floor(Math.random() * nm.length);
       rnd7 = Math.floor(Math.random() * nm2.length);

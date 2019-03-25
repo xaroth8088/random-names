@@ -383,7 +383,8 @@ export default function roegadyns() {
     'Sheep', 'Snow', 'Snowflake', 'Sparrow', 'Spring', 'Sprout', 'Star',
     'Summer', 'Sun', 'Sunflower', 'Tulip', 'Vapor', 'Vine', 'Willow', 'Winter',
   ];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     if (type === 1) {
       if (i < 5) {
         rnd = Math.floor(Math.random() * nm1.length);

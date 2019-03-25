@@ -37,7 +37,8 @@ export default function spaceFleets() {
   const nm2 = ['Armada', 'Attack Force', 'Corps', 'Defense Force', 'Division',
     'Fleet', 'Flotilla', 'Force', 'Military', 'Navy', 'Space Corps',
     'Space Force', 'Space Navy', 'Space Service', 'Squadron', 'Star Division',
-    'Star Forces', 'Vanguard']; {
+    'Star Forces', 'Vanguard'];
+  {
     rnd = Math.floor(Math.random() * nm1.length);
     rnd2 = Math.floor(Math.random() * nm2.length);
     names = `${nm1[rnd]} ${nm2[rnd2]}`;

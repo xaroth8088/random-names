@@ -36,7 +36,8 @@ export default function nagas() {
     'tz', 'tsh', 'xh', 'xs', 'xz', 'zh', 'zs', 'zz', 'zs'];
   const nm8 = ['', '', '', '', '', '', '', '', '', '', '', 'kh', 'l', 'r', 's',
     'sj', 'ss', 'sh', 'sz', 't', 'th', 'x', 'z', 'zs'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     if (i < 5) {
       rnd = Math.floor(Math.random() * nm5.length);
       rnd2 = Math.floor(Math.random() * nm6.length);
@@ -48,8 +49,7 @@ export default function nagas() {
       } else if (i < 4) {
         rnd6 = Math.floor(Math.random() * nm7.length);
         rnd7 = Math.floor(Math.random() * nm6.length);
-        names = nm5[rnd] + nm6[rnd2] + nm7[rnd3] + nm6[rnd7] + nm7[rnd6] + nm6[
-          rnd4] + nm8[rnd5];
+        names = nm5[rnd] + nm6[rnd2] + nm7[rnd3] + nm6[rnd7] + nm7[rnd6] + nm6[rnd4] + nm8[rnd5];
       } else {
         rnd6 = Math.floor(Math.random() * nm7.length);
         rnd7 = Math.floor(Math.random() * nm6.length);
@@ -65,15 +65,13 @@ export default function nagas() {
       } else if (i < 9) {
         rnd5 = Math.floor(Math.random() * nm2.length);
         rnd6 = Math.floor(Math.random() * nm3.length);
-        names = nm1[rnd] + nm2[rnd2] + nm3[rnd3] + nm2[rnd5] + nm3[rnd6] + nm4[
-          rnd4];
+        names = nm1[rnd] + nm2[rnd2] + nm3[rnd3] + nm2[rnd5] + nm3[rnd6] + nm4[rnd4];
       } else {
         rnd5 = Math.floor(Math.random() * nm2.length);
         rnd6 = Math.floor(Math.random() * nm3.length);
         rnd7 = Math.floor(Math.random() * nm2.length);
         rnd8 = Math.floor(Math.random() * nm3.length);
-        names = nm1[rnd] + nm2[rnd2] + nm3[rnd3] + nm2[rnd5] + nm3[rnd6] + nm2[
-          rnd7] + nm3[rnd8] + nm4[rnd4];
+        names = nm1[rnd] + nm2[rnd2] + nm3[rnd3] + nm2[rnd5] + nm3[rnd6] + nm2[rnd7] + nm3[rnd8] + nm4[rnd4];
       }
     }
     return names;

@@ -5,8 +5,7 @@ export default function languages() {
   let rnd3;
   let rnd4;
   let rnd5;
-  let
-    rnd6;
+  let rnd6;
   const nm1 = ['b', 'c', 'd', 'f', 'g', 'h', 'j', 'k', 'l', 'm', 'n', 'p', 'q',
     'r', 's', 't', 'v', 'w', 'x', 'y', 'z', 'b', 'c', 'd', 'f', 'g', 'h', 'j',
     'k', 'l', 'm', 'n', 'p', 'q', 'r', 's', 't', 'v', 'w', 'x', 'y', 'z', 'b',
@@ -37,7 +36,8 @@ export default function languages() {
     'ari', 'aric', 'arin', 'asy', 'athi', 'ati', 'ean', 'ekhi', 'eno', 'eesh',
     'ese', 'esh', 'ethi', 'eti', 'ian', 'ic', 'ili', 'in', 'ina', 'ish',
     'iya', 'oshi', 'oni', 'osa', 'uin', 'un', 'uni', 'uri'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     if (i < 3) {
       rnd = Math.floor(Math.random() * nm1.length);
       rnd2 = Math.floor(Math.random() * nm2.length);
@@ -66,8 +66,7 @@ export default function languages() {
         }
       }
       rnd6 = Math.floor(Math.random() * nm4.length);
-      name = nm1[rnd] + nm2[rnd2] + nm3[rnd3] + nm2[rnd4] + nm3[rnd5] + nm4[
-        rnd6];
+      name = nm1[rnd] + nm2[rnd2] + nm3[rnd3] + nm2[rnd4] + nm3[rnd5] + nm4[rnd6];
     } else {
       rnd2 = Math.floor(Math.random() * nm2.length);
       rnd3 = Math.floor(Math.random() * nm3.length);

@@ -685,7 +685,8 @@ export default function frisians() {
     'van der Ploeg', 'van der Schaaf', 'van der Sluis', 'van der Veen',
     'van der Veer', 'van der Velde', 'van der Wal', 'van der Weide',
     'van der Werf', 'van der Werff', 'van der Wey', 'van der Wijk',
-    'van der Woude', 'van der Zee', 'van der Zwaag']; {
+    'van der Woude', 'van der Zee', 'van der Zwaag'];
+  {
     rnd2 = Math.floor(Math.random() * nm3.length);
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm2.length);

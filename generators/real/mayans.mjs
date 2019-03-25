@@ -40,7 +40,8 @@ export default function mayans() {
     'Ixtli', 'Mecatl', 'Meztli', 'Nelli', 'Nenetl', 'Patli', 'Sacniete',
     'Sacnite', 'Tecuith', 'Tepin', 'Tlalli', 'Tonalnan', 'Xmucane', 'Xoc',
     'Xochitl', 'Xoco', 'Xpiayoc', 'Xquic', 'Xquiq', 'Yatzil', 'Yoltzin',
-    'Zac-Kuk', 'Zeltzin', 'Zyanya']; {
+    'Zac-Kuk', 'Zeltzin', 'Zyanya'];
+  {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm2.length);
       names = nm2[rnd];

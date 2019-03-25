@@ -47,7 +47,8 @@ export default function werewolfPacks() {
   const nm5 = ['Banes', 'Canines', 'Claws', 'Furs', 'Growlers', 'Guardians',
     'Hounds', 'Howlers', 'Hunters', 'Keepers', 'Manes', 'Nightstalkers',
     'Nightwalkers', 'Prowlers', 'Shadows', 'Stalkers', 'Walkers', 'Warriors'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     if (i < 4) {
       rnd = Math.floor(Math.random() * nm1.length);
       rnd3 = Math.floor(Math.random() * nm4.length);

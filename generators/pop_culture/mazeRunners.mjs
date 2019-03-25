@@ -40,7 +40,8 @@ export default function mazeRunners() {
     'Rene', 'Renee', 'Rita', 'Rosalin', 'Ruth', 'Sally', 'Shelly', 'Sherri',
     'Sherry', 'Siggy', 'Simone', 'Sommer', 'Steph', 'Stephanie', 'Thabita',
     'Thea', 'Theador', 'Theodore', 'Theresa', 'Torri', 'Trix', 'Trixie',
-    'Willy', 'Zora']; {
+    'Willy', 'Zora'];
+  {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm2.length);
       names = nm2[rnd];

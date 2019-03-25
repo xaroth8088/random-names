@@ -39,7 +39,8 @@ export default function draenei() {
     'in', 'ine', 'irah', 'kua', 'la', 'laa', 'laana', 'lae', 'laena', 'lun',
     'mae', 'mena', 'mere', 'mis', 'mon', 'nii', 'nora', 'oh', 'ora', 'raa',
     'rah', 'ran', 'ret', 'rette', 'ri', 'rii', 'rua', 'sa', 'stra', 'straa',
-    'taa', 'ti', 'tia', 'tra', 'traa', 'ua', 'un', 'uni', 'zi']; {
+    'taa', 'ti', 'tia', 'tra', 'traa', 'ua', 'un', 'uni', 'zi'];
+  {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm4.length);
       rnd2 = Math.floor(Math.random() * nm5.length);

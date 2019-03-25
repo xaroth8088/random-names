@@ -946,7 +946,8 @@ export default function lithuanians() {
     'Zvirzdiniene', 'Zvybiene', 'Žybertiene', 'Žygiene', 'Žymantiene'];
   const names1 = type === 1 ? namesFemale : namesMale;
   const names2 = namesFamily;
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     if (names1 === namesMale) {
       rnd = Math.floor(Math.random() * names1.length);
       rnd1 = Math.floor(Math.random() * names2.length);

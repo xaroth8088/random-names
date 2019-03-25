@@ -271,7 +271,8 @@ export default function norwegians() {
     'Welde', 'Welhaven', 'Wermager', 'Westby', 'Westgard', 'Westrum', 'Wien',
     'Wigdahl', 'Wigen', 'Wiig', 'Wik', 'Wike', 'Wiker', 'Wiland', 'Wilberg',
     'Wilhelmsen', 'Williamsen', 'Winding', 'Winjum', 'With', 'Wold', 'Wolden',
-    'Woll', 'Wollan', 'Wolle', 'Wollen', 'Wollum']; {
+    'Woll', 'Wollan', 'Wolle', 'Wollen', 'Wollum'];
+  {
     rnd2 = Math.floor(Math.random() * nm3.length);
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm2.length);

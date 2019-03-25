@@ -42,7 +42,8 @@ export default function amusementParks() {
   const nm4 = ['World', 'Land', 'Zone', 'Park', 'Town', 'Village', 'Realm',
     'Fair', 'Island', 'Fun Park', 'Fun World', 'Kingdom', 'Dome', 'Paradise',
     'Experience'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     if (i < 5) {
       rnd = Math.floor(Math.random() * nm1.length);
       rnd2 = Math.floor(Math.random() * nm2.length);

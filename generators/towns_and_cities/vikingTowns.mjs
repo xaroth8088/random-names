@@ -233,7 +233,8 @@ export default function vikingTowns() {
     'Skogarstrond', 'Skorradalr', 'Skorraey', 'Skorraholt', 'Skorravik',
     'Skramuhlaupsa', 'Skrattafell', 'Skraumuhlaupsa', 'Skrionisenni',
     'Skrioinsenni', 'Skrioudalr', 'Skruoey', 'Skruor', 'Skufsloekr',
-    'Skuggabjorg', 'Skulastaoir', 'Skutilsfjoror', 'Skoro', 'Skotufjoror']; {
+    'Skuggabjorg', 'Skulastaoir', 'Skutilsfjoror', 'Skoro', 'Skotufjoror'];
+  {
     rnd = Math.floor(Math.random() * nm1.length);
     names = nm1[rnd];
     return names;

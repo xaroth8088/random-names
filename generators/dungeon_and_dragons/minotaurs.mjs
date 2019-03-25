@@ -34,7 +34,8 @@ export default function minotaurs() {
     'Stormhoof', 'Stormroar', 'Stoutheart', 'Strongleader', 'Strongroar',
     'Swiftrunner', 'Swiftstriker', 'Swiftwalker', 'Thickhide', 'Thickskin',
     'Thunderfist', 'Thunderhoof', 'Thunderroar', 'Toughpelt', 'Truthspeaker',
-    'Valiantheart', 'Vigileye', 'Wolfheart', 'Wolfrunner', 'Wolfvigor']; {
+    'Valiantheart', 'Vigileye', 'Wolfheart', 'Wolfrunner', 'Wolfvigor'];
+  {
     if (type === 1) {
       rnd = Math.floor(Math.random() * namesFemF.length);
       rnd2 = Math.floor(Math.random() * namesFemL.length);

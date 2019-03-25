@@ -26,7 +26,8 @@ export default function magicSchools() {
     'Institute of the Arcane', 'School of Magics', 'School of Sorcery',
     'School of Witchcraft', 'School of Wizardry', 'School of Wizards',
     'School of the Arcane'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     rnd = Math.floor(Math.random() * names1.length);
     rnd2 = Math.floor(Math.random() * names2.length);
     rnd3 = Math.floor(Math.random() * names3.length);
@@ -35,8 +36,7 @@ export default function magicSchools() {
     rnd6 = Math.floor(Math.random() * names6.length);
     rnd7 = Math.floor(Math.random() * names7.length);
     if (i < 5) {
-      names = names1[rnd] + names2[rnd2] + names3[rnd3] + names4[rnd4] + names5[
-        rnd5] + names6[rnd6];
+      names = names1[rnd] + names2[rnd2] + names3[rnd3] + names4[rnd4] + names5[rnd5] + names6[rnd6];
     } else {
       names = `${names1[rnd] + names2[rnd2] + names3[rnd3] + names4[rnd4] + names5[rnd5] + names6[rnd6]}, ${names7[rnd7]}`;
     }

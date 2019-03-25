@@ -196,7 +196,8 @@ export default function caldaris() {
     'tomi', 'tra', 'tri', 'trice', 'triina', 'trix', 'tsu', 'tsue', 'tsuka',
     'tsuki', 'tsuko', 'tsumi', 'tsune', 'tsuyo', 'tta', 'tte', 'tti', 'tty',
     'tu', 'tva', 'va', 'vi', 'via', 'viisa', 'ya', 'yo', 'ze', 'zomi', 'zu',
-    'zue', 'zuki', 'zuko', 'zume']; {
+    'zue', 'zuki', 'zuko', 'zume'];
+  {
     if (type === 1) {
       rnd = Math.floor(Math.random() * names3.length);
       rnd2 = Math.floor(Math.random() * names4.length);

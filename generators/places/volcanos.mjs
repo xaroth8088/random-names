@@ -4,8 +4,7 @@ export default function volcanos() {
   let rnd2;
   let rnd3;
   let rnd4;
-  let
-    rnd5;
+  let rnd5;
   const names1 = ['Acrimony', 'Agony', 'Anguish', 'Animus', 'Apathy',
     'Ashcloud', 'Ashenfield', 'Ashstorm', 'Bane', 'Barrage', 'Bedrock',
     'Blackcloud', 'Blackfuse', 'Blackout', 'Blackpeak', 'Blackrock',
@@ -62,7 +61,8 @@ export default function volcanos() {
     'sp', 't', 'th', 'ts', 'w', 'wth', 'x', 'z'];
   const names8 = ['Mountain', 'Mountains', 'Summit', 'Peaks', 'Precipice',
     'Heights', 'Apex', 'Vertex', 'Pinnacle'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     if (i < 3) {
       rnd = Math.floor(Math.random() * names1.length);
       name = `Mount ${names1[rnd]}`;

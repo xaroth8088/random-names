@@ -24,7 +24,8 @@ export default function rigelians() {
     's', 'st', 'sh', 'shw', 'v', 'ys', 'w', 'wr', 'c', 'g', 'l', 's', 'v',
     'w', 'c', 'g', 'l', 's', 'v', 'w', 'n', 'n', 'm', 'm'];
   const nm8 = ['d', 'l', 'n', 'm', 's', 'x', '', '', '', '', '', ''];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     if (type === 1) {
       if (i < 5) {
         rnd = Math.floor(Math.random() * nm5.length);
@@ -41,8 +42,7 @@ export default function rigelians() {
         rnd5 = Math.floor(Math.random() * nm7.length);
         rnd6 = Math.floor(Math.random() * nm6.length);
         rnd7 = Math.floor(Math.random() * nm8.length);
-        names = nm5[rnd] + nm6[rnd2] + nm7[rnd3] + nm6[rnd4] + nm7[rnd5] + nm6[
-          rnd6] + nm8[rnd7];
+        names = nm5[rnd] + nm6[rnd2] + nm7[rnd3] + nm6[rnd4] + nm7[rnd5] + nm6[rnd6] + nm8[rnd7];
       }
     } else if (i < 5) {
       rnd = Math.floor(Math.random() * nm1.length);
@@ -59,8 +59,7 @@ export default function rigelians() {
       rnd5 = Math.floor(Math.random() * nm3.length);
       rnd6 = Math.floor(Math.random() * nm2.length);
       rnd7 = Math.floor(Math.random() * nm4.length);
-      names = nm1[rnd] + nm2[rnd2] + nm3[rnd3] + nm2[rnd4] + nm3[rnd5] + nm2[
-        rnd6] + nm4[rnd7];
+      names = nm1[rnd] + nm2[rnd2] + nm3[rnd3] + nm2[rnd4] + nm3[rnd5] + nm2[rnd6] + nm4[rnd7];
     }
     return names;
   }

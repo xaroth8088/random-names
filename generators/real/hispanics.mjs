@@ -540,7 +540,8 @@ export default function hispanics() {
     'Ybanez', 'Yepes', 'Yepez', 'Yero', 'Yniguez', 'Zacarias', 'Zamarron',
     'Zambrano', 'Zamora', 'Zamorano', 'Zapata', 'Zara', 'Zaragosa',
     'Zaragoza', 'Zarco', 'Zayas', 'Zea', 'Zegarra', 'Zendejas', 'Zenon',
-    'Zepeda', 'Zermeno', 'Zevallos', 'Zorrilla', 'Zubia', 'Zurita']; {
+    'Zepeda', 'Zermeno', 'Zevallos', 'Zorrilla', 'Zubia', 'Zurita'];
+  {
     rnd2 = Math.floor(Math.random() * nm3.length);
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm2.length);

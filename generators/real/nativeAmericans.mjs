@@ -232,7 +232,8 @@ export default function nativeAmericans() {
     'Wyome (Algonquian)', 'Xochitl (Nahuatl)', 'Yamka (Hopi)',
     'Yanaba (Navajo)', 'Yatokya (Zuni)', 'Yazhi (Navajo)', 'Yenene (Miwok)',
     'Yoki (Hopi)', 'Yona (Cherokee)', 'Yoomee (Coos)', 'Yutu (Miwok)',
-    'Zihna (Hopi)', 'Ziracuny (Kiowa)', 'Zitkala (Dakota)', 'Zonta (Sioux)']; {
+    'Zihna (Hopi)', 'Ziracuny (Kiowa)', 'Zitkala (Dakota)', 'Zonta (Sioux)'];
+  {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm2.length);
       names = nm2[rnd];

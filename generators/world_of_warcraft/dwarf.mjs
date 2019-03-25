@@ -56,7 +56,8 @@ export default function dwarf() {
     'brand', 'breaker', 'brew', 'brow', 'crag', 'dust', 'fall', 'fist',
     'flayer', 'forge', 'fury', 'gem', 'grip', 'hammer', 'hand', 'helm',
     'mane', 'mantle', 'ore', 'pike', 'river', 'roar', 'rock', 'shaper',
-    'shield', 'shout', 'steel', 'stone', 'toe']; {
+    'shield', 'shout', 'steel', 'stone', 'toe'];
+  {
     rnd4 = Math.floor(Math.random() * nm7.length);
     rnd5 = Math.floor(Math.random() * nm8.length);
     if (type === 1) {

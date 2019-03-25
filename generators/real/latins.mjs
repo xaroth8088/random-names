@@ -286,7 +286,8 @@ export default function latins() {
     'Vitalinus', 'Vitalion', 'Vitalis', 'Vitoricus', 'Vitulus', 'Vitus',
     'Vocula', 'Volturcius', 'Volusenus', 'Volusianus', 'Vonones', 'Vopiscus',
     'Voteporix', 'Vulso', 'Zeno', 'Zoilus', 'Zosimus'];
-  const names1 = type === 1 ? namesFemale : namesMale; {
+  const names1 = type === 1 ? namesFemale : namesMale;
+  {
     rnd = Math.floor(Math.random() * names1.length);
     rnd1 = Math.floor(Math.random() * names2.length);
     names = `${names1[rnd]} ${names2[rnd1]}`;

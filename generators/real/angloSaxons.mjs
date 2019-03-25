@@ -548,7 +548,8 @@ export default function angloSaxons() {
     'Wulfthere', 'Wulfweard', 'Wulfwig', 'Wulgan', 'Wulmar', 'Wulpher',
     'Wuscfrea', 'Wusfrea', 'Wyard', 'Wynbald', 'Wynfrid', 'Wynfrith',
     'Wynhaeth', 'Wynsige', 'Wynstan', 'Yonwin', 'Yric'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     if (type === 1) {
       if (i < 2) {
         rnd = Math.floor(Math.random() * nm2.length);

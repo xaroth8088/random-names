@@ -183,7 +183,8 @@ export default function armenians() {
     'Vartanian', 'Vartoogian', 'Virabyan', 'Vosgrichian', 'Vratsyan',
     'Yardumian', 'Yeghiayan', 'Yeghiazarian', 'Yeghoyan', 'Yerevanian',
     'Yeterian', 'Zadian', 'Zakaryan', 'Zakoyan', 'Zeitunian', 'Zeitunlian',
-    'Zentuntsian', 'Zildjian', 'Ziririan', 'Zohrabyan', 'Zornakyan']; {
+    'Zentuntsian', 'Zildjian', 'Ziririan', 'Zohrabyan', 'Zornakyan'];
+  {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm2.length);
       rnd2 = Math.floor(Math.random() * nm3.length);

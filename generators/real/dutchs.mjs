@@ -1029,7 +1029,8 @@ export default function dutchs() {
     'van der Zeide', 'van der Zeijde', 'van der Zeijden', 'van der Zijde',
     'van der Zwaag', 'van der Zwaard', 'van het Bouwhuis', 'van het Laar',
     'van het Schippers op den Twilhaar', 'van het Twilhaar', 'van het Ulsens',
-    'van het Vriesendijks', 'vander Woude']; {
+    'van het Vriesendijks', 'vander Woude'];
+  {
     rnd2 = Math.floor(Math.random() * nm3.length);
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm2.length);

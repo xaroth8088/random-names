@@ -72,7 +72,8 @@ export default function graveyards() {
     'Memorial Gardens', 'Cemetery', 'Cemetery'];
   const nm4 = ['Graveyard', 'Graveyard', 'Graveyard', 'Mausoleum', 'Mortuary',
     'Necropolis', 'Crypts', 'Catacombs', 'Tombs'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     if (i < 5) {
       rnd = Math.floor(Math.random() * nm1.length);
       rnd2 = Math.floor(Math.random() * nm3.length);

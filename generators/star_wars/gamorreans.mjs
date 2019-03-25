@@ -49,7 +49,8 @@ export default function gamorreans() {
     'k', 'kk', 'ks', 'l', 'lk', 'm', 'ms', 'n', 'ng', 'nn', 'ns', 'nt', 'r',
     'rc', 'rf', 'rg', 'rk', 'rm', 'rn', 'rp', 'rq', 'rr', 'rrp', 'rrt', 'rs',
     'rt', 'rth', 's', 'sh', 'ss', 'sz', 't', 'th', 'tt', 'z'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     rnd6 = Math.floor(Math.random() * nm1.length);
     rnd7 = Math.floor(Math.random() * nm2.length);
     rnd8 = Math.floor(Math.random() * nm9.length);

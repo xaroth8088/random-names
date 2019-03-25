@@ -107,7 +107,8 @@ export default function magicShops() {
     'Vial', 'Wand', 'Wendigo', 'Werecat', 'Werewolf', 'White Stag',
     'Winged Lion', 'Winged Unicorn', 'Wisp', 'Wolpertinger', 'World Turtle',
     'Wraith', 'Wyvern', 'Yeti', 'Zombie'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     if (i < 5) {
       rnd = Math.floor(Math.random() * nm1.length);
       names = nm1[rnd];

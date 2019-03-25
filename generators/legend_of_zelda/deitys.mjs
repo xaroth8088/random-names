@@ -22,7 +22,8 @@ export default function deitys() {
   const nm7 = ['a', 'e', 'o', 'i', 'y', 'ay', 'ie', 'ia', 'ea'];
   const nm8 = ['h', 'l', 'm', 'n', 'ph', 'r', 'rd', 's', 'th', 'v', 'r'];
   const nm9 = ['', '', '', '', 'n', 'h'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm6.length);
       rnd2 = Math.floor(Math.random() * nm7.length);
@@ -44,8 +45,7 @@ export default function deitys() {
           }
         }
         rnd7 = Math.floor(Math.random() * nm8.length);
-        names = nm6[rnd] + nm7[rnd2] + nm8[rnd3] + nm7[rnd6] + nm8[rnd7] + nm7[
-          rnd4] + nm9[rnd5];
+        names = nm6[rnd] + nm7[rnd2] + nm8[rnd3] + nm7[rnd6] + nm8[rnd7] + nm7[rnd4] + nm9[rnd5];
       }
     } else {
       rnd = Math.floor(Math.random() * nm1.length);
@@ -58,8 +58,7 @@ export default function deitys() {
       } else {
         rnd6 = Math.floor(Math.random() * nm2.length);
         rnd7 = Math.floor(Math.random() * nm3.length);
-        names = nm1[rnd] + nm2[rnd2] + nm3[rnd3] + nm2[rnd6] + nm3[rnd7] + nm4[
-          rnd4] + nm5[rnd5];
+        names = nm1[rnd] + nm2[rnd2] + nm3[rnd3] + nm2[rnd6] + nm3[rnd7] + nm4[rnd4] + nm5[rnd5];
       }
     }
     return names;

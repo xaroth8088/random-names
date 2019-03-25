@@ -58,7 +58,8 @@ export default function crops() {
     'Sesame', 'Soy', 'Spinach', 'Sprouts', 'Squash', 'Sugar', 'Tangerine',
     'Tapioca', 'Tea', 'Tomato', 'Turnip', 'Vanilla', 'Wheat', 'Yam',
     'Zucchini'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     if (i < 2) {
       rnd = Math.floor(Math.random() * names1.length);
       rnd2 = Math.floor(Math.random() * names2.length);
@@ -77,8 +78,7 @@ export default function crops() {
         }
       }
       rnd6 = Math.floor(Math.random() * names5.length);
-      names = names1[rnd] + names2[rnd2] + names3[rnd3] + names4[rnd4] + names3[
-        rnd5] + names5[rnd6];
+      names = names1[rnd] + names2[rnd2] + names3[rnd3] + names4[rnd4] + names3[rnd5] + names5[rnd6];
     } else {
       rnd = Math.floor(Math.random() * names6.length);
       rnd2 = Math.floor(Math.random() * names7.length);

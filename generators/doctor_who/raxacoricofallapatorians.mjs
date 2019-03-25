@@ -51,7 +51,8 @@ export default function raxacoricofallapatorians() {
     'rl', 'st', 'str', 'tt', 'th', 'v', 'z'];
   const nm18 = ['', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
     'ar', 'er', 'et', 'ez', 'at', 'az', 'oz', 'el', 'al', 'es', 'as'];
-  const nm19 = ['een', 'ene']; {
+  const nm19 = ['een', 'ene'];
+  {
     rnd = Math.floor(Math.random() * nm1.length);
     rnd2 = Math.floor(Math.random() * nm2.length);
     rnd3 = Math.floor(Math.random() * nm3.length);

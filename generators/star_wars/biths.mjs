@@ -36,7 +36,8 @@ export default function biths() {
     'th', 'v', 'z'];
   const nm11 = ['', '', '', '', 'l', 'm', 'n', 'r', 'rn', 's', 'ss'];
   const nm12 = ['', '', '', '', '', 'a', 'e', 'i', 'o', 'u'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     rnd6 = Math.floor(Math.random() * nm8.length);
     rnd7 = Math.floor(Math.random() * nm9.length);
     rnd10 = Math.floor(Math.random() * nm11.length);

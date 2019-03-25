@@ -92,7 +92,8 @@ export default function hippies() {
     'River', 'Sarin', 'Saturn', 'Shine', 'Sierra', 'Silver', 'Sky', 'Skye',
     'Skyler', 'Snow', 'Star', 'Sun', 'Sundance', 'Sunny', 'Sunray', 'Sydney',
     'Thyme', 'Tranquill', 'True', 'Truth', 'Tuesday', 'Unity', 'Vega',
-    'Whisper', 'Wind', 'Zen']; {
+    'Whisper', 'Wind', 'Zen'];
+  {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm2.length);
       names = nm2[rnd];

@@ -48,7 +48,8 @@ export default function hungarians() {
     'Sándor', 'Simon', 'Sípos', 'Soós', 'Somogyi', 'Székely', 'Surány',
     'Szücs', 'Szabó', 'Kende', 'Szalai', 'Szekeres', 'Szilágyi', 'Szőke',
     'Szűts', 'Tóth', 'Török', 'Takács', 'Tamás', 'Váradi', 'Kapolcs', 'Zobor',
-    'Vörös', 'Varga', 'Vass', 'Veres', 'Vincze', 'Virág']; {
+    'Vörös', 'Varga', 'Vass', 'Veres', 'Vincze', 'Virág'];
+  {
     rnd2 = Math.floor(Math.random() * nm3.length);
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm2.length);

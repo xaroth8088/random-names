@@ -27,7 +27,8 @@ export default function ghostClassifications() {
     'Daemon', 'Demon', 'Devil', 'Duplicate', 'Entity', 'Ethereal', 'Ghost',
     'Glob', 'Haunt', 'Metamorph', 'Mutation', 'Phantasm', 'Phantom',
     'Poltergeist', 'Revenant', 'Shade', 'Shadow', 'Shifter', 'Specter',
-    'Spirit', 'Spook', 'Tempus', 'Vision', 'Visitor', 'Wraith']; {
+    'Spirit', 'Spook', 'Tempus', 'Vision', 'Visitor', 'Wraith'];
+  {
     rnd = Math.floor(Math.random() * nm1.length);
     rnd2 = Math.floor(Math.random() * nm2.length);
     rnd3 = Math.floor(Math.random() * nm3.length);

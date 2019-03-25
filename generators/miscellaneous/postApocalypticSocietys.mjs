@@ -39,7 +39,8 @@ export default function postApocalypticSocietys() {
     'Purified', 'Rats', 'Reincarnated', 'Resurrected', 'Risen', 'Roaches',
     'Salvation', 'Shadows', 'Stalkers', 'Survivors', 'Tails', 'Tormented',
     'Vanished', 'Walkers', 'Warheads', 'White Ashes'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     if (i < 5) {
       rnd = Math.floor(Math.random() * names1.length);
       rnd1 = Math.floor(Math.random() * names2.length);

@@ -63,7 +63,8 @@ export default function pirateCrews() {
     'Sirens', 'Skull and Crossbones', 'Sons of the Sea', 'South Sea Sailors',
     'Squids', 'Stray Dogs', 'Talking Parrots', 'Thirsty Thieves',
     'Thunder Waves', 'Water Walkers', 'Wild Windjammers'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     if (i < 4) {
       rnd = Math.floor(Math.random() * names1.length);
       rnd2 = Math.floor(Math.random() * names2.length);

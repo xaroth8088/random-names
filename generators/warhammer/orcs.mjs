@@ -14,7 +14,8 @@ export default function orcs() {
     'nd', 'ndr', 'nz', 'nzr', 'ng', 'r', 'rb', 'rrz', 'rg', 'rgh', 'rz',
     'rzr', 'rk', 'rl', 't', 'tg', 'tk', 'tr', 'tgr', 'tz', 'tzr', 'z', 'zh',
     'zn'];
-  const nm4 = ['c', 'd', 'g', 'k', 'r', 't', 'z']; {
+  const nm4 = ['c', 'd', 'g', 'k', 'r', 't', 'z'];
+  {
     rnd = Math.floor(Math.random() * nm1.length);
     rnd2 = Math.floor(Math.random() * nm2.length);
     rnd3 = Math.floor(Math.random() * nm3.length);

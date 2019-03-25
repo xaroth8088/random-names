@@ -82,7 +82,8 @@ export default function mansions() {
     'Wildridge', 'Willow Vale', 'Windsong', 'Winterberry', 'Wintersmith',
     'Wintervale', 'Woodrest'];
   const nm4 = ['Mansion', 'Manor', 'Estate', 'Chateau', 'Residence'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     rnd4 = Math.floor(Math.random() * nm4.length);
     if (i < 5) {
       rnd = Math.floor(Math.random() * nm3.length);

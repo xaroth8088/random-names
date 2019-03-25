@@ -20,7 +20,8 @@ export default function underwaterCitys() {
     'noch', 'pis', 'ra', 'rai', 'ran', 'rei', 'rem', 'ren', 'reth', 'rey',
     'ri', 'ria', 'ril', 'rin', 'ris', 'rius', 'rus', 'sa', 'tas', 'tesh',
     'thas', 'theas', 'this', 'thys', 'tia', 'tin', 'tis', 'ton', 'tria', 'via',
-  ]; {
+  ];
+  {
     rnd = Math.floor(Math.random() * nm1.length);
     rnd2 = Math.floor(Math.random() * nm2.length);
     names = nm1[rnd] + nm2[rnd2];

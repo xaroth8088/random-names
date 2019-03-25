@@ -121,7 +121,8 @@ export default function bengalis() {
     'Shome', 'Shonku', 'Sikdar', 'Sil', 'Singh', 'Sinha', 'Siraj', 'Sircar',
     'Sobhan', 'Som', 'Sorcar', 'Suhrawardy', 'Sumon', 'Tagore', 'Talukdar',
     'Thakur', 'Thakurta', 'Uddin', 'Vibhushan', 'Vidyabhusan', 'Vidyasagar',
-    'Vivekananda', 'Waddedar', 'Yagnik', 'Yunus', 'Zia']; {
+    'Vivekananda', 'Waddedar', 'Yagnik', 'Yunus', 'Zia'];
+  {
     rnd2 = Math.floor(Math.random() * nm3.length);
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm2.length);

@@ -45,7 +45,8 @@ export default function hillbillys() {
     'Sheena', 'Shelby', 'Shirlene', 'Shorna', 'Sienna', 'Sierra', 'Stasha',
     'Sue Ellen', 'Sunny', 'Tabitha', 'Tammie', 'Tasha', 'Tierra', 'Tiffany',
     'Trista-Lynn', 'Trixie', 'Trixiebelle', 'Vanity', 'Vicki Lynn', 'Vienna',
-    'Waynelle', 'Willa', 'Wilma']; {
+    'Waynelle', 'Willa', 'Wilma'];
+  {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm2.length);
       names = nm2[rnd];

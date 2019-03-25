@@ -400,7 +400,8 @@ export default function egyptians() {
     'Tutu', 'Tutu-ten-apet', 'Uadjit', 'Uaem-ma', 'Uart', 'Uat', 'Uatchit',
     'Uatit', 'Uer-naro', 'Uertheku', 'Umayma', 'Umm', 'Ur-merits-teshr-shen',
     'Urbi', 'Usur-t-kau', 'Uuhetu', 'Uza-rans', 'Walidah', 'Xonsu', 'Yaminah',
-    'Zahra', 'Zalika', 'Zaliki', 'Zes-mehent-per-u', 'Zesiro']; {
+    'Zahra', 'Zalika', 'Zaliki', 'Zes-mehent-per-u', 'Zesiro'];
+  {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm2.length);
       names = nm2[rnd];

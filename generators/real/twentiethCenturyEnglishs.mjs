@@ -72,7 +72,7 @@ export default function twentiethCenturyEnglishs() {
     'Susan', 'Susie', 'Sylvia', 'Thelma', 'Theresa', 'Velma', 'Vera', 'Verna',
     'Veronica', 'Victoria', 'Viola', 'Violet', 'Virgie', 'Virginia', 'Vivian',
     'Wanda', 'Willie', 'Wilma', 'Winifred'];
-  /* 1930-1940 */
+    /* 1930-1940 */
   const nm3 = ['Alan', 'Albert', 'Alex', 'Alfred', 'Allan', 'Allen', 'Alton',
     'Alvin', 'Andrew', 'Anthony', 'Archie', 'Arnold', 'Arthur', 'Barry',
     'Ben', 'Benjamin', 'Bennie', 'Benny', 'Bernard', 'Bill', 'Billie',
@@ -137,7 +137,7 @@ export default function twentiethCenturyEnglishs() {
     'Suzanne', 'Sylvia', 'Teresa', 'Terry', 'Thelma', 'Theresa', 'Valerie',
     'Velma', 'Vera', 'Verna', 'Veronica', 'Vicki', 'Victoria', 'Viola',
     'Violet', 'Virginia', 'Vivian', 'Wanda', 'Willie', 'Wilma', 'Yvonne'];
-  /* 1950-1960 */
+    /* 1950-1960 */
   const nm5 = ['Aaron', 'Adam', 'Alan', 'Albert', 'Alexander', 'Alfred',
     'Allan', 'Allen', 'Alvin', 'Andre', 'Andrew', 'Anthony', 'Antonio',
     'Arnold', 'Arthur', 'Barry', 'Benjamin', 'Bernard', 'Bill', 'Billy',
@@ -203,7 +203,7 @@ export default function twentiethCenturyEnglishs() {
     'Traci', 'Tracy', 'Valerie', 'Vanessa', 'Veronica', 'Vicki', 'Vickie',
     'Vicky', 'Victoria', 'Virginia', 'Vivian', 'Wanda', 'Wendy', 'Yolanda',
     'Yvette', 'Yvonne'];
-  /* 1970-1980 */
+    /* 1970-1980 */
   const nm7 = ['Aaron', 'Adam', 'Adrian', 'Alan', 'Albert', 'Alejandro', 'Alex',
     'Alexander', 'Allen', 'Andre', 'Andrew', 'Angel', 'Anthony', 'Antonio',
     'Arthur', 'Austin', 'Barry', 'Benjamin', 'Billy', 'Blake', 'Bobby',
@@ -274,7 +274,7 @@ export default function twentiethCenturyEnglishs() {
     'Theresa', 'Tiffany', 'Tina', 'Toni', 'Tonya', 'Tracey', 'Traci',
     'Tracie', 'Tracy', 'Tricia', 'Valerie', 'Vanessa', 'Veronica', 'Victoria',
     'Virginia', 'Wanda', 'Wendy', 'Whitney', 'Yolanda', 'Yvonne'];
-  /* 1990-2000 */
+    /* 1990-2000 */
   const nm9 = ['Aaron', 'Abraham', 'Adam', 'Adrian', 'Aidan', 'Aiden', 'Alan',
     'Alec', 'Alejandro', 'Alex', 'Alexander', 'Alexis', 'Allen', 'Andre',
     'Andres', 'Andrew', 'Angel', 'Anthony', 'Antonio', 'Ashton', 'Austin',
@@ -468,7 +468,8 @@ export default function twentiethCenturyEnglishs() {
     'William', 'Williams', 'Williamson', 'Willis', 'Wilson', 'Winters',
     'Wise', 'Witt', 'Wolf', 'Wolfe', 'Wood', 'Woodard', 'Woods', 'Woodward',
     'Workman', 'Wright', 'Wyatt', 'Yates', 'York', 'Young'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     if (type === 1) {
       if (i < 2) {
         rnd = Math.floor(Math.random() * nm2.length);

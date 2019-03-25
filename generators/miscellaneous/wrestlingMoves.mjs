@@ -75,7 +75,8 @@ export default function wrestlingMoves() {
     'Tigerjaw Shoulderlock', 'Tightgrip Headlock', 'Torpedo Knee Buster',
     'Total Eclipe Body Slam', 'Turtle Bite Chinlock',
     'Turtle Bite Choke Hold', 'Two-Handed Gutbuster', 'Two-Handed Rib Breaker',
-  ]; {
+  ];
+  {
     rnd = Math.floor(Math.random() * names1.length);
     names = names1[rnd];
     return names;

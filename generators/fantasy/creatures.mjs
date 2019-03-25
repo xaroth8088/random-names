@@ -72,7 +72,8 @@ export default function creatures() {
     'Sprites', 'Succubi', 'Taurens', 'Terrors', 'Titans', 'Troglodytes',
     'Trolls', 'Undeads', 'Unicorns', 'Valkyries', 'Vampires', 'Walkers',
     'Wendigos', 'Werecats', 'Werewolves', 'Wispmother', 'Wisps',
-    'Wolpertingers', 'Wraiths', 'Wyrms', 'Wyverns', 'Yetis', 'Zombies']; {
+    'Wolpertingers', 'Wraiths', 'Wyrms', 'Wyverns', 'Yetis', 'Zombies'];
+  {
     rnd = Math.floor(Math.random() * nm1.length);
     rnd2 = Math.floor(Math.random() * nm2.length);
     names = `${nm1[rnd]} ${nm2[rnd2]}`;

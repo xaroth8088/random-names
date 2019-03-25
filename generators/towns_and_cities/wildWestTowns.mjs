@@ -43,7 +43,8 @@ export default function wildWestTowns() {
     'tusk', 'howl', 'bellow', 'peaks', 'plains', 'point', 'port', 'post',
     'reach', 'ridge', 'river', 'rock', 'roost', 'run', 'spring', 'springs',
     'stead', 'stone', 'tooth', 'town', 'trail', 'trails', 'ville', 'water',
-    'wood', 'worth']; {
+    'wood', 'worth'];
+  {
     rnd = Math.floor(Math.random() * nm1.length);
     rnd2 = Math.floor(Math.random() * nm2.length);
     names = nm1[rnd] + nm2[rnd2];

@@ -5,8 +5,7 @@ export default function afterlifes() {
   let rnd1;
   let rnd2;
   let rnd3;
-  let
-    rnd4;
+  let rnd4;
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['a', 'e', 'i', 'o', 'u', '', '', '', '', '', '', '', '', '', '',
     '', '', '', '', '', '', '', '', ''];
@@ -71,7 +70,8 @@ export default function afterlifes() {
   const nm14 = ['Domain', 'Empire', 'Field', 'Fields', 'Ground', 'Grounds',
     'Kingdom', 'Land', 'Lands', 'Pasture', 'Pastures', 'Plane', 'Planes',
     'Realm', 'World'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     if (type !== 1) {
       if (i < 5) {
         rnd0 = Math.floor(Math.random() * nm1.length);

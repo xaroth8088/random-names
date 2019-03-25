@@ -72,7 +72,8 @@ export default function elephants() {
     'Sakari', 'Sara', 'Shannon', 'Silver', 'Sophie', 'Sprinkles', 'Squirt',
     'Susy', 'Sweetie', 'Taya', 'Tia', 'Tina', 'Tinkers', 'Tubby', 'Tuskany',
     'Tusky', 'Twinkers', 'Twinky', 'Victoria', 'Yasmin', 'Yaya', 'Zainab',
-    'Zakiyya', 'Zandara', 'Zarina', 'Zia', 'Zizi', 'Zoey']; {
+    'Zakiyya', 'Zandara', 'Zarina', 'Zia', 'Zizi', 'Zoey'];
+  {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm2.length);
       names = nm2[rnd];

@@ -428,7 +428,8 @@ export default function slovenians() {
     'Zajc', 'Zajec', 'Zakrajšek', 'Zalar', 'Zaletel', 'Zaletelj', 'Založnik',
     'Zalokar', 'Zamuda', 'Zavec', 'Završnik', 'Zavrl', 'Zemljiè', 'Zevnik',
     'Zidar', 'Zorc', 'Zore', 'Zorec', 'Zorko', 'Zorman', 'Zupanèiè', 'Zupan',
-    'Zupanc', 'Zupaniè', 'Zver']; {
+    'Zupanc', 'Zupaniè', 'Zver'];
+  {
     rnd2 = Math.floor(Math.random() * nm3.length);
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm2.length);

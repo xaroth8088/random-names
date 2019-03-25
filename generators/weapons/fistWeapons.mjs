@@ -212,7 +212,8 @@ export default function fistWeapons() {
     'Trickster', 'Trinity', 'Twister', 'Typhoon', 'Undoing', 'Vacancy',
     'Valkyrie', 'Vanquisher', 'Vengeance', 'Warbringer', 'Warmonger',
     'Whirlwind', 'Wicked', 'Widow Maker', 'Willbreaker', 'Wolf'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     if (i < 3) {
       rnd = Math.floor(Math.random() * nm1.length);
       names = nm1[rnd];

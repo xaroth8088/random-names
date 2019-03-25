@@ -41,7 +41,8 @@ export default function gorillaMonkeys() {
     'Truffles', 'Truk', 'TrunkMonkey', 'Tulip', 'Turdis', 'Tygarr', 'Tyrock',
     'Ueshima', 'Utcharrakk', 'Waffles', 'Wilbur', 'Wingnut', 'Worrawrowr',
     'Yama', 'Yamakami', 'Zach', 'Zawabashi', 'Zawaoo', 'Zimba', 'Zippy',
-    'iFlingPoo', 'iPoo']; {
+    'iFlingPoo', 'iPoo'];
+  {
     rnd = Math.floor(Math.random() * nm1.length);
     names = nm1[rnd];
     return names;

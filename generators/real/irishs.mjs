@@ -693,7 +693,8 @@ export default function irishs() {
     'Uí hIcí', 'Uí hIceadh', 'Uí hIfearnáin', 'Uí hInreachtaigh',
     'Uí hIonmhaineáin', 'Uí hIonnghaile', 'Uí hIorua', 'Uí hIoruaidh',
     'Uí hOistín', 'Uí hUainín', 'Uí hUallacháin', 'Uí hUiginn',
-    'Uí hUrmholtaigh', 'Uí hUrthuile']; {
+    'Uí hUrmholtaigh', 'Uí hUrthuile'];
+  {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm3.length);
       rnd2 = Math.floor(Math.random() * nm4.length);

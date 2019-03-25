@@ -53,7 +53,8 @@ export default function tajiks() {
     'Shirin Bano', 'Shogofa', 'Shokouh', 'Sholah', 'Simin', 'Soudabah',
     'Souzan', 'Tahminah', 'Tanaz', 'Taneen', 'Tara', 'Tarana', 'Taranum',
     'Yagana', 'Yakta', 'Yalda', 'Yasaman', 'Zarrin', 'Zarrin Dokht',
-    'Zarrina', 'Zeba', 'Zhalah', 'Zheela']; {
+    'Zarrina', 'Zeba', 'Zhalah', 'Zheela'];
+  {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm2.length);
       names = nm2[rnd];

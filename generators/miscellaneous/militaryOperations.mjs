@@ -118,7 +118,8 @@ export default function militaryOperations() {
     'Rain', 'Redemption', 'Rhino', 'Salvation', 'Scorpion', 'Shark', 'Snow',
     'Sun', 'Sword', 'Thunder', 'Tornado', 'Truth', 'Vanguard', 'Vengeance',
     'Whirlwind'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     if (i < 7) {
       rnd = Math.floor(Math.random() * nm1.length);
       names = `Operation ${nm1[rnd]}`;

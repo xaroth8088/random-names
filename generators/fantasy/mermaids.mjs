@@ -94,7 +94,8 @@ export default function mermaids() {
     'Undine', 'Undinia', 'Vanora', 'Varina', 'Venilia', 'Venus', 'Vivian',
     'Viviana', 'Viviane', 'Vivianna', 'Vivianne', 'Vivien', 'Wade', 'Waverly',
     'Winnifred', 'Wynnifred', 'Yara', 'Yardenah', 'Yaritza', 'Yarrow', 'Yoki',
-    'Zhaleh']; {
+    'Zhaleh'];
+  {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm2.length);
       names = nm2[rnd];

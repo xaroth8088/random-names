@@ -26,7 +26,7 @@ export default function southAfricanTowns() {
     'teng', 'tengwe', 'the', 'thethe', 'thwa', 'tlala', 'tse', 'tsha',
     'tshane', 'tsi', 'tswa', 'tume', 'wabojang', 'wane', 'we', 'weng', 'wi',
     'yabana', 'yana', 'yane', 'ye', 'zi'];
-  /* Lesotho */
+    /* Lesotho */
   const nm3 = ['Ba', 'Be', 'Bu', 'Hle', 'Hlo', 'La', 'Lama', 'Lari', 'Laro',
     'Laye', 'Le', 'Leri', 'Lo', 'Lome', 'Ma', 'Mafe', 'Mafo', 'Mama', 'Man',
     'Mantso', 'Mapu', 'Mara', 'Mase', 'Mate', 'Meya', 'Meyo', 'Mise', 'Mo',
@@ -47,7 +47,7 @@ export default function southAfricanTowns() {
     'sema', 'seng', 'seru', 'soe', 'sonyane', 'ta', 'tang', 'te', 'teng',
     'tga', 'tgo', 'the', 'thing', 'tleng', 'tlong', 'tsane', 'tsare', 'tseng',
     'tseru', 'tsoe', 'tsong', 'yane', 'yaneng', 'yare', 'yea', 'yeng', 'yibe'];
-  /* Namibia */
+    /* Namibia */
   const nm5 = ['Ara', 'Aran', 'Ba', 'Baga', 'Een', 'Ga', 'Gara', 'Gen', 'Go',
     'Goba', 'He', 'Hen', 'Hoa', 'Hoacha', 'Ka', 'Karas', 'Kari', 'Kati',
     'Keet', 'Kho', 'Khori', 'La', 'Laka', 'Loba', 'Lu', 'Lude', 'Lure', 'Ma',
@@ -67,7 +67,7 @@ export default function southAfricanTowns() {
     'ru', 'ruru', 'shana', 'tahohe', 'tal', 'tapi', 'tavi', 'thanie', 'thiya',
     'ti', 'ties', 'tima', 'tjo', 'va', 'vi', 'wa', 'warongo', 'wo', 'xas',
     'ya'];
-  /* South Africa */
+    /* South Africa */
   const nm7 = ['Ali', 'Alla', 'Allan', 'Ba', 'Bal', 'Bar', 'Be', 'Beno', 'Bhi',
     'Bo', 'Bok', 'Botha', 'Botsha', 'Bra', 'Bri', 'Bro', 'Ce', 'Cere', 'Cra',
     'Cu', 'Culli', 'Del', 'Du', 'Dun', 'Dur', 'Eka', 'Ekan', 'Ekanga', 'Em',
@@ -93,7 +93,7 @@ export default function southAfricanTowns() {
     'sen', 'shabelo', 'sho', 'sna', 'stad', 'tha', 'thal', 'tho', 'tief',
     'tis', 'to', 'toria', 'ville', 'wa', 'wal', 'wane', 'weto', 'wick',
     'wini', 'worth', 'yandou', 'yani'];
-  /* Swaziland */
+    /* Swaziland */
   const nm9 = ['Bhu', 'Bhun', 'Bu', 'Bule', 'Bulem', 'Da', 'Dalu', 'Danka',
     'Danzi', 'Dar', 'Dule', 'Hla', 'Hlati', 'Hlu', 'Hluti', 'Ku', 'Kubu',
     'Kwa', 'Kwalu', 'La', 'Lanka', 'Lavu', 'Lo', 'Loba', 'Lobam', 'Lume',
@@ -115,7 +115,8 @@ export default function southAfricanTowns() {
     'ton', 'tulu', 'tume', 'vane', 'vise', 'vo', 'volane', 'vone', 'vulane',
     'vulu', 'ya', 'yale', 'yane', 'yatsi', 'ye', 'yesa', 'yu', 'yulu', 'zane',
     'zena', 'zini', 'ziya', 'zon'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     if (i < 2) {
       rnd = Math.floor(Math.random() * nm1.length);
       rnd2 = Math.floor(Math.random() * nm2.length);

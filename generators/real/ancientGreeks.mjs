@@ -332,7 +332,8 @@ export default function ancientGreeks() {
     'Theophane', 'Theophania', 'Theophano', 'Theresa', 'Thessala',
     'Thessalonike', 'Thetis', 'Thisbe', 'Thoë', 'Thoösa', 'Thyia', 'Timandra',
     'Timo', 'Tryphena', 'Tryphosa', 'Tyro', 'Xanthe', 'Xanthippe', 'Xantippe',
-    'Xene', 'Xenophile', 'Zenobia', 'Zita', 'Zoe']; {
+    'Xene', 'Xenophile', 'Zenobia', 'Zita', 'Zoe'];
+  {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm2.length);
       names = nm2[rnd];

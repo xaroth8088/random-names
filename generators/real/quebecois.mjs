@@ -4680,7 +4680,8 @@ export default function quebecois() {
     'Verret', 'Verville', 'Viau', 'Viens', 'Vigneault', 'Villeneuve',
     'Vincent', 'Vinet', 'Voyer', 'Walker', 'White', 'Williams', 'Wilson',
     'Wong', 'Young'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     rnd2 = Math.floor(Math.random() * nm3.length);
     if (type === 1) {
       if (i < 5) {

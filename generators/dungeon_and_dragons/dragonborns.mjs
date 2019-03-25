@@ -29,7 +29,8 @@ export default function dragonborns() {
     'nys', 'patys', 'pora', 'qorel', 'qwen', 'rann', 'riel', 'rina', 'rinn',
     'rish', 'rith', 'saadi', 'shann', 'sira', 'thibra', 'thyra', 'vayla',
     'vyre', 'vys', 'wophyl', 'wyn', 'xiris', 'xora', 'yassa', 'yries', 'zita',
-    'zys']; {
+    'zys'];
+  {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm3.length);
       rnd2 = Math.floor(Math.random() * nm4.length);

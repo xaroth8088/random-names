@@ -32,7 +32,8 @@ export default function wildens() {
     'imei', 'immesh', 'inah', 'inash', 'inda', 'inna', 'innem', 'irrah',
     'ishai', 'issa', 'itas', 'onnes', 'onteh', 'orda', 'oren', 'oris', 'orren',
   ];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     if (type === 1) {
       rnd = Math.floor(Math.random() * namesFemF.length);
       rnd2 = Math.floor(Math.random() * namesFemL.length);

@@ -49,7 +49,8 @@ export default function wrestlers() {
     'Rogue', 'Rose', 'Ruby', 'Saffron', 'Sanguine', 'Sapphire', 'Scarlet',
     'Serenity', 'Succubus', 'Tazz', 'Tempest', 'The Amazon', 'The Cat',
     'The Oracle', 'The Smile', 'The Witch', 'Tigress', 'Twinkle', 'Vanity',
-    'Velvet', 'Venus', 'Violette', 'Virus', 'Wildflower', 'Willow']; {
+    'Velvet', 'Venus', 'Violette', 'Virus', 'Wildflower', 'Willow'];
+  {
     if (type === 1) {
       rnd = Math.floor(Math.random() * namesFemale.length);
       names = namesFemale[rnd];

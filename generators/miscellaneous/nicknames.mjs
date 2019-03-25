@@ -51,7 +51,8 @@ export default function nicknames() {
     'Tricky', 'Trouble', 'Tug', 'Turk', 'Twinkle', 'Twinkle Toes', 'Twitch',
     'Uncle', 'Undertaker', 'Vanilla', 'Viper', 'Vulture', 'Wheels', 'Whopper',
     'Wiggles', 'Wild', 'Wildy', 'Wiz', 'Wonder', 'Worm', 'Yank', 'Zen',
-    'Zero', 'Ziggy']; {
+    'Zero', 'Ziggy'];
+  {
     rnd = Math.floor(Math.random() * nm1.length);
     names = nm1[rnd];
     return names;

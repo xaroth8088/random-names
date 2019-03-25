@@ -25,7 +25,8 @@ export default function ratfolks() {
     'z', 'zz'];
   const nm8 = ['', '', '', '', '', '', '', '', 'ch', 'f', 'hm', 'hl', 'ks', 'l',
     'm', 'n', 'r', 's', 'sh', 't', 'th', 'tch', 'x'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm5.length);
       rnd2 = Math.floor(Math.random() * nm6.length);

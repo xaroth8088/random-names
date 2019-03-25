@@ -90,7 +90,8 @@ export default function moroccans() {
     'Achtouk', 'Hajji', 'Leghlid', 'Yaktine', 'Menebhi', 'El-Ouadie',
     'Bahéchar', 'Ben Jelloun', 'Seddiki', 'Allal', 'Saqqat', 'Oulehri',
     'al-Wazzani', 'Lamrani', 'Fadel', 'Elalamy', 'Mansouri', 'Daoud',
-    'Ben Bouchta']; {
+    'Ben Bouchta'];
+  {
     rnd2 = Math.floor(Math.random() * nm3.length);
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm2.length);

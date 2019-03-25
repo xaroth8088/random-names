@@ -333,7 +333,8 @@ export default function turkishs() {
     'Yener', 'Yerli', 'Yerlikaya', 'Yesil', 'Yesilnil', 'Yetis', 'Yigit',
     'Yildirim', 'Yildiz', 'Yildizeli', 'Yildizoglu', 'Yilmaz', 'Yuce',
     'Yucel', 'Yuksel', 'Yumlu', 'Zaim', 'Zaimoglu', 'Zarakolu', 'Zengin',
-    'Zeybek', 'Zorlu']; {
+    'Zeybek', 'Zorlu'];
+  {
     rnd2 = Math.floor(Math.random() * nm3.length);
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm2.length);

@@ -27,7 +27,8 @@ export default function friezaClans() {
     'Rango', 'Rasber', 'Raspberry', 'Rasperry', 'Rhubar', 'Rhubarb', 'Rubar',
     'Strawber', 'Strawberry', 'Taloupe', 'Tanger', 'Tangeri', 'Tangerine',
     'Tarine', 'Toma', 'Tomato', 'Vanilla', 'Vocado'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     if (i < 4) {
       rnd = Math.floor(Math.random() * names1.length);
       names = names1[rnd];

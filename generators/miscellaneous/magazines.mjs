@@ -53,7 +53,8 @@ export default function magazines() {
     'Trance', 'Tranquility', 'Transfer', 'Treatment', 'Trend', 'Trending',
     'Truelove', 'Turbine', 'Valuation', 'Value', 'Vertex', 'View',
     'Viewpoint', 'Vision', 'Vista', 'Vitality', 'Vogue', 'Wealth', 'Web',
-    'Wheeler', 'Wheels', 'Wild', 'Wildlife', 'Word', 'World', 'Youth']; {
+    'Wheeler', 'Wheels', 'Wild', 'Wildlife', 'Word', 'World', 'Youth'];
+  {
     rnd = Math.floor(Math.random() * nm1.length);
     rnd2 = Math.floor(Math.random() * nm2.length);
     nm1.splice(rnd, 1);

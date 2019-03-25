@@ -44,7 +44,8 @@ export default function plazas() {
     'Venture', 'Vertex', 'Victory', 'Vigor', 'Vineyard', 'Virtue',
     'Visionary', 'White Blossom', 'White Willow', 'Wishmaster', 'Wonder',
     'Yesteryear', 'Zion'];
-  const nm2 = ['Plaza', 'Square']; {
+  const nm2 = ['Plaza', 'Square'];
+  {
     rnd = Math.floor(Math.random() * nm1.length);
     rnd2 = Math.floor(Math.random() * nm2.length);
     names = `${nm1[rnd]} ${nm2[rnd2]}`;

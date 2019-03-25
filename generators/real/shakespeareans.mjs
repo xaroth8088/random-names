@@ -87,7 +87,8 @@ export default function shakespeareans() {
     'Seacoal', 'Slender', 'Sly', 'Snout', 'Soundpost', 'Stafford', 'Stanley',
     'Starveling', 'Talbot', 'Tearsheet', 'Thump', 'Topas', 'Tyrrell',
     'Urswick', 'Vaughan', 'Vaux', 'Velutus', 'Vernon', 'Whitmore', 'Williams',
-    'Wolsey', 'deArmado', 'la Pucelle']; {
+    'Wolsey', 'deArmado', 'la Pucelle'];
+  {
     rnd2 = Math.floor(Math.random() * nm3.length);
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm2.length);

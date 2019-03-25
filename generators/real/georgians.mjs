@@ -87,7 +87,8 @@ export default function georgians() {
     'Vakhvakhishvili', 'Vardanidze', 'Vezirishvili', 'Virsaladze', 'Yachvili',
     'Zakarashvili', 'Zakareishvili', 'Zakariadze', 'Zalkaliani',
     'Zambakhidze', 'Zamtaradze', 'Zhorzholiani', 'Zibzibadze', 'Zoidze',
-    'Zotikishvili', 'Zumadze', 'Zurabashvili', 'Zurabiani', 'Zviadadze']; {
+    'Zotikishvili', 'Zumadze', 'Zurabashvili', 'Zurabiani', 'Zviadadze'];
+  {
     rnd2 = Math.floor(Math.random() * nm3.length);
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm2.length);

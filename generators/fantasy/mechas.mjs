@@ -79,7 +79,8 @@ export default function mechas() {
     'Viper', 'Voyager', 'Vulture', 'Warlock', 'Warrior', 'Watcher',
     'Widow Maker', 'Wisdom', 'Wolf', 'Wolverine', 'Woodpecker', 'Wrath',
     'Wyvern', 'Zephyr', 'Zero', 'Zeus', 'Zion'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     rnd2 = Math.floor(Math.random() * nm2.length);
     if (i < 5) {
       rnd = Math.floor(Math.random() * nm1.length);

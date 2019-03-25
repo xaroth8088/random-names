@@ -60,7 +60,8 @@ export default function cafes() {
     'Whole Latte Love', 'Wide Awake', 'Yin & Yang', 'Yours & Mine', 'Yum Yum',
     'Yummy Tummy', 'Zig Zag'];
   let name;
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     if (i < 5) {
       rnd0 = Math.floor(Math.random() * names4.length);
       rnd1 = Math.floor(Math.random() * names3.length);

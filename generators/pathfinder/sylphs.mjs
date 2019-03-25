@@ -22,7 +22,8 @@ export default function sylphs() {
     'v', 'y', 'w'];
   const nm8 = ['', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '',
     '', '', '', '', 'h', 'm', 'n', 'sh'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm5.length);
       rnd2 = Math.floor(Math.random() * nm6.length);
@@ -34,8 +35,7 @@ export default function sylphs() {
       } else {
         rnd6 = Math.floor(Math.random() * nm7.length);
         rnd7 = Math.floor(Math.random() * nm6.length);
-        names = nm5[rnd] + nm6[rnd2] + nm7[rnd3] + nm6[rnd4] + nm7[rnd6] + nm6[
-          rnd7];
+        names = nm5[rnd] + nm6[rnd2] + nm7[rnd3] + nm6[rnd4] + nm7[rnd6] + nm6[rnd7];
       }
     } else {
       rnd = Math.floor(Math.random() * nm1.length);

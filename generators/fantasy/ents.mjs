@@ -27,7 +27,8 @@ export default function ents() {
     'stalk', 'splint', 'splinter', 'spur', 'twig', 'stub', 'stump', 'shrub',
     'skin', 'thorn', 'tip', 'tooth', 'twig', 'wood', 'burn', 'scar', 'eye',
     'brow', 'sprout', 'tendril'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     if (i < 5) {
       rnd = Math.floor(Math.random() * nm1.length);
       rnd2 = Math.floor(Math.random() * nm2.length);

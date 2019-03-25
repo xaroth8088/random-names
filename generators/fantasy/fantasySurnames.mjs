@@ -58,7 +58,8 @@ export default function fantasySurnames() {
     'trap', 'trapper', 'vale', 'valor', 'vigor', 'walker', 'ward', 'watcher',
     'water', 'weaver', 'whirl', 'whisk', 'winds', 'wing', 'woods', 'wound',
     'brooke', 'fall', 'fallow', 'horn', 'root', 'shine', 'swallow', 'thorne',
-    'willow', 'wood']; {
+    'willow', 'wood'];
+  {
     rnd = Math.floor(Math.random() * nm1.length);
     rnd2 = Math.floor(Math.random() * nm2.length);
     while (rnd === rnd2) {

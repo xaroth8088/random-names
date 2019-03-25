@@ -45,7 +45,8 @@ export default function highElfs() {
     'Powerful', 'Prime', 'Proud', 'Radiant', 'Sage', 'Seafarer', 'Serene',
     'Silent', 'Slayer', 'Specialist', 'Stark', 'Stout', 'Strict', 'Swift',
     'Valiant', 'Vengeful', 'Warrior', 'Wild', 'Wise'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     rnd = Math.floor(Math.random() * nm8.length);
     nameL = nm8[rnd];
     if (type === 1) {

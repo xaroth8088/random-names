@@ -38,7 +38,8 @@ export default function loveNicknames() {
     'Sweetness', 'Sweets', 'Sweetstuff', 'Sweetums', 'Sweety Cakes',
     'Tator-tot', 'Teddy Bear', 'Toots', 'Tootsie', 'Tumtums', 'Twinkie',
     'Twinkle Toes', 'Waffles', 'Wiggles', 'Wookie', 'Wookums', 'Yummy',
-    'Yumyum']; {
+    'Yumyum'];
+  {
     rnd = Math.floor(Math.random() * nm1.length);
     names = nm1[rnd];
     return names;

@@ -5,8 +5,7 @@ export default function fantasyAnimals() {
   let rnd3;
   let rnd4;
   let rnd5;
-  let
-    rnd6;
+  let rnd6;
   const nm1 = ['Alba', 'Alli', 'Ana', 'Ante', 'Arma', 'Barra', 'Bea', 'Buffa',
     'Cani', 'Cari', 'Cate', 'Coyo', 'Cri', 'Cro', 'Croco', 'Drago', 'Ele',
     'Feli', 'Fla', 'Flami', 'Gaze', 'Gira', 'Hexa', 'Hone', 'Jagu', 'Komo',
@@ -53,7 +52,8 @@ export default function fantasyAnimals() {
     't', 'v', 'w', 'x', 'z', 'b', 'c', 'd', 'f', 'g', 'k', 'l', 'm', 'n', 'p',
     'q', 'r', 's', 't', 'v', 'w', 'x', 'z', 'br', 'cr', 'dr', 'gr', 'kr',
     'pr', 'sr', 'st', 'str', 'bl', 'cl', 'fl', 'gl', 'kl', 'pl', 'sl', 'vl'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     if (i < 2) {
       rnd = Math.floor(Math.random() * nm1.length);
       rnd2 = Math.floor(Math.random() * nm2.length);

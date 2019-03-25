@@ -24,7 +24,8 @@ export default function dekus() {
     'ts', 'tt', 'tv', 'tw', 'tz', 'vv', 'wb', 'wd', 'wg', 'wk', 'wl', 'wm',
     'wn', 'wp', 'wr', 'ws', 'wt', 'ww', 'wz', 'xx', 'zb', 'zc', 'zf', 'zg',
     'zk', 'zl', 'zm', 'zn', 'zp', 'zr', 'zs', 'zt', 'zw', 'zz'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     rnd = Math.floor(Math.random() * nm1.length);
     rnd2 = Math.floor(Math.random() * nm2.length);
     rnd3 = Math.floor(Math.random() * nm3.length);

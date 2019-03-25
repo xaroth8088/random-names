@@ -160,7 +160,8 @@ export default function wildstarHumans() {
     'gust', 'hand', 'heart', 'helm', 'hide', 'keep', 'lance', 'leaf', 'light',
     'mantle', 'mark', 'moon', 'more', 'mourn', 'ridge', 'root', 'shard',
     'shine', 'shot', 'song', 'spark', 'spell', 'stride', 'surge', 'sworn',
-    'thorn', 'tide', 'vale', 'ward', 'wing']; {
+    'thorn', 'tide', 'vale', 'ward', 'wing'];
+  {
     rnd3 = Math.floor(Math.random() * nm3.length);
     rnd4 = Math.floor(Math.random() * nm4.length);
     lname = nm3[rnd3] + nm4[rnd4];

@@ -130,7 +130,8 @@ export default function ethiopians() {
     'Zawdie', 'Zeinaba', 'Zeleke', 'Zema', 'Zena', 'Zenash', 'Zenaye',
     'Zenebework', 'Zenha', 'Zewdenesh', 'Zewditu', 'Zewdnesh', 'Zimenew',
     'Zubeda', 'Zufan', 'Zufanesh'];
-  const names1 = type === 1 ? namesFemale : namesMale; {
+  const names1 = type === 1 ? namesFemale : namesMale;
+  {
     rnd = Math.floor(Math.random() * names1.length);
     rnd2 = Math.floor(Math.random() * namesMale.length);
     rnd3 = Math.floor(Math.random() * namesMale.length);

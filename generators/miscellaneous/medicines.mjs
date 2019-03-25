@@ -108,7 +108,8 @@ export default function medicines() {
     'vorin', 'xacin', 'xamine', 'xane', 'xapine', 'xetine', 'xime', 'xitrol',
     'xolol', 'xone', 'zal', 'zaprine', 'zenil', 'zepam', 'zide', 'zine',
     'zolam', 'zole', 'zolid', 'zone', 'zoxane', 'zumab', 'zyme'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     rnd = Math.floor(Math.random() * nm1.length);
     rnd2 = Math.floor(Math.random() * nm2.length);
     if (i < 6) {

@@ -880,7 +880,8 @@ export default function bookTitles() {
         'of the worlds', 'of time', 'of war', 'on mars', 'on my ship'];
       break;
   }
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     if (i < 2) {
       rnd = Math.floor(Math.random() * names1.length);
       rnd2 = Math.floor(Math.random() * names4.length);

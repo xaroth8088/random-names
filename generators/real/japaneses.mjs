@@ -419,7 +419,8 @@ export default function japaneses() {
     'Yoshimura', 'Yoshinaga', 'Yoshino', 'Yoshioka', 'Yoshitaka', 'Yoshiya',
     'Yoshiyuki', 'Yoshizawa', 'Yuguchi', 'Yuhara', 'Yukawa', 'Yukimori',
     'Yukimura', 'Yukimuro', 'Yukiyama', 'Yumoto', 'Yutani', 'Yuuma', 'Zakai',
-    'Zakaza', 'Zayasu']; {
+    'Zakaza', 'Zayasu'];
+  {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm3.length);
       rnd2 = Math.floor(Math.random() * nm2.length);

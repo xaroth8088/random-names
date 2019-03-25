@@ -57,7 +57,8 @@ export default function superheroTeams() {
     'Tricksters', 'Trinities', 'Undying', 'Untamed', 'Vagabonds', 'Vagrants',
     'Vigilantes', 'Vindicators', 'Vipers', 'Visionaries', 'Watchdogs',
     'Whispers', 'Wildlings', 'Wings', 'Wonders', 'Wretched'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     if (i < 5) {
       rnd = Math.floor(Math.random() * nm3.length);
       names = `The ${nm3[rnd]}`;

@@ -56,7 +56,8 @@ export default function batDragonhawks() {
     'Sunburn', 'Sunburst', 'Sunflare', 'Sunrise', 'Sunshine', 'Tamara',
     'Tawhaki', 'Tequila', 'TequilaSundown', 'Tiamat', 'Timeus', 'Tinder',
     'Tobias', 'Torchic', 'Uruloki', 'Vallenari', 'Vanity', 'Vulkan', 'Xolotl',
-  ]; {
+  ];
+  {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm2.length);
       names = nm2[rnd];

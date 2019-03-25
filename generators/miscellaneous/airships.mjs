@@ -84,7 +84,8 @@ export default function airships() {
     'Surge', 'Tempest', 'Titan', 'Tribute', 'Triumph', 'Unity', 'Valkyrie',
     'Vertex', 'Vestige', 'Vision', 'Voyage', 'Warden', 'Wish', 'Zenith',
     'Zodiac'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     if (i < 5) {
       rnd = Math.floor(Math.random() * nm1.length);
       names = nm1[rnd];

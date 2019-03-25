@@ -27,7 +27,8 @@ export default function halfElfs() {
     'nalore', 'noa', 'nys', 'ona', 'phira', 'pisys', 'qarin', 'qwyn', 'rila',
     'rora', 'seris', 'stine', 'sys', 'thana', 'theris', 'tihne', 'trana',
     'viel', 'vyre', 'walyn', 'waris', 'xaris', 'xipha', 'yaries', 'yra',
-    'zenya', 'zira']; {
+    'zenya', 'zira'];
+  {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm3.length);
       rnd2 = Math.floor(Math.random() * nm4.length);

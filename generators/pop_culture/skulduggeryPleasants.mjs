@@ -101,7 +101,8 @@ export default function skulduggeryPleasants() {
     'ss', 'sh', 'sl', 'sr', 'sn', 'st', 't', 'th', 'tr', 'v', 'vr', 'd', 'd',
     'g', 'g', 'k', 'k', 'l', 'l', 'l', 'm', 'm', 'n', 'n', 's', 's', 't', 't',
     'v', 'v'];
-  const nm7 = ['', '', 'l', 'n', 's', 'th']; {
+  const nm7 = ['', '', 'l', 'n', 's', 'th'];
+  {
     if (type === 2) {
       rnd = Math.floor(Math.random() * nm4.length);
       rnd2 = Math.floor(Math.random() * nm5.length);
@@ -110,8 +111,7 @@ export default function skulduggeryPleasants() {
       rnd5 = Math.floor(Math.random() * nm6.length);
       rnd6 = Math.floor(Math.random() * nm5.length);
       rnd7 = Math.floor(Math.random() * nm7.length);
-      names = nm4[rnd] + nm5[rnd2] + nm6[rnd3] + nm5[rnd4] + nm6[rnd5] + nm5[
-        rnd6] + nm7[rnd7];
+      names = nm4[rnd] + nm5[rnd2] + nm6[rnd3] + nm5[rnd4] + nm6[rnd5] + nm5[rnd6] + nm7[rnd7];
     } else if (type === 1) {
       rnd = Math.floor(Math.random() * nm2.length);
       rnd2 = Math.floor(Math.random() * nm3.length);

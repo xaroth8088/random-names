@@ -32,7 +32,8 @@ export default function animalGroups() {
     'Tribe', 'Trip', 'Troop', 'Troubling', 'Troupe', 'Tumble', 'Tumult',
     'Turnout', 'Twaddling', 'Twiddling', 'Union', 'Unit', 'Venture', 'Venue',
     'Volley', 'Waddle', 'Wake', 'Walk', 'Wallow', 'Wedge', 'Welter', 'Wing',
-    'Wreck']; {
+    'Wreck'];
+  {
     rnd = Math.floor(Math.random() * nm1.length);
     names = nm1[rnd];
     nm1.splice(rnd, 1);

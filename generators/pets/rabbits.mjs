@@ -224,7 +224,8 @@ export default function rabbits() {
     'Vivica', 'Waffles', 'Walnut', 'Wana', 'Wanda', 'Wendy', 'Whisky',
     'Whoopie', 'Widget', 'Willow', 'Winnie', 'Xena', 'Yoda', 'Yvonne',
     'Zadora', 'Zeldabar', 'Zia Marie', 'Zig Zag', 'Zoe', 'Zoey', 'Zola',
-    'Zula', 'Zuzu']; {
+    'Zula', 'Zuzu'];
+  {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm2.length);
       names = nm2[rnd];

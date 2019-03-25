@@ -164,7 +164,8 @@ export default function legs() {
       'Whisper', 'Wit', 'Armor', 'Legguards', 'Platelegs', 'Legplates',
       'Greaves', 'Skirt', 'Leggings', 'Kilt'];
   }
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     if (i < 2) {
       rnd = Math.floor(Math.random() * names1.length);
       rnd1 = Math.floor(Math.random() * names2.length);

@@ -114,7 +114,8 @@ export default function swahilis() {
     'Waseme (let them talk)', 'Winda (hunter)', 'Zahra (flower)',
     'Zaida (the better one)', 'Zakia (smart)', 'Zakiya (intelligent one)',
     'Zawadi (a gift)', 'Zawati (a gift)', 'Zuri (beautiful)', 'Zuwena (good)',
-  ]; {
+  ];
+  {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm2.length);
       names = nm2[rnd];

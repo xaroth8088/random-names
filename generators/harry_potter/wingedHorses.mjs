@@ -15,7 +15,8 @@ export default function wingedHorses() {
     'min', 'mman', 'nan', 'nial', 'nian', 'nnal', 'nnan', 'phal', 'phian',
     'phion', 'ppan', 'ral', 'ran', 'rian', 'rin', 'rran', 'sal', 'san', 'sin',
     'ssin', 'stral', 'tan', 'thian', 'tian', 'tin', 'tral', 'xal', 'xan',
-    'xian', 'xxin']; {
+    'xian', 'xxin'];
+  {
     rnd = Math.floor(Math.random() * nm1.length);
     rnd2 = Math.floor(Math.random() * nm2.length);
     rnd3 = Math.floor(Math.random() * nm3.length);

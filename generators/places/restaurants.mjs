@@ -87,7 +87,8 @@ export default function restaurants() {
     'The Vineyard', 'The Wall', 'The Willow', 'Tip Top', 'Tranquility',
     'Treasure', 'Trilogy', 'Trinity', 'Twilight', 'Unwind', 'Veil', 'Vertigo',
     'Vista', 'Whammy', 'Whisperwind'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     if (i < 5) {
       rnd = Math.floor(Math.random() * names1.length);
       rnd2 = Math.floor(Math.random() * names2.length);

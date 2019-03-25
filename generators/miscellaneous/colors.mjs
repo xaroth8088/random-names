@@ -47,7 +47,8 @@ export default function colors() {
     'Supreme', 'Swamp', 'Sweet', 'Tacky', 'Tempting', 'Tender', 'Timeless',
     'Tired', 'Tranquil', 'Tropical', 'Twilight', 'Undead', 'Unsullied',
     'Vague', 'Vampiric', 'Vineyard', 'Vintage', 'Violent', 'Virtual', 'Vivid',
-    'Volatile', 'Washed Out', 'Wild', 'Wilderness', 'Winter', 'Youthful']; {
+    'Volatile', 'Washed Out', 'Wild', 'Wilderness', 'Winter', 'Youthful'];
+  {
     rnd = Math.floor(Math.random() * nm1.length);
     rnd2 = Math.floor(Math.random() * nm2.length);
     names = `${nm2[rnd2]} ${nm1[rnd]}`;

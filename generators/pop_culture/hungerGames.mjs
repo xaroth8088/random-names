@@ -73,7 +73,8 @@ export default function hungerGames() {
     'leaf', 'lock', 'mark', 'path', 'petal', 'rock', 'root', 'sand', 'scape',
     'shire', 'smith', 'snow', 'song', 'star', 'stone', 'thorn', 'tide',
     'tree', 'vale', 'ville', 'water', 'way', 'willow', 'wind', 'wing', 'wood',
-    'worth']; {
+    'worth'];
+  {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nmF.length);
       rnd2 = Math.floor(Math.random() * nm4.length);

@@ -79,7 +79,8 @@ export default function mascots() {
     'Tiny', 'Titan', 'Tooth', 'Tooths', 'Trash', 'Tresher', 'Tritot',
     'Twinkles', 'Venom', 'Viper', 'Void', 'Warhawk', 'Warhog', 'Wildwing',
     'Wrathhog', 'Wreckage', 'Wrex'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     if (i < 6) {
       rnd = Math.floor(Math.random() * names1.length);
       rnd2 = Math.floor(Math.random() * names2.length);

@@ -62,7 +62,8 @@ export default function drinks() {
     'Tempest', 'Thrill', 'Thriller', 'Thunder', 'Ticker', 'Tickle', 'Tonic',
     'Tornado', 'Torrent', 'Touch', 'Tremor', 'Twilight', 'Twister', 'Velour',
     'Velvet', 'Vengeance', 'Volcano', 'Volley', 'Wacker', 'Walk', 'Walker',
-    'Wave', 'Whisper', 'Whistle', 'Wink', 'Wonder', 'Zombie']; {
+    'Wave', 'Whisper', 'Whistle', 'Wink', 'Wonder', 'Zombie'];
+  {
     rnd = Math.floor(Math.random() * names1.length);
     rnd2 = Math.floor(Math.random() * names2.length);
     if (rnd < 30) {

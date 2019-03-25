@@ -47,7 +47,8 @@ export default function hospitals() {
     'White Feather', 'White Mountain', 'White Petal', 'White River',
     'White Willow', 'White Wing', 'Wildflower', 'Willow Gardens', 'Woodland'];
   const nm2 = ['Clinic', 'Community Hospital', 'General Hospital', 'Hospital',
-    'Hospital Center', 'Medical Center', 'Medical Clinic']; {
+    'Hospital Center', 'Medical Center', 'Medical Clinic'];
+  {
     rnd = Math.floor(Math.random() * nm1.length);
     rnd2 = Math.floor(Math.random() * nm2.length);
     names = `${nm1[rnd]} ${nm2[rnd2]}`;

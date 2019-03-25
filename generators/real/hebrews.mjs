@@ -722,7 +722,8 @@ export default function hebrews() {
     'Zaki', 'Zalman', 'Zamir', 'Zarach', 'Zauri', 'Ze\'ev', 'Zecharia',
     'Zehavi', 'Zemer', 'Zephaniah', 'Zer', 'Zeri', 'Zika', 'Zimra', 'Zisi',
     'Ziv', 'Zivan', 'Zohar', 'Zrubavel', 'Zuel', 'Zur', 'Zuri', 'Zvi',
-    'Zvika', 'Zvulun']; {
+    'Zvika', 'Zvulun'];
+  {
     rnd2 = Math.floor(Math.random() * nm3.length);
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm2.length);

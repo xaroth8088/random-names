@@ -75,7 +75,8 @@ export default function dragons() {
     'Destroyer of Life', 'Destroyer of Men', 'Eater of Sheep', 'Eater of All',
     'the Hungry', 'Eater of Bunnies', 'the Bunny Killer', 'the Rabbit Slayer',
     'the Taker of Life', 'the Insane', 'the Life Giver'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     rnd = Math.floor(Math.random() * nm1.length);
     if (i < 5) {
       names = nm1[rnd];

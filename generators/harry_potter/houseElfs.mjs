@@ -14,7 +14,8 @@ export default function houseElfs() {
   const nm5 = ['y', 'ey'];
   const nm6 = ['ee', 'i', 'o'];
   const nm7 = ['', 'n', 's', 'l', 'b', 'm', 'p'];
-  const nm8 = ['k', 'n', 's', 'l', 'm', 'p']; {
+  const nm8 = ['k', 'n', 's', 'l', 'm', 'p'];
+  {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm1.length);
       rnd2 = Math.floor(Math.random() * nm6.length);

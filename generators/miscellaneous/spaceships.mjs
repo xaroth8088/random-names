@@ -109,7 +109,8 @@ export default function spaceships() {
     'Wildcat', 'Wisdom', 'Wish Upon a Star', 'Wolf', 'Wolverine',
     'Woodpecker', 'Wyvern', 'Xerxes', 'Yucatan', 'Zenith', 'Zephyr', 'Zeus',
     'Zion'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     rnd = Math.floor(Math.random() * nm2.length);
     if (i < 5) {
       names = nm2[rnd];

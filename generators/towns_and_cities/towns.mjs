@@ -129,7 +129,8 @@ export default function towns() {
     'Warlington', 'Conriston', 'Clarcton', 'Alverton', 'Boroughton', 'Larton',
     'Malrton', 'Stathford', 'Waeldestone', 'Alnerwick', 'Barmwich',
     'Sharnwick', 'Larnwick', 'Whaelrdrake', 'Wanborne', 'Tarmsworth',
-    'Fernsworth', 'Halsworthy', 'Braedwardith']; {
+    'Fernsworth', 'Halsworthy', 'Braedwardith'];
+  {
     rnd = Math.floor(Math.random() * nm1.length);
     names = nm1[rnd];
     return names;

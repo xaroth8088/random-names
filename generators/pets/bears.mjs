@@ -73,7 +73,8 @@ export default function bears() {
     'Ursicina', 'Ursina', 'Ursine', 'Urska', 'Ursula', 'Ursule', 'Ursulina',
     'Urszula', 'Uschi', 'Valerie', 'Venus', 'Veronica', 'Versula', 'Viola',
     'Violet', 'Violette', 'Waffle', 'Wilhelmina', 'Winifred', 'Winnie',
-    'Winona']; {
+    'Winona'];
+  {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm2.length);
       names = nm2[rnd];

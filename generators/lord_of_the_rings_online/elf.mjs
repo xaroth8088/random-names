@@ -181,7 +181,8 @@ export default function elf() {
     'uilas', 'uilos', 'untha', 'urel', 'uria', 'ustar', 'uthiia', 'vel',
     'vren', 'wais', 'wen', 'wing', 'wmoon', 'ya', 'yat', 'ye', 'yl', 'ylla',
     'yllia', 'ymna', 'yn', 'yna', 'ynor', 'ynora', 'yntra', 'yrl', 'yrra',
-    'yrria', 'ys', 'zee']; {
+    'yrria', 'ys', 'zee'];
+  {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm4.length);
       rnd2 = Math.floor(Math.random() * nm2.length);

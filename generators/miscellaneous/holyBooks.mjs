@@ -77,7 +77,8 @@ export default function holyBooks() {
     'Titan', 'Totem', 'Tranquility', 'Truth', 'Unity', 'Utopia', 'Venerable',
     'Vertex', 'Virtue', 'Vision', 'Vitality', 'Witness', 'Worship', 'Worthy',
     'Zeal', 'Zenith', 'Zion'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     rnd = Math.floor(Math.random() * nm3.length);
     if (i < 3) {
       rnd2 = Math.floor(Math.random() * nm1.length);

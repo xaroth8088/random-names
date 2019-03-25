@@ -27,7 +27,8 @@ export default function lovecraftians() {
   const nm7 = ['', '', '', '', '', '', '', '', '', '', 'd', 'g', 'h', 'l', 'lb',
     'lbh', 'n', 'r', 'rc', 'rh', 's', 'sh', 'ss', 'st', 'sz', 'th', 'tl', 'x',
     'xr', 'xz'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     if (i < 5) {
       rnd = Math.floor(Math.random() * nm2.length);
       rnd2 = Math.floor(Math.random() * nm3.length);
@@ -35,8 +36,7 @@ export default function lovecraftians() {
       rnd4 = Math.floor(Math.random() * nm5.length);
       rnd5 = Math.floor(Math.random() * nm6.length);
       rnd6 = Math.floor(Math.random() * nm7.length);
-      names = nm2[rnd] + nm3[rnd2] + nm4[rnd3] + nm5[rnd4] + nm6[rnd5] + nm7[
-        rnd6];
+      names = nm2[rnd] + nm3[rnd2] + nm4[rnd3] + nm5[rnd4] + nm6[rnd5] + nm7[rnd6];
     } else {
       rnd1 = Math.floor(Math.random() * nm1.length);
       rnd = Math.floor(Math.random() * nm2.length);
@@ -45,8 +45,7 @@ export default function lovecraftians() {
       rnd4 = Math.floor(Math.random() * nm5.length);
       rnd5 = Math.floor(Math.random() * nm6.length);
       rnd6 = Math.floor(Math.random() * nm7.length);
-      names = nm1[rnd1] + nm2[rnd] + nm3[rnd2] + nm4[rnd3] + nm5[rnd4] + nm6[
-        rnd5] + nm7[rnd6];
+      names = nm1[rnd1] + nm2[rnd] + nm3[rnd2] + nm4[rnd3] + nm5[rnd4] + nm6[rnd5] + nm7[rnd6];
     }
     return names;
   }

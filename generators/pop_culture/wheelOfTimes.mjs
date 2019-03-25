@@ -47,7 +47,8 @@ export default function wheelOfTimes() {
     'ere', 'eron', 'evron', 'iar', 'iaw', 'iaya', 'ilin', 'in', 'inas', 'ind',
     'ineos', 'ira', 'iros', 'odred', 'ogan', 'oihan', 'olin', 'olrin', 'on',
     'onche', 'onne', 'or', 'oron', 'yan', 'yl', 'ynar', 'yne', 'yr', 'yrag',
-    'yran', 'yron', 'yros', 'ys']; {
+    'yran', 'yron', 'yros', 'ys'];
+  {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm3.length);
       rnd2 = Math.floor(Math.random() * nm4.length);

@@ -163,7 +163,8 @@ export default function helmets() {
       'Soul', 'Steward', 'Terror', 'Token', 'Tribute', 'Vengeance',
       'Vindicator', 'Visage', 'Voice', 'Ward', 'Warden', 'Whisper', 'Wit'];
   }
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     if (i < 2) {
       rnd0 = Math.floor(Math.random() * names1.length);
       rnd1 = Math.floor(Math.random() * names2.length);

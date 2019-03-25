@@ -64,7 +64,8 @@ export default function dimensions() {
     'Universe', 'Unstable', 'Utopian', 'Vacuum', 'Virtual', 'Vision',
     'Voiceless', 'Void', 'War', 'Water', 'Whisper', 'White', 'Wicked',
     'Winter', 'Wish', 'Wither'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     if (i < 3) {
       rnd = Math.floor(Math.random() * names1.length);
       rnd2 = Math.floor(Math.random() * names2.length);
@@ -76,8 +77,7 @@ export default function dimensions() {
       rnd3 = Math.floor(Math.random() * names3.length);
       rnd4 = Math.floor(Math.random() * names2.length);
       rnd5 = Math.floor(Math.random() * names4.length);
-      names = names1[rnd] + names2[rnd2] + names3[rnd3] + names2[rnd4] + names4[
-        rnd5];
+      names = names1[rnd] + names2[rnd2] + names3[rnd3] + names2[rnd4] + names4[rnd5];
     } else {
       rnd = Math.floor(Math.random() * names5.length);
       names = `The ${names5[rnd]} Dimension`;

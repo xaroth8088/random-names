@@ -48,7 +48,8 @@ export default function martialArts() {
     's', 'sh', 'st', 't', 'th', 'thw', 'tk', 'ts', 'tt', 'y'];
   const nm19 = ['', '', '', '', '', '', '', '', '', '', '', '', 'k', 'l', 'm',
     'n', 'ng', 'r', 's', 't', 'w', 'y'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     if (i < 2) {
       rnd = Math.floor(Math.random() * nm1.length);
       rnd2 = Math.floor(Math.random() * nm2.length);
@@ -66,8 +67,7 @@ export default function martialArts() {
           rnd6 = Math.floor(Math.random() * nm2.length);
         }
       }
-      names = nm1[rnd] + nm2[rnd2] + nm3[rnd3] + nm2[rnd4] + nm3[rnd5] + nm2[
-        rnd6];
+      names = nm1[rnd] + nm2[rnd2] + nm3[rnd3] + nm2[rnd4] + nm3[rnd5] + nm2[rnd6];
     } else if (i === 2) {
       rnd = Math.floor(Math.random() * nm4.length);
       rnd2 = Math.floor(Math.random() * nm5.length);
@@ -88,8 +88,7 @@ export default function martialArts() {
           rnd6 = Math.floor(Math.random() * nm5.length);
         }
       }
-      names = nm4[rnd] + nm5[rnd2] + nm6[rnd3] + nm7[rnd4] + nm8[rnd5] + nm5[
-        rnd6];
+      names = nm4[rnd] + nm5[rnd2] + nm6[rnd3] + nm7[rnd4] + nm8[rnd5] + nm5[rnd6];
     } else if (i === 3) {
       rnd = Math.floor(Math.random() * nm4.length);
       rnd2 = Math.floor(Math.random() * nm5.length);
@@ -100,8 +99,7 @@ export default function martialArts() {
       rnd7 = Math.floor(Math.random() * nm5.length);
       rnd8 = Math.floor(Math.random() * nm6.length);
       rnd9 = Math.floor(Math.random() * nm5.length);
-      names = nm4[rnd] + nm5[rnd2] + nm6[rnd3] + nm5[rnd4] + nm9[rnd5] + nm4[
-        rnd6] + nm5[rnd7] + nm6[rnd8] + nm5[rnd9];
+      names = nm4[rnd] + nm5[rnd2] + nm6[rnd3] + nm5[rnd4] + nm9[rnd5] + nm4[rnd6] + nm5[rnd7] + nm6[rnd8] + nm5[rnd9];
     } else if (i === 4) {
       rnd = Math.floor(Math.random() * nm10.length);
       rnd2 = Math.floor(Math.random() * nm11.length);
@@ -113,8 +111,7 @@ export default function martialArts() {
       }
       rnd6 = Math.floor(Math.random() * nm11.length);
       rnd7 = Math.floor(Math.random() * nm15.length);
-      names = nm10[rnd] + nm11[rnd2] + nm12[rnd3] + nm13[rnd4] + nm14[rnd5]
-        + nm11[rnd6] + nm15[rnd7];
+      names = nm10[rnd] + nm11[rnd2] + nm12[rnd3] + nm13[rnd4] + nm14[rnd5] + nm11[rnd6] + nm15[rnd7];
     } else if (i < 7) {
       rnd = Math.floor(Math.random() * nm16.length);
       rnd2 = Math.floor(Math.random() * nm17.length);
@@ -135,8 +132,7 @@ export default function martialArts() {
         }
       }
       rnd7 = Math.floor(Math.random() * nm19.length);
-      names = nm16[rnd] + nm17[rnd2] + nm18[rnd3] + nm17[rnd4] + nm18[rnd5]
-        + nm17[rnd6] + nm19[rnd7];
+      names = nm16[rnd] + nm17[rnd2] + nm18[rnd3] + nm17[rnd4] + nm18[rnd5] + nm17[rnd6] + nm19[rnd7];
     } else if (i === 8) {
       rnd = Math.floor(Math.random() * nm16.length);
       rnd2 = Math.floor(Math.random() * nm17.length);
@@ -152,8 +148,7 @@ export default function martialArts() {
       rnd7 = Math.floor(Math.random() * nm18.length);
       rnd8 = Math.floor(Math.random() * nm17.length);
       rnd9 = Math.floor(Math.random() * nm19.length);
-      names = nm16[rnd] + nm17[rnd2] + nm19[rnd3] + nm9[rnd4] + nm16[rnd5]
-        + nm17[rnd6] + nm18[rnd7] + nm17[rnd8] + nm19[rnd9];
+      names = nm16[rnd] + nm17[rnd2] + nm19[rnd3] + nm9[rnd4] + nm16[rnd5] + nm17[rnd6] + nm18[rnd7] + nm17[rnd8] + nm19[rnd9];
     } else {
       rnd = Math.floor(Math.random() * nm16.length);
       rnd2 = Math.floor(Math.random() * nm17.length);
@@ -169,8 +164,7 @@ export default function martialArts() {
       rnd7 = Math.floor(Math.random() * nm18.length);
       rnd8 = Math.floor(Math.random() * nm17.length);
       rnd9 = Math.floor(Math.random() * nm19.length);
-      names = nm16[rnd5] + nm17[rnd6] + nm18[rnd7] + nm17[rnd8] + nm19[rnd9]
-        + nm9[rnd4] + nm16[rnd] + nm17[rnd2] + nm19[rnd3];
+      names = nm16[rnd5] + nm17[rnd6] + nm18[rnd7] + nm17[rnd8] + nm19[rnd9] + nm9[rnd4] + nm16[rnd] + nm17[rnd2] + nm19[rnd3];
     }
     return names;
   }

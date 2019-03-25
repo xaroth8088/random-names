@@ -106,7 +106,8 @@ export default function humans() {
     'Phoenix', 'Quinn', 'Ray', 'Raylee', 'Reed', 'Reggie', 'Rene', 'Riley',
     'River', 'Robin', 'Rory', 'Rowan', 'Rudy', 'Ryan', 'Sam', 'Sammy', 'Shay',
     'Sidney', 'Silver', 'Skye', 'Skylar', 'Skyler', 'Steff', 'Tanner',
-    'Taylor', 'Terry', 'Tyler', 'Val', 'Vic', 'Will', 'Willy']; {
+    'Taylor', 'Terry', 'Tyler', 'Val', 'Vic', 'Will', 'Willy'];
+  {
     rnd2 = Math.floor(Math.random() * nm3.length);
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm2.length);

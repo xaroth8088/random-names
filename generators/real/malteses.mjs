@@ -219,7 +219,8 @@ export default function malteses() {
     'Violante', 'Virtu', 'Visanich', 'Visinch', 'Vitale', 'Vizzari', 'Volpe',
     'Wettinger', 'Wirth', 'Wismajer', 'Wismayer', 'Wizzino', 'Xabica',
     'Xerri', 'Xiberras', 'Xiriha', 'Xrieha', 'Xriha', 'Xuereb', 'Zagami',
-    'Zahra', 'Zammit', 'Zampa', 'Zarb', 'Zerafa']; {
+    'Zahra', 'Zammit', 'Zampa', 'Zarb', 'Zerafa'];
+  {
     rnd2 = Math.floor(Math.random() * nm3.length);
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm2.length);

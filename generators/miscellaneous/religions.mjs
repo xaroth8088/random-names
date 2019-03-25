@@ -65,7 +65,8 @@ export default function religions() {
     'of the True King', 'of the True Prophet', 'of the Two Divines',
     'of the Two Gods', 'of the United', 'of the Unsullied', 'of the Virgin',
     'of the White Sign', 'of the White Wolf', 'of the Wilds', 'of the World'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     if (i < 3) {
       rnd0 = Math.floor(Math.random() * names1.length);
       rnd1 = Math.floor(Math.random() * names2.length);
@@ -77,8 +78,7 @@ export default function religions() {
         }
       }
       rnd4 = Math.floor(Math.random() * names5.length);
-      names = names1[rnd0] + names2[rnd1] + names3[rnd2] + names4[rnd3]
-        + names5[rnd4];
+      names = names1[rnd0] + names2[rnd1] + names3[rnd2] + names4[rnd3] + names5[rnd4];
     } else if (i < 7) {
       rnd0 = Math.floor(Math.random() * names6.length);
       rnd1 = Math.floor(Math.random() * names7.length);

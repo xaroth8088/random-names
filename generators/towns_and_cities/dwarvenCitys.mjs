@@ -47,7 +47,8 @@ export default function dwarvenCitys() {
     'torum', 'tuhrm', 'turm', 'turuhm', 'turum', 'uhm', 'ulihm', 'ulihr',
     'ulir', 'uluhm', 'uluhr', 'ulum', 'ulur', 'um', 'wahr', 'wahrum', 'wihr',
     'wohr', 'wohrum', 'wuhr', 'wuhrum', 'yahr', 'yar', 'yaruhm', 'yuhr', 'yur',
-  ]; {
+  ];
+  {
     rnd = Math.floor(Math.random() * nm1.length);
     rnd2 = Math.floor(Math.random() * nm2.length);
     rnd3 = Math.floor(Math.random() * nm3.length);

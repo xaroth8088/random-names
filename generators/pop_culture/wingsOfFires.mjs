@@ -103,7 +103,8 @@ export default function wingsOfFires() {
     'Rainbow', 'Sapphire', 'Serein', 'Sirius', 'Skyey', 'Skyward', 'Sphere',
     'Steward', 'Stratus', 'Supernal', 'Taurus', 'Toss', 'Twilight', 'Vault',
     'Vesper', 'Violet', 'Welkin', 'Yonder', 'Zenith', 'Zodiac'];
-  const i = Math.floor(Math.random() * 14); {
+  const i = Math.floor(Math.random() * 14);
+  {
     if (i < 2) {
       rnd = Math.floor(Math.random() * nm1.length);
       names = nm1[rnd];

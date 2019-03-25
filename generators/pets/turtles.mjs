@@ -108,7 +108,8 @@ export default function turtles() {
     'Tanya', 'Tasha', 'Tauna', 'Teal', 'Tillie', 'Tilly', 'Tory', 'Turquoise',
     'Turtsy', 'Tutie', 'Velvet', 'Veronica', 'Virginia', 'Wenona', 'Wilone',
     'Wuti', 'Xena ', 'Xena', 'Yaffa', 'Yertle', 'Zemirah', 'Zina', 'Zoe',
-    'Zoey']; {
+    'Zoey'];
+  {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm2.length);
       names = nm2[rnd];

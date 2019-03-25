@@ -354,7 +354,8 @@ export default function horses() {
     'Yoko', 'Yorik', 'Yosemite', 'Yuki', 'Yukon', 'Zace', 'Zaide', 'Zalika',
     'Zane', 'Zani', 'Zara', 'Zaracha', 'Zen', 'Zena', 'Zenith', 'Zenon',
     'Zepher', 'Zephyr', 'Zeqoia', 'Zeus', 'Ziggy', 'Zimbro', 'Zinc', 'Zip',
-    'Zylan']; {
+    'Zylan'];
+  {
     rnd = Math.floor(Math.random() * nm1.length);
     names = nm1[rnd];
     return names;

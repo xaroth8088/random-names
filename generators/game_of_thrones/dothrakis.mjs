@@ -189,7 +189,8 @@ export default function dothrakis() {
   const namesF5 = ['bi', 'ffi', 'fi', 'ssi', 'si', 'gi', 'hhi', 'hi', 'ki',
     'kki', 'lli', 'mi', 'mmi', 'ni', 'nni', 'qi', 'qqi', 'qui', 'ri', 'rri',
     'thi', 'vi', 'vvi', 'wi', 'zhi', 'zi', 'zzi'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     if (type === 1) {
       if (i < 5) {
         rnd = Math.floor(Math.random() * namesFemale.length);
@@ -212,8 +213,7 @@ export default function dothrakis() {
             rnd4 = Math.floor(Math.random() * namesF4.length);
           }
         }
-        names = namesF1[rnd] + namesF2[rnd2] + namesF3[rnd3] + namesF4[rnd4]
-          + namesF5[rnd5];
+        names = namesF1[rnd] + namesF2[rnd2] + namesF3[rnd3] + namesF4[rnd4] + namesF5[rnd5];
       }
     } else if (i < 5) {
       rnd = Math.floor(Math.random() * namesMale.length);
@@ -236,8 +236,7 @@ export default function dothrakis() {
           rnd4 = Math.floor(Math.random() * namesM4.length);
         }
       }
-      names = namesM1[rnd] + namesM2[rnd2] + namesM3[rnd3] + namesM4[rnd4]
-        + namesM5[rnd5];
+      names = namesM1[rnd] + namesM2[rnd2] + namesM3[rnd3] + namesM4[rnd4] + namesM5[rnd5];
     }
     return names;
   }

@@ -17,7 +17,8 @@ export default function others() {
     'Saffron', 'Salsa', 'Sambal', 'Sauce', 'Sesame', 'Shichimi', 'Sichuan',
     'Soy', 'Syrup', 'Tarragon', 'Tartar', 'Teriya', 'Teriyaki', 'Thyme',
     'Turmeric', 'Tzatziki', 'Vanilla', 'Wasabi'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     if (i < 5) {
       rnd = Math.floor(Math.random() * names1.length);
       names = names1[rnd];

@@ -11,7 +11,8 @@ export default function goblins() {
     'gus', 'guss', 'kar', 'kit', 'knas', 'knus', 'koff', 'kor', 'kras',
     'krat', 'krus', 'kus', 'laff', 'last', 'lig', 'lirg', 'lok', 'lor',
     'luff', 'luk', 'lus', 'naff', 'nar', 'nast', 'nok', 'not', 'nott', 'nuff',
-    'nuk', 'nus', 'raff', 'ragg', 'rak', 'rast', 'rat', 'rig', 'rod']; {
+    'nuk', 'nus', 'raff', 'ragg', 'rak', 'rast', 'rat', 'rig', 'rod'];
+  {
     rnd = Math.floor(Math.random() * nm1.length);
     rnd2 = Math.floor(Math.random() * nm2.length);
     names = nm1[rnd] + nm2[rnd2];

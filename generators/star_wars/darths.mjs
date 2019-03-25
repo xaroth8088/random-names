@@ -35,7 +35,8 @@ export default function darths() {
     'rz', 'rg', 'rr', 'tr', 'ttr', 'th', 'thr', 'thn', 'thm', 'y'];
   const nm8 = ['', '', '', '', '', '', '', '', '', '', 'd', 'f', 'h', 'l', 'n',
     'ph', 'r', 's', 'sh', 'ss', 'th', 'w', 'x'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm5.length);
       rnd2 = Math.floor(Math.random() * nm6.length);

@@ -224,7 +224,8 @@ export default function daggers() {
     'Twinkle', 'Twister', 'Twitch', 'Tyrhung', 'Valkyrie', 'Vengeance',
     'Venom', 'Venombite', 'Venomkiss', 'Venomshank', 'Venomtip', 'Warmonger',
     'Widow Maker', 'Widowkiller', 'Widowmaker', 'Winterthorn'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     if (i < 3) {
       rnd = Math.floor(Math.random() * nm1.length);
       names = nm1[rnd];

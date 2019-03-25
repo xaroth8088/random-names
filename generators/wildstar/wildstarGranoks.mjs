@@ -37,7 +37,8 @@ export default function wildstarGranoks() {
   let rnd4;
   let names;
   let rnd5;
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     rnd6 = Math.floor(Math.random() * nm9.length);
     rnd7 = Math.floor(Math.random() * nm10.length);
     while (nm9[rnd6] === nm10[rnd7]) {

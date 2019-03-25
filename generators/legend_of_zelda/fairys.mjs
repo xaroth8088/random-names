@@ -17,7 +17,8 @@ export default function fairys() {
   const nm5 = ['w', 'r', 't', 'l', 'k', 'h', 'g', 'f', 'd', 's', 'm', 'n', 'v',
     'c'];
   const nm6 = ['a', 'e', 'i', 'o', 'u'];
-  const nm7 = ['', '', '', '', '', '', 't', 'h', 's', 'l', 'n', 'm']; {
+  const nm7 = ['', '', '', '', '', '', 't', 'h', 's', 'l', 'n', 'm'];
+  {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm1.length);
       rnd2 = Math.floor(Math.random() * nm4.length);

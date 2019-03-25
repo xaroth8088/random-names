@@ -49,7 +49,8 @@ export default function dwarfs() {
     'munt', 'nak', 'narek', 'ney', 'nka', 'no', 'noch', 'ntop', 'ra', 'ral',
     'rald', 'ran', 'rana', 'ras', 'rat', 'rek', 'ren', 'ret', 'ridin', 'rin',
     'ro', 'rol', 'row', 'sca', 'sten', 'tack', 'tan', 'ten', 'top', 'ver',
-    'vis', 'vish', 'vo', 'vonak', 'vorn']; {
+    'vis', 'vish', 'vo', 'vonak', 'vorn'];
+  {
     if (type === 1) {
       rnd0 = Math.floor(Math.random() * namesFemale.length);
       rnd1 = Math.floor(Math.random() * namesFemale2.length);

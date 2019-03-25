@@ -63,7 +63,8 @@ export default function khmers() {
     'Sen', 'Seng', 'Sieng', 'Sin', 'So', 'Sok', 'Sok ', 'Som', 'Son', 'Song',
     'Sor', 'Sorm', 'Soun', 'Su', 'Suy', 'Tang', 'Tat', 'Tep', 'Thith', 'Thy',
     'Toch', 'Touch', 'Tum', 'Ty', 'Uch', 'Um', 'Ung', 'Uy', 'Vang', 'Voeum',
-    'Yim', 'Yos', 'Yous', 'Yu', 'Yun']; {
+    'Yim', 'Yos', 'Yous', 'Yu', 'Yun'];
+  {
     rnd = Math.floor(Math.random() * nm3.length);
     if (type === 1) {
       rnd2 = Math.floor(Math.random() * nm2.length);

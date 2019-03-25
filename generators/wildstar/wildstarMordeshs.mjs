@@ -127,7 +127,8 @@ export default function wildstarMordeshs() {
     'm', 'n', 'r', 's', 'v', 'z'];
   const nm6 = ['c', 'ch', 'cz', 'k', 'l', 'll', 'n', 'rz', 's', 'ts', 'tz', 'v',
     'w'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     rnd = Math.floor(Math.random() * nm3.length);
     rnd2 = Math.floor(Math.random() * nm4.length);
     rnd3 = Math.floor(Math.random() * nm5.length);
@@ -138,8 +139,7 @@ export default function wildstarMordeshs() {
     } else {
       rnd6 = Math.floor(Math.random() * nm5.length);
       rnd7 = Math.floor(Math.random() * nm4.length);
-      lname = nm3[rnd] + nm4[rnd2] + nm5[rnd3] + nm4[rnd4] + nm5[rnd6] + nm4[
-        rnd7] + nm6[rnd5];
+      lname = nm3[rnd] + nm4[rnd2] + nm5[rnd3] + nm4[rnd4] + nm5[rnd6] + nm4[rnd7] + nm6[rnd5];
     }
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm2.length);

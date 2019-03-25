@@ -212,7 +212,8 @@ export default function frenchs() {
     'Trintignant', 'Trottier', 'Trouvé', 'Trudeau', 'Vérany', 'Vaganay',
     'Vaillancourt', 'Vallée', 'Vallotton', 'Valluy', 'Vandame', 'Vannier',
     'Vasseur', 'Vaugeois', 'Vaugrenard', 'Veil', 'Vernier', 'Verninac',
-    'Vidal', 'Vigouroux', 'Wathelet']; {
+    'Vidal', 'Vigouroux', 'Wathelet'];
+  {
     rnd2 = Math.floor(Math.random() * names3.length);
     if (type === 1) {
       rnd = Math.floor(Math.random() * names2.length);

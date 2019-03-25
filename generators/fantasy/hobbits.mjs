@@ -190,7 +190,8 @@ export default function hobbits() {
     'Thornburrow', 'Tinyfoot', 'Took', 'Took-Brandybuck', 'Took-Took',
     'Townsend', 'Tunnelly', 'Twofoot', 'Underburrow', 'Underfoot',
     'Underhill', 'Undertree', 'Underlake', 'Wanderfoot', 'Whitfoot',
-    'Whitbottom', 'Zaragamba']; {
+    'Whitbottom', 'Zaragamba'];
+  {
     rnd2 = Math.floor(Math.random() * nm3.length);
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm2.length);

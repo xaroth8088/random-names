@@ -126,7 +126,8 @@ export default function gallentes() {
     'stina', 'stine', 'suya', 'ta', 'tara', 'tesa', 'tha', 'thy', 'ti', 'tie',
     'tlyn', 'tna', 'trina', 'tte', 'ty', 'vana', 'vanah', 'vanna', 'vati',
     'veka', 'vika', 'xia', 'xis', 'xus', 'xys', 'ya', 'yah', 'yana', 'yani',
-    'yati', 'yla', 'ylah', 'ylee', 'yna']; {
+    'yati', 'yla', 'ylah', 'ylee', 'yna'];
+  {
     if (type === 1) {
       rnd = Math.floor(Math.random() * names3.length);
       rnd2 = Math.floor(Math.random() * names4.length);

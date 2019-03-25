@@ -284,7 +284,8 @@ export default function greeks() {
     'Valla', 'Valli', 'Valli', 'Varela', 'Vascou', 'Vasilaki', 'Vasiliou',
     'Vassallou', 'Vassou', 'Veli', 'Verga', 'Vidale', 'Vitali', 'Vlachou',
     'Vlahaki', 'Vlahou', 'Xenaki', 'Xenou', 'Zacharia', 'Zane', 'Zanni',
-    'Zarou', 'Zenou', 'Zerva', 'Zervou', 'Zika', 'Zografou', 'Zurlou']; {
+    'Zarou', 'Zenou', 'Zerva', 'Zervou', 'Zika', 'Zografou', 'Zurlou'];
+  {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm2.length);
       rnd2 = Math.floor(Math.random() * nm4.length);

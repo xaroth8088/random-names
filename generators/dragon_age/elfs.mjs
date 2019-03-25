@@ -24,7 +24,8 @@ export default function elfs() {
     'laros', 'lasan', 'lassan', 'len', 'lhen', 'mael', 'men', 'met', 'nar',
     'narel', 'rahel', 'ralan', 'ran', 'rand', 'ras', 'rel', 'ren', 'rian',
     'riel', 'rion', 'ris', 'rith', 'ron', 'ros', 'sas', 'thon', 'thorn',
-    'vel', 'ven', 'vin', 'wen']; {
+    'vel', 'ven', 'vin', 'wen'];
+  {
     if (type === 1) {
       rnd0 = Math.floor(Math.random() * namesFemale.length);
       rnd1 = Math.floor(Math.random() * namesFemale2.length);

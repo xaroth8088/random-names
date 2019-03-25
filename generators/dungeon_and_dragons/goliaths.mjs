@@ -48,7 +48,8 @@ export default function goliaths() {
     'avi', 'avone', 'eaku', 'ekali', 'elo', 'iaga', 'iago', 'iala', 'iano',
     'igala', 'igane', 'igano', 'igo', 'igone', 'ileana', 'ithino', 'olake',
     'ugate', 'ugoni', 'ukane', 'ukate', 'ukena', 'ulane', 'upine', 'utha',
-    'uthea']; {
+    'uthea'];
+  {
     if (type === 1) {
       rnd = Math.floor(Math.random() * namesFemF.length);
       rnd2 = Math.floor(Math.random() * namesFemL.length);

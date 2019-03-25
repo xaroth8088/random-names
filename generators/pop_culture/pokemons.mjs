@@ -285,7 +285,8 @@ export default function pokemons() {
     'Terra (Ground)', 'Thaw (Ice)', 'Tinder (Fire)', 'Trace (Ghost)',
     'Vape (Water)', 'Vapore (Water)', 'Venin (Poison)', 'Verwyn (Dragon)',
     'Vyle (Dark)', 'Whimsey (Fairy)', 'Whitey (Ice)', 'Zure (Fairy)'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     if (type === 1) {
       if (i < 3) {
         rnd1 = Math.floor(Math.random() * nm1.length);

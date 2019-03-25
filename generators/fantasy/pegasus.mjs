@@ -44,7 +44,8 @@ export default function pegasus() {
     'nia', 'nie', 'nne', 'nor', 'nora', 'ntha', 'nthe', 'nthea', 'phelia',
     'phine', 'phira', 'phne', 'phone', 'ra', 'rena', 'rene', 'resa', 'rine',
     'rise', 'rissa', 'rria', 'sia', 'sima', 'sine', 'ssa', 'tasia', 'teia',
-    'tha', 'thea', 'thia', 'thy', 'tia', 'tine', 'tria', 'vana', 'xis']; {
+    'tha', 'thea', 'thia', 'thy', 'tia', 'tine', 'tria', 'vana', 'xis'];
+  {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm3.length);
       rnd2 = Math.floor(Math.random() * nm4.length);

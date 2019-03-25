@@ -509,7 +509,8 @@ export default function englishs() {
     'River', 'Robin', 'Rory', 'Rowan', 'Rudy', 'Ryan', 'Sam', 'Sammy', 'Shay',
     'Sidney', 'Silver', 'Skye', 'Skylar', 'Skyler', 'Steff', 'Tanner',
     'Taylor', 'Terry', 'Tyler', 'Val', 'Vic', 'Will', 'Willy'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     if (type === 1) {
       if (i < 5) {
         rnd = Math.floor(Math.random() * nm2.length);

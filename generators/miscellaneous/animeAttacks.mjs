@@ -150,7 +150,8 @@ export default function animeAttacks() {
     'Smashing', 'Smiting', 'Sneaking', 'Spinning', 'Splitting', 'Stinging',
     'Striking', 'Suffering', 'Tearing', 'Thrusting', 'Transforming',
     'Twisting', 'Vanishing', 'Wandering', 'Watching', 'Whirling', 'Whistling'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     if (i < 2) {
       rnd = Math.floor(Math.random() * nm2.length);
       rnd2 = Math.floor(Math.random() * nm3.length);

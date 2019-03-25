@@ -66,7 +66,8 @@ export default function potions() {
     'the Phoenix', 'the Sages', 'the Seer', 'the Senses', 'the Shadows',
     'the Sloth', 'the Spirit', 'the Storm', 'the Subconscious', 'the Sun',
     'the Titans', 'the Undead', 'the Unknown', 'the Void', 'the Volcano',
-    'the Wolf']; {
+    'the Wolf'];
+  {
     rnd = Math.floor(Math.random() * names1.length);
     rnd2 = Math.floor(Math.random() * names2.length);
     names = `${names1[rnd]} of ${names2[rnd2]}`;

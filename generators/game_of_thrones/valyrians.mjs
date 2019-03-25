@@ -30,7 +30,8 @@ export default function valyrians() {
     'areon', 'daerys', 'eneos', 'ennis', 'eris', 'gaeron', 'garis', 'gyreon',
     'iar', 'inarys', 'itheos', 'laeris', 'laeron', 'larys', 'maereon',
     'naeros', 'nalys', 'nareon', 'naris', 'raenos', 'ralis', 'reos', 'talor',
-    'talos', 'taris', 'theon', 'theos', 'tigar', 'yreos']; {
+    'talos', 'taris', 'theon', 'theos', 'tigar', 'yreos'];
+  {
     if (type === 1) {
       rnd = Math.floor(Math.random() * names3.length);
       rnd2 = Math.floor(Math.random() * names4.length);

@@ -131,7 +131,8 @@ export default function hobbits() {
     'Meadows', 'Mugwort', 'Noaks', 'Oldbuck', 'Pott', 'Proudfoot',
     'Puddifoot', 'Roper', 'Rumble', 'Sackville', 'Sandheaver', 'Sandyman',
     'Smallburrow', 'Stoor', 'Took', 'Townsend', 'Tuk', 'Tunnelly', 'Twofoot',
-    'Underhill', 'Whitfoot', 'Zaragamba']; {
+    'Underhill', 'Whitfoot', 'Zaragamba'];
+  {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm2.length);
       rnd2 = Math.floor(Math.random() * nm3.length);

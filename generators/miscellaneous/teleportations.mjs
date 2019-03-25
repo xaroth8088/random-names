@@ -19,7 +19,8 @@ export default function teleportations() {
     'Split Step', 'Stream', 'Streamstep', 'Switch', 'Take Flight', 'Tele',
     'Tele Out', 'Telecast', 'Teleskip', 'Transfer', 'Transflux', 'Transkip',
     'Translocation', 'Transmaterialize', 'Transmit', 'Transtep', 'Transwarp',
-    'Tripskip', 'Void Step', 'Warp', 'Wink']; {
+    'Tripskip', 'Void Step', 'Warp', 'Wink'];
+  {
     rnd = Math.floor(Math.random() * nm1.length);
     names = nm1[rnd];
     nm1.splice(rnd, 1);

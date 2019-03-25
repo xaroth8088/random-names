@@ -183,7 +183,8 @@ export default function jamaicans() {
     'Whitcombe', 'Whyte', 'Wicks', 'Wight', 'Wignall', 'Wignell', 'Wilcox',
     'Wilkinson', 'Williams', 'Willock', 'Wilson', 'Wiltshire', 'Windos',
     'Winter', 'Wood', 'Woodruff', 'Woolhead', 'Wright', 'Wyatt', 'Wyll',
-    'Wynter']; {
+    'Wynter'];
+  {
     rnd2 = Math.floor(Math.random() * nm3.length);
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm2.length);

@@ -106,7 +106,8 @@ export default function magicalPlants() {
     'ite', 'ium', 'oil', 'ole', 'olla', 'on', 'onna', 'ons', 'oo', 'ood',
     'oom', 'oot', 'ore', 'orn', 'ort', 'os', 'osie', 'oss', 'osse', 'otus',
     'ove', 'over', 'ow', 'ower', 'uin', 'um', 'us', 'ush'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     if (i < 5) {
       rnd = Math.floor(Math.random() * nm1.length);
       rnd2 = Math.floor(Math.random() * nm2.length);
@@ -146,8 +147,7 @@ export default function magicalPlants() {
       }
       rnd6 = Math.floor(Math.random() * nm7.length);
       rnd7 = Math.floor(Math.random() * nm8.length);
-      names = nm3[rnd] + nm4[rnd2] + nm5[rnd3] + nm6[rnd4] + nm5[rnd5] + nm7[
-        rnd6] + nm8[rnd7];
+      names = nm3[rnd] + nm4[rnd2] + nm5[rnd3] + nm6[rnd4] + nm5[rnd5] + nm7[rnd6] + nm8[rnd7];
     }
     return names;
   }

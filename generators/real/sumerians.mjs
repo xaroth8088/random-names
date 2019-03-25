@@ -125,7 +125,8 @@ export default function sumerians() {
     'Shub-ad', 'Shub-ad', 'Shubure', 'Shubure', 'Siduri', 'Siduri', 'Silili',
     'Silili', 'Sin-nada', 'Summirat-ishtar', 'Tabni-ishtar', 'Takurtum',
     'Taram-uram', 'Tiamat', 'Ummi-waqrat', 'Urbau', 'Urnina', 'Uttu',
-    'Yadidatum', 'Zimu']; {
+    'Yadidatum', 'Zimu'];
+  {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm2.length);
       names = nm2[rnd];

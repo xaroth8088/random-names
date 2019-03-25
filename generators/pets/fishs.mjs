@@ -125,7 +125,8 @@ export default function fishs() {
     'Wendy', 'Wiggle', 'Wiggles', 'Willow', 'Windy', 'Winter', 'Wolla',
     'Wonton', 'Wyona', 'Xact', 'Xanda', 'Xena', 'Xenia', 'Yale', 'Yardy',
     'Yashi', 'Yellow', 'Yolanda', 'Yvette', 'Zeba', 'Zelda', 'Zena', 'Zinnia',
-  ]; {
+  ];
+  {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm2.length);
       names = nm2[rnd];

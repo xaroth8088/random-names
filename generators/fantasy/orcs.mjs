@@ -140,7 +140,8 @@ export default function orcs() {
     'Oghash', 'Rogmesh', 'Snak', 'Ugak', 'Umog', 'Arob', 'Atub', 'Bagrak',
     'Bolar', 'Bor', 'Borgakh', 'Dulug', 'Garakh', 'Ghak', 'Gharol', 'Ghorza',
     'Gul', 'Lash', 'Murbol', 'Sharamph', 'Shel', 'Shufharz', 'Ugor', 'Urog',
-    'Yotul']; {
+    'Yotul'];
+  {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm2.length);
       names = nm2[rnd];

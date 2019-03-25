@@ -1211,7 +1211,8 @@ export default function polishs() {
     'Zuk', 'Zukoska', 'Zukowska', 'Zulawska', 'Zulcinska', 'Zuraw',
     'Zurawska', 'Zurek', 'Zurowska', 'Zwolinska', 'Zych', 'Zychowska',
     'Zyczkowska', 'Zydowa', 'Zydowo', 'Zygmont', 'Zygmunt', 'Zyla',
-    'Zylinska', 'Zylka', 'Zynda', 'Zysk', 'Zyskowska', 'Zywicka', 'Zywicki']; {
+    'Zylinska', 'Zylka', 'Zynda', 'Zysk', 'Zyskowska', 'Zywicka', 'Zywicki'];
+  {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm3.length);
       rnd2 = Math.floor(Math.random() * nm4.length);

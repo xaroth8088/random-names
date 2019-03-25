@@ -77,7 +77,8 @@ export default function foods() {
     'Split', 'Steamed Pudding', 'Strudel', 'Sundae', 'Surprise', 'Tart',
     'Tarte Tatin', 'Toast', 'Toffee', 'Trifle', 'Wafer', 'Waffles', 'Whip',
     'Yogurt'];
-  const i = Math.floor(Math.random() * 10); {
+  const i = Math.floor(Math.random() * 10);
+  {
     if (i < 6) {
       rnd = Math.floor(Math.random() * names1.length);
       rnd2 = Math.floor(Math.random() * names2.length);
