@@ -41,9 +41,9 @@ export default function animals() {
   const names27 = ['long lifepans', 'incredibily long lifespans', 'very long lifespans', 'fairly long lifespans', 'short lifespans', 'fairly short lifespans', 'very short lifespans', 'unfortunately short lifespans'];
   let names28 = ['is to be expected.', 'isn\'t too surprising.', 'is only normal.', 'isn\'t out of the ordinary.', 'isn\'t extraordinary.', 'is quite common among other species as well.'];
 
-  const random0 = parseInt(Math.floor((Math.random() * names0.length)));
-  const random1 = parseInt(Math.floor((Math.random() * names1.length)));
-  const random2 = parseInt(Math.floor((Math.random() * names2.length)));
+  const random0 = parseInt(Math.floor((Math.random() * names0.length)), 10);
+  const random1 = parseInt(Math.floor((Math.random() * names1.length)), 10);
+  const random2 = parseInt(Math.floor((Math.random() * names2.length)), 10);
   if (random2 === 1) {
     names3 = [' seal', ' dolphin', 'n orca', ' minke whale', ' blue whale', ' fin whale', ' humpback whale', ' great white shark', ' narwhal', ' reef shark', ' manta ray', ' tuna', ' squid', ' salmon', ' carp', ' trout', ' piranha', ' goldfish', ' bass', 'n eel', ' catfish', ' pike', ' small shark', ' parrotfish', ' young tuna'];
     names4a = ['two large flippers', 'two small flippers', 'two large flippers', 'two small flippers', 'four large flippers', 'four small flippers', 'two strong side fins', 'four strong side fins', 'two side fins', 'four side fins', 'two large side fins', 'four large side fins', 'two powerful side fins', 'four powerful side fins', 'two huge side fins', 'four huge side fins'];
@@ -98,32 +98,32 @@ export default function animals() {
     names18 = ['long beaks', 'sharp beaks', 'thin beaks', 'short beaks', 'huge beaks', 'enormous beaks', 'wide beaks', 'thin, sharp beaks', 'long, sharp beaks', 'long, pointy beaks', 'short, pointy beaks', 'huge, pointy beaks', 'huge, sharp beaks', 'short, sharp beaks', 'thin, pointy beaks'];
     names19 = ['virtually no visible ears', 'no visible ears', 'pretty much no visible ears', 'tiny, almost hidden ears'];
   }
-  const random3 = parseInt(Math.floor((Math.random() * names3.length)));
-  const random4a = parseInt(Math.floor((Math.random() * names4a.length)));
-  const random4b = parseInt(Math.floor((Math.random() * names4b.length)));
-  const random4c = parseInt(Math.floor((Math.random() * names4c.length)));
-  const random5 = parseInt(Math.floor((Math.random() * names5.length)));
-  const random6 = parseInt(Math.floor((Math.random() * names6.length)));
-  const random7a = parseInt(Math.floor((Math.random() * names7a.length)));
-  const random7b = parseInt(Math.floor((Math.random() * names7b.length)));
+  const random3 = parseInt(Math.floor((Math.random() * names3.length)), 10);
+  const random4a = parseInt(Math.floor((Math.random() * names4a.length)), 10);
+  const random4b = parseInt(Math.floor((Math.random() * names4b.length)), 10);
+  const random4c = parseInt(Math.floor((Math.random() * names4c.length)), 10);
+  const random5 = parseInt(Math.floor((Math.random() * names5.length)), 10);
+  const random6 = parseInt(Math.floor((Math.random() * names6.length)), 10);
+  const random7a = parseInt(Math.floor((Math.random() * names7a.length)), 10);
+  const random7b = parseInt(Math.floor((Math.random() * names7b.length)), 10);
   while (random7b === random7a) {
-    random2b = parseInt(Math.floor((Math.random() * names7b.length)));
+    random2b = parseInt(Math.floor((Math.random() * names7b.length)), 10);
   }
-  let random7c = parseInt(Math.floor((Math.random() * names7c.length)));
+  let random7c = parseInt(Math.floor((Math.random() * names7c.length)), 10);
   while (random7c === random7a || random7c === random7b) {
-    random7c = parseInt(Math.floor((Math.random() * names7c.length)));
+    random7c = parseInt(Math.floor((Math.random() * names7c.length)), 10);
   }
-  let random7d = parseInt(Math.floor((Math.random() * names7c.length)));
+  let random7d = parseInt(Math.floor((Math.random() * names7c.length)), 10);
   while (random7d === random7a || random7d === random7b || random7d === random7c) {
-    random7d = parseInt(Math.floor((Math.random() * names7c.length)));
+    random7d = parseInt(Math.floor((Math.random() * names7c.length)), 10);
   }
-  let random7e = parseInt(Math.floor((Math.random() * names7d.length)));
+  let random7e = parseInt(Math.floor((Math.random() * names7d.length)), 10);
   while (random7e === random7a || random7e === random7b || random7e === random7c || random7e === random7d) {
-    random7e = parseInt(Math.floor((Math.random() * names7d.length)));
+    random7e = parseInt(Math.floor((Math.random() * names7d.length)), 10);
   }
-  const random8 = parseInt(Math.floor((Math.random() * names8.length)));
-  const random9 = parseInt(Math.floor((Math.random() * names9.length)));
-  const random10 = parseInt(Math.floor((Math.random() * names10.length)));
+  const random8 = parseInt(Math.floor((Math.random() * names8.length)), 10);
+  const random9 = parseInt(Math.floor((Math.random() * names9.length)), 10);
+  const random10 = parseInt(Math.floor((Math.random() * names10.length)), 10);
   if (random10 === 0) {
     if (random2 === 1 || random2 === 4) {
       names13 = ['plants', 'soft corals', 'hard corals'];
@@ -141,20 +141,20 @@ export default function animals() {
       names13 = ['fish', 'smaller creatures', 'larger creatures', 'creatures', 'crustaceans', 'plants', 'soft corals', 'hard corals'];
     }
   }
-  const random11 = parseInt(Math.floor((Math.random() * names11.length)));
-  const random12 = parseInt(Math.floor((Math.random() * names12.length)));
-  const random13 = parseInt(Math.floor((Math.random() * names13.length)));
-  const random14 = parseInt(Math.floor((Math.random() * names14.length)));
-  const random15a = parseInt(Math.floor((Math.random() * names15.length)));
-  let random15b = parseInt(Math.floor((Math.random() * names15.length)));
+  const random11 = parseInt(Math.floor((Math.random() * names11.length)), 10);
+  const random12 = parseInt(Math.floor((Math.random() * names12.length)), 10);
+  const random13 = parseInt(Math.floor((Math.random() * names13.length)), 10);
+  const random14 = parseInt(Math.floor((Math.random() * names14.length)), 10);
+  const random15a = parseInt(Math.floor((Math.random() * names15.length)), 10);
+  let random15b = parseInt(Math.floor((Math.random() * names15.length)), 10);
   while (random15b === random15a) {
-    random15b = parseInt(Math.floor((Math.random() * names15.length)));
+    random15b = parseInt(Math.floor((Math.random() * names15.length)), 10);
   }
-  const random16 = parseInt(Math.floor((Math.random() * names16.length)));
-  const random17 = parseInt(Math.floor((Math.random() * names17.length)));
-  const random18 = parseInt(Math.floor((Math.random() * names18.length)));
-  const random19 = parseInt(Math.floor((Math.random() * names19.length)));
-  const random20 = parseInt(Math.floor((Math.random() * names20.length)));
+  const random16 = parseInt(Math.floor((Math.random() * names16.length)), 10);
+  const random17 = parseInt(Math.floor((Math.random() * names17.length)), 10);
+  const random18 = parseInt(Math.floor((Math.random() * names18.length)), 10);
+  const random19 = parseInt(Math.floor((Math.random() * names19.length)), 10);
+  const random20 = parseInt(Math.floor((Math.random() * names20.length)), 10);
   let name4 = '';
   let name5 = '';
   if (random15a !== 0 && random15b !== 0) {
@@ -173,24 +173,24 @@ export default function animals() {
     name4 = `They're ${names14[random14]} and rely on their ${names15[random15a]} and ${names15[random15b]} to get around. However, their other senses are ${names17[random17]}.`;
     name5 = `They have ${names16[random16]}, ${names18[random18]} and ${names19[random19]}. Their heads are ${names20[random20]} in comparison to their bodies.`;
   }
-  const random21a = parseInt(Math.floor((Math.random() * names21.length)));
-  let random21b = parseInt(Math.floor((Math.random() * names21.length)));
+  const random21a = parseInt(Math.floor((Math.random() * names21.length)), 10);
+  let random21b = parseInt(Math.floor((Math.random() * names21.length)), 10);
   while (random21b === random21a) {
-    random21b = parseInt(Math.floor((Math.random() * names21.length)));
+    random21b = parseInt(Math.floor((Math.random() * names21.length)), 10);
   }
-  const random22 = parseInt(Math.floor((Math.random() * names22.length)));
-  const random23 = parseInt(Math.floor((Math.random() * names23.length)));
-  const random24 = parseInt(Math.floor((Math.random() * names24.length)));
+  const random22 = parseInt(Math.floor((Math.random() * names22.length)), 10);
+  const random23 = parseInt(Math.floor((Math.random() * names23.length)), 10);
+  const random24 = parseInt(Math.floor((Math.random() * names24.length)), 10);
   if (random23 < 10 && random24 < 10 || random23 > 9 && random24 > 9) {
     names23b = ' and ';
   }
-  const random25 = parseInt(Math.floor((Math.random() * names25.length)));
-  const random26 = parseInt(Math.floor((Math.random() * names26.length)));
-  const random27 = parseInt(Math.floor((Math.random() * names27.length)));
+  const random25 = parseInt(Math.floor((Math.random() * names25.length)), 10);
+  const random26 = parseInt(Math.floor((Math.random() * names26.length)), 10);
+  const random27 = parseInt(Math.floor((Math.random() * names27.length)), 10);
   if (random27 < 4 && names26 < 4) {
     names28 = ['is quite surprising.', 'is just amazing.', 'is beautiful in its own right.', 'is something special indeed.', 'is astonishing.'];
   }
-  const random28 = parseInt(Math.floor((Math.random() * names28.length)));
+  const random28 = parseInt(Math.floor((Math.random() * names28.length)), 10);
 
 
   const name = `This ${names1[random1]}${names0[random0]} creature is a type of ${names2[random2]}. It's about the size of a${names3[random3]}, has ${names4a[random4a]}${names4b[random4b]}${names4c[random4c]}.`;

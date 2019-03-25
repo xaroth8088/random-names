@@ -24,9 +24,9 @@ export default function plants() {
   const names16 = ['animal pollination', 'wind pollination', 'self pollination', 'water currents to carry their seeds away', 'winds to carry their seeds away', 'cloning themselves by growing a new specimen'];
   let names17 = ['Once pollinated, they grow delicious, small fruits.', 'Once pollinated, they grow small, inedible fruits.', 'Once pollinated, they grow fairly large, delicious fruits.', 'Once pollinated, they grow fairly large, inedible fruits.', 'Once pollinated, they grow small, delicious nuts.', 'Once pollinated, they grow small, inedible nuts.', 'Once pollinated, they grow fairly large, delicious nuts.', 'Once pollinated, they grow fairly large, inedible nuts.'];
 
-  const random1 = parseInt(Math.floor((Math.random() * names1.length)));
-  const random2 = parseInt(Math.floor((Math.random() * names2.length)));
-  const random3 = parseInt(Math.floor((Math.random() * names3.length)));
+  const random1 = parseInt(Math.floor((Math.random() * names1.length)), 10);
+  const random2 = parseInt(Math.floor((Math.random() * names2.length)), 10);
+  const random3 = parseInt(Math.floor((Math.random() * names3.length)), 10);
   if (random3 > 2 && random3 < 5) {
     names5 = ['only in very hot regions', 'only in very wet regions', 'only at lake borders', 'only at river borders', 'only near very large lakes', 'only near sea dunes', 'only in very dry region', 'only in caves', 'only in dark, shadowy places', 'almost exclusively in dark caves', 'only in very damp places', 'only in very cold regions', 'only high in the mountains', 'only on mountain tops', 'only on large tropical islands', 'only on small tropical islands', 'only in some jungles', 'only in some forests', 'only in some tropical regions', 'only in some humid regions', 'only in some highlands', 'only in some snowy regions', 'only in some subarctic regions', 'only deep within swamps', 'only in some savannas', 'only in some tundras', 'only in frozen lands', 'only near volcanoes', 'only deep within caves', 'only in deserts'];
   } else if (random1 === 5) {
@@ -38,41 +38,41 @@ export default function plants() {
     names6 = ['in early spring', 'in late spring', 'in early summer', 'in late summer', 'in early autumn', 'in late autumn', 'in early winter', 'in late winter', 'once a year, for 1 month', 'twice a year, for 1 week', 'once a year, for 1 week', 'once a year, for 2 weeks', 'once a year, for 3 weeks'];
     names12 = ['in small numbers', 'in small groups', 'within short distances from each other', 'seperated by a fair distance from each other', 'in tiny groups', 'alone, but within a decent distance from each other', 'alone, often without another in sight', 'within a few feet/decimetres from each other', 'alone, usually without another specimen around', 'in pairs'];
   }
-  const random4 = parseInt(Math.floor((Math.random() * names4.length)));
-  const random5 = parseInt(Math.floor((Math.random() * names5.length)));
-  const random6 = parseInt(Math.floor((Math.random() * names6.length)));
-  const random7 = parseInt(Math.floor((Math.random() * names7.length)));
-  const random8 = parseInt(Math.floor((Math.random() * names8.length)));
-  const random9 = parseInt(Math.floor((Math.random() * names9.length)));
-  const random10 = parseInt(Math.floor((Math.random() * names10.length)));
-  const random11a = parseInt(Math.floor((Math.random() * names11a.length)));
-  const random11b = parseInt(Math.floor((Math.random() * names11b.length)));
+  const random4 = parseInt(Math.floor((Math.random() * names4.length)), 10);
+  const random5 = parseInt(Math.floor((Math.random() * names5.length)), 10);
+  const random6 = parseInt(Math.floor((Math.random() * names6.length)), 10);
+  const random7 = parseInt(Math.floor((Math.random() * names7.length)), 10);
+  const random8 = parseInt(Math.floor((Math.random() * names8.length)), 10);
+  const random9 = parseInt(Math.floor((Math.random() * names9.length)), 10);
+  const random10 = parseInt(Math.floor((Math.random() * names10.length)), 10);
+  const random11a = parseInt(Math.floor((Math.random() * names11a.length)), 10);
+  const random11b = parseInt(Math.floor((Math.random() * names11b.length)), 10);
   while (random11b === random11a) {
-    random2b = parseInt(Math.floor((Math.random() * names11b.length)));
+    random2b = parseInt(Math.floor((Math.random() * names11b.length)), 10);
   }
-  let random11c = parseInt(Math.floor((Math.random() * names11c.length)));
+  let random11c = parseInt(Math.floor((Math.random() * names11c.length)), 10);
   while (random11c === random11a || random11c === random11b) {
-    random11c = parseInt(Math.floor((Math.random() * names11c.length)));
+    random11c = parseInt(Math.floor((Math.random() * names11c.length)), 10);
   }
-  let random11d = parseInt(Math.floor((Math.random() * names11c.length)));
+  let random11d = parseInt(Math.floor((Math.random() * names11c.length)), 10);
   while (random11d === random11a || random11d === random11b || random11d === random11c) {
-    random11d = parseInt(Math.floor((Math.random() * names11c.length)));
+    random11d = parseInt(Math.floor((Math.random() * names11c.length)), 10);
   }
-  let random11e = parseInt(Math.floor((Math.random() * names11d.length)));
+  let random11e = parseInt(Math.floor((Math.random() * names11d.length)), 10);
   while (random11e === random11a || random11e === random11b || random11e === random11c || random11e === random11d) {
-    random11e = parseInt(Math.floor((Math.random() * names11d.length)));
+    random11e = parseInt(Math.floor((Math.random() * names11d.length)), 10);
   }
-  const random12 = parseInt(Math.floor((Math.random() * names12.length)));
-  const random13 = parseInt(Math.floor((Math.random() * names13.length)));
-  const random14 = parseInt(Math.floor((Math.random() * names14.length)));
-  const random15 = parseInt(Math.floor((Math.random() * names15.length)));
-  const random16 = parseInt(Math.floor((Math.random() * names16.length)));
+  const random12 = parseInt(Math.floor((Math.random() * names12.length)), 10);
+  const random13 = parseInt(Math.floor((Math.random() * names13.length)), 10);
+  const random14 = parseInt(Math.floor((Math.random() * names14.length)), 10);
+  const random15 = parseInt(Math.floor((Math.random() * names15.length)), 10);
+  const random16 = parseInt(Math.floor((Math.random() * names16.length)), 10);
   if (random16 === 0) {
     names17 = ['Once pollinated, they grow delicious, small fruits.', 'Once pollinated, they grow small, inedible fruits.', 'Once pollinated, they grow fairly large, delicious fruits.', 'Once pollinated, they grow fairly large, inedible fruits.', 'Once pollinated, they grow small, delicious nuts.', 'Once pollinated, they grow small, inedible nuts.', 'Once pollinated, they grow fairly large, delicious nuts.', 'Once pollinated, they grow fairly large, inedible nuts.', 'To promote pollination, they give of a delicate smell.', 'To promote pollination, they produce aromatic scents.', 'To promote pollination, they produce a delicious nectar.'];
   } else if (random16 === 5) {
     names17 = [''];
   }
-  const random17 = parseInt(Math.floor((Math.random() * names17.length)));
+  const random17 = parseInt(Math.floor((Math.random() * names17.length)), 10);
 
   const name = `The ${names1[random1]} ${names2[random2]} is ${names3[random3]}, ${names4[random4]} plant and can be found ${names5[random5]}. It blooms ${names6[random6]}.`;
   const name2 = `It has ${names8[random8]}, ${names9[random9]} leaves, which are usually ${names7[random7]}. It also grows ${names10[random10]} flowers, which can be ${names11a[random11a]}${names11b[random11b]}${names11c[random11c]}${names11c[random11d]}${names11d[random11e]}.`;

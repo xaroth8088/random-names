@@ -38,37 +38,37 @@ export default function taverns() {
     names19 = ['the figures lurking in the shadows, it\'s probably some dirty business', 'the dirt and unhygienic circumstances, it\'s probably food poisoning', 'everything you\'ve seen so far, you don\'t really care and you probably don\'t want to know', 'the things and people you\'ve seen, you\'re not waiting to find out', 'everything in this place, it must be something horrifying', 'judging by the people in this place, it\'s probably something shady and possibly dangerous for strangers like you'];
   }
 
-  const random1a = parseInt(Math.floor((Math.random() * names1.length)));
-  let random1b = parseInt(Math.floor((Math.random() * names1.length)));
+  const random1a = parseInt(Math.floor((Math.random() * names1.length)), 10);
+  let random1b = parseInt(Math.floor((Math.random() * names1.length)), 10);
   while (random1a === random1b) {
-    random1b = parseInt(Math.floor((Math.random() * names1.length)));
+    random1b = parseInt(Math.floor((Math.random() * names1.length)), 10);
   }
-  let random1c = parseInt(Math.floor((Math.random() * names1.length)));
+  let random1c = parseInt(Math.floor((Math.random() * names1.length)), 10);
   while (random1a === random1c || random1b === random1c) {
-    random1c = parseInt(Math.floor((Math.random() * names1.length)));
+    random1c = parseInt(Math.floor((Math.random() * names1.length)), 10);
   }
-  const random2 = parseInt(Math.floor((Math.random() * names2.length)));
-  const random3 = parseInt(Math.floor((Math.random() * names3.length)));
-  const random4 = parseInt(Math.floor((Math.random() * names4.length)));
-  const random5 = parseInt(Math.floor((Math.random() * names5.length)));
-  const random6 = parseInt(Math.floor((Math.random() * names6.length)));
-  const random7 = parseInt(Math.floor((Math.random() * names7.length)));
-  const random8a = parseInt(Math.floor((Math.random() * names8.length)));
-  let random8b = parseInt(Math.floor((Math.random() * names8.length)));
+  const random2 = parseInt(Math.floor((Math.random() * names2.length)), 10);
+  const random3 = parseInt(Math.floor((Math.random() * names3.length)), 10);
+  const random4 = parseInt(Math.floor((Math.random() * names4.length)), 10);
+  const random5 = parseInt(Math.floor((Math.random() * names5.length)), 10);
+  const random6 = parseInt(Math.floor((Math.random() * names6.length)), 10);
+  const random7 = parseInt(Math.floor((Math.random() * names7.length)), 10);
+  const random8a = parseInt(Math.floor((Math.random() * names8.length)), 10);
+  let random8b = parseInt(Math.floor((Math.random() * names8.length)), 10);
   while (random8a === random8b) {
-    random8b = parseInt(Math.floor((Math.random() * names8.length)));
+    random8b = parseInt(Math.floor((Math.random() * names8.length)), 10);
   }
-  const random9 = parseInt(Math.floor((Math.random() * names9.length)));
-  const random10 = parseInt(Math.floor((Math.random() * names10.length)));
-  const random11 = parseInt(Math.floor((Math.random() * names11.length)));
-  const random12 = parseInt(Math.floor((Math.random() * names12.length)));
-  const random13 = parseInt(Math.floor((Math.random() * names13.length)));
-  const random14 = parseInt(Math.floor((Math.random() * names14.length)));
-  const random15 = parseInt(Math.floor((Math.random() * names15.length)));
-  const random16 = parseInt(Math.floor((Math.random() * names16.length)));
-  const random17 = parseInt(Math.floor((Math.random() * names17.length)));
-  const random18 = parseInt(Math.floor((Math.random() * names18.length)));
-  const random19 = parseInt(Math.floor((Math.random() * names19.length)));
+  const random9 = parseInt(Math.floor((Math.random() * names9.length)), 10);
+  const random10 = parseInt(Math.floor((Math.random() * names10.length)), 10);
+  const random11 = parseInt(Math.floor((Math.random() * names11.length)), 10);
+  const random12 = parseInt(Math.floor((Math.random() * names12.length)), 10);
+  const random13 = parseInt(Math.floor((Math.random() * names13.length)), 10);
+  const random14 = parseInt(Math.floor((Math.random() * names14.length)), 10);
+  const random15 = parseInt(Math.floor((Math.random() * names15.length)), 10);
+  const random16 = parseInt(Math.floor((Math.random() * names16.length)), 10);
+  const random17 = parseInt(Math.floor((Math.random() * names17.length)), 10);
+  const random18 = parseInt(Math.floor((Math.random() * names18.length)), 10);
+  const random19 = parseInt(Math.floor((Math.random() * names19.length)), 10);
 
 
   const name = `From the outside it looks ${names1[random1a]}, ${names1[random1b]} and ${names1[random1c]}. ${names2[random2]} and ${names3[random3]} make up most of the building's outer structure.`;

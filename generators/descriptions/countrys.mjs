@@ -1,7 +1,7 @@
 export default function countrys() {
   const names1 = ['Lessau', 'Ogria', 'Fulor', 'Ostax', 'Quvania', 'Emain', 'Athea', 'Udor', 'Zorus', 'Oxtrad', 'Ashia', 'Bunia', 'Gorus', 'Omen', 'Asharia', 'Osium', 'Covania', 'Toria', 'Cedoria', 'Uskium'];
   const names2 = [' large', ' huge', 'n enormous', ' vast', 'n immense', ' little', ' modest', ' humble', ' small', ' tiny', 'n average-sized'];
-  let names3 = parseInt(Math.floor((Math.random() * 15000000 + 1000000)));
+  let names3 = parseInt(Math.floor((Math.random() * 15000000 + 1000000)), 10);
   const names4 = ['blood elves', 'dark elves', 'dwarves', 'elves', 'dwarves', 'elves', 'fairies', 'giants', 'gnomes', 'goblins', 'halflings', 'high elves', 'humans', 'humans', 'humans', 'humans', 'night elves', 'orcs', 'trolls', 'wood elves'];
   const names5 = ['a bamboo forest', 'a calm ocean', 'a calm river', 'a calm sea', 'rich forests', 'fertile grounds', 'mineral rich mountains', 'a canal', 'a frozen sea', 'a glacier', 'a huge forest', 'a huge lake', 'a huge mountain', 'a huge ocean', 'a huge sea', 'a jungle', 'a large mountain', 'a large, frozen lake', 'a marsh', 'a mountain', 'a mountain range', 'a river', 'a sea', 'a small mountain range', 'a small ocean', 'a small sea', 'a stone wall', 'a swampland', 'a tall mountain range', 'a tropical forest', 'a volcano', 'a wide river', 'a wild ocean', 'a wild river', 'a wild sea', 'an ocean', 'desertland', 'fjords', 'frozen lands', 'frozen mountains', 'highlands', 'hills', 'huge cliffs', 'huge mountains', 'huge, open plains', 'large hills', 'large mountains', 'large rock formations', 'pristine beaches', 'rough beaches', 'tall mountains', 'wasteland', 'woodlands'];
   const names6 = ['alchemy', 'animal breeding', 'animal training', 'armorsmithing', 'baking', 'beer brewing', 'blacksmithing', 'carpenting', 'cooking', 'crafting', 'engineering', 'farming', 'fishing', 'fletching', 'herbalism', 'hunting', 'jewelcrafting', 'leatherworking', 'medicine', 'mining', 'tailoring', 'thieving', 'trade', 'war', 'weaponsmithing', 'wine brewing', 'wood production', 'woodcrafting'];
@@ -28,28 +28,28 @@ export default function countrys() {
   const names27 = ['is a bell', 'is a bird\'s claw', 'is a bow', 'is a bow and arrow', 'is a castle', 'is a cat', 'is a chicken', 'is a crescent moon', 'is a dagger', 'is a dog', 'is a dragon', 'is a dragontooth', 'is a feather', 'is a fish', 'is a flower', 'is a hammer', 'is a hand', 'is a large star', 'is a lion', 'is a local animal', 'is a moon', 'is a mythical bird', 'is a rooster', 'is a sea monster', 'is a sickle', 'is a skull', 'is a snake', 'is a snowflake', 'is a spear', 'is a spider', 'is a sword', 'is a tree', 'is a twig', 'is a whale', 'is a whale\'s tail', 'is a wolf', 'is an anima\'s claw', 'is an animal\'s tail', 'is an arrow', 'is an eagle', 'is an important spiritual symbol', 'are angel wings', 'are animal teeth', 'are devil horns', 'is grain', 'are snowflakes', 'is the sun', 'are three fish', 'are two arrows', 'are two cats', 'are two daggers', 'are two dogs', 'are two dragonteeth', 'are two feathers', 'are two fish', 'are two hands', 'are two lions', 'are two ravens', 'are two shaking hands', 'are two twigs', 'are two wolves'];
   const names28 = ['above a lake', 'above a river', 'on a circle', 'on a hexagon', 'on a pentagon', 'on a shield', 'on a square', 'on a triangle', 'on top of a hill', 'on top of a mountain', 'on top of a stripe', 'on top of a wave', 'on top of three small circles', 'on top of three stripes', 'on top of two small circles', 'on top of two stripes', 'on top of two waves', 'surrounded by 3 small stars', 'surrounded by leaves', 'surrounded by small stars', 'surrounded by smaller spiritual symbols', 'surrounded by stripes', 'surrounded by sun rays', 'under a key', 'with 2 pillars on either side', 'with two arrows on either side', 'with two keys on either side', 'with two shields on either side', 'with two smaller spiritual symbols on either side', 'with two swords on either side'];
 
-  const random1 = parseInt(Math.floor((Math.random() * names1.length)));
-  const random2 = parseInt(Math.floor((Math.random() * names2.length)));
+  const random1 = parseInt(Math.floor((Math.random() * names1.length)), 10);
+  const random2 = parseInt(Math.floor((Math.random() * names2.length)), 10);
   if (random2 > 4) {
-    names3 = parseInt(Math.floor((Math.random() * 1200000 + 100000)));
+    names3 = parseInt(Math.floor((Math.random() * 1200000 + 100000)), 10);
   } else if (random2 == 10) {
-    names3 = parseInt(Math.floor((Math.random() * 5000000 + 500000)));
+    names3 = parseInt(Math.floor((Math.random() * 5000000 + 500000)), 10);
   }
-  const random4 = parseInt(Math.floor((Math.random() * names4.length)));
-  const random5 = parseInt(Math.floor((Math.random() * names5.length)));
-  const random6 = parseInt(Math.floor((Math.random() * names5.length)));
-  const random7 = parseInt(Math.floor((Math.random() * names5.length)));
-  const random8 = parseInt(Math.floor((Math.random() * names5.length)));
-  const random9 = parseInt(Math.floor((Math.random() * names6.length)));
-  let random10 = parseInt(Math.floor((Math.random() * names6.length)));
+  const random4 = parseInt(Math.floor((Math.random() * names4.length)), 10);
+  const random5 = parseInt(Math.floor((Math.random() * names5.length)), 10);
+  const random6 = parseInt(Math.floor((Math.random() * names5.length)), 10);
+  const random7 = parseInt(Math.floor((Math.random() * names5.length)), 10);
+  const random8 = parseInt(Math.floor((Math.random() * names5.length)), 10);
+  const random9 = parseInt(Math.floor((Math.random() * names6.length)), 10);
+  let random10 = parseInt(Math.floor((Math.random() * names6.length)), 10);
   while (random9 == random10) {
-    random10 = parseInt(Math.floor((Math.random() * names6.length)));
+    random10 = parseInt(Math.floor((Math.random() * names6.length)), 10);
   }
-  let random11 = parseInt(Math.floor((Math.random() * names6.length)));
+  let random11 = parseInt(Math.floor((Math.random() * names6.length)), 10);
   while (random11 == random10 || random11 == random9) {
-    random11 = parseInt(Math.floor((Math.random() * names6.length)));
+    random11 = parseInt(Math.floor((Math.random() * names6.length)), 10);
   }
-  const random12 = parseInt(Math.floor((Math.random() * names7.length)));
+  const random12 = parseInt(Math.floor((Math.random() * names7.length)), 10);
   if (random12 < 3) {
     names7b = ['cold', 'snowy', 'arctic', 'polar', 'windy', 'stormy', 'calm'];
   } else if (random12 < 6 && random12 > 2) {
@@ -59,60 +59,60 @@ export default function countrys() {
   } else if (random12 < 14 && random12 > 9) {
     names7b = ['humid', 'warm', 'wet', 'tropical', 'rainy', 'stormy', 'calm'];
   }
-  const random3 = parseInt(Math.floor((Math.random() * names7b.length)));
-  const random13 = parseInt(Math.floor((Math.random() * names8.length)));
+  const random3 = parseInt(Math.floor((Math.random() * names7b.length)), 10);
+  const random13 = parseInt(Math.floor((Math.random() * names8.length)), 10);
   if (random13 < 8) {
     names10 = ['villages', 'tiny villages', 'small villages', 'small towns', 'tiny towns', 'towns', 'small hamlets', 'hamlets', 'small outposts', 'outposts', 'townships', 'small settlements', 'tiny settlements'];
   }
-  const random15 = parseInt(Math.floor((Math.random() * names10.length)));
-  const random17 = parseInt(Math.floor((Math.random() * names12.length)));
+  const random15 = parseInt(Math.floor((Math.random() * names10.length)), 10);
+  const random17 = parseInt(Math.floor((Math.random() * names12.length)), 10);
   if (random17 > 16) {
     names13 = ['somber hills', 'wild rivers', 'cold, windy mountains', 'dreary fields', 'chaotic, overgrown fields', 'silent mountains', 'rushing rivers', 'dried up lakes', 'gloomy forests', 'aggressive wildlife', 'withered flower fields', 'prickly flowers', 'ice-cold mountains', 'forgotten farmlands', 'dark, gloomy forests', 'black lakes', 'dry, barren fields', 'dangerous mountains', 'collapsing fjords', 'destructive waterfalls', 'smelly, overgrown ponds', 'bleak, bare forests', 'decaying forests', 'ominous trees', 'rocky beaches', 'fiercy rock formations', 'desolate grasslands', 'small, deserted waterfalls', 'concealed mountain views', 'somber architecture', 'icy springs', 'depressing fields', 'wild, overgrown forests', 'black, decaying trees', 'icy, snow covered fields', 'steep, sinister mountains', 'creepy, aquatic wildlife', 'drying rivers', 'murky lakes', 'an ash spewing volcano'];
     names14 = ['dangers', 'roughness', 'crudeness', 'harshness', 'brusqueness', 'unrefinement', 'foulness', 'crudity', 'blankness', 'barrenness', 'sterility', 'aridity', 'bleakness', 'desolation', 'melancholia', 'loneliness', 'solitude', 'obscurity', 'misery', 'dysphoria'];
     names15 = ['a shunned destination', 'a skipped destination', 'an avoided destination', 'an evaded destination', 'an infamous destination', 'an unpopular destination', 'avoided', 'despised', 'dodged', 'evaded', 'ignored', 'infamous', 'neglected', 'notorious', 'rejected', 'scorned', 'shirked', 'shunned', 'unpopular', 'hated'];
   }
-  const random18 = parseInt(Math.floor((Math.random() * names13.length)));
-  const random19 = parseInt(Math.floor((Math.random() * names13.length)));
-  const random20 = parseInt(Math.floor((Math.random() * names13.length)));
-  const random21 = parseInt(Math.floor((Math.random() * names14.length)));
-  const random22 = parseInt(Math.floor((Math.random() * names15.length)));
-  const random23 = parseInt(Math.floor((Math.random() * names16.length)));
+  const random18 = parseInt(Math.floor((Math.random() * names13.length)), 10);
+  const random19 = parseInt(Math.floor((Math.random() * names13.length)), 10);
+  const random20 = parseInt(Math.floor((Math.random() * names13.length)), 10);
+  const random21 = parseInt(Math.floor((Math.random() * names14.length)), 10);
+  const random22 = parseInt(Math.floor((Math.random() * names15.length)), 10);
+  const random23 = parseInt(Math.floor((Math.random() * names16.length)), 10);
   if (random23 > 19) {
     names18 = ['turned cheeks', 'avoiding eyes', 'greed', 'coldness', 'avoidance', 'resentment', 'animosity', 'irritation', 'annoyance', 'displeasure', 'cynicism', 'bitterness', 'turned backs', 'sarcasm', 'apathy', 'indifference', 'disintrest', 'disdain', 'nonchalance', 'neutrality', 'detachment'];
     names19 = ['block', 'butcher', 'constrain', 'cripple', 'damage', 'deface', 'disturb', 'further delay', 'further ruin', 'hamper', 'harm', 'hinder', 'hold up', 'inhibit', 'injure', 'interfere with', 'interrupt', 'mutilate', 'obstruct', 'pollute', 'prohibit', 'ravage', 'restrict', 'ruin', 'sabotage', 'slow down', 'suppress', 'thwart', 'weigh down'];
   }
-  const random25 = parseInt(Math.floor((Math.random() * names18.length)));
-  const random26 = parseInt(Math.floor((Math.random() * names19.length)));
-  const random27 = parseInt(Math.floor((Math.random() * names20.length)));
+  const random25 = parseInt(Math.floor((Math.random() * names18.length)), 10);
+  const random26 = parseInt(Math.floor((Math.random() * names19.length)), 10);
+  const random27 = parseInt(Math.floor((Math.random() * names20.length)), 10);
   if (random23 > 9) {
     names22 = ['aggravated', 'agitated', 'angered', 'anquished', 'anxious', 'concerend', 'displeased', 'distressed', 'disturbed', 'frightened', 'hostily', 'irritated', 'restless', 'tormented', 'troubled', 'unbalanced', 'unfriendly', 'unsatisfied', 'upset', 'violent'];
     names23 = ['failing crops, caused by', 'recent wars, caused by', 'impending wars, caused by', 'ferocious wildlife, caused by', 'mediocre medicine, caused by', 'gloomy nature, caused by', 'questionable safety, caused by', 'lack of freedom, caused by', 'lack of food variety, caused by', 'spreading diseases, caused by', 'recent destructions, caused by', 'infertile lands, caused by', 'a decreasing population, caused by', 'lack of trade, caused by', 'traitors and spies, caused by', 'distressed nature and wildlife, caused by', 'declining neighbor relations, caused by', 'their unhealthy lives, caused by', 'a lack of skilled craftsmen, caused by', 'deteriorating infrastructure, caused by'];
     names24 = ['horrible leadership', 'unfortunate natural elements', 'unfortunate natural properties', 'angered spirits', 'lackluster and lazy lifestyles', 'an ancient curse', 'old superstitions', 'an unfortunate climate', 'recent climate changes', 'lost skills and secrets', 'technological setbacks', 'unfortunate genetics', 'natural disasters', 'declining natural resources', 'greed', 'irrational fears and superstitions', 'remnants of a dark history', 'remnants of a civil war', 'a struggling economy', 'sticking to outdated traditions'];
   }
-  const random28 = parseInt(Math.floor((Math.random() * names21.length)));
-  const random29 = parseInt(Math.floor((Math.random() * names22.length)));
-  const random30 = parseInt(Math.floor((Math.random() * names23.length)));
-  const random31 = parseInt(Math.floor((Math.random() * names24.length)));
-  const random32 = parseInt(Math.floor((Math.random() * names25.length)));
-  const random33 = parseInt(Math.floor((Math.random() * names26.length)));
-  let random33b = parseInt(Math.floor((Math.random() * names26b.length)));
+  const random28 = parseInt(Math.floor((Math.random() * names21.length)), 10);
+  const random29 = parseInt(Math.floor((Math.random() * names22.length)), 10);
+  const random30 = parseInt(Math.floor((Math.random() * names23.length)), 10);
+  const random31 = parseInt(Math.floor((Math.random() * names24.length)), 10);
+  const random32 = parseInt(Math.floor((Math.random() * names25.length)), 10);
+  const random33 = parseInt(Math.floor((Math.random() * names26.length)), 10);
+  let random33b = parseInt(Math.floor((Math.random() * names26b.length)), 10);
   while (random33b == random33) {
-    random33b = parseInt(Math.floor((Math.random() * names26b.length)));
+    random33b = parseInt(Math.floor((Math.random() * names26b.length)), 10);
   }
-  let random33c = parseInt(Math.floor((Math.random() * names26b.length)));
+  let random33c = parseInt(Math.floor((Math.random() * names26b.length)), 10);
   while (random33b == random33c || random33 == random33c) {
-    random33c = parseInt(Math.floor((Math.random() * names26b.length)));
+    random33c = parseInt(Math.floor((Math.random() * names26b.length)), 10);
   }
-  let random33d = parseInt(Math.floor((Math.random() * names26b.length)));
+  let random33d = parseInt(Math.floor((Math.random() * names26b.length)), 10);
   while (random33d == random33 || random33d == random33b || random33d == random33c) {
-    random33d = parseInt(Math.floor((Math.random() * names26b.length)));
+    random33d = parseInt(Math.floor((Math.random() * names26b.length)), 10);
   }
-  let random33e = parseInt(Math.floor((Math.random() * names26c.length)));
+  let random33e = parseInt(Math.floor((Math.random() * names26c.length)), 10);
   while (random33e == random33 || random33e == random33b || random33e == random33c || random33e == random33d) {
-    random33e = parseInt(Math.floor((Math.random() * names26c.length)));
+    random33e = parseInt(Math.floor((Math.random() * names26c.length)), 10);
   }
-  const random34 = parseInt(Math.floor((Math.random() * names27.length)));
-  const random35 = parseInt(Math.floor((Math.random() * names28.length)));
+  const random34 = parseInt(Math.floor((Math.random() * names27.length)), 10);
+  const random35 = parseInt(Math.floor((Math.random() * names28.length)), 10);
 
   const name = `The country of ${names1[random1]} is a${names2[random2]} country with a population of ${names3} ${names4[random4]}`;
   const name2 = `Bordered between ${names5[random5]} to the North, ${names5[random6]} to the South, ${names5[random7]} to the East and ${names5[random8]} to the West, the country of ${names1[random1]} mainly lives of ${names6[random9]}, ${names6[random10]} and ${names6[random11]}.`;

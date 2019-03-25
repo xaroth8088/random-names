@@ -13,21 +13,21 @@ export default function dragons() {
   const i = Math.floor(Math.random() * 10);
   {
     if (i < 8) {
-      rnd = parseInt(Math.floor((Math.random() * names1.length)));
-      rnd2 = parseInt(Math.floor((Math.random() * names1.length)));
+      rnd = parseInt(Math.floor((Math.random() * names1.length)), 10);
+      rnd2 = parseInt(Math.floor((Math.random() * names1.length)), 10);
       while (rnd2 === rnd) {
-        rnd2 = parseInt(Math.floor((Math.random() * names1.length)));
+        rnd2 = parseInt(Math.floor((Math.random() * names1.length)), 10);
       }
-      rnd3 = parseInt(Math.floor((Math.random() * names1.length)));
+      rnd3 = parseInt(Math.floor((Math.random() * names1.length)), 10);
       while (rnd3 === rnd || rnd3 === rnd2) {
-        rnd3 = parseInt(Math.floor((Math.random() * names1.length)));
+        rnd3 = parseInt(Math.floor((Math.random() * names1.length)), 10);
       }
       names = names1[rnd] + names1[rnd2] + names1[rnd3];
     } else {
-      rnd = parseInt(Math.floor((Math.random() * names1.length)));
-      rnd2 = parseInt(Math.floor((Math.random() * names1.length)));
+      rnd = parseInt(Math.floor((Math.random() * names1.length)), 10);
+      rnd2 = parseInt(Math.floor((Math.random() * names1.length)), 10);
       while (rnd2 === rnd) {
-        rn22 = parseInt(Math.floor((Math.random() * names1.length)));
+        rn22 = parseInt(Math.floor((Math.random() * names1.length)), 10);
       }
       names = names1[rnd] + names1[rnd2];
     }

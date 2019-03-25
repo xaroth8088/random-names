@@ -26,38 +26,38 @@ export default function towns() {
 
   const names41 = ['affluent', 'beautiful', 'bleak', 'booming', 'cheerful', 'comfortable', 'delightful', 'enjoyable', 'flourishing', 'frightful', 'gloomy', 'gracious', 'grim', 'grisly', 'growing', 'gruesome', 'harsh', 'horrendous', 'horrible', 'horrific', 'luxuriant', 'macabre', 'pleasant', 'pleasurable', 'prosperous', 'sinister', 'somber', 'terrible', 'terrifying', 'thriving'];
 
-  const random1 = parseInt(Math.floor((Math.random() * names1.length)));
-  const random2 = parseInt(Math.floor((Math.random() * names2.length)));
-  const random3 = parseInt(Math.floor((Math.random() * names3.length)));
-  const random4 = parseInt(Math.floor((Math.random() * names4.length)));
+  const random1 = parseInt(Math.floor((Math.random() * names1.length)), 10);
+  const random2 = parseInt(Math.floor((Math.random() * names2.length)), 10);
+  const random3 = parseInt(Math.floor((Math.random() * names3.length)), 10);
+  const random4 = parseInt(Math.floor((Math.random() * names4.length)), 10);
 
-  const random6 = parseInt(Math.floor((Math.random() * names6.length)));
-  const random6b = parseInt(Math.floor((Math.random() * names6.length)));
+  const random6 = parseInt(Math.floor((Math.random() * names6.length)), 10);
+  const random6b = parseInt(Math.floor((Math.random() * names6.length)), 10);
 
-  const random9 = parseInt(Math.floor((Math.random() * names9.length)));
-  const random10 = parseInt(Math.floor((Math.random() * names10.length)));
+  const random9 = parseInt(Math.floor((Math.random() * names9.length)), 10);
+  const random10 = parseInt(Math.floor((Math.random() * names10.length)), 10);
 
-  const random11 = parseInt(Math.floor((Math.random() * names11.length)));
-  let random12 = parseInt(Math.floor((Math.random() * names11.length)));
+  const random11 = parseInt(Math.floor((Math.random() * names11.length)), 10);
+  let random12 = parseInt(Math.floor((Math.random() * names11.length)), 10);
   while (random12 == random11) {
-    random12 = parseInt(Math.floor((Math.random() * names11.length)));
+    random12 = parseInt(Math.floor((Math.random() * names11.length)), 10);
   }
-  let random13 = parseInt(Math.floor((Math.random() * names11.length)));
+  let random13 = parseInt(Math.floor((Math.random() * names11.length)), 10);
   while (random13 == random12 || random13 == random11) {
-    random13 = parseInt(Math.floor((Math.random() * names11.length)));
+    random13 = parseInt(Math.floor((Math.random() * names11.length)), 10);
   }
-  const random14 = parseInt(Math.floor((Math.random() * names14.length)));
-  let random15 = parseInt(Math.floor((Math.random() * names14.length)));
+  const random14 = parseInt(Math.floor((Math.random() * names14.length)), 10);
+  let random15 = parseInt(Math.floor((Math.random() * names14.length)), 10);
   while (random15 == random14) {
-    random15 = parseInt(Math.floor((Math.random() * names14.length)));
+    random15 = parseInt(Math.floor((Math.random() * names14.length)), 10);
   }
 
-  let random16 = parseInt(Math.floor((Math.random() * names11.length)));
+  let random16 = parseInt(Math.floor((Math.random() * names11.length)), 10);
   while (random16 == random11 || random16 == random12 || random16 == random13) {
-    random16 = parseInt(Math.floor((Math.random() * names11.length)));
+    random16 = parseInt(Math.floor((Math.random() * names11.length)), 10);
   }
 
-  const random17 = parseInt(Math.floor((Math.random() * names17.length)));
+  const random17 = parseInt(Math.floor((Math.random() * names17.length)), 10);
 
   if (random17 > 16) {
     names18 = ['metal shingle', 'galvanised steel', 'rusted', 'decaying', 'blackened', 'gray', 'black wooden', 'dark wooden', 'murky wooden', 'gloomy wooden', 'half rotten'];
@@ -65,17 +65,17 @@ export default function towns() {
     names20 = ['decaying trees', 'rotten fields', 'broken roads', 'overgrown gardens', 'vines overgrowing everything', 'unmaintained gardens', 'foggy surroundings', 'murky woods', 'musky swamps', 'menacing mountain tops', 'barren grounds', 'absolute silence', 'a large graveyard', 'large cobwebs', 'dusty windows', 'dirty roads', 'thick smoke', 'creaking wood', 'whistling wind', 'scary animals', 'a lot of insects', 'scavenger birds', 'ominous scarecrows'];
     names21 = ['bizarre', 'bleak', 'chilling', 'creepy', 'dark', 'desolate', 'dreary', 'dull', 'eerie', 'foreboding', 'frightening', 'ghostly', 'ghoulish', 'gloomy', 'grim', 'grisly', 'gruesome', 'macabre', 'morbid', 'mysterious', 'ominous', 'peculiar', 'repulsive', 'revolting', 'sinister', 'somber', 'spine-chilling', 'supernatural', 'uncanny', 'unearthly'];
   }
-  const random18 = parseInt(Math.floor((Math.random() * names18.length)));
-  const random20 = parseInt(Math.floor((Math.random() * names20.length)));
+  const random18 = parseInt(Math.floor((Math.random() * names18.length)), 10);
+  const random20 = parseInt(Math.floor((Math.random() * names20.length)), 10);
 
-  const random21 = parseInt(Math.floor((Math.random() * names21.length)));
+  const random21 = parseInt(Math.floor((Math.random() * names21.length)), 10);
 
-  const random38 = parseInt(Math.floor((Math.random() * names38.length)));
+  const random38 = parseInt(Math.floor((Math.random() * names38.length)), 10);
 
-  const random39 = parseInt(Math.floor((Math.random() * 50 + 20)));
+  const random39 = parseInt(Math.floor((Math.random() * 50 + 20)), 10);
   const random40 = random39.toString();
 
-  const random41 = parseInt(Math.floor((Math.random() * names41.length)));
+  const random41 = parseInt(Math.floor((Math.random() * names41.length)), 10);
 
   if (random6 == 2) {
     names5 = ['Gorash', 'Ogrinar', 'Tohrall', 'Dranorg', 'Hammerfall', 'Orsanum', 'Wrothguard', 'Garlund', 'Kharn', 'Xarluk'];
@@ -110,10 +110,10 @@ export default function towns() {
     names21 = ['bizarre', 'bleak', 'chilling', 'creepy', 'dark', 'desolate', 'dreary', 'dull', 'eerie', 'foreboding', 'frightening', 'ghostly', 'ghoulish', 'gloomy', 'grim', 'grisly', 'gruesome', 'macabre', 'morbid', 'mysterious', 'ominous', 'peculiar', 'repulsive', 'revolting', 'sinister', 'somber', 'spine-chilling', 'supernatural', 'uncanny', 'unearthly'];
   }
 
-  random5 = parseInt(Math.floor((Math.random() * names5.length)));
-  random7 = parseInt(Math.floor((Math.random() * names7.length)));
-  random8 = parseInt(Math.floor((Math.random() * names8.length)));
-  const random19 = parseInt(Math.floor((Math.random() * names19.length)));
+  random5 = parseInt(Math.floor((Math.random() * names5.length)), 10);
+  random7 = parseInt(Math.floor((Math.random() * names7.length)), 10);
+  random8 = parseInt(Math.floor((Math.random() * names8.length)), 10);
+  const random19 = parseInt(Math.floor((Math.random() * names19.length)), 10);
 
   const name = `${names1[random1]} ${names2[random2]} a ${names3[random3]}, the ${names4[random4]} of ${names5[random5]} is home to ${names6[random6]} lead by ${names7[random7]} ${names8[random8]}.`;
   const name2 = `This ${names4[random4]} wasn't built by a${names3[random3]} by accident, as it has ${names9[random9]}, which is of great importance to the people of ${names5[random5]} and its success.`;

@@ -27,18 +27,18 @@ export default function societys() {
   let names22 = ' have ';
   let names23 = ['many special ceremonies', 'an abundance of celebrations', 'an interesting way of life', 'special rituals', 'intriguing rites of passage', 'strict rules', 'firm beliefs', 'beautiful customs', 'ancient traditions', 'odd formalities'];
 
-  const random1 = parseInt(Math.floor((Math.random() * names1.length)));
-  const random2 = parseInt(Math.floor((Math.random() * names2.length)));
-  const random3a = parseInt(Math.floor((Math.random() * names3.length)));
-  let random3b = parseInt(Math.floor((Math.random() * names3.length)));
+  const random1 = parseInt(Math.floor((Math.random() * names1.length)), 10);
+  const random2 = parseInt(Math.floor((Math.random() * names2.length)), 10);
+  const random3a = parseInt(Math.floor((Math.random() * names3.length)), 10);
+  let random3b = parseInt(Math.floor((Math.random() * names3.length)), 10);
   while (random3b === random3a) {
-    random3b = parseInt(Math.floor((Math.random() * names3.length)));
+    random3b = parseInt(Math.floor((Math.random() * names3.length)), 10);
   }
-  let random3c = parseInt(Math.floor((Math.random() * names3.length)));
+  let random3c = parseInt(Math.floor((Math.random() * names3.length)), 10);
   while (random3c === random3a || random3c === random3b) {
-    random3c = parseInt(Math.floor((Math.random() * names3.length)));
+    random3c = parseInt(Math.floor((Math.random() * names3.length)), 10);
   }
-  const random4 = parseInt(Math.floor((Math.random() * names4.length)));
+  const random4 = parseInt(Math.floor((Math.random() * names4.length)), 10);
   if (random4 > 14) {
     names6 = ' a lot in ';
     names13 = ['bitter', 'cheerless', 'depressed', 'distressed', 'gloomy', 'miserable', 'pessimistic', 'sorrowful', 'troubled', 'unhappy'];
@@ -47,29 +47,29 @@ export default function societys() {
     names16 = ' is really ';
     names17 = ' some ';
   }
-  const random5a = parseInt(Math.floor((Math.random() * names5.length)));
-  let random5b = parseInt(Math.floor((Math.random() * names5.length)));
+  const random5a = parseInt(Math.floor((Math.random() * names5.length)), 10);
+  let random5b = parseInt(Math.floor((Math.random() * names5.length)), 10);
   while (random5b === random5a) {
-    random5b = parseInt(Math.floor((Math.random() * names5.length)));
+    random5b = parseInt(Math.floor((Math.random() * names5.length)), 10);
   }
-  let random5c = parseInt(Math.floor((Math.random() * names5.length)));
+  let random5c = parseInt(Math.floor((Math.random() * names5.length)), 10);
   while (random5c === random5a || random5c === random5b) {
-    random5c = parseInt(Math.floor((Math.random() * names5.length)));
+    random5c = parseInt(Math.floor((Math.random() * names5.length)), 10);
   }
-  let random5d = parseInt(Math.floor((Math.random() * names5.length)));
+  let random5d = parseInt(Math.floor((Math.random() * names5.length)), 10);
   while (random5d === random5a || random5d === random5b || random5d === random5c) {
-    random5d = parseInt(Math.floor((Math.random() * names5.length)));
+    random5d = parseInt(Math.floor((Math.random() * names5.length)), 10);
   }
-  let random5e = parseInt(Math.floor((Math.random() * names5.length)));
+  let random5e = parseInt(Math.floor((Math.random() * names5.length)), 10);
   while (random5e === random5a || random5e === random5b || random5e === random5c || random5e === random5d) {
-    random5e = parseInt(Math.floor((Math.random() * names5.length)));
+    random5e = parseInt(Math.floor((Math.random() * names5.length)), 10);
   }
-  const random7 = parseInt(Math.floor((Math.random() * names7.length)));
-  const random8 = parseInt(Math.floor((Math.random() * names8.length)));
+  const random7 = parseInt(Math.floor((Math.random() * names7.length)), 10);
+  const random8 = parseInt(Math.floor((Math.random() * names8.length)), 10);
   if (random8 === 1) {
     names9 = ['quite a few', 'a couple of', 'some', 'a few small', 'a lot of', 'many', 'some strong', 'fairly strong'];
   }
-  const random9 = parseInt(Math.floor((Math.random() * names9.length)));
+  const random9 = parseInt(Math.floor((Math.random() * names9.length)), 10);
   if (random9 > 4) {
     if (random8 === 0) {
       names10 = [', but they pose no real threat.', ', but they\'re not taken seriously by the general public.', ', but they\'re nothing more than a few sensationalists.', ', but these are mostly conspiracy theorists with a small following.', ' and these could grow into bigger, more serious problems.', ' and these may turn out to be bigger problems than expected.', ', but these small groups could turn into bigger problems quite fast.', ', but these smaller threats could get out of control fast.', ', but luckily they form no real threat to the safety of the people.', ', but fortunately they\'re no danger to the public and are largely unknown to the public.', ' and while they may be small now, they\'re slowly growing.', ' and although they\'re steadily growing, they\'re also being dealt with by the leaders.', ' and they seem to be steadily decreasing and slowly dying out.', ' and their insignificance means they pose no danger to the public.', ', but they\'re too small to have to worry about.'];
@@ -77,14 +77,14 @@ export default function societys() {
       names10 = [', but despite their size they form no real danger to the current leadership.', ', but they\'re already beginning to lose public interest and are declining in size.', ' and they continue to grow at a rapid pace.', ' and they slowly gain more and more public interest.', ' and they might very soon become a force to be reckoned with.', ', but they\'re far from becoming a real opposing force.', ', but so far they\'ve stuck to peaceful protests.', ' and they have no issue with resorting to violence.', ' and their size could soon become a problem.', ' and they may one day overthrow the current leadership.', ', but they mainly want a change of way things are lead, rather than a new leadership.', ', but they will most likely remain a fairly insignificant threat.', ' and despite their size, they\'re slowly losing relevance and the public interest.', ' and although they could overthrow the current leadership, the majority of the public is still in favor of the current leaders.', ', but the general public opposes their views, so they form no real threat to the current leaders.'];
     }
   }
-  const random10 = parseInt(Math.floor((Math.random() * names10.length)));
-  const random11 = parseInt(Math.floor((Math.random() * names11.length)));
-  const random12 = parseInt(Math.floor((Math.random() * names12.length)));
-  const random13 = parseInt(Math.floor((Math.random() * names13.length)));
-  const random14 = parseInt(Math.floor((Math.random() * names14.length)));
-  const random18 = parseInt(Math.floor((Math.random() * names18.length)));
-  const random19 = parseInt(Math.floor((Math.random() * names19.length)));
-  const random20 = parseInt(Math.floor((Math.random() * names20.length)));
+  const random10 = parseInt(Math.floor((Math.random() * names10.length)), 10);
+  const random11 = parseInt(Math.floor((Math.random() * names11.length)), 10);
+  const random12 = parseInt(Math.floor((Math.random() * names12.length)), 10);
+  const random13 = parseInt(Math.floor((Math.random() * names13.length)), 10);
+  const random14 = parseInt(Math.floor((Math.random() * names14.length)), 10);
+  const random18 = parseInt(Math.floor((Math.random() * names18.length)), 10);
+  const random19 = parseInt(Math.floor((Math.random() * names19.length)), 10);
+  const random20 = parseInt(Math.floor((Math.random() * names20.length)), 10);
   if (random18 < 4 && random20 > 3) {
     names21 = ' either ';
     names22 = ' rely more on ';
@@ -98,10 +98,10 @@ export default function societys() {
     names22 = ' have ';
     names23 = ['many special ceremonies', 'an abundance of celebrations', 'an interesting way of life', 'special rituals', 'intriguing rites of passage', 'strict rules', 'firm beliefs', 'beautiful customs', 'ancient traditions', 'odd formalities'];
   }
-  const random23a = parseInt(Math.floor((Math.random() * names23.length)));
-  let random23b = parseInt(Math.floor((Math.random() * names23.length)));
+  const random23a = parseInt(Math.floor((Math.random() * names23.length)), 10);
+  let random23b = parseInt(Math.floor((Math.random() * names23.length)), 10);
   while (random23a === random23b) {
-    random23b = parseInt(Math.floor((Math.random() * names23.length)));
+    random23b = parseInt(Math.floor((Math.random() * names23.length)), 10);
   }
 
   const name = `The ${names1[random1]} of ${names2[random2]}. Built upon the ${names3[random3a]}, ${names3[random3b]} and ${names3[random3c]} of its past, this ${names1[random1]} is now among the ${names4[random4]} countries in its corner of the world.`;

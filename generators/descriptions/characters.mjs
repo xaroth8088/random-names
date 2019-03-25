@@ -42,7 +42,7 @@ export default function charactersMale() {
     const names27 = ['keep their distance', 'flock towards him', 'worship him', 'befriend him', 'assist him', 'follow him', 'welcome him', 'welcome him with open arms', 'invite him into their homes', 'hit it off with him', 'ask him for favors', 'shower him with gifts', 'subtly ignore him', 'pretend to be his friend', 'pretend to be his best friend', 'lie about knowing him to brag', 'brag about knowing him', 'take pride in knowing him', 'take pride in knowing him as a friend', 'wish to get to know him better', 'become his friend', 'socialize with him', 'try to get him to marry their off-spring', 'buy him a drink', 'salute him in the streets', 'stay on his good side', 'thank him for his service', 'ask him to tell stories', 'ask him about his adventures', 'ask him about his latest victory', 'share local gossip with him', 'be curious about him', 'treat him like family'];
     const names28 = ['trying to subtlely stare', 'secretly admiring him', 'trying to hide from him', 'trying to avoid him', 'trying to please him', 'secretly dispising him', 'jealousy consumes them', 'wishing they were more like him', 'thinking of ways to become his friend', 'wanting to fight along his side in battle', 'hoping to one day follow in his footsteps', 'secretly training to become more like him', 'trying to subtly look more like him', 'befriending his friends to get closer to him', 'learning as much about him as possible', 'commending him for his deeds', 'hoping he will one day be their leader', 'hoping their sons will grow up to be like him', 'helping him out in any way they can', 'awkwardly avoid talking about his past', 'spreading rumors about him behind his back', 'spreading stories about him', 'making up bigger stories about him', 'training with him whenever he\'s available', 'treating him to a good meal when he\'s around'];
 
-    const random21 = parseInt(Math.floor((Math.random() * names21.length)));
+    const random21 = parseInt(Math.floor((Math.random() * names21.length)), 10);
     if (random21 > 3 && random21 < 9) {
         names1 = ['Purple', 'Blue', 'Green', 'Red', 'White', 'Blonde', 'Brown', 'Light blue', 'Light green', 'Pink', 'Silver', 'Golden'];
         names2 = ['perfectly groomed hair', 'well groomed hair', 'sleek hair', 'long hair', 'curly hair', 'straight hair', 'flowing hair', 'wavy hair', 'shoulder-length hair'];
@@ -80,18 +80,18 @@ export default function charactersMale() {
         }
     }
 
-    const random1 = parseInt(Math.floor((Math.random() * names1.length)));
-    const random2 = parseInt(Math.floor((Math.random() * names2.length)));
-    const random3 = parseInt(Math.floor((Math.random() * names3.length)));
-    const random4 = parseInt(Math.floor((Math.random() * names4.length)));
-    const random5 = parseInt(Math.floor((Math.random() * names5.length)));
-    const random6 = parseInt(Math.floor((Math.random() * names6.length)));
-    const random7 = parseInt(Math.floor((Math.random() * names7.length)));
-    const random8 = parseInt(Math.floor((Math.random() * names8.length)));
-    const random9 = parseInt(Math.floor((Math.random() * names9.length)));
-    const random10 = parseInt(Math.floor((Math.random() * names10.length)));
-    const random11 = parseInt(Math.floor((Math.random() * names11.length)));
-    const random12 = parseInt(Math.floor((Math.random() * names12.length)));
+    const random1 = parseInt(Math.floor((Math.random() * names1.length)), 10);
+    const random2 = parseInt(Math.floor((Math.random() * names2.length)), 10);
+    const random3 = parseInt(Math.floor((Math.random() * names3.length)), 10);
+    const random4 = parseInt(Math.floor((Math.random() * names4.length)), 10);
+    const random5 = parseInt(Math.floor((Math.random() * names5.length)), 10);
+    const random6 = parseInt(Math.floor((Math.random() * names6.length)), 10);
+    const random7 = parseInt(Math.floor((Math.random() * names7.length)), 10);
+    const random8 = parseInt(Math.floor((Math.random() * names8.length)), 10);
+    const random9 = parseInt(Math.floor((Math.random() * names9.length)), 10);
+    const random10 = parseInt(Math.floor((Math.random() * names10.length)), 10);
+    const random11 = parseInt(Math.floor((Math.random() * names11.length)), 10);
+    const random12 = parseInt(Math.floor((Math.random() * names12.length)), 10);
     if (random12 > 6 && random12 < 9) {
         names13 = ['resembling a shield', 'resembling a sword', 'resembling a skull', 'resembling a flag', 'resembling a tear', 'of a small dragon', 'of a small cross', 'of a small star', 'of a small eagle', 'of a small swallow', 'of a small lion', 'of a small wolf', 'of a small bear', 'of a bear paw', 'of a lion paw', 'of an eagle claw', 'of a talon', 'of a dagger', 'of a wolf paw', 'of a shield', 'of a sword', 'of a skull', 'of a flag', 'of a tear', 'resembling a small dragon', 'resembling a small cross', 'resembling a small star', 'resembling a small eagle', 'resembling a small swallow', 'resembling a small lion', 'resembling a small wolf', 'resembling a small bear', 'resembling a bear paw', 'resembling a lion paw', 'resembling an eagle claw', 'resembling a talon', 'resembling a dagger', 'resembling a wolf paw'];
         names14 = ['is almost hidden', 'is displayed', 'is subtly placed', 'is prominently featured', 'is proudly worn'];
@@ -119,24 +119,24 @@ export default function charactersMale() {
         names16 = ['a pleasant memory', 'an amusing memory', 'a delightful memory', 'a gracious memory', 'a pleasurable memory', 'a bittersweet memory', 'a heartbreaking memory', 'a beautiful memory', 'a satisfying memory', 'a fascinating memory', 'a captivating memory', 'an intriguing memory', 'a compelling memory'];
         names17 = ['his past', 'his upbringing', 'his fortunate upbringing', 'his former lovers', 'his fortunate looks', 'his fortunate survival', 'his luck', 'his luck in battles', 'his luck in love', 'his fortunate destiny', 'his adventurous love life', 'his reckless luck', 'his fortunate adventures'];
     }
-    const random13 = parseInt(Math.floor((Math.random() * names13.length)));
-    const random14 = parseInt(Math.floor((Math.random() * names14.length)));
-    const random15 = parseInt(Math.floor((Math.random() * names15.length)));
-    const random16 = parseInt(Math.floor((Math.random() * names16.length)));
-    const random17 = parseInt(Math.floor((Math.random() * names17.length)));
-    const random18 = parseInt(Math.floor((Math.random() * names18.length)));
-    const random19 = parseInt(Math.floor((Math.random() * names19.length)));
-    const random20 = parseInt(Math.floor((Math.random() * names20.length)));
-    const random22 = parseInt(Math.floor((Math.random() * names22.length)));
-    const random23 = parseInt(Math.floor((Math.random() * names23.length)));
-    const random24 = parseInt(Math.floor((Math.random() * names24.length)));
-    const random25 = parseInt(Math.floor((Math.random() * names25.length)));
-    let random26 = parseInt(Math.floor((Math.random() * names26.length)));
+    const random13 = parseInt(Math.floor((Math.random() * names13.length)), 10);
+    const random14 = parseInt(Math.floor((Math.random() * names14.length)), 10);
+    const random15 = parseInt(Math.floor((Math.random() * names15.length)), 10);
+    const random16 = parseInt(Math.floor((Math.random() * names16.length)), 10);
+    const random17 = parseInt(Math.floor((Math.random() * names17.length)), 10);
+    const random18 = parseInt(Math.floor((Math.random() * names18.length)), 10);
+    const random19 = parseInt(Math.floor((Math.random() * names19.length)), 10);
+    const random20 = parseInt(Math.floor((Math.random() * names20.length)), 10);
+    const random22 = parseInt(Math.floor((Math.random() * names22.length)), 10);
+    const random23 = parseInt(Math.floor((Math.random() * names23.length)), 10);
+    const random24 = parseInt(Math.floor((Math.random() * names24.length)), 10);
+    const random25 = parseInt(Math.floor((Math.random() * names25.length)), 10);
+    let random26 = parseInt(Math.floor((Math.random() * names26.length)), 10);
     while (random26 == random25) {
-        random26 = parseInt(Math.floor((Math.random() * names26.length)));
+        random26 = parseInt(Math.floor((Math.random() * names26.length)), 10);
     }
-    const random27 = parseInt(Math.floor((Math.random() * names27.length)));
-    const random28 = parseInt(Math.floor((Math.random() * names28.length)));
+    const random27 = parseInt(Math.floor((Math.random() * names27.length)), 10);
+    const random28 = parseInt(Math.floor((Math.random() * names28.length)), 10);
 
     const name = `${names1[random1]}, ${names2[random2]} ${names3[random3]} a ${names4[random4]}, ${names5[random5]} face. ${names6[random6]} ${names7[random7]} eyes, set ${names8[random8]} within their sockets, watch ${names9[random9]} over the ${names10[random10]} they've ${names11[random11]} for so long.`;
     const name2 = `${names12[random12]} ${names13[random13]} ${names14[random14]} ${names15[random15]} leaves ${names16[random16]} of ${names17[random17]}.`;
@@ -196,7 +196,7 @@ export default function charactersFemale() {
     const names27 = ['keep their distance', 'flock towards her', 'worship her', 'befriend her', 'assist her', 'follow her', 'welcome her', 'welcome her with open arms', 'invite her into their homes', 'hit it off with her', 'ask her for favors', 'shower her with gifts', 'subtly ignore her', 'pretend to be her friend', 'pretend to be her best friend', 'lie about knowing her to brag', 'brag about knowing her', 'take pride in knowing her', 'take pride in knowing her as a friend', 'wish to get to know her better', 'become her friend', 'socialize with her', 'try to get her to marry their off-spring', 'buy her a drink', 'salute her in the streets', 'stay on her good side', 'thank her for her service', 'ask her to tell stories', 'ask her about her adventures', 'ask her about her latest victory', 'share local gossip with her', 'be curious about her', 'treat her like family', 'hopelessly try to seduce her'];
     const names28 = ['trying to subtlely stare', 'secretly admiring her', 'trying to hide from her', 'trying to avoid her', 'trying to please her', 'secretly dispising her', 'jealousy consumes them', 'wishing they were more like her', 'thinking of ways to become her friend', 'wanting to fight along her side in battle', 'hoping to one day follow in her footsteps', 'secretly training to become more like her', 'trying to subtly look more like her', 'befriending her friends to get closer to her', 'learning as much about her as possible', 'commending her for her deeds', 'hoping she will one day be their leader', 'hoping their sons will grow up to be like her', 'helping her out in any way they can', 'awkwardly avoid talking about her past', 'spreading rumors about her behind her back', 'spreading stories about her', 'making up bigger stories about her', 'training with her whenever she\'s available', 'treating her to a good meal when she\'s around'];
 
-    const random21 = parseInt(Math.floor((Math.random() * names21.length)));
+    const random21 = parseInt(Math.floor((Math.random() * names21.length)), 10);
     if (random21 > 3 && random21 < 10) {
         names1 = ['Purple', 'Blue', 'Green', 'Red', 'White', 'Blonde', 'Brown', 'Light blue', 'Light green', 'Pink', 'Silver', 'Golden'];
         names2 = ['perfectly groomed hair', 'well groomed hair', 'long wavy hair', 'long layed hair', 'layered hair', 'sleek hair', 'long hair', 'curly hair', 'straight hair', 'flowing hair', 'wavy hair', 'shoulder-length hair'];
@@ -234,18 +234,18 @@ export default function charactersFemale() {
         }
     }
 
-    const random1 = parseInt(Math.floor((Math.random() * names1.length)));
-    const random2 = parseInt(Math.floor((Math.random() * names2.length)));
-    const random3 = parseInt(Math.floor((Math.random() * names3.length)));
-    const random4 = parseInt(Math.floor((Math.random() * names4.length)));
-    const random5 = parseInt(Math.floor((Math.random() * names5.length)));
-    const random6 = parseInt(Math.floor((Math.random() * names6.length)));
-    const random7 = parseInt(Math.floor((Math.random() * names7.length)));
-    const random8 = parseInt(Math.floor((Math.random() * names8.length)));
-    const random9 = parseInt(Math.floor((Math.random() * names9.length)));
-    const random10 = parseInt(Math.floor((Math.random() * names10.length)));
-    const random11 = parseInt(Math.floor((Math.random() * names11.length)));
-    const random12 = parseInt(Math.floor((Math.random() * names12.length)));
+    const random1 = parseInt(Math.floor((Math.random() * names1.length)), 10);
+    const random2 = parseInt(Math.floor((Math.random() * names2.length)), 10);
+    const random3 = parseInt(Math.floor((Math.random() * names3.length)), 10);
+    const random4 = parseInt(Math.floor((Math.random() * names4.length)), 10);
+    const random5 = parseInt(Math.floor((Math.random() * names5.length)), 10);
+    const random6 = parseInt(Math.floor((Math.random() * names6.length)), 10);
+    const random7 = parseInt(Math.floor((Math.random() * names7.length)), 10);
+    const random8 = parseInt(Math.floor((Math.random() * names8.length)), 10);
+    const random9 = parseInt(Math.floor((Math.random() * names9.length)), 10);
+    const random10 = parseInt(Math.floor((Math.random() * names10.length)), 10);
+    const random11 = parseInt(Math.floor((Math.random() * names11.length)), 10);
+    const random12 = parseInt(Math.floor((Math.random() * names12.length)), 10);
     if (random12 > 6 && random12 < 9) {
         names13 = ['resembling a rose', 'resembling a petal', 'of a heart', 'resembling a shield', 'resembling a sword', 'resembling a skull', 'resembling a flag', 'resembling a tear', 'of a small dragon', 'of a small cross', 'of a small star', 'of a small eagle', 'of a small swallow', 'of a small lion', 'of a small wolf', 'of a small bear', 'of a bear paw', 'of a lion paw', 'of an eagle claw', 'of a talon', 'of a dagger', 'of a wolf paw', 'of a shield', 'of a sword', 'of a skull', 'of a flag', 'of a tear', 'resembling a small dragon', 'resembling a small cross', 'resembling a small star', 'resembling a small eagle', 'resembling a small swallow', 'resembling a small lion', 'resembling a small wolf', 'resembling a small bear', 'resembling a bear paw', 'resembling a lion paw', 'resembling an eagle claw', 'resembling a talon', 'resembling a dagger', 'resembling a wolf paw'];
         names14 = ['is almost hidden', 'is displayed', 'is subtly placed', 'is prominently featured', 'is proudly worn'];
@@ -273,24 +273,24 @@ export default function charactersFemale() {
         names16 = ['a pleasant memory', 'an amusing memory', 'a delightful memory', 'a gracious memory', 'a pleasurable memory', 'a bittersweet memory', 'a heartbreaking memory', 'a beautiful memory', 'a satisfying memory', 'a fascinating memory', 'a captivating memory', 'an intriguing memory', 'a compelling memory'];
         names17 = ['her past', 'her upbringing', 'her fortunate upbringing', 'her former lovers', 'her fortunate looks', 'her fortunate survival', 'her luck', 'her luck in battles', 'her luck in love', 'her fortunate destiny', 'her adventurous love life', 'her reckless luck', 'her fortunate adventures'];
     }
-    const random13 = parseInt(Math.floor((Math.random() * names13.length)));
-    const random14 = parseInt(Math.floor((Math.random() * names14.length)));
-    const random15 = parseInt(Math.floor((Math.random() * names15.length)));
-    const random16 = parseInt(Math.floor((Math.random() * names16.length)));
-    const random17 = parseInt(Math.floor((Math.random() * names17.length)));
-    const random18 = parseInt(Math.floor((Math.random() * names18.length)));
-    const random19 = parseInt(Math.floor((Math.random() * names19.length)));
-    const random20 = parseInt(Math.floor((Math.random() * names20.length)));
-    const random22 = parseInt(Math.floor((Math.random() * names22.length)));
-    const random23 = parseInt(Math.floor((Math.random() * names23.length)));
-    const random24 = parseInt(Math.floor((Math.random() * names24.length)));
-    const random25 = parseInt(Math.floor((Math.random() * names25.length)));
-    let random26 = parseInt(Math.floor((Math.random() * names26.length)));
+    const random13 = parseInt(Math.floor((Math.random() * names13.length)), 10);
+    const random14 = parseInt(Math.floor((Math.random() * names14.length)), 10);
+    const random15 = parseInt(Math.floor((Math.random() * names15.length)), 10);
+    const random16 = parseInt(Math.floor((Math.random() * names16.length)), 10);
+    const random17 = parseInt(Math.floor((Math.random() * names17.length)), 10);
+    const random18 = parseInt(Math.floor((Math.random() * names18.length)), 10);
+    const random19 = parseInt(Math.floor((Math.random() * names19.length)), 10);
+    const random20 = parseInt(Math.floor((Math.random() * names20.length)), 10);
+    const random22 = parseInt(Math.floor((Math.random() * names22.length)), 10);
+    const random23 = parseInt(Math.floor((Math.random() * names23.length)), 10);
+    const random24 = parseInt(Math.floor((Math.random() * names24.length)), 10);
+    const random25 = parseInt(Math.floor((Math.random() * names25.length)), 10);
+    let random26 = parseInt(Math.floor((Math.random() * names26.length)), 10);
     while (random26 == random25) {
-        random26 = parseInt(Math.floor((Math.random() * names26.length)));
+        random26 = parseInt(Math.floor((Math.random() * names26.length)), 10);
     }
-    const random27 = parseInt(Math.floor((Math.random() * names27.length)));
-    const random28 = parseInt(Math.floor((Math.random() * names28.length)));
+    const random27 = parseInt(Math.floor((Math.random() * names27.length)), 10);
+    const random28 = parseInt(Math.floor((Math.random() * names28.length)), 10);
 
     const name = `${names1[random1]}, ${names2[random2]} ${names3[random3]} a ${names4[random4]}, ${names5[random5]} face. ${names6[random6]} ${names7[random7]} eyes, set ${names8[random8]} within their sockets, watch ${names9[random9]} over the ${names10[random10]} they've ${names11[random11]} for so long.`;
     const name2 = `${names12[random12]} ${names13[random13]} ${names14[random14]} ${names15[random15]} leaves ${names16[random16]} of ${names17[random17]}.`;
