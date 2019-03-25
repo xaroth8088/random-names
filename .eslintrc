@@ -8,5 +8,8 @@
       "experimentalObjectRestSpread": true
     },
     "codeFrame": false
+  },
+  "rules": {
+    "no-lone-blocks": 0
   }
 }
