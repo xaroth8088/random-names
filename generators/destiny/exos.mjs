@@ -1,3 +1,5 @@
+import sample from 'lodash/sample';
+
 export default function exos() {
   let names;
   let rnd;
@@ -6,7 +8,7 @@ export default function exos() {
   {
     rnd = Math.floor(Math.random() * nm1.length);
     rnd2 = Math.floor(Math.random() * 50);
-    names = `${nm1[rnd]}-${rnd2}`;
+    names = `${sample(nm1)}-${rnd2}`;
     nm1.splice(rnd, 1);
     return names;
   }

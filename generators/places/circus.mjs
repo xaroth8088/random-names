@@ -1,10 +1,10 @@
+import sample from 'lodash/sample';
+
 export default function circus() {
   let names;
   let rnd;
   let rnd2;
-  let rnd3;
   let rnd4;
-  let rnd5;
   const nm1 = ['Aegis', 'Aerial', 'Aeris', 'Amazing', 'Arcana', 'Arcane', 'Aurora', 'Berserk', 'Blue Moon', 'Botanical', 'Brilliant', 'Crazy', 'Curio', 'Curious', 'Dapper', 'Dazzling', 'Delight', 'Delirium', 'Destiny', 'Dream', 'Dreamland', 'Dreamscape', 'Eclipse', 'Electric', 'Elysium', 'Enchanted', 'Enchanting', 'Euphoria', 'Exalted', 'Exotic', 'Extravaganza', 'Fabulous', 'Fantasia', 'Fantasy', 'Felicity', 'Festival', 'Flamboyant', 'Flying', 'Fortuna', 'Fortune', 'Freak', 'Funtasia', 'Galaxy', 'Ghost', 'Ghostly', 'Gifted', 'Grand', 'Gravity', 'Happy', 'Harmonious', 'Harmony', 'Heavenly', 'Hilarity', 'Howling', 'Humble', 'Hypno', 'Hypnotic', 'Illustrious', 'Imaginarium', 'Imagination', 'Incredible', 'Infinite', 'Infinity', 'Intrepid', 'Jolly', 'Jubilant', 'Jubilee', 'Jumbo', 'Living', 'Love', 'Luminos', 'Magic', 'Majestic', 'Merry', 'Midnight', 'Miracle', 'Moonlight', 'Morgana', 'Myriad', 'Mystique', 'Nirvana', 'Pandemonium', 'Phantom', 'Phenomena', 'Planet', 'Prestigious', 'Radiant', 'Rainbow', 'Regal', 'Requiem', 'Royal', 'Serendipity', 'Shadow', 'Smirkus', 'Spectacle', 'Spectacular', 'Starlight', 'Sunset', 'Sunshine', 'Titan', 'Travelling', 'Trinity', 'Tumble', 'Unity', 'Utopia', 'Wanderlust', 'Wayfare', 'Whimsical', 'Wicked', 'Wild', 'Wonder'];
   const nm2 = ['Aegis', 'Aeon', 'Aerial', 'Aeriform', 'Amore', 'Angelica', 'Anomaly', 'Arcadia', 'Arcana', 'Aurora', 'Avalon', 'Avian', 'Avion', 'Berserk', 'Bliss', 'Blue Moon', 'Boggle', 'Borealis', 'Botanica', 'Butterfly', 'Cacaphony', 'Crux', 'Curio', 'Curiosity', 'Delight', 'Delirium', 'Destiny', 'Discord', 'Dreamland', 'Dreamscape', 'Eclipse', 'Ecstasy', 'Elysium', 'Enigma', 'Eos', 'Epiphany', 'Eternity', 'Euphoria', 'Extravaganza', 'Fantasia', 'Felicity', 'Festivus', 'Firefly', 'Flora', 'Fortuna', 'Freaks', 'Funtasia', 'Galaxy', 'Glee', 'Gravitus', 'Gravity', 'Harmony', 'Hullabaloo', 'Hypno', 'Hypnosis', 'Illume', 'Imaginarium', 'Infinity', 'Ironica', 'Jamboree', 'Joy', 'Jubilee', 'Jumbo', 'Knickknack', 'Luminos', 'Luna', 'Lunacy', 'Magnifico', 'Magnus', 'Mania', 'Marvel', 'Memory', 'Merriment', 'Merry Men', 'Miracle', 'Morgana', 'Myriad', 'Mystique', 'Nirvana', 'Oddity', 'Olympia', 'Olympus', 'Pandemonium', 'Paradise', 'Paradisio', 'Phantom', 'Phenomena', 'Prism', 'Prodigy', 'Rebus', 'Requiem', 'Royale', 'Serendipity', 'Smirkus', 'Solas', 'Spectacle', 'Sphinx', 'Spirit', 'Sputnik', 'Stardust', 'Starfall', 'Sunrise', 'Sunset', 'Trinity', 'Triumph', 'Tumble', 'Tumblus', 'Twilight', 'Ubiquity', 'Universe', 'Utopia', 'Volant', 'Wanderlust', 'Wonder', 'Wonderland', 'Zephyr', 'Zion'];
   const nm3 = ['Baron', 'Baroness', 'Count', 'Countess', 'Dame', 'Duchess', 'Duke', 'Frau', 'Fraulein', 'Herr', 'Lord', 'Madame', 'Mademoiselle', 'Maestro', 'Miss', 'Mister', 'Mr.', 'Mrs.', 'Professor'];
@@ -12,28 +12,25 @@ export default function circus() {
   const nm5 = ['Circus', 'Cirque', 'Hippodrome', 'Bazaar', 'Big Top', 'Circus', 'Cirque', 'Circus', 'Cirque', 'Circus', 'Circus', 'Circus', 'Circus', 'Circus', 'Circus', 'Circus'];
   const i = Math.floor(Math.random() * 10);
   {
-    rnd5 = Math.floor(Math.random() * nm5.length);
     if (i < 2) {
       rnd = Math.floor(Math.random() * nm1.length);
-      rnd3 = Math.floor(Math.random() * nm3.length);
       rnd4 = Math.floor(Math.random() * nm4.length);
-      names = `${nm3[rnd3]} ${nm4[rnd4]} ${nm1[rnd]} ${nm5[rnd5]}`;
+      names = `${sample(nm3)} ${sample(nm4)} ${sample(nm1)} ${sample(nm5)}`;
       nm1.splice(rnd, 1);
       nm4.splice(rnd4, 1);
     } else if (i < 5) {
       rnd = Math.floor(Math.random() * nm1.length);
-      names = `The ${nm1[rnd]} ${nm5[rnd5]}`;
+      names = `The ${sample(nm1)} ${sample(nm5)}`;
       nm1.splice(rnd, 1);
     } else if (i < 7) {
       rnd2 = Math.floor(Math.random() * nm2.length);
-      rnd3 = Math.floor(Math.random() * nm3.length);
       rnd4 = Math.floor(Math.random() * nm4.length);
-      names = `${nm3[rnd3]} ${nm4[rnd4]} ${nm5[rnd5]} ${nm2[rnd2]}`;
+      names = `${sample(nm3)} ${sample(nm4)} ${sample(nm5)} ${sample(nm2)}`;
       nm2.splice(rnd2, 1);
       nm4.splice(rnd4, 1);
     } else {
       rnd2 = Math.floor(Math.random() * nm2.length);
-      names = `${nm5[rnd5]} ${nm2[rnd2]}`;
+      names = `${sample(nm5)} ${sample(nm2)}`;
       nm2.splice(rnd2, 1);
     }
     return names;

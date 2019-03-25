@@ -1,10 +1,7 @@
+import sample from 'lodash/sample';
+
 export default function seaCreatures() {
   let names;
-  let rnd;
-  let rnd2;
-  let rnd3;
-  let rnd4;
-  let rnd5;
   const nm1 = ['B', 'Bl', 'Cr', 'Ch', 'G', 'Gl', 'Gr', 'H', 'J', 'K', 'Kr', 'L', 'M', 'S', 'Sc', 'Tr', 'Z'];
   const nm2 = ['o', 'a', 'a', 'o', 'e', 'i', 'u', 'y'];
   const nm3 = ['bd', 'bs', 'dr', 'gl', 'gn', 'gm', 'gr', 'k', 'kr', 'kl', 'll', 'nd', 'nr', 'ng', 'r', 'rg', 'rk', 'rc', 'sc', 'st', 'sk', 'sh', 'tr', 'th', 'q', 'z'];
@@ -16,20 +13,11 @@ export default function seaCreatures() {
   const i = Math.floor(Math.random() * 10);
   {
     if (i < 4) {
-      rnd = Math.floor(Math.random() * nm1.length);
-      rnd2 = Math.floor(Math.random() * nm2.length);
-      rnd3 = Math.floor(Math.random() * nm3.length);
-      rnd4 = Math.floor(Math.random() * nm2.length);
-      rnd5 = Math.floor(Math.random() * nm4.length);
-      names = nm1[rnd] + nm2[rnd2] + nm3[rnd3] + nm2[rnd4] + nm4[rnd5];
+      names = sample(nm1) + sample(nm2) + sample(nm3) + sample(nm2) + sample(nm4);
     } else if (i < 7) {
-      rnd = Math.floor(Math.random() * nm5.length);
-      rnd2 = Math.floor(Math.random() * nm6.length);
-      rnd3 = Math.floor(Math.random() * nm7.length);
-      names = `The ${nm5[rnd]} ${nm6[rnd2]} ${nm7[rnd3]}`;
+      names = `The ${sample(nm5)} ${sample(nm6)} ${sample(nm7)}`;
     } else {
-      rnd = Math.floor(Math.random() * nm8.length);
-      names = nm8[rnd];
+      names = sample(nm8);
     }
     return names;
   }

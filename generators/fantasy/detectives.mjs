@@ -1,7 +1,7 @@
+import sample from 'lodash/sample';
+
 export default function detectives() {
   let names;
-  let rnd;
-  let rnd2;
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['Ace', 'Adam', 'Adrian', 'Alec', 'Alex', 'Andrew', 'Arthur', 'Barry', 'Bill', 'Brad', 'Braden', 'Brian', 'Bruce', 'Carl', 'Chad', 'Charles', 'Chris', 'Clive', 'Conan', 'Conor', 'Craig', 'Dale', 'Dan', 'Darryl', 'Dave', 'David', 'Denzel', 'Derek', 'Don', 'Donald', 'Drake', 'Dwayne', 'Ed', 'Edgar', 'Ethan', 'Frank', 'Fred', 'Gavin', 'George', 'Glenn', 'Gordon', 'Graham', 'Grant', 'Greg', 'Gus', 'Hal', 'Hank', 'Harold', 'Harris', 'Harry', 'Hector', 'Henry', 'Jack', 'Jacob', 'Jake', 'James', 'Jason', 'Jim', 'Joe', 'Jon', 'Kurt', 'Lance', 'Larry', 'Lars', 'Leo', 'Logan', 'Lou', 'Luke', 'Marcus', 'Martin', 'Marvin', 'Matt', 'Max', 'Michael', 'Mike', 'Miles', 'Moe', 'Morgan', 'Nic', 'Oscar', 'Owen', 'Oz', 'Paul', 'Pete', 'Peter', 'Phil', 'Pierce', 'Ray', 'Raymond', 'Rex', 'Rick', 'Rob', 'Robert', 'Roger', 'Russ', 'Russell', 'Ryan', 'Sam', 'Samuel', 'Saul', 'Scott', 'Sean', 'Seth', 'Shawn', 'Sid', 'Stan', 'Stephen', 'Steven', 'Terry', 'Thomas', 'Tom', 'Tony', 'Trevor', 'Victor', 'Vince', 'Walter', 'Wayne', 'Will', 'William', 'Zac', 'Zack'];
   const nm2 = ['Abby', 'Adriana', 'Agnes', 'Alex', 'Alice', 'Amber', 'Angela', 'Ann', 'Annabel', 'Anne', 'Arya', 'Audra', 'Aurora', 'Avril', 'Barbara', 'Beth', 'Brenda', 'Bridget', 'Brittany', 'Brooke', 'Brynn', 'Caitlin', 'Carolyn', 'Cassie', 'Catlyn', 'Charlotte', 'Christie', 'Clare', 'Cleo', 'Debra', 'Diana', 'Dianne', 'Edit', 'Eleanor', 'Elizabeth', 'Ellen', 'Ellie', 'Elza', 'Emma', 'Erika', 'Erin', 'Eve', 'Fiona', 'Fran', 'Grace', 'Gwen', 'Hanna', 'Hazel', 'Helen', 'Hilda', 'Irene', 'Iris', 'Jaime', 'Jane', 'Janis', 'Jean', 'Jenna', 'Jennifer', 'Jessica', 'Jill', 'Jo', 'Joan', 'Joanne', 'Judith', 'Julia', 'June', 'Karen', 'Kat', 'Kate', 'Kim', 'Lara', 'Laura', 'Lauren', 'Lillian', 'Lois', 'Lucy', 'Marilyn', 'Marion', 'Mary', 'Meg', 'Megan', 'Meryl', 'Michelle', 'Myra', 'Nadia', 'Natalie', 'Nicole', 'Nikki', 'Nora', 'Pam', 'Paula', 'Rachel', 'Renee', 'Robin', 'Rose', 'Roxanne', 'Ruth', 'Sage', 'Sam', 'Sandra', 'Sarah', 'Serena', 'Sharon', 'Skye', 'Stella', 'Sue', 'Susan', 'Tess', 'Vera', 'Vicky', 'Vivian', 'Ziva'];
@@ -9,17 +9,11 @@ export default function detectives() {
   const nm4 = ['Aaren', 'Addison', 'Aidan', 'Ainsley', 'Alex', 'Angel', 'Arin', 'Ash', 'Ashton', 'Avery', 'Bailey', 'Blair', 'Blake', 'Blythe', 'Brett', 'Brook', 'Cameron', 'Casey', 'Cass', 'Charlie', 'Chris', 'Cory', 'Dakota', 'Danny', 'Daryl', 'Drew', 'Dylan', 'Eli', 'Emerson', 'Gale', 'Harley', 'Harper', 'Hayden', 'Jackie', 'Jaden', 'Jaiden', 'Jamie', 'Jay', 'Jesse', 'Jo', 'Jordan', 'Jules', 'Kasey', 'Kerry', 'Lane', 'Lee', 'Logan', 'Lynn', 'Marley', 'Mell', 'Merle', 'Mo', 'Morgan', 'Nat', 'Quinn', 'Raegan', 'Reese', 'Riley', 'River', 'Robin', 'Rowan', 'Sam', 'Shannon', 'Shawn', 'Skyler', 'Stevie', 'Sydney', 'Tanner', 'Taylor', 'Tristan', 'Tyler', 'Val', 'Vic', 'Wil'];
   {
     if (type === 1) {
-      rnd = Math.floor(Math.random() * nm2.length);
-      rnd2 = Math.floor(Math.random() * nm3.length);
-      names = `${nm2[rnd]} ${nm3[rnd2]}`;
+      names = `${sample(nm2)} ${sample(nm3)}`;
     } else if (type === 2) {
-      rnd = Math.floor(Math.random() * nm4.length);
-      rnd2 = Math.floor(Math.random() * nm3.length);
-      names = `${nm4[rnd]} ${nm3[rnd2]}`;
+      names = `${sample(nm4)} ${sample(nm3)}`;
     } else {
-      rnd = Math.floor(Math.random() * nm1.length);
-      rnd2 = Math.floor(Math.random() * nm3.length);
-      names = `${nm1[rnd]} ${nm3[rnd2]}`;
+      names = `${sample(nm1)} ${sample(nm3)}`;
     }
     return names;
   }

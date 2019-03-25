@@ -1,3 +1,5 @@
+import sample from 'lodash/sample';
+
 export default function monuments() {
   const nm1 = ['100 years', 'over 100 years', 'a century', 'over a century', 'decades', 'a few decades', 'a decade', 'a few dozen years', 'generations', 'nearly 500 years', 'about 400 years', 'almost 200 years', 'only a few years', 'a generation', 'only a handful of years', 'about a dozen years', 'only half a dozen years', 'about 50 years', 'about 75 years', 'about 25 years'];
   const nm2 = ['statue', 'group statue', 'art piece', 'monolith', 'obelisk', 'triumphal arch', 'terminating vista', 'mound', 'eternal flame', 'column', 'column arrangement', 'cenotaph', 'shrine', 'fountain'];
@@ -11,22 +13,10 @@ export default function monuments() {
   const nm10 = ['durable', 'dependable', 'reliable', 'deluxe', 'superior', 'lavish', 'exceptional', 'high quality', 'premium', 'high-class'];
   const nm11 = ['easily stand the tests of time with minimal maintenance', 'continue to provide local jobs whenever it needs maintenance', 'stand the tests of time and continue to bring joy', 'stand the tests of time and be part of the community for ages', 'continue to be a proud part of this community for generations', 'be an integral part of this community for many generations more', 'continue to provide joy and wonder to this community for ages', 'require minimum maintenance while still upholding a great look', 'continue to uplift spirits with minimum maintenance requirements', 'continue to adorn the community for generations to come', 'continue to decorate the community while requiring minimum maintenance', 'continue to both decorate the community and provide local maintenance jobs', 'remain an important aspect of the community spirit for many more years', 'uphold local values and customs for generations to come', 'remain an inspiration source for generations to come'];
   const nm12 = ['his', 'her'];
-  const rnd1 = Math.floor(Math.random() * nm1.length);
-  const rnd2 = Math.floor(Math.random() * nm2.length);
-  const rnd3 = Math.floor(Math.random() * nm3.length);
-  const rnd4 = Math.floor(Math.random() * nm4.length);
-  const rnd5 = Math.floor(Math.random() * nm5.length);
-  const rnd6 = Math.floor(Math.random() * nm6.length);
-  const rnd7 = Math.floor(Math.random() * nm7.length);
-  const rnd8 = Math.floor(Math.random() * nm8.length);
-  const rnd9 = Math.floor(Math.random() * nm9.length);
-  const rnd10 = Math.floor(Math.random() * nm10.length);
-  const rnd11 = Math.floor(Math.random() * nm11.length);
-  const rnd12 = Math.floor(Math.random() * nm12.length);
-  const name = `Built ${nm1[rnd1]} ago, this ${nm2[rnd2]} ${nm3[rnd3]} is here to ${nm4[rnd4]}.`;
-  const name2 = `Its position within this community is meant to represent the ${nm5[rnd5]}.`;
-  const name3 = `It was designed by ${nm6[rnd6]} who ${nm7[rnd7]} captured the ${nm8[rnd8]} of the region and used ${nm9[rnd9]} style to convey ${nm12[rnd12]} vision in this piece of art.`;
-  const name4 = `Every element was crafted and created with ${nm10[rnd10]} materials from local suppliers, ensuring this monument will ${nm11[rnd11]}.`;
+  const name = `Built ${sample(nm1)} ago, this ${sample(nm2)} ${sample(nm3)} is here to ${sample(nm4)}.`;
+  const name2 = `Its position within this community is meant to represent the ${sample(nm5)}.`;
+  const name3 = `It was designed by ${sample(nm6)} who ${sample(nm7)} captured the ${sample(nm8)} of the region and used ${sample(nm9)} style to convey ${sample(nm12)} vision in this piece of art.`;
+  const name4 = `Every element was crafted and created with ${sample(nm10)} materials from local suppliers, ensuring this monument will ${sample(nm11)}.`;
   let result = '';
   result += name;
   result += '\n';

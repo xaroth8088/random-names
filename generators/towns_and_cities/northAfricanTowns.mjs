@@ -1,7 +1,7 @@
+import sample from 'lodash/sample';
+
 export default function northAfricanTowns() {
   let names;
-  let rnd;
-  let rnd2;
   /* Algeria */
   const nm1 = ['Aïn B', 'Aïn Be', 'Aïn Def', 'Aïn El Had', 'Aïn El Ham', 'Aïn El Ke', 'Aïn Fak', 'Aïn Oul', 'Aïn Ous', 'Aïn Sef', 'Aïn Sma', 'Aïn Ta', 'Aïn Tou', 'Ad', 'Af', 'Ak', 'Al', 'An', 'Anna', 'Ar', 'Aza', 'Azaz', 'Azza', 'Bé', 'Ba', 'Bara', 'Bari', 'Bat', 'Ber', 'Birk', 'Bis', 'Bli', 'Bou', 'Boufa', 'Bouga', 'Boui', 'Boumer', 'Che', 'Chel', 'Cher', 'Chera', 'Chle', 'Col', 'Di', 'Didou', 'Djel', 'El Aff', 'El Ar', 'El At', 'El Ba', 'El Baya', 'El Bou', 'El Eul', 'El Go', 'El Gue', 'El Guerra', 'El Ha', 'El Har', 'El Ka', 'El Khrou', 'El Meg', 'El Mi', 'Fi', 'Fil', 'Fren', 'Gha', 'Ghar', 'Gra', 'Gue', 'Guel', 'Guera', 'Had', 'Ham', 'Kha', 'Khe', 'Khen', 'Ko', 'La', 'Lakh', 'Lar', 'Mé', 'Ma', 'Magh', 'Mah', 'Man', 'Mas', 'Me', 'Meche', 'Mef', 'Mes', 'Mi', 'Milia', 'Mos', 'Mosta', 'Mou', 'Ne', 'Nedro', 'Nez', 'Ora', 'Ouar', 'Ouen', 'Reli', 'Rem', 'Roui', 'Sé', 'Séd', 'Sidi Kha', 'Sidi Mou', 'Sidi Mous', 'Sidi Ok', 'Skik', 'Soug', 'Té', 'Ta', 'Tad', 'Tadje', 'Takhe', 'Tama', 'Taman', 'Te', 'Tebes', 'Tela', 'Thé', 'Tia', 'Tin', 'Tis', 'Tissem', 'Tlem', 'Tol', 'Toug', 'Zig'];
   const nm2 = ['ba', 'bah', 'best', 'bira', 'bou', 'cara', 'cen', 'cha', 'char', 'chel', 'chent', 'chi', 'daïa', 'da', 'daria', 'dem', 'dia', 'douaou', 'douche', 'douf', 'dra', 'fa', 'fan', 'farik', 'fla', 'froun', 'ga', 'ganem', 'gara', 'ghaïa', 'ghi', 'ghouat', 'ghoud', 'ghoum', 'giers', 'gla', 'gourt', 'gueur', 'haïa', 'hadem', 'hari', 'her', 'jaïa', 'jar', 'jel', 'jout', 'ka', 'ki', 'kra', 'la', 'lal', 'lane', 'lea', 'led', 'lia', 'liana', 'lo', 'lou', 'ma', 'madia', 'mam', 'maret', 'mene', 'mis', 'na', 'naba', 'naiel', 'nanet', 'nati', 'net', 'ni', 'nia', 'nian', 'niet', 'ra', 'rach', 'rad', 'raga', 'raki', 'rar', 'rara', 'ras', 'rasset', 'rata', 'rem', 'ret', 'ria', 'ridj', 'rik', 'rika', 'roma', 'rouch', 'roun', 'sa', 'saad', 'saoud', 'sat', 'sem', 'sera', 'set', 'si', 'silt', 'sourah', 'sy', 'ta', 'taf', 'tah', 'tif', 'ya', 'yadh', 'zaïa', 'za', 'zaouet', 'ziane', 'zou', 'zouar'];
@@ -20,25 +20,15 @@ export default function northAfricanTowns() {
   const i = Math.floor(Math.random() * 10);
   {
     if (i < 2) {
-      rnd = Math.floor(Math.random() * nm1.length);
-      rnd2 = Math.floor(Math.random() * nm2.length);
-      names = nm1[rnd] + nm2[rnd2];
+      names = sample(nm1) + sample(nm2);
     } else if (i < 4) {
-      rnd = Math.floor(Math.random() * nm3.length);
-      rnd2 = Math.floor(Math.random() * nm4.length);
-      names = nm3[rnd] + nm4[rnd2];
+      names = sample(nm3) + sample(nm4);
     } else if (i < 6) {
-      rnd = Math.floor(Math.random() * nm5.length);
-      rnd2 = Math.floor(Math.random() * nm6.length);
-      names = nm5[rnd] + nm6[rnd2];
+      names = sample(nm5) + sample(nm6);
     } else if (i < 8) {
-      rnd = Math.floor(Math.random() * nm7.length);
-      rnd2 = Math.floor(Math.random() * nm8.length);
-      names = nm7[rnd] + nm8[rnd2];
+      names = sample(nm7) + sample(nm8);
     } else {
-      rnd = Math.floor(Math.random() * nm9.length);
-      rnd2 = Math.floor(Math.random() * nm10.length);
-      names = nm9[rnd] + nm10[rnd2];
+      names = sample(nm9) + sample(nm10);
     }
     return names;
   }

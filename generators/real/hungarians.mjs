@@ -1,3 +1,5 @@
+import sample from 'lodash/sample';
+
 export default function hungarians() {
   let names;
   let rnd;
@@ -10,11 +12,11 @@ export default function hungarians() {
     rnd2 = Math.floor(Math.random() * nm3.length);
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm2.length);
-      names = `${nm3[rnd2]} ${nm2[rnd]}`;
+      names = `${sample(nm3)} ${sample(nm2)}`;
       nm2.splice(rnd, 1);
     } else {
       rnd = Math.floor(Math.random() * nm1.length);
-      names = `${nm3[rnd2]} ${nm1[rnd]}`;
+      names = `${sample(nm3)} ${sample(nm1)}`;
       nm1.splice(rnd, 1);
     }
     nm3.splice(rnd2, 1);

@@ -1,3 +1,5 @@
+import sample from 'lodash/sample';
+
 export default function tibetans() {
   let names;
   let rnd;
@@ -8,10 +10,10 @@ export default function tibetans() {
   {
     rnd = Math.floor(Math.random() * nm1.length);
     if (i < 5) {
-      names = nm1[rnd];
+      names = sample(nm1);
     } else {
       rnd2 = Math.floor(Math.random() * nm2.length);
-      names = `${nm1[rnd]} ${nm2[rnd2]}`;
+      names = `${sample(nm1)} ${sample(nm2)}`;
       nm2.splice(rnd2, 1);
     }
     nm1.splice(rnd, 1);

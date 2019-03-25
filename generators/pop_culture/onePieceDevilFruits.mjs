@@ -1,3 +1,5 @@
+import sample from 'lodash/sample';
+
 export default function onePieceDevilFruits() {
   let names;
   let rnd;
@@ -125,7 +127,7 @@ export default function onePieceDevilFruits() {
   ];
   {
     rnd = Math.floor(Math.random() * nm1.length);
-    names = `${nm1[rnd][0]} ${nm1[rnd][0]} no Mi (${nm1[rnd][1]})`;
+    names = `${sample(nm1)[0]} ${sample(nm1)[0]} no Mi (${sample(nm1)[1]})`;
     nm1.splice(rnd, 1);
     return names;
   }

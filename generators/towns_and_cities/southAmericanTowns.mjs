@@ -1,7 +1,7 @@
+import sample from 'lodash/sample';
+
 export default function southAmericanTowns() {
   let names;
-  let rnd;
-  let rnd2;
   /* Argentina */
   const nm1 = ['Aña', 'A', 'Adro', 'Agui', 'Al', 'Alba', 'Albar', 'Alde', 'Ari', 'Aris', 'Arro', 'Ave', 'Azu', 'Ba', 'Barra', 'Barran', 'Bue', 'Cór', 'Caña', 'Ca', 'Cale', 'Cam', 'Capi', 'Car', 'Carca', 'Cas', 'Casi', 'Caste', 'Cau', 'Cen', 'Cente', 'Cha', 'Chaca', 'Chaja', 'Chara', 'Chi', 'Chile', 'Chim', 'Chivi', 'Cin', 'Cipo', 'Cole', 'Como', 'Conce', 'Cor', 'Coro', 'Cos', 'Cre', 'Cres', 'Cru', 'Cu', 'Curu', 'Cut', 'Do', 'Dolo', 'Em', 'Emba', 'Embar', 'Es', 'Espe', 'Esqui', 'Fa', 'Fama', 'Fe', 'Fede', 'Fir', 'Fon', 'For', 'Gá', 'Gál', 'Go', 'Gobe', 'Gra', 'Grana', 'Gua', 'Guale', 'Ja', 'Jar', 'Joa', 'Lin', 'Lu', 'Ma', 'Macha', 'Men', 'Mendo', 'Mer', 'Mo', 'Mon', 'Ne', 'Neco', 'Neu', 'Obe', 'Ola', 'Olava', 'Pé', 'Pa', 'Pal', 'Palpa', 'Para', 'Pe', 'Per', 'Perga', 'Pi', 'Pira', 'Plo', 'Po', 'Poci', 'Posa', 'Qui', 'Quiti', 'Ra', 'Re', 'Recon', 'Resi', 'Ro', 'Rosa', 'Ru', 'Rufi', 'Sa', 'Sal', 'Sala', 'San An', 'San Ca', 'San Car', 'San Fe', 'San Fer', 'San Fra', 'San Isi', 'San Ja', 'San Jo', 'San Jor', 'San Ju', 'San Jua', 'San Lo', 'San Lore', 'San Mar', 'San Mi', 'San Ni', 'San Nico', 'San Pe', 'San Ra', 'San Sal', 'San Vi', 'Su', 'Sun', 'Suncha', 'Ta', 'Tan', 'Tar', 'Tarta', 'Te', 'Ter', 'Ti', 'Tre', 'Un', 'Unqui', 'Ve', 'Vei', 'Vein', 'Vena', 'Zá', 'Zára', 'Za', 'Zapa'];
   const nm2 = ['bas', 'buco', 'bulo', 'cación', 'cero', 'cete', 'chea', 'ción', 'cia', 'cinco', 'cito', 'co', 'coy', 'dón', 'da', 'das', 'dero', 'des', 'dia', 'dil', 'do', 'doba', 'doro', 'doza', 'fino', 'gai', 'gal', 'gano', 'giales', 'go', 'gué', 'guay', 'guel', 'huaia', 'ján', 'jarí', 'lares', 'laye', 'legos', 'len', 'lende', 'les', 'leta', 'lew', 'li', 'lipi', 'lo', 'lores', 'los', 'mante', 'mas', 'mat', 'mes', 'mino', 'mosa', 'nín', 'na', 'nado', 'nando', 'nario', 'neda', 'nel', 'no', 'nos', 'palá', 'pala', 'pana', 'po', 'quén', 'quín', 'quel', 'queras', 'quillo', 'quina', 'quista', 'rá', 'ría', 'rón', 'rañá', 'ra', 'ral', 'raná', 'rané', 'ranza', 'ras', 'rata', 'rate', 'res', 'retes', 'rez', 'ria', 'riel', 'rio', 'ros', 'rupá', 'ruzú', 'són', 'sadas', 'sario', 'spn', 'ta', 'tagal', 'tana', 'tas', 'te', 'telli', 'tencia', 'tes', 'tiago', 'tier', 'tiro', 'to', 'tuya', 'va', 'vedra', 'vez', 'vier', 'ya', 'yito', 'yo', 'yos', 'zú', 'za'];
@@ -26,33 +26,19 @@ export default function southAmericanTowns() {
   const i = Math.floor(Math.random() * 14);
   {
     if (i < 2) {
-      rnd = Math.floor(Math.random() * nm1.length);
-      rnd2 = Math.floor(Math.random() * nm2.length);
-      names = nm1[rnd] + nm2[rnd2];
+      names = sample(nm1) + sample(nm2);
     } else if (i < 4) {
-      rnd = Math.floor(Math.random() * nm3.length);
-      rnd2 = Math.floor(Math.random() * nm4.length);
-      names = nm3[rnd] + nm4[rnd2];
+      names = sample(nm3) + sample(nm4);
     } else if (i < 6) {
-      rnd = Math.floor(Math.random() * nm5.length);
-      rnd2 = Math.floor(Math.random() * nm6.length);
-      names = nm5[rnd] + nm6[rnd2];
+      names = sample(nm5) + sample(nm6);
     } else if (i < 8) {
-      rnd = Math.floor(Math.random() * nm7.length);
-      rnd2 = Math.floor(Math.random() * nm8.length);
-      names = nm7[rnd] + nm8[rnd2];
+      names = sample(nm7) + sample(nm8);
     } else if (i < 10) {
-      rnd = Math.floor(Math.random() * nm9.length);
-      rnd2 = Math.floor(Math.random() * nm10.length);
-      names = nm9[rnd] + nm10[rnd2];
+      names = sample(nm9) + sample(nm10);
     } else if (i < 12) {
-      rnd = Math.floor(Math.random() * nm11.length);
-      rnd2 = Math.floor(Math.random() * nm12.length);
-      names = nm11[rnd] + nm12[rnd2];
+      names = sample(nm11) + sample(nm12);
     } else {
-      rnd = Math.floor(Math.random() * nm13.length);
-      rnd2 = Math.floor(Math.random() * nm14.length);
-      names = nm13[rnd] + nm14[rnd2];
+      names = sample(nm13) + sample(nm14);
     }
     return names;
   }

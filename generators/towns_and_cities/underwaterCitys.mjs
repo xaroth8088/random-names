@@ -1,3 +1,5 @@
+import sample from 'lodash/sample';
+
 export default function underwaterCitys() {
   let names;
   let rnd;
@@ -7,7 +9,7 @@ export default function underwaterCitys() {
   {
     rnd = Math.floor(Math.random() * nm1.length);
     rnd2 = Math.floor(Math.random() * nm2.length);
-    names = nm1[rnd] + nm2[rnd2];
+    names = sample(nm1) + sample(nm2);
     nm1.splice(rnd, 1);
     nm2.splice(rnd2, 1);
     return names;

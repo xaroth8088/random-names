@@ -1,7 +1,7 @@
+import sample from 'lodash/sample';
+
 export default function halflings() {
   let names;
-  let rnd;
-  let rnd2;
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['An', 'Ar', 'Bar', 'Bel', 'Con', 'Cor', 'Dan', 'Dav', 'El', 'Er', 'Fal', 'Fin', 'Flyn', 'Gar', 'Go', 'Hal', 'Hor', 'Ido', 'Ira', 'Jan', 'Jo', 'Kas', 'Kor', 'La', 'Lin', 'Mar', 'Mer', 'Ne', 'Nor', 'Ori', 'Os', 'Pan', 'Per', 'Pim', 'Quin', 'Quo', 'Ri', 'Ric', 'San', 'Shar', 'Tar', 'Te', 'Ul', 'Uri', 'Val', 'Vin', 'Wen', 'Wil', 'Xan', 'Xo', 'Yar', 'Yen', 'Zal', 'Zen'];
   const nm2 = ['ace', 'amin', 'bin', 'bul', 'dak', 'dal', 'der', 'don', 'emin', 'eon', 'fer', 'fire', 'gin', 'hace', 'horn', 'kas', 'kin', 'lan', 'los', 'min', 'mo', 'nad', 'nan', 'ner', 'orin', 'os', 'pher', 'pos', 'ras', 'ret', 'ric', 'rich', 'rin', 'ry', 'ser', 'sire', 'ster', 'ton', 'tran', 'umo', 'ver', 'vias', 'von', 'wan', 'wrick', 'yas', 'yver', 'zin', 'zor', 'zu'];
@@ -9,13 +9,9 @@ export default function halflings() {
   const nm4 = ['alyn', 'ara', 'brix', 'byn', 'caryn', 'cey', 'da', 'dove', 'drey', 'elle', 'eni', 'fice', 'fira', 'grace', 'gwen', 'haly', 'jen', 'kath', 'kis', 'leigh', 'la', 'lie', 'lile', 'lienne', 'lyse', 'mia', 'mita', 'ne', 'na', 'ni', 'nys', 'ola', 'ora', 'phina', 'prys', 'rana', 'ree', 'ri', 'ris', 'sica', 'sira', 'sys', 'tina', 'trix', 'ula', 'vira', 'vyre', 'wyn', 'wyse', 'yola', 'yra', 'zana', 'zira'];
   {
     if (type === 1) {
-      rnd = Math.floor(Math.random() * nm3.length);
-      rnd2 = Math.floor(Math.random() * nm4.length);
-      names = nm3[rnd] + nm4[rnd2];
+      names = sample(nm3) + sample(nm4);
     } else {
-      rnd = Math.floor(Math.random() * nm1.length);
-      rnd2 = Math.floor(Math.random() * nm2.length);
-      names = nm1[rnd] + nm2[rnd2];
+      names = sample(nm1) + sample(nm2);
     }
     return names;
   }

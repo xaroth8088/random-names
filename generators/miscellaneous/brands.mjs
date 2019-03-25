@@ -1,9 +1,7 @@
+import sample from 'lodash/sample';
+
 export default function brands() {
   let names;
-  let rnd1;
-  let rnd2;
-  let rnd3;
-  let rnd4;
   const nm1 = ['b', 'c', 'd', 'f', 'g', 'h', 'j', 'k', 'l', 'm', 'n', 'p', 'q', 'r', 's', 't', 'v', 'w', 'x', 'y', 'z', 'b', 'c', 'd', 'f', 'g', 'h', 'j', 'k', 'l', 'm', 'n', 'p', 'q', 'r', 's', 't', 'v', 'w', 'x', 'y', 'z', 'b', 'c', 'd', 'f', 'g', 'h', 'j', 'k', 'l', 'm', 'n', 'p', 'q', 'r', 's', 't', 'v', 'w', 'x', 'y', 'z', 'br', 'cr', 'dr', 'fr', 'gr', 'kr', 'pr', 'qr', 'sr', 'tr', 'vr', 'wr', 'zr', 'str', 'spr', 'st', 'bl', 'cl', 'dl', 'fl', 'gl', 'kl', 'pl', 'sl', 'vl', 'zl', 'bh', 'ch', 'dh', 'gh', 'kh', 'ph', 'sh', 'sch', 'th', 'thr', 'sph', 'vh', 'wh', 'zh', 'gn', 'kn', 'sn', 'zn', 'sm', 'zm', 'sw', 'tw', 'zw', 'sc'];
   const nm2 = ['b', 'c', 'd', 'f', 'g', 'h', 'k', 'l', 'm', 'n', 'p', 'r', 's', 't', 'v', 'w', 'x', 'z'];
   const nm3 = ['a', 'e', 'i', 'o', 'u'];
@@ -15,37 +13,17 @@ export default function brands() {
   const i = Math.floor(Math.random() * 10);
   {
     if (i < 2) {
-      rnd1 = Math.floor(Math.random() * nm11.length);
-      rnd2 = Math.floor(Math.random() * nm2.length);
-      rnd3 = Math.floor(Math.random() * nm7.length);
-      names = nm11[rnd1] + nm2[rnd2] + nm7[rnd3];
+      names = sample(nm11) + sample(nm2) + sample(nm7);
     } else if (i < 4) {
-      rnd1 = Math.floor(Math.random() * nm1.length);
-      rnd2 = Math.floor(Math.random() * nm3.length);
-      rnd3 = Math.floor(Math.random() * nm6.length);
-      rnd4 = Math.floor(Math.random() * nm10.length);
-      names = nm1[rnd1] + nm8[rnd2] + nm6[rnd3] + nm10[rnd4];
+      names = sample(nm1) + sample(nm8) + sample(nm6) + sample(nm10);
     } else if (i < 6) {
-      rnd1 = Math.floor(Math.random() * nm1.length);
-      rnd2 = Math.floor(Math.random() * nm3.length);
-      rnd3 = Math.floor(Math.random() * nm2.length);
-      rnd4 = Math.floor(Math.random() * nm7.length);
-      names = nm1[rnd1] + nm3[rnd2] + nm2[rnd3] + nm7[rnd4];
+      names = sample(nm1) + sample(nm3) + sample(nm2) + sample(nm7);
     } else if (i < 8) {
-      rnd1 = Math.floor(Math.random() * nm11.length);
-      rnd3 = Math.floor(Math.random() * nm7.length);
-      names = nm11[rnd1] + nm7[rnd3];
+      names = sample(nm11) + sample(nm7);
     } else if (i < 9) {
-      rnd1 = Math.floor(Math.random() * nm11.length);
-      rnd2 = Math.floor(Math.random() * nm2.length);
-      rnd3 = Math.floor(Math.random() * nm3.length);
-      rnd4 = Math.floor(Math.random() * nm6.length);
-      names = nm11[rnd1] + nm2[rnd2] + nm3[rnd3] + nm6[rnd4];
+      names = sample(nm11) + sample(nm2) + sample(nm3) + sample(nm6);
     } else {
-      rnd1 = Math.floor(Math.random() * nm8.length);
-      rnd2 = Math.floor(Math.random() * nm1.length);
-      rnd3 = Math.floor(Math.random() * nm8.length);
-      names = nm8[rnd1] + nm1[rnd2] + nm8[rnd3];
+      names = sample(nm8) + sample(nm1) + sample(nm8);
     }
     return names;
   }

@@ -1,9 +1,7 @@
+import sample from 'lodash/sample';
+
 export default function bolians() {
   let names;
-  let rnd;
-  let rnd2;
-  let rnd3;
-  let rnd4;
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['Ado', 'Ara', 'Ardo', 'Ba', 'Bo', 'Bra', 'Che', 'Co', 'Cra', 'Da', 'Dai', 'Dri', 'Ga', 'Grai', 'Gri', 'Ha', 'Hi', 'Hra', 'La', 'Li', 'Lo', 'Ma', 'Mai', 'Mo', 'Na', 'Ni', 'No', 'Oda', 'Ori', 'Orla', 'Qa', 'Qe', 'Qhi', 'Ra', 'Rai', 'Ri', 'Sa', 'Sho', 'Sra', 'The', 'To', 'Tra', 'Va', 'Vo', 'Vri', 'Xa', 'Xai', 'Xi', 'Ya', 'Yai', 'Ye', 'Za', 'Zai', 'Zi'];
   const nm2 = ['d', 'dar', 'daw', 'ds', 'f', 'fe', 'fel', 'fer', 'g', 'ge', 'gg', 'gon', 'k', 'ken', 'kin', 'kk', 'l', 'lar', 'll', 'ls', 'm', 'man', 'mix', 'ms', 'n', 'nd', 'nn', 'nor', 'q', 'q\'no', 'q\'ra', 'q\'si', 'q\'ta', 'qar', 'r', 'ran', 'rr', 'rs', 's', 'sh', 'sia', 'ss', 't', 'thaw', 'tix', 'tt', 'w', 'wd', 'wer', 'ws', 'x', 'xin', 'xor', 'xx'];
@@ -13,17 +11,9 @@ export default function bolians() {
   const nm6 = ['d', 'das', 'dd', 'din', 'f', 'far', 'ff', 'fit', 'g', 'gg', 'git', 'gon', 'ha', 'har', 'hino', 'ht', 'l', 'lar', 'lin', 'll', 'mar', 'min', 'mm', 'nar', 'nat', 'nin', 'nn', 'ra', 'ras', 'ro', 'rr', 'sa', 'sin', 'slo', 'ss', 'ta', 'ten', 'tor', 'tt', 'wa', 'was', 'wat'];
   {
     if (type === 1) {
-      rnd = Math.floor(Math.random() * nm3.length);
-      rnd2 = Math.floor(Math.random() * nm4.length);
-      rnd3 = Math.floor(Math.random() * nm5.length);
-      rnd4 = Math.floor(Math.random() * nm6.length);
-      names = `${nm3[rnd] + nm4[rnd2]} ${nm5[rnd3]}${nm6[rnd4]}`;
+      names = `${sample(nm3) + sample(nm4)} ${sample(nm5)}${sample(nm6)}`;
     } else {
-      rnd = Math.floor(Math.random() * nm1.length);
-      rnd2 = Math.floor(Math.random() * nm2.length);
-      rnd3 = Math.floor(Math.random() * nm5.length);
-      rnd4 = Math.floor(Math.random() * nm6.length);
-      names = `${nm1[rnd] + nm2[rnd2]} ${nm5[rnd3]}${nm6[rnd4]}`;
+      names = `${sample(nm1) + sample(nm2)} ${sample(nm5)}${sample(nm6)}`;
     }
     return names;
   }

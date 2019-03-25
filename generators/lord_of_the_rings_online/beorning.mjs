@@ -1,7 +1,7 @@
+import sample from 'lodash/sample';
+
 export default function beorning() {
   let names;
-  let rnd;
-  let rnd2;
   const type = Math.random() < 0.5 ? 0 : 1;
   const nm1 = ['Ag', 'Aln', 'Aran', 'Arn', 'Bald', 'Beorn', 'Beran', 'Borg', 'Both', 'Dag', 'Darn', 'Dreng', 'Dug', 'Eld', 'Erad', 'Eran', 'Ern', 'Fer', 'Forn', 'Frid', 'Froth', 'Gal', 'Glum', 'Gluth', 'Grim', 'Har', 'Hart', 'Heim', 'Hroth', 'Ig', 'Ingel', 'Is', 'Iw', 'Jal', 'Jar', 'Jarn', 'Jorn', 'Log', 'Lor', 'Lyd', 'Lyth', 'Mag', 'Mar', 'Morn', 'Moth', 'Nard', 'Ned', 'Nef', 'Nor', 'Old', 'Ord', 'Ot', 'Oth', 'Rand', 'Rath', 'Ric', 'Rod', 'Sig', 'Skal', 'Skol', 'Stig', 'Tar', 'Theod', 'Thor', 'Throt', 'Val', 'Vald', 'Vig', 'Vul', 'Wal', 'Wald', 'Wid', 'Wul'];
   const nm2 = ['ald', 'angar', 'ard', 'aric', 'bald', 'beorn', 'bert', 'bold', 'brand', 'dar', 'dhor', 'dam', 'dan', 'fald', 'fara', 'fast', 'forn', 'gár', 'geir', 'gils', 'grim', 'hame', 'har', 'helm', 'here', 'kald', 'kar', 'karl', 'kin', 'mód', 'mar', 'mark', 'moth', 'mund', 'ohd', 'ond', 'or', 'oric', 'rand', 'rath', 'rek', 'ric', 'sel', 'sorn', 'stin', 'styr', 'tar', 'taric', 'thorn', 'torn', 'var', 'vat', 'vir', 'vith', 'wald', 'war', 'wine', 'wulf'];
@@ -9,13 +9,9 @@ export default function beorning() {
   const nm4 = ['a', 'aen', 'aeya', 'anda', 'ara', 'ava', 'aya', 'bi', 'bina', 'bwyn', 'byn', 'da', 'dira', 'dis', 'dora', 'eith', 'elde', 'ena', 'era', 'eva', 'ewyn', 'fast', 'firth', 'frida', 'fyn', 'garth', 'gifu', 'ginny', 'gun', 'helda', 'hena', 'hera', 'hild', 'la', 'laug', 'lin', 'loth', 'nida', 'nis', 'nwyn', 'ny', 'olin', 'ora', 'otta', 'owyn', 'rin', 'risa', 'rlin', 'run', 'thrith', 'tina', 'tira', 'tyn', 'vera', 'vild', 'vor', 'vyn', 'wed', 'wild', 'winne', 'wyn'];
   {
     if (type === 1) {
-      rnd = Math.floor(Math.random() * nm3.length);
-      rnd2 = Math.floor(Math.random() * nm4.length);
-      names = nm3[rnd] + nm4[rnd2];
+      names = sample(nm3) + sample(nm4);
     } else {
-      rnd = Math.floor(Math.random() * nm1.length);
-      rnd2 = Math.floor(Math.random() * nm2.length);
-      names = nm1[rnd] + nm2[rnd2];
+      names = sample(nm1) + sample(nm2);
     }
     return names;
   }

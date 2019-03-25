@@ -1,12 +1,7 @@
+import sample from 'lodash/sample';
+
 export default function goblins() {
   let names;
-  let rnd2b;
-  let rnd2;
-  let rnd3;
-  let rnd5;
-  let rnd6;
-  let rnd7;
-  let rnd8;
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['', '', '', '', '', '', '', 'b', 'c', 'd', 'f', 'g', 'h', 'j', 'k', 'l', 'p', 'r', 't', 'v', 'w', 'x', 'z', 'br', 'bl', 'cr', 'cl', 'ch', 'dr', 'fr', 'gr', 'gl', 'gn', 'kr', 'kl', 'pr', 'pl', 'str', 'st', 'sr', 'sl', 'tr', 'vr', 'wr', 'zr'];
   const nm2 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'y', 'ia', 'io', 'ee', 'aa', 'ui', 'ie', 'ea', 'oi'];
@@ -18,27 +13,16 @@ export default function goblins() {
   const nm8 = ['e', 'i', 'ee', 'ia', 'ea', 'a', 'ai', '', '', '', '', '', '', '', '', '', '', '', '', ''];
   const i = Math.floor(Math.random() * 10);
   {
-    rnd2 = Math.floor(Math.random() * nm2.length);
-    rnd2b = Math.floor(Math.random() * nm2.length);
     if (type === 1) {
-      rnd5 = Math.floor(Math.random() * nm5.length);
-      rnd7 = Math.floor(Math.random() * nm7.length);
-      rnd8 = Math.floor(Math.random() * nm8.length);
       if (i < 5) {
-        names = nm5[rnd5] + nm2[rnd2] + nm7[rnd7] + nm8[rnd8];
+        names = sample(nm5) + sample(nm2) + sample(nm7) + sample(nm8);
       } else {
-        rnd6 = Math.floor(Math.random() * nm6.length);
-        names = nm5[rnd5] + nm2[rnd2] + nm6[rnd6] + nm2[rnd2b] + nm7[rnd7] + nm8[rnd8];
+        names = sample(nm5) + sample(nm2) + sample(nm6) + sample(nm2) + sample(nm7) + sample(nm8);
       }
+    } else if (i < 5) {
+      names = sample(nm1) + sample(nm2) + sample(nm4);
     } else {
-      rnd5 = Math.floor(Math.random() * nm1.length);
-      rnd7 = Math.floor(Math.random() * nm4.length);
-      if (i < 5) {
-        names = nm1[rnd5] + nm2[rnd2] + nm4[rnd7];
-      } else {
-        rnd3 = Math.floor(Math.random() * nm3.length);
-        names = nm1[rnd5] + nm2[rnd2] + nm3[rnd3] + nm2[rnd2b] + nm4[rnd7];
-      }
+      names = sample(nm1) + sample(nm2) + sample(nm3) + sample(nm2) + sample(nm4);
     }
     return names;
   }

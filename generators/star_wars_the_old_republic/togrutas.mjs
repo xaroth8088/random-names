@@ -1,13 +1,8 @@
+import sample from 'lodash/sample';
+
 export default function togrutas() {
   let names;
   let lName;
-  let rnd;
-  let rnd1;
-  let rnd2;
-  let rnd3;
-  let rnd4;
-  let rnd5;
-  let rnd6;
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm0 = ['', '', '', '', '', '', '', '', '', 'a', 'o', 'u'];
   const nm1 = ['b', 'c', 'd', 'h', 'k', 'm', 'r', 's', 't', 'v', 'z'];
@@ -29,34 +24,14 @@ export default function togrutas() {
   const i = Math.floor(Math.random() * 10);
   {
     if (i < 5) {
-      rnd = Math.floor(Math.random() * nm12.length);
-      rnd2 = Math.floor(Math.random() * nm13.length);
-      rnd3 = Math.floor(Math.random() * nm14.length);
-      rnd4 = Math.floor(Math.random() * nm15.length);
-      rnd5 = Math.floor(Math.random() * nm16.length);
-      lName = nm12[rnd] + nm13[rnd2] + nm14[rnd3] + nm15[rnd4] + nm16[rnd5];
+      lName = sample(nm12) + sample(nm13) + sample(nm14) + sample(nm15) + sample(nm16);
     } else {
-      rnd = Math.floor(Math.random() * nm12.length);
-      rnd2 = Math.floor(Math.random() * nm13.length);
-      rnd5 = Math.floor(Math.random() * nm16.length);
-      lName = nm12[rnd] + nm13[rnd2] + nm16[rnd5];
+      lName = sample(nm12) + sample(nm13) + sample(nm16);
     }
     if (type === 1) {
-      rnd = Math.floor(Math.random() * nm6.length);
-      rnd2 = Math.floor(Math.random() * nm7.length);
-      rnd3 = Math.floor(Math.random() * nm8.length);
-      rnd4 = Math.floor(Math.random() * nm9.length);
-      rnd5 = Math.floor(Math.random() * nm10.length);
-      rnd6 = Math.floor(Math.random() * nm11.length);
-      names = `${nm6[rnd] + nm7[rnd2] + nm8[rnd3] + nm9[rnd4] + nm10[rnd5] + nm11[rnd6]} ${lName}`;
+      names = `${sample(nm6) + sample(nm7) + sample(nm8) + sample(nm9) + sample(nm10) + sample(nm11)} ${lName}`;
     } else {
-      rnd = Math.floor(Math.random() * nm0.length);
-      rnd1 = Math.floor(Math.random() * nm1.length);
-      rnd2 = Math.floor(Math.random() * nm2.length);
-      rnd3 = Math.floor(Math.random() * nm3.length);
-      rnd4 = Math.floor(Math.random() * nm4.length);
-      rnd5 = Math.floor(Math.random() * nm5.length);
-      names = `${nm0[rnd] + nm1[rnd1] + nm2[rnd2] + nm3[rnd3] + nm4[rnd4] + nm5[rnd5]} ${lName}`;
+      names = `${sample(nm0) + sample(nm1) + sample(nm2) + sample(nm3) + sample(nm4) + sample(nm5)} ${lName}`;
     }
     return names;
   }

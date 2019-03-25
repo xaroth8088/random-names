@@ -1,7 +1,8 @@
+import sample from 'lodash/sample';
+
 export default function khmers() {
   let names;
   let rnd;
-  let rnd2;
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['Achariya', 'Akara', 'Amara', 'Anchaly', 'Arun', 'Atith', 'Bona', 'Bora', 'Boran', 'Borey', 'Bourey', 'Bunroeun', 'Chakara', 'Chakra', 'Chakriya', 'Chamroeun', 'Chankrisna', 'Chann', 'Chanthou', 'Chantou', 'Chantrea', 'Chanvatey', 'Chariya', 'Charya', 'Chea', 'Chhay', 'Chhaya', 'Dara', 'Darany', 'Davuth', 'Heng', 'Khemera', 'Kiri', 'Kosal', 'Kravann', 'Leap', 'Makara', 'Many', 'Mao', 'Mau', 'Meaker', 'Mittapheap', 'Montha', 'Mony', 'Munney', 'Munny', 'Narith', 'Nhean', 'Nimith', 'Nimol', 'Nisay', 'Noreaksey', 'Oudom', 'Peou', 'Phala', 'Pheakdei', 'Phirum', 'Phirun', 'Pich', 'Piseth', 'Pisey', 'Poeu', 'Ponleak', 'Ponleu', 'Ponlok', 'Prak', 'Pros', 'Puthyrith', 'Rachana', 'Rainsey', 'Raksmei', 'Rangsei', 'Rasmey', 'Rath', 'Rathana', 'Rathanak', 'Reasmey', 'Rith', 'Rithipol', 'Rithisak', 'Rithy', 'Roth', 'Rotha', 'Rothana', 'Rothanak', 'Rottana', 'Sakngea', 'Samang', 'Samay', 'Sambath', 'Samlain', 'Samnang', 'Samphy', 'Samrin', 'Sangha', 'Sann', 'Serey', 'Sokha', 'Sokhem', 'Sokhom', 'Sokun', 'Somnang', 'Sonith', 'Sopat', 'Sopath', 'Sophat', 'Sophea', 'Sopheaktra', 'Sopheap', 'Sopheara', 'Soriya', 'Sorya', 'Sotearith', 'Sotha', 'Sotharith', 'Sothea', 'Sothear', 'Sothiya', 'Sothy', 'Sourkea', 'Sov', 'Sovann', 'Sovanna', 'Sovannarith', 'Sros', 'Thom', 'Vannak', 'Veasna', 'Veha', 'Vibol', 'Vichear', 'Vichet', 'Vireak', 'Vireakboth', 'Visal', 'Viseth', 'Visna', 'Visoth', 'Visothirith', 'Vithara', 'Vithu'];
   const nm2 = ['Achariya', 'Akara', 'Anchaly', 'Arunny', 'Ary', 'Bopha', 'Botum', 'Boupha', 'Chakriya', 'Champei', 'Chamroeun', 'Chan', 'Chankrisna', 'Chanlina', 'Chanmony', 'Channary', 'Chanthavy', 'Chanthou', 'Chantou', 'Chantrea', 'Chanvatey', 'Chariya', 'Charya', 'Chavy', 'Chaya', 'Chenda', 'Chhaya', 'Chhean', 'Chhorvin', 'Chhorvon', 'Chivy', 'Choum', 'Da', 'Daevy', 'Dara', 'Darareaksmey', 'Davi', 'Davy', 'Devi', 'Jorani', 'Kalianne', 'Kaliyan', 'Kaliyanei', 'Kalliyan', 'Kanleakhana', 'Kannareth', 'Kannitha', 'Kanya', 'Kesor', 'Khean', 'Kolab', 'Koliyan', 'Kolthida', 'Kravann', 'Kunthea', 'Leakena', 'Leap', 'Mach', 'Makara', 'Malis', 'Maly', 'Many', 'Mao', 'Mau', 'Mean', 'Mliss', 'Mony', 'Nakry', 'Narin', 'Nary', 'Nearidei', 'Neary', 'Nuon', 'Peou', 'Phally', 'Phary', 'Pheakdei', 'Pheakkley', 'Phhoung', 'Pich', 'Pisey', 'Poeu', 'Ponlok', 'Punthea', 'Putrea', 'Rachana', 'Rachany', 'Raksmei', 'Rangsei', 'Rasmey', 'Rath', 'Rathana', 'Reach', 'Reaksmey', 'Reasmey', 'Roth', 'Rotha', 'Rotha', 'Rothana', 'Rottana', 'Roumduol', 'Roumjong', 'Saley', 'Samphy', 'Sathea', 'Savady', 'Sawatdee', 'Seda', 'Serey', 'Setha', 'Seyha', 'Sikha', 'Sinuon', 'Sita', 'Sobin', 'Soboen', 'Socheat', 'Sok', 'Sokha', 'Sokhanya', 'Sokhom', 'Sombo', 'Sonisay', 'Sophal', 'Sophea', 'Sopheap', 'Sopheary', 'Sophon', 'Sophorn', 'Soportevy', 'Soriya', 'Soriya', 'Sorpheny', 'Sorya', 'Sotear', 'Sotear', 'Sotearith', 'Sothea', 'Sotheara', 'Sothy', 'Sourkea', 'Sovanara', 'Sovandary', 'Sovaneary', 'Sovann', 'Sovanna', 'Sovannary', 'Sraem', 'Srey', 'SreyPek', 'Sreymom', 'Sreynuon', 'Sreypich', 'Sros', 'Suorsdey', 'Taevy', 'Tevy', 'Thavary', 'Theary', 'Thida', 'Thom', 'Thyda', 'Tina', 'Toch', 'Touch', 'Vanna', 'Veasna', 'Veata', 'Vimean', 'Visal', 'Visna'];
@@ -9,11 +10,9 @@ export default function khmers() {
   {
     rnd = Math.floor(Math.random() * nm3.length);
     if (type === 1) {
-      rnd2 = Math.floor(Math.random() * nm2.length);
-      names = `${nm3[rnd]} ${nm2[rnd2]}`;
+      names = `${sample(nm3)} ${sample(nm2)}`;
     } else {
-      rnd2 = Math.floor(Math.random() * nm1.length);
-      names = `${nm3[rnd]} ${nm1[rnd2]}`;
+      names = `${sample(nm3)} ${sample(nm1)}`;
     }
     nm3.splice(rnd, 1);
     return names;

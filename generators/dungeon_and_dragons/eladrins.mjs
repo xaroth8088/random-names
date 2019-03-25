@@ -1,7 +1,7 @@
+import sample from 'lodash/sample';
+
 export default function eladrins() {
   let names;
-  let rnd;
-  let rnd2;
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['Ara', 'Aran', 'Ber', 'Bran', 'Cor', 'Cru', 'Da', 'Daye', 'Elro', 'Ere', 'Far', 'Fyla', 'Gal', 'Galin', 'Ha', 'Hor', 'Im', 'Ira', 'Ja', 'Jor', 'Kru', 'Kuo', 'Lan', 'Lic', 'Mar', 'Min', 'Nal', 'Nark', 'Ola', 'Otir', 'Pae', 'Pan', 'Qua', 'Quo', 'Rel', 'Riar', 'Sarn', 'Sove', 'Tav', 'Trin', 'Uri', 'Veth', 'Vic', 'Wal', 'Wrug', 'Xan', 'Yan', 'Yor', 'Zen', 'Zor'];
   const nm2 = ['aris', 'aster', 'baver', 'bin', 'card', 'corin', 'dan', 'darai', 'dartis', 'don', 'emin', 'erta', 'fis', 'fros', 'geon', 'grephor', 'heros', 'horn', 'ikul', 'iver', 'kris', 'kul', 'lias', 'liss', 'mendi', 'meral', 'mil', 'morn', 'neiros', 'nis', 'okas', 'oros', 'peiros', 'prath', 'ratra', 'reth', 'rian', 'rion', 'sirak', 'ster', 'thas', 'tihr', 'torin', 'urian', 'uvir', 'van', 'vis', 'wirn', 'worn', 'xeral', 'xis', 'ykos', 'yth', 'zeiros', 'zion'];
@@ -9,13 +9,9 @@ export default function eladrins() {
   const nm4 = ['bis', 'bynn', 'cahne', 'caryn', 'celle', 'cena', 'diel', 'dys', 'faera', 'fyra', 'glyn', 'grys', 'hanna', 'hyssa', 'kiries', 'kyrath', 'lenae', 'lenna', 'lyn', 'lynna', 'meiv', 'miris', 'mynis', 'nairra', 'neth', 'parys', 'prana', 'qirith', 'qis', 'raste', 'rastra', 'riele', 'rynna', 'sanna', 'shana', 'sys', 'thaea', 'tora', 'trianna', 'vara', 'viryn', 'vyre', 'wena', 'wyse', 'xana', 'xis', 'yana', 'yeira', 'zane', 'zora'];
   {
     if (type === 1) {
-      rnd = Math.floor(Math.random() * nm3.length);
-      rnd2 = Math.floor(Math.random() * nm4.length);
-      names = nm3[rnd] + nm4[rnd2];
+      names = sample(nm3) + sample(nm4);
     } else {
-      rnd = Math.floor(Math.random() * nm1.length);
-      rnd2 = Math.floor(Math.random() * nm2.length);
-      names = nm1[rnd] + nm2[rnd2];
+      names = sample(nm1) + sample(nm2);
     }
     return names;
   }

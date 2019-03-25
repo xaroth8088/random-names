@@ -1,10 +1,7 @@
+import sample from 'lodash/sample';
+
 export default function dwarfs() {
   let names;
-  let rnd;
-  let rnd2;
-  let rnd3;
-  let rnd4;
-  let rnd5;
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['A', 'Ara', 'Alfo', 'Bari', 'Be', 'Bo', 'Bha', 'Bu', 'Ba', 'Bra', 'Bro', 'Brou', 'Bru', 'Da', 'Dalo', 'Dare', 'De', 'Dhu', 'Dho', 'Do', 'Dora', 'Dwo', 'Dou', 'Duri', 'Du', 'El', 'Eri', 'Fi', 'Fo', 'Fo', 'Ga', 'Gi', 'Gla', 'Glori', 'Go', 'Gra', 'Gro', 'Groo', 'Gru', 'Grou', 'Ha', 'Ha', 'He', 'He', 'Ho', 'Hou', 'Hu', 'Ja', 'Jo', 'Ka', 'Khe', 'Khu', 'Khou', 'Ko', 'Ku', 'Ki', 'Kra', 'Kro', 'Lo', 'Lu', 'Lo', 'Ma', 'Mo', 'Mu', 'Na', 'No', 'Nu', 'Nora', 'Nura', 'Ne', 'No', 'O', 'Ori', 'Rei', 'Ra', 'Ru', 'Sa', 'Si', 'Sna', 'Sko', 'Ska', 'Stro', 'The', 'Thi', 'Tho', 'Thra', 'Tha', 'Tore', 'Tha', 'Thra', 'Thro', 'Thu', 'Tu', 'U', 'Umi', 'Va', 'Vo', 'Whu', 'We', 'Wera', 'Yu', 'Yo', 'Ya'];
   const nm2 = ['b', 'br', 'dd', 'd', 'dr', 'dm', 'dgr', 'f', 'fr', 'gr', 'gg', 'gh', 'gn', 'k', 'kh', 'kgr', 'kdr', 'kk', 'kh', 'kr', 'l', 'lg', 'lgr', 'ldr', 'lm', 'md', 'mn', 'm', 'mm', 'mr', 'n', 'nd', 'ndr', 'ngr', 'nm', 'r', 'rr', 'rgr', 'rdr', 'rb', 'rg', 'rn', 'rh', 'rd', 'rm', 'rs', 'rf', 's', 'ss', 'sdr', 'sgr', 'st', 'str', 't', 'tr', 'tm', 'th', 'tdr', 'tgr', 'v', 'vr', 'z', 'zm', 'zn', 'zz'];
@@ -15,18 +12,10 @@ export default function dwarfs() {
   const nm7 = ['Ale', 'Amber', 'Anvil', 'Ash', 'Axe', 'Barbed', 'Barrel', 'Battle', 'Beast', 'Bone', 'Beryl', 'Bitter', 'Black', 'Blazing', 'Blessed', 'Blood', 'Blunt', 'Bone', 'Bottle', 'Boulder', 'Brew', 'Brick', 'Bright', 'Bristle', 'Broad', 'Bronze', 'Brown', 'Cave', 'Cask', 'Chain', 'Crag', 'Chaos', 'Coal', 'Coin', 'Copper', 'Dark', 'Deep', 'Dim', 'Dragon', 'Drake', 'Dusk', 'Earth', 'Ember', 'Fiery', 'Flint', 'Flask', 'Flint', 'Flat', 'Forge', 'Frost', 'Giant', 'Gold', 'Golden', 'Granite', 'Gravel', 'Gray', 'Great', 'Grey', 'Grim', 'Grumble', 'Hammer', 'Hard', 'Heavy', 'Hill', 'Honor', 'Horn', 'Ice', 'Ingot', 'Iron', 'Jade', 'Keg', 'Kobold', 'Krag', 'Lead', 'Large', 'Lava', 'Leather', 'Light', 'Long', 'Marble', 'Magma', 'Merry', 'Metal', 'Mithril', 'Mine', 'Mountain', 'Mud', 'Night', 'Noble', 'Oak', 'Oaken', 'Onyx', 'Opal', 'Ore', 'Orc', 'Plate', 'Pebble', 'Red', 'Rune', 'Ruby', 'Sapphire', 'Shadow', 'Shatter', 'Smelt', 'Silver', 'Snow', 'Steel', 'Storm', 'Strong', 'Troll', 'Thunder', 'Twilight', 'Treasure', 'Under', 'War', 'Warm', 'Whit', 'Wind', 'Wold', 'Wraith', 'Wyvern'];
   const nm8 = ['arm', 'armour', 'axe', 'back', 'bane', 'beard', 'basher', 'belly', 'belt', 'bender', 'blade', 'born', 'bow', 'braid', 'braids', 'branch', 'brand', 'breaker', 'brew', 'brewer', 'bringer', 'brow', 'buckle', 'buster', 'chest', 'chin', 'cloak', 'coat', 'delver', 'digger', 'foot', 'fall', 'fury', 'finger', 'flayer', 'feet', 'forge', 'forged', 'grog', 'grip', 'guard', 'gut', 'granite', 'hand', 'head', 'heart', 'helm', 'hide', 'hood', 'horn', 'jaw', 'mace', 'mail', 'maker', 'mantle', 'mane', 'master', 'maul', 'miner', 'pike', 'rock', 'river', 'shield', 'shaper', 'sword', 'shoulder', 'stone', 'spine', 'sunder', 'thane', 'toe', 'tank', 'view'];
   {
-    rnd4 = Math.floor(Math.random() * nm7.length);
-    rnd5 = Math.floor(Math.random() * nm8.length);
     if (type === 1) {
-      rnd = Math.floor(Math.random() * nm4.length);
-      rnd2 = Math.floor(Math.random() * nm5.length);
-      rnd3 = Math.floor(Math.random() * nm6.length);
-      names = `${nm4[rnd] + nm5[rnd2] + nm6[rnd3]} ${nm7[rnd4]}${nm8[rnd5]}`;
+      names = `${sample(nm4) + sample(nm5) + sample(nm6)} ${sample(nm7)}${sample(nm8)}`;
     } else {
-      rnd = Math.floor(Math.random() * nm1.length);
-      rnd2 = Math.floor(Math.random() * nm2.length);
-      rnd3 = Math.floor(Math.random() * nm3.length);
-      names = `${nm1[rnd] + nm2[rnd2] + nm3[rnd3]} ${nm7[rnd4]}${nm8[rnd5]}`;
+      names = `${sample(nm1) + sample(nm2) + sample(nm3)} ${sample(nm7)}${sample(nm8)}`;
     }
     return names;
   }

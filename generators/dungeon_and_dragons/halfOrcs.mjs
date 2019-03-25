@@ -1,8 +1,7 @@
+import sample from 'lodash/sample';
+
 export default function halfOrcs() {
   let names;
-  let rnd;
-  let rnd2;
-  let rnd3;
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['Ag', 'Agg', 'Ar', 'Arn', 'As', 'At', 'Atr', 'B', 'Bar', 'Bel', 'Bor', 'Br', 'Brak', 'C', 'Cr', 'D', 'Dor', 'Dr', 'Dur', 'G', 'Gal', 'Gan', 'Gar', 'Gna', 'Gor', 'Got', 'Gr', 'Gram', 'Grim', 'Grom', 'Grum', 'Gul', 'H', 'Hag', 'Han', 'Har', 'Hog', 'Hon', 'Hor', 'Hun', 'Hur', 'K', 'Kal', 'Kam', 'Kar', 'Kel', 'Kil', 'Kom', 'Kor', 'Kra', 'Kru', 'Kul', 'Kur', 'Lum', 'M', 'Mag', 'Mahl', 'Mak', 'Mal', 'Mar', 'Mog', 'Mok', 'Mor', 'Mug', 'Muk', 'Mura', 'N', 'Oggu', 'Ogu', 'Ok', 'Oll', 'Or', 'Rek', 'Ren', 'Ron', 'Rona', 'S', 'Sar', 'Sor', 'T', 'Tan', 'Th', 'Thar', 'Ther', 'Thr', 'Thur', 'Trak', 'Truk', 'Ug', 'Uk', 'Ukr', 'Ull', 'Ur', 'Urth', 'Urtr', 'Z', 'Za', 'Zar', 'Zas', 'Zav', 'Zev', 'Zor', 'Zur', 'Zus'];
   const nm2 = ['a', 'a', 'a', 'o', 'o', 'e', 'i', 'u', 'u', 'u'];
@@ -12,15 +11,9 @@ export default function halfOrcs() {
   const nm6 = ['d', 'da', 'dar', 'dur', 'g', 'gar', 'gh', 'gri', 'gu', 'sh', 'sha', 'shi', 'gum', 'gume', 'gur', 'ki', 'mar', 'mi', 'mira', 'me', 'mur', 'ne', 'ner', 'nir', 'nar', 'nchu', 'ni', 'nur', 'ral', 'rel', 'ri', 'rook', 'ti', 'tah', 'tir', 'tar', 'tur', 'war', 'z', 'zar', 'zara', 'zi', 'zur', 'zura', 'zira'];
   {
     if (type === 1) {
-      rnd = Math.floor(Math.random() * nm4.length);
-      rnd2 = Math.floor(Math.random() * nm5.length);
-      rnd3 = Math.floor(Math.random() * nm6.length);
-      names = nm4[rnd] + nm5[rnd2] + nm6[rnd3];
+      names = sample(nm4) + sample(nm5) + sample(nm6);
     } else {
-      rnd = Math.floor(Math.random() * nm1.length);
-      rnd2 = Math.floor(Math.random() * nm2.length);
-      rnd3 = Math.floor(Math.random() * nm3.length);
-      names = nm1[rnd] + nm2[rnd2] + nm3[rnd3];
+      names = sample(nm1) + sample(nm2) + sample(nm3);
     }
     return names;
   }

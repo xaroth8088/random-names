@@ -1,3 +1,5 @@
+import sample from 'lodash/sample';
+
 export default function casinos() {
   let names;
   let rnd;
@@ -10,13 +12,12 @@ export default function casinos() {
   {
     if (i < 5) {
       rnd = Math.floor(Math.random() * nm1.length);
-      rnd2 = Math.floor(Math.random() * nm4.length);
-      names = `The ${nm1[rnd]}${nm4[rnd2]}`;
+      names = `The ${sample(nm1)}${sample(nm4)}`;
       nm1.splice(rnd, 1);
     } else {
       rnd = Math.floor(Math.random() * nm2.length);
       rnd2 = Math.floor(Math.random() * nm3.length);
-      names = `The ${nm2[rnd]} ${nm3[rnd2]} Casino`;
+      names = `The ${sample(nm2)} ${sample(nm3)} Casino`;
       nm2.splice(rnd, 1);
       nm3.splice(rnd2, 1);
     }

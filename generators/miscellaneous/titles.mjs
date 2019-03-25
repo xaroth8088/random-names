@@ -1,7 +1,7 @@
+import sample from 'lodash/sample';
+
 export default function titles() {
   let names;
-  let rnd;
-  let rnd2;
   const nm1 = ['Queen', 'Matriarch', 'Mother', 'Father', 'Admiral', 'Baron', 'Blessed', 'Caesar', 'Captain', 'Cardinal', 'Chairman', 'Chief', 'Chieftain', 'Commander', 'Corporal', 'Count', 'Defender', 'Divine', 'Dom', 'Duke', 'Earl', 'Elder', 'Eminence', 'Emperor', 'Exarch', 'General', 'Governor', 'Grand Master', 'Guardian', 'Headman', 'Herald', 'Imperator', 'King', 'Lord', 'Master', 'Palatine', 'Paragon', 'Patriarch', 'Pharaoh', 'President', 'Prime', 'Prince', 'Protector', 'Ruler', 'Shogun', 'Sultan'];
   const nm2 = ['Arrows', 'Ash', 'Blue', 'Bones', 'Conviction', 'Damned', 'Darkness', 'Dawn', 'Death', 'Demons', 'Dragons', 'Dreams', 'Dusk', 'Dwarves', 'Elves', 'Faith', 'Fear', 'Fire', 'Fools', 'Fortitude', 'Gold', 'Green', 'Heaven', 'Hell', 'Ice', 'Iron', 'Justice', 'Kingdoms', 'Life', 'Light', 'Men', 'Nations', 'Nature', 'New Kingdom', 'Night', 'Nightmares', 'the Old Kingdom', 'Orcs', 'Order', 'Peace', 'Purity', 'Realms', 'Red', 'Sand', 'Ships', 'Silver', 'Skulls', 'Snow', 'Steel', 'Swords', 'Thieves', 'Unity', 'Universe', 'Virtue', 'War', 'Watch', 'Water', 'the Dead', 'the Desert', 'the Dominion', 'the Earth', 'the East', 'the Fields', 'the Fleet', 'the Forests', 'the Future', 'the Gods', 'the Lakes', 'the Lands', 'the Living', 'the Marsh', 'the Millenium', 'the Moon', 'the Mountains', 'the New Age', 'the North', 'the Ocean', 'the People', 'the Plains', 'the Reach', 'the Realm', 'the Rivers', 'the Seas', 'the Skies', 'the Small', 'the South', 'the Stars', 'the Sun', 'the Titans', 'the Undead', 'the Vale', 'the Valleys', 'the West', 'the Wild', 'the Winds', 'the Wise', 'the World'];
   const nm3 = ['Administrator', 'Assistant', 'Baron', 'Captain', 'Chairman', 'Chief', 'Consul', 'Curator', 'Delegate', 'Director', 'Earl', 'Exarch', 'Governor', 'Head', 'Headman', 'Lady', 'Liaison', 'Lord', 'Master', 'Matriarch', 'Minister', 'Noble', 'Official', 'Overlord', 'Patriarch', 'Prime', 'Professor', 'Secretary', 'Sir', 'Tribune'];
@@ -11,17 +11,11 @@ export default function titles() {
   const i = Math.floor(Math.random() * 10);
   {
     if (i < 3) {
-      rnd = Math.floor(Math.random() * nm1.length);
-      rnd2 = Math.floor(Math.random() * nm2.length);
-      names = `${nm1[rnd]} of ${nm2[rnd2]}`;
+      names = `${sample(nm1)} of ${sample(nm2)}`;
     } else if (i < 7) {
-      rnd = Math.floor(Math.random() * nm3.length);
-      rnd2 = Math.floor(Math.random() * nm4.length);
-      names = `${nm3[rnd]} of ${nm4[rnd2]}`;
+      names = `${sample(nm3)} of ${sample(nm4)}`;
     } else {
-      rnd = Math.floor(Math.random() * nm5.length);
-      rnd2 = Math.floor(Math.random() * nm6.length);
-      names = `${nm5[rnd]} of ${nm6[rnd2]}`;
+      names = `${sample(nm5)} of ${sample(nm6)}`;
     }
     return names;
   }

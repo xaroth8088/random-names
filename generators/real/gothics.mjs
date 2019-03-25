@@ -1,3 +1,5 @@
+import sample from 'lodash/sample';
+
 export default function gothics() {
   let names;
   let rnd;
@@ -7,11 +9,11 @@ export default function gothics() {
   {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm2.length);
-      names = nm2[rnd];
+      names = sample(nm2);
       nm2.splice(rnd, 1);
     } else {
       rnd = Math.floor(Math.random() * nm1.length);
-      names = nm1[rnd];
+      names = sample(nm1);
       nm1.splice(rnd, 1);
     }
     return names;

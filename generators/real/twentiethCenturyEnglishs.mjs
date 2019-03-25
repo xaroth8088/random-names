@@ -1,7 +1,7 @@
+import sample from 'lodash/sample';
+
 export default function twentiethCenturyEnglishs() {
   let names;
-  let rnd;
-  let rnd2;
   const type = Math.random() > 0.5 ? 0 : 1;
   /* 1900-1920 */
   const nm1 = ['Aaron', 'Abraham', 'Adam', 'Adolph', 'Alan', 'Albert', 'Alex', 'Alexander', 'Alfred', 'Allan', 'Allen', 'Alton', 'Alvin', 'Amos', 'Andrew', 'Angelo', 'Anthony', 'Antonio', 'Archie', 'Arnold', 'Arthur', 'August', 'Ben', 'Benjamin', 'Bennie', 'Bernard', 'Bert', 'Bill', 'Billie', 'Billy', 'Bob', 'Bobby', 'Bruce', 'Calvin', 'Carl', 'Cecil', 'Charles', 'Charley', 'Charlie', 'Chester', 'Clarence', 'Claude', 'Clayton', 'Clifford', 'Clifton', 'Clinton', 'Clyde', 'Cornelius', 'Curtis', 'Dale', 'Dan', 'Daniel', 'Dave', 'David', 'Dean', 'Delbert', 'Dennis', 'Dewey', 'Don', 'Donald', 'Douglas', 'Duane', 'Earl', 'Earnest', 'Ed', 'Eddie', 'Edgar', 'Edmund', 'Edward', 'Edwin', 'Elbert', 'Ellis', 'Elmer', 'Emil', 'Emmett', 'Ernest', 'Ervin', 'Eugene', 'Everett', 'Felix', 'Floyd', 'Forrest', 'Francis', 'Frank', 'Franklin', 'Fred', 'Frederick', 'Gene', 'George', 'Gerald', 'Gilbert', 'Glen', 'Glenn', 'Gordon', 'Guy', 'Harold', 'Harry', 'Harvey', 'Henry', 'Herbert', 'Herman', 'Homer', 'Horace', 'Howard', 'Hubert', 'Hugh', 'Ira', 'Irvin', 'Irving', 'Isaac', 'Ivan', 'Jack', 'Jacob', 'Jake', 'James', 'Jay', 'Jerome', 'Jerry', 'Jesse', 'Jessie', 'Jim', 'Jimmie', 'Jimmy', 'Joe', 'John', 'Johnie', 'Johnnie', 'Johnny', 'Jose', 'Joseph', 'Juan', 'Julian', 'Julius', 'Junior', 'Karl', 'Keith', 'Kenneth', 'Larry', 'Lawrence', 'Lee', 'Leland', 'Leo', 'Leon', 'Leonard', 'Leroy', 'Leslie', 'Lester', 'Lewis', 'Lloyd', 'Lonnie', 'Louis', 'Lowell', 'Luther', 'Lyle', 'Mack', 'Manuel', 'Marion', 'Mark', 'Marshall', 'Martin', 'Marvin', 'Matthew', 'Maurice', 'Max', 'Melvin', 'Merle', 'Michael', 'Mike', 'Milton', 'Morris', 'Nathan', 'Nathaniel', 'Nelson', 'Nicholas', 'Nick', 'Norman', 'Oliver', 'Ollie', 'Orville', 'Oscar', 'Otis', 'Otto', 'Patrick', 'Paul', 'Percy', 'Perry', 'Pete', 'Peter', 'Philip', 'Phillip', 'Ralph', 'Ray', 'Raymond', 'Richard', 'Robert', 'Roger', 'Roland', 'Ronald', 'Roosevelt', 'Roscoe', 'Roy', 'Rudolph', 'Rufus', 'Russell', 'Salvatore', 'Sam', 'Samuel', 'Sidney', 'Stanley', 'Stephen', 'Steve', 'Sylvester', 'Ted', 'Theodore', 'Thomas', 'Tom', 'Tony', 'Vernon', 'Victor', 'Vincent', 'Virgil', 'Wallace', 'Walter', 'Warren', 'Wayne', 'Wesley', 'Wilbert', 'Wilbur', 'Wilfred', 'Will', 'Willard', 'William', 'Willie', 'Willis', 'Wilson', 'Woodrow'];
@@ -23,46 +23,26 @@ export default function twentiethCenturyEnglishs() {
   {
     if (type === 1) {
       if (i < 2) {
-        rnd = Math.floor(Math.random() * nm2.length);
-        rnd2 = Math.floor(Math.random() * nm11.length);
-        names = `${nm2[rnd]} ${nm11[rnd2]}`;
+        names = `${sample(nm2)} ${sample(nm11)}`;
       } else if (i < 4) {
-        rnd = Math.floor(Math.random() * nm4.length);
-        rnd2 = Math.floor(Math.random() * nm11.length);
-        names = `${nm4[rnd]} ${nm11[rnd2]}`;
+        names = `${sample(nm4)} ${sample(nm11)}`;
       } else if (i < 6) {
-        rnd = Math.floor(Math.random() * nm6.length);
-        rnd2 = Math.floor(Math.random() * nm11.length);
-        names = `${nm6[rnd]} ${nm11[rnd2]}`;
+        names = `${sample(nm6)} ${sample(nm11)}`;
       } else if (i < 8) {
-        rnd = Math.floor(Math.random() * nm8.length);
-        rnd2 = Math.floor(Math.random() * nm11.length);
-        names = `${nm8[rnd]} ${nm11[rnd2]}`;
+        names = `${sample(nm8)} ${sample(nm11)}`;
       } else {
-        rnd = Math.floor(Math.random() * nm10.length);
-        rnd2 = Math.floor(Math.random() * nm11.length);
-        names = `${nm10[rnd]} ${nm11[rnd2]}`;
+        names = `${sample(nm10)} ${sample(nm11)}`;
       }
     } else if (i < 2) {
-      rnd = Math.floor(Math.random() * nm1.length);
-      rnd2 = Math.floor(Math.random() * nm11.length);
-      names = `${nm1[rnd]} ${nm11[rnd2]}`;
+      names = `${sample(nm1)} ${sample(nm11)}`;
     } else if (i < 4) {
-      rnd = Math.floor(Math.random() * nm3.length);
-      rnd2 = Math.floor(Math.random() * nm11.length);
-      names = `${nm3[rnd]} ${nm11[rnd2]}`;
+      names = `${sample(nm3)} ${sample(nm11)}`;
     } else if (i < 6) {
-      rnd = Math.floor(Math.random() * nm5.length);
-      rnd2 = Math.floor(Math.random() * nm11.length);
-      names = `${nm5[rnd]} ${nm11[rnd2]}`;
+      names = `${sample(nm5)} ${sample(nm11)}`;
     } else if (i < 8) {
-      rnd = Math.floor(Math.random() * nm7.length);
-      rnd2 = Math.floor(Math.random() * nm11.length);
-      names = `${nm7[rnd]} ${nm11[rnd2]}`;
+      names = `${sample(nm7)} ${sample(nm11)}`;
     } else {
-      rnd = Math.floor(Math.random() * nm9.length);
-      rnd2 = Math.floor(Math.random() * nm11.length);
-      names = `${nm9[rnd]} ${nm11[rnd2]}`;
+      names = `${sample(nm9)} ${sample(nm11)}`;
     }
     return names;
   }

@@ -1,15 +1,7 @@
+import sample from 'lodash/sample';
+
 export default function humans() {
   let names;
-  let rnd;
-  let rnd2;
-  let rnd3;
-  let rnd4;
-  let rnd5;
-  let rnd6;
-  let rnd7;
-  let rnd8;
-  let rnd9;
-  let rnd10;
   const type = Math.random() > 0.5 ? 0 : 1;
   /* Kellid */
   const nm1 = ['b', 'br', 'd', 'dr', 'g', 'k', 'kr', 'p', 'pr', 'q', 'r', 'str', 't', 'tr', 'v'];
@@ -42,7 +34,6 @@ export default function humans() {
   const nm26 = ['', '', '', '', '', 'c', 'cz', 'd', 'f', 'fr', 'g', 'gr', 'j', 'k', 'kl', 'm', 'mv', 'p', 'r', 's', 'ts', 'v', 'vh', 'w', 'z'];
   const nm27 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'y', 'ai', 'io', 'ae', 'aa', 'oo'];
   const nm28 = ['cc', 'd', 'ddr', 'dm', 'g', 'gr', 'j', 'k', 'l', 'ld', 'll', 'm', 'ml', 'n', 'nd', 'ndl', 'ng', 'nj', 'nn', 'nt', 'r', 'rdr', 'rk', 'rr', 'rs', 'shk', 'sht', 'sk', 'st', 't', 'th', 'ttl', 'v', 'zm', 'zn', 'zz'];
-  const nm29 = ['', '', '', '', '', '', '', '', 'd', 'kz', 'kcz', 'l', 'lf', 'n', 'r', 'rc', 'rd', 'rk', 's', 't', 'v'];
   /* Azlanti */
   const nm30 = ['', '', '', '', 'b', 'br', 'cr', 'c', 'd', 'dh', 'dr', 'g', 'gr', 'j', 'k', 'kr', 'm', 'n', 'nh', 'r', 'x', 'z', 'zr'];
   const nm31 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'au', 'ou'];
@@ -86,134 +77,30 @@ export default function humans() {
   {
     if (type === 1) {
       if (i < 2) {
-        rnd = Math.floor(Math.random() * nm5.length);
-        rnd2 = Math.floor(Math.random() * nm2.length);
-        rnd3 = Math.floor(Math.random() * nm6.length);
-        rnd4 = Math.floor(Math.random() * nm2.length);
-        rnd5 = Math.floor(Math.random() * nm7.length);
-        names = nm5[rnd] + nm2[rnd2] + nm6[rnd3] + nm2[rnd4] + nm7[rnd5];
+        names = sample(nm5) + sample(nm2) + sample(nm6) + sample(nm2) + sample(nm7);
       } else if (i < 4) {
-        rnd = Math.floor(Math.random() * nm12.length);
-        rnd2 = Math.floor(Math.random() * nm13.length);
-        rnd3 = Math.floor(Math.random() * nm14.length);
-        rnd4 = Math.floor(Math.random() * nm13.length);
-        rnd5 = Math.floor(Math.random() * nm15.length);
-        rnd6 = Math.floor(Math.random() * nm16.length);
-        rnd7 = Math.floor(Math.random() * nm17.length);
-        names = `${nm12[rnd] + nm13[rnd2] + nm14[rnd3] + nm13[rnd4] + nm15[rnd5]} ${nm16[rnd6]}${nm17[rnd7]}`;
+        names = `${sample(nm12) + sample(nm13) + sample(nm14) + sample(nm13) + sample(nm15)} ${sample(nm16)}${sample(nm17)}`;
       } else if (i < 6) {
-        rnd = Math.floor(Math.random() * nm22.length);
-        rnd2 = Math.floor(Math.random() * nm23.length);
-        rnd3 = Math.floor(Math.random() * nm24.length);
-        rnd4 = Math.floor(Math.random() * nm23.length);
-        rnd5 = Math.floor(Math.random() * nm25.length);
-        rnd6 = Math.floor(Math.random() * nm26.length);
-        rnd7 = Math.floor(Math.random() * nm27.length);
-        rnd8 = Math.floor(Math.random() * nm28.length);
-        rnd9 = Math.floor(Math.random() * nm27.length);
-        rnd10 = Math.floor(Math.random() * nm29.length);
-        names = `${nm22[rnd] + nm23[rnd2] + nm24[rnd3] + nm23[rnd4] + nm25[rnd5]} ${nm26[rnd6]}${nm27[rnd7]}${nm28[rnd8]}${nm27[rnd9]}${nm28[rnd10]}`;
+        names = `${sample(nm22) + sample(nm23) + sample(nm24) + sample(nm23) + sample(nm25)} ${sample(nm26)}${sample(nm27)}${sample(nm28)}${sample(nm27)}${sample(nm28)}`;
       } else if (i < 8) {
-        rnd = Math.floor(Math.random() * nm34.length);
-        rnd2 = Math.floor(Math.random() * nm35.length);
-        rnd3 = Math.floor(Math.random() * nm36.length);
-        rnd4 = Math.floor(Math.random() * nm35.length);
-        rnd5 = Math.floor(Math.random() * nm37.length);
-        rnd6 = Math.floor(Math.random() * nm38.length);
-        rnd7 = Math.floor(Math.random() * nm39.length);
-        rnd8 = Math.floor(Math.random() * nm40.length);
-        rnd9 = Math.floor(Math.random() * nm39.length);
-        rnd10 = Math.floor(Math.random() * nm41.length);
-        names = `${nm34[rnd] + nm35[rnd2] + nm36[rnd3] + nm35[rnd4] + nm37[rnd5]} ${nm38[rnd6]}${nm39[rnd7]}${nm40[rnd8]}${nm39[rnd9]}${nm41[rnd10]}`;
+        names = `${sample(nm34) + sample(nm35) + sample(nm36) + sample(nm35) + sample(nm37)} ${sample(nm38)}${sample(nm39)}${sample(nm40)}${sample(nm39)}${sample(nm41)}`;
       } else if (i < 10) {
-        rnd = Math.floor(Math.random() * nm46.length);
-        rnd2 = Math.floor(Math.random() * nm47.length);
-        rnd3 = Math.floor(Math.random() * nm48.length);
-        rnd4 = Math.floor(Math.random() * nm47.length);
-        rnd5 = Math.floor(Math.random() * nm49.length);
-        rnd6 = Math.floor(Math.random() * nm50.length);
-        rnd7 = Math.floor(Math.random() * nm51.length);
-        rnd8 = Math.floor(Math.random() * nm52.length);
-        rnd9 = Math.floor(Math.random() * nm51.length);
-        rnd10 = Math.floor(Math.random() * nm53.length);
-        names = `${nm46[rnd] + nm47[rnd2] + nm48[rnd3] + nm47[rnd4] + nm49[rnd5]} ${nm50[rnd6]}${nm51[rnd7]}${nm52[rnd8]}${nm51[rnd9]}${nm53[rnd10]}`;
+        names = `${sample(nm46) + sample(nm47) + sample(nm48) + sample(nm47) + sample(nm49)} ${sample(nm50)}${sample(nm51)}${sample(nm52)}${sample(nm51)}${sample(nm53)}`;
       } else {
-        rnd = Math.floor(Math.random() * nm58.length);
-        rnd2 = Math.floor(Math.random() * nm59.length);
-        rnd3 = Math.floor(Math.random() * nm60.length);
-        rnd4 = Math.floor(Math.random() * nm59.length);
-        rnd5 = Math.floor(Math.random() * nm61.length);
-        rnd6 = Math.floor(Math.random() * nm62.length);
-        rnd7 = Math.floor(Math.random() * nm63.length);
-        rnd8 = Math.floor(Math.random() * nm64.length);
-        rnd9 = Math.floor(Math.random() * nm63.length);
-        rnd10 = Math.floor(Math.random() * nm65.length);
-        names = `${nm58[rnd] + nm59[rnd2] + nm60[rnd3] + nm59[rnd4] + nm61[rnd5]} ${nm62[rnd6]}${nm63[rnd7]}${nm64[rnd8]}${nm63[rnd9]}${nm65[rnd10]}`;
+        names = `${sample(nm58) + sample(nm59) + sample(nm60) + sample(nm59) + sample(nm61)} ${sample(nm62)}${sample(nm63)}${sample(nm64)}${sample(nm63)}${sample(nm65)}`;
       }
     } else if (i < 2) {
-      rnd = Math.floor(Math.random() * nm1.length);
-      rnd2 = Math.floor(Math.random() * nm2.length);
-      rnd3 = Math.floor(Math.random() * nm3.length);
-      rnd4 = Math.floor(Math.random() * nm2.length);
-      rnd5 = Math.floor(Math.random() * nm4.length);
-      names = nm1[rnd] + nm2[rnd2] + nm3[rnd3] + nm2[rnd4] + nm4[rnd5];
+      names = sample(nm1) + sample(nm2) + sample(nm3) + sample(nm2) + sample(nm4);
     } else if (i < 4) {
-      rnd = Math.floor(Math.random() * nm8.length);
-      rnd2 = Math.floor(Math.random() * nm9.length);
-      rnd3 = Math.floor(Math.random() * nm10.length);
-      rnd4 = Math.floor(Math.random() * nm9.length);
-      rnd5 = Math.floor(Math.random() * nm11.length);
-      rnd6 = Math.floor(Math.random() * nm16.length);
-      rnd7 = Math.floor(Math.random() * nm17.length);
-      names = `${nm8[rnd] + nm9[rnd2] + nm10[rnd3] + nm9[rnd4] + nm11[rnd5]} ${nm16[rnd6]}${nm17[rnd7]}`;
+      names = `${sample(nm8) + sample(nm9) + sample(nm10) + sample(nm9) + sample(nm11)} ${sample(nm16)}${sample(nm17)}`;
     } else if (i < 6) {
-      rnd = Math.floor(Math.random() * nm18.length);
-      rnd2 = Math.floor(Math.random() * nm19.length);
-      rnd3 = Math.floor(Math.random() * nm20.length);
-      rnd4 = Math.floor(Math.random() * nm19.length);
-      rnd5 = Math.floor(Math.random() * nm21.length);
-      rnd6 = Math.floor(Math.random() * nm26.length);
-      rnd7 = Math.floor(Math.random() * nm27.length);
-      rnd8 = Math.floor(Math.random() * nm28.length);
-      rnd9 = Math.floor(Math.random() * nm27.length);
-      rnd10 = Math.floor(Math.random() * nm29.length);
-      names = `${nm18[rnd] + nm19[rnd2] + nm20[rnd3] + nm19[rnd4] + nm21[rnd5]} ${nm26[rnd6]}${nm27[rnd7]}${nm28[rnd8]}${nm27[rnd9]}${nm28[rnd10]}`;
+      names = `${sample(nm18) + sample(nm19) + sample(nm20) + sample(nm19) + sample(nm21)} ${sample(nm26)}${sample(nm27)}${sample(nm28)}${sample(nm27)}${sample(nm28)}`;
     } else if (i < 8) {
-      rnd = Math.floor(Math.random() * nm30.length);
-      rnd2 = Math.floor(Math.random() * nm31.length);
-      rnd3 = Math.floor(Math.random() * nm32.length);
-      rnd4 = Math.floor(Math.random() * nm31.length);
-      rnd5 = Math.floor(Math.random() * nm33.length);
-      rnd6 = Math.floor(Math.random() * nm38.length);
-      rnd7 = Math.floor(Math.random() * nm39.length);
-      rnd8 = Math.floor(Math.random() * nm40.length);
-      rnd9 = Math.floor(Math.random() * nm39.length);
-      rnd10 = Math.floor(Math.random() * nm41.length);
-      names = `${nm30[rnd] + nm31[rnd2] + nm32[rnd3] + nm31[rnd4] + nm33[rnd5]} ${nm38[rnd6]}${nm39[rnd7]}${nm40[rnd8]}${nm39[rnd9]}${nm41[rnd10]}`;
+      names = `${sample(nm30) + sample(nm31) + sample(nm32) + sample(nm31) + sample(nm33)} ${sample(nm38)}${sample(nm39)}${sample(nm40)}${sample(nm39)}${sample(nm41)}`;
     } else if (i < 10) {
-      rnd = Math.floor(Math.random() * nm42.length);
-      rnd2 = Math.floor(Math.random() * nm43.length);
-      rnd3 = Math.floor(Math.random() * nm44.length);
-      rnd4 = Math.floor(Math.random() * nm43.length);
-      rnd5 = Math.floor(Math.random() * nm45.length);
-      rnd6 = Math.floor(Math.random() * nm50.length);
-      rnd7 = Math.floor(Math.random() * nm51.length);
-      rnd8 = Math.floor(Math.random() * nm52.length);
-      rnd9 = Math.floor(Math.random() * nm51.length);
-      rnd10 = Math.floor(Math.random() * nm53.length);
-      names = `${nm42[rnd] + nm43[rnd2] + nm44[rnd3] + nm43[rnd4] + nm45[rnd5]} ${nm50[rnd6]}${nm51[rnd7]}${nm52[rnd8]}${nm51[rnd9]}${nm53[rnd10]}`;
+      names = `${sample(nm42) + sample(nm43) + sample(nm44) + sample(nm43) + sample(nm45)} ${sample(nm50)}${sample(nm51)}${sample(nm52)}${sample(nm51)}${sample(nm53)}`;
     } else {
-      rnd = Math.floor(Math.random() * nm54.length);
-      rnd2 = Math.floor(Math.random() * nm55.length);
-      rnd3 = Math.floor(Math.random() * nm56.length);
-      rnd4 = Math.floor(Math.random() * nm55.length);
-      rnd5 = Math.floor(Math.random() * nm57.length);
-      rnd6 = Math.floor(Math.random() * nm62.length);
-      rnd7 = Math.floor(Math.random() * nm63.length);
-      rnd8 = Math.floor(Math.random() * nm64.length);
-      rnd9 = Math.floor(Math.random() * nm63.length);
-      rnd10 = Math.floor(Math.random() * nm65.length);
-      names = `${nm54[rnd] + nm55[rnd2] + nm56[rnd3] + nm55[rnd4] + nm57[rnd5]} ${nm62[rnd6]}${nm63[rnd7]}${nm64[rnd8]}${nm63[rnd9]}${nm65[rnd10]}`;
+      names = `${sample(nm54) + sample(nm55) + sample(nm56) + sample(nm55) + sample(nm57)} ${sample(nm62)}${sample(nm63)}${sample(nm64)}${sample(nm63)}${sample(nm65)}`;
     }
     return names;
   }

@@ -1,10 +1,7 @@
+import sample from 'lodash/sample';
+
 export default function bloodElf() {
   let names;
-  let rnd;
-  let rnd2;
-  let rnd3;
-  let rnd4;
-  let rnd5;
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['Aer', 'Aeri', 'Al', 'Ala', 'Ba', 'Bac', 'Bae', 'Baem', 'Baema', 'Be', 'Bem', 'Bema', 'Bi', 'Bit', 'Ca', 'Cae', 'Caem', 'Cam', 'Dra', 'Drae', 'Du', 'Duy', 'Er', 'Eri', 'Ha', 'Hat', 'He', 'Her', 'In', 'Ine', 'Inet', 'It', 'Je', 'Jen', 'Kee', 'Keel', 'Kre', 'Lo', 'Lor', 'Ma', 'Mat', 'Matha', 'Me', 'Mel', 'No', 'Nor', 'Norae', 'Oni', 'Pa', 'Par', 'Pe', 'Per', 'Qu', 'Qui', 'Ra', 'Rah', 'Sa', 'Sae', 'Saet', 'Sat', 'So', 'Ta', 'Tan', 'Vy', 'Vya', 'We', 'Wel', 'Wele', 'Wi', 'Win', 'Ya', 'Yat', 'Za', 'Zae', 'Zan', 'Ze', 'Zel'];
   const nm2 = ['h', 'ha', 'hae', 'hea', 'l', 'la', 'lae', 'le', 'm', 'ma', 'mae', 'me', 'n', 'na', 'nae', 'ne', 'r', 'ra', 'rae', 're', 't', 'th', '', '', '', '', '', '', '', '', '', '', '', '', ''];
@@ -16,26 +13,16 @@ export default function bloodElf() {
   const nm8 = ['bane', 'binder', 'blade', 'blossom', 'bringer', 'brook', 'down', 'fall', 'feather', 'flame', 'flare', 'forge', 'fury', 'gaze', 'gazer', 'heart', 'light', 'mourn', 'reaver', 'seeker', 'shade', 'shadow', 'shard', 'shield', 'singer', 'sky', 'sorrow', 'spark', 'spear', 'spell', 'sprinter', 'stalker', 'star', 'strider', 'sun', 'sworn', 'vale', 'walker', 'whisper', 'wing', 'wood'];
   const i = Math.floor(Math.random() * 10);
   {
-    rnd4 = Math.floor(Math.random() * nm7.length);
-    rnd5 = Math.floor(Math.random() * nm8.length);
     if (type === 1) {
-      rnd = Math.floor(Math.random() * nm4.length);
-      rnd2 = Math.floor(Math.random() * nm5.length);
-      rnd3 = Math.floor(Math.random() * nm6.length);
       if (i < 6) {
-        names = `${nm4[rnd] + nm5[rnd2] + nm6[rnd3]} ${nm7[rnd4]}${nm8[rnd5]}`;
+        names = `${sample(nm4) + sample(nm5) + sample(nm6)} ${sample(nm7)}${sample(nm8)}`;
       } else {
-        names = `${nm4[rnd] + nm6[rnd3]} ${nm7[rnd4]}${nm8[rnd5]}`;
+        names = `${sample(nm4) + sample(nm6)} ${sample(nm7)}${sample(nm8)}`;
       }
+    } else if (i < 6) {
+      names = `${sample(nm1) + sample(nm2) + sample(nm3)} ${sample(nm7)}${sample(nm8)}`;
     } else {
-      rnd = Math.floor(Math.random() * nm1.length);
-      rnd2 = Math.floor(Math.random() * nm2.length);
-      rnd3 = Math.floor(Math.random() * nm3.length);
-      if (i < 6) {
-        names = `${nm1[rnd] + nm2[rnd2] + nm3[rnd3]} ${nm7[rnd4]}${nm8[rnd5]}`;
-      } else {
-        names = `${nm1[rnd] + nm3[rnd3]} ${nm7[rnd4]}${nm8[rnd5]}`;
-      }
+      names = `${sample(nm1) + sample(nm3)} ${sample(nm7)}${sample(nm8)}`;
     }
     return names;
   }

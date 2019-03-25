@@ -1,3 +1,5 @@
+import sample from 'lodash/sample';
+
 export default function serbians() {
   let names;
   let rnd;
@@ -12,11 +14,11 @@ export default function serbians() {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm2.length);
       nm2.splice(rnd, 1);
-      names = `${nm2[rnd]} ${nm3[rnd2]}`;
+      names = `${sample(nm2)} ${sample(nm3)}`;
     } else {
       rnd = Math.floor(Math.random() * nm1.length);
       nm1.splice(rnd, 1);
-      names = `${nm1[rnd]} ${nm3[rnd2]}`;
+      names = `${sample(nm1)} ${sample(nm3)}`;
     }
     return names;
   }

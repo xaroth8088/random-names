@@ -1,7 +1,7 @@
+import sample from 'lodash/sample';
+
 export default function englishs() {
   let names;
-  let rnd;
-  let rnd2;
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['Aaron', 'Adam', 'Aidan', 'Aiden', 'Alex', 'Alexander', 'Alfie', 'Andrew', 'Anthony', 'Archie', 'Arthur', 'Ashton', 'Bailey', 'Ben', 'Benjamin', 'Billy', 'Blake', 'Bobby', 'Bradley', 'Brandon', 'Caleb', 'Callum', 'Cameron', 'Charles', 'Charlie', 'Christopher', 'Cody', 'Connor', 'Corey', 'Daniel', 'David', 'Declan', 'Dexter', 'Dominic', 'Dylan', 'Edward', 'Elliot', 'Ellis', 'Ethan', 'Evan', 'Ewan', 'Finlay', 'Finley', 'Frankie', 'Freddie', 'Frederick', 'Gabriel', 'George', 'Harley', 'Harrison', 'Harry', 'Harvey', 'Hayden', 'Henry', 'Isaac', 'Jack', 'Jackson', 'Jacob', 'Jake', 'James', 'Jamie', 'Jay', 'Jayden', 'Jenson', 'Joe', 'Joel', 'John', 'Jonathan', 'Jordan', 'Joseph', 'Josh', 'Joshua', 'Jude', 'Kai', 'Kayden', 'Kian', 'Kieran', 'Kyle', 'Leo', 'Leon', 'Lewis', 'Liam', 'Logan', 'Louie', 'Louis', 'Luca', 'Lucas', 'Luke', 'Mason', 'Matthew', 'Max', 'Michael', 'Morgan', 'Nathan', 'Nicholas', 'Noah', 'Oliver', 'Ollie', 'Oscar', 'Owen', 'Patrick', 'Peter', 'Reece', 'Reuben', 'Rhys', 'Riley', 'Robert', 'Rory', 'Ryan', 'Sam', 'Samuel', 'Scott', 'Sean', 'Sebastian', 'Spencer', 'Stanley', 'Taylor', 'Theo', 'Thomas', 'Toby', 'Tom', 'Tommy', 'Tyler', 'William', 'Zac', 'Zachary', 'Zak'];
   const nm2 = ['Abbie', 'Abby', 'Abigail', 'Aimee', 'Alex', 'Alexandra', 'Alice', 'Alicia', 'Alisha', 'Amber', 'Amelia', 'Amelie', 'Amy', 'Anna', 'Ava', 'Bella', 'Bethany', 'Brooke', 'Caitlin', 'Cerys', 'Charlie', 'Charlotte', 'Chelsea', 'Chloe', 'Courtney', 'Daisy', 'Danielle', 'Demi', 'Eleanor', 'Eliza', 'Elizabeth', 'Ella', 'Ellie', 'Eloise', 'Elsie', 'Emilia', 'Emily', 'Emma', 'Erin', 'Esme', 'Eva', 'Eve', 'Evelyn', 'Evie', 'Faith', 'Freya', 'Georgia', 'Georgina', 'Grace', 'Gracie', 'Hannah', 'Harriet', 'Heidi', 'Hollie', 'Holly', 'Imogen', 'Isabel', 'Isabella', 'Isabelle', 'Isla', 'Isobel', 'Jade', 'Jasmine', 'Jennifer', 'Jessica', 'Jodie', 'Julia', 'Kate', 'Katherine', 'Katie', 'Kayla', 'Kayleigh', 'Keira', 'Lacey', 'Lara', 'Laura', 'Lauren', 'Layla', 'Leah', 'Lexi', 'Lexie', 'Libby', 'Lilly', 'Lily', 'Lola', 'Louise', 'Lucy', 'Lydia', 'Maddison', 'Madeleine', 'Madison', 'Maisie', 'Maisy', 'Maria', 'Martha', 'Matilda', 'Maya', 'Megan', 'Melissa', 'Mia', 'Millie', 'Mollie', 'Molly', 'Morgan', 'Mya', 'Naomi', 'Natasha', 'Niamh', 'Nicole', 'Olivia', 'Paige', 'Phoebe', 'Poppy', 'Rachel', 'Rebecca', 'Rose', 'Rosie', 'Ruby', 'Samantha', 'Sara', 'Sarah', 'Scarlett', 'Shannon', 'Sienna', 'Skye', 'Sofia', 'Sophia', 'Sophie', 'Summer', 'Tegan', 'Tia', 'Tilly', 'Victoria', 'Willow', 'Yasmin', 'Zara', 'Zoe'];
@@ -14,32 +14,20 @@ export default function englishs() {
   {
     if (type === 1) {
       if (i < 5) {
-        rnd = Math.floor(Math.random() * nm2.length);
-        rnd2 = Math.floor(Math.random() * nm3.length);
-        names = `${nm2[rnd]} ${nm3[rnd2]}`;
+        names = `${sample(nm2)} ${sample(nm3)}`;
       } else {
-        rnd = Math.floor(Math.random() * nm5.length);
-        rnd2 = Math.floor(Math.random() * nm6.length);
-        names = `${nm5[rnd]} ${nm6[rnd2]}`;
+        names = `${sample(nm5)} ${sample(nm6)}`;
       }
     } else if (type === 2) {
       if (i < 5) {
-        rnd = Math.floor(Math.random() * nm7.length);
-        rnd2 = Math.floor(Math.random() * nm3.length);
-        names = `${nm7[rnd]} ${nm3[rnd2]}`;
+        names = `${sample(nm7)} ${sample(nm3)}`;
       } else {
-        rnd = Math.floor(Math.random() * nm7.length);
-        rnd2 = Math.floor(Math.random() * nm6.length);
-        names = `${nm7[rnd]} ${nm6[rnd2]}`;
+        names = `${sample(nm7)} ${sample(nm6)}`;
       }
     } else if (i < 5) {
-      rnd = Math.floor(Math.random() * nm1.length);
-      rnd2 = Math.floor(Math.random() * nm3.length);
-      names = `${nm1[rnd]} ${nm3[rnd2]}`;
+      names = `${sample(nm1)} ${sample(nm3)}`;
     } else {
-      rnd = Math.floor(Math.random() * nm4.length);
-      rnd2 = Math.floor(Math.random() * nm6.length);
-      names = `${nm4[rnd]} ${nm6[rnd2]}`;
+      names = `${sample(nm4)} ${sample(nm6)}`;
     }
     return names;
   }

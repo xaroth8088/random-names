@@ -1,7 +1,7 @@
+import sample from 'lodash/sample';
+
 export default function southeastAfricanTowns() {
   let names;
-  let rnd;
-  let rnd2;
   /* Madagascar */
   const nm1 = ['Ala', 'Alara', 'Amba', 'Ambala', 'Amban', 'Ambato', 'Ambi', 'Ambo', 'Amboa', 'Amboan', 'Ambodi', 'Ambohi', 'Ambosi', 'Ampa', 'Ampani', 'Ampara', 'Ampasi', 'An', 'Ana', 'Anan', 'Anda', 'Andi', 'Andila', 'Ando', 'Andovo', 'Anje', 'Anjo', 'Anka', 'Ankazo', 'Ankazon', 'Anta', 'Antafo', 'Antafon', 'Antako', 'Antana', 'Antani', 'Antsi', 'Antsira', 'Antso', 'Antsohi', 'Antsohim', 'Ari', 'Arivo', 'Be', 'Bea', 'Beala', 'Beho', 'Belo', 'Bemai', 'Bero', 'Beta', 'Bete', 'Betio', 'Dau', 'Fan', 'Fandra', 'Fandria', 'Fara', 'Farafa', 'Fenoa', 'Fiana', 'Ifa', 'Ifana', 'Iho', 'Ika', 'Ikala', 'Iko', 'Ko', 'Kopo', 'Maha', 'Mahaja', 'Mahali', 'Mahano', 'Mahave', 'Mainti', 'Mana', 'Manan', 'Manja', 'Manta', 'Maro', 'Maroa', 'Maroan', 'Meri', 'Merikan', 'Mia', 'Miada', 'Miadana', 'Miandra', 'Miandri', 'Mora', 'Morama', 'Moron', 'Nandi', 'Rano', 'Sada', 'Sadjoa', 'Saha', 'Sahata', 'Saka', 'Sakara', 'Samba', 'Sambai', 'Sava', 'Sita', 'Sitam', 'Soanie', 'Soanin', 'Soavi', 'Soavina', 'Toa', 'Toama', 'Toliaa', 'Trano', 'Tsara', 'Tsio', 'Tsiom', 'Tsiroa', 'Vangai', 'Vangain', 'Vari', 'Vava', 'Vavate', 'Vohi', 'Vohibi', 'Vohima', 'Vondro'];
   const nm2 = ['baina', 'bato', 'bava', 'bia', 'bihina', 'binany', 'bondrona', 'dabe', 'dandy', 'dapa', 'dava', 'diana', 'drandava', 'drano', 'dravy', 'drazaka', 'driamanitra', 'driana', 'dro', 'drona', 'drozo', 'fangana', 'faravola', 'fondro', 'fotatra', 'fotsy', 'gana', 'habe', 'hana', 'hihy', 'hina', 'hira', 'hitsy', 'hizana', 'hompy', 'honko', 'ja', 'jaka', 'janga', 'jary', 'jepy', 'jo', 'kandriana', 'kanjaka', 'kao', 'kara', 'karaka', 'kotako', 'laha', 'lahonko', 'lambo', 'lamena', 'lampy', 'lanana', 'laona', 'lasoa', 'lavao', 'liara', 'lina', 'lobe', 'loha', 'lona', 'lotra', 'mahitsy', 'maitso', 'mandidy', 'manga', 'manitra', 'masina', 'mavony', 'mena', 'nana', 'nandrahana', 'nara', 'narivo', 'nato', 'nifotsy', 'nihy', 'nimamo', 'nimena', 'nitra', 'nolotra', 'noro', 'paho', 'piky', 'poky', 'rabe', 'raha', 'rahana', 'rana', 'ranana', 'ranto', 'rantsoa', 'rariny', 'rarivo', 'ravola', 'rika', 'riny', 'rivo', 'robe', 'robia', 'roha', 'roroha', 'sary', 'sirabe', 'siranana', 'sitra', 'soa', 'sohihy', 'tafo', 'tako', 'tanana', 'tasoa', 'tatra', 'tavy', 'tenina', 'teza', 'tioky', 'tirano', 'tra', 'tseheno', 'tsetra', 'tsiho', 'tsoa', 'tsy', 'vaho', 'vana', 'vao', 'vato', 'vazo', 'velone', 'voany', 'voara', 'voay', 'vola', 'vombe', 'vongo', 'vony', 'voranto', 'zaka', 'zana', 'zoabo', 'zobe', 'zondandy', 'zorobe'];
@@ -20,25 +20,15 @@ export default function southeastAfricanTowns() {
   const i = Math.floor(Math.random() * 10);
   {
     if (i < 2) {
-      rnd = Math.floor(Math.random() * nm1.length);
-      rnd2 = Math.floor(Math.random() * nm2.length);
-      names = nm1[rnd] + nm2[rnd2];
+      names = sample(nm1) + sample(nm2);
     } else if (i < 4) {
-      rnd = Math.floor(Math.random() * nm3.length);
-      rnd2 = Math.floor(Math.random() * nm4.length);
-      names = nm3[rnd] + nm4[rnd2];
+      names = sample(nm3) + sample(nm4);
     } else if (i < 6) {
-      rnd = Math.floor(Math.random() * nm5.length);
-      rnd2 = Math.floor(Math.random() * nm6.length);
-      names = nm5[rnd] + nm6[rnd2];
+      names = sample(nm5) + sample(nm6);
     } else if (i < 8) {
-      rnd = Math.floor(Math.random() * nm7.length);
-      rnd2 = Math.floor(Math.random() * nm8.length);
-      names = nm7[rnd] + nm8[rnd2];
+      names = sample(nm7) + sample(nm8);
     } else {
-      rnd = Math.floor(Math.random() * nm9.length);
-      rnd2 = Math.floor(Math.random() * nm10.length);
-      names = nm9[rnd] + nm10[rnd2];
+      names = sample(nm9) + sample(nm10);
     }
     return names;
   }

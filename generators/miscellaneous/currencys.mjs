@@ -1,11 +1,7 @@
+import sample from 'lodash/sample';
+
 export default function currencys() {
   let names;
-  let rnd;
-  let rnd2;
-  let rnd3;
-  let rnd4;
-  let rnd5;
-  let rnd6;
   const nm1 = ['b', 'br', 'bl', 'c', 'cl', 'cr', 'd', 'dr', 'f', 'fr', 'fl', 'g', 'gr', 'gl', 'gn', 'h', 'j', 'k', 'kr', 'kl', 'kn', 'm', 'n', 'p', 'pr', 'pl', 'q', 'qr', 'ql', 'r', 's', 'st', 'sr', 'str', 'sl', 't', 'tr', 'tl', 'v', 'vl', 'vr', 'w', 'wr', 'x', 'z', '', '', '', '', ''];
   const nm2 = ['a', 'e', 'i', 'o', 'u', 'y'];
   const nm3 = ['b', 'c', 'd', 'f', 'g', 'h', 'j', 'k', 'l', 'm', 'n', 'p', 'q', 'r', 's', 't', 'v', 'w', 'x', 'z', '', '', '', '', '', ''];
@@ -19,28 +15,17 @@ export default function currencys() {
   const i = Math.floor(Math.random() * 10);
   {
     if (i < 4) {
-      rnd = Math.floor(Math.random() * nm1.length);
-      rnd2 = Math.floor(Math.random() * nm2.length);
-      rnd3 = Math.floor(Math.random() * nm3.length);
-      rnd4 = Math.floor(Math.random() * nm4.length);
-      rnd5 = Math.floor(Math.random() * nm5.length);
       if (i < 2) {
-        names = nm1[rnd] + nm2[rnd2] + nm3[rnd3] + nm4[rnd4] + nm5[rnd5];
+        names = sample(nm1) + sample(nm2) + sample(nm3) + sample(nm4) + sample(nm5);
       } else {
-        rnd6 = Math.floor(Math.random() * nm6.length);
-        names = `${nm6[rnd6]} ${nm1[rnd]}${nm2[rnd2]}${nm3[rnd3]}${nm4[rnd4]}${nm5[rnd5]}`;
+        names = `${sample(nm6)} ${sample(nm1)}${sample(nm2)}${sample(nm3)}${sample(nm4)}${sample(nm5)}`;
       }
     } else if (i < 6) {
-      rnd = Math.floor(Math.random() * nm7.length);
-      names = nm7[rnd];
+      names = sample(nm7);
     } else if (i < 8) {
-      rnd = Math.floor(Math.random() * nm8.length);
-      rnd2 = Math.floor(Math.random() * nm9.length);
-      names = `${nm8[rnd]} ${nm9[rnd2]}`;
+      names = `${sample(nm8)} ${sample(nm9)}`;
     } else {
-      rnd = Math.floor(Math.random() * nm8.length);
-      rnd2 = Math.floor(Math.random() * nm10.length);
-      names = `${nm8[rnd]} ${nm10[rnd2]}`;
+      names = `${sample(nm8)} ${sample(nm10)}`;
     }
     return names;
   }

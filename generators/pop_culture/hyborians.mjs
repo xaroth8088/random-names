@@ -1,7 +1,7 @@
+import sample from 'lodash/sample';
+
 export default function hyborians() {
   let names;
-  let rnd;
-  let rnd2;
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['Abant', 'Acast', 'Ach', 'Acris', 'Acrision', 'Act', 'Aeg', 'Al', 'Alc', 'Am', 'Amul', 'Andr', 'Andron', 'Ang', 'Ar', 'Arct', 'Arp', 'Ascl', 'Atab', 'Att', 'Auf', 'Aur', 'Bal', 'Ball', 'Bar', 'Barr', 'Bel', 'Bor', 'Cadm', 'Call', 'Carn', 'Cenw', 'Ceph', 'Clad', 'Codr', 'Dam', 'Dard', 'Dec', 'Decual', 'Dex', 'Dexith', 'Dr', 'Edr', 'Elig', 'Emil', 'Ep', 'Er', 'Fabr', 'Favon', 'Flav', 'Gl', 'Glac', 'Gonz', 'Grat', 'Grom', 'Guil', 'Hil', 'Hor', 'Il', 'In', 'Iph', 'Kest', 'Klaud', 'Kost', 'Krel', 'Lar', 'Laud', 'Leon', 'Lib', 'Lor', 'Luc', 'Mar', 'Merc', 'Met', 'Mez', 'Mod', 'Ner', 'Nol', 'Numed', 'Oct', 'Octav', 'Or', 'Pallant', 'Parn', 'Periph', 'Prosp', 'Publ', 'Rig', 'Rin', 'Ruf', 'Sept', 'Serv', 'Sor', 'Sur', 'Th', 'Thesp', 'Tib', 'Troc', 'Tul', 'Val', 'Vict', 'Vil', 'Volm', 'Zet', 'Zor'];
   const nm2 = ['abus', 'accus', 'achus', 'actus', 'aeon', 'aeus', 'ago', 'aime', 'aldo', 'alino', 'alric', 'alus', 'alvio', 'annus', 'anus', 'arion', 'aris', 'as', 'assus', 'astes', 'astus', 'atius', 'avian', 'eades', 'eas', 'el', 'elio', 'elius', 'ello', 'endin', 'entius', 'eo', 'epius', 'er', 'erias', 'erio', 'erius', 'ero', 'erus', 'es', 'estus', 'etes', 'eus', 'iades', 'ian', 'ic', 'icus', 'ides', 'idos', 'idus', 'imer', 'imus', 'inos', 'io', 'ion', 'iones', 'is', 'itheus', 'ius', 'on', 'orin', 'orus', 'os', 'ualion', 'uis', 'ulf', 'ulus', 'us', 'yco'];
@@ -27,46 +27,26 @@ export default function hyborians() {
   {
     if (type === 1) {
       if (i < 2) {
-        rnd = Math.floor(Math.random() * nm3.length);
-        rnd2 = Math.floor(Math.random() * nm4.length);
-        names = nm3[rnd] + nm4[rnd2];
+        names = sample(nm3) + sample(nm4);
       } else if (i < 4) {
-        rnd = Math.floor(Math.random() * nm7.length);
-        rnd2 = Math.floor(Math.random() * nm8.length);
-        names = nm7[rnd] + nm8[rnd2];
+        names = sample(nm7) + sample(nm8);
       } else if (i < 6) {
-        rnd = Math.floor(Math.random() * nm11.length);
-        rnd2 = Math.floor(Math.random() * nm12.length);
-        names = nm11[rnd] + nm12[rnd2];
+        names = sample(nm11) + sample(nm12);
       } else if (i < 8) {
-        rnd = Math.floor(Math.random() * nm15.length);
-        rnd2 = Math.floor(Math.random() * nm16.length);
-        names = nm15[rnd] + nm16[rnd2];
+        names = sample(nm15) + sample(nm16);
       } else {
-        rnd = Math.floor(Math.random() * nm19.length);
-        rnd2 = Math.floor(Math.random() * nm20.length);
-        names = nm19[rnd] + nm20[rnd2];
+        names = sample(nm19) + sample(nm20);
       }
     } else if (i < 2) {
-      rnd = Math.floor(Math.random() * nm1.length);
-      rnd2 = Math.floor(Math.random() * nm2.length);
-      names = nm1[rnd] + nm2[rnd2];
+      names = sample(nm1) + sample(nm2);
     } else if (i < 4) {
-      rnd = Math.floor(Math.random() * nm5.length);
-      rnd2 = Math.floor(Math.random() * nm6.length);
-      names = nm5[rnd] + nm6[rnd2];
+      names = sample(nm5) + sample(nm6);
     } else if (i < 6) {
-      rnd = Math.floor(Math.random() * nm9.length);
-      rnd2 = Math.floor(Math.random() * nm10.length);
-      names = nm9[rnd] + nm10[rnd2];
+      names = sample(nm9) + sample(nm10);
     } else if (i < 8) {
-      rnd = Math.floor(Math.random() * nm13.length);
-      rnd2 = Math.floor(Math.random() * nm14.length);
-      names = nm13[rnd] + nm14[rnd2];
+      names = sample(nm13) + sample(nm14);
     } else {
-      rnd = Math.floor(Math.random() * nm17.length);
-      rnd2 = Math.floor(Math.random() * nm18.length);
-      names = nm17[rnd] + nm18[rnd2];
+      names = sample(nm17) + sample(nm18);
     }
     return names;
   }

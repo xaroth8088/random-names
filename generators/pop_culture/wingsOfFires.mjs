@@ -1,7 +1,8 @@
+import sample from 'lodash/sample';
+
 export default function wingsOfFires() {
   let names;
   let rnd;
-  let rnd2;
   const nm1 = ['Anorak', 'Avalanche', 'Beret', 'Bleak', 'Blizz', 'Blizzard', 'Borean', 'Brumal', 'Calve', 'Casaba', 'Chill', 'Chinook', 'Clinch', 'Crymodinia', 'Cryo', 'Crystal', 'Diamond', 'Draft', 'Eranthis', 'Ermine', 'Flake', 'Fleece', 'Floe', 'Flurry', 'Frappe', 'Frigid', 'Frigor', 'Frost', 'Glacial', 'Hailstone', 'Halcyon', 'Hiemal', 'Hiems', 'Hoar', 'Humboldt', 'Hummock', 'Hyemal', 'Hyemate', 'Icy', 'Igloo', 'Luge', 'Melt', 'Miniver', 'Mistral', 'Neige', 'Nippy', 'Nivial', 'Parka', 'Perhiemate', 'Polar', 'Quilt', 'Rime', 'Serac', 'Sherbet', 'Shiver', 'Skate', 'Ski', 'Sledge', 'Sleet', 'Slide', 'Slush', 'Snap', 'Solstice', 'Sorbet', 'Stale', 'Thaw', 'Thaws', 'Toboggan', 'Uncia', 'Woolens'];
   const nm2 = ['Amber', 'Aroid', 'Auburn', 'Belute', 'Bemire', 'Bitternut', 'Bog', 'Bogmat', 'Bonobo', 'Calamus', 'Cienaga', 'Daub', 'Deluge', 'Dirt', 'Draggle', 'Drench', 'Dun', 'Everglade', 'Fawn', 'Fen', 'Flood', 'Flow', 'Gumbo', 'Hazel', 'Iva', 'Jarble', 'Khaki', 'Lily', 'Lutose', 'Mangrove', 'Mareis', 'Maremma', 'Miasma', 'Mire', 'Morass', 'Muck', 'Muddle', 'Myrtle', 'Ooze', 'Paludicole', 'Paludine', 'Papyrus', 'Parnassia', 'Pocosin', 'Puddle', 'Puttock', 'Quag', 'Quaggy', 'Recurvine', 'Rush', 'Russet', 'Sabbatia', 'Sable', 'Salse', 'Saute', 'Sceliphron', 'Sedge', 'Sediment', 'Shale', 'Sienna', 'Sleech', 'Sleetch', 'Slime', 'Slit', 'Slog', 'Slop', 'Slosh', 'Slough', 'Sludge', 'Slurry', 'Swang', 'Tawny', 'Umber', 'Wallow'];
   const nm3 = ['Annihilation', 'Carnage', 'Massacre', 'Destruction', 'Extinction', 'Ruin', 'Elimination', 'Abolition', 'Bane', 'Havoc', 'Fury', 'Rage', 'Ravage', 'Wreckage', 'Crash', 'Undoing', 'Extermination', 'Demolition', 'Revenge', 'Retribution', 'Wrath', 'Ire', 'Storm', 'Temper', 'Frenzy', 'Furor', 'Mania', 'Madness', 'Violence', 'Bluster', 'Hysteria', 'Bold', 'Confidence', 'Aweless', 'Gritty', 'Sanguine', 'Valiant', 'Wit', 'Foresight', 'Savvy', 'Prudence', 'Poise', 'Sapience', 'Insight', 'Judgment', 'Intuition', 'Genius', 'Sanity', 'Insanity', 'Chaos', 'Mayhem', 'Plunder', 'Wreck', 'Waste', 'Calamity', 'Cataclysm', 'Catastrophe', 'Confusion', 'Devestation', 'Desolation', 'Alder', 'Arrow', 'Battle', 'Big', 'Blaze', 'Bone', 'Boulder', 'Bright', 'Bull', 'Burn', 'Burning', 'Cloud', 'Dark', 'Dawn', 'Death', 'Doom', 'Dread', 'Dream', 'Dull', 'Dusk', 'Elder', 'Far', 'Fate', 'Fear', 'Fierce', 'Fire', 'Flame', 'Fury', 'Ghost', 'Gloom', 'Glow', 'Great', 'Grim', 'Hallow', 'Hollow', 'Hypno', 'Iron', 'Light', 'Little', 'Marble', 'Master', 'Mighty', 'Mind', 'Moon', 'Night', 'Phantom', 'Power', 'Prey', 'Rage', 'Razor', 'Rumble', 'Shade', 'Shadow', 'Shiver', 'Silver', 'Steel', 'Stone', 'Storm', 'Stout', 'Strong', 'Sun', 'Swift', 'Terror', 'Thunder', 'Whirl', 'Wild'];
@@ -13,31 +14,24 @@ export default function wingsOfFires() {
   const i = Math.floor(Math.random() * 14);
   {
     if (i < 2) {
-      rnd = Math.floor(Math.random() * nm1.length);
-      names = nm1[rnd];
+      names = sample(nm1);
     } else if (i < 4) {
-      rnd = Math.floor(Math.random() * nm2.length);
-      names = nm2[rnd];
+      names = sample(nm2);
     } else if (i < 6) {
       rnd = Math.floor(Math.random() * nm3.length);
       if (rnd < 60) {
-        names = nm3[rnd];
+        names = sample(nm3);
       } else {
-        rnd2 = Math.floor(Math.random() * nm4.length);
-        names = nm3[rnd] + nm4[rnd2];
+        names = sample(nm3) + sample(nm4);
       }
     } else if (i < 8) {
-      rnd = Math.floor(Math.random() * nm5.length);
-      names = nm5[rnd];
+      names = sample(nm5);
     } else if (i < 10) {
-      rnd = Math.floor(Math.random() * nm6.length);
-      names = nm6[rnd];
+      names = sample(nm6);
     } else if (i < 12) {
-      rnd = Math.floor(Math.random() * nm7.length);
-      names = nm7[rnd];
+      names = sample(nm7);
     } else {
-      rnd = Math.floor(Math.random() * nm8.length);
-      names = nm8[rnd];
+      names = sample(nm8);
     }
     return names;
   }

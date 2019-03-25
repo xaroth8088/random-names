@@ -1,3 +1,5 @@
+import sample from 'lodash/sample';
+
 export default function edwardians() {
   let names;
   let rnd;
@@ -11,11 +13,11 @@ export default function edwardians() {
     nm3.splice(rnd2, 1);
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm2.length);
-      names = `${nm2[rnd]} ${nm3[rnd2]}`;
+      names = `${sample(nm2)} ${sample(nm3)}`;
       nm2.splice(rnd, 1);
     } else {
       rnd = Math.floor(Math.random() * nm1.length);
-      names = `${nm1[rnd]} ${nm3[rnd2]}`;
+      names = `${sample(nm1)} ${sample(nm3)}`;
       nm1.splice(rnd, 1);
     }
     return names;

@@ -1,12 +1,8 @@
+import sample from 'lodash/sample';
+
 export default function wildstarCassians() {
   let name;
   let lname;
-  let rnd;
-  let rnd2;
-  let rnd3;
-  let rnd4;
-  let rnd5;
-  let rnd6;
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['', '', '', '', 'b', 'c', 'cl', 'd', 'fl', 'g', 'h', 'l', 'm', 'p', 's', 't', 'v'];
   const nm2 = ['a', 'e', 'i', 'o', 'u'];
@@ -26,57 +22,28 @@ export default function wildstarCassians() {
   const i = Math.floor(Math.random() * 10);
   {
     if (i < 6) {
-      rnd = Math.floor(Math.random() * nm9.length);
-      rnd2 = Math.floor(Math.random() * nm10.length);
-      rnd3 = Math.floor(Math.random() * nm11.length);
-      rnd4 = Math.floor(Math.random() * nm12.length);
       if (i % 2 === 0) {
-        rnd5 = Math.floor(Math.random() * nm10.length);
-        rnd6 = Math.floor(Math.random() * nm11.length);
-        lname = nm9[rnd] + nm10[rnd2] + nm11[rnd3] + nm10[rnd5] + nm11[rnd6] + nm12[rnd4];
+        lname = sample(nm9) + sample(nm10) + sample(nm11) + sample(nm10) + sample(nm11) + sample(nm12);
       } else {
-        lname = nm9[rnd] + nm10[rnd2] + nm11[rnd3] + nm12[rnd4];
+        lname = sample(nm9) + sample(nm10) + sample(nm11) + sample(nm12);
       }
     } else {
-      rnd = Math.floor(Math.random() * nm15.length);
-      lname = nm15[rnd];
+      lname = sample(nm15);
     }
     if (type === 1) {
       if (i < 3) {
-        rnd = Math.floor(Math.random() * nm5.length);
-        rnd2 = Math.floor(Math.random() * nm6.length);
-        rnd3 = Math.floor(Math.random() * nm7.length);
-        rnd4 = Math.floor(Math.random() * nm8.length);
-        name = `${nm5[rnd] + nm6[rnd2] + nm7[rnd3] + nm8[rnd4]} ${lname}`;
+        name = `${sample(nm5) + sample(nm6) + sample(nm7) + sample(nm8)} ${lname}`;
       } else if (i < 6) {
-        rnd = Math.floor(Math.random() * nm5.length);
-        rnd2 = Math.floor(Math.random() * nm6.length);
-        rnd3 = Math.floor(Math.random() * nm7.length);
-        rnd4 = Math.floor(Math.random() * nm6.length);
-        rnd5 = Math.floor(Math.random() * nm7.length);
-        rnd6 = Math.floor(Math.random() * nm8.length);
-        name = `${nm5[rnd] + nm6[rnd2] + nm7[rnd3] + nm6[rnd4] + nm7[rnd5] + nm8[rnd6]} ${lname}`;
+        name = `${sample(nm5) + sample(nm6) + sample(nm7) + sample(nm6) + sample(nm7) + sample(nm8)} ${lname}`;
       } else {
-        rnd = Math.floor(Math.random() * nm14.length);
-        name = `${nm14[rnd]} ${lname}`;
+        name = `${sample(nm14)} ${lname}`;
       }
     } else if (i < 3) {
-      rnd = Math.floor(Math.random() * nm1.length);
-      rnd2 = Math.floor(Math.random() * nm2.length);
-      rnd3 = Math.floor(Math.random() * nm3.length);
-      rnd4 = Math.floor(Math.random() * nm4.length);
-      name = `${nm1[rnd] + nm2[rnd2] + nm3[rnd3] + nm4[rnd4]} ${lname}`;
+      name = `${sample(nm1) + sample(nm2) + sample(nm3) + sample(nm4)} ${lname}`;
     } else if (i < 6) {
-      rnd = Math.floor(Math.random() * nm1.length);
-      rnd2 = Math.floor(Math.random() * nm2.length);
-      rnd3 = Math.floor(Math.random() * nm3.length);
-      rnd4 = Math.floor(Math.random() * nm2.length);
-      rnd5 = Math.floor(Math.random() * nm3.length);
-      rnd6 = Math.floor(Math.random() * nm4.length);
-      name = `${nm1[rnd] + nm2[rnd2] + nm3[rnd3] + nm2[rnd4] + nm3[rnd5] + nm4[rnd6]} ${lname}`;
+      name = `${sample(nm1) + sample(nm2) + sample(nm3) + sample(nm2) + sample(nm3) + sample(nm4)} ${lname}`;
     } else {
-      rnd = Math.floor(Math.random() * nm13.length);
-      name = `${nm13[rnd]} ${lname}`;
+      name = `${sample(nm13)} ${lname}`;
     }
     return name;
   }

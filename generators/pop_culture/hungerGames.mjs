@@ -1,8 +1,8 @@
+import sample from 'lodash/sample';
+
 export default function hungerGames() {
   let names;
   let rnd;
-  let rnd2;
-  let rnd3;
   const type = Math.random() > 0.5 ? 0 : 1;
   const nmM = ['Acee', 'Affron', 'Aldar', 'Alder', 'Allio', 'Allium', 'Almond', 'Apratis', 'Ardar', 'Ardor', 'Arfaj', 'Ash', 'Bage', 'Baoba', 'Bauble', 'Bead', 'Beads', 'Birch', 'Birr', 'Blacaw', 'Brier', 'Burch', 'Cabe', 'Cabel', 'Calyp', 'Chester', 'Chrysan', 'Chryss', 'Clover', 'Coake', 'Coakum', 'Coil', 'Coile', 'Colard', 'Colic', 'Collar', 'Collard', 'Collic', 'Collort', 'Colwort', 'Cornel', 'Cornell', 'Cress', 'Crocas', 'Curio', 'Currio', 'Deecee', 'Deezee', 'Devis', 'Devise', 'Dewda', 'Duscle', 'Dussel', 'Edel', 'Farn', 'Fellord', 'Fennal', 'Fennel', 'Flax', 'Flint', 'Froll', 'Frollick', 'Gadge', 'Gadget', 'Galvan', 'Galve', 'Garget', 'Gear', 'Geare', 'Gimm', 'Gimmick', 'Glint', 'Gordal', 'Gordald', 'Gordaldo', 'Hald', 'Haldin', 'Harl', 'Helbor', 'Hibis', 'Jolt', 'Junk', 'Keek', 'Kinnik', 'Kooza', 'Kousa', 'Kouza', 'Kuds', 'Kudz', 'Kudzu', 'Leome', 'Light', 'Marel', 'Mimosa', 'Morel', 'Morrel', 'Mox', 'Neam', 'Neem', 'Nemo', 'Nettle', 'Oak', 'Ornam', 'Osage', 'Osier', 'Owk', 'Parsley', 'Parsnip', 'Paslee', 'Pasnip', 'Peesta', 'Pellitor', 'Pista', 'Pocan', 'Poplars', 'Prong', 'Rantee', 'Rantipo', 'Rantipol', 'Rhuba', 'Rhubar', 'Rigg', 'Riggs', 'Rye', 'Saffran', 'Saffron', 'Sanguin', 'Sarrel', 'Scoke', 'Scotch', 'Sorrel', 'Spark', 'Sparks', 'Syca', 'Sycamo', 'Tanz', 'Tassel', 'Tazzel', 'Thist', 'Torrac', 'Triffel', 'Triffle', 'Trill', 'Trillium', 'Trink', 'Trinket', 'Tuls', 'Tulsee', 'Vanil', 'Vender', 'Vim', 'Waln', 'Weiss', 'Yarro', 'Yarrow', 'Zedo', 'Zedoary'];
   const nmF = ['Acey', 'Aldera', 'Allium', 'Alyss', 'Alyssum', 'Amara', 'Amaran', 'Amaryll', 'Amaryllis', 'Ambro', 'Ambrosia', 'Aster', 'Azalea', 'Azo', 'Azolla', 'Baubelle', 'Bauble', 'Beade', 'Birches', 'Birr', 'Birre', 'Brier', 'Brierre', 'Cabbyge', 'Cabil', 'Calyptis', 'Calyptus', 'Carro', 'Catlina', 'Chickpea', 'Chrysa', 'Chrysanthe', 'Cleome', 'Clove', 'Clover', 'Cocone', 'Coilee', 'Cornille', 'Cresh', 'Cress', 'Daffodil', 'Daffodille', 'Dahlia', 'Dahlis', 'Daisy', 'Daizee', 'Deecee', 'Deecey', 'Dew', 'Dewda', 'Doodi', 'Duscle', 'Edel', 'Edelwyse', 'Elbora', 'Elbore', 'Ethelia', 'Eytelia', 'Eytelle', 'Fern', 'Ferne', 'Flaire', 'Flare', 'Flaxe', 'Fodille', 'Gadges', 'Gadget', 'Gidget', 'Gimmick', 'Glinte', 'Haldi', 'Harquin', 'Harquinne', 'Helbora', 'Hibis', 'Ibiscus', 'Iry', 'Iwy', 'Izy', 'Keek', 'Kinni', 'Kinniki', 'Kousha', 'Lavender', 'Lavenne', 'Light', 'Marjoree', 'Marjory', 'Mesqi', 'Mesquite', 'Mimo', 'Mimosa', 'Morelle', 'Moxi', 'Moxie', 'Neem', 'Neeme', 'Nettelle', 'Nettle', 'Nilla', 'Orna', 'Osa', 'Osage', 'Osie', 'Parsley', 'Paslee', 'Pea', 'Pellee', 'Pellitory', 'Pista', 'Pleur', 'Pleuris', 'Pleurisy', 'Pocanne', 'Poplaire', 'Pudina', 'Pudine', 'Rhubae', 'Riggee', 'Rye', 'Saffreen', 'Saffrin', 'Saffron', 'Saguine', 'Santhe', 'Sparkle', 'Sparkley', 'Sycae', 'Sycamore', 'Tansee', 'Tansy', 'Tassel', 'Tasselle', 'Thistle', 'Tilsee', 'Tine', 'Tipole', 'Tissel', 'Trifle', 'Trillium', 'Trilly', 'Trink', 'Trinkee', 'Trinket', 'Trinks', 'Tulsee', 'Tulsi', 'Vanilee'];
@@ -12,19 +12,13 @@ export default function hungerGames() {
   {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nmF.length);
-      rnd2 = Math.floor(Math.random() * nm4.length);
-      rnd3 = Math.floor(Math.random() * nm5.length);
-      names = `${nmF[rnd]} ${nm4[rnd2]}${nm5[rnd3]}`;
+      names = `${nmF[rnd]} ${sample(nm4)}${sample(nm5)}`;
     } else if (type === 2) {
       rnd = Math.floor(Math.random() * nmN.length);
-      rnd2 = Math.floor(Math.random() * nm4.length);
-      rnd3 = Math.floor(Math.random() * nm5.length);
-      names = `${nmN[rnd]} ${nm4[rnd2]}${nm5[rnd3]}`;
+      names = `${nmN[rnd]} ${sample(nm4)}${sample(nm5)}`;
     } else {
       rnd = Math.floor(Math.random() * nmM.length);
-      rnd2 = Math.floor(Math.random() * nm4.length);
-      rnd3 = Math.floor(Math.random() * nm5.length);
-      names = `${nmM[rnd]} ${nm4[rnd2]}${nm5[rnd3]}`;
+      names = `${nmM[rnd]} ${sample(nm4)}${sample(nm5)}`;
     }
     return names;
   }

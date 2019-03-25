@@ -1,10 +1,6 @@
+import sample from 'lodash/sample';
+
 export default function angels() {
-  let rnd;
-  let rnd2;
-  let rnd3;
-  let rnd4;
-  let rnd5;
-  let rnd6;
   let names;
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['', '', '', '', 'b', 'c', 'dr', 'g', 'h', 'l', 'm', 'n', 'p', 'r', 's', 't', 'th', 'v', 'y', 'z'];
@@ -18,29 +14,15 @@ export default function angels() {
   const i = Math.floor(Math.random() * 10);
   {
     if (type === 1) {
-      rnd = Math.floor(Math.random() * nm5.length);
-      rnd2 = Math.floor(Math.random() * nm6.length);
-      rnd3 = Math.floor(Math.random() * nm7.length);
-      rnd4 = Math.floor(Math.random() * nm8.length);
       if (i < 5) {
-        names = nm5[rnd] + nm6[rnd2] + nm7[rnd3] + nm8[rnd4];
+        names = sample(nm5) + sample(nm6) + sample(nm7) + sample(nm8);
       } else {
-        rnd5 = Math.floor(Math.random() * nm7.length);
-        rnd6 = Math.floor(Math.random() * nm6.length);
-        names = nm5[rnd] + nm6[rnd2] + nm7[rnd3] + nm6[rnd6] + nm7[rnd5] + nm8[rnd4];
+        names = sample(nm5) + sample(nm6) + sample(nm7) + sample(nm6) + sample(nm7) + sample(nm8);
       }
+    } else if (i < 5) {
+      names = sample(nm1) + sample(nm2) + sample(nm3) + sample(nm4);
     } else {
-      rnd = Math.floor(Math.random() * nm1.length);
-      rnd2 = Math.floor(Math.random() * nm2.length);
-      rnd3 = Math.floor(Math.random() * nm3.length);
-      rnd4 = Math.floor(Math.random() * nm4.length);
-      if (i < 5) {
-        names = nm1[rnd] + nm2[rnd2] + nm3[rnd3] + nm4[rnd4];
-      } else {
-        rnd5 = Math.floor(Math.random() * nm3.length);
-        rnd6 = Math.floor(Math.random() * nm2.length);
-        names = nm1[rnd] + nm2[rnd2] + nm3[rnd3] + nm2[rnd6] + nm3[rnd5] + nm4[rnd4];
-      }
+      names = sample(nm1) + sample(nm2) + sample(nm3) + sample(nm2) + sample(nm3) + sample(nm4);
     }
     return names;
   }

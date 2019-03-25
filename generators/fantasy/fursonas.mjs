@@ -1,11 +1,7 @@
+import sample from 'lodash/sample';
+
 export default function fursonas() {
   let names;
-  let rnd;
-  let rnd2;
-  let rnd3;
-  let rnd4;
-  let rnd6;
-  let rnd7;
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['Amber', 'Arctic', 'Ash', 'Atom', 'Autumn', 'Big', 'Dire', 'Black', 'Blaze', 'Blue', 'Bone', 'Boulder', 'Bright', 'Bronze', 'Cinder', 'Cloud', 'Common', 'Crest', 'Crimson', 'Crystal', 'Dark', 'Dawn', 'Day', 'Desert', 'Dew', 'Doom', 'Dream', 'Dusk', 'Dust', 'Earth', 'Ebon', 'Ember', 'Evening', 'Feather', 'Feral', 'Fire', 'Flame', 'Forest', 'Free', 'Frenzy', 'Frost', 'Fury', 'Gloom', 'Gold', 'Grand', 'Gray', 'Grim', 'High', 'Hill', 'Humble', 'Ice', 'Iron', 'Jade', 'Keen', 'Light', 'Lightning', 'Low', 'Luna', 'Lunar', 'Magic', 'Meadow', 'Mild', 'Mist', 'Molten', 'Moon', 'Morning', 'Mountain', 'Mud', 'Night', 'Noble', 'Ocean', 'Old', 'Pale', 'Pride', 'Proud', 'Rage', 'Rain', 'Rainbow', 'Rapid', 'Rave', 'Razor', 'Red', 'Regal', 'River', 'Rock', 'Rough', 'Rune', 'Sea', 'Shade', 'Shadow', 'Short', 'Silent', 'Silver', 'Simple', 'Sky', 'Small', 'Snow', 'Soft', 'Solar', 'Spark', 'Spirit', 'Spring', 'Star', 'Steel', 'Stone', 'Storm', 'Stout', 'Strong', 'Summer', 'Sun', 'Swift', 'Tall', 'Terra', 'Thunder', 'True', 'Velvet', 'Whit', 'White', 'Wild', 'Wind', 'Winter', 'Wise', 'Wood', 'Young'];
   const nm2 = ['bat', 'bunny', 'cat', 'claw', 'coat', 'coyote', 'crest', 'crown', 'dog', 'face', 'fang', 'fennec', 'fox', 'fur', 'heart', 'hoof', 'horse', 'hound', 'hunter', 'husky', 'jackal', 'kitten', 'kitty', 'leopard', 'liger', 'lion', 'mane', 'panther', 'paw', 'pelt', 'pony', 'rabbit', 'snout', 'stud', 'tail', 'tiger', 'unicorn', 'vixen', 'wolf'];
@@ -27,33 +23,14 @@ export default function fursonas() {
   {
     if (i < 5) {
       if (type === 1) {
-        rnd = Math.floor(Math.random() * nm11.length);
-        rnd2 = Math.floor(Math.random() * nm12.length);
-        rnd3 = Math.floor(Math.random() * nm13.length);
-        rnd6 = Math.floor(Math.random() * nm12.length);
-        rnd7 = Math.floor(Math.random() * nm16.length);
-        names = nm11[rnd] + nm12[rnd2] + nm13[rnd3] + nm12[rnd6] + nm16[rnd7];
+        names = sample(nm11) + sample(nm12) + sample(nm13) + sample(nm12) + sample(nm16);
       } else if (type === 2) {
-        rnd = Math.floor(Math.random() * nm17.length);
-        rnd2 = Math.floor(Math.random() * nm18.length);
-        rnd3 = Math.floor(Math.random() * nm19.length);
-        rnd6 = Math.floor(Math.random() * nm18.length);
-        rnd7 = Math.floor(Math.random() * nm22.length);
-        names = nm17[rnd] + nm18[rnd2] + nm19[rnd3] + nm18[rnd6] + nm22[rnd7];
+        names = sample(nm17) + sample(nm18) + sample(nm19) + sample(nm18) + sample(nm22);
       } else {
-        rnd = Math.floor(Math.random() * nm5.length);
-        rnd2 = Math.floor(Math.random() * nm6.length);
-        rnd3 = Math.floor(Math.random() * nm7.length);
-        rnd6 = Math.floor(Math.random() * nm6.length);
-        rnd7 = Math.floor(Math.random() * nm10.length);
-        names = nm5[rnd] + nm6[rnd2] + nm7[rnd3] + nm6[rnd6] + nm10[rnd7];
+        names = sample(nm5) + sample(nm6) + sample(nm7) + sample(nm6) + sample(nm10);
       }
     } else {
-      rnd = Math.floor(Math.random() * nm1.length);
-      rnd2 = Math.floor(Math.random() * nm2.length);
-      rnd3 = Math.floor(Math.random() * nm3.length);
-      rnd4 = Math.floor(Math.random() * nm4.length);
-      names = `${nm1[rnd] + nm2[rnd2]} ${nm3[rnd3]}${nm4[rnd4]}`;
+      names = `${sample(nm1) + sample(nm2)} ${sample(nm3)}${sample(nm4)}`;
     }
     return names;
   }

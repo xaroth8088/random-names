@@ -1,8 +1,8 @@
+import sample from 'lodash/sample';
+
 export default function oceaniaTowns() {
   let names;
   let rndb;
-  let rnd;
-  let rnd2;
   const nm1 = ['Adel', 'Al', 'Alb', 'Alt', 'Arm', 'Armad', 'Ash', 'Aub', 'Ball', 'Balw', 'Bath', 'Baulkh', 'Berw', 'Boov', 'Boron', 'Bris', 'Brisb', 'Brunsw', 'Brunw', 'Bud', 'Bunb', 'Bund', 'Burn', 'Buss', 'Cabool', 'Cair', 'Cal', 'Camb', 'Canb', 'Carl', 'Carn', 'Carr', 'Cessn', 'Chelt', 'Clayt', 'Cob', 'Crag', 'Craig', 'Cranb', 'Cron', 'Dand', 'Darw', 'Dev', 'Donc', 'Ech', 'Elth', 'Eng', 'Engad', 'Epp', 'Ess', 'Essend', 'Forst', 'Frem', 'Gawl', 'Geel', 'Ger', 'Glad', 'Glenm', 'Glenr', 'Gosn', 'Goulb', 'Granv', 'Griff', 'Hawth', 'Hob', 'Hopp', 'Kalg', 'Kat', 'Kwin', 'Lal', 'Lanc', 'Langw', 'Lar', 'Lil', 'Lilyd', 'Lism', 'Malv', 'Mand', 'Mar', 'Marr', 'Melb', 'Melt', 'Mild', 'Mor', 'Morph', 'Mosm', 'Murr', 'Nar', 'Ner', 'Nowr', 'Pak', 'Palm', 'Param', 'Prest', 'Randw', 'Rowv', 'Roxb', 'Seaf', 'Shepp', 'Sidn', 'Sunb', 'Tamw', 'Tar', 'Tarn', 'Thornl', 'Um', 'Umin', 'Wag', 'Wagg', 'Wang', 'Want', 'War', 'Warrn', 'Werr', 'Will', 'Wod', 'Woll', 'Woodr', 'Wynd'];
   const nm2 = ['adine', 'afton', 'agga', 'ah', 'aide', 'ale', 'alla', 'am', 'an', 'ana', 'ane', 'ang', 'angba', 'antle', 'any', 'arrin', 'art', 'arton', 'aster', 'atta', 'ave', 'ay', 'egie', 'eit', 'ell', 'ells', 'en', 'endon', 'enham', 'enong', 'er', 'erim', 'ern', 'erra', 'errie', 'ers', 'eston', 'ett', 'etton', 'ibee', 'ick', 'ide', 'ie', 'igo', 'ilda', 'im', 'in', 'ina', 'ine', 'ing', 'irna', 'ith', 'on', 'ona', 'one', 'ong', 'onga', 'ongong', 'ool', 'oomba', 'oorlie', 'or', 'ora', 'ore', 'orn', 'uca', 'ulla', 'ura', 'urah', 'ure', 'urn', 'ury', 'yn'];
   /* Fiji */
@@ -24,30 +24,18 @@ export default function oceaniaTowns() {
   const i = Math.floor(Math.random() * 12);
   {
     if (i < 2) {
-      rnd = Math.floor(Math.random() * nm1.length);
-      rnd2 = Math.floor(Math.random() * nm2.length);
-      names = nm1[rnd] + nm2[rnd2];
+      names = sample(nm1) + sample(nm2);
     } else if (i < 4) {
-      rnd = Math.floor(Math.random() * nm3.length);
       rndb = Math.floor(Math.random() * nm3b.length);
-      rnd2 = Math.floor(Math.random() * nm4.length);
-      names = nm3[rnd] + nm3b[rndb] + nm4[rnd2];
+      names = sample(nm3) + nm3b[rndb] + sample(nm4);
     } else if (i < 6) {
-      rnd = Math.floor(Math.random() * nm5.length);
-      rnd2 = Math.floor(Math.random() * nm6.length);
-      names = nm5[rnd] + nm6[rnd2];
+      names = sample(nm5) + sample(nm6);
     } else if (i < 8) {
-      rnd = Math.floor(Math.random() * nm7.length);
-      rnd2 = Math.floor(Math.random() * nm8.length);
-      names = nm7[rnd] + nm8[rnd2];
+      names = sample(nm7) + sample(nm8);
     } else if (i < 10) {
-      rnd = Math.floor(Math.random() * nm9.length);
-      rnd2 = Math.floor(Math.random() * nm10.length);
-      names = nm9[rnd] + nm10[rnd2];
+      names = sample(nm9) + sample(nm10);
     } else if (i < 12) {
-      rnd = Math.floor(Math.random() * nm11.length);
-      rnd2 = Math.floor(Math.random() * nm12.length);
-      names = nm11[rnd] + nm12[rnd2];
+      names = sample(nm11) + sample(nm12);
     }
     return names;
   }

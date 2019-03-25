@@ -1,7 +1,7 @@
+import sample from 'lodash/sample';
+
 export default function roegadyns() {
   let names;
-  let rnd;
-  let rnd2;
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = [
     ['Abar', 'Lone'],
@@ -300,22 +300,14 @@ export default function roegadyns() {
   {
     if (type === 1) {
       if (i < 5) {
-        rnd = Math.floor(Math.random() * nm1.length);
-        rnd2 = Math.floor(Math.random() * nm3.length);
-        names = `${nm1[rnd][0] + nm3[rnd2][0]} (${nm1[rnd][1]} ${nm3[rnd2][1]})`;
+        names = `${sample(nm1)[0] + sample(nm3)[0]} (${sample(nm1)[1]} ${sample(nm3)[1]})`;
       } else {
-        rnd = Math.floor(Math.random() * nm6.length);
-        rnd2 = Math.floor(Math.random() * nm7.length);
-        names = `${nm6[rnd]} ${nm7[rnd2]}`;
+        names = `${sample(nm6)} ${sample(nm7)}`;
       }
     } else if (i < 5) {
-      rnd = Math.floor(Math.random() * nm1.length);
-      rnd2 = Math.floor(Math.random() * nm2.length);
-      names = `${nm1[rnd][0] + nm2[rnd2][0]} (${nm1[rnd][1]} ${nm2[rnd2][1]})`;
+      names = `${sample(nm1)[0] + sample(nm2)[0]} (${sample(nm1)[1]} ${sample(nm2)[1]})`;
     } else {
-      rnd = Math.floor(Math.random() * nm4.length);
-      rnd2 = Math.floor(Math.random() * nm5.length);
-      names = `${nm4[rnd]} ${nm5[rnd2]}`;
+      names = `${sample(nm4)} ${sample(nm5)}`;
     }
     return names;
   }

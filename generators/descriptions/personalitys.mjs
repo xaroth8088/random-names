@@ -1,3 +1,5 @@
+import sample from 'lodash/sample';
+
 export default function personalitys() {
   const type = Math.random() < 0.5 ? 0 : 1;
   const nm1 = ['A lot can be said of', 'Many things can be said of', 'There\'s a lot to say about', 'It takes a while to get to know', 'It\'s easy to get to know an open person like', 'A lot can be assumed when you first see', 'There\'s more than meets the eye in the case of', 'Looks can be deceiving when it comes', 'It\'s hard to describe a complex person like', 'Few know the true'];
@@ -255,68 +257,37 @@ export default function personalitys() {
   if (rnd13b > 99) {
     nm25 = ['she\'s', 'her', 'Her', 'She\'s'];
   }
-  const rnd14b = Math.floor(Math.random() * nm24.length);
   if (type === 1) {
-    const rnd1 = Math.floor(Math.random() * nm11.length);
-    const rnd2 = Math.floor(Math.random() * nm12.length);
-    const rnd4 = Math.floor(Math.random() * nm14.length);
-    const rnd5 = Math.floor(Math.random() * nm15.length);
-    const rnd6 = Math.floor(Math.random() * nm16.length);
-    const rnd7 = Math.floor(Math.random() * nm17.length);
     const rnd8 = Math.floor(Math.random() * nm18.length);
-    const rnd9 = Math.floor(Math.random() * nm19.length);
     const rnd10 = Math.floor(Math.random() * nm20.length);
-    const rnd11 = Math.floor(Math.random() * nm22.length);
-    const rnd12 = Math.floor(Math.random() * nm22.length);
-    const rnd13 = Math.floor(Math.random() * nm22.length);
-    const rnd14 = Math.floor(Math.random() * nm22.length);
-    const rnd15 = Math.floor(Math.random() * nm22.length);
-    const rnd16 = Math.floor(Math.random() * nm21.length);
-    const rnd17 = Math.floor(Math.random() * nm22.length);
-    const rnd18 = Math.floor(Math.random() * nm21.length);
-    const rnd19 = Math.floor(Math.random() * nm21.length);
-    name = `${nm11[rnd1]} ${nm23[rnd13b]} ${nm24[rnd14b]
-    }, but the fact ${nm25[0]} ${nm22[rnd11][0]} and ${nm22[rnd12][0]} is just the tip of the iceberg. ${nm12[rnd2]} ${nm25[0]} also ${nm22[rnd13][0]}, ${nm22[rnd14][0]} and ${nm22[rnd15][0]}, but ${nm13[rnd2]} ${nm21[rnd16][0]} as well.`;
-    name2 = `But focus on ${nm25[1]} as this is what ${nm25[0]} ${
-      nm14[rnd4]}. ${nm15[rnd5]} because of this and ${nm25[1]} ${
-      nm22[rnd17][1]}, ${nm16[rnd6]}.`;
-    name3 = `Fair is fair though, ${nm23[rnd13b]} ${nm17[rnd7]}. ${
-      nm25[3]} ${nm21[rnd18][0]} and ${nm21[rnd19][0]} ${nm18[
-      rnd8]}, ${nm19[rnd9]}.`;
-    name4 = `Unfortunately ${nm25[1]} ${nm22[rnd12][1]} ${nm20[
+    name = `${sample(nm11)} ${sample(nm23)} ${sample(nm24)
+    }, but the fact ${sample(nm25)} ${sample(nm22)[0]} and ${sample(nm22)[0]} is just the tip of the iceberg. ${sample(nm12)} ${sample(nm25)} also ${sample(nm22)[0]}, ${sample(nm22)[0]} and ${sample(nm22)[0]}, but ${sample(nm13)} ${sample(nm21)[0]} as well.`;
+    name2 = `But focus on ${sample(nm25)} as this is what ${sample(nm25)} ${
+      sample(nm14)}. ${sample(nm15)} because of this and ${sample(nm25)} ${
+      sample(nm22)[1]}, ${sample(nm16)}.`;
+    name3 = `Fair is fair though, ${sample(nm23)} ${sample(nm17)}. ${
+      sample(nm25)} ${sample(nm21)[0]} and ${sample(nm21)[0]} ${nm18[
+      rnd8]}, ${sample(nm19)}.`;
+    name4 = `Unfortunately ${sample(nm25)} ${sample(nm22)[1]} ${nm20[
       rnd10]}.`;
   } else {
-    const rnd1 = Math.floor(Math.random() * nm1.length);
     const rnd2 = Math.floor(Math.random() * nm2.length);
-    const rnd3 = Math.floor(Math.random() * nm3.length);
-    const rnd4 = Math.floor(Math.random() * nm4.length);
-    const rnd5 = Math.floor(Math.random() * nm5.length);
-    const rnd6 = Math.floor(Math.random() * nm6.length);
     const rnd7 = Math.floor(Math.random() * nm7.length);
-    const rnd8 = Math.floor(Math.random() * nm8.length);
-    const rnd9 = Math.floor(Math.random() * nm9.length);
     const rnd10 = Math.floor(Math.random() * nm10.length);
-    const rnd11 = Math.floor(Math.random() * nm21.length);
-    const rnd12 = Math.floor(Math.random() * nm21.length);
-    const rnd13 = Math.floor(Math.random() * nm21.length);
     const rnd14 = Math.floor(Math.random() * nm21.length);
-    const rnd15 = Math.floor(Math.random() * nm21.length);
-    const rnd16 = Math.floor(Math.random() * nm22.length);
-    const rnd17 = Math.floor(Math.random() * nm21.length);
-    const rnd18 = Math.floor(Math.random() * nm22.length);
     const rnd19 = Math.floor(Math.random() * nm22.length);
-    name = `${nm1[rnd1]} ${nm23[rnd13b]} ${nm24[rnd14b]}, but ${nm2[
-      rnd2]} ${nm25[0]} ${nm21[rnd11][0]} and ${nm21[rnd12][
-      0]}. Of course ${nm25[0]} also ${nm21[rnd13][0]}, ${nm21[
-      rnd14][0]} and ${nm21[rnd15][0]}, but ${nm3[rnd3]
-    } being ${nm22[rnd16][0]} as well.`;
-    name2 = `${nm25[2]} ${nm21[rnd11][1]} though, this is what ${nm25[
-      0]} ${nm4[rnd4]}. ${nm5[rnd5]} count on this and ${nm25[
-      1]} ${nm21[rnd17][1]} ${nm6[rnd6]}.`;
-    name3 = `Nobody's perfect of course and ${nm23[rnd13b]} has ${nm7[
-      rnd7]} too. ${nm25[2]} ${nm22[rnd18][1]} and ${nm22[
-      rnd19][1]} ${nm8[rnd8]}${nm9[rnd9]}.`;
-    name4 = `Fortunately ${nm25[1]} ${nm21[rnd12][1]} ${nm10[
+    name = `${sample(nm1)} ${sample(nm23)} ${sample(nm24)}, but ${nm2[
+      rnd2]} ${sample(nm25)} ${sample(nm21)[0]} and ${sample(nm21)[
+      0]}. Of course ${sample(nm25)} also ${sample(nm21)[0]}, ${nm21[
+      rnd14][0]} and ${sample(nm21)[0]}, but ${sample(nm3)
+    } being ${sample(nm22)[0]} as well.`;
+    name2 = `${sample(nm25)} ${sample(nm21)[1]} though, this is what ${nm25[
+      0]} ${sample(nm4)}. ${sample(nm5)} count on this and ${nm25[
+      1]} ${sample(nm21)[1]} ${sample(nm6)}.`;
+    name3 = `Nobody's perfect of course and ${sample(nm23)} has ${nm7[
+      rnd7]} too. ${sample(nm25)} ${sample(nm22)[1]} and ${nm22[
+      rnd19][1]} ${sample(nm8)}${sample(nm9)}.`;
+    name4 = `Fortunately ${sample(nm25)} ${sample(nm21)[1]} ${nm10[
       rnd10]}.`;
   }
   let result = '';

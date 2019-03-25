@@ -1,3 +1,5 @@
+import sample from 'lodash/sample';
+
 export default function dungeons() {
   const nm1 = ['A grand', 'A large', 'A massive', 'A minor', 'A modest', 'A narrow', 'A short', 'A small', 'A tall', 'A wide'];
   const nm2 = ['overgrown boulder', 'granite door', 'pair of granite doors', 'broken statue', 'worn statue', 'pair of worn statues', 'boulder', 'dark cave', 'murky cave', 'fallen tree', 'waterfall', 'crypt', 'broken temple', 'fallen temple', 'graveyard', 'fallen tower'];
@@ -21,34 +23,10 @@ export default function dungeons() {
   const nm20 = ['bleak', 'dark', 'dire', 'eerie', 'foggy', 'gloomy', 'grim', 'misty', 'murky', 'overcast', 'shadowy', 'shady', 'sinister', 'somber'];
   const nm21 = ['aged', 'battered', 'busted', 'decayed', 'demolished', 'destroyed', 'deteriorated', 'forgotten', 'frayed', 'long lost', 'pillaged', 'tattered', 'wasted', 'weathered', 'worn', 'worn down'];
   const nm22 = ['absorbed', 'butchered', 'claimed', 'consumed', 'defaced', 'desolated', 'devoured', 'dismantled', 'drained', 'eaten', 'maimed', 'mutilated', 'ravaged', 'ravished', 'spoiled', 'taken', 'wiped out', 'wrecked'];
-  const rnd1 = Math.floor(Math.random() * nm1.length);
-  const rnd2 = Math.floor(Math.random() * nm2.length);
-  const rnd3 = Math.floor(Math.random() * nm3.length);
-  const rnd4 = Math.floor(Math.random() * nm4.length);
-  const rnd5 = Math.floor(Math.random() * nm5.length);
-  const rnd6 = Math.floor(Math.random() * nm6.length);
-  const rnd6a = Math.floor(Math.random() * nm6.length);
-  const rnd6b = Math.floor(Math.random() * nm6.length);
-  const rnd7 = Math.floor(Math.random() * nm7.length);
-  const rnd8 = Math.floor(Math.random() * nm8.length);
-  const rnd9 = Math.floor(Math.random() * nm9.length);
-  const rnd10 = Math.floor(Math.random() * nm10.length);
-  const rnd11 = Math.floor(Math.random() * nm11.length);
-  const rnd12 = Math.floor(Math.random() * nm12.length);
-  const rnd13 = Math.floor(Math.random() * nm13.length);
-  const rnd14 = Math.floor(Math.random() * nm14.length);
-  const rnd15 = Math.floor(Math.random() * nm15.length);
-  const rnd16 = Math.floor(Math.random() * nm16.length);
-  const rnd17 = Math.floor(Math.random() * nm17.length);
-  const rnd18 = Math.floor(Math.random() * nm18.length);
-  const rnd19 = Math.floor(Math.random() * nm19.length);
-  const rnd20 = Math.floor(Math.random() * nm20.length);
-  const rnd21 = Math.floor(Math.random() * nm21.length);
-  const rnd22 = Math.floor(Math.random() * nm22.length);
-  const name = `${nm1[rnd1]} ${nm2[rnd2]} in a ${nm20[rnd20]} ${nm3[rnd3]} marks the entrance to this dungeon. Beyond the ${nm2[rnd2]} lies a ${nm4[rnd4]}, ${nm5[rnd5]} room. It's covered in ${nm6[rnd6]}, ${nm6[rnd6a]} and ${nm6[rnd6b]}.`;
-  const name2 = `Your torch allows you to see ${nm7[rnd7]}, ${nm21[rnd21]} and ${nm22[rnd22]} by time itself.`;
-  const name3 = `Further ahead ${nm8[rnd8]}. Its twisted trail leads ${nm9[rnd9]} and soon you enter a ${nm10[rnd10]} area. ${nm11[rnd11]}. What happened in this place?`;
-  const name4 = `You ${nm12[rnd12]} onwards, deeper into the dungeon's ${nm13[rnd13]}. You pass ${nm14[rnd14]}, ${nm17[rnd17]}. You eventually make it to what is likely the final room. ${nm15[rnd15]} ${nm16[rnd16]} door blocks your path. ${nm18[rnd18]} all over it, somehow untouched by time and the elements. You step closer to inspect it and.. wait.. ${nm19[rnd19]}`;
+  const name = `${sample(nm1)} ${sample(nm2)} in a ${sample(nm20)} ${sample(nm3)} marks the entrance to this dungeon. Beyond the ${sample(nm2)} lies a ${sample(nm4)}, ${sample(nm5)} room. It's covered in ${sample(nm6)}, ${sample(nm6)} and ${sample(nm6)}.`;
+  const name2 = `Your torch allows you to see ${sample(nm7)}, ${sample(nm21)} and ${sample(nm22)} by time itself.`;
+  const name3 = `Further ahead ${sample(nm8)}. Its twisted trail leads ${sample(nm9)} and soon you enter a ${sample(nm10)} area. ${sample(nm11)}. What happened in this place?`;
+  const name4 = `You ${sample(nm12)} onwards, deeper into the dungeon's ${sample(nm13)}. You pass ${sample(nm14)}, ${sample(nm17)}. You eventually make it to what is likely the final room. ${sample(nm15)} ${sample(nm16)} door blocks your path. ${sample(nm18)} all over it, somehow untouched by time and the elements. You step closer to inspect it and.. wait.. ${sample(nm19)}`;
   let result = '';
   result += name;
   result += '\n';

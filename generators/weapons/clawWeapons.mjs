@@ -1,8 +1,7 @@
+import sample from 'lodash/sample';
+
 export default function clawWeapons() {
   let names;
-  let rnd;
-  let rnd2;
-  let rnd3;
   const nm1 = ['Abomination', 'Advisary', 'Allowance', 'Alpha', 'Amnesia', 'Angerfist', 'Anguish', 'Appointment', 'Armageddon', 'Blackeye', 'Blacktalon', 'Blade Dance', 'Blinder', 'Blindstrike', 'Blinkstrike', 'Bloodfist', 'Bloodfury', 'Bloodrage', 'Bloodspiller', 'Brawler', 'Bruiser', 'Brutality', 'Brutalizer', 'Brute', 'Brutus', 'Bully', 'Can Opener', 'Carnage', 'Carver', 'Cat', 'Chaos', 'Checkpoint', 'Chillspike', 'Creature', 'Creep', 'Critter', 'Dawnbreaker', 'Death\'s Touch', 'Deathraze', 'Deception', 'Decimation', 'Delirium', 'Devourer', 'Dissector', 'Doom', 'Doom\'s Fist', 'Doom\'s Punch', 'Doombringer', 'Drillbit', 'Echo', 'Eclipse', 'Enigma', 'Epilogue', 'Etcher', 'Facebreaker', 'Facepalm', 'Faceplant', 'Faceslicer', 'Fistbumper', 'Frenzy', 'Fury', 'Gargoyle', 'Gash', 'Gladiator', 'Glutton', 'Greed', 'Grieve', 'Gripe', 'Grizzly', 'Gutpuncher', 'Hacker', 'Heartseeker', 'Hell\'s Fist', 'Hell\'s Fury', 'Hole In One', 'Homage', 'Honor\'s Hand', 'Hurricane', 'Infamy', 'Infinity', 'Insanity', 'Itch', 'Jaeger', 'Jawbreaker', 'Lacerator', 'Lament', 'Lance', 'Lazarus', 'Limbo', 'Lobster', 'Malevolence', 'Malice', 'Marrowstrike', 'Massacre', 'Masticator', 'Mitigator', 'Narcoleptic', 'Needle', 'Needles', 'Nibble', 'Nibbler', 'Night\'s Reach', 'Nightbane', 'Nightfall', 'Oathbinder', 'Oathbreaker', 'Oathkeeper', 'Oblivion', 'Omega', 'Paws', 'Perforator', 'Permeater', 'Phoenix', 'Pierce', 'Piercer', 'Piety', 'Pincer', 'Pincey', 'Pique', 'Predator', 'Prick', 'Prickler', 'Pride', 'Puncturer', 'Quota', 'Rage', 'Raptor', 'Rapture', 'Reflex', 'Reign', 'Requiem', 'Rodent', 'Ruthless', 'Savage', 'Savagery', 'Scar', 'Scratches', 'Scratchy', 'Scyther', 'Seism', 'Severance', 'Shadowfury', 'Shadowstrike', 'Shards', 'Shredder', 'Silence', 'Skinner', 'Skirmisher', 'Slice of Life', 'Snip', 'Spike', 'Spikey', 'Spite', 'Splinter', 'Stalker', 'Sting', 'Storm', 'Striker', 'Stripper', 'Sunder', 'Tenderizer', 'Terror', 'Thunder', 'Thunderstrike', 'Tickles', 'Tingle', 'Torment', 'Trickster', 'Trinity', 'Twister', 'Vacancy', 'Valkyrie', 'Vermin', 'Vice', 'Vile', 'Whirlwind', 'Wicked', 'Widow Maker', 'Willbreaker'];
   const nm2 = ['Ancient', 'Antique', 'Apocalypse', 'Apocalyptic', 'Arcane', 'Arched', 'Atuned', 'Bandit\'s', 'Baneful', 'Banished', 'Barbarian', 'Barbaric', 'Battleworn', 'Blazefury', 'Blood Infused', 'Blood-Forged', 'Bloodcursed', 'Bloodied', 'Bloodlord\'s', 'Bloodsurge', 'Bloodvenom', 'Bonecarvin', 'Brutal', 'Brutality', 'Burnished', 'Cataclysm', 'Cataclysmic', 'Challenger', 'Challenger\'s', 'Champion', 'Champion\'s', 'Cold-Forged', 'Conqueror', 'Conqueror\'s', 'Corroded', 'Corrupted', 'Crazed', 'Crying', 'Cursed', 'Curved', 'Dancing', 'Dark', 'Darkness', 'Defender', 'Defender\'s', 'Defiled', 'Defiling', 'Deluded', 'Demonic', 'Deserted', 'Desire\'s', 'Desolation', 'Destiny\'s', 'Diabolical', 'Dire', 'Doom', 'Doom\'s', 'Dragon\'s', 'Dragonbreath', 'Eerie', 'Enchanted', 'Engraved', 'Enlightened', 'Eternal', 'Exiled', 'Extinction', 'Faith\'s', 'Faithful', 'Fancy', 'Fearful', 'Feral', 'Ferocious', 'Fierce', 'Fiery', 'Fire Infused', 'Fireguard', 'Firesoul', 'Firestorm', 'Flaming', 'Flimsy', 'Forsaken', 'Fortune\'s', 'Foul', 'Fragile', 'Frail', 'Frenzied', 'Frost', 'Frozen', 'Furious', 'Fusion', 'Ghastly', 'Ghost', 'Ghost-Forged', 'Ghostly', 'Gladiator', 'Gladiator\'s', 'Gleaming', 'Glinting', 'Greedy', 'Grieving', 'Grim', 'Guard\'s', 'Guardian\'s', 'Hailstorm', 'Harmonized', 'Hateful', 'Haunted', 'Heartless', 'Heinous', 'Hero', 'Hero\'s', 'Hollow', 'Holy', 'Honed', 'Honor\'s', 'Hope\'s', 'Hopeless', 'Howling', 'Hungering', 'Improved', 'Impure', 'Incarnated', 'Infused', 'Inherited', 'Isolated', 'Jade Infused', 'Judgement', 'Keeper\'s', 'Knightly', 'Knight\'s', 'Legionnaire\'s', 'Liar\'s', 'Lich', 'Lightning', 'Lonely', 'Loyal', 'Lustful', 'Lusting', 'Malevolent', 'Malicious', 'Malificent', 'Malignant', 'Massive', 'Mended', 'Mercenary', 'Military', 'Misfortune\'s', 'Misty', 'Moonlit', 'Mourning', 'Nightmare', 'Oathkeeper\'s', 'Ominous', 'Peacekeeper', 'Peacekeeper\'s', 'Phantom', 'Polished', 'Possessed', 'Pride\'s', 'Prideful', 'Primal', 'Prime', 'Primitive', 'Promised', 'Protector\'s', 'Proud', 'Pure', 'Putrid', 'Raging', 'Recruit\'s', 'Refined', 'Reforged', 'Reincarnated', 'Relentless', 'Remorseful', 'Renewed', 'Renovated', 'Replica', 'Restored', 'Retribution', 'Ritual', 'Roaring', 'Ruby Infused', 'Rune-Forged', 'Runed', 'Rusty', 'Savage', 'Sentinel', 'Shadow', 'Shamanic', 'Sharpened', 'Silent', 'Singed', 'Singing', 'Sinister', 'Skyfall', 'Smooth', 'Soldier\'s', 'Solitude\'s', 'Sorcerer\'s', 'Sorrow\'s', 'Soul', 'Soul Infused', 'Soul-Forged', 'Soulcursed', 'Soulless', 'Spectral', 'Spectral-Forged', 'Spiteful', 'Storm', 'Storm-Forged', 'Stormfury', 'Stormguard', 'Terror', 'Thirsting', 'Thirsty', 'Thunder', 'Thunder-Forged', 'Thunderfury', 'Thunderguard', 'Thundersoul', 'Thunderstorm', 'Timeworn', 'Tormented', 'Trainee\'s', 'Treachery\'s', 'Twilight', 'Twilight\'s', 'Twisted', 'Tyrannical', 'Undead', 'Unholy', 'Vanquisher', 'Vengeance', 'Vengeful', 'Venom', 'Vicious', 'Victor', 'Vile', 'Vindication', 'Vindicator', 'Vindictive', 'Void', 'Volcanic', 'Vowed', 'War', 'War-Forged', 'Warden\'s', 'Warlord\'s', 'Warp', 'Warped', 'Warrior', 'Warrior\'s', 'Whistling', 'Wicked', 'Wind\'s', 'Wind-Forged', 'Windsong', 'Woeful', 'Wrathful', 'Wretched', 'Yearning', 'Zealous'];
   const nm3 = ['Adamantite', 'Mithril', 'Obsidian', 'Silver', 'Skeletal', 'Steel', 'Ebon', 'Ivory', 'Ironbark', 'Ebonsteel', 'Ebony', 'Onyx', 'Shadowsteel'];
@@ -12,22 +11,13 @@ export default function clawWeapons() {
   const i = Math.floor(Math.random() * 10);
   {
     if (i < 3) {
-      rnd = Math.floor(Math.random() * nm1.length);
-      names = nm1[rnd];
+      names = sample(nm1);
     } else if (i < 5) {
-      rnd = Math.floor(Math.random() * nm2.length);
-      rnd2 = Math.floor(Math.random() * nm4.length);
-      names = `${nm2[rnd]} ${nm4[rnd2]}`;
+      names = `${sample(nm2)} ${sample(nm4)}`;
     } else if (i < 7) {
-      rnd = Math.floor(Math.random() * nm2.length);
-      rnd2 = Math.floor(Math.random() * nm3.length);
-      rnd3 = Math.floor(Math.random() * nm4.length);
-      names = `${nm2[rnd]} ${nm3[rnd2]} ${nm4[rnd3]}`;
+      names = `${sample(nm2)} ${sample(nm3)} ${sample(nm4)}`;
     } else {
-      rnd = Math.floor(Math.random() * nm1.length);
-      rnd2 = Math.floor(Math.random() * nm5.length);
-      rnd3 = Math.floor(Math.random() * nm6.length);
-      names = `${nm1[rnd]}, ${nm5[rnd2]} ${nm6[rnd3]}`;
+      names = `${sample(nm1)}, ${sample(nm5)} ${sample(nm6)}`;
     }
     return names;
   }

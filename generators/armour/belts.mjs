@@ -1,3 +1,5 @@
+import sample from 'lodash/sample';
+
 export default function belts() {
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['Ancient', 'Binding', 'Blessed', 'Blind', 'Broken', 'Burning', 'Condemned', 'Conquered', 'Cursed', 'Damned', 'Dark', 'Demonic', 'Distant', 'Divine', 'Doomed', 'Ending', 'Endless', 'Eternal', 'Faded', 'Fallen', 'Fleeting', 'Frozen', 'Hallowed', 'Haunted', 'Hellish', 'Holy', 'Imminent', 'Immortal', 'Infernal', 'Infinite', 'Lost', 'Ominous', 'Relentless', 'Sacred', 'Shattered', 'Silent', 'Smoldering', 'Timeless', 'Twisted', 'Unholy'];
@@ -11,21 +13,15 @@ export default function belts() {
     nm5 = ['Belt', 'Sash', 'Strap', 'Girdle', 'Waistband', 'Cord', 'Gunbelt'];
   }
   const i = Math.floor(Math.random() * 10);
-  const rnd = Math.floor(Math.random() * nm1.length);
-  const rnd2 = Math.floor(Math.random() * nm2.length);
-  const rnd3 = Math.floor(Math.random() * nm3.length);
-  const rnd4 = Math.floor(Math.random() * nm4.length);
-  const rnd5 = Math.floor(Math.random() * nm5.length);
-  const rnd6 = Math.floor(Math.random() * nm6.length);
   let names;
   if (i < 2) {
-    names = `${nm5[rnd5]} of ${nm1[rnd]} ${nm2[rnd2]}`;
+    names = `${sample(nm5)} of ${sample(nm1)} ${sample(nm2)}`;
   } else if (i < 4) {
-    names = `${nm4[rnd4]} ${nm5[rnd5]} of ${nm1[rnd]} ${nm2[rnd2]}`;
+    names = `${sample(nm4)} ${sample(nm5)} of ${sample(nm1)} ${sample(nm2)}`;
   } else if (i < 7) {
-    names = `${nm3[rnd3]} ${nm4[rnd4]} ${nm5[rnd5]}`;
+    names = `${sample(nm3)} ${sample(nm4)} ${sample(nm5)}`;
   } else {
-    names = `${nm3[rnd3]} ${nm5[rnd5]} of ${nm6[rnd6]}`;
+    names = `${sample(nm3)} ${sample(nm5)} of ${sample(nm6)}`;
   }
   return names.trim();
 }

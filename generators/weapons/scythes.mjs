@@ -1,8 +1,7 @@
+import sample from 'lodash/sample';
+
 export default function scythes() {
   let names;
-  let rnd;
-  let rnd2;
-  let rnd3;
   const nm1 = ['Adjudicator', 'Alpha', 'Amnesia', 'Angerfang', 'Anguish', 'Perdition', 'Purgatory', 'The Undertaker', 'Hindscythe', 'Annihilation', 'Annihilator', 'Apathy', 'Avenger', 'Avian Claw', 'Backscythe', 'Bad Break Up', 'Bane', 'Barbara', 'Betrayal', 'Betrayer', 'Blackened Heart', 'Blackest Heart', 'Blackfury', 'Blackheart', 'Blackout', 'Blight', 'Blind Justice', 'Blindscythe', 'Bloodfall', 'Bonestrike', 'Break Up', 'Broken Promise', 'Caretaker', 'Carver', 'Celeste', 'Chaos', 'Chillspike', 'Closure', 'Collector', 'Compassion', 'Conclusion', 'Consequence', 'Corruption', 'Coup de Grace', 'Crescent Moon', 'Cruelty', 'Dark Intent', 'Dark Reaper', 'Darkest Claw', 'Darkfury', 'Darkness', 'Deadline', 'Death Crown', 'Death\'s Claw', 'Death\'s Curve', 'Death\'s Fang', 'Death\'s Grasp', 'Death\'s Reach', 'Death\'s Resolve', 'Death\'s Scalpel', 'Death\'s Touch', 'Death\'s Windmill', 'Deathraze', 'Decapitation', 'Demilune', 'Demise', 'Despair', 'Dignity', 'Discontinued', 'Downfall', 'Due Diligence', 'Ebon Claw', 'Ebon Fang', 'Ebon Tusk', 'Ebonblade', 'Ebonfury', 'Echo', 'Empathy', 'Endbringer', 'Epilogue', 'Eradicate', 'Eradication', 'Eternal Rest', 'Eternal Sleep', 'Eternity', 'Euthanasia', 'Execution', 'Expiration', 'Expired', 'Extinction', 'Extraction', 'Extractor', 'Eyegouger', 'Final Achievement', 'Final Critic', 'Fleshrender', 'Forscythe', 'Frenzy', 'Grace', 'Grasscutter', 'Grave Filler', 'Gravescythe', 'Great Finale', 'Grieving Blade', 'Grim Reaper', 'Gutrender', 'Harvester', 'Hell\'s Curve', 'Hell\'s Fang', 'Hell\'s Slice', 'Hellreaver', 'Hope\'s End', 'Hoperender', 'Howler', 'Hunger', 'Hungerer', 'Hush', 'Impaler', 'Inscythe', 'Interruption', 'Iron Crown', 'Iron Curtain', 'Isolation', 'Justice', 'Kinslayer', 'Lance', 'Last Favor', 'Last Rites', 'Last Slice', 'Last Words', 'Life\'s Interruption', 'Life\'s Limit', 'Limbo', 'Locust', 'Malice', 'Mantis', 'Marrowstrike', 'Massacre', 'Meniscus', 'Mercy', 'Misery\'s End', 'Muffler', 'Narrowstrike', 'Necrosis', 'Nethersbane', 'Night\'s Fall', 'Nightbane', 'Nightfall', 'Nightmare', 'Oathbinder', 'Oathkeeper', 'Oblivion', 'Omega', 'Outscythe', 'Peacemaker', 'Perfect Execution', 'Piece Maker', 'Pincer', 'Predator', 'Quarantine', 'Razor', 'Razorblade', 'Reaper\'s Claw', 'Reaper\'s Fang', 'Reaper\'s Touch', 'Reconciler', 'Remorse', 'Reapar\'s Reach', 'Rigormortis', 'Scalpel', 'Scytheburn', 'Seethe', 'Seperation', 'Severance', 'Severus', 'Shepherd', 'Shiverspine', 'Silence', 'Sinister', 'Skewer', 'Slash', 'Sleep', 'Slice of Life', 'Solitary', 'Solitude', 'Soulbreaker', 'Souldrinker', 'Splitter', 'Spur', 'Subscythe', 'Suspension', 'Swan Song', 'Sympathy', 'Termination', 'The Culling', 'The End', 'The Facelifter', 'The Inevitable', 'The Judge', 'The Warden', 'Tranquillizer', 'Unholy Might', 'Valkyrie', 'Vanquisher', 'Widowblight', 'Widowmaker', 'Willbreaker'];
   const nm2 = ['Ancient', 'Anguish\'', 'Annihilation', 'Antique', 'Apocalypse', 'Apocalyptic', 'Arcane', 'Arched', 'Assassination', 'Atuned', 'Baneful', 'Banished', 'Battleworn', 'Blazefury', 'Blood Infused', 'Blood-Forged', 'Bloodcursed', 'Bloodied', 'Bloodlord\'s', 'Bloodsurge', 'Bloodvenom', 'Bonecarvin', 'Brutal', 'Burnished', 'Cataclysm', 'Cataclysmic', 'Cold-Forged', 'Corroded', 'Corrupted', 'Crazed', 'Crying', 'Cursed', 'Curved', 'Dancing', 'Dark', 'Darkness', 'Decapitating', 'Defiled', 'Defiling', 'Deluded', 'Demonic', 'Deserted', 'Desire\'s', 'Desolation', 'Destiny\'s', 'Diabolical', 'Dire', 'Doom', 'Doom\'s', 'Eerie', 'Enchanted', 'Engraved', 'Eternal', 'Executing', 'Exiled', 'Extinction', 'Faith\'s', 'Faithful', 'Fearful', 'Feral', 'Ferocious', 'Fierce', 'Fiery', 'Fire Infused', 'Firesoul', 'Firestorm', 'Flaming', 'Flimsy', 'Forsaken', 'Fortune\'s', 'Foul', 'Frenzied', 'Frost', 'Frozen', 'Furious', 'Fusion', 'Ghastly', 'Ghost-Forged', 'Ghostly', 'Gladiator', 'Gladiator\'s', 'Gleaming', 'Glinting', 'Greedy', 'Grieving', 'Grim', 'Guard\'s', 'Guardian\'s', 'Hailstorm', 'Hateful', 'Haunted', 'Heartless', 'Heinous', 'Hollow', 'Holy', 'Honed', 'Hopeless', 'Howling', 'Hungering', 'Improved', 'Impure', 'Incarnated', 'Infused', 'Inherited', 'Jade Infused', 'Judgement', 'Liar\'s', 'Lich', 'Lightning', 'Lonely', 'Loyal', 'Lustful', 'Lusting', 'Mage\'s', 'Malevolent', 'Malicious', 'Malificent', 'Malignant', 'Massive', 'Mended', 'Military', 'Misfortune\'s', 'Misty', 'Moonlit', 'Mourning', 'Nightmare', 'Ominous', 'Peacekeeper', 'Phantom', 'Polished', 'Possessed', 'Pride\'s', 'Prideful', 'Primitive', 'Promised', 'Protector\'s', 'Proud', 'Pure', 'Putrid', 'Raging', 'Reforged', 'Reincarnated', 'Relentless', 'Remorseful', 'Renewed', 'Renovated', 'Replica', 'Restored', 'Retribution', 'Ritual', 'Roaring', 'Ruby Infused', 'Rune-Forged', 'Rusty', 'Savage', 'Shadow', 'Sharpened', 'Silent', 'Singed', 'Singing', 'Sinister', 'Skeletal', 'Skullforge', 'Skyfall', 'Smooth', 'Solitude\'s', 'Sorrow\'s', 'Soul', 'Soul Infused', 'Soul-Forged', 'Soulcursed', 'Soulless', 'Spectral', 'Spectral-Forged', 'Spiteful', 'Storm', 'Storm-Forged', 'Stormfury', 'Stormguard', 'Terror', 'Thirsting', 'Thirsty', 'Thunder', 'Thunder-Forged', 'Thunderfury', 'Thundersoul', 'Thunderstorm', 'Timeworn', 'Tormented', 'Trainee\'s', 'Treachery\'s', 'Twilight', 'Twilight\'s', 'Twisted', 'Tyrannical', 'Undead', 'Unholy', 'Vengeance', 'Vengeful', 'Venom', 'Vicious', 'Vile', 'Vindication', 'Vindictive', 'Void', 'Volcanic', 'Vowed', 'War-Forged', 'Warlord\'s', 'Warp', 'Warped', 'Whistling', 'Wicked', 'Wind\'s', 'Wind-Forged', 'Windsong', 'Woeful', 'Wrathful', 'Wretched', 'Yearning', 'Zealous'];
   const nm3 = ['Adamantite', 'Mithril', 'Obsidian', 'Silver', 'Skeletal', 'Steel', 'Ebon', 'Ivory', 'Ironbark', 'Oak', 'Maple', 'Yew', 'Ashwood', 'Warpwood', 'Ebonsteel', 'Demonic', 'Demonsteel', 'Ebony', 'Onyx', 'Shadowsteel', 'Phantomsteel'];
@@ -13,22 +12,13 @@ export default function scythes() {
   const i = Math.floor(Math.random() * 10);
   {
     if (i < 3) {
-      rnd = Math.floor(Math.random() * nm1.length);
-      names = nm1[rnd];
+      names = sample(nm1);
     } else if (i < 5) {
-      rnd = Math.floor(Math.random() * nm2.length);
-      rnd2 = Math.floor(Math.random() * nm4.length);
-      names = `${nm2[rnd]} ${nm4[rnd2]}`;
+      names = `${sample(nm2)} ${sample(nm4)}`;
     } else if (i < 7) {
-      rnd = Math.floor(Math.random() * nm2.length);
-      rnd2 = Math.floor(Math.random() * nm3.length);
-      rnd3 = Math.floor(Math.random() * nm4.length);
-      names = `${nm2[rnd]} ${nm3[rnd2]} ${nm4[rnd3]}`;
+      names = `${sample(nm2)} ${sample(nm3)} ${sample(nm4)}`;
     } else {
-      rnd = Math.floor(Math.random() * nm7.length);
-      rnd2 = Math.floor(Math.random() * nm5.length);
-      rnd3 = Math.floor(Math.random() * nm6.length);
-      names = `${nm7[rnd]}, ${nm5[rnd2]} ${nm6[rnd3]}`;
+      names = `${sample(nm7)}, ${sample(nm5)} ${sample(nm6)}`;
     }
     return names;
   }

@@ -1,7 +1,7 @@
+import sample from 'lodash/sample';
+
 export default function northEuropeanTowns() {
   let names;
-  let rnd;
-  let rnd2;
   const nm1 = ['Aal', 'Aar', 'Alberts', 'Balle', 'Birke', 'Brønd', 'Copen', 'Es', 'Glad', 'Glo', 'Hørs', 'Hader', 'Hel', 'Her', 'Hille', 'Hjør', 'Hol', 'Holste', 'Hor', 'Hvido', 'Kol', 'Lyng', 'Næst', 'Nørre', 'Rødo', 'Ring', 'Ros', 'Sønder', 'Silke', 'Sla', 'Svend', 'Tårn', 'Taa', 'Vi'];
   const nm2 = ['bæk', 'bæka', 'berga', 'bjerg', 'borg', 'bya', 'gelse', 'hagen', 'havn', 'holm', 'hus', 'kilde', 'leva', 'lunda', 'nse', 'rød', 'ring', 'rupa', 'saxea', 'sens', 'singør', 'slev', 'sted', 'strup', 'strupa', 'sundby', 've', 'ved', 'vrea'];
   /* Estonia */
@@ -28,37 +28,21 @@ export default function northEuropeanTowns() {
   const i = Math.floor(Math.random() * 16);
   {
     if (i < 2) {
-      rnd = Math.floor(Math.random() * nm1.length);
-      rnd2 = Math.floor(Math.random() * nm2.length);
-      names = nm1[rnd] + nm2[rnd2];
+      names = sample(nm1) + sample(nm2);
     } else if (i < 4) {
-      rnd = Math.floor(Math.random() * nm3.length);
-      rnd2 = Math.floor(Math.random() * nm4.length);
-      names = nm3[rnd] + nm4[rnd2];
+      names = sample(nm3) + sample(nm4);
     } else if (i < 6) {
-      rnd = Math.floor(Math.random() * nm5.length);
-      rnd2 = Math.floor(Math.random() * nm6.length);
-      names = nm5[rnd] + nm6[rnd2];
+      names = sample(nm5) + sample(nm6);
     } else if (i < 8) {
-      rnd = Math.floor(Math.random() * nm7.length);
-      rnd2 = Math.floor(Math.random() * nm8.length);
-      names = nm7[rnd] + nm8[rnd2];
+      names = sample(nm7) + sample(nm8);
     } else if (i < 10) {
-      rnd = Math.floor(Math.random() * nm9.length);
-      rnd2 = Math.floor(Math.random() * nm10.length);
-      names = nm9[rnd] + nm10[rnd2];
+      names = sample(nm9) + sample(nm10);
     } else if (i < 12) {
-      rnd = Math.floor(Math.random() * nm11.length);
-      rnd2 = Math.floor(Math.random() * nm12.length);
-      names = nm11[rnd] + nm12[rnd2];
+      names = sample(nm11) + sample(nm12);
     } else if (i < 14) {
-      rnd = Math.floor(Math.random() * nm13.length);
-      rnd2 = Math.floor(Math.random() * nm14.length);
-      names = nm13[rnd] + nm14[rnd2];
+      names = sample(nm13) + sample(nm14);
     } else {
-      rnd = Math.floor(Math.random() * nm15.length);
-      rnd2 = Math.floor(Math.random() * nm16.length);
-      names = nm15[rnd] + nm16[rnd2];
+      names = sample(nm15) + sample(nm16);
     }
     return names;
   }

@@ -1,3 +1,5 @@
+import sample from 'lodash/sample';
+
 export default function pistols() {
   const nm1 = ['very small', 'small', 'small', 'fairy small', 'fairly small', 'average', 'fairly large', 'fairly large', 'large', 'large', 'very large'];
   const nm2 = ['pistol', 'double-barreled pistol', 'derringer', 'pepperbox', 'double-barreled derringer', 'double-barreled pepperbox', 'revolver', 'semi-automatic pistol', 'machine pistol', 'revolver', 'revolver', 'pistol'];
@@ -17,32 +19,11 @@ export default function pistols() {
   const nm16 = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', '0', '1', '2', '3', '4', '5', '6', '7', '8', '9'];
   const nm17 = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', '0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', ''];
   const nm18 = ['Amigo', 'Amnesia', 'Blackout', 'Comet', 'Crimson', 'Cruiser', 'Dawn', 'Deadeye', 'Dominion', 'Echo', 'Eclipse', 'Enigma', 'Envy', 'Frenzy', 'Fury', 'Justice', 'Lightning', 'Limbo', 'Lockjaw', 'Malice', 'Midnight', 'Nightmare', 'Pendulum', 'Popeye', 'Scar', 'Serenity'];
-  const rnd1 = Math.floor(Math.random() * nm1.length);
-  const rnd2 = Math.floor(Math.random() * nm2.length);
-  const rnd3 = Math.floor(Math.random() * nm3.length);
-  const rnd4 = Math.floor(Math.random() * nm4.length);
-  const rnd5 = Math.floor(Math.random() * nm5.length);
-  const rnd6 = Math.floor(Math.random() * nm6.length);
-  const rnd7 = Math.floor(Math.random() * nm7.length);
-  const rnd8 = Math.floor(Math.random() * nm8.length);
-  const rnd9 = Math.floor(Math.random() * nm9.length);
-  const rnd10 = Math.floor(Math.random() * nm10.length);
-  const rnd11 = Math.floor(Math.random() * nm11.length);
-  const rnd12 = Math.floor(Math.random() * nm12.length);
-  const rnd13 = Math.floor(Math.random() * nm13.length);
-  const rnd14 = Math.floor(Math.random() * nm14.length);
-  const rnd15 = Math.floor(Math.random() * nm15.length);
-  const rnd16 = Math.floor(Math.random() * nm16.length);
-  const rnd17 = Math.floor(Math.random() * nm17.length);
-  const rnd16a = Math.floor(Math.random() * nm16.length);
-  const rnd16b = Math.floor(Math.random() * nm16.length);
-  const rnd17a = Math.floor(Math.random() * nm17.length);
-  const rnd18 = Math.floor(Math.random() * nm18.length);
-  const name = `This ${nm1[rnd1]} ${nm2[rnd2]} is ${nm3[rnd3]} amongsts ${nm4[rnd4]}.`;
-  const name2 = `Its ${nm5[rnd5]} weight makes it ${nm6[rnd6]} to handle. It ${nm7[rnd7]} ${nm8[rnd8]}.`;
-  const name3 = `This particular ${nm2[rnd2]} comes with ${nm9[rnd9]}, with ${nm10[rnd10]} and ${nm11[rnd11]} barrel, which could be ${nm12[rnd12]} if so desired.`;
-  const name4 = `This weapon was originally designed as ${nm13[rnd13]}, but it soon ${nm14[rnd14]} and is now in use by ${nm15[rnd15]}.`;
-  const name5 = `Its official name is the ${nm16[rnd16]}${nm17[rnd17]}-${nm16[rnd16a]}${nm16[rnd16b]}${nm17[rnd17a]}, but it generall goes by its unofficial name: ${nm18[rnd18]}.`;
+  const name = `This ${sample(nm1)} ${sample(nm2)} is ${sample(nm3)} amongsts ${sample(nm4)}.`;
+  const name2 = `Its ${sample(nm5)} weight makes it ${sample(nm6)} to handle. It ${sample(nm7)} ${sample(nm8)}.`;
+  const name3 = `This particular ${sample(nm2)} comes with ${sample(nm9)}, with ${sample(nm10)} and ${sample(nm11)} barrel, which could be ${sample(nm12)} if so desired.`;
+  const name4 = `This weapon was originally designed as ${sample(nm13)}, but it soon ${sample(nm14)} and is now in use by ${sample(nm15)}.`;
+  const name5 = `Its official name is the ${sample(nm16)}${sample(nm17)}-${sample(nm16)}${sample(nm16)}${sample(nm17)}, but it generall goes by its unofficial name: ${sample(nm18)}.`;
   let result = '';
   result += name;
   result += '\n';

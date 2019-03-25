@@ -1,7 +1,7 @@
+import sample from 'lodash/sample';
+
 export default function southAfricanTowns() {
   let names;
-  let rnd;
-  let rnd2;
   /* Botswana */
   const nm1 = ['Bo', 'Bob', 'Boro', 'Cha', 'Chadi', 'Du', 'Duk', 'Et', 'Ga', 'Gaba', 'Gabo', 'Gha', 'Ghan', 'Gu', 'Guma', 'Gwe', 'Hu', 'Huku', 'Hukun', 'Jwa', 'Ka', 'Kan', 'Kasa', 'Khu', 'Khudu', 'Ko', 'Kopo', 'Ku', 'Kuma', 'Le', 'Len', 'Lera', 'Let', 'Letha', 'Lo', 'Loba', 'Lot', 'Ma', 'Maha', 'Mai', 'Maiten', 'Malo', 'Malol', 'Man', 'Mandu', 'Mandun', 'Maro', 'Masun', 'Matha', 'Mathan', 'Mau', 'Mauna', 'Me', 'Metsi', 'Mma', 'Mmadi', 'Mmank', 'Mo', 'Mochu', 'Mogo', 'Mogodi', 'Moi', 'Moiya', 'Mola', 'Molapo', 'Mole', 'Molepo', 'Moo', 'Mooka', 'Mopi', 'Moshu', 'Na', 'Nka', 'Noka', 'Oo', 'Ora', 'Pa', 'Pala', 'Ra', 'Rako', 'Ramo', 'Ramok', 'Rana', 'Se', 'Sebi', 'Sefo', 'Sehi', 'Sele', 'Seli', 'Sero', 'Seron', 'Sha', 'Shaka', 'Sho', 'Shoro', 'Ta', 'Tha', 'Thaba', 'Thama', 'Tlo', 'Tlok', 'To', 'Toba', 'Tono', 'Tse', 'Tsetse', 'Tsha', 'Tu', 'Tuma', 'Tutu'];
   const nm2 = ['bala', 'bana', 'bane', 'be', 'bela', 'bina', 'bojang', 'bong', 'bonong', 'cheng', 'chudi', 'di', 'dibe', 'dinare', 'ditshane', 'dunyane', 'ga', 'godi', 'gonami', 'haba', 'jang', 'jwe', 'ka', 'kaa', 'kane', 'kaneng', 'kawe', 'keng', 'kops', 'la', 'lala', 'lapye', 'leka', 'letau', 'libe', 'lole', 'long', 'maga', 'mare', 'na', 'naka', 'nami', 'nare', 'ne', 'neng', 'nga', 'nong', 'nota', 'pa', 'pane', 'phe', 'pi', 'polole', 'pong', 'rala', 'rapa', 're', 'robe', 'rolong', 'rone', 'ronga', 'rowe', 'sane', 'sebjwe', 'sera', 'she', 'shong', 'shupa', 'sunga', 'ta', 'tau', 'teng', 'tengwe', 'the', 'thethe', 'thwa', 'tlala', 'tse', 'tsha', 'tshane', 'tsi', 'tswa', 'tume', 'wabojang', 'wane', 'we', 'weng', 'wi', 'yabana', 'yana', 'yane', 'ye', 'zi'];
@@ -20,25 +20,15 @@ export default function southAfricanTowns() {
   const i = Math.floor(Math.random() * 10);
   {
     if (i < 2) {
-      rnd = Math.floor(Math.random() * nm1.length);
-      rnd2 = Math.floor(Math.random() * nm2.length);
-      names = nm1[rnd] + nm2[rnd2];
+      names = sample(nm1) + sample(nm2);
     } else if (i < 4) {
-      rnd = Math.floor(Math.random() * nm3.length);
-      rnd2 = Math.floor(Math.random() * nm4.length);
-      names = nm3[rnd] + nm4[rnd2];
+      names = sample(nm3) + sample(nm4);
     } else if (i < 6) {
-      rnd = Math.floor(Math.random() * nm5.length);
-      rnd2 = Math.floor(Math.random() * nm6.length);
-      names = nm5[rnd] + nm6[rnd2];
+      names = sample(nm5) + sample(nm6);
     } else if (i < 8) {
-      rnd = Math.floor(Math.random() * nm7.length);
-      rnd2 = Math.floor(Math.random() * nm8.length);
-      names = nm7[rnd] + nm8[rnd2];
+      names = sample(nm7) + sample(nm8);
     } else {
-      rnd = Math.floor(Math.random() * nm9.length);
-      rnd2 = Math.floor(Math.random() * nm10.length);
-      names = nm9[rnd] + nm10[rnd2];
+      names = sample(nm9) + sample(nm10);
     }
     return names;
   }

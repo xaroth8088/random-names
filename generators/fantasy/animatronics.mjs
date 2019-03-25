@@ -1,5 +1,6 @@
+import sample from 'lodash/sample';
+
 export default function animatronics() {
-  let rnd;
   let rnd2;
   let rnd3;
   let names;
@@ -178,15 +179,13 @@ export default function animatronics() {
   ];
   {
     if (type === 1) {
-      rnd = Math.floor(Math.random() * nm2.length);
-      rnd2 = Math.floor(Math.random() * nm2[rnd][0].length);
-      rnd3 = Math.floor(Math.random() * nm2[rnd][1].length);
-      names = `${nm2[rnd][0][rnd2]} ${nm2[rnd][1][rnd3]}`;
+      rnd2 = Math.floor(Math.random() * sample(nm2)[0].length);
+      rnd3 = Math.floor(Math.random() * sample(nm2)[1].length);
+      names = `${sample(nm2)[0][rnd2]} ${sample(nm2)[1][rnd3]}`;
     } else {
-      rnd = Math.floor(Math.random() * nm1.length);
-      rnd2 = Math.floor(Math.random() * nm1[rnd][0].length);
-      rnd3 = Math.floor(Math.random() * nm1[rnd][1].length);
-      names = `${nm1[rnd][0][rnd2]} ${nm1[rnd][1][rnd3]}`;
+      rnd2 = Math.floor(Math.random() * sample(nm1)[0].length);
+      rnd3 = Math.floor(Math.random() * sample(nm1)[1].length);
+      names = `${sample(nm1)[0][rnd2]} ${sample(nm1)[1][rnd3]}`;
     }
     return names;
   }

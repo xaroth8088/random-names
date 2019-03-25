@@ -1,3 +1,5 @@
+import sample from 'lodash/sample';
+
 export default function plots() {
   const nm1 = ['calm', 'carefree', 'casual', 'fast-paced', 'hectic', 'laid-back', 'nonchalant', 'normal', 'ordinary', 'peaceful', 'quiet', 'relaxed', 'rough', 'secluded', 'smooth', 'stable', 'stressful', 'unexciting'];
   const nm2 = ['teenage girl', 'young girl', 'woman', 'girl', 'elderly woman', 'man', 'boy', 'teenage boy', 'young guy', 'elderly man'];
@@ -12,24 +14,13 @@ export default function plots() {
   const nm11 = ['all this is an elaborate trap', 'the complete opposite is true', 'everything told is completely true', 'this is all far bigger than what has been told', 'the situation has changed or will change', 'there\'s a change of mind', 'this proposal is wrong or missing important details', 'the wrong person was picked for this', 'the situation is worse than it appears', 'somebody is orchestrating all of this'];
   const nm12 = ['be this important to the situation', 'be needed for a situation like this', 'be this lucky, or unlucky, depending on the turnout', 'end up in a situation like this', 'play a part in all this', 'come out of this situation in a better way', 'be helpful at all in this situation', 'figure out the truth in all of this', 'find out what\'s happening without help', 'be relied upon in something this big'];
   const nm13 = ['Time will tell', 'Only one way to find out', 'We\'re about to find out', 'No turning back now though', 'Time to find out', 'Either way, the choice has been made'];
-  const rnd1 = Math.floor(Math.random() * nm1.length);
   const rnd2 = Math.floor(Math.random() * nm2.length);
   if (rnd2 < 5) {
     nm5 = ' her ';
   }
-  const rnd3 = Math.floor(Math.random() * nm3.length);
-  const rnd4 = Math.floor(Math.random() * nm4.length);
-  const rnd6 = Math.floor(Math.random() * nm6.length);
-  const rnd7 = Math.floor(Math.random() * nm7.length);
-  const rnd8 = Math.floor(Math.random() * nm8.length);
-  const rnd9 = Math.floor(Math.random() * nm9.length);
-  const rnd10 = Math.floor(Math.random() * nm10.length);
-  const rnd11 = Math.floor(Math.random() * nm11.length);
-  const rnd12 = Math.floor(Math.random() * nm12.length);
-  const rnd13 = Math.floor(Math.random() * nm13.length);
-  const name = `The ${nm1[rnd1]} life of a ${nm2[rnd2]} ${nm3[rnd3]} as a ${nm4[rnd4]} enters ${nm5} life.`;
-  const name2 = `The ${nm4[rnd4]} claims the ${nm2[rnd2]} ${nm6[rnd6]}. ${nm7[rnd7]} this ${nm4[rnd4]}, the ${nm2[rnd2]} ${nm8[rnd8]} agrees to the proposal, ${nm9[rnd9]}.`;
-  const name3 = `But what if this ${nm4[rnd4]} ${nm10[rnd10]}. Or what if ${nm11[rnd11]}. How could an ordinary ${nm2[rnd2]} ${nm12[rnd12]}. ${nm13[rnd13]}.`;
+  const name = `The ${sample(nm1)} life of a ${sample(nm2)} ${sample(nm3)} as a ${sample(nm4)} enters ${nm5} life.`;
+  const name2 = `The ${sample(nm4)} claims the ${sample(nm2)} ${sample(nm6)}. ${sample(nm7)} this ${sample(nm4)}, the ${sample(nm2)} ${sample(nm8)} agrees to the proposal, ${sample(nm9)}.`;
+  const name3 = `But what if this ${sample(nm4)} ${sample(nm10)}. Or what if ${sample(nm11)}. How could an ordinary ${sample(nm2)} ${sample(nm12)}. ${sample(nm13)}.`;
   let result = '';
   result += name;
   result += '\n';

@@ -1,10 +1,7 @@
+import sample from 'lodash/sample';
+
 export default function nightElf() {
   let names;
-  let rnd;
-  let rnd2;
-  let rnd3;
-  let rnd7;
-  let rnd8;
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['A', 'A\'', 'Al', 'All', 'Aly', 'An', 'Am', 'As', 'Ay', 'Ar', 'Cy', 'Ca', 'E', 'E\'', 'El', 'Ely', 'Em', 'En', 'Er', 'Es', 'Ey', 'F', 'Fa', 'Fy', 'Fil', 'Fel', 'Fyl', 'Ga', 'Gal', 'Ha', 'He', 'Hy', 'I', 'Il', 'Ily', 'Ill', 'Iy', 'Ji', 'Ja', 'K', 'Ka', 'Ke', 'Ky', 'L', 'Lil', 'Lyl', 'Lel', 'La', 'Le', 'Ly', 'M', 'Ma', 'Me', 'My', 'Myt', 'Myth', 'Mor', 'Math', 'Mil', 'Myl', 'Mel', 'N', 'Na', 'Ne', 'Nyl', 'Nil', 'Nel', 'Nyt', 'Nyth', 'Ny', 'Re', 'Ra', 'Ry', 'S', 'Sa', 'Sil', 'Syl', 'Sel', 'Sh', 'Sha', 'She', 'Sy', 'Shyl', 'Th', 'Tha', 'The', 'Thel', 'Thyl', 'Thil', 'Thy', 'U', 'Uy', 'W', 'Wa', 'We', 'Y', 'Y\'', 'Ya', 'Ye', 'Yl', 'Yll'];
   const nm2 = ['al', 'el', 'en', 'an', 'ana', 'ena', 'aena', 'a', 'i', 'ren', 'ran', 'eth', 'ath', 'a', 'e', 'o', 'h', 'ha', 'he', 'ho', 'f', 'fa', 'fe', 'l', 'le', 'la', 'm', 'me', 'ma', 'ne', 'na', 'n', 's', 'sa', 'se', 've', 'va'];
@@ -16,26 +13,16 @@ export default function nightElf() {
   const nm8 = ['arrow', 'blade', 'bloom', 'blower', 'bough', 'bow', 'branch', 'breath', 'breeze', 'caller', 'cloud', 'clouds', 'crest', 'dancer', 'dew', 'eye', 'feather', 'fire', 'flower', 'forest', 'gazer', 'grove', 'heart', 'helm', 'lance', 'leaf', 'light', 'mane', 'might', 'moon', 'oak', 'rage', 'runner', 'scribe', 'seeker', 'shade', 'shadow', 'shot', 'singer', 'sky', 'snow', 'song', 'spear', 'spirit', 'spyre', 'stalker', 'star', 'strike', 'striker', 'swift', 'sword', 'thorn', 'tree', 'walker', 'watcher', 'water', 'weaver', 'whisper', 'wind', 'wing'];
   const i = Math.floor(Math.random() * 10);
   {
-    rnd7 = Math.floor(Math.random() * nm7.length);
-    rnd8 = Math.floor(Math.random() * nm8.length);
     if (type === 1) {
-      rnd = Math.floor(Math.random() * nm4.length);
-      rnd3 = Math.floor(Math.random() * nm6.length);
       if (i < 5) {
-        names = `${nm4[rnd] + nm6[rnd3]} ${nm7[rnd7]}${nm8[rnd8]}`;
+        names = `${sample(nm4) + sample(nm6)} ${sample(nm7)}${sample(nm8)}`;
       } else {
-        rnd2 = Math.floor(Math.random() * nm5.length);
-        names = `${nm4[rnd] + nm5[rnd2] + nm6[rnd3]} ${nm7[rnd7]}${nm8[rnd8]}`;
+        names = `${sample(nm4) + sample(nm5) + sample(nm6)} ${sample(nm7)}${sample(nm8)}`;
       }
+    } else if (i < 5) {
+      names = `${sample(nm1) + sample(nm3)} ${sample(nm7)}${sample(nm8)}`;
     } else {
-      rnd = Math.floor(Math.random() * nm1.length);
-      rnd3 = Math.floor(Math.random() * nm3.length);
-      if (i < 5) {
-        names = `${nm1[rnd] + nm3[rnd3]} ${nm7[rnd7]}${nm8[rnd8]}`;
-      } else {
-        rnd2 = Math.floor(Math.random() * nm2.length);
-        names = `${nm1[rnd] + nm2[rnd2] + nm3[rnd3]} ${nm7[rnd7]}${nm8[rnd8]}`;
-      }
+      names = `${sample(nm1) + sample(nm2) + sample(nm3)} ${sample(nm7)}${sample(nm8)}`;
     }
     return names;
   }

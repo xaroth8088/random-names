@@ -1,10 +1,7 @@
+import sample from 'lodash/sample';
+
 export default function goblin() {
   let names;
-  let rnd;
-  let rnd2;
-  let rnd3;
-  let rnd7;
-  let rnd8;
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['Ba', 'Bax', 'Dan', 'Fi', 'Fix', 'Fiz', 'Gi', 'Gix', 'Giz', 'Gri', 'Gree', 'Greex', 'Grex', 'Ja', 'Jax', 'Jaz', 'Jex', 'Ji', 'Jix', 'Ka', 'Kax', 'Kay', 'Kaz', 'Ki', 'Kix', 'Kiz', 'Klee', 'Kleex', 'Kwee', 'Kweex', 'Kwi', 'Kwix', 'Kwy', 'Ma', 'Max', 'Ni', 'Nix', 'No', 'Nox', 'Qi', 'Rez', 'Ri', 'Ril', 'Rix', 'Riz', 'Ro', 'Rox', 'So', 'Sox', 'Vish', 'Wi', 'Wix', 'Wiz', 'Za', 'Zax', 'Ze', 'Zee', 'Zeex', 'Zex', 'Zi', 'Zix', 'Zot'];
   const nm2 = ['b', 'ba', 'be', 'bi', 'd', 'da', 'de', 'di', 'e', 'eb', 'ed', 'eg', 'ek', 'em', 'en', 'eq', 'ev', 'ez', 'g', 'ga', 'ge', 'gi', 'ib', 'id', 'ig', 'ik', 'im', 'in', 'iq', 'iv', 'iz', 'k', 'ka', 'ke', 'ki', 'm', 'ma', 'me', 'mi', 'n', 'na', 'ni', 'q', 'qa', 'qe', 'qi', 'v', 'va', 've', 'vi', 'z', 'za', 'ze', 'zi', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', ''];
@@ -15,18 +12,10 @@ export default function goblin() {
   const nm7 = ['Bolt', 'Boom', 'Bot', 'Cog', 'Copper', 'Damp', 'Dead', 'Far', 'Fast', 'Fiz', 'Fizz', 'Fizzle', 'Fuse', 'Gear', 'Giga', 'Gold', 'Grapple', 'Grease', 'Greasy', 'Ground', 'Haggle', 'Hard', 'Knee', 'Leaf', 'Loose', 'Man', 'Mega', 'Money', 'Mud', 'Multi', 'Peddle', 'Pepper', 'Pick', 'Rocket', 'Rust', 'Salt', 'Salty', 'Sand', 'Scroll', 'Shadow', 'Sharp', 'Silver', 'Spark', 'Steam', 'Top', 'Wrench'];
   const nm8 = ['basher', 'blade', 'blast', 'blaster', 'bolt', 'bomb', 'boot', 'bottom', 'bub', 'button', 'buttons', 'cash', 'clamp', 'digger', 'feet', 'fingers', 'flare', 'fuel', 'fuse', 'gear', 'gleam', 'gob', 'grinder', 'grubber', 'hallow', 'hammer', 'head', 'knob', 'mine', 'nose', 'nozzle', 'pinch', 'pocket', 'pot', 'racket', 'rocket', 'screw', 'shatter', 'shiv', 'skimmer', 'snap', 'snipe', 'spark', 'sprocket', 'task', 'tongue', 'tooth', 'tweak', 'twister', 'volt', 'watts', 'well', 'wick', 'wizzle', 'wrench'];
   {
-    rnd7 = Math.floor(Math.random() * nm7.length);
-    rnd8 = Math.floor(Math.random() * nm8.length);
     if (type === 1) {
-      rnd = Math.floor(Math.random() * nm4.length);
-      rnd2 = Math.floor(Math.random() * nm5.length);
-      rnd3 = Math.floor(Math.random() * nm6.length);
-      names = `${nm4[rnd] + nm5[rnd2] + nm6[rnd3]} ${nm7[rnd7]}${nm8[rnd8]}`;
+      names = `${sample(nm4) + sample(nm5) + sample(nm6)} ${sample(nm7)}${sample(nm8)}`;
     } else {
-      rnd = Math.floor(Math.random() * nm1.length);
-      rnd2 = Math.floor(Math.random() * nm2.length);
-      rnd3 = Math.floor(Math.random() * nm3.length);
-      names = `${nm1[rnd] + nm2[rnd2] + nm3[rnd3]} ${nm7[rnd7]}${nm8[rnd8]}`;
+      names = `${sample(nm1) + sample(nm2) + sample(nm3)} ${sample(nm7)}${sample(nm8)}`;
     }
     return names;
   }

@@ -1,7 +1,7 @@
+import sample from 'lodash/sample';
+
 export default function tieflings() {
   let names;
-  let rnd;
-  let rnd2;
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['Aet', 'Ak', 'Am', 'Aran', 'And', 'Ar', 'Ark', 'Bar', 'Car', 'Cas', 'Dam', 'Dhar', 'Eb', 'Ek', 'Er', 'Gar', 'Gu', 'Gue', 'Hor', 'Ia', 'Ka', 'Kai', 'Kar', 'Kil', 'Kos', 'Ky', 'Loke', 'Mal', 'Male', 'Mav', 'Me', 'Mor', 'Neph', 'Oz', 'Ral', 'Re', 'Rol', 'Sal', 'Sha', 'Sir', 'Ska', 'The', 'Thy', 'Thyne', 'Ur', 'Uri', 'Val', 'Xar', 'Zar', 'Zer', 'Zher', 'Zor'];
   const nm2 = ['adius', 'akas', 'akos', 'char', 'cis', 'cius', 'dos', 'emon', 'ichar', 'il', 'ilius', 'ira', 'lech', 'lius', 'lyre', 'marir', 'menos', 'meros', 'mir', 'mong', 'mos', 'mus', 'non', 'rai', 'rakas', 'rakir', 'reus', 'rias', 'ris', 'rius', 'ron', 'ros', 'rus', 'rut', 'shoon', 'thor', 'thos', 'thus', 'us', 'venom', 'vir', 'vius', 'xes', 'xik', 'xikas', 'xire', 'xius', 'xus', 'zer', 'zire'];
@@ -12,20 +12,14 @@ export default function tieflings() {
   {
     if (type === 1) {
       if (i < 7) {
-        rnd = Math.floor(Math.random() * nm4.length);
-        rnd2 = Math.floor(Math.random() * nm5.length);
-        names = nm4[rnd] + nm5[rnd2];
+        names = sample(nm4) + sample(nm5);
       } else {
-        rnd = Math.floor(Math.random() * nm3.length);
-        names = nm3[rnd];
+        names = sample(nm3);
       }
     } else if (i < 7) {
-      rnd = Math.floor(Math.random() * nm1.length);
-      rnd2 = Math.floor(Math.random() * nm2.length);
-      names = nm1[rnd] + nm2[rnd2];
+      names = sample(nm1) + sample(nm2);
     } else {
-      rnd = Math.floor(Math.random() * nm3.length);
-      names = nm3[rnd];
+      names = sample(nm3);
     }
     return names;
   }

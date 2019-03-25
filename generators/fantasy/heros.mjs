@@ -1,8 +1,7 @@
+import sample from 'lodash/sample';
+
 export default function heros() {
   let names;
-  let rnd;
-  let rnd2;
-  let rnd3;
   const nm1 = ['The Accidental', 'The Ancient', 'The Aqua', 'The Awesome', 'The Black', 'The Blue', 'The Brass', 'The Brave', 'The Broad', 'The Broken', 'The Bronze', 'The Calm', 'The Clever', 'The Cold', 'The Colossal', 'The Confident', 'The Cool', 'The Copper', 'The Crimson', 'The Dapper', 'The Dark', 'The Defiant', 'The Dramatic', 'The Eager', 'The Earth', 'The Earthen', 'The Electric', 'The Electron', 'The Elegant', 'The Ethereal', 'The Fabulous', 'The Famous', 'The Fancy', 'The Fantastic', 'The Fast', 'The Fearless', 'The Fiery', 'The Fire', 'The Galactic', 'The Gentle', 'The Giant', 'The Gigantic', 'The Glorious', 'The Godly', 'The Golden', 'The Good', 'The Gorgeous', 'The Gray', 'The Green', 'The Heavenly', 'The Heavy', 'The Honorable', 'The Hot', 'The Huge', 'The Hypnotic', 'The Ice', 'The Impossible', 'The Incredible', 'The Infamous', 'The Intelligent', 'The Iron', 'The Jade', 'The Jolly', 'The Kind', 'The Light', 'The Long', 'The Lucky', 'The Macho', 'The Magical', 'The Magnificent', 'The Majestic', 'The Mammoth', 'The Marked', 'The Marvelous', 'The Merciful', 'The Mighty', 'The Misty', 'The Mysterious', 'The Nifty', 'The Nimble', 'The Nuclear', 'The Old', 'The Orange', 'The Outrageous', 'The Pink', 'The Proud', 'The Purple', 'The Quantum', 'The Quick', 'The Quiet', 'The Rapid', 'The Red', 'The Righteous', 'The Royal', 'The Scarlet', 'The Silver', 'The Smooth', 'The Spectacular', 'The Steel', 'The Storm', 'The Swift', 'The Terrific', 'The Thunder', 'The Vengeful', 'The Voiceless', 'The Wacky', 'The Water', 'The Whispering', 'The White', 'The Wise', 'The Yellow'];
   const nm2 = ['Robin', 'Owl', 'Vulture', 'Condor', 'Falcon', 'Merlin', 'Eagle', 'Hawk', 'Swan', 'Ibis', 'Crane', 'Snipe', 'Macaw', 'Amazon', 'Nighthawk', 'Nightowl', 'Monarch', 'Lord', 'Crow', 'Raven', 'Swallow', 'Starling', 'Sparrow', 'Ant', 'Antman', 'Wasp', 'Phoenix', 'Waspman', 'Grasshopper', 'Cricket', 'Beetle', 'Assassin', 'Mantis', 'Mothman', 'Moth', 'Termite', 'Dragonfly', 'Elephantman', 'Wolf', 'Wolfman', 'Bat', 'Rhino', 'Rhinoceros', 'Cat', 'Catman', 'Lynx', 'Gorilla', 'Leopard', 'Armadillo', 'Bear', 'Tiger', 'Lion', 'Fox', 'Raccoon', 'Ox', 'Oxman', 'Puma', 'Panther', 'Wolverine', 'Cheetah', 'Mongoose', 'Jackal', 'Hornet', 'Warrior', 'Fighter', 'Angel', 'Devil', 'Guardian', 'Protector', 'Champion', 'Defender', 'Saviour', 'Guard', 'Watcher', 'Slayer', 'Killer', 'Soldier', 'Marksman', 'Sniper', 'Commando', 'Gunner', 'Mercenary', 'Scout', 'Veteran', 'Sentinel', 'Shepherd', 'Warden', 'Keeper', 'Watchman', 'Magician', 'Charmer', 'Conjurer', 'Enchanter', 'Genius', 'Illusionist', 'Prophet', 'Seer', 'Shaman', 'Siren', 'Wizard', 'Mage', 'Master', 'Mastermind', 'Prodigy', 'Sage', 'Wonder', 'Wonderman', 'Whiz', 'Spectacle', 'Duke', 'Baron', 'Prince', 'Shield', 'Sword', 'Dagger', 'Trident', 'Knuckles', 'Daggers', 'Swordsman', 'Scimitar', 'Katana', 'Axeman', 'Scepter', 'Hammer', 'Gladiator', 'Shadow', 'Shade', 'Gloom', 'Spy', 'Agent', 'Detective', 'Mole', 'Leader', 'Vindicator', 'Captain', 'Chief', 'Doctor', 'General', 'Smasher', 'Spirit', 'Scorpion', 'Spider'];
   const nm3 = ['Doctor', 'Captain', 'Doctor', 'Captain', 'Lord', 'Professor', 'Professor', 'Mister', 'Commander', 'Master', 'Agent', 'Master', 'Agent', 'Chief', 'Warden', '', '', '', '', '', '', '', '', '', '', ''];
@@ -12,17 +11,11 @@ export default function heros() {
   const i = Math.floor(Math.random() * 10);
   {
     if (i < 4) {
-      rnd = Math.floor(Math.random() * nm1.length);
-      rnd2 = Math.floor(Math.random() * nm2.length);
-      names = `${nm1[rnd]} ${nm2[rnd2]}`;
+      names = `${sample(nm1)} ${sample(nm2)}`;
     } else if (i < 8) {
-      rnd = Math.floor(Math.random() * nm3.length);
-      rnd2 = Math.floor(Math.random() * nm4.length);
-      rnd3 = Math.floor(Math.random() * nm5.length);
-      names = `${nm3[rnd]} ${nm4[rnd2]} ${nm5[rnd3]}`;
+      names = `${sample(nm3)} ${sample(nm4)} ${sample(nm5)}`;
     } else {
-      rnd = Math.floor(Math.random() * nm6.length);
-      names = nm6[rnd];
+      names = sample(nm6);
     }
     return names;
   }

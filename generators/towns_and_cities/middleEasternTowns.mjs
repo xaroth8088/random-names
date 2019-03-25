@@ -1,7 +1,7 @@
+import sample from 'lodash/sample';
+
 export default function middleEasternTowns() {
   let names;
-  let rnd;
-  let rnd2;
   // Turkey
   const nm1 = ['Çaki', 'Çana', 'Çari', 'Çayi', 'Çeri', 'Çuku', 'Abdi', 'Abi', 'Aca', 'Ada', 'Aga', 'Agi', 'Agla', 'Ahi', 'Akça', 'Akda', 'Akpa', 'Akte', 'Alpa', 'Alti', 'Ata', 'Ava', 'Bade', 'Baga', 'Bahçe', 'Baka', 'Bayi', 'Bege', 'Boga', 'Boya', 'Bula', 'Dala', 'Dede', 'Deni', 'Didi', 'Diki', 'Doga', 'Duro', 'Elma', 'Espi', 'Fela', 'Findi', 'Göko', 'Göne', 'Göre', 'Gümü', 'Güze', 'Gele', 'Gere', 'Geyi', 'Haci', 'Hasa', 'Here', 'Huzu', 'Ili', 'Ine', 'Inhi', 'Kagi', 'Kala', 'Kama', 'Kara', 'Kaya', 'Kema', 'Keme', 'Kiri', 'Kizi', 'Koca', 'Konu', 'Kuma', 'Kusa', 'Lima', 'Mahmu', 'Malka', 'Marma', 'Meci', 'Mehme', 'Mursa', 'Nebio', 'Nurha', 'Nusa', 'Olu', 'Omu', 'Orha', 'Osma', 'Ova', 'Pasi', 'Paya', 'Paza', 'Peli', 'Pina', 'Pira', 'Sala', 'Samsa', 'Sari', 'Sebi', 'Seli', 'Seri', 'Siri', 'Sivri', 'Sogu'];
   const nm2 = ['çören', 'çoban', 'çulha', 'bagi', 'bey', 'bolu', 'borlu', 'ca', 'calar', 'celi', 'cevaz', 'dere', 'gaç', 'gbasi', 'gmus', 'gzi', 'hisar', 'ka', 'kapi', 'kaya', 'kent', 'kese', 'khan', 'kiraz', 'kisla', 'kle', 'kli', 'koca', 'koyun', 'koyunlu', 'ler', 'li', 'lica', 'lkan', 'llar', 'lpasa', 'luk', 'madeni', 'me', 'mit', 'mli', 'nözü', 'nüzüm', 'naga', 'nar', 'nbey', 'nbeyli', 'ncali', 'ncik', 'ndi', 'ndik', 'ndira', 'ndost', 'nekin', 'ngazi', 'nhisar', 'nkaya', 'nkum', 'nkuyu', 'nlik', 'noluk', 'npasa', 'pasa', 'pinari', 'rasi', 'rdi', 'rdir', 'rhan', 'rhisar', 'rlar', 'rly', 'rmuslu', 'rnas', 'rsamba', 'salih', 'san', 'sar', 'saray', 'si', 'sil', 'sler', 'sli', 'slu', 'sova', 'ssu', 'sun', 'talan', 'tlar', 'tlu', 'tpasa', 'ttin', 'turak', 'va', 'veli', 'yayla', 'yeri', 'yuva', 'züyük', 'zar', 'zdere', 'zkale'];
@@ -26,33 +26,19 @@ export default function middleEasternTowns() {
   const i = Math.floor(Math.random() * 14);
   {
     if (i < 2) {
-      rnd = Math.floor(Math.random() * nm1.length);
-      rnd2 = Math.floor(Math.random() * nm2.length);
-      names = nm1[rnd] + nm2[rnd2];
+      names = sample(nm1) + sample(nm2);
     } else if (i < 4) {
-      rnd = Math.floor(Math.random() * nm3.length);
-      rnd2 = Math.floor(Math.random() * nm4.length);
-      names = nm3[rnd] + nm4[rnd2];
+      names = sample(nm3) + sample(nm4);
     } else if (i < 6) {
-      rnd = Math.floor(Math.random() * nm5.length);
-      rnd2 = Math.floor(Math.random() * nm6.length);
-      names = nm5[rnd] + nm6[rnd2];
+      names = sample(nm5) + sample(nm6);
     } else if (i < 8) {
-      rnd = Math.floor(Math.random() * nm7.length);
-      rnd2 = Math.floor(Math.random() * nm8.length);
-      names = nm7[rnd] + nm8[rnd2];
+      names = sample(nm7) + sample(nm8);
     } else if (i < 10) {
-      rnd = Math.floor(Math.random() * nm9.length);
-      rnd2 = Math.floor(Math.random() * nm10.length);
-      names = nm9[rnd] + nm10[rnd2];
+      names = sample(nm9) + sample(nm10);
     } else if (i < 12) {
-      rnd = Math.floor(Math.random() * nm11.length);
-      rnd2 = Math.floor(Math.random() * nm12.length);
-      names = nm11[rnd] + nm12[rnd2];
+      names = sample(nm11) + sample(nm12);
     } else {
-      rnd = Math.floor(Math.random() * nm13.length);
-      rnd2 = Math.floor(Math.random() * nm14.length);
-      names = nm13[rnd] + nm14[rnd2];
+      names = sample(nm13) + sample(nm14);
     }
     return names;
   }

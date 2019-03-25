@@ -1,8 +1,7 @@
+import sample from 'lodash/sample';
+
 export default function monsters() {
   let names;
-  let rnd;
-  let rnd2;
-  let rnd3;
   const nm1 = ['Acidic', 'Active', 'Aged', 'Agile', 'Agitated', 'Ancient', 'Angry', 'Anguished', 'Arctic', 'Arid', 'Aromatic', 'Awful', 'Barren', 'Bewitched', 'Big Bad', 'Bitter', 'Black', 'Bleak', 'Blind', 'Blissful', 'Blue', 'Bold', 'Broken', 'Bronze', 'Brown', 'Bruised', 'Calm', 'Canine', 'Cloudy', 'Cold', 'Colossal', 'Corrupt', 'Crazy', 'Creepy', 'Cruel', 'Dangerous', 'Dark', 'Dead', 'Deadly', 'Defiant', 'Delirious', 'Dirty', 'Disfigured', 'Disgusting', 'Dismal', 'Dreary', 'Electric', 'Empty', 'Enraged', 'Eternal', 'Evil', 'Faint', 'False', 'Feline', 'Fickle', 'Filthy', 'Forsaken', 'Giant', 'Gray', 'Greedy', 'Grim', 'Gross', 'Grotesque', 'Gruesome', 'Grumpy', 'Hairy', 'Half', 'Haunting', 'Hidden', 'Hollow', 'Horrible', 'Hungry', 'Icy', 'Infamous', 'Insane', 'Insidious', 'Jagged', 'Lanky', 'Lean', 'Living', 'Lone', 'Lonely', 'Mad', 'Meager', 'Mean', 'Monstrous', 'Muted', 'Nasty', 'Needy', 'Noxious', 'Outlandish', 'Parallel', 'Putrid', 'Quick', 'Quiet', 'Reckless', 'Rotten', 'Shady', 'Sick', 'Skeletal', 'Tall', 'Thin', 'Twin', 'Ugly', 'Undead', 'Vengeful', 'Volatile', 'White', 'Wild', 'Wretched'];
   const nm2 = ['Man', 'Woman', 'Child', 'Mutant', 'Abomination', 'Glob', 'Monster', 'Behemoth', 'Beast', 'Freak', 'Horror', 'Fiend', 'Abnormality', 'Brute', 'Miscreation', 'Monstrosity', 'Savage', 'Deformity', 'Deviation', 'Anomaly', 'Weirdo', 'Abortion', 'Malformation', 'Blob', 'Lump', 'Bulge', 'Tumor', 'Creature', 'Critter', 'Vermin', 'Being', 'Thing', 'Revenant', 'Keeper', 'Guardian', 'Witch', 'Troglodyte', 'Charmer', 'Vine', 'Tree', 'Plant', 'Howler', 'Statue', 'Vision', 'Dweller', 'Lich', 'Pest', 'Gnoll', 'Ooze', 'Hag', 'Hunter', 'Entity', 'Phenomenon', 'Body', 'Figure', 'Presence', 'Corpse', 'Demon', 'Wraith', 'Herder', 'Mongrel', 'Hybrid', 'Mutt', 'Teeth', 'Eyes', 'Face', 'Screamer', 'Howler', 'Shrieker', 'Wailer', 'Babbler', 'Mumbler', 'Creeper'];
   const nm3 = ['Abyss', 'Acid', 'Ash', 'Aura', 'Bane', 'Barb', 'Blade', 'Blaze', 'Blight', 'Bone', 'Boulder', 'Bowel', 'Brine', 'Cave', 'Cavern', 'Chaos', 'Cinder', 'Cloud', 'Coffin', 'Corpse', 'Crypt', 'Curse', 'Dawn', 'Decay', 'Doom', 'Dread', 'Dream', 'Dusk', 'Dust', 'Ember', 'Fetid', 'Flame', 'Fog', 'Foul', 'Fright', 'Frost', 'Gall', 'Gas', 'Germ', 'Gloom', 'Glow', 'Grave', 'Grieve', 'Grime', 'Gut', 'Haunt', 'Hell', 'Hollow', 'Horror', 'Infernal', 'Inferno', 'Metal', 'Mist', 'Mold', 'Morn', 'Mourn', 'Murk', 'Nether', 'Night', 'Phantom', 'Phase', 'Plague', 'Poison', 'Putrid', 'Razor', 'Rot', 'Rotting', 'Rust', 'Shade', 'Shadow', 'Slag', 'Smog', 'Smoke', 'Soil', 'Sorrow', 'Soul', 'Spectral', 'Spirit', 'Spite', 'Steam', 'Stench', 'Stink', 'Stone', 'Taint', 'Tangle', 'Terror', 'Thorn', 'Thunder', 'Tomb', 'Toxin', 'Trance', 'Umbra', 'Vamp', 'Vapor', 'Venom', 'Vex', 'Vile', 'Voodoo', 'Vortex', 'Warp', 'Web', 'Wisp'];
@@ -13,18 +12,11 @@ export default function monsters() {
   const i = Math.floor(Math.random() * 10);
   {
     if (i < 4) {
-      rnd = Math.floor(Math.random() * nm3.length);
-      rnd2 = Math.floor(Math.random() * nm4.length);
-      names = nm3[rnd] + nm4[rnd2];
+      names = sample(nm3) + sample(nm4);
     } else if (i < 7) {
-      rnd = Math.floor(Math.random() * nm1.length);
-      rnd2 = Math.floor(Math.random() * nm2.length);
-      names = `The ${nm1[rnd]} ${nm2[rnd2]}`;
+      names = `The ${sample(nm1)} ${sample(nm2)}`;
     } else {
-      rnd = Math.floor(Math.random() * nm5.length);
-      rnd2 = Math.floor(Math.random() * nm6.length);
-      rnd3 = Math.floor(Math.random() * nm7.length);
-      names = `The ${nm5[rnd]} ${nm6[rnd2]} ${nm7[rnd3]}`;
+      names = `The ${sample(nm5)} ${sample(nm6)} ${sample(nm7)}`;
     }
     return names;
   }

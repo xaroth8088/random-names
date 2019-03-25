@@ -1,8 +1,7 @@
+import sample from 'lodash/sample';
+
 export default function vietnameses() {
   let names;
-  let rnd;
-  let rnd1;
-  let rnd2;
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['Au', 'Ba', 'Banh', 'Bi', 'Bien', 'Bo', 'Bui', 'Cam', 'Can', 'Cao', 'Chan', 'Chau', 'Che', 'Chiem', 'Chu', 'Chung', 'Chuong', 'Co', 'Cong', 'Dai', 'Dam', 'Dan', 'Dang', 'Danh', 'Dao', 'Dau', 'Diep', 'Dieu', 'Dinh', 'Dinn', 'Do', 'Doan', 'Don', 'Dong', 'Du', 'Dung', 'Duong', 'Giang', 'Ha', 'Hai', 'Han', 'Hang', 'Hau', 'Ho', 'Hoang', 'Hua', 'Hue', 'Huynh', 'Hy', 'Kha', 'Khong', 'Khuu', 'Kien', 'Kieu', 'Kim', 'Ky', 'La', 'Lac', 'Lai', 'Lam', 'Lang', 'Lavan', 'Le', 'Lien', 'Lieu', 'Lo', 'Loi', 'Luc', 'Luong', 'Luu', 'Ly', 'Ma', 'Mac', 'Mach', 'Mai', 'Minh', 'Nghiem', 'Ngo', 'Ngu', 'Nguy', 'Nguyen', 'Nhan', 'Nzuyen', 'On', 'Ong', 'Pham', 'Phan', 'Phang', 'Phong', 'Phu', 'Phung', 'Phuong', 'Quach', 'Quang', 'Quyen', 'Sai', 'Su', 'Ta', 'Tang', 'Tat', 'Thach', 'Thai', 'Tham', 'Than', 'Thang', 'Thanh', 'Thao', 'Thi', 'Thong', 'Thuy', 'Tian', 'Tien', 'Tieu', 'To', 'Ton', 'Trach', 'Tram', 'Tran', 'Trang', 'Tri', 'Trieu', 'Trinh', 'Tron', 'Troung', 'Truong', 'Tu', 'Tuan', 'Ty', 'Van', 'Vang', 'Vien', 'Vinh', 'Vo', 'Vong', 'Voong', 'Vu', 'Vuong', 'Vuu'];
   const nm2 = ['Van', 'Huu', 'Duc', 'Dinh', 'Xuan', 'Ngoc', 'Quang', 'Cong', 'Manh', 'Trong', 'Qui', '', '', ''];
@@ -10,15 +9,10 @@ export default function vietnameses() {
   const nm4 = ['Thi', ''];
   const nm5 = ['Ai', 'An', 'Anh', 'Be', 'Bian', 'Bich', 'Binh', 'Cam', 'Canh', 'Chau', 'Chi', 'Dao', 'Diep', 'Diu', 'Doan Vien', 'Dong', 'Giang ', 'Ha', 'Hai', 'Han', 'Hang', 'Hanh Phuc', 'Hien', 'Hoa', 'Hong', 'Hong Hanh', 'Hong Yen', 'Hue', 'Hung', 'Huong ', 'Huyen', 'Hyunh', 'Ket Nien', 'Khanh', 'Kieu', 'Kim', 'Kim Cuc', 'Kim-Ly', 'Lam', 'Lan', 'Lang', 'Lanh', 'Le', 'Le ', 'Lien', 'Lieu', 'Linh', 'Loan', 'Mai', 'My', 'Nam Ha', 'Ngoc', 'Ngoc Bich', 'Ngu', 'Ngu ', 'Nguyet', 'Nhu', 'Nhung', 'Nu ', 'Phuong', 'Quy', 'Quyen', 'Sang', 'Suong', 'Tam', 'Tan', 'Tham', 'Thanh', 'Thanh Ha', 'Thao', 'Thi', 'Thi ', 'Thien ', 'Thom', 'Thu', 'Thuy', 'Tien', 'Trinh', 'Truc', 'Tuyen', 'Tuyet', 'Uoc', 'Van', 'Viet', 'Xuan', 'Yen'];
   {
-    rnd1 = Math.floor(Math.random() * nm1.length);
     if (type === 1) {
-      rnd = Math.floor(Math.random() * nm4.length);
-      rnd2 = Math.floor(Math.random() * nm5.length);
-      names = `${nm1[rnd1]} ${nm4[rnd]} ${nm5[rnd2]}`;
+      names = `${sample(nm1)} ${sample(nm4)} ${sample(nm5)}`;
     } else {
-      rnd = Math.floor(Math.random() * nm2.length);
-      rnd2 = Math.floor(Math.random() * nm3.length);
-      names = `${nm1[rnd1]} ${nm2[rnd]} ${nm3[rnd2]}`;
+      names = `${sample(nm1)} ${sample(nm2)} ${sample(nm3)}`;
     }
     return names;
   }

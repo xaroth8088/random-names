@@ -1,8 +1,7 @@
+import sample from 'lodash/sample';
+
 export default function daleks() {
   let names;
-  let rnd;
-  let rnd2;
-  let rnd3;
   const nm1 = ['C', 'Ch', 'D', 'Dh', 'G', 'Gh', 'K', 'Kh', 'R', 'S', 'Th', 'V'];
   const nm2 = ['a', 'aa', 'e', 'a', 'e', 'a', 'e', 'i', 'o'];
   const nm3 = ['c', 'd', 'k', 'm', 'n', 'r', 's', 'ss', 'st', 't', 'th', 'y'];
@@ -15,10 +14,7 @@ export default function daleks() {
         names = 'Just kidding. :) Enjoy this Easter egg.';
       }
     } else {
-      rnd = Math.floor(Math.random() * nm1.length);
-      rnd2 = Math.floor(Math.random() * nm2.length);
-      rnd3 = Math.floor(Math.random() * nm3.length);
-      names = nm1[rnd] + nm2[rnd2] + nm3[rnd3];
+      names = sample(nm1) + sample(nm2) + sample(nm3);
     }
     return names;
   }

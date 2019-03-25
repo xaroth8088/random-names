@@ -1,10 +1,8 @@
+import sample from 'lodash/sample';
+
 export default function imperials() {
   let names;
   let lName;
-  let rnd;
-  let rnd2;
-  let rnd5;
-  let rnd6;
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['Aci', 'Ada', 'Ado', 'Adri', 'Adve', 'Aebo', 'Aeri', 'Afe', 'Agri', 'Albe', 'Ale', 'Alli', 'Alo', 'Ama', 'Ami', 'Amie', 'Ammi', 'Ancu', 'Anto', 'Ape', 'Aqu', 'Aqui', 'Are', 'Ari', 'Ariu', 'Arlo', 'Arri', 'Asti', 'Atte', 'Aude', 'Augu', 'Auni', 'Ave', 'Baco', 'Baro', 'Benu', 'Bre', 'Bri', 'Brie', 'Bro', 'Bru', 'Cai', 'Caiu', 'Cali', 'Capi', 'Cari', 'Caro', 'Cavo', 'Cha', 'Chae', 'Cice', 'Cidi', 'Cla', 'Clau', 'Cle', 'Cli', 'Coci', 'Codu', 'Coi', 'Cra', 'Cre', 'Cro', 'Cru', 'Cuni', 'Cyro', 'Danu', 'Dari', 'Dece', 'Decu', 'Dene', 'Depu', 'Desi', 'Dexi', 'Dio', 'Dra', 'Dru', 'Duni', 'Duru', 'Duvi', 'Dyu', 'Edu', 'Edua', 'Enno', 'Erti', 'Fadu', 'Fagu', 'Flo', 'Fra', 'Fri', 'Furi', 'Gai', 'Gaiu', 'Geme', 'Geri', 'Gia', 'Gio', 'Gla', 'Gle', 'Gra', 'Gre', 'Gua', 'Hade', 'Here', 'Hie', 'Humi', 'Igna', 'Ila', 'Ildo', 'Ile', 'Ilno', 'Imu', 'Ini', 'Inie', 'Iniu', 'Ira', 'Irla', 'Iti', 'Itiu', 'Iulu', 'Janu', 'Jara', 'Jiro', 'Jonu', 'Joo', 'Lari', 'Leo', 'Lere', 'Levu', 'Linu', 'Lio', 'Luca', 'Luci', 'Luri', 'Luve', 'Mali', 'Mani', 'Mari', 'Maro', 'Matu', 'Meci', 'Melu', 'Meni', 'Meti', 'Mile', 'Mini', 'Mori', 'Muru', 'Nama', 'Nata', 'Nigi', 'Nolu', 'Olvu', 'Ontu', 'Ori', 'Orme', 'Oti', 'Otiu', 'Para', 'Pavo', 'Pela', 'Peli', 'Pilu', 'Pina', 'Pla', 'Plau', 'Pli', 'Pri', 'Pro', 'Que', 'Qui', 'Rami', 'Rebe', 'Rebu', 'Regu', 'Rema', 'Rexu', 'Rie', 'Rima', 'Rode', 'Roga', 'Roli', 'Rufi', 'Sabi', 'Sae', 'Samu', 'Sau', 'Sce', 'Segu', 'Seli', 'Seni', 'Seve', 'Sila', 'Sili', 'Silu', 'Siro', 'Siti', 'Somu', 'Sore', 'Sta', 'Ste', 'Stlu', 'Stri', 'Suli', 'Suri', 'Suru', 'Taci', 'Tase', 'Tasi', 'Tau', 'Teo', 'Tere', 'The', 'Theo', 'Tice', 'Tie', 'Tini', 'Titu', 'Tou', 'Tre', 'Ture', 'Tyra', 'Tyre', 'Tyro', 'Uri', 'Urie', 'Vala', 'Valu', 'Vari', 'Varu', 'Vase', 'Vela', 'Velu', 'Vena', 'Veru', 'Via', 'Vira', 'Vite', 'Vla', 'Vodu', 'Zeno'];
   const nm2 = ['Acil', 'Adam', 'Adon', 'Adr', 'Adv', 'Aeb', 'Aer', 'Afer', 'Agr', 'Alb', 'Alet', 'All', 'Aloy', 'Aman', 'Amm', 'Anc', 'And', 'Andr', 'Ant', 'Apel', 'Arc', 'Arct', 'Aren', 'Arl', 'Arr', 'Ash', 'Asht', 'Ast', 'Att', 'Aud', 'Aug', 'Aun', 'Aven', 'Bac', 'Bar', 'Bas', 'Bass', 'Basz', 'Ben', 'Bend', 'Bet', 'Bett', 'Brem', 'Brot', 'Bruc', 'Brus', 'Bur', 'Burc', 'Cac', 'Cacc', 'Cal', 'Calv', 'Can', 'Canc', 'Cap', 'Car', 'Carm', 'Carn', 'Cart', 'Cas', 'Cass', 'Cast', 'Cav', 'Cic', 'Cid', 'Cim', 'Cimb', 'Clag', 'Clas', 'Clec', 'Clib', 'Coc', 'Cod', 'Coir', 'Col', 'Coll', 'Con', 'Cons', 'Cont', 'Cor', 'Corp', 'Corr', 'Corv', 'Cos', 'Cosm', 'Cras', 'Cres', 'Crot', 'Crul', 'Cun', 'Cyr', 'Dan', 'Dar', 'Dec', 'Den', 'Deny', 'Dep', 'Des', 'Dex', 'Dion', 'Dir', 'Dirg', 'Dran', 'Drus', 'Dun', 'Dur', 'Duv', 'Dyus', 'Enn', 'Ert', 'Esd', 'Esdr', 'Fad', 'Fag', 'Fal', 'Falc', 'Falx', 'Fan', 'Fand', 'Flor', 'For', 'Fort', 'Fral', 'Frin', 'Fur', 'Gal', 'Gall', 'Galt', 'Gan', 'Ganc', 'Gar', 'Garr', 'Gav', 'Gavr', 'Gel', 'Gell', 'Gem', 'Ger', 'Gerg', 'Gian', 'Giov', 'Glab', 'Glal', 'Glen', 'Gran', 'Grat', 'Greg', 'Gual', 'Had', 'Has', 'Hasp', 'Hel', 'Helv', 'Her', 'Herd', 'Hier', 'Hir', 'Hirr', 'Hum', 'Ign', 'Ilav', 'Ild', 'Ilen', 'Iln', 'Imus', 'Irat', 'Irl', 'Iul', 'Jak', 'Jan', 'Jar', 'Jir', 'Jiv', 'Joh', 'John', 'Jon', 'Joof', 'Kan', 'Kant', 'Kas', 'Kasl', 'Kast', 'Lan', 'Lang', 'Lar', 'Larr', 'Lay', 'Layt', 'Leon', 'Ler', 'Let', 'Letr', 'Lev', 'Ley', 'Lin', 'Liod', 'Lor', 'Lorg', 'Luc', 'Lucr', 'Lur', 'Lus', 'Lusp', 'Lut', 'Luth', 'Luv', 'Mal', 'Mall', 'Malp', 'Man', 'Mar', 'Marc', 'Mars', 'Mart', 'Mas', 'Masq', 'Mat', 'Matt', 'Mec', 'Mel', 'Men', 'Mer', 'Merc', 'Met', 'Mil', 'Min', 'Mol', 'Molv', 'Mor', 'Mur', 'Murb', 'Mus', 'Nam', 'Nas', 'Nasp', 'Nat', 'Natc', 'Ner', 'Nerm', 'Nig', 'Nir', 'Nirt', 'Nit', 'Nitt', 'Nol', 'Nos', 'Nost', 'Olv', 'Ont', 'Orit', 'Orm', 'Ort', 'Orth', 'Par', 'Pav', 'Pel', 'Pen', 'Penn', 'Per', 'Perc', 'Pil', 'Pilp', 'Pin', 'Plit', 'Prim', 'Proc', 'Prov', 'Pus', 'Pust', 'Quen', 'Quin', 'Ral', 'Rall', 'Ram', 'Rax', 'Raxl', 'Reb', 'Reg', 'Regl', 'Rel', 'Rell', 'Rem', 'Rex', 'Riel', 'Rim', 'Ris', 'Rod', 'Rog', 'Rol', 'Ruf', 'Rufr', 'Sab', 'Saen', 'Sal', 'Salv', 'Sam', 'Sap', 'Sapr', 'Saul', 'Sav', 'Savl', 'Scel', 'Seg', 'Sel', 'Sell', 'Sen', 'Sep', 'Sept', 'Ser', 'Serg', 'Serv', 'Sev', 'Sil', 'Sir', 'Sit', 'Som', 'Sor', 'Stan', 'Stef', 'Sten', 'Stl', 'Str', 'Sul', 'Sull', 'Sur', 'Syn', 'Synn', 'Tac', 'Tah', 'Tahm', 'Tap', 'Tapp', 'Tas', 'Taur', 'Tel', 'Telr', 'Ter', 'Tert', 'Tic', 'Tien', 'Tin', 'Tit', 'Tout', 'Treb', 'Tren', 'Tul', 'Tull', 'Tur', 'Tyr', 'Val', 'Valg', 'Valv', 'Van', 'Vand', 'Vant', 'Var', 'Varn', 'Vas', 'Vel', 'Velw', 'Ven', 'Ver', 'Vert', 'Viat', 'Vin', 'Vinn', 'Vir', 'Vit', 'Vlan', 'Vlar', 'Vod', 'Von', 'Vont', 'Wul', 'Wulf', 'Xan', 'Xand', 'Zed', 'Zedr', 'Zen'];
@@ -18,26 +16,16 @@ export default function imperials() {
   const nm12 = ['abolis', 'acia', 'ad', 'ades', 'adia', 'aennius', 'agan', 'agia', 'agrius', 'ain', 'al', 'ale', 'alian', 'alius', 'an', 'ana', 'ance', 'and', 'anian', 'anis', 'anius', 'annus', 'anox', 'ant', 'anus', 'ar', 'arel', 'aria', 'arian', 'ario', 'arnian', 'arus', 'aso', 'assius', 'ata', 'atius', 'ectus', 'ecus', 'edius', 'eia', 'eim', 'eius', 'el', 'eld', 'elia', 'elian', 'elius', 'elli', 'ellia', 'ellian', 'elliun', 'ellius', 'ello', 'ellus', 'ely', 'en', 'ena', 'enagus', 'engius', 'enix', 'ennia', 'ennius', 'enshield', 'entanus', 'entia', 'entius', 'enus', 'er', 'eria', 'erius', 'es', 'esius', 'estrake', 'ette', 'eus', 'evelus', 'evius', 'evus', 'ey', 'ia', 'ian', 'iand', 'iant', 'ianus', 'iatius', 'ibonia', 'icci', 'ich', 'icia', 'ician', 'icius', 'ick', 'id', 'idenius', 'idia', 'idicus', 'idius', 'idus', 'iel', 'ienus', 'ifus', 'ilchiotus', 'ildor', 'ilia', 'ilius', 'illin', 'illius', 'im', 'imius', 'imus', 'in', 'ina', 'inia', 'inius', 'innius', 'ino', 'inus', 'io', 'ione', 'iosus', 'iotus', 'ipter', 'irus', 'is', 'issaeia', 'itian', 'iulus', 'ium', 'ius', 'iusus', 'ocius', 'odius', 'ol', 'ollius', 'on', 'one', 'onia', 'onicus', 'onius', 'onus', 'orel', 'ori', 'oria', 'orius', 'orman', 'otepelus', 'otis', 'otus', 'uceius', 'ucia', 'udilius', 'ugrius', 'uius', 'uleius', 'uliulus', 'ullus', 'ulus', 'ulusus', 'umnus', 'unceia', 'unia', 'ureius', 'us', 'useius', 'usiso', 'usius', 'ustiris', 'ustius', 'usus', 'uttian'];
   const i = Math.floor(Math.random() * 10);
   if (i % 2 === 0) {
-    rnd5 = Math.floor(Math.random() * nm9.length);
-    rnd6 = Math.floor(Math.random() * nm11.length);
-    lName = ` ${nm9[rnd5]}${nm11[rnd6]}`;
+    lName = ` ${sample(nm9)}${sample(nm11)}`;
   } else {
-    rnd5 = Math.floor(Math.random() * nm10.length);
-    rnd6 = Math.floor(Math.random() * nm12.length);
-    lName = ` ${nm10[rnd5]}${nm12[rnd6]}`;
+    lName = ` ${sample(nm10)}${sample(nm12)}`;
   }
   if (type === 1) {
-    rnd = Math.floor(Math.random() * nm5.length);
-    rnd2 = Math.floor(Math.random() * nm7.length);
-    names = nm5[rnd] + nm7[rnd2] + lName;
+    names = sample(nm5) + sample(nm7) + lName;
   } else if (i % 2 !== 0) {
-    rnd = Math.floor(Math.random() * nm1.length);
-    rnd2 = Math.floor(Math.random() * nm3.length);
-    names = nm1[rnd] + nm3[rnd2] + lName;
+    names = sample(nm1) + sample(nm3) + lName;
   } else {
-    rnd = Math.floor(Math.random() * nm2.length);
-    rnd2 = Math.floor(Math.random() * nm4.length);
-    names = nm2[rnd] + nm4[rnd2] + lName;
+    names = sample(nm2) + sample(nm4) + lName;
   }
   return names;
 }

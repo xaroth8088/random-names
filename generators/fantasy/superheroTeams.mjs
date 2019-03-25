@@ -1,3 +1,5 @@
+import sample from 'lodash/sample';
+
 export default function superheroTeams() {
   let names;
   let rnd;
@@ -9,12 +11,12 @@ export default function superheroTeams() {
   {
     if (i < 5) {
       rnd = Math.floor(Math.random() * nm3.length);
-      names = `The ${nm3[rnd]}`;
+      names = `The ${sample(nm3)}`;
       nm3.splice(rnd, 1);
     } else {
       rnd = Math.floor(Math.random() * nm1.length);
       rnd2 = Math.floor(Math.random() * nm2.length);
-      names = `The ${nm1[rnd]} ${nm2[rnd2]}`;
+      names = `The ${sample(nm1)} ${sample(nm2)}`;
       nm1.splice(rnd, 1);
       nm2.splice(rnd2, 1);
     }

@@ -1,9 +1,7 @@
+import sample from 'lodash/sample';
+
 export default function argonians() {
   let names;
-  let rnd;
-  let rnd2;
-  let rnd3;
-  let rnd4;
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['Alex', 'Antigon', 'August', 'Calig', 'Claud', 'Demer', 'Dioclet', 'German', 'Her', 'Jul', 'Ner', 'Pil', 'Tib', 'Asu', 'Bun', 'Bus', 'Cha', 'Chi', 'Chu', 'Chu', 'Har', 'Hat', 'Hee', 'Hul', 'Huz', 'Ine', 'Ita', 'Mee', 'Mil', 'Nee', 'Oka', 'Pee', 'Ras', 'Ree', 'Ree', 'See', 'Ske', 'Tan', 'Tee', 'Tul', 'Uka', 'Ula', 'Uta', 'Wee', 'Wee', 'Sis', 'Yel', 'Amu', 'Dee', 'Gee', 'Jee', 'Mah', 'Otu', 'Paj', 'Ree', 'Sak', 'Sal', 'Tee', 'Tei', 'Ush', 'Wum', 'Yin', 'Dee', 'Der', 'Mad', 'Nee', 'Ush', 'Vee', 'Dee', 'She', 'Tsl', 'Asum', 'Buni', 'Bush', 'Chal', 'Chiw', 'Chul', 'Chun', 'Hara', 'Hath', 'Heed', 'Hule', 'Huze', 'Inee', 'Itan', 'Meer', 'Milo', 'Neet', 'Okaw', 'Peer', 'Rash', 'Reem', 'Rees', 'Seew', 'Skee', 'Tana', 'Teeg', 'Tul', 'Ukaw', 'Ula', 'Utad', 'Weel', 'Weer', 'Siss', 'Yeln', 'Amus', 'Deeh', 'Geel', 'Jeel', 'Mahe', 'Otum', 'Paje', 'Reen', 'Sake', 'Sali', 'Teek', 'Tein', 'Ushe', 'Wume', 'Yinz', 'Deek', 'Derk', 'Made', 'Neet', 'Usha', 'Veez', 'Deer', 'Sheh', 'Tsle'];
   const nm2 = ['meya', 'ish', 'heeus', 'lureel', 'wish', 'lz', 'na', 'an', 'hei', 'dul', 'eeya', 'ei', 'erei', 'neen', 'raz', 'os', 'tinei', 'wor', 'radeeh', 'ha', 'mukeeus', 'sa', 'wul', 'etul', 'an', 'gla', 'wei', 'deek', 'ltul', 're', 'sithik', 'nicin', 'sei', 'haj', 'leesh', 'lius', 'ei', 'meel', 'een', 'num', 'eepa', 'iith', 'keeus', 'naava', 'eeja', 'eek', 'z\'k', 'kus', 'keethus', 'esi', 'trenaza', 'are', 'zara', 'rkaza', 'hsi', 'eeixth', 'sh', 'eeus', 'ureel', 'ish', 'z\'r', 'a\'th', 'nee', 'ei', 'ul', 'eya', 'il', 'sehk', 'inei', 'adeeh', 'akees', 'ukeeus', 'at', 'ul', 'tul', 'nesh', 'la', 'ei', 'eek', 'tul', 'ithik', 'icin', 'ei', 'ius', 'ieth', 'eel', 'en', 'um', 'epa', 'ith', 'eeus', 'aava', 'eja', 'ek', 'k\'r', 'us', 'eethus', 'si', 'renaza', 'ara', 'kaza', 's\'r', 'eixth', 'acles', 'andros', 'ate', 'erius', 'ian', 'iar', 'icus', 'ides', 'ios', 'ius', 'os', 'ula', 'us'];
@@ -19,30 +17,14 @@ export default function argonians() {
   {
     if (type === 1) {
       if (i < 6) {
-        rnd = Math.floor(Math.random() * nm4.length);
-        rnd2 = Math.floor(Math.random() * nm6.length);
-        rnd3 = Math.floor(Math.random() * nm9.length);
-        rnd4 = Math.floor(Math.random() * nm10.length);
-        names = `${nm5[rnd] + nm6[rnd2]} ${nm9[rnd3]}${nm10[rnd4]}`;
+        names = `${sample(nm5) + sample(nm6)} ${sample(nm9)}${sample(nm10)}`;
       } else {
-        rnd = Math.floor(Math.random() * nm7.length);
-        rnd2 = Math.floor(Math.random() * nm8.length);
-        rnd3 = Math.floor(Math.random() * nm9.length);
-        rnd4 = Math.floor(Math.random() * nm10.length);
-        names = `${nm7[rnd] + nm8[rnd2]} ${nm9[rnd3]}${nm10[rnd4]}`;
+        names = `${sample(nm7) + sample(nm8)} ${sample(nm9)}${sample(nm10)}`;
       }
     } else if (i < 6) {
-      rnd = Math.floor(Math.random() * nm1.length);
-      rnd2 = Math.floor(Math.random() * nm2.length);
-      rnd3 = Math.floor(Math.random() * nm9.length);
-      rnd4 = Math.floor(Math.random() * nm10.length);
-      names = `${nm1[rnd] + nm2[rnd2]} ${nm9[rnd3]}${nm10[rnd4]}`;
+      names = `${sample(nm1) + sample(nm2)} ${sample(nm9)}${sample(nm10)}`;
     } else {
-      rnd = Math.floor(Math.random() * nm3.length);
-      rnd2 = Math.floor(Math.random() * nm4.length);
-      rnd3 = Math.floor(Math.random() * nm9.length);
-      rnd4 = Math.floor(Math.random() * nm10.length);
-      names = `${nm3[rnd] + nm4[rnd2]} ${nm9[rnd3]}${nm10[rnd4]}`;
+      names = `${sample(nm3) + sample(nm4)} ${sample(nm9)}${sample(nm10)}`;
     }
     return names;
   }
