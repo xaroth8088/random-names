@@ -3,7 +3,7 @@ Generate random names for all kinds of things
 
 # Usage
 ```javascript
-import alienNames from '@xaroth8088-oss/random-names/fantasy/aliens';
+import alienNames from '@xaroth8088/random-names/fantasy/aliens.mjs';
 
 const aRandomName = alienNames().trim();    // The .trim() is temporary until I finish output cleanup efforts
 ```
