@@ -9,7 +9,8 @@
   "homepage": "https://github.com/xaroth8088/random-names#readme",
   "scripts": {
     "lint": "eslint generators",
-    "lint:fix": "eslint --fix generators"
+    "lint:fix": "eslint --fix generators",
+    "test": "node --experimental-modules test/test.mjs"
   },
   "bugs": {
     "url": "https://github.com/xaroth8088/random-names/issues"
