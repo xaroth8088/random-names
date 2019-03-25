@@ -2,7 +2,6 @@ import sample from 'lodash/sample';
 
 export default function museums() {
   let names;
-  let rnd;
   const nm2 = ['Centre', 'Centre', 'Center', 'Center', 'Exhibition', 'Gallery', 'Gallery', 'Hall', 'Hall', 'Institute', 'Institution', 'Museum', 'Museum', 'Museum', 'Treasury', 'Vault'];
   const nm3 = ['National', 'International', 'Grand', 'Great', 'Central', 'Royal', '', '', '', '', '', '', '', '', '', '', '', '', '', ''];
   const nm1 = ['Accident', 'Aerial', 'Aerospace', 'Amphibian', 'Analysis', 'Anatomy', 'Ancestry', 'Anthropology', 'Apparatus', 'Aquatic', 'Archaeology', 'Architecture', 'Art', 'Artillery', 'Astronomy', 'Audiovisual', 'Auditory', 'Blossoms', 'Carnival', 'Changing', 'Childhood', 'Children', 'Chrono', 'Cryonic', 'Circus', 'Contemporary', 'Cooking', 'Costume', 'Creativity', 'Cryptology', 'Crystal', 'Cultural', 'Culture', 'Curiosity', 'Dance', 'Darkness', 'Data', 'Decorative', 'Design', 'Digital', 'Dinosaur', 'Disaster', 'Discovery', 'Dream', 'Dynamics', 'Earth', 'Electric', 'Emergency', 'Estate', 'Eternity', 'Expedition', 'Experiment', 'Experimentation', 'Exploration', 'Explorers', 'Fame', 'Fantasy', 'Fashion', 'Fear', 'Fiction', 'Film', 'Fire', 'Firepower', 'Forest', 'Fortune', 'Frost', 'Future', 'Gadget', 'Galaxy', 'Game', 'Garden', 'Genius', 'Gift', 'Gizmo', 'Glass', 'Globe', 'Gold', 'Guardian', 'Happiness', 'Harmony', 'Hazard', 'Heritage', 'History', 'Hope', 'Horror', 'Illusion', 'Imagination', 'Immersion', 'Infinity', 'Ingenuity', 'Inheritance', 'Innovation', 'Insect', 'Inspiration', 'Instrument', 'Invention', 'Jewel', 'Kinetics', 'Language', 'Learning', 'Legacy', 'Liberty', 'Light', 'Literature', 'Living', 'Locomotion', 'Love', 'Lunar', 'Machine', 'Magic', 'Magnetic', 'Manor', 'Manuscript', 'Maritime', 'Master', 'Mechanical', 'Medical', 'Micro', 'Mind', 'Mineral', 'Mistake', 'Movement', 'Music', 'Musical', 'Natural', 'Nature', 'Neurological', 'Night', 'Nightingale', 'Nightmare', 'Novelty', 'Open', 'Optical', 'Origin', 'Origins', 'Party', 'Passage', 'Passion', 'People', 'Perception', 'Pet', 'Petrified', 'Pinnacle', 'Play', 'Portrait', 'Prediction', 'Puppet', 'Pyro', 'Reconnaissance', 'Religion', 'Reptile', 'Research', 'Revelation', 'Rush', 'Sail', 'Science', 'Science Fiction', 'Secrets', 'Sensory', 'Serpent', 'Sight', 'Sightings', 'Silent', 'Skeleton', 'Snow', 'Solar', 'Space', 'Speech', 'Spinning', 'Sports', 'Stimulation', 'Submarine', 'Submerged', 'Sugar', 'Summer', 'Surprise', 'Tactile', 'Taste', 'Testing', 'Theater', 'Time', 'Toy', 'Tradition', 'Tragedy', 'Transport', 'Travel', 'Treasure', 'Trinket', 'Underground', 'Universe', 'Video', 'Virtual', 'Virtuoso', 'Visual', 'War', 'Water', 'Weirdness', 'Wild', 'Wind', 'Winter', 'Youth', 'Zoology'];
@@ -10,13 +9,9 @@ export default function museums() {
   const i = Math.floor(Math.random() * 10);
   {
     if (i < 5) {
-      rnd = Math.floor(Math.random() * nm4.length);
       names = `${sample(nm3)} ${sample(nm2)} of ${sample(nm4)}`;
-      nm4.splice(rnd, 1);
     } else {
-      rnd = Math.floor(Math.random() * nm1.length);
       names = `${sample(nm3)} ${sample(nm1)} ${sample(nm2)}`;
-      nm1.splice(rnd, 1);
     }
     return names;
   }

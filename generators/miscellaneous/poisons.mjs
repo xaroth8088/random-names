@@ -18,11 +18,9 @@ export default function poisons() {
       rnd = Math.floor(Math.random() * nm1.length);
       rnd2 = Math.floor(Math.random() * nm2.length);
       names = `${nm1[rnd]} ${nm2[rnd2]}`;
-      nm2.splice(rnd, 1);
     } else if (i < 4) {
       rnd = Math.floor(Math.random() * nm3.length);
       names = nm3[rnd];
-      nm3.splice(rnd, 1);
     } else {
       rnd = Math.floor(Math.random() * nma.length);
       rnd2 = Math.floor(Math.random() * nmb.length);
@@ -38,7 +36,6 @@ export default function poisons() {
         names = nma[rnd] + nmb[rnd2] + nmc[rnd4] + nmb[rnd5] + nmd[rnd3];
       }
     }
-    nm3.splice(rnd2, 1);
     return names;
   }
 }

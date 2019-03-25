@@ -27,8 +27,6 @@ export default function militaryVehicles() {
     rnd = Math.floor(Math.random() * nm1.length);
     rnd2 = Math.floor(Math.random() * nm2.length);
     names = `${nm4[rnd3] + nm3[rnd4] + nm3[rnd5] + nm5[rnd6] + nm6[rnd7]} ${nm1[rnd]} ${nm2[rnd2]}`;
-    nm1.splice(rnd, 1);
-    nm2.splice(rnd2, 1);
     return names;
   }
 }

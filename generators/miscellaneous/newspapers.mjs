@@ -2,7 +2,6 @@ import sample from 'lodash/sample';
 
 export default function newspapers() {
   let names;
-  let rnd;
   const nm3 = [
     ['The ', 'Bulletin'],
     ['The ', 'Chronicle'],
@@ -38,17 +37,11 @@ export default function newspapers() {
   const i = Math.floor(Math.random() * 10);
   {
     if (i < 6) {
-      rnd = Math.floor(Math.random() * nm1.length);
       names = `${sample(nm3)[0] + sample(nm1)} ${sample(nm3)[1]}`;
-      nm1.splice(rnd, 1);
     } else if (i < 8) {
-      rnd = Math.floor(Math.random() * nm2.length);
       names = `${sample(nm2)} ${sample(nm4)}`;
-      nm1.splice(rnd, 1);
     } else {
-      rnd = Math.floor(Math.random() * nm2.length);
       names = `${sample(nm4)} ${sample(nm2)}`;
-      nm1.splice(rnd, 1);
     }
     return names;
   }

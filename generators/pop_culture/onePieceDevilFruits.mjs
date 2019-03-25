@@ -2,7 +2,6 @@ import sample from 'lodash/sample';
 
 export default function onePieceDevilFruits() {
   let names;
-  let rnd;
   const nm1 = [
     ['Ame', 'Rain'],
     ['Arashi', 'Storm'],
@@ -126,9 +125,7 @@ export default function onePieceDevilFruits() {
     ['Zō', 'Elephant'],
   ];
   {
-    rnd = Math.floor(Math.random() * nm1.length);
     names = `${sample(nm1)[0]} ${sample(nm1)[0]} no Mi (${sample(nm1)[1]})`;
-    nm1.splice(rnd, 1);
     return names;
   }
 }
