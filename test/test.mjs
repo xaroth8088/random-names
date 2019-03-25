@@ -41,7 +41,7 @@ function isNameValid(name) {
 async function testModule(modulePath) {
     const module = await import(modulePath);
 
-    for (let i = 0; i < 1000; i++) {
+    for (let i = 0; i < 5000; i++) {
         isNameValid(module.default());
     }
 }

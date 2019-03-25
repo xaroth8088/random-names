@@ -44,7 +44,6 @@ export default function clothingBrands() {
     'Clothes', 'Collective', 'Collection', 'Company'];
   const i = Math.floor(Math.random() * 10); {
     rnd = Math.floor(Math.random() * nm1.length);
-    nm1.splice(rnd, 1);
     if (i < 3) {
       names = nm1[rnd];
     } else {
