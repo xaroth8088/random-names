@@ -1,5 +1,4 @@
 export default function holidays() {
-  let name3;
   let rnd5b;
   let rnd5c;
   let rnd5d;

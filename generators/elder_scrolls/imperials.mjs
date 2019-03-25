@@ -262,29 +262,28 @@ export default function imperials() {
     'otis', 'otus', 'uceius', 'ucia', 'udilius', 'ugrius', 'uius', 'uleius',
     'uliulus', 'ullus', 'ulus', 'ulusus', 'umnus', 'unceia', 'unia', 'ureius',
     'us', 'useius', 'usiso', 'usius', 'ustiris', 'ustius', 'usus', 'uttian'];
-  const i = Math.floor(Math.random() * 10); {
-    if (1 % 2 === 0) {
-      rnd5 = Math.floor(Math.random() * nm9.length);
-      rnd6 = Math.floor(Math.random() * nm11.length);
-      lName = ` ${nm9[rnd5]}${nm11[rnd6]}`;
-    } else {
-      rnd5 = Math.floor(Math.random() * nm10.length);
-      rnd6 = Math.floor(Math.random() * nm12.length);
-      lName = ` ${nm10[rnd5]}${nm12[rnd6]}`;
-    }
-    if (type === 1) {
-      rnd = Math.floor(Math.random() * nm5.length);
-      rnd2 = Math.floor(Math.random() * nm7.length);
-      names = nm5[rnd] + nm7[rnd2] + lName;
-    } else if (i % 2 !== 0) {
-      rnd = Math.floor(Math.random() * nm1.length);
-      rnd2 = Math.floor(Math.random() * nm3.length);
-      names = nm1[rnd] + nm3[rnd2] + lName;
-    } else {
-      rnd = Math.floor(Math.random() * nm2.length);
-      rnd2 = Math.floor(Math.random() * nm4.length);
-      names = nm2[rnd] + nm4[rnd2] + lName;
-    }
-    return names;
+  const i = Math.floor(Math.random() * 10);
+  if (i % 2 === 0) {
+    rnd5 = Math.floor(Math.random() * nm9.length);
+    rnd6 = Math.floor(Math.random() * nm11.length);
+    lName = ` ${nm9[rnd5]}${nm11[rnd6]}`;
+  } else {
+    rnd5 = Math.floor(Math.random() * nm10.length);
+    rnd6 = Math.floor(Math.random() * nm12.length);
+    lName = ` ${nm10[rnd5]}${nm12[rnd6]}`;
   }
+  if (type === 1) {
+    rnd = Math.floor(Math.random() * nm5.length);
+    rnd2 = Math.floor(Math.random() * nm7.length);
+    names = nm5[rnd] + nm7[rnd2] + lName;
+  } else if (i % 2 !== 0) {
+    rnd = Math.floor(Math.random() * nm1.length);
+    rnd2 = Math.floor(Math.random() * nm3.length);
+    names = nm1[rnd] + nm3[rnd2] + lName;
+  } else {
+    rnd = Math.floor(Math.random() * nm2.length);
+    rnd2 = Math.floor(Math.random() * nm4.length);
+    names = nm2[rnd] + nm4[rnd2] + lName;
+  }
+  return names;
 }

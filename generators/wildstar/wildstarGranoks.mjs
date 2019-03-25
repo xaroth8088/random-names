@@ -1,14 +1,5 @@
 export default function wildstarGranoks() {
-  let names;
-  let lname;
-  let rnd;
-  let rnd2;
-  let rnd3;
-  let rnd4;
-  let rnd5;
-  let rnd6;
-  let rnd7;
-  const type = Math.random() > 0.5 ? 0 : 1;
+  const type = Math.random() < 0.5 ? 0 : 1;
   const nm1 = ['br', 'd', 'dr', 'g', 'gr', 'j', 'k', 'kr', 'q', 'r', 't', 'v',
     'z'];
   const nm2 = ['a', 'e', 'o', 'u'];
@@ -37,6 +28,15 @@ export default function wildstarGranoks() {
     'smasher', 'snap', 'song', 'sorrow', 'spell', 'spire', 'spirit',
     'splinter', 'split', 'splitter', 'storm', 'stride', 'strike', 'thorn',
     'track', 'trap', 'valor', 'walker', 'ward', 'watcher'];
+  let rnd6;
+  let rnd7;
+  let lname;
+  let rnd;
+  let rnd2;
+  let rnd3;
+  let rnd4;
+  let names;
+  let rnd5;
   const i = Math.floor(Math.random() * 10); {
     rnd6 = Math.floor(Math.random() * nm9.length);
     rnd7 = Math.floor(Math.random() * nm10.length);
@@ -59,10 +59,11 @@ export default function wildstarGranoks() {
       rnd = Math.floor(Math.random() * nm1.length);
       rnd2 = Math.floor(Math.random() * nm2.length);
       rnd3 = Math.floor(Math.random() * nm3.length);
+      rnd5 = Math.floor(Math.random() * nm4.length);
       if (i < 6) {
         rnd4 = Math.floor(Math.random() * nm2.length);
-        rnd5 = Math.floor(Math.random() * nm4.length);
-        names = `${nm1[rnd] + nm2[rnd2] + nm3[rnd3] + nm2[rnd4] + nm4[rnd5]} ${lname}`;
+        names = `${nm1[rnd] + nm2[rnd2] + nm3[rnd3] + nm2[rnd4] + nm4[rnd5]} ${
+          lname}`;
       } else {
         names = `${nm1[rnd] + nm2[rnd2] + nm4[rnd5]} ${lname}`;
       }

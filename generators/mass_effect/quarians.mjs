@@ -1,18 +1,6 @@
 export default function quarians() {
-  let names;
   let names1;
   let names4;
-  let rnd0;
-  let rnd1;
-  let rnd2;
-  let rnd3;
-  let rnd4;
-  let rnd5;
-  let rnd6;
-  let rnd7;
-  let rnd8;
-  let rnd9;
-  let rnd10;
   let names3;
   const type = Math.random() > 0.5 ? 0 : 1;
   const names2 = ['a', 'e', 'i', 'o', 'u', 'aa', 'ee', 'ae'];
@@ -48,17 +36,16 @@ export default function quarians() {
     names3 = ['f', 'h', 'l', 'm', 'n', 'r', 's', 'l', 'n', 'nn', 'mm'];
     names4 = ['a', 'e', 'u', 'i', 'o', 'a'];
   }
-  rnd0 = Math.floor(Math.random() * names1.length);
-  rnd1 = Math.floor(Math.random() * names2.length);
-  rnd2 = Math.floor(Math.random() * names3.length);
-  rnd3 = Math.floor(Math.random() * names4.length);
-  rnd4 = Math.floor(Math.random() * names5.length);
-  rnd5 = Math.floor(Math.random() * names2.length);
-  rnd6 = Math.floor(Math.random() * names6.length);
-  rnd7 = Math.floor(Math.random() * names7.length);
-  rnd8 = Math.floor(Math.random() * names5.length);
-  rnd9 = Math.floor(Math.random() * names2.length);
-  rnd10 = Math.floor(Math.random() * names8.length);
-  names = `${names1[rnd0] + names2[rnd1] + names3[rnd2] + names4[rnd3]}'${names5[rnd4]}${names2[rnd5]}${names6[rnd6]} ${names7[rnd7]} ${names5[rnd8]}${names2[rnd9]}${names8[rnd10]}`;
-  return names;
+  const rnd0 = Math.floor(Math.random() * names1.length);
+  const rnd1 = Math.floor(Math.random() * names2.length);
+  const rnd2 = Math.floor(Math.random() * names3.length);
+  const rnd3 = Math.floor(Math.random() * names4.length);
+  const rnd4 = Math.floor(Math.random() * names5.length);
+  const rnd5 = Math.floor(Math.random() * names2.length);
+  const rnd6 = Math.floor(Math.random() * names6.length);
+  const rnd7 = Math.floor(Math.random() * names7.length);
+  const rnd8 = Math.floor(Math.random() * names5.length);
+  const rnd9 = Math.floor(Math.random() * names2.length);
+  const rnd10 = Math.floor(Math.random() * names8.length);
+  return `${names1[rnd0] + names2[rnd1] + names3[rnd2] + names4[rnd3]}'${names5[rnd4]}${names2[rnd5]}${names6[rnd6]} ${names7[rnd7]} ${names5[rnd8]}${names2[rnd9]}${names8[rnd10]}`;
 }

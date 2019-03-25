@@ -510,7 +510,7 @@ export default function animals() {
   const random22 = Math.floor((Math.random() * names22.length));
   const random23 = Math.floor((Math.random() * names23.length));
   const random24 = Math.floor((Math.random() * names24.length));
-  if (random23 < 10 && random24 < 10 || random23 > 9 && random24 > 9) {
+  if ((random23 < 10 && random24 < 10) || (random23 > 9 && random24 > 9)) {
     names23b = ' and ';
   }
   const random25 = Math.floor((Math.random() * names25.length));

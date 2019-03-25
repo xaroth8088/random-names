@@ -1,13 +1,5 @@
 export default function krogans() {
-  let names;
   let names4;
-  let rnd0;
-  let rnd1;
-  let rnd2;
-  let rnd3;
-  let rnd4;
-  let rnd5;
-  let rnd6;
   const type = Math.random() > 0.5 ? 0 : 1;
   const names1 = ['B', 'Br', 'C', 'Cr', 'Ch', 'D', 'Dr', 'F', 'G', 'Gr', 'H',
     'J', 'K', 'Kh', 'Kr', 'M', 'N', 'P', 'Pr', 'Q', 'Qr', 'R', 'S', 'Sr',
@@ -27,13 +19,12 @@ export default function krogans() {
   } else {
     names4 = ['a', 'e', 'u', 'i', 'o', 'a'];
   }
-  rnd0 = Math.floor(Math.random() * names1.length);
-  rnd1 = Math.floor(Math.random() * names2.length);
-  rnd2 = Math.floor(Math.random() * names3.length);
-  rnd3 = Math.floor(Math.random() * names4.length);
-  rnd4 = Math.floor(Math.random() * names1.length);
-  rnd5 = Math.floor(Math.random() * names2.length);
-  rnd6 = Math.floor(Math.random() * names5.length);
-  names = `${names1[rnd4] + names2[rnd5] + names5[rnd6]} ${names1[rnd0]}${names2[rnd1]}${names3[rnd2]}${names4[rnd3]}`;
-  return names;
+  const rnd0 = Math.floor(Math.random() * names1.length);
+  const rnd1 = Math.floor(Math.random() * names2.length);
+  const rnd2 = Math.floor(Math.random() * names3.length);
+  const rnd3 = Math.floor(Math.random() * names4.length);
+  const rnd4 = Math.floor(Math.random() * names1.length);
+  const rnd5 = Math.floor(Math.random() * names2.length);
+  const rnd6 = Math.floor(Math.random() * names5.length);
+  return `${names1[rnd4] + names2[rnd5] + names5[rnd6]} ${names1[rnd0]}${names2[rnd1]}${names3[rnd2]}${names4[rnd3]}`;
 }

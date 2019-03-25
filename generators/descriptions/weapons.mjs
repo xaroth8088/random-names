@@ -1,14 +1,4 @@
 export default function weapons() {
-  let rnd9;
-  let rnd12;
-  let rnd14;
-  let rnd15;
-  let rnd18;
-  let rnd19;
-  let rnd21;
-  let rnd22;
-  let rnd23;
-  let rnd24;
   const nm1 = ['fairly large', 'fairly long', 'fairly short', 'fairly small',
     'large', 'long', 'short', 'small', 'very long', 'very short'];
   const nm2 = ['thick', 'thin', 'wide', 'narrow', 'slim', 'broad'];
@@ -37,17 +27,17 @@ export default function weapons() {
     'With a point as sharp as a razor', 'With just a razor-sharp point',
     'Because it only has a razor-sharp point'];
   const nm9 = [
-    'makes this weapon ideal for both blocking and slicing, your enemies won\'t stand a chance.',
+    "makes this weapon ideal for both blocking and slicing, your enemies won't stand a chance.",
     'makes this a perfect weapon to block attacks and slice enemies to tiny, little pieces.',
     'makes sure this weapon is not just for hacking and slashing, but also great to block incoming attacks.',
     'this weapon is ideal for both cleaving enemies as well as blocking their attacks.',
     'this weapon will protect you from incoming blows while also giving you the ability to shred your enemies to pieces.',
     'this weapon is the perfect choice for slicing and dicing while also offering you a way to effectively block attacks.',
     'makes this weapon the best choice for both cleaving and stabbing your enemies with ferocious power.',
-    'makes this the ideal weapon if you\'re looking to slice, dice, stab and jab your enemies.',
+    "makes this the ideal weapon if you're looking to slice, dice, stab and jab your enemies.",
     'makes this weapon the choice for any warrior looking for a versatile weapon ideal for any combat style.',
-    'this weapon will slice, dice, stab and jab your enemies and shred whatever\'s left of them.',
-    'this weapon is the champion\'s choice. It\'ll crush your enemies with cleaving hacks and piercing stabs.',
+    "this weapon will slice, dice, stab and jab your enemies and shred whatever's left of them.",
+    "this weapon is the champion's choice. It'll crush your enemies with cleaving hacks and piercing stabs.",
     'this weapon makes for the best choice for those looking for power, versatility and general awesomeness.',
     'makes this weapon ideal to pierce your enemies and turn them into a sieve.',
     'makes this weapon a perfect choice if you wish to puncture your enemies to death with ruthless speed and precision.',
@@ -60,16 +50,16 @@ export default function weapons() {
     'jagged', 'spiked'];
   const nm11 = ['slightly curved', 'straight', 'curved', 'warped', 'twisted',
     'curled'];
-  const nm12 = ['just large enough to protect the owner\'s fingers',
+  const nm12 = ["just large enough to protect the owner's fingers",
     'just large enough to prevent it from slipping from your hands',
     'just large enough to make sure your fingers are safe and the blade will remain firmly in your hands',
     'just large enough to give the blade the perfect weight balance',
-    'offering just enough protection to the owner\'s hands, as well as adding a weight balance to the blade',
-    'offering plenty of protection to the owner\'s hands and thus his or her life',
+    "offering just enough protection to the owner's hands, as well as adding a weight balance to the blade",
+    "offering plenty of protection to the owner's hands and thus his or her life",
     'adding weight to the blade for a better weight balance, as well as offering hand protection during battle',
     'creating the ideal weight balance to allow for smooth and accurate swings with this blade',
-    'adding just enough weight to make sure the blade sits firmly in the owner\'s hand and protecting those same hands as well',
-    'which makes sure the blade is both balanced and capable of protecting the owner\'s hands against any sliding sword',
+    "adding just enough weight to make sure the blade sits firmly in the owner's hand and protecting those same hands as well",
+    "which makes sure the blade is both balanced and capable of protecting the owner's hands against any sliding sword",
   ];
   const nm13 = ['a simple', 'a plain', 'a basic', 'an intricate',
     'an elaborate', 'a decorative', 'a lavish', 'an ornamented', 'an elegant',
@@ -83,10 +73,10 @@ export default function weapons() {
     'which shows how ordinary this weapon is', 'a sign of mass production',
     'which tells you this weapon belongs to a soldier or commoner',
     'so this weapon is for just about anybody with the right amount of cash',
-    'this weapon clearly isn\'t a one of a kind',
+    "this weapon clearly isn't a one of a kind",
     'marking the house it belongs to',
     'a clear sign this weapon belongs to a champion',
-    'this weapon wasn\'t created by just any blacksmith',
+    "this weapon wasn't created by just any blacksmith",
     'this weapon was clearly a custom order, probably by an important figure',
     'this is clearly a weapon not meant to be wielded by a commoner',
     'the cost of this weapon must have been high',
@@ -95,7 +85,7 @@ export default function weapons() {
   const nm16 = ['small', 'fairly small', 'large', 'wide', 'thick', 'massive',
     'fairly large'];
   const nm17 = ['marked', 'engraved', 'decorated', 'decorated'];
-  const nm18 = ['the sword maker\'s symbol', 'the sword maker\'s signature',
+  const nm18 = ["the sword maker's symbol", "the sword maker's signature",
     'a quality symbol', 'the symbol of the house this sword belongs to',
     'the symbol of its owner', 'a fairly common gem', 'common gems',
     'precious gems', 'gilded linings', 'a rare gem'];
@@ -104,14 +94,14 @@ export default function weapons() {
     'a symbol many would kill for',
     'an unimpressive symbol at the best of times',
     'not the most impressive symbol to be fair',
-    'a symbol which doesn\'t prove much',
+    "a symbol which doesn't prove much",
     'a symbol some might be embarrased of',
     'a decent symbol for a decent weapon',
     'commonness for a commonly made weapon',
     'anything better would be a waste',
-    'nothing too impressive, but that\'s to be expected',
+    "nothing too impressive, but that's to be expected",
     'but the weapon is supposed to cut after all, not look fancy',
-    'but to be fair, gems aren\'t what makes a weapon great',
+    "but to be fair, gems aren't what makes a weapon great",
     'fancy decorations for a fancy sword',
     'which is to be expected from such an elegant weapon',
     'no expense is spared for this gorgeous weapon',
@@ -130,16 +120,16 @@ export default function weapons() {
     'Intricate decorational patterns have been carefully etched into the blade',
     'Religious symbols have been delicately etched into the blade',
     'Several words of power have been artistically etched into the blade',
-    'The symbol of the owner\'s house is engraved on the blade',
-    'The owner\'s name has been artistically etched into the blade',
-    'The name of the owner\'s house has been engraved on the blade',
+    "The symbol of the owner's house is engraved on the blade",
+    "The owner's name has been artistically etched into the blade",
+    "The name of the owner's house has been engraved on the blade",
     'The name of the blade has been engraved into the blade with artistic elegance',
   ];
   const nm22 = [
     '. Engravings are too costly and time consuming for an ordinary weapon',
     ', an everyday weapon needs no decorations',
     ', engravings, marks and decorations are only for special or expensive weapons',
-    '. This weapon is meant for fighting, decorations don\'t make you fight better',
+    ". This weapon is meant for fighting, decorations don't make you fight better",
     '. Engravings are too costly, but perhaps the owner can have the weapon blessed instead',
     ', with the exception of the small scratches from battle, which are perhaps the best marks for a weapon',
     ', any engravings could only diminish the strength of the blade',
@@ -149,7 +139,7 @@ export default function weapons() {
     ', but the blade will surely be decorated in battle',
     ', which is supposed to give the weapon and its owner extra strength',
     ', which adds mystery and supposedly more power to the weapon',
-    ', which, like a blessing, is supposed to protect the weapon\'s owner in battle',
+    ", which, like a blessing, is supposed to protect the weapon's owner in battle",
     ', which only adds to the elegance of this weapon, as well as its cost',
     ', which is supposed to contain a hidden power',
     '. This is clearly no ordinary weapon to be used by anybody',
@@ -177,9 +167,9 @@ export default function weapons() {
     'A great weapon for proven fighters',
     'An excellent weapon for the defense of the country',
     'An exceptional weapon for exceptional fighters',
-    'The capable hands of the country\'s greatest defenders deserve nothing less than this weapon\'s excellence',
+    "The capable hands of the country's greatest defenders deserve nothing less than this weapon's excellence",
     'None deserve this weapon more than the greatest fighters of all',
-    'You\'d expect nothing less from such fighters',
+    "You'd expect nothing less from such fighters",
     'Worn by the wealthiest among us, but not always the most deserving among us',
     'Worn by the high and mighty as a display of status, wealth and power',
     'An elegant and valuable weapon for mostly elegant and respectable people',
@@ -188,7 +178,7 @@ export default function weapons() {
     'Any occassion which requires royalty also requires this weapon by their side',
     'From royal weddings and births to cutting ribbons and slicing pie, this weapon has plenty of ceremonies to attend',
     'A weapon this rare and magnificent is only used in the most important, royal ceremonies',
-    'This ceremonial weapon has seen king\'s being crowned, princes and princesses being born and kings and queens being married',
+    "This ceremonial weapon has seen king's being crowned, princes and princesses being born and kings and queens being married",
     'While not rare and impressive enough for the most important celebrations, this weapon has seen its fair share of ceremonies',
   ];
   const rnd1 = Math.floor(Math.random() * nm1.length);
@@ -198,24 +188,119 @@ export default function weapons() {
   const rnd5 = Math.floor(Math.random() * nm5.length);
   const rnd6 = Math.floor(Math.random() * nm6.length);
   const rnd7 = Math.floor(Math.random() * nm7.length);
+  let rnd9;
+  let rnd12;
+  let rnd14;
+  let rnd15;
+  let rnd18;
+  let rnd19;
+  let rnd21;
+  let rnd22;
+  let rnd23;
+  let rnd24;
   let rnd8 = Math.floor(Math.random() * nm8.length);
   if (rnd3 > 4) {
     while (rnd8 < 4) {
       rnd8 = Math.floor(Math.random() * nm8.length);
     }
   }
+  if (rnd8 === 0 || rnd8 === 1) {
+    rnd9 = Math.floor(Math.random() * (2 + 1));
+  } else if (rnd8 > 1 && rnd8 < 5) {
+    rnd9 = Math.floor(Math.random() * (5 - 3 + 1)) + 3;
+  } else if (rnd8 === 5 || rnd8 === 6) {
+    rnd9 = Math.floor(Math.random() * (8 - 6 + 1)) + 6;
+  } else if (rnd8 > 6 && rnd8 < 10) {
+    rnd9 = Math.floor(Math.random() * (11 - 9 + 1)) + 9;
+  } else if (rnd8 === 10 || rnd8 === 11) {
+    rnd9 = Math.floor(Math.random() * (14 - 12 + 1)) + 12;
+  } else {
+    rnd9 = Math.floor(Math.random() * (17 - 15 + 1)) + 15;
+  }
   const rnd10 = Math.floor(Math.random() * nm10.length);
+  if (rnd10 < 2) {
+    rnd12 = Math.floor(Math.random() * (4 + 1));
+  } else {
+    rnd12 = Math.floor(Math.random() * (9 - 5 + 1)) + 5;
+  }
   const rnd11 = Math.floor(Math.random() * nm11.length);
   const rnd13 = Math.floor(Math.random() * nm13.length);
+  if (rnd13 < 3) {
+    rnd14 = Math.floor(Math.random() * (7 + 1));
+    rnd15 = Math.floor(Math.random() * (5 + 1));
+  } else {
+    rnd14 = Math.floor(Math.random() * nm14.length);
+    rnd15 = Math.floor(Math.random() * (13 - 6 + 1)) + 6;
+  }
   const rnd16 = Math.floor(Math.random() * nm16.length);
   const rnd17 = Math.floor(Math.random() * nm17.length);
+  if (rnd17 < 2) {
+    rnd18 = Math.floor(Math.random() * (4 + 1));
+  } else if (rnd13 < 3) {
+    rnd18 = Math.floor(Math.random() * (6 - 5 + 1)) + 5;
+  } else {
+    rnd18 = Math.floor(Math.random() * (9 - 7 + 1)) + 7;
+  }
+  if (rnd18 < 4) {
+    if (rnd13 < 3) {
+      rnd19 = Math.floor(Math.random() * (9 - 5 + 1)) + 5;
+    } else {
+      rnd19 = Math.floor(Math.random() * (4 + 1));
+    }
+  } else if (rnd13 < 3) {
+    rnd19 = Math.floor(Math.random() * (14 - 10 + 1)) + 10;
+  } else {
+    rnd19 = Math.floor(Math.random() * (19 - 15 + 1)) + 15;
+  }
   const rnd20 = Math.floor(Math.random() * nm20.length);
-  const name = `A ${nm1[rnd1]}, ${nm2[rnd2]}, ${nm3[rnd3]} blade made of ${nm4[rnd4]} is held by a grip wrapped in ${nm5[rnd5]}, ${nm6[rnd6]} ${nm7[rnd7]}.`;
+  if (rnd20 < 4) {
+    rnd21 = Math.floor(Math.random() * (3 + 1));
+  } else {
+    rnd21 = Math.floor(Math.random() * (13 - 4 + 1)) + 4;
+  }
+  if (rnd21 < 4) {
+    if (rnd13 < 3) {
+      rnd22 = Math.floor(Math.random() * (6 + 1));
+    } else {
+      rnd22 = Math.floor(Math.random() * (10 - 7 + 1)) + 7;
+    }
+  } else if (rnd21 < 12 && rnd21 > 3) {
+    rnd22 = Math.floor(Math.random() * (21 - 11 + 1)) + 5;
+  } else if (rnd21 > 11) {
+    rnd22 = Math.floor(Math.random() * (26 - 22 + 1)) + 22;
+  }
+  if (rnd22 < 6) {
+    rnd23 = Math.floor(Math.random() * (11 - 9 + 1)) + 9;
+  } else if (rnd22 < 11 && rnd22 > 5) {
+    rnd23 = Math.floor(Math.random() * (14 - 12 + 1)) + 12;
+  } else if (rnd22 > 10 && rnd22 < 16) {
+    rnd23 = Math.floor(Math.random() * (3 + 1));
+  } else if (rnd22 > 15 && rnd22 < 22) {
+    rnd23 = Math.floor(Math.random() * (8 + 1));
+  } else {
+    rnd23 = Math.floor(Math.random() * (8 - 4 + 1)) + 4;
+  }
+  if (rnd23 < 3) {
+    rnd24 = Math.floor(Math.random() * (19 - 10 + 1)) + 15;
+  } else if (rnd23 > 2 && rnd23 < 9) {
+    rnd24 = Math.floor(Math.random() * (14 - 10 + 1)) + 10;
+  } else if (rnd23 > 8 && rnd23 < 12) {
+    rnd24 = Math.floor(Math.random() * (3 + 1));
+  } else {
+    rnd24 = Math.floor(Math.random() * (9 - 4 + 1)) + 4;
+  }
+  const name = `A ${nm1[rnd1]}, ${nm2[rnd2]}, ${nm3[rnd3]
+  } blade made of ${nm4[rnd4]} is held by a grip wrapped in ${nm5[
+    rnd5]}, ${nm6[rnd6]} ${nm7[rnd7]}.`;
   const name2 = `${nm8[rnd8]} ${nm9[rnd9]}`;
-  const name3 = `The blade has a ${nm10[rnd10]}, ${nm11[rnd11]} cross-guard, ${nm12[rnd12]}.`;
-  const name4 = ` The cross-guard has ${nm13[rnd13]} ${nm14[rnd14]} on each side, ${nm15[rnd15]}.`;
-  const name5 = `A ${nm16[rnd16]} pommel is  ${nm17[rnd17]} with ${nm18[rnd18]}, ${nm19[rnd19]}.`;
-  const name6 = `The blade itself is ${nm20[rnd20]}. ${nm21[rnd21]}${nm22[rnd22]}.`;
+  const name3 = `The blade has a ${nm10[rnd10]}, ${nm11[rnd11]
+  } cross-guard, ${nm12[rnd12]}.`;
+  const name4 = ` The cross-guard has ${nm13[rnd13]} ${nm14[rnd14]
+  } on each side, ${nm15[rnd15]}.`;
+  const name5 = `A ${nm16[rnd16]} pommel is  ${nm17[rnd17]} with ${
+    nm18[rnd18]}, ${nm19[rnd19]}.`;
+  const name6 = `The blade itself is ${nm20[rnd20]}. ${nm21[rnd21]
+  }${nm22[rnd22]}.`;
   const name7 = `This weapon is used ${nm23[rnd23]}. ${nm24[rnd24]}.`;
   let result = '';
   result += name;

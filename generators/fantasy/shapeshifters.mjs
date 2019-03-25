@@ -1,7 +1,5 @@
 export default function shapeshifters() {
-  let names;
   let names1;
-  let rnd;
   const type = Math.random() > 0.5 ? 0 : 1;
   if (type === 1) {
     names1 = ['Angel', 'Fell', 'Anomaly', 'Aspect', 'Aura', 'Autumn', 'Banshee',
@@ -56,7 +54,6 @@ export default function shapeshifters() {
       'Vice (Improvise)', 'Vista', 'Whisper', 'X (Exchange)', 'Zero', 'Zip',
       'Zot'];
   }
-  rnd = Math.floor(Math.random() * names1.length);
-  names = names1[rnd];
-  return names;
+  const rnd = Math.floor(Math.random() * names1.length);
+  return names1[rnd];
 }

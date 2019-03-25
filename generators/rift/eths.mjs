@@ -1,9 +1,6 @@
 export default function eths() {
-  let names;
   let names1;
   let names2;
-  let rnd;
-  let rnd2;
   const type = Math.random() > 0.5 ? 0 : 1;
   if (type === 1) {
     names1 = ['Aah', 'Ah', 'Amen', 'Amun', 'Ankh', 'Bek', 'Bith', 'Ebon', 'Hal',
@@ -32,8 +29,7 @@ export default function eths() {
       'esseker', 'ihiti', 'iris', 'is', 'isaba', 'otep', 'oteph', 'oubis',
       'ouris', 'ubis', 'umah', 'urmes'];
   }
-  rnd = Math.floor(Math.random() * names1.length);
-  rnd2 = Math.floor(Math.random() * names2.length);
-  names = names1[rnd] + names2[rnd2];
-  return names;
+  const rnd = Math.floor(Math.random() * names1.length);
+  const rnd2 = Math.floor(Math.random() * names2.length);
+  return names1[rnd] + names2[rnd2];
 }

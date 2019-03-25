@@ -1,9 +1,6 @@
 export default function highElfs() {
-  let names;
   let names1;
   let names2;
-  let rnd;
-  let rnd2;
   const type = Math.random() > 0.5 ? 0 : 1;
   if (type === 1) {
     names1 = ['Ael', 'Aem', 'Aer', 'Aern', 'Aest', 'Ag', 'Aghn', 'Ail', 'Aiy',
@@ -41,8 +38,7 @@ export default function highElfs() {
       'omemah', 'ahome', 'aneo', 'on', 'otah', 'oton', 'ehew', 'aska', 'enam',
       'iye', 'achme', 'opka', 'etu', 'ahton'];
   }
-  rnd = Math.floor(Math.random() * names1.length);
-  rnd2 = Math.floor(Math.random() * names2.length);
-  names = names1[rnd] + names2[rnd2];
-  return names;
+  const rnd = Math.floor(Math.random() * names1.length);
+  const rnd2 = Math.floor(Math.random() * names2.length);
+  return names1[rnd] + names2[rnd2];
 }

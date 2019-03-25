@@ -1302,6 +1302,8 @@ export default function elfs() {
             ];
             name1 = nm1[rnd][0].slice(0, nm1[rnd][0].length - 1);
             break;
+          default:
+            break;
         }
       } else if (type === 2) {
         switch (lastChar) {
@@ -1485,6 +1487,8 @@ export default function elfs() {
               ['', '', ''],
             ];
             name1 = nm1[rnd][0];
+            break;
+          default:
             break;
         }
       } else {
@@ -1759,6 +1763,8 @@ export default function elfs() {
             ];
             name1 = nm1[rnd][0].slice(0, nm1[rnd][0].length - 1);
             break;
+          default:
+            break;
         }
       }
       rnd2 = Math.floor(Math.random() * nm3.length);
@@ -1851,6 +1857,8 @@ export default function elfs() {
             ];
             name2 = nm2[rnd][0];
             break;
+          default:
+            break;
         }
       } else if (type === 2) {
         switch (lastChar) {
@@ -1903,6 +1911,8 @@ export default function elfs() {
               ['or', 'Person', 'or'],
             ];
             name2 = nm2[rnd][0];
+            break;
+          default:
             break;
         }
       } else {
@@ -1979,6 +1989,8 @@ export default function elfs() {
               ['ion', 'Son of', 'dirion'],
             ];
             name2 = nm2[rnd][0];
+            break;
+          default:
             break;
         }
       }

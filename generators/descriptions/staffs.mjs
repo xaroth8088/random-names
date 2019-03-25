@@ -1,6 +1,6 @@
 export default function staffs() {
   const nm1 = (Math.floor(Math.random() * 60)) + 160;
-  const nm1b = (nm1 * 0.393701 | 0);
+  const nm1b = Math.floor(nm1 * 0.393701);
   const nm2 = ['elegant', 'exceptional', 'exclusive', 'expensive',
     'extraordinary', 'first-class', 'first-rate', 'gorgeous', 'grand',
     'magnificent', 'marvelous', 'primal', 'rare', 'refined', 'solid',

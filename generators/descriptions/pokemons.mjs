@@ -2808,6 +2808,8 @@ export default function pokemons() {
       }
       atkTwo = waterAttk[attk2];
       break;
+    default:
+      break;
   }
   const name = `This Pokemon is a ${pkType}-type Pokemon and ${rsm[rnRsm]} ${pkm[rnd1][0]}. It has ${descrs[0]}, ${descrs[1]} and ${descrs[2]}.`;
   const name2 = ` They're generally ${pers[rnPers]} by nature and can often be found ${place}. If you're out looking for them they can often be seen ${amnt[rnAmnt]}.`;

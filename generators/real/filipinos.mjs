@@ -1,10 +1,4 @@
 export default function filipinos() {
-  let names;
-  let names1;
-  let rnd;
-  let rnd2;
-  let rnd3;
-  let rnd4;
   const type = Math.random() < 0.5 ? 0 : 1;
   const namesMale = ['Aaron', 'Abdiel', 'Abel', 'Abraham', 'Abram', 'Abran',
     'Adam', 'Adan', 'Addison', 'Adelio', 'Aden', 'Aditya', 'Adolfo', 'Adonis',
@@ -600,12 +594,10 @@ export default function filipinos() {
     'Yamson', 'Yance', 'Yap', 'Yapchulay', 'Yaptinchay', 'Yatco', 'Yengko',
     'Ynaya', 'Yongque', 'Yoshida', 'Yoshikawa', 'Yoshizaki', 'Yu', 'Yuan',
     'Yujeco', 'Yujuico', 'Yulo', 'Yunsay', 'Yusi', 'Yuson'];
-  names1 = type === 1 ? namesFemale : namesMale; {
-    rnd = Math.floor(Math.random() * names1.length);
-    rnd2 = Math.floor(Math.random() * names1.length);
-    rnd3 = Math.floor(Math.random() * namesMiddle.length);
-    rnd4 = Math.floor(Math.random() * namesFamily.length);
-    names = `${names1[rnd]} ${names1[rnd2]} ${namesMiddle[rnd3]} ${namesFamily[rnd4]}`;
-    return names;
-  }
+  const names1 = type === 1 ? namesFemale : namesMale;
+  const rnd = Math.floor(Math.random() * names1.length);
+  const rnd2 = Math.floor(Math.random() * names1.length);
+  const rnd3 = Math.floor(Math.random() * namesMiddle.length);
+  const rnd4 = Math.floor(Math.random() * namesFamily.length);
+  return `${names1[rnd]} ${names1[rnd2]} ${namesMiddle[rnd3]} ${namesFamily[rnd4]}`;
 }

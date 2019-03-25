@@ -1,7 +1,4 @@
 export default function towns() {
-  let random8;
-  let random7;
-  let random5;
   const names1 = ['Based', 'Built', 'Cast', 'Constructed', 'Designed',
     'Engineered', 'Erected', 'Established', 'Fabricated', 'Forged', 'Formed',
     'Found', 'Located', 'Positioned', 'Raised', 'Rooted', 'Set', 'Settled',
@@ -148,7 +145,8 @@ export default function towns() {
     random15 = Math.floor((Math.random() * names14.length));
   }
   let random16 = Math.floor((Math.random() * names11.length));
-  while (random16 === random11 || random16 === random12 || random16 === random13) {
+  while (random16 === random11 || random16 === random12 || random16
+    === random13) {
     random16 = Math.floor((Math.random() * names11.length));
   }
   const random17 = Math.floor((Math.random() * names17.length));
@@ -210,7 +208,8 @@ export default function towns() {
       'Jalai', 'Javyn', 'Jijel', 'Juma', 'Jumoke', 'Kaijin', 'Kazko',
       'Maalik', 'Makas', 'Malak', 'Nyabingi', 'Rahjin', 'Rakash', 'Rashi',
       'Razi'];
-  } else if (random6 === 1 || random6 === 11 || random6 === 12 || random6 === 15
+  } else if (random6 === 1 || random6 === 11 || random6 === 12 || random6
+    === 15
     || random6 === 16 || random6 === 17) {
     names5 = ['Gandoline', 'Galadoneh', 'Tirianae', 'Darnassea', 'Sinashari',
       'Kaladorei', 'Hiborane', 'Fandralore', 'Cenorias', 'Ishnuala'];
@@ -254,9 +253,9 @@ export default function towns() {
       'sinister', 'somber', 'spine-chilling', 'supernatural', 'uncanny',
       'unearthly'];
   }
-  random5 = Math.floor((Math.random() * names5.length));
-  random7 = Math.floor((Math.random() * names7.length));
-  random8 = Math.floor((Math.random() * names8.length));
+  const random5 = Math.floor((Math.random() * names5.length));
+  const random7 = Math.floor((Math.random() * names7.length));
+  const random8 = Math.floor((Math.random() * names8.length));
   const random19 = Math.floor((Math.random() * names19.length));
   const name = `${names1[random1]} ${names2[random2]} a ${names3[random3]}, the ${names4[random4]} of ${names5[random5]} is home to ${names6[random6]} lead by ${names7[random7]} ${names8[random8]}.`;
   const name2 = `This ${names4[random4]} wasn't built by a${names3[random3]} by accident, as it has ${names9[random9]}, which is of great importance to the people of ${names5[random5]} and its success.`;

@@ -1,11 +1,6 @@
 export default function turians() {
-  let names;
   let names1;
   let names2;
-  let rnd;
-  let rnd1;
-  let rnd2;
-  let rnd3;
   const type = Math.random() > 0.5 ? 0 : 1;
   const names3 = ['Ab', 'Aber', 'Abi', 'Aca', 'Acha', 'Acil', 'Ada', 'Adep',
     'Adju', 'Adra', 'Aebu', 'Aet', 'Ag', 'Aga', 'Ago', 'Al', 'Alba', 'Albi',
@@ -68,10 +63,9 @@ export default function turians() {
       'retia', 'ria', 'sia', 'tana', 'teia', 'tia', 'tilia', 'tina', 'tiria',
       'toria', 'vea', 'via'];
   }
-  rnd = Math.floor(Math.random() * names1.length);
-  rnd1 = Math.floor(Math.random() * names2.length);
-  rnd2 = Math.floor(Math.random() * names3.length);
-  rnd3 = Math.floor(Math.random() * names4.length);
-  names = `${names1[rnd] + names2[rnd1]} ${names3[rnd2]}${names4[rnd3]}`;
-  return names;
+  const rnd = Math.floor(Math.random() * names1.length);
+  const rnd1 = Math.floor(Math.random() * names2.length);
+  const rnd2 = Math.floor(Math.random() * names3.length);
+  const rnd3 = Math.floor(Math.random() * names4.length);
+  return `${names1[rnd] + names2[rnd1]} ${names3[rnd2]}${names4[rnd3]}`;
 }

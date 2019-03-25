@@ -11,6 +11,8 @@
   },
   "rules": {
     "no-lone-blocks": 0,
-    "prefer-destructuring": 0
+    "prefer-destructuring": 0,
+    "no-plusplus": 0,
+    "max-len": 0,
   }
 }

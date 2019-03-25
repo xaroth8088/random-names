@@ -1,8 +1,4 @@
 export default function tamils() {
-  let names;
-  let names1;
-  let rnd;
-  let rnd2;
   const type = Math.random() > 0.5 ? 0 : 1;
   const namesMale = ['Aabharan', 'Aabilesh', 'Aacharya', 'Aachuthan',
     'Aadalazhagan', 'Aadanyan', 'Aadarsh', 'Aadesh', 'Aadhavan', 'Aadhi',
@@ -3533,10 +3529,8 @@ export default function tamils() {
   const namesFamily = ['A.', 'B.', 'C.', 'D.', 'E.', 'F.', 'G.', 'H.', 'I.',
     'J.', 'K.', 'L.', 'M.', 'N.', 'O.', 'P.', 'R.', 'S.', 'T.', 'U.', 'V.',
     'W.', 'Y.', 'Z.'];
-  names1 = type === 1 ? namesFemale : namesMale; {
-    rnd = Math.floor(Math.random() * names1.length);
-    rnd2 = Math.floor(Math.random() * namesFamily.length);
-    names = `${names1[rnd]} ${namesFamily[rnd2]}`;
-    return names;
-  }
+  const names1 = type === 1 ? namesFemale : namesMale;
+  const rnd = Math.floor(Math.random() * names1.length);
+  const rnd2 = Math.floor(Math.random() * namesFamily.length);
+  return `${names1[rnd]} ${namesFamily[rnd2]}`;
 }
