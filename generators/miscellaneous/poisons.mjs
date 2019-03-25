@@ -1,5 +1,8 @@
 export default function poisons() {
-  let rnd2; let rnd3; let rnd4; let
+  let rnd2;
+  let rnd3;
+  let rnd4;
+  let
     rnd5;
 
 

@@ -1,5 +1,7 @@
 export default function drows() {
-  let rnd2; let rnd3; let
+  let rnd2;
+  let rnd3;
+  let
     rnd4;
 
 

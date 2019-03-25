@@ -1,5 +1,6 @@
 export default function hunger_games() {
-  let rnd2; let
+  let rnd2;
+  let
     rnd3;
 
 

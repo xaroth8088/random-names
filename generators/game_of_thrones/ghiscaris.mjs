@@ -1,7 +1,15 @@
 export default function ghiscaris() {
-  let rnd2; let rnd3; let rnd4; let rnd5; let rnd6; let
+  let rnd2;
+  let rnd3;
+  let rnd4;
+  let rnd5;
+  let rnd6;
+  let
     rnd9;
-  let rnd10; let rnd11; let rnd12; let
+  let rnd10;
+  let rnd11;
+  let rnd12;
+  let
     rnd13;
 
 

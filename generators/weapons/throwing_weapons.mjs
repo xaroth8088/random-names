@@ -1,5 +1,6 @@
 export default function throwing_weapons() {
-  let rnd2; let
+  let rnd2;
+  let
     rnd3;
 
 

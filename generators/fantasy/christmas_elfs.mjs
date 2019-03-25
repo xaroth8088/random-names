@@ -1,5 +1,6 @@
 export default function christmas_elfs() {
-  let rnd2; let
+  let rnd2;
+  let
     rnd3;
 
 

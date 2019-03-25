@@ -1,5 +1,6 @@
 export default function steampunks() {
-  let rnd2; let
+  let rnd2;
+  let
     rnd3;
 
 

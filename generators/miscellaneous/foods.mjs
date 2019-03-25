@@ -1,5 +1,6 @@
 export default function foods() {
-  let rnd2; let
+  let rnd2;
+  let
     rnd3;
 
 

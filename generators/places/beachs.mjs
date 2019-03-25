@@ -1,5 +1,9 @@
 export default function beachs() {
-  let rnd1; let rnd2; let rnd3; let rnd4; let
+  let rnd1;
+  let rnd2;
+  let rnd3;
+  let rnd4;
+  let
     rnd5;
 
 

@@ -1,5 +1,7 @@
 export default function legs() {
-  let rnd1; let rnd2; let
+  let rnd1;
+  let rnd2;
+  let
     rnd3;
 
 

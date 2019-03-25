@@ -1,7 +1,19 @@
 export default function gallifreyans() {
-  let rnd2; let rnd3; let rnd4; let rnd5; let rnd6; let rnd7; let rnd8; let
+  let rnd2;
+  let rnd3;
+  let rnd4;
+  let rnd5;
+  let rnd6;
+  let rnd7;
+  let rnd8;
+  let
     rnd9;
-  let rnd10; let rnd11; let rnd12; let rnd13; let rnd14; let
+  let rnd10;
+  let rnd11;
+  let rnd12;
+  let rnd13;
+  let rnd14;
+  let
     rnd15;
 
 

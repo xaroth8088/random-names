@@ -1,5 +1,8 @@
 export default function brands() {
-  let rnd1; let rnd2; let rnd3; let
+  let rnd1;
+  let rnd2;
+  let rnd3;
+  let
     rnd4;
 
 

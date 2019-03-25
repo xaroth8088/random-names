@@ -1,5 +1,6 @@
 export default function my_little_ponys() {
-  let rnd0; let
+  let rnd0;
+  let
     rnd1;
 
 

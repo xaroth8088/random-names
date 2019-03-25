@@ -1,5 +1,8 @@
 export default function dwarfs() {
-  let rnd0; let rnd1; let rnd2; let
+  let rnd0;
+  let rnd1;
+  let rnd2;
+  let
     rnd3;
 
 

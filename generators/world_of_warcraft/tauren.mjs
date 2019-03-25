@@ -1,5 +1,7 @@
 export default function tauren() {
-  let rnd2; let rnd5; let
+  let rnd2;
+  let rnd5;
+  let
     rnd6;
 
 

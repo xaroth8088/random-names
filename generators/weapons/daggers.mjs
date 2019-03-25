@@ -1,5 +1,6 @@
 export default function daggers() {
-  let rnd2; let
+  let rnd2;
+  let
     rnd3;
 
 

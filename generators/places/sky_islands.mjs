@@ -1,5 +1,11 @@
 export default function sky_islands() {
-  let rnd2; let rnd3; let rnd4; let rnd5; let rnd7; let rnd8; let
+  let rnd2;
+  let rnd3;
+  let rnd4;
+  let rnd5;
+  let rnd7;
+  let rnd8;
+  let
     rnd9;
 
 

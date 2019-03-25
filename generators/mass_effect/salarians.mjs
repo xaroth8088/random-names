@@ -1,5 +1,13 @@
 export default function salarians() {
-  let rnd0; let rnd1; let rnd2; let rnd3; let rnd4; let rnd5; let rnd6; let rnd7; let
+  let rnd0;
+  let rnd1;
+  let rnd2;
+  let rnd3;
+  let rnd4;
+  let rnd5;
+  let rnd6;
+  let rnd7;
+  let
     rnd8;
 
 

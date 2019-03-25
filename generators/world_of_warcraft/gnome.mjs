@@ -1,5 +1,8 @@
 export default function gnome() {
-  let rnd2; let rnd3; let rnd7; let
+  let rnd2;
+  let rnd3;
+  let rnd7;
+  let
     rnd8;
 
 

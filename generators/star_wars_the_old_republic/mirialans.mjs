@@ -1,5 +1,11 @@
 export default function mirialans() {
-  let rnd2; let rnd3; let rnd4; let rnd5; let rnd6; let rnd7; let
+  let rnd2;
+  let rnd3;
+  let rnd4;
+  let rnd5;
+  let rnd6;
+  let rnd7;
+  let
     rnd9;
 
 

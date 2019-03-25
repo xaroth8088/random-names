@@ -1,5 +1,7 @@
 export default function armys() {
-  let rnd0; let rnd1; let
+  let rnd0;
+  let rnd1;
+  let
     rnd2;
 
 

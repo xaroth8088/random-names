@@ -1,5 +1,6 @@
 export default function winged_horses() {
-  let rnd2; let
+  let rnd2;
+  let
     rnd3;
 
 

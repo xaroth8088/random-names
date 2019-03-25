@@ -1,5 +1,7 @@
 export default function gauntlets() {
-  let rnd1; let rnd2; let
+  let rnd1;
+  let rnd2;
+  let
     rnd3;
 
 

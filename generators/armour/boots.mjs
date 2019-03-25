@@ -1,5 +1,8 @@
 export default function boots() {
-  let rnd0; let rnd1; let rnd2; let
+  let rnd0;
+  let rnd1;
+  let rnd2;
+  let
     rnd3;
 
 

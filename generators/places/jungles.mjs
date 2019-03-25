@@ -1,5 +1,9 @@
 export default function jungles() {
-  let rnd2; let rnd3; let rnd4; let rnd5; let
+  let rnd2;
+  let rnd3;
+  let rnd4;
+  let rnd5;
+  let
     rnd6;
 
 
@@ -21,7 +25,8 @@ export default function jungles() {
       rnd2 = Math.floor(Math.random() * names2.length);
       names = `The ${names1[rnd]} ${names2[rnd2]}`;
       return names;
-    } if (i < 8) {
+    }
+    if (i < 8) {
       rnd = Math.floor(Math.random() * names3.length);
       rnd2 = Math.floor(Math.random() * names4.length);
       rnd3 = Math.floor(Math.random() * names7.length);

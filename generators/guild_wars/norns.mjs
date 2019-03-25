@@ -1,5 +1,7 @@
 export default function norns() {
-  let rnd2; let rnd4; let
+  let rnd2;
+  let rnd4;
+  let
     rnd5;
 
 

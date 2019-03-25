@@ -1,5 +1,7 @@
 export default function wheel_of_times() {
-  let rnd2; let rnd3; let
+  let rnd2;
+  let rnd3;
+  let
     rnd4;
 
 

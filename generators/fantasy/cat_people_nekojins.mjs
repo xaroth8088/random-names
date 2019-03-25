@@ -1,5 +1,10 @@
 export default function cat_people_nekojins() {
-  let rnd4; let rnd5; let rnd6; let rnd7; let rnd8; let
+  let rnd4;
+  let rnd5;
+  let rnd6;
+  let rnd7;
+  let rnd8;
+  let
     rnd9;
   let rnd10;
 

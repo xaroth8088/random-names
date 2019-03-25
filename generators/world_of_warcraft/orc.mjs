@@ -1,5 +1,9 @@
 export default function orc() {
-  let rnd2; let rnd4; let rnd6; let rnd7; let
+  let rnd2;
+  let rnd4;
+  let rnd6;
+  let rnd7;
+  let
     rnd8;
 
 
