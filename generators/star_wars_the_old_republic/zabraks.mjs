@@ -1,4 +1,8 @@
 export default function zabraks() {
+  let names;
+  let rnd;
+  let rnd2;
+  let rnd3;
   let rnd;
   let rnd2;
   let rnd3;
@@ -14,8 +18,7 @@ export default function zabraks() {
   const nm5 = ['a', 'o', 'u', 'e', '', '', '', '', '', '', ''];
   const nm6 = ['A', 'O', 'E', 'B', 'Bl', 'D', 'G', 'H', 'K', 'Kl', 'L', 'M', 'N', 'P', 'Q', 'R', 'S', 'St', 'T', 'V', 'Vr', 'X', 'W'];
   const nm7 = ['ba', 'be', 'bi', 'bo', 'bra', 'bre', 'bri', 'bro', 'da', 'de', 'di', 'do', 'dra', 'dre', 'dri', 'dro', 'ga', 'ge', 'gi', 'go', 'gra', 'gre', 'gri', 'gro', 'ka', 'ke', 'ki', 'ko', 'kra', 'kre', 'kri', 'kro', 'ma', 'me', 'mi', 'mo', 'na', 'ne', 'ni', 'no', 'pa', 'pe', 'pi', 'po', 'pra', 'pre', 'pri', 'pro', 'qa', 'qe', 'qi', 'qo', 'ra', 're', 'rga', 'rge', 'rgi', 'rgo', 'ri', 'ro', 'sa', 'se', 'si', 'so', 'sra', 'sre', 'sri', 'sro', 'sta', 'ste', 'sti', 'sto', 'ta', 'te', 'ti', 'to', 'tra', 'tre', 'tri', 'tro', 'va', 've', 'vi', 'vo', 'vra', 'vre', 'vri', 'vro', 'xa', 'xe', 'xi', 'xo'];
-  const nm8 = ['a', 'o', 'u', 'e', 'i', '', '', '', ''];
-  {
+  const nm8 = ['a', 'o', 'u', 'e', 'i', '', '', '', '']; {
     rnd2 = Math.floor(Math.random() * nm2.length);
     rnd4 = Math.floor(Math.random() * nm4.length);
     if (type === 1) {

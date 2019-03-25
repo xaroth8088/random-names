@@ -1,4 +1,7 @@
 export default function southAfricanTowns() {
+  let names;
+  let rnd;
+  let rnd2;
   let rnd;
   let rnd2;
   let names;
@@ -17,8 +20,7 @@ export default function southAfricanTowns() {
   /* Swaziland */
   const nm9 = ['Bhu', 'Bhun', 'Bu', 'Bule', 'Bulem', 'Da', 'Dalu', 'Danka', 'Danzi', 'Dar', 'Dule', 'Hla', 'Hlati', 'Hlu', 'Hluti', 'Ku', 'Kubu', 'Kwa', 'Kwalu', 'La', 'Lanka', 'Lavu', 'Lo', 'Loba', 'Lobam', 'Lume', 'Ma', 'Mal', 'Male', 'Malu', 'Man', 'Manka', 'Manzi', 'Mavu', 'Mba', 'Mbaba', 'Mhla', 'Mhlam', 'Mhlamba', 'Mhlu', 'Mhlume', 'Mo', 'Moba', 'Mon', 'Mowe', 'Mpa', 'Ngo', 'Ngoba', 'Ngoma', 'Ngome', 'Ngowe', 'Ngwe', 'Ngwen', 'Nhla', 'Nhlame', 'Nhlan', 'Nhlana', 'Nhlave', 'Nsaba', 'Nse', 'Nso', 'Nsola', 'Savu', 'Si', 'Sid', 'Sidvo', 'Simu', 'Site', 'Some', 'Sume', 'Ta', 'Taba', 'Taban', 'Temba', 'Tha', 'Thane', 'Timo', 'Toba', 'Toma', 'Tsha', 'Tshane', 'Tume', 'Vam', 'Vamba', 'Vane', 'Ven', 'Voma', 'Vu', 'Vuvu'];
   const nm10 = ['ba', 'bamba', 'bane', 'bano', 'banyatsi', 'banye', 'beni', 'bu', 'bulu', 'bume', 'bunye', 'buta', 'dambe', 'dane', 'dano', 'di', 'dume', 'gane', 'gano', 'gembu', 'gesa', 'gulu', 'gune', 'ka', 'kani', 'kayane', 'kena', 'kerns', 'ki', 'ko', 'kodvo', 'kulu', 'kume', 'lane', 'lembu', 'lena', 'lo', 'lu', 'lulu', 'lume', 'luno', 'lunye', 'luseni', 'mane', 'me', 'misa', 'munye', 'ne', 'neni', 'ni', 'no', 'nya', 'sa', 'sena', 'seni', 'sisa', 'sume', 'ta', 'teki', 'teni', 'ti', 'tikulu', 'ton', 'tulu', 'tume', 'vane', 'vise', 'vo', 'volane', 'vone', 'vulane', 'vulu', 'ya', 'yale', 'yane', 'yatsi', 'ye', 'yesa', 'yu', 'yulu', 'zane', 'zena', 'zini', 'ziya', 'zon'];
-  const i = Math.floor(Math.random() * 10);
-  {
+  const i = Math.floor(Math.random() * 10); {
     if (i < 2) {
       rnd = Math.floor(Math.random() * nm1.length);
       rnd2 = Math.floor(Math.random() * nm2.length);

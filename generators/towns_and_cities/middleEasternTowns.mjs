@@ -1,4 +1,7 @@
 export default function middleEasternTowns() {
+  let names;
+  let rnd;
+  let rnd2;
   let rnd;
   let rnd2;
   let names;
@@ -23,8 +26,7 @@ export default function middleEasternTowns() {
   // Syria
   const nm13 = ['Abo Fa', 'Abu Ka', 'Afri', 'Al Anna', 'Al Bahlu', 'Al Bari', 'Al Darba', 'Al Di', 'Al Fa', 'Al Ghu', 'Al Ha', 'Al Haja', 'Al Hami', 'Al Hasa', 'Al Kari', 'Al Mrie', 'Al Na', 'Al Qamsi', 'Al Qusa', 'Al Ra', 'Al Ruhei', 'Al Sala', 'Al Sana', 'Al Sisa', 'Al Suqa', 'Al Tawa', 'Ama', 'Amu', 'Ari', 'Arra', 'Assa', 'Ata', 'Aza', 'Bani', 'Bebi', 'Binni', 'Brou', 'Brumma', 'Burra', 'Busta', 'Dali', 'Dama', 'Dara', 'Dei', 'Dou', 'Duma', 'Dumei', 'Fai', 'Gha', 'Hama', 'Hami', 'Hamma', 'Hara', 'Hare', 'Henna', 'Jable', 'Jara', 'Jasse', 'Juna', 'Kafa', 'Khaba', 'Lata', 'Maalou', 'Maara', 'Mada', 'Marma', 'Masya', 'Maya', 'Maysa', 'Mha', 'Mishe', 'Mnee', 'Muze', 'Nawa', 'Qami', 'Qana', 'Qarda', 'Qata', 'Qudsa', 'Qunei', 'Rabi', 'Saasa', 'Sada', 'Saf', 'Saha', 'Salma', 'Sara', 'Sasa', 'Sayyi', 'Sha', 'Sibba', 'Sihna', 'Sirgha', 'Sura', 'Tali', 'Talka', 'Tartu', 'Yabru', 'Zaba', 'Zai', 'Zwei'];
   const nm14 = ['bea', 'bet', 'bi', 'bila', 'bk', 'bleh', 'bous', 'bulus', 'dad', 'dan', 'dani', 'daya', 'din', 'diyah', 'dmur', 'dmus', 'dsaya', 'ffag', 'fira', 'fita', 'forrah', 'froun', 'hnaya', 'hum', 'jar', 'kamah', 'khoura', 'kia', 'kish', 'kiyah', 'lakh', 'lbeh', 'liha', 'likiyah', 'lin', 'liyah', 'lkalakh', 'lkhad', 'lkrom', 'ma', 'mal', 'manah', 'marit', 'mas', 'mayn', 'meir', 'miyah', 'mmam', 'mmanet', 'msiyah', 'nawat', 'naynat', 'niyah', 'niyas', 'niyye', 'nnadi', 'nnish', 'qah', 'qaq', 'qib', 'qiyah', 'qqah', 'ra', 'rah', 'raj', 'rasta', 'rayya', 'rdah', 'rdaha', 'rdeh', 'rem', 'rera', 'rimah', 'rita', 'rke', 'rouz', 'rouzeh', 'rrah', 'rran', 'rraq', 'rwad', 'sab', 'sakah', 'salun', 'saniyah', 'sayr', 'shli', 'shniyah', 'siyah', 'slan', 'sra', 'ssem', 'sta', 'stan', 'syaf', 'takia', 'tayfah', 'tina', 'tra', 'wahin', 'wayda', 'wda', 'wrah', 'wrat', 'yadin', 'yah', 'yamayn', 'ykish', 'zah', 'zeh', 'zeraa'];
-  i = Math.floor(Math.random() * 14);
-  {
+  const i = Math.floor(Math.random() * 14); {
     if (i < 2) {
       rnd = Math.floor(Math.random() * nm1.length);
       rnd2 = Math.floor(Math.random() * nm2.length);

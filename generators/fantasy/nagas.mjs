@@ -1,4 +1,8 @@
 export default function nagas() {
+  let names;
+  let rnd;
+  let rnd2;
+  let rnd3;
   let rnd;
   let rnd2;
   let rnd3;
@@ -17,8 +21,7 @@ export default function nagas() {
   const nm6 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'aa', 'ai', 'ee', 'ei', 'ie'];
   const nm7 = ['c', 'd', 'dh', 'k', 'kh', 'l', 'r', 's', 'sh', 't', 'th', 'x', 'xh', 'z', 'zh', 'c', 'd', 'k', 'l', 'r', 's', 't', 'x', 'z', 'c', 'd', 'k', 'l', 'r', 's', 't', 'x', 'z', 's', 's', 'sh', 'sh', 'cc', 'ch', 'ck', 'cs', 'csh', 'cz', 'dh', 'dj', 'kk', 'kh', 'ks', 'ksh', 'kz', 'll', 'lh', 'lz', 'ls', 'rr', 'rc', 'rg', 'rh', 'rj', 'rs', 'rsh', 'rz', 'rsz', 'rt', 'rth', 'rc', 'rk', 'ss', 'sc', 'sh', 'sk', 'sz', 'sy', 'th', 'tr', 'ts', 'tz', 'tsh', 'xh', 'xs', 'xz', 'zh', 'zs', 'zz', 'zs'];
   const nm8 = ['', '', '', '', '', '', '', '', '', '', '', 'kh', 'l', 'r', 's', 'sj', 'ss', 'sh', 'sz', 't', 'th', 'x', 'z', 'zs'];
-  const i = Math.floor(Math.random() * 10);
-  {
+  const i = Math.floor(Math.random() * 10); {
     if (i < 5) {
       rnd = Math.floor(Math.random() * nm5.length);
       rnd2 = Math.floor(Math.random() * nm6.length);

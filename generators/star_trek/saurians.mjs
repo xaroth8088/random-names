@@ -1,4 +1,8 @@
 export default function saurians() {
+  let names;
+  let rnd;
+  let rnd2;
+  let rnd3;
   let rnd;
   let rnd2;
   let rnd3;
@@ -19,8 +23,7 @@ export default function saurians() {
   const nm8 = ['a', 'e', 'i', 'o', 'u', 'ia', 'ie', 'uo', 'ai', 'uu', 'oo', 'ae', 'uoa'];
   const nm9 = ['gr', 'gg', 'g', 'gt', 'h', 'l', 'm', 'n', 'nn', 'q', 'qq', 'r', 'rr', 'sh', 's', 'ss', 't', 'tt', 'v', 'y', 'z'];
   const nm10 = ['', '', '', '', '', '', '', '', 'ch', 'g', 'm', 'n', 's'];
-  const i = Math.floor(Math.random() * 10);
-  {
+  const i = Math.floor(Math.random() * 10); {
     if (type === 1) {
       if (i < 5) {
         rnd = Math.floor(Math.random() * nm7.length);

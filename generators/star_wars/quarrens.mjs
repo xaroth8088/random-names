@@ -1,4 +1,9 @@
 export default function quarrens() {
+  let namelast;
+  let names;
+  let rnd;
+  let rnd2;
+  let rnd3;
   let rnd;
   let rnd2;
   let rnd3;
@@ -20,8 +25,7 @@ export default function quarrens() {
   const nm6 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'au', 'ee', 'aa'];
   const nm7 = ['bn', 'br', 'c', 'ck', 'cp', 'cm', 'dk', 'dm', 'g', 'gg', 'hl', 'k', 'kk', 'kr', 'km', 'l', 'lb', 'lp', 'lg', 'lm', 'nm', 'n', 'nn', 'nd', 'nr', 'nt', 'p', 'pp', 'q', 'r', 'rk', 'rr', 'rt', 'rh', 'rz', 's', 'ss', 'st', 'sm', 'sq', 't', 'v', 'w', 'wm'];
   const nm8 = ['', '', '', '', 'd', 'dd', 'ff', 'g', 'k', 'l', 'lg', 'll', 'ls', 'm', 'n', 'nk', 'nx', 'q', 'r', 'rg', 'rn', 'rv', 's', 'sk', 't', 'z'];
-  const i = Math.floor(Math.random() * 10);
-  {
+  const i = Math.floor(Math.random() * 10); {
     rnd7 = Math.floor(Math.random() * nm5.length);
     rnd8 = Math.floor(Math.random() * nm6.length);
     rnd10 = Math.floor(Math.random() * nm8.length);

@@ -1,4 +1,8 @@
 export default function foods() {
+  let names;
+  let rnd;
+  let rnd2;
+  let rnd3;
   let rnd;
   let rnd2;
   let
@@ -11,8 +15,7 @@ export default function foods() {
   const names5 = ['Bake', 'Bread', 'Bruschetta', 'Buns', 'Calzone', 'Chestnuts', 'Chutney', 'Flatbread', 'Forest Mushrooms', 'Gratin', 'Kebabs', 'Lasagne', 'Linguine', 'Moussaka', 'Nut Mix', 'Omelette', 'Pasta', 'Pie', 'Pizza', 'Potato Wedges', 'Potatoes', 'Rice', 'Risotto', 'Roll', 'Salad', 'Sandwich', 'Scrambled Egg', 'Soup', 'Spring Greens', 'Spring Vegetables', 'Stuffed Bread', 'Taco', 'Tart', 'Tofu', 'Tortilla', 'Vegetable Mix', 'Vegetables', 'Walnuts', 'Winter Greens', 'Winter Vegetables'];
   const names6 = ['Almond', 'Apple', 'Avocado', 'Banana', 'Blueberry', 'Caramel', 'Cardamom', 'Cashew', 'Cherry', 'Chestnut', 'Chocolate', 'Cinnamon', 'Cocoa', 'Coconut', 'Coffee', 'Cranberry', 'Dark Chocolate', 'Date', 'Elderberry', 'Ginger', 'Gooseberry', 'Grape', 'Grapefruit', 'Guava', 'Hazelnut', 'Honey', 'Kiwi', 'Lemon', 'Licorice', 'Lime', 'Mandarin', 'Mango', 'Melon', 'Milk Chocolate', 'Mint', 'Nutmeg', 'Orange', 'Papaya', 'Passion Fruit', 'Peach', 'Peanut', 'Pecan', 'Pineapple', 'Pistachio', 'Plum', 'Praline', 'Raspberry', 'Red Wine', 'Rum', 'Saffron', 'Strawberry', 'Vanilla', 'Walnut', 'White Chocolate', 'White Wine'];
   const names7 = ['Bombe', 'Bonbons', 'Bread', 'Buns', 'Cake', 'Candy', 'Cheesecake', 'Cobbler', 'Cone', 'Cookies', 'Crispies', 'Crumble', 'Custard', 'Delight', 'Doughnut', 'Fruit Salad', 'Fruitcake', 'Fudge', 'Genoise', 'Gingerbread', 'Ice Cream', 'Ice Lollies', 'Jam', 'Jelly', 'Milk', 'Molten Cake', 'Mooncake', 'Pancakes', 'Pastry', 'Pavlova', 'Pie', 'Pound Cake', 'Pud', 'Pudding', 'Roll', 'Snacks', 'Sorbet', 'Soufflé', 'Split', 'Steamed Pudding', 'Strudel', 'Sundae', 'Surprise', 'Tart', 'Tarte Tatin', 'Toast', 'Toffee', 'Trifle', 'Wafer', 'Waffles', 'Whip', 'Yogurt'];
-  const i = Math.floor(Math.random() * 10);
-  {
+  const i = Math.floor(Math.random() * 10); {
     if (i < 6) {
       rnd = Math.floor(Math.random() * names1.length);
       rnd2 = Math.floor(Math.random() * names2.length);

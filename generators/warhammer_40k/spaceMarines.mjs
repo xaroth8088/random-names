@@ -1,4 +1,8 @@
 export default function spaceMarines() {
+  let names;
+  let rnd;
+  let rnd2;
+  let rnd3;
   let rnd;
   let rnd2;
   let rnd3;
@@ -18,8 +22,7 @@ export default function spaceMarines() {
   const nm11 = ['ban', 'bdek', 'be', 'blai', 'bor', 'bulum', 'caon', 'char', 'chia', 'chite', 'co', 'cole', 'cona', 'ctor', 'dae', 'dai', 'don', 'dor', 'drakk', 'driik', 'fen', 'frir', 'gan', 'go', 'gol', 'grim', 'gum', 'gutai', 'hiam', 'hr', 'jz', 'kal', 'kar', 'kari', 'katon', 'kha', 'kim', 'kir', 'kona', 'lach', 'lakim', 'lan', 'laro', 'lavech', 'lemy', 'ler', 'lgaar', 'lial', 'lian', 'lkca', 'llig', 'llion', 'llon', 'los', 'lsa', 'lus', 'mah', 'makar', 'man', 'mech', 'mine', 'mmon', 'nder', 'ndian', 'nea', 'nian', 'nid', 'nitan', 'noch', 'nos', 'pico', 'pito', 'pphon', 'ra', 'rah', 'ram', 'rast', 'rath', 'rbul', 'rbulo', 'rcyra', 'rdaci', 'rdan', 'rdova', 'ren', 'resh', 'rh', 'riah', 'riam', 'rian', 'rica', 'rkov', 'rleo', 'rnous', 'ro', 'ron', 'ros', 'rpico', 'rqol', 'rrion', 'rrox', 'rtath', 'rtes', 'rus', 'rvon', 'ryon', 'san', 'sarro', 'sein', 'shan', 'slan', 'ssir', 'stion', 'tai', 'tan', 'taron', 'tek', 'ter', 'thak', 'thar', 'ther', 'thigg', 'tikan', 'tor', 'trok', 'trus', 'vaan', 'var', 'vech', 'veren', 'viton', 'von', 'vydae', 'xx', 'zlo', 'zra'];
   const nm12 = ['Ab', 'Ad', 'Ak', 'Alb', 'Alv', 'Am', 'Andr', 'Aq', 'Ber', 'Bl', 'Blant', 'Blay', 'C', 'Calg', 'Ch', 'Chr', 'Cort', 'Cyb', 'Dar', 'Dars', 'Dom', 'Elg', 'Eng', 'F', 'Ferr', 'Fur', 'G', 'Gr', 'Grenz', 'Guill', 'H', 'Hest', 'Inv', 'Iss', 'K', 'Kan', 'Kant', 'Karr', 'Kyr', 'M', 'Med', 'Mend', 'Mor', 'Morv', 'N', 'Neot', 'Ort', 'P', 'Ph', 'Phor', 'R', 'Rub', 'S', 'Sh', 'Sharr', 'Shr', 'Sol', 'T', 'Tar', 'Th', 'Tham', 'Tib', 'Tig', 'Tr', 'Trism', 'Ush', 'V', 'Vib', 'Vid', 'W', 'Wyrd'];
   const nm13 = ['addas', 'ai', 'ake', 'an', 'ane', 'antar', 'antor', 'ar', 'are', 'aris', 'as', 'asi', 'atica', 'auth', 'ay', 'edth', 'ef', 'ein', 'elis', 'entre', 'era', 'erec', 'erro', 'erus', 'es', 'ev', 'exus', 'ez', 'iam', 'iar', 'ica', 'idya', 'iel', 'ikus', 'im', 'io', 'ios', 'ist', 'istus', 'it', 'ius', 'ixx', 'on', 'onus', 'or', 'orak', 'os', 'oss', 'ova', 'ox', 'oza', 'uebus', 'uil', 'uila', 'urus', 'us', 'yras', 'ys'];
-  i = Math.floor(Math.random() * 12);
-  {
+  const i = Math.floor(Math.random() * 12); {
     if (i < 3) {
       rnd = Math.floor(Math.random() * nm1.length);
       names = nm1[rnd];

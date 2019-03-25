@@ -1,4 +1,9 @@
 export default function orcs() {
+  let nameLast;
+  let names;
+  let rnd;
+  let rnd2;
+  let rnd3;
   let rnd;
   let rnd2;
   let rnd3;
@@ -26,8 +31,7 @@ export default function orcs() {
   const nm10 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'uu', 'aa', 'ua'];
   const nm11 = ['d', 'dd', 'dr', 'fr', 'fn', 'g', 'gg', 'gd', 'gn', 'gm', 'gz', 'hm', 'hj', 'hm', 'k', 'kk', 'kd', 'kn', 'ld', 'lb', 'lk', 'lz', 'lg', 'lk', 'll', 'lr', 'm', 'mg', 'mk', 'n', 'nn', 'ng', 'nr', 'nk', 'r', 'rr', 'rg', 'rk', 'rn', 'rm', 'rv', 'sg', 'ss', 's', 'sr', 'sk', 'sn', 'v', 'vr', 'vn', 'vk', 'z', 'zk', 'zn', 'zm'];
   const nm12 = ['d', 'hn', 'hd', 'k', 'l', 'm', 'n', 'r', 's', 'sh', 't', 'th'];
-  const i = Math.floor(Math.random() * 10);
-  {
+  const i = Math.floor(Math.random() * 10); {
     rnd8 = Math.floor(Math.random() * nm9.length);
     rnd9 = Math.floor(Math.random() * nm10.length);
     rnd12 = Math.floor(Math.random() * nm12.length);

@@ -1,4 +1,8 @@
 export default function barbarians() {
+  let names;
+  let rnd;
+  let rnd2;
+  let rnd3;
   let rnd;
   let rnd2;
   let rnd3;
@@ -17,8 +21,7 @@ export default function barbarians() {
   const nm6 = ['ae', 'ea', 'ie', 'ei', 'io', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u'];
   const nm7 = ['bj', 'c', 'd', 'dd', 'df', 'dl', 'dr', 'f', 'ff', 'fl', 'fn', 'fr', 'fth', 'g', 'gd', 'gm', 'gn', 'gnh', 'gr', 'h', 'hh', 'k', 'l', 'ld', 'lf', 'lfh', 'lg', 'lgr', 'lh', 'lk', 'll', 'lm', 'lr', 'ls', 'lv', 'm', 'mm', 'n', 'nd', 'ndr', 'ng', 'ngr', 'ngv', 'nh', 'nl', 'nn', 'nnh', 'nr', 'ns', 'nt', 'nv', 'r', 'rd', 'rf', 'rg', 'rgh', 'rgr', 'rh', 'rk', 'rl', 'rm', 'rn', 'rnd', 'rng', 'rr', 'rst', 'rt', 'rth', 'rtr', 'rv', 's', 'sb', 'sd', 'sg', 'sh', 'sl', 'st', 'stn', 'str', 'sv', 't', 'thr', 'tk', 'tr', 'tt', 'tth', 'v', 'y', 'yj', 'ym', 'yn'];
   const nm8 = ['', '', '', '', 'f', 'g', 'h', 'l', 'n', 'nn', 's', 'sh', 'th', 'y'];
-  const i = Math.floor(Math.random() * 10);
-  {
+  const i = Math.floor(Math.random() * 10); {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm5.length);
       rnd2 = Math.floor(Math.random() * nm6.length);

@@ -1,4 +1,8 @@
 export default function rigelians() {
+  let names;
+  let rnd;
+  let rnd2;
+  let rnd3;
   let rnd;
   let rnd2;
   let rnd3;
@@ -17,8 +21,7 @@ export default function rigelians() {
   const nm6 = ['a', 'ae', 'ei', 'i', 'o', 'ou', 'u', 'a', 'u', 'a', 'u', 'o', 'ii', 'ea', 'oo', 'aa', 'oi', 'ee'];
   const nm7 = ['c', 'ch', 'gg', 'gr', 'l', 'll', 'ln', 'ngy', 'ng', 'n', 'm', 's', 'st', 'sh', 'shw', 'v', 'ys', 'w', 'wr', 'c', 'g', 'l', 's', 'v', 'w', 'c', 'g', 'l', 's', 'v', 'w', 'n', 'n', 'm', 'm'];
   const nm8 = ['d', 'l', 'n', 'm', 's', 'x', '', '', '', '', '', ''];
-  const i = Math.floor(Math.random() * 10);
-  {
+  const i = Math.floor(Math.random() * 10); {
     if (type === 1) {
       if (i < 5) {
         rnd = Math.floor(Math.random() * nm5.length);

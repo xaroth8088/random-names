@@ -1,4 +1,8 @@
 export default function vehicles() {
+  let names;
+  let rnd;
+  let rnd2;
+  let rnd3;
   let rnd;
   let rnd2;
   let rnd3;
@@ -15,8 +19,7 @@ export default function vehicles() {
   const names6 = ['b', 'c', 'd', 'f', 'g', 'h', 'k', 'l', 'm', 'n', 'p', 'r', 's', 't', 'w', 'x', 'y', 'z', 'br', 'cr', 'dr', 'fr', 'gr', 'kr', 'pr', 'tr', 'vr', 'wr', 'str', 'bl', 'cl', 'fl', 'gl', 'kl', 'pl', 'sl', 'vl', 'ch', 'sh', 'ph'];
   const names7 = ['c', 'd', 'f', 'h', 'k', 'l', 'm', 'n', 's', 't', 'x', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', ''];
   const names8 = ['plane', 'train', 'truck', 'bus', 'car', 'copter', 'cycle', 'ship', 'mobile', 'craft', 'cart', 'sled', 'craft', 'motive', 'van', 'wheel', 'board'];
-  const i = Math.floor(Math.random() * 10);
-  {
+  const i = Math.floor(Math.random() * 10); {
     if (i < 4) {
       rnd = Math.floor(Math.random() * names1.length);
       rnd2 = Math.floor(Math.random() * names2.length);

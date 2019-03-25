@@ -1,4 +1,9 @@
 export default function halfOrcs() {
+  let nameLast;
+  let names;
+  let rnd;
+  let rnd2;
+  let rnd3;
   let rnd;
   let rnd2;
   let rnd3;
@@ -29,8 +34,7 @@ export default function halfOrcs() {
   const nm10 = ['a', 'e', 'i', 'o', 'u'];
   const nm11 = ['b', 'br', 'd', 'dr', 'dk', 'g', 'gr', 'gh', 'gl', 'k', 'kr', 'l', 'lk', 'lgr', 'ln', 'lr', 'lr', 'm', 'mk', 'n', 'nr', 'nk', 'nd', 'ndr', 'ng', 'rg', 'rv', 'rk', 'r', 'rr', 'rsh', 'shk', 'st', 'sk', 'sr', 'sv', 'svr', 'tsk', 'tk', 'tr', 'v', 'xl', 'xn', 'z', 'zr', 'zk'];
   const nm12 = ['', '', '', '', '', 'ch', 'd', 'k', 'ld', 'lm', 'm', 'n', 'r', 'shky', 'tsky', 'v', 'x', 'z'];
-  const i = Math.floor(Math.random() * 10);
-  {
+  const i = Math.floor(Math.random() * 10); {
     rnd10 = Math.floor(Math.random() * nm9.length);
     rnd11 = Math.floor(Math.random() * nm10.length);
     rnd12 = Math.floor(Math.random() * nm12.length);

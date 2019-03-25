@@ -1,4 +1,7 @@
 export default function apocalypseMutants() {
+  let names;
+  let names1;
+  let rnd;
   let rnd;
   let names;
   const type = Math.random() > 0.5 ? 0 : 1;
@@ -12,8 +15,7 @@ export default function apocalypseMutants() {
     names1 = namesNeutral;
   } else {
     names1 = namesMale;
-  }
-  {
+  } {
     rnd = Math.floor(Math.random() * names1.length);
     names = names1[rnd];
     return names;

@@ -1,4 +1,8 @@
 export default function nobleHouses() {
+  let names;
+  let rnd;
+  let rnd2;
+  let rnd3;
   let rnd;
   let rnd2;
   let rnd3;
@@ -14,8 +18,7 @@ export default function nobleHouses() {
   const names6 = ['ch', 'gg', 'ggs', 'gs', 'k', 'l', 'ld', 'll', 'm', 'mb', 'n', 'ng', 'ngs', 'ns', 'p', 'ph', 'r', 'rd', 'rn', 'rs', 's', 'sh', 'ss', 't', 'tt', 'w', 'wl', 'ws', 'y', '', '', '', '', '', '', '', '', '', '', '', '', '', ''];
   const names7 = ['Amber', 'Apple', 'Arm', 'August', 'Autumn', 'Bar', 'Bell', 'Black', 'Boat', 'Bow', 'Brew', 'Bride', 'Bridge', 'Bronze', 'Brown', 'Buck', 'Camp', 'Can', 'Chamber', 'Chap', 'Clay', 'Cliff', 'Cob', 'Cole', 'Coll', 'Copper', 'Cotton', 'Coving', 'Craw', 'Crow', 'Cunning', 'Dark', 'Daven', 'Daw', 'Down', 'Dye', 'Eagle', 'East', 'Feather', 'Fish', 'Fletch', 'Fore', 'Fox', 'Free', 'Fuller', 'Gallo', 'Gard', 'Gentle', 'Gil', 'Gill', 'God', 'Gold', 'Good', 'Grand', 'Green', 'Grim', 'Gross', 'Hart', 'Hawk', 'Hollo', 'Hunting', 'Kil', 'Knight', 'Law', 'Living', 'Loch', 'Lock', 'Love', 'Marsh', 'Merry', 'Mill', 'Moon', 'More', 'Moss', 'New', 'Night', 'North', 'Rain', 'Raven', 'Rich', 'Robin', 'Roth', 'Rott', 'Sea', 'Silver', 'Small', 'Solo', 'South', 'Spring', 'Stone', 'Summer', 'Sweet', 'Timber', 'Town', 'Under', 'Web', 'West', 'Whit', 'Winter', 'Wood'];
   const names8 = ['bard', 'beard', 'borne', 'bow', 'breed', 'bride', 'burn', 'colt', 'comb', 'dall', 'end', 'field', 'ford', 'gard', 'guard', 'hall', 'ham', 'head', 'hill', 'kind', 'land', 'ledge', 'less', 'ling', 'low', 'maker', 'man', 'mann', 'mere', 'mond', 'more', 'mour', 'port', 'rich', 'riddle', 'ridge', 'send', 'smith', 'son', 'star', 'stein', 'ster', 'strong', 'tomb', 'ton', 'tree', 'ward', 'water', 'way', 'well', 'win', 'wood'];
-  const i = Math.floor(Math.random() * 10);
-  {
+  const i = Math.floor(Math.random() * 10); {
     if (i < 3) {
       rnd = Math.floor(Math.random() * names1.length);
       rnd2 = Math.floor(Math.random() * names2.length);

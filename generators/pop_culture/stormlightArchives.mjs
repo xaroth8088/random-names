@@ -1,4 +1,10 @@
 export default function stormlightArchives() {
+  let names;
+  let rnd;
+  let rnd2;
+  let rnd3;
+  let sname;
+  let lname;
   let rnd;
   let rnd2;
   let rnd3;
@@ -45,8 +51,7 @@ export default function stormlightArchives() {
   const nm32 = ['', '', '', '', '', 'hs', 'hsh', 'hth', 'htn', 'kn', 'km', 'ks', 'kst', 'kh', 'lm', 'ln', 'll', 'lb', 'lst', 'ls', 'lt', 'nm', 'nr', 'nd', 'nt', 'm', 'mt', 'ms', 'msh', 'msl', 'md', 'shlv', 'sn'];
   const nm33 = ['a', 'e', 'o', 'i', 'y'];
   const nm34 = ['cl', 'dv', 'dr', 'dh', 'dl', 'gh', 'gl', 'gm', 'gn', 'h', 'hr', 'hl', 'kl', 'kh', 'kn', 'km', 'kv', 'l', 'ln', 'lm', 'ls', 'mn', 'mw', 'mh', 'nw', 'nl', 'nh', 'th', 'thr', 'trh', 'ts', 'tw', 'tm', 'tn', 'vl', 'vn', 'r'];
-  const i = Math.floor(Math.random() * 10);
-  {
+  const i = Math.floor(Math.random() * 10); {
     if (i < 4) {
       rnd = Math.floor(Math.random() * nm9.length);
       rnd2 = Math.floor(Math.random() * nm10.length);

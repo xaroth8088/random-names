@@ -1,4 +1,6 @@
 export default function catPeopleNekojins() {
+  let names;
+  let rnd;
   let rnd;
   let rnd4;
   let rnd5;
@@ -21,8 +23,7 @@ export default function catPeopleNekojins() {
   const nm9 = ['', '', '', 'r', 'rr', 's', 'ss', 'sh', 'x', 'z'];
   const nm10 = ['', '', '', '', '', '', '', 'th', 'h', 's', 'ss', 'sh'];
   const nm11 = ['s', 'ss', 'sh', 'z', 'h', '', '', '', '', '', ''];
-  const i = Math.floor(Math.random() * 10);
-  {
+  const i = Math.floor(Math.random() * 10); {
     rnd4 = Math.floor(Math.random() * nm4.length);
     rnd5 = Math.floor(Math.random() * nm5.length);
     rnd6 = Math.floor(Math.random() * nm6.length);

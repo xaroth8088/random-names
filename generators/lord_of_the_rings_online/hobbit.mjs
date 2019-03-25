@@ -1,4 +1,8 @@
 export default function hobbit() {
+  let names;
+  let rnd;
+  let rnd2;
+  let rnd3;
   let rnd;
   let rnd2;
   let
@@ -10,8 +14,7 @@ export default function hobbit() {
   const nm3 = ['Adel', 'And', 'Bando', 'Dino', 'Dod', 'Ever', 'Ferd', 'Ferum', 'Fortin', 'Fred', 'Gorma', 'Hal', 'Ham', 'Hildi', 'Hol', 'Isen', 'Isum', 'Marma', 'Meri', 'Regin', 'Sara', 'Sere', 'Thae', 'Tol', 'Wil'];
   const nm4 = ['acar', 'ard', 'bald', 'bard', 'brand', 'bras', 'come', 'das', 'dic', 'doc', 'egar', 'fast', 'fred', 'gar', 'gard', 'grim', 'ing', 'lac', 'las', 'loc', 'mac', 'man', 'mond', 'nas', 'red', 'ric', 'roc', 'son', 'wise'];
   const nm5 = ['a', 'e', 'o', '', '', '', ''];
-  const i = Math.floor(Math.random() * 10);
-  {
+  const i = Math.floor(Math.random() * 10); {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm2.length);
       names = nm2[rnd];

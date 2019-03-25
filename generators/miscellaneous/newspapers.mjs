@@ -1,4 +1,7 @@
 export default function newspapers() {
+  let names;
+  let rnd;
+  let rnd2;
   let rnd;
   let rnd2;
   let names;
@@ -34,8 +37,7 @@ export default function newspapers() {
   const nm4 = ['Daily', 'Daily', 'Daily', 'Weekly', 'Morning', 'Evening'];
   const nm1 = ['Apex', 'Aurora', 'Avant-Garde', 'Banner', 'Beacon', 'Break of Day', 'Breakfast', 'Bulletin', 'Business', 'Capital', 'Capitol', 'Carpe Diem', 'Citizen', 'Community', 'Courier', 'Crack of Dawn', 'Daily', 'Daily Watch', 'Dawn', 'Dawning', 'Day Break', 'Daybreak', 'Daylight', 'Dayspring', 'Diem', 'Dispatch', 'Early', 'Early Bird', 'Eastern', 'Echo', 'Emerald', 'Emporium', 'Enterprise', 'Epoch', 'Era', 'Estate', 'Evening', 'Everyday', 'Explorer', 'Express', 'Eyewitness', 'First Light', 'Foreday', 'Foundation', 'Global', 'Headline', 'Heritage', 'Independent', 'Inside', 'Insider', 'Key', 'Leading', 'Legacy', 'Liberty', 'Life', 'Local', 'Local Voice', 'Lodestar', 'Metropolitan', 'Modest', 'Monday', 'Morn', 'Morning', 'Morning Star', 'Morning Watch', 'Morningtide', 'Morrow', 'National', 'New', 'Northern', 'Nova', 'Observer', 'Paragon', 'Patriot', 'Patron', 'Pinnacle', 'Pioneer', 'Plain', 'Prime', 'Public', 'Record', 'Relay', 'Saturday', 'Society', 'Southern', 'Standard', 'Star', 'State', 'Sun', 'Sunday', 'Sunrise', 'Sunup', 'Telegraph', 'Today\'s', 'Tribune', 'Vertex', 'Vista', 'Weekly', 'Western', 'Witness', 'World', 'Zenith'];
   const nm2 = ['Account', 'Alliance', 'Apex', 'Aurora', 'Beacon', 'Breakfast', 'Bulletin', 'Business', 'Capital', 'Capitol', 'Carpe Diem', 'Chronicle', 'Chronicles', 'Citizen', 'Community', 'Connection', 'Courier', 'Day Break', 'Diem', 'Dispatch', 'Echo', 'Emerald', 'Emporium', 'Enquirer', 'Enterprise', 'Epoch', 'Era', 'Estate', 'Evening', 'Explorer', 'Express', 'Eyewitness', 'Gazette', 'Global', 'Globe', 'Headline', 'Herald', 'Heritage', 'Home', 'Independent', 'Inside', 'Insider', 'Journal', 'Leader', 'Ledger', 'Legacy', 'Liberty', 'Life', 'Local', 'Local Voice', 'Lodestar', 'Look', 'Look Back', 'Mail', 'Metropolitan', 'Morn', 'Morning Star', 'Morning Watch', 'Morningtide', 'Morrow', 'Narrative', 'National', 'Network', 'News', 'Nova', 'Observer', 'Outlook', 'Paragon', 'Patriot', 'Patron', 'Pinnacle', 'Pioneer', 'Prime', 'Record', 'Register', 'Relay', 'Report', 'Reporter', 'Review', 'Sentinel', 'Society', 'Standard', 'Star', 'Sun', 'Telegram', 'Telegraph', 'Time', 'Times', 'Tribune', 'Union', 'Unity', 'Vista', 'Witness', 'World', 'Zenith'];
-  const i = Math.floor(Math.random() * 10);
-  {
+  const i = Math.floor(Math.random() * 10); {
     if (i < 6) {
       rnd = Math.floor(Math.random() * nm1.length);
       rnd2 = Math.floor(Math.random() * nm3.length);

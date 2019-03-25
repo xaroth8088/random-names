@@ -1,4 +1,8 @@
 export default function jiralhanaes() {
+  let names;
+  let rnd;
+  let rnd2;
+  let rnd3;
   let rnd;
   let rnd2;
   let rnd3;
@@ -11,8 +15,7 @@ export default function jiralhanaes() {
   const nm2 = ['a', 'e', 'y', 'u', 'i', 'o'];
   const nm3 = ['bb', 'cc', 'ck', 'ct', 'dd', 'gt', 'kk', 'kt', 'll', 'rb', 'rc', 'rd', 'rg', 'rk', 'rl', 'rm', 'rn', 'rp', 'rr', 'rs', 'rt', 'rv', 'rz', 'ss', 'st', 'b', 'c', 'd', 'g', 'h', 'k', 'l', 'm', 'n', 'p', 'r', 's', 't', 'v', 'z'];
   const nm4 = ['bb', 'cc', 'ck', 'ct', 'dd', 'gt', 'kk', 'kt', 'll', 'rb', 'rc', 'rd', 'rg', 'rk', 'rl', 'rm', 'rn', 'rp', 'rr', 'rs', 'rt', 'rv', 'rz', 'ss', 'st', 'b', 'c', 'd', 'g', 'h', 'k', 'l', 'm', 'n', 'p', 'r', 's', 't', 'v', 'z', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', ''];
-  const nm5 = ['us', 'um', 'eus', 'eum', 'ion', 'ius', 'is'];
-  {
+  const nm5 = ['us', 'um', 'eus', 'eum', 'ion', 'ius', 'is']; {
     rnd = Math.floor(Math.random() * nm1.length);
     rnd2 = Math.floor(Math.random() * nm2.length);
     rnd3 = Math.floor(Math.random() * nm3.length);

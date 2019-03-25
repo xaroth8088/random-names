@@ -1,4 +1,9 @@
 export default function humanoids() {
+  let name;
+  let name2;
+  let name3;
+  let name4;
+  let result;
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['Two', 'Two', 'Two', 'Three', 'Four', 'Two'];
   const nm2 = ['beady', 'broad', 'bug-eyed', 'clear', 'close-set', 'dead', 'doe-eyed', 'enormous', 'giant', 'glassy', 'glowing', 'heavy', 'hollow', 'hooded', 'large', 'narrow', 'shiny', 'shuttered', 'small', 'sunken', 'thin', 'tiny', 'wide'];
@@ -82,10 +87,6 @@ export default function humanoids() {
     const rnd57 = Math.floor(Math.random() * nm57.length);
     var rnd28 = Math.floor(Math.random() * nm28.length);
     const rnd59 = Math.floor(Math.random() * nm59.length);
-    var name = `${nm1[rnd1]} ${nm2[rnd2]} eyes ${nm3[rnd3]} their surroundings from their ${nm34[rnd34]} sockets. A ${nm35[rnd35]} nose rests below, but it's the ${nm36[rnd36]} mouth below that takes all the attention. A ${nm37[rnd37]} smile reveals ${nm38[rnd38]} and a ${nm39[rnd39]} tongue.`;
-    var name2 = `${nm40[rnd40]} ${nm41[rnd41]} ears sit on each side of its ${nm42[rnd42]}, ${nm43[rnd43]} head, which itself is covered in ${nm44[rnd44]}${nm45[rnd45]}.`;
-    var name3 = `Its ${nm16[rnd16]} ${nm17[rnd17]} body ${nm18[rnd18]}. Two ${nm49[rnd49]} ${nm50[rnd50]} ${nm20[rnd20]} at its sides and end in ${nm51[rnd51]} hands with ${nm52[rnd52]} fingers, of which it has ${nm53[rnd53]} in total.`;
-    var name4 = `Its legs are ${nm24[rnd24]} and ${nm25[rnd25]}, each ending in ${nm54[rnd54]} ${nm55[rnd55]}.`;
     var name5 = `Its body is covered in ${nm57[rnd57]} and its shoulders are ${nm28[rnd28]} its pelvis${nm59[rnd59]}.`;
   } else {
     var rnd1 = Math.floor(Math.random() * nm1.length);
@@ -117,10 +118,6 @@ export default function humanoids() {
     const rnd27 = Math.floor(Math.random() * nm27.length);
     var rnd28 = Math.floor(Math.random() * nm28.length);
     const rnd29 = Math.floor(Math.random() * nm29.length);
-    var name = `${nm1[rnd1]} ${nm2[rnd2]} eyes ${nm3[rnd3]} their surroundings from their ${nm4[rnd4]} sockets. A ${nm5[rnd5]} nose rests below, but it's the ${nm6[rnd6]} mouth below that takes all the attention. A ${nm7[rnd7]} smile reveals two ${nm8[rnd8]} canines and a ${nm9[rnd9]} tongue.`;
-    var name2 = `${nm10[rnd10]} ${nm11[rnd11]} ears sit on each side of its ${nm12[rnd12]}, ${nm13[rnd13]} head, which itself is covered in ${nm14[rnd14]}${nm15[rnd15]} hair.`;
-    var name3 = `Its ${nm16[rnd16]} ${nm17[rnd17]} body ${nm18[rnd18]}. Two ${nm19[rnd19]} arms ${nm20[rnd20]} at its sides and end in ${nm21[rnd21]} hands with ${nm22[rnd22]} fingers, each with ${nm23[rnd23]} nails.`;
-    var name4 = `Its legs are ${nm24[rnd24]} and ${nm25[rnd25]}, each ending in ${nm26[rnd26]} feet.`;
     var name5 = `Its body is covered in ${nm27[rnd27]} and its shoulders are ${nm28[rnd28]} its pelvis${nm29[rnd29]}.`;
   }
   let result = '';

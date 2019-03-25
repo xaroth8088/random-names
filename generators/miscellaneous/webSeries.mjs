@@ -1,4 +1,7 @@
 export default function webSeries() {
+  let names;
+  let rnd;
+  let rnd2;
   let rnd;
   let rnd2;
   let names;
@@ -8,8 +11,7 @@ export default function webSeries() {
   const nm4 = ['Academy', 'Age', 'Ambitions', 'Blade', 'Brain', 'Cat', 'Circus', 'Cloud', 'Companion', 'Confessions', 'Creation', 'Dates', 'Dating', 'Day', 'Days', 'Death', 'Doodles', 'Doom', 'Dream', 'Earth', 'Edge', 'Effect', 'Enigma', 'Everyday', 'Experience', 'Exposure', 'Fails', 'Fortune', 'Future', 'Galaxy', 'Games', 'Genesis', 'Ghost', 'Grave', 'Guardian', 'Guide', 'Guild', 'Heart', 'Hero', 'Hope', 'Horror', 'House', 'Journey', 'Justice', 'Kind', 'Life', 'Love', 'Lover', 'Magic', 'March', 'Marriage', 'Method', 'Mind', 'Miracle', 'Mode', 'Morning', 'Nature', 'Night', 'Nightmare', 'Nonsense', 'Oracle', 'Outcast', 'Paradox', 'Parallel', 'Party', 'Phantom', 'Planet', 'Power', 'Prodigy', 'Promises', 'Prophecy', 'Quest', 'Reaction', 'Reality', 'Realm', 'Reaper', 'Requiem', 'Revolution', 'Roommate', 'Saga', 'Season', 'Secrets', 'Shadows', 'Sidekick', 'Sin', 'Sinner', 'Sleep', 'Smiles', 'Spirit', 'Summer', 'Trial', 'Twin', 'Villain', 'Vision', 'Warrior', 'Wasteland', 'Weapons', 'Wonders', 'World', 'Zombies'];
   const nm5 = ['Abyss', 'Alpha', 'Angel', 'Aqua', 'Ash', 'Autumn', 'Birth', 'Bitter', 'Blind', 'Border', 'Chibi', 'Chrono', 'Class', 'Comic', 'Crimson', 'Crystal', 'Dark', 'Dead', 'Demon', 'Doom', 'Dragon', 'Dream', 'Echo', 'Ego', 'Ember', 'End', 'False', 'Fantasy', 'Feel', 'Field', 'Fiery', 'Flower', 'Freak', 'Frost', 'Gamer', 'Ghost', 'Gloom', 'God', 'Gray', 'Hallow', 'Heaven', 'Hell', 'Honey', 'Hyper', 'Immortal', 'Inner', 'Killer', 'Knight', 'Loot', 'Lucid', 'Lunar', 'Maiden', 'Marsh', 'Mecha', 'Metal', 'Midnight', 'Moon', 'Mortal', 'Night', 'Ocean', 'Omega', 'Onyx', 'Outer', 'Paper', 'Phantom', 'Poison', 'Power', 'Random', 'Reaper', 'Royal', 'Scramble', 'Scribble', 'Shadow', 'Silver', 'Solar', 'Soul', 'Space', 'Spider', 'Spirit', 'Spring', 'Spy', 'Star', 'Storm', 'Student', 'Sub', 'Summer', 'Sun', 'Super', 'Sweet', 'Thunder', 'Time', 'Titan', 'Venom', 'Void', 'Vortex', 'Were', 'Winter', 'Wonder', 'Zero', 'Zombie'];
   const nm6 = ['bane', 'base', 'bash', 'bell', 'bird', 'bite', 'blade', 'blood', 'bones', 'born', 'bot', 'bound', 'bow', 'boy', 'brain', 'cat', 'chase', 'code', 'coil', 'crew', 'crown', 'dash', 'date', 'days', 'derp', 'dream', 'dust', 'faire', 'fall', 'fame', 'fare', 'fire', 'flake', 'flow', 'fury', 'games', 'gift', 'girl', 'guard', 'guild', 'heart', 'hope', 'horde', 'house', 'keeper', 'key', 'kin', 'king', 'kiss', 'land', 'life', 'light', 'list', 'lock', 'loop', 'luck', 'magic', 'mark', 'mind', 'myth', 'night', 'piece', 'plane', 'point', 'pride', 'quake', 'queen', 'quest', 'realm', 'right', 'ring', 'run', 'seal', 'shift', 'shock', 'show', 'side', 'sin', 'slice', 'smile', 'soul', 'star', 'stone', 'strike', 'time', 'ville', 'vision', 'voice', 'ward', 'watch', 'wing', 'wish', 'wisp', 'witch', 'wolf', 'word', 'world', 'worth', 'wrath', 'year'];
-  const i = Math.floor(Math.random() * 10);
-  {
+  const i = Math.floor(Math.random() * 10); {
     if (i < 4) {
       rnd = Math.floor(Math.random() * nm1.length);
       rnd2 = Math.floor(Math.random() * nm2.length);

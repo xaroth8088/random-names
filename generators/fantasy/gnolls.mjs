@@ -1,4 +1,9 @@
 export default function gnolls() {
+  let names;
+  let nmLast;
+  let rnd;
+  let rnd2;
+  let rnd3;
   let rnd;
   let rnd2;
   let rnd3;
@@ -22,8 +27,7 @@ export default function gnolls() {
   const nm12 = ['', '', '', 'c', 'l', 'n', 'm', 'h', 'r', 'rr', 'th', 't'];
   const nm13 = ['Ash', 'Blight', 'Blood', 'Boom', 'Brine', 'Broken', 'Burst', 'Clay', 'Crack', 'Cracked', 'Damp', 'Dead', 'Dirt', 'Dreck', 'Dregs', 'Dust', 'Fail', 'Far', 'Fast', 'Filth', 'Fizz', 'Fizzle', 'Foam', 'Froth', 'Fungi', 'Fungus', 'Glop', 'Gold', 'Goo', 'Gore', 'Grapple', 'Grease', 'Grime', 'Ground', 'Gunk', 'Lard', 'Loose', 'Lump', 'Mire', 'Mole', 'Muck', 'Mucus', 'Mud', 'Murk', 'Ooze', 'Pebble', 'Pest', 'Rent', 'River', 'Rot', 'Salt', 'Sand', 'Scourge', 'Scum', 'Scuz', 'Silt', 'Slab', 'Sleaze', 'Slime', 'Sludge', 'Snore', 'Snot', 'Soil', 'Soot', 'Sore', 'Split', 'Stain', 'Sweat', 'Tame', 'Woe', 'Zest'];
   const nm14 = ['barb', 'bash', 'basher', 'beam', 'blase', 'blast', 'bolt', 'boot', 'brass', 'cast', 'cheek', 'clash', 'claw', 'cloak', 'club', 'crook', 'dance', 'death', 'dent', 'ear', 'ears', 'eye', 'eyes', 'face', 'fang', 'fangs', 'feet', 'finger', 'fingers', 'fist', 'fists', 'foot', 'frown', 'fuse', 'gall', 'gaze', 'gleam', 'glob', 'gob', 'grapnel', 'grappler', 'grin', 'grinder', 'guard', 'guise', 'hallow', 'hammer', 'hand', 'hands', 'head', 'hook', 'hunter', 'knob', 'knuckle', 'mask', 'maw', 'mouth', 'mug', 'nail', 'nails', 'nose', 'paw', 'pince', 'pincer', 'pinch', 'scowl', 'scrap', 'shrapnel', 'skin', 'smile', 'smirk', 'snag', 'spear', 'stick', 'talon', 'teeth', 'thumb', 'tine', 'toe', 'toes', 'tongue', 'tooth', 'tusk', 'watch', 'wizzle'];
-  const i = Math.floor(Math.random() * 10);
-  {
+  const i = Math.floor(Math.random() * 10); {
     rnd12 = Math.floor(Math.random() * nm13.length);
     rnd22 = Math.floor(Math.random() * nm14.length);
     nmLast = nm13[rnd12] + nm14[rnd22];

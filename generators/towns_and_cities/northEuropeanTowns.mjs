@@ -1,4 +1,7 @@
 export default function northEuropeanTowns() {
+  let names;
+  let rnd;
+  let rnd2;
   let rnd;
   let rnd2;
   let names;
@@ -25,8 +28,7 @@ export default function northEuropeanTowns() {
   /* Sweden */
   const nm15 = ['Ängel', 'Ål', 'Ö', 'Öre', 'Öst', 'Öster', 'Aling', 'Ar', 'Asker', 'Båt', 'Berg', 'Björn', 'Boll', 'Bor', 'Borg', 'Dag', 'Djurs', 'Ek', 'En', 'Eskil', 'Fager', 'Falken', 'Falster', 'Fin', 'Fol', 'Gamle', 'Gammal', 'Gothen', 'Grön', 'Gran', 'Härnö', 'Hässle', 'Höga', 'Hag', 'Halm', 'Hapar', 'Havs', 'Helsing', 'Hem', 'Hudiks', 'Husk', 'Jön', 'Karl', 'Karls', 'Kram', 'Kungs', 'Kväll', 'Lands', 'Lid', 'Lin', 'Lindes', 'Lud', 'Lyck', 'Lyse', 'Mar', 'Marie', 'Mjöl', 'Norr', 'Ny', 'Nynä', 'Oskar', 'Oxelö', 'Söder', 'Sölves', 'Sand', 'Sig', 'Simri', 'Skän', 'Ske', 'Skog', 'So', 'Stock', 'Ström', 'Sundby', 'Sunds', 'Tida', 'Tors', 'Träd', 'Udde', 'Ulrice', 'Upp', 'Väners', 'Väst', 'Väster', 'Vad', 'Vagn', 'Var', 'Vax', 'Vet', 'Vummer'];
   const nm16 = ['backa', 'berg', 'bo', 'borg', 'bro', 'burg', 'by', 'dal', 'fed', 'fors', 'gård', 'grund', 'hälla', 'härad', 'hättan', 'hall', 'hammar', 'hamn', 'holm', 'köping', 'kil', 'koga', 'krona', 'länge', 'land', 'landa', 'llefteå', 'näs', 'sås', 'sand', 'sele', 'shamn', 'sjö', 'stad', 'strand', 'stuna', 'sun', 'sund', 'tälje', 'torp', 'tuna', 'vall', 'valla', 'vik', 'viken'];
-  i = Math.floor(Math.random() * 16);
-  {
+  const i = Math.floor(Math.random() * 16); {
     if (i < 2) {
       rnd = Math.floor(Math.random() * nm1.length);
       rnd2 = Math.floor(Math.random() * nm2.length);

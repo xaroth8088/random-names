@@ -1,4 +1,10 @@
 export default function gauntlets() {
+  let names;
+  let names4;
+  let names5;
+  let rnd;
+  let rnd2;
+  let rnd3;
   let rnd;
   let rnd1;
   let rnd2;
@@ -16,8 +22,7 @@ export default function gauntlets() {
     names4 = ['Cloth', 'Heavy Hide', 'Heavy Leather', 'Hide', 'Leather', 'Linen', 'Padded', 'Quilted', 'Rugged Leather', 'Scaled', 'Silk', 'Wool', 'Embroided'];
     names5 = ['Gauntlets', 'Grips', 'Gloves', 'Handguards', 'Fists', 'Hands', 'Grasps', 'Stranglers', 'Handwraps', 'Touch'];
   }
-  const i = Math.floor(Math.random() * 10);
-  {
+  const i = Math.floor(Math.random() * 10); {
     if (i < 2) {
       rnd = Math.floor(Math.random() * names1.length);
       rnd1 = Math.floor(Math.random() * names2.length);

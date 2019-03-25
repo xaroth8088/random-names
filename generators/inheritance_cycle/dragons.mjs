@@ -1,4 +1,8 @@
 export default function dragons() {
+  let names;
+  let rnd;
+  let rnd2;
+  let rnd3;
   let rnd;
   let rnd2;
   let rnd3;
@@ -17,8 +21,7 @@ export default function dragons() {
   const nm6 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'ae', 'io', 'ei', 'ea', 'au'];
   const nm7 = ['d', 'g', 'l', 'lm', 'ln', 'm', 'mn', 'n', 'nv', 'ph', 'r', 'rn', 'rv', 'th', 'v'];
   const nm8 = ['', '', '', '', '', '', '', '', '', '', '', 'h', 'l', 'n', 's', 'sh', 'th'];
-  const i = Math.floor(Math.random() * 10);
-  {
+  const i = Math.floor(Math.random() * 10); {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm5.length);
       rnd2 = Math.floor(Math.random() * nm6.length);

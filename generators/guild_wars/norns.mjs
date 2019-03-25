@@ -1,4 +1,7 @@
 export default function norns() {
+  let names;
+  let rnd;
+  let rnd2;
   let rnd;
   let rnd2;
   let rnd4;
@@ -14,8 +17,7 @@ export default function norns() {
   const nm6 = ['Battle', 'Black', 'Blood', 'Bone', 'Boulder', 'Bronze', 'Clan', 'Cold', 'Dark', 'Dawn', 'Dead', 'Death', 'Deep', 'Doom', 'Dragon', 'Eagle', 'Earth', 'Ember', 'Far', 'Fire', 'Fist', 'Flame', 'Free', 'Frost', 'Full', 'Gloom', 'Gold', 'Gore', 'Great', 'Hard', 'Hawk', 'Heavy', 'Hell', 'Hill', 'Iron', 'Laughing', 'Light', 'Lightning', 'Lone', 'Long', 'Mountain', 'Proud', 'Pyre', 'Rage', 'Rain', 'Raven', 'River', 'Rock', 'Shadow', 'Sharp', 'Skull', 'Sky', 'Snow', 'Steel', 'Stone', 'Storm', 'Strong', 'Swift', 'Tall', 'Thunder', 'War', 'Wild'];
   const nm7 = ['arm', 'axe', 'bash', 'basher', 'beard', 'belly', 'bend', 'blade', 'bleeder', 'brace', 'braid', 'branch', 'brand', 'breaker', 'breath', 'breeze', 'bringer', 'caller', 'chewer', 'cleaver', 'crag', 'crusher', 'cut', 'dream', 'fall', 'fist', 'flayer', 'forge', 'fury', 'grip', 'hammer', 'hand', 'helm', 'hide', 'maul', 'pike', 'rage', 'rider', 'roar', 'scar', 'scream', 'seeker', 'shaper', 'shield', 'shout', 'slayer', 'song', 'splitter', 'stalker', 'steel', 'stride', 'strider', 'sword', 'walker', 'watcher', 'whisper', 'wind', 'winds', 'wolf', 'wound'];
   const nm8 = ['the Agonizer', 'the Ancient', 'the Anguished', 'the Assassin', 'the Blessed', 'the Broken', 'the Dreamer', 'the Burdened', 'the Chaotic', 'the Conquerer', 'the Corrupted', 'the Cruel', 'the Cunning', 'the Dark', 'the Deceptive', 'the Delusionall', 'the Diligent', 'the Damned', 'the Just', 'the Restless', 'the Restful', 'the Eternal', 'the Executioner', 'the Fallen', 'the Fool', 'the Frozen', 'the Furious', 'the Giant', 'the Graceful', 'the Hateful', 'the Tormented', 'the Hero', 'the Horrid', 'the Horror', 'the Immortal', 'the Insane', 'the Just', 'the Mercyful', 'the Mountain', 'the Mourning', 'the Mystery', 'the Phantom', 'the Prideful', 'the Redeemed', 'the Riddle', 'the Secrect', 'the Shadow', 'the Silent', 'the Storm', 'the Subtle', 'the Suffering', 'the Terror', 'the Thunder', 'the Titan', 'the Torment', 'the Traitor', 'the Twisted', 'the Vengeful', 'the Ancient', 'the Banished', 'the Beast', 'the Blessed', 'the Champion', 'the Corrupted', 'the Covenant', 'the Damned', 'the Enigma', 'the Fallen', 'the Forgotten', 'the Forsaken', 'the Gladiator', 'the Immortal', 'the Insane', 'the Lost', 'the Protector', 'the Storm', 'the Victor', 'the Wicked', 'the Wolf', 'the Wretched'];
-  const i = Math.floor(Math.random() * 10);
-  {
+  const i = Math.floor(Math.random() * 10); {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm3.length);
       if (i < 4) {

@@ -1,4 +1,7 @@
 export default function graveyards() {
+  let names;
+  let rnd;
+  let rnd2;
   let rnd;
   let rnd2;
   let names;
@@ -6,8 +9,7 @@ export default function graveyards() {
   const nm2 = ['Abandoned', 'Abandoned Hope', 'Ash Field', 'Ash River', 'Ashen Oak', 'Ashenvale', 'Ashvale', 'Autumn Grove', 'Bad Judgement', 'Banewood', 'Banshee Hill', 'Barren Field', 'Beast Forest', 'Beast Mountain', 'Black Ruins', 'Black Snow', 'Black Soul', 'Blackburn', 'Blackhill', 'Bleak Mountain', 'Bloodriver', 'Bone Yard', 'Broken Bones', 'Broken Soul', 'Burned Forest', 'Burning Forest', 'Burning River', 'Burning Rock', 'Burning Ruin', 'Burning Soul', 'Burning Wrath', 'Calamity Park', 'Chaos', 'Condemnation Park', 'Corruption', 'Crimson Flow', 'Dark Willow', 'Darkhill', 'Darkview', 'Darkwood', 'Demonic Eye', 'Demonvale', 'Demonwing', 'Depravity Grove', 'Desolate Field', 'Desparity', 'Devil\'s Playground', 'Devilry Gardens', 'Devilswood', 'Diablo', 'Doomvale', 'Dragonash', 'Dreadfield', 'Dry River', 'Duskwallow', 'Ebonwood', 'Eternal Fire', 'Eternal Sorrow', 'Evil Eye', 'Extinct Park', 'Extinction Grove', 'Fallen Oak', 'Fireside', 'Fireview', 'Forgotten', 'Forsaken', 'Foulvale', 'Furyvale', 'Gargoyle', 'Ghost Town', 'Gloomview', 'Grim Garden', 'Grim Reaper', 'Grimview', 'Grimwood', 'Guilty Vale', 'Hallowgate', 'Haunted', 'Haunted Woods', 'Hollow Gardens', 'Hollowvale', 'Immortal Fire', 'Imp Forest', 'Infamy', 'Infernal Grove', 'Inferno', 'Lost Soul', 'Maleficent', 'Malevolent Garden', 'Malign', 'Misery Field', 'Mortified Grove', 'Murkwood', 'Necropolis', 'Nefarious Grove', 'Nefarious Hill', 'Nemesis', 'Netherspring', 'Nightmare', 'Nightshade', 'No Rest', 'Obsidian Grove', 'Obsidian Hill', 'Perished Grove', 'Plague City', 'Plaguewoods', 'Poison Spring', 'Reaper Garden', 'Rotten Grove', 'Rottingvale', 'Sanguine River', 'Shade', 'Shadow', 'Shadow Garden', 'Shadowland', 'Silent Gardens', 'Sinner Field', 'Sinstone', 'Skeletalview', 'Skeleton Hill', 'Skullside', 'Sombre Oak', 'Sorrow Pit', 'Sorrowwood', 'Soulburn', 'Soulriver', 'Spitegrove', 'Stiff Park', 'Terrorvale', 'Thornbush', 'Tragedy Grove', 'Tragedy Park', 'Twisted Oak', 'Unholy Oak', 'Venomriver', 'Vile Field', 'Vile River', 'Vile Spring', 'Vilewood', 'Warpwood', 'Wasted Forest', 'Wasteland', 'Wayward', 'Wicked Eye', 'Wicked Willow', 'Wicked Wood', 'Wickedvale', 'Wickedwood', 'Woe Garden', 'Wrathriver'];
   const nm3 = ['Cemetery', 'Memorial Park', 'Burial Grounds', 'Memorial Gardens', 'Cemetery', 'Cemetery'];
   const nm4 = ['Graveyard', 'Graveyard', 'Graveyard', 'Mausoleum', 'Mortuary', 'Necropolis', 'Crypts', 'Catacombs', 'Tombs'];
-  const i = Math.floor(Math.random() * 10);
-  {
+  const i = Math.floor(Math.random() * 10); {
     if (i < 5) {
       rnd = Math.floor(Math.random() * nm1.length);
       rnd2 = Math.floor(Math.random() * nm3.length);

@@ -1,4 +1,7 @@
 export default function arthurians() {
+  let names;
+  let rnd;
+  let rnd2;
   let rnd;
   let rnd2;
   let names;
@@ -8,8 +11,7 @@ export default function arthurians() {
   const names3 = ['Aglo', 'Ali', 'Andre', 'Angha', 'Ara', 'Arthwy', 'Asto', 'Ava', 'Be', 'Bedi', 'Bela', 'Bella', 'Bla', 'Blai', 'Bleo', 'Bra', 'Bre', 'Carnwe', 'Cla', 'Colgre', 'Condwi', 'Cu', 'Cy', 'Danbra', 'Dina', 'Dindra', 'Eli', 'Elia', 'Eliau', 'Elya', 'Emry', 'Engre', 'Etta', 'Eva', 'Eve', 'Flo', 'Ga', 'Gahe', 'Gle', 'Gui', 'Gwy', 'Gyne', 'Helai', 'Helle', 'Ho', 'Hy', 'Igrai', 'Kady', 'Kahe', 'Ki', 'La', 'Me', 'Mo', 'Olwe', 'Owai', 'Oza', 'Pe', 'Pelli', 'Peri', 'Phe', 'Sa', 'Te', 'Tei', 'Ywai', 'Ywai'];
   const names4 = ['beris', 'dan', 'deam', 'dron', 'dure', 'dwyr', 'ffire', 'fir', 'gan', 'kane', 'kin', 'lake', 'lat', 'line', 'llean', 'lleas', 'lles', 'llo', 'lon', 'lydd', 'mbe', 'mones', 'mour', 'mri', 'n', 'ndelis', 'ne', 'ngaine', 'ngere', 'ngoire', 'ngwain', 'nham', 'nn', 'nna', 'nnan', 'nnin', 'nore', 'rad', 'ramur', 'ramurs', 'rat', 'rawd', 'rd  ', 'rddhin', 'rdin', 'redin', 'rence', 'rent', 'res', 'riath', 'rion', 'ris', 'rre', 'rsa', 'rvudd', 'rvydd', 's', 'se', 'ste', 'th', 'thi', 'vale', 'vance', 'vere', 'vres', 'vret', 'wain', 'wel', 'wlwyd', 'wn'];
   const names5 = ['Ache', 'Ade', 'Ana', 'Angha', 'Angli', 'Anna', 'Arga', 'Asto', 'Ava', 'Bela', 'Blanche', 'Bra', 'Bre', 'Bro', 'Che', 'Cla', 'Clari', 'Condwi', 'Cu', 'Danbra', 'Dechte', 'Dindra', 'Ei', 'Elai', 'Eliza', 'Elsa', 'Eni', 'Eny', 'Essy', 'Estri', 'Esy', 'Etta', 'Feni', 'Flo', 'Galie', 'Ganie', 'Grisa', 'Gue', 'Guene', 'Gui', 'Guine', 'Gwe', 'Gwendo', 'Gwene', 'Gwenhwy', 'Gyne', 'Helai', 'Herze', 'Ibli', 'Ige', 'Igrai', 'Isabe', 'Iseu', 'Ishi', 'Iso', 'Ku', 'La', 'Lau', 'Li', 'Line', 'Lisa', 'Lla', 'Lu', 'Lyne', 'Lyo', 'Marga', 'Mati', 'Mo', 'Morca', 'Morgau', 'Ni', 'Olwe', 'Orca', 'Pry', 'Sebi', 'Sha', 'Si', 'Sore', 'Te', 'Vi', 'Yge', 'Ygrai', 'Yseu'];
-  const names6 = ['beth', 'ce', 'd', 'da', 'damor', 'damors', 'de', 'des', 'dine', 'dron', 'dwen', 'fach', 'far', 'fleur', 'flor', 'flour', 'gan', 'gau', 'geus', 'gune', 'gyr', 'kane', 'lat', 'ld', 'lda', 'lde', 'len', 'linda', 'linde', 'lla', 'lle', 'llt', 'loena', 'lon', 'lott', 'loyde', 'lt', 'lte', 'mrei', 'mri', 'mue', 'na', 'nddydd', 'ndole', 'ndrie', 'ndry', 'ne', 'ned', 'nes', 'nesse', 'net', 'nete', 'neve', 'never', 'ngaine', 'ngwain', 'nloie', 'nna', 'nor', 'nors', 'nte', 'nwen', 'rad', 'ramur', 'ramurs', 'rat', 'rawd', 'rd', 're', 'ree', 'rine', 'rne', 'rre', 'rvudd', 'rvydd', 'se', 'ssant', 'th', 'tte', 'vach', 'var', 'ver', 'vere', 'viana', 'vien', 'wse'];
-  {
+  const names6 = ['beth', 'ce', 'd', 'da', 'damor', 'damors', 'de', 'des', 'dine', 'dron', 'dwen', 'fach', 'far', 'fleur', 'flor', 'flour', 'gan', 'gau', 'geus', 'gune', 'gyr', 'kane', 'lat', 'ld', 'lda', 'lde', 'len', 'linda', 'linde', 'lla', 'lle', 'llt', 'loena', 'lon', 'lott', 'loyde', 'lt', 'lte', 'mrei', 'mri', 'mue', 'na', 'nddydd', 'ndole', 'ndrie', 'ndry', 'ne', 'ned', 'nes', 'nesse', 'net', 'nete', 'neve', 'never', 'ngaine', 'ngwain', 'nloie', 'nna', 'nor', 'nors', 'nte', 'nwen', 'rad', 'ramur', 'ramurs', 'rat', 'rawd', 'rd', 're', 'ree', 'rine', 'rne', 'rre', 'rvudd', 'rvydd', 'se', 'ssant', 'th', 'tte', 'vach', 'var', 'ver', 'vere', 'viana', 'vien', 'wse']; {
     if (type === 1) {
       rnd = Math.floor(Math.random() * names5.length);
       rnd2 = Math.floor(Math.random() * names6.length);

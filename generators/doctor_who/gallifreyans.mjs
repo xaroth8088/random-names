@@ -1,4 +1,8 @@
 export default function gallifreyans() {
+  let names;
+  let rnd;
+  let rnd2;
+  let rnd3;
   let rnd;
   let rnd2;
   let rnd3;
@@ -31,8 +35,7 @@ export default function gallifreyans() {
   const nm11 = ['br', 'bl', 'dv', 'dh', 'dr', 'f', 'ff', 'gl', 'gr', 'h', 'l', 'lm', 'ln', 'm', 'n', 'pr', 'ph', 'q', 'r', 'rr', 'rl', 's', 'st', 'sr', 'sh', 'th', 'tr', 'x'];
   const nm12 = ['bv', 'ch', 'c', 'dr', 'd', 'dd', 'dv', 'gr', 'gl', 'gg', 'g', 'nm', 'hn', 'h', 'l', 'll', 'lm', 'lt', 'ls', 'lz', 'm', 'mm', 'mr', 'nd', 'ng', 'nt', 'ns', 'nl', 'nph', 'p', 'pp', 'ph', 'phr', 'q', 'r', 'rh', 'rl', 'rm', 'st', 'sv', 'str', 'tr', 'th', 'v'];
   const nm13 = ['', '', '', '', '', 'd', 'l', 'll', 'm', 'm', 'n', 'nn', 'r', 's', 'ss', 'sh', 'th'];
-  const i = Math.floor(Math.random() * 10);
-  {
+  const i = Math.floor(Math.random() * 10); {
     if (type === 1) {
       if (i < 4) {
         rnd = Math.floor(Math.random() * nm8.length);

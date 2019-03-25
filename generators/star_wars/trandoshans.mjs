@@ -1,4 +1,9 @@
 export default function trandoshans() {
+  let namelast;
+  let names;
+  let rnd;
+  let rnd2;
+  let rnd3;
   let rnd;
   let rnd2;
   let rnd3;
@@ -25,8 +30,7 @@ export default function trandoshans() {
   const nm10 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'y', 'y', 'y', 'ea', 'aa', 'oo', 'eo', 'ee', 'au'];
   const nm11 = ['br', 'b', 'cr', 'cd', 'd', 'dg', 'dm', 'dr', 'dr', 'g', 'gg', 'gr', 'gs', 'gl', 'k', 'kk', 'kr', 'ks', 'kl', 'l', 'll', 'ls', 'm', 'mm', 'mr', 'ms', 'n', 'nn', 'ns', 'nl', 'ng', 'q', 'r', 'rs', 'rz', 'rd', 'rr', 's', 'ss', 'sd', 'sl', 'sg', 'tn', 'v', 'vv'];
   const nm12 = ['', '', '', '', '', '', '', '', '', '', 'c', 'gg', 'gh', 'hk', 'k', 'kt', 'l', 'n', 'r', 'rn', 'rs', 's', 'sss', 'st', 'ssk', 'sch', 'ss', 't', 'tch', 'z'];
-  const i = Math.floor(Math.random() * 10);
-  {
+  const i = Math.floor(Math.random() * 10); {
     rnd7 = Math.floor(Math.random() * nm9.length);
     rnd8 = Math.floor(Math.random() * nm10.length);
     rnd10 = Math.floor(Math.random() * nm12.length);

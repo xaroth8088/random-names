@@ -1,4 +1,9 @@
 export default function gands() {
+  let namelast;
+  let names;
+  let rnd;
+  let rnd2;
+  let rnd3;
   let rnd;
   let rnd2;
   let rnd3;
@@ -17,8 +22,7 @@ export default function gands() {
   const nm5 = ['cr', 'cn', 'd', 'dr', 'k', 'kr', 'l', 'n', 'p', 'pr', 'pn', 'q', 'qr', 'sr', 'shr', 'tr', 'v', 'vr', 'z'];
   const nm6 = ['ck', 'cl', 'd', 'ff', 'fr', 'gg', 'gl', 'k', 'kk', 'kr', 'q', 'ql', 'qr', 'rr', 'rn', 'rl', 'sl', 'th', 't', 'tr', 'z', 'zz', 'zl'];
   const nm7 = ['', '', '', '', '', '', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'y', 'aa', 'oo', 'uu', 'ee', 'ay', 'ai', 'ey', 'ya', 'yu', 'yi'];
-  const i = Math.floor(Math.random() * 10);
-  {
+  const i = Math.floor(Math.random() * 10); {
     rnd6 = Math.floor(Math.random() * nm5.length);
     rnd7 = Math.floor(Math.random() * nm2.length);
     rnd8 = Math.floor(Math.random() * nm6.length);

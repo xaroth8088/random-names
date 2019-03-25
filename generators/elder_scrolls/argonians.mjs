@@ -1,4 +1,8 @@
 export default function argonians() {
+  let names;
+  let rnd;
+  let rnd2;
+  let rnd3;
   let rnd;
   let rnd2;
   let rnd3;
@@ -16,8 +20,7 @@ export default function argonians() {
   const nm8 = ['-Deesei', '-Ei', '-Ja', '-Jeen', '-La', '-Lee', '-Lei', '-Liurz', '-Lurasha', '-Ma', '-Meedish', '-Meema', '-Meena', '-Meesei', '-Meeus', '-Mei', '-Na', '-Neeus', '-Ra', '-Raniur', '-Rei', '-Sa', '-Wan', '-Wazei', '-Deese', '-Eji', '-Jazee', '-Jereen', '-Lari', '-Leef', '-Leith', '-Liruz', '-Lursha', '-Maki', '-Mideesh', '-Meemar', '-Menari', '-Meseif', '-Meefus', '-Meik', '-Nash', '-Nevus', '-Rafee', '-Ranier', '-Reij', '-Kajee', '-Wahn', '-Wareih', '-Deseith', '-Eijar', '-Jarlee', '-Jeleen', '-Lak', '-Leehp', '-Leish', '-Lirzee', '-Leesha', '-Majee', '-Meedish', '-Mena', '-Meeka', '-Meei', '-Neeus', '-Slei', '-Nha', '-Nefeus', '-Rajee', '-Raneer', '-Reiki', '-Sakee', '-Ran', '-Razei'];
   const nm9 = ['Andro', 'Augus', 'Ca', 'Cae', 'Cali', 'Gal', 'Mag', 'Me', 'Ni', 'Per', 'Theo', 'Tiber', 'Xer', 'Andree', 'Augees', 'Caya', 'Caree', 'Calee', 'Geel', 'Nag', 'Meree', 'Nefe', 'Peri', 'Thefi', 'Tikeer', 'Xeir', 'Endore', 'Agius', 'Cas', 'Cay', 'Cani', 'Kay', 'Laf', 'Pe', 'Neeth', 'Pehr', 'Theer', 'Taier', 'Xem'];
   const nm10 = ['cles', 'des', 'dorus', 'gulus', 'lus', 'mean', 'mus', 'nes', 'sar', 'seus', 'sion', 'ssius', 'tus', 'calees', 'desh', 'dorees', 'goulus', 'lures', 'mareen', 'museeth', 'mesh', 'sareth', 'sesh', 'seene', 'seus', 'tius', 'clesh', 'daresh', 'deseer', 'galus', 'leesh', 'rean', 'marush', 'naresh', 'sareeth', 'teus', 'sifon', 'silus', 'thees'];
-  const i = Math.floor(Math.random() * 10);
-  {
+  const i = Math.floor(Math.random() * 10); {
     if (type === 1) {
       if (i < 6) {
         rnd = Math.floor(Math.random() * nm4.length);

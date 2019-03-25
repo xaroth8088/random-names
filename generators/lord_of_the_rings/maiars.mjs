@@ -1,4 +1,8 @@
 export default function maiars() {
+  let names;
+  let rnd;
+  let rnd2;
+  let rnd3;
   let rnd;
   let rnd2;
   let rnd3;
@@ -17,8 +21,7 @@ export default function maiars() {
   const nm7 = ['a', 'e', 'o', 'i', 'u', 'ó', 'é', 'ai', 'eo', 'io', 'eö', 'uo', 'ua'];
   const nm8 = ['l', 'll', 'lm', 'ln', 'ls', 'm', 'md', 'n', 'nd', 'nm', 'nw', 'r', 's', 'ss', 't', 'w'];
   const nm9 = ['l', 'm', 'n', 'nd', 'r', 's', 't', 'th'];
-  const nm10 = ['o', 'e', 'ë', 'ó', '', '', '', ''];
-  {
+  const nm10 = ['o', 'e', 'ë', 'ó', '', '', '', '']; {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm1.length);
       rnd2 = Math.floor(Math.random() * nm2.length);

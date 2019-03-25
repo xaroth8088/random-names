@@ -1,4 +1,8 @@
 export default function drells() {
+  let names;
+  let rnd;
+  let rnd2;
+  let rnd3;
   let rnd;
   let rnd2;
   let rnd3;
@@ -21,8 +25,7 @@ export default function drells() {
     nm1 = ['a', 'e', 'i', 'o', 'u'];
   } else {
     nm1 = [''];
-  }
-  {
+  } {
     rnd = Math.floor(Math.random() * nm1.length);
     rnd2 = Math.floor(Math.random() * nm2.length);
     rnd3 = Math.floor(Math.random() * nm3.length);

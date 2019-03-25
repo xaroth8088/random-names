@@ -1,4 +1,8 @@
 export default function ratfolks() {
+  let names;
+  let rnd;
+  let rnd2;
+  let rnd3;
   let rnd;
   let rnd2;
   let rnd3;
@@ -15,8 +19,7 @@ export default function ratfolks() {
   const nm6 = ['a', 'e', 'i', 'o', 'u', 'e', 'e', 'e', 'i', 'i', 'i'];
   const nm7 = ['b', 'bb', 'c', 'cc', 'f', 'ff', 'g', 'gg', 'j', 'k', 'kk', 'l', 'll', 'm', 'mm', 'n', 'nn', 'p', 'pp', 'r', 'rr', 's', 'ss', 't', 'tt', 'z', 'zz'];
   const nm8 = ['', '', '', '', '', '', '', '', 'ch', 'f', 'hm', 'hl', 'ks', 'l', 'm', 'n', 'r', 's', 'sh', 't', 'th', 'tch', 'x'];
-  const i = Math.floor(Math.random() * 10);
-  {
+  const i = Math.floor(Math.random() * 10); {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm5.length);
       rnd2 = Math.floor(Math.random() * nm6.length);

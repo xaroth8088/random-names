@@ -1,4 +1,8 @@
 export default function nausicaans() {
+  let names;
+  let rnd;
+  let rnd2;
+  let rnd3;
   let rnd;
   let rnd2;
   let rnd3;
@@ -11,8 +15,7 @@ export default function nausicaans() {
   const nm3 = ['bz', 'ch', 'd', 'g', 'ggr', 'gv', 'h', 'j', 'jh', 'l', 'lth', 'lrsh', 'k', 'kz', 'kkz', 'ktz', 'm', 'mmk', 'n', 'p', 'r', 'rt', 'rg', 'rc', 'sh', 'th', 't', 'tz', 'v', 'y', 'yk', 'z', 'zj', 'zzg', 'd', 'g', 'h', 'j', 'l', 'k', 'm', 'n', 'p', 'r', 't', 'v', 'y', 'z'];
   const nm4 = ['', '', 'c', 'chk', 'rdz', 'g', 'jz', 'k', 'm', 'n', 'ng', 'p', 'r', 'rr', 'rrg', 'sh', 't', 'th', 'tz', 'tkz', 'x', 'z'];
   const nm5 = ['c', 'chk', 'rdz', 'g', 'jz', 'k', 'm', 'n', 'ng', 'p', 'r', 'rr', 'rrg', 'sh', 't', 'th', 'tz', 'tkz', 'x', 'z'];
-  const i = Math.floor(Math.random() * 10);
-  {
+  const i = Math.floor(Math.random() * 10); {
     if (i < 5) {
       rnd = Math.floor(Math.random() * nm1.length);
       rnd2 = Math.floor(Math.random() * nm2.length);

@@ -1,4 +1,9 @@
 export default function tuskenRaiders() {
+  let namelast;
+  let names;
+  let rnd;
+  let rnd2;
+  let rnd3;
   let rnd;
   let rnd2;
   let rnd3;
@@ -33,8 +38,7 @@ export default function tuskenRaiders() {
   const nm17 = ['a', 'e', 'i', 'o', 'u', 'a', 'o'];
   const nm18 = ['c', 'cr', 'g', 'gg', 'gd', 'gr', 'k', 'kh', 'kd', 'kr', 'kv', 'km', 'kn', 'n', 'nn', 'nr', 'nv', 'q', 'qq', 'qh', 'r', 'rr', 'rt', 'rd', 't', 'v', 'z', 'zh', 'zr', 'zd'];
   const nm19 = ['c', 'ct', 'g', 'gg', 'k', 'kt', 'n', 'q', 'qt', 'r', 'rr', 'rk', 'rc', 'rg', 'rq', 'rt', 'rd', 'tt', 't'];
-  const i = Math.floor(Math.random() * 10);
-  {
+  const i = Math.floor(Math.random() * 10); {
     rnd7 = Math.floor(Math.random() * nm16.length);
     rnd8 = Math.floor(Math.random() * nm17.length);
     rnd10 = Math.floor(Math.random() * nm19.length);

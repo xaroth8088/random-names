@@ -1,4 +1,9 @@
 export default function wildstarAurins() {
+  let names;
+  let rnd;
+  let rnd2;
+  let rnd3;
+  let lname;
   let rnd;
   let rnd2;
   let rnd3;
@@ -17,8 +22,7 @@ export default function wildstarAurins() {
   const nm6 = ['a', 'e', 'i', 'a', 'e', 'i', 'a', 'e', 'i', 'a', 'e', 'i', 'a', 'e', 'i', 'ya', 'ia'];
   const nm7 = ['h', 'ff', 'hn', 'hl', 'l', 'll', 'ln', 'lm', 'm', 'mm', 'n', 'nn', 'r', 'rs', 'rl', 'rn', 'rm', 's', 'sh', 'ss', 'w'];
   const nm8 = ['amber', 'autumn', 'blue', 'bright', 'comet', 'dawn', 'day', 'dew', 'dusk', 'ember', 'even', 'ever', 'far', 'feather', 'fire', 'flame', 'fog', 'forest', 'green', 'lake', 'leaf', 'light', 'luna', 'lunar', 'mirth', 'mist', 'moon', 'morning', 'moss', 'night', 'ocean', 'opal', 'rain', 'red', 'river', 'rose', 'ruby', 'shadow', 'silver', 'sky', 'solar', 'stem', 'still', 'storm', 'summer', 'sun', 'twilight', 'water', 'wild', 'wind', 'winter', 'wood'];
-  const nm9 = ['bloom', 'blossom', 'blower', 'branch', 'breath', 'breeze', 'brook', 'cloud', 'clouds', 'dance', 'drift', 'fall', 'flame', 'flock', 'flower', 'gaze', 'gazer', 'grass', 'heart', 'lead', 'leaf', 'mind', 'petal', 'root', 'shade', 'shine', 'sky', 'snow', 'song', 'spirit', 'spyre', 'stalk', 'star', 'strike', 'swift', 'thorn', 'vale', 'walk', 'watch', 'whisper', 'wing'];
-  {
+  const nm9 = ['bloom', 'blossom', 'blower', 'branch', 'breath', 'breeze', 'brook', 'cloud', 'clouds', 'dance', 'drift', 'fall', 'flame', 'flock', 'flower', 'gaze', 'gazer', 'grass', 'heart', 'lead', 'leaf', 'mind', 'petal', 'root', 'shade', 'shine', 'sky', 'snow', 'song', 'spirit', 'spyre', 'stalk', 'star', 'strike', 'swift', 'thorn', 'vale', 'walk', 'watch', 'whisper', 'wing']; {
     rnd6 = Math.floor(Math.random() * nm8.length);
     rnd7 = Math.floor(Math.random() * nm9.length);
     while (nm8[rnd6] === nm9[rnd7]) {

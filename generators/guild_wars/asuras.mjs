@@ -1,4 +1,8 @@
 export default function asuras() {
+  let names;
+  let rnd;
+  let rnd2;
+  let rnd3;
   let rnd;
   let rnd2;
   let rnd3;
@@ -16,8 +20,7 @@ export default function asuras() {
   const nm7 = ['a', 'e', 'o', 'i', 'u', 'ea', 'eo', 'ia', 'io', 'ou', 'ua', 'a', 'e', 'o', 'i', 'u'];
   const nm8 = ['bb', 'dd', 'ff', 'gg', 'kk', 'll', 'mm', 'nn', 'pp', 'rr', 'ss', 'tt', 'xx', 'zz', 'bb', 'dd', 'ff', 'gg', 'kk', 'll', 'mm', 'nn', 'pp', 'rr', 'ss', 'tt', 'xx', 'zz', 'b', 'd', 'f', 'g', 'k', 'l', 'm', 'n', 'p', 'r', 's', 't', 'x', 'z'];
   const nm9 = ['o', 'i', 'a', 'e', 'u'];
-  const i = Math.floor(Math.random() * 10);
-  {
+  const i = Math.floor(Math.random() * 10); {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm5.length);
       rnd2 = Math.floor(Math.random() * nm6.length);

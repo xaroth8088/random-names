@@ -1,4 +1,8 @@
 export default function romulans() {
+  let names;
+  let rnd;
+  let rnd2;
+  let rnd3;
   let rnd;
   let rnd2;
   let rnd3;
@@ -18,8 +22,7 @@ export default function romulans() {
   const nm8 = ['h', 'k', 'l', 'll', 'm', 'n', 'r', 'rr', 't', 'tr', 'th', 'v'];
   const nm9 = ['a', 'e', 'i', 'o', 'u', 'au', 'ee'];
   const nm10 = ['', 'k', 'l', 'm', 'n', 's', 'th'];
-  const nm11 = ['', 'a', 'a'];
-  {
+  const nm11 = ['', 'a', 'a']; {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm7.length);
       rnd2 = Math.floor(Math.random() * nm2.length);

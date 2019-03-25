@@ -1,4 +1,9 @@
 export default function weequays() {
+  let namelast;
+  let names;
+  let rnd;
+  let rnd2;
+  let rnd3;
   let rnd;
   let rnd2;
   let rnd3;
@@ -26,8 +31,7 @@ export default function weequays() {
   const nm10 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'au', 'ee', 'ie', 'ei', 'oo'];
   const nm11 = ['bk', 'b', 'bb', 'bg', 'br', 'd', 'dd', 'dk', 'dr', 'ff', 'f', 'fk', 'g', 'gr', 'gg', 'gl', 'hn', 'hm', 'hk', 'hl', 'k', 'kk', 'kr', 'kl', 'kd', 'kb', 'l', 'ls', 'lm', 'ld', 'lg', 'm', 'mk', 'mt', 'mm', 'nk', 'nd', 'ng', 'nn', 'nt', 'r', 'rk', 'rs', 'rt', 'rtr', 's', 'sk', 'sr', 'st', 'str', 't', 'tr'];
   const nm12 = ['', '', '', '', '', '', '', '', 'c', 'd', 'g', 'k', 'lq', 'lk', 'lc', 'mk', 'm', 'mz', 'n', 'nk', 'nd', 'nc', 'nz', 'q', 'r', 'rd', 's', 'sh', 'sk', 'x', 'y'];
-  const i = Math.floor(Math.random() * 10);
-  {
+  const i = Math.floor(Math.random() * 10); {
     rnd7 = Math.floor(Math.random() * nm9.length);
     rnd8 = Math.floor(Math.random() * nm10.length);
     rnd10 = Math.floor(Math.random() * nm12.length);

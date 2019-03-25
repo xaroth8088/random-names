@@ -1,4 +1,8 @@
 export default function avatarLastAirbenders() {
+  let names;
+  let rnd;
+  let rnd2;
+  let rnd3;
   let rnd;
   let rnd2;
   let rnd3;
@@ -36,8 +40,7 @@ export default function avatarLastAirbenders() {
   const nm25 = ['', '', 'ch', 'h', 'l', 'm', 'n', 's', 'sh', 't', 'y', 'z'];
   const nm26 = ['k', 'l', 'rs', 's', 'z'];
   const nm27 = ['', '', 'ch', 'h', 'l', 'm', 'n', 's', 'sh', 't', 'y', 'z'];
-  i = Math.floor(Math.random() * 12);
-  {
+  const i = Math.floor(Math.random() * 12); {
     if (type === 1) {
       if (i < 3) {
         rnd = Math.floor(Math.random() * nm5.length);

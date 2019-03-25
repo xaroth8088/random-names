@@ -1,4 +1,8 @@
 export default function gnome() {
+  let names;
+  let rnd;
+  let rnd2;
+  let rnd3;
   let rnd;
   let rnd2;
   let rnd3;
@@ -14,8 +18,7 @@ export default function gnome() {
   const nm5 = ['ky', 'by', 'la', 'lo', 'bo', 'ko', 'li', 'bi', 'ki', 'da', 'do', 'di', 'bee', 'lee', 'kee', 'dee', 'le', 'a', 'o', 'y', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', ''];
   const nm6 = ['ago', 'an', 'arn', 'ash', 'bick', 'bik', 'bink', 'ble', 'brik', 'brick', 'bus', 'dink', 'dinkey', 'dinkle', 'dus', 'fink', 'finkle', 'flink', 'flynk', 'fonk', 'flonk', 'fizz', 'fizzy', 'fizzle', 'go', 'gus', 'kin', 'kink', 'klinkle', 'linkey', 'ly', 'mac', 'mink', 'nk', 'nus', 'onk', 'rgo', 'sizz', 'sizzle', 'ris', 'tink', 'tinkle', 'tonk', 'think', 'thinkle', 'thin', 'ulo', 'vash', 'vizz', 'vizzle', 'wick', 'win', 'wack'];
   const nm7 = ['Acer', 'Berry', 'Bizz', 'Black', 'Cast', 'Click', 'Cog', 'Draxle', 'Fast', 'Fine', 'Fizzle', 'Gear', 'Grind', 'Mecha', 'Mekka', 'Over', 'Porter', 'Puddle', 'Sad', 'Shine', 'Short', 'Spanner', 'Spark', 'Spring', 'Spry', 'Steam', 'Storm', 'Swift', 'Thistle', 'Tink', 'Tossle', 'Twist', 'Wobble'];
-  const nm8 = ['bang', 'blast', 'bonk', 'bus', 'crank', 'dwadle', 'fizz', 'fizzle', 'fuse', 'fuzz', 'gauge', 'gear', 'grinder', 'house', 'kettle', 'master', 'needle', 'nozzle', 'pipe', 'span', 'spanner', 'spark', 'spindle', 'spinner', 'spring', 'sprocket', 'steel', 'strip', 'torque', 'whistle', 'wizzle', 'wrench'];
-  {
+  const nm8 = ['bang', 'blast', 'bonk', 'bus', 'crank', 'dwadle', 'fizz', 'fizzle', 'fuse', 'fuzz', 'gauge', 'gear', 'grinder', 'house', 'kettle', 'master', 'needle', 'nozzle', 'pipe', 'span', 'spanner', 'spark', 'spindle', 'spinner', 'spring', 'sprocket', 'steel', 'strip', 'torque', 'whistle', 'wizzle', 'wrench']; {
     rnd7 = Math.floor(Math.random() * nm7.length);
     rnd8 = Math.floor(Math.random() * nm8.length);
     if (type === 1) {

@@ -1,4 +1,8 @@
 export default function andorians() {
+  let names;
+  let rnd;
+  let rnd2;
+  let rnd3;
   let rnd;
   let rnd2;
   let rnd3;
@@ -31,8 +35,7 @@ export default function andorians() {
   const nm13 = ['vr', 'thr', 'v', 'jh', 'p', 't', 'th', 's', 'shr', 's', 'z'];
   const nm14 = ['th', 'r', 'm', 'ss', 'v', 'l', 'll', 'r', 'z', 't', 'tt', 'sh'];
   const nm15 = ['h', 's', 'l', 'ss', 'n', 't', 'th', 'sh', '', '', '', '', '', '', '', '', '', '', '', '', ''];
-  const i = Math.floor(Math.random() * 10);
-  {
+  const i = Math.floor(Math.random() * 10); {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm1.length);
       rnd2 = Math.floor(Math.random() * nm13.length);

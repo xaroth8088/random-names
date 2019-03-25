@@ -1,4 +1,8 @@
 export default function ifrits() {
+  let names;
+  let rnd;
+  let rnd2;
+  let rnd3;
   let rnd;
   let rnd2;
   let rnd3;
@@ -16,8 +20,7 @@ export default function ifrits() {
   const nm5 = ['', '', '', 'c', 'f', 'g', 'h', 'l', 'm', 'n', 'q', 's', 'w', 'z'];
   const nm7 = ['d', 'dw', 'dr', 'h', 'l', 'lr', 'ly', 'm', 'ml', 'mr', 'n', 'nr', 'nl', 'q', 'qh', 'qr', 'r', 'rh', 'ry', 'rl', 't', 'ty', 'th', 'tw', 'tr', 'w', 'y'];
   const nm8 = ['', '', '', '', '', '', '', '', 'h', 'n', 's'];
-  const i = Math.floor(Math.random() * 10);
-  {
+  const i = Math.floor(Math.random() * 10); {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm5.length);
       rnd2 = Math.floor(Math.random() * nm2.length);

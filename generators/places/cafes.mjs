@@ -1,4 +1,5 @@
 export default function cafes() {
+  let rnd2;
   let rnd0;
   let rnd1;
   let
@@ -8,8 +9,7 @@ export default function cafes() {
   const names3 = ['Cafe', 'Tearoom', 'Bistro', 'Barista', 'Coffee', 'Room', 'Coffee Shop', 'Joint', 'Lunchroom', 'Coffee Bar', 'Cafeteria', 'Cafe', 'Cafe', 'Diner', 'Espresso Bar'];
   const names4 = ['Bacon & Eggs', 'Bean & Gone', 'Bean Bag', 'Bean Drinking', 'Bean Me Up', 'Bean There', 'Beans & Barley', 'Big Mugs', 'Bizz Buzz', 'Bread & Butter', 'Brew & Chew', 'Brew Crew', 'Brew Ha Ha', 'Brew for You', 'Brewed Awakening', 'Busy Bean', 'Cocoa Connection', 'Come & Go', 'Common Grounds', 'Cool Beans', 'Daily Grind', 'Ding Dong', 'Drive Brew', 'Early Rise', 'Eats & Treats', 'Espresso Lane', 'Express-O', 'Fire & Ice', 'Fresh Roast', 'Go & Get It', 'Grind House', 'Grinders', 'Ground Up', 'Hallowed Grounds', 'Havana Java', 'Here & There', 'High & Mighty', 'Hot & Cold', 'Hot & Steamy', 'Hot Shots', 'Impresso Espresso', 'In & Out', 'Incredible Edibles', 'Java Junction', 'Java Nice Day', 'Java the Hut', 'Javawocky', 'Joe & Go', 'Jumping Bean', 'Jumpstart', 'Knock On Wood', 'Last Drop', 'Late Latte', 'Lava Java', 'Lemon & Lime', 'Lettuce Retreat', 'Liquid Heaven', 'Moment of Peace', 'Mug Shot', 'Naughty & Nice', 'Near & Far', 'Needle & Thread', 'Peaches & Cream', 'Pestle & Mortar', 'Q & A', 'Quick & Easy', 'Rest & Relaxation', 'Rise & Grind', 'Rise & Shine', 'Roasted Bean', 'Roasters', 'Salt & Pepper', 'See You Latte', 'Short & Steamy', 'Silky & Smooth', 'Slice of Life', 'Splitting Beans', 'Steamy Bean', 'Steamy Indulgences', 'Sugar & Spice', 'Sweet & Savory', 'Tall, Dark and Coffee', 'Tea Time', 'Thanks a Latte', 'Thinking Cup', 'This & That', 'Tongue & Cheek', 'Trembling Cup', 'Tutty Fruity', 'Urban Grind', 'Vice & Virtue', 'Wake Up', 'Wakey Wakey', 'Whole Latte Love', 'Wide Awake', 'Yin & Yang', 'Yours & Mine', 'Yum Yum', 'Yummy Tummy', 'Zig Zag'];
   const names = [];
-  const i = Math.floor(Math.random() * 10);
-  {
+  const i = Math.floor(Math.random() * 10); {
     if (i < 5) {
       rnd0 = Math.floor(Math.random() * names4.length);
       rnd1 = Math.floor(Math.random() * names3.length);

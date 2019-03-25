@@ -1,4 +1,8 @@
 export default function herbs() {
+  let names;
+  let rnd;
+  let rnd2;
+  let rnd3;
   let rnd;
   let rnd2;
   let rnd3;
@@ -13,8 +17,7 @@ export default function herbs() {
   const names5 = [' Bud', ' Grain', ' Grass', ' Husk', ' Kernel', ' Leaf', ' Nut', ' Petal', ' Root', ' Shoot', ' Spore', ' Stalk', 'bacca', 'bi', 'ce', 'cely', 'cory', 'cress', 'damom', 'damon', 'der', 'fras', 'frass', 'fron', 'gane', 'gano', 'ge', 'gella', 'ger', 'gon', 'grass', 'jora', 'joram', 'ka', 'kam', 'kawa', 'lantro', 'lary', 'lery', 'ley', 'li', 'lic', 'lica', 'lla', 'lt', 'ltro', 'me', 'meg', 'meric', 'min', 'mine', 'misa', 'mom', 'mon', 'mric', 'namon', 'nder', 'nel', 'nip', 'nis', 'nise', 'ntro', 'nut', 'para', 'per', 'rage', 'ram', 'ran', 'raway', 'rel', 'rian', 'ric', 'rica', 'rice', 'rika', 'rise', 'rlic', 'ron', 'rrel', 'rry', 'rway', 'ry', 'sabi', 'sbi', 'seed', 'shell', 'shil', 'sia', 'sil', 'sley', 'so', 'sop', 'ssop', 'th', 'tro', 've', 'ves', 'vil', 'way', 'yenne'];
   const names6 = ['Abyss', 'Angel', 'Arctic', 'Ash', 'Assassin', 'Autumn', 'Bitter', 'Black', 'Blister', 'Blood', 'Blue', 'Brown', 'Bruise', 'Candy', 'Cave', 'Cavern', 'Cinder', 'Cliff', 'Demon', 'Devil', 'Dragon', 'Drake', 'Dream', 'Earth', 'Elephant', 'Ember', 'Emerald', 'Fade', 'Fire', 'Flux', 'Forest', 'Golden', 'Hate', 'Hazel', 'Heart', 'Hybernation', 'Ice', 'Ivory', 'Jade', 'King\'s', 'Knettle', 'Knot', 'Lake', 'Love', 'Mage', 'Mammoth', 'Mellow', 'Mercy', 'Monk\'s', 'Moon', 'Mountain', 'Mud', 'Ocean', 'Orange', 'Peace', 'Pearl', 'Pygmy', 'Queen\'s', 'Rain', 'Red', 'River', 'Ruby', 'Sanguine', 'Sapphire', 'Sea', 'Shimmer', 'Silk', 'Snowy', 'Sorrow', 'Sour', 'Spark', 'Spring', 'Star', 'Stinky', 'Storm', 'Summer', 'Sun', 'Swamp', 'Sweet', 'Thorn', 'Thunder', 'Tiger', 'Tundra', 'Venom', 'Viper', 'Void', 'Water', 'White', 'Wild', 'Winter', 'Witch\'s', 'Wolf', 'Worm', 'Yellow'];
   const names7 = ['Angelica', 'Anise', 'Aniseed', 'Avens', 'Barberry', 'Bark', 'Basil', 'Bay Leaf', 'Blossom', 'Borage', 'Caraway', 'Cardamom', 'Cassia', 'Catnip', 'Celery', 'Chervil', 'Chicory', 'Chives', 'Cilantro', 'Cinnamon', 'Clary', 'Clove', 'Coriander', 'Cress', 'Cudweed', 'Culantro', 'Cumin', 'Curry Leaf', 'Dill', 'Dill Seed', 'Fennel', 'Fenugreek', 'Flower', 'Galangal', 'Galingale', 'Garlic', 'Ginger', 'Grains', 'Grass', 'Herb', 'Hyssop', 'Lavender', 'Leaf', 'Leaves', 'Licorice', 'Lovage', 'Mace', 'Mallow', 'Marjoram', 'Mint', 'Moss', 'Mustard', 'Nigella', 'Nutmeg', 'Oregano', 'Paprika', 'Parsley', 'Pepper', 'Peppermint', 'Petal', 'Quassia', 'Root', 'Rosemary', 'Rue', 'Safflower', 'Saffron', 'Sage', 'Salt', 'Sassafras', 'Savory', 'Seed', 'Shiso', 'Sorrel', 'Spearmint', 'Spice', 'Sumac', 'Tarragon', 'Thyme', 'Turmeric', 'Vanilla', 'Bloom', 'Tea Leaf', 'Ivy', 'Weed', 'Creeper', 'Vine'];
-  const i = Math.floor(Math.random() * 10);
-  {
+  const i = Math.floor(Math.random() * 10); {
     if (i < 5) {
       rnd = Math.floor(Math.random() * names1.length);
       rnd2 = Math.floor(Math.random() * names2.length);

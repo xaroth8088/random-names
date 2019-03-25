@@ -1,4 +1,8 @@
 export default function vulcans() {
+  let names;
+  let rnd;
+  let rnd2;
+  let rnd3;
   let rnd;
   let rnd2;
   let rnd3;
@@ -16,8 +20,7 @@ export default function vulcans() {
   const nm7 = ['aa', 'ai', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u'];
   const nm8 = ['k', 'l', 'm', 'n', 'nv', 'nn', 'r', 'rr', 's', 'ss', 't', 'v'];
   const nm9 = ['', '', 'k', 'l', 'n', 'ng', 'r', 's', 'th'];
-  const i = Math.floor(Math.random() * 10);
-  {
+  const i = Math.floor(Math.random() * 10); {
     if (type === 1) {
       if (i < 5) {
         rnd = Math.floor(Math.random() * nm5.length);

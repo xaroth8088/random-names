@@ -1,4 +1,8 @@
 export default function freeCitys() {
+  let names;
+  let rnd;
+  let rnd2;
+  let rnd3;
   let rnd;
   let rnd2;
   let rnd3;
@@ -11,8 +15,7 @@ export default function freeCitys() {
   const names3 = ['Ahr', 'Aren', 'Daen', 'Dil', 'Dor', 'Erin', 'Erl', 'Faey', 'Fer', 'Firan', 'Harr', 'Hel', 'Hen', 'Il', 'Iner', 'Laen', 'Ler', 'Less', 'Mel', 'Mesh', 'Min', 'Nes', 'Nil', 'Noar', 'Onal', 'Or', 'Phen', 'Phir', 'Sael', 'Ser', 'Sir', 'Taen', 'Tir', 'Triann', 'Vaer', 'Vell', 'Vor', 'Waer', 'Wen', 'Wyn'];
   const names4 = ['a', 'aena', 'aerah', 'ala', 'aleah', 'anah', 'anea', 'aria', 'asha', 'aya', 'eah', 'ela', 'ella', 'elna', 'era', 'erah', 'esa', 'esha', 'eya', 'eyana', 'ianna', 'ila', 'ina', 'ira', 'irah', 'issa', 'ola', 'olana', 'olla', 'ona', 'ora', 'oreah', 'orlah', 'osha', 'ylea', 'ylla', 'yna', 'ynea', 'ysa', 'ysha'];
   const names5 = ['Aen', 'Ahr', 'Aner', 'Baerr', 'Bah', 'Bren', 'Dirr', 'Drenn', 'Dyn', 'Enn', 'Eran', 'Ess', 'Faen', 'Flaer', 'For', 'Fyll', 'Hart', 'Hest', 'Hot', 'Iran', 'Irn', 'Irr', 'Maeg', 'Mar', 'Mop', 'Naer', 'Nah', 'Nest', 'Orl', 'Orm', 'Ost', 'Paen', 'Pahr', 'Phass', 'San', 'Sorr', 'Stass', 'Vhass', 'Voll', 'Vyn'];
-  const names6 = ['aan', 'aar', 'aenor', 'ah', 'ahran', 'anar', 'ar', 'aris', 'assar', 'atis', 'el', 'elar', 'elion', 'en', 'enohr', 'erah', 'erion', 'erris', 'in', 'inar', 'ion', 'ios', 'irah', 'iris', 'iros', 'ohr', 'ohrin', 'olis', 'onnis', 'oran', 'oris', 'orlan', 'os', 'oyor', 'yl', 'ymion', 'yr', 'yrion', 'yris', 'ys'];
-  {
+  const names6 = ['aan', 'aar', 'aenor', 'ah', 'ahran', 'anar', 'ar', 'aris', 'assar', 'atis', 'el', 'elar', 'elion', 'en', 'enohr', 'erah', 'erion', 'erris', 'in', 'inar', 'ion', 'ios', 'irah', 'iris', 'iros', 'ohr', 'ohrin', 'olis', 'onnis', 'oran', 'oris', 'orlan', 'os', 'oyor', 'yl', 'ymion', 'yr', 'yrion', 'yris', 'ys']; {
     if (type === 1) {
       rnd = Math.floor(Math.random() * names3.length);
       rnd2 = Math.floor(Math.random() * names4.length);

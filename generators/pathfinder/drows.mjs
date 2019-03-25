@@ -1,4 +1,9 @@
 export default function drows() {
+  let nameLast;
+  let names;
+  let rnd;
+  let rnd2;
+  let rnd3;
   let rnd;
   let rnd2;
   let rnd3;
@@ -31,8 +36,7 @@ export default function drows() {
   const nm10 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'y', 'y', 'y', 'y', 'ae', 'iu', 'ei', 'ie', 'ia', 'ai', 'ee'];
   const nm11 = ['d', 'dr', 'g', 'gn', 'gr', 'ld', 'lr', 'ldr', 'lv', 'lz', 'm', 'mr', 'n', 'nd', 'nn', 'ng', 'nr', 'ndr', 'nz', 'nvr', 'r', 'rq', 'rdr', 'rz', 'rv', 's', 'sr', 'shr', 'str', 'vr', 'vn', 'x', 'xr', 'zr', 'z'];
   const nm12 = ['', '', '', '', '', 'c', 'd', 'h', 'n', 'rc', 's', 'sh', 't', 'th', 'v', 'x'];
-  const i = Math.floor(Math.random() * 10);
-  {
+  const i = Math.floor(Math.random() * 10); {
     rnd10 = Math.floor(Math.random() * nm9.length);
     rnd11 = Math.floor(Math.random() * nm10.length);
     rnd12 = Math.floor(Math.random() * nm12.length);

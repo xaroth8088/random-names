@@ -1,4 +1,9 @@
 export default function highElfs() {
+  let names;
+  let rnd;
+  let rnd2;
+  let rnd3;
+  let nameL;
   let rnd;
   let rnd0;
   let rnd2;
@@ -20,8 +25,7 @@ export default function highElfs() {
   const nm6 = ['a', 'e', 'i', 'a', 'e', 'i', 'a', 'e', 'i', 'a', 'e', 'i', 'a', 'e', 'i', 'a', 'e', 'i', 'o', 'o', 'o', 'ie', 'ia', 'ae', 'ye', 'ei'];
   const nm7 = ['c', 'd', 'f', 'h', 'k', 'l', 'm', 'n', 'r', 's', 't', 'v', 'z', 'c', 'd', 'dh', 'dd', 'f', 'ff', 'fn', 'gh', 'h', 'hh', 'k', 'kh', 'l', 'll', 'lr', 'lv', 'lm', 'ln', 'lf', 'lg', 'm', 'mm', 'mn', 'n', 'nn', 'nr', 'nv', 'r', 'rr', 'rh', 'rn', 'rl', 's', 'sh', 'ss', 't', 'tt', 'th', 'v', 'z', 'zz'];
   const nm8 = ['Academic', 'Acclaimed', 'Admired', 'Agile', 'Ancient', 'Angel', 'Angelic', 'Artist', 'Austere', 'Beast', 'Beautiful', 'Blessed', 'Bold', 'Brave', 'Brilliant', 'Celebrated', 'Clever', 'Composed', 'Conqueror', 'Defender', 'Defiant', 'Devoted', 'Diligent', 'Discrete', 'Earnest', 'Educated', 'Elegant', 'Enchanted', 'Enchanting', 'Enforcer', 'Enlightened', 'Exalted', 'Executioner', 'Expert', 'Explorer', 'Fearless', 'Flamboyant', 'Flawless', 'Generous', 'Gentle', 'Gifted', 'Giving', 'Glorious', 'Graceful', 'Grand', 'Great', 'Grim', 'Guardian', 'Honest', 'Honorable', 'Honored', 'Humble', 'Illustrious', 'Immortal', 'Impetuous', 'Incredible', 'Just', 'Learned', 'Light', 'Loremaster', 'Loyal', 'Magnificent', 'Majestic', 'Marvelous', 'Merciful', 'Mighty', 'Oracle', 'Paragon', 'Patient', 'Peacemaker', 'Pious', 'Pleasant', 'Poet', 'Powerful', 'Prime', 'Proud', 'Radiant', 'Sage', 'Seafarer', 'Serene', 'Silent', 'Slayer', 'Specialist', 'Stark', 'Stout', 'Strict', 'Swift', 'Valiant', 'Vengeful', 'Warrior', 'Wild', 'Wise'];
-  const i = Math.floor(Math.random() * 10);
-  {
+  const i = Math.floor(Math.random() * 10); {
     rnd = Math.floor(Math.random() * nm8.length);
     nameL = nm8[rnd];
     if (type === 1) {

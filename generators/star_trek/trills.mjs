@@ -1,4 +1,8 @@
 export default function trills() {
+  let names;
+  let rnd;
+  let rnd2;
+  let rnd3;
   let rnd;
   let rnd2;
   let rnd3;
@@ -23,8 +27,7 @@ export default function trills() {
   const nm9 = ['b', 'd', 'gr', 'k', 'l', 'm', 'n', 'p', 'pr', 'r', 't', 'v'];
   const nm10 = ['', '', 'ee', 'ia', 'au', 'aa', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u'];
   const nm11 = ['', '', '', '', '', '', '', '', 'b', 'd', 'g', 'gr', 'gn', 'l', 'll', 'm', 'n', 'rr', 'r', 's', 'tn', 'v', 'z'];
-  const nm12 = ['d', 'g', 'hn', 'hl', 'l', 'm', 'n', 'r', 'rs', 's', 'x'];
-  {
+  const nm12 = ['d', 'g', 'hn', 'hl', 'l', 'm', 'n', 'r', 'rs', 's', 'x']; {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm5.length);
       rnd2 = Math.floor(Math.random() * nm6.length);

@@ -1,4 +1,8 @@
 export default function mirialans() {
+  let names;
+  let rnd;
+  let rnd2;
+  let rnd3;
   let rnd;
   let rnd2;
   let rnd3;
@@ -19,8 +23,7 @@ export default function mirialans() {
   const nm7 = ['b', 'c', 'ch', 'd', 'f', 'g', 'h', 'k', 'l', 'm', 'n', 'p', 'q', 'r', 's', 'sh', 't', 'v', 'v', 'w', 'y', 'z', 'z', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', ''];
   const nm8 = ['b', 'c', 'ch', 'd', 'f', 'fl', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'p', 'q', 'r', 's', 'sh', 't', 'v', 'w', 'y', 'z'];
   const nm9 = ['b', 'c', 'ch', 'd', 'f', 'g', 'h', 'i', 'k', 'l', 'm', 'n', 'p', 'q', 'r', 's', 'sh', 't', 'v', 'v', 'w', 'y', 'z', 'z', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', ''];
-  const nm10 = ['i', 'a', 'o', 'e', 'u', '', ''];
-  {
+  const nm10 = ['i', 'a', 'o', 'e', 'u', '', '']; {
     rnd = Math.floor(Math.random() * nm1.length);
     rnd3 = Math.floor(Math.random() * nm3.length);
     rnd4 = Math.floor(Math.random() * nm4.length);

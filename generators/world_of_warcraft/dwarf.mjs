@@ -1,4 +1,8 @@
 export default function dwarf() {
+  let names;
+  let rnd;
+  let rnd2;
+  let rnd3;
   let rnd;
   let rnd2;
   let rnd3;
@@ -14,8 +18,7 @@ export default function dwarf() {
   const nm5 = ['o', 'a', 'i', 'ia', 'io', 'ou', 'ua', 'ah', 'um', 'oh', 'ir', 'ar', 'or', 'un', 'eo', 'ea', 'in', 'im', 'an', 'am', '', '', '', '', ''];
   const nm6 = ['leil', 'nar', 'nyl', 'myl', 'lyl', 'dyl', 'ris', 'ras', 'res', 'ros', 'win', 'wyn', 'waen', 'whin', 'whyn', 'whaen', 'tin', 'tyn', 'lyn', 'lin', 'lynn', 'linn', 'wynn', 'va', 'van', 'rin', 'ryn', 'ryl', 'nas', 'nan', 'ria', 'nia', 'ri', 'rip', 'nip', 'dora', 'leen', 'len', 'ma', 'la', 'mora', 'mura', 'mera', 'nura', 'nera', 'nora', 'glia', 'glian', 'giel', 'thiel', 'diel', 'thel', 'nis', 'niss', 'nys', 'nyss'];
   const nm7 = ['Barley', 'Battle', 'Black', 'Bone', 'Boulder', 'Bright', 'Bronze', 'Cask', 'Cliff', 'Cold', 'Crag', 'Dark', 'Deep', 'Dirge', 'Doom', 'Fire', 'Flint', 'Frost', 'Fuse', 'Gold', 'Hammer', 'High', 'Iron', 'Long', 'Marble', 'Molten', 'Mountain', 'Pale', 'Red', 'Slate', 'Snow', 'Steel', 'Stern', 'Stone', 'Storm', 'Stout', 'Thunder'];
-  const nm8 = ['arm', 'axe', 'beard', 'belly', 'blade', 'braid', 'branch', 'brand', 'breaker', 'brew', 'brow', 'crag', 'dust', 'fall', 'fist', 'flayer', 'forge', 'fury', 'gem', 'grip', 'hammer', 'hand', 'helm', 'mane', 'mantle', 'ore', 'pike', 'river', 'roar', 'rock', 'shaper', 'shield', 'shout', 'steel', 'stone', 'toe'];
-  {
+  const nm8 = ['arm', 'axe', 'beard', 'belly', 'blade', 'braid', 'branch', 'brand', 'breaker', 'brew', 'brow', 'crag', 'dust', 'fall', 'fist', 'flayer', 'forge', 'fury', 'gem', 'grip', 'hammer', 'hand', 'helm', 'mane', 'mantle', 'ore', 'pike', 'river', 'roar', 'rock', 'shaper', 'shield', 'shout', 'steel', 'stone', 'toe']; {
     rnd4 = Math.floor(Math.random() * nm7.length);
     rnd5 = Math.floor(Math.random() * nm8.length);
     if (type === 1) {

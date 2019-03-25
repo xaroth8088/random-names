@@ -1,4 +1,8 @@
 export default function gnomes() {
+  let names;
+  let rnd;
+  let rnd2;
+  let rnd3;
   let rnd;
   let rnd2;
   let rnd3;
@@ -22,8 +26,7 @@ export default function gnomes() {
   const nm11 = ['b', 'c', 'd', 'g', 'k', 'm', 'n', 'r', 'v'];
   const nm12 = ['b', 'd', 'f', 'h', 'l', 'm', 'n', 's', 'v', 'w'];
   const nm13 = ['b', 'c', 'd', 'f', 'g', 'h', 'k', 'l', 'm', 'n', 'r', 's', 'v', 'w'];
-  const i = Math.floor(Math.random() * 10);
-  {
+  const i = Math.floor(Math.random() * 10); {
     rnd2 = Math.floor(Math.random() * nm3.length);
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm5.length);

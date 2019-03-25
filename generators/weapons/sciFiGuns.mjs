@@ -1,4 +1,8 @@
 export default function sciFiGuns() {
+  let names;
+  let rnd;
+  let rnd2;
+  let rnd3;
   let rnd;
   let rnd2;
   let
@@ -10,8 +14,7 @@ export default function sciFiGuns() {
   const nm4 = ['Pistol', 'Phaser', 'Blaster', 'Rifle', 'Gun', 'Cannon', 'Shooter', 'Sniper', 'Pistol', 'Phaser', 'Blaster', 'Rifle', 'Gun', 'Cannon', 'Shooter', 'Zapper', 'Equalizer', 'Disintegrator', 'Eraser'];
   const nm5 = ['Allegiance', 'Annihilation', 'Betrayer', 'Bond', 'Boon', 'Breaker', 'Bringer', 'Bruiser', 'Butcher', 'Call', 'Champion', 'Conqueror', 'Crusader', 'Crusher', 'Cry', 'Cunning', 'Dawn', 'Defender', 'Defiler', 'Destroyer', 'Disposer', 'Ender', 'Executioner', 'Favor', 'Ferocity', 'Foe', 'Gift', 'Glory', 'Guardian', 'Heirloom', 'Hope', 'Incarnation', 'Last Hope', 'Last Stand', 'Legacy', 'Memory', 'Might', 'Oath', 'Pact', 'Pledge', 'Pounder', 'Promise', 'Prophecy', 'Protector', 'Queller', 'Ravager', 'Reach', 'Reaper', 'Scepter', 'Sculptor', 'Secret', 'Slayer', 'Smasher', 'Soul', 'Suppressor', 'Terror', 'Token', 'Tribute', 'Vengeance', 'Voice', 'Whisper', 'Wit', 'Pistol', 'Phaser', 'Blaster', 'Rifle', 'Gun', 'Cannon', 'Shooter', 'Pistol', 'Phaser', 'Blaster', 'Rifle', 'Gun', 'Cannon', 'Shooter', 'Zapper', 'Equalizer', 'Disintegrator', 'Eraser', 'Emissary', 'Agent', 'Bearer', 'Carrier', 'Messenger', 'Courier', 'Crier', 'Ambassador', 'Harbinger', 'Herald', 'Envoy', 'Dispatcher', 'Delegate'];
   const nm6 = ['of Agony', 'of Anguish', 'of Ashes', 'of Blight', 'of Blood', 'of Chaos', 'of Corruption', 'of Cruelty', 'of Cunning', 'of Darkness', 'of Decay', 'of Deception', 'of Degradation', 'of Delusions', 'of Denial', 'of Desecration', 'of Dismay', 'of Echoes', 'of Ended Dreams', 'of Ending Hope', 'of Ending Misery', 'of Eternal Bloodlust', 'of Eternal Damnation', 'of Eternal Glory', 'of Eternal Justice', 'of Eternal Rest', 'of Eternal Sorrow', 'of Eternal Struggles', 'of Eternity', 'of Executions', 'of Faded Memories', 'of Fallen Souls', 'of Fools', 'of Frozen Hells', 'of Fury', 'of Grace', 'of Grieving Widows', 'of Hate', 'of Hatred', 'of Hellish Torment', 'of Heroes', 'of Honor', 'of Hope', 'of Horrors', 'of Insanity', 'of Justice', 'of Lost Comrades', 'of Lost Hope', 'of Lost Voices', 'of Lost Worlds', 'of Mercy', 'of Misery', 'of Mourning', 'of Mystery', 'of Nightmares', 'of Oblivion', 'of Power', 'of Pride', 'of Reckoning', 'of Redemption', 'of Regret', 'of Riddles', 'of Secrecy', 'of Secrets', 'of Shadows', 'of Silence', 'of Souls', 'of Storms', 'of Subtlety', 'of Suffering', 'of Terror', 'of Thunder', 'of Torment', 'of Traitors', 'of Trembling Hands', 'of Trials', 'of Truth', 'of Vengeance', 'of Widows', 'of Woe', 'of Zeal', 'of the Burning Sun', 'of the Cataclysm', 'of the Champion', 'of the Covenant', 'of the Crown', 'of the Damned', 'of the Emperor', 'of the Void', 'of the End', 'of the Fallen', 'of the Forgotten', 'of the Forsaken', 'of the Incoming Storm', 'of the King', 'of the Lone Victor', 'of the Lone Wolf', 'of the Lost', 'of the Moon', 'of the Night Sky', 'of the Night', 'of the Phoenix', 'of the Protector', 'of the Setting Sun', 'of the Shadows', 'of the Sky', 'of the Stars', 'of the Storm', 'of the Sun', 'of the Victor', 'of the Void', 'of the Whispers', 'of the Wicked'];
-  const i = Math.floor(Math.random() * 10);
-  {
+  const i = Math.floor(Math.random() * 10); {
     if (i < 4) {
       rnd = Math.floor(Math.random() * nm2.length);
       rnd2 = Math.floor(Math.random() * nm3.length);

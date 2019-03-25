@@ -1,4 +1,6 @@
 export default function towns() {
+  let names5;
+  let result;
   let random8;
   let random7;
   let random5;

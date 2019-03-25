@@ -1,4 +1,8 @@
 export default function fursonas() {
+  let names;
+  let rnd;
+  let rnd2;
+  let rnd3;
   let rnd;
   let rnd2;
   let rnd3;
@@ -24,8 +28,7 @@ export default function fursonas() {
   const nm18 = ['a', 'e', 'i', 'a', 'e', 'i', 'a', 'e', 'i', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'ui', 'ea', 'ei', 'ie', 'ai', 'ua', 'ei', 'eo', 'ia', 'aa', 'eo', 'ee'];
   const nm19 = ['b', 'c', 'd', 'f', 'g', 'h', 'k', 'l', 'm', 'n', 'ph', 'r', 's', 'th', 'b', 'c', 'd', 'f', 'g', 'h', 'k', 'l', 'm', 'n', 'ph', 'r', 's', 'th', 'b', 'b', 'br', 'bl', 'cl', 'c', 'c', 'cr', 'd', 'd', 'dl', 'dr', 'g', 'g', 'gr', 'gn', 'k', 'k', 'kr', 'kn', 'l', 'l', 'lc', 'll', 'lm', 'lt', 'lw', 'm', 'm', 'mn', 'mr', 'n', 'n', 'nc', 'ndl', 'nh', 'nn', 'ns', 'nz', 'r', 'r', 'rd', 'rk', 'rn', 'rs', 'rv', 'ry', 's', 's', 'st', 'sk', 'sr', 'str', 't', 'th', 'tr', 'tn', 't', 'thm', 'v', 'v', 'z', 'z', 'br', 'bh', 'b', 'dh', 'd', 'dn', 'dd', 'f', 'ff', 'fr', 'g', 'gh', 'gg', 'h', 'h', 'hh', 'k', 'kr', 'kh', 'l', 'll', 'lm', 'ln', 'lv', 'lw', 'm', 'mm', 'mn', 'n', 'nc', 'nn', 'pp', 'p', 'ph', 'pr', 'r', 'rg', 'rr', 's', 'ss', 'sh', 'tt', 'th', 'v', 'zn', 'z'];
   const nm22 = ['', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', 'q', 'x', 'z', 'ph', 'ss', 'sh', '', 's', 'n', 'h', 'l', 'th', 'b', 'bs', 'c', 'cs', 'ck', 'd', 'f', 'g', 'k', 'l', 'ld', 'll', 'lt', 'ln', 'lm', 'ls', 'm', 'n', 'nd', 'p', 'q', 'r', 'rs', 'rd', 'rt', 's', 'st', 'sh', 'z', 'y'];
-  const i = Math.floor(Math.random() * 10);
-  {
+  const i = Math.floor(Math.random() * 10); {
     if (i < 5) {
       if (type === 1) {
         rnd = Math.floor(Math.random() * nm11.length);

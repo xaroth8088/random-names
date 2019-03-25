@@ -1,4 +1,6 @@
 export default function gangs() {
+  let names;
+  let rnd2;
   let rnd0;
   let rnd1;
   let
@@ -9,8 +11,7 @@ export default function gangs() {
   const nm3 = ['aliens', 'alligators', 'angels', 'badgers', 'bats', 'bears', 'blooddrops', 'bloods', 'blossoms', 'boars', 'bulldogs', 'bulls', 'butterflies', 'chainsaws', 'cobras', 'coyotes', 'crocs', 'crosses', 'crows', 'demons', 'devils', 'dragonflies', 'dragons', 'dwarves', 'eagles', 'elephants', 'enigmas', 'fangs', 'forsaken', 'ghosts', 'gorillas', 'growlers', 'hogs', 'honey badgers', 'horns', 'jackals', 'knives', 'knuckles', 'leopards', 'lilies', 'lions', 'mambas', 'mammoths', 'monkeys', 'moths', 'needles', 'owls', 'phantoms', 'pigmies', 'pillagers', 'pincers', 'pistols', 'plunderers', 'rats', 'ravenclaws', 'ravens', 'razors', 'reapers', 'rebels', 'riders', 'roses', 'sabors', 'seals', 'serpents', 'sharkfins', 'sharks', 'sharkteeth', 'skeletons', 'skulls', 'slicers', 'snakes', 'spiders', 'swords', 'takers', 'tears', 'thorns', 'tigers', 'toads', 'trolls', 'undead', 'vipers', 'vultures', 'warthogs', 'wolverines', 'wolves'];
   const nm4 = ['association', 'band', 'brotherhood', 'clan', 'company', 'crew', 'gang', 'posse', 'riders', 'soldiers', 'squad', 'syndicate', 'tribe'];
   const nm5 = ['abandoned', 'anarchists', 'anonymous', 'chargers', 'damnation', 'day walkers', 'dead eyes', 'destroyers', 'disciples', 'doom bringers', 'dreamers', 'liberated', 'liberation front', 'empty eyes', 'eternals', 'faceless ones', 'fallen angels', 'forsaken', 'grim reapers', 'hopeless', 'hopeless ones', 'hunters', 'idealists', 'immortals', 'invincibles', 'invisibles', 'kings', 'life takers', 'loners', 'men of limbo', 'men of the night', 'women of limbo', 'women of the night', 'mob', 'nameless', 'night stalkers', 'poison ivies', 'purgatory', 'ravagers', 'risen demons', 'salvation', 'shadows', 'silence', 'silent death', 'silent footsteps', 'soul stealers', 'soulless ones', 'united front', 'unseen', 'untamed', 'voiceless ones', 'void', 'whisperers', 'wild ones', 'wildlings'];
-  const i = Math.floor(Math.random() * 10);
-  {
+  const i = Math.floor(Math.random() * 10); {
     if (i < 4) {
       rnd0 = Math.floor(Math.random() * nm1.length);
       rnd1 = Math.floor(Math.random() * nm2.length);

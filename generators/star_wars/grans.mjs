@@ -1,4 +1,9 @@
 export default function grans() {
+  let namelast;
+  let names;
+  let rnd;
+  let rnd2;
+  let rnd3;
   let rnd;
   let rnd2;
   let rnd3;
@@ -16,8 +21,7 @@ export default function grans() {
   const nm3 = ['b', 'c', 'd', 'f', 'g', 'gg', 'gh', 'k', 'kg', 'kk', 'ks', 'l', 'll', 'lv', 'm', 'mm', 'n', 'nch', 'nl', 'nn', 'ns', 'p', 'ph', 'r', 'rb', 'rg', 'rh', 'rl', 'rr', 'rv', 's', 'sk', 'ss', 't', 'th', 'tt', 'w', 'wh', 'y', 'yc'];
   const nm4 = ['', '', '', '', '', 'b', 'c', 'd', 'f', 'ff', 'g', 'gh', 'j', 'k', 'ks', 'kz', 'l', 'ls', 'm', 'n', 'nd', 'ps', 'r', 'rch', 'rg', 's', 'sk', 'ss', 'th', 'wz', 'x', 'yk', 'z'];
   const nm5 = ['ee', 'aa', 'oe', 'ie', 'ia', 'ea', 'ei'];
-  const i = Math.floor(Math.random() * 10);
-  {
+  const i = Math.floor(Math.random() * 10); {
     rnd6 = Math.floor(Math.random() * nm1.length);
     rnd7 = Math.floor(Math.random() * nm5.length);
     rnd8 = Math.floor(Math.random() * nm4.length);

@@ -1,4 +1,8 @@
 export default function monsters() {
+  let names;
+  let rnd;
+  let rnd2;
+  let rnd3;
   let rnd;
   let rnd2;
   let
@@ -11,8 +15,7 @@ export default function monsters() {
   const nm5 = ['Agile', 'Amphibian', 'Aquatic', 'Arctic', 'Barb-Tailed', 'Black-Eyed', 'Black-Striped', 'Blind', 'Blood-Eyed', 'Bloodthirsty', 'Bright', 'Brutal', 'Burnt', 'Chaotic', 'Cobalt', 'Cold-Blooded', 'Crazed', 'Crimson', 'Crowned', 'Dark', 'Diabolical', 'Ebon', 'Electric', 'Elusive', 'Evasive', 'Feathered', 'Feral', 'Fiery', 'Furry', 'Giant', 'Glacial', 'Golden', 'Greater', 'Grim', 'Grisly', 'Hidden', 'Horned', 'Howling', 'Iron', 'Iron-Scaled', 'Ivory', 'Jade', 'Lone', 'Long-Horned', 'Mad', 'Malevolent', 'Masked', 'Matriarch', 'Monstrous', 'Obsidian', 'Onyx', 'Painted', 'Patriarch', 'Primeval', 'Primitive', 'Rabid', 'Raging', 'Ravaging', 'Red-Eyed', 'Ruthless', 'Sapphire', 'Savage', 'Scarred', 'Screeching', 'Silver', 'Silver-Striped', 'Slender', 'Stalking', 'Stormcloud', 'Supreme', 'Taloned', 'Tattooed', 'Titanic', 'Titanium', 'Tusked', 'Vicious', 'White-Eyed', 'Wild'];
   const nm6 = ['Army', 'Ash', 'Assassin', 'Bane', 'Berserker', 'Blaze', 'Blight', 'Bone', 'Boulder', 'Butcher', 'Cave', 'Cavern', 'Cinder', 'Corpse', 'Dawn', 'Demon', 'Dire', 'Doom', 'Dread', 'Flame', 'Frost', 'Ghost', 'Grieve', 'Harlequin', 'Horror', 'Hunting', 'Jester', 'Killer', 'Mist', 'Mocking', 'Moon', 'Mountain', 'Nether', 'Night', 'Nightmare', 'Phantom', 'Predator', 'Preying', 'Raptor', 'Razor', 'Razorback', 'Rot', 'Shadow', 'Skeleton', 'Slayer', 'Spite', 'Storm', 'Sun', 'Terror', 'Thunder', 'Tomb', 'Torment', 'Vampire', 'Venom', 'Vision', 'Warp', 'World'];
   const nm7 = ['Alligator', 'Anaconda', 'Ape', 'Bat', 'Bear', 'Beast', 'Bee', 'Behemoth', 'Bison', 'Boar', 'Buffalo', 'Bull', 'Cat', 'Cobra', 'Critter', 'Crocodile', 'Deer', 'Dog', 'Dragon', 'Drake', 'Elephant', 'Fiend', 'Freak', 'Frog', 'Gargoyle', 'Gorilla', 'Hawk', 'Hippo', 'Hog', 'Hound', 'Hyena', 'Jackal', 'Leopard', 'Leviathan', 'Lion', 'Lizard', 'Lynx', 'Monkey', 'Monster', 'Owl', 'Panther', 'Phoenix', 'Pig', 'Rat', 'Rhino', 'Scorpion', 'Serpent', 'Sheep', 'Snake', 'Spider', 'Swine', 'Tiger', 'Vermin', 'Viper', 'Warthog', 'Wolf', 'Yak'];
-  const i = Math.floor(Math.random() * 10);
-  {
+  const i = Math.floor(Math.random() * 10); {
     if (i < 4) {
       rnd = Math.floor(Math.random() * nm3.length);
       rnd2 = Math.floor(Math.random() * nm4.length);

@@ -1,4 +1,10 @@
 export default function nautolans() {
+  let namelast;
+  let names;
+  let rnd;
+  let rnd2;
+  let rnd3;
+  let rnd5b;
   let rnd;
   let rnd2;
   let rnd3;
@@ -28,8 +34,7 @@ export default function nautolans() {
   const nm10 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'oa', 'ai', 'ia', 'ii', 'ie', 'ee', 'oo'];
   const nm11 = ['ch', 'chm', 'd', 'dd', 'dr', 'dj', 'g', 'gg', 'gr', 'gd', 'gn', 'j', 'k', 'kt', 'kk', 'l', 'm', 'mm', 'md', 'mp', 'n', 'nd', 'nn', 'ng', 'nr', 'nt', 'r', 'rr', 'rd', 'rg', 'rj', 'rt', 'rv', 'st', 't', 'tr', 'wch', 'z'];
   const nm12 = ['', '', '', '', '', '', '', 'c', 'd', 'g', 'k', 'l', 'll', 'm', 'mt', 'n', 'ng', 'nd', 'nt', 'r', 'rk', 'rr', 's', 'ss', 't', 'ts', 'z', 'zz'];
-  const i = Math.floor(Math.random() * 10);
-  {
+  const i = Math.floor(Math.random() * 10); {
     rnd7 = Math.floor(Math.random() * nm9.length);
     rnd8 = Math.floor(Math.random() * nm10.length);
     rnd10 = Math.floor(Math.random() * nm12.length);

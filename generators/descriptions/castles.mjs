@@ -1,4 +1,5 @@
 export default function castles() {
+  let result;
   const nm1 = ['Four', 'Five', 'Six', 'Seven', 'Eight', 'Nine', 'Ten', 'Eleven', 'Twelve', 'Thirteen', 'Fourteen', 'Fifteen'];
   const nm2 = ['broad', 'lean', 'massive', 'narrow', 'skinny', 'slim', 'solid', 'strong', 'thick', 'thin'];
   const nm3 = ['round', 'square'];

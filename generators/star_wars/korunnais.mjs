@@ -1,4 +1,9 @@
 export default function korunnais() {
+  let namelast;
+  let names;
+  let rnd;
+  let rnd2;
+  let rnd3;
   let rnd;
   let rnd2;
   let rnd3;
@@ -24,8 +29,7 @@ export default function korunnais() {
   const nm10 = ['a', 'e', 'i', 'o', 'u'];
   const nm11 = ['dd', 'dn', 'dl', 'fn', 'fl', 'fd', 'gn', 'gm', 'gd', 'gl', 'gg', 'hn', 'hm', 'hd', 'hv', 'll', 'ln', 'ld', 'lm', 'lv', 'mm', 'mn', 'md', 'ml', 'mv', 'mt', 'nd', 'nn', 'nv', 'nl', 'ng', 'nd', 'nf', 'nt', 'pt', 'pp', 'pn', 'pm', 'pd', 'pt', 'st', 'ss', 'sn', 'sm', 'tn', 'tm', 'tv', 'vv', 'vd', 'vn', 'vl', 'vm'];
   const nm12 = ['', '', '', '', '', '', '', 'l', 'm', 'n', 'r', 's'];
-  const i = Math.floor(Math.random() * 10);
-  {
+  const i = Math.floor(Math.random() * 10); {
     rnd7 = Math.floor(Math.random() * nm9.length);
     rnd8 = Math.floor(Math.random() * nm10.length);
     rnd10 = Math.floor(Math.random() * nm11.length);

@@ -1,4 +1,8 @@
 export default function cabals() {
+  let names;
+  let rnd;
+  let rnd2;
+  let rnd3;
   let rnd;
   let rnd2;
   let rnd3;
@@ -12,8 +16,7 @@ export default function cabals() {
   const nm3 = ['d', 'g', 'l', 'm', 'n', 'r', 'v', 'z'];
   const nm4 = ['c', 'ch', 'g', 'l', 'm', 'n', 'r', 'v', 'z'];
   const nm5 = ['c', 'd', 'k', 'l', 'lk', 'll', 'm', 'n', 'rc', 'rd', 'rg', 'rk', 'rn'];
-  const i = Math.floor(Math.random() * 10);
-  {
+  const i = Math.floor(Math.random() * 10); {
     rnd = Math.floor(Math.random() * nm1.length);
     if (i < 5) {
       rnd2 = Math.floor(Math.random() * nm2.length);

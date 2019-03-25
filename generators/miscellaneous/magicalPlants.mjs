@@ -1,4 +1,8 @@
 export default function magicalPlants() {
+  let names;
+  let rnd;
+  let rnd2;
+  let rnd3;
   let rnd;
   let rnd2;
   let rnd3;
@@ -16,8 +20,7 @@ export default function magicalPlants() {
   const nm6 = ['b', 'c', 'd', 'f', 'g', 'h', 'j', 'k', 'l', 'm', 'n', 'p', 'q', 'r', 's', 't', 'v', 'w', 'x', 'y', 'z', 'b', 'c', 'd', 'f', 'g', 'h', 'j', 'k', 'l', 'm', 'n', 'p', 'q', 'r', 's', 't', 'v', 'w', 'x', 'y', 'z', 'bb', 'bd', 'bg', 'bl', 'br', 'bs', 'cc', 'ch', 'chr', 'cl', 'cr', 'dd', 'df', 'dg', 'dl', 'dr', 'ds', 'dt', 'fd', 'ff', 'fg', 'fl', 'fm', 'fn', 'fp', 'fr', 'fy', 'gd', 'gg', 'ght', 'gl', 'gr', 'gth', 'hh', 'hl', 'hm', 'hn', 'hs', 'ht', 'kd', 'kk', 'kl', 'km', 'kn', 'kr', 'lb', 'ld', 'lf', 'lg', 'lk', 'll', 'lm', 'ln', 'lp', 'ls', 'lt', 'ly', 'mb', 'md', 'mf', 'mk', 'ml', 'mm', 'mn', 'mp', 'ms', 'my', 'nc', 'nd', 'nf', 'ng', 'nk', 'nl', 'nm', 'nn', 'np', 'ns', 'nt', 'ny', 'ph', 'phr', 'pl', 'pp', 'pr', 'ql', 'qr', 'qs', 'rc', 'rd', 'rf', 'rg', 'rh', 'rk', 'rl', 'rm', 'rn', 'rp', 'rr', 'rs', 'rsh', 'rt', 'rth', 'rw', 'sb', 'sc', 'sd', 'sf', 'sg', 'sh', 'shr', 'sk', 'sl', 'sm', 'sn', 'sp', 'sr', 'ss', 'st', 'str', 'sw', 'sy', 'th', 'thr', 'tr', 'tt', 'vl', 'zh', 'zl', 'zr', 'zz'];
   const nm7 = ['b', 'bb', 'c', 'cc', 'd', 'dd', 'f', 'ff', 'g', 'gg', 'h', 'j', 'k', 'kk', 'l', 'll', 'm', 'mm', 'n', 'nn', 'p', 'pp', 'r', 'rr', 's', 'ss', 't', 'tt', 'v', 'w', 'x', 'xx', 'y', 'z', 'zz'];
   const nm8 = ['ac', 'ade', 'age', 'aire', 'aisy', 'alda', 'amire', 'ane', 'anium', 'anor', 'ard', 'ary', 'asse', 'ax', 'ead', 'eaf', 'ebore', 'edil', 'eed', 'eek', 'eet', 'egon', 'el', 'elas', 'elda', 'ender', 'equin', 'erry', 'ess', 'et', 'etta', 'ettle', 'etty', 'ianna', 'ie', 'ier', 'ies', 'ina', 'ine', 'inque', 'ip', 'iper', 'ire', 'irin', 'iscus', 'ite', 'ium', 'oil', 'ole', 'olla', 'on', 'onna', 'ons', 'oo', 'ood', 'oom', 'oot', 'ore', 'orn', 'ort', 'os', 'osie', 'oss', 'osse', 'otus', 'ove', 'over', 'ow', 'ower', 'uin', 'um', 'us', 'ush'];
-  const i = Math.floor(Math.random() * 10);
-  {
+  const i = Math.floor(Math.random() * 10); {
     if (i < 5) {
       rnd = Math.floor(Math.random() * nm1.length);
       rnd2 = Math.floor(Math.random() * nm2.length);

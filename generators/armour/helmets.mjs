@@ -1,4 +1,9 @@
 export default function helmets() {
+  let names;
+  let names4;
+  let names5;
+  let rnd2;
+  let rnd3;
   let rnd0;
   let rnd1;
   let rnd2;
@@ -22,8 +27,7 @@ export default function helmets() {
     names5 = ['Casque', 'Crown', 'Faceguard', 'Gaze', 'Greathelm', 'Headcover', 'Headguard', 'Helm', 'Helmet', 'Jaws', 'Visage'];
     names6 = ['Armament', 'Bane', 'Birth', 'Blessing', 'Blight', 'Bond', 'Boon', 'Burden', 'Call', 'Casque', 'Champion', 'Conqueror', 'Crown', 'Crusader', 'Cry', 'Curator', 'Dawn', 'Death', 'Defender', 'Defiler', 'Deflector', 'Demise', 'Destroyer', 'Edge', 'Emissary', 'End', 'Ender', 'Faceguard', 'Fall', 'Favor', 'Foe', 'Fortune', 'Gaze', 'Gift', 'Glory', 'Greathelm', 'Guard', 'Guardian', 'Headcover', 'Headguard', 'Heirloom', 'Helm', 'Helmet', 'Hero', 'Hope', 'Incarnation', 'Jaws', 'Keeper', 'Last Hope', 'Last Stand', 'Legacy', 'Memory', 'Might', 'Oath', 'Pact', 'Pledge', 'Promise', 'Protection', 'Protector', 'Reach', 'Shepherd', 'Soul', 'Steward', 'Terror', 'Token', 'Tribute', 'Vengeance', 'Vindicator', 'Visage', 'Voice', 'Ward', 'Warden', 'Whisper', 'Wit'];
   }
-  const i = Math.floor(Math.random() * 10);
-  {
+  const i = Math.floor(Math.random() * 10); {
     if (i < 2) {
       rnd0 = Math.floor(Math.random() * names1.length);
       rnd1 = Math.floor(Math.random() * names2.length);

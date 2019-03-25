@@ -1,4 +1,8 @@
 export default function magicSchools() {
+  let names;
+  let rnd;
+  let rnd2;
+  let rnd3;
   let rnd;
   let rnd2;
   let rnd3;
@@ -15,8 +19,7 @@ export default function magicSchools() {
   const names5 = ['w', 'n', 's', 'm', 'r', '', '', '', '', '', '', ''];
   const names6 = ['any', 'arry', 'arth', 'arths', 'arts', 'elts', 'erra', 'erry', 'erth', 'eth', 'iams', 'ia', 'iara', 'ine', 'inns', 'iths', 'iton', 'ity', 'onia', 'ons', 'ora', 'ore', 'orth', 'orths', 'ose', 'yce'];
   const names7 = ['Academy of Sorcery', 'Academy of Spells', 'Academy of Magics', 'Academy of Witchcraft', 'Academy of Wizardry', 'Academy of the Arcane', 'Institute of Magics', 'Institute of Wizardy', 'Institute of the Arcane', 'School of Magics', 'School of Sorcery', 'School of Witchcraft', 'School of Wizardry', 'School of Wizards', 'School of the Arcane'];
-  const i = Math.floor(Math.random() * 10);
-  {
+  const i = Math.floor(Math.random() * 10); {
     rnd = Math.floor(Math.random() * names1.length);
     rnd2 = Math.floor(Math.random() * names2.length);
     rnd3 = Math.floor(Math.random() * names3.length);

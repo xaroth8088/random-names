@@ -1,4 +1,8 @@
 export default function wookiees() {
+  let names;
+  let rnd;
+  let rnd2;
+  let rnd3;
   let rnd;
   let rnd2;
   let rnd3;
@@ -19,8 +23,7 @@ export default function wookiees() {
   const nm6 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'ie', 'ia', 'oe', 'ay', 'ayy', 'ua', 'aaa', 'aa', 'y', 'ay', 'yo', 'ae', 'aa', 'yy', 'eu', 'oo'];
   const nm7 = ['b', 'bb', 'bh', 'c', 'cc', 'ch', 'd', 'dd', 'g', 'gg', 'gh', 'ghr', 'h', 'hl', 'hb', 'hlb', 'ht', 'k', 'kk', 'kh', 'kl', 'l', 'lr', 'lg', 'ld', 'll', 'lm', 'ln', 'm', 'mb', 'mc', 'mm', 'mn', 'n', 'nch', 'ng', 'ngl', 'nb', 'nm', 'nn', 'p', 'pr', 'r', 'rc', 'rgl', 'rr', 'rrl', 'rrr', 'rrs', 's', 'sst', 'st', 't', 'thn', 'tm', 'tt', 'v', 'vv', 'w', 'wl', 'wr'];
   const nm8 = ['', '', '', '', '', '', '', '', '', '', '', '', '', '', '', 'ck', 'gn', 'gnh', 'k', 'kk', 'l', 'll', 'm', 'n', 'nh', 'r', 'rl', 'rr', 'rrl', 's', 'sh', 'shk', 'w'];
-  const i = Math.floor(Math.random() * 10);
-  {
+  const i = Math.floor(Math.random() * 10); {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm5.length);
       rnd2 = Math.floor(Math.random() * nm6.length);

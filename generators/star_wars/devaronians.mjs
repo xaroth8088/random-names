@@ -1,4 +1,11 @@
 export default function devaronians() {
+  let namelast;
+  let names;
+  let rnd;
+  let rnd2;
+  let rnd3;
+  let rnd3b;
+  let rnd4b;
   let rnd;
   let rnd2;
   let rnd3;
@@ -22,8 +29,7 @@ export default function devaronians() {
   const nm8 = ['br', 'c', 'ch', 'dr', 'd\'r', 'd\'v', 'dh', 'g', 'gr', 'g\'v', 'h', 'j', 'm', 'n\'v', 'n', 'r', 't', 't\'v', 't\'r', 'v'];
   const nm9 = ['d', 'dd', 'gr', 'gn', 'k', 'kr', 'kl', 'l', 'lg', 'ln', 'll', 'lr', 'm', 'mm', 'mr', 'mn', 'n', 'nn', 'nd', 'nh', 'r', 'rh', 'rg', 's', 'sn', 'ss', 'x', 'v', 'z'];
   const nm10 = ['c', 'ct', 'g', 'hrk', 'hk', 'k', 'kt', 'l', 'n', 'ndt', 'nd', 'nt', 'q', 'r', 'rt', 'rk', 's', 'sk', 'st', 'v', 'w', 'z'];
-  const i = Math.floor(Math.random() * 10);
-  {
+  const i = Math.floor(Math.random() * 10); {
     rnd6 = Math.floor(Math.random() * nm8.length);
     rnd7 = Math.floor(Math.random() * nm2.length);
     rnd8 = Math.floor(Math.random() * nm10.length);

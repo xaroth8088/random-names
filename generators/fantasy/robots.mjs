@@ -1,4 +1,7 @@
 export default function robots() {
+  let names;
+  let rnd2;
+  let rnd3;
   let rnd0;
   let rnd1;
   let rnd2;
@@ -15,8 +18,7 @@ export default function robots() {
   const names7 = ['a', 'e', 'i', 'o', 'u', '', '', '', ''];
   const names8 = ['b', 'c', 'd', 'f', 'g', 'h', 'x', 'k', 'l', 'm', 'n', 'p', 'q', 'r', 's', 't', 'v', 'x', 'x', 'y', 'z', '', '', '', '', '', '', '', '', '', ''];
   const names9 = ['x', 'tron', 'roid', 'ator', 'oid', '', '', '', '', '', '', ''];
-  const i = Math.floor(Math.random() * 10);
-  {
+  const i = Math.floor(Math.random() * 10); {
     if (i < 4) {
       rnd0 = Math.floor(Math.random() * names1.length);
       rnd1 = Math.floor(Math.random() * names2.length);

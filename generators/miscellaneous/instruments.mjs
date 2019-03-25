@@ -1,4 +1,8 @@
 export default function instruments() {
+  let names;
+  let rnd;
+  let rnd2;
+  let rnd3;
   let rnd;
   let rnd2;
   let rnd3;
@@ -17,8 +21,7 @@ export default function instruments() {
   const names7 = ['a', 'e', 'i', 'o', 'u', 'ia', 'io', 'ea', 'ei', 'eo'];
   const names8 = [' Accordion', ' Bass', ' Bow', ' Clarinet', ' Drum', ' Drums', ' Flute', ' Guitar', ' Harmonica', ' Horn', ' Organ', ' Pipe', ' Saxophone', ' Trombone', ' Trumpet', ' Tuba', ' Violin', ' Whistle', 'horn', 'phone', 'pipe', 'horn', 'phone', 'phone', 'phone', 'phone', 'pipe'];
   const names9 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'ia', 'io', 'ai', 'ea', 'eo', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', ''];
-  const i = Math.floor(Math.random() * 10);
-  {
+  const i = Math.floor(Math.random() * 10); {
     if (i < 3) {
       rnd = Math.floor(Math.random() * names1.length);
       rnd2 = Math.floor(Math.random() * names2.length);

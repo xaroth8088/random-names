@@ -1,4 +1,6 @@
 export default function armys() {
+  let names;
+  let rnd2;
   let rnd0;
   let rnd1;
   let
@@ -8,8 +10,7 @@ export default function armys() {
   const nm2 = ['a', 'e', 'i', 'o', 'u', 'ae', 'ai', 'ao', 'au', 'aa', 'ee', 'ea', 'ei', 'eo', 'eu', 'ia', 'ie', 'io', 'iu', 'oa', 'oe', 'oi', 'oo', 'ou', 'ua', 'ue', 'ui', 'uo', 'uu', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', ''];
   const nm3 = ['b', 'c', 'd', 'f', 'g', 'h', 'j', 'k', 'l', 'm', 'n', 'p', 'q', 'r', 's', 't', 'v', 'w', 'x', 'y', 'z', 'br', 'cr', 'dr', 'fr', 'gr', 'kr', 'pr', 'qr', 'sr', 'tr', 'vr', 'wr', 'yr', 'zr', 'str', 'bl', 'cl', 'fl', 'gl', 'kl', 'pl', 'sl', 'vl', 'yl', 'zl', 'ch', 'kh', 'ph', 'sh', 'yh', 'zh'];
   const nm4 = ['aell', 'aen', 'aerion', 'ahir', 'ahr', 'akir', 'alim', 'apex', 'aral', 'ard', 'argon', 'arid', 'arix', 'aron', 'arun', 'ate', 'atir', 'avi', 'ax', 'axis', 'earal', 'echos', 'efral', 'elin', 'elior', 'elnach', 'elno', 'elun', 'emir', 'enmir', 'enron', 'eod', 'eodar', 'ephix', 'ercis', 'erix', 'erum', 'examp', 'exor', 'ezran', 'iad', 'iann', 'ichor', 'icor', 'ikra', 'ilam', 'ilius', 'imbar', 'imm', 'inba', 'iphis', 'iprax', 'iqor', 'iris', 'irkus', 'itox', 'iwarn', 'ixior', 'ixor', 'izar', 'obax', 'och', 'odor', 'odum', 'oirik', 'oldar', 'olim', 'olm', 'oluwa', 'om', 'ophrax', 'oqir', 'ored', 'orion', 'ortex', 'ourax', 'outor', 'ouzran', 'oxir', 'ozran', 'uard', 'uern', 'uex', 'uhr', 'ul', 'ulim', 'ulkahr', 'uln', 'ulrik', 'umanir', 'uphis', 'uqiat', 'urad', 'utir', 'utron', 'uweth', 'uxir', 'uxron', 'uyar', 'uzrak'];
-  const i = Math.floor(Math.random() * 10);
-  {
+  const i = Math.floor(Math.random() * 10); {
     if (i < 6) {
       rnd0 = Math.floor(Math.random() * nm1.length);
       names = `The ${nm1[rnd0]}`;

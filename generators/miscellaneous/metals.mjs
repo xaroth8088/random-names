@@ -1,4 +1,8 @@
 export default function metals() {
+  let names;
+  let rnd;
+  let rnd2;
+  let rnd3;
   let rnd;
   let rnd2;
   let rnd3;
@@ -12,8 +16,7 @@ export default function metals() {
   const nm4 = ['ae', 'ai', 'ao', 'au', 'a', 'ay', 'ea', 'ei', 'eo', 'eu', 'e', 'ey', 'ua', 'ue', 'ui', 'uo', 'u', 'uy', 'ia', 'ie', 'iu', 'io', 'iy', 'oa', 'oe', 'ou', 'oi', 'o', 'oy'];
   const nm5 = ['sium', 'cium', 'lium', 'rium', 'trium', 'tium', 'nese', 'nium', 'sten', 'nor', 'tine', 'ntine', 'rhil', 'thil', 'nyx', 'dian'];
   const nm6 = ['ium', 'ese', 'alt', 'um', 'ian', 'il', 'ine', 'yx', 'ite'];
-  const i = Math.floor(Math.random() * 10);
-  {
+  const i = Math.floor(Math.random() * 10); {
     if (i < 4) {
       rnd = Math.floor(Math.random() * nm1.length);
       rnd2 = Math.floor(Math.random() * nm2.length);

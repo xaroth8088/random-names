@@ -1,4 +1,8 @@
 export default function dothrakis() {
+  let names;
+  let rnd;
+  let rnd2;
+  let rnd3;
   let rnd;
   let rnd2;
   let rnd3;
@@ -19,8 +23,7 @@ export default function dothrakis() {
   const namesF3 = ['f', 'ff', 'g', 'h', 'l', 'll', 'm', 'mm', 'n', 'nn', 'q', 'r', 's', 'sh', 'ss', 't', 'th', 'w', 'z', 'zh', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', ''];
   const namesF4 = ['', 'e', 'i', 'a', 'i'];
   const namesF5 = ['bi', 'ffi', 'fi', 'ssi', 'si', 'gi', 'hhi', 'hi', 'ki', 'kki', 'lli', 'mi', 'mmi', 'ni', 'nni', 'qi', 'qqi', 'qui', 'ri', 'rri', 'thi', 'vi', 'vvi', 'wi', 'zhi', 'zi', 'zzi'];
-  const i = Math.floor(Math.random() * 10);
-  {
+  const i = Math.floor(Math.random() * 10); {
     if (type === 1) {
       if (i < 5) {
         rnd = Math.floor(Math.random() * namesFemale.length);

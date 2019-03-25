@@ -1,4 +1,8 @@
 export default function orions() {
+  let names;
+  let rnd;
+  let rnd2;
+  let rnd3;
   let rnd;
   let rnd2;
   let rnd3;
@@ -20,8 +24,7 @@ export default function orions() {
   const nm9 = ['a', 'e', 'i', 'o', 'u', 'aa', 'ou'];
   const nm10 = ['r', 's', 'sh', 'ss', '', '', '', '', '', '', '', '', '', '', ''];
   const nm11 = ['hn', 'l', 'll', 'n', 'nn', 's', 'ss', 'sh', 'v'];
-  const i = Math.floor(Math.random() * 10);
-  {
+  const i = Math.floor(Math.random() * 10); {
     if (type === 1) {
       if (i < 5) {
         rnd = Math.floor(Math.random() * nm6.length);

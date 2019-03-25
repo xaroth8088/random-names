@@ -1,4 +1,8 @@
 export default function halfOrcs() {
+  let names;
+  let rnd;
+  let rnd2;
+  let rnd3;
   let rnd;
   let rnd2;
   let
@@ -10,8 +14,7 @@ export default function halfOrcs() {
   const nm3 = ['bak', 'bar', 'bark', 'bash', 'bur', 'burk', 'd', 'dak', 'dall', 'dar', 'dark', 'dash', 'dim', 'dur', 'durk', 'g', 'gak', 'gall', 'gar', 'gark', 'gash', 'glar', 'gul', 'gur', 'm', 'mak', 'mar', 'marsh', 'mash', 'mir', 'mur', 'n', 'nar', 'nars', 'nur', 'rak', 'rall', 'rash', 'rim', 'rimm', 'rk', 'rsh', 'rth', 'ruk', 'sk', 'tar', 'tir', 'tur', 'z', 'zall', 'zar', 'zur'];
   const nm4 = ['Al', 'Ar', 'Br', 'Ek', 'El', 'Fal', 'Fel', 'Fol', 'Ful', 'G', 'Gaj', 'Gar', 'Gij', 'Gor', 'Gr', 'Gry', 'Gyn', 'Hur', 'K', 'Kar', 'Kat', 'Ker', 'Ket', 'Kir', 'Kot', 'Kur', 'Kut', 'Lag', 'M', 'Mer', 'Mir', 'Mor', 'N', 'Ol', 'Oot', 'Puy', 'R', 'Rah', 'Rahk', 'Ras', 'Rash', 'Raw', 'Roh', 'Rohk', 'S', 'Sam', 'San', 'Sem', 'Sen', 'Sh', 'Shay', 'Sin', 'Sum', 'Sun', 'Tam', 'Tem', 'Tu', 'Tum', 'Ub', 'Um', 'Ur', 'Van', 'Zan', 'Zen', 'Zon', 'Zun'];
   const nm5 = ['a', 'a', 'o', 'o', 'e', 'i', 'i', 'u'];
-  const nm6 = ['d', 'da', 'dar', 'dur', 'g', 'gar', 'gh', 'gri', 'gu', 'sh', 'sha', 'shi', 'gum', 'gume', 'gur', 'ki', 'mar', 'mi', 'mira', 'me', 'mur', 'ne', 'ner', 'nir', 'nar', 'nchu', 'ni', 'nur', 'ral', 'rel', 'ri', 'rook', 'ti', 'tah', 'tir', 'tar', 'tur', 'war', 'z', 'zar', 'zara', 'zi', 'zur', 'zura', 'zira'];
-  {
+  const nm6 = ['d', 'da', 'dar', 'dur', 'g', 'gar', 'gh', 'gri', 'gu', 'sh', 'sha', 'shi', 'gum', 'gume', 'gur', 'ki', 'mar', 'mi', 'mira', 'me', 'mur', 'ne', 'ner', 'nir', 'nar', 'nchu', 'ni', 'nur', 'ral', 'rel', 'ri', 'rook', 'ti', 'tah', 'tir', 'tar', 'tur', 'war', 'z', 'zar', 'zara', 'zi', 'zur', 'zura', 'zira']; {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm4.length);
       rnd2 = Math.floor(Math.random() * nm5.length);

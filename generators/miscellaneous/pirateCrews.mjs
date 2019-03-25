@@ -1,4 +1,7 @@
 export default function pirateCrews() {
+  let names;
+  let rnd;
+  let rnd2;
   let rnd;
   let rnd2;
   let names;
@@ -6,8 +9,7 @@ export default function pirateCrews() {
   const names2 = ['Pirates', 'Raiders', 'Buccaneers', 'Corsairs', 'Rovers', 'Pillagers', 'Plunderers', 'Pirates', 'Bandits', 'Buccaneers'];
   const names3 = ['Black Diamond', 'Black Fog', 'Black Hydra', 'Black Lagoon', 'Black Sea', 'Black Skull', 'Black Squid', 'Black Turtle', 'Bloodied Flag', 'Blue Lagoon', 'Blue Moon', 'Blue Whale', 'Broken Harbor', 'Broken Islands', 'Coin', 'Crossbones', 'Curse', 'Cursed Doubloon', 'Dark Waters', 'Dead Sea', 'Depths', 'East', 'East Coast', 'Eternal Raid', 'Flintlock', 'Fog', 'Forsaken Captain', 'Frozen North', 'Frozen Ocean', 'Frozen Sea', 'Gilded Cannon', 'Golden Banner', 'Golden Cannonball', 'Golden Cutlass', 'Golden Mermaid', 'Great Lake', 'Hidden Cove', 'Hidden Monster', 'High Seas', 'Hollow', 'Horizon', 'Infernal Depths', 'Inner Sea', 'Leviathan', 'Lost Kraken', 'Lost Mermaid', 'Lost Ocean', 'Lost Shores', 'Lost Treasure', 'Lurker in the Depths', 'Maelstrom', 'Monster Shark', 'Nether', 'New Horizon', 'New World', 'North', 'North Sea', 'Open Seas', 'Plague', 'Plank', 'Promised Lands', 'Promised Treasure', 'Rum', 'Sanguine Flag', 'Scarlet Flag', 'Sea Serpent', 'Sea Wolf', 'Seven Sails', 'Seven Seas', 'Seven Shores', 'Shade', 'Shallows', 'Shores', 'Silent Bay', 'Silent Sea', 'Silver Cannon', 'Silver Cove', 'Silver Eye', 'Silver Moon', 'Silver Serpent', 'Silver Sword', 'Silver Wave', 'Siren\'s Call', 'Siren\'s Song', 'South', 'South Sea', 'Squid', 'Sword', 'Tempest', 'Thunder', 'Thunderstorm', 'Tide', 'Void', 'Vortex', 'West', 'West Coast', 'Wicked Seas', 'Unleashed Kraken', 'Eternal Curse', 'Stolen Years'];
   const names4 = ['Barnicles', 'Black Bandana Buccaneers', 'Black Bandanas', 'Black Sails', 'Black Skulls', 'Black Tooth Grins', 'Blackbeards', 'Bloody Bandits', 'Broken Bandits', 'Broken bones', 'Cannon Balls', 'Cannonball Bandits', 'Crazy Eyes', 'Cutlasses', 'Dividers', 'Drifters', 'Driftwood Divers', 'Eternal Smiles', 'Filibusters', 'Fishguts', 'Flintlocks', 'Floaters', 'Golden Guns', 'Grand Cannoneers', 'High \'n Dry', 'Hired Guns', 'Hired Swords', 'Hydras', 'Keel Haulers', 'Landlocked', 'Lost Souls', 'Mad Marauders', 'Nautical Navigators', 'Ocean Shadows', 'Ocean Wanderers', 'Odd Jobs', 'Peg Legs', 'Peglegs', 'Pelicans', 'Pieces of Eight', 'Plagued Pillagers', 'Plank Walkers', 'Plunderers and Pillagers', 'Rattails', 'Red Raiders', 'Red Sails', 'Red Scarfs', 'Rusty Rustlers', 'Salty Dogs', 'Salty Swabbers', 'Sea Angels', 'Sea Devils', 'Sea Dogs', 'Sea Foxes', 'Sea Monsters', 'Sea Sharks', 'Sea Terrors', 'Sea Wolves', 'Seagulls', 'Shellbacks', 'Silver Eyes', 'Silver Sailors', 'Silver Swords', 'Siren\'s Song', 'Sirens', 'Skull and Crossbones', 'Sons of the Sea', 'South Sea Sailors', 'Squids', 'Stray Dogs', 'Talking Parrots', 'Thirsty Thieves', 'Thunder Waves', 'Water Walkers', 'Wild Windjammers'];
-  const i = Math.floor(Math.random() * 10);
-  {
+  const i = Math.floor(Math.random() * 10); {
     if (i < 4) {
       rnd = Math.floor(Math.random() * names1.length);
       rnd2 = Math.floor(Math.random() * names2.length);

@@ -1,4 +1,7 @@
 export default function pacificRims() {
+  let names;
+  let rnd;
+  let rnd2;
   let rnd;
   let rnd2;
   let names;
@@ -8,8 +11,7 @@ export default function pacificRims() {
   const nm3 = ['barb', 'blade', 'bone', 'chest', 'cinder', 'claw', 'crag', 'crest', 'crook', 'crystal', 'dagger', 'death', 'dirge', 'dust', 'edge', 'ember', 'fang', 'frost', 'fuse', 'gore', 'hammer', 'heart', 'hook', 'ice', 'iron', 'knife', 'lance', 'leather', 'light', 'meat', 'molten', 'pincer', 'pyre', 'rage', 'ridge', 'saber', 'sabre', 'scythe', 'shade', 'shadow', 'shank', 'sharp', 'shiv', 'silver', 'skull', 'slate', 'solid', 'spike', 'spine', 'steel', 'tail', 'talon', 'thorn', 'thunder', 'tusk'];
   const nm4 = ['back', 'basher', 'blade', 'blight', 'blower', 'bone', 'breaker', 'breath', 'claw', 'cleaver', 'crest', 'crusher', 'cutter', 'drifter', 'eye', 'eyes', 'fang', 'fangs', 'fist', 'flayer', 'fury', 'gazer', 'hammer', 'head', 'heart', 'hook', 'hunter', 'jaw', 'lance', 'mane', 'mantle', 'maul', 'maw', 'pelt', 'reaper', 'reaver', 'ridge', 'ripper', 'snout', 'spitter', 'splitter', 'stalker', 'striker', 'weaver'];
   const nm5 = ['Ache', 'Aggressor', 'Agitator', 'Assaulter', 'Austerity', 'Battler', 'Beast', 'Brawler', 'Bruiser', 'Brute', 'Bulldozer', 'Bully', 'Calamity', 'Cataclysm', 'Contender', 'Curse', 'Defiler', 'Deserter', 'Disrupter', 'Dissenter', 'Distress', 'Doom', 'Downfall', 'Encroacher', 'Fiend', 'Gloom', 'Grief', 'Grievance', 'Hardship', 'Harrier', 'Hazard', 'Headache', 'Hellion', 'Infringer', 'Injury', 'Insurrector', 'Intimidator', 'Intruder', 'Invader', 'Jeopardy', 'Misery', 'Neglector', 'Objector', 'Opposer', 'Oppressor', 'Peril', 'Radical', 'Raider', 'Rascal', 'Rebel', 'Reckoner', 'Resister', 'Revolter', 'Rigor', 'Rioter', 'Ruffian', 'Ruin', 'Savage', 'Scourge', 'Scrapper', 'Shirker', 'Slugger', 'Sorrow', 'Squalor', 'Stitch', 'Striker', 'Suffering', 'Tanker', 'Torment', 'Tormenter', 'Torture', 'Transgressor', 'Trespasser', 'Tribulation', 'Violator', 'Woe', 'Wreck', 'Wreckage', 'Wrecker'];
-  const i = Math.floor(Math.random() * 10);
-  {
+  const i = Math.floor(Math.random() * 10); {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm1.length);
       rnd2 = Math.floor(Math.random() * nm2.length);

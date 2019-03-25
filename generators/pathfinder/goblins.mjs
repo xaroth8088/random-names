@@ -1,4 +1,8 @@
 export default function goblins() {
+  let names;
+  let rnd;
+  let rnd2;
+  let rnd3;
   let rnd;
   let rnd2;
   let rnd3;
@@ -18,8 +22,7 @@ export default function goblins() {
   const nm8 = ['', '', '', '', '', '', '', '', '', '', '', '', '', '', '', 'b', 'h', 'l', 'k', 'n', 'ns', 'ms', 's', 'sh', 'th'];
   const nm9 = ['Amber', 'Ash', 'Bear', 'Blade', 'Blood', 'Bone', 'Boulder', 'Cask', 'Claw', 'Crag', 'Crow', 'Crystal', 'Dead', 'Dew', 'Dog', 'Doom', 'Ear', 'Earth', 'Elf', 'Ember', 'Far', 'Finger', 'Fire', 'Fist', 'Flame', 'Flint', 'Forest', 'Frost', 'Fuse', 'Gloom', 'Gold', 'Gore', 'Grass', 'Gut', 'Hallow', 'Hard', 'Haze', 'Heart', 'Heavy', 'Hell', 'High', 'Hill', 'Hog', 'Horse', 'Ice', 'Iron', 'Keen', 'Long', 'Man', 'Marble', 'Marsh', 'Meadow', 'Moon', 'Moss', 'Nettle', 'Nose', 'Orb', 'Pine', 'Plain', 'Poke', 'Rage', 'Rain', 'Raven', 'Rip', 'River', 'Rock', 'Rough', 'Shadow', 'Silver', 'Skull', 'Snake', 'Snow', 'Spider', 'Stab', 'Star', 'Steel', 'Stern', 'Stone', 'Storm', 'Strong', 'Stump', 'Swamp', 'Toe', 'Tree', 'Water', 'Wild', 'Wind', 'Wold', 'Wood'];
   const nm10 = ['bane', 'bash', 'basher', 'belly', 'bender', 'binder', 'bite', 'biter', 'blazer', 'bleeder', 'blight', 'brace', 'brand', 'breaker', 'breath', 'brew', 'brook', 'brow', 'bumper', 'caller', 'chaser', 'chew', 'chewer', 'chopper', 'cleaver', 'cooker', 'crag', 'crest', 'crusher', 'cut', 'cutter', 'dancer', 'draft', 'dreamer', 'dust', 'eye', 'fall', 'fang', 'flaw', 'flayer', 'force', 'fury', 'gloom', 'grip', 'gripper', 'guard', 'gut', 'hammerer', 'horn', 'hunter', 'jumper', 'killer', 'lasher', 'mark', 'mauler', 'maw', 'more', 'nugget', 'part', 'parts', 'pike', 'punch', 'puncher', 'rage', 'rager', 'reaper', 'reaver', 'rip', 'ripper', 'roar', 'rock', 'scar', 'scream', 'seeker', 'shard', 'shield', 'shooter', 'shot', 'singer', 'slaver', 'slayer', 'snacker', 'snarl', 'snouth', 'spark', 'spear', 'splitter', 'stalk', 'stalker', 'steel', 'stick', 'stomper', 'strike', 'striker', 'surge', 'taker', 'tracker', 'trapper', 'wad', 'walker', 'watcher', 'wound'];
-  const i = Math.floor(Math.random() * 10);
-  {
+  const i = Math.floor(Math.random() * 10); {
     if (type === 2) {
       rnd = Math.floor(Math.random() * nm9.length);
       rnd2 = Math.floor(Math.random() * nm10.length);

@@ -1,4 +1,10 @@
 export default function jawas() {
+  let namelast;
+  let names;
+  let rnd;
+  let rnd2;
+  let rnd3;
+  let rnd5b;
   let rnd;
   let rnd2;
   let rnd3;
@@ -26,8 +32,7 @@ export default function jawas() {
   const nm9 = ['', '', '', '', 'b\'', 'b', 'd\'n', 'd', 'f', 'h', 'j', 'k', 'k\'', 'kl', 'kr', 'kk', 'l', 'm', 'm\'', 'nk', 'n', 'p', 'pt', 'q', 'q\'', 's', 't', 'tl', 'th', 'w'];
   const nm11 = ['c', 'd', 'g', 'h', 'j', 'k', 'l', 'm', 'n', 'q', 'r', 's', 't', 'v', 'z'];
   const nm12 = ['', '', '', '', '', 'c', 'd', 'hs', 'k', 'kt', 'kth', 'l', 'm', 'n', 'r', 's', 'y', 'z'];
-  const i = Math.floor(Math.random() * 10);
-  {
+  const i = Math.floor(Math.random() * 10); {
     rnd7 = Math.floor(Math.random() * nm9.length);
     rnd8 = Math.floor(Math.random() * nm2.length);
     rnd10 = Math.floor(Math.random() * nm12.length);

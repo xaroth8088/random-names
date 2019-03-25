@@ -1,4 +1,7 @@
 export default function constellations() {
+  let names;
+  let rnd;
+  let rnd2;
   let rnd;
   let rnd2;
   let names;
@@ -8,8 +11,7 @@ export default function constellations() {
   const nm4 = ['Albatross', 'Alligator', 'Ant', 'Antelope', 'Horse', 'Armadillo', 'Baboon', 'Badger', 'Bandicoot', 'Bat', 'Bear', 'Starfish', 'Beaver', 'Bee', 'Bird', 'Bison', 'Boar', 'Buffalo', 'Butterfly', 'Cat', 'Catfish', 'Chameleon', 'Chipmunk', 'Cobra', 'Cow', 'Crab', 'Crane', 'Crow', 'Deer', 'Dog', 'Donkey', 'Dove', 'Dragon', 'Dragonfly', 'Duck', 'Eagle', 'Elephant', 'Flamingo', 'Fox', 'Frog', 'Gazelle', 'Gecko', 'Gerbil', 'Goat', 'Goose', 'Hare', 'Hawk', 'Hedgehog', 'Hippo', 'Hummingbird', 'Hyena', 'Ibis', 'Iguana', 'Jackal', 'Kangaroo', 'Koala', 'Lemur', 'Leopard', 'Lion', 'Lizard', 'Llama', 'Lobster', 'Lynx', 'Macaw', 'Mockingbird', 'Mongoose', 'Monkey', 'Mouse', 'Mule', 'Ocelot', 'Ostrich', 'Otter', 'Owl', 'Ox', 'Parror', 'Pelican', 'Penguin', 'Pheasant', 'Pig', 'Pigeon', 'Porcupine', 'Rabbit', 'Raccoon', 'Rat', 'Raven', 'Rhino', 'Salmon', 'Seagull', 'Seal', 'Serpent', 'Shark', 'Sheep', 'Sloth', 'Snake', 'Sparrow', 'Spider', 'Squirrel', 'Stork', 'Swallow', 'Swan', 'Tapir', 'Tiger', 'Tortoise', 'Trout', 'Turtle', 'Vulture', 'Wasp', 'Whale', 'Wolf', 'Yak'];
   const nm5 = ['Big', 'Small', 'Southern', 'Northern', 'Western', 'Eastern', 'Tiny', 'Large'];
   const nm6 = ['Helmet', 'Shield', 'Sword', 'Compass', 'Ship', 'Hammer', 'Chisel', 'Crown', 'Cup', 'Cross', 'River', 'Furnace', 'Bridge', 'Fire', 'Flame', 'Gem', 'Diamond', 'Clock', 'Table', 'Arrow', 'Temple', 'Archer', 'Knight', 'Telescope', 'Pyramid', 'Triangle', 'Robe', 'Scarf', 'Chair', 'Candle', 'Tower', 'House', 'Castle', 'Torch', 'Feather', 'Rod', 'Leaf', 'Tree', 'Flower', 'Petal', 'Droplet', 'Gate', 'Spear', 'Dagger', 'Fountain', 'Horn', 'Tooth', 'Claw', 'Lantern', 'Light', 'Drum', 'Cart', 'Axe', 'Hatchet', 'Pickaxe', 'Eye', 'Mountain', 'River', 'Flute', 'Wheel', 'Altar', 'Skull', 'Throne', 'Flag', 'Boulder', 'Wave', 'Maze', 'Scepter', 'Soldier', 'Spade', 'Wing', 'Couldron', 'Broom', 'Lance', 'Spear', 'Tiara', 'Cannon', 'Cannonball', 'Pistol', 'Rifle', 'Anvil', 'Airplane', 'Wrench', 'Horseshoe', 'Needle', 'Screw', 'Sapling', 'Pipe', 'Hat', 'Chest', 'Hourglass', 'Umbrella', 'Telephone', 'Ring', 'Pencil', 'Brush', 'Cone', 'Scroll', 'Heart', 'Spoon', 'Fork', 'Knife', 'Vase', 'Shell', 'Book'];
-  const i = Math.floor(Math.random() * 10);
-  {
+  const i = Math.floor(Math.random() * 10); {
     if (i < 3) {
       rnd = Math.floor(Math.random() * nm1.length);
       names = nm1[rnd];

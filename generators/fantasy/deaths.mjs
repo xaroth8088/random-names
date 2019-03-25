@@ -1,4 +1,8 @@
 export default function deaths() {
+  let names;
+  let rnd;
+  let rnd2;
+  let rnd3;
   let rnd;
   let rnd2;
   let rnd3;
@@ -15,8 +19,7 @@ export default function deaths() {
   const nm3 = ['', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', 'ch', 'g', 'l', 'm', 'n', 'p', 'q', 'r', 's', 'z'];
   const nm4 = ['b', 'c', 'd', 'g', 'h', 'j', 'k', 'l', 'm', 'n', 'p', 'r', 's', 't', 'th', 'tr', 'w'];
   const nm5 = ['', '', '', '', '', '', '', '', '', '', '', '', 'c', 'cs', 'c', 'd', 'd', 'h', 'h', 'k', 'k', 'ks', 'l', 'ls', 'l', 'n', 'n', 'ng', 'nth', 'q', 'q', 'r', 'r', 'rs', 's', 's', 't', 't', 'th', 'v', 'x'];
-  const i = Math.floor(Math.random() * 10);
-  {
+  const i = Math.floor(Math.random() * 10); {
     rnd = Math.floor(Math.random() * nm1.length);
     rnd2 = Math.floor(Math.random() * nm2.length);
     rnd5 = Math.floor(Math.random() * nm5.length);

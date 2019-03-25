@@ -1,4 +1,7 @@
 export default function centralAfricanTowns() {
+  let names;
+  let rnd;
+  let rnd2;
   let rnd;
   let rnd2;
   let names;
@@ -25,8 +28,7 @@ export default function centralAfricanTowns() {
   /* Zambia */
   const nm15 = ['Cha', 'Cham', 'Che', 'Chem', 'Chi', 'Chie', 'Chi', 'Chin', 'Cho', 'Gwe', 'Gwem', 'Iso', 'Ka', 'Kabo', 'Kabom', 'Kafu', 'Kaful', 'Kala', 'Kale', 'Kalo', 'Kalu', 'Kan', 'Kanye', 'Kanyem', 'Kao', 'Kappi', 'Kase', 'Kasem', 'Kashi', 'Kata', 'Kate', 'Kawa', 'Kawam', 'Kaze', 'Kazem', 'Kazu', 'Kazun', 'Lu', 'Luf', 'Lufwa', 'Lufwan', 'Luku', 'Lun', 'Ma', 'Make', 'Man', 'Maza', 'Mba', 'Mbe', 'Mbere', 'Mfu', 'Mi', 'Mile', 'Milen', 'Misi', 'Mku', 'Mo', 'Mon', 'Mpi', 'Mpo', 'Mporo', 'Mpu', 'Mpulu', 'Mum', 'Mu', 'Muyo', 'Muyom', 'Mwi', 'Mwini', 'Nche', 'Nchele', 'Ngo', 'Nka', 'Nse', 'Nselu', 'Pe', 'Pem', 'Petau', 'Sa', 'Sam', 'Se', 'Sena', 'Senan', 'Sere', 'Seren', 'Se', 'Seshe', 'Shi', 'Sia', 'Siavo', 'Siavon', 'Si', 'Sika', 'Sina', 'Za', 'Zam', 'Zi', 'Zim'];
   const nm16 = ['ba', 'bala', 'be', 'beshi', 'bezi', 'bo', 'bombo', 'bombwe', 'bomene', 'bompo', 'buka', 'bwa', 'dazi', 'diza', 'du', 'fue', 'fulwe', 'fya', 'gi', 'gula', 'je', 'ka', 'ke', 'keni', 'kishi', 'koso', 'kulu', 'labo', 'lene', 'lenge', 'lomo', 'longo', 'lu', 'lubi', 'luka', 'lunga', 'lungu', 'lushi', 'ma', 'mene', 'na', 'nanga', 'piri', 'po', 'renje', 'reshi', 'ri', 'rokoso', 'rundu', 'sali', 'samba', 'sempa', 'sheke', 'shi', 'sisi', 'soka', 'taba', 'tauke', 'tete', 'vonga', 'vuma', 'wa', 'wambwa', 'wanyama', 'we', 'yama', 'yembo', 'yingi', 'za', 'ze', 'zembe', 'zongwe'];
-  i = Math.floor(Math.random() * 16);
-  {
+  const i = Math.floor(Math.random() * 16); {
     if (i < 2) {
       rnd = Math.floor(Math.random() * nm1.length);
       rnd2 = Math.floor(Math.random() * nm2.length);

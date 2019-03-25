@@ -1,4 +1,8 @@
 export default function nephilims() {
+  let names;
+  let rnd;
+  let rnd2;
+  let rnd3;
   let rnd;
   let rnd2;
   let rnd3;
@@ -12,8 +16,7 @@ export default function nephilims() {
   const nm2 = ['a', 'e', 'a', 'e', 'a', 'e', 'a', 'e', 'a', 'e', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'ya', 'yu', 'ee', 'ie', 'ue', 'ia'];
   const nm3 = ['dr', 'dj', 'gr', 'gn', 'kb', 'kn', 'mj', 'mr', 'mz', 'nz', 'nq', 'rq', 'rm', 'rj', 'rz', 'sb', 'sz', 'st', 'tr', 'tn', 'tz', 'b', 'd', 'g', 'j', 'k', 'm', 'n', 'q', 'r', 's', 't', 'z', 'b', 'd', 'g', 'j', 'k', 'm', 'n', 'q', 'r', 's', 't', 'z', 'b', 'd', 'g', 'j', 'k', 'm', 'n', 'q', 'r', 's', 't', 'z'];
   const nm4 = ['l', 'n', 's', 'th', 'z', 'l', 'l', '', '', '', '', ''];
-  const i = Math.floor(Math.random() * 10);
-  {
+  const i = Math.floor(Math.random() * 10); {
     rnd = Math.floor(Math.random() * nm1.length);
     rnd2 = Math.floor(Math.random() * nm2.length);
     rnd3 = Math.floor(Math.random() * nm3.length);

@@ -1,4 +1,8 @@
 export default function miqotes() {
+  let names;
+  let rnd;
+  let rnd2;
+  let rnd3;
   let rnd;
   let rnd2;
   let rnd3;
@@ -32,8 +36,7 @@ export default function miqotes() {
   const nm9 = ['', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', 'b', 'c', 'd', 'f', 'g', 'j', 'k', 'l', 'm', 'n', 'p', 'q', 'r', 's', 't', 'v', 'w', 'x', 'y', 'z'];
   const nm10 = ['', 'a', 'e', 'o', 'i', 'u'];
   const nm11 = ['\'a', '\'to', '\'li', '\'sae', '\'ra', '\'ir', '\'wo', '\'ya', '\'zi', '\'tan'];
-  const i = Math.floor(Math.random() * 10);
-  {
+  const i = Math.floor(Math.random() * 10); {
     if (type === 1) {
       if (i < 5) {
         rnd = Math.floor(Math.random() * nm1.length);

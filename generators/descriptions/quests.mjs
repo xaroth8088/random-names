@@ -1,4 +1,9 @@
 export default function quests() {
+  let name;
+  let name2;
+  let name3;
+  let name4;
+  let result;
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['You there', 'Excuse me', 'Forgive me', 'Pardon me', 'Please', 'Please excuse me', '\'Scuse me'];
   const nm2 = ['adventurer', 'hero', 'traveler', 'champion'];
@@ -28,16 +33,7 @@ export default function quests() {
   const rnd12 = Math.floor(Math.random() * nm12.length);
   const rnd13 = Math.floor(Math.random() * nm13.length);
   const rnd14 = Math.floor(Math.random() * nm14.length);
-  if (type === 1) {
-    var name = `${nm1[rnd1]}, ${nm2[rnd2]}. ${nm12[rnd12]}.`;
-    var name2 = nm13[rnd13];
-    var name4 = nm14[rnd14];
-  } else {
-    var name = `${nm1[rnd1]}, ${nm2[rnd2]}. ${nm3[rnd3]}.`;
-    var name2 = `${nm4[rnd4]} ${nm5[rnd5]} ${nm6[rnd6]}. ${nm7[rnd7]}`;
-    var name3 = `${nm8[rnd8]} ${nm6[rnd6]}. ${nm9[rnd9]}`;
-    var name4 = `${nm10[rnd10]} ${nm11[rnd11]}`;
-  }
+  if (type === 1) {} else {}
   let result = '';
   result += name;
   result += '\n';

@@ -1,4 +1,7 @@
 export default function ninjas() {
+  let names;
+  let rnd;
+  let rnd2;
   let rnd;
   let rnd2;
   let names;
@@ -6,8 +9,7 @@ export default function ninjas() {
   const names2 = ['Angel', 'Assassin', 'Avalanche', 'Basilisk', 'Beast', 'Blaze', 'Breath', 'Cat', 'Child', 'Cipher', 'Crane', 'Dagger', 'Death', 'Demise', 'Demon', 'Devil', 'Dragon', 'Drake', 'Dream', 'Echo', 'Enigma', 'Eye', 'Eyes', 'Figure', 'Fire', 'Flame', 'Ghost', 'Grin', 'Hawk', 'Hunter', 'Illusion', 'Image', 'Jackal', 'Knife', 'Laugh', 'Lion', 'Lotus', 'Mamba', 'Mark', 'Mask', 'Master', 'Mime', 'Mimic', 'Mind', 'Mirage', 'Moon', 'Mute', 'Oracle', 'Paradox', 'Phantom', 'Phoenix', 'Player', 'Rain', 'Ranger', 'Raven', 'Reflection', 'Rock', 'Rover', 'Saber', 'Samaritan', 'Scar', 'Scorpion', 'Scythe', 'Secret', 'Serpent', 'Shade', 'Shadow', 'Silence', 'Smile', 'Smirk', 'Smoke', 'Snake', 'Snow', 'Soldier', 'Spider', 'Stalker', 'Star', 'Striker', 'Sword', 'Thunder', 'Tiger', 'Viper', 'Vision', 'Wanderer', 'Warden', 'Watcher', 'Whisper', 'Wind', 'Wolf', 'Wrath'];
   const names3 = ['Black', 'Blood', 'Bullet', 'Crimson', 'Dark', 'Dead', 'Death', 'Dream', 'Ghost', 'Golden', 'Hollow', 'Iron', 'Jade', 'Kill', 'Lethal', 'Light', 'Lightning', 'Phantom', 'Quick', 'Rabid', 'Rapid', 'Red', 'Scarlet', 'Silent', 'Silver', 'Snow', 'Steel', 'Still', 'Swift', 'Thunder'];
   const names4 = ['bang', 'bash', 'beat', 'blade', 'claw', 'crash', 'eye', 'eyes', 'fall', 'flake', 'flash', 'flow', 'kill', 'lock', 'mark', 'moon', 'saw', 'scar', 'shade', 'shadow', 'shiv', 'shot', 'sign', 'slinger', 'stain', 'stike', 'streak', 'strikes', 'stroke', 'tooth'];
-  const i = Math.floor(Math.random() * 10);
-  {
+  const i = Math.floor(Math.random() * 10); {
     if (i < 5) {
       rnd = Math.floor(Math.random() * names1.length);
       rnd2 = Math.floor(Math.random() * names2.length);

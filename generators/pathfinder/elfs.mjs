@@ -1,4 +1,9 @@
 export default function elfs() {
+  let nameLast;
+  let names;
+  let rnd;
+  let rnd2;
+  let rnd3;
   let rnd;
   let rnd2;
   let rnd3;
@@ -31,8 +36,7 @@ export default function elfs() {
   const nm10 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'a', 'e', 'e', 'o', 'o', 'ai', 'ee', 'ei', 'ia', 'ie', 'ae', 'io'];
   const nm11 = ['cl', 'd', 'd', 'd', 'dn', 'dr', 'g', 'g', 'g', 'gh', 'gl', 'gr', 'h', 'h', 'h', 'hh', 'j', 'k', 'k', 'k', 'l', 'l', 'l', 'l', 'l', 'll', 'll', 'll', 'ld', 'ldl', 'ldr', 'lf', 'lhn', 'lhr', 'll', 'llm', 'llv', 'lm', 'ln', 'ls', 'lv', 'lvr', 'm', 'm', 'm', 'mm', 'mm', 'mn', 'mr', 'mv', 'n', 'n', 'n', 'nn', 'n', 'nd', 'ndl', 'ndr', 'nl', 'nn', 'nr', 'ns', 'nth', 'nv', 'ph', 'r', 'r', 'r', 'rr', 'rd', 'rdl', 'rg', 'rl', 'rm', 'rr', 's', 's', 's', 'ss', 'ss', 'sh', 'sl', 'ss', 'st', 'th', 'tl', 'v', 'v', 'v', 'y', 'y', 'y'];
   const nm12 = ['', '', 'h', 'l', 'm', 'n', 'r', 's'];
-  const i = Math.floor(Math.random() * 10);
-  {
+  const i = Math.floor(Math.random() * 10); {
     rnd10 = Math.floor(Math.random() * nm9.length);
     rnd11 = Math.floor(Math.random() * nm10.length);
     rnd12 = Math.floor(Math.random() * nm12.length);

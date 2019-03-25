@@ -1,4 +1,8 @@
 export default function lichs() {
+  let names;
+  let rnd;
+  let rnd2;
+  let rnd3;
   let rnd;
   let rnd2;
   let rnd3;
@@ -13,8 +17,7 @@ export default function lichs() {
   const nm3 = ['b', 'br', 'b\'gh', 'bz', 'c', 'cq', 'cr', 'ch', 'cd', 'cn', 'cm', 'cz', 'c\'z', 'c\'n', 'c\'m', 'c\'dh', 'd', 'dd', 'dh', 'dr', 'dz', 'd\'z', 'd\'gh', 'g', 'gg', 'gh', 'gd', 'g\'d', 'gn', 'gm', 'gr', 'g\'sh', 'gv', 'g\'v', 'gz', 'g\'z', 'j', 'k', 'kd', 'kh', 'kk', 'kn', 'kr', 'kt', 'kv', 'kz', 'k\'z', 'k\'n', 'k\'m', 'k\'sh', 'k\'v', 'l', 'ld', 'lg', 'lk', 'lq', 'lz', 'lx', 'l\'z', 'l\'x', 'l\'q', 'l\'kh', 'md', 'm\'g', 'm\'gh', 'mk', 'm\'q', 'mz', 'm\'z', 'nc', 'nd', 'ng', 'n\'g', 'n\'gh', 'nk', 'nq', 'n\'q', 'nz', 'q', 'q\'d', 'q\'g', 'qn', 'q\'r', 'q\'z', 'r', 'rr', 'rc', 'rd', 'rg', 'rgh', 'rk', 'rq', 'rz', 'r\'z', 'r\'g', 'r\'gh', 'r\'q', 's', 'sz', 'sc', 'sg', 'sk', 's\'q', 's\'z', 'st', 's\'t', 't', 'th', 'tr', 't\'g', 'th\'g', 't\'z', 't\'q', 'x', 'xh', 'x\'r', 'x\'z', 'xz', 'z', 'zz', 'zc', 'zd', 'zg', 'z\'q', 'z\'g', 'z\'dh', 'zh'];
   const nm4 = ['c', 'd', 'g', 'k', 'l', 'n', 'q', 'r', 'gh', 'gn', 'gr'];
   const nm5 = ['', '', 'c', 'd', 'dh', 'g', 'k', 'l', 'n', 'q', 'r', 's', 'x', 'z'];
-  const i = Math.floor(Math.random() * 10);
-  {
+  const i = Math.floor(Math.random() * 10); {
     rnd = Math.floor(Math.random() * nm1.length);
     rnd2 = Math.floor(Math.random() * nm2.length);
     rnd3 = Math.floor(Math.random() * nm3.length);

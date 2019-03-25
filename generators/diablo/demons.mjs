@@ -1,4 +1,8 @@
 export default function demons() {
+  let names;
+  let rnd;
+  let rnd2;
+  let rnd3;
   let rnd;
   let rnd2;
   let rnd3;
@@ -17,8 +21,7 @@ export default function demons() {
   const nm6 = ['a', 'e', 'i', 'o', 'u', 'io', 'oi', 'aa', 'iu', 'ia', 'ou', 'ea', 'uu', 'au', 'ao'];
   const nm7 = ['b', 'bb', 'br', 'bh', 'c', 'ch', 'd', 'dh', 'dd', 'dr', 'g', 'gn', 'gr', 'h', 'hr', 'hl', 'k', 'kh', 'kr', 'l', 'lf', 'lph', 'lth', 'lm', 'ln', 'ld', 'll', 'lr', 'm', 'mm', 'ml', 'mf', 'n', 'nn', 'ng', 'nth', 'ns', 'nt', 'ndr', 'ph', 'phr', 'r', 'rr', 'rph', 'rl', 'rs', 'rn', 's', 'sh', 'ss', 'sz', 'sth', 'str', 't', 'th', 'tr', 'tt', 'thr', 'x', 'xx', 'xh', 'z', 'zz'];
   const nm8 = ['', '', '', '', 'h', 'l', 'n', 's', 'th', 'z'];
-  const i = Math.floor(Math.random() * 10);
-  {
+  const i = Math.floor(Math.random() * 10); {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm5.length);
       rnd2 = Math.floor(Math.random() * nm6.length);

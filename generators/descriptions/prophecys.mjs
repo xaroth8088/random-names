@@ -1,4 +1,11 @@
 export default function prophecys() {
+  let names;
+  let names2;
+  let result;
+  let rnd;
+  let rnd2;
+  let rnd3;
+  let i;
   let rnd;
   let rnd2;
   let rnd3;

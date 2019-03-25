@@ -1,4 +1,9 @@
 export default function azerbaijanis() {
+  let j;
+  let names;
+  let rnd;
+  let rnd2;
+  let rnd3;
   let rnd;
   let rnd2;
   let
@@ -12,8 +17,7 @@ export default function azerbaijanis() {
   const nm5 = ['oğlu', 'lı', 'li', 'lu', 'lü', 'gil', 'soy', 'zadə'];
   const nm6 = ['qızı', 'lı', 'li', 'lu', 'lü', 'gil', 'soy', 'zadə'];
   const nm7 = ['a', 'e', 'i', 'o', 'u', 'y', 'ə', 'ÿ'];
-  const i = Math.floor(Math.random() * 10);
-  {
+  const i = Math.floor(Math.random() * 10); {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm2.length);
       if (i < 5) {

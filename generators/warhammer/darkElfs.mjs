@@ -1,4 +1,9 @@
 export default function darkElfs() {
+  let names;
+  let rnd;
+  let rnd2;
+  let rnd3;
+  let nameL;
   let rnd;
   let rnd2;
   let rnd3;
@@ -19,8 +24,7 @@ export default function darkElfs() {
   const nm8 = ['h', 'n', 'l', 'sh', 's', 'th', '', '', '', '', ''];
   const nm9 = ['amber', 'ash', 'battle', 'blood', 'cinder', 'dark', 'dawn', 'dead', 'death', 'doom', 'dread', 'dusk', 'dust', 'ember', 'fall', 'fallen', 'fell', 'fire', 'flame', 'gloom', 'grim', 'haze', 'hell', 'nether', 'night', 'pyre', 'rage', 'rain', 'shade', 'shadow', 'silent', 'skull', 'steel', 'storm', 'thunder', 'void', 'war', 'wild'];
   const nm10 = ['arm', 'arrow', 'axe', 'bane', 'basher', 'binder', 'blade', 'blaze', 'bleeder', 'blight', 'breaker', 'bringer', 'caller', 'cleaver', 'crusher', 'cutter', 'eye', 'eyes', 'fall', 'fury', 'grip', 'hand', 'heart', 'hunter', 'mantle', 'maul', 'might', 'more', 'reaper', 'reaver', 'rider', 'ripper', 'runner', 'scar', 'seeker', 'shade', 'shadow', 'shard', 'slayer', 'sorrow', 'stalker', 'stride', 'strike', 'striker', 'surge', 'taker'];
-  const i = Math.floor(Math.random() * 10);
-  {
+  const i = Math.floor(Math.random() * 10); {
     rnd = Math.floor(Math.random() * nm9.length);
     rnd2 = Math.floor(Math.random() * nm10.length);
     while (nm9[rnd] === nm10[rnd2]) {

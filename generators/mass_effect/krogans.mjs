@@ -1,4 +1,8 @@
 export default function krogans() {
+  let names;
+  let names4;
+  let rnd2;
+  let rnd3;
   let rnd0;
   let rnd1;
   let rnd2;
@@ -13,12 +17,7 @@ export default function krogans() {
   const names2 = ['a', 'e', 'u', 'i', 'o', 'a', 'u'];
   const names3 = ['rr', 'x', 'nd', 'nk', 'yas', 'rm', 'rn', 'rk', 'tack', 'rg', 'g', 'gg', 'sk', 'zk', 'nd', 'd', 'rd', 'xx', 'yak', 'yax', 'rak', 'nak', 'kar', 'kor', 'lak', 'gor', 'gar', 'gas', 'r'];
   const names5 = ['ash', 'bakur', 'brakir', 'dark', 'drak', 'drax', 'dtar', 'k', 'kador', 'karor', 'kirum', 'kmar', 'kmor', 'krax', 'ksan', 'ksar', 'kson', 'ksor', 'l', 'lot', 'mar', 'nar', 'ndok', 'ntor', 'rax', 'rbok', 'rbon', 'rdak', 'rdan', 'rdok', 'rdon', 'rgal', 'rgon', 'rkan', 'rloc', 'rlok', 'rsan', 'rtak', 'tarog', 'tarok', 'tarum', 'tarun', 'tatog', 'tilak', 'vanor', 'varog', 'vrak', 'x', 'yrdok', 'yrloc'];
-  if (type === 1) {
-    var names4 = [''];
-  } else {
-    var names4 = ['a', 'e', 'u', 'i', 'o', 'a'];
-  }
-  {
+  if (type === 1) {} else {} {
     rnd0 = Math.floor(Math.random() * names1.length);
     rnd1 = Math.floor(Math.random() * names2.length);
     rnd2 = Math.floor(Math.random() * names3.length);

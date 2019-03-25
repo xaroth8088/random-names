@@ -1,4 +1,12 @@
 export default function summerIslanders() {
+  let names;
+  let rnd;
+  let rnd2;
+  let rnd2b;
+  let rnd2c;
+  let rnd3;
+  let rnd3b;
+  let rnd6b;
   let rnd;
   let rnd2;
   let rnd3;
@@ -25,8 +33,7 @@ export default function summerIslanders() {
   const nm9 = ['', '', 'qu', 'd', 'l', 'm', 'n', 'q', 'r', 's', 'x'];
   const nm10 = ['', 'a', 'o', 'a'];
   const nm11 = ['', '', '', 'n', 'q', 's'];
-  const i = Math.floor(Math.random() * 10);
-  {
+  const i = Math.floor(Math.random() * 10); {
     rnd2 = Math.floor(Math.random() * nm2.length);
     rnd2b = Math.floor(Math.random() * nm2.length);
     rnd7 = Math.floor(Math.random() * nm7.length);

@@ -1,4 +1,8 @@
 export default function darths() {
+  let names;
+  let rnd;
+  let rnd2;
+  let rnd3;
   let rnd;
   let rnd2;
   let rnd3;
@@ -17,8 +21,7 @@ export default function darths() {
   const nm6 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'ea', 'ae', 'ia', 'ie', 'ei', 'ui'];
   const nm7 = ['b', 'ch', 'chr', 'cr', 'd', 'dh', 'dr', 'g', 'gr', 'gn', 'gm', 'gl', 'k', 'kn', 'km', 'kh', 'kk', 'l', 'll', 'lm', 'lr', 'ld', 'lm', 'm', 'mn', 'mr', 'mm', 'n', 'nn', 'nr', 'ns', 'nz', 'nl', 'r', 'rm', 'rl', 'rz', 'rg', 'rr', 'tr', 'ttr', 'th', 'thr', 'thn', 'thm', 'y'];
   const nm8 = ['', '', '', '', '', '', '', '', '', '', 'd', 'f', 'h', 'l', 'n', 'ph', 'r', 's', 'sh', 'ss', 'th', 'w', 'x'];
-  const i = Math.floor(Math.random() * 10);
-  {
+  const i = Math.floor(Math.random() * 10); {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm5.length);
       rnd2 = Math.floor(Math.random() * nm6.length);

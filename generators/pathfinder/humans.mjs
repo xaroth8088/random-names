@@ -1,4 +1,8 @@
 export default function humans() {
+  let names;
+  let rnd;
+  let rnd2;
+  let rnd3;
   let rnd;
   let rnd2;
   let rnd3;
@@ -83,8 +87,7 @@ export default function humans() {
   const nm63 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'y', 'ae', 'eu', 'aa', 'ui', 'ee', 'ia', 'au', 'eo', 'ei'];
   const nm64 = ['b', 'c', 'ch', 'dr', 'f', 'fm', 'fs', 'g', 'h', 'hbr', 'hm', 'k', 'kh', 'kht', 'kr', 'kt', 'l', 'm', 'mm', 'ms', 'n', 'nh', 'nk', 'nkh', 'nm', 'nn', 'nr', 'ns', 'nt', 'p', 'ph', 'pp', 'ps', 'pt', 'q', 'r', 'rg', 'rk', 'rm', 'rp', 'rph', 'rr', 'rs', 'rt', 's', 'sh', 'sk', 'skh', 'ss', 'st', 't', 'th', 'thr', 'tm', 'tr', 'z', 'zgh'];
   const nm65 = ['', '', '', '', '', '', '', '', 'b', 'd', 'f', 'ff', 'h', 'l', 'ln', 'm', 'n', 'nn', 'p', 'r', 's', 'sh', 't', 'x'];
-  i = Math.floor(Math.random() * 12);
-  {
+  const i = Math.floor(Math.random() * 12); {
     if (type === 1) {
       if (i < 2) {
         rnd = Math.floor(Math.random() * nm5.length);

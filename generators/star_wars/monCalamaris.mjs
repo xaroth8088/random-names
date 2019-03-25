@@ -1,4 +1,10 @@
 export default function monCalamaris() {
+  let namelast;
+  let names;
+  let rnd;
+  let rnd2;
+  let rnd3;
+  let rnd5b;
   let rnd;
   let rnd2;
   let rnd3;
@@ -28,8 +34,7 @@ export default function monCalamaris() {
   const nm10 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'ou', 'ia', 'ua', 'ai', 'oo', 'aa', 'ee'];
   const nm11 = ['b', 'bb', 'br', 'ch', 'ckb', 'ckd', 'd', 'dd', 'dl', 'dr', 'g', 'gr', 'gb', 'h', 'hd', 'k', 'kb', 'l', 'lb', 'lk', 'lg', 'lgr', 'lw', 'ld', 'm', 'mg', 'md', 'mb', 'n', 'md', 'mb', 'ng', 'p', 'pt', 'r', 'rc', 'rr', 'rt', 'rg', 'rb', 'rgr', 's', 'spl', 'sc', 'shc', 'sr', 'th', 'thr', 'tr', 'tt', 'vn', 'y'];
   const nm12 = ['', '', '', '', '', '', '', 'b', 'bb', 'c', 'hb', 'hd', 'k', 'kk', 'l', 'll', 'ls', 'n', 'r', 's', 'sch', 'ss', 'x', 'xx', 'xz'];
-  const i = Math.floor(Math.random() * 10);
-  {
+  const i = Math.floor(Math.random() * 10); {
     rnd7 = Math.floor(Math.random() * nm9.length);
     rnd8 = Math.floor(Math.random() * nm10.length);
     rnd10 = Math.floor(Math.random() * nm12.length);

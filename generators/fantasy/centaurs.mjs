@@ -1,4 +1,10 @@
 export default function centaurs() {
+  let names;
+  let names4;
+  let names5;
+  let rnd;
+  let rnd2;
+  let rnd3;
   let rnd;
   let rnd2;
   let rnd3;
@@ -18,8 +24,7 @@ export default function centaurs() {
     names4 = ['a', 'acea', 'aea', 'aenna', 'aeno', 'aia', 'alia', 'allo', 'ania', 'anke', 'aope', 'apso', 'ar', 'arge', 'astea', 'ato', 'e', 'ea', 'eia', 'eis', 'eles', 'elete', 'eme', 'emis', 'ena', 'ene', 'enope', 'era', 'eria', 'eris', 'erope', 'eros', 'ese', 'esia', 'eso', 'eta', 'ete', 'ethe', 'etis', 'etna', 'eto', 'etope', 'ia', 'iae', 'idia', 'ieia', 'inoe', 'inthe', 'io', 'ione', 'iope', 'is', 'ite', 'ithea', 'o', 'oe', 'oebe', 'oina', 'ois', 'ole', 'olpe', 'on', 'ona', 'one', 'onis', 'oosa', 'ope', 'orie', 'oris', 'osia', 'osie', 'osyne', 'othoe', 'ousa', 'us', 'ybia', 'yia', 'ylla', 'ynome', 'yo', 'yone', 'ypso', 'ys', 'ytie', 'yx'];
     names5 = ['belle', 'bes', 'both', 'cris', 'cith', 'cise', 'dine', 'dim', 'dol', 'flin', 'fone', 'fran', 'grin', 'gone', 'gana', 'hine', 'hoth', 'hante', 'kine', 'kres', 'koe', 'lynn', 'lore', 'less', 'melle', 'mine', 'mare', 'nine', 'nith', 'nys', 'pris', 'plix', 'pione', 'phine', 'phes', 'phe', 'renne', 'rila', 'rone', 'syla', 'sin', 'sane', 'trix', 'tyne', 'toph', 'vina', 'vera', 'vin', 'wyn', 'wane', 'woth', 'zyna', 'zora', 'zith'];
   }
-  const i = Math.floor(Math.random() * 10);
-  {
+  const i = Math.floor(Math.random() * 10); {
     if (i < 5) {
       rnd = Math.floor(Math.random() * nm1.length);
       rnd2 = Math.floor(Math.random() * nm2.length);

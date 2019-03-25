@@ -1,4 +1,7 @@
 export default function southeastAsianTowns() {
+  let names;
+  let rnd;
+  let rnd2;
   let rnd;
   let rnd2;
   let names;
@@ -22,8 +25,7 @@ export default function southeastAsianTowns() {
   /* Vietnam */
   const nm13 = ['Ðà', 'Ðông', 'Ðien', 'Ðong', 'Bà', 'Bac', 'Bao', 'Ben', 'Bien', 'Buôn', 'Buôn Ma', 'Cà', 'Cam', 'Cao', 'Châu', 'Hà', 'Hòa', 'Ha', 'Hai', 'Hoi', 'Hue', 'Hung', 'Kon', 'Lào', 'Lang', 'Long', 'Móng', 'My', 'Nam', 'Nha', 'Ninh', 'Phan', 'Phan Rang', 'Phu', 'Quang', 'Quy', 'Rach', 'Sóc', 'Sa', 'Son', 'Tân', 'Tam', 'Thái', 'Thanh', 'Trà', 'Tuyên', 'Tuy', 'Uông', 'Vinh', 'Vung', 'Yên'];
   const nm14 = ['Ðec', 'Ðinh', 'Ðoc', 'An', 'Bái', 'Bình', 'Bí', 'Bang', 'Binh', 'Cái', 'Cai', 'Chàm', 'Duong', 'Giá', 'Giang', 'Hà', 'Hòa', 'Hóa', 'Hoi', 'Ky', 'Lãnh', 'Lý', 'La', 'Lat', 'Liêu', 'Loc', 'Long', 'Mau', 'Ngãi', 'Nguyên', 'Nhon', 'Ninh', 'Pha', 'Phu', 'Quang', 'Ranh', 'Ria', 'Son', 'Tàu', 'Thiet', 'Tho', 'Thuot', 'Tinh', 'Trì', 'Trang', 'Tre', 'Tum', 'Xuyên', 'Yên'];
-  i = Math.floor(Math.random() * 14);
-  {
+  const i = Math.floor(Math.random() * 14); {
     if (i < 2) {
       rnd = Math.floor(Math.random() * nm1.length);
       rnd2 = Math.floor(Math.random() * nm2.length);

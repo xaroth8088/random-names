@@ -1,4 +1,9 @@
 export default function wildstarChuas() {
+  let name;
+  let rnd;
+  let rnd2;
+  let rnd3;
+  let lname;
   let rnd;
   let rnd2;
   let rnd3;
@@ -12,8 +17,7 @@ export default function wildstarChuas() {
   const nm5 = ['b', 'br', 'd', 'dr', 'f', 'fr', 'g', 'gn', 'gr', 'j', 'm', 'n', 'r', 's', 'sh', 'st', 't', 'th', 'tr', 'v', 'vr', 'z'];
   const nm6 = ['a', 'e', 'i', 'o', 'u'];
   const nm7 = ['', '', '', '', '', '', '', 'c', 'f', 'h', 'l', 'll', 'm', 'ms', 'n', 'ns', 'nn', 'r', 'rr', 's', 'ss', 'sh', 't', 'th', 'x', 'zz'];
-  const i = Math.floor(Math.random() * 10);
-  {
+  const i = Math.floor(Math.random() * 10); {
     rnd = Math.floor(Math.random() * nm5.length);
     rnd2 = Math.floor(Math.random() * nm6.length);
     rnd3 = Math.floor(Math.random() * nm7.length);

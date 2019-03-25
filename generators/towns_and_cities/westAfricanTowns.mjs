@@ -1,4 +1,7 @@
 export default function westAfricanTowns() {
+  let names;
+  let rnd;
+  let rnd2;
   let rnd;
   let rnd2;
   let names;
@@ -22,8 +25,7 @@ export default function westAfricanTowns() {
   /* Senegal */
   const nm13 = ['Ba', 'Bi', 'Bigno', 'Da', 'Daga', 'Daka', 'Damnia', 'Diou', 'Fa', 'Fati', 'Go', 'Gossa', 'Gou', 'Gui', 'Guingui', 'Ké', 'Kébé', 'Kédou', 'Ka', 'Kane', 'Kao', 'Kaya', 'Kho', 'Ko', 'Koa', 'Kou', 'Lé', 'La', 'Lao', 'Li', 'Lou', 'Mé', 'M\'Bou', 'Ma', 'Mata', 'Mba', 'Mbo', 'Né', 'Na', 'Ndiou', 'Ngué', 'Nio', 'Ou', 'Pa', 'Pao', 'Pou', 'Ri', 'Rufi', 'Sé', 'Sébi', 'Sa', 'Sara', 'Sata', 'So', 'Soko', 'Ta', 'Tamba', 'Thiè', 'Thia', 'Ti', 'Tivaoua', 'Tou', 'Vé', 'Véli', 'Za', 'Zao', 'Zi', 'Zigui'];
   const nm14 = ['bémer', 'ba', 'bacou', 'cké', 'counda', 'dhiou', 'diaye', 'dio', 'diouth', 'domp', 'dougou', 'ffri', 'ffrine', 'frine', 'ga', 'gana', 'gheul', 'gnona', 'gou', 'guére', 'gui', 'guinéo', 'guin', 'hra', 'kar', 'kel', 'khé', 'kho', 'khokh', 'khota', 'khotane', 'ko', 'kone', 'lack', 'lda', 'linga', 'mbey', 'mbole', 'mer', 'mnia', 'néo', 'na', 'nchor', 'nda', 'ne', 'nel', 'ngara', 'ngheul', 'nguére', 'niadio', 'nona', 'que', 'ra', 'rbel', 're', 'rine', 'ro', 'sas', 'sque', 'ssas', 'tam', 'tane', 'tick', 'vaouane', 'yar', 'ye'];
-  i = Math.floor(Math.random() * 14);
-  {
+  const i = Math.floor(Math.random() * 14); {
     if (i < 2) {
       rnd = Math.floor(Math.random() * nm1.length);
       rnd2 = Math.floor(Math.random() * nm2.length);

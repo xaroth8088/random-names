@@ -1,4 +1,10 @@
 export default function vambraces() {
+  let names;
+  let names4;
+  let names5;
+  let rnd;
+  let rnd2;
+  let rnd3;
   let rnd;
   let rnd1;
   let rnd2;
@@ -19,8 +25,7 @@ export default function vambraces() {
     names4 = ['Adamantite', 'Scaled', 'Bone', 'Bronze', 'Bronzed', 'Ivory', 'Ebon', 'Golden', 'Iron', 'Mithril', 'Obsidian', 'Silver', 'Skeletal', 'Steel', 'Mail', 'Chain', 'Chainmail', 'Titanium', 'Demon'];
     names5 = ['Bracers', 'Wristguards', 'Armbands', 'Vambraces', 'Armguards'];
   }
-  const i = Math.floor(Math.random() * 10);
-  {
+  const i = Math.floor(Math.random() * 10); {
     if (i < 2) {
       rnd = Math.floor(Math.random() * names1.length);
       rnd1 = Math.floor(Math.random() * names2.length);

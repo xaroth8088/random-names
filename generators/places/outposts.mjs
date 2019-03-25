@@ -1,4 +1,8 @@
 export default function outposts() {
+  let names;
+  let rnd;
+  let rnd2;
+  let rnd3;
   let rnd;
   let rnd2;
   let
@@ -8,8 +12,7 @@ export default function outposts() {
   const names2 = ['band', 'barks', 'blossom', 'branch', 'break', 'breeze', 'bridge', 'brook', 'claw', 'cloud', 'clutch', 'crest', 'cross', 'crown', 'deep', 'dew', 'drift', 'dust', 'fall', 'falls', 'fang', 'fen', 'field', 'fist', 'fold', 'foot', 'forge', 'front', 'fury', 'garde', 'gate', 'glen', 'grasp', 'grip', 'grove', 'guard', 'gulch', 'hand', 'hill', 'hold', 'holde', 'keep', 'lake', 'land', 'landing', 'leaf', 'light', 'lord', 'maw', 'mill', 'mines', 'mist', 'more', 'mount', 'mouth', 'pass', 'peak', 'pine', 'plume', 'point', 'prey', 'reach', 'ridge', 'rock', 'rune', 'runner', 'scream', 'sea', 'shear', 'shield', 'shire', 'shore', 'song', 'speaker', 'spear', 'spine', 'spire', 'springs', 'star', 'storm', 'stream', 'strider', 'summit', 'sword', 'talon', 'tomb', 'vale', 'vault', 'vein', 'wall', 'ward', 'watch', 'watcher', 'water', 'web', 'well', 'wharf', 'wind', 'wing', 'wood'];
   const names3 = ['Acropolis', 'Barracks', 'Barrier', 'Base', 'Bastille', 'Blockade', 'Bulwark', 'Camp', 'Castle', 'Citadel', 'Command', 'Depot', 'Encampment', 'Enclave', 'Fort', 'Fortification', 'Fortress', 'Front', 'Frontier', 'Garde', 'Garrison', 'Guard', 'Harbor', 'Harborage', 'Haven', 'Headquarters', 'Hideout', 'Hold', 'Outpost', 'Point', 'Post', 'Rampart', 'Redoubt', 'Refuge', 'Retreat', 'Sanctuary', 'Site', 'Stand', 'Station', 'Stockade', 'Stronghold', 'Terminal', 'Wall', 'Watch'];
   const names4 = ['Arid', 'Autumn\'s', 'Azure', 'Barren', 'Black Scar', 'Blood', 'Bone', 'Boulder', 'Burning', 'Canyon', 'Cinder', 'Crossroad', 'Crown', 'Crystal', 'Dawn', 'Dead', 'Death', 'Desolation', 'Dire', 'Doom', 'Dreamer\'s', 'Dusk', 'Dusty', 'Ebon', 'Echo', 'Eclipse', 'Eco-Dome', 'Ember', 'Eternal', 'Falcon', 'Final', 'First', 'Fool\'s Hope', 'Forest', 'Forsaken', 'Forward', 'Fury', 'Garden', 'Gloom', 'Hidden', 'Honor', 'Hunter', 'Iron', 'Lagoon', 'Lake', 'Light\'s', 'Marsh', 'Marshal', 'Mountain', 'Mountain-Foot', 'Night', 'Nightmare', 'Oasis', 'Obsidian', 'Ocean', 'Oracle', 'Phantom', 'Pinnacle', 'Raven', 'Razor', 'River', 'Sandy', 'Scarlet', 'Sea', 'Seabreeze', 'Second', 'Shadow', 'Skeleton', 'Sleeping', 'Solitude', 'Sorrow', 'Spring\'s', 'Starfall', 'Starlight', 'Storm', 'Summer\'s', 'Summit', 'Talon', 'Tempest', 'Terror', 'Third', 'Thunder', 'Thunderstorm', 'Timber', 'Triumph', 'Twilight', 'Twin', 'Valley', 'Valor', 'Vendetta', 'Vengeance', 'Venom', 'Victor', 'Vortex', 'Warden', 'Watcher\'s', 'Wild', 'Wildling', 'Winter\'s', 'Writhing'];
-  const i = Math.floor(Math.random() * 10);
-  {
+  const i = Math.floor(Math.random() * 10); {
     if (i < 5) {
       rnd = Math.floor(Math.random() * names1.length);
       rnd2 = Math.floor(Math.random() * names2.length);

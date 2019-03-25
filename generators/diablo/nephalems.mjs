@@ -1,4 +1,8 @@
 export default function nephalems() {
+  let names;
+  let rnd;
+  let rnd2;
+  let rnd3;
   let rnd;
   let rnd2;
   let rnd3;
@@ -17,8 +21,7 @@ export default function nephalems() {
   const nm6 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'y'];
   const nm7 = ['dr', 'l', 'll', 'lm', 'ln', 'ld', 'm', 'mn', 'n', 'nm', 'nn', 'nr', 'mr', 'lgr', 'n', 'r', 'rl', 'rn', 'rm', 'rsh', 's', 'sh', 'ss', 'th'];
   const nm8 = ['', '', '', '', '', 'l', 'n', 'r', 's', 'sh'];
-  const i = Math.floor(Math.random() * 10);
-  {
+  const i = Math.floor(Math.random() * 10); {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm5.length);
       rnd2 = Math.floor(Math.random() * nm6.length);

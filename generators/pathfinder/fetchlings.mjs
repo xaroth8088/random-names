@@ -1,4 +1,8 @@
 export default function fetchlings() {
+  let names;
+  let rnd;
+  let rnd2;
+  let rnd3;
   let rnd;
   let rnd2;
   let rnd3;
@@ -16,8 +20,7 @@ export default function fetchlings() {
   const nm5 = ['c', 'f', 'g', 'h', 'l', 'm', 'n', 'q', 'r', 's', 't', 'th', 'v', 'y', 'z'];
   const nm7 = ['c', 'fz', 'fn', 'g', 'gv', 'gn', 'gz', 'h', 'hn', 'hv', 'hz', 'l', 'lv', 'lr', 'ls', 'lz', 'm', 'mr', 'mv', 'mz', 'nv', 'nz', 'nr', 'r', 'rr', 'rs', 'rz', 'rh', 'rv', 'sc', 'sh', 'sr', 'sv', 'th', 'thr', 'tv', 'tn'];
   const nm8 = ['', '', '', '', '', '', '', '', '', '', '', '', '', 'h', 'l', 'm', 'n', 's', 'x'];
-  const i = Math.floor(Math.random() * 10);
-  {
+  const i = Math.floor(Math.random() * 10); {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm5.length);
       rnd2 = Math.floor(Math.random() * nm2.length);

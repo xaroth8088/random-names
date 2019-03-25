@@ -1,4 +1,8 @@
 export default function woodElfs() {
+  let names;
+  let rnd;
+  let rnd2;
+  let rnd3;
   let rnd;
   let rnd2;
   let rnd3;
@@ -17,8 +21,7 @@ export default function woodElfs() {
   const nm6 = ['a', 'e', 'i', 'y', 'a', 'e', 'i', 'y', 'a', 'e', 'i', 'y', 'a', 'e', 'a', 'a', 'e', 'e', 'ie', 'ae'];
   const nm7 = ['c', 'cc', 'ch', 'd', 'dd', 'dr', 'h', 'hh', 'lc', 'll', 'lv', 'ls', 'lt', 'lth', 'ln', 'lm', 'l', 'n', 'nn', 'nr', 'nv', 'nd', 'ph', 'r', 'rl', 'rr', 'rv', 'rl', 's', 'ss', 'sh', 'st', 'str', 'sv', 't', 'th', 'tr', 'v'];
   const nm8 = ['', '', '', '', 'f', 'h', 'l', 'n', 's', 'th'];
-  const i = Math.floor(Math.random() * 10);
-  {
+  const i = Math.floor(Math.random() * 10); {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm5.length);
       rnd2 = Math.floor(Math.random() * nm6.length);

@@ -1,4 +1,8 @@
 export default function orcs() {
+  let names;
+  let rnd;
+  let rnd2;
+  let rnd3;
   let rnd;
   let rnd2;
   let rnd3;
@@ -11,8 +15,7 @@ export default function orcs() {
   const nm3 = ['cb', 'cd', 'cr', 'db', 'dd', 'fd', 'fth', 'g', 'gb', 'gd', 'gg', 'gl', 'gr', 'gz', 'h', 'lcm', 'ld', 'lf', 'lg', 'rb', 'rc', 'rd', 'rg', 'rz', 'shn', 'thr', 'z', 'zb', 'zg', 'zr', 'zz'];
   const nm4 = ['c', 'd', 'dh', 'f', 'g', 'gh', 'kh', 'l', 'r', 'rg', 'sh', 't', 'th', '', '', ''];
   const nm5 = ['a', 'o', 'u', 'au'];
-  const i = Math.floor(Math.random() * 10);
-  {
+  const i = Math.floor(Math.random() * 10); {
     if (i < 5) {
       rnd = Math.floor(Math.random() * nm1.length);
       rnd2 = Math.floor(Math.random() * nm2.length);

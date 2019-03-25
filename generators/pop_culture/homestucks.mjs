@@ -1,4 +1,9 @@
 export default function homestucks() {
+  let names;
+  let namesf;
+  let rnd;
+  let rnd2;
+  let rnd3;
   let rnd;
   let rnd2;
   let rnd3;
@@ -14,8 +19,7 @@ export default function homestucks() {
   const nm4 = ['dc', 'dj', 'dn', 'dr', 'dv', 'dy', 'dz', 'fg', 'fk', 'fr', 'ft', 'fz', 'gg', 'gh', 'gn', 'gr', 'gt', 'gz', 'kh', 'kk', 'kn', 'kr', 'ks', 'kt', 'kz', 'ld', 'lg', 'lk', 'll', 'lm', 'ln', 'lr', 'lv', 'ly', 'mk', 'mm', 'mr', 'mv', 'mz', 'nc', 'nd', 'ng', 'nk', 'nl', 'nn', 'nr', 'nt', 'nv', 'ny', 'nz', 'qq', 'qr', 'qt', 'rc', 'rg', 'rk', 'rl', 'rm', 'rn', 'rr', 'rt', 'rv', 'rx', 'rz', 'sc', 'sh', 'sk', 'sl', 'sm', 'sn', 'sp', 'sr', 'ss', 'st', 'sy', 'th', 'tr', 'vl', 'vr', 'zl', 'zr', 'zz'];
   const nm5 = ['d', 'f', 'g', 'k', 'l', 'm', 'n', 'q', 'r', 's', 't', 'v', 'y', 'z'];
   const nm6 = ['h', 'k', 'm', 'n', 'r', 's', 't', 'x', 'z'];
-  const i = Math.floor(Math.random() * 10);
-  {
+  const i = Math.floor(Math.random() * 10); {
     if (i % 2 === 0) {
       rnd = Math.floor(Math.random() * nm0.length);
       rnd2 = Math.floor(Math.random() * nm2.length);

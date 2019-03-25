@@ -1,4 +1,8 @@
 export default function dwarf() {
+  let names;
+  let rnd;
+  let rnd2;
+  let rnd3;
   let rnd;
   let rnd2;
   let
@@ -8,8 +12,7 @@ export default function dwarf() {
   const nm2 = ['b', 'br', 'dd', 'd', 'dr', 'dm', 'dgr', 'f', 'fr', 'gr', 'gg', 'gh', 'gn', 'k', 'kh', 'kgr', 'kdr', 'kk', 'kh', 'kr', 'l', 'lg', 'lgr', 'ldr', 'lm', 'md', 'mn', 'm', 'mm', 'mr', 'n', 'nd', 'ndr', 'ngr', 'nm', 'r', 'rr', 'rgr', 'rdr', 'rb', 'rg', 'rn', 'rh', 'rd', 'rm', 'rs', 'rf', 's', 'ss', 'sdr', 'sgr', 'st', 'str', 't', 'tr', 'tm', 'th', 'tdr', 'tgr', 'v', 'vr', 'z', 'zm', 'zn', 'zz'];
   const nm3 = ['ori', 'oin', 'ili', 'alin', 'orin', 'osi', 'imli', 'ormur', 'ac', 'aic', 'aec', 'ec', 'eac', 'ic', 'oc', 'oic', 'ouc', 'ack', 'aeck', 'eck', 'eack', 'ick', 'ock', 'oick', 'ouck', 'uck', 'uc', 'ad', 'aed', 'ed', 'ead', 'id', 'od', 'oid', 'oud', 'ud', 'uid', 'ag', 'aeg', 'eg', 'eag', 'ig', 'og', 'oug', 'ug', 'ak', 'aek', 'ek', 'eak', 'ik', 'ok', 'oki', 'uk', 'uik', 'ouk', 'uki', 'al', 'ael', 'el', 'eal', 'il', 'ol', 'oli', 'olin', 'olim', 'olir', 'oul', 'ul', 'uli', 'ulim', 'ulir', 'uil', 'am', 'ami', 'amli', 'amri', 'aem', 'em', 'eam', 'im', 'om', 'omli', 'omri', 'omi', 'oum', 'um', 'umi', 'umir', 'umin', 'umli', 'umlir', 'umlin', 'umri', 'an', 'aen', 'en', 'ean', 'in', 'on', 'onlim', 'onlir', 'oun', 'un', 'unli', 'unri', 'ar', 'arlum', 'arlun', 'arlug', 'arlig', 'aer', 'er', 'erlum', 'erlun', 'erlug', 'erlig', 'ear', 'ir', 'irlum', 'irlun', 'or', 'orli', 'orlim', 'orlum', 'orlun', 'orlig', 'orlug', 'oir', 'our', 'ur', 'uri', 'urim', 'urum', 'us', 'as', 'ous', 'aes', 'eas', 'at', 'atir', 'atum', 'atin', 'aet', 'et', 'eat', 'it', 'ot', 'otir', 'atin', 'otum', 'out', 'ut', 'ath', 'aeth', 'eth', 'eath', 'ith', 'oth', 'outh', 'uth'];
   const nm4 = ['D', 'F', 'G', 'H', 'K', 'L', 'M', 'N', 'R', 'T', 'Th', 'W', 'Dr', 'Dw', 'Fl', 'Gl', 'Thr', 'D', 'F', 'G', 'H', 'K', 'L', 'M', 'N', 'R', 'T', 'Th', 'W', 'Dr', 'Dw', 'Fl', 'Gl', 'Thr'];
-  const i = Math.floor(Math.random() * 10);
-  {
+  const i = Math.floor(Math.random() * 10); {
     if (i < 5) {
       rnd = Math.floor(Math.random() * nm4.length);
       rnd2 = Math.floor(Math.random() * nm3.length);

@@ -1,4 +1,7 @@
 export default function casinos() {
+  let names;
+  let rnd;
+  let rnd2;
   let rnd;
   let rnd2;
   let names;
@@ -6,8 +9,7 @@ export default function casinos() {
   const nm2 = ['Aerial', 'Alabaster', 'Amber', 'Amethyst', 'Aqua', 'Astral', 'Atlantic', 'Aurelian', 'Azuline', 'Azure', 'Cardinal', 'Carmine', 'Celestial', 'Cerulean', 'Coral', 'Crimson', 'Crown', 'Crystal', 'Diamond', 'Eastern', 'Ebon', 'Ember', 'Emerald', 'Exalted', 'Gilded', 'Gold', 'Golden', 'Grand', 'Granite', 'Halcyon', 'Indigo', 'Ivory', 'Jade', 'King', 'Lavender', 'Light', 'Lucky', 'Lunar', 'Malachite', 'Marble', 'Marina', 'Maroon', 'Noble', 'Northern', 'Obsidian', 'Onyx', 'Pacific', 'Paradise', 'Porcelain', 'Regal', 'Royal', 'Ruby', 'Sable', 'Saffron', 'Sanguine', 'Sapphire', 'Scarlet', 'Silk', 'Silver', 'Solar', 'Southern', 'Supreme', 'Twin', 'Velour', 'Velvet', 'Verdigris', 'Vermilion', 'Violet', 'Viridian', 'Western', 'White'];
   const nm3 = ['Aegis', 'Aeon', 'Allure', 'Anemone', 'Angel', 'Arc', 'Arch', 'Archway', 'Aura', 'Aurora', 'Avian', 'Bastille', 'Blossom', 'Borealis', 'Boulevard', 'Carriage', 'Chalice', 'Chariot', 'Citadel', 'Cloak', 'Cloud', 'Clover', 'Court', 'Creek', 'Crown', 'Cub', 'Curtain', 'Cushion', 'Diamond', 'Dome', 'Dove', 'Dream', 'Dune', 'Element', 'Elephant', 'Dawn', 'Chandelier', 'Panther', 'Griffin', 'Flame', 'Flower', 'Fountain', 'Garden', 'Gardens', 'Gate', 'Globe', 'Greyhound', 'Halo', 'Heirloom', 'Helix', 'Horseshoe', 'Hyacinth', 'Iris', 'Jewel', 'Labyrinth', 'Leviathan', 'Lion', 'Majesty', 'Mantle', 'Medallion', 'Mountain', 'Mystery', 'Nebula', 'Nimbus', 'Nugget', 'Oasis', 'Obelisk', 'Oleander', 'Orb', 'Orchid', 'Palm', 'Petal', 'Phoenix', 'Plume', 'Prism', 'Pyramid', 'Quill', 'Reef', 'Ribbon', 'Rose', 'Sabre', 'Scepter', 'Shield', 'Shrine', 'Sierra', 'Siren', 'Snowflake', 'Peacock', 'Solstice', 'Spa', 'Spire', 'Stallion', 'Star', 'Talisman', 'Tempest', 'Tiara', 'Tigress', 'Trillium', 'Trinket', 'Valley', 'Wolfhound', 'Zenith', 'Zephyr'];
   const nm4 = ['', ' Casino'];
-  const i = Math.floor(Math.random() * 10);
-  {
+  const i = Math.floor(Math.random() * 10); {
     if (i < 5) {
       rnd = Math.floor(Math.random() * nm1.length);
       rnd2 = Math.floor(Math.random() * nm4.length);

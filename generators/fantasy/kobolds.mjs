@@ -1,4 +1,9 @@
 export default function kobolds() {
+  let names;
+  let rnd;
+  let rnd2;
+  let rnd3;
+  let lName;
   let rnd;
   let rnd2;
   let rnd3;
@@ -21,8 +26,7 @@ export default function kobolds() {
   const nm12 = ['a', 'e', 'i', 'u', 'a', 'e', 'i', 'u', 'a', 'e', 'i', 'u', 'a', 'e', 'i', 'u', 'a', 'e', 'i', 'u', 'a', 'e', 'i', 'u', 'a', 'e', 'i', 'u', 'o', 'o', 'o', 'o', 'aa', 'ee', 'ia', 'ai', 'ei'];
   const nm13 = ['b', 'bb', 'd', 'dd', 'g', 'gg', 'k', 'kk', 'r', 'rr', 'tt', 'z', 'zz', 'bhr', 'dj', 'gn', 'gm', 'gr', 'gv', 'kz', 'kv', 'khr', 'lg', 'lgr', 'lk', 'ld', 'lz', 'ldr', 'mg', 'mk', 'mch', 'mq', 'msz', 'mzr', 'ng', 'nd', 'ndr', 'nz', 'nsz', 'rg', 'rd', 'rdr', 'rdj', 'rsz', 'rk', 'rch', 'tz', 'tr', 'thr', 'zs', 'zsz', 'zzs', 'zd'];
   const nm14 = ['', '', '', '', '', 'h', 'l', 'm', 'n', 'ng', 'r', 's', 'sz', 'x', 'z'];
-  const i = Math.floor(Math.random() * 10);
-  {
+  const i = Math.floor(Math.random() * 10); {
     rnd = Math.floor(Math.random() * nm9.length);
     rnd2 = Math.floor(Math.random() * nm10.length);
     while (nm9[rnd] === nm10[rnd2]) {

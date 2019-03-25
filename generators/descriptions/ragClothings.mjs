@@ -1,4 +1,5 @@
 export default function ragClothings() {
+  let result;
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['Her', 'She', 'her', 'she', 'her', 'His', 'He', 'his', 'he', 'him'];
   let nm2 = ['shirt', 't-shirt'];

@@ -1,4 +1,8 @@
 export default function skyIslands() {
+  let names;
+  let rnd;
+  let rnd2;
+  let rnd3;
   let rnd;
   let rnd2;
   let rnd3;
@@ -15,8 +19,7 @@ export default function skyIslands() {
   const nm4 = ['', '', '', '', '', 'f', 'h', 'l', 'm', 'n', 'r', 's', 'th'];
   const nm6 = ['Island', 'Enclave', 'Isle', 'Islet', 'Island', 'Isle'];
   const nm5 = ['Aeranas', 'Aerene', 'Aeria', 'Aeris', 'Aeros', 'Aerule', 'Albatross', 'Angel', 'Apex', 'Apogee', 'Ataraxia', 'Ataraxis', 'Atmos', 'Aura', 'Aurora', 'Avia', 'Avian', 'Avis', 'Azura', 'Azure', 'Azuris', 'Billow', 'Bliss', 'Borealis', 'Buoya', 'Bustard', 'Cassowary', 'Celes', 'Celeste', 'Cerulea', 'Cerulis', 'Cerulle', 'Chinook', 'Cirrostratus', 'Cirrus', 'Condor', 'Crane', 'Crow', 'Crown', 'Cuckoo', 'Cumulus', 'Dove', 'Eagle', 'Elysium', 'Empyre', 'Empyrea', 'Empyris', 'Falcon', 'Flamingo', 'Gale', 'Griffin', 'Gull', 'Halo', 'Halos', 'Harmony', 'Harpy', 'Hippogriff', 'Hummingbird', 'Imperos', 'Macaw', 'Mistral', 'Mistros', 'Murmus', 'Nebula', 'Nightingale', 'Nightowl', 'Obelisk', 'Owl', 'Ozone', 'Peacock', 'Pegasus', 'Pelican', 'Phoenix', 'Pigeon', 'Raven', 'Serenity', 'Solace', 'Sonas', 'Sonus', 'Sparrow', 'Spire', 'Stork', 'Storm', 'Stormy', 'Stratos', 'Stratus', 'Swan', 'Swift', 'Thunder', 'Toocan', 'Tranquility', 'Tropos', 'Tumul', 'Tumulus', 'Utopia', 'Valkyrie', 'Ventis', 'Vertex', 'Volance', 'Volantis', 'Volar', 'Volaris', 'Vortex', 'Vox', 'Voxis', 'Vulture', 'Windy', 'Zenith', 'Zephyr', 'Zephys', 'Zion'];
-  const i = Math.floor(Math.random() * 10);
-  {
+  const i = Math.floor(Math.random() * 10); {
     rnd7 = Math.floor(Math.random() * nm6.length);
     if (i < 6) {
       rnd = Math.floor(Math.random() * nm1.length);

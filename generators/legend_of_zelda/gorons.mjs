@@ -1,4 +1,8 @@
 export default function gorons() {
+  let names;
+  let rnd;
+  let rnd2;
+  let rnd3;
   let rnd;
   let rnd2;
   let rnd3;
@@ -14,8 +18,7 @@ export default function gorons() {
   const nm2 = ['a', 'e', 'i', 'o', 'u', 'a', 'o'];
   const nm3 = ['b', 'br', 'bl', 'd', 'dr', 'dl', 'g', 'gr', 'gl', 'gg', 'g', 'gr', 'gl', 'gg', 'g', 'gr', 'gl', 'gg', 'g', 'gr', 'gl', 'gg', 'l', 'lg', 'lb', 'ld', 'm', 'mr', 'md', 'mb', 'n', 'nd', 'nl', 'nb', 'ng', 'r', 'rb', 'rg', 'rd', 'rk', 'rm', 'rtr', 't', 'z', 'kb', 'kl', 'km', 'kn', 'kd', 'b', 'd', 'g', 'k', 'l', 'm', 'n', 'r', 't', 'z', 'b', 'd', 'g', 'k', 'l', 'm', 'n', 'r', 't', 'z', 'b', 'd', 'g', 'k', 'l', 'm', 'n', 'r', 't', 'z', 'b', 'd', 'g', 'k', 'l', 'm', 'n', 'r', 't', 'z', 'b', 'd', 'g', 'k', 'l', 'm', 'n', 'r', 't', 'z'];
   const nm4 = ['', '', '', '', '', '', '', '', '', '', '', '', 'k', 'g', 'ck', 'gs', 'm', 'n', 's'];
-  const i = Math.floor(Math.random() * 10);
-  {
+  const i = Math.floor(Math.random() * 10); {
     rnd = Math.floor(Math.random() * nm1.length);
     rnd2 = Math.floor(Math.random() * nm2.length);
     rnd3 = Math.floor(Math.random() * nm3.length);

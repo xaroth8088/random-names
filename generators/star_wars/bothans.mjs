@@ -1,4 +1,9 @@
 export default function bothans() {
+  let namelast;
+  let names;
+  let rnd;
+  let rnd2;
+  let rnd3;
   let rnd;
   let rnd2;
   let rnd3;
@@ -26,8 +31,7 @@ export default function bothans() {
   const nm10 = ['d', 'd\'h', 'f\'l', '\'f', 'h\'r', 'h', '\'h', 'k', '\'k', 'l', '\'l', 'n', 'n\'d', 'nr', 'n\'q', 'nd', 'n\'n', 'q', 'r', 'rr', '\'r', 's', 's\'', '\'t', 't', 'th', 'v\'', 'y\'l'];
   const nm11 = ['h', 'l', 'm', 'n', 'r', 's', 't', 'v'];
   const nm12 = ['', '', '', '', '', 'a', 'e', 'i', 'o', 'u'];
-  const i = Math.floor(Math.random() * 10);
-  {
+  const i = Math.floor(Math.random() * 10); {
     rnd6 = Math.floor(Math.random() * nm8.length);
     rnd7 = Math.floor(Math.random() * nm9.length);
     rnd8 = Math.floor(Math.random() * nm10.length);

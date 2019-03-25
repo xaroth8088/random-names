@@ -1,4 +1,8 @@
 export default function oreads() {
+  let names;
+  let rnd;
+  let rnd2;
+  let rnd3;
   let rnd;
   let rnd2;
   let rnd3;
@@ -16,8 +20,7 @@ export default function oreads() {
   const nm5 = ['', '', '', 'b', 'bh', 'd', 'dh', 'gh', 'h', 'l', 'm', 'n', 'p', 'r', 'rh', 's', 'sh', 't', 'th', 'v', 'w'];
   const nm6 = ['a', 'e', 'i', 'o', 'u', 'a', 'i', 'e'];
   const nm7 = ['c', 'ch', 'd', 'dh', 'f', 'ff', 'fh', 'fth', 'h', 'hn', 'hv', 'hl', 'hs', 'l', 'lh', 'ln', 'lm', 'ls', 'lsh', 'm', 'mn', 'mm', 'mh', 'my', 'n', 'nn', 'nh', 'ny', 'ns', 'nth', 'nf', 'r', 'ry', 'rh', 'rs', 'rsh', 'rth', 's', 'sh', 'sth', 'sht', 'sn', 'sm', 'sy', 'sl', 't', 'th', 'ty', 'thy', 'y'];
-  const i = Math.floor(Math.random() * 10);
-  {
+  const i = Math.floor(Math.random() * 10); {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm5.length);
       rnd2 = Math.floor(Math.random() * nm6.length);

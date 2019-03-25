@@ -1,4 +1,8 @@
 export default function goblins() {
+  let names;
+  let rnd;
+  let rnd2;
+  let rnd3;
   let rnd;
   let rnd2;
   let rnd3;
@@ -15,8 +19,7 @@ export default function goblins() {
   const nm5 = ['c', 'ch', 'd', 'g', 'gh', 'k', 'kh', 'r', 'sr', 'sc', 'sk', 'sn', 'sl', 't', 'th', 'tr', 'v', 'x', 'z'];
   const nm6 = ['i', 'a', 'i', 'a', 'i', 'a', 'i', 'a', 'e', 'e', 'e', 'o', 'u'];
   const nm7 = ['c', 'ch', 'cc', 'g', 'gg', 'gr', 'gtr', 'gn', 'gz', 'k', 'kr', 'kz', 'kt', 'l', 'll', 'lc', 'lk', 'lz', 'lg', 'n', 'nn', 'nr', 'nt', 'nk', 'r', 'rr', 'rl', 'rk', 'rn', 'rm', 't', 'tt', 'th', 'tr', 'tz', 'tzr', 'tsr', 'tg', 'v', 'vr', 'z', 'zr', 'zz', 'zg', 'zk', 'zn'];
-  const i = Math.floor(Math.random() * 10);
-  {
+  const i = Math.floor(Math.random() * 10); {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm5.length);
       rnd2 = Math.floor(Math.random() * nm6.length);

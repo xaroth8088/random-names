@@ -1,4 +1,8 @@
 export default function undines() {
+  let names;
+  let rnd;
+  let rnd2;
+  let rnd3;
   let rnd;
   let rnd2;
   let rnd3;
@@ -17,8 +21,7 @@ export default function undines() {
   const nm6 = ['a', 'e', 'i', 'u', 'a', 'e', 'i', 'u', 'a', 'e', 'i', 'u', 'a', 'e', 'i', 'u', 'a', 'e', 'i', 'u', 'y', 'y', 'y', 'ya', 'aa'];
   const nm7 = ['b', 'bh', 'd', 'dz', 'dh', 'fd', 'fn', 'ff', 'f', 'fz', 'hn', 'hl', 'hr', 'hm', 'h', 'hh', 'l', 'lg', 'ld', 'lb', 'lf', 'ln', 'm', 'mm', 'mn', 'mr', 'mf', 'n', 'nn', 'nr', 'nd', 'nf', 'nh', 'r', 'rh', 'rb', 'rv', 'rd', 'rz', 'v', 'vr', 'b', 'd', 'f', 'h', 'l', 'n', 'm', 'r', 'v', 'b', 'd', 'f', 'h', 'l', 'n', 'm', 'r', 'v'];
   const nm8 = ['', '', '', '', '', '', '', '', '', '', 'h', 'n'];
-  const i = Math.floor(Math.random() * 10);
-  {
+  const i = Math.floor(Math.random() * 10); {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm5.length);
       rnd2 = Math.floor(Math.random() * nm6.length);

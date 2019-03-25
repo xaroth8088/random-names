@@ -1,4 +1,8 @@
 export default function dragonridersOfPerns() {
+  let names;
+  let rnd;
+  let rnd2;
+  let rnd3;
   let rnd;
   let rnd2;
   let rnd3;
@@ -24,8 +28,7 @@ export default function dragonridersOfPerns() {
   const nm13 = ['b', 'br', 'ch', 'f', 'g', 'h', 'k', 'l', 'm', 'n', 'p', 'pr', 'r', 's', 't', 'w', 'z'];
   const nm14 = ['a', 'e', 'i', 'o', 'u'];
   const nm15 = ['d', 'd', 'l', 'l', 'l', 'l', 'll', 'lm', 'ln', 'ls', 'm', 'm', 'n', 'n', 'nl', 'nr', 'nm', 'r', 'r', 'r', 'rl', 'r', 's', 's', 'yl', 'yr', 'yn'];
-  const i = Math.floor(Math.random() * 10);
-  {
+  const i = Math.floor(Math.random() * 10); {
     rnd2 = Math.floor(Math.random() * nm3.length);
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm5.length);

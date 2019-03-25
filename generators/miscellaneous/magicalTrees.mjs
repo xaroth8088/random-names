@@ -1,4 +1,8 @@
 export default function magicalTrees() {
+  let names;
+  let rnd;
+  let rnd2;
+  let rnd3;
   let rnd;
   let rnd2;
   let rnd3;
@@ -13,8 +17,7 @@ export default function magicalTrees() {
   const nm5 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'ea', 'ei', 'eo', 'ae', 'ai', 'ia', 'io', 'ua', 'aa', 'ee', 'oo', 'ou'];
   const nm6 = ['b', 'c', 'd', 'f', 'g', 'h', 'j', 'k', 'l', 'm', 'n', 'p', 'q', 'r', 's', 't', 'v', 'w', 'x', 'y', 'z', 'b', 'c', 'd', 'f', 'g', 'h', 'j', 'k', 'l', 'm', 'n', 'p', 'q', 'r', 's', 't', 'v', 'w', 'x', 'y', 'z', 'bb', 'bd', 'bg', 'bl', 'br', 'bs', 'cc', 'ch', 'chr', 'cl', 'cr', 'dd', 'df', 'dg', 'dl', 'dr', 'ds', 'dt', 'fd', 'ff', 'fg', 'fl', 'fm', 'fn', 'fp', 'fr', 'fy', 'gd', 'gg', 'ght', 'gl', 'gr', 'gth', 'hh', 'hl', 'hm', 'hn', 'hs', 'ht', 'kd', 'kk', 'kl', 'km', 'kn', 'kr', 'lb', 'ld', 'lf', 'lg', 'lk', 'll', 'lm', 'ln', 'lp', 'ls', 'lt', 'ly', 'mb', 'md', 'mf', 'mk', 'ml', 'mm', 'mn', 'mp', 'ms', 'my', 'nc', 'nd', 'nf', 'ng', 'nk', 'nl', 'nm', 'nn', 'np', 'ns', 'nt', 'ny', 'ph', 'phr', 'pl', 'pp', 'pr', 'ql', 'qr', 'qs', 'rc', 'rd', 'rf', 'rg', 'rh', 'rk', 'rl', 'rm', 'rn', 'rp', 'rr', 'rs', 'rsh', 'rt', 'rth', 'rw', 'sb', 'sc', 'sd', 'sf', 'sg', 'sh', 'shr', 'sk', 'sl', 'sm', 'sn', 'sp', 'sr', 'ss', 'st', 'str', 'sw', 'sy', 'th', 'thr', 'tr', 'tt', 'vl', 'zh', 'zl', 'zr', 'zz'];
   const nm7 = ['ab', 'ac', 'acca', 'acia', 'alea', 'an', 'ander', 'ant', 'any', 'ar', 'arch', 'ark', 'ava', 'eaf', 'eam', 'eech', 'en', 'er', 'ess', 'et', 'etto', 'ew', 'eye', 'ifer', 'immon', 'ine', 'iper', 'irch', 'ock', 'olia', 'on', 'onet', 'ood', 'ore', 'orn', 'ory', 'ove', 'ow', 'uce', 'um', 'us'];
-  const i = Math.floor(Math.random() * 10);
-  {
+  const i = Math.floor(Math.random() * 10); {
     if (i < 6) {
       rnd = Math.floor(Math.random() * nm1.length);
       rnd2 = Math.floor(Math.random() * nm2.length);

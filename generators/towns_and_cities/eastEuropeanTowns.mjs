@@ -1,4 +1,7 @@
 export default function eastEuropeanTowns() {
+  let names;
+  let rnd;
+  let rnd2;
   let rnd;
   let rnd2;
   let names;
@@ -26,8 +29,7 @@ export default function eastEuropeanTowns() {
   /* Ukraine */
   const nm15 = ['Advii', 'Al', 'Alche', 'Alma', 'Alu', 'Amvro', 'Anan', 'Andru', 'Antra', 'Apo', 'Aposto', 'Armia', 'Arte', 'Artemi', 'Bakh', 'Bal', 'Bala', 'Bara', 'Barvin', 'Batu', 'Ber', 'Berdy', 'Bere', 'Bery', 'Bil', 'Bilo', 'Bobro', 'Boho', 'Bole', 'Bor', 'Bory', 'Bro', 'Bu', 'Cher', 'Cherno', 'Cherny', 'Chervo', 'Chort', 'Chu', 'Debal', 'Der', 'Derazh', 'Dnipro', 'Dobro', 'Doku', 'Doly', 'Droho', 'Druz', 'Dubrov', 'Dunai', 'Dymy', 'Dzer', 'Dzhan', 'Ener', 'Fas', 'Hai', 'Haivo', 'Heni', 'Her', 'Hir', 'Hlo', 'Hlu', 'Horliv', 'Horo', 'Hre', 'Illi', 'Ilo', 'Inker', 'Ir', 'Izia', 'Kaha', 'Kakho', 'Kalu', 'Kaly', 'Kamia', 'Karli', 'Khar', 'Khmil', 'Kho', 'Khor', 'Khy', 'Kiro', 'Kiver', 'Kobel', 'Kolo', 'Komso', 'Kono', 'Koriu', 'Koro', 'Koto', 'Kozia', 'Krama', 'Krasno', 'Krasnoa', 'Krasy', 'Kreme', 'Krole', 'Kurak', 'Kuznet', 'Lani', 'Lebe', 'Liu', 'Lozo', 'Luha', 'Lutu', 'Lypo', 'Lysy', 'Mar', 'May', 'Meli', 'Mere', 'Miu', 'Molo', 'Mona', 'Mor', 'Mosty', 'Muka', 'Myko', 'Myr', 'Nad', 'Nemy', 'Niko', 'Nosi', 'Novoa', 'Novomo', 'Novou', 'Ocha', 'Orik', 'Ostro', 'Pere', 'Pervo', 'Pid', 'Polo', 'Pomi', 'Pry', 'Pryvi', 'Pusto', 'Rade', 'Rado', 'Rava', 'Rodyn', 'Rom', 'Roven', 'Roz', 'Rubi', 'Rzhy', 'Sam', 'Sar', 'Sely', 'Semeni', 'Sere', 'Sevas', 'Shar', 'Shepe', 'Shos', 'Sievero', 'Sim', 'Simfero', 'Ska', 'Skado', 'Sla', 'Slo', 'Sni', 'Snia', 'Soky', 'Sole', 'Staro', 'Storo', 'Sudo', 'Sva', 'Sver', 'Svia', 'Svit', 'Syne', 'Tara', 'Tatar', 'Tavri', 'Teplo', 'Tere', 'Terni', 'Tia', 'Tros', 'Tur', 'Ulia', 'Uzh', 'Val', 'Vash', 'Vasy', 'Vatu', 'Verkhi', 'Vil', 'Volo', 'Vov', 'Vozne', 'Vuhle', 'Vyno', 'Vysh', 'Yaho', 'Yare', 'Yavo', 'Yena', 'Zapor', 'Zasta', 'Zba', 'Zbo', 'Zdol', 'Zeleno', 'Zhda', 'Zhmer', 'Zho', 'Zhyda', 'Zhyto', 'Zo', 'Zolo', 'Zon', 'Zuh', 'Zveny', 'Zymo'];
   const nm16 = ['binka', 'botyn', 'bunary', 'bych', 'byl', 'byne', 'chach', 'chaiv', 'chansk', 'chesk', 'chevo', 'chevsk', 'chiv', 'chuk', 'chyn', 'darsk', 'denka', 'diach', 'diansk', 'dilna', 'dilsk', 'divka', 'dok', 'doriv', 'driia', 'drivsk', 'dy', 'dyma', 'dysche', 'hachi', 'hanov', 'hatyn', 'hirsk', 'hodar', 'horod', 'hove', 'hovka', 'huiv', 'hyne', 'hyryn', 'ka', 'kasy', 'khiv', 'khove', 'kine', 'kiv', 'kivka', 'kliia', 'kopsk', 'kove', 'koy', 'kva', 'laiv', 'liaky', 'liany', 'livka', 'lodar', 'love', 'lych', 'lyk', 'lyna', 'lynsk', 'lynska', 'lytsia', 'mach', 'man', 'marno', 'mazna', 'mivsk', 'morsk', 'move', 'myia', 'myshl', 'nets', 'nia', 'niany', 'nihiv', 'nivka', 'nobyl', 'nohrad', 'nov', 'nyk', 'pillia', 'pole', 'rad', 'riv', 'rivka', 'rod', 'rodok', 'romyl', 'ropol', 'rovsk', 'ruch', 'rudne', 'ryn', 'ryska', 'saray', 'schiv', 'seve', 'shad', 'shivka', 'shta', 'shyn', 'siivka', 'siya', 'ske', 'slav', 'son', 'sovsk', 'spil', 'spyne', 'stiv', 'stopol', 'syt', 'syzk', 'ta', 'tanka', 'tarsk', 'tava', 'techko', 'tivka', 'topol', 'torsk', 'trov', 'tyn', 'tyvl', 'vaisk', 'valsk', 'van', 'vary', 'vodsk', 'vodske', 'vohrad', 'vuta', 'vutych', 'vylib', 'vytsia', 'yi', 'yiv', 'zan', 'zansk', 'zerske', 'zhany', 'zhyn', 'zhynets', 'zhynsk', 'zivka', 'zna', 'zne', 'zova', 'zovsk'];
-  i = Math.floor(Math.random() * 16);
-  {
+  const i = Math.floor(Math.random() * 16); {
     if (i < 2) {
       rnd = Math.floor(Math.random() * nm1.length);
       rnd2 = Math.floor(Math.random() * nm2.length);

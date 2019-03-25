@@ -1,4 +1,8 @@
 export default function medievalClothings() {
+  let name;
+  let name2;
+  let name3;
+  let result;
   let rnd1;
   let rnd24;
   const type = Math.random() > 0.5 ? 0 : 1;
@@ -64,9 +68,6 @@ export default function medievalClothings() {
     const rnd16b = Math.floor(Math.random() * nm6.length);
     const rnd17 = Math.floor(Math.random() * nm17.length);
     const rnd18 = Math.floor(Math.random() * nm18.length);
-    var name = `Her ${nm1[rnd]} dress flows from top to bottom and has a ${nm2[rnd2]}, which ${nm3[rnd3]} reveals the ${nm1[rnd1]} dress worn below it. The ${nm4[rnd4]}, ${nm5[rnd5]} of her dress covers her stomach where the continuous flow is broken up by a ${nm6[rnd6]} ${nm7[rnd7]} worn ${nm8[rnd8]} around her waist.`;
-    var name2 = `Below the ${nm7[rnd7]} the dress ${nm9[rnd9]} the dress below. The front of the top dress ${nm10[rnd10]}, the back continues to flow a ${nm11[rnd11]} length behind her and ends in a ${nm12[rnd12]}.`;
-    var name3 = `Her sleeves are ${nm13[rnd13]} and ${nm14[rnd14]}, their flow is broken up ${nm15[rnd15]} where ${nm16[rnd16]}they're divided by ${nm6[rnd16b]}, ${nm17[rnd17]} bands, these are the same fabric and color used to outline the ${nm18[rnd18]} of the dress.`;
   } else {
     const rnd19 = Math.floor(Math.random() * nm19.length);
     const rnd20 = Math.floor(Math.random() * nm20.length);
@@ -90,9 +91,6 @@ export default function medievalClothings() {
     const rnd36 = Math.floor(Math.random() * nm36.length);
     const rnd37 = Math.floor(Math.random() * nm37.length);
     const rnd38 = Math.floor(Math.random() * nm38.length);
-    var name = `His ${nm19[rnd19]} sleeved, ${nm20[rnd20]} jacket covers him to ${nm21[rnd21]} and is ${nm22[rnd22]} ${nm23[rnd23]}. The sleeves of his${nm24}are ${nm25[rnd25]} and reach down to ${nm26[rnd26]}, they're decorated with ${nm27[rnd27]}.`;
-    var name2 = `The jacket has a ${nm28[rnd28]} which reveals part of the ${nm29[rnd29]} shirt worn below it and is worn with a ${nm30[rnd30]} ${nm31[rnd31]}, which is held together by ${nm32[rnd32]}. The ${nm31[rnd31]} is ${nm33[rnd33]}.`;
-    var name3 = `His pants are simple and ${nm25[rnd34]} and reach down to his ${nm35[rnd35]} ${nm38[rnd38]}. The ${nm38[rnd38]} are made from a ${nm36[rnd36]} ${nm39[rnd35]}, but are otherwise ${nm37[rnd37]}.`;
   }
   let result = '';
   result += name;

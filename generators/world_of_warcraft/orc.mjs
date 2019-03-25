@@ -1,4 +1,6 @@
 export default function orc() {
+  let names;
+  let rnd2;
   let rnd2;
   let rnd4;
   let rnd6;
@@ -13,8 +15,7 @@ export default function orc() {
   const nm4 = ['Al', 'El', 'Fal', 'Fel', 'Fol', 'Ful', 'Ga', 'Gar', 'Gi', 'Gija', 'Go', 'Gor', 'Gre', 'Gro', 'Gry', 'Kar', 'Kat', 'Ker', 'Ket', 'Ki', 'Kir', 'Kot', 'Kur', 'Kut', 'Mer', 'Mir', 'Mor', 'Ol', 'Ra', 'Rah', 'Rahk', 'Ras', 'Rash', 'Raw', 'Ro', 'Roh', 'Rohk', 'Ru', 'Sa', 'Sam', 'San', 'Se', 'Sem', 'Sen', 'Sha', 'Shay', 'She', 'Shi', 'Shu', 'Sin', 'Su', 'Sum', 'Sun', 'Tam', 'Tem', 'Tu', 'Tum', 'Um', 'Uma', 'Ur', 'Ure', 'Zan', 'Zen', 'Zon', 'Zun'];
   const nm6 = ['\'Kuma', '\'Kuna', '\'Kuno', '\'Te', '\'Ti', '\'Tur', '\'Ula', '\'Ulo', 'adu', 'aja', 'aju', 'ala', 'ami', 'ano', 'anu', 'ar', 'atra', 'das', 'des', 'dis', 'dras', 'dres', 'dris', 'drus', 'dus', 'eda', 'edo', 'ija', 'ika', 'iko', 'iku', 'ila', 'ile', 'ilu', 'ina', 'ino', 'inu', 'ira', 'iro', 'iru', 'is', 'kaja', 'kajo', 'kamo', 'kano', 'kes', 'ket', 'kis', 'kit', 'kuja', 'kuji', 'kujo', 'kuma', 'kumo', 'kuna', 'kuno', 'kys', 'lika', 'liko', 'liku', 'na', 'nae', 'nar', 'ner', 'nor', 'oda', 'odu', 'ona', 'onu', 'os', 'otra', 'ra', 'ras', 'res', 'ris', 'ros', 'rus', 'shka', 'strom', 'tar', 'thas', 'thes', 'thos', 'thus', 'tra', 'uda', 'udo', 'uja', 'ujo', 'ula', 'ulo', 'ume', 'umi', 'una', 'us', 'via', 'vio', 'viu', 'yja', 'yl', 'yla', 'yle', 'ylu', 'yna', 'yno', 'ynu', 'yra', 'yro', 'yru'];
   const nm7 = ['Axe', 'Battle', 'Black', 'Thunder', 'Blood', 'Burning', 'Bone', 'Clan', 'Dark', 'Dead', 'Death', 'Doom', 'Dragon', 'Dream', 'Fire', 'Fist', 'Fore', 'Frost', 'Gore', 'Hell', 'Iron', 'Laughing', 'Lone', 'Nose', 'Rage', 'Red', 'Rock', 'Saur', 'Shadow', 'Skull', 'Steel', 'Stone', 'Strong', 'Tusk', 'War', 'Wolf'];
-  const nm8 = ['axe', 'arm', 'basher', 'binder', 'blade', 'bleeder', 'bringer', 'chewer', 'cleaver', 'crusher', 'eye', 'fang', 'fist', 'fury', 'hammer', 'hand', 'horn', 'lash', 'maul', 'maw', 'rage', 'ripper', 'runner', 'scream', 'seeker', 'slayer', 'snarl', 'song', 'splitter', 'sword', 'taker', 'wolf'];
-  {
+  const nm8 = ['axe', 'arm', 'basher', 'binder', 'blade', 'bleeder', 'bringer', 'chewer', 'cleaver', 'crusher', 'eye', 'fang', 'fist', 'fury', 'hammer', 'hand', 'horn', 'lash', 'maul', 'maw', 'rage', 'ripper', 'runner', 'scream', 'seeker', 'slayer', 'snarl', 'song', 'splitter', 'sword', 'taker', 'wolf']; {
     rnd2 = Math.floor(Math.random() * nm2.length);
     rnd7 = Math.floor(Math.random() * nm7.length);
     rnd8 = Math.floor(Math.random() * nm8.length);

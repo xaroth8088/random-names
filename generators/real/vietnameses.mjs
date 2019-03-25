@@ -1,4 +1,7 @@
 export default function vietnameses() {
+  let names;
+  let rnd;
+  let rnd2;
   let rnd;
   let rnd1;
   let
@@ -9,8 +12,7 @@ export default function vietnameses() {
   const nm2 = ['Van', 'Huu', 'Duc', 'Dinh', 'Xuan', 'Ngoc', 'Quang', 'Cong', 'Manh', 'Trong', 'Qui', '', '', ''];
   const nm3 = ['An', 'Anh Dung', 'Bao ', 'Binh', 'Canh', 'Chien', 'Chinh', 'Cuong', 'Dac Kien', 'Danh', 'Dao', 'Dat', 'De', 'Dien', 'Duc', 'Due', 'Dung', 'Duong', 'Gia', 'Giang', 'Hai', 'Hao', 'Hien', 'Hieu', 'Hoc', 'Hung', 'Huu', 'Huy', 'Huynh', 'Khan', 'Lan', 'Lanh', 'Loc', 'Minh', 'Nguyen', 'Nhat', 'Phuc', 'Phuoc', 'Quan', 'Quang', 'Quoc', 'Sang', 'Si ', 'Sinh', 'Son', 'Thang', 'Thanh', 'Thao', 'Thinh', 'Tho ', 'Thu', 'Thuan', 'Toai', 'Toan', 'Trang', 'Trieu', 'Trong', 'Trong Tri', 'Trung', 'Tu', 'Tuan', 'Tung', 'Van', 'Vien', 'Viet', 'Vuong', 'Xuan'];
   const nm4 = ['Thi', ''];
-  const nm5 = ['Ai', 'An', 'Anh', 'Be', 'Bian', 'Bich', 'Binh', 'Cam', 'Canh', 'Chau', 'Chi', 'Dao', 'Diep', 'Diu', 'Doan Vien', 'Dong', 'Giang ', 'Ha', 'Hai', 'Han', 'Hang', 'Hanh Phuc', 'Hien', 'Hoa', 'Hong', 'Hong Hanh', 'Hong Yen', 'Hue', 'Hung', 'Huong ', 'Huyen', 'Hyunh', 'Ket Nien', 'Khanh', 'Kieu', 'Kim', 'Kim Cuc', 'Kim-Ly', 'Lam', 'Lan', 'Lang', 'Lanh', 'Le', 'Le ', 'Lien', 'Lieu', 'Linh', 'Loan', 'Mai', 'My', 'Nam Ha', 'Ngoc', 'Ngoc Bich', 'Ngu', 'Ngu ', 'Nguyet', 'Nhu', 'Nhung', 'Nu ', 'Phuong', 'Quy', 'Quyen', 'Sang', 'Suong', 'Tam', 'Tan', 'Tham', 'Thanh', 'Thanh Ha', 'Thao', 'Thi', 'Thi ', 'Thien ', 'Thom', 'Thu', 'Thuy', 'Tien', 'Trinh', 'Truc', 'Tuyen', 'Tuyet', 'Uoc', 'Van', 'Viet', 'Xuan', 'Yen'];
-  {
+  const nm5 = ['Ai', 'An', 'Anh', 'Be', 'Bian', 'Bich', 'Binh', 'Cam', 'Canh', 'Chau', 'Chi', 'Dao', 'Diep', 'Diu', 'Doan Vien', 'Dong', 'Giang ', 'Ha', 'Hai', 'Han', 'Hang', 'Hanh Phuc', 'Hien', 'Hoa', 'Hong', 'Hong Hanh', 'Hong Yen', 'Hue', 'Hung', 'Huong ', 'Huyen', 'Hyunh', 'Ket Nien', 'Khanh', 'Kieu', 'Kim', 'Kim Cuc', 'Kim-Ly', 'Lam', 'Lan', 'Lang', 'Lanh', 'Le', 'Le ', 'Lien', 'Lieu', 'Linh', 'Loan', 'Mai', 'My', 'Nam Ha', 'Ngoc', 'Ngoc Bich', 'Ngu', 'Ngu ', 'Nguyet', 'Nhu', 'Nhung', 'Nu ', 'Phuong', 'Quy', 'Quyen', 'Sang', 'Suong', 'Tam', 'Tan', 'Tham', 'Thanh', 'Thanh Ha', 'Thao', 'Thi', 'Thi ', 'Thien ', 'Thom', 'Thu', 'Thuy', 'Tien', 'Trinh', 'Truc', 'Tuyen', 'Tuyet', 'Uoc', 'Van', 'Viet', 'Xuan', 'Yen']; {
     rnd1 = Math.floor(Math.random() * nm1.length);
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm4.length);

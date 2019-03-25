@@ -1,4 +1,5 @@
 export default function bows() {
+  let result;
   const nm1 = ['admirable', 'beautiful', 'charming', 'common', 'decent', 'elegant', 'excellent', 'exceptional', 'fine', 'first-rate', 'intricate', 'magnificent', 'marvelous', 'masterfully crafted', 'nifty', 'ornate', 'pleasant', 'popular', 'rare', 'skillfully created', 'solid', 'superior', 'uncommon', 'well designed', 'well-made'];
   const nm2 = ['recurve bow', 'reflex bow', 'self bow', 'longbow', 'flatbow', 'composite bow', 'compound bow', 'shortbow', 'recurve crossbow', 'compound crossbow', 'repeating crossbow', 'pistol crossbow', 'rifle crossbow', 'recurve crossbow', 'compound crossbow'];
   const nm3 = ['adeptly', 'admirably', 'appropriately', 'carefully', 'cleverly', 'delicately', 'efficiently', 'expertly', 'extremely well', 'flawlessly', 'masterfully', 'properly', 'reliably', 'remarkably', 'rigorously', 'skillfully', 'solidly', 'superbly', 'well', 'wonderfully'];

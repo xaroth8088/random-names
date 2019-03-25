@@ -1,4 +1,8 @@
 export default function satyrFauns() {
+  let names;
+  let rnd;
+  let rnd2;
+  let rnd3;
   let rnd;
   let rnd2;
   let rnd3;
@@ -15,8 +19,7 @@ export default function satyrFauns() {
   const nm4 = ['', '', '', '', '', '', '', '', '', 'b', 'c', 'd', 'f', 'g', 'h', 'k', 'l', 'm', 'n', 'p', 'r', 's', 't', 'w', 'x', 'z'];
   const nm5 = ['c', 'ck', 'g', 'h', 'k', 'l', 'm', 'n', 'q', 'r', 's', 'sh', 't', 'th', 'x', 'z'];
   const nm6 = ['e', 'i', 'u', 'a', 'o', 'y', 'ia', 'ea', 'ae'];
-  const i = Math.floor(Math.random() * 10);
-  {
+  const i = Math.floor(Math.random() * 10); {
     rnd = Math.floor(Math.random() * nm1.length);
     rnd2 = Math.floor(Math.random() * nm2.length);
     rnd3 = Math.floor(Math.random() * nm3.length);

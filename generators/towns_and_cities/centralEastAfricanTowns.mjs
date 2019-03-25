@@ -1,4 +1,7 @@
 export default function centralEastAfricanTowns() {
+  let names;
+  let rnd;
+  let rnd2;
   let rnd;
   let rnd2;
   let names;
@@ -23,8 +26,7 @@ export default function centralEastAfricanTowns() {
   /* Uganda */
   const nm13 = ['Adju', 'Amu', 'Apa', 'Bu', 'Buge', 'Bugem', 'Bugi', 'Bun', 'Bundi', 'Buse', 'Busem', 'Buwe', 'Bwe', 'Bweyo', 'Bwi', 'Bwizi', 'Bya', 'Byaka', 'En', 'Ente', 'Gu', 'Hoi', 'Iga', 'Igan', 'Ji', 'Jin', 'Ka', 'Kaba', 'Kaga', 'Kaja', 'Kajan', 'Kam', 'Kampa', 'Kamu', 'Kanu', 'Kanun', 'Kap', 'Kapchoir', 'Kase', 'Kayu', 'Ki', 'Kiba', 'Kibo', 'Kigo', 'Kigoro', 'Kile', 'Kilem', 'Kire', 'Kiso', 'Kit', 'Ko', 'Koti', 'Ku', 'Kye', 'Kyen', 'Kyo', 'Li', 'Lu', 'Luga', 'Luwe', 'Lwe', 'Lwee', 'Lya', 'Lyan', 'Ma', 'Mar', 'Marghe', 'Masa', 'Masi', 'Masin', 'Mayu', 'Mba', 'Mbara', 'Mi', 'Mitya', 'Mo', 'Moro', 'Mpi', 'Mu', 'Mube', 'Muben', 'Muho', 'Muhoro', 'Muko', 'Na', 'Naka', 'Nama', 'Ne', 'Neb', 'Nje', 'Ntu', 'Ntun', 'Nya', 'Nyache', 'Pa', 'Pai', 'Palli', 'Ru', 'Ruku', 'Rukun', 'Se', 'Sem', 'Semba', 'Si', 'Siro', 'Siron', 'So', 'Soro', 'To', 'Toro', 'Wa', 'Waki', 'Wo', 'Wobu', 'Wobule', 'Yu', 'Yum'];
   const nm14 = ['ba', 'babule', 'bale', 'banda', 'batia', 'be', 'bende', 'bi', 'boga', 'bugyo', 'bule', 'bwera', 'bya', 'chera', 'chorwa', 'dat', 'de', 'der', 'dha', 'di', 'dibugyo', 'do', 'ga', 'gadi', 'gamo', 'gazi', 'ge', 'gembe', 'gerere', 'gherita', 'gi', 'giri', 'gola', 'gum', 'ja', 'jansi', 'jo', 'jojo', 'jumani', 'ka', 'kabanda', 'kiso', 'ko', 'kono', 'la', 'le', 'lembe', 'lenzi', 'li', 'lisa', 'lu', 'ma', 'mani', 'mi', 'mo', 'mudat', 'muli', 'na', 'ni', 'no', 'nungu', 'pala', 'ra', 'rara', 'reka', 'rere', 'ri', 'rita', 'ro', 'robya', 'ronko', 'roro', 'roti', 'roto', 'ru', 'rua', 'saka', 'se', 'sese', 'si', 'sia', 'sindi', 'so', 'songola', 'soro', 'suba', 'ta', 'tebbe', 'tera', 'ti', 'tia', 'tido', 'to', 'tonde', 'wa', 'wenge', 'wero', 'wo', 'yana', 'yo', 'yuge', 'yunga', 'za', 'zi', 'zibwera'];
-  i = Math.floor(Math.random() * 16);
-  {
+  const i = Math.floor(Math.random() * 16); {
     if (i < 2) {
       rnd = Math.floor(Math.random() * nm1.length);
       rnd2 = Math.floor(Math.random() * nm2.length);

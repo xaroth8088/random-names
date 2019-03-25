@@ -1,4 +1,7 @@
 export default function westEuropeanTowns() {
+  let names;
+  let rnd;
+  let rnd2;
   let rnd;
   let rnd2;
   let names;
@@ -22,8 +25,7 @@ export default function westEuropeanTowns() {
   /* Switzerland */
   const nm13 = ['Aar', 'Adlish', 'Affol', 'All', 'Alt', 'Amris', 'Appen', 'Ar', 'As', 'Bellin', 'Bero', 'Bia', 'Birs', 'Bischof', 'Brem', 'Burg', 'Con', 'Crog', 'Cud', 'Düben', 'Delé', 'Diessen', 'Eg', 'Ein', 'Er', 'Frauen', 'Frei', 'Freien', 'Fri', 'Gor', 'Grand', 'Her', 'Hutt', 'Ill', 'Küs', 'Kaiser', 'Kling', 'Kreuz', 'Langen', 'Lau', 'Laufen', 'Lenz', 'Lies', 'Mün', 'München', 'Maien', 'Men', 'Mor', 'Neu', 'Neun', 'Oft', 'Op', 'Oster', 'Porren', 'Rappers', 'Regens', 'Rei', 'Rhei', 'Rhein', 'Richters', 'Romain', 'Ror', 'Schaff', 'Sem', 'Spreiten', 'Steck', 'Steffis', 'Sur', 'Thal', 'Unter', 'Ver', 'Wädens', 'Walden', 'Walen', 'Werden', 'Wiedlis', 'Winter', 'Zolli', 'Zur'];
   const nm14 = ['bach', 'berg', 'bon', 'born', 'bourg', 'burg', 'châtel', 'cona', 'cote', 'cour', 'dola', 'don', 'dorf', 'dris', 'drisio', 'feld', 'felden', 'gans', 'garten', 'gen', 'ges', 'hausen', 'hofen', 'hurn', 'kirch', 'kkon', 'kon', 'lach', 'lingen', 'môtier', 'münster', 'mance', 'mont', 'mundigen', 'nach', 'nacht', 'nau', 'neck', 'neuve', 'nier', 'pach', 'pen', 'refin', 'ring', 'ringen', 'rus', 'sau', 'schwil', 'see', 'seen', 'sellen', 'siedeln', 'singen', 'soix', 'son', 'stätten', 'stadt', 'stal', 'steig', 'stein', 'stuhl', 'swil', 'tal', 'tern', 'thal', 'wil', 'zach', 'zell', 'zona'];
-  i = Math.floor(Math.random() * 14);
-  {
+  const i = Math.floor(Math.random() * 14); {
     if (i < 2) {
       rnd = Math.floor(Math.random() * nm1.length);
       rnd2 = Math.floor(Math.random() * nm2.length);

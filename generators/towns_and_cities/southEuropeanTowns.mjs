@@ -1,4 +1,7 @@
 export default function southEuropeanTowns() {
+  let names;
+  let rnd;
+  let rnd2;
   let rnd;
   let rnd2;
   let names;
@@ -13,8 +16,7 @@ export default function southEuropeanTowns() {
   /* Spain */
   const nm7 = ['Alba', 'Alca', 'Alco', 'Alge', 'Ali', 'Alme', 'Alzi', 'Artei', 'Ba', 'Bada', 'Barce', 'Be', 'Beni', 'Bi', 'Bla', 'Bu', 'Ca', 'Co', 'Colo', 'Cordo', 'Coru', 'Fe', 'Fro', 'Fue', 'Fuenla', 'Ga', 'Ge', 'Geta', 'Gi', 'Giro', 'Gra', 'Grama', 'Grana', 'Gua', 'Guada', 'Guadala', 'Hospi', 'Hue', 'La', 'Lagu', 'Le', 'Lega', 'Lgro', 'Llei', 'Lo', 'Lu', 'Ma', 'Madri', 'Mala', 'Manre', 'Marbe', 'Mo', 'Mosto', 'Mu', 'Olei', 'Ou', 'Oure', 'Ovie', 'Pa', 'Pale', 'Ponte', 'Sa', 'Saba', 'Sala', 'Santa', 'Santia', 'Se', 'Seba', 'Sevi', 'Ta', 'Tarra', 'Tene', 'To', 'Tole', 'Torre', 'Va', 'Vale', 'Valla', 'Vi', 'Vito', 'Za', 'Zara'];
   const nm8 = ['ba', 'brada', 'bregat', 'cante', 'cete', 'ciras', 'da', 'de', 'dell', 'diz', 'do', 'dolid', 'dorm', 'dra', 'drid', 'fe', 'ga', 'ganes', 'gat', 'gena', 'go', 'gona', 'goza', 'grono', 'guna', 'jara', 'jon', 'joz', 'labrada', 'lade', 'laga', 'lajara', 'lavega', 'lbao', 'lche', 'ledo', 'les', 'lla', 'llon', 'lma', 'lmas', 'loma', 'lona', 'lt', 'lva', 'manca', 'manet', 'na', 'nada', 'nares', 'naria', 'nca', 'ncia', 'nder', 'ndia', 'nea', 'nes', 'net', 'no', 'nresa', 'nse', 'ntera', 'ra', 'rbella', 'rca', 'rcia', 'rcon', 'rdoba', 'res', 'rgos', 'ria', 'rife', 'rin', 'rm', 'ron', 'rona', 'ros', 'rotira', 'rrasa', 'rrol', 'rtos', 'runa', 'sa', 'stela', 'stian', 'stoles', 'tafe', 'tava', 'te', 'tiva', 'va', 'vega', 'vera', 'villa', 'ville', 'xo', 'za', 'zde'];
-  i = Math.floor(Math.random() * 12);
-  {
+  const i = Math.floor(Math.random() * 12); {
     if (i < 3) {
       rnd = Math.floor(Math.random() * nm1.length);
       rnd2 = Math.floor(Math.random() * nm2.length);

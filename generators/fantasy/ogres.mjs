@@ -1,4 +1,8 @@
 export default function ogres() {
+  let names;
+  let rnd;
+  let rnd2;
+  let rnd3;
   let rnd;
   let rnd2;
   let rnd3;
@@ -10,8 +14,7 @@ export default function ogres() {
   const nm2 = ['e', 'i', 'u', 'o', 'a'];
   const nm3 = ['b', 'd', 'g', 'k', 'l', 'm', 'n', 'r', 's', 't', 'w', 'x', 'z', '', '', '', '', '', '', '', '', ''];
   const nm4 = ['g', 'k', 'rug', 'rog', 'rag', 'ruk', 'rok', 'kag', 'rth', 'rub', 'rob', 'rig', 'kohr', 'kuhr', 'kor', 'kur', 'ret', 'rut', 'rot', 'kug', 'kog', 'kig', 'keg', 'reg', 'rek', 'rg', 'rk', 'zar', 'zug', 'zor', 'zag', 'zig', 'zir', 'zur', 'nk', 'gut', 'grut', 'grot', 'gruk', 'grok', 'rok', 'ruk', 'rag', 'gark', 'gork', 'gurk', 'kur', 'kurk', 'kurg', 'kor', 'kork', 'korg', 'zog', 'zug', 'zig', 'zrog', 'zrug'];
-  const i = Math.floor(Math.random() * 10);
-  {
+  const i = Math.floor(Math.random() * 10); {
     rnd = Math.floor(Math.random() * nm1.length);
     rnd2 = Math.floor(Math.random() * nm2.length);
     rnd4 = Math.floor(Math.random() * nm4.length);

@@ -1,4 +1,9 @@
 export default function hutts() {
+  let namelast;
+  let names;
+  let rnd;
+  let rnd2;
+  let rnd3;
   let rnd;
   let rnd2;
   let rnd3;
@@ -18,8 +23,7 @@ export default function hutts() {
   const nm2 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'aa', 'uu', 'ee', 'io', 'oo', 'eu', 'ua', 'ai', 'oa', 'oe', 'ae'];
   const nm3 = ['b', 'bb', 'bd', 'bs', 'ch', 'chr', 'd', 'dd', 'ddl', 'ff', 'ffr', 'g', 'gg', 'gh', 'gr', 'j', 'jj', 'k', 'kk', 'l', 'lb', 'ld', 'lg', 'll', 'ln', 'lr', 'lt', 'm', 'mb', 'mdr', 'mr', 'n', 'nd', 'ng', 'ngr', 'nj', 'nn', 'nt', 'nv', 'ny', 'pp', 'q', 'r', 'rb', 'rbl', 'rchr', 'rd', 'rdr', 'rg', 'rgr', 'rk', 'rl', 'rp', 'rph', 'rr', 'rrb', 'rrg', 'rs', 'rt', 'rv', 'rz', 's', 'sh', 'sk', 'skh', 'ss', 'st', 't', 'th', 'tj', 'tt', 'v', 'w', 'wn', 'x', 'yb'];
   const nm4 = ['', '', '', '', '', '', '', '', '', 'b', 'c', 'd', 'g', 'gg', 'h', 'hl', 'k', 'l', 'lb', 'll', 'm', 'n', 'nn', 'r', 'rd', 'rg', 'rgg', 'rm', 's', 'sch', 'sh', 'sk', 'ss', 'th', 'x', 'z', 'zz'];
-  const i = Math.floor(Math.random() * 10);
-  {
+  const i = Math.floor(Math.random() * 10); {
     rnd8 = Math.floor(Math.random() * nm1.length);
     rnd9 = Math.floor(Math.random() * nm2.length);
     rnd12 = Math.floor(Math.random() * nm4.length);

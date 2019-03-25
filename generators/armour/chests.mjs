@@ -1,4 +1,8 @@
 export default function chests() {
+  let names;
+  let rnd;
+  let rnd2;
+  let rnd3;
   let rnd;
   let rnd2;
   let rnd3;
@@ -22,8 +26,7 @@ export default function chests() {
     nm5 = ['Vest', 'Chestguard', 'Armor', 'Tunic', 'Breastplate', 'Chestplate', 'Batteplate', 'Chestpiece', 'Cuirass', 'Greatplate'];
     nm6 = ['Armament', 'Scales', 'Guard', 'Bastion', 'Steel', 'Defense', 'Bane', 'Bond', 'Boon', 'Call', 'Champion', 'Conqueror', 'Crusader', 'Cry', 'Curator', 'Dawn', 'Fall', 'End', 'Demise', 'Birth', 'Death', 'Edge', 'Blight', 'Burden', 'Blessing', 'Fortune', 'Defender', 'Defiler', 'Deflector', 'Destroyer', 'Emissary', 'Ender', 'Favor', 'Foe', 'Gift', 'Glory', 'Guard', 'Guardian', 'Heirloom', 'Hero', 'Hope', 'Incarnation', 'Keeper', 'Last Hope', 'Last Stand', 'Legacy', 'Memory', 'Might', 'Oath', 'Pact', 'Pledge', 'Promise', 'Protection', 'Protector', 'Reach', 'Shepherd', 'Soul', 'Steward', 'Terror', 'Token', 'Tribute', 'Vengeance', 'Vindicator', 'Visage', 'Voice', 'Ward', 'Warden', 'Whisper', 'Wit', 'Vest', 'Chestguard', 'Armor', 'Tunic', 'Breastplate', 'Chestplate', 'Batteplate', 'Chestpiece', 'Cuirass', 'Greatplate'];
   }
-  const i = Math.floor(Math.random() * 10);
-  {
+  const i = Math.floor(Math.random() * 10); {
     if (i < 2) {
       rnd = Math.floor(Math.random() * nm1.length);
       rnd2 = Math.floor(Math.random() * nm2.length);

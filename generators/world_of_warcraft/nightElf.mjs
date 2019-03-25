@@ -1,4 +1,8 @@
 export default function nightElf() {
+  let names;
+  let rnd;
+  let rnd2;
+  let rnd3;
   let rnd;
   let rnd2;
   let rnd3;
@@ -15,8 +19,7 @@ export default function nightElf() {
   const nm6 = ['anas', 'anaes', 'aenas', 'anelle', 'dris', 'liene', 'aria', 'anaria', 'alaria', 'cina', 'ina', 'ene', 'erias', 'eria', 'ora', 'lora', 'thea', 'thae', 'inne', 'rnae', 'rnea', 'is\'ta', 'n\'ra', 'nas', 'aste', 'arii', 'riia', 'hara', 'ethil', 'driel', '\'lynn', '\'lyn', 'india', 'adyia', 'adya', 'aedya', 'indea', 'indae', 'ania', 'aenia', 'eana', 'aenea', 'iyell', 'yell', 'ythis', 'ethis', 'rieth', 'drieth', 'draeth', 'dreath', 'raeth', 'reath', 'ynna', 'yna', 'enna', 'aenna', 'eanna', 'eana', 'aena', 'anna', 'rai', 'rea', 'rae', 'raei', 'anai', 'anea', 'lea', 'lae', 'laei', 'laeth', 'leath', 'yssa', 'lyssa', 'lyssae', 'lysae', 'ysae', 'lysea', 'ysea', 'asia', 'aesia', 'easia', 'asea', 'asae', 'aesa', 'easa', 'alas', 'aelas', 'alaes', 'aleas', 'aeleas', 'ealaes', 'aelleas', 'eallaes', 'allas', 'aellas', 'allaes', 'alleas', 'ercia', 'aercia', 'earcia', 'enia', 'aenia', 'enya', 'aenya', 'lia', 'alia', 'alaea', 'alias', 'alaeas', 'ysa', 'yssea', 'ysea', 'yssae', 'ysae', 'nya', 'nyae', 'nysa', 'nysea', 'nysae', 'nyssa', 'nyssae', 'nyssea', 'yssia', 'aeith', 'eaith', 'ileath', 'ilaeth', 'aleath', 'illeath', 'illaeth', 'yura', 'yurea', 'yurae', 'wen', 'leae', 'laea'];
   const nm7 = ['Amber', 'Autumn', 'Bear', 'Black', 'Blade', 'Blue', 'Dark', 'Dawn', 'Dew', 'Dusk', 'Even', 'Far', 'Feather', 'Fog', 'Forest', 'Green', 'Leaf', 'Light', 'Luna', 'Mist', 'Moon', 'Moss', 'Night', 'Ocean', 'Rain', 'Rapid', 'Raven', 'Sage', 'Sea', 'Shade', 'Shadow', 'Shield', 'Silent', 'Silver', 'Sky', 'Spirit', 'Stag', 'Star', 'Still', 'Stone', 'Storm', 'Strong', 'Summer', 'Sun', 'Swift', 'Thunder', 'Tree', 'True', 'Void', 'Wild', 'Wind', 'Winter', 'Wood'];
   const nm8 = ['arrow', 'blade', 'bloom', 'blower', 'bough', 'bow', 'branch', 'breath', 'breeze', 'caller', 'cloud', 'clouds', 'crest', 'dancer', 'dew', 'eye', 'feather', 'fire', 'flower', 'forest', 'gazer', 'grove', 'heart', 'helm', 'lance', 'leaf', 'light', 'mane', 'might', 'moon', 'oak', 'rage', 'runner', 'scribe', 'seeker', 'shade', 'shadow', 'shot', 'singer', 'sky', 'snow', 'song', 'spear', 'spirit', 'spyre', 'stalker', 'star', 'strike', 'striker', 'swift', 'sword', 'thorn', 'tree', 'walker', 'watcher', 'water', 'weaver', 'whisper', 'wind', 'wing'];
-  const i = Math.floor(Math.random() * 10);
-  {
+  const i = Math.floor(Math.random() * 10); {
     rnd7 = Math.floor(Math.random() * nm7.length);
     rnd8 = Math.floor(Math.random() * nm8.length);
     if (type === 1) {

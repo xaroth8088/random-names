@@ -1,4 +1,7 @@
 export default function ghosts() {
+  let names;
+  let rnd;
+  let rnd2;
   let rnd;
   let rnd2;
   let names;
@@ -10,8 +13,7 @@ export default function ghosts() {
   const names5 = ['Baron', 'Boy', 'Father', 'Gentleman', 'Grandfather', 'Groom', 'Groomsman', 'Incubus', 'Mailman', 'Man', 'Angel', 'Apparition', 'Appearance', 'Artist', 'Barber', 'Barkeeper', 'Blacksmith', 'Butcher', 'Camper', 'Child', 'Cleaner', 'Clown', 'Cook', 'Curator', 'Dancer', 'Defender', 'Demon', 'Devil', 'Doctor', 'Eyes', 'Force', 'Gatekeeper', 'Ghost', 'Guard', 'Guardian', 'Guest', 'Hunter', 'Jester', 'Judge', 'Keeper', 'Kid', 'Knight', 'Lover', 'Maniac', 'Mime', 'Monk', 'Musician', 'Necromancer', 'Nightmare', 'Nightwatch', 'Nurse', 'Orphan', 'Patrol', 'Phantom', 'Prisoner', 'Protector', 'Reaper', 'Revenant', 'Rider', 'Screamer', 'Sentinel', 'Sentry', 'Servant', 'Shade', 'Shadow', 'Shepherd', 'Shopkeeper', 'Soldier', 'Soul', 'Specter', 'Squire', 'Stalker', 'Student', 'Teacher', 'Teenager', 'Templar', 'Toddler', 'Torturer', 'Vision', 'Visitor', 'Warden', 'Widow', 'Wizard', 'Woman', 'Wraith', 'Writer'];
   const names6 = ['Banshee', 'Baroness', 'Bride', 'Bridesmaid', 'Girl', 'Grandmother', 'Lady', 'Maiden', 'Mother', 'Succubus', 'Temptress', 'Trickster', 'Witch', 'Angel', 'Apparition', 'Appearance', 'Artist', 'Barber', 'Barkeeper', 'Blacksmith', 'Butcher', 'Camper', 'Child', 'Cleaner', 'Clown', 'Cook', 'Curator', 'Dancer', 'Defender', 'Demon', 'Devil', 'Doctor', 'Eyes', 'Force', 'Gatekeeper', 'Ghost', 'Guard', 'Guardian', 'Guest', 'Hunter', 'Jester', 'Judge', 'Keeper', 'Kid', 'Knight', 'Lover', 'Maniac', 'Mime', 'Monk', 'Musician', 'Necromancer', 'Nightmare', 'Nightwatch', 'Nurse', 'Orphan', 'Patrol', 'Phantom', 'Prisoner', 'Protector', 'Reaper', 'Revenant', 'Rider', 'Screamer', 'Sentinel', 'Sentry', 'Servant', 'Shade', 'Shadow', 'Shepherd', 'Shopkeeper', 'Soldier', 'Soul', 'Specter', 'Squire', 'Stalker', 'Student', 'Teacher', 'Teenager', 'Templar', 'Toddler', 'Torturer', 'Vision', 'Visitor', 'Warden', 'Widow', 'Wizard', 'Woman', 'Wraith', 'Writer'];
   const names7 = ['Angel', 'Apparition', 'Appearance', 'Artist', 'Barber', 'Barkeeper', 'Blacksmith', 'Butcher', 'Camper', 'Child', 'Cleaner', 'Clown', 'Cook', 'Curator', 'Dancer', 'Defender', 'Demon', 'Devil', 'Doctor', 'Eyes', 'Force', 'Gatekeeper', 'Ghost', 'Guard', 'Guardian', 'Guest', 'Hunter', 'Jester', 'Judge', 'Keeper', 'Kid', 'Knight', 'Lover', 'Maniac', 'Mime', 'Monk', 'Musician', 'Necromancer', 'Nightmare', 'Nightwatch', 'Nurse', 'Orphan', 'Patrol', 'Phantom', 'Prisoner', 'Protector', 'Reaper', 'Revenant', 'Rider', 'Screamer', 'Sentinel', 'Sentry', 'Servant', 'Shade', 'Shadow', 'Shepherd', 'Shopkeeper', 'Soldier', 'Soul', 'Specter', 'Squire', 'Stalker', 'Student', 'Teacher', 'Teenager', 'Templar', 'Toddler', 'Torturer', 'Vision', 'Visitor', 'Warden', 'Widow', 'Wizard', 'Woman', 'Wraith', 'Writer'];
-  const i = Math.floor(Math.random() * 10);
-  {
+  const i = Math.floor(Math.random() * 10); {
     if (i < 5) {
       if (type === 1) {
         rnd = Math.floor(Math.random() * names2.length);

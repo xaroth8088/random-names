@@ -1,4 +1,9 @@
 export default function tieflings() {
+  let lastName;
+  let names;
+  let rnd;
+  let rnd2;
+  let rnd3;
   let rnd;
   let rnd2;
   let rnd3;
@@ -29,8 +34,7 @@ export default function tieflings() {
   const nm10 = ['a', 'e', 'i', 'o', 'a', 'e', 'i', 'o', 'a', 'e', 'i', 'o', 'a', 'e', 'i', 'o', 'a', 'e', 'i', 'o', 'a', 'e', 'i', 'o', 'a', 'a', 'e', 'e', 'i', 'aa', 'ae', 'ia', 'ea'];
   const nm11 = ['b', 'br', 'c', 'd', 'dr', 'fr', 'g', 'gg', 'gr', 'gv', 'k', 'l', 'll', 'lr', 'lv', 'ldr', 'm', 'mm', 'mr', 'mdr', 'n', 'nd', 'ng', 'ndr', 'nst', 'nv', 'nr', 'r', 'rh', 'rv', 'rr', 'rz', 'rd', 'rdr', 's', 'ss', 'sr', 'sh', 'st', 't', 'tr', 'v', 'vr', 'b', 'c', 'd', 'g', 'k', 'l', 'm', 'n', 'r', 's', 't', 'v'];
   const nm12 = ['', '', '', '', '', '', '', '', '', '', 'd', 'ld', 'lt', 'm', 'n', 'nd', 'r', 'rd', 's', 't', 'th'];
-  const i = Math.floor(Math.random() * 10);
-  {
+  const i = Math.floor(Math.random() * 10); {
     rnd8 = Math.floor(Math.random() * nm9.length);
     rnd9 = Math.floor(Math.random() * nm10.length);
     rnd10 = Math.floor(Math.random() * nm11.length);

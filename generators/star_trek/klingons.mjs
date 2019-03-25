@@ -1,4 +1,8 @@
 export default function klingons() {
+  let names;
+  let rnd;
+  let rnd2;
+  let rnd3;
   let rnd;
   let rnd2;
   let rnd3;
@@ -31,8 +35,7 @@ export default function klingons() {
   const nm13 = ['', '', '', 'b', 'c', 'g\'g', 'd', 'd\'gh', 'dr', 'f', 'g\'', 'g', 'gr', 'h', 'j', 'k\'g', 'k\'t', 'k\'mp', 'k', 'kh', 'kl', 'kr', 'l', 'm', 'mn', 'mr', 'mv', 'n', 'ng', 'p', 'q', 'r', 'rr', 's', 'sh', 't', 'th', 'tr', 'v', 'vr', 'w', 'x', 'z'];
   const nm14 = ['c', 'ct', 'ck', 'ch', 'b', 'd', 'g', 'gg', 'ggr', 'hn', 'hnr', 'k', 'k\'M', 'll', 'lk', 'lv', 'lm', 'lt', 'mm', 'mmr', 'm', 'mp', 'mr', 'nn', 'nk', 'nl', 'nj', 'nz', 'ndl', 'ns', 'n', 'nt', 'r', 'rr', 'rs', 'rmd', 'rn', 'rp', 'rtr', 'rst', 'rt', 'rg', 'rm', 'rd', 'rsh', 'ss', 'str', 'sht', 'tzh', 'v', 'wr', 'x', 'yg', 'z', 'zh'];
   const nm15 = ['bh', 'c', 'ct', 'ck', 'cx', 'ch', 'd', 'dh', 'j', 'g', 'gh', 'h', 'k', 'l', 'lt', 'm', 'n', 'nn', 'ng', 'r', 'rc', 'rr', 'rgh', 'rk', 'rv', 'rn', 'rg', 'sh', 'sht', 's', 'ss', 't', 'th', 'v', 'x', 'z', 'zh'];
-  const i = Math.floor(Math.random() * 10);
-  {
+  const i = Math.floor(Math.random() * 10); {
     if (type === 1) {
       if (i < 4) {
         rnd = Math.floor(Math.random() * nm1.length);

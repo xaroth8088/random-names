@@ -1,4 +1,8 @@
 export default function sanShyuums() {
+  let names;
+  let rnd;
+  let rnd2;
+  let rnd3;
   let rnd;
   let rnd2;
   let rnd3;
@@ -16,8 +20,7 @@ export default function sanShyuums() {
   const nm6 = ['o', 'a', 'u', '', ''];
   const nm7 = ['Prophet', 'Minister', 'High Prophet'];
   const nm8 = ['Absolution', 'Analysis', 'Atonement', 'Attrition', 'Audacity', 'Aversion', 'Boldness', 'Bravery', 'Candor', 'Caution', 'Censure', 'Charity', 'Civility', 'Clemency', 'Commitment', 'Compassion', 'Confidence', 'Conscience', 'Conservancy', 'Constraint', 'Contrition', 'Control', 'Conviction', 'Courage', 'Courtesy', 'Creed', 'Decency', 'Defiance', 'Dignity', 'Disdain', 'Doubt', 'Duty', 'Elegance', 'Empathy', 'Endurance', 'Esteem', 'Etiology', 'Fairness', 'Favor', 'Fervor', 'Forbearance', 'Fortitude', 'Gallantry', 'Generosity', 'Goodwill', 'Grace', 'Honesty', 'Honor', 'Inhibition', 'Inquisition', 'Insolence', 'Integrity', 'Interrogation', 'Intrepidity', 'Investigation', 'Kindness', 'Legitimacy', 'Lenience', 'Mercy', 'Moderation', 'Nobility', 'Objection', 'Obligation', 'Patience', 'Penance', 'Penitence', 'Pity', 'Principles', 'Protection', 'Protest', 'Prowess', 'Qualm', 'Recognition', 'Regret', 'Reliance', 'Remorse', 'Repentance', 'Resilience', 'Resistance', 'Restraint', 'Restriction', 'Reverence', 'Salvation', 'Saving', 'Silence', 'Sincerity', 'Sorrow', 'Stewardship', 'Strength', 'Suffering', 'Supposition', 'Sympathy', 'Tenacity', 'Tolerance', 'Trust', 'Truth', 'Valiance', 'Veracity', 'Vigor', 'Virtue'];
-  const i = Math.floor(Math.random() * 10);
-  {
+  const i = Math.floor(Math.random() * 10); {
     if (i < 5) {
       rnd = Math.floor(Math.random() * nm1.length);
       rnd2 = Math.floor(Math.random() * nm2.length);

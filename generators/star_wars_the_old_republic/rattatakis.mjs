@@ -1,4 +1,6 @@
 export default function rattatakis() {
+  let names;
+  let rnd3;
   let rnd3;
   let rnd4;
   let rnd5;
@@ -15,8 +17,7 @@ export default function rattatakis() {
   const nm5 = ['c', 'ch', 'dj', 'g', 'gr', 'h', 'k', 'm', 'p', 'q', 'r', 's', 't', 'v', 'w', 'x', 'y', 'z', 'i', 'o', 'u', '', '', '', '', '', '', '', ''];
   const nm6 = ['a', 'e', 'i', 'o', 'u', 'ai', 'au', 'ei', 'ou', 'ay', 'ey', 'oy', '', '', '', '', '', '', '', '', '', '', '', ''];
   const nm7 = ['b', 'br', 'bj', 'c', 'cz', 'ch', 'd', 'dj', 'dz', 'g', 'h', 'j', 'k', 'kz', 'l', 'm', 'n', 'p', 'pr', 'pj', 'q', 'r', 's', 'sj', 'st', 'sr', 't', 'ts', 'tr', 'v', 'w', 'wr', 'x', 'xj', 'xr', 'y', 'yj', 'yr', 'ys', 'yz', 'z', 'zr'];
-  const nm8 = ['i', 'a', 'o', 'e', 'u', 'ie', 'ai', 'ey', 'ay'];
-  {
+  const nm8 = ['i', 'a', 'o', 'e', 'u', 'ie', 'ai', 'ey', 'ay']; {
     rnd3 = Math.floor(Math.random() * nm3.length);
     rnd4 = Math.floor(Math.random() * nm4.length);
     rnd5 = Math.floor(Math.random() * nm5.length);

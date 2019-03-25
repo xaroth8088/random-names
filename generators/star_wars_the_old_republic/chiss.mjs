@@ -1,4 +1,8 @@
 export default function chiss() {
+  let names;
+  let rnd;
+  let rnd2;
+  let rnd3;
   let rnd;
   let rnd2;
   let rnd3;
@@ -29,8 +33,7 @@ export default function chiss() {
   const nm11 = ['th', 'tth', 'tt', 's', 's', 's', 'g', 'g', 'r', 'r', 'c', 'c', 'm', 'm', 'n', 'n', 'z', 'z', 'ss', 'sh', 'st', 'sd', 'g', 'gh', 'w', 'q', 'qh', 'r', 'rr', 'rs', 'rt', 'rd', 'rg', 'rk', 'rm', 'rn', 'c', 'rc', 'sk', 'z', 'zz', 'm', 'mm', 'n', 'ng'];
   const nm12 = ['i', 'a', 'o', 'e', 'u'];
   const nm13 = ['th', 'tth', 'tt', 's', 's', 's', 'g', 'g', 'r', 'r', 'c', 'c', 'm', 'm', 'n', 'n', 'z', 'z', 'ss', 'sh', 'st', 'sd', 'g', 'gh', 'w', 'q', 'qh', 'r', 'rr', 'rs', 'rt', 'rd', 'rg', 'rk', 'rm', 'rn', 'c', 'rc', 'sk', 'z', 'zz', 'm', 'mm', 'n', 'ng', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', ''];
-  const nm14 = ['i', 'a', 'o', 'e', 'u', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', ''];
-  {
+  const nm14 = ['i', 'a', 'o', 'e', 'u', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '']; {
     rnd = Math.floor(Math.random() * nm1.length);
     rnd2 = Math.floor(Math.random() * nm2.length);
     rnd3 = Math.floor(Math.random() * nm3.length);

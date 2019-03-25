@@ -1,4 +1,7 @@
 export default function brands() {
+  let names;
+  let rnd2;
+  let rnd3;
   let rnd1;
   let rnd2;
   let rnd3;
@@ -13,8 +16,7 @@ export default function brands() {
   const nm8 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'ee', 'eu', 'eo', 'ea', 'ei', 'aa', 'ai', 'au', 'ae', 'io', 'ia', 'iu', 'ie', 'oo', 'oa', 'ou', 'oe', 'oi', 'uu', 'ua', 'ue', 'ui', 'uo'];
   const nm10 = ['', '', '', '', '', 'a', 'e', 'i', 'o', 'u'];
   const nm11 = ['A', 'An', 'Ante', 'Anti', 'As', 'Auto', 'Bi', 'Bin', 'Car', 'Cha', 'Char', 'Com', 'Como', 'Con', 'Contra', 'De', 'Demi', 'Di', 'Dis', 'Du', 'En', 'Ex', 'Extra', 'Gall', 'Hemi', 'Hyper', 'Il', 'Im', 'In', 'Inter', 'Intra', 'Ir', 'Micro', 'Mono', 'Non', 'Omni', 'Out', 'Over', 'Par', 'Post', 'Pre', 'Pro', 'Quin', 'Res', 'Rese', 'Scar', 'Semi', 'Sha', 'Spin', 'Sta', 'Stra', 'Stri', 'Sub', 'Syn', 'Tech', 'Tran', 'Trans', 'Tri', 'Un', 'Uni'];
-  const i = Math.floor(Math.random() * 10);
-  {
+  const i = Math.floor(Math.random() * 10); {
     if (i < 2) {
       rnd1 = Math.floor(Math.random() * nm11.length);
       rnd2 = Math.floor(Math.random() * nm2.length);

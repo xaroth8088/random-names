@@ -1,4 +1,8 @@
 export default function dwarfs() {
+  let names;
+  let rnd;
+  let rnd2;
+  let rnd3;
   let rnd;
   let rnd2;
   let rnd3;
@@ -13,8 +17,7 @@ export default function dwarfs() {
   const nm5 = ['a', 'ai', 'e', 'i', 'o', 'oi', 'u'];
   const nm6 = ['b', 'd', 'f', 'g', 'k', 'l', 'm', 'n', 't'];
   const nm7 = ['a', 'e', 'i', 'o', 'u', '', '', '', ''];
-  const i = Math.floor(Math.random() * 10);
-  {
+  const i = Math.floor(Math.random() * 10); {
     if (i < 5) {
       rnd = Math.floor(Math.random() * nm1.length);
       rnd2 = Math.floor(Math.random() * nm2.length);

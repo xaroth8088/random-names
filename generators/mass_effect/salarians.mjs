@@ -1,4 +1,7 @@
 export default function salarians() {
+  let names;
+  let rnd2;
+  let rnd3;
   let rnd0;
   let rnd1;
   let rnd2;
@@ -21,8 +24,7 @@ export default function salarians() {
     var names7 = [''];
   } else {
     var names7 = ['a', 'e', 'o', 'i'];
-  }
-  {
+  } {
     rnd0 = Math.floor(Math.random() * names1.length);
     rnd1 = Math.floor(Math.random() * names2.length);
     rnd2 = Math.floor(Math.random() * names3.length);

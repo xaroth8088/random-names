@@ -1,4 +1,8 @@
 export default function hobgoblins() {
+  let names;
+  let rnd;
+  let rnd2;
+  let rnd3;
   let rnd;
   let rnd2;
   let rnd3;
@@ -16,8 +20,7 @@ export default function hobgoblins() {
   const nm5 = ['', '', '', '', 'b', 'c', 'd', 'f', 'h', 'k', 'm', 'n', 'ph', 'r', 's', 't', 'v', 'w', 'z'];
   const nm7 = ['cl', 'cn', 'cm', 'cd', 'f', 'ff', 'fn', 'fm', 'fl', 'kl', 'kr', 'kn', 'km', 'kd', 'kt', 'ks', 'l', 'lz', 'ln', 'lm', 'ld', 'lg', 'm', 'mz', 'ms', 'mr', 'md', 'mg', 'mk', 'n', 'ns', 'nd', 'nr', 'ng', 'ns', 'nk', 'r', 'rm', 'rg', 'rn', 'rd', 'rk', 's', 'sm', 'st', 'ss', 'sz', 'sm', 'sn', 'sd', 'sg', 'th', 'tr', 'tn', 'tz', 'ts', 'yd', 'yn', 'yg', 'yk', 'yr', 'yz'];
   const nm8 = ['', '', '', '', '', '', '', '', '', '', 'f', 'h', 'l', 'm', 'n', 's', 't'];
-  const i = Math.floor(Math.random() * 10);
-  {
+  const i = Math.floor(Math.random() * 10); {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm5.length);
       rnd2 = Math.floor(Math.random() * nm2.length);

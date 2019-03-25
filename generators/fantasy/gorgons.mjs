@@ -1,4 +1,8 @@
 export default function gorgons() {
+  let names;
+  let rnd;
+  let rnd2;
+  let rnd3;
   let rnd;
   let rnd2;
   let rnd3;
@@ -13,8 +17,7 @@ export default function gorgons() {
   const nm3 = ['d', 'l', 'm', 'n', 'r', 's', 'x', 'v', 'z', 'd', 'l', 'm', 'n', 'r', 's', 'x', 'v', 'z', 'd', 'l', 'm', 'n', 'r', 's', 'x', 'v', 'z', 'dn', 'dr', 'gg', 'gn', 'kt', 'lc', 'ld', 'mbr', 'nc', 'ndr', 'nt', 'nth', 'rd', 'rl', 'rr', 'sc', 'sd', 'sn', 'sp', 'st', 'str', 'th', 'tt'];
   const nm4 = ['a', 'e', 'o', 'a', 'e', 'o', 'a', 'e', 'o', 'ea', 'ia', 'y'];
   const nm5 = ['aemon', 'aenon', 'aeon', 'aestus', 'aeus', 'agos', 'aios', 'anes', 'anos', 'antos', 'aon', 'arus', 'as', 'ates', 'atos', 'aumas', 'eas', 'eidon', 'er', 'erion', 'erus', 'es', 'etheus', 'etus', 'eus', 'ias', 'ibos', 'ion', 'ios', 'is', 'iton', 'ius', 'o', 'oeis', 'oeus', 'olus', 'on', 'onos', 'or', 'os', 'oteus', 'otos', 'otus', 'ous', 'us', 'yrus', 'ys', 'ytion'];
-  const i = Math.floor(Math.random() * 10);
-  {
+  const i = Math.floor(Math.random() * 10); {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm1.length);
       rnd2 = Math.floor(Math.random() * nm2.length);

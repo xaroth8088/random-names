@@ -1,4 +1,8 @@
 export default function continents() {
+  let names;
+  let rnd;
+  let rnd2;
+  let rnd3;
   let rnd;
   let rnd2;
   let rnd3;
@@ -13,8 +17,7 @@ export default function continents() {
   const names4 = ['b', 'c', 'd', 'f', 'g', 'h', 'k', 'l', 'm', 'n', 'p', 'q', 'r', 's', 't', 'v', 'w', 'x', 'y', 'z', 'br', 'cr', 'dr', 'gr', 'kr', 'pr', 'tr', 'str', 'ph', 'sh'];
   const names5 = ['aes', 'ai', 'all', 'an', 'and', 'ane', 'ari', 'as', 'ath', 'ax', 'ea', 'ela', 'en', 'end', 'eon', 'era', 'eron', 'es', 'esh', 'eth', 'ia', 'ias', 'ica', 'in', 'ios', 'ira', 'is', 'ish', 'ith', 'ix', 'oa', 'on', 'one', 'or', 'ora', 'oris', 'os', 'oth', 'ox', 'oya', 'uan', 'uin', 'ul', 'un', 'une', 'ura', 'us', 'ush', 'uth', 'ux'];
   const names6 = ['a', 'e', 'i', 'o', 'u'];
-  const i = Math.floor(Math.random() * 10);
-  {
+  const i = Math.floor(Math.random() * 10); {
     if (i < 3) {
       rnd = Math.floor(Math.random() * names1.length);
       rnd2 = Math.floor(Math.random() * names6.length);

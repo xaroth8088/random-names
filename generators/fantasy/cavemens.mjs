@@ -1,4 +1,8 @@
 export default function cavemens() {
+  let names;
+  let rnd;
+  let rnd2;
+  let rnd3;
   let rnd;
   let rnd2;
   let rnd3;
@@ -19,8 +23,7 @@ export default function cavemens() {
   const nm10 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'a', 'a', 'o', 'o', 'o', 'ou', 'oo', 'aa', 'oe', 'ua', 'uu', 'ia', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'a', 'e', 'o', 'aa', 'ae', 'ai', 'ee', 'oe', 'ua'];
   const nm11 = ['b', 'b', 'd', 'd', 'g', 'g', 'k', 'k', 'l', 'l', 'n', 'n', 'r', 'r', 's', 's', 't', 't', 'z', 'z', 'b', 'br', 'bh', 'bn', 'bb', 'ch', 'cn', 'cl', 'cr', 'd', 'dd', 'dn', 'dl', 'fr', 'fn', 'fl', 'g', 'gg', 'gl', 'gn', 'gr', 'gy', 'k', 'kk', 'ky', 'kl', 'kn', 'km', 'l', 'll', 'lg', 'ly', 'ln', 'lm', 'lv', 'mg', 'ml', 'n', 'nn', 'ng', 'nk', 'nd', 'nz', 'r', 'rr', 'rb', 'rl', 'rt', 'rth', 's', 'sz', 'sr', 'st', 'sh', 'ss', 't', 'ty', 'yl', 'yr', 'yn', 'yg', 'yr', 'vr', 'vn', 'vl', 'vk', 'z', 'zh', 'zn', 'cr', 'cc', 'ch', 'd', 'dd', 'dr', 'dh', 'dv', 'g', 'gg', 'gr', 'gn', 'gv', 'gz', 'k', 'kn', 'kz', 'kv', 'kk', 'l', 'll', 'lr', 'lk', 'mg', 'mk', 'n', 'ng', 'nk', 'nd', 'nr', 'rg', 'rd', 'rb', 'rl', 'rr', 'rz', 'rv', 'rk', 'sk', 'sg', 'sv', 't', 'tk', 'tz', 'tt', 'v', 'vv', 'vr', 'vk', 'vd', 'z', 'zz', 'zk', 'zd', 'zc', 'zg'];
   const nm12 = ['', '', 'b', 'c', 'd', 'g', 'h', 'k', 'kk', 'lk', 'll', 'n', 'r', 't', '', '', '', '', 'h', 'l', 'n', 's'];
-  const i = Math.floor(Math.random() * 10);
-  {
+  const i = Math.floor(Math.random() * 10); {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm5.length);
       rnd2 = Math.floor(Math.random() * nm6.length);

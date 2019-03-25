@@ -1,4 +1,9 @@
 export default function boots() {
+  let names;
+  let names4;
+  let names5;
+  let rnd2;
+  let rnd3;
   let rnd0;
   let rnd1;
   let rnd2;
@@ -16,8 +21,7 @@ export default function boots() {
     names4 = ['Cloth', 'Heavy Hide', 'Heavy Leather', 'Hide', 'Leather', 'Linen', 'Padded', 'Quilted', 'Rugged Leather', 'Scaled', 'Silk', 'Wool', 'Embroided'];
     names5 = ['Sprinters', 'Sandals', 'Boots', 'Heels', 'Treads', 'Feet', 'Footguards', 'Footpads', 'Walkers', 'Footsteps'];
   }
-  const i = Math.floor(Math.random() * 10);
-  {
+  const i = Math.floor(Math.random() * 10); {
     if (i < 2) {
       rnd0 = Math.floor(Math.random() * names1.length);
       rnd1 = Math.floor(Math.random() * names2.length);

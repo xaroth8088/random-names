@@ -1,4 +1,6 @@
 export default function indonesians() {
+  let names;
+  let rnd2;
   let rnd0;
   let rnd1;
   let
@@ -27,8 +29,7 @@ export default function indonesians() {
     btNm = ['Abiathar', 'Abihu', 'Abijah', 'Abner', 'Abraham', 'Abram', 'Absolom', 'Adam', 'Adonijah', 'Alexander', 'Amaziah', 'Amos', 'Ananias', 'Andrew', 'Apollos', 'Aquila', 'Asa', 'Asaph', 'Asher', 'Azariah', 'Barak', 'Barnabas', 'Bartholomew', 'Baruch', 'Benaiah', 'Benjamin', 'Bildad', 'Boaz', 'Cain', 'Caleb', 'Christian', 'Claudius', 'Cornelius', 'Dan', 'Daniel', 'David', 'Demetrius', 'Elah', 'Eleazar', 'Eli', 'Elihu', 'Elijah', 'Eliphaz', 'Elisha', 'Elkanah', 'Elnathan', 'Emmanuel', 'Enoch', 'Ephraim', 'Esau', 'Ethan', 'Ezekiel', 'Ezra', 'Gabriel', 'Gera', 'Gershon', 'Gideon', 'Habakkuk', 'Haggai', 'Hosea', 'Hur', 'Hushai', 'Immanuel', 'Ira', 'Isaac', 'Isaiah', 'Ishmael', 'Issachar', 'Ithamar', 'Jacob', 'Jair', 'Jairus', 'James', 'Japheth', 'Jason', 'Javan', 'Jeremiah', 'Jeremy', 'Jesse', 'Jethro', 'Joab', 'Joash', 'Job', 'Joel', 'John', 'Jonah', 'Jonathan', 'Jordan', 'Joseph', 'Joses', 'Joshua', 'Josiah', 'Josias', 'Jotham', 'Judas', 'Jude', 'Justus', 'Laban', 'Lazarus', 'Lemuel', 'Levi', 'Lot', 'Lucas', 'Luke', 'Malachi', 'Manasseh', 'Marcus', 'Mark', 'Matthew', 'Matthias', 'Melchizedek', 'Micah', 'Micaiah', 'Michael', 'Mishael', 'Mordecai', 'Moses', 'Nahum', 'Naphtali', 'Nathan', 'Nathanael', 'Nehemiah', 'Nekoda', 'Nicodemus', 'Noah', 'Obadiah', 'Omar', 'Onesimus', 'Othniel', 'Paul', 'Peter', 'Philemon', 'Philip', 'Phineas', 'Phinehas', 'Reuben', 'Rufus', 'Samson', 'Samuel', 'Saul', 'Seth', 'Shadrach', 'Shem', 'Silas', 'Simeon', 'Simon', 'Solomon', 'Stephen', 'Theophilus', 'Thomas', 'Timothy', 'Titus', 'Tobiah', 'Tobias', 'Uriah', 'Uzziah', 'Victor', 'Zacchaeus', 'Zachariah', 'Zebadiah', 'Zebedee', 'Zebulun', 'Zechariah', 'Zedekiah', 'Zephaniah'];
     jvNm = ['Adi', 'Bambang', 'Budi', 'Budiono', 'Damarwulan', 'Darma', 'Dian', 'Dwi', 'Eko', 'Guntur', 'Kuwat', 'Purnama', 'Purwodarminto', 'Raharjo', 'Slamet', 'Sriwidadi', 'Sudiroprojo', 'Suharto', 'Sukarno', 'Sukarto', 'Suratman', 'Suripto', 'Susilo', 'Sutikno', 'Tirto'];
   }
-  const i = Math.floor(Math.random() * 10);
-  {
+  const i = Math.floor(Math.random() * 10); {
     if (i < 2) {
       rnd0 = Math.floor(Math.random() * inNm.length);
       rnd1 = Math.floor(Math.random() * inNm.length);

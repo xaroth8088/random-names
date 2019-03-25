@@ -1,4 +1,7 @@
 export default function freeFolks() {
+  let names;
+  let rnd;
+  let rnd2;
   let rnd;
   let rnd2;
   let names;
@@ -11,8 +14,7 @@ export default function freeFolks() {
   const names6 = ['ald', 'alder', 'amun', 'amyr', 'and', 'arr', 'arun', 'dar', 'del', 'egg', 'eigr', 'ell', 'grim', 'igar', 'ik', 'kar', 'laf', 'leck', 'mir', 'modr', 'mund', 'myr', 'nor', 'odarr', 'odr', 'old', 'olf', 'oll', 'or', 'orn', 'rad', 'ran', 'rand', 'rik', 'ryn', 'ulas', 'und', 'vir', 'wynd', 'yger'];
   const names7 = ['Ara', 'Bae', 'Bia', 'Bja', 'Bora', 'Bra', 'Dara', 'Do', 'Dra', 'Dry', 'Go', 'Gra', 'Gre', 'Gro', 'Hara', 'Hro', 'Jara', 'Jora', 'Olmo', 'Ore', 'Orno', 'Rau', 'Ska', 'Sra', 'Stei', 'Sty', 'Sve', 'Tho', 'Tore', 'Vara'];
   const names8 = ['dill', 'dir', 'dol', 'gard', 'geir', 'gir', 'gni', 'gr', 'grim', 'gvar', 'kmar', 'kul', 'laf', 'lner', 'mir', 'mun', 'mund', 'myr', 'narr', 'nir', 'rald', 'rand', 'regg', 'rigg', 'rik', 'rne', 'rnir', 'rolf', 'rrand', 'val'];
-  const i = Math.floor(Math.random() * 10);
-  {
+  const i = Math.floor(Math.random() * 10); {
     if (i < 5) {
       if (type === 1) {
         rnd = Math.floor(Math.random() * names1.length);

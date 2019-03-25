@@ -1,4 +1,9 @@
 export default function dwarfs() {
+  let nameLast;
+  let names;
+  let rnd;
+  let rnd2;
+  let rnd3;
   let rnd;
   let rnd2;
   let rnd3;
@@ -27,8 +32,7 @@ export default function dwarfs() {
   const nm12 = ['b', 'c', 'ck', 'd', 'dd', 'g', 'h', 'k', 'l', 'll', 'ls', 'ld', 'm', 'n', 'mn', 'r', 'rd', 'rsk', 'rg', 's', 't', 'th'];
   const nm13 = ['Amber', 'Axe', 'Battle', 'Black', 'Blaze', 'Boulder', 'Bright', 'Bronze', 'Cinder', 'Cloud', 'Cold', 'Common', 'Crag', 'Dark', 'Deep', 'Dew', 'Earth', 'Ember', 'Fair', 'Fire', 'Fist', 'Flame', 'Flat', 'Flint', 'Free', 'Full', 'Fuse', 'Gold', 'Grand', 'Great', 'Hammer', 'Hard', 'Heavy', 'High', 'Humble', 'Iron', 'Keen', 'Lone', 'Low', 'Molten', 'Noble', 'Plain', 'Pride', 'Proud', 'Pyre', 'Rock', 'Rumble', 'Shield', 'Silent', 'Simple', 'Single', 'Soft', 'Solid', 'Steel', 'Stern', 'Stone', 'Storm', 'Stout', 'Strong', 'Terra', 'Thunder', 'Titan', 'True', 'War', 'Wild', 'Winter', 'Wise'];
   const nm14 = ['arm', 'bash', 'beam', 'beard', 'belly', 'bend', 'blaze', 'bluff', 'bough', 'brace', 'brand', 'breath', 'brew', 'brow', 'crest', 'crusher', 'dew', 'fall', 'fell', 'flare', 'flow', 'force', 'forge', 'fury', 'gaze', 'gem', 'gleam', 'glide', 'glow', 'grip', 'guard', 'gut', 'hair', 'hand', 'heart', 'helm', 'hide', 'horn', 'ingot', 'mane', 'mantle', 'maul', 'might', 'more', 'pelt', 'punch', 'ridge', 'roar', 'scar', 'shade', 'shadow', 'shard', 'shot', 'shout', 'sky', 'snow', 'spark', 'steam', 'strength', 'stride', 'strike', 'surge', 'sword', 'thorn', 'track', 'ward'];
-  const i = Math.floor(Math.random() * 10);
-  {
+  const i = Math.floor(Math.random() * 10); {
     rnd7 = Math.floor(Math.random() * nm9.length);
     rnd8 = Math.floor(Math.random() * nm10.length);
     rnd10 = Math.floor(Math.random() * nm12.length);

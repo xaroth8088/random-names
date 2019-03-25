@@ -1,4 +1,8 @@
 export default function dwarfs() {
+  let names;
+  let rnd;
+  let rnd2;
+  let rnd3;
   let rnd;
   let rnd2;
   let rnd3;
@@ -17,8 +21,7 @@ export default function dwarfs() {
   const nm6 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'û', 'í', 'á', 'ûi', 'io', 'îo'];
   const nm7 = ['d', 'df', 'dr', 'fn', 'fl', 'fr', 'gn', 'gm', 'gh', 'l', 'ln', 'lm', 'lr', 'ld', 'll', 'm', 'mr', 'mn', 'mh', 'md', 'mm', 'nd', 'nr', 'nh', 'nn', 'n', 'ngl', 'nh', 'r', 'rd', 'rdr', 'rn', 'rh', 's', 'ss', 'th', 'v', 'w'];
   const nm8 = ['', '', '', '', '', 'n', 'nn', 's'];
-  const i = Math.floor(Math.random() * 10);
-  {
+  const i = Math.floor(Math.random() * 10); {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm5.length);
       rnd2 = Math.floor(Math.random() * nm6.length);

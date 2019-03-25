@@ -1,4 +1,8 @@
 export default function raxacoricofallapatorians() {
+  let names;
+  let rnd;
+  let rnd2;
+  let rnd3;
   let rnd;
   let rnd2;
   let rnd3;
@@ -44,8 +48,7 @@ export default function raxacoricofallapatorians() {
   const nm16 = ['B', 'Bl', 'C', 'Ch', 'F', 'Fl', 'Gl', 'G', 'H', 'K', 'L', 'M', 'N', 'P', 'R', 'Sl', 'S'];
   const nm17 = ['ck', 'dr', 'ff', 'g', 'gr', 'kk', 'l', 'll', 'm', 'n', 'pp', 'rl', 'st', 'str', 'tt', 'th', 'v', 'z'];
   const nm18 = ['', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', 'ar', 'er', 'et', 'ez', 'at', 'az', 'oz', 'el', 'al', 'es', 'as'];
-  const nm19 = ['een', 'ene'];
-  {
+  const nm19 = ['een', 'ene']; {
     rnd = Math.floor(Math.random() * nm1.length);
     rnd2 = Math.floor(Math.random() * nm2.length);
     rnd3 = Math.floor(Math.random() * nm3.length);

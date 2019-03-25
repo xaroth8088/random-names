@@ -1,4 +1,11 @@
 export default function biths() {
+  let namelast;
+  let names;
+  let rnd;
+  let rnd2;
+  let rnd2b;
+  let rnd3;
+  let rnd3b;
   let rnd;
   let rnd2;
   let rnd3;
@@ -26,8 +33,7 @@ export default function biths() {
   const nm10 = ['b', 'd', 'dh', 'g', 'gr', 'h', 'l', 'lr', 'lm', 'm', 'mn', 'md', 'mm', 'n', 'nn', 'nr', 'nd', 'nt', 'r', 'rt', 'rl', 'rd', 's', 'sh', 'th', 'v', 'z'];
   const nm11 = ['', '', '', '', 'l', 'm', 'n', 'r', 'rn', 's', 'ss'];
   const nm12 = ['', '', '', '', '', 'a', 'e', 'i', 'o', 'u'];
-  const i = Math.floor(Math.random() * 10);
-  {
+  const i = Math.floor(Math.random() * 10); {
     rnd6 = Math.floor(Math.random() * nm8.length);
     rnd7 = Math.floor(Math.random() * nm9.length);
     rnd10 = Math.floor(Math.random() * nm11.length);

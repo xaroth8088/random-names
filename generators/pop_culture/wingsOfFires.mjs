@@ -1,4 +1,7 @@
 export default function wingsOfFires() {
+  let names;
+  let rnd;
+  let rnd2;
   let rnd;
   let rnd2;
   let names;
@@ -10,8 +13,7 @@ export default function wingsOfFires() {
   const nm6 = ['Arenose', 'Arenulous', 'Atacama', 'Bulwark', 'Bunker', 'Burrow', 'Cabana', 'Caftan', 'Caracal', 'Cerastes', 'Chilopsis', 'Compo', 'Coville', 'Creosote', 'Dene', 'Ditch', 'Djanet', 'Draggle', 'Drifter', 'Dust', 'Eremic', 'Firma', 'Gerbil', 'Gila', 'Gobi', 'Gopher', 'Gravel', 'Grind', 'Grit', 'Gypsum', 'Hediondilla', 'Hemen', 'Hornel', 'Iguana', 'Jerboa', 'Kalahari', 'Larrea', 'Launce', 'Lichanura', 'Lido', 'Maravilla', 'Maroon', 'Marram', 'Mohave', 'Mojava', 'Mole', 'Moloch', 'Namib', 'Negev', 'Nubian', 'Patch', 'Pebble', 'Plage', 'Prime', 'Psammoma', 'Sahara', 'Shore', 'Simoom', 'Sinai', 'Sirocco', 'Soil', 'Strond', 'Tan', 'Tannest', 'Terra', 'Terrain', 'Tombolo', 'Xerophilous'];
   const nm7 = ['Abyss', 'Actinia', 'Actinian', 'Adriatic', 'Aegean', 'Agonus', 'Archipelago', 'Ascidian', 'Auk', 'Baltic', 'Bass', 'Bathypelagic', 'Batture', 'Bay', 'Beaufort', 'Benthos', 'Billow', 'Bismarck', 'Bream', 'Brine', 'Bromine', 'Bryozoan', 'Buccaneer', 'Caretta', 'Caribbean', 'Clangula', 'Coast', 'Conger', 'Corsair', 'Cove', 'Davy', 'Dive', 'Echinoidea', 'Echinus', 'Estuary', 'Expanse', 'Firth', 'Fugu', 'Fulmar', 'Grouper', 'Gulf', 'Holothurian', 'Hydro', 'Hydrophid', 'Inlet', 'Leviathan', 'Main', 'Manatee', 'Marine', 'Maritime', 'Marmara', 'Marmora', 'Mew', 'Naumachy', 'Nautical', 'Nereid', 'Nereus', 'Ocean', 'Pelagic', 'Peristedion', 'Petrel', 'Puffin', 'Recess', 'River', 'Rosmarine', 'Samphire', 'Scoter', 'Spindrift', 'Squid', 'Squill', 'Starfish', 'Submarine', 'Thatch', 'Thetis', 'Trepang', 'Triton', 'Ultramarine', 'Ulva', 'Urchin'];
   const nm8 = ['Above', 'Aestival', 'Aether', 'Air', 'Amber', 'Andromeda', 'Anu', 'Aquila', 'Ara', 'Aries', 'Atrium', 'Aurora', 'Azure', 'Azured', 'Borealis', 'Canicula', 'Canopus', 'Canopy', 'Cassiopeia', 'Celeste', 'Celestial', 'Cepheus', 'Cerulean', 'Cerulific', 'Cloud', 'Comet', 'Constellation', 'Cyaneous', 'Cyanite', 'Draco', 'Dyaus', 'Either', 'Empyreal', 'Empyrean', 'Ensky', 'Expanse', 'Gemini', 'Heaven', 'Hemisphere', 'Hypaethral', 'Iceblink', 'Ionosphere', 'Lepus', 'Lift', 'Lyra', 'Meridian', 'Meteor', 'Nebula', 'Nimbus', 'Orion', 'Pitch', 'Rainbow', 'Sapphire', 'Serein', 'Sirius', 'Skyey', 'Skyward', 'Sphere', 'Steward', 'Stratus', 'Supernal', 'Taurus', 'Toss', 'Twilight', 'Vault', 'Vesper', 'Violet', 'Welkin', 'Yonder', 'Zenith', 'Zodiac'];
-  i = Math.floor(Math.random() * 14);
-  {
+  const i = Math.floor(Math.random() * 14); {
     if (i < 2) {
       rnd = Math.floor(Math.random() * nm1.length);
       names = nm1[rnd];

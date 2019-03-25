@@ -1,4 +1,9 @@
 export default function ogres() {
+  let names;
+  let rnd;
+  let rnd2;
+  let rnd3;
+  let lName;
   let rnd;
   let rnd2;
   let rnd3;
@@ -12,8 +17,7 @@ export default function ogres() {
   const nm4 = ['c', 'd', 'dd', 'g', 'gg', 'k', 'kk', 's'];
   const nm5 = ['barb', 'beast', 'bitter', 'black', 'blood', 'blunt', 'bone', 'boulder', 'brick', 'bristle', 'bronze', 'brown', 'cask', 'chain', 'chest', 'coal', 'cold', 'dark', 'dew', 'dim', 'dirt', 'dust', 'earth', 'ember', 'fern', 'fire', 'flame', 'flint', 'frost', 'froth', 'gold', 'gore', 'granite', 'gravel', 'green', 'gut', 'guts', 'hill', 'horn', 'horse', 'iron', 'keg', 'krag', 'lone', 'long', 'man', 'metal', 'molten', 'mud', 'oat', 'orb', 'ore', 'pebble', 'rage', 'rain', 'rock', 'simple', 'slate', 'snow', 'stone', 'stout', 'strong', 'tusk', 'wild'];
   const nm6 = ['back', 'bane', 'bash', 'basher', 'beard', 'belly', 'belt', 'bender', 'bite', 'biter', 'bone', 'brace', 'branch', 'breaker', 'breath', 'bringer', 'brow', 'buckle', 'buster', 'chaser', 'chew', 'chewer', 'cleaver', 'crush', 'crusher', 'cut', 'cutter', 'dig', 'digger', 'eater', 'eye', 'eyes', 'feet', 'fist', 'foot', 'force', 'gaze', 'gazer', 'grip', 'hammer', 'hand', 'head', 'hunter', 'mark', 'maul', 'maw', 'might', 'munch', 'muncher', 'pelt', 'punch', 'ripper', 'seeker', 'shoulder', 'slayer', 'snarl', 'spine', 'splinter', 'splitter', 'strength', 'stride', 'strider', 'striker', 'teeth', 'tooth', 'watcher'];
-  const i = Math.floor(Math.random() * 10);
-  {
+  const i = Math.floor(Math.random() * 10); {
     rnd = Math.floor(Math.random() * nm1.length);
     rnd2 = Math.floor(Math.random() * nm2.length);
     rnd5 = Math.floor(Math.random() * nm4.length);

@@ -1,4 +1,5 @@
 export default function eastAsianTowns() {
+  let names;
   let rnd0;
   let
     rnd1;
@@ -11,8 +12,7 @@ export default function eastAsianTowns() {
   const names6 = ['bayan', 'bulag', 'chivlin', 'dene', 'ga', 'gaa', 'gai', 'galan', 'galant', 'galjuut', 'gana', 'ganuur', 'gas', 'gat', 'ger', 'gol', 'gon', 'gor', 'horoot', 'jinst', 'kh', 'khaan', 'khan', 'khangai', 'khet', 'khir', 'khit', 'khlant', 'khon', 'khorin', 'lan', 'lig', 'lin', 'liun', 'luut', 'mandal', 'mani', 'nuur', 'raat', 'ran', 'ryngol', 'sagaan', 'sai', 'sengel', 'serleg', 'shaat', 'shir', 'sogt', 'tai', 'teeg', 'tont', 'tooroi', 'tsogt', 'turuun', 'vi', 'yant'];
   const names7 = ['An', 'Bor', 'Cheo', 'Chun', 'Chung', 'Cong', 'Dang', 'Dong', 'Gang', 'Gim', 'Gwa', 'Gwang', 'Gyeong', 'Gyer', 'Hae', 'Ham', 'Hoer', 'Hui', 'Hye', 'Ik', 'Je', 'Jeon', 'Jin', 'Kae', 'Kang', 'Kim', 'Ku', 'Man', 'Mung', 'Na', 'Nam', 'Non', 'Po', 'Pyong', 'Ra', 'Sam', 'Sari', 'Seo', 'Sin', 'Sinui', 'Sok', 'Sun', 'Tae', 'Tan', 'Tok', 'Ui', 'Won', 'Yang', 'Yeo'];
   const names8 = ['baek', 'chaek', 'cheok', 'cheon', 'cho', 'chon', 'dong', 'geup', 'gye', 'hae', 'hung', 'je', 'jin', 'ju', 'nan', 'neung', 'po', 'san', 'seong', 'song', 'su', 'wang', 'won', 'yeong', 'yong'];
-  const i = Math.floor(Math.random() * 10);
-  {
+  const i = Math.floor(Math.random() * 10); {
     if (i < 3) {
       rnd0 = Math.floor(Math.random() * names1.length);
       rnd1 = Math.floor(Math.random() * names2.length);

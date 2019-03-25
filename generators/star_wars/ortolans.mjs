@@ -1,4 +1,9 @@
 export default function ortolans() {
+  let namelast;
+  let names;
+  let rnd;
+  let rnd2;
+  let rnd3;
   let rnd;
   let rnd2;
   let rnd3;
@@ -25,8 +30,7 @@ export default function ortolans() {
   const nm10 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'o', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'o', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'o', 'ee', 'oo', 'ai'];
   const nm11 = ['b', 'd', 'g', 'j', 'k', 'l', 'm', 'n', 'q', 't', 'v'];
   const nm12 = ['', '', '', '', 'd', 'g', 'k', 'l', 'm', 'n', 'q', 'r', 's', 'x'];
-  const i = Math.floor(Math.random() * 10);
-  {
+  const i = Math.floor(Math.random() * 10); {
     rnd7 = Math.floor(Math.random() * nm9.length);
     rnd8 = Math.floor(Math.random() * nm10.length);
     rnd10 = Math.floor(Math.random() * nm12.length);

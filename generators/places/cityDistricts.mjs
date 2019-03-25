@@ -1,4 +1,8 @@
 export default function cityDistricts() {
+  let names;
+  let rnd;
+  let rnd2;
+  let rnd3;
   let rnd;
   let rnd2;
   let rnd3;
@@ -15,8 +19,7 @@ export default function cityDistricts() {
   const nm5 = ['st', 'sk', 'sp', 'nd', 'nt', 'nk', 'mp', 'rd', 'ld', 'lp', 'rk', 'lt', 'lf', 'pt', 'ft', 'ct', 't', 'd', 'k', 'n', 'p', 'l', 'g', 'm', 's', 'b', 'c', 't', 'd', 'k', 'n', 'p', 'l', 'g', 'm', 's', 'b', 'c'];
   const nm6 = ['', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', 'West', 'East', 'North', 'South', 'Little', 'Upper', 'Lower', 'Fort', 'Upper West', 'Upper East', 'Upper North', 'Upper South', 'Lower West', 'Lower East', 'Lower North', 'Lower South', 'Midtown', 'Waterside', 'Bayside', 'Downtown'];
   const nm7 = ['', 'Acre', 'Avenue', 'Bazaar', 'Boulevard', 'Center', 'Circle', 'Corner', 'Cross', 'District', 'East', 'Garden', 'Grove', 'Heights', 'Hill', 'Hills', 'Market', 'North', 'Park', 'Place', 'Plaza', 'Point', 'Road', 'Row', 'Side', 'South', 'Square', 'Street', 'Town', 'Vale', 'Valley', 'West', 'Wood', 'Yard'];
-  const i = Math.floor(Math.random() * 10);
-  {
+  const i = Math.floor(Math.random() * 10); {
     rnd6 = Math.floor(Math.random() * nm6.length);
     rnd7 = Math.floor(Math.random() * nm7.length);
     if (rnd6 < 20) {

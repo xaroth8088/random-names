@@ -1,4 +1,8 @@
 export default function aliens() {
+  let names;
+  let rnd;
+  let rnd2;
+  let rnd3;
   let rnd;
   let rnd2;
   let rnd3;
@@ -23,8 +27,7 @@ export default function aliens() {
   const nm15 = ['a', 'e', 'i', 'o', 'u', 'y', 'a', 'ae', 'au', 'e', 'ea', 'ei', 'eo', 'i', 'ie', 'o', 'oe', 'ou', 'u', 'ua', 'ue', 'uo', 'uy', 'y', '', '', '', '', '', ''];
   const nm16 = ['b', 'd', 'g', 'gh', 'h', 'hl', 'hm', 'hn', 'hq', 'hr', 'hs', 'hsh', 'hst', 'ht', 'hx', 'hz', 'k', 'kh', 'ks', 'kx', 'l', 'lf', 'lh', 'lk', 'll', 'lm', 'ln', 'lp', 'lph', 'ls', 'lst', 'lt', 'lz', 'm', 'mm', 'mn', 'ms', 'mt', 'n', 'nn', 'ns', 'nt', 'p', 'ph', 'ps', 'pt', 'q', 'r', 'rb', 'rc', 'rd', 'rf', 'rk', 'rq', 'rs', 'rst', 'rt', 's', 'sh', 'sk', 'sp', 'ss', 'st', 't', 'th', 'ts', 'w', 'wth', 'x', 'z'];
   const nm17 = ['a', 'e', 'i', 'o', 'u', 'y', 'ae', 'ea', 'eo', 'oe', 'ie', 'ue', 'ua', '', '', '', '', '', '', '', '', '', '', '', ''];
-  const i = Math.floor(Math.random() * 10);
-  {
+  const i = Math.floor(Math.random() * 10); {
     if (i < 4) {
       rnd = Math.floor(Math.random() * nm1.length);
       rnd2 = Math.floor(Math.random() * nm2.length);

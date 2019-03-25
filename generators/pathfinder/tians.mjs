@@ -1,4 +1,8 @@
 export default function tians() {
+  let names;
+  let rnd;
+  let rnd2;
+  let rnd3;
   let rnd;
   let rnd2;
   let rnd3;
@@ -74,8 +78,7 @@ export default function tians() {
   const nm55 = ['ia', 'eo', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u'];
   const nm56 = ['c', 'd', 'dy', 'g', 'h', 'hy', 'k', 'l', 'm', 'nn', 'nt', 'nd', 'ng', 'nn', 'nt', 'r', 'rj', 'rl', 'rm', 'rt', 's', 'sk', 'st', 't', 'th', 'tn', 'tr', 'v', 'w', 'y'];
   const nm57 = ['', '', '', 'h', 'n', 'r'];
-  i = Math.floor(Math.random() * 14);
-  {
+  const i = Math.floor(Math.random() * 14); {
     if (type === 1) {
       if (i < 2) {
         rnd = Math.floor(Math.random() * nm4.length);

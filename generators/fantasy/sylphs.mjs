@@ -1,4 +1,8 @@
 export default function sylphs() {
+  let names;
+  let rnd;
+  let rnd2;
+  let rnd3;
   let rnd;
   let rnd2;
   let rnd3;
@@ -20,8 +24,7 @@ export default function sylphs() {
   const nm8 = ['', '', '', '', '', 'c', 'dh', 'f', 'h', 'l', 'm', 'n', 'ph', 's', 'sh', 'th', 'v', 'w', 'y'];
   const nm9 = ['ch', 'h', 'hl', 'hn', 'hm', 'hsh', 'hph', 'ht', 'hth', 'l', 'lsh', 'lf', 'lm', 'ln', 'lph', 'ls', 'lt', 'lth', 'lv', 'm', 'mm', 'mn', 'mh', 'ms', 'msh', 'mth', 'mf', 'n', 'nh', 'nl', 'nsh', 'nt', 'ns', 'nth', 'nph', 'nv', 'nf', 'nm', 'nh', 'nhr', 'ph', 'phr', 'phn', 'phl', 'r', 'rd', 'rph', 'rsh', 'rs', 'rth', 'rh', 'rn', 'rm', 'ss', 'sn', 'shn', 'sh', 'st', 'sht', 't', 'th', 'thr', 'v', 'w', 'y'];
   const nm10 = ['f', 'ff', 'h', 'l', 'm', 'n', 'ph', 's', 'sh', 'th', 'y'];
-  const i = Math.floor(Math.random() * 10);
-  {
+  const i = Math.floor(Math.random() * 10); {
     rnd2 = Math.floor(Math.random() * nm2.length);
     rnd4 = Math.floor(Math.random() * nm2.length);
     if (type === 1) {

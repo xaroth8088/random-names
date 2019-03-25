@@ -1,4 +1,8 @@
 export default function afterlifes() {
+  let name;
+  let rnd;
+  let rnd2;
+  let rnd3;
   let rnd;
   let rnd0;
   let rnd1;
@@ -21,8 +25,7 @@ export default function afterlifes() {
   const nm12 = ['\'dem', '\'qar', '\'qira', '\'xin', '\'ziha', 'bax', 'byss', 'dahn', 'dell', 'dess', 'dis', 'doze', 'dues', 'gara', 'garn', 'gash', 'gor', 'grinn', 'hara', 'hull', 'huza', 'jura', 'kax', 'kaz', 'khan', 'kiru', 'kura', 'mas', 'mez', 'mixar', 'morta', 'muria', 'mus', 'muy', 'nahar', 'naq', 'naza', 'naze', 'nery', 'nex', 'nin', 'nixa', 'niza', 'no', 'nur', 'nura', 'ny', 'paqar', 'pax', 'pyre', 'qa', 'qore', 'qu', 'qur', 'ra', 'rax', 'siux', 'six', 'sour', 'sura', 'thor', 'tix', 'turan', 'vara', 'vax', 'vye', 'wax', 'wren', 'wyn', 'xan', 'zar', 'zo', 'zora', 'zya', 'zyss'];
   const nm13 = ['Abominable', 'Agony', 'Anguish', 'Ashen', 'Battle', 'Blasted', 'Bleak', 'Blind', 'Burning', 'Carnage', 'Conflict', 'Crimson', 'Dark', 'Dead', 'Delirium', 'Demon', 'Demonic', 'Devil', 'Diabolic', 'Dire', 'Dread', 'Ebon', 'Fever', 'Flaming', 'Foul', 'Frenzy', 'Gallow', 'Gloom', 'Grave', 'Gray', 'Grim', 'Horror', 'Infernal', 'Killing', 'Mad', 'Manic', 'Misery', 'Misty', 'Nether', 'Obsidian', 'Onyx', 'Penance', 'Plague', 'Punishment', 'Retribution', 'Rotten', 'Sanguine', 'Scarlet', 'Scourge', 'Shadow', 'Silent', 'Sinister', 'Skeletal', 'Slave', 'Somber', 'Sorrow', 'Struggle', 'Terror', 'Torment', 'Torture', 'Vicious', 'Vile', 'Wayward', 'Wicked'];
   const nm14 = ['Domain', 'Empire', 'Field', 'Fields', 'Ground', 'Grounds', 'Kingdom', 'Land', 'Lands', 'Pasture', 'Pastures', 'Plane', 'Planes', 'Realm', 'World'];
-  const i = Math.floor(Math.random() * 10);
-  {
+  const i = Math.floor(Math.random() * 10); {
     if (type != 1) {
       if (i < 5) {
         rnd0 = Math.floor(Math.random() * nm1.length);

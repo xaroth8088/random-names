@@ -1,4 +1,11 @@
 export default function duross() {
+  let namelast;
+  let names;
+  let rnd;
+  let rnd2;
+  let rnd3;
+  let rnd3b;
+  let rnd4b;
   let rnd;
   let rnd2;
   let rnd3;
@@ -21,8 +28,7 @@ export default function duross() {
   const nm7 = ['b', 'd', 'h', 'j', 'k', 'l', 'm', 's', 'st', 't', 'tr', 'v', 'zh'];
   const nm8 = ['b', 'bb', 'c', 'ch', 'ggl', 'gw', 'gl', 'gn', 'gg', 'g', 'h', 'kt', 'll', 'lm', 'lw', 'md', 'm', 'mp', 'nw', 'nd', 'nt', 'ns', 'n', 'rd', 'rl', 'rr', 'z'];
   const nm9 = ['', 'd', 'g', 'ks', 'l', 'lt', 'm', 'n', 's'];
-  const i = Math.floor(Math.random() * 10);
-  {
+  const i = Math.floor(Math.random() * 10); {
     rnd6 = Math.floor(Math.random() * nm7.length);
     rnd7 = Math.floor(Math.random() * nm2.length);
     rnd8 = Math.floor(Math.random() * nm9.length);

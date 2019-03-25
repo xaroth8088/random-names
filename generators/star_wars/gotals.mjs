@@ -1,4 +1,9 @@
 export default function gotals() {
+  let namelast;
+  let names;
+  let rnd;
+  let rnd2;
+  let rnd3;
   let rnd;
   let rnd2;
   let rnd3;
@@ -19,8 +24,7 @@ export default function gotals() {
   const nm6 = ['a', 'e', 'i', 'o', 'u'];
   const nm7 = ['hs', 'hx', 'k', 'kh', 'l', 'll', 'r', 'rr', 'rl', 'rs', 's', 'ss', 'sl', 'sk', 'sh', 'sm', 'st', 't', 'th', 'tl', 'v', 'x', 'z'];
   const nm8 = ['c', 'gg', 'gh', 'l', 'm', 'n', 'nth', 'r', 'rn', 'rk', 'ss', 't', 'th', 'x'];
-  const i = Math.floor(Math.random() * 10);
-  {
+  const i = Math.floor(Math.random() * 10); {
     rnd6 = Math.floor(Math.random() * nm5.length);
     rnd7 = Math.floor(Math.random() * nm6.length);
     rnd8 = Math.floor(Math.random() * nm8.length);

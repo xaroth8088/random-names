@@ -1,4 +1,9 @@
 export default function neimoidians() {
+  let namelast;
+  let names;
+  let rnd;
+  let rnd2;
+  let rnd3;
   let rnd;
   let rnd2;
   let rnd3;
@@ -26,8 +31,7 @@ export default function neimoidians() {
   const nm10 = ['a', 'e', 'i', 'o', 'u', 'i', 'o', 'a', 'a', 'e', 'i', 'o', 'u', 'i', 'o', 'a', 'a', 'e', 'i', 'o', 'u', 'i', 'o', 'a', 'a', 'e', 'i', 'o', 'u', 'i', 'o', 'a', 'a', 'e', 'i', 'o', 'u', 'i', 'o', 'a', 'ii', 'io', 'ai', 'ui', 'iu', 'ee'];
   const nm11 = ['f', 'ff', 'fr', 'fd', 'g', 'gg', 'gr', 'gn', 'gb', 'k', 'kk', 'kv', 'kr', 'll', 'lv', 'lr', 'my', 'm', 'md', 'mm', 'mv', 'mr', 'n', 'nn', 'nv', 'nd', 'nk', 'nkk', 'rt', 'tb', 'tr', 'th', 't', 'tt', 'tz', 'tg', 'tf'];
   const nm12 = ['', '', '', '', '', '', '', '', '', '', 'b', 'd', 'm', 'n', 'p', 'r', 's', 't', 'th', 'y', 'x'];
-  const i = Math.floor(Math.random() * 10);
-  {
+  const i = Math.floor(Math.random() * 10); {
     rnd7 = Math.floor(Math.random() * nm9.length);
     rnd8 = Math.floor(Math.random() * nm10.length);
     rnd10 = Math.floor(Math.random() * nm12.length);

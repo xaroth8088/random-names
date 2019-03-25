@@ -1,4 +1,8 @@
 export default function pauldrons() {
+  let names;
+  let names4;
+  let rnd2;
+  let rnd3;
   let rnd0;
   let rnd1;
   let rnd2;
@@ -18,8 +22,7 @@ export default function pauldrons() {
   } else {
     names4 = ['Adamantite', 'Plate', 'Scaled', 'Bone', 'Bronze', 'Bronzed', 'Ivory', 'Ebon', 'Golden', 'Iron', 'Mithril', 'Obsidian', 'Silver', 'Skeletal', 'Steel', 'Mail', 'Chain', 'Chainmail', 'Titanium', 'Demon'];
   }
-  const i = Math.floor(Math.random() * 10);
-  {
+  const i = Math.floor(Math.random() * 10); {
     if (i < 2) {
       rnd0 = Math.floor(Math.random() * names1.length);
       rnd1 = Math.floor(Math.random() * names2.length);

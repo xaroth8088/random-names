@@ -1,4 +1,7 @@
 export default function gameStudios() {
+  let names;
+  let rnd;
+  let rnd2;
   let rnd;
   let rnd1;
   let
@@ -11,8 +14,7 @@ export default function gameStudios() {
   const names5 = ['berg', 'blast', 'blossom', 'bolt', 'bullet', 'byte', 'cloud', 'control', 'domain', 'door', 'dream', 'fire', 'flux', 'fly', 'fun', 'ice', 'jam', 'lab', 'less', 'line', 'ly', 'petal', 'pixel', 'play', 'punch', 'rain', 'realm', 'soft', 'sphere', 'storm', 'tale', 'trap', 'ware', 'water', 'web', 'wire', 'world', 'zone'];
   const names6 = ['Afterlife', 'Amnesia', 'Anomaly', 'Asteroid', 'Blessing', 'Bullettime', 'Cataclysm', 'Century', 'Cherry Blossom', 'Clairvoyant', 'Climax', 'Cloudburst', 'Comet', 'Crown', 'Cyclone', 'Deluge', 'Destiny', 'Downpour', 'Dumb Luck', 'Dynamic', 'Enigma', 'Enterprise', 'Eternity', 'Exile', 'Extinction', 'Falling Star', 'Fate', 'Fierce', 'Fluke', 'Flytrap', 'Fortune', 'Hellfire', 'Heretic', 'Honor', 'Hurricane', 'Idol', 'Immortal', 'Immortality', 'Insomnia', 'Insurgent', 'Isolation', 'Karma', 'Limbo', 'Locomotion', 'Lonely', 'Maximum', 'Mental', 'Meteoroid', 'Millenium', 'Miracle', 'Mithril', 'Monsoon', 'Motion', 'Mystery', 'Mystic', 'Nirvana', 'Oblivion', 'Occult', 'Outcast', 'Paradox', 'Phenomenon', 'Pinnacle', 'Prodigy', 'Psychic', 'Radical', 'Rebel', 'Refugee', 'Relentless', 'Renegade', 'Revelation', 'Reverse', 'Rogue', 'Rose Petal', 'Ruthless', 'Sensation', 'Serendipity', 'Shooting Star', 'Skyward', 'Solarflare', 'Stardust', 'Summit', 'Supreme', 'Surprise', 'Thunder', 'Thunderstorm', 'Tidal Wave', 'Time Traveler', 'Tomorrow', 'Tragedy', 'Trinket', 'Typhoon', 'Typical', 'Ultimate', 'Underground', 'Untouchable', 'Vagabond', 'Vault', 'Vigor', 'Void', 'Zion'];
   const names7 = ['Games', 'Entertainment', 'Studios', 'Interactive', 'Game Studios', 'Media', 'Productions', 'Arts'];
-  const i = Math.floor(Math.random() * 10);
-  {
+  const i = Math.floor(Math.random() * 10); {
     rnd = Math.floor(Math.random() * names7.length);
     if (i < 3) {
       rnd1 = Math.floor(Math.random() * names1.length);

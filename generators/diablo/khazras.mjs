@@ -1,4 +1,8 @@
 export default function khazras() {
+  let names;
+  let rnd;
+  let rnd2;
+  let rnd3;
   let rnd;
   let rnd2;
   let rnd3;
@@ -12,8 +16,7 @@ export default function khazras() {
   const nm2 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'oa', 'ao', 'au'];
   const nm3 = ['br', 'd', 'dr', 'g', 'gr', 'ggr', 'gl', 'hg', 'hl', 'hgr', 'lg', 'lgh', 'ld', 'lz', 'lb', 'lghb', 'll', 'lm', 'ndr', 'nd', 'nz', 'nr', 'r', 'rb', 'rg', 'rd', 'rgr', 'rt', 'rth', 'rz', 't', 'wd'];
   const nm4 = ['', '', '', 'ch', 'd', 'g', 'gg', 'k', 'l', 'lm', 'm', 'n', 'nn', 'r', 'rg', 's', 'sh', 't', 'tch', 'th', 'wl'];
-  const i = Math.floor(Math.random() * 10);
-  {
+  const i = Math.floor(Math.random() * 10); {
     rnd = Math.floor(Math.random() * nm1.length);
     rnd2 = Math.floor(Math.random() * nm2.length);
     rnd3 = Math.floor(Math.random() * nm3.length);

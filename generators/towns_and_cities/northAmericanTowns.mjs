@@ -1,4 +1,7 @@
 export default function northAmericanTowns() {
+  let names;
+  let rnd;
+  let rnd2;
   let rnd;
   let rnd2;
   let names;
@@ -14,8 +17,7 @@ export default function northAmericanTowns() {
   /* United States */
   const nm7 = ['Ab', 'Al', 'Aller', 'Ames', 'An', 'Apple', 'Arling', 'As', 'Ash', 'Attle', 'Autumn', 'Bain', 'Bal', 'Bar', 'Barn', 'Barring', 'Bax', 'Bed', 'Bedding', 'Ber', 'Berk', 'Bever', 'Bex', 'Birming', 'Bloom', 'Blooms', 'Blythe', 'Bol', 'Booth', 'Bos', 'Box', 'Brad', 'Brent', 'Bridge', 'Brigh', 'Bright', 'Brim', 'Bris', 'Brom', 'Brook', 'Bucking', 'Bux', 'Cam', 'Can', 'Canter', 'Carl', 'Chat', 'Chats', 'Chel', 'Chelms', 'Ches', 'Chester', 'Chil', 'Clif', 'Cliff', 'Clin', 'Coal', 'Col', 'Cole', 'Con', 'Corn', 'Coven', 'Croy', 'Cumber', 'Dan', 'Dar', 'Dart', 'De', 'Dead', 'Ded', 'Del', 'Der', 'Do', 'Dor', 'Dun', 'Dur', 'Effing', 'Elling', 'Elm', 'Ems', 'En', 'Ep', 'Es', 'Ever', 'Ex', 'Fair', 'Fal', 'Fall', 'Farm', 'Farming', 'Ford', 'Framing', 'Free', 'Glas', 'Glou', 'Graf', 'Gran', 'Grand', 'Grave', 'Green', 'Gro', 'Guil', 'Had', 'Hali', 'Ham', 'Hamp', 'Har', 'Harp', 'Hart', 'Has', 'Hast', 'Hat', 'Haver', 'Heb', 'Here', 'Hil', 'Hill', 'Hills', 'Hing', 'Hors', 'Hul', 'Hunt', 'Hunting', 'Isling', 'Kensing', 'Killing', 'Kings', 'Kir', 'Lan', 'Leaming', 'Lee', 'Lei', 'Leo', 'Liming', 'Litch', 'Liver', 'Lon', 'Maid', 'Mal', 'Man', 'Mans', 'Mar', 'Marl', 'May', 'Men', 'Mens', 'Meri', 'Middle', 'Middles', 'Mil', 'Mill', 'Monk', 'New', 'Newing', 'Nor', 'North', 'Not', 'Notting', 'Oak', 'Ox', 'Plai', 'Plain', 'Ply', 'Port', 'Ports', 'Pres', 'Put', 'Read', 'Rich', 'Ridge', 'Ring', 'River', 'Ro', 'Roch', 'Rock', 'Rocking', 'Rom', 'Row', 'Rox', 'Rug', 'Rut', 'Salis', 'San', 'Sand', 'Scar', 'Scars', 'Shef', 'Shrew', 'Shrews', 'Smith', 'Smiths', 'Somer', 'South', 'Spring', 'Staf', 'Stam', 'Stock', 'Stoke', 'Stone', 'Straf', 'Strat', 'Sud', 'Suf', 'Summer', 'Sunder', 'Sur', 'Sus', 'Sut', 'Tam', 'Taun', 'Temple', 'Tis', 'Tiver', 'Tol', 'Tor', 'Torring', 'Tun', 'Ven', 'Vent', 'Wake', 'Wal', 'Wall', 'Walling', 'Wals', 'War', 'Ware', 'Water', 'Way', 'Welling', 'Wes', 'West', 'Wey', 'Whit', 'White', 'Wick', 'Wil', 'Willing', 'Win', 'Wind', 'Winder', 'Winter', 'Wood', 'Wor', 'Wrent', 'Yar', 'York'];
   const nm8 = ['boro', 'borough', 'bridge', 'bron', 'brook', 'burn', 'bury', 'by', 'caster', 'castle', 'cester', 'chester', 'coln', 'cord', 'dale', 'de', 'den', 'ding', 'don', 'dover', 'down', 'dwell', 'fair', 'field', 'folk', 'ford', 'gate', 'ham', 'hampton', 'hampton', 'hill', 'hurst', 'isle', 'lem', 'ley', 'low', 'ly', 'mark', 'mere', 'minster', 'mond', 'more', 'mouth', 'net', 'ney', 'pon', 'pool', 'port', 'rey', 'riden', 'ry', 'sea', 'send', 'set', 'shire', 'son', 'sor', 'stable', 'stead', 'ster', 'stone', 'swell', 'ter', 'tham', 'ton', 'try', 'vern', 'ville', 'wall', 'ware', 'water', 'way', 'we', 'well', 'wich', 'wick', 'win', 'wood', 'worth'];
-  i = Math.floor(Math.random() * 12);
-  {
+  const i = Math.floor(Math.random() * 12); {
     if (i < 3) {
       rnd = Math.floor(Math.random() * nm1.length);
       rnd2 = Math.floor(Math.random() * nm2.length);

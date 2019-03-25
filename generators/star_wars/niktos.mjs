@@ -1,4 +1,11 @@
 export default function niktos() {
+  let namelast;
+  let names;
+  let rnd;
+  let rnd2;
+  let rnd3;
+  let rnd3b;
+  let rnd4b;
   let rnd;
   let rnd2;
   let rnd3;
@@ -23,8 +30,7 @@ export default function niktos() {
   const nm10 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'ee', 'oo', 'uu', 'au', 'ou', 'oi', 'ai', 'ei'];
   const nm11 = ['b', 'cc', 'g', 'g', 'gg', 'gt', 'gn', 'gm', 'gl', 'gt', 'gr', 'k', 'kt', 'kk', 'kn', 'km', 'kl', 'm', 'mk', 'mp', 'mpl', 'n', 'nd', 'nk', 'ng', 'nt', 'p', 'pl', 'pt', 'r', 'rc', 'rk', 'rd', 'rt', 'rs', 's', 'st', 't', 'z'];
   const nm12 = ['', '', '', '', '', 'c', 'g', 'k', 'l', 'n', 'nn', 'nk', 'm', 'mk', 'rch', 'rk', 'rg', 'rc', 'rr', 's', 'sh', 'sk', 't', 'th', 'tt', 'x'];
-  const i = Math.floor(Math.random() * 10);
-  {
+  const i = Math.floor(Math.random() * 10); {
     rnd7 = Math.floor(Math.random() * nm9.length);
     rnd8 = Math.floor(Math.random() * nm10.length);
     rnd10 = Math.floor(Math.random() * nm12.length);

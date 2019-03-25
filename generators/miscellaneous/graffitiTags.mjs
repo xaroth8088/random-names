@@ -1,4 +1,8 @@
 export default function graffitiTags() {
+  let names;
+  let rnd;
+  let rnd2;
+  let rnd3;
   let rnd;
   let rnd2;
   let rnd3;
@@ -10,8 +14,7 @@ export default function graffitiTags() {
   const nm3 = ['b', 'c', 'd', 'f', 'g', 'h', 'j', 'k', 'l', 'm', 'n', 'p', 'q', 'r', 's', 't', 'v', 'w', 'x', 'y', 'z', 'b', 'c', 'd', 'f', 'g', 'h', 'j', 'k', 'l', 'm', 'n', 'p', 'q', 'r', 's', 't', 'v', 'w', 'x', 'y', 'z', 'b', 'c', 'd', 'f', 'g', 'h', 'j', 'k', 'l', 'm', 'n', 'p', 'q', 'r', 's', 't', 'v', 'w', 'x', 'y', 'z', 'b', 'c', 'd', 'f', 'g', 'h', 'j', 'k', 'l', 'm', 'n', 'p', 'q', 'r', 's', 't', 'v', 'w', 'x', 'y', 'z', 'b', 'c', 'd', 'f', 'g', 'h', 'j', 'k', 'l', 'm', 'n', 'p', 'q', 'r', 's', 't', 'v', 'w', 'x', 'y', 'z', 'b', 'c', 'd', 'f', 'g', 'h', 'j', 'k', 'l', 'm', 'n', 'p', 'q', 'r', 's', 't', 'v', 'w', 'x', 'y', 'z', 'b', 'c', 'd', 'f', 'g', 'h', 'j', 'k', 'l', 'm', 'n', 'p', 'q', 'r', 's', 't', 'v', 'w', 'x', 'y', 'z', 'b', 'bb', 'bh', 'bl', 'br', 'bz', 'c', 'cc', 'ch', 'cl', 'cm', 'cn', 'cr', 'cs', 'ct', 'cx', 'cz', 'd', 'dd', 'db', 'dh', 'dk', 'dm', 'dn', 'dr', 'f', 'ff', 'fk', 'fl', 'fr', 'g', 'gg', 'gb', 'gl', 'gm', 'gn', 'gr', 'gt', 'gz', 'h', 'hh', 'hr', 'hn', 'hm', 'hl', 'j', 'k', 'kk', 'kb', 'kl', 'km', 'kn', 'kr', 'ks', 'kt', 'kx', 'kz', 'l', 'll', 'lc', 'lg', 'lm', 'ln', 'lp', 'lq', 'lr', 'ls', 'lt', 'lz', 'm', 'mm', 'mh', 'mn', 'mr', 'ms', 'mt', 'mz', 'n', 'nn', 'nh', 'ng', 'nd', 'nk', 'nl', 'nm', 'nq', 'nr', 'ns', 'nt', 'nz', 'nx', 'p', 'ph', 'pl', 'pp', 'pq', 'pr', 'pz', 'q', 'qq', 'qr', 'qx', 'r', 'rc', 'rd', 'rg', 'rh', 'rk', 'rl', 'rm', 'rn', 'rp', 'rq', 'rr', 'rs', 'rt', 'rx', 'rz', 's', 'sc', 'ss', 'sh', 'sk', 'sm', 'sn', 'sq', 'sr', 'st', 'sz', 'sx', 't', 'th', 'tm', 'tn', 'tq', 'v', 'w', 'x', 'xx', 'xz', 'xs', 'xt', 'xr', 'z', 'zc', 'zz', 'zs', 'zl', 'zm', 'zn', 'zq'];
   const nm4 = ['', '', '', '', '', '', '', '', '', '', '', '', '', '', '', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'ea', 'eo', 'eu', 'ei', 'ee', 'ia', 'io', 'iu', 'ie', 'ae', 'ao', 'ai', 'aa', 'ua', 'ui', 'ue', 'oi', 'oo', 'ou', 'oe'];
   const nm5 = ['b', 'c', 'd', 'f', 'g', 'h', 'j', 'k', 'l', 'm', 'n', 'p', 'q', 'r', 's', 't', 'v', 'w', 'x', 'y', 'z', 'b', 'bl', 'c', 'ch', 'ct', 'd', 'dd', 'dr', 'dz', 'f', 'ff', 'fs', 'g', 'gg', 'gh', 'ght', 'gs', 'gz', 'hn', 'j', 'k', 'kk', 'kr', 'ks', 'kt', 'kz', 'lb', 'ld', 'll', 'lr', 'ls', 'lt', 'lz', 'm', 'ml', 'mm', 'mms', 'mn', 'mr', 'ms', 'mz', 'n', 'nd', 'ndr', 'ng', 'nk', 'nr', 'ns', 'nt', 'nz', 'nzy', 'p', 'pd', 'ph', 'pr', 'ps', 'q', 'qq', 'r', 'rb', 'rd', 'rf', 'rk', 'rm', 'rn', 'rs', 'rsh', 'rt', 'rts', 'rtz', 'rz', 's', 'sh', 'sk', 'sp', 'sr', 'ss', 'st', 'str', 't', 'tch', 'th', 'tr', 'ts', 'tt', 'tz', 'v', 'vs', 'vz', 'w', 'x', 'xc', 'xs', 'xx', 'xz', 'y', 'z', 'zl', 'zn', 'zr', 'zz'];
-  const i = Math.floor(Math.random() * 10);
-  {
+  const i = Math.floor(Math.random() * 10); {
     if (i < 5) {
       rnd = Math.floor(Math.random() * nm1.length);
       rnd2 = Math.floor(Math.random() * nm2.length);

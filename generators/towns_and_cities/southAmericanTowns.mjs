@@ -1,4 +1,7 @@
 export default function southAmericanTowns() {
+  let names;
+  let rnd;
+  let rnd2;
   let rnd;
   let rnd2;
   let names;
@@ -23,8 +26,7 @@ export default function southAmericanTowns() {
   /* Uruguay */
   const nm13 = ['Ace', 'Ai', 'Aqua', 'Arti', 'At', 'Atlá', 'Ba', 'Bal', 'Bar', 'Be', 'Bel', 'Bla', 'Blan', 'Ca', 'Cane', 'Car', 'Cardo', 'Carme', 'Cas', 'Casti', 'Casu', 'Ce', 'Cebo', 'Cer', 'Chu', 'Co', 'Colo', 'Cur', 'Del', 'Die', 'Diecio', 'Do', 'Dolo', 'Du', 'Dura', 'Eci', 'Ecil', 'Em', 'Empa', 'Flo', 'Fray', 'Gui', 'Isi', 'Joa', 'La', 'Las', 'Li', 'Ma', 'Mal', 'Maldo', 'Mari', 'Mer', 'Mi', 'Mon', 'Nue', 'Om', 'Pa', 'Pal', 'Pan', 'Pay', 'Paysan', 'Pi', 'Pie', 'Piriá', 'Por', 'Porve', 'Pro', 'Qie', 'Ra', 'Ro', 'Rodrí', 'Rosa', 'Rove', 'Sa', 'San An', 'San Ba', 'San Bau', 'San Ca', 'San Car', 'San Fe', 'San Ja', 'San Jo', 'San Ra', 'Sara', 'Sp', 'Sproa', 'Ta', 'Tacua', 'Tara', 'To', 'Tole', 'Tra', 'Tran', 'Trei', 'Tri', 'Trini', 'Tu', 'Tupa', 'Velá', 'Veláz', 'Vi', 'Vicha'];
   const nm14 = ['búes', 'baé', 'bracho', 'cano', 'cas', 'cedes', 'chón', 'cha', 'cho', 'cio', 'ciocho', 'co', 'da', 'dal', 'dero', 'do', 'dona', 'doro', 'dras', 'fael', 'gas', 'guá', 'guas', 'gues', 'guez', 'jas', 'lén', 'lís', 'la', 'latí', 'ledo', 'lix', 'lo', 'lones', 'lonia', 'lores', 'los', 'món', 'me', 'melo', 'mitas', 'nas', 'nes', 'nia', 'nicó', 'nio', 'nir', 'no', 'palme', 'quín', 'queras', 'quez', 'quillo', 'ras', 'rasco', 'razno', 'rembó', 'rencio', 'res', 'reso', 'resta', 'riano', 'rida', 'rio', 'ro', 'sandú', 'sar', 'sario', 'scala', 'supá', 'tas', 'tasar', 'tes', 'tiago', 'tida', 'tigas', 'tillos', 'tina', 'tista', 'va', 'venir', 'vera', 'vo'];
-  i = Math.floor(Math.random() * 14);
-  {
+  const i = Math.floor(Math.random() * 14); {
     if (i < 2) {
       rnd = Math.floor(Math.random() * nm1.length);
       rnd2 = Math.floor(Math.random() * nm2.length);

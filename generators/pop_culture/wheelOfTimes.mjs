@@ -1,4 +1,8 @@
 export default function wheelOfTimes() {
+  let names;
+  let rnd;
+  let rnd2;
+  let rnd3;
   let rnd;
   let rnd2;
   let rnd3;
@@ -11,8 +15,7 @@ export default function wheelOfTimes() {
   const nm3 = ['Al', 'Am', 'Ar', 'Av', 'B', 'Bel', 'Birg', 'Brin', 'Cads', 'Cel', 'Ch', 'Cyn', 'Den', 'Dil', 'Dol', 'Dyn', 'Egw', 'El', 'En', 'Er', 'F', 'Fel', 'Fern', 'Fil', 'Gem', 'Gil', 'Gin', 'Gwen', 'Haen', 'Han', 'Hel', 'Hin', 'Ien', 'Il', 'In', 'Ir', 'Kel', 'Ken', 'Khon', 'Kis', 'Lem', 'Len', 'Lis', 'Lor', 'M', 'Mel', 'Mor', 'Morg', 'Nel', 'Nic', 'Nor', 'Nyn', 'Rel', 'Ren', 'Rin', 'Ros', 'S', 'Sel', 'Set', 'Som', 'Sor', 'T', 'Ten', 'Ther', 'Tigr', 'V', 'Vel', 'Vil', 'Von', 'Zar', 'Zel', 'Zer', 'Zon'];
   const nm4 = ['aeve', 'aida', 'aile', 'ain', 'aine', 'alle', 'ase', 'athera', 'ava', 'ayne', 'ela', 'elle', 'ena', 'ene', 'enya', 'era', 'erava', 'esh', 'eshta', 'eth', 'ia', 'iad', 'iendha', 'ilea', 'in', 'inea', 'ith', 'itte', 'iuan', 'ivia', 'oane', 'oell', 'ois', 'oith', 'ola', 'one', 'ora', 'osa', 'ovi', 'oyin', 'ua', 'uane', 'ucia', 'uel', 'uena', 'uene', 'uis', 'ulin', 'uon', 'ush', 'yana', 'yela', 'yena', 'yesh', 'yla', 'ymis', 'yna', 'yra', 'ys', 'yth'];
   const nm5 = ['Ald', 'An', 'Ath', 'Ay', 'Bach', 'Ban', 'Bash', 'Bryn', 'C', 'Cauth', 'Char', 'Cran', 'D', 'Daen', 'Dag', 'Dam', 'F', 'Fal', 'Farsh', 'Fon', 'Gam', 'Gan', 'Gor', 'Gryn', 'Haen', 'Hag', 'Har', 'Hon', 'Kash', 'Ken', 'Kir', 'Kryn', 'Lam', 'Lan', 'Lin', 'Loth', 'Mach', 'Man', 'Mant', 'Math', 'Mel', 'Merr', 'Moer', 'Naer', 'Nam', 'Nil', 'Nor', 'P', 'Paen', 'Pem', 'Pran', 'Sal', 'San', 'Sol', 'Step', 'T', 'Tel', 'Tor', 'Trak', 'Val', 'Varn', 'Vel', 'Vyn', 'a\'D', 'a\'L', 'a\'M', 'a\'N', 'a\'R', 'al\'D', 'al\'M', 'al\'R', 'al\'Th', 'al\'V'];
-  const nm6 = ['aem', 'aera', 'ag', 'agar', 'agin', 'aidhrin', 'aim', 'ain', 'alda', 'alin', 'amon', 'an', 'anche', 'and', 'aneos', 'ar', 'ara', 'arin', 'athor', 'aw', 'ear', 'ed', 'elle', 'enne', 'eos', 'era', 'eran', 'ere', 'eron', 'evron', 'iar', 'iaw', 'iaya', 'ilin', 'in', 'inas', 'ind', 'ineos', 'ira', 'iros', 'odred', 'ogan', 'oihan', 'olin', 'olrin', 'on', 'onche', 'onne', 'or', 'oron', 'yan', 'yl', 'ynar', 'yne', 'yr', 'yrag', 'yran', 'yron', 'yros', 'ys'];
-  {
+  const nm6 = ['aem', 'aera', 'ag', 'agar', 'agin', 'aidhrin', 'aim', 'ain', 'alda', 'alin', 'amon', 'an', 'anche', 'and', 'aneos', 'ar', 'ara', 'arin', 'athor', 'aw', 'ear', 'ed', 'elle', 'enne', 'eos', 'era', 'eran', 'ere', 'eron', 'evron', 'iar', 'iaw', 'iaya', 'ilin', 'in', 'inas', 'ind', 'ineos', 'ira', 'iros', 'odred', 'ogan', 'oihan', 'olin', 'olrin', 'on', 'onche', 'onne', 'or', 'oron', 'yan', 'yl', 'ynar', 'yne', 'yr', 'yrag', 'yran', 'yron', 'yros', 'ys']; {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm3.length);
       rnd2 = Math.floor(Math.random() * nm4.length);

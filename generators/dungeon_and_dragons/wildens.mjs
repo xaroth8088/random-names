@@ -1,4 +1,7 @@
 export default function wildens() {
+  let names;
+  let rnd;
+  let rnd2;
   let rnd;
   let rnd2;
   let names;
@@ -9,8 +12,7 @@ export default function wildens() {
   const namesMaleSl = ['bar', 'bor', 'bun', 'das', 'din', 'dun', 'dur', 'fas', 'fum', 'gar', 'gun', 'kas', 'kin', 'las', 'lis', 'mar', 'mas', 'min', 'mur', 'nas', 'nim', 'nor', 'pan', 'rak', 'ras', 'tor', 'tur', 'zad', 'zim', 'zor'];
   const namesFemF = ['Allin', 'Ashin', 'Bunn', 'Dann', 'Darn', 'Diss', 'Enn', 'Eril', 'Fenn', 'Fert', 'Firr', 'Fiss', 'Genn', 'Grin', 'Kalk', 'Kenn', 'Kers', 'Krin', 'Lerm', 'Less', 'Linn', 'Lorr', 'Minn', 'Mirt', 'Mist', 'Nem', 'Niss', 'Shall', 'Shan', 'Shenn', 'Tarr', 'Taz', 'Tell', 'Tin', 'Tirr', 'Tris', 'Wenn', 'Zar', 'Zaz', 'Zell'];
   const namesFemL = ['ahai', 'akei', 'alin', 'amai', 'anai', 'annar', 'annas', 'arris', 'arrel', 'arresh', 'artish', 'asha', 'atish', 'elbis', 'embin', 'enna', 'ennash', 'entah', 'eris', 'erla', 'erlis', 'imai', 'imbel', 'imei', 'immesh', 'inah', 'inash', 'inda', 'inna', 'innem', 'irrah', 'ishai', 'issa', 'itas', 'onnes', 'onteh', 'orda', 'oren', 'oris', 'orren'];
-  const i = Math.floor(Math.random() * 10);
-  {
+  const i = Math.floor(Math.random() * 10); {
     if (type === 1) {
       rnd = Math.floor(Math.random() * namesFemF.length);
       rnd2 = Math.floor(Math.random() * namesFemL.length);

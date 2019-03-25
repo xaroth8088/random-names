@@ -1,4 +1,7 @@
 export default function northAfricanTowns() {
+  let names;
+  let rnd;
+  let rnd2;
   let rnd;
   let rnd2;
   let names;
@@ -17,8 +20,7 @@ export default function northAfricanTowns() {
   /* Tunisia */
   const nm9 = ['Abde', 'Abderra', 'Aga', 'Ami', 'Anda', 'Aria', 'Az', 'Bé', 'Ba', 'Bassa', 'Be', 'Beka', 'Bekal', 'Bem', 'Ben', 'Ben Ga', 'Ben Gar', 'Beni Khe', 'Benna', 'Bi', 'Bizer', 'Bou', 'Bouh', 'Bour', 'Bra', 'Ce', 'Cebba', 'Che', 'Cheb', 'Chebi', 'Cheni', 'Chera', 'Chi', 'Chor', 'Dah', 'Dahma', 'Dje', 'Djedei', 'Djelou', 'Dou', 'Echra', 'El Gue', 'El Ha', 'El Ham', 'Essoua', 'Etta', 'Ettad', 'Ezza', 'Ezzah', 'Fé', 'Féria', 'Fer', 'Ferna', 'Fou', 'Foucha', 'Foussa', 'Ga', 'Gaf', 'Gha', 'Ghan', 'Ghar', 'Ghardi', 'Ghe', 'Ghena', 'Go', 'Gou', 'Goube', 'Gre', 'Grem', 'Grom', 'Ha', 'Haf', 'Hai', 'Ham', 'Hamma', 'He', 'Hebi', 'Hi', 'Hou', 'Jé', 'Jéri', 'Je', 'Jebi', 'Jede', 'Jem', 'Jen', 'Jendou', 'Jil', 'Ké', 'Kébi', 'Kéli', 'Ka', 'Kai', 'Kasse', 'Ker', 'Kerke', 'Kha', 'Khali', 'Khas', 'Khni', 'Kor', 'Ksi', 'Ksou', 'Lam', 'Mé', 'Méde', 'Mégri', 'Mét', 'Métla', 'Ma', 'Mah', 'Manou', 'Mat', 'Matma', 'Mdhi', 'Me', 'Med', 'Mekna', 'Mel', 'Mellou', 'Men', 'Met', 'Mez', 'Mi', 'Mni', 'Mo', 'Moha', 'Mohame', 'Mok', 'Mokni', 'Mona', 'Mor', 'Morna', 'Mou', 'Na', 'Nas', 'Nasra', 'Ne', 'Nef', 'Ou', 'Oudh', 'Ouer', 'Ouerda', 'Oues', 'Ouesla', 'Ra', 'Re', 'Rede', 'Reji', 'Sa', 'Saou', 'Saya', 'Sbei', 'Sbi', 'Se', 'Seje', 'Si', 'Skhi', 'So', 'Soli', 'Sou', 'Té', 'Tébou', 'Tébour', 'Ta', 'Taba', 'Tabar', 'Taje', 'Take', 'Takel', 'Tazer', 'Te', 'Tebour', 'Tes', 'Thé', 'Théle', 'Tha', 'Thy', 'Tin', 'Toui', 'You', 'Za', 'Zah', 'Zar', 'Ze'];
   const nm10 = ['bès', 'ba', 'balia', 'bane', 'barka', 'bel', 'bellat', 'bet', 'beul', 'beur', 'bi', 'bia', 'bib', 'bika', 'bili', 'bira', 'bla', 'boun', 'bous', 'cha', 'dès', 'da', 'dache', 'danin', 'deida', 'denine', 'des', 'deyef', 'dhamen', 'dia', 'dimaou', 'douba', 'doun', 'dour', 'ficha', 'fida', 'four', 'fouz', 'gane', 'gareb', 'gel', 'gou', 'goub', 'goula', 'gueb', 'guia', 'guiba', 'had', 'hal', 'ham', 'hia', 'hil', 'hiri', 'hour', 'ja', 'jaj', 'jar', 'jeb', 'jenane', 'jez', 'jiche', 'kalta', 'kelsa', 'kennah', 'ker', 'kiet', 'kouane', 'kra', 'la', 'laat', 'lah', 'larès', 'lat', 'latia', 'led', 'lem', 'lepte', 'lia', 'liana', 'libia', 'lidia', 'lienne', 'lil', 'liman', 'line', 'liz', 'louch', 'loula', 'lous', 'ma', 'mal', 'mam', 'mane', 'mani', 'maou', 'mata', 'mel', 'men', 'mil', 'mour', 'moura', 'na', 'nada', 'nag', 'nah', 'nan', 'nana', 'nane', 'nassy', 'ne', 'ned', 'niana', 'nin', 'nine', 'nini', 'norat', 'nouba', 'nouch', 'nour', 'rès', 'ra', 'rahil', 'rahmane', 'rallah', 'rarda', 'rat', 'reb', 'ref', 'ret', 'reth', 'ria', 'riana', 'rine', 'rissa', 'rouan', 'rouine', 'rouj', 'roussa', 'sa', 'sana', 'sef', 'sen', 'serine', 'si', 'sja', 'souk', 'stir', 'ta', 'tan', 'tar', 'teur', 'tia', 'tine', 'touia', 'tour', 'yada', 'yef', 'yet', 'zèze', 'za', 'zahra', 'ze', 'zel', 'zerka', 'zerte', 'zid', 'zis', 'zouna'];
-  const i = Math.floor(Math.random() * 10);
-  {
+  const i = Math.floor(Math.random() * 10); {
     if (i < 2) {
       rnd = Math.floor(Math.random() * nm1.length);
       rnd2 = Math.floor(Math.random() * nm2.length);

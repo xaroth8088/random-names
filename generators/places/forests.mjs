@@ -1,4 +1,9 @@
 export default function forests() {
+  let names;
+  let rnd;
+  let rnd2;
+  let rnd3;
+  let rnd3b;
   let rnd;
   let rnd2;
   let rnd3;
@@ -17,8 +22,7 @@ export default function forests() {
   const nm9 = ['b', 'c', 'd', 'f', 'g', 'h', 'j', 'k', 'l', 'm', 'n', 'p', 'q', 'r', 's', 't', 'v', 'w', 'x', 'z', '', '', '', '', '', ''];
   const nm10 = ['a', 'e', 'i', 'o', 'u', 'y'];
   const nm11 = ['b', 'd', 'g', 'gh', 'h', 'hr', 'hs', 'ht', 'hst', 'hsh', 'hn', 'hm', 'hl', 'hz', 'hx', 'hq', 'k', 'ks', 'kx', 'l', 'll', 'lk', 'ln', 'lm', 'lz', 'lp', 'lt', 'ls', 'lst', 'lf', 'm', 'mn', 'mm', 'mt', 'ms', 'n', 'nn', 'nt', 'ns', 'p', 'ps', 'pt', 'ph', 'q', 'r', 'rs', 'rt', 'rst', 'rq', 'rk', 'rc', 'rf', 'rb', 'rd', 's', 'st', 'ss', 'sh', 'sk', 'sp', 't', 'th', 'ts', 'w', 'wth', 'x', 'z'];
-  const i = Math.floor(Math.random() * 10);
-  {
+  const i = Math.floor(Math.random() * 10); {
     rnd3 = Math.floor(Math.random() * nm3.length);
     if (i < 2) {
       rnd = Math.floor(Math.random() * nm5.length);

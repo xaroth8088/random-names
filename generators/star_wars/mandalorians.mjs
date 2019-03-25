@@ -1,4 +1,9 @@
 export default function mandalorians() {
+  let namelast;
+  let names;
+  let rnd;
+  let rnd2;
+  let rnd3;
   let rnd;
   let rnd2;
   let rnd3;
@@ -27,8 +32,7 @@ export default function mandalorians() {
   const nm11 = ['b', 'bb', 'd', 'dd', 'g', 'gg', 'j', 'k', 'kk', 'l', 'll', 'm', 'n', 'nn', 'p', 'r', 'rr', 's', 'ss', 't', 'v', 'y', 'b', 'd', 'g', 'j', 'k', 'l', 'm', 'n', 'p', 'r', 's', 't', 'v', 'y', 'b', 'ch', 'd', 'f', 'g', 'gg', 'gr', 'h', 'k', 'kk', 'l', 'lb', 'lg', 'lk', 'll', 'm', 'n', 'nk', 'pm', 'r', 'rh', 'rk', 'rm', 'rn', 'rr', 'rv', 'rvh', 's', 't', 'v', 'vh', 'x', 'zl'];
   const nm12 = ['', '', '', '', '', 'c', 'd', 'g', 'gg', 'gh', 'hl', 'k', 'l', 'll', 'n', 'ng', 'ngh', 'nch', 'r', 'rd', 'rr', 'rs', 'rn', 'rt', 's', 'ss', 'st', 't', 'tt', 'wr'];
   const nm13 = ['b', 'bb', 'd', 'dd', 'g', 'gg', 'j', 'k', 'kk', 'l', 'll', 'm', 'n', 'nn', 'p', 'r', 'rr', 's', 'ss', 't', 'v', 'b', 'd', 'g', 'j', 'k', 'l', 'm', 'n', 'p', 'r', 's', 't', 'v'];
-  const i = Math.floor(Math.random() * 10);
-  {
+  const i = Math.floor(Math.random() * 10); {
     rnd7 = Math.floor(Math.random() * nm9.length);
     rnd8 = Math.floor(Math.random() * nm10.length);
     rnd10 = Math.floor(Math.random() * nm12.length);

@@ -1,4 +1,7 @@
 export default function hyborians() {
+  let names;
+  let rnd;
+  let rnd2;
   let rnd;
   let rnd2;
   let names;
@@ -23,8 +26,7 @@ export default function hyborians() {
   const nm18 = ['bak', 'bakar', 'bale', 'dil', 'dru', 'feri', 'fra', 'garu', 'gra', 'har', 'hdeti', 'k', 'kri', 'kuh', 'ldun', 'm', 'ma', 'mah', 'mheb', 'mon', 'msa', 'mu', 'mun', 'n', 'nes', 'nif', 'nkmek', 'noteph', 'nthes', 'phis', 'pis', 'ptah', 'ri', 'ris', 'rmer', 'ru', 'ruti', 's', 'si', 'sphon', 'ssa', 'th', 'thamon', 'thmes', 'za'];
   const nm19 = ['Aki', 'Amu', 'Asta', 'Azi', 'Ba', 'Chio', 'Dali', 'Dende', 'E', 'Echi', 'Ha', 'Hatshe', 'He', 'Ka', 'Kani', 'Ke', 'Kesi', 'Mafua', 'Mandi', 'Meshke', 'Moni', 'Mumi', 'Nabi', 'Nahee', 'Nai', 'Ne', 'Nefe', 'Nu', 'Olu', 'Omo', 'Ra', 'Re', 'Sa', 'Sanu', 'Sha', 'Su', 'Tahi', 'Tau', 'The', 'Thermu', 'Za', 'Zali'];
   const nm20 = ['bah', 'biah', 'bira', 'dna', 'fa', 'femi', 'fsha', 'gira', 'hema', 'hra', 'ka', 'khbet', 'khmet', 'kra', 'la', 'lah', 'ma', 'mah', 'nah', 'ne', 'net', 'ni', 'nura', 'phira', 'psut', 'qet', 'ra', 'rah', 'ret', 'rifa', 'rose', 'rtari', 'rte', 'ru', 'rye', 'sa', 'she', 'shida', 'stet', 'this', 'za'];
-  const i = Math.floor(Math.random() * 10);
-  {
+  const i = Math.floor(Math.random() * 10); {
     if (type === 1) {
       if (i < 2) {
         rnd = Math.floor(Math.random() * nm3.length);

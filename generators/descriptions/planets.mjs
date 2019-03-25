@@ -1,4 +1,6 @@
 export default function planets() {
+  let names5;
+  let result;
   const type = Math.random() > 0.5 ? 0 : 1;
   let planetType = Math.floor((Math.random() * 3) + 1);
   let lifeType = Math.floor((Math.random() * 4) + 1);

@@ -1,4 +1,15 @@
 export default function dugs() {
+  let namelast;
+  let names;
+  let rnd;
+  let rnd2;
+  let rnd2b;
+  let rnd2c;
+  let rnd2d;
+  let rnd2e;
+  let rnd3;
+  let rnd3b;
+  let rnd3c;
   let rnd;
   let rnd2;
   let rnd3;
@@ -14,8 +25,7 @@ export default function dugs() {
   const nm4 = ['', '', '', 'd', 'hx', 'n', 's', 'x'];
   const nm6 = ['', '', 'a', 'e', 'i', 'o', 'u'];
   const nm7 = ['d', 'n', 'r', 's'];
-  const i = Math.floor(Math.random() * 10);
-  {
+  const i = Math.floor(Math.random() * 10); {
     rnd = Math.floor(Math.random() * nm1.length);
     rnd2 = Math.floor(Math.random() * nm2.length);
     rnd3 = Math.floor(Math.random() * nm3.length);

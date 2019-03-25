@@ -1,4 +1,9 @@
 export default function ewoks() {
+  let namelast;
+  let names;
+  let rnd;
+  let rnd2;
+  let rnd3;
   let rnd;
   let rnd2;
   let rnd3;
@@ -23,8 +28,7 @@ export default function ewoks() {
   const nm7 = ['b', 'd', 'f', 'g', 'gr', 'gl', 'j', 'k', 'kr', 'l', 'm', 'n', 'r', 't', 'tr', 'w', 'z'];
   const nm8 = ['dr', 'dd', 'gr', 'k', 'kk', 'l', 'll', 'lr', 'm', 'mr', 'mn', 'n', 'nr', 'nl', 'nt', 'r', 'rr', 'rl', 'st', 'str'];
   const nm9 = ['c', 'ck', 'k', 'l', 'm', 'n', 'ng', 't'];
-  const i = Math.floor(Math.random() * 10);
-  {
+  const i = Math.floor(Math.random() * 10); {
     rnd6 = Math.floor(Math.random() * nm7.length);
     rnd7 = Math.floor(Math.random() * nm2.length);
     rnd8 = Math.floor(Math.random() * nm8.length);

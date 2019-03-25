@@ -1,4 +1,8 @@
 export default function batarians() {
+  let names;
+  let rnd;
+  let rnd2;
+  let rnd3;
   let rnd;
   let rnd2;
   let rnd3;
@@ -22,8 +26,7 @@ export default function batarians() {
   const nm6 = ['b', 'c', 'd', 'f', 'g', 'k', 'm', 'n', 'p', 'r', 's'];
   const nm7 = ['\'', ''];
   const nm8 = ['ba', 'b', 'bar', 'can', 'char', 'dah', 'drak', 'dor', 'gan', 'goh', 'gar', 'han', 'hal', 'h', 'kan', 'kk', 'lak', 'lok', 'lor', 'mak', 'mon', 'nak', 'nrek', 'prak', 'pos', 'rah', 'ral', 'rk', 'roh', 'rok', 'ros', 'rr', 'ss', 'star', 'th', 'tor', 'van', 'vran', 'war', 'wen'];
-  const nm9 = ['cor', 'gan', 'gar', 'grom', 'ko', 'kon', 'lem', 'lo', 'm', 'mak', 'mo', 'n', 'nk', 'no', 'po', 'por', 'prak', 'rag', 'rak', 'rek', 'rem', 'rk', 'rlak', 'rn', 'rok', 'ros', 'rvan', 'sk', 'srak', 'svan', 'svin', 'th', 'than', 'thar', 'thor', 'tin', 'to', 'tok', 'tor', 'y'];
-  {
+  const nm9 = ['cor', 'gan', 'gar', 'grom', 'ko', 'kon', 'lem', 'lo', 'm', 'mak', 'mo', 'n', 'nk', 'no', 'po', 'por', 'prak', 'rag', 'rak', 'rek', 'rem', 'rk', 'rlak', 'rn', 'rok', 'ros', 'rvan', 'sk', 'srak', 'svan', 'svin', 'th', 'than', 'thar', 'thor', 'tin', 'to', 'tok', 'tor', 'y']; {
     rnd = Math.floor(Math.random() * nm2.length);
     rnd2 = Math.floor(Math.random() * nm3.length);
     rnd3 = Math.floor(Math.random() * nm4.length);

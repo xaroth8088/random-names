@@ -1,4 +1,9 @@
 export default function iktotchis() {
+  let namelast;
+  let names;
+  let rnd;
+  let rnd2;
+  let rnd3;
   let rnd;
   let rnd2;
   let rnd3;
@@ -19,8 +24,7 @@ export default function iktotchis() {
   const nm6 = ['a', 'e', 'i', 'a', 'e', 'i', 'a', 'e', 'i', 'o', 'u', 'aa', 'ii'];
   const nm7 = ['d', 'f', 'h', 'j', 'l', 'm', 'n', 'r', 's', 'v', 'w', 'z'];
   const nm8 = ['', '', 'l', 'mm', 'n', 'r', 's'];
-  const i = Math.floor(Math.random() * 10);
-  {
+  const i = Math.floor(Math.random() * 10); {
     rnd6 = Math.floor(Math.random() * nm5.length);
     rnd7 = Math.floor(Math.random() * nm6.length);
     rnd8 = Math.floor(Math.random() * nm8.length);

@@ -1,4 +1,9 @@
 export default function species() {
+  let j;
+  let names;
+  let rnd;
+  let rnd2;
+  let rnd3;
   let rnd;
   let rnd2;
   let rnd3;
@@ -14,8 +19,7 @@ export default function species() {
   const nm7 = ['', '', '', '', '', '', 'c', 'd', 'f', 'g', 'h', 'k', 'l', 'm', 'n', 'p', 'r', 's', 't', 'x', 'c', 'd', 'f', 'g', 'h', 'k', 'l', 'm', 'n', 'p', 'r', 's', 't', 'x', 'ch', 'ck', 'th', 'gs', 'rd', 'rg', 'rk', 'rm', 'rn', 'rq', 'rs', 'rst', 'rx', 'ds', 'cs', 'fs', 'gs', 'ks', 'ls', 'ms', 'ns', 'ps', 'rs', 'ts', 'st', 'ph', 'sh', 'ln', 'lm', 'lk', 'ld', 'lt'];
   const nm8 = ['c', 'gian', 'lese', 'lian', 'n', 'nan', 'ne', 'nee', 'nes', 'nian', 'nin', 'no', 'nsian', 'r', 'rd', 'rn', 'se', 'sh', 't', 'te', 'vese', 'vian'];
   const check = ['anal', 'anus', 'arse', 'ass', 'balls', 'bastard', 'biatch', 'bitch', 'bollock', 'bollok', 'boner', 'boob', 'bugger', 'bum', 'butt', 'clitoris', 'cock', 'coon', 'crap', 'cunt', 'damn', 'dick', 'dildo', 'dyke', 'fag', 'feck', 'felching', 'fellate', 'fellatio', 'flange', 'fuck', 'gay', 'goddamn', 'homo', 'jackass', 'jerk', 'jizz', 'knobend', 'labia', 'muff', 'nigga', 'nigger', 'penis', 'piss', 'poop', 'prick', 'pube', 'pussy', 'queer', 'scrotum', 'sex', 'shit', 'slut', 'smegma', 'spunk', 'tit', 'tosser', 'turd', 'twat', 'vagina', 'wank', 'whore', 'wtf'];
-  const i = Math.floor(Math.random() * 10);
-  {
+  const i = Math.floor(Math.random() * 10); {
     rnd = Math.floor(Math.random() * nm1.length);
     rnd2 = Math.floor(Math.random() * nm2.length);
     rnd3 = Math.floor(Math.random() * nm3.length);

@@ -1,4 +1,5 @@
 export default function staffs() {
+  let result;
   const nm1 = (Math.random() * 60 | 0) + 160;
   const nm1b = (nm1 * 0.393701 | 0);
   const nm2 = ['elegant', 'exceptional', 'exclusive', 'expensive', 'extraordinary', 'first-class', 'first-rate', 'gorgeous', 'grand', 'magnificent', 'marvelous', 'primal', 'rare', 'refined', 'solid', 'superior', 'supreme', 'the finest', 'unique', 'wicked'];
@@ -22,8 +23,7 @@ export default function staffs() {
   const rnd11 = Math.floor(Math.random() * nm2.length);
   const rnd12 = Math.floor(Math.random() * nm8.length);
   const rnd13 = Math.floor(Math.random() * nm9.length);
-  while (rnd13 === rnd9) {
-  }
+  while (rnd13 === rnd9) {}
   const name = `${nm1} centimeters (${nm1b} inches) of ${nm2[rnd2]} ${nm3[rnd3]} form the base of this ${nm4[rnd4]} staff. ${nm5[rnd5]}, which has been ${nm6[rnd6]}.`;
   const name2 = `The bottom ends in ${nm7[rnd7]} made of ${nm8[rnd8]} and has been decorated with ${nm9[rnd9]}.`;
   const name3 = `The top is made out of ${nm2[rnd11]} ${nm8[rnd12]} and has been crafted into ${nm10[rnd10]}, which has been decorated with ${nm9[rnd13]}.`;

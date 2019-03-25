@@ -1,4 +1,9 @@
 export default function bahmis() {
+  let names;
+  let names1;
+  let names2;
+  let rnd;
+  let rnd2;
   let rnd;
   let rnd2;
   let names;

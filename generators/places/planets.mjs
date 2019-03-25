@@ -1,4 +1,8 @@
 export default function planets() {
+  let names;
+  let rnd;
+  let rnd2;
+  let rnd3;
   let rnd;
   let rnd2;
   let rnd3;
@@ -14,8 +18,7 @@ export default function planets() {
   const nm5 = ['turn', 'ter', 'nus', 'rus', 'tania', 'hiri', 'hines', 'gawa', 'nides', 'carro', 'rilia', 'stea', 'lia', 'lea', 'ria', 'nov', 'phus', 'mia', 'nerth', 'wei', 'ruta', 'tov', 'zuno', 'vis', 'lara', 'nia', 'liv', 'tera', 'gantu', 'yama', 'tune', 'ter', 'nus', 'cury', 'bos', 'pra', 'thea', 'nope', 'tis', 'clite'];
   const nm6 = ['una', 'ion', 'iea', 'iri', 'illes', 'ides', 'agua', 'olla', 'inda', 'eshan', 'oria', 'ilia', 'erth', 'arth', 'orth', 'oth', 'illon', 'ichi', 'ov', 'arvis', 'ara', 'ars', 'yke', 'yria', 'onoe', 'ippe', 'osie', 'one', 'ore', 'ade', 'adus', 'urn', 'ypso', 'ora', 'iuq', 'orix', 'apus', 'ion', 'eon', 'eron', 'ao', 'omia'];
   const nm7 = ['A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z', '0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', '1', '2', '3', '4', '5', '6', '7', '8', '9', '', '', '', '', '', '', '', '', '', '', '', '', '', ''];
-  const i = Math.floor(Math.random() * 10);
-  {
+  const i = Math.floor(Math.random() * 10); {
     if (i < 2) {
       rnd = Math.floor(Math.random() * nm1.length);
       rnd2 = Math.floor(Math.random() * nm2.length);

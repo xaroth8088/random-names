@@ -1,4 +1,7 @@
 export default function southeastAfricanTowns() {
+  let names;
+  let rnd;
+  let rnd2;
   let rnd;
   let rnd2;
   let names;
@@ -17,8 +20,7 @@ export default function southeastAfricanTowns() {
   /* Zimbabwe */
   const nm9 = ['Ba', 'Ban', 'Be', 'Bea', 'Bi', 'Bin', 'Bindu', 'Bu', 'Bula', 'Ce', 'Cen', 'Cente', 'Cha', 'Chaka', 'Che', 'Chegu', 'Chi', 'Chima', 'Chimani', 'Chin', 'Chipi', 'Chire', 'Chiru', 'Chitu', 'Chitun', 'Chiv', 'De', 'Do', 'Doro', 'Esi', 'Esigo', 'Fi', 'Fila', 'Gle', 'Go', 'Gok', 'Gwa', 'Gwan', 'Gwe', 'Ha', 'Hara', 'Hwa', 'Hwan', 'In', 'Insi', 'Inya', 'Ka', 'Kado', 'Kama', 'Kari', 'Karo', 'Karoi', 'Kwe', 'La', 'Lala', 'Lu', 'Lupa', 'Ma', 'Mache', 'Mad', 'Madzi', 'Maro', 'Maron', 'Mas', 'Masha', 'Masvi', 'Masvin', 'Mazo', 'Mha', 'Mhan', 'Mu', 'Mure', 'Mureh', 'Muta', 'Muto', 'Mvu', 'Mvur', 'No', 'Nor', 'Nya', 'Nyan', 'Nyazu', 'Od', 'Pen', 'Penha', 'Ra', 'Raffi', 'Raffin', 'Ru', 'Rusa', 'Sha', 'Sham', 'Shan', 'Shanga', 'Shu', 'Shuru', 'Zvi', 'Zvis', 'Zvisha'];
   const nm10 = ['ba', 'busi', 'ce', 'cheke', 'da', 'dale', 'dera', 'dge', 'dini', 'doma', 'du', 'dura', 'ga', 'gani', 'ge', 'go', 'godini', 'gora', 'goyi', 'gura', 'gutu', 'gwi', 'kari', 'ke', 'ket', 'ko', 'kwe', 'le', 'longa', 'ma', 'mani', 'nary', 'ne', 'ni', 'nimani', 'pane', 'panzi', 'pe', 'pinge', 'ra', 'rare', 're', 'redzi', 'rehwa', 'ri', 'riba', 'rice', 'roi', 'rowa', 'ru', 'rundu', 'ry', 'sape', 'shava', 'si', 'siza', 'tare', 'te', 'tenary', 'ti', 'tivi', 'toko', 'ton', 'tu', 'va', 'vane', 'vhu', 'vi', 'vingo', 'wa', 'wayo', 'we', 'wi', 'wiza', 'yati', 'yi', 'yo', 'za', 'zi', 'ziwa', 'zowe', 'zura'];
-  const i = Math.floor(Math.random() * 10);
-  {
+  const i = Math.floor(Math.random() * 10); {
     if (i < 2) {
       rnd = Math.floor(Math.random() * nm1.length);
       rnd2 = Math.floor(Math.random() * nm2.length);

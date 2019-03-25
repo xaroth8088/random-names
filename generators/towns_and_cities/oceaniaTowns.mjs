@@ -1,4 +1,8 @@
 export default function oceaniaTowns() {
+  let names;
+  let rnd;
+  let rnd2;
+  let rndb;
   let rnd;
   let rnd2;
   let names;
@@ -20,8 +24,7 @@ export default function oceaniaTowns() {
   /* Tonga */
   const nm11 = ['Ale', 'Anga', 'Faka', 'Fale', 'Fan', 'Fata', 'Fata\'u', 'Fatu', 'Fe', 'Fele', 'Feto', 'Fo', 'Foa', 'Fola', 'Fongo', 'Fonoi', 'Fonuai', 'Fotu', 'Ha\'a', 'Ha\'u', 'Hakau', 'Hakaua', 'Hala', 'Hamu', 'Have', 'Hihi', 'Ho', 'Hoi', 'Hoku', 'Holo', 'Hota\'', 'Hou', 'Hun', 'Ka', 'Kala', 'Kano', 'Kao', 'Kape', 'Kele', 'Kito', 'Ko', 'Kolo', 'Kotu', 'Kou', 'Lake', 'Lalo', 'Lapa', 'Lave', 'Leke', 'Lete', 'Li', 'Lifu', 'Lofa', 'Lon', 'Loto', 'Lua', 'Luen', 'Lulu', 'Lulun', 'Makau', 'Mala', 'Man', 'Mana', 'Manu', 'Masi', 'Mata', 'Mata\'a', 'Matan', 'Matu', 'Me', 'Mea', 'Mine', 'Mo\'u', 'Mo\'un', 'Mui', 'Nako', 'Navu', 'Neia', 'Nini', 'Niu', 'Niua', 'Nomu', 'Nu', 'Nuku', 'Ofo', 'Pan', 'Pe', 'Pele', 'Peta', 'Pu', 'Puko', 'Putu', 'Sapa\'a', 'Sikai', 'So', 'Ta', 'Tafa', 'Tafu', 'Tala', 'Tata', 'Tava', 'Te\'e', 'Tefi', 'Tele', 'To', 'Tofa', 'Ton', 'Tonga', 'Tongo', 'Tonu', 'Topue', 'Tu\'u', 'Tun', 'Uo', 'Uole', 'Uonu', 'Vai', 'Vao'];
   const nm12 = ['fahi', 'faiau', 'fanga', 'fesia', 'feva', 'fio', 'fisi', 'fo\'ou', 'foa', 'fonua', 'fua', 'fuiva', 'fuka', 'ga', 'ga\'one', 'gaha', 'gahu', 'gai', 'gale', 'gana', 'giake', 'go', 'goii', 'gua', 'ha\'a', 'hahake', 'hake', 'hau', 'hi', 'hifo', 'hihifo', 'hoko', 'ifo', 'ka', 'kakai', 'katolo', 'kauata', 'kelau', 'kepa', 'kili', 'kolo', 'ku', 'kuanga', 'kula', 'kulei', 'kulu', 'kupolu', 'kupule', 'lala', 'lalo', 'lamea', 'langa', 'lapo', 'lau', 'leka', 'leleka', 'leloa', 'leva', 'liku', 'lo', 'loa', 'lona', 'longa', 'lunga', 'ma', 'ma\'o', 'maka', 'mama\'o', 'manongi', 'mea', 'motu', 'mu', 'muka', 'mula', 'naka', 'namo', 'niva', 'noa', 'nongi', 'nua', 'nuaika', 'nuka', 'numea', 'paha', 'peka', 'poa', 'polu', 'pu', 'pule', 'punga', 'putapu', 'putua', 'sia', 'ta\'ane', 'tafa', 'tafu', 'tala', 'tani', 'tapu', 'teo\'o', 'to', 'toa', 'toka', 'tolo', 'tonga', 'tu', 'tu\'u', 'tua', 'tuku', 'tula', 'tumu', 'va', 'vili', 'viti'];
-  i = Math.floor(Math.random() * 12);
-  {
+  const i = Math.floor(Math.random() * 12); {
     if (i < 2) {
       rnd = Math.floor(Math.random() * nm1.length);
       rnd2 = Math.floor(Math.random() * nm2.length);

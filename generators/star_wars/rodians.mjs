@@ -1,4 +1,10 @@
 export default function rodians() {
+  let namelast;
+  let names;
+  let rnd;
+  let rnd2;
+  let rnd3;
+  let rnd5b;
   let rnd;
   let rnd2;
   let rnd3;
@@ -28,8 +34,7 @@ export default function rodians() {
   const nm10 = ['a', 'e', 'i', 'o', 'u', 'a', 'a', 'o', 'e', 'a', 'e', 'i', 'o', 'u', 'a', 'a', 'o', 'e', 'a', 'e', 'i', 'o', 'u', 'a', 'a', 'o', 'e', 'a', 'e', 'i', 'o', 'u', 'a', 'a', 'o', 'e', 'a', 'e', 'i', 'o', 'u', 'a', 'a', 'o', 'e', 'ee', 'ee', 'ee', 'ee', 'ee', 'ee', 'ee', 'ee', 'ai', 'ee', 'oo', 'iee', 'eaa', 'ia', 'io', 'aa', 'uo', 'y', 'ii', 'oa', 'yo', 'yi', 'ye'];
   const nm11 = ['b', 'c', 'ch', 'd', 'fr', 'g', 'gg', 'j', 'k', 'kc', 'kk', 'ks', 'l', 'ld', 'lk', 'ln', 'lz', 'm', 'ml', 'n', 'nc', 'nck', 'nd', 'ng', 'nk', 'nn', 'np', 'nt', 'nw', 'p', 'pk', 'pp', 'r', 'rm', 'rr', 'rt', 's', 'sk', 'sm', 'ss', 'st', 't', 'tr', 'v', 'vr', 'w', 'y', 'z'];
   const nm12 = ['', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', 'c', 'ch', 'd', 'ff', 'gg', 'ggs', 'gs', 'h', 'hn', 'hnt', 'ht', 'k', 'l', 'lb', 'll', 'ls', 'm', 'n', 'ng', 'nk', 'nn', 'ntt', 'nx', 'p', 'q', 'r', 'rk', 'rn', 'ro', 'rr', 'rs', 's', 'sh', 't', 'th', 'w', 'x', 'z'];
-  const i = Math.floor(Math.random() * 10);
-  {
+  const i = Math.floor(Math.random() * 10); {
     rnd7 = Math.floor(Math.random() * nm9.length);
     rnd8 = Math.floor(Math.random() * nm10.length);
     rnd10 = Math.floor(Math.random() * nm12.length);

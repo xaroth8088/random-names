@@ -1,4 +1,8 @@
 export default function drows() {
+  let names;
+  let rnd;
+  let rnd2;
+  let rnd3;
   let rnd;
   let rnd2;
   let rnd3;
@@ -21,8 +25,7 @@ export default function drows() {
   const namesSurRl = ['afin', 'ana', 'ani', 'ar', 'arn', 'ate', 'ath', 'duis', 'ervs', 'ep', 'ett', 'ghym', 'iryn', 'lyl', 'mtor', 'ndar', 'neld', 'rae', 'rahel', 'rret', 'sek', 'th', 'tlar', 't\'tar', 'tyl', 'und', 'urden', 'val', 'viir', 'zynge'];
   const namesSurFf = ['A\'Dar', 'Ab', 'Abb', 'Arg', 'Baenre', 'Belt', 'Blaer', 'Blund', 'Chaulss', 'Cob', 'Col', 'Cormr', 'D', 'Daev', 'Dal', 'Dhalm', 'Dhunn', 'Dil', 'Din', 'Dryaal', 'Duskr', 'Elpr', 'Faert', 'Fil', 'Gall', 'Glann', 'Glaur', 'H', 'Helv', 'Hunzr', 'Hyl', 'Ich', 'Ilal', 'Ill', 'Jhal', 'Juszt', 'Keteer', 'Khal', 'Kront\'t', 'Lhal', 'Luelt', 'Mizzr', 'Mlezz', 'N', 'Nir', 'Ol', 'Omr', 'Phil', 'Quav', 'Rhomd', 'Rrost', 'Seer', 'Ss', 'T', 'T\'', 'T\'s', 'Tanor\'Th', 'Tel', 'Tlin\'', 'Tlint', 'Ul', 'Vr', 'Vramm', 'Waegl', 'Xilt', 'Yaunt', 'Yril\'Lys', 'Zaphr', 'Zauv', 'Zol'];
   const namesSurFl = ['abar', 'abban', 'ach', 'aeir', 'ael', 'aen', 'aer', 'aerth', 'agh', 'agon', 'al', 'ala', 'ambra', 'ane', 'ar', 'arn', 'arr', 'arran', 'aryd', 'ass', 'ath', 'aulur', 'avar', 'azza', 'ear', 'ein', 'enna', 'esz', 'eztice', 'ifar', 'iir', 'iirn', 'iiryn', 'in', 'inath', 'inn', 'iom', 'ion\'lyr', 'iriy', 'is', 'istyn', 'ith', 'iwin', 'oara', 'oavae', 'ond', 'onrae', 'orel', 'orgh', 'oryn', 'orzza', 'ossz', 'uae', 'uan', 'uil', 'uin', 'une', 'ykur', 'yl', 'ylan', 'ym', 'yn', 'yr', 'yrr', 'yth'];
-  const i = Math.floor(Math.random() * 10);
-  {
+  const i = Math.floor(Math.random() * 10); {
     if (type === 1) {
       if (i < 4) {
         rnd = Math.floor(Math.random() * namesFemRf.length);

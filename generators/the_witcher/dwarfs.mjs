@@ -1,4 +1,9 @@
 export default function dwarfs() {
+  let names;
+  let rnd;
+  let rnd2;
+  let rnd3;
+  let lname;
   let rnd;
   let rnd2;
   let rnd3;
@@ -36,8 +41,7 @@ export default function dwarfs() {
   const nm19 = ['', 'c', 'cc', 'ck', 'cr', 'dn', 'g', 'gg', 'gl', 'gn', 'gr', 'hl', 'hlb', 'hln', 'hn', 'l', 'ld', 'lm', 'ln', 'lr', 'n', 'nd', 'ngv', 'nl', 'nm', 'nr', 'r', 'rd', 'rg', 'rl', 'rn', 'rt', 's', 'sr', 'ssl', 'st', 'tt', 'v', 'zd'];
   const nm20 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'au', 'ei', 'ia', 'ea', 'ai'];
   const nm21 = ['', '', '', '', '', 'ck', 'ggs', 'gs', 'l', 'ld', 'ls', 'lt', 'm', 'n', 'r', 'rd', 'rg', 's', 'ss', 'st', 't', 'y', 'ys'];
-  const i = Math.floor(Math.random() * 10);
-  {
+  const i = Math.floor(Math.random() * 10); {
     rnd8 = Math.floor(Math.random() * nm15.length);
     rnd9 = Math.floor(Math.random() * nm16.length);
     rnd10 = Math.floor(Math.random() * nm17.length);

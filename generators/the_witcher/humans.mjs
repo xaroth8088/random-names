@@ -1,4 +1,8 @@
 export default function humans() {
+  let names;
+  let rnd;
+  let rnd2;
+  let rnd3;
   let rnd;
   let rnd2;
   let rnd3;
@@ -21,8 +25,7 @@ export default function humans() {
   const nm11 = ['', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'ai', 'io', 'ei', 'ea', 'ae', 'ia', 'ue', 'ua'];
   const nm12 = ['', 'br', 'b', 'dh', 'd', 'dd', 'f', 'ff', 'fr', 'g', 'gh', 'gg', 'k', 'l', 'll', 'lm', 'ln', 'lv', 'n', 'nc', 'nfr', 'nn', 'pp', 'ph', 'pr', 'r', 'rg', 'rr', 's', 'ss', 'sh', 'tt', 'th', 'v', 'zk', 'z'];
   const nm14 = ['', '', '', '', '', '', '', '', '', '', '', '', '', '', '', 's', 'n', 'h', 'l', 'th'];
-  const i = Math.floor(Math.random() * 10);
-  {
+  const i = Math.floor(Math.random() * 10); {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm8.length);
       rnd2 = Math.floor(Math.random() * nm9.length);

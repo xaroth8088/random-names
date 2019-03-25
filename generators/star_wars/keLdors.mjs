@@ -1,4 +1,10 @@
 export default function keLdors() {
+  let namelast;
+  let names;
+  let rnd;
+  let rnd2;
+  let rnd3;
+  let rnd5b;
   let rnd;
   let rnd2;
   let rnd3;
@@ -28,8 +34,7 @@ export default function keLdors() {
   const nm10 = ['a', 'e', 'i', 'o', 'u', 'a', 'a', 'e', 'i', 'o', 'u', 'a', 'a', 'e', 'i', 'o', 'u', 'a', 'a', 'e', 'i', 'o', 'u', 'a', 'a', 'e', 'i', 'o', 'u', 'a', 'ii', 'ai', 'oo', 'aa', 'uu'];
   const nm11 = ['c', 'ch', 'g', 'hr', 'k', 'kr', 'l', 'lr', 'mn', 'n', 'nd', 'r', 'rr', 'rv', 's', 'sz', 'st', 't', 'tch', 'z'];
   const nm12 = ['', '', '', '', '', '', '', '', 'c', 'k', 'l', 'ln', 'mm', 'n', 'ng', 'r', 's', 'ss', 'w', 'zz'];
-  const i = Math.floor(Math.random() * 10);
-  {
+  const i = Math.floor(Math.random() * 10); {
     rnd7 = Math.floor(Math.random() * nm9.length);
     rnd8 = Math.floor(Math.random() * nm10.length);
     rnd10 = Math.floor(Math.random() * nm12.length);

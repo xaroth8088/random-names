@@ -1,4 +1,10 @@
 export default function forsworns() {
+  let nameLast;
+  let names;
+  let rnd;
+  let rnd2;
+  let rnd3;
+  let rnd8a;
   let rnd;
   let rnd2;
   let rnd3;
@@ -25,8 +31,7 @@ export default function forsworns() {
   const nm8 = ['d', 'f', 'g', 'h', 'l', 'm', 'n', 'r', 's', 't', 'v', 'w', 'z'];
   const nm9 = ['', '', '', '', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'o'];
   const nm10 = ['', '', '', '', '', '', '', '', '', '', '', '', '', '', '', 'b', 'br', 'd', 'dr', 'g', 'gr', 'h', 'k', 'm', 'n', 'p', 'pr', 'r', 's', 't', 'tr', 'v', 'w'];
-  const i = Math.floor(Math.random() * 10);
-  {
+  const i = Math.floor(Math.random() * 10); {
     rnd8a = Math.floor(Math.random() * nm10.length);
     rnd8 = Math.floor(Math.random() * nm6.length);
     rnd9 = Math.floor(Math.random() * nm3.length);

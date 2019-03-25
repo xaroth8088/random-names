@@ -1,4 +1,15 @@
 export default function cathars() {
+  let names;
+  let rn;
+  let rn2;
+  let rn3;
+  let rn4;
+  let rn5;
+  let rn6;
+  let rnd;
+  let rnd2;
+  let rnd3;
+  let lName;
   let rnd;
   let rnd2;
   let rnd3;
@@ -22,8 +33,7 @@ export default function cathars() {
   const nm12 = ['d', 'l', 'm', 'n', 's', 'sh', 'rg', 'z'];
   const nm13 = ['', '', '', 'g', 'k', 'l', 'm', 'n', 'r', 's', 't'];
   const nm14 = ['', '', '', 'h'];
-  const i = Math.floor(Math.random() * 10);
-  {
+  const i = Math.floor(Math.random() * 10); {
     if (i < 5) {
       rn = Math.floor(Math.random() * nm10.length);
       rn2 = Math.floor(Math.random() * nm14.length);

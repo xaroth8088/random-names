@@ -1,4 +1,8 @@
 export default function warriorNicknames() {
+  let names;
+  let rnd;
+  let rnd2;
+  let rnd3;
   let rnd;
   let rnd2;
   let
@@ -8,8 +12,7 @@ export default function warriorNicknames() {
   const nm2 = ['Battle', 'Bear', 'Blood', 'Bone', 'Boulder', 'Bright', 'Dark', 'Dead', 'Death', 'Demon', 'Doom', 'Dragon', 'Ember', 'Fire', 'Fist', 'Frost', 'Fuse', 'Giant', 'Gold', 'Gore', 'Grand', 'Great', 'Hell', 'Iron', 'Light', 'Mammoth', 'Molten', 'Night', 'Phoenix', 'Proud', 'Rage', 'Raven', 'Red', 'Rock', 'Rumble', 'Shadow', 'Sharp', 'Shield', 'Silent', 'Silver', 'Single', 'Skull', 'Spirit', 'Steel', 'Stone', 'Storm', 'Stout', 'Strong', 'Swift', 'Thunder', 'True', 'Void', 'War', 'Wild', 'Wolf'];
   const nm3 = ['bane', 'blade', 'blood', 'blow', 'bolt', 'bow', 'breaker', 'brow', 'chaser', 'claw', 'cleaver', 'crest', 'cut', 'eye', 'fang', 'fist', 'flayer', 'fury', 'gaze', 'grim', 'grimace', 'grip', 'hair', 'hallow', 'hammer', 'hand', 'head', 'heart', 'helm', 'hide', 'mane', 'mantle', 'might', 'pelt', 'rage', 'roar', 'scar', 'scream', 'shade', 'shadow', 'shield', 'shout', 'snarl', 'song', 'sorrow', 'stare', 'stride', 'strike', 'sword', 'sworn', 'talon', 'thorn', 'tongue', 'visage'];
   const nm4 = ['', '', ' '];
-  const i = Math.floor(Math.random() * 10);
-  {
+  const i = Math.floor(Math.random() * 10); {
     if (i < 5) {
       rnd = Math.floor(Math.random() * nm1.length);
       names = nm1[rnd];

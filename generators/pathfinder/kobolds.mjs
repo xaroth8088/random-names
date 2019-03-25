@@ -1,4 +1,8 @@
 export default function kobolds() {
+  let names;
+  let rnd;
+  let rnd2;
+  let rnd3;
   let rnd;
   let rnd2;
   let rnd3;
@@ -16,8 +20,7 @@ export default function kobolds() {
   const nm5 = ['', '', '', '', 'd', 'f', 'g', 'h', 'l', 'm', 'n', 'p', 'r', 's', 't', 'v', 'z'];
   const nm7 = ['d', 'dk', 'dr', 'gr', 'gl', 'g', 'h', 'hr', 'k', 'kr', 'kkr', 'ks', 'l', 'lr', 'lk', 'ls', 'r', 'rk', 'rs', 'rg', 'rl', 's', 'ss', 'sr', 'sk', 'sg', 'sgr', 'skr', 'ssr', 'tr', 'th', 'thr', 'z', 'zr', 'zk', 'zn', 'zl'];
   const nm8 = ['', '', '', '', '', '', '', '', '', '', '', '', '', '', '', 'h', 'k', 'l', 'n', 'm', 'r', 's'];
-  const i = Math.floor(Math.random() * 10);
-  {
+  const i = Math.floor(Math.random() * 10); {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm5.length);
       rnd2 = Math.floor(Math.random() * nm2.length);

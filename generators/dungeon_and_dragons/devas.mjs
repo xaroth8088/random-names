@@ -1,4 +1,7 @@
 export default function devas() {
+  let names;
+  let rnd;
+  let rnd2;
   let rnd;
   let rnd2;
   let names;
@@ -9,8 +12,7 @@ export default function devas() {
   const namesMale = ['Adiah', 'Ansis', 'Ayab', 'Bavak', 'Beriah', 'Eben', 'Elyas', 'Galad', 'Gamal', 'Hiyal', 'Iannes', 'Kerem', 'Mahar', 'Marach', 'Mathas', 'Natan', 'Nehem', 'Oris', 'Raham', 'Ronen', 'Samel', 'Sered', 'Tavar', 'Vered', 'Zachar'];
   const namesMaleF = ['Ad', 'Ans', 'Ars', 'Ay', 'Bav', 'Ber', 'Dar', 'Eb', 'Ely', 'Er', 'Ery', 'Gal', 'Gam', 'Gar', 'Hiy', 'Iann', 'Ker', 'Mah', 'Mahr', 'Man', 'Mar', 'Math', 'Mor', 'Nat', 'Neh', 'Ner', 'Ob', 'Or', 'Rah', 'Ron', 'Sam', 'Sav', 'Ser', 'Sor', 'Tar', 'Tav', 'Vat', 'Ver', 'Zach', 'Zay'];
   const namesMaleL = ['ab', 'ach', 'ad', 'ahk', 'ahm', 'ahn', 'ahr', 'ak', 'al', 'am', 'an', 'ar', 'as', 'ath', 'eb', 'ech', 'ed', 'ehr', 'ek', 'el', 'em', 'en', 'er', 'es', 'iah', 'ihm', 'ihn', 'im', 'in', 'ir', 'is'];
-  const i = Math.floor(Math.random() * 10);
-  {
+  const i = Math.floor(Math.random() * 10); {
     if (type === 1) {
       if (i < 9) {
         rnd = Math.floor(Math.random() * namesFemF.length);

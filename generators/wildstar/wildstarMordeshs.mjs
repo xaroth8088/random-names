@@ -1,4 +1,9 @@
 export default function wildstarMordeshs() {
+  let name;
+  let rnd;
+  let rnd2;
+  let rnd3;
+  let lname;
   let rnd;
   let rnd2;
   let rnd3;
@@ -14,8 +19,7 @@ export default function wildstarMordeshs() {
   const nm4 = ['a', 'e', 'i', 'o', 'u', 'a', 'o', 'a', 'e', 'i', 'o', 'u', 'a', 'o', 'a', 'e', 'i', 'o', 'u', 'a', 'o', 'a', 'e', 'i', 'o', 'u', 'a', 'o', 'a', 'e', 'i', 'o', 'u', 'a', 'o', 'a', 'e', 'i', 'o', 'u', 'a', 'o', 'a', 'e', 'i', 'o', 'u', 'a', 'o', 'a', 'e', 'i', 'o', 'u', 'a', 'o', 'ie', 'y', 'ui', 'ou', 'ee', 'ei', 'ia'];
   const nm5 = ['b', 'bk', 'c', 'ch', 'd', 'dn', 'fk', 'g', 'h', 'hm', 'j', 'k', 'l', 'lg', 'll', 'lm', 'm', 'n', 'nd', 'nk', 'nt', 'r', 'rb', 'rg', 'rk', 'rl', 'rn', 'rp', 'rsh', 'rt', 's', 'sk', 'st', 'tr', 'tv', 'tz', 'v', 'vc', 'vk', 'vr', 'vsk', 'w', 'wk', 'z', 'zl', 'b', 'c', 'd', 'g', 'h', 'j', 'k', 'l', 'm', 'n', 'r', 's', 'v', 'z', 'b', 'c', 'd', 'g', 'h', 'j', 'k', 'l', 'm', 'n', 'r', 's', 'v', 'z', 'b', 'c', 'd', 'g', 'h', 'j', 'k', 'l', 'm', 'n', 'r', 's', 'v', 'z', 'b', 'c', 'd', 'g', 'h', 'j', 'k', 'l', 'm', 'n', 'r', 's', 'v', 'z'];
   const nm6 = ['c', 'ch', 'cz', 'k', 'l', 'll', 'n', 'rz', 's', 'ts', 'tz', 'v', 'w'];
-  const i = Math.floor(Math.random() * 10);
-  {
+  const i = Math.floor(Math.random() * 10); {
     rnd = Math.floor(Math.random() * nm3.length);
     rnd2 = Math.floor(Math.random() * nm4.length);
     rnd3 = Math.floor(Math.random() * nm5.length);

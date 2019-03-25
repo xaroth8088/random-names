@@ -1,4 +1,8 @@
 export default function fantasyAnimals() {
+  let nm;
+  let rnd;
+  let rnd2;
+  let rnd3;
   let rnd;
   let rnd2;
   let rnd3;
@@ -15,8 +19,7 @@ export default function fantasyAnimals() {
   const nm7 = ['abura', 'aby', 'acle', 'acuda', 'adger', 'adillo', 'alo', 'amander', 'amel', 'ander', 'anzee', 'api', 'arak', 'aroo', 'aros', 'atee', 'atross', 'ecta', 'een', 'ela', 'elope', 'ena', 'eon', 'ephant', 'erine', 'erpillar', 'eton', 'ey', 'ibia', 'ibou', 'ican', 'ida', 'igator', 'illa', 'ing', 'ingale', 'ingo', 'ish', 'itar', 'eleon', 'ypus', 'ite', 'ium', 'oceros', 'oda', 'odile', 'odo', 'onite', 'oon', 'oose', 'opotamus', 'opus', 'ora', 'orb', 'os', 'osaur', 'ossum', 'oth', 'owary', 'oyote', 'uar', 'uin', 'uito', 'upine', 'utor', 'ybara', 'yte'];
   const nm8 = ['bat', 'bil', 'boon', 'bug', 'dine', 'fly', 'meleon', 'guin', 'hawk', 'hog', 'hopper', 'key', 'king', 'ling', 'madillo', 'mingo', 'mite', 'nea', 'pecker', 'phant', 'phin', 'pie', 'pion', 'quito', 'raffe', 'ray', 'rilla', 'roach', 'ron', 'sel', 'ster', 'tile', 'topus', 'vark', 'whale', 'wing', 'zelle'];
   const nm9 = ['b', 'c', 'd', 'f', 'g', 'k', 'l', 'm', 'n', 'p', 'q', 'r', 's', 't', 'v', 'w', 'x', 'z', 'b', 'c', 'd', 'f', 'g', 'k', 'l', 'm', 'n', 'p', 'q', 'r', 's', 't', 'v', 'w', 'x', 'z', 'br', 'cr', 'dr', 'gr', 'kr', 'pr', 'sr', 'st', 'str', 'bl', 'cl', 'fl', 'gl', 'kl', 'pl', 'sl', 'vl'];
-  const i = Math.floor(Math.random() * 10);
-  {
+  const i = Math.floor(Math.random() * 10); {
     if (i < 2) {
       rnd = Math.floor(Math.random() * nm1.length);
       rnd2 = Math.floor(Math.random() * nm2.length);

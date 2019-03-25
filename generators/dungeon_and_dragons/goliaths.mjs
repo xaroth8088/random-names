@@ -1,4 +1,8 @@
 export default function goliaths() {
+  let names;
+  let rnd;
+  let rnd2;
+  let rnd3;
   let rnd;
   let rnd2;
   let rnd3;
@@ -13,8 +17,7 @@ export default function goliaths() {
   const namesMaleL = ['gak', 'gal', 'gan', 'gath', 'ghan', 'gith', 'glath', 'gun', 'kan', 'kein', 'khal', 'kin', 'kon', 'lath', 'lig', 'lok', 'mahg', 'mahk', 'mahl', 'mak', 'man', 'mith', 'mul', 'nak', 'nath', 'nihl', 'noth', 'path', 'phak', 'thag', 'thak', 'tham', 'thi', 'thok', 'veith', 'vek', 'vhal', 'vhik', 'vith', 'voi'];
   const namesMid = ['Adeptweaver', 'Bearfinder', 'Bearkiller', 'Bearvigor', 'Braveguard', 'Braveheart', 'Brightheart', 'Dawncaller', 'Daydreamer', 'Deerchaser', 'Deerfrightner', 'Deerhunter', 'Deerstalker', 'Dreamwanderer', 'Fearless', 'Flintfinder', 'Flowerpicker', 'Foodfinder', 'Foodmaker', 'Frightheart', 'Goatherder', 'Goatwatcher', 'Hardworker', 'Hidetanner', 'Highclimber', 'Honestheart', 'Horncarver', 'Keeneye', 'Keenshot', 'Keenwatcher', 'Lonehunter', 'Lonewalker', 'Longleaper', 'Lowlander', 'Lumberbearer', 'Lumberhauler', 'Mastercook', 'Messenger', 'Minddrifter', 'Mountainclimber', 'Nightrunner', 'Nightwarrior', 'Rainwatcher', 'Riverjumper', 'Rockbreaker', 'Rocksmasher', 'Rootfinder', 'Rootsmasher', 'Silentstalker', 'Silentwalker', 'Skywatcher', 'Slywalker', 'Smartleader', 'Steadyhand', 'Stonebreaker', 'Stormwatcher', 'Stronghunter', 'Strongleader', 'Strongwalker', 'Swiftaid', 'Swifthunter', 'Swiftrunner', 'Swiftstriker', 'Swiftwalker', 'Threadtwister', 'Thunderfist', 'Treelogger', 'Tribeguard', 'Truefriend', 'Truthspeaker', 'Wanderlost', 'Wildfinder', 'Wildstalker', 'Wisewalker', 'Woundmender'];
   const namesSurF = ['Agu-Ul', 'Agu-V', 'Anakal', 'Apuna-M', 'Athun', 'Egena-V', 'Egum', 'Elan', 'Ganu-M', 'Gathak', 'Gean', 'Inul', 'Kalag', 'Kaluk', 'Katho-Ol', 'Kolae-G', 'Kolak', 'Kulan', 'Kulum', 'Lakum', 'Maluk', 'Munak', 'Muthal', 'Nalak', 'Nola-K', 'Nugal', 'Nulak', 'Ogol', 'Oveth', 'Thenal', 'Thul', 'Thunuk', 'Ugun', 'Uthenu-K', 'Vaimei-L', 'Valu-N', 'Vathun', 'Veom', 'Vuma-Th', 'Vunak'];
-  const namesSurL = ['aga', 'ageane', 'akane', 'akanu', 'akume', 'alathi', 'amino', 'amune', 'anathi', 'atake', 'athai', 'athala', 'atho', 'avea', 'avi', 'avone', 'eaku', 'ekali', 'elo', 'iaga', 'iago', 'iala', 'iano', 'igala', 'igane', 'igano', 'igo', 'igone', 'ileana', 'ithino', 'olake', 'ugate', 'ugoni', 'ukane', 'ukate', 'ukena', 'ulane', 'upine', 'utha', 'uthea'];
-  {
+  const namesSurL = ['aga', 'ageane', 'akane', 'akanu', 'akume', 'alathi', 'amino', 'amune', 'anathi', 'atake', 'athai', 'athala', 'atho', 'avea', 'avi', 'avone', 'eaku', 'ekali', 'elo', 'iaga', 'iago', 'iala', 'iano', 'igala', 'igane', 'igano', 'igo', 'igone', 'ileana', 'ithino', 'olake', 'ugate', 'ugoni', 'ukane', 'ukate', 'ukena', 'ulane', 'upine', 'utha', 'uthea']; {
     if (type === 1) {
       rnd = Math.floor(Math.random() * namesFemF.length);
       rnd2 = Math.floor(Math.random() * namesFemL.length);

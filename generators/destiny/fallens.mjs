@@ -1,4 +1,8 @@
 export default function fallens() {
+  let names;
+  let rnd;
+  let rnd2;
+  let rnd3;
   let rnd;
   let rnd2;
   let rnd3;
@@ -11,8 +15,7 @@ export default function fallens() {
   const nm2 = ['a', 'e', 'i', 'o', 'y'];
   const nm3 = ['g', 'gr', 'k', 'kl', 'kn', 'kr', 'ks', 'l', 'ld', 'lkr', 'ltr', 'lv', 'lz', 'p', 'r', 'rk', 'rl', 'rrh', 'sg', 'sgr', 'sk', 'skr', 'str', 'thr', 'tk', 'tr', 'v', 'vg', 'vk', 'vr'];
   const nm4 = ['k', 'ks', 'ks', 'ks', 'n', 'r', 'rk', 's', 's', 's', 'sk'];
-  const i = Math.floor(Math.random() * 10);
-  {
+  const i = Math.floor(Math.random() * 10); {
     rnd = Math.floor(Math.random() * nm1.length);
     rnd2 = Math.floor(Math.random() * nm2.length);
     rnd3 = Math.floor(Math.random() * nm3.length);

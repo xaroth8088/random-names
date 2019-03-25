@@ -1,4 +1,8 @@
 export default function sylphs() {
+  let names;
+  let rnd;
+  let rnd2;
+  let rnd3;
   let rnd;
   let rnd2;
   let rnd3;
@@ -17,8 +21,7 @@ export default function sylphs() {
   const nm6 = ['a', 'e', 'i', 'a', 'e', 'i', 'a', 'e', 'i', 'a', 'e', 'i', 'a', 'e', 'i', 'a', 'a', 'a', 'ee', 'aa'];
   const nm7 = ['d', 'f', 'ff', 'h', 'l', 'll', 'm', 'mm', 'n', 'nn', 's', 'ss', 'v', 'y', 'w'];
   const nm8 = ['', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', 'h', 'm', 'n', 'sh'];
-  const i = Math.floor(Math.random() * 10);
-  {
+  const i = Math.floor(Math.random() * 10); {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm5.length);
       rnd2 = Math.floor(Math.random() * nm6.length);

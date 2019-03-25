@@ -1,4 +1,8 @@
 export default function battlefields() {
+  let result;
+  let rnd2b;
+  let rnd2c;
+  let rnd3b;
   const nm1 = ['field', 'forest', 'farm field', 'beach', 'village', 'town', 'city'];
   const nm2 = ['bodies', 'blood', 'gore', 'suits', 'weapons', 'shells', 'carnage', 'wounded fighters', 'destruction'];
   const nm3 = ['pink', 'silver', 'brown', 'blue', 'black', 'gray', 'khaki'];

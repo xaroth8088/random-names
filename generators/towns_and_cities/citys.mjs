@@ -1,4 +1,7 @@
 export default function citys() {
+  let names;
+  let rnd2;
+  let rnd3;
   let rnd0;
   let rnd1;
   let rnd2;
@@ -15,8 +18,7 @@ export default function citys() {
   const names5 = ['c', 'd', 'f', 'h', 'k', 'l', 'm', 'n', 'p', 'r', 's', 't', 'x', 'y', '', '', '', '', '', '', '', '', '', '', '', '', '', '', ''];
   const names6 = ['aco', 'ada', 'adena', 'ago', 'agos', 'aka', 'ale', 'alo', 'am', 'anbu', 'ance', 'and', 'ando', 'ane', 'ans', 'anta', 'arc', 'ard', 'ares', 'ario', 'ark', 'aso', 'athe', 'eah', 'edo', 'ego', 'eigh', 'eim', 'eka', 'eles', 'eley', 'ence', 'ens', 'ento', 'erton', 'ery', 'esa', 'ester', 'ey', 'ia', 'ico', 'ido', 'ila', 'ille', 'in', 'inas', 'ine', 'ing', 'irie', 'ison', 'ita', 'ock', 'odon', 'oit', 'ok', 'olis', 'olk', 'oln', 'ona', 'oni', 'onio', 'ont', 'ora', 'ord', 'ore', 'oria', 'ork', 'osa', 'ose', 'ouis', 'ouver', 'ul', 'urg', 'urgh', 'ury'];
   const names7 = ['bert', 'bridge', 'burg', 'burgh', 'burn', 'bury', 'bus', 'by', 'caster', 'cester', 'chester', 'dale', 'dence', 'diff', 'ding', 'don', 'fast', 'field', 'ford', 'gan', 'gas', 'gate', 'gend', 'ginia', 'gow', 'ham', 'hull', 'land', 'las', 'ledo', 'lens', 'ling', 'mery', 'mond', 'mont', 'more', 'mouth', 'nard', 'phia', 'phis', 'polis', 'pool', 'port', 'pus', 'ridge', 'rith', 'ron', 'rora', 'ross', 'rough', 'sa', 'sall', 'sas', 'sea', 'set', 'sey', 'shire', 'son', 'stead', 'stin', 'ta', 'tin', 'tol', 'ton', 'vale', 'ver', 'ville', 'vine', 'ving', 'well', 'wood'];
-  const i = Math.floor(Math.random() * 10);
-  {
+  const i = Math.floor(Math.random() * 10); {
     if (i < 3) {
       rnd0 = Math.floor(Math.random() * names1.length);
       rnd1 = Math.floor(Math.random() * names2.length);

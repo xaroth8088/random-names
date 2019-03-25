@@ -1,4 +1,8 @@
 export default function temples() {
+  let names;
+  let rnd;
+  let rnd2;
+  let rnd3;
   let rnd;
   let rnd2;
   let rnd3;
@@ -18,8 +22,7 @@ export default function temples() {
   const names10 = ['agi', 'aldir', 'aos', 'arus', 'borh', 'bris', 'bum', 'bus', 'dall', 'dar', 'darr', 'des', 'dis', 'dite', 'dohr', 'don', 'dos', 'dros', 'dum', 'dur', 'emis', 'enar', 'esis', 'eus', 'eyar', 'eyr', 'her', 'ion', 'ione', 'ius', 'jun', 'ldir', 'lios', 'lo', 'lous', 'mes', 'mir', 'mjir', 'mos', 'mus', 'nia', 'nir', 'nos', 'nus', 'ohr', 'orr', 'rasil', 'reus', 'ros', 'ruer', 'rus', 'ses', 'stus', 'tar', 'tarr', 'teus', 'thar', 'ther', 'tia', 'ton', 'tos', 'tyx', 'ysus'];
   const names11 = ['Amaranthine', 'Ancestral', 'Ancient', 'Angel', 'Angelic', 'Animus', 'Argent', 'Astral', 'August', 'Azure', 'Blessed', 'Blue', 'Bright', 'Cardinal', 'Celestial', 'Ceremonial', 'Ceremony', 'Cerulean', 'Clairvoyance', 'Corrupted', 'Crying', 'Dark', 'Death', 'Devout', 'Divine', 'Elder', 'Eternal', 'Ethereal', 'Exalted', 'Fading', 'Father', 'Foul', 'Ghost', 'Glowing', 'Golden', 'Guilty', 'Hallowed', 'Harbinger', 'Heavenly', 'Herald', 'Holy', 'Honor', 'Immortal', 'Impious', 'Impure', 'Ivory', 'Legendary', 'Light', 'Lucent', 'Luminescent', 'Matriarch', 'Mirror', 'Mother', 'Mythic', 'Noble', 'Omen', 'Oracle', 'Origin', 'Pale', 'Parent', 'Patriarch', 'Pearl', 'Perpetual', 'Phantom', 'Phoenix', 'Pious', 'Premonition', 'Primal', 'Prophecy', 'Prophet', 'Pure', 'Putrid', 'Radiant', 'Red', 'Revelation', 'Revered', 'Righteous', 'Sacred', 'Sanctified', 'Sanguine', 'Shadow', 'Silver', 'Solemn', 'Soul', 'Source', 'Spirit', 'Tainted', 'Timeless', 'Tribal', 'True', 'Twin', 'Unholy', 'Venerable', 'Vile', 'Virtuous', 'Vitality', 'Weeping', 'White', 'Wicked', 'Wisdom'];
   const names12 = ['Altar', 'Basin', 'Beach', 'Boulder', 'Brook', 'Burials', 'Catacombs', 'Cave', 'Cavern', 'Chamber', 'Chapel', 'Church', 'Cliff', 'Coast', 'Column', 'Crag', 'Creek', 'Crypts', 'Crystal', 'Den', 'Enclave', 'Estuary', 'Field', 'Fjord', 'Flowers', 'Forest', 'Fountain', 'Garden', 'Gazebo', 'Geyser', 'Grave', 'Graves', 'Grotto', 'Grove', 'Hill', 'Hot Spring', 'Island', 'Isle', 'Jungle', 'Lagoon', 'Lake', 'Maple', 'Marsh', 'Meadow', 'Menhir', 'Monolith', 'Monument', 'Mosque', 'Mountain', 'Oak', 'Oasis', 'Obelisk', 'Orchard', 'Pagoda', 'Pantheon', 'Pasture', 'Peak', 'Pillar', 'Pillars', 'Pinnacle', 'Pond', 'Pool', 'Pyramid', 'Realm', 'Reef', 'Reliquary', 'Ridge', 'River', 'Rock', 'Rocks', 'Sanctuary', 'Sanctum', 'Shore', 'Shrine', 'Slab', 'Statue', 'Stone', 'Summit', 'Synagogue', 'Temple', 'Terrace', 'Thicket', 'Tomb', 'Topiary', 'Totem', 'Tower', 'Tree', 'Trees', 'Vertex', 'Willow', 'Woods', 'Yew'];
-  const i = Math.floor(Math.random() * 10);
-  {
+  const i = Math.floor(Math.random() * 10); {
     if (i < 3) {
       rnd = Math.floor(Math.random() * names5.length);
       rnd2 = Math.floor(Math.random() * names6.length);

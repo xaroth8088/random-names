@@ -1,4 +1,8 @@
 export default function angels() {
+  let names;
+  let rnd;
+  let rnd2;
+  let rnd3;
   let rnd;
   let rnd2;
   let rnd3;
@@ -16,8 +20,7 @@ export default function angels() {
   const nm6 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'ae', 'ai', 'au'];
   const nm7 = ['br', 'c', 'dr', 'dy', 'f', 'g', 'gh', 'gl', 'hn', 'hr', 'l', 'll', 'lth', 'ls', 'lz', 'ln', 'lm', 'lf', 'm', 'mr', 'ml', 'mn', 'mph', 'nl', 'ny', 'nph', 'nd', 'r', 'rd', 's', 'sh', 'sr', 'th', 'z'];
   const nm8 = ['el', 'ael', 'il', 'on', 'uen', 'uel', 'eil', 'iel', 'is', 'ith', 'oelle', 'oenne', 'aelle'];
-  const i = Math.floor(Math.random() * 10);
-  {
+  const i = Math.floor(Math.random() * 10); {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm5.length);
       rnd2 = Math.floor(Math.random() * nm6.length);

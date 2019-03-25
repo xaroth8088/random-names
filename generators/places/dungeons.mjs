@@ -1,4 +1,8 @@
 export default function dungeons() {
+  let names;
+  let rnd;
+  let rnd2;
+  let rnd3;
   let rnd;
   let rnd2;
   let rnd3;
@@ -9,8 +13,7 @@ export default function dungeons() {
   const nm2 = ['Burrows', 'Catacombs', 'Caverns', 'Cells', 'Chambers', 'Crypt', 'Delves', 'Dungeon', 'Grotto', 'Haunt', 'Labyrinth', 'Lair', 'Maze', 'Pits', 'Point', 'Quarters', 'Tombs', 'Tunnels', 'Vault'];
   const nm3 = ['Black', 'White', 'Silver', 'Golden', 'Crystal', 'Fallen', 'Ghost', 'Phantom', 'Hidden', 'Secret', 'Hopeless', 'Forsaken', 'Gentle', 'Chaotic', 'Conquered', 'Burning', 'Poisoned', 'Whispering', 'Mourning', 'Crying', 'Lost', 'Infernal', 'Vanished', 'Rejected', 'Neglected', 'Shunned', 'Impostor', 'Renegade', 'Betrayed', 'Vanquished', 'Burning', 'Frozen', 'Destroyed', 'Cursed', 'Ancient', 'Obsidian', 'Ebon', 'Forbidden', 'Lonely', 'Nameless', 'Dark', 'Cold', 'Haunted', 'Forgotten', 'Scarlet', 'Shrouded', 'Uncanny', 'Unspoken', 'Vanishing', 'Nightmare', 'Mystic', 'Mythic', 'Enigmatic', 'Doomed', 'Death\'s', 'Spirit', 'Spirit\'s', 'Unknown', 'Shadow', 'Elemental', 'Savage', 'Storm', 'Thunder', 'Barbaric', 'Cruel', 'Brutal', 'Blooded', 'Ruthless', 'Raging', 'Furious', 'Mad', 'Granite', 'Dishonored', 'Perished'];
   const nm4 = ['Arachnid', 'Army', 'Basilisk', 'Bat', 'Bear', 'Cult', 'Desert', 'Dragon', 'Eagle', 'Elf', 'Emperor', 'Forest', 'Giant', 'Goblin', 'Guardian', 'Horsemen', 'Hound', 'Hunter', 'Jungle', 'King', 'Knight', 'Legion', 'Leopard', 'Lion', 'Mage', 'Marsh', 'Monk', 'Morass', 'Mountain', 'Occult', 'Ogre', 'Oracle', 'Orc', 'Paladin', 'Panther', 'Phoenix', 'Priest', 'Queen', 'Raven', 'Scorpion', 'Serpent', 'Soldier', 'Spider', 'Swamp', 'Tiger', 'Warrior', 'Widow', 'Witch', 'Wizard', 'Warlord', 'Wolf'];
-  const i = Math.floor(Math.random() * 10);
-  {
+  const i = Math.floor(Math.random() * 10); {
     rnd2 = Math.floor(Math.random() * nm2.length);
     if (i < 4) {
       rnd3 = Math.floor(Math.random() * nm3.length);

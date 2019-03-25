@@ -1,4 +1,8 @@
 export default function wizards() {
+  let names;
+  let rnd;
+  let rnd2;
+  let rnd3;
   let rnd;
   let rnd2;
   let rnd3;
@@ -17,8 +21,7 @@ export default function wizards() {
   const nm7 = ['b', 'c', 'f', 'g', 'h', 'k', 'l', 'm', 'n', 'p', 'q', 'r', 's', 'w'];
   const nm8 = ['belle', 'baris', 'beus', 'bine', 'beus', 'dali', 'delis', 'disum', 'dores', 'deis', 'faeh', 'faris', 'fea', 'fyne', 'fora', 'gaell', 'georis', 'gis', 'garis', 'grith', 'haen', 'harith', 'harise', 'hith', 'hione', 'jelle', 'jes', 'jyll', 'jiane', 'jior', 'kealis', 'key', 'kely', 'kora', 'kon', 'lyn', 'leas', 'lune', 'laes', 'lore', 'maev', 'mari', 'meazz', 'monora', 'morith', 'naxix', 'neas', 'nilor', 'nirn', 'nora', 'paen', 'phi', 'pianne', 'pyx', 'prixys', 'qiohn', 'qille', 'qora', 'qix', 'qian', 'ras', 'rihan', 'ris', 'ro', 'rune', 'shan', 'saem', 'sinor', 'soph', 'strea', 'taris', 'taz', 'thal', 'tosh', 'trix', 'veus', 'via', 'vira', 'vys', 'vae', 'weahl', 'wix', 'wrys', 'waelle', 'wyn', 'xaryl', 'xea', 'xis', 'xyll', 'xone', 'ydae', 'yna', 'yora', 'yrin', 'yeas', 'zahn', 'zyxi', 'zif', 'zohra', 'zora'];
   const nm9 = ['b', 'bl', 'c', 'cl', 'd', 'f', 'fr', 'fl', 'g', 'gl', 'gn', 'h', 'kl', 'kn', 'm', 'n', 'p', 'pl', 'ph', 'q', 's', 'st', 'sl', 't', 'v', 'vl', 'w', 'z'];
-  const i = Math.floor(Math.random() * 10);
-  {
+  const i = Math.floor(Math.random() * 10); {
     if (type === 1) {
       if (i < 2) {
         rnd = Math.floor(Math.random() * nm1.length);

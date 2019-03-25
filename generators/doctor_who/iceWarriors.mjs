@@ -1,4 +1,8 @@
 export default function iceWarriors() {
+  let names;
+  let rnd;
+  let rnd2;
+  let rnd3;
   let rnd;
   let rnd2;
   let rnd3;
@@ -12,8 +16,7 @@ export default function iceWarriors() {
   const nm3 = ['d', 'dr', 'kss', 'ld', 'm', 'nt', 'r', 'rt', 'rd', 'rn', 'rg', 'sb', 'sr', 'sz', 'szr', 'zr', 'ssb', 'x', 'xl', 'z', 'zd'];
   const nm4 = ['d', 'dz', 'k', 'kz', 'l', 'lk', 'n', 'r', 'rd', 'rzz', 'rz', 'rs', 'x', 'z'];
   const nm5 = ['a', '', '', '', '', '', ''];
-  const i = Math.floor(Math.random() * 10);
-  {
+  const i = Math.floor(Math.random() * 10); {
     if (i < 5) {
       rnd = Math.floor(Math.random() * nm5.length);
       rnd2 = Math.floor(Math.random() * nm1.length);

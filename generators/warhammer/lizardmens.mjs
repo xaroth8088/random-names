@@ -1,4 +1,8 @@
 export default function lizardmens() {
+  let names;
+  let rnd;
+  let rnd2;
+  let rnd3;
   let rnd;
   let rnd2;
   let rnd3;
@@ -15,8 +19,7 @@ export default function lizardmens() {
   const nm3 = ['c', 'cc', 'ch', 'cht', 'chtl', 'cn', 'ct', 'ctl', 'd', 'h', 'hc', 'hg', 'hp', 'ht', 'htl', 'htz', 'k', 'kt', 'l', 'lch', 'lh', 'll', 'lm', 'ln', 'lp', 'lt', 'lx', 'm', 'n', 'nd', 'nh', 'nq', 'nt', 'ntl', 'p', 'q', 'r', 'szc', 't', 'tl', 'tt', 'tz', 'tzc', 'tzp', 'tzt', 'x', 'xc', 'xch', 'xt', 'xtl', 'xy', 'y', 'z', 'zc', 'zd', 'zq', 'ztl'];
   const nm4 = ['', '', '', 'c', 'ch', 'cl', 'k', 'l', 'n', 'p', 'r', 'tl', 'x'];
   const nm5 = ['c', 'ch', 'cl', 'k', 'l', 'n', 'p', 'r', 'tl', 'x'];
-  const i = Math.floor(Math.random() * 10);
-  {
+  const i = Math.floor(Math.random() * 10); {
     rnd = Math.floor(Math.random() * nm1.length);
     rnd2 = Math.floor(Math.random() * nm2.length);
     rnd3 = Math.floor(Math.random() * nm3.length);

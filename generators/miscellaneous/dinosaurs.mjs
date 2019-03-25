@@ -1,4 +1,8 @@
 export default function dinosaurs() {
+  let names;
+  let rnd;
+  let rnd2;
+  let rnd3;
   let rnd;
   let rnd2;
   let
@@ -990,8 +994,7 @@ export default function dinosaurs() {
       ['Hunter'],
     ],
   ];
-  const i = Math.floor(Math.random() * 10);
-  {
+  const i = Math.floor(Math.random() * 10); {
     if (i < 5) {
       rnd = Math.floor(Math.random() * nm4.length);
       rnd2 = Math.floor(Math.random() * nm5.length);

@@ -1,4 +1,8 @@
 export default function sontarans() {
+  let names;
+  let rnd;
+  let rnd2;
+  let rnd3;
   let rnd;
   let rnd2;
   let rnd3;
@@ -22,8 +26,7 @@ export default function sontarans() {
   const nm7 = ['Adept', 'Admired', 'Aggressive', 'Aggressor', 'Agile', 'Ambitious', 'Assassin', 'Avenger', 'Beast', 'Behemoth', 'Bloodbringer', 'Bloodhunter', 'Bloodied', 'Bold', 'Brave', 'Brilliant', 'Brutal', 'Butcher', 'Champion', 'Clever', 'Corruptor', 'Crafty', 'Crooked', 'Cunning', 'Danger', 'Dapper', 'Defiant', 'Diligent', 'Doombringer', 'Eliminator', 'Enforcer', 'Enormous', 'Exalted', 'Executioner', 'Expert', 'Fearless', 'Glorious', 'Grand', 'Great', 'Hunter', 'Illustrious', 'Immortal', 'Incredible', 'Infamous', 'Inventor', 'Killer', 'Knowing', 'Loyal', 'Magnificent', 'Marvelous', 'Master', 'Masterful', 'Menace', 'Merciless', 'Mighty', 'Paragon', 'Powerful', 'Prestigious', 'Proud', 'Razor', 'Reckless', 'Reliable', 'Ruthless', 'Slayer', 'Sneaky', 'Stark', 'Stout', 'Strong', 'Terrific', 'Terror', 'Turbulent', 'Undefeated', 'Valiant', 'Vengeful', 'Victorious', 'Vigilant', 'Warlord', 'Warmonger', 'Warrior', 'Wild', 'Wonderful', 'Wrathful', 'Wretched', 'Zealous'];
   const nm8 = ['B', 'D', 'G', 'J', 'K', 'L', 'N', 'M', 'S', 'T', 'V'];
   const nm9 = ['d', 'g', 'gg', 'gr', 'k', 'kr', 'kk', 'l', 'll', 'ng', 'n', 'nn', 'r', 'rl', 'rr', 'rk', 'rn', 'rg', 'st', 'sk', 'th', 'v'];
-  const i = Math.floor(Math.random() * 10);
-  {
+  const i = Math.floor(Math.random() * 10); {
     rnd = Math.floor(Math.random() * nm1.length);
     rnd7 = Math.floor(Math.random() * nm8.length);
     rnd8 = Math.floor(Math.random() * nm4.length);

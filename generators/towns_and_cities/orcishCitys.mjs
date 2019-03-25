@@ -1,4 +1,8 @@
 export default function orcishCitys() {
+  let names;
+  let rnd;
+  let rnd2;
+  let rnd3;
   let rnd;
   let rnd2;
   let rnd3;
@@ -13,8 +17,7 @@ export default function orcishCitys() {
   const nm2 = ['a', 'e', 'i', 'o', 'u', 'a', 'o', 'u'];
   const nm3 = ['b', 'cc', 'd', 'dd', 'gg', 'g', 'r', 'rr', 'z', 'zz', 'b', 'cc', 'd', 'dd', 'gg', 'g', 'r', 'rr', 'z', 'zz', 'br', 'cr', 'dr', 'dg', 'dz', 'dgr', 'dk', 'gr', 'gh', 'gk', 'gz', 'gm', 'gn', 'gv', 'lb', 'lg', 'lgr', 'ldr', 'lbr', 'lk', 'lz', 'mm', 'rg', 'rm', 'rdr', 'rbr', 'rd', 'rk', 'rkr', 'rgr', 'rz', 'shb', 'shn', 'zg', 'zgr', 'zd', 'zr', 'zdr'];
   const nm4 = ['', 'kh', 'd', 'dh', 'g', 'gh', 'l', 'n', 'r', 'rd', 'z'];
-  const i = Math.floor(Math.random() * 10);
-  {
+  const i = Math.floor(Math.random() * 10); {
     rnd = Math.floor(Math.random() * nm1.length);
     rnd2 = Math.floor(Math.random() * nm2.length);
     rnd3 = Math.floor(Math.random() * nm3.length);

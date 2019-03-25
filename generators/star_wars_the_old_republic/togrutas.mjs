@@ -1,4 +1,9 @@
 export default function togrutas() {
+  let names;
+  let rnd;
+  let rnd2;
+  let rnd3;
+  let lName;
   let rnd;
   let rnd1;
   let rnd2;
@@ -26,8 +31,7 @@ export default function togrutas() {
   const nm14 = ['br', 'd', 'k', 'kr', 'l', 'm', 'n', 'r', 'rn', 'rl', 's', 'ss', 'sh', 'shr', 'vr', 'w', 'z'];
   const nm15 = ['a', 'aa', 'e', 'u', 'y', 'a', 'e', 'u', 'i', 'o', 'o', 'ii', 'ua', 'ee'];
   const nm16 = ['', '', '', '', 'ks', 'l', 'n', 'm', 'r', 's', 'sh'];
-  const i = Math.floor(Math.random() * 10);
-  {
+  const i = Math.floor(Math.random() * 10); {
     if (i < 5) {
       rnd = Math.floor(Math.random() * nm12.length);
       rnd2 = Math.floor(Math.random() * nm13.length);

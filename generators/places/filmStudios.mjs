@@ -1,4 +1,7 @@
 export default function filmStudios() {
+  let names;
+  let rnd;
+  let rnd2;
   let rnd;
   let rnd1;
   let
@@ -12,8 +15,7 @@ export default function filmStudios() {
   const names6 = ['art', 'blossom', 'bolt', 'bunch', 'cloud', 'dream', 'film', 'fire', 'flix', 'flux', 'glass', 'graphs', 'less', 'light', 'line', 'magic', 'magine', 'mark', 'matic', 'motion', 'myth', 'pix', 'play', 'realm', 'saga', 'scope', 'screen', 'soft', 'sphere', 'storm', 'tainment', 'tale', 'topia', 'verse', 'wood', 'works', 'world', 'zone'];
   const names7 = ['Ambience', 'Angel Wings', 'Anomaly', 'Aspect', 'Aura', 'Aurora', 'Azure', 'Bliss', 'Bullettime', 'Century', 'Clairvoyant', 'Climax', 'Crown', 'Cyclops', 'Destiny', 'Dreamland', 'Eclipse', 'Emerald', 'Enchanted', 'Enigma', 'Enterprise', 'Eternity', 'Eventide', 'Exile', 'Fable', 'Fantasy', 'Fluke', 'Fortune', 'Galaxy', 'Giant', 'Gold', 'Graphic', 'Harmony', 'Illusion', 'Imagination', 'Imagine', 'Immortal', 'Karma', 'Knight', 'Legend', 'Limbo', 'Limelight', 'Little Spirit', 'Locomotion', 'Lunar', 'Maximum', 'Midnight', 'Millenium', 'Miracle', 'Mithril', 'Moon', 'Motion', 'Mystery', 'Mystic', 'Mythic', 'Nirvana', 'Oblivion', 'Obscure', 'Oracle', 'Outcast', 'Paradox', 'Paragon', 'Perception', 'Phenomenon', 'Picture', 'Pinnacle', 'Platinum', 'Prodigy', 'Renegade', 'Reverse', 'Rising Star', 'Rogue', 'Ruby', 'Saga', 'Sapphire', 'Sensation', 'Silver', 'Silver Cloud', 'Solar', 'Stardust', 'Starlight', 'Summit', 'Sun', 'Supreme', 'Surprise', 'Thunder', 'Titan', 'Tomorrow', 'Transcend', 'Trinket', 'Twilight', 'Ultimate', 'Underground', 'Utopia', 'Vertigo', 'Vision', 'Vortex', 'Wild', 'Zion', 'Zodiac'];
   const names8 = ['Entertainment', 'Film Company', 'Studio', 'Pictures', 'Productions', 'Cinema', 'Film', 'Filmworks', 'Studios', 'Film Productions', 'Films', 'Film Studios'];
-  const i = Math.floor(Math.random() * 10);
-  {
+  const i = Math.floor(Math.random() * 10); {
     rnd = Math.floor(Math.random() * names8.length);
     if (i < 2) {
       rnd1 = Math.floor(Math.random() * names1.length);

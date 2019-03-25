@@ -1,4 +1,8 @@
 export default function mgalekgolos() {
+  let names;
+  let rnd;
+  let rnd2;
+  let rnd3;
   let rnd;
   let rnd2;
   let rnd3;
@@ -19,8 +23,7 @@ export default function mgalekgolos() {
   const nm1 = ['b', 'd', 'f', 'g', 'h', 'k', 'l', 'm', 'n', 'p', 'r', 's', 't', 'w', 'x', 'y', '', '', '', '', '', '', '', '', ''];
   const nm2 = ['a', 'e', 'u', 'i', 'o'];
   const nm3 = ['b', 'd', 'f', 'g', 'h', 'k', 'l', 'm', 'n', 'p', 'r', 's', 't', 'w', 'x', 'y'];
-  const nm4 = ['b', 'd', 'f', 'g', 'h', 'k', 'l', 'm', 'n', 'p', 'r', 's', 't', 'w', 'x', 'y', 'b', 'd', 'f', 'g', 'h', 'k', 'l', 'm', 'n', 'p', 'r', 's', 't', 'w', 'x', 'y', 'bn', 'dn', 'fn', 'gn', 'kn', 'pn', 'sn', 'tn', 'bm', 'dm', 'fm', 'gm', 'km', 'pm', 'sm', 'tm', 'bk', 'dk', 'lk', 'mk', 'nk', 'pk', 'sk', 'tk', 'bl', 'fl', 'gl', 'pl', 'tl', 'xl', 'sl', 'bd', 'gd', 'fd', 'ld', 'pd', 'sd', 'xd', 'bb', 'dd', 'ff', 'gg', 'kk', 'll', 'mm', 'nn', 'pp', 'rr', 'ss', 'tt', 'ww', 'br', 'dr', 'gr', 'fr', 'kr', 'pr', 'tr', 'xr'];
-  {
+  const nm4 = ['b', 'd', 'f', 'g', 'h', 'k', 'l', 'm', 'n', 'p', 'r', 's', 't', 'w', 'x', 'y', 'b', 'd', 'f', 'g', 'h', 'k', 'l', 'm', 'n', 'p', 'r', 's', 't', 'w', 'x', 'y', 'bn', 'dn', 'fn', 'gn', 'kn', 'pn', 'sn', 'tn', 'bm', 'dm', 'fm', 'gm', 'km', 'pm', 'sm', 'tm', 'bk', 'dk', 'lk', 'mk', 'nk', 'pk', 'sk', 'tk', 'bl', 'fl', 'gl', 'pl', 'tl', 'xl', 'sl', 'bd', 'gd', 'fd', 'ld', 'pd', 'sd', 'xd', 'bb', 'dd', 'ff', 'gg', 'kk', 'll', 'mm', 'nn', 'pp', 'rr', 'ss', 'tt', 'ww', 'br', 'dr', 'gr', 'fr', 'kr', 'pr', 'tr', 'xr']; {
     rnd = Math.floor(Math.random() * nm1.length);
     rnd2 = Math.floor(Math.random() * nm2.length);
     rnd3 = Math.floor(Math.random() * nm3.length);

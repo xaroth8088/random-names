@@ -1,4 +1,8 @@
 export default function aliens() {
+  let names;
+  let rnd;
+  let rnd2;
+  let rnd3;
   let rnd;
   let rnd2;
   let rnd3;
@@ -15,8 +19,7 @@ export default function aliens() {
   const nm5 = ['b', 'c', 'd', 'g', 'h', 'k', 'l', 'm', 'n', 'r', 's', 't', 'v', 'x', 'y', 'z', 'b', 'c', 'd', 'g', 'h', 'k', 'l', 'm', 'n', 'r', 's', 't', 'v', 'x', 'y', 'z', 'b', 'c', 'd', 'g', 'h', 'k', 'l', 'm', 'n', 'r', 's', 't', 'v', 'x', 'y', 'z', 'b', 'c', 'd', 'g', 'h', 'k', 'l', 'm', 'n', 'r', 's', 't', 'v', 'x', 'y', 'z', 'bb', 'cc', 'dd', 'gg', 'hh', 'll', 'mm', 'nn', 'rr', 'ss', 'tt', 'vv', 'xx', 'zz', 'bl', 'br', 'by', 'cd', 'ch', 'ck', 'cl', 'cm', 'cn', 'cr', 'cs', 'ct', 'cv', 'cz', 'cst', 'cstr', 'dr', 'dy', 'gd', 'gl', 'gr', 'gy', 'hk', 'hl', 'hm', 'hn', 'hr', 'kd', 'kl', 'km', 'kn', 'kr', 'ky', 'kx', 'lc', 'ld', 'lg', 'lk', 'lm', 'ln', 'lr', 'lt', 'lv', 'ly', 'lz', 'nr', 'ny', 'nz', 'ns', 'nst', 'nstr', 'rb', 'rc', 'rd', 'rg', 'rk', 'rl', 'rm', 'rn', 'rs', 'rt', 'rst', 'rstr', 'rv', 'rx', 'ry', 'rz', 'sb', 'sc', 'sd', 'sg', 'sh', 'sk', 'sl', 'sm', 'sn', 'sr', 'st', 'str', 'sy', 'sz', 'tl', 'tr', 'ty', 'tz', 'vl', 'vr', 'vy', 'xr', 'xy', 'zl', 'zy'];
   const nm6 = ['', '', '', '', '', '', '', '', 'c', 'd', 'g', 'h', 'k', 'l', 'm', 'n', 'r', 's', 't', 'x', 'c', 'd', 'g', 'h', 'k', 'l', 'm', 'n', 'r', 's', 't', 'x', 'rc', 'rd', 'rg', 'rk', 'rm', 'rn', 'rs', 'rt', 'rx', 'rz', 'st', 'sh', 'sz', 'ns', 'nz'];
   const nm7 = ['', '', '', '', '', '', '', '', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'ae', 'ea', 'ee', 'aa', 'ia', 'ua', 'ue'];
-  const i = Math.floor(Math.random() * 10);
-  {
+  const i = Math.floor(Math.random() * 10); {
     if (type === 1) {
       if (i < 6) {
         rnd = Math.floor(Math.random() * nm2.length);

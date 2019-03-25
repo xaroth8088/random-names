@@ -1,4 +1,7 @@
 export default function titles() {
+  let names;
+  let rnd;
+  let rnd2;
   let rnd;
   let rnd2;
   let names;
@@ -8,8 +11,7 @@ export default function titles() {
   const nm4 = ['Affairs', 'Agents', 'Agriculture', 'Alliances', 'Armor', 'Aviation', 'Borders', 'Bows', 'City Planning', 'Coin', 'Commerce', 'Communication', 'Control', 'Culture', 'Death', 'Defense', 'Development', 'Education', 'Emissaries', 'Employment', 'Energy', 'Farming', 'Finance', 'Fish', 'Food', 'Forestry', 'Gold', 'Guards', 'Health', 'Hope', 'Housing', 'Immigration', 'Industry', 'Information', 'Iron', 'Justice', 'Labour', 'Law', 'Magic', 'Medicine', 'Merchants', 'Mining', 'Money', 'Natural Resources', 'Peace', 'Planning', 'Poison', 'Protection', 'Relations', 'Resources', 'Revenue', 'Science', 'Scouts', 'Secrets', 'Security', 'Shields', 'Ships', 'Silver', 'Slaves', 'Spies', 'Sports', 'Steel', 'Strategy', 'Swords', 'Tactics', 'Technology', 'Tourism', 'Toxins', 'Trade', 'Transport', 'Treasure', 'Vigor', 'Virtue', 'War', 'Warfare', 'Water', 'Weapons', 'Well-Being', 'the Future', 'the Marine'];
   const nm5 = ['Priestess', 'High Priestess', 'Abbot', 'Angelic', 'Apostle', 'Archbishop', 'Archdeacon', 'Archpriest', 'Bishop', 'Cardinal', 'Chancellor', 'Chaplain', 'Cleric', 'Counselor', 'Deacon', 'Divine', 'Doctor', 'Elder', 'Exalted', 'Father', 'Guru', 'High Priest', 'Imam', 'Lama', 'Mage', 'Magi', 'Matriarch', 'Minister', 'Missionary', 'Monk', 'Mother', 'Novice', 'Nun', 'Paladin', 'Pastor', 'Patriarch', 'Preacher', 'Priest', 'Rabbi', 'Reverend', 'Sage', 'Saint', 'Seer', 'Sensei', 'Shaman', 'Templar', 'Warlock', 'Witch'];
   const nm6 = ['Birth', 'Bliss', 'Blood', 'Bones', 'Darkness', 'Death', 'Devotion', 'Divinity', 'Dreams', 'Eternity', 'Faith', 'Freedom', 'Genesis', 'Gold', 'Gracy', 'Healing', 'Life', 'Light', 'Mercy', 'Misery', 'Nature', 'Nightmares', 'Peace', 'Pestinence', 'Piety', 'Pure Hearts', 'Purity', 'Rebirth', 'Sanctity', 'Shadow', 'Silence', 'Silver', 'Solitude', 'Spirits', 'Time', 'Virtue', 'Worship', 'the Arcane', 'the Blue', 'the Dead', 'the Earth', 'the East', 'the Flame', 'the Gardens', 'the King', 'the Light', 'the Living', 'the Moon', 'the Night', 'the North', 'the Phoenix', 'the Realm', 'the Red', 'the Sands', 'the Sea', 'the South', 'the Stars', 'the Sun', 'the Undead', 'the Undying', 'the Veil', 'the Voice', 'the Void', 'the West', 'the White', 'the World'];
-  const i = Math.floor(Math.random() * 10);
-  {
+  const i = Math.floor(Math.random() * 10); {
     if (i < 3) {
       rnd = Math.floor(Math.random() * nm1.length);
       rnd2 = Math.floor(Math.random() * nm2.length);

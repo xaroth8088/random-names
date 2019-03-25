@@ -1,4 +1,5 @@
 export default function southAsianTowns() {
+  let names;
   let rnd0;
   let
     rnd1;
@@ -19,8 +20,7 @@ export default function southAsianTowns() {
   const names14 = ['badhoo', 'dhoo', 'dhuffushi', 'du', 'faaru', 'faru', 'funadhoo', 'fushi', 'gili', 'goodhoo', 'huffushi', 'hufunadhoo', 'humale', 'huvadhoo', 'la', 'male', 'mandhoo', 'mandoo', 'meedhoo', 'mulah', 'n', 'nadhoo', 'navaru', 'ranfaru', 'roshi', 'ru', 'shi', 'vadhoo', 'varanfaru', 'varu'];
   const names15 = ['Ba', 'Bar', 'Cha', 'Che', 'Chung', 'Dam', 'Dip', 'Don', 'Ga', 'Gom', 'Gye', 'Ha', 'Hara', 'Hati', 'Ka', 'Kam', 'Kang', 'Ken', 'Ki', 'Kiso', 'Lame', 'Lhe', 'Lob', 'Mao', 'Mon', 'Nai', 'Nak', 'Ouna', 'Pa', 'Phi', 'Phisu', 'Pin', 'Pinso', 'Ri', 'Rung', 'Sak', 'Sam', 'Sar', 'Sha', 'Shin', 'Shing', 'Ta', 'Tari', 'Thim', 'Thun', 'Tosu', 'Tsha', 'Tshal', 'Tshalu', 'Ya'];
   const names16 = ['be', 'bling', 'cha', 'chap', 'cho', 'chu', 'dada', 'dang', 'ganka', 'gaon', 'gar', 'gha', 'hong', 'ka', 'kar', 'kha', 'laika', 'lang', 'lunang', 'maito', 'manu', 'nakha', 'nang', 'nig', 'pang', 'par', 'pe', 'pero', 'phu', 'ripe', 'sang', 'sar', 'shong', 'sila', 'sona', 'soperi', 'tang', 'teng', 'tola', 'tsa', 'tsang', 'tse', 'tu', 'zyung'];
-  i = Math.floor(Math.random() * 16);
-  {
+  const i = Math.floor(Math.random() * 16); {
     if (i < 2) {
       rnd0 = Math.floor(Math.random() * names1.length);
       rnd1 = Math.floor(Math.random() * names2.length);

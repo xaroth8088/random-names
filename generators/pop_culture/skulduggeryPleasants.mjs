@@ -1,4 +1,8 @@
 export default function skulduggeryPleasants() {
+  let names;
+  let rnd;
+  let rnd2;
+  let rnd3;
   let rnd;
   let rnd2;
   let rnd3;
@@ -15,8 +19,7 @@ export default function skulduggeryPleasants() {
   const nm4 = ['', '', '', '', 'b', 'ch', 'd', 'g', 'h', 'l', 'm', 'n', 'ph', 'r', 's', 'sh', 't', 'th', 'tr', 'v', 'z'];
   const nm5 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'ue', 'au', 'io', 'ia', 'ie', 'ei', 'ai'];
   const nm6 = ['d', 'dd', 'dr', 'ff', 'fr', 'g', 'gr', 'gn', 'gm', 'k', 'kk', 'kn', 'l', 'll', 'ln', 'lm', 'm', 'mm', 'mr', 'n', 'nn', 'nr', 'nd', 'nv', 'nt', 'ph', 'rk', 'rg', 'rq', 'rv', 'rf', 'rb', 'rd', 'rl', 'rm', 's', 'ss', 'sh', 'sl', 'sr', 'sn', 'st', 't', 'th', 'tr', 'v', 'vr', 'd', 'd', 'g', 'g', 'k', 'k', 'l', 'l', 'l', 'm', 'm', 'n', 'n', 's', 's', 't', 't', 'v', 'v'];
-  const nm7 = ['', '', 'l', 'n', 's', 'th'];
-  {
+  const nm7 = ['', '', 'l', 'n', 's', 'th']; {
     if (type === 2) {
       rnd = Math.floor(Math.random() * nm4.length);
       rnd2 = Math.floor(Math.random() * nm5.length);

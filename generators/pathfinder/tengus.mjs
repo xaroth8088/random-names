@@ -1,4 +1,9 @@
 export default function tengus() {
+  let lastName;
+  let names;
+  let rnd;
+  let rnd2;
+  let rnd3;
   let rnd;
   let rnd2;
   let rnd3;
@@ -27,8 +32,7 @@ export default function tengus() {
   const nm10 = ['a', 'e', 'i', 'o', 'u', 'a', 'o', 'e', 'a', 'o', 'e', 'u'];
   const nm11 = ['ch', 'g', 'j', 'k', 'kk', 'ky', 'l', 'll', 'm', 'n', 'ng', 'nk', 'p', 'pp', 'q', 'r', 'rr', 's', 't', 'tch', 'v', 'y', 'z', 'zz'];
   const nm12 = ['', '', 'ck', 'k', 'l', 'n', 'r', 't'];
-  const i = Math.floor(Math.random() * 10);
-  {
+  const i = Math.floor(Math.random() * 10); {
     rnd8 = Math.floor(Math.random() * nm9.length);
     rnd9 = Math.floor(Math.random() * nm10.length);
     rnd10 = Math.floor(Math.random() * nm11.length);

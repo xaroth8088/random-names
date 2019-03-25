@@ -1,4 +1,10 @@
 export default function ishiTibs() {
+  let namelast;
+  let names;
+  let rnd;
+  let rnd2;
+  let rnd3;
+  let rnd5b;
   let rnd;
   let rnd2;
   let rnd3;
@@ -26,8 +32,7 @@ export default function ishiTibs() {
   const nm10 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'ae', 'aa', 'ie', 'oo', 'ay'];
   const nm11 = ['br', 'b', 'd', 'dr', 'g', 'gg', 'gr', 'hr', 'ht', 'k', 'kz', 'kr', 'kl', 'km', 'l', 'll', 'lr', 'lz', 'lg', 'ld', 'lb', 'ls', 'ln', 'm', 'mb', 'mz', 'mr', 'mk', 'mm', 'n', 'nn', 'nr', 'nd', 'ng', 'r', 'rd', 'rg', 'rk', 'rm', 'rl', 'ssh', 'sh', 't', 'tl', 'th', 'zk', 'zl', 'z'];
   const nm12 = ['', '', '', 'c', 'ff', 'l', 'm', 'n', 'ng', 'rr', 'tz', 'w'];
-  const i = Math.floor(Math.random() * 10);
-  {
+  const i = Math.floor(Math.random() * 10); {
     rnd7 = Math.floor(Math.random() * nm9.length);
     rnd8 = Math.floor(Math.random() * nm10.length);
     rnd10 = Math.floor(Math.random() * nm12.length);

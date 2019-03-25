@@ -1,4 +1,8 @@
 export default function tellarites() {
+  let names;
+  let rnd;
+  let rnd2;
+  let rnd3;
   let rnd;
   let rnd2;
   let rnd3;
@@ -25,8 +29,7 @@ export default function tellarites() {
   const nm12 = ['B', 'Bl', 'Br', 'C', 'Ch', 'Cl', 'Cr', 'D', 'Dv', 'F', 'Fr', 'G', 'Gh', 'Gl', 'Gr', 'H', 'J', 'K', 'Kh', 'L', 'M', 'N', 'P', 'Pr', 'R', 'Sh', 'Sk', 'T', 'Th', 'Tl', 'Tr', 'V', 'W', 'X', 'Z', 'Zh'];
   const nm13 = ['bl', 'f', 'ff', 'fr', 'g', 'gg', 'gr', 'hl', 'hr', 'l', 'll', 'nk', 'nn', 'r', 'rgg', 'rk', 'rth', 's', 'shl', 'shn', 'ss', 't', 'th', 'tt', 'v', 'vr'];
   const nm14 = ['ch', 'f', 'g', 'gh', 'gm', 'hg', 'hk', 'k', 'l', 'll', 'llv', 'm', 'n', 'nch', 'nd', 'nn', 'nsh', 'p', 'r', 'rc', 'rg', 'rn', 'rr', 'rs', 'rsh', 'rv', 's', 'sh', 'ss', 'th', 'v', 'w'];
-  const i = Math.floor(Math.random() * 10);
-  {
+  const i = Math.floor(Math.random() * 10); {
     if (type === 1) {
       if (i < 5) {
         rnd = Math.floor(Math.random() * nm6.length);

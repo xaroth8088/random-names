@@ -1,4 +1,8 @@
 export default function daemonsOfChaos() {
+  let names;
+  let rnd;
+  let rnd2;
+  let rnd3;
   let rnd;
   let rnd2;
   let rnd3;
@@ -17,8 +21,7 @@ export default function daemonsOfChaos() {
   const nm5 = ['c', 'k', 'l', 'n', 'nd', 's', 'th', 'z'];
   const nm6 = ['amber', 'ash', 'battle', 'bitter', 'blade', 'blaze', 'blazing', 'blood', 'bone', 'chain', 'chaos', 'cinder', 'claw', 'dead', 'death', 'ember', 'fate', 'fire', 'flame', 'fury', 'gore', 'grim', 'heart', 'hell', 'horn', 'lone', 'mourn', 'nether', 'night', 'obsidian', 'onyx', 'plague', 'pyre', 'rage', 'shadow', 'silent', 'skull', 'slate', 'storm', 'void', 'wild', 'wrath'];
   const nm7 = ['bane', 'bender', 'binder', 'blaze', 'bleeder', 'blight', 'born', 'brand', 'breaker', 'breath', 'bringer', 'caller', 'chaser', 'cleaver', 'crest', 'dancer', 'drifter', 'father', 'flayer', 'force', 'forged', 'gaze', 'gazer', 'grip', 'heart', 'hunter', 'keeper', 'maker', 'master', 'might', 'mourn', 'reaper', 'reaver', 'rider', 'ripper', 'seeker', 'shade', 'shadow', 'shaper', 'strider', 'striker', 'sworn', 'taker', 'thane', 'watcher', 'weaver'];
-  const nm8 = ['the ', '', '', ''];
-  {
+  const nm8 = ['the ', '', '', '']; {
     rnd = Math.floor(Math.random() * nm1.length);
     rnd2 = Math.floor(Math.random() * nm2.length);
     rnd3 = Math.floor(Math.random() * nm3.length);

@@ -1,4 +1,8 @@
 export default function elfs() {
+  let names;
+  let rnd;
+  let rnd2;
+  let rnd3;
   let rnd;
   let rnd2;
   let rnd3;
@@ -17,8 +21,7 @@ export default function elfs() {
   const nm6 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'í', 'ë', 'ö', 'á', 'ëa', 'ia', 'io', 'au', 'ue', 'ua', 'ía', 'ae'];
   const nm7 = ['d', 'dr', 'fr', 'l', 'll', 'lr', 'ln', 'lm', 'ldr', 'ld', 'ly', 'm', 'mv', 'my', 'mm', 'ny', 'n', 'nn', 'nv', 'nz', 'r', 'rm', 'ry', 'rh', 'sn', 'sl', 't', 'th', 'y'];
   const nm8 = ['', '', '', '', '', '', '', 'd', 'n', 'r', 's', 'th'];
-  const i = Math.floor(Math.random() * 10);
-  {
+  const i = Math.floor(Math.random() * 10); {
     if (type === 1) {
       rnd = Math.floor(Math.random() * nm5.length);
       rnd2 = Math.floor(Math.random() * nm6.length);

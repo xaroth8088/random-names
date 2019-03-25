@@ -1,4 +1,8 @@
 export default function valyrians() {
+  let names;
+  let rnd;
+  let rnd2;
+  let rnd3;
   let rnd;
   let rnd2;
   let rnd3;
@@ -11,8 +15,7 @@ export default function valyrians() {
   const names3 = ['Aene', 'Aere', 'Alae', 'Aly', 'Bae', 'Bhae', 'Ba', 'Dae', 'Daene', 'Delae', 'Elae', 'Erae', 'Hae', 'Haele', 'He', 'Jae', 'Jaela', 'Jelae', 'Mae', 'Maele', 'Malae', 'Manae', 'Nae', 'Naela', 'Naere', 'Nelae', 'Nesae', 'Raene', 'Relae', 'Renae', 'Rhae', 'Rhaene', 'Sae', 'Saela', 'Saene', 'Saere', 'Selae', 'Vae', 'Vhae', 'Vyse'];
   const names4 = ['hna', 'hra', 'hrys', 'hnae', 'hra', 'la', 'lys', 'lla', 'lyra', 'mys', 'mala', 'mera', 'na', 'nla', 'nera', 'nna', 'nya', 'nyra', 'nys', 'ra', 'rla', 'rya', 'rys', 'ssa', 'sanne', 'sella', 'sa', 'sys'];
   const names5 = ['Aer', 'Ag', 'Ar', 'Bael', 'Bar', 'Ber', 'Caen', 'Cal', 'Cel', 'Daer', 'Dal', 'Dor', 'Gael', 'Gal', 'Gon', 'Laen', 'Laer', 'Len', 'Maen', 'Mal', 'Mel', 'Nael', 'Nar', 'Noh', 'Qar', 'Qoh', 'Rael', 'Raen', 'Rah', 'Taen', 'Tael', 'Tar', 'Vael', 'Val', 'Vel'];
-  const names6 = ['aellis', 'aelor', 'aenor', 'aeris', 'aleos', 'anyon', 'areon', 'daerys', 'eneos', 'ennis', 'eris', 'gaeron', 'garis', 'gyreon', 'iar', 'inarys', 'itheos', 'laeris', 'laeron', 'larys', 'maereon', 'naeros', 'nalys', 'nareon', 'naris', 'raenos', 'ralis', 'reos', 'talor', 'talos', 'taris', 'theon', 'theos', 'tigar', 'yreos'];
-  {
+  const names6 = ['aellis', 'aelor', 'aenor', 'aeris', 'aleos', 'anyon', 'areon', 'daerys', 'eneos', 'ennis', 'eris', 'gaeron', 'garis', 'gyreon', 'iar', 'inarys', 'itheos', 'laeris', 'laeron', 'larys', 'maereon', 'naeros', 'nalys', 'nareon', 'naris', 'raenos', 'ralis', 'reos', 'talor', 'talos', 'taris', 'theon', 'theos', 'tigar', 'yreos']; {
     if (type === 1) {
       rnd = Math.floor(Math.random() * names3.length);
       rnd2 = Math.floor(Math.random() * names4.length);

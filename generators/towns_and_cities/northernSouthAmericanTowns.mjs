@@ -1,4 +1,7 @@
 export default function northernSouthAmericanTowns() {
+  let names;
+  let rnd;
+  let rnd2;
   let rnd;
   let rnd2;
   let names;
@@ -20,8 +23,7 @@ export default function northernSouthAmericanTowns() {
   /* Venezuela */
   const nm11 = ['Aca', 'Acari', 'Alta', 'Ana', 'Arau', 'Bar', 'Barce', 'Bari', 'Barqui', 'Baru', 'Ca', 'Cabi', 'Cala', 'Can', 'Cantau', 'Carú', 'Cara', 'Caraba', 'Caro', 'Carri', 'Cau', 'Cauca', 'Cha', 'Chara', 'Chi', 'Chichi', 'Ciu', 'Civa', 'Co', 'Cuma', 'Eji', 'El Ca', 'El Dia', 'El Ha', 'El Lim', 'El Ti', 'El To', 'El Tocu', 'El Vi', 'Güi', 'Gua', 'Guaca', 'Guana', 'Guare', 'Guas', 'Guati', 'Lagu', 'Mé', 'Méri', 'Mai', 'Maique', 'Mara', 'Maria', 'Matu', 'Mo', 'Mucu', 'Mucum', 'Ni', 'Ocu', 'Peta', 'Por', 'Porla', 'Quí', 'Ru', 'Tá', 'Tári', 'Ta', 'Taca', 'Tacari', 'Ti', 'Tina', 'Tuca', 'Tucu', 'Tur', 'Upa', 'Vale', 'Valen', 'Yari', 'Zara'];
   const nm12 = ['bio', 'bor', 'bozo', 'caibo', 'cao', 'cara', 'cas', 'cay', 'che', 'cia', 'co', 'coa', 'cuyo', 'do', 'güe', 'güito', 'gua', 'guita', 'jillo', 'lamar', 'lava', 'leda', 'lera', 'lito', 'lo', 'lona', 'maná', 'mare', 'mas', 'mero', 'meto', 'na', 'naco', 'nare', 'nas', 'nitas', 'pano', 'pita', 'piz', 'ques', 'quillo', 'rín', 'rón', 'ra', 'racas', 'racay', 'raure', 'raza', 're', 'renas', 'ria', 'riara', 'riba', 'rida', 'rigua', 'rinas', 'rio', 'rita', 'rizal', 'rojos', 'ruta', 'simeto', 'ta', 'tagua', 'tal', 'tare', 'tas', 'taura', 'tia', 'tillo', 'tire', 'toria', 'var', 'viche', 'yana', 'za'];
-  i = Math.floor(Math.random() * 12);
-  {
+  const i = Math.floor(Math.random() * 12); {
     if (i < 2) {
       rnd = Math.floor(Math.random() * nm1.length);
       rnd2 = Math.floor(Math.random() * nm2.length);

@@ -1,4 +1,10 @@
 export default function ithorians() {
+  let namelast;
+  let names;
+  let rnd;
+  let rnd2;
+  let rnd3;
+  let rnd5b;
   let rnd;
   let rnd2;
   let rnd3;
@@ -28,8 +34,7 @@ export default function ithorians() {
   const nm10 = ['a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'a', 'e', 'i', 'o', 'u', 'ee', 'oo', 'ea', 'ee', 'au', 'ua'];
   const nm11 = ['b', 'bb', 'bbl', 'bl', 'd', 'dd', 'f', 'fl', 'g', 'h', 'j', 'k', 'l', 'll', 'lt', 'm', 'mfl', 'n', 'nd', 'nt', 'pr', 'q', 'r', 'rk', 'rt', 'rtk', 's', 't', 'th', 'tr', 'v', 'w', 'wm', 'wr', 'xl', 'z'];
   const nm12 = ['', '', '', '', '', 'b', 'bb', 'd', 'g', 'hl', 'k', 'l', 'll', 'm', 'n', 'ngs', 'nd', 'nn', 'r', 'rlq', 's', 't', 'th', 'thh', 'ts', 'w'];
-  const i = Math.floor(Math.random() * 10);
-  {
+  const i = Math.floor(Math.random() * 10); {
     rnd7 = Math.floor(Math.random() * nm9.length);
     rnd8 = Math.floor(Math.random() * nm10.length);
     rnd10 = Math.floor(Math.random() * nm12.length);

@@ -1,4 +1,9 @@
 export default function wildstarMecharis() {
+  let names;
+  let rnd;
+  let rnd2;
+  let rnd3;
+  let lname;
   let rnd;
   let rnd2;
   let rnd3;
@@ -19,8 +24,7 @@ export default function wildstarMecharis() {
   const nm8 = ['', '', '', '', '', 'c', 'h', 'n', 'l', 'll', 's', 'sh', 'th', 'x'];
   const nm9 = ['Alpha', 'Beta', 'Bi', 'Cen', 'Cent', 'Centi', 'Chi', 'Dec', 'Deca', 'Decem', 'Delta', 'Di', 'Dodeca', 'Du', 'Duo', 'Duodec', 'Ennea', 'Epsilon', 'Eta', 'Gamma', 'Hec', 'Hecato', 'Hect', 'Hep', 'Hept', 'Hepta', 'Hex', 'Hexa', 'Iota', 'Kappa', 'Kilo', 'Lambda', 'Milli', 'Mono', 'Mu', 'Non', 'Nove', 'Nu', 'Nulli', 'Oc', 'Oct', 'Octa', 'Octo', 'Ogdo', 'Omega', 'Penta', 'Phi', 'Pi', 'Psi', 'Quadri', 'Quadru', 'Rho', 'Sedec', 'Semi', 'Sep', 'Sept', 'Sigma', 'Tau', 'Tetra', 'Theta', 'Tri', 'Trio', 'Unci', 'Uni', 'Upsilon', 'Xi', 'Zeta'];
   const nm10 = ['bit', 'byt', 'coil', 'col', 'cue', 'cy', 'frag', 'gine', 'helix', 'hicle', 'jet', 'lap', 'lic', 'lit', 'lix', 'logy', 'loop', 'maton', 'mech', 'mic', 'mics', 'net', 'nic', 'nics', 'niq', 'nis', 'nism', 'nix', 'nogy', 'nox', 'pin', 'ping', 'pute', 'ram', 'rom', 'ron', 'ser', 'sor', 'tec', 'tic', 'tics', 'ton', 'tred', 'tric', 'tron', 'vex', 'vox', 'ware', 'xis', 'zip'];
-  const i = Math.floor(Math.random() * 10);
-  {
+  const i = Math.floor(Math.random() * 10); {
     rnd6 = Math.floor(Math.random() * nm9.length);
     rnd7 = Math.floor(Math.random() * nm10.length);
     lname = nm9[rnd6] + nm10[rnd7];

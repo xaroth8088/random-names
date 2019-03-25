@@ -1,4 +1,8 @@
 export default function bloodElf() {
+  let names;
+  let rnd;
+  let rnd2;
+  let rnd3;
   let rnd;
   let rnd2;
   let rnd3;
@@ -15,8 +19,7 @@ export default function bloodElf() {
   const nm6 = ['aena', 'alda', 'alle', 'ana', 'anae', 'andra', 'anea', 'ann', 'anna', 'anne', 'anni', 'ara', 'da', 'dine', 'dori', 'dra', 'drae', 'drea', 'drel', 'drin', 'drine', 'eda', 'elda', 'eli', 'elly', 'enna', 'era', 'erae', 'erea', 'estra', 'iah', 'ice', 'inda', 'ine', 'inne', 'inth', 'ise', 'le', 'lean', 'leane', 'len', 'lenn', 'lenne', 'li', 'lia', 'ly', 'na', 'nia', 'nice', 'onia', 'ori', 'ra', 'rae', 'rea', 'rel', 'riah', 'rin', 'rine', 'rise', 'vea', 'via', 'vie', 'wae', 'we', 'wea', 'yn', 'yna', 'ynna'];
   const nm7 = ['Autumn', 'Black', 'Blood', 'Bright', 'Cold', 'Dark', 'Dawn', 'Day', 'Dew', 'Down', 'Ember', 'Fire', 'Flame', 'Heart', 'High', 'Leaf', 'Light', 'Mirth', 'Moon', 'Morning', 'Night', 'Phoenix', 'Red', 'Rose', 'Silver', 'Star', 'Sun'];
   const nm8 = ['bane', 'binder', 'blade', 'blossom', 'bringer', 'brook', 'down', 'fall', 'feather', 'flame', 'flare', 'forge', 'fury', 'gaze', 'gazer', 'heart', 'light', 'mourn', 'reaver', 'seeker', 'shade', 'shadow', 'shard', 'shield', 'singer', 'sky', 'sorrow', 'spark', 'spear', 'spell', 'sprinter', 'stalker', 'star', 'strider', 'sun', 'sworn', 'vale', 'walker', 'whisper', 'wing', 'wood'];
-  const i = Math.floor(Math.random() * 10);
-  {
+  const i = Math.floor(Math.random() * 10); {
     rnd4 = Math.floor(Math.random() * nm7.length);
     rnd5 = Math.floor(Math.random() * nm8.length);
     if (type === 1) {

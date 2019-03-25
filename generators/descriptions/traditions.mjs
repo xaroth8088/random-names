@@ -1,4 +1,5 @@
 export default function traditions() {
+  let result;
   const nm1 = ['area', 'city', 'country', 'district', 'empire', 'nation', 'province', 'realm', 'region', 'remote town', 'remote village', 'state', 'territory', 'town', 'village'];
   const nm2 = ['B', 'C', 'D', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'P', 'Q', 'R', 'S', 'T', 'V', 'W', 'X', 'Y', 'Z'];
   const nm3 = ['a', 'e', 'o', 'u'];
@@ -44,8 +45,7 @@ export default function traditions() {
   const rnd6b = Math.floor(Math.random() * nm6[rnd6][0].length);
   const rnd6c = Math.floor(Math.random() * nm6[rnd6][1].length);
   const rnd6d = Math.floor(Math.random() * nm6[rnd6][1].length);
-  while (rnd6c === rnd6d) {
-  }
+  while (rnd6c === rnd6d) {}
   const rnd7 = Math.floor(Math.random() * nm7.length);
   const rnd8 = Math.floor(Math.random() * nm8.length);
   const rnd9 = Math.floor(Math.random() * nm9.length);
