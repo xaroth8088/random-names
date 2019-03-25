@@ -53,7 +53,7 @@ export default function daedrics() {
       rnd4 = Math.floor(Math.random() * nm4.length);
       if (rnd3 < 46) {
         while (rnd4 > 5) {
-          rnd4 = parseInt(Math.floor((Math.random() * nm4.length)), 10);
+          rnd4 = Math.floor((Math.random() * nm4.length));
         }
       }
       rnd5 = Math.floor(Math.random() * nm5.length);
@@ -65,7 +65,7 @@ export default function daedrics() {
       rnd4 = Math.floor(Math.random() * nm9.length);
       if (rnd3 < 46) {
         while (rnd4 > 5) {
-          rnd4 = parseInt(Math.floor((Math.random() * nm4.length)), 10);
+          rnd4 = Math.floor((Math.random() * nm4.length));
         }
       }
       rnd5 = Math.floor(Math.random() * nm10.length);

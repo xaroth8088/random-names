@@ -64,7 +64,7 @@ export default function malteses() {
     'Marija', 'Marthese', 'Martina', 'Martine', 'Maya', 'Melita', 'Mellieha',
     'Mia', 'Michelle', 'Mikela', 'Mikiela', 'Monika', 'Myah', 'Nicky',
     'Nicola', 'Nicole', 'Nina', 'Pawla', 'Pawlina', 'Pietra', 'Pina',
-    'Pompea	', 'Pompea', 'Rachel', 'Raquel', 'Reġina', 'Regina', 'Rena',
+    'Pompea ', 'Pompea', 'Rachel', 'Raquel', 'Reġina', 'Regina', 'Rena',
     'Rita', 'Rożarja', 'Rocka', 'Rosa', 'Rozarja', 'Rozina', 'Ruza',
     'Salvina', 'Shanelle', 'Skolastika', 'Sofana', 'Sofija', 'Sophia',
     'Sophie', 'Spira', 'Stella', 'Tereża', 'Tere', 'Tereza', 'Tessie',

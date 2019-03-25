@@ -44,7 +44,7 @@ export default function basothos() {
     'Mphafane (Praises God)', 'Mpho (Gift)', 'Neo (Gift)', 'Nkoe (Tiger)',
     'Nkoeneane (Little Tiger)', 'Nkoenyane (Little Tiger)', 'Nku (Sheep)',
     'Nkwe (Tiger)', 'Nkwenyane (Little Tiger)', 'Nthofeela (Thing)',
-    'Ntja (Dog)', 'Ntsu (Eagle)', 'Oagile	(Firmly built household)',
+    'Ntja (Dog)', 'Ntsu (Eagle)', 'Oagile (Firmly built household)',
     'Oagile (Household has been firmly built)',
     'Oatile (Household has been firmly built)',
     'Oupanyana (Small grandfather)', 'Paolosi (Little One)',

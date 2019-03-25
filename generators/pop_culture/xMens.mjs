@@ -1,4 +1,4 @@
-export default function XMens() {
+export default function xMens() {
   let names;
   let rnd;
   const nm1 = ['Matter Master', 'Skye', 'Conjurer', 'Invincible', 'Shift',

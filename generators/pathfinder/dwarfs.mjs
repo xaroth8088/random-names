@@ -73,7 +73,7 @@ export default function dwarfs() {
     rnd7 = Math.floor(Math.random() * nm9.length);
     rnd8 = Math.floor(Math.random() * nm10.length);
     rnd10 = Math.floor(Math.random() * nm12.length);
-    if (i % 3 === 0 && i % 2 != 0) {
+    if (i % 3 === 0 && i % 2 !== 0) {
       nameLast = nm9[rnd7] + nm10[rnd8] + nm12[rnd10];
     } else if (i % 2 === 0) {
       rnd9 = Math.floor(Math.random() * nm13.length);

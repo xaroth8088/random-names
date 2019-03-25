@@ -55,7 +55,7 @@ export default function tuskenRaiders() {
     rnd7 = Math.floor(Math.random() * nm16.length);
     rnd8 = Math.floor(Math.random() * nm17.length);
     rnd10 = Math.floor(Math.random() * nm19.length);
-    if (i % 2 != 0) {
+    if (i % 2 !== 0) {
       namelast = nm16[rnd7] + nm17[rnd8] + nm19[rnd10];
     } else {
       rnd9 = Math.floor(Math.random() * nm17.length);

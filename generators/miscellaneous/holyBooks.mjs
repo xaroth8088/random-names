@@ -82,11 +82,9 @@ export default function holyBooks() {
     if (i < 3) {
       rnd2 = Math.floor(Math.random() * nm1.length);
       names = `The ${nm3[rnd]} of ${nm1[rnd2]}`;
-      nm1.splice(rnd2, 1);
     } else if (i < 6) {
       rnd2 = Math.floor(Math.random() * nm2.length);
       names = `The ${nm2[rnd2]} ${nm3[rnd]}`;
-      nm1.splice(rnd2, 1);
     } else if (i < 8) {
       rnd2 = Math.floor(Math.random() * nm1.length);
       rnd3 = Math.floor(Math.random() * nm4.length);
@@ -94,14 +92,12 @@ export default function holyBooks() {
       rnd5 = Math.floor(Math.random() * nm6.length);
       rnd6 = Math.floor(Math.random() * nm8.length);
       names = `The ${nm1[rnd2]} of ${nm4[rnd3]}${nm5[rnd4]}${nm6[rnd5]}${nm8[rnd6]}`;
-      nm1.splice(rnd2, 1);
     } else {
       rnd3 = Math.floor(Math.random() * nm4.length);
       rnd4 = Math.floor(Math.random() * nm5.length);
       rnd5 = Math.floor(Math.random() * nm6.length);
       rnd6 = Math.floor(Math.random() * nm7.length);
       names = `The ${nm3[rnd]} of ${nm4[rnd3]}${nm5[rnd4]}${nm6[rnd5]}${nm7[rnd6]}`;
-      nm1.splice(rnd2, 1);
     }
     return names;
   }

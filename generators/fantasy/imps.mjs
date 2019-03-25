@@ -42,7 +42,7 @@ export default function imps() {
       }
       names = nm1[rnd] + nm2[rnd2] + nm3[rnd2] + nm2[rnd4] + nm4[rnd5];
     }
-    tyr = Math.random() * 300 | 0;
+    tyr = Math.floor(Math.random() * 300);
     if (tyr === 10) {
       names = 'Tyrion Lannister (just kidding)';
     }

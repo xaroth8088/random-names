@@ -70,7 +70,7 @@ export default function mandalorians() {
     rnd7 = Math.floor(Math.random() * nm9.length);
     rnd8 = Math.floor(Math.random() * nm10.length);
     rnd10 = Math.floor(Math.random() * nm12.length);
-    if (i % 2 != 0) {
+    if (i % 2 !== 0) {
       rnd9 = Math.floor(Math.random() * nm10.length);
       rnd11 = Math.floor(Math.random() * nm11.length);
       namelast = nm9[rnd7] + nm10[rnd8] + nm11[rnd11] + nm10[rnd9] + nm12[

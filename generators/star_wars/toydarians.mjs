@@ -38,7 +38,7 @@ export default function toydarians() {
   const i = Math.floor(Math.random() * 10); {
     rnd7 = Math.floor(Math.random() * nm9.length);
     rnd8 = Math.floor(Math.random() * nm10.length);
-    if (i % 2 != 0) {
+    if (i % 2 !== 0) {
       rnd9 = Math.floor(Math.random() * nm10.length);
       rnd10 = Math.floor(Math.random() * nm7.length);
       namelast = nm9[rnd7] + nm10[rnd8] + nm7[rnd10] + nm10[rnd9];

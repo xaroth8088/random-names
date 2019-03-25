@@ -72,7 +72,7 @@ export default function afterlifes() {
     'Kingdom', 'Land', 'Lands', 'Pasture', 'Pastures', 'Plane', 'Planes',
     'Realm', 'World'];
   const i = Math.floor(Math.random() * 10); {
-    if (type != 1) {
+    if (type !== 1) {
       if (i < 5) {
         rnd0 = Math.floor(Math.random() * nm1.length);
         rnd1 = Math.floor(Math.random() * nm2.length);

@@ -182,58 +182,58 @@ export default function flags() {
     'local fauna', 'local flora', 'luck', 'misfortune', 'pain', 'past',
     'perseverance', 'persistence', 'prowess', 'resilience', 'resolve',
     'strength', 'suffering', 'tenacity', 'valor', 'victories', 'virtuosity'];
-  const random1 = parseInt(Math.floor((Math.random() * names1.length)), 10);
-  const random2 = parseInt(Math.floor((Math.random() * names2.length)), 10);
-  let random3 = parseInt(Math.floor((Math.random() * names3.length)), 10);
+  const random1 = Math.floor((Math.random() * names1.length));
+  const random2 = Math.floor((Math.random() * names2.length));
+  let random3 = Math.floor((Math.random() * names3.length));
   while (random3 === random2) {
-    random3 = parseInt(Math.floor((Math.random() * names3.length)), 10);
+    random3 = Math.floor((Math.random() * names3.length));
   }
-  let random4 = parseInt(Math.floor((Math.random() * names4.length)), 10);
+  let random4 = Math.floor((Math.random() * names4.length));
   while (random4 === random2 || random4 === random3) {
-    random4 = parseInt(Math.floor((Math.random() * names4.length)), 10);
+    random4 = Math.floor((Math.random() * names4.length));
   }
-  let random5 = parseInt(Math.floor((Math.random() * names5.length)), 10);
+  let random5 = Math.floor((Math.random() * names5.length));
   while (random5 === random2 || random5 === random3 || random5 === random4) {
-    random5 = parseInt(Math.floor((Math.random() * names5.length)), 10);
+    random5 = Math.floor((Math.random() * names5.length));
   }
-  const random6 = parseInt(Math.floor((Math.random() * names6.length)), 10);
-  const random7 = parseInt(Math.floor((Math.random() * names7.length)), 10);
-  const random8 = parseInt(Math.floor((Math.random() * names8.length)), 10);
-  const random9 = parseInt(Math.floor((Math.random() * names9.length)), 10);
-  let random10 = parseInt(Math.floor((Math.random() * names9.length)), 10);
+  const random6 = Math.floor((Math.random() * names6.length));
+  const random7 = Math.floor((Math.random() * names7.length));
+  const random8 = Math.floor((Math.random() * names8.length));
+  const random9 = Math.floor((Math.random() * names9.length));
+  let random10 = Math.floor((Math.random() * names9.length));
   while (random10 === random9) {
-    random10 = parseInt(Math.floor((Math.random() * names9.length)), 10);
+    random10 = Math.floor((Math.random() * names9.length));
   }
-  let random11 = parseInt(Math.floor((Math.random() * names9.length)), 10);
+  let random11 = Math.floor((Math.random() * names9.length));
   while (random11 === random9 || random11 === random10) {
-    random11 = parseInt(Math.floor((Math.random() * names9.length)), 10);
+    random11 = Math.floor((Math.random() * names9.length));
   }
-  const random12 = parseInt(Math.floor((Math.random() * names1.length)), 10);
-  const random13 = parseInt(Math.floor((Math.random() * names2.length)), 10);
-  let random14 = parseInt(Math.floor((Math.random() * names3.length)), 10);
+  const random12 = Math.floor((Math.random() * names1.length));
+  const random13 = Math.floor((Math.random() * names2.length));
+  let random14 = Math.floor((Math.random() * names3.length));
   while (random14 === random13) {
-    random14 = parseInt(Math.floor((Math.random() * names3.length)), 10);
+    random14 = Math.floor((Math.random() * names3.length));
   }
-  let random15 = parseInt(Math.floor((Math.random() * names4.length)), 10);
+  let random15 = Math.floor((Math.random() * names4.length));
   while (random15 === random13 || random15 === random14) {
-    random15 = parseInt(Math.floor((Math.random() * names4.length)), 10);
+    random15 = Math.floor((Math.random() * names4.length));
   }
-  let random16 = parseInt(Math.floor((Math.random() * names5.length)), 10);
+  let random16 = Math.floor((Math.random() * names5.length));
   while (random16 === random13 || random16 === random14 || random16
     === random15) {
-    random16 = parseInt(Math.floor((Math.random() * names5.length)), 10);
+    random16 = Math.floor((Math.random() * names5.length));
   }
-  const random17 = parseInt(Math.floor((Math.random() * names6.length)), 10);
-  const random18 = parseInt(Math.floor((Math.random() * names7.length)), 10);
-  const random19 = parseInt(Math.floor((Math.random() * names8.length)), 10);
-  const random20 = parseInt(Math.floor((Math.random() * names9.length)), 10);
-  let random21 = parseInt(Math.floor((Math.random() * names9.length)), 10);
+  const random17 = Math.floor((Math.random() * names6.length));
+  const random18 = Math.floor((Math.random() * names7.length));
+  const random19 = Math.floor((Math.random() * names8.length));
+  const random20 = Math.floor((Math.random() * names9.length));
+  let random21 = Math.floor((Math.random() * names9.length));
   while (random21 === random20) {
-    random21 = parseInt(Math.floor((Math.random() * names9.length)), 10);
+    random21 = Math.floor((Math.random() * names9.length));
   }
-  let random22 = parseInt(Math.floor((Math.random() * names9.length)), 10);
+  let random22 = Math.floor((Math.random() * names9.length));
   while (random22 === random20 || random22 === random21) {
-    random22 = parseInt(Math.floor((Math.random() * names9.length)), 10);
+    random22 = Math.floor((Math.random() * names9.length));
   }
   const name = `The flag is made up of ${names1[random1]} in ${names2[random2]}${names3[random3]}${names4[random4]}${names5[random5]}.`;
   const name2 = `Their emblem consists of ${names6[random6]} ${names7[random7]}${names8[random8]}`;

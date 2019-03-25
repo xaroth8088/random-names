@@ -1539,20 +1539,20 @@ export default function pokemons() {
   ];
   const traits = [];
   let pkType = '';
-  const rnPers = Math.random() * pers.length | 0;
-  const rnAmnt = Math.random() * amnt.length | 0;
-  const rnEvo = Math.random() * evo.length | 0;
-  const rnRsm = Math.random() * rsm.length | 0;
-  let rnd1 = Math.random() * pkm.length | 0;
-  const rnd2 = Math.random() * pkm[rnd1][1].length | 0;
+  const rnPers = Math.floor(Math.random() * pers.length);
+  const rnAmnt = Math.floor(Math.random() * amnt.length);
+  const rnEvo = Math.floor(Math.random() * evo.length);
+  const rnRsm = Math.floor(Math.random() * rsm.length);
+  let rnd1 = Math.floor(Math.random() * pkm.length);
+  const rnd2 = Math.floor(Math.random() * pkm[rnd1][1].length);
   if (pkm[rnd1][1][rnd2] === 'land') {
-    rnd3 = Math.random() * lnd.length | 0;
+    rnd3 = Math.floor(Math.random() * lnd.length);
     pkType = lnd[rnd3];
   } else if (pkm[rnd1][1][rnd2] === 'water') {
-    rnd3 = Math.random() * wtr.length | 0;
+    rnd3 = Math.floor(Math.random() * wtr.length);
     pkType = wtr[rnd3];
   } else if (pkm[rnd1][1][rnd2] === 'air') {
-    rnd3 = Math.random() * air.length | 0;
+    rnd3 = Math.floor(Math.random() * air.length);
     pkType = air[rnd3];
   }
   if (pkType === 'bug') {
@@ -1610,7 +1610,7 @@ export default function pokemons() {
         ['wings'], 'mouth', 'none', 'none',
       ],
     ];
-    rnd1 = Math.random() * pkm.length | 0;
+    rnd1 = Math.floor(Math.random() * pkm.length);
   }
   if (pkType === 'dragon') {
     pkm = [
@@ -1659,15 +1659,15 @@ export default function pokemons() {
         ['body'], 'mouth', 'tail', 'none',
       ],
     ];
-    rnd1 = Math.random() * pkm.length | 0;
+    rnd1 = Math.floor(Math.random() * pkm.length);
   }
   while (traits.length < 3) {
     for (i = 2; i < pkm[rnd1].length; i++) {
-      rnTrait = Math.random() * 2 | 0;
+      rnTrait = Math.floor(Math.random() * 2);
       if (rnTrait === 1) {
         if (traits.length < 3 && pkm[rnd1][i] !== 'none') {
           if (i === 2 || i === 3) {
-            rndmz = Math.random() * pkm[rnd1][i].length | 0;
+            rndmz = Math.floor(Math.random() * pkm[rnd1][i].length);
             traits.push(pkm[rnd1][i][rndmz]);
           } else {
             traits.push(pkm[rnd1][i]);
@@ -1688,42 +1688,42 @@ export default function pokemons() {
         if (traits[i] === 'skin' || traits[i] === 'shell' || traits[i]
         === 'hair' || traits[i] === 'feathers' || traits[i] === 'hide' || traits[
           i] === 'fur' || traits[i] === 'armor' || traits[i] === 'scales') {
-          rndm = Math.random() * bugSkin.length | 0;
+          rndm = Math.floor(Math.random() * bugSkin.length);
           description = `${bugSkin[rndm]} ${traits[i]}`;
           descrs.push(description);
         } else if (traits[i] === 'wings') {
-          rndm = Math.random() * bugWings.length | 0;
+          rndm = Math.floor(Math.random() * bugWings.length);
           description = `${bugWings[rndm]} ${traits[i]}`;
           descrs.push(description);
         } else if (traits[i] === 'legs') {
-          rndm = Math.random() * bugLegs.length | 0;
+          rndm = Math.floor(Math.random() * bugLegs.length);
           description = `${bugLegs[rndm]} ${traits[i]}`;
           descrs.push(description);
         } else if (traits[i] === 'arms' || traits[i] === 'tentacles') {
-          rndm = Math.random() * bugArms.length | 0;
+          rndm = Math.floor(Math.random() * bugArms.length);
           description = `${bugArms[rndm]} ${traits[i]}`;
           descrs.push(description);
         } else if (traits[i] === 'mouth') {
-          rndm = Math.random() * bugMouth.length | 0;
+          rndm = Math.floor(Math.random() * bugMouth.length);
           description = `a ${bugMouth[rndm]} ${traits[i]}`;
           descrs.push(description);
         } else if (traits[i] === 'fins') {
-          rndm = Math.random() * bugLegs.length | 0;
+          rndm = Math.floor(Math.random() * bugLegs.length);
           description = `${bugLegs[rndm]} ${traits[i]}`;
           descrs.push(description);
         } else if (traits[i] === 'body') {
-          rndm = Math.random() * bugWings.length | 0;
+          rndm = Math.floor(Math.random() * bugWings.length);
           description = `the added bonus of ${bugWings[rndm]} wings`;
           descrs.push(description);
         }
       }
-      rndPlace = Math.random() * placeBug.length | 0;
+      rndPlace = Math.floor(Math.random() * placeBug.length);
       place = placeBug[rndPlace];
-      attk1 = Math.random() * bugAttk.length | 0;
+      attk1 = Math.floor(Math.random() * bugAttk.length);
       atkOne = bugAttk[attk1];
-      attk2 = Math.random() * bugAttk.length | 0;
+      attk2 = Math.floor(Math.random() * bugAttk.length);
       while (attk1 === attk2) {
-        attk2 = Math.random() * bugAttk.length | 0;
+        attk2 = Math.floor(Math.random() * bugAttk.length);
       }
       atkTwo = bugAttk[attk2];
       break;
@@ -1732,62 +1732,62 @@ export default function pokemons() {
         if (traits[i] === 'skin' || traits[i] === 'shell' || traits[i]
         === 'hair' || traits[i] === 'feathers' || traits[i] === 'hide' || traits[
           i] === 'fur' || traits[i] === 'armor' || traits[i] === 'scales') {
-          rndm = Math.random() * darkSkin.length | 0;
+          rndm = Math.floor(Math.random() * darkSkin.length);
           description = `${darkSkin[rndm]} ${traits[i]}`;
           descrs.push(description);
         } else if (traits[i] === 'wings') {
-          rndm = Math.random() * darkWings.length | 0;
+          rndm = Math.floor(Math.random() * darkWings.length);
           description = `${darkWings[rndm]} ${traits[i]}`;
           descrs.push(description);
         } else if (traits[i] === 'body') {
-          rndm = Math.random() * darkWings.length | 0;
+          rndm = Math.floor(Math.random() * darkWings.length);
           description = `the added bonus of ${darkWings[rndm]} wings`;
           descrs.push(description);
         } else if (traits[i] === 'legs') {
-          rndm = Math.random() * darkLegs.length | 0;
+          rndm = Math.floor(Math.random() * darkLegs.length);
           description = `${darkLegs[rndm]} ${traits[i]}`;
           descrs.push(description);
         } else if (traits[i] === 'arms' || traits[i] === 'tentacles') {
-          rndm = Math.random() * darkArms.length | 0;
+          rndm = Math.floor(Math.random() * darkArms.length);
           description = `${darkArms[rndm]} ${traits[i]}`;
           descrs.push(description);
         } else if (traits[i] === 'mouth') {
-          rndm = Math.random() * darkMouth.length | 0;
+          rndm = Math.floor(Math.random() * darkMouth.length);
           description = `a ${darkMouth[rndm]} ${traits[i]}`;
           descrs.push(description);
         } else if (traits[i] === 'beak') {
-          rndm = Math.random() * darkBeak.length | 0;
+          rndm = Math.floor(Math.random() * darkBeak.length);
           description = `a ${darkBeak[rndm]} ${traits[i]}`;
           descrs.push(description);
         } else if (traits[i] === 'snout') {
-          rndm = Math.random() * darkSnout.length | 0;
+          rndm = Math.floor(Math.random() * darkSnout.length);
           description = `a ${darkSnout[rndm]} ${traits[i]}`;
           descrs.push(description);
         } else if (traits[i] === 'ears') {
-          rndm = Math.random() * darkEars.length | 0;
+          rndm = Math.floor(Math.random() * darkEars.length);
           description = `${darkEars[rndm]} ${traits[i]}`;
           descrs.push(description);
         } else if (traits[i] === 'horns') {
-          rndm = Math.random() * darkHorns.length | 0;
+          rndm = Math.floor(Math.random() * darkHorns.length);
           description = `${darkHorns[rndm]} ${traits[i]}`;
           descrs.push(description);
         } else if (traits[i] === 'tail') {
-          rndm = Math.random() * darkTail.length | 0;
+          rndm = Math.floor(Math.random() * darkTail.length);
           description = darkTail[rndm];
           descrs.push(description);
         } else if (traits[i] === 'fins') {
-          rndm = Math.random() * darkLegs.length | 0;
+          rndm = Math.floor(Math.random() * darkLegs.length);
           description = `${darkLegs[rndm]} ${traits[i]}`;
           descrs.push(description);
         }
       }
-      rndPlace = Math.random() * placeDark.length | 0;
+      rndPlace = Math.floor(Math.random() * placeDark.length);
       place = placeDark[rndPlace];
-      attk1 = Math.random() * darkAttk.length | 0;
+      attk1 = Math.floor(Math.random() * darkAttk.length);
       atkOne = darkAttk[attk1];
-      attk2 = Math.random() * darkAttk.length | 0;
+      attk2 = Math.floor(Math.random() * darkAttk.length);
       while (attk1 === attk2) {
-        attk2 = Math.random() * darkAttk.length | 0;
+        attk2 = Math.floor(Math.random() * darkAttk.length);
       }
       atkTwo = darkAttk[attk2];
       break;
@@ -1796,55 +1796,55 @@ export default function pokemons() {
         if (traits[i] === 'skin' || traits[i] === 'shell' || traits[i]
         === 'hair' || traits[i] === 'feathers' || traits[i] === 'hide' || traits[
           i] === 'fur' || traits[i] === 'armor' || traits[i] === 'scales') {
-          rndm = Math.random() * dragonSkin.length | 0;
+          rndm = Math.floor(Math.random() * dragonSkin.length);
           description = `${dragonSkin[rndm]} ${traits[i]}`;
           descrs.push(description);
         } else if (traits[i] === 'wings') {
-          rndm = Math.random() * dragonWings.length | 0;
+          rndm = Math.floor(Math.random() * dragonWings.length);
           description = `${dragonWings[rndm]} ${traits[i]}`;
           descrs.push(description);
         } else if (traits[i] === 'legs') {
-          rndm = Math.random() * dragonLegs.length | 0;
+          rndm = Math.floor(Math.random() * dragonLegs.length);
           description = `${dragonLegs[rndm]} ${traits[i]}`;
           descrs.push(description);
         } else if (traits[i] === 'arms' || traits[i] === 'tentacles') {
-          rndm = Math.random() * dragonArms.length | 0;
+          rndm = Math.floor(Math.random() * dragonArms.length);
           description = `${dragonArms[rndm]} ${traits[i]}`;
           descrs.push(description);
         } else if (traits[i] === 'mouth' || traits[i] === 'snout' || traits[i]
         === 'beak') {
-          rndm = Math.random() * dragonMouth.length | 0;
+          rndm = Math.floor(Math.random() * dragonMouth.length);
           description = `a ${dragonMouth[rndm]} mouth`;
           descrs.push(description);
         } else if (traits[i] === 'ears') {
-          rndm = Math.random() * dragonEars.length | 0;
+          rndm = Math.floor(Math.random() * dragonEars.length);
           description = `${dragonEars[rndm]} ${traits[i]}`;
           descrs.push(description);
         } else if (traits[i] === 'horns') {
-          rndm = Math.random() * dragonHorns.length | 0;
+          rndm = Math.floor(Math.random() * dragonHorns.length);
           description = `${dragonHorns[rndm]} ${traits[i]}`;
           descrs.push(description);
         } else if (traits[i] === 'tail') {
-          rndm = Math.random() * dragonTail.length | 0;
+          rndm = Math.floor(Math.random() * dragonTail.length);
           description = dragonTail[rndm];
           descrs.push(description);
         } else if (traits[i] === 'fins') {
-          rndm = Math.random() * dragonLegs.length | 0;
+          rndm = Math.floor(Math.random() * dragonLegs.length);
           description = `${dragonLegs[rndm]} ${traits[i]}`;
           descrs.push(description);
         } else if (traits[i] === 'body') {
-          rndm = Math.random() * dragonWings.length | 0;
+          rndm = Math.floor(Math.random() * dragonWings.length);
           description = `the added bonus of ${dragonWings[rndm]} wings`;
           descrs.push(description);
         }
       }
-      rndPlace = Math.random() * placeDragon.length | 0;
+      rndPlace = Math.floor(Math.random() * placeDragon.length);
       place = placeDragon[rndPlace];
-      attk1 = Math.random() * dragonAttk.length | 0;
+      attk1 = Math.floor(Math.random() * dragonAttk.length);
       atkOne = dragonAttk[attk1];
-      attk2 = Math.random() * dragonAttk.length | 0;
+      attk2 = Math.floor(Math.random() * dragonAttk.length);
       while (attk1 === attk2) {
-        attk2 = Math.random() * dragonAttk.length | 0;
+        attk2 = Math.floor(Math.random() * dragonAttk.length);
       }
       atkTwo = dragonAttk[attk2];
       break;
@@ -1853,62 +1853,62 @@ export default function pokemons() {
         if (traits[i] === 'skin' || traits[i] === 'shell' || traits[i]
         === 'hair' || traits[i] === 'feathers' || traits[i] === 'hide' || traits[
           i] === 'fur' || traits[i] === 'armor' || traits[i] === 'scales') {
-          rndm = Math.random() * elecSkin.length | 0;
+          rndm = Math.floor(Math.random() * elecSkin.length);
           description = `${elecSkin[rndm]} ${traits[i]}`;
           descrs.push(description);
         } else if (traits[i] === 'wings') {
-          rndm = Math.random() * elecWings.length | 0;
+          rndm = Math.floor(Math.random() * elecWings.length);
           description = `${elecWings[rndm]} ${traits[i]}`;
           descrs.push(description);
         } else if (traits[i] === 'legs') {
-          rndm = Math.random() * elecLegs.length | 0;
+          rndm = Math.floor(Math.random() * elecLegs.length);
           description = `${elecLegs[rndm]} ${traits[i]}`;
           descrs.push(description);
         } else if (traits[i] === 'arms' || traits[i] === 'tentacles') {
-          rndm = Math.random() * elecArms.length | 0;
+          rndm = Math.floor(Math.random() * elecArms.length);
           description = `${elecArms[rndm]} ${traits[i]}`;
           descrs.push(description);
         } else if (traits[i] === 'mouth') {
-          rndm = Math.random() * elecMouth.length | 0;
+          rndm = Math.floor(Math.random() * elecMouth.length);
           description = `a ${elecMouth[rndm]} ${traits[i]}`;
           descrs.push(description);
         } else if (traits[i] === 'beak') {
-          rndm = Math.random() * elecBeak.length | 0;
+          rndm = Math.floor(Math.random() * elecBeak.length);
           description = `a ${elecBeak[rndm]} ${traits[i]}`;
           descrs.push(description);
         } else if (traits[i] === 'snout') {
-          rndm = Math.random() * elecSnout.length | 0;
+          rndm = Math.floor(Math.random() * elecSnout.length);
           description = `a ${elecSnout[rndm]} ${traits[i]}`;
           descrs.push(description);
         } else if (traits[i] === 'ears') {
-          rndm = Math.random() * elecEars.length | 0;
+          rndm = Math.floor(Math.random() * elecEars.length);
           description = `${elecEars[rndm]} ${traits[i]}`;
           descrs.push(description);
         } else if (traits[i] === 'horns') {
-          rndm = Math.random() * elecHorns.length | 0;
+          rndm = Math.floor(Math.random() * elecHorns.length);
           description = `${elecHorns[rndm]} ${traits[i]}`;
           descrs.push(description);
         } else if (traits[i] === 'tail') {
-          rndm = Math.random() * elecTail.length | 0;
+          rndm = Math.floor(Math.random() * elecTail.length);
           description = elecTail[rndm];
           descrs.push(description);
         } else if (traits[i] === 'fins') {
-          rndm = Math.random() * elecLegs.length | 0;
+          rndm = Math.floor(Math.random() * elecLegs.length);
           description = `${elecLegs[rndm]} ${traits[i]}`;
           descrs.push(description);
         } else if (traits[i] === 'body') {
-          rndm = Math.random() * elecWings.length | 0;
+          rndm = Math.floor(Math.random() * elecWings.length);
           description = `the added bonus of ${elecWings[rndm]} wings`;
           descrs.push(description);
         }
       }
-      rndPlace = Math.random() * placeElectric.length | 0;
+      rndPlace = Math.floor(Math.random() * placeElectric.length);
       place = placeElectric[rndPlace];
-      attk1 = Math.random() * electricAttk.length | 0;
+      attk1 = Math.floor(Math.random() * electricAttk.length);
       atkOne = electricAttk[attk1];
-      attk2 = Math.random() * electricAttk.length | 0;
+      attk2 = Math.floor(Math.random() * electricAttk.length);
       while (attk1 === attk2) {
-        attk2 = Math.random() * electricAttk.length | 0;
+        attk2 = Math.floor(Math.random() * electricAttk.length);
       }
       atkTwo = electricAttk[attk2];
       break;
@@ -1917,62 +1917,62 @@ export default function pokemons() {
         if (traits[i] === 'skin' || traits[i] === 'shell' || traits[i]
         === 'hair' || traits[i] === 'feathers' || traits[i] === 'hide' || traits[
           i] === 'fur' || traits[i] === 'armor' || traits[i] === 'scales') {
-          rndm = Math.random() * fairySkin.length | 0;
+          rndm = Math.floor(Math.random() * fairySkin.length);
           description = `${fairySkin[rndm]} ${traits[i]}`;
           descrs.push(description);
         } else if (traits[i] === 'wings') {
-          rndm = Math.random() * fairyWings.length | 0;
+          rndm = Math.floor(Math.random() * fairyWings.length);
           description = `${fairyWings[rndm]} ${traits[i]}`;
           descrs.push(description);
         } else if (traits[i] === 'legs') {
-          rndm = Math.random() * fairyLegs.length | 0;
+          rndm = Math.floor(Math.random() * fairyLegs.length);
           description = `${fairyLegs[rndm]} ${traits[i]}`;
           descrs.push(description);
         } else if (traits[i] === 'arms' || traits[i] === 'tentacles') {
-          rndm = Math.random() * fairyArms.length | 0;
+          rndm = Math.floor(Math.random() * fairyArms.length);
           description = `${fairyArms[rndm]} ${traits[i]}`;
           descrs.push(description);
         } else if (traits[i] === 'mouth') {
-          rndm = Math.random() * fairyMouth.length | 0;
+          rndm = Math.floor(Math.random() * fairyMouth.length);
           description = `a ${fairyMouth[rndm]} ${traits[i]}`;
           descrs.push(description);
         } else if (traits[i] === 'beak') {
-          rndm = Math.random() * fairyBeak.length | 0;
+          rndm = Math.floor(Math.random() * fairyBeak.length);
           description = `a ${fairyBeak[rndm]} ${traits[i]}`;
           descrs.push(description);
         } else if (traits[i] === 'snout') {
-          rndm = Math.random() * fairySnout.length | 0;
+          rndm = Math.floor(Math.random() * fairySnout.length);
           description = `a ${fairySnout[rndm]} ${traits[i]}`;
           descrs.push(description);
         } else if (traits[i] === 'ears') {
-          rndm = Math.random() * fairyEars.length | 0;
+          rndm = Math.floor(Math.random() * fairyEars.length);
           description = `${fairyEars[rndm]} ${traits[i]}`;
           descrs.push(description);
         } else if (traits[i] === 'horns') {
-          rndm = Math.random() * fairyHorns.length | 0;
+          rndm = Math.floor(Math.random() * fairyHorns.length);
           description = `${fairyHorns[rndm]} ${traits[i]}`;
           descrs.push(description);
         } else if (traits[i] === 'tail') {
-          rndm = Math.random() * fairyTail.length | 0;
+          rndm = Math.floor(Math.random() * fairyTail.length);
           description = fairyTail[rndm];
           descrs.push(description);
         } else if (traits[i] === 'fins') {
-          rndm = Math.random() * fairyLegs.length | 0;
+          rndm = Math.floor(Math.random() * fairyLegs.length);
           description = `${fairyLegs[rndm]} ${traits[i]}`;
           descrs.push(description);
         } else if (traits[i] === 'body') {
-          rndm = Math.random() * fairyWings.length | 0;
+          rndm = Math.floor(Math.random() * fairyWings.length);
           description = `the added bonus of ${fairyWings[rndm]} wings`;
           descrs.push(description);
         }
       }
-      rndPlace = Math.random() * placeFairy.length | 0;
+      rndPlace = Math.floor(Math.random() * placeFairy.length);
       place = placeFairy[rndPlace];
-      attk1 = Math.random() * fairyAttk.length | 0;
+      attk1 = Math.floor(Math.random() * fairyAttk.length);
       atkOne = fairyAttk[attk1];
-      attk2 = Math.random() * fairyAttk.length | 0;
+      attk2 = Math.floor(Math.random() * fairyAttk.length);
       while (attk1 === attk2) {
-        attk2 = Math.random() * fairyAttk.length | 0;
+        attk2 = Math.floor(Math.random() * fairyAttk.length);
       }
       atkTwo = fairyAttk[attk2];
       break;
@@ -1981,62 +1981,62 @@ export default function pokemons() {
         if (traits[i] === 'skin' || traits[i] === 'shell' || traits[i]
         === 'hair' || traits[i] === 'feathers' || traits[i] === 'hide' || traits[
           i] === 'fur' || traits[i] === 'armor' || traits[i] === 'scales') {
-          rndm = Math.random() * fightSkin.length | 0;
+          rndm = Math.floor(Math.random() * fightSkin.length);
           description = `${fightSkin[rndm]} ${traits[i]}`;
           descrs.push(description);
         } else if (traits[i] === 'wings') {
-          rndm = Math.random() * fightWings.length | 0;
+          rndm = Math.floor(Math.random() * fightWings.length);
           description = `${fightWings[rndm]} ${traits[i]}`;
           descrs.push(description);
         } else if (traits[i] === 'legs') {
-          rndm = Math.random() * fightLegs.length | 0;
+          rndm = Math.floor(Math.random() * fightLegs.length);
           description = `${fightLegs[rndm]} ${traits[i]}`;
           descrs.push(description);
         } else if (traits[i] === 'arms' || traits[i] === 'tentacles') {
-          rndm = Math.random() * fightArms.length | 0;
+          rndm = Math.floor(Math.random() * fightArms.length);
           description = `${fightArms[rndm]} ${traits[i]}`;
           descrs.push(description);
         } else if (traits[i] === 'mouth') {
-          rndm = Math.random() * fightMouth.length | 0;
+          rndm = Math.floor(Math.random() * fightMouth.length);
           description = `a ${fightMouth[rndm]} ${traits[i]}`;
           descrs.push(description);
         } else if (traits[i] === 'beak') {
-          rndm = Math.random() * fightBeak.length | 0;
+          rndm = Math.floor(Math.random() * fightBeak.length);
           description = `a ${fightBeak[rndm]} ${traits[i]}`;
           descrs.push(description);
         } else if (traits[i] === 'snout') {
-          rndm = Math.random() * fightSnout.length | 0;
+          rndm = Math.floor(Math.random() * fightSnout.length);
           description = `a ${fightSnout[rndm]} ${traits[i]}`;
           descrs.push(description);
         } else if (traits[i] === 'ears') {
-          rndm = Math.random() * fightEars.length | 0;
+          rndm = Math.floor(Math.random() * fightEars.length);
           description = `${fightEars[rndm]} ${traits[i]}`;
           descrs.push(description);
         } else if (traits[i] === 'horns') {
-          rndm = Math.random() * fightHorns.length | 0;
+          rndm = Math.floor(Math.random() * fightHorns.length);
           description = `${fightHorns[rndm]} ${traits[i]}`;
           descrs.push(description);
         } else if (traits[i] === 'tail') {
-          rndm = Math.random() * fightTail.length | 0;
+          rndm = Math.floor(Math.random() * fightTail.length);
           description = fightTail[rndm];
           descrs.push(description);
         } else if (traits[i] === 'fins') {
-          rndm = Math.random() * fightLegs.length | 0;
+          rndm = Math.floor(Math.random() * fightLegs.length);
           description = `${fightLegs[rndm]} ${traits[i]}`;
           descrs.push(description);
         } else if (traits[i] === 'body') {
-          rndm = Math.random() * fightWings.length | 0;
+          rndm = Math.floor(Math.random() * fightWings.length);
           description = `the added bonus of ${fightWings[rndm]} wings`;
           descrs.push(description);
         }
       }
-      rndPlace = Math.random() * placeFighting.length | 0;
+      rndPlace = Math.floor(Math.random() * placeFighting.length);
       place = placeFighting[rndPlace];
-      attk1 = Math.random() * fightingAttk.length | 0;
+      attk1 = Math.floor(Math.random() * fightingAttk.length);
       atkOne = fightingAttk[attk1];
-      attk2 = Math.random() * fightingAttk.length | 0;
+      attk2 = Math.floor(Math.random() * fightingAttk.length);
       while (attk1 === attk2) {
-        attk2 = Math.random() * fightingAttk.length | 0;
+        attk2 = Math.floor(Math.random() * fightingAttk.length);
       }
       atkTwo = fightingAttk[attk2];
       break;
@@ -2045,62 +2045,62 @@ export default function pokemons() {
         if (traits[i] === 'skin' || traits[i] === 'shell' || traits[i]
         === 'hair' || traits[i] === 'feathers' || traits[i] === 'hide' || traits[
           i] === 'fur' || traits[i] === 'armor' || traits[i] === 'scales') {
-          rndm = Math.random() * fireSkin.length | 0;
+          rndm = Math.floor(Math.random() * fireSkin.length);
           description = `${fireSkin[rndm]} ${traits[i]}`;
           descrs.push(description);
         } else if (traits[i] === 'wings') {
-          rndm = Math.random() * fireWings.length | 0;
+          rndm = Math.floor(Math.random() * fireWings.length);
           description = `${fireWings[rndm]} ${traits[i]}`;
           descrs.push(description);
         } else if (traits[i] === 'legs') {
-          rndm = Math.random() * fireLegs.length | 0;
+          rndm = Math.floor(Math.random() * fireLegs.length);
           description = `${fireLegs[rndm]} ${traits[i]}`;
           descrs.push(description);
         } else if (traits[i] === 'arms' || traits[i] === 'tentacles') {
-          rndm = Math.random() * fireArms.length | 0;
+          rndm = Math.floor(Math.random() * fireArms.length);
           description = `${fireArms[rndm]} ${traits[i]}`;
           descrs.push(description);
         } else if (traits[i] === 'mouth') {
-          rndm = Math.random() * fireMouth.length | 0;
+          rndm = Math.floor(Math.random() * fireMouth.length);
           description = `a ${fireMouth[rndm]} ${traits[i]}`;
           descrs.push(description);
         } else if (traits[i] === 'beak') {
-          rndm = Math.random() * fireBeak.length | 0;
+          rndm = Math.floor(Math.random() * fireBeak.length);
           description = `a ${fireBeak[rndm]} ${traits[i]}`;
           descrs.push(description);
         } else if (traits[i] === 'snout') {
-          rndm = Math.random() * fireSnout.length | 0;
+          rndm = Math.floor(Math.random() * fireSnout.length);
           description = `a ${fireSnout[rndm]} ${traits[i]}`;
           descrs.push(description);
         } else if (traits[i] === 'ears') {
-          rndm = Math.random() * fireEars.length | 0;
+          rndm = Math.floor(Math.random() * fireEars.length);
           description = `${fireEars[rndm]} ${traits[i]}`;
           descrs.push(description);
         } else if (traits[i] === 'horns') {
-          rndm = Math.random() * fireHorns.length | 0;
+          rndm = Math.floor(Math.random() * fireHorns.length);
           description = `${fireHorns[rndm]} ${traits[i]}`;
           descrs.push(description);
         } else if (traits[i] === 'tail') {
-          rndm = Math.random() * fireTail.length | 0;
+          rndm = Math.floor(Math.random() * fireTail.length);
           description = fireTail[rndm];
           descrs.push(description);
         } else if (traits[i] === 'fins') {
-          rndm = Math.random() * fireLegs.length | 0;
+          rndm = Math.floor(Math.random() * fireLegs.length);
           description = `${fireLegs[rndm]} ${traits[i]}`;
           descrs.push(description);
         } else if (traits[i] === 'body') {
-          rndm = Math.random() * fireWings.length | 0;
+          rndm = Math.floor(Math.random() * fireWings.length);
           description = `the added bonus of ${fireWings[rndm]} wings`;
           descrs.push(description);
         }
       }
-      rndPlace = Math.random() * placeFire.length | 0;
+      rndPlace = Math.floor(Math.random() * placeFire.length);
       place = placeFire[rndPlace];
-      attk1 = Math.random() * fireAttk.length | 0;
+      attk1 = Math.floor(Math.random() * fireAttk.length);
       atkOne = fireAttk[attk1];
-      attk2 = Math.random() * fireAttk.length | 0;
+      attk2 = Math.floor(Math.random() * fireAttk.length);
       while (attk1 === attk2) {
-        attk2 = Math.random() * fireAttk.length | 0;
+        attk2 = Math.floor(Math.random() * fireAttk.length);
       }
       atkTwo = fireAttk[attk2];
       break;
@@ -2109,62 +2109,62 @@ export default function pokemons() {
         if (traits[i] === 'skin' || traits[i] === 'shell' || traits[i]
         === 'hair' || traits[i] === 'feathers' || traits[i] === 'hide' || traits[
           i] === 'fur' || traits[i] === 'armor' || traits[i] === 'scales') {
-          rndm = Math.random() * flySkin.length | 0;
+          rndm = Math.floor(Math.random() * flySkin.length);
           description = `${flySkin[rndm]} ${traits[i]}`;
           descrs.push(description);
         } else if (traits[i] === 'wings') {
-          rndm = Math.random() * flyWings.length | 0;
+          rndm = Math.floor(Math.random() * flyWings.length);
           description = `${flyWings[rndm]} ${traits[i]}`;
           descrs.push(description);
         } else if (traits[i] === 'legs') {
-          rndm = Math.random() * flyLegs.length | 0;
+          rndm = Math.floor(Math.random() * flyLegs.length);
           description = `${flyLegs[rndm]} ${traits[i]}`;
           descrs.push(description);
         } else if (traits[i] === 'arms' || traits[i] === 'tentacles') {
-          rndm = Math.random() * flyArms.length | 0;
+          rndm = Math.floor(Math.random() * flyArms.length);
           description = `${flyArms[rndm]} ${traits[i]}`;
           descrs.push(description);
         } else if (traits[i] === 'mouth') {
-          rndm = Math.random() * flyMouth.length | 0;
+          rndm = Math.floor(Math.random() * flyMouth.length);
           description = `a ${flyMouth[rndm]} ${traits[i]}`;
           descrs.push(description);
         } else if (traits[i] === 'beak') {
-          rndm = Math.random() * flyBeak.length | 0;
+          rndm = Math.floor(Math.random() * flyBeak.length);
           description = `a ${flyBeak[rndm]} ${traits[i]}`;
           descrs.push(description);
         } else if (traits[i] === 'snout') {
-          rndm = Math.random() * flySnout.length | 0;
+          rndm = Math.floor(Math.random() * flySnout.length);
           description = `a ${flySnout[rndm]} ${traits[i]}`;
           descrs.push(description);
         } else if (traits[i] === 'ears') {
-          rndm = Math.random() * flyEars.length | 0;
+          rndm = Math.floor(Math.random() * flyEars.length);
           description = `${flyEars[rndm]} ${traits[i]}`;
           descrs.push(description);
         } else if (traits[i] === 'horns') {
-          rndm = Math.random() * flyHorns.length | 0;
+          rndm = Math.floor(Math.random() * flyHorns.length);
           description = `${flyHorns[rndm]} ${traits[i]}`;
           descrs.push(description);
         } else if (traits[i] === 'tail') {
-          rndm = Math.random() * flyTail.length | 0;
+          rndm = Math.floor(Math.random() * flyTail.length);
           description = flyTail[rndm];
           descrs.push(description);
         } else if (traits[i] === 'fins') {
-          rndm = Math.random() * flyLegs.length | 0;
+          rndm = Math.floor(Math.random() * flyLegs.length);
           description = `${flyLegs[rndm]} ${traits[i]}`;
           descrs.push(description);
         } else if (traits[i] === 'body') {
-          rndm = Math.random() * flyWings.length | 0;
+          rndm = Math.floor(Math.random() * flyWings.length);
           description = `the added bonus of ${flyWings[rndm]} wings`;
           descrs.push(description);
         }
       }
-      rndPlace = Math.random() * placeFlying.length | 0;
+      rndPlace = Math.floor(Math.random() * placeFlying.length);
       place = placeFlying[rndPlace];
-      attk1 = Math.random() * flyingAttk.length | 0;
+      attk1 = Math.floor(Math.random() * flyingAttk.length);
       atkOne = flyingAttk[attk1];
-      attk2 = Math.random() * flyingAttk.length | 0;
+      attk2 = Math.floor(Math.random() * flyingAttk.length);
       while (attk1 === attk2) {
-        attk2 = Math.random() * flyingAttk.length | 0;
+        attk2 = Math.floor(Math.random() * flyingAttk.length);
       }
       atkTwo = flyingAttk[attk2];
       break;
@@ -2173,62 +2173,62 @@ export default function pokemons() {
         if (traits[i] === 'skin' || traits[i] === 'shell' || traits[i]
         === 'hair' || traits[i] === 'feathers' || traits[i] === 'hide' || traits[
           i] === 'fur' || traits[i] === 'armor' || traits[i] === 'scales') {
-          rndm = Math.random() * ghostSkin.length | 0;
+          rndm = Math.floor(Math.random() * ghostSkin.length);
           description = `${ghostSkin[rndm]} ${traits[i]}`;
           descrs.push(description);
         } else if (traits[i] === 'wings') {
-          rndm = Math.random() * ghostWings.length | 0;
+          rndm = Math.floor(Math.random() * ghostWings.length);
           description = `${ghostWings[rndm]} ${traits[i]}`;
           descrs.push(description);
         } else if (traits[i] === 'legs') {
-          rndm = Math.random() * ghostLegs.length | 0;
+          rndm = Math.floor(Math.random() * ghostLegs.length);
           description = `${ghostLegs[rndm]} ${traits[i]}`;
           descrs.push(description);
         } else if (traits[i] === 'arms' || traits[i] === 'tentacles') {
-          rndm = Math.random() * ghostArms.length | 0;
+          rndm = Math.floor(Math.random() * ghostArms.length);
           description = `${ghostArms[rndm]} ${traits[i]}`;
           descrs.push(description);
         } else if (traits[i] === 'mouth') {
-          rndm = Math.random() * ghostMouth.length | 0;
+          rndm = Math.floor(Math.random() * ghostMouth.length);
           description = `a ${ghostMouth[rndm]} ${traits[i]}`;
           descrs.push(description);
         } else if (traits[i] === 'beak') {
-          rndm = Math.random() * ghostBeak.length | 0;
+          rndm = Math.floor(Math.random() * ghostBeak.length);
           description = `a ${ghostBeak[rndm]} ${traits[i]}`;
           descrs.push(description);
         } else if (traits[i] === 'snout') {
-          rndm = Math.random() * ghostSnout.length | 0;
+          rndm = Math.floor(Math.random() * ghostSnout.length);
           description = `a ${ghostSnout[rndm]} ${traits[i]}`;
           descrs.push(description);
         } else if (traits[i] === 'ears') {
-          rndm = Math.random() * ghostEars.length | 0;
+          rndm = Math.floor(Math.random() * ghostEars.length);
           description = `${ghostEars[rndm]} ${traits[i]}`;
           descrs.push(description);
         } else if (traits[i] === 'horns') {
-          rndm = Math.random() * ghostHorns.length | 0;
+          rndm = Math.floor(Math.random() * ghostHorns.length);
           description = `${ghostHorns[rndm]} ${traits[i]}`;
           descrs.push(description);
         } else if (traits[i] === 'tail') {
-          rndm = Math.random() * ghostTail.length | 0;
+          rndm = Math.floor(Math.random() * ghostTail.length);
           description = ghostTail[rndm];
           descrs.push(description);
         } else if (traits[i] === 'fins') {
-          rndm = Math.random() * ghostLegs.length | 0;
+          rndm = Math.floor(Math.random() * ghostLegs.length);
           description = `${ghostLegs[rndm]} ${traits[i]}`;
           descrs.push(description);
         } else if (traits[i] === 'body') {
-          rndm = Math.random() * ghostWings.length | 0;
+          rndm = Math.floor(Math.random() * ghostWings.length);
           description = `the added bonus of ${ghostWings[rndm]} wings`;
           descrs.push(description);
         }
       }
-      rndPlace = Math.random() * placeGhost.length | 0;
+      rndPlace = Math.floor(Math.random() * placeGhost.length);
       place = placeGhost[rndPlace];
-      attk1 = Math.random() * ghostAttk.length | 0;
+      attk1 = Math.floor(Math.random() * ghostAttk.length);
       atkOne = ghostAttk[attk1];
-      attk2 = Math.random() * ghostAttk.length | 0;
+      attk2 = Math.floor(Math.random() * ghostAttk.length);
       while (attk1 === attk2) {
-        attk2 = Math.random() * ghostAttk.length | 0;
+        attk2 = Math.floor(Math.random() * ghostAttk.length);
       }
       atkTwo = ghostAttk[attk2];
       break;
@@ -2237,62 +2237,62 @@ export default function pokemons() {
         if (traits[i] === 'skin' || traits[i] === 'shell' || traits[i]
         === 'hair' || traits[i] === 'feathers' || traits[i] === 'hide' || traits[
           i] === 'fur' || traits[i] === 'armor' || traits[i] === 'scales') {
-          rndm = Math.random() * grassSkin.length | 0;
+          rndm = Math.floor(Math.random() * grassSkin.length);
           description = `${grassSkin[rndm]} ${traits[i]}`;
           descrs.push(description);
         } else if (traits[i] === 'wings') {
-          rndm = Math.random() * grassWings.length | 0;
+          rndm = Math.floor(Math.random() * grassWings.length);
           description = `${grassWings[rndm]} ${traits[i]}`;
           descrs.push(description);
         } else if (traits[i] === 'legs') {
-          rndm = Math.random() * grassLegs.length | 0;
+          rndm = Math.floor(Math.random() * grassLegs.length);
           description = `${grassLegs[rndm]} ${traits[i]}`;
           descrs.push(description);
         } else if (traits[i] === 'arms' || traits[i] === 'tentacles') {
-          rndm = Math.random() * grassArms.length | 0;
+          rndm = Math.floor(Math.random() * grassArms.length);
           description = `${grassArms[rndm]} ${traits[i]}`;
           descrs.push(description);
         } else if (traits[i] === 'mouth') {
-          rndm = Math.random() * grassMouth.length | 0;
+          rndm = Math.floor(Math.random() * grassMouth.length);
           description = `a ${grassMouth[rndm]} ${traits[i]}`;
           descrs.push(description);
         } else if (traits[i] === 'beak') {
-          rndm = Math.random() * grassBeak.length | 0;
+          rndm = Math.floor(Math.random() * grassBeak.length);
           description = `a ${grassBeak[rndm]} ${traits[i]}`;
           descrs.push(description);
         } else if (traits[i] === 'snout') {
-          rndm = Math.random() * grassSnout.length | 0;
+          rndm = Math.floor(Math.random() * grassSnout.length);
           description = `a ${grassSnout[rndm]} ${traits[i]}`;
           descrs.push(description);
         } else if (traits[i] === 'ears') {
-          rndm = Math.random() * grassEars.length | 0;
+          rndm = Math.floor(Math.random() * grassEars.length);
           description = `${grassEars[rndm]} ${traits[i]}`;
           descrs.push(description);
         } else if (traits[i] === 'horns') {
-          rndm = Math.random() * grassHorns.length | 0;
+          rndm = Math.floor(Math.random() * grassHorns.length);
           description = `${grassHorns[rndm]} ${traits[i]}`;
           descrs.push(description);
         } else if (traits[i] === 'tail') {
-          rndm = Math.random() * grassTail.length | 0;
+          rndm = Math.floor(Math.random() * grassTail.length);
           description = grassTail[rndm];
           descrs.push(description);
         } else if (traits[i] === 'fins') {
-          rndm = Math.random() * grassLegs.length | 0;
+          rndm = Math.floor(Math.random() * grassLegs.length);
           description = `${grassLegs[rndm]} ${traits[i]}`;
           descrs.push(description);
         } else if (traits[i] === 'body') {
-          rndm = Math.random() * grassWings.length | 0;
+          rndm = Math.floor(Math.random() * grassWings.length);
           description = `the added bonus of ${grassWings[rndm]} wings`;
           descrs.push(description);
         }
       }
-      rndPlace = Math.random() * placeGrass.length | 0;
+      rndPlace = Math.floor(Math.random() * placeGrass.length);
       place = placeGrass[rndPlace];
-      attk1 = Math.random() * grassAttk.length | 0;
+      attk1 = Math.floor(Math.random() * grassAttk.length);
       atkOne = grassAttk[attk1];
-      attk2 = Math.random() * grassAttk.length | 0;
+      attk2 = Math.floor(Math.random() * grassAttk.length);
       while (attk1 === attk2) {
-        attk2 = Math.random() * grassAttk.length | 0;
+        attk2 = Math.floor(Math.random() * grassAttk.length);
       }
       atkTwo = grassAttk[attk2];
       break;
@@ -2301,62 +2301,62 @@ export default function pokemons() {
         if (traits[i] === 'skin' || traits[i] === 'shell' || traits[i]
         === 'hair' || traits[i] === 'feathers' || traits[i] === 'hide' || traits[
           i] === 'fur' || traits[i] === 'armor' || traits[i] === 'scales') {
-          rndm = Math.random() * groundSkin.length | 0;
+          rndm = Math.floor(Math.random() * groundSkin.length);
           description = `${groundSkin[rndm]} ${traits[i]}`;
           descrs.push(description);
         } else if (traits[i] === 'wings') {
-          rndm = Math.random() * groundWings.length | 0;
+          rndm = Math.floor(Math.random() * groundWings.length);
           description = `${groundWings[rndm]} ${traits[i]}`;
           descrs.push(description);
         } else if (traits[i] === 'legs') {
-          rndm = Math.random() * groundLegs.length | 0;
+          rndm = Math.floor(Math.random() * groundLegs.length);
           description = `${groundLegs[rndm]} ${traits[i]}`;
           descrs.push(description);
         } else if (traits[i] === 'arms' || traits[i] === 'tentacles') {
-          rndm = Math.random() * groundArms.length | 0;
+          rndm = Math.floor(Math.random() * groundArms.length);
           description = `${groundArms[rndm]} ${traits[i]}`;
           descrs.push(description);
         } else if (traits[i] === 'mouth') {
-          rndm = Math.random() * groundMouth.length | 0;
+          rndm = Math.floor(Math.random() * groundMouth.length);
           description = `a ${groundMouth[rndm]} ${traits[i]}`;
           descrs.push(description);
         } else if (traits[i] === 'beak') {
-          rndm = Math.random() * groundBeak.length | 0;
+          rndm = Math.floor(Math.random() * groundBeak.length);
           description = `a ${groundBeak[rndm]} ${traits[i]}`;
           descrs.push(description);
         } else if (traits[i] === 'snout') {
-          rndm = Math.random() * groundSnout.length | 0;
+          rndm = Math.floor(Math.random() * groundSnout.length);
           description = `a ${groundSnout[rndm]} ${traits[i]}`;
           descrs.push(description);
         } else if (traits[i] === 'ears') {
-          rndm = Math.random() * groundEars.length | 0;
+          rndm = Math.floor(Math.random() * groundEars.length);
           description = `${groundEars[rndm]} ${traits[i]}`;
           descrs.push(description);
         } else if (traits[i] === 'horns') {
-          rndm = Math.random() * groundHorns.length | 0;
+          rndm = Math.floor(Math.random() * groundHorns.length);
           description = `${groundHorns[rndm]} ${traits[i]}`;
           descrs.push(description);
         } else if (traits[i] === 'tail') {
-          rndm = Math.random() * groundTail.length | 0;
+          rndm = Math.floor(Math.random() * groundTail.length);
           description = groundTail[rndm];
           descrs.push(description);
         } else if (traits[i] === 'fins') {
-          rndm = Math.random() * groundLegs.length | 0;
+          rndm = Math.floor(Math.random() * groundLegs.length);
           description = `${groundLegs[rndm]} ${traits[i]}`;
           descrs.push(description);
         } else if (traits[i] === 'body') {
-          rndm = Math.random() * groundWings.length | 0;
+          rndm = Math.floor(Math.random() * groundWings.length);
           description = `the added bonus of ${groundWings[rndm]} wings`;
           descrs.push(description);
         }
       }
-      rndPlace = Math.random() * placeGround.length | 0;
+      rndPlace = Math.floor(Math.random() * placeGround.length);
       place = placeGround[rndPlace];
-      attk1 = Math.random() * groundAttk.length | 0;
+      attk1 = Math.floor(Math.random() * groundAttk.length);
       atkOne = groundAttk[attk1];
-      attk2 = Math.random() * groundAttk.length | 0;
+      attk2 = Math.floor(Math.random() * groundAttk.length);
       while (attk1 === attk2) {
-        attk2 = Math.random() * groundAttk.length | 0;
+        attk2 = Math.floor(Math.random() * groundAttk.length);
       }
       atkTwo = groundAttk[attk2];
       break;
@@ -2365,62 +2365,62 @@ export default function pokemons() {
         if (traits[i] === 'skin' || traits[i] === 'shell' || traits[i]
         === 'hair' || traits[i] === 'feathers' || traits[i] === 'hide' || traits[
           i] === 'fur' || traits[i] === 'armor' || traits[i] === 'scales') {
-          rndm = Math.random() * iceSkin.length | 0;
+          rndm = Math.floor(Math.random() * iceSkin.length);
           description = `${iceSkin[rndm]} ${traits[i]}`;
           descrs.push(description);
         } else if (traits[i] === 'wings') {
-          rndm = Math.random() * iceWings.length | 0;
+          rndm = Math.floor(Math.random() * iceWings.length);
           description = `${iceWings[rndm]} ${traits[i]}`;
           descrs.push(description);
         } else if (traits[i] === 'legs') {
-          rndm = Math.random() * iceLegs.length | 0;
+          rndm = Math.floor(Math.random() * iceLegs.length);
           description = `${iceLegs[rndm]} ${traits[i]}`;
           descrs.push(description);
         } else if (traits[i] === 'arms' || traits[i] === 'tentacles') {
-          rndm = Math.random() * iceArms.length | 0;
+          rndm = Math.floor(Math.random() * iceArms.length);
           description = `${iceArms[rndm]} ${traits[i]}`;
           descrs.push(description);
         } else if (traits[i] === 'mouth') {
-          rndm = Math.random() * iceMouth.length | 0;
+          rndm = Math.floor(Math.random() * iceMouth.length);
           description = `a ${iceMouth[rndm]} ${traits[i]}`;
           descrs.push(description);
         } else if (traits[i] === 'beak') {
-          rndm = Math.random() * iceBeak.length | 0;
+          rndm = Math.floor(Math.random() * iceBeak.length);
           description = `a ${iceBeak[rndm]} ${traits[i]}`;
           descrs.push(description);
         } else if (traits[i] === 'snout') {
-          rndm = Math.random() * iceSnout.length | 0;
+          rndm = Math.floor(Math.random() * iceSnout.length);
           description = `a ${iceSnout[rndm]} ${traits[i]}`;
           descrs.push(description);
         } else if (traits[i] === 'ears') {
-          rndm = Math.random() * iceEars.length | 0;
+          rndm = Math.floor(Math.random() * iceEars.length);
           description = `${iceEars[rndm]} ${traits[i]}`;
           descrs.push(description);
         } else if (traits[i] === 'horns') {
-          rndm = Math.random() * iceHorns.length | 0;
+          rndm = Math.floor(Math.random() * iceHorns.length);
           description = `${iceHorns[rndm]} ${traits[i]}`;
           descrs.push(description);
         } else if (traits[i] === 'tail') {
-          rndm = Math.random() * iceTail.length | 0;
+          rndm = Math.floor(Math.random() * iceTail.length);
           description = iceTail[rndm];
           descrs.push(description);
         } else if (traits[i] === 'fins') {
-          rndm = Math.random() * iceLegs.length | 0;
+          rndm = Math.floor(Math.random() * iceLegs.length);
           description = `${iceLegs[rndm]} ${traits[i]}`;
           descrs.push(description);
         } else if (traits[i] === 'body') {
-          rndm = Math.random() * iceWings.length | 0;
+          rndm = Math.floor(Math.random() * iceWings.length);
           description = `the added bonus of ${iceWings[rndm]} wings`;
           descrs.push(description);
         }
       }
-      rndPlace = Math.random() * placeIce.length | 0;
+      rndPlace = Math.floor(Math.random() * placeIce.length);
       place = placeIce[rndPlace];
-      attk1 = Math.random() * iceAttk.length | 0;
+      attk1 = Math.floor(Math.random() * iceAttk.length);
       atkOne = iceAttk[attk1];
-      attk2 = Math.random() * iceAttk.length | 0;
+      attk2 = Math.floor(Math.random() * iceAttk.length);
       while (attk1 === attk2) {
-        attk2 = Math.random() * iceAttk.length | 0;
+        attk2 = Math.floor(Math.random() * iceAttk.length);
       }
       atkTwo = iceAttk[attk2];
       break;
@@ -2429,62 +2429,62 @@ export default function pokemons() {
         if (traits[i] === 'skin' || traits[i] === 'shell' || traits[i]
         === 'hair' || traits[i] === 'feathers' || traits[i] === 'hide' || traits[
           i] === 'fur' || traits[i] === 'armor' || traits[i] === 'scales') {
-          rndm = Math.random() * normSkin.length | 0;
+          rndm = Math.floor(Math.random() * normSkin.length);
           description = `${normSkin[rndm]} ${traits[i]}`;
           descrs.push(description);
         } else if (traits[i] === 'wings') {
-          rndm = Math.random() * normWings.length | 0;
+          rndm = Math.floor(Math.random() * normWings.length);
           description = `${normWings[rndm]} ${traits[i]}`;
           descrs.push(description);
         } else if (traits[i] === 'legs') {
-          rndm = Math.random() * normLegs.length | 0;
+          rndm = Math.floor(Math.random() * normLegs.length);
           description = `${normLegs[rndm]} ${traits[i]}`;
           descrs.push(description);
         } else if (traits[i] === 'arms' || traits[i] === 'tentacles') {
-          rndm = Math.random() * normArms.length | 0;
+          rndm = Math.floor(Math.random() * normArms.length);
           description = `${normArms[rndm]} ${traits[i]}`;
           descrs.push(description);
         } else if (traits[i] === 'mouth') {
-          rndm = Math.random() * normMouth.length | 0;
+          rndm = Math.floor(Math.random() * normMouth.length);
           description = `a ${normMouth[rndm]} ${traits[i]}`;
           descrs.push(description);
         } else if (traits[i] === 'beak') {
-          rndm = Math.random() * normBeak.length | 0;
+          rndm = Math.floor(Math.random() * normBeak.length);
           description = `a ${normBeak[rndm]} ${traits[i]}`;
           descrs.push(description);
         } else if (traits[i] === 'snout') {
-          rndm = Math.random() * normSnout.length | 0;
+          rndm = Math.floor(Math.random() * normSnout.length);
           description = `a ${normSnout[rndm]} ${traits[i]}`;
           descrs.push(description);
         } else if (traits[i] === 'ears') {
-          rndm = Math.random() * normEars.length | 0;
+          rndm = Math.floor(Math.random() * normEars.length);
           description = `${normEars[rndm]} ${traits[i]}`;
           descrs.push(description);
         } else if (traits[i] === 'horns') {
-          rndm = Math.random() * normHorns.length | 0;
+          rndm = Math.floor(Math.random() * normHorns.length);
           description = `${normHorns[rndm]} ${traits[i]}`;
           descrs.push(description);
         } else if (traits[i] === 'tail') {
-          rndm = Math.random() * normTail.length | 0;
+          rndm = Math.floor(Math.random() * normTail.length);
           description = normTail[rndm];
           descrs.push(description);
         } else if (traits[i] === 'fins') {
-          rndm = Math.random() * normLegs.length | 0;
+          rndm = Math.floor(Math.random() * normLegs.length);
           description = `${normLegs[rndm]} ${traits[i]}`;
           descrs.push(description);
         } else if (traits[i] === 'body') {
-          rndm = Math.random() * normWings.length | 0;
+          rndm = Math.floor(Math.random() * normWings.length);
           description = `the added bonus of ${normWings[rndm]} wings`;
           descrs.push(description);
         }
       }
-      rndPlace = Math.random() * placeNormal.length | 0;
+      rndPlace = Math.floor(Math.random() * placeNormal.length);
       place = placeNormal[rndPlace];
-      attk1 = Math.random() * normalAttk.length | 0;
+      attk1 = Math.floor(Math.random() * normalAttk.length);
       atkOne = normalAttk[attk1];
-      attk2 = Math.random() * normalAttk.length | 0;
+      attk2 = Math.floor(Math.random() * normalAttk.length);
       while (attk1 === attk2) {
-        attk2 = Math.random() * normalAttk.length | 0;
+        attk2 = Math.floor(Math.random() * normalAttk.length);
       }
       atkTwo = normalAttk[attk2];
       break;
@@ -2493,62 +2493,62 @@ export default function pokemons() {
         if (traits[i] === 'skin' || traits[i] === 'shell' || traits[i]
         === 'hair' || traits[i] === 'feathers' || traits[i] === 'hide' || traits[
           i] === 'fur' || traits[i] === 'armor' || traits[i] === 'scales') {
-          rndm = Math.random() * poisonSkin.length | 0;
+          rndm = Math.floor(Math.random() * poisonSkin.length);
           description = `${poisonSkin[rndm]} ${traits[i]}`;
           descrs.push(description);
         } else if (traits[i] === 'wings') {
-          rndm = Math.random() * poisonWings.length | 0;
+          rndm = Math.floor(Math.random() * poisonWings.length);
           description = `${poisonWings[rndm]} ${traits[i]}`;
           descrs.push(description);
         } else if (traits[i] === 'legs') {
-          rndm = Math.random() * poisonLegs.length | 0;
+          rndm = Math.floor(Math.random() * poisonLegs.length);
           description = `${poisonLegs[rndm]} ${traits[i]}`;
           descrs.push(description);
         } else if (traits[i] === 'arms' || traits[i] === 'tentacles') {
-          rndm = Math.random() * poisonArms.length | 0;
+          rndm = Math.floor(Math.random() * poisonArms.length);
           description = `${poisonArms[rndm]} ${traits[i]}`;
           descrs.push(description);
         } else if (traits[i] === 'mouth') {
-          rndm = Math.random() * poisonMouth.length | 0;
+          rndm = Math.floor(Math.random() * poisonMouth.length);
           description = `a ${poisonMouth[rndm]} ${traits[i]}`;
           descrs.push(description);
         } else if (traits[i] === 'beak') {
-          rndm = Math.random() * poisonBeak.length | 0;
+          rndm = Math.floor(Math.random() * poisonBeak.length);
           description = `a ${poisonBeak[rndm]} ${traits[i]}`;
           descrs.push(description);
         } else if (traits[i] === 'snout') {
-          rndm = Math.random() * poisonSnout.length | 0;
+          rndm = Math.floor(Math.random() * poisonSnout.length);
           description = `a ${poisonSnout[rndm]} ${traits[i]}`;
           descrs.push(description);
         } else if (traits[i] === 'ears') {
-          rndm = Math.random() * poisonEars.length | 0;
+          rndm = Math.floor(Math.random() * poisonEars.length);
           description = `${poisonEars[rndm]} ${traits[i]}`;
           descrs.push(description);
         } else if (traits[i] === 'horns') {
-          rndm = Math.random() * poisonHorns.length | 0;
+          rndm = Math.floor(Math.random() * poisonHorns.length);
           description = `${poisonHorns[rndm]} ${traits[i]}`;
           descrs.push(description);
         } else if (traits[i] === 'tail') {
-          rndm = Math.random() * poisonTail.length | 0;
+          rndm = Math.floor(Math.random() * poisonTail.length);
           description = poisonTail[rndm];
           descrs.push(description);
         } else if (traits[i] === 'fins') {
-          rndm = Math.random() * poisonLegs.length | 0;
+          rndm = Math.floor(Math.random() * poisonLegs.length);
           description = `${poisonLegs[rndm]} ${traits[i]}`;
           descrs.push(description);
         } else if (traits[i] === 'body') {
-          rndm = Math.random() * poisonWings.length | 0;
+          rndm = Math.floor(Math.random() * poisonWings.length);
           description = `the added bonus of ${poisonWings[rndm]} wings`;
           descrs.push(description);
         }
       }
-      rndPlace = Math.random() * placePoison.length | 0;
+      rndPlace = Math.floor(Math.random() * placePoison.length);
       place = placePoison[rndPlace];
-      attk1 = Math.random() * poisonAttk.length | 0;
+      attk1 = Math.floor(Math.random() * poisonAttk.length);
       atkOne = poisonAttk[attk1];
-      attk2 = Math.random() * poisonAttk.length | 0;
+      attk2 = Math.floor(Math.random() * poisonAttk.length);
       while (attk1 === attk2) {
-        attk2 = Math.random() * poisonAttk.length | 0;
+        attk2 = Math.floor(Math.random() * poisonAttk.length);
       }
       atkTwo = poisonAttk[attk2];
       break;
@@ -2557,62 +2557,62 @@ export default function pokemons() {
         if (traits[i] === 'skin' || traits[i] === 'shell' || traits[i]
         === 'hair' || traits[i] === 'feathers' || traits[i] === 'hide' || traits[
           i] === 'fur' || traits[i] === 'armor' || traits[i] === 'scales') {
-          rndm = Math.random() * psySkin.length | 0;
+          rndm = Math.floor(Math.random() * psySkin.length);
           description = `${psySkin[rndm]} ${traits[i]}`;
           descrs.push(description);
         } else if (traits[i] === 'wings') {
-          rndm = Math.random() * psyWings.length | 0;
+          rndm = Math.floor(Math.random() * psyWings.length);
           description = `${psyWings[rndm]} ${traits[i]}`;
           descrs.push(description);
         } else if (traits[i] === 'legs') {
-          rndm = Math.random() * psyLegs.length | 0;
+          rndm = Math.floor(Math.random() * psyLegs.length);
           description = `${psyLegs[rndm]} ${traits[i]}`;
           descrs.push(description);
         } else if (traits[i] === 'arms' || traits[i] === 'tentacles') {
-          rndm = Math.random() * psyArms.length | 0;
+          rndm = Math.floor(Math.random() * psyArms.length);
           description = `${psyArms[rndm]} ${traits[i]}`;
           descrs.push(description);
         } else if (traits[i] === 'mouth') {
-          rndm = Math.random() * psyMouth.length | 0;
+          rndm = Math.floor(Math.random() * psyMouth.length);
           description = `a ${psyMouth[rndm]} ${traits[i]}`;
           descrs.push(description);
         } else if (traits[i] === 'beak') {
-          rndm = Math.random() * psyBeak.length | 0;
+          rndm = Math.floor(Math.random() * psyBeak.length);
           description = `a ${psyBeak[rndm]} ${traits[i]}`;
           descrs.push(description);
         } else if (traits[i] === 'snout') {
-          rndm = Math.random() * psySnout.length | 0;
+          rndm = Math.floor(Math.random() * psySnout.length);
           description = `a ${psySnout[rndm]} ${traits[i]}`;
           descrs.push(description);
         } else if (traits[i] === 'ears') {
-          rndm = Math.random() * psyEars.length | 0;
+          rndm = Math.floor(Math.random() * psyEars.length);
           description = `${psyEars[rndm]} ${traits[i]}`;
           descrs.push(description);
         } else if (traits[i] === 'horns') {
-          rndm = Math.random() * psyHorns.length | 0;
+          rndm = Math.floor(Math.random() * psyHorns.length);
           description = `${psyHorns[rndm]} ${traits[i]}`;
           descrs.push(description);
         } else if (traits[i] === 'tail') {
-          rndm = Math.random() * psyTail.length | 0;
+          rndm = Math.floor(Math.random() * psyTail.length);
           description = psyTail[rndm];
           descrs.push(description);
         } else if (traits[i] === 'fins') {
-          rndm = Math.random() * psyLegs.length | 0;
+          rndm = Math.floor(Math.random() * psyLegs.length);
           description = `${psyLegs[rndm]} ${traits[i]}`;
           descrs.push(description);
         } else if (traits[i] === 'body') {
-          rndm = Math.random() * psyWings.length | 0;
+          rndm = Math.floor(Math.random() * psyWings.length);
           description = `the added bonus of ${psyWings[rndm]} wings`;
           descrs.push(description);
         }
       }
-      rndPlace = Math.random() * placePsychic.length | 0;
+      rndPlace = Math.floor(Math.random() * placePsychic.length);
       place = placePsychic[rndPlace];
-      attk1 = Math.random() * psychicAttk.length | 0;
+      attk1 = Math.floor(Math.random() * psychicAttk.length);
       atkOne = psychicAttk[attk1];
-      attk2 = Math.random() * psychicAttk.length | 0;
+      attk2 = Math.floor(Math.random() * psychicAttk.length);
       while (attk1 === attk2) {
-        attk2 = Math.random() * psychicAttk.length | 0;
+        attk2 = Math.floor(Math.random() * psychicAttk.length);
       }
       atkTwo = psychicAttk[attk2];
       break;
@@ -2621,62 +2621,62 @@ export default function pokemons() {
         if (traits[i] === 'skin' || traits[i] === 'shell' || traits[i]
         === 'hair' || traits[i] === 'feathers' || traits[i] === 'hide' || traits[
           i] === 'fur' || traits[i] === 'armor' || traits[i] === 'scales') {
-          rndm = Math.random() * rockSkin.length | 0;
+          rndm = Math.floor(Math.random() * rockSkin.length);
           description = `${rockSkin[rndm]} ${traits[i]}`;
           descrs.push(description);
         } else if (traits[i] === 'wings') {
-          rndm = Math.random() * rockWings.length | 0;
+          rndm = Math.floor(Math.random() * rockWings.length);
           description = `${rockWings[rndm]} ${traits[i]}`;
           descrs.push(description);
         } else if (traits[i] === 'legs') {
-          rndm = Math.random() * rockLegs.length | 0;
+          rndm = Math.floor(Math.random() * rockLegs.length);
           description = `${rockLegs[rndm]} ${traits[i]}`;
           descrs.push(description);
         } else if (traits[i] === 'arms' || traits[i] === 'tentacles') {
-          rndm = Math.random() * rockArms.length | 0;
+          rndm = Math.floor(Math.random() * rockArms.length);
           description = `${rockArms[rndm]} ${traits[i]}`;
           descrs.push(description);
         } else if (traits[i] === 'mouth') {
-          rndm = Math.random() * rockMouth.length | 0;
+          rndm = Math.floor(Math.random() * rockMouth.length);
           description = `a ${rockMouth[rndm]} ${traits[i]}`;
           descrs.push(description);
         } else if (traits[i] === 'beak') {
-          rndm = Math.random() * rockBeak.length | 0;
+          rndm = Math.floor(Math.random() * rockBeak.length);
           description = `a ${rockBeak[rndm]} ${traits[i]}`;
           descrs.push(description);
         } else if (traits[i] === 'snout') {
-          rndm = Math.random() * rockSnout.length | 0;
+          rndm = Math.floor(Math.random() * rockSnout.length);
           description = `a ${rockSnout[rndm]} ${traits[i]}`;
           descrs.push(description);
         } else if (traits[i] === 'ears') {
-          rndm = Math.random() * rockEars.length | 0;
+          rndm = Math.floor(Math.random() * rockEars.length);
           description = `${rockEars[rndm]} ${traits[i]}`;
           descrs.push(description);
         } else if (traits[i] === 'horns') {
-          rndm = Math.random() * rockHorns.length | 0;
+          rndm = Math.floor(Math.random() * rockHorns.length);
           description = `${rockHorns[rndm]} ${traits[i]}`;
           descrs.push(description);
         } else if (traits[i] === 'tail') {
-          rndm = Math.random() * rockTail.length | 0;
+          rndm = Math.floor(Math.random() * rockTail.length);
           description = rockTail[rndm];
           descrs.push(description);
         } else if (traits[i] === 'fins') {
-          rndm = Math.random() * rockLegs.length | 0;
+          rndm = Math.floor(Math.random() * rockLegs.length);
           description = `${rockLegs[rndm]} ${traits[i]}`;
           descrs.push(description);
         } else if (traits[i] === 'body') {
-          rndm = Math.random() * rockWings.length | 0;
+          rndm = Math.floor(Math.random() * rockWings.length);
           description = `the added bonus of ${rockWings[rndm]} wings`;
           descrs.push(description);
         }
       }
-      rndPlace = Math.random() * placeRock.length | 0;
+      rndPlace = Math.floor(Math.random() * placeRock.length);
       place = placeRock[rndPlace];
-      attk1 = Math.random() * rockAttk.length | 0;
+      attk1 = Math.floor(Math.random() * rockAttk.length);
       atkOne = rockAttk[attk1];
-      attk2 = Math.random() * rockAttk.length | 0;
+      attk2 = Math.floor(Math.random() * rockAttk.length);
       while (attk1 === attk2) {
-        attk2 = Math.random() * rockAttk.length | 0;
+        attk2 = Math.floor(Math.random() * rockAttk.length);
       }
       atkTwo = rockAttk[attk2];
       break;
@@ -2685,62 +2685,62 @@ export default function pokemons() {
         if (traits[i] === 'skin' || traits[i] === 'shell' || traits[i]
         === 'hair' || traits[i] === 'feathers' || traits[i] === 'hide' || traits[
           i] === 'fur' || traits[i] === 'armor' || traits[i] === 'scales') {
-          rndm = Math.random() * steelSkin.length | 0;
+          rndm = Math.floor(Math.random() * steelSkin.length);
           description = `${steelSkin[rndm]} ${traits[i]}`;
           descrs.push(description);
         } else if (traits[i] === 'wings') {
-          rndm = Math.random() * steelWings.length | 0;
+          rndm = Math.floor(Math.random() * steelWings.length);
           description = `${steelWings[rndm]} ${traits[i]}`;
           descrs.push(description);
         } else if (traits[i] === 'legs') {
-          rndm = Math.random() * steelLegs.length | 0;
+          rndm = Math.floor(Math.random() * steelLegs.length);
           description = `${steelLegs[rndm]} ${traits[i]}`;
           descrs.push(description);
         } else if (traits[i] === 'arms' || traits[i] === 'tentacles') {
-          rndm = Math.random() * steelArms.length | 0;
+          rndm = Math.floor(Math.random() * steelArms.length);
           description = `${steelArms[rndm]} ${traits[i]}`;
           descrs.push(description);
         } else if (traits[i] === 'mouth') {
-          rndm = Math.random() * steelMouth.length | 0;
+          rndm = Math.floor(Math.random() * steelMouth.length);
           description = `a ${steelMouth[rndm]} ${traits[i]}`;
           descrs.push(description);
         } else if (traits[i] === 'beak') {
-          rndm = Math.random() * steelBeak.length | 0;
+          rndm = Math.floor(Math.random() * steelBeak.length);
           description = `a ${steelBeak[rndm]} ${traits[i]}`;
           descrs.push(description);
         } else if (traits[i] === 'snout') {
-          rndm = Math.random() * steelSnout.length | 0;
+          rndm = Math.floor(Math.random() * steelSnout.length);
           description = `a ${steelSnout[rndm]} ${traits[i]}`;
           descrs.push(description);
         } else if (traits[i] === 'ears') {
-          rndm = Math.random() * steelEars.length | 0;
+          rndm = Math.floor(Math.random() * steelEars.length);
           description = `${steelEars[rndm]} ${traits[i]}`;
           descrs.push(description);
         } else if (traits[i] === 'horns') {
-          rndm = Math.random() * steelHorns.length | 0;
+          rndm = Math.floor(Math.random() * steelHorns.length);
           description = `${steelHorns[rndm]} ${traits[i]}`;
           descrs.push(description);
         } else if (traits[i] === 'tail') {
-          rndm = Math.random() * steelTail.length | 0;
+          rndm = Math.floor(Math.random() * steelTail.length);
           description = steelTail[rndm];
           descrs.push(description);
         } else if (traits[i] === 'fins') {
-          rndm = Math.random() * steelLegs.length | 0;
+          rndm = Math.floor(Math.random() * steelLegs.length);
           description = `${steelLegs[rndm]} ${traits[i]}`;
           descrs.push(description);
         } else if (traits[i] === 'body') {
-          rndm = Math.random() * steelWings.length | 0;
+          rndm = Math.floor(Math.random() * steelWings.length);
           description = `the added bonus of ${steelWings[rndm]} wings`;
           descrs.push(description);
         }
       }
-      rndPlace = Math.random() * placeSteel.length | 0;
+      rndPlace = Math.floor(Math.random() * placeSteel.length);
       place = placeSteel[rndPlace];
-      attk1 = Math.random() * steelAttk.length | 0;
+      attk1 = Math.floor(Math.random() * steelAttk.length);
       atkOne = steelAttk[attk1];
-      attk2 = Math.random() * steelAttk.length | 0;
+      attk2 = Math.floor(Math.random() * steelAttk.length);
       while (attk1 === attk2) {
-        attk2 = Math.random() * steelAttk.length | 0;
+        attk2 = Math.floor(Math.random() * steelAttk.length);
       }
       atkTwo = steelAttk[attk2];
       break;
@@ -2749,62 +2749,62 @@ export default function pokemons() {
         if (traits[i] === 'skin' || traits[i] === 'shell' || traits[i]
         === 'hair' || traits[i] === 'feathers' || traits[i] === 'hide' || traits[
           i] === 'fur' || traits[i] === 'armor' || traits[i] === 'scales') {
-          rndm = Math.random() * waterSkin.length | 0;
+          rndm = Math.floor(Math.random() * waterSkin.length);
           description = `${waterSkin[rndm]} ${traits[i]}`;
           descrs.push(description);
         } else if (traits[i] === 'wings') {
-          rndm = Math.random() * waterWings.length | 0;
+          rndm = Math.floor(Math.random() * waterWings.length);
           description = `${waterWings[rndm]} ${traits[i]}`;
           descrs.push(description);
         } else if (traits[i] === 'legs') {
-          rndm = Math.random() * waterLegs.length | 0;
+          rndm = Math.floor(Math.random() * waterLegs.length);
           description = `${waterLegs[rndm]} ${traits[i]}`;
           descrs.push(description);
         } else if (traits[i] === 'arms' || traits[i] === 'tentacles') {
-          rndm = Math.random() * waterArms.length | 0;
+          rndm = Math.floor(Math.random() * waterArms.length);
           description = `${waterArms[rndm]} ${traits[i]}`;
           descrs.push(description);
         } else if (traits[i] === 'fins') {
-          rndm = Math.random() * waterLegs.length | 0;
+          rndm = Math.floor(Math.random() * waterLegs.length);
           description = `${waterLegs[rndm]} ${traits[i]}`;
           descrs.push(description);
         } else if (traits[i] === 'mouth') {
-          rndm = Math.random() * waterMouth.length | 0;
+          rndm = Math.floor(Math.random() * waterMouth.length);
           description = `a ${waterMouth[rndm]} ${traits[i]}`;
           descrs.push(description);
         } else if (traits[i] === 'beak') {
-          rndm = Math.random() * waterBeak.length | 0;
+          rndm = Math.floor(Math.random() * waterBeak.length);
           description = `a ${waterBeak[rndm]} ${traits[i]}`;
           descrs.push(description);
         } else if (traits[i] === 'snout') {
-          rndm = Math.random() * waterSnout.length | 0;
+          rndm = Math.floor(Math.random() * waterSnout.length);
           description = `a ${waterSnout[rndm]} ${traits[i]}`;
           descrs.push(description);
         } else if (traits[i] === 'ears') {
-          rndm = Math.random() * waterEars.length | 0;
+          rndm = Math.floor(Math.random() * waterEars.length);
           description = `${waterEars[rndm]} ${traits[i]}`;
           descrs.push(description);
         } else if (traits[i] === 'horns') {
-          rndm = Math.random() * waterHorns.length | 0;
+          rndm = Math.floor(Math.random() * waterHorns.length);
           description = `${waterHorns[rndm]} ${traits[i]}`;
           descrs.push(description);
         } else if (traits[i] === 'tail') {
-          rndm = Math.random() * waterTail.length | 0;
+          rndm = Math.floor(Math.random() * waterTail.length);
           description = waterTail[rndm];
           descrs.push(description);
         } else if (traits[i] === 'body') {
-          rndm = Math.random() * waterWings.length | 0;
+          rndm = Math.floor(Math.random() * waterWings.length);
           description = `the added bonus of ${waterWings[rndm]} wings`;
           descrs.push(description);
         }
       }
-      rndPlace = Math.random() * placeWater.length | 0;
+      rndPlace = Math.floor(Math.random() * placeWater.length);
       place = placeWater[rndPlace];
-      attk1 = Math.random() * waterAttk.length | 0;
+      attk1 = Math.floor(Math.random() * waterAttk.length);
       atkOne = waterAttk[attk1];
-      attk2 = Math.random() * waterAttk.length | 0;
+      attk2 = Math.floor(Math.random() * waterAttk.length);
       while (attk1 === attk2) {
-        attk2 = Math.random() * waterAttk.length | 0;
+        attk2 = Math.floor(Math.random() * waterAttk.length);
       }
       atkTwo = waterAttk[attk2];
       break;

@@ -1,9 +1,6 @@
 export default function bahmis() {
-  let names;
   let names1;
   let names2;
-  let rnd;
-  let rnd2;
   const type = Math.random() < 0.5 ? 0 : 1;
   if (type === 1) {
     names1 = ['Altan', 'Bat', 'Bayar', 'Bolor', 'Ene', 'Enkh', 'Erdene', 'Gan',
@@ -20,8 +17,7 @@ export default function bahmis() {
     names2 = ['baatar', 'bat', 'bataar', 'bayar', 'bish', 'bold', 'güi', 'gis',
       'jargal', 'khan', 'khoi', 'saikhan', 'sukh', 'tulga', 'zorig'];
   }
-  rnd = Math.floor(Math.random() * names1.length);
-  rnd2 = Math.floor(Math.random() * names2.length);
-  names = names1[rnd] + names2[rnd2];
-  return names;
+  const rnd = Math.floor(Math.random() * names1.length);
+  const rnd2 = Math.floor(Math.random() * names2.length);
+  return names1[rnd] + names2[rnd2];
 }

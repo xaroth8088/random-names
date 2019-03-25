@@ -53,7 +53,7 @@ export default function halfOrcs() {
     rnd10 = Math.floor(Math.random() * nm9.length);
     rnd11 = Math.floor(Math.random() * nm10.length);
     rnd12 = Math.floor(Math.random() * nm12.length);
-    if (i % 3 === 0 && i % 2 != 0) {
+    if (i % 3 === 0 && i % 2 !== 0) {
       rnd13 = Math.floor(Math.random() * nm11.length);
       rnd14 = Math.floor(Math.random() * nm10.length);
       rnd15 = Math.floor(Math.random() * nm11.length);

@@ -92,18 +92,18 @@ export default function societys() {
     'an interesting way of life', 'special rituals',
     'intriguing rites of passage', 'strict rules', 'firm beliefs',
     'beautiful customs', 'ancient traditions', 'odd formalities'];
-  const random1 = parseInt(Math.floor((Math.random() * names1.length)), 10);
-  const random2 = parseInt(Math.floor((Math.random() * names2.length)), 10);
-  const random3a = parseInt(Math.floor((Math.random() * names3.length)), 10);
-  let random3b = parseInt(Math.floor((Math.random() * names3.length)), 10);
+  const random1 = Math.floor((Math.random() * names1.length));
+  const random2 = Math.floor((Math.random() * names2.length));
+  const random3a = Math.floor((Math.random() * names3.length));
+  let random3b = Math.floor((Math.random() * names3.length));
   while (random3b === random3a) {
-    random3b = parseInt(Math.floor((Math.random() * names3.length)), 10);
+    random3b = Math.floor((Math.random() * names3.length));
   }
-  let random3c = parseInt(Math.floor((Math.random() * names3.length)), 10);
+  let random3c = Math.floor((Math.random() * names3.length));
   while (random3c === random3a || random3c === random3b) {
-    random3c = parseInt(Math.floor((Math.random() * names3.length)), 10);
+    random3c = Math.floor((Math.random() * names3.length));
   }
-  const random4 = parseInt(Math.floor((Math.random() * names4.length)), 10);
+  const random4 = Math.floor((Math.random() * names4.length));
   if (random4 > 14) {
     names6 = ' a lot in ';
     names13 = ['bitter', 'cheerless', 'depressed', 'distressed', 'gloomy',
@@ -115,32 +115,32 @@ export default function societys() {
     names16 = ' is really ';
     names17 = ' some ';
   }
-  const random5a = parseInt(Math.floor((Math.random() * names5.length)), 10);
-  let random5b = parseInt(Math.floor((Math.random() * names5.length)), 10);
+  const random5a = Math.floor((Math.random() * names5.length));
+  let random5b = Math.floor((Math.random() * names5.length));
   while (random5b === random5a) {
-    random5b = parseInt(Math.floor((Math.random() * names5.length)), 10);
+    random5b = Math.floor((Math.random() * names5.length));
   }
-  let random5c = parseInt(Math.floor((Math.random() * names5.length)), 10);
+  let random5c = Math.floor((Math.random() * names5.length));
   while (random5c === random5a || random5c === random5b) {
-    random5c = parseInt(Math.floor((Math.random() * names5.length)), 10);
+    random5c = Math.floor((Math.random() * names5.length));
   }
-  let random5d = parseInt(Math.floor((Math.random() * names5.length)), 10);
+  let random5d = Math.floor((Math.random() * names5.length));
   while (random5d === random5a || random5d === random5b || random5d
     === random5c) {
-    random5d = parseInt(Math.floor((Math.random() * names5.length)), 10);
+    random5d = Math.floor((Math.random() * names5.length));
   }
-  let random5e = parseInt(Math.floor((Math.random() * names5.length)), 10);
+  let random5e = Math.floor((Math.random() * names5.length));
   while (random5e === random5a || random5e === random5b || random5e
     === random5c || random5e === random5d) {
-    random5e = parseInt(Math.floor((Math.random() * names5.length)), 10);
+    random5e = Math.floor((Math.random() * names5.length));
   }
-  const random7 = parseInt(Math.floor((Math.random() * names7.length)), 10);
-  const random8 = parseInt(Math.floor((Math.random() * names8.length)), 10);
+  const random7 = Math.floor((Math.random() * names7.length));
+  const random8 = Math.floor((Math.random() * names8.length));
   if (random8 === 1) {
     names9 = ['quite a few', 'a couple of', 'some', 'a few small', 'a lot of',
       'many', 'some strong', 'fairly strong'];
   }
-  const random9 = parseInt(Math.floor((Math.random() * names9.length)), 10);
+  const random9 = Math.floor((Math.random() * names9.length));
   if (random9 > 4) {
     if (random8 === 0) {
       names10 = [', but they pose no real threat.',
@@ -178,14 +178,14 @@ export default function societys() {
       ];
     }
   }
-  const random10 = parseInt(Math.floor((Math.random() * names10.length)), 10);
-  const random11 = parseInt(Math.floor((Math.random() * names11.length)), 10);
-  const random12 = parseInt(Math.floor((Math.random() * names12.length)), 10);
-  const random13 = parseInt(Math.floor((Math.random() * names13.length)), 10);
-  const random14 = parseInt(Math.floor((Math.random() * names14.length)), 10);
-  const random18 = parseInt(Math.floor((Math.random() * names18.length)), 10);
-  const random19 = parseInt(Math.floor((Math.random() * names19.length)), 10);
-  const random20 = parseInt(Math.floor((Math.random() * names20.length)), 10);
+  const random10 = Math.floor((Math.random() * names10.length));
+  const random11 = Math.floor((Math.random() * names11.length));
+  const random12 = Math.floor((Math.random() * names12.length));
+  const random13 = Math.floor((Math.random() * names13.length));
+  const random14 = Math.floor((Math.random() * names14.length));
+  const random18 = Math.floor((Math.random() * names18.length));
+  const random19 = Math.floor((Math.random() * names19.length));
+  const random20 = Math.floor((Math.random() * names20.length));
   if (random18 < 4 && random20 > 3) {
     names21 = ' either ';
     names22 = ' rely more on ';
@@ -208,10 +208,10 @@ export default function societys() {
       'intriguing rites of passage', 'strict rules', 'firm beliefs',
       'beautiful customs', 'ancient traditions', 'odd formalities'];
   }
-  const random23a = parseInt(Math.floor((Math.random() * names23.length)), 10);
-  let random23b = parseInt(Math.floor((Math.random() * names23.length)), 10);
+  const random23a = Math.floor((Math.random() * names23.length));
+  let random23b = Math.floor((Math.random() * names23.length));
   while (random23a === random23b) {
-    random23b = parseInt(Math.floor((Math.random() * names23.length)), 10);
+    random23b = Math.floor((Math.random() * names23.length));
   }
   const name = `The ${names1[random1]} of ${names2[random2]}. Built upon the ${names3[random3a]}, ${names3[random3b]} and ${names3[random3c]} of its past, this ${names1[random1]} is now among the ${names4[random4]} countries in its corner of the world.`;
   const name2 = `Their ${names5[random5a]}, ${names5[random5b]} and ${names5[random5c]} are among its current greatest strengths. Unfortunately they lack ${names6}${names5[random5d]} and ${names5[random5e]}.`;

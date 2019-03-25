@@ -1,8 +1,3 @@
-export default function characters() {
-  const type = Math.random() > 0.5 ? 0 : 1;
-  return type === 1 ? charactersFemale() : charactersMale();
-}
-
 function charactersMale() {
   let names1 = ['Black', 'Gray', 'White', 'Blonde', 'Brown', 'Red', 'Ginger',
     'Chestnut', 'Silver'];
@@ -230,7 +225,7 @@ function charactersMale() {
     'spreading stories about him', 'making up bigger stories about him',
     'training with him whenever he\'s available',
     'treating him to a good meal when he\'s around'];
-  const random21 = parseInt(Math.floor((Math.random() * names21.length)), 10);
+  const random21 = Math.floor((Math.random() * names21.length));
   if (random21 > 3 && random21 < 9) {
     names1 = ['Purple', 'Blue', 'Green', 'Red', 'White', 'Blonde', 'Brown',
       'Light blue', 'Light green', 'Pink', 'Silver', 'Golden'];
@@ -250,7 +245,7 @@ function charactersMale() {
       'Alduin', 'Almon', 'Hagwin', 'Hagmere'];
     names19 = ['Moonwalker', 'Dawnwing', 'Dawnfury', 'Moonfall', 'Nightgaze',
       'Dawnthorn', 'Stagrunner', 'Wildoak', 'Lunadancer', 'Dawnwhisper'];
-  } else if (random21 == 10) {
+  } else if (random21 === 10) {
     names1 = ['Purple', 'Blue', 'Green', 'Red', 'White', 'Brown', 'Light blue',
       'Light green', 'Orange', 'Silver', 'Golden', 'Yellow', 'Black', 'Blue',
       'Brown', 'Hazel', 'Black', 'Green', 'Amber', 'Gray'];
@@ -276,21 +271,21 @@ function charactersMale() {
       'farms', 'country', 'haven', 'mountains', 'rivers', 'river', 'sea',
       'clan', 'folk', 'tribe', 'tribes', 'ancestors', 'children', 'deserts',
       'mines', 'spirits'];
-    if (random21 == 11) {
+    if (random21 === 11) {
       names18 = ['Ekon', 'Erasto', 'Haijen', 'Hamedi', 'Hokima', 'Jaafan',
         'Jabir', 'Jalai', 'Javyn', 'Jijel', 'Juma', 'Jumoke', 'Kaijin',
         'Kazko', 'Maalik', 'Makas', 'Malak', 'Nyabingi', 'Rahjin', 'Rakash',
         'Rashi', 'Razi'];
       names19 = ['Xueshi', 'Vintish', 'Zalaahoku', 'Valkeiki', 'Hakjel',
         'Hanalaji', 'Zebnanji', 'Tesh\'Rimon', 'Junbir', 'Zenunjo'];
-    } else if (random21 == 12) {
+    } else if (random21 === 12) {
       names18 = ['Gnarg', 'Gnarlug', 'Gnorl', 'Gnorth', 'Gnoth', 'Gnurl',
         'Golag', 'Golub', 'Gomatug', 'Gomoku', 'Gorgu', 'Gorlag', 'Grikug',
         'Grug', 'Grukag', 'Grukk', 'Grung', 'Gruul'];
       names19 = ['Wolfbasher', 'Burningfury', 'Firesong', 'Goreseeker',
         'Hellsplitter', 'Deatheye', 'Burninghorn', 'Gorebasher', 'Wolfhammer',
         'Boneslayer'];
-    } else if (random21 == 13) {
+    } else if (random21 === 13) {
       names18 = ['Karax', 'Baxeek', 'Soxart', 'Rezikmez', 'Fizink', 'Wimax',
         'Jexmelyx', 'Grexmex', 'Tinkbelex', 'Greekeels'];
       names19 = ['Greaseblast', 'Haggletooth', 'Deadnozzle', 'Fizfingers',
@@ -303,7 +298,7 @@ function charactersMale() {
       'frizzy hair', 'shoulder-length hair'];
     names4 = ['craggy', 'fine', 'fresh', 'full', 'furrowed', 'strong', 'long',
       'round', 'fat'];
-    if (random21 == 14) {
+    if (random21 === 14) {
       names18 = ['Bengahdar', 'Banbrek', 'Drumdus', 'Dulgarn', 'Galirg',
         'Kharnur', 'Iromuador', 'Ragorhdrom', 'Urmbrek', 'Theledon'];
       names19 = ['Longmantle', 'Highbeard', 'Frostpike', 'Boulderstone',
@@ -311,18 +306,18 @@ function charactersMale() {
         'Battlefist'];
     }
   }
-  const random1 = parseInt(Math.floor((Math.random() * names1.length)), 10);
-  const random2 = parseInt(Math.floor((Math.random() * names2.length)), 10);
-  const random3 = parseInt(Math.floor((Math.random() * names3.length)), 10);
-  const random4 = parseInt(Math.floor((Math.random() * names4.length)), 10);
-  const random5 = parseInt(Math.floor((Math.random() * names5.length)), 10);
-  const random6 = parseInt(Math.floor((Math.random() * names6.length)), 10);
-  const random7 = parseInt(Math.floor((Math.random() * names7.length)), 10);
-  const random8 = parseInt(Math.floor((Math.random() * names8.length)), 10);
-  const random9 = parseInt(Math.floor((Math.random() * names9.length)), 10);
-  const random10 = parseInt(Math.floor((Math.random() * names10.length)), 10);
-  const random11 = parseInt(Math.floor((Math.random() * names11.length)), 10);
-  const random12 = parseInt(Math.floor((Math.random() * names12.length)), 10);
+  const random1 = Math.floor((Math.random() * names1.length));
+  const random2 = Math.floor((Math.random() * names2.length));
+  const random3 = Math.floor((Math.random() * names3.length));
+  const random4 = Math.floor((Math.random() * names4.length));
+  const random5 = Math.floor((Math.random() * names5.length));
+  const random6 = Math.floor((Math.random() * names6.length));
+  const random7 = Math.floor((Math.random() * names7.length));
+  const random8 = Math.floor((Math.random() * names8.length));
+  const random9 = Math.floor((Math.random() * names9.length));
+  const random10 = Math.floor((Math.random() * names10.length));
+  const random11 = Math.floor((Math.random() * names11.length));
+  const random12 = Math.floor((Math.random() * names12.length));
   if (random12 > 6 && random12 < 9) {
     names13 = ['resembling a shield', 'resembling a sword',
       'resembling a skull', 'resembling a flag', 'resembling a tear',
@@ -348,7 +343,7 @@ function charactersMale() {
       'just above the side of his right eye',
       'just above the right side of his right eyebrow',
       'just above the left side of his left eyebrow'];
-  } else if (random12 == 9) {
+  } else if (random12 === 9) {
     names13 = [
       'in the form of 2 stripes running from above the eyes to the bottom of the cheeks',
       'in the form of 2 stripes on each side of the face, running from just above the eyes to the bottom of the cheeks',
@@ -378,7 +373,7 @@ function charactersMale() {
       'marks his legacy', 'marks his birthright', 'marks his heirship',
       'marks his descent', 'marks his lineage', 'marks his blood relation'];
     names15 = ['but, more importantly'];
-  } else if (random12 == 10) {
+  } else if (random12 === 10) {
     names13 = ['are spread'];
     names14 = ['charmingly', 'gracefully', 'beautifully', 'elegantly',
       'seductively', 'alluringly', 'delightfully', 'delicately', 'graciously',
@@ -401,7 +396,7 @@ function charactersMale() {
       'his unfortunate upbringing', 'his unfortunate looks',
       'his lack of luck in love', 'his unadventurous love life',
       'his unfortunate adventures'];
-  } else if (random12 == 11) {
+  } else if (random12 === 11) {
     names13 = ['are spread'];
     names14 = ['charmingly', 'gracefully', 'beautifully', 'elegantly',
       'gorgeously', 'handsomely', 'seductively', 'alluringly', 'delightfully',
@@ -439,24 +434,24 @@ function charactersMale() {
       'his fortunate destiny', 'his adventurous love life',
       'his reckless luck', 'his fortunate adventures'];
   }
-  const random13 = parseInt(Math.floor((Math.random() * names13.length)), 10);
-  const random14 = parseInt(Math.floor((Math.random() * names14.length)), 10);
-  const random15 = parseInt(Math.floor((Math.random() * names15.length)), 10);
-  const random16 = parseInt(Math.floor((Math.random() * names16.length)), 10);
-  const random17 = parseInt(Math.floor((Math.random() * names17.length)), 10);
-  const random18 = parseInt(Math.floor((Math.random() * names18.length)), 10);
-  const random19 = parseInt(Math.floor((Math.random() * names19.length)), 10);
-  const random20 = parseInt(Math.floor((Math.random() * names20.length)), 10);
-  const random22 = parseInt(Math.floor((Math.random() * names22.length)), 10);
-  const random23 = parseInt(Math.floor((Math.random() * names23.length)), 10);
-  const random24 = parseInt(Math.floor((Math.random() * names24.length)), 10);
-  const random25 = parseInt(Math.floor((Math.random() * names25.length)), 10);
-  let random26 = parseInt(Math.floor((Math.random() * names26.length)), 10);
-  while (random26 == random25) {
-    random26 = parseInt(Math.floor((Math.random() * names26.length)), 10);
+  const random13 = Math.floor((Math.random() * names13.length));
+  const random14 = Math.floor((Math.random() * names14.length));
+  const random15 = Math.floor((Math.random() * names15.length));
+  const random16 = Math.floor((Math.random() * names16.length));
+  const random17 = Math.floor((Math.random() * names17.length));
+  const random18 = Math.floor((Math.random() * names18.length));
+  const random19 = Math.floor((Math.random() * names19.length));
+  const random20 = Math.floor((Math.random() * names20.length));
+  const random22 = Math.floor((Math.random() * names22.length));
+  const random23 = Math.floor((Math.random() * names23.length));
+  const random24 = Math.floor((Math.random() * names24.length));
+  const random25 = Math.floor((Math.random() * names25.length));
+  let random26 = Math.floor((Math.random() * names26.length));
+  while (random26 === random25) {
+    random26 = Math.floor((Math.random() * names26.length));
   }
-  const random27 = parseInt(Math.floor((Math.random() * names27.length)), 10);
-  const random28 = parseInt(Math.floor((Math.random() * names28.length)), 10);
+  const random27 = Math.floor((Math.random() * names27.length));
+  const random28 = Math.floor((Math.random() * names28.length));
   const name = `${names1[random1]}, ${names2[random2]} ${names3[random3]} a ${names4[random4]}, ${names5[random5]} face. ${names6[random6]} ${names7[random7]} eyes, set ${names8[random8]} within their sockets, watch ${names9[random9]} over the ${names10[random10]} they've ${names11[random11]} for so long.`;
   const name2 = `${names12[random12]} ${names13[random13]} ${names14[random14]} ${names15[random15]} leaves ${names16[random16]} of ${names17[random17]}.`;
   const name3 = `The is the face of ${names18[random18]} ${names19[random19]}, a true ${names20[random20]} among ${names21[random21]}. He stands ${names22[random22]} others, despite his ${names23[random23]} frame.`;
@@ -699,7 +694,7 @@ function charactersFemale() {
     'spreading stories about her', 'making up bigger stories about her',
     'training with her whenever she\'s available',
     'treating her to a good meal when she\'s around'];
-  const random21 = parseInt(Math.floor((Math.random() * names21.length)), 10);
+  const random21 = Math.floor((Math.random() * names21.length));
   if (random21 > 3 && random21 < 10) {
     names1 = ['Purple', 'Blue', 'Green', 'Red', 'White', 'Blonde', 'Brown',
       'Light blue', 'Light green', 'Pink', 'Silver', 'Golden'];
@@ -719,7 +714,7 @@ function charactersFemale() {
       'Felerai', 'Sillaesa', 'Leadrieth', 'Yneasia', 'Iyohara'];
     names19 = ['Moonwalker', 'Dawnwing', 'Dawnfury', 'Moonfall', 'Nightgaze',
       'Dawnthorn', 'Stagrunner', 'Wildoak', 'Lunadancer', 'Dawnwhisper'];
-  } else if (random21 == 10) {
+  } else if (random21 === 10) {
     names1 = ['Purple', 'Blue', 'Green', 'Red', 'White', 'Brown', 'Light blue',
       'Light green', 'Orange', 'Silver', 'Golden', 'Yellow', 'Black', 'Blue',
       'Brown', 'Hazel', 'Black', 'Green', 'Amber', 'Gray'];
@@ -745,18 +740,18 @@ function charactersFemale() {
       'farms', 'country', 'haven', 'mountains', 'rivers', 'river', 'sea',
       'clan', 'folk', 'tribe', 'tribes', 'ancestors', 'children', 'deserts',
       'mines', 'spirits'];
-    if (random21 == 11) {
+    if (random21 === 11) {
       names18 = ['Gir\'Enji', 'Yahuja', 'Feyini', 'Ziruja', 'Zeyra', 'Zuladur',
         'Zujula', 'Sonayo', 'Vulino', 'Yaonji'];
       names19 = ['Xueshi', 'Vintish', 'Zalaahoku', 'Valkeiki', 'Hakjel',
         'Hanalaji', 'Zebnanji', 'Tesh\'Rimon', 'Junbir', 'Zenunjo'];
-    } else if (random21 == 12) {
+    } else if (random21 === 12) {
       names18 = ['Umoda', 'Zonkaja', 'Goredo', 'Umakuma', 'Groanu', 'Zunala',
         'Gredula', 'Sheeda', 'Greras', 'Elgudo'];
       names19 = ['Wolfbasher', 'Burningfury', 'Firesong', 'Goreseeker',
         'Hellsplitter', 'Deatheye', 'Burninghorn', 'Gorebasher', 'Wolfhammer',
         'Boneslayer'];
-    } else if (random21 == 13) {
+    } else if (random21 === 13) {
       names18 = ['Amizenee', 'Nexlee', 'Pybilope', 'Nalleex', 'Glelee', 'Glyxi',
         'Linxie', 'Minzi', 'Glebizee', 'Fluxinky'];
       names19 = ['Greaseblast', 'Haggletooth', 'Deadnozzle', 'Fizfingers',
@@ -769,7 +764,7 @@ function charactersFemale() {
       'frizzy hair', 'shoulder-length hair'];
     names4 = ['craggy', 'fine', 'fresh', 'full', 'furrowed', 'strong', 'long',
       'round', 'fat'];
-    if (random21 == 14) {
+    if (random21 === 14) {
       names18 = ['Belianyss', 'Daerahniss', 'Dearirwyn', 'Brenunwyn',
         'Gwenirnys', 'Bretianura', 'Einormyl', 'Breteodiel', 'Bellores',
         'Brylilen'];
@@ -778,18 +773,18 @@ function charactersFemale() {
         'Battlefist'];
     }
   }
-  const random1 = parseInt(Math.floor((Math.random() * names1.length)), 10);
-  const random2 = parseInt(Math.floor((Math.random() * names2.length)), 10);
-  const random3 = parseInt(Math.floor((Math.random() * names3.length)), 10);
-  const random4 = parseInt(Math.floor((Math.random() * names4.length)), 10);
-  const random5 = parseInt(Math.floor((Math.random() * names5.length)), 10);
-  const random6 = parseInt(Math.floor((Math.random() * names6.length)), 10);
-  const random7 = parseInt(Math.floor((Math.random() * names7.length)), 10);
-  const random8 = parseInt(Math.floor((Math.random() * names8.length)), 10);
-  const random9 = parseInt(Math.floor((Math.random() * names9.length)), 10);
-  const random10 = parseInt(Math.floor((Math.random() * names10.length)), 10);
-  const random11 = parseInt(Math.floor((Math.random() * names11.length)), 10);
-  const random12 = parseInt(Math.floor((Math.random() * names12.length)), 10);
+  const random1 = Math.floor((Math.random() * names1.length));
+  const random2 = Math.floor((Math.random() * names2.length));
+  const random3 = Math.floor((Math.random() * names3.length));
+  const random4 = Math.floor((Math.random() * names4.length));
+  const random5 = Math.floor((Math.random() * names5.length));
+  const random6 = Math.floor((Math.random() * names6.length));
+  const random7 = Math.floor((Math.random() * names7.length));
+  const random8 = Math.floor((Math.random() * names8.length));
+  const random9 = Math.floor((Math.random() * names9.length));
+  const random10 = Math.floor((Math.random() * names10.length));
+  const random11 = Math.floor((Math.random() * names11.length));
+  const random12 = Math.floor((Math.random() * names12.length));
   if (random12 > 6 && random12 < 9) {
     names13 = ['resembling a rose', 'resembling a petal', 'of a heart',
       'resembling a shield', 'resembling a sword', 'resembling a skull',
@@ -816,7 +811,7 @@ function charactersFemale() {
       'just above the side of her right eye',
       'just above the right side of her right eyebrow',
       'just above the left side of her left eyebrow'];
-  } else if (random12 == 9) {
+  } else if (random12 === 9) {
     names13 = [
       'in the form of 2 stripes running from above the eyes to the bottom of the cheeks',
       'in the form of 2 stripes on each side of the face, running from just above the eyes to the bottom of the cheeks',
@@ -846,7 +841,7 @@ function charactersFemale() {
       'marks her legacy', 'marks her birthright', 'marks her heirship',
       'marks her descent', 'marks her lineage', 'marks her blood relation'];
     names15 = ['but, more importantly'];
-  } else if (random12 == 10) {
+  } else if (random12 === 10) {
     names13 = ['are spread'];
     names14 = ['charmingly', 'gracefully', 'beautifully', 'elegantly',
       'seductively', 'alluringly', 'delightfully', 'delicately', 'graciously',
@@ -869,7 +864,7 @@ function charactersFemale() {
       'her unfortunate upbringing', 'her unfortunate looks',
       'her lack of luck in love', 'her unadventurous love life',
       'her unfortunate adventures'];
-  } else if (random12 == 11) {
+  } else if (random12 === 11) {
     names13 = ['are spread'];
     names14 = ['charmingly', 'gracefully', 'beautifully', 'elegantly',
       'gorgeously', 'handsomely', 'seductively', 'alluringly', 'delightfully',
@@ -907,24 +902,24 @@ function charactersFemale() {
       'her fortunate destiny', 'her adventurous love life',
       'her reckless luck', 'her fortunate adventures'];
   }
-  const random13 = parseInt(Math.floor((Math.random() * names13.length)), 10);
-  const random14 = parseInt(Math.floor((Math.random() * names14.length)), 10);
-  const random15 = parseInt(Math.floor((Math.random() * names15.length)), 10);
-  const random16 = parseInt(Math.floor((Math.random() * names16.length)), 10);
-  const random17 = parseInt(Math.floor((Math.random() * names17.length)), 10);
-  const random18 = parseInt(Math.floor((Math.random() * names18.length)), 10);
-  const random19 = parseInt(Math.floor((Math.random() * names19.length)), 10);
-  const random20 = parseInt(Math.floor((Math.random() * names20.length)), 10);
-  const random22 = parseInt(Math.floor((Math.random() * names22.length)), 10);
-  const random23 = parseInt(Math.floor((Math.random() * names23.length)), 10);
-  const random24 = parseInt(Math.floor((Math.random() * names24.length)), 10);
-  const random25 = parseInt(Math.floor((Math.random() * names25.length)), 10);
-  let random26 = parseInt(Math.floor((Math.random() * names26.length)), 10);
-  while (random26 == random25) {
-    random26 = parseInt(Math.floor((Math.random() * names26.length)), 10);
+  const random13 = Math.floor((Math.random() * names13.length));
+  const random14 = Math.floor((Math.random() * names14.length));
+  const random15 = Math.floor((Math.random() * names15.length));
+  const random16 = Math.floor((Math.random() * names16.length));
+  const random17 = Math.floor((Math.random() * names17.length));
+  const random18 = Math.floor((Math.random() * names18.length));
+  const random19 = Math.floor((Math.random() * names19.length));
+  const random20 = Math.floor((Math.random() * names20.length));
+  const random22 = Math.floor((Math.random() * names22.length));
+  const random23 = Math.floor((Math.random() * names23.length));
+  const random24 = Math.floor((Math.random() * names24.length));
+  const random25 = Math.floor((Math.random() * names25.length));
+  let random26 = Math.floor((Math.random() * names26.length));
+  while (random26 === random25) {
+    random26 = Math.floor((Math.random() * names26.length));
   }
-  const random27 = parseInt(Math.floor((Math.random() * names27.length)), 10);
-  const random28 = parseInt(Math.floor((Math.random() * names28.length)), 10);
+  const random27 = Math.floor((Math.random() * names27.length));
+  const random28 = Math.floor((Math.random() * names28.length));
   const name = `${names1[random1]}, ${names2[random2]} ${names3[random3]} a ${names4[random4]}, ${names5[random5]} face. ${names6[random6]} ${names7[random7]} eyes, set ${names8[random8]} within their sockets, watch ${names9[random9]} over the ${names10[random10]} they've ${names11[random11]} for so long.`;
   const name2 = `${names12[random12]} ${names13[random13]} ${names14[random14]} ${names15[random15]} leaves ${names16[random16]} of ${names17[random17]}.`;
   const name3 = `The is the face of ${names18[random18]} ${names19[random19]}, a true ${names20[random20]} among ${names21[random21]}. She stands ${names22[random22]} others, despite her ${names23[random23]} frame.`;
@@ -940,4 +935,9 @@ function charactersFemale() {
   result += '\n';
   result += name4;
   return result;
+}
+
+export default function characters() {
+  const type = Math.random() > 0.5 ? 0 : 1;
+  return type === 1 ? charactersFemale() : charactersMale();
 }

@@ -37,21 +37,21 @@ export default function dragons() {
     'zoor', 'zul', 'zun'];
   const i = Math.floor(Math.random() * 10); {
     if (i < 8) {
-      rnd = parseInt(Math.floor((Math.random() * names1.length)), 10);
-      rnd2 = parseInt(Math.floor((Math.random() * names1.length)), 10);
+      rnd = Math.floor((Math.random() * names1.length));
+      rnd2 = Math.floor((Math.random() * names1.length));
       while (rnd2 === rnd) {
-        rnd2 = parseInt(Math.floor((Math.random() * names1.length)), 10);
+        rnd2 = Math.floor((Math.random() * names1.length));
       }
-      rnd3 = parseInt(Math.floor((Math.random() * names1.length)), 10);
+      rnd3 = Math.floor((Math.random() * names1.length));
       while (rnd3 === rnd || rnd3 === rnd2) {
-        rnd3 = parseInt(Math.floor((Math.random() * names1.length)), 10);
+        rnd3 = Math.floor((Math.random() * names1.length));
       }
       names = names1[rnd] + names1[rnd2] + names1[rnd3];
     } else {
-      rnd = parseInt(Math.floor((Math.random() * names1.length)), 10);
-      rnd2 = parseInt(Math.floor((Math.random() * names1.length)), 10);
+      rnd = Math.floor((Math.random() * names1.length));
+      rnd2 = Math.floor((Math.random() * names1.length));
       while (rnd2 === rnd) {
-        rnd2 = parseInt(Math.floor((Math.random() * names1.length)), 10);
+        rnd2 = Math.floor((Math.random() * names1.length));
       }
       names = names1[rnd] + names1[rnd2];
     }

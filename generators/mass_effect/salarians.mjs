@@ -9,6 +9,7 @@ export default function salarians() {
   let rnd6;
   let rnd7;
   let rnd8;
+  let names7;
   const type = Math.random() > 0.5 ? 0 : 1;
   const names1 = ['b', 'c', 'd', 'f', 'g', 'h', 'j', 'l', 'm', 'n', 'p', 'r',
     's', 't', 'v', 'w', 'y', 'z', '', '', '', ''];
@@ -25,9 +26,9 @@ export default function salarians() {
     'raji', 'ral', 'ralan', 'ran', 'rban', 'rix', 'rji', 'rlan', 'ss', 'u',
     'wan', 'x', 'yor', 'zal', 'zen', 'zik', 'zom', 'zon', 'zor', 'zu', 'zz'];
   if (type === 1) {
-    var names7 = [''];
+    names7 = [''];
   } else {
-    var names7 = ['a', 'e', 'o', 'i'];
+    names7 = ['a', 'e', 'o', 'i'];
   } {
     rnd0 = Math.floor(Math.random() * names1.length);
     rnd1 = Math.floor(Math.random() * names2.length);

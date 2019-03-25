@@ -4,7 +4,7 @@ export default function countrys() {
     'Asharia', 'Osium', 'Covania', 'Toria', 'Cedoria', 'Uskium'];
   const names2 = [' large', ' huge', 'n enormous', ' vast', 'n immense',
     ' little', ' modest', ' humble', ' small', ' tiny', 'n average-sized'];
-  let names3 = parseInt(Math.floor((Math.random() * 15000000 + 1000000)), 10);
+  let names3 = Math.floor((Math.random() * 15000000 + 1000000));
   const names4 = ['blood elves', 'dark elves', 'dwarves', 'elves', 'dwarves',
     'elves', 'fairies', 'giants', 'gnomes', 'goblins', 'halflings',
     'high elves', 'humans', 'humans', 'humans', 'humans', 'night elves',
@@ -213,28 +213,28 @@ export default function countrys() {
     'with two keys on either side', 'with two shields on either side',
     'with two smaller spiritual symbols on either side',
     'with two swords on either side'];
-  const random1 = parseInt(Math.floor((Math.random() * names1.length)), 10);
-  const random2 = parseInt(Math.floor((Math.random() * names2.length)), 10);
+  const random1 = Math.floor((Math.random() * names1.length));
+  const random2 = Math.floor((Math.random() * names2.length));
   if (random2 > 4) {
-    names3 = parseInt(Math.floor((Math.random() * 1200000 + 100000)), 10);
-  } else if (random2 == 10) {
-    names3 = parseInt(Math.floor((Math.random() * 5000000 + 500000)), 10);
+    names3 = Math.floor((Math.random() * 1200000 + 100000));
+  } else if (random2 === 10) {
+    names3 = Math.floor((Math.random() * 5000000 + 500000));
   }
-  const random4 = parseInt(Math.floor((Math.random() * names4.length)), 10);
-  const random5 = parseInt(Math.floor((Math.random() * names5.length)), 10);
-  const random6 = parseInt(Math.floor((Math.random() * names5.length)), 10);
-  const random7 = parseInt(Math.floor((Math.random() * names5.length)), 10);
-  const random8 = parseInt(Math.floor((Math.random() * names5.length)), 10);
-  const random9 = parseInt(Math.floor((Math.random() * names6.length)), 10);
-  let random10 = parseInt(Math.floor((Math.random() * names6.length)), 10);
-  while (random9 == random10) {
-    random10 = parseInt(Math.floor((Math.random() * names6.length)), 10);
+  const random4 = Math.floor((Math.random() * names4.length));
+  const random5 = Math.floor((Math.random() * names5.length));
+  const random6 = Math.floor((Math.random() * names5.length));
+  const random7 = Math.floor((Math.random() * names5.length));
+  const random8 = Math.floor((Math.random() * names5.length));
+  const random9 = Math.floor((Math.random() * names6.length));
+  let random10 = Math.floor((Math.random() * names6.length));
+  while (random9 === random10) {
+    random10 = Math.floor((Math.random() * names6.length));
   }
-  let random11 = parseInt(Math.floor((Math.random() * names6.length)), 10);
-  while (random11 == random10 || random11 == random9) {
-    random11 = parseInt(Math.floor((Math.random() * names6.length)), 10);
+  let random11 = Math.floor((Math.random() * names6.length));
+  while (random11 === random10 || random11 === random9) {
+    random11 = Math.floor((Math.random() * names6.length));
   }
-  const random12 = parseInt(Math.floor((Math.random() * names7.length)), 10);
+  const random12 = Math.floor((Math.random() * names7.length));
   if (random12 < 3) {
     names7b = ['cold', 'snowy', 'arctic', 'polar', 'windy', 'stormy', 'calm'];
   } else if (random12 < 6 && random12 > 2) {
@@ -245,15 +245,15 @@ export default function countrys() {
   } else if (random12 < 14 && random12 > 9) {
     names7b = ['humid', 'warm', 'wet', 'tropical', 'rainy', 'stormy', 'calm'];
   }
-  const random3 = parseInt(Math.floor((Math.random() * names7b.length)), 10);
-  const random13 = parseInt(Math.floor((Math.random() * names8.length)), 10);
+  const random3 = Math.floor((Math.random() * names7b.length));
+  const random13 = Math.floor((Math.random() * names8.length));
   if (random13 < 8) {
     names10 = ['villages', 'tiny villages', 'small villages', 'small towns',
       'tiny towns', 'towns', 'small hamlets', 'hamlets', 'small outposts',
       'outposts', 'townships', 'small settlements', 'tiny settlements'];
   }
-  const random15 = parseInt(Math.floor((Math.random() * names10.length)), 10);
-  const random17 = parseInt(Math.floor((Math.random() * names12.length)), 10);
+  const random15 = Math.floor((Math.random() * names10.length));
+  const random17 = Math.floor((Math.random() * names12.length));
   if (random17 > 16) {
     names13 = ['somber hills', 'wild rivers', 'cold, windy mountains',
       'dreary fields', 'chaotic, overgrown fields', 'silent mountains',
@@ -281,12 +281,12 @@ export default function countrys() {
       'notorious', 'rejected', 'scorned', 'shirked', 'shunned', 'unpopular',
       'hated'];
   }
-  const random18 = parseInt(Math.floor((Math.random() * names13.length)), 10);
-  const random19 = parseInt(Math.floor((Math.random() * names13.length)), 10);
-  const random20 = parseInt(Math.floor((Math.random() * names13.length)), 10);
-  const random21 = parseInt(Math.floor((Math.random() * names14.length)), 10);
-  const random22 = parseInt(Math.floor((Math.random() * names15.length)), 10);
-  const random23 = parseInt(Math.floor((Math.random() * names16.length)), 10);
+  const random18 = Math.floor((Math.random() * names13.length));
+  const random19 = Math.floor((Math.random() * names13.length));
+  const random20 = Math.floor((Math.random() * names13.length));
+  const random21 = Math.floor((Math.random() * names14.length));
+  const random22 = Math.floor((Math.random() * names15.length));
+  const random23 = Math.floor((Math.random() * names16.length));
   if (random23 > 19) {
     names18 = ['turned cheeks', 'avoiding eyes', 'greed', 'coldness',
       'avoidance', 'resentment', 'animosity', 'irritation', 'annoyance',
@@ -299,9 +299,9 @@ export default function countrys() {
       'mutilate', 'obstruct', 'pollute', 'prohibit', 'ravage', 'restrict',
       'ruin', 'sabotage', 'slow down', 'suppress', 'thwart', 'weigh down'];
   }
-  const random25 = parseInt(Math.floor((Math.random() * names18.length)), 10);
-  const random26 = parseInt(Math.floor((Math.random() * names19.length)), 10);
-  const random27 = parseInt(Math.floor((Math.random() * names20.length)), 10);
+  const random25 = Math.floor((Math.random() * names18.length));
+  const random26 = Math.floor((Math.random() * names19.length));
+  const random27 = Math.floor((Math.random() * names20.length));
   if (random23 > 9) {
     names22 = ['aggravated', 'agitated', 'angered', 'anquished', 'anxious',
       'concerend', 'displeased', 'distressed', 'disturbed', 'frightened',
@@ -331,32 +331,32 @@ export default function countrys() {
       'remnants of a civil war', 'a struggling economy',
       'sticking to outdated traditions'];
   }
-  const random28 = parseInt(Math.floor((Math.random() * names21.length)), 10);
-  const random29 = parseInt(Math.floor((Math.random() * names22.length)), 10);
-  const random30 = parseInt(Math.floor((Math.random() * names23.length)), 10);
-  const random31 = parseInt(Math.floor((Math.random() * names24.length)), 10);
-  const random32 = parseInt(Math.floor((Math.random() * names25.length)), 10);
-  const random33 = parseInt(Math.floor((Math.random() * names26.length)), 10);
-  let random33b = parseInt(Math.floor((Math.random() * names26b.length)), 10);
-  while (random33b == random33) {
-    random33b = parseInt(Math.floor((Math.random() * names26b.length)), 10);
+  const random28 = Math.floor((Math.random() * names21.length));
+  const random29 = Math.floor((Math.random() * names22.length));
+  const random30 = Math.floor((Math.random() * names23.length));
+  const random31 = Math.floor((Math.random() * names24.length));
+  const random32 = Math.floor((Math.random() * names25.length));
+  const random33 = Math.floor((Math.random() * names26.length));
+  let random33b = Math.floor((Math.random() * names26b.length));
+  while (random33b === random33) {
+    random33b = Math.floor((Math.random() * names26b.length));
   }
-  let random33c = parseInt(Math.floor((Math.random() * names26b.length)), 10);
-  while (random33b == random33c || random33 == random33c) {
-    random33c = parseInt(Math.floor((Math.random() * names26b.length)), 10);
+  let random33c = Math.floor((Math.random() * names26b.length));
+  while (random33b === random33c || random33 === random33c) {
+    random33c = Math.floor((Math.random() * names26b.length));
   }
-  let random33d = parseInt(Math.floor((Math.random() * names26b.length)), 10);
-  while (random33d == random33 || random33d == random33b || random33d
-    == random33c) {
-    random33d = parseInt(Math.floor((Math.random() * names26b.length)), 10);
+  let random33d = Math.floor((Math.random() * names26b.length));
+  while (random33d === random33 || random33d === random33b || random33d
+    === random33c) {
+    random33d = Math.floor((Math.random() * names26b.length));
   }
-  let random33e = parseInt(Math.floor((Math.random() * names26c.length)), 10);
-  while (random33e == random33 || random33e == random33b || random33e
-    == random33c || random33e == random33d) {
-    random33e = parseInt(Math.floor((Math.random() * names26c.length)), 10);
+  let random33e = Math.floor((Math.random() * names26c.length));
+  while (random33e === random33 || random33e === random33b || random33e
+    === random33c || random33e === random33d) {
+    random33e = Math.floor((Math.random() * names26c.length));
   }
-  const random34 = parseInt(Math.floor((Math.random() * names27.length)), 10);
-  const random35 = parseInt(Math.floor((Math.random() * names28.length)), 10);
+  const random34 = Math.floor((Math.random() * names27.length));
+  const random35 = Math.floor((Math.random() * names28.length));
   const name = `The country of ${names1[random1]} is a${names2[random2]} country with a population of ${names3} ${names4[random4]}`;
   const name2 = `Bordered between ${names5[random5]} to the North, ${names5[random6]} to the South, ${names5[random7]} to the East and ${names5[random8]} to the West, the country of ${names1[random1]} mainly lives of ${names6[random9]}, ${names6[random10]} and ${names6[random11]}.`;
   const name3 = `${names1[random1]} itself is mainly covered in ${names7[random12]} and has a ${names7b[random3]} climate, which has lead to a ${names8[random13]} population, despite the number of people, which means most of them live in ${names10[random15]}.`;

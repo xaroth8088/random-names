@@ -43,5 +43,5 @@ export default function blacksmiths() {
     'The Storm Forge', 'The Tilted Anvil', 'The Unbreakable Anvil',
     'There Be Smoke', 'True as Steel', 'Under Construction',
     'While the Iron\'s Hot', 'Young Flames'];
-  return nm1[Math.random() * nm1.length | 0];
+  return nm1[Math.floor(Math.random() * nm1.length)];
 }

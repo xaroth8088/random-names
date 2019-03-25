@@ -432,36 +432,36 @@ export default function twins() {
   const i = Math.floor(Math.random() * 10); {
     if (type === 1) {
       if (i < 6) {
-        rnd = Math.random() * nm2.length | 0;
+        rnd = Math.floor(Math.random() * nm2.length);
         names = nm2[rnd];
       } else {
-        rnd = Math.random() * nm6.length | 0;
-        rnd2 = Math.random() * nm6.length | 0;
+        rnd = Math.floor(Math.random() * nm6.length);
+        rnd2 = Math.floor(Math.random() * nm6.length);
         while (rnd === rnd2) {
-          rnd2 = Math.random() * nm6.length | 0;
+          rnd2 = Math.floor(Math.random() * nm6.length);
         }
         names = `${nm6[rnd]} & ${nm6[rnd2]}`;
       }
     } else if (type === 2) {
       if (i < 6) {
-        rnd = Math.random() * nm3.length | 0;
+        rnd = Math.floor(Math.random() * nm3.length);
         names = nm3[rnd];
       } else {
-        rnd = Math.random() * nm5.length | 0;
-        rnd2 = Math.random() * nm5.length | 0;
+        rnd = Math.floor(Math.random() * nm5.length);
+        rnd2 = Math.floor(Math.random() * nm5.length);
         while (rnd === rnd2) {
-          rnd2 = Math.random() * nm5.length | 0;
+          rnd2 = Math.floor(Math.random() * nm5.length);
         }
         names = `${nm5[rnd]} & ${nm5[rnd2]}`;
       }
     } else if (i < 6) {
-      rnd = Math.random() * nm1.length | 0;
+      rnd = Math.floor(Math.random() * nm1.length);
       names = nm1[rnd];
     } else {
-      rnd = Math.random() * nm4.length | 0;
-      rnd2 = Math.random() * nm4.length | 0;
+      rnd = Math.floor(Math.random() * nm4.length);
+      rnd2 = Math.floor(Math.random() * nm4.length);
       while (rnd === rnd2) {
-        rnd2 = Math.random() * nm4.length | 0;
+        rnd2 = Math.floor(Math.random() * nm4.length);
       }
       names = `${nm4[rnd]} & ${nm4[rnd2]}`;
     }

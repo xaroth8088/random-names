@@ -21,7 +21,7 @@ export default function mountainClans() {
     'mmi', 'nell', 'nna', 'nni', 'ress', 'rra', 'rris', 'senne', 'sha', 'ssi',
     'tish', 'tta', 'twyn', 'va', 'vara', 'vell', 'wenn', 'wyn', 'wys', 'ya',
     'yas', 'yenn']; {
-    if (type == 1) {
+    if (type === 1) {
       rnd = Math.floor(Math.random() * names3.length);
       rnd2 = Math.floor(Math.random() * names4.length);
       names = names3[rnd] + names4[rnd2];

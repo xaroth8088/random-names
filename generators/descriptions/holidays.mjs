@@ -2,6 +2,7 @@ export default function holidays() {
   let name3;
   let rnd5b;
   let rnd5c;
+  let rnd5d;
   let i;
   const nm1 = ['year', '2 years', '9 months', '6 months', '4 months'];
   const nm2 = ['Age', 'All Souls', 'Ancestors', 'Animals', 'Art', 'Ashes',
@@ -106,15 +107,15 @@ export default function holidays() {
     const rnd3 = Math.floor(Math.random() * nm3.length);
     const rnd4 = Math.floor(Math.random() * nm4.length);
     const rnd5a = Math.floor(Math.random() * nm5.length);
-    let rnd5b = Math.floor(Math.random() * nm5.length);
+    rnd5b = Math.floor(Math.random() * nm5.length);
     while (rnd5a === rnd5b) {
       rnd5b = Math.floor(Math.random() * nm5.length);
     }
-    let rnd5c = Math.floor(Math.random() * nm5.length);
+    rnd5c = Math.floor(Math.random() * nm5.length);
     while (rnd5a === rnd5c || rnd5b === rnd5c) {
       rnd5c = Math.floor(Math.random() * nm5.length);
     }
-    let rnd5d = Math.floor(Math.random() * nm5.length);
+    rnd5d = Math.floor(Math.random() * nm5.length);
     while (rnd5a === rnd5d || rnd5b === rnd5d || rnd5c === rnd5d) {
       rnd5d = Math.floor(Math.random() * nm5.length);
     }

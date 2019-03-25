@@ -122,7 +122,7 @@ export default function aliens() {
     'more vulgar', 'smarter', 'sneakier', 'stronger', 'taller'];
   const names15 = ['more vibrant', 'less vibrant', 'more varied', 'less varied',
     'darker', 'lighter'];
-  const random1 = parseInt(Math.floor((Math.random() * names1.length)), 10);
+  const random1 = Math.floor((Math.random() * names1.length));
   if (random1 === 1) {
     names2a = ['a huge, powerful tail and small anal fin, ',
       'a huge, muscular tail and small anal fin, ',
@@ -309,53 +309,53 @@ export default function aliens() {
       'It\'s covered in small, wide feathers.'];
     names11a = 'Their feather ';
   }
-  const random2a = parseInt(Math.floor((Math.random() * names2a.length)), 10);
-  const random2b = parseInt(Math.floor((Math.random() * names2b.length)), 10);
-  const random2c = parseInt(Math.floor((Math.random() * names2c.length)), 10);
-  const random3 = parseInt(Math.floor((Math.random() * names3.length)), 10);
-  const random4 = parseInt(Math.floor((Math.random() * names4.length)), 10);
-  const random5a = parseInt(Math.floor((Math.random() * names5.length)), 10);
-  let random5b = parseInt(Math.floor((Math.random() * names5.length)), 10);
+  const random2a = Math.floor((Math.random() * names2a.length));
+  const random2b = Math.floor((Math.random() * names2b.length));
+  const random2c = Math.floor((Math.random() * names2c.length));
+  const random3 = Math.floor((Math.random() * names3.length));
+  const random4 = Math.floor((Math.random() * names4.length));
+  const random5a = Math.floor((Math.random() * names5.length));
+  let random5b = Math.floor((Math.random() * names5.length));
   while (random5b === random5a) {
-    random5b = parseInt(Math.floor((Math.random() * names5.length)), 10);
+    random5b = Math.floor((Math.random() * names5.length));
   }
-  const random6a = parseInt(Math.floor((Math.random() * names6.length)), 10);
-  let random6b = parseInt(Math.floor((Math.random() * names6.length)), 10);
+  const random6a = Math.floor((Math.random() * names6.length));
+  let random6b = Math.floor((Math.random() * names6.length));
   while (random6b === random6a) {
-    random6b = parseInt(Math.floor((Math.random() * names6.length)), 10);
+    random6b = Math.floor((Math.random() * names6.length));
   }
-  const random7a = parseInt(Math.floor((Math.random() * names7a.length)), 10);
-  const random7b = parseInt(Math.floor((Math.random() * names7b.length)), 10);
-  const random8 = parseInt(Math.floor((Math.random() * names8.length)), 10);
-  const random9 = parseInt(Math.floor((Math.random() * names9.length)), 10);
-  const random10 = parseInt(Math.floor((Math.random() * names10.length)), 10);
-  const random11 = parseInt(Math.floor((Math.random() * names11.length)), 10);
-  const random12a = parseInt(Math.floor((Math.random() * names12a.length)), 10);
-  let random12b = parseInt(Math.floor((Math.random() * names12b.length)), 10);
+  const random7a = Math.floor((Math.random() * names7a.length));
+  const random7b = Math.floor((Math.random() * names7b.length));
+  const random8 = Math.floor((Math.random() * names8.length));
+  const random9 = Math.floor((Math.random() * names9.length));
+  const random10 = Math.floor((Math.random() * names10.length));
+  const random11 = Math.floor((Math.random() * names11.length));
+  const random12a = Math.floor((Math.random() * names12a.length));
+  let random12b = Math.floor((Math.random() * names12b.length));
   while (random12b === random12a) {
-    random12b = parseInt(Math.floor((Math.random() * names12b.length)), 10);
+    random12b = Math.floor((Math.random() * names12b.length));
   }
-  let random12c = parseInt(Math.floor((Math.random() * names12c.length)), 10);
+  let random12c = Math.floor((Math.random() * names12c.length));
   while (random12c === random12a || random12c === random12b) {
-    random12c = parseInt(Math.floor((Math.random() * names12c.length)), 10);
+    random12c = Math.floor((Math.random() * names12c.length));
   }
-  let random12d = parseInt(Math.floor((Math.random() * names12c.length)), 10);
+  let random12d = Math.floor((Math.random() * names12c.length));
   while (random12d === random12a || random12d === random12b || random12d
     === random12c) {
-    random12d = parseInt(Math.floor((Math.random() * names12c.length)), 10);
+    random12d = Math.floor((Math.random() * names12c.length));
   }
-  let random12e = parseInt(Math.floor((Math.random() * names12d.length)), 10);
+  let random12e = Math.floor((Math.random() * names12d.length));
   while (random12e === random12a || random12e === random12b || random12e
     === random12c || random12e === random12d) {
-    random12e = parseInt(Math.floor((Math.random() * names12d.length)), 10);
+    random12e = Math.floor((Math.random() * names12d.length));
   }
-  const random13 = parseInt(Math.floor((Math.random() * names13.length)), 10);
-  const random14a = parseInt(Math.floor((Math.random() * names14.length)), 10);
-  let random14b = parseInt(Math.floor((Math.random() * names14.length)), 10);
+  const random13 = Math.floor((Math.random() * names13.length));
+  const random14a = Math.floor((Math.random() * names14.length));
+  let random14b = Math.floor((Math.random() * names14.length));
   while (random14b === random14a) {
-    random14b = parseInt(Math.floor((Math.random() * names14.length)), 10);
+    random14b = Math.floor((Math.random() * names14.length));
   }
-  const random15 = parseInt(Math.floor((Math.random() * names15.length)), 10);
+  const random15 = Math.floor((Math.random() * names15.length));
   const name = `These aliens are a type of ${names1[random1]}. They have ${names2a[random2a]}${names2b[random2b]}${names2c[random2c]}.`;
   const name2 = `They have ${names3[random3]} which sit ${names4[random4]} in their sockets and can often make them appear to be ${names5[random5a]}. Their eyesight is ${names6[random6a]}.`;
   const name3 = `Their ${names7a[random7a]}${names7b[random7b]} often make these aliens appear to be ${names5[random5b]}, but looks can be deceiving.`;

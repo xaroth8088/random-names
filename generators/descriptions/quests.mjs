@@ -11,7 +11,7 @@ export default function quests() {
   result += '\n';
   result += name2;
   result += '\n';
-  if (type != 1) {
+  if (type !== 1) {
     result += name3;
     result += '\n';
     result += '\n';

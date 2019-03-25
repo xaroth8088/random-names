@@ -65,7 +65,7 @@ export default function ithorians() {
     rnd7 = Math.floor(Math.random() * nm9.length);
     rnd8 = Math.floor(Math.random() * nm10.length);
     rnd10 = Math.floor(Math.random() * nm12.length);
-    if (i % 3 === 0 && i % 2 != 0) {
+    if (i % 3 === 0 && i % 2 !== 0) {
       while (rnd7 < 3) {
         rnd7 = Math.floor(Math.random() * nm9.length);
       }

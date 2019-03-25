@@ -82,7 +82,7 @@ export default function spaceships() {
     'Siberia', 'Silent', 'Silent Watcher', 'Siren', 'Slayer', 'Sonne',
     'Sparrow', 'Sparta', 'Spartacus', 'Spectator', 'Spectrum', 'Spider',
     'Spitfire', 'Stalker', 'Stalwart', 'Star Finder', 'Star Fury',
-    'Star Opal', 'Star Talon', 'Starfall', 'Stargazer', 'Starhammer	',
+    'Star Opal', 'Star Talon', 'Starfall', 'Stargazer', 'Starhammer ',
     'Starhunter', 'Steel Aurora', 'Stellar Flare', 'Storm', 'Stormfalcon',
     'Stormspike', 'Strike', 'Striker', 'Sunder', 'Suzanna', 'Syracuse',
     'Templar', 'Tenacity', 'Tennessee', 'Teresa', 'Terigon', 'Termite',

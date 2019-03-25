@@ -62,7 +62,7 @@ export default function planets() {
     ', the most popular name of the natives, ',
     ', as it\'s named by the native population, '];
   if (intelligent > 0.5) {
-    names2.push.apply(names2, names2a);
+    names2.push(...names2a);
   }
   // Habitable, uninhabitable or resource planet?
   const names3 = [];
@@ -76,13 +76,13 @@ export default function planets() {
     ' terrestial', 'n iron', 'n earth-like', ' rogue', ' carbon', ' diamond',
     'n ice', 'n ice giant'];
   if (planetType === 1) {
-    names3.push.apply(names3, names3a);
+    names3.push(...names3a);
   }
   if (planetType === 2) {
-    names3.push.apply(names3, names3b);
+    names3.push(...names3b);
   }
   if (planetType === 3) {
-    names3.push.apply(names3, names3c);
+    names3.push(...names3c);
   }
   const names4 = ['a small solar system with ',
     'a thinly populated solar system with only ',
@@ -107,7 +107,7 @@ export default function planets() {
     ' fairly circular orbit'];
   const names14a = ['narrow, elliptic orbit'];
   if (planetType === 2) {
-    names14.push.apply(names14, names14a);
+    names14.push(...names14a);
   }
   // Conditions, dependant on planet type
   // Life types, dependant on user choices
@@ -296,7 +296,7 @@ export default function planets() {
   const random1 = Math.floor(Math.random() * names1.length);
   const random2 = Math.floor(Math.random() * names2.length);
   const random3 = Math.floor(Math.random() * names3.length);
-  if (random3 < 3 && planetType != 1) {
+  if (random3 < 3 && planetType !== 1) {
     names10 = 0;
     names11 = 0;
   }

@@ -10,6 +10,7 @@
     "codeFrame": false
   },
   "rules": {
-    "no-lone-blocks": 0
+    "no-lone-blocks": 0,
+    "prefer-destructuring": 0
   }
 }

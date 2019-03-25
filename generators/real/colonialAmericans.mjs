@@ -12,7 +12,7 @@ export default function colonialAmericans() {
     'Eleazer', 'Eli', 'Eliab', 'Eliakim', 'Elias', 'Elihu', 'Elijah',
     'Eliphalet', 'Elisha', 'Emanuel', 'Emory', 'Enoch', 'Enos', 'Ephraim',
     'Experience', 'Ezekiel', 'Francis', 'Garvan', 'Gawen', 'Gerrard',
-    'Gideon	', 'Gideon', 'Giles', 'Hannibal', 'Henry', 'Hercules', 'Hezekiah',
+    'Gideon ', 'Gideon', 'Giles', 'Hannibal', 'Henry', 'Hercules', 'Hezekiah',
     'Hiram', 'Holmes', 'Homer', 'Horatio', 'Hosea', 'Increase', 'Isaac',
     'Isaiah', 'Isham', 'Israel', 'Jabez', 'James', 'Jared', 'Jasper',
     'Jedidiah', 'Jehu', 'Jeremiah', 'Jethro', 'Job', 'John', 'Jonas',

@@ -125,33 +125,33 @@ export default function towns() {
     'horrendous', 'horrible', 'horrific', 'luxuriant', 'macabre', 'pleasant',
     'pleasurable', 'prosperous', 'sinister', 'somber', 'terrible',
     'terrifying', 'thriving'];
-  const random1 = parseInt(Math.floor((Math.random() * names1.length)), 10);
-  const random2 = parseInt(Math.floor((Math.random() * names2.length)), 10);
-  const random3 = parseInt(Math.floor((Math.random() * names3.length)), 10);
-  const random4 = parseInt(Math.floor((Math.random() * names4.length)), 10);
-  const random6 = parseInt(Math.floor((Math.random() * names6.length)), 10);
-  const random6b = parseInt(Math.floor((Math.random() * names6.length)), 10);
-  const random9 = parseInt(Math.floor((Math.random() * names9.length)), 10);
-  const random10 = parseInt(Math.floor((Math.random() * names10.length)), 10);
-  const random11 = parseInt(Math.floor((Math.random() * names11.length)), 10);
-  let random12 = parseInt(Math.floor((Math.random() * names11.length)), 10);
-  while (random12 == random11) {
-    random12 = parseInt(Math.floor((Math.random() * names11.length)), 10);
+  const random1 = Math.floor((Math.random() * names1.length));
+  const random2 = Math.floor((Math.random() * names2.length));
+  const random3 = Math.floor((Math.random() * names3.length));
+  const random4 = Math.floor((Math.random() * names4.length));
+  const random6 = Math.floor((Math.random() * names6.length));
+  const random6b = Math.floor((Math.random() * names6.length));
+  const random9 = Math.floor((Math.random() * names9.length));
+  const random10 = Math.floor((Math.random() * names10.length));
+  const random11 = Math.floor((Math.random() * names11.length));
+  let random12 = Math.floor((Math.random() * names11.length));
+  while (random12 === random11) {
+    random12 = Math.floor((Math.random() * names11.length));
   }
-  let random13 = parseInt(Math.floor((Math.random() * names11.length)), 10);
-  while (random13 == random12 || random13 == random11) {
-    random13 = parseInt(Math.floor((Math.random() * names11.length)), 10);
+  let random13 = Math.floor((Math.random() * names11.length));
+  while (random13 === random12 || random13 === random11) {
+    random13 = Math.floor((Math.random() * names11.length));
   }
-  const random14 = parseInt(Math.floor((Math.random() * names14.length)), 10);
-  let random15 = parseInt(Math.floor((Math.random() * names14.length)), 10);
-  while (random15 == random14) {
-    random15 = parseInt(Math.floor((Math.random() * names14.length)), 10);
+  const random14 = Math.floor((Math.random() * names14.length));
+  let random15 = Math.floor((Math.random() * names14.length));
+  while (random15 === random14) {
+    random15 = Math.floor((Math.random() * names14.length));
   }
-  let random16 = parseInt(Math.floor((Math.random() * names11.length)), 10);
-  while (random16 == random11 || random16 == random12 || random16 == random13) {
-    random16 = parseInt(Math.floor((Math.random() * names11.length)), 10);
+  let random16 = Math.floor((Math.random() * names11.length));
+  while (random16 === random11 || random16 === random12 || random16 === random13) {
+    random16 = Math.floor((Math.random() * names11.length));
   }
-  const random17 = parseInt(Math.floor((Math.random() * names17.length)), 10);
+  const random17 = Math.floor((Math.random() * names17.length));
   if (random17 > 16) {
     names18 = ['metal shingle', 'galvanised steel', 'rusted', 'decaying',
       'blackened', 'gray', 'black wooden', 'dark wooden', 'murky wooden',
@@ -176,25 +176,25 @@ export default function towns() {
       'sinister', 'somber', 'spine-chilling', 'supernatural', 'uncanny',
       'unearthly'];
   }
-  const random18 = parseInt(Math.floor((Math.random() * names18.length)), 10);
-  const random20 = parseInt(Math.floor((Math.random() * names20.length)), 10);
-  const random21 = parseInt(Math.floor((Math.random() * names21.length)), 10);
-  const random38 = parseInt(Math.floor((Math.random() * names38.length)), 10);
-  const random39 = parseInt(Math.floor((Math.random() * 50 + 20)), 10);
+  const random18 = Math.floor((Math.random() * names18.length));
+  const random20 = Math.floor((Math.random() * names20.length));
+  const random21 = Math.floor((Math.random() * names21.length));
+  const random38 = Math.floor((Math.random() * names38.length));
+  const random39 = Math.floor((Math.random() * 50 + 20));
   const random40 = random39.toString();
-  const random41 = parseInt(Math.floor((Math.random() * names41.length)), 10);
-  if (random6 == 2) {
+  const random41 = Math.floor((Math.random() * names41.length));
+  if (random6 === 2) {
     names5 = ['Gorash', 'Ogrinar', 'Tohrall', 'Dranorg', 'Hammerfall',
       'Orsanum', 'Wrothguard', 'Garlund', 'Kharn', 'Xarluk'];
     names8 = ['Gnarg', 'Gnarlug', 'Gnorl', 'Gnorth', 'Gnoth', 'Gnurl', 'Golag',
       'Golub', 'Gomatug', 'Gomoku', 'Gorgu', 'Gorlag', 'Grikug', 'Grug',
       'Grukag', 'Grukk', 'Grung', 'Gruul'];
-  } else if (random6 == 3) {
+  } else if (random6 === 3) {
     names5 = ['Balagost', 'Moriath', 'Nogrand', 'Frosthold', 'Hammerhold',
       'Thar Modan', 'Kaz Modor', 'Uldama', 'Hammerforge', 'Stormforge'];
     names8 = ['Bengahdar', 'Banbrek', 'Drumdus', 'Dulgarn', 'Galirg', 'Kharnur',
       'Iromuador', 'Ragorhdrom', 'Urmbrek', 'Theledon'];
-  } else if (random6 == 4) {
+  } else if (random6 === 4) {
     names5 = ['Eviana', 'Malica', 'Mystohr', 'Arconia', 'Aeria', 'Mithyria',
       'Calairith', 'Myracal', 'Fentalia', 'Curacius'];
     names7 = ['Queen', 'King', 'Prince', 'Princess'];
@@ -203,31 +203,31 @@ export default function towns() {
       'Percula', 'Sandy', 'Shelly', 'Starfish', 'Tidal', 'Urchin', 'Wave',
       'Whirl', 'Wrassey', 'Aed', 'Aodh', 'Aeden', 'Ash', 'Ashley', 'Blaze',
       'Candala', 'Coala', 'Firo', 'Flare'];
-  } else if (random6 == 5) {
+  } else if (random6 === 5) {
     names5 = ['Zuldazin', 'Zalzabin', 'Jintalman', 'Zulamor', 'Julguroob',
       'Atalakar', 'Zandalur', 'Farakazul', 'Guruubash', 'Amano'];
     names8 = ['Ekon', 'Erasto', 'Haijen', 'Hamedi', 'Hokima', 'Jaafan', 'Jabir',
       'Jalai', 'Javyn', 'Jijel', 'Juma', 'Jumoke', 'Kaijin', 'Kazko',
       'Maalik', 'Makas', 'Malak', 'Nyabingi', 'Rahjin', 'Rakash', 'Rashi',
       'Razi'];
-  } else if (random6 == 1 || random6 == 11 || random6 == 12 || random6 == 15
-    || random6 == 16 || random6 == 17) {
+  } else if (random6 === 1 || random6 === 11 || random6 === 12 || random6 === 15
+    || random6 === 16 || random6 === 17) {
     names5 = ['Gandoline', 'Galadoneh', 'Tirianae', 'Darnassea', 'Sinashari',
       'Kaladorei', 'Hiborane', 'Fandralore', 'Cenorias', 'Ishnuala'];
     names8 = ['Wyninn', 'Ninleyn', 'Tinlef', 'Elluin', 'Elduin', 'Elmon',
       'Almar', 'Alas', 'Alwin', 'Almer', 'Alre', 'Alred', 'Alen', 'Alluin',
       'Alduin', 'Almon', 'Hagmar', 'Hagas', 'Hagwin', 'Hagmer', 'Hagre'];
-  } else if (random6 == 13) {
+  } else if (random6 === 13) {
     names5 = ['Nomeregone', 'Meckotarq', 'Kasmord', 'Trokkus', 'Hitonkar',
       'Serian', 'Gloufry', 'Hazelmyre', 'Erposanra', 'Ardnode'];
     names8 = ['Glinoflonk', 'Bonlebick', 'Bimbik', 'Gnobflink', 'Binflonk',
       'Nittlewizz', 'Gimkink', 'Merbibus', 'Totonk', 'Dinnus'];
-  } else if (random6 == 14) {
+  } else if (random6 === 14) {
     names5 = ['Bolgewotar', 'Galowax', 'Kozan', 'Stimwedle', 'Bootabai',
       'Midsprocket', 'Rotchet', 'Grozlik', 'Andormyn', 'Ventarco'];
     names8 = ['Karax', 'Baxeek', 'Soxart', 'Rezikmez', 'Fizink', 'Wimax',
       'Jexmelyx', 'Grexmex', 'Tinkbelex', 'Greekeels'];
-  } else if (random6 == 20) {
+  } else if (random6 === 20) {
     names7 = ['Captain'];
   }
   if (random17 > 16) {
@@ -254,10 +254,10 @@ export default function towns() {
       'sinister', 'somber', 'spine-chilling', 'supernatural', 'uncanny',
       'unearthly'];
   }
-  random5 = parseInt(Math.floor((Math.random() * names5.length)), 10);
-  random7 = parseInt(Math.floor((Math.random() * names7.length)), 10);
-  random8 = parseInt(Math.floor((Math.random() * names8.length)), 10);
-  const random19 = parseInt(Math.floor((Math.random() * names19.length)), 10);
+  random5 = Math.floor((Math.random() * names5.length));
+  random7 = Math.floor((Math.random() * names7.length));
+  random8 = Math.floor((Math.random() * names8.length));
+  const random19 = Math.floor((Math.random() * names19.length));
   const name = `${names1[random1]} ${names2[random2]} a ${names3[random3]}, the ${names4[random4]} of ${names5[random5]} is home to ${names6[random6]} lead by ${names7[random7]} ${names8[random8]}.`;
   const name2 = `This ${names4[random4]} wasn't built by a${names3[random3]} by accident, as it has ${names9[random9]}, which is of great importance to the people of ${names5[random5]} and its success.`;
   const name3 = `The ${names4[random4]} itself looks ${names17[random17]}. With its ${names18[random18]} rooftops, ${names19[random19]} walls and ${names20[random20]}, ${names5[random5]} has a ${names21[random21]} atmosphere.`;

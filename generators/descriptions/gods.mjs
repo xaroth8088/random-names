@@ -1,4 +1,9 @@
 export default function gods() {
+  let rnd1b;
+  let rnd2b;
+  let rnd3b;
+  let rnd19;
+  let nmType;
   const type = Math.random() > 0.5 ? 0 : 1;
   let nm1 = ['B', 'C', 'D', 'F', 'G', 'H', 'J', 'K', 'L', 'M', 'N', 'P', 'Q',
     'R', 'S', 'T', 'V', 'W', 'X', 'Z'];
@@ -272,7 +277,7 @@ export default function gods() {
     rnd11 = Math.floor(Math.random() * nm11.length);
   }
   let rnd11b = Math.floor(Math.random() * nm11.length);
-  while (rnd10 === rnd11b || rnd11 == rnd11b) {
+  while (rnd10 === rnd11b || rnd11 === rnd11b) {
     rnd11b = Math.floor(Math.random() * nm11.length);
   }
   const rnd4 = Math.floor(Math.random() * nm4.length);
@@ -287,7 +292,7 @@ export default function gods() {
     const rnd15 = Math.floor(Math.random() * nm15.length);
     const rnd16 = Math.floor(Math.random() * nm16.length);
     const rnd17 = Math.floor(Math.random() * nm17.length);
-    var nmType = `${nm14[rnd14]}, ${nm15[rnd15]}, ${nm16[rnd16]} and ${nm17[rnd17]}`;
+    nmType = `${nm14[rnd14]}, ${nm15[rnd15]}, ${nm16[rnd16]} and ${nm17[rnd17]}`;
   } else {
     const rnd20 = Math.floor(Math.random() * nm20.length);
     if (rnd20 > 4) {
@@ -302,11 +307,11 @@ export default function gods() {
         ' rhino', ' salamander', ' serpent', ' shark', ' sheep', ' snake',
         ' spider', ' tiger', ' toad', ' turtle', ' weasel', ' wolf',
         ' wolverine'];
-      var rnd19 = Math.floor(Math.random() * nm19.length);
-      var nmType = nm20[rnd20] + nm19[rnd19];
+      rnd19 = Math.floor(Math.random() * nm19.length);
+      nmType = nm20[rnd20] + nm19[rnd19];
     } else {
-      var rnd19 = Math.floor(Math.random() * nm19.length);
-      var nmType = `a ${nm20[rnd20]}${nm19[rnd19]}`;
+      rnd19 = Math.floor(Math.random() * nm19.length);
+      nmType = `a ${nm20[rnd20]}${nm19[rnd19]}`;
     }
   }
   const rnd21 = Math.floor(Math.random() * nm21.length);
@@ -327,17 +332,17 @@ export default function gods() {
   const rnd28 = Math.floor(Math.random() * nm28.length);
   if (rnd28 === 0) {
     nm29 = 'lover';
-    var rnd1b = Math.floor(Math.random() * nm1.length);
-    var rnd2b = Math.floor(Math.random() * nm2.length);
-    var rnd3b = Math.floor(Math.random() * nm3b.length);
+    rnd1b = Math.floor(Math.random() * nm1.length);
+    rnd2b = Math.floor(Math.random() * nm2.length);
+    rnd3b = Math.floor(Math.random() * nm3b.length);
     nm30 = `: ${nm1[rnd1b]}${nm2[rnd2b]}${nm3b[rnd3b]}`;
   } else if (rnd28 > 5) {
     nm30 = '';
     nm29 = 'lovers';
   } else {
-    var rnd1b = Math.floor(Math.random() * nm1.length);
-    var rnd2b = Math.floor(Math.random() * nm2.length);
-    var rnd3b = Math.floor(Math.random() * nm3b.length);
+    rnd1b = Math.floor(Math.random() * nm1.length);
+    rnd2b = Math.floor(Math.random() * nm2.length);
+    rnd3b = Math.floor(Math.random() * nm3b.length);
     nm29 = 'lovers';
     nm30 = `, but the main one is ${nm1[rnd1b]}${nm2[rnd2b]}${nm3b[rnd3b]}`;
   }

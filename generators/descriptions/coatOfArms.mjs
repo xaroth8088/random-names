@@ -148,7 +148,7 @@ export default function coatOfArms() {
   let rnd20b;
   let rn20;
   if (rnd6 === 0) {
-    let rnd5b = Math.floor(Math.random() * nm5.length);
+    rnd5b = Math.floor(Math.random() * nm5.length);
     while (rnd5b === rnd5) {
       rnd5b = Math.floor(Math.random() * nm5.length);
     }

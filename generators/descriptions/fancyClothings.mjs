@@ -1,4 +1,25 @@
 export default function fancyClothings() {
+  let rnd1;
+  let rnd2;
+  let rnd3;
+  let rnd4;
+  let rnd5;
+  let rnd6;
+  let rnd7;
+  let rnd9;
+  let rnd10;
+  let rnd11;
+  let rnd12;
+  let rnd13;
+  let rnd14;
+  let rnd15;
+  let rnd16;
+  let rnd17;
+  let name;
+  let name2;
+  let name3;
+  let name4;
+  let name5;
   let result;
   const type = Math.random() > 0.5 ? 0 : 1;
   const nm1 = ['covers her shoulders halfway', 'covers her shoulders entirely',
@@ -226,27 +247,27 @@ export default function fancyClothings() {
   const ns21 = ['gloves', 'cuff links', 'a hat', 'a watch', 'a tie clip',
     'a scarf', 'a brooch'];
   if (type === 1) {
-    var rnd1 = Math.floor(Math.random() * ns1.length);
-    var rnd2 = Math.floor(Math.random() * ns2.length);
-    var rnd3 = Math.floor(Math.random() * ns3.length);
-    var rnd4 = Math.floor(Math.random() * ns4.length);
-    var rnd5 = Math.floor(Math.random() * ns5.length);
-    var rnd6 = Math.floor(Math.random() * ns6.length);
-    var rnd7 = Math.floor(Math.random() * ns7.length);
-    var rnd9 = Math.floor(Math.random() * ns9.length);
-    var rnd10 = Math.floor(Math.random() * ns10.length);
-    var rnd11 = Math.floor(Math.random() * ns11.length);
+    rnd1 = Math.floor(Math.random() * ns1.length);
+    rnd2 = Math.floor(Math.random() * ns2.length);
+    rnd3 = Math.floor(Math.random() * ns3.length);
+    rnd4 = Math.floor(Math.random() * ns4.length);
+    rnd5 = Math.floor(Math.random() * ns5.length);
+    rnd6 = Math.floor(Math.random() * ns6.length);
+    rnd7 = Math.floor(Math.random() * ns7.length);
+    rnd9 = Math.floor(Math.random() * ns9.length);
+    rnd10 = Math.floor(Math.random() * ns10.length);
+    rnd11 = Math.floor(Math.random() * ns11.length);
     if (rnd10 === 1) {
       while (rnd11 > 9) {
         rnd11 = Math.floor(Math.random() * ns11.length);
       }
     }
-    var rnd12 = Math.floor(Math.random() * ns12.length);
-    var rnd13 = Math.floor(Math.random() * ns13.length);
-    var rnd14 = Math.floor(Math.random() * ns14.length);
-    var rnd15 = Math.floor(Math.random() * ns15.length);
-    var rnd16 = Math.floor(Math.random() * ns16.length);
-    var rnd17 = Math.floor(Math.random() * ns17.length);
+    rnd12 = Math.floor(Math.random() * ns12.length);
+    rnd13 = Math.floor(Math.random() * ns13.length);
+    rnd14 = Math.floor(Math.random() * ns14.length);
+    rnd15 = Math.floor(Math.random() * ns15.length);
+    rnd16 = Math.floor(Math.random() * ns16.length);
+    rnd17 = Math.floor(Math.random() * ns17.length);
     const rnd18 = Math.floor(Math.random() * ns18.length);
     const rnd19 = Math.floor(Math.random() * ns19.length);
     const rnd20 = Math.floor(Math.random() * ns20.length);
@@ -255,11 +276,11 @@ export default function fancyClothings() {
     while (rnd21a === rnd21b) {
       rnd21b = Math.floor(Math.random() * ns21.length);
     }
-    var name = `He's wearing a ${ns1[rnd1]} and ${ns2[rnd2]}. On top of the shirt he's wearing a ${ns3[rnd3]} vest with ${ns4[rnd4]} buttons, it has a ${ns5[rnd5]}.`;
-    var name2 = `The jacket ${ns6[rnd6]}. ${ns7[rnd7]}. The ${ns9[rnd9]} buttons of his ${ns10[rnd10]} jacket ${ns11[rnd11]}.`;
-    var name3 = `The jacket is ${ns12[rnd12]}, it has ${ns13[rnd13]}, ${ns14[rnd14]} and there's a breast pocket ${ns15[rnd15]}.`;
-    var name4 = `He's wearing pants which ${ns16[rnd16]} and ${ns17[rnd17]} shoes. He's wearing ${ns18[rnd18]} pair of ${ns19[rnd19]}.`;
-    var name5 = `To top it all off he's wearing ${ns20[rnd20]} belt, which can be accompanied by ${ns21[rnd21a]} and ${ns21[rnd21b]}.`;
+    name = `He's wearing a ${ns1[rnd1]} and ${ns2[rnd2]}. On top of the shirt he's wearing a ${ns3[rnd3]} vest with ${ns4[rnd4]} buttons, it has a ${ns5[rnd5]}.`;
+    name2 = `The jacket ${ns6[rnd6]}. ${ns7[rnd7]}. The ${ns9[rnd9]} buttons of his ${ns10[rnd10]} jacket ${ns11[rnd11]}.`;
+    name3 = `The jacket is ${ns12[rnd12]}, it has ${ns13[rnd13]}, ${ns14[rnd14]} and there's a breast pocket ${ns15[rnd15]}.`;
+    name4 = `He's wearing pants which ${ns16[rnd16]} and ${ns17[rnd17]} shoes. He's wearing ${ns18[rnd18]} pair of ${ns19[rnd19]}.`;
+    name5 = `To top it all off he's wearing ${ns20[rnd20]} belt, which can be accompanied by ${ns21[rnd21a]} and ${ns21[rnd21b]}.`;
     result = '';
     result += name;
     result += '\n';
@@ -274,18 +295,18 @@ export default function fancyClothings() {
     result += name5;
     return result;
   }
-  var rnd1 = Math.floor(Math.random() * nm1.length);
-  var rnd2 = Math.floor(Math.random() * nm2.length);
-  var rnd3 = Math.floor(Math.random() * nm3.length);
-  var rnd4 = Math.floor(Math.random() * nm4.length);
-  var rnd5 = Math.floor(Math.random() * nm5.length);
+  rnd1 = Math.floor(Math.random() * nm1.length);
+  rnd2 = Math.floor(Math.random() * nm2.length);
+  rnd3 = Math.floor(Math.random() * nm3.length);
+  rnd4 = Math.floor(Math.random() * nm4.length);
+  rnd5 = Math.floor(Math.random() * nm5.length);
   if (rnd4 > 2) {
     while (rnd5 < 10) {
       rnd5 = Math.floor(Math.random() * nm5.length);
     }
   }
-  var rnd6 = Math.floor(Math.random() * nm6.length);
-  var rnd7 = Math.floor(Math.random() * nm7.length);
+  rnd6 = Math.floor(Math.random() * nm6.length);
+  rnd7 = Math.floor(Math.random() * nm7.length);
   if (rnd6 < 4) {
     while (rnd7 > 3) {
       rnd7 = Math.floor(Math.random() * nm7.length);
@@ -300,20 +321,20 @@ export default function fancyClothings() {
     }
   }
   const rnd8 = Math.floor(Math.random() * nm8.length);
-  var rnd9 = Math.floor(Math.random() * nm9.length);
-  var rnd10 = Math.floor(Math.random() * nm10.length);
-  var rnd11 = Math.floor(Math.random() * nm11.length);
-  var rnd12 = Math.floor(Math.random() * nm12.length);
-  var rnd13 = Math.floor(Math.random() * nm13.length);
-  var rnd14 = Math.floor(Math.random() * nm14.length);
-  var rnd15 = Math.floor(Math.random() * nm15.length);
-  var rnd16 = Math.floor(Math.random() * nm16.length);
-  var rnd17 = Math.floor(Math.random() * nm17.length);
-  var name = `The dress ${nm1[rnd1]} and flows down into ${nm2[rnd2]} ${nm3[rnd3]}. It's a ${nm4[rnd4]} fit which ${nm5[rnd5]}.`;
-  var name2 = `Her arms ${nm6[rnd6]}. ${nm7[rnd7]}.`;
-  var name3 = `The dress' waist is ${nm8[rnd8]}, but it's a ${nm9[rnd9]}. ${nm10[rnd10]}.`;
-  var name4 = `Below the waist the dress ${nm11[rnd11]}. The dress reaches ${nm12[rnd12]} and is ${nm13[rnd13]}.`;
-  var name5 = `She's wearing ${nm14[rnd14]}, ${nm15[rnd15]}. To top it all off she's wearing ${nm16[rnd16]} and ${nm17[rnd17]}.`;
+  rnd9 = Math.floor(Math.random() * nm9.length);
+  rnd10 = Math.floor(Math.random() * nm10.length);
+  rnd11 = Math.floor(Math.random() * nm11.length);
+  rnd12 = Math.floor(Math.random() * nm12.length);
+  rnd13 = Math.floor(Math.random() * nm13.length);
+  rnd14 = Math.floor(Math.random() * nm14.length);
+  rnd15 = Math.floor(Math.random() * nm15.length);
+  rnd16 = Math.floor(Math.random() * nm16.length);
+  rnd17 = Math.floor(Math.random() * nm17.length);
+  name = `The dress ${nm1[rnd1]} and flows down into ${nm2[rnd2]} ${nm3[rnd3]}. It's a ${nm4[rnd4]} fit which ${nm5[rnd5]}.`;
+  name2 = `Her arms ${nm6[rnd6]}. ${nm7[rnd7]}.`;
+  name3 = `The dress' waist is ${nm8[rnd8]}, but it's a ${nm9[rnd9]}. ${nm10[rnd10]}.`;
+  name4 = `Below the waist the dress ${nm11[rnd11]}. The dress reaches ${nm12[rnd12]} and is ${nm13[rnd13]}.`;
+  name5 = `She's wearing ${nm14[rnd14]}, ${nm15[rnd15]}. To top it all off she's wearing ${nm16[rnd16]} and ${nm17[rnd17]}.`;
   result = '';
   result += name;
   result += '\n';

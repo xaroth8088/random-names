@@ -62,7 +62,7 @@ export default function sullustans() {
     rnd7 = Math.floor(Math.random() * nm9.length);
     rnd8 = Math.floor(Math.random() * nm10.length);
     rnd10 = Math.floor(Math.random() * nm12.length);
-    if (i % 2 != 0) {
+    if (i % 2 !== 0) {
       while (rnd10 < 15) {
         rnd10 = Math.floor(Math.random() * nm12.length);
       }
