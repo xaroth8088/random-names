@@ -1,4 +1,6 @@
 export default function shadowhunter_chronicles() {
+  let rnd;
+
   let rnd2;
   let
     rnd3;

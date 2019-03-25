@@ -1,4 +1,6 @@
 export default function military_operations() {
+  let rnd;
+
   let rnd2;
   let
     rnd3;

@@ -1,4 +1,6 @@
 export default function vietnameses() {
+  let rnd;
+
   let rnd1;
   let
     rnd2;

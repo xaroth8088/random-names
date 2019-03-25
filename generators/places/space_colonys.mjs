@@ -1,4 +1,6 @@
 export default function space_colonys() {
+  let rnd;
+
   let rnd2;
 
 

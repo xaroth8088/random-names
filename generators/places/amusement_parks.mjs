@@ -1,4 +1,6 @@
 export default function amusement_parks() {
+  let rnd;
+
   let rnd2;
 
 

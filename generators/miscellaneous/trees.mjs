@@ -1,4 +1,6 @@
 export default function trees() {
+  let rnd;
+
   let rnd2;
   let
     rnd3;

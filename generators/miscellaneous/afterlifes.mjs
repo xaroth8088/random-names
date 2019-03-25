@@ -1,4 +1,6 @@
 export default function afterlifes() {
+  let rnd;
+
   let rnd0;
   let rnd1;
   let rnd2;

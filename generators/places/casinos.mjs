@@ -1,4 +1,6 @@
 export default function casinos() {
+  let rnd;
+
   let rnd2;
 
 

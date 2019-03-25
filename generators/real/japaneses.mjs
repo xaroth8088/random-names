@@ -1,4 +1,6 @@
 export default function japaneses() {
+  let rnd;
+
   let rnd2;
 
 

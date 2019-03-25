@@ -1,4 +1,6 @@
 export default function cat_people_nekojins() {
+  let rnd;
+
   let rnd4;
   let rnd5;
   let rnd6;

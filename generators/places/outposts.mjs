@@ -1,4 +1,6 @@
 export default function outposts() {
+  let rnd;
+
   let rnd2;
   let
     rnd3;

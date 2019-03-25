@@ -1,4 +1,6 @@
 export default function pandaren() {
+  let rnd;
+
   let rnd3;
   let
     rnd4;

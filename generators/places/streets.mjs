@@ -1,4 +1,6 @@
 export default function streets() {
+  let rnd;
+
   let rnd2;
 
 

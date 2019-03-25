@@ -1,4 +1,6 @@
 export default function slavics() {
+  let rnd;
+
   let rnd2;
 
 

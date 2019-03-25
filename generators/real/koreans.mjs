@@ -1,4 +1,6 @@
 export default function koreans() {
+  let rnd;
+
   let rnd2;
 
 

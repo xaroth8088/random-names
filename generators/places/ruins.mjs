@@ -1,4 +1,6 @@
 export default function ruins() {
+  let rnd;
+
   let rnd2;
 
 

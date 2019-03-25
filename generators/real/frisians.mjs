@@ -1,4 +1,6 @@
 export default function frisians() {
+  let rnd;
+
   let rnd2;
 
 

@@ -1,4 +1,6 @@
 export default function imperials() {
+  let rnd;
+
   let rnd2;
   let rnd5;
   let

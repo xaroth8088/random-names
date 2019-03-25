@@ -1,4 +1,6 @@
 export default function wild_west_towns() {
+  let rnd;
+
   let rnd2;
 
 

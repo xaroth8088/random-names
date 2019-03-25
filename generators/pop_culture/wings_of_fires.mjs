@@ -1,4 +1,6 @@
 export default function wings_of_fires() {
+  let rnd;
+
   let rnd2;
 
 

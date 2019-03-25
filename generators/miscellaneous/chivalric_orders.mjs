@@ -1,4 +1,6 @@
 export default function chivalric_orders() {
+  let rnd;
+
   let rnd2;
 
 

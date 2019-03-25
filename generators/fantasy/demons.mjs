@@ -1,4 +1,6 @@
 export default function demons() {
+  let rnd;
+
   let rnd2;
   let rnd3;
   let

@@ -1,4 +1,6 @@
 export default function shakespeareans() {
+  let rnd;
+
   let rnd2;
 
 

@@ -1,4 +1,6 @@
 export default function vikings() {
+  let rnd;
+
   let rnd2;
 
 

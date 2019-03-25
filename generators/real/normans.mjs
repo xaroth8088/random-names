@@ -1,4 +1,6 @@
 export default function normans() {
+  let rnd;
+
   let rnd2;
 
 

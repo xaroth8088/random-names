@@ -1,4 +1,6 @@
 export default function post_apocalyptic_societys() {
+  let rnd;
+
   let rnd1;
 
 

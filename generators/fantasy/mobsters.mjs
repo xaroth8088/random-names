@@ -1,4 +1,6 @@
 export default function mobsters() {
+    let rnd;
+
     let rnd2, rnd3;
 
 

@@ -1,4 +1,6 @@
 export default function battle_arenas() {
+  let rnd;
+
   let rnd2;
 
 

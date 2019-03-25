@@ -1,4 +1,6 @@
 export default function ents() {
+  let rnd;
+
   let rnd2;
 
 

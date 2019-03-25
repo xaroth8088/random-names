@@ -1,4 +1,6 @@
 export default function magical_diseases() {
+  let rnd;
+
   let rnd2;
 
 

@@ -1,4 +1,6 @@
 export default function amazighs() {
+  let rnd;
+
   let rnd2;
 
 

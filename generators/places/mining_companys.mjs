@@ -1,4 +1,6 @@
 export default function mining_companys() {
+  let rnd;
+
   let rnd2;
 
 

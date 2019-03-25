@@ -1,4 +1,6 @@
 export default function vampire_clans() {
+  let rnd;
+
   let rnd2;
 
 

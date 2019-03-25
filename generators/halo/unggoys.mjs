@@ -1,4 +1,6 @@
 export default function unggoys() {
+  let rnd;
+
   let rnd1;
   let rnd2;
   let rnd3;

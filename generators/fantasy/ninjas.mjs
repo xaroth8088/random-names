@@ -1,4 +1,6 @@
 export default function ninjas() {
+  let rnd;
+
   let rnd2;
 
 

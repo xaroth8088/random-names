@@ -1,4 +1,6 @@
 export default function guilds() {
+  let rnd;
+
   let rnd2;
 
 

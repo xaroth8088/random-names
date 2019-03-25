@@ -1,4 +1,6 @@
 export default function swiss() {
+  let rnd;
+
   let rnd2;
 
 

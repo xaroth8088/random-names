@@ -1,5 +1,6 @@
 export default function diseases() {
 
+
     let rnd15;
 
 

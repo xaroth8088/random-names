@@ -1,4 +1,6 @@
 export default function roma_gypsys() {
+  let rnd;
+
   let rnd1;
 
 

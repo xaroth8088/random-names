@@ -1,4 +1,6 @@
 export default function redguards() {
+  let rnd;
+
   let rnd2;
   let rnd5;
   let rnd6;

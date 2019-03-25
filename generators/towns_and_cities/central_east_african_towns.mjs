@@ -1,4 +1,6 @@
 export default function central_east_african_towns() {
+  let rnd;
+
   let rnd2;
 
 

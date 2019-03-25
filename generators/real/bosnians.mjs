@@ -1,4 +1,6 @@
 export default function bosnians() {
+  let rnd;
+
   let rnd2;
 
 

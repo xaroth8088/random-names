@@ -1,4 +1,6 @@
 export default function natural_disasters() {
+  let rnd;
+
   let rnd2;
 
 

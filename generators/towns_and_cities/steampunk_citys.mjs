@@ -1,4 +1,6 @@
 export default function steampunk_citys() {
+  let rnd;
+
   let rnd2;
 
 

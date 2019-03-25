@@ -1,4 +1,6 @@
 export default function hungarians() {
+  let rnd;
+
   let rnd2;
 
 

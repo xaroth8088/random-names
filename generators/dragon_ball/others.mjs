@@ -1,4 +1,6 @@
 export default function others() {
+  let rnd;
+
   let names;
 
   const names1 = ['Lala', 'Abra', 'Ala', 'Alaka', 'Bim', 'Braca', 'Bracada', 'Cada', 'Cadabra', 'Dabra', 'Eppe', 'Flam', 'Flim', 'Gobble', 'Gobbledee', 'Gook', 'Hello', 'Hillo', 'Hocu', 'Hocus', 'Hollo', 'Hum', 'Jumbo', 'Kakke', 'Kazam', 'Laka', 'Mani', 'Mumbo', 'Ocus', 'Om', 'Padme', 'Peppe', 'Pocu', 'Pocus', 'Pow', 'Presto', 'Sala', 'Same', 'Sesa', 'Sesame', 'Shazam', 'Sim', 'Wow', 'Zam', 'Zik', 'Zizzi', 'Zuzzy'];

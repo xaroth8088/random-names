@@ -1,4 +1,6 @@
 export default function dwarfs() {
+  let rnd;
+
   let rnd2;
 
 

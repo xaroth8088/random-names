@@ -1,4 +1,6 @@
 export default function edwardians() {
+  let rnd;
+
   let rnd2;
 
 

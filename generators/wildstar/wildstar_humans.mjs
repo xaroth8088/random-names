@@ -1,4 +1,6 @@
 export default function wildstar_humans() {
+  let rnd;
+
   let rnd3;
   let
     rnd4;

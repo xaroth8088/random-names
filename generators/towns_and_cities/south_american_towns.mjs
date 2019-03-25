@@ -1,4 +1,6 @@
 export default function south_american_towns() {
+  let rnd;
+
   let rnd2;
 
 

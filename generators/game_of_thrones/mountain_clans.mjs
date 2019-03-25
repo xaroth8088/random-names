@@ -1,4 +1,6 @@
 export default function mountain_clans() {
+  let rnd;
+
   let rnd2;
 
 

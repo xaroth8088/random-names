@@ -1,4 +1,6 @@
 export default function artifacts() {
+  let rnd;
+
   let rnd3;
 
 

@@ -1,4 +1,6 @@
 export default function celtics() {
+  let rnd;
+
   let rnd1;
 
 

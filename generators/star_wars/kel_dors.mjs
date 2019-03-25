@@ -1,4 +1,6 @@
 export default function kel_dors() {
+  let rnd;
+
   let rnd2;
   let rnd3;
   let rnd4;

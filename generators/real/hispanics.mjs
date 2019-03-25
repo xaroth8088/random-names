@@ -1,4 +1,6 @@
 export default function hispanics() {
+  let rnd;
+
   let rnd2;
 
 

@@ -1,4 +1,6 @@
 export default function creatures() {
+  let rnd;
+
   let rnd2;
 
 

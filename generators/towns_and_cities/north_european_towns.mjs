@@ -1,4 +1,6 @@
 export default function north_european_towns() {
+  let rnd;
+
   let rnd2;
 
 

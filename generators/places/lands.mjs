@@ -1,4 +1,6 @@
 export default function lands() {
+  let rnd;
+
   let rnd2;
 
 

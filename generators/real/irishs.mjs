@@ -1,4 +1,6 @@
 export default function irishs() {
+  let rnd;
+
   let rnd2;
 
 

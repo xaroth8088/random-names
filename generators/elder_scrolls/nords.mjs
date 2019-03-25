@@ -1,4 +1,6 @@
 export default function nords() {
+  let rnd;
+
   let rnd2;
   let rnd6;
   let rnd7;

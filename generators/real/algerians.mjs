@@ -1,4 +1,6 @@
 export default function algerians() {
+  let rnd;
+
   let rnd2;
 
 

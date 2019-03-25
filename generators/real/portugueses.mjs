@@ -1,4 +1,6 @@
 export default function portugueses() {
+  let rnd;
+
   let rnd1;
 
 

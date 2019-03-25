@@ -1,4 +1,6 @@
 export default function mathosians() {
+  let rnd;
+
   let rnd2;
 
 

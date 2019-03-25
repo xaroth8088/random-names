@@ -1,4 +1,6 @@
 export default function half_orcs() {
+  let rnd;
+
   let rnd2;
   let
     rnd3;

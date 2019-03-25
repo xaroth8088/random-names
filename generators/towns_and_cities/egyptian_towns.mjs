@@ -1,4 +1,6 @@
 export default function egyptian_towns() {
+  let rnd;
+
   let rnd2;
   let
     rnd3;

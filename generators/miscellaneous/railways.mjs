@@ -1,4 +1,6 @@
 export default function railways() {
+  let rnd;
+
   let rnd2;
 
 

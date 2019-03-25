@@ -1,4 +1,6 @@
 export default function dual_wields() {
+  let rnd;
+
   let rnd2;
   let
     rnd3;

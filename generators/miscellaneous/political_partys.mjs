@@ -1,4 +1,6 @@
 export default function political_partys() {
+  let rnd;
+
   let rnd2;
   let
     rnd3;

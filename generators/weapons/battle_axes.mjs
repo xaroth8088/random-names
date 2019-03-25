@@ -1,4 +1,6 @@
 export default function battle_axes() {
+  let rnd;
+
   let rnd2;
   let
     rnd3;

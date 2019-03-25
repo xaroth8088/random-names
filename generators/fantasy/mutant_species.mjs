@@ -1,4 +1,6 @@
 export default function mutant_species() {
+  let rnd;
+
   let rnd2;
   let rnd3;
   let rnd4;

@@ -1,4 +1,6 @@
 export default function jewishs() {
+  let rnd;
+
   let rnd2;
 
 

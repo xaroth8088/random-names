@@ -1,4 +1,6 @@
 export default function time_periods() {
+  let rnd;
+
   let rnd2;
 
 

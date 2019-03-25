@@ -1,4 +1,6 @@
 export default function how_to_train_your_dragons() {
+  let rnd;
+
   let rnd2;
 
 

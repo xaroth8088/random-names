@@ -1,4 +1,6 @@
 export default function southeast_asian_towns() {
+  let rnd;
+
   let rnd2;
 
 

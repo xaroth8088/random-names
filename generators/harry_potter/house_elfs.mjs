@@ -1,4 +1,6 @@
 export default function house_elfs() {
+  let rnd;
+
   let rnd2;
   let rnd3;
   let rnd4;

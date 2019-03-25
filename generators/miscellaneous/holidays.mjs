@@ -1,4 +1,6 @@
 export default function holidays() {
+  let rnd;
+
   let rnd1;
 
 

@@ -1,4 +1,6 @@
 export default function belgians() {
+  let rnd;
+
   let rnd2;
 
 

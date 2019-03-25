@@ -1,4 +1,6 @@
 export default function theaters() {
+  let rnd;
+
   let rnd2;
 
 

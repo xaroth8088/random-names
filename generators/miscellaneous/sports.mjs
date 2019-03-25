@@ -1,4 +1,6 @@
 export default function sports() {
+  let rnd;
+
   let rnd2;
 
 

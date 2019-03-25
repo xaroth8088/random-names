@@ -1,4 +1,6 @@
 export default function fantasy_surnames() {
+  let rnd;
+
   let rnd2;
 
 

@@ -1,4 +1,6 @@
 export default function dragons() {
+  let rnd;
+
   let rnd2;
 
 

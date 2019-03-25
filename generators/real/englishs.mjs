@@ -1,4 +1,6 @@
 export default function englishs() {
+  let rnd;
+
   let rnd2;
 
 

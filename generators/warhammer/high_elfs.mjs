@@ -1,4 +1,6 @@
 export default function high_elfs() {
+  let rnd;
+
   let rnd0;
   let rnd2;
   let rnd3;

@@ -1,4 +1,6 @@
 export default function sisters_of_battles() {
+  let rnd;
+
   let rnd2;
 
 

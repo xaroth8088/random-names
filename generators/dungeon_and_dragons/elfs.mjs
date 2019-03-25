@@ -1,4 +1,6 @@
 export default function elfs() {
+  let rnd;
+
   let rnd2;
 
 

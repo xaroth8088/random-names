@@ -1,4 +1,6 @@
 export default function ferengis() {
+  let rnd;
+
   let rnd2;
 
 

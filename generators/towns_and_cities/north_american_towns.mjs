@@ -1,4 +1,6 @@
 export default function north_american_towns() {
+  let rnd;
+
   let rnd2;
 
 

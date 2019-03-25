@@ -1,4 +1,6 @@
 export default function magic_shops() {
+  let rnd;
+
   let rnd2;
 
 

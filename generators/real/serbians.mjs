@@ -1,4 +1,6 @@
 export default function serbians() {
+  let rnd;
+
   let rnd2;
 
 

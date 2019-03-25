@@ -1,4 +1,6 @@
 export default function swedishs() {
+  let rnd;
+
   let rnd1;
 
 

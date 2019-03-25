@@ -1,4 +1,6 @@
 export default function newspapers() {
+  let rnd;
+
   let rnd2;
 
 

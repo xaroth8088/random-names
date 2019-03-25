@@ -1,4 +1,6 @@
 export default function nagas() {
+  let rnd;
+
   let rnd2;
   let rnd3;
   let rnd4;

@@ -1,4 +1,6 @@
 export default function unsullieds() {
+  let rnd;
+
   let rnd2;
 
 

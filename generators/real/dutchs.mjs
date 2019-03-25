@@ -1,4 +1,6 @@
 export default function dutchs() {
+  let rnd;
+
   let rnd2;
 
 

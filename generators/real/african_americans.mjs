@@ -1,4 +1,6 @@
 export default function african_americans() {
+  let rnd;
+
   let rnd2;
 
 

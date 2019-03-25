@@ -1,4 +1,6 @@
 export default function pirate_ships() {
+  let rnd;
+
   let rnd2;
 
 

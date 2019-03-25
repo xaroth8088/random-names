@@ -1,4 +1,6 @@
 export default function fantasy_races() {
+  let rnd;
+
   let rnd2;
 
 

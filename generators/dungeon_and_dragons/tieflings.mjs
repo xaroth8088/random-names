@@ -1,4 +1,6 @@
 export default function tieflings() {
+  let rnd;
+
   let rnd2;
 
 

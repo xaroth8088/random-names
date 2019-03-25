@@ -1,4 +1,6 @@
 export default function wildstar_cassians() {
+  let rnd;
+
   let rnd2;
   let rnd3;
   let rnd4;

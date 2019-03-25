@@ -1,4 +1,6 @@
 export default function bosmers() {
+  let rnd;
+
   let rnd2;
   let rnd3;
   let

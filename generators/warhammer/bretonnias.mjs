@@ -1,4 +1,6 @@
 export default function bretonnias() {
+  let rnd;
+
   let rnd2;
 
 

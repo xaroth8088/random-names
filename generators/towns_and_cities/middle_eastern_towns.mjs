@@ -1,4 +1,6 @@
 export default function middle_eastern_towns() {
+  let rnd;
+
   let rnd2;
 
 

@@ -1,5 +1,6 @@
 export default function rifles() {
 
+
     let rnd18;
     let rnd21;
 

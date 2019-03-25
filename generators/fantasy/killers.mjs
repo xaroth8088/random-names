@@ -1,4 +1,6 @@
 export default function killers() {
+  let rnd;
+
   let rnd2;
 
 

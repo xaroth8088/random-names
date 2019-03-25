@@ -1,4 +1,6 @@
 export default function gorns() {
+  let rnd;
+
   let rnd2;
 
 

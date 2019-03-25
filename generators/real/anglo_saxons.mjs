@@ -1,4 +1,6 @@
 export default function anglo_saxons() {
+  let rnd;
+
   let rnd2;
   let
     rnd3;

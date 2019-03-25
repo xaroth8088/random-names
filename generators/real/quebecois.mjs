@@ -1,4 +1,6 @@
 export default function quebecois() {
+  let rnd;
+
   let rnd2;
 
 

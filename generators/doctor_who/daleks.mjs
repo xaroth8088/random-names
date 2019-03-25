@@ -1,4 +1,6 @@
 export default function daleks() {
+  let rnd;
+
   let rnd2;
   let
     rnd3;

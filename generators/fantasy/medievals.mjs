@@ -1,4 +1,6 @@
 export default function medievals() {
+  let rnd;
+
   let rnd2;
 
 

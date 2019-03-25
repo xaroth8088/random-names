@@ -1,4 +1,6 @@
 export default function ghosts() {
+  let rnd;
+
   let rnd2;
 
 

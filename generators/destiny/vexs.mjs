@@ -1,4 +1,6 @@
 export default function vexs() {
+  let rnd;
+
   let rnd2;
   let rnd3;
   let rnd4;

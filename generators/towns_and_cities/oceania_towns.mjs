@@ -1,4 +1,6 @@
 export default function oceania_towns() {
+  let rnd;
+
   let rnd2;
 
 

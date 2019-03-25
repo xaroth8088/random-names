@@ -1,4 +1,6 @@
 export default function twentieth_century_englishs() {
+  let rnd;
+
   let rnd2;
 
 

@@ -1,4 +1,6 @@
 export default function hindus() {
+  let rnd;
+
   let rnd2;
 
 

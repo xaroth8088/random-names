@@ -1,4 +1,6 @@
 export default function lithuanians() {
+  let rnd;
+
   let rnd1;
 
 

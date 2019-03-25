@@ -1,4 +1,6 @@
 export default function estonians() {
+  let rnd;
+
   let rnd2;
 
 

@@ -1,4 +1,6 @@
 export default function free_folks() {
+  let rnd;
+
   let rnd2;
 
 

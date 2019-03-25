@@ -1,4 +1,6 @@
 export default function dog_wolfs() {
+  let rnd;
+
   let rnd2;
 
 

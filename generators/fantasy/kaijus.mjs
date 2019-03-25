@@ -1,4 +1,6 @@
 export default function kaijus() {
+  let rnd;
+
   let rnd2;
 
 

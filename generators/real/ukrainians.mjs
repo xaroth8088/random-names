@@ -1,4 +1,6 @@
 export default function ukrainians() {
+  let rnd;
+
   let rnd2;
 
 

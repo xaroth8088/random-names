@@ -1,4 +1,6 @@
 export default function gear_enchantments() {
+  let rnd;
+
   let rnd2;
 
 

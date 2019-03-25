@@ -1,4 +1,6 @@
 export default function lovecraftians() {
+  let rnd;
+
   let rnd1;
   let rnd2;
   let rnd3;

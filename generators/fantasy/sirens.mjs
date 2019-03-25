@@ -1,4 +1,6 @@
 export default function sirens() {
+  let rnd;
+
   let rnd2;
 
 

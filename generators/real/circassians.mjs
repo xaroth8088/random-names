@@ -1,4 +1,6 @@
 export default function circassians() {
+  let rnd;
+
   let rnd2;
 
 

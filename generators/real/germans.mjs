@@ -1,4 +1,6 @@
 export default function germans() {
+  let rnd;
+
   let rnd2;
 
 

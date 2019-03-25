@@ -1,4 +1,6 @@
 export default function alliances() {
+  let rnd;
+
   let rnd2;
 
 

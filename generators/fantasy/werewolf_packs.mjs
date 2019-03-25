@@ -1,4 +1,6 @@
 export default function werewolf_packs() {
+  let rnd;
+
   let rnd3;
 
 

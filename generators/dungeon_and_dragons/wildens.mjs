@@ -1,4 +1,6 @@
 export default function wildens() {
+  let rnd;
+
   let rnd2;
 
 

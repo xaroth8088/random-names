@@ -1,4 +1,6 @@
 export default function griffins() {
+  let rnd;
+
   let rnd1;
 
 

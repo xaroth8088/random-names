@@ -1,4 +1,6 @@
 export default function twins() {
+  let rnd;
+
   let rnd2;
 
 

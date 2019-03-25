@@ -1,4 +1,6 @@
 export default function cajuns() {
+  let rnd;
+
   let rnd2;
 
 

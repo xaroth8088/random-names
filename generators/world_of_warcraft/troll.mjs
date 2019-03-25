@@ -1,4 +1,6 @@
 export default function troll() {
+  let rnd;
+
   let rnd2;
   let
     rnd3;

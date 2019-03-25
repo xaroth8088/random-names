@@ -1,4 +1,6 @@
 export default function pacific_rims() {
+  let rnd;
+
   let rnd2;
 
 

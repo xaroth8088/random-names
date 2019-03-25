@@ -1,4 +1,6 @@
 export default function kazakhs() {
+  let rnd;
+
   let rnd2;
 
 

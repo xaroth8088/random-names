@@ -1,4 +1,6 @@
 export default function icelandics() {
+  let rnd;
+
   let rnd2;
 
 

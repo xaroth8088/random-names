@@ -1,4 +1,6 @@
 export default function bands() {
+  let rnd;
+
   let rnd2;
 
 

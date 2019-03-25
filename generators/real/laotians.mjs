@@ -1,4 +1,6 @@
 export default function laotians() {
+  let rnd;
+
   let rnd2;
 
 

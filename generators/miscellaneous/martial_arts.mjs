@@ -1,4 +1,6 @@
 export default function martial_arts() {
+  let rnd;
+
   let rnd2;
   let rnd3;
   let rnd4;

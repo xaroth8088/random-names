@@ -1,4 +1,6 @@
 export default function celtic_bretons() {
+  let rnd;
+
   let rnd2;
 
 

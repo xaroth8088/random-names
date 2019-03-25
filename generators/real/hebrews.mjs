@@ -1,4 +1,6 @@
 export default function hebrews() {
+  let rnd;
+
   let rnd2;
 
 

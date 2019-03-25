@@ -1,4 +1,5 @@
 export default function wow_pets() {
+    let rnd;
 
 
     let names;

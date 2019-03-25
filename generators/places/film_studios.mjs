@@ -1,4 +1,6 @@
 export default function film_studios() {
+  let rnd;
+
   let rnd1;
   let
     rnd2;

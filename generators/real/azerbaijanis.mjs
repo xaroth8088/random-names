@@ -1,4 +1,6 @@
 export default function azerbaijanis() {
+  let rnd;
+
   let rnd2;
   let
     rnd3;

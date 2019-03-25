@@ -1,4 +1,6 @@
 export default function geths() {
+  let rnd;
+
   let rnd0;
   let
     rnd1;

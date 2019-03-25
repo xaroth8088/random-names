@@ -1,4 +1,6 @@
 export default function githzerais() {
+  let rnd;
+
   let rnd2;
 
 

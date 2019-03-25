@@ -1,4 +1,6 @@
 export default function croatians() {
+  let rnd;
+
   let rnd2;
 
 

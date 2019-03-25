@@ -1,4 +1,6 @@
 export default function shields() {
+  let rnd;
+
   let rnd2;
   let
     rnd3;

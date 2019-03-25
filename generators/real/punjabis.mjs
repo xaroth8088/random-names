@@ -1,4 +1,6 @@
 export default function punjabis() {
+  let rnd;
+
   let rnd2;
 
 

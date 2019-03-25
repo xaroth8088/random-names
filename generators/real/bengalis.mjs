@@ -1,4 +1,6 @@
 export default function bengalis() {
+  let rnd;
+
   let rnd2;
 
 

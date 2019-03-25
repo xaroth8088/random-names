@@ -1,4 +1,6 @@
 export default function airplanes() {
+  let rnd;
+
   let rnd2;
 
 

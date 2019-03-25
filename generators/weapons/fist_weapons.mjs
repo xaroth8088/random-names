@@ -1,4 +1,6 @@
 export default function fist_weapons() {
+  let rnd;
+
   let rnd2;
   let
     rnd3;

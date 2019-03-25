@@ -1,4 +1,6 @@
 export default function maoris() {
+  let rnd;
+
   let rnd2;
 
 

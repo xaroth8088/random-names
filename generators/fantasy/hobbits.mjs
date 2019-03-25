@@ -1,4 +1,6 @@
 export default function hobbits() {
+  let rnd;
+
   let rnd2;
 
 

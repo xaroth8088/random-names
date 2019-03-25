@@ -1,4 +1,6 @@
 export default function elven_citys() {
+  let rnd;
+
   let rnd2;
   let
     rnd3;

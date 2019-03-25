@@ -1,4 +1,6 @@
 export default function birds() {
+  let rnd;
+
   let rnd2;
 
 

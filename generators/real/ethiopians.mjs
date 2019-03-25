@@ -1,4 +1,6 @@
 export default function ethiopians() {
+  let rnd;
+
   let rnd2;
   let
     rnd3;

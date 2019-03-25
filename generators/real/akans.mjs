@@ -1,4 +1,6 @@
 export default function akans() {
+  let rnd;
+
   let rnd2;
 
 

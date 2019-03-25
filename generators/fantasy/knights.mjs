@@ -1,4 +1,6 @@
 export default function knights() {
+  let rnd;
+
   let rnd2;
 
 

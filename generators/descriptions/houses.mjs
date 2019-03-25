@@ -1,4 +1,6 @@
 export default function houses() {
+
+
     let rnd8;
     let rnd10;
 

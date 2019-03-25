@@ -1,4 +1,6 @@
 export default function mechas() {
+  let rnd;
+
   let rnd2;
 
 

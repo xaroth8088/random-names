@@ -1,4 +1,6 @@
 export default function thais() {
+  let rnd;
+
   let rnd2;
 
 

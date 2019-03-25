@@ -1,4 +1,6 @@
 export default function anoukis() {
+  let rnd;
+
   let rnd2;
   let rnd3;
   let

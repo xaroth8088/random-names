@@ -1,4 +1,6 @@
 export default function hippogriffs() {
+  let rnd;
+
   let rnd2;
 
 

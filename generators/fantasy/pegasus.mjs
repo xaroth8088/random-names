@@ -1,4 +1,6 @@
 export default function pegasus() {
+  let rnd;
+
   let rnd2;
 
 

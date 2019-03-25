@@ -1,4 +1,6 @@
 export default function eladrins() {
+  let rnd;
+
   let rnd2;
 
 

@@ -1,4 +1,6 @@
 export default function aztecs() {
+  let rnd;
+
   let rnd2;
 
 

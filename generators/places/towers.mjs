@@ -1,4 +1,6 @@
 export default function towers() {
+  let rnd;
+
   let rnd2;
   let
     rnd4;

@@ -1,4 +1,6 @@
 export default function russian_towns() {
+  let rnd;
+
   let rnd2;
 
 

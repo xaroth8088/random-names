@@ -1,4 +1,6 @@
 export default function plazas() {
+  let rnd;
+
   let rnd2;
 
 

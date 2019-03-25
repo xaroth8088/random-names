@@ -1,4 +1,6 @@
 export default function edo_japaneses() {
+  let rnd;
+
   let rnd2;
   let
     rnd3;

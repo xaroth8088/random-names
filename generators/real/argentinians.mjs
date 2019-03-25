@@ -1,4 +1,6 @@
 export default function argentinians() {
+  let rnd;
+
   let rnd2;
 
 

@@ -1,4 +1,6 @@
 export default function monsters() {
+  let rnd;
+
   let rnd2;
   let
     rnd3;

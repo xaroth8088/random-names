@@ -1,4 +1,6 @@
 export default function dragonborns() {
+  let rnd;
+
   let rnd2;
 
 

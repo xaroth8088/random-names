@@ -1,4 +1,6 @@
 export default function headquarters() {
+  let rnd;
+
   let rnd2;
 
 

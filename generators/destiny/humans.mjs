@@ -1,4 +1,6 @@
 export default function humans() {
+  let rnd;
+
   let rnd2;
 
 

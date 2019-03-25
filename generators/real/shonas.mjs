@@ -1,4 +1,6 @@
 export default function shonas() {
+  let rnd;
+
   let rnd2;
 
 

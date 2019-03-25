@@ -1,4 +1,6 @@
 export default function bandits() {
+  let rnd;
+
   let rnd2;
 
 

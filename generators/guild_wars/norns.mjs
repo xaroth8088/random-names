@@ -1,4 +1,6 @@
 export default function norns() {
+  let rnd;
+
   let rnd2;
   let rnd4;
   let

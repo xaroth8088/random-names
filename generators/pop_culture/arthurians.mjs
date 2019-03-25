@@ -1,4 +1,6 @@
 export default function arthurians() {
+  let rnd;
+
   let rnd2;
 
 

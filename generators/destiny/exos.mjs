@@ -1,4 +1,6 @@
 export default function exos() {
+  let rnd;
+
   let rnd2;
 
 

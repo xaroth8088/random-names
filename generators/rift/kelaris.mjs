@@ -1,4 +1,6 @@
 export default function kelaris() {
+  let rnd;
+
   let rnd2;
 
 

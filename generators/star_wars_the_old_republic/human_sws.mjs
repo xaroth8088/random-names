@@ -1,4 +1,6 @@
 export default function human_sws() {
+  let rnd;
+
   let rnd2;
   let rnd3;
   let

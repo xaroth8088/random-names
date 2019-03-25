@@ -1,4 +1,6 @@
 export default function asylums() {
+  let rnd;
+
   let rnd2;
 
 

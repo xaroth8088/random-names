@@ -1,4 +1,5 @@
 export default function monkeys() {
+    let rnd;
 
 
     let names;

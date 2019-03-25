@@ -1,4 +1,6 @@
 export default function slaves() {
+  let rnd;
+
   let rnd2;
 
 

@@ -1,4 +1,6 @@
 export default function song_titles() {
+  let rnd;
+
   let rnd2;
   let
     rnd3;

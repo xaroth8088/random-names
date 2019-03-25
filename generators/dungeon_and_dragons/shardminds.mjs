@@ -1,4 +1,6 @@
 export default function shardminds() {
+  let rnd;
+
   let rnd2;
 
 

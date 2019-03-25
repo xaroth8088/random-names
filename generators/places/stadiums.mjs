@@ -1,4 +1,6 @@
 export default function stadiums() {
+  let rnd;
+
   let rnd2;
 
 

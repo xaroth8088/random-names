@@ -1,4 +1,6 @@
 export default function caitians() {
+  let rnd;
+
   let rnd2;
 
 

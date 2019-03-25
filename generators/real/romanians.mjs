@@ -1,4 +1,6 @@
 export default function romanians() {
+  let rnd;
+
   let rnd2;
 
 

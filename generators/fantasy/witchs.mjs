@@ -1,4 +1,6 @@
 export default function witchs() {
+  let rnd;
+
   let rnd2;
 
 

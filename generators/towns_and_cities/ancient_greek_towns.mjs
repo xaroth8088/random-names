@@ -1,4 +1,6 @@
 export default function ancient_greek_towns() {
+  let rnd;
+
   let rnd2;
 
 

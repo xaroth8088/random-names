@@ -1,4 +1,6 @@
 export default function necrons() {
+  let rnd;
+
   let rnd2;
 
 

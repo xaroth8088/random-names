@@ -1,4 +1,6 @@
 export default function evil_groups() {
+  let rnd;
+
   let rnd2;
 
 

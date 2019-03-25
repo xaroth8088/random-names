@@ -1,4 +1,6 @@
 export default function malteses() {
+  let rnd;
+
   let rnd2;
 
 

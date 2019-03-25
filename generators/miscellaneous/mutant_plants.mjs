@@ -1,4 +1,6 @@
 export default function mutant_plants() {
+  let rnd;
+
   let rnd2;
 
 

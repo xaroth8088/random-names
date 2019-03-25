@@ -1,4 +1,6 @@
 export default function superhero_teams() {
+  let rnd;
+
   let rnd2;
 
 

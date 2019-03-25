@@ -1,4 +1,6 @@
 export default function caldaris() {
+  let rnd;
+
   let rnd2;
   let rnd3;
   let

@@ -1,4 +1,6 @@
 export default function spaceships() {
+  let rnd;
+
   let rnd1;
 
 

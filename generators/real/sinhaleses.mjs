@@ -1,4 +1,6 @@
 export default function sinhaleses() {
+  let rnd;
+
   let rnd2;
 
 

@@ -1,4 +1,6 @@
 export default function web_series() {
+  let rnd;
+
   let rnd2;
 
 

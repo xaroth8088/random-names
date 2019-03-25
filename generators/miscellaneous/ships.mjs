@@ -1,4 +1,6 @@
 export default function ships() {
+  let rnd;
+
   let rnd2;
 
 

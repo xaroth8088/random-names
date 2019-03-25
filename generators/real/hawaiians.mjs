@@ -1,4 +1,6 @@
 export default function hawaiians() {
+  let rnd;
+
   let rnd2;
 
 

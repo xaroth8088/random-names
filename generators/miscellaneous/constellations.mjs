@@ -1,4 +1,6 @@
 export default function constellations() {
+  let rnd;
+
   let rnd2;
 
 

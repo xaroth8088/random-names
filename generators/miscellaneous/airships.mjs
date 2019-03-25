@@ -1,4 +1,6 @@
 export default function airships() {
+  let rnd;
+
   let rnd2;
 
 

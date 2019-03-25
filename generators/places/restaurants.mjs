@@ -1,4 +1,6 @@
 export default function restaurants() {
+  let rnd;
+
   let rnd2;
 
 

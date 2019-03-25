@@ -1,4 +1,6 @@
 export default function book_titles() {
+  let rnd;
+
   let rnd2;
 
 

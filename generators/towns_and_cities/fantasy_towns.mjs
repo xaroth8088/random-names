@@ -1,4 +1,6 @@
 export default function fantasy_towns() {
+  let rnd;
+
   let rnd2;
 
 

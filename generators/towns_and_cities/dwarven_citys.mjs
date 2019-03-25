@@ -1,4 +1,6 @@
 export default function dwarven_citys() {
+  let rnd;
+
   let rnd2;
   let
     rnd3;

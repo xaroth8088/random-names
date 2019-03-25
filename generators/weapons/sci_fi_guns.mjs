@@ -1,4 +1,6 @@
 export default function sci_fi_guns() {
+  let rnd;
+
   let rnd2;
   let
     rnd3;

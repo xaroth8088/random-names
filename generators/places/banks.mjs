@@ -1,4 +1,6 @@
 export default function banks() {
+  let rnd;
+
   let rnd2;
 
 

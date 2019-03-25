@@ -1,4 +1,6 @@
 export default function gem_minerals() {
+  let rnd;
+
   let rnd2;
   let
     rnd3;

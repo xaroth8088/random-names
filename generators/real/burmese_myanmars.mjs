@@ -1,4 +1,6 @@
 export default function burmese_myanmars() {
+  let rnd;
+
   let rnd2;
   let rnd3;
   let

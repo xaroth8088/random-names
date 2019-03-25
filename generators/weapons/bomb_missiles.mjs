@@ -1,4 +1,6 @@
 export default function bomb_missiles() {
+  let rnd;
+
   let rnd2;
   let
     rnd3;

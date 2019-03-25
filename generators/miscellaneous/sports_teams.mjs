@@ -1,4 +1,6 @@
 export default function sports_teams() {
+  let rnd;
+
   let rnd2;
 
 

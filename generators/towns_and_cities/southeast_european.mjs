@@ -1,4 +1,6 @@
 export default function southeast_european() {
+  let rnd;
+
   let rnd2;
 
 

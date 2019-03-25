@@ -1,4 +1,6 @@
 export default function frenchs() {
+  let rnd;
+
   let rnd2;
 
 

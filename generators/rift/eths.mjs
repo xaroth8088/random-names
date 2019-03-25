@@ -1,4 +1,6 @@
 export default function eths() {
+  let rnd;
+
   let rnd2;
 
 

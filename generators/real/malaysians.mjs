@@ -1,4 +1,6 @@
 export default function malaysians() {
+  let rnd;
+
   let rnd2;
 
 

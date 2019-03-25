@@ -1,4 +1,6 @@
 export default function spells() {
+    let rnd;
+
     let rnd1, rnd2, rnd3;
 
 
@@ -53,6 +55,7 @@ export default function spells() {
 }
 
 export default function spellsHp() {
+    let rnd;
 
 
     let names;

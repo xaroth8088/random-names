@@ -1,4 +1,6 @@
 export default function chineses() {
+  let rnd;
+
   let rnd1;
 
 

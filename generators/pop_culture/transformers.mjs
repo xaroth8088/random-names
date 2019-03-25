@@ -1,4 +1,6 @@
 export default function transformers() {
+  let rnd;
+
   let rnd2;
 
 

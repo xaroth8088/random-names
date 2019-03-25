@@ -1,4 +1,6 @@
 export default function tauren() {
+  let rnd;
+
   let rnd2;
   let rnd5;
   let

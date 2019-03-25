@@ -1,4 +1,6 @@
 export default function detectives() {
+  let rnd;
+
   let rnd2;
 
 

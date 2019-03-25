@@ -1,4 +1,6 @@
 export default function ishi_tibs() {
+  let rnd;
+
   let rnd2;
   let rnd3;
   let rnd4;

@@ -1,4 +1,6 @@
 export default function hospitals() {
+  let rnd;
+
   let rnd2;
 
 

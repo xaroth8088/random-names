@@ -1,4 +1,6 @@
 export default function dragon_species() {
+  let rnd;
+
   let rnd2;
   let
     rnd3;

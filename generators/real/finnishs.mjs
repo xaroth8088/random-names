@@ -1,4 +1,6 @@
 export default function finnishs() {
+  let rnd;
+
   let rnd2;
 
 

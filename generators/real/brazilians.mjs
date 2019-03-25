@@ -1,4 +1,6 @@
 export default function brazilians() {
+  let rnd;
+
   let rnd2;
 
 

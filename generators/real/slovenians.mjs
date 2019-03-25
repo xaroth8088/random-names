@@ -1,4 +1,6 @@
 export default function slovenians() {
+  let rnd;
+
   let rnd2;
 
 

@@ -1,4 +1,6 @@
 export default function heros() {
+  let rnd;
+
   let rnd2;
   let
     rnd3;

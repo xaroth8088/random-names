@@ -1,4 +1,6 @@
 export default function catalans() {
+  let rnd;
+
   let rnd2;
 
 

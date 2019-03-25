@@ -1,4 +1,6 @@
 export default function sikhs() {
+  let rnd;
+
   let rnd2;
 
 

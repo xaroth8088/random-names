@@ -1,4 +1,6 @@
 export default function modern_egyptians() {
+  let rnd;
+
   let rnd2;
 
 

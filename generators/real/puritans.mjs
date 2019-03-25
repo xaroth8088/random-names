@@ -1,4 +1,6 @@
 export default function puritans() {
+  let rnd;
+
   let rnd2;
 
 

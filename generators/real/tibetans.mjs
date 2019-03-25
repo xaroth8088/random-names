@@ -1,4 +1,6 @@
 export default function tibetans() {
+  let rnd;
+
   let rnd2;
 
 

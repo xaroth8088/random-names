@@ -1,4 +1,6 @@
 export default function forerunners() {
+  let rnd;
+
   let rnd2;
 
 

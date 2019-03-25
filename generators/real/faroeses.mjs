@@ -1,4 +1,6 @@
 export default function faroeses() {
+  let rnd;
+
   let rnd2;
 
 

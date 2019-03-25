@@ -1,4 +1,6 @@
 export default function dyings() {
+
+
     let rnd2, rnd4;
 
 

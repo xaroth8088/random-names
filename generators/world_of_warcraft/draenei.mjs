@@ -1,4 +1,6 @@
 export default function draenei() {
+  let rnd;
+
   let rnd2;
   let
     rnd3;

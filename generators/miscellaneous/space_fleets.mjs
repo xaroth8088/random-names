@@ -1,4 +1,6 @@
 export default function space_fleets() {
+  let rnd;
+
   let rnd2;
 
 

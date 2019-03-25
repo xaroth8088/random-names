@@ -1,4 +1,6 @@
 export default function day_cares() {
+  let rnd;
+
   let rnd2;
 
 

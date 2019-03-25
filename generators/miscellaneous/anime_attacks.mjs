@@ -1,4 +1,6 @@
 export default function anime_attacks() {
+  let rnd;
+
   let rnd2;
   let rnd3;
   let

@@ -1,4 +1,6 @@
 export default function motorcycle_clubs() {
+  let rnd;
+
   let rnd2;
 
 

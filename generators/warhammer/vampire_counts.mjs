@@ -1,4 +1,6 @@
 export default function vampire_counts() {
+  let rnd;
+
   let rnd2;
 
 

@@ -1,4 +1,6 @@
 export default function hyurs() {
+  let rnd;
+
   let rnd2;
 
 

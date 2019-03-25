@@ -1,4 +1,6 @@
 export default function turkishs() {
+  let rnd;
+
   let rnd2;
 
 

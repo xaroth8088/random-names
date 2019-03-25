@@ -1,4 +1,6 @@
 export default function persians() {
+  let rnd;
+
   let rnd2;
 
 

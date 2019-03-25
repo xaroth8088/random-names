@@ -1,4 +1,6 @@
 export default function potions() {
+  let rnd;
+
   let rnd2;
 
 

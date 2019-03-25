@@ -1,4 +1,6 @@
 export default function video_games() {
+  let rnd;
+
   let rnd2;
 
 

@@ -1,4 +1,6 @@
 export default function awards() {
+  let rnd;
+
   let rnd2;
   let
     rnd3;

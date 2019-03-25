@@ -1,4 +1,6 @@
 export default function softwares() {
+  let rnd;
+
   let rnd2;
 
 

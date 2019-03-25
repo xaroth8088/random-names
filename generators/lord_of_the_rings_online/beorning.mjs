@@ -1,4 +1,6 @@
 export default function beorning() {
+  let rnd;
+
   let rnd2;
 
 

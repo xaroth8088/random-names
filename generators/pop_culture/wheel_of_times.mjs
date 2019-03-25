@@ -1,4 +1,6 @@
 export default function wheel_of_times() {
+  let rnd;
+
   let rnd2;
   let rnd3;
   let

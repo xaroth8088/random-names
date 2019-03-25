@@ -1,4 +1,6 @@
 export default function dark_eldars() {
+  let rnd;
+
   let rnd2;
 
 

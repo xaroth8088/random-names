@@ -1,4 +1,6 @@
 export default function westeros() {
+  let rnd;
+
   let rnd2;
 
 

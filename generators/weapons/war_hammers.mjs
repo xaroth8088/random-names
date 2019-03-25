@@ -1,4 +1,6 @@
 export default function war_hammers() {
+  let rnd;
+
   let rnd2;
   let
     rnd3;

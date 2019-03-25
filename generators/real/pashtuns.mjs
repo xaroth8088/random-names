@@ -1,4 +1,6 @@
 export default function pashtuns() {
+  let rnd;
+
   let rnd2;
 
 

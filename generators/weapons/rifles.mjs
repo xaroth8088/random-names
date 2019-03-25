@@ -1,4 +1,6 @@
 export default function rifles() {
+  let rnd;
+
   let rnd2;
   let
     rnd3;

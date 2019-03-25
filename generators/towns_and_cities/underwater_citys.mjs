@@ -1,4 +1,6 @@
 export default function underwater_citys() {
+  let rnd;
+
   let rnd2;
 
 

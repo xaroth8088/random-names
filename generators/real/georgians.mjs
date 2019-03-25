@@ -1,4 +1,6 @@
 export default function georgians() {
+  let rnd;
+
   let rnd2;
 
 

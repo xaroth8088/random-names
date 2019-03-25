@@ -1,4 +1,6 @@
 export default function wildstar_mordeshs() {
+  let rnd;
+
   let rnd2;
   let rnd3;
   let rnd4;

@@ -1,4 +1,6 @@
 export default function tribes() {
+  let rnd;
+
   let rnd2;
   let
     rnd3;

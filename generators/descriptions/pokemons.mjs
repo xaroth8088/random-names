@@ -1,4 +1,6 @@
 export default function pokemons() {
+
+
     let rnd1, rnd3;
 
 

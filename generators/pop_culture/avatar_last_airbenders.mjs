@@ -1,4 +1,6 @@
 export default function avatar_last_airbenders() {
+  let rnd;
+
   let rnd2;
   let rnd3;
   let rnd4;

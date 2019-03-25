@@ -1,4 +1,6 @@
 export default function pirate_crews() {
+  let rnd;
+
   let rnd2;
 
 

@@ -1,4 +1,6 @@
 export default function maze_runners() {
+  let rnd;
+
   let names;
 
   const type = Math.random() > 0.5 ? 0 : 1;

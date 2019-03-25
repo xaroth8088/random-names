@@ -1,4 +1,6 @@
 export default function poshs() {
+  let rnd;
+
   let rnd3;
 
 

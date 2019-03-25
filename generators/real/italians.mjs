@@ -1,4 +1,6 @@
 export default function italians() {
+  let rnd;
+
   let rnd2;
 
 

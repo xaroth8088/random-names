@@ -1,4 +1,6 @@
 export default function animatronics() {
+  let rnd;
+
   let rnd2;
   let
     rnd3;

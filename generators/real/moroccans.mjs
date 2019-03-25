@@ -1,4 +1,6 @@
 export default function moroccans() {
+  let rnd;
+
   let rnd2;
 
 

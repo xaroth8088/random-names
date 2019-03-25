@@ -1,4 +1,6 @@
 export default function empires() {
+  let rnd;
+
   let rnd2;
 
 

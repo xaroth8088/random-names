@@ -1,4 +1,6 @@
 export default function minotaurs() {
+  let rnd;
+
   let rnd2;
 
 

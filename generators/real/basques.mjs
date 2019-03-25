@@ -1,4 +1,6 @@
 export default function basques() {
+  let rnd;
+
   let rnd2;
 
 

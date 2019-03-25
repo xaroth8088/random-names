@@ -1,4 +1,6 @@
 export default function stages() {
+  let rnd;
+
   let rnd2;
 
 

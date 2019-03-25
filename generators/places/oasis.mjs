@@ -1,4 +1,6 @@
 export default function oasis() {
+  let rnd;
+
   let rnd2;
 
 

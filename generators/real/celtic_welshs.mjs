@@ -1,4 +1,6 @@
 export default function celtic_welshs() {
+  let rnd;
+
   let rnd2;
 
 

@@ -1,4 +1,6 @@
 export default function weapon_abilities() {
+  let rnd;
+
   let rnd2;
 
 

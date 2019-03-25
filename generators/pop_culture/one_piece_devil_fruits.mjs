@@ -1,4 +1,6 @@
 export default function one_piece_devil_fruits() {
+  let rnd;
+
   let names;
 
   const nm1 = [
