@@ -1,4 +1,4 @@
-import sample from 'lodash/sample';
+import { sample } from 'lodash-es';
 
 export default function pistols() {
   const nm1 = ['very small', 'small', 'small', 'fairy small', 'fairly small', 'average', 'fairly large', 'fairly large', 'large', 'large', 'very large'];

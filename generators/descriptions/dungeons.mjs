@@ -1,4 +1,4 @@
-import sample from 'lodash/sample';
+import { sample } from 'lodash-es';
 
 export default function dungeons() {
   const nm1 = ['A grand', 'A large', 'A massive', 'A minor', 'A modest', 'A narrow', 'A short', 'A small', 'A tall', 'A wide'];

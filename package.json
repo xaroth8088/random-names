@@ -1,6 +1,6 @@
 {
   "name": "@xaroth8088/random-names",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "A random name generator for all kinds of things",
   "main": "index.js",
   "repository": "https://github.com/xaroth8088/random-names.git",
@@ -10,7 +10,7 @@
   "scripts": {
     "lint": "eslint --ext .mjs generators",
     "lint:fix": "eslint --ext .mjs --fix generators",
-    "test": "node --experimental-modules test/test.mjs"
+    "test": "node test/test.mjs"
   },
   "bugs": {
     "url": "https://github.com/xaroth8088/random-names/issues"
@@ -82,6 +82,6 @@
     "eslint-plugin-import": "^2.16.0"
   },
   "dependencies": {
-    "lodash": "^4.17.11"
+    "lodash-es": "^4.17.21"
   }
 }
