@@ -1,4 +1,4 @@
-import sample from 'lodash/sample';
+import { sample } from 'lodash-es';
 
 export default function laws() {
   const nm1 = ['local', 'federal', 'state', 'national', 'regional', 'international', 'provincial', 'territorial', 'community'];

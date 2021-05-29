@@ -1,4 +1,4 @@
-import sample from 'lodash/sample';
+import { sample } from 'lodash-es';
 
 export default function albanians() {
   const type = Math.random() < 0.5 ? 0 : 1;

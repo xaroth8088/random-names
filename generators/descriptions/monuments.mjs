@@ -1,4 +1,4 @@
-import sample from 'lodash/sample';
+import { sample } from 'lodash-es';
 
 export default function monuments() {
   const nm1 = ['100 years', 'over 100 years', 'a century', 'over a century', 'decades', 'a few decades', 'a decade', 'a few dozen years', 'generations', 'nearly 500 years', 'about 400 years', 'almost 200 years', 'only a few years', 'a generation', 'only a handful of years', 'about a dozen years', 'only half a dozen years', 'about 50 years', 'about 75 years', 'about 25 years'];

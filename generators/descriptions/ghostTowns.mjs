@@ -1,4 +1,4 @@
-import sample from 'lodash/sample';
+import { sample } from 'lodash-es';
 
 export default function ghostTowns() {
   const nm1 = ['The road that led to and from', 'The main road that led to and from', 'The once busy road that led to', 'What was once a wide avenue that led to', 'The gentle road that led to', 'The now quiet road that led to', 'What was once a busy roadway that led to', 'The network of roads that led to', 'The once jam-packed roads that led to', 'The once smooth network of roads that let to'];

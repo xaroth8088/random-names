@@ -1,4 +1,4 @@
-import sample from 'lodash/sample';
+import { sample } from 'lodash-es';
 
 export default function bows() {
   const nm1 = ['admirable', 'beautiful', 'charming', 'common', 'decent', 'elegant', 'excellent', 'exceptional', 'fine', 'first-rate', 'intricate', 'magnificent', 'marvelous', 'masterfully crafted', 'nifty', 'ornate', 'pleasant', 'popular', 'rare', 'skillfully created', 'solid', 'superior', 'uncommon', 'well designed', 'well-made'];

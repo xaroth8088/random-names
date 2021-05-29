@@ -1,4 +1,4 @@
-import sample from 'lodash/sample';
+import { sample } from 'lodash-es';
 
 export default function handGestures() {
   const nm1 = ['area', 'city', 'country', 'district', 'empire', 'nation', 'province', 'realm', 'region', 'remote town', 'remote village', 'state', 'territory', 'town', 'village'];
