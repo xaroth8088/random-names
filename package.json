@@ -1,6 +1,6 @@
 {
   "name": "@xaroth8088/random-names",
-  "version": "1.1.2",
+  "version": "1.1.3",
   "description": "A random name generator for all kinds of things",
   "main": "index.js",
   "repository": "https://github.com/xaroth8088/random-names.git",
@@ -76,9 +76,10 @@
     "wow"
   ],
   "devDependencies": {
-    "babel-eslint": "^10.0.1",
-    "eslint": "^5.15.3",
-    "eslint-config-airbnb-base": "^13.1.0",
+    "@babel/core": "^7.19.0",
+    "@babel/eslint-parser": "^7.18.9",
+    "eslint": "^8.23.0",
+    "eslint-config-airbnb-base": "^15.0.0",
     "eslint-plugin-import": "^2.16.0"
   },
   "dependencies": {
